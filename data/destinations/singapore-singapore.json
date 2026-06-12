@@ -1,0 +1,472 @@
+{
+  "id": "singapore-singapore",
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "SIN",
+    "XSP"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 95,
+    "photography": 88,
+    "activities": 92,
+    "weather": 60
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 50,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Singapore Marina Bay Sands",
+  "summary": "Singapore is a stunning city-state blending ultra-modern architecture with rich multicultural heritage, offering world-class dining, stunning botanical gardens, and vibrant neighborhoods. From the iconic Marina Bay Sands to the lush Gardens by the Bay, this island nation delivers unforgettable experiences within walking distance of each other. Perfect for food lovers, photographers, and travelers seeking tropical sophistication.",
+  "restaurants": [
+    {
+      "name": "Hawker Chan",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Michelin-starred soy sauce chicken rice served in a humble hawker stall setting. This is authentic Singapore street food elevated to international acclaim.",
+      "mustTry": "Soy Sauce Chicken with Rice"
+    },
+    {
+      "name": "Peranakan Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Serving traditional Peranakan cuisine blending Malay, Chinese, and Indian flavors. Family recipes passed down through generations in an intimate heritage setting.",
+      "mustTry": "Rendang Ayam"
+    },
+    {
+      "name": "Joël Robuchon",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three Michelin stars of French culinary excellence with stunning views overlooking Marina Bay. An unforgettable gastronomic journey through classic French techniques.",
+      "mustTry": "Langoustine Menu"
+    },
+    {
+      "name": "Chatterbox Chicken Rice",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Legendary Hainanese chicken rice served at the historic Mandarin Oriental. Simple, perfect, and consistently rated among Asia's best chicken rice.",
+      "mustTry": "Steamed Chicken Rice"
+    },
+    {
+      "name": "Les Amis",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Two Michelin stars showcasing contemporary French cuisine with Asian influences in an elegant, intimate setting. Impeccable service and wine pairings.",
+      "mustTry": "Chef's Tasting Menu"
+    },
+    {
+      "name": "Maxwell Food Centre",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Singapore's most famous hawker center with over 100 stalls serving local favorites. Experience authentic street food culture at unbeatable prices.",
+      "mustTry": "Chicken Rice or Carrot Cake"
+    },
+    {
+      "name": "Nouri",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "One Michelin star restaurant focusing on seasonal European cuisine with impeccable technique. Located in a charming heritage shophouse in Joo Chiat.",
+      "mustTry": "Seasonal Tasting Menu"
+    },
+    {
+      "name": "Lao Ban Soya Beancurd",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Famous stall serving silky beancurd and soya products as a light meal or dessert. A beloved local institution in the hawker scene since 1986.",
+      "mustTry": "Beancurd with Gula Melaka"
+    },
+    {
+      "name": "Shibuya",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Japanese restaurant featuring fresh sashimi, sushi, and izakaya-style dishes in a vibrant setting. Known for quality ingredients and lively atmosphere.",
+      "mustTry": "Omakase Set"
+    },
+    {
+      "name": "Pontian Wanton Noodle",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Long-standing favorite for hand-pulled wanton noodles with flavorful broth and tender wontons. A humble stall representing Singapore's noodle excellence.",
+      "mustTry": "Wanton Noodle in Clear Broth"
+    },
+    {
+      "name": "Equinox",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Fine dining at 70 floors up in the Swissôtel, offering European haute cuisine with 360-degree city views. An extraordinary culinary experience above the skyline.",
+      "mustTry": "Degustation Menu with Wine Pairing"
+    },
+    {
+      "name": "Tian Fu Superb Soup",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Renowned for authentic Cantonese soups and herbal broths prepared fresh daily. A wellness-focused establishment reflecting Singapore's health-conscious food culture.",
+      "mustTry": "Bird's Nest Soup or Herbal Chicken Broth"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Gardens by the Bay",
+      "category": "Outdoor",
+      "description": "Stroll through 101 acres of curated gardens featuring the iconic Supertrees, with evening light shows and two indoor domes. A perfect blend of nature and cutting-edge horticultural design.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Marina Bay Sands SkyPark",
+      "category": "Indoor",
+      "description": "Experience the world's highest infinity pool and observation deck on the 57th floor with panoramic city views. Accessible to guests and visitors for a memorable vantage point.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sentosa Island Beach Day",
+      "category": "Outdoor",
+      "description": "Relax on pristine beaches, visit the SEA Aquarium, and explore attractions like the Universal Studios theme park. A complete island escape within 15 minutes of downtown.",
+      "durationHours": 6,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Botanic Gardens",
+      "category": "Outdoor",
+      "description": "Explore 52 hectares of tranquil gardens with over 2,300 species of plants, swan-filled lakes, and heritage trees. A peaceful retreat perfect for photography and meditation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Chinatown Heritage Walking Tour",
+      "category": "Cultural",
+      "description": "Discover temples, shophouses, and street art in Singapore's vibrant historic district. Immerse yourself in the area's rich cultural and architectural heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Night Safari",
+      "category": "Adventure",
+      "description": "Experience the world's first night-time zoo featuring nocturnal animals in naturalistic habitats under moonlight. A unique and thrilling adventure in tropical settings.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "ArtScience Museum",
+      "category": "Indoor",
+      "description": "Explore the iconic lotus-shaped building hosting innovative exhibits blending art, science, and technology. Home to rotating installations and immersive experiences.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kampong Glam Heritage District",
+      "category": "Cultural",
+      "description": "Walk through Singapore's Muslim quarter featuring the stunning Sultan Mosque, vintage boutiques, and cafes. A charming area showcasing diverse architecture and street food.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Singapore River Sunset Cruise",
+      "category": "Outdoor",
+      "description": "Glide along the historic Singapore River aboard a traditional bumboat at golden hour. Experience colonial landmarks and modern skyline from a unique perspective.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation",
+        "surprise"
+      ]
+    },
+    {
+      "name": "National Museum of Singapore",
+      "category": "Cultural",
+      "description": "Discover Singapore's history from ancient times to modern day in an elegant colonial building. Interactive exhibits and stunning design make history engaging and accessible.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "MacRitchie Reservoir Hike",
+      "category": "Outdoor",
+      "description": "Trek through lush jungle to one of Singapore's oldest reservoirs with a canopy walk and wildlife viewing opportunities. A green escape within the city with monkeys and birds.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Jalan Besar Nightlife Experience",
+      "category": "Nightlife",
+      "description": "Experience Singapore's vibrant evening culture with rooftop bars, cocktail lounges, and dance clubs in Clarke Quay and Boat Quay. World-class venues with stunning city views.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Marina Bay Sands Golden Hour",
+        "description": "Capture the iconic hotel with its distinctive architecture glowing during sunset, reflected in the calm bay waters.",
+        "difficulty": "Beginner",
+        "bestTime": "One hour before sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Supertrees at Night",
+        "description": "Photograph the illuminated Supertrees with their spectacular light and sound show creating magical neon colors against the dark sky.",
+        "difficulty": "Intermediate",
+        "bestTime": "7:45 PM and 8:45 PM show times",
+        "category": "Night"
+      },
+      {
+        "name": "Chinatown Street Art",
+        "description": "Discover colorful murals and street art on shophouse walls, with morning light creating dramatic shadows and vibrant colors.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light 6-9 AM",
+        "category": "Street"
+      },
+      {
+        "name": "Singapore River Reflections",
+        "description": "Capture the historic bridges and colonial buildings reflected in the calm river waters with the modern skyline in the background.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Botanic Gardens Lake",
+        "description": "Photograph swans, water lilies, and heritage trees reflected in serene lake waters with lush greenery creating natural frames.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning 6-8 AM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Kampong Glam Sultan Mosque",
+        "description": "Capture the stunning golden dome and intricate Islamic architecture against blue skies or during the blue hour with atmospheric lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light or blue hour 6:30-7:30 PM",
+        "category": "Architecture"
+      },
+      {
+        "name": "ArtScience Museum Lotus",
+        "description": "Photograph the iconic white lotus-shaped building from multiple angles, particularly striking during golden hour and night with architectural lighting.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset and evening",
+        "category": "Architecture"
+      },
+      {
+        "name": "MacRitchie Jungle Canopy",
+        "description": "Shoot the aerial walkway through dense tropical foliage, wildlife including monkeys and birds, and filtered green light creating mystical scenes.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for wildlife and soft light",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Sentosa Palawan Beach Sunset",
+        "description": "Capture golden hour light on pristine beaches with palm trees, rocky outcrops, and warm tropical colors reflecting on wet sand.",
+        "difficulty": "Beginner",
+        "bestTime": "One hour before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Merlion Park Iconic Shot",
+        "description": "Photograph Singapore's legendary symbol with the modern skyline and Marina Bay backdrop, best captured during golden hour for warm tones.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning 6:30-7:30 AM or sunset",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "East Coast Park",
+      "Changi Beach Park",
+      "Botanic Gardens"
+    ],
+    "sunsetSpots": [
+      "Marina Bay Sands",
+      "Sentosa Island",
+      "Singapore River"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for architectural shots and skyline expanses",
+      "50mm prime for street photography and intimate details in heritage areas",
+      "70-200mm telephoto for compressed compositions and wildlife in MacRitchie",
+      "24-70mm versatile zoom for varied environments from day to night"
+    ],
+    "goldenHourNotes": "Singapore's golden hour is brief due to equatorial location but intensely warm and saturated. Shoot between 6:30-7:00 AM for sunrise and 6:30-7:00 PM for sunset year-round. The humid atmosphere creates soft, diffused light perfect for architectural work and reduces harsh shadows. Blue hour lasts only 15-20 minutes, so plan accordingly for night photography at Supertrees and skyline shots.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 25,
+        "rainfallMM": 139
+      },
+      {
+        "month": 2,
+        "avgTempC": 26,
+        "rainfallMM": 105
+      },
+      {
+        "month": 3,
+        "avgTempC": 27,
+        "rainfallMM": 160
+      },
+      {
+        "month": 4,
+        "avgTempC": 28,
+        "rainfallMM": 188
+      },
+      {
+        "month": 5,
+        "avgTempC": 28,
+        "rainfallMM": 171
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 172
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 160
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 158
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 178
+      },
+      {
+        "month": 10,
+        "avgTempC": 27,
+        "rainfallMM": 215
+      },
+      {
+        "month": 11,
+        "avgTempC": 26,
+        "rainfallMM": 281
+      },
+      {
+        "month": 12,
+        "avgTempC": 25,
+        "rainfallMM": 231
+      }
+    ],
+    "bestMonths": [
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "seasonality": "Singapore has a tropical equatorial climate with warm temperatures year-round and two distinct monsoon seasons. The Southwest Monsoon (May-September) and Northeast Monsoon (December-March) bring heavy rainfall, with November being the wettest month.",
+    "summary": "Expect consistently warm, humid weather with temperatures between 24-29°C throughout the year. Rain is frequent but typically brief afternoon showers; pack light, breathable clothing and waterproof gear regardless of season."
+  },
+  "hotels": [
+    {
+      "name": "HotelG Singapore",
+      "neighborhood": "Orchard",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Modern budget hotel with clean rooms, efficient service, and convenient Orchard shopping district location perfect for value-conscious travelers."
+    },
+    {
+      "name": "Sofitel Singapore City Centre",
+      "neighborhood": "Tanjong Pagar",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Elegant four-star hotel combining French hospitality with contemporary Asian design, offering excellent dining and wellness facilities in a central location."
+    },
+    {
+      "name": "Marina Bay Sands",
+      "neighborhood": "Marina Bay",
+      "pricePerNightUSD": 650,
+      "category": "Luxury",
+      "description": "Iconic luxury hotel featuring the world-famous rooftop infinity pool, Michelin-starred restaurants, and unparalleled views of Singapore's skyline and harbor."
+    }
+  ]
+}

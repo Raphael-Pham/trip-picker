@@ -1,0 +1,458 @@
+{
+  "id": "boston-usa",
+  "city": "Boston",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BOS",
+    "MAN",
+    "PVD"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "hidden-gems"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 88,
+    "photography": 82,
+    "activities": 85,
+    "weather": 60
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Boston harbor skyline",
+  "summary": "Boston is a historic city where colonial architecture meets modern innovation, home to world-class institutions, legendary sports culture, and exceptional seafood. The Freedom Trail connects 16 historic sites through charming neighborhoods, while the harborfront offers stunning waterfront views and fresh New England cuisine. Perfect for history buffs, food lovers, and photographers seeking authentic American heritage.",
+  "restaurants": [
+    {
+      "name": "Neptune Oyster",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Tiny counter-service raw bar in the North End serving the freshest oysters and seafood in Boston. Lines form daily for their legendary lobster rolls.",
+      "mustTry": "Maine lobster roll"
+    },
+    {
+      "name": "Oleana",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Mediterranean-inspired fine dining in Cambridge with a rotating seasonal menu and sophisticated wine list. Farm-to-table excellence with creative small plates.",
+      "mustTry": "Roasted whole fish"
+    },
+    {
+      "name": "Myers + Chang",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "South End Southeast Asian hotspot featuring inventive cocktails and shareable dishes blending Thai, Vietnamese, and Chinese influences.",
+      "mustTry": "Chili crisp dumplings"
+    },
+    {
+      "name": "Island Creek Oyster Bar",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Casual yet upscale Back Bay seafood restaurant with extensive oyster selection and house-made pasta dishes. Great harbor views.",
+      "mustTry": "Oyster selection and lobster pasta"
+    },
+    {
+      "name": "Gourmet Dumpling House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Chinatown institution serving authentic Shanghai dumplings and noodle dishes at bargain prices. No-frills atmosphere with exceptional food quality.",
+      "mustTry": "Soup dumplings"
+    },
+    {
+      "name": "Giacomo's Ristorante",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "North End Italian classic packed nightly with locals craving handmade pasta and traditional red sauce dishes. Family-style dining at its finest.",
+      "mustTry": "Pasta carbonara"
+    },
+    {
+      "name": "Mistral",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Mediterranean fine dining in the Fort Point Channel with an open kitchen showcasing Italian, Spanish, and French coastal cuisine.",
+      "mustTry": "Whole roasted fish with seasonal preparations"
+    },
+    {
+      "name": "Yankee Lobster",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Waterfront fish market and takeout spot with cash-only pricing offering some of Boston's best value lobster rolls and clam chowder.",
+      "mustTry": "Lobster roll and New England clam chowder"
+    },
+    {
+      "name": "Craigie On Main",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Cambridge institution famous for its creative burger menu and exceptional cocktails. Line forms before opening for the legendary beef burger.",
+      "mustTry": "Craigie burger with caramelized onions"
+    },
+    {
+      "name": "Barcelona Wine Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas haven with excellent wine selection and house-made chorizo, jamón, and croquetas in Back Bay and Beacon Hill locations.",
+      "mustTry": "Spanish meatballs and pan con tomate"
+    },
+    {
+      "name": "No. 9 Park",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant Beacon Hill fine dining showcasing New England ingredients with French techniques. Intimate atmosphere with impeccable service.",
+      "mustTry": "Roasted foie gras and seasonal fish preparations"
+    },
+    {
+      "name": "Union Oyster House",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "America's oldest continuously operating restaurant established in 1826, famous for oysters and historic ambiance. A Boston institution worth experiencing.",
+      "mustTry": "New England clam chowder and roasted oysters"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Freedom Trail",
+      "category": "Cultural",
+      "description": "Self-guided 2.7-mile walking trail connecting 16 historic sites including Paul Revere House, Old State House, and USS Constitution. Free to walk with excellent signage throughout.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Museum of Fine Arts",
+      "category": "Cultural",
+      "description": "World-class art museum with Egyptian mummies, American paintings, and Asian collections spanning 5,000 years. Pay-what-you-wish hours available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 17,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Boston Public Garden and Commons",
+      "category": "Outdoor",
+      "description": "Historic 50-acre public park perfect for strolling, picnicking, and relaxing. Famous for swan boats (seasonal), bronze duckling statues, and lush gardens.",
+      "durationHours": 2,
+      "estimatedCostUSD": 4,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Harbor Walk and Waterfront Exploration",
+      "category": "Outdoor",
+      "description": "Scenic 1.6-mile waterfront path with views of historic ships, sea glass beaches, and New England Harbor. Connect to Greenway paths for extended walks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fenway Park Tour",
+      "category": "Family",
+      "description": "Guided tour of America's oldest ballpark with access to field level, Green Monster, and legendary Red Sox history. Game tickets available for match days.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Isabella Stewart Gardner Museum",
+      "category": "Cultural",
+      "description": "Venetian-style mansion housing an eclectic art collection including Rembrandts and Matisse works. Intimate galleries and stunning courtyard.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Kayaking in the Charles River",
+      "category": "Adventure",
+      "description": "Paddle through the heart of Boston with views of the skyline, colleges, and parks. Multiple rental companies offer beginner-friendly outings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "New England Aquarium",
+      "category": "Family",
+      "description": "Giant ocean tank with sea turtles, rays, and thousands of fish species. Interactive exhibits, penguin viewing, and IMAX theater experiences.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Harvard University Tour and Harvard Square",
+      "category": "Cultural",
+      "description": "Explore America's oldest university campus with free walking tours or self-guided exploration. Browse world-famous bookstores and cafes in Harvard Square.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Beacon Hill Neighborhood Walk",
+      "category": "Outdoor",
+      "description": "Charming historic neighborhood with gas-lit streets, red-brick townhouses, and cobblestone streets. Discover Acorn Street and Mount Vernon Street.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Boston Brewery Tours",
+      "category": "Nightlife",
+      "description": "Explore craft breweries including Harpoon and Sam Adams Boston Beer Company with tastings and brewery history. Multiple day tours available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Greenway Public Market and Art Installations",
+      "category": "Outdoor",
+      "description": "Free Rose Kennedy Greenway stretching through downtown with seasonal art installations, food vendors, and vibrant public spaces. Perfect for wandering.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Zakim Bridge at Dawn",
+        "description": "Modern cable-stayed bridge spanning the Charles River with dramatic architecture illuminated by sunrise light. Spectacular from Charlestown waterfront.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise 6:30-7:30 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Acorn Street, Beacon Hill",
+        "description": "Picturesque cobblestone street lined with gas lamps and historic townhouses, quintessentially Boston. Incredibly photogenic during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon, overcast days",
+        "category": "Street"
+      },
+      {
+        "name": "Boston Harbor from Fort Independence",
+        "description": "Historic fort on Castle Island with panoramic harbor views, sailboats, and city skyline in the distance. Excellent for sunrise and sunset shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour 6-7 PM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Public Garden Swan Boats",
+        "description": "Iconic swan boats in the lagoon with reflecting architecture and autumn foliage creating dreamy compositions. Seasonal operation May-October.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light 8-10 AM",
+        "category": "Street"
+      },
+      {
+        "name": "Prudential Building and Skyline",
+        "description": "Glass-clad skyscraper and downtown Boston skyline reflected in surrounding buildings and streets. Best captured from strategic angles in Back Bay.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour 5-6 PM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Charles River Esplanade at Sunset",
+        "description": "Green park with river paths offering unobstructed sunset views over the Charles River and Cambridge cityscape. Increasingly photogenic in evening light.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset 7-8 PM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Old State House and Downtown Streets",
+        "description": "Colonial-era red brick building framed by modern downtown skyscrapers creating compelling architectural contrasts. Dramatic night lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Night 8-10 PM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Boston Harbor Islands and Sailboats",
+        "description": "Classic New England sailboats anchored in harbor waters with Fort Sumter and islands creating serene maritime scenes. Accessible by ferry.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour 5-7 PM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Faneuil Hall Marketplace",
+        "description": "Historic marketplace with colonial brick architecture, street performers, and bustling crowds. Great for environmental portraits and street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon 4-6 PM",
+        "category": "Street"
+      },
+      {
+        "name": "Harvard Square and Lamplight Streets",
+        "description": "Historic university district with colonial architecture, autumn leaves, and atmospheric street lamps. Excellent for moody documentary-style photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour 5-6 PM, autumn season",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Zakim Bridge from Charlestown waterfront",
+      "Boston Harbor from Castle Island",
+      "Charles River Esplanade near Riverside"
+    ],
+    "sunsetSpots": [
+      "Charles River Esplanade facing Cambridge",
+      "Boston Harbor Islands from Long Wharf",
+      "Fort Independence on Castle Island"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for architectural cityscape and skyline compositions",
+      "50mm prime for street photography and intimate Beacon Hill and Faneuil Hall scenes",
+      "70-200mm telephoto for compressed harbor and skyline shots from distance"
+    ],
+    "goldenHourNotes": "Boston's colonial architecture and red brick buildings are transformed by warm golden light, particularly in Beacon Hill and the Freedom Trail areas. Late afternoon light around 5-7 PM reflects beautifully off the Charles River and harbor waters. Autumn season (September-October) provides additional color with fallen leaves lining historic streets and parks, creating exceptionally photogenic scenes.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -3,
+        "rainfallMM": 109
+      },
+      {
+        "month": 2,
+        "avgTempC": -2,
+        "rainfallMM": 102
+      },
+      {
+        "month": 3,
+        "avgTempC": 3,
+        "rainfallMM": 107
+      },
+      {
+        "month": 4,
+        "avgTempC": 12,
+        "rainfallMM": 107
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 95
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 107
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 109
+      },
+      {
+        "month": 9,
+        "avgTempC": 24,
+        "rainfallMM": 99
+      },
+      {
+        "month": 10,
+        "avgTempC": 16,
+        "rainfallMM": 112
+      },
+      {
+        "month": 11,
+        "avgTempC": 10,
+        "rainfallMM": 119
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 117
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Boston experiences four distinct seasons with cold snowy winters (December-March), pleasant springs (April-May), warm summers (June-August), and vibrant autumns (September-October). Peak tourist season is summer and early fall when weather is ideal, though fall foliage draws the largest crowds.",
+    "summary": "Boston has a humid continental climate with cold winters averaging -3°C and warm summers around 28°C. September and October offer the best balance of comfortable temperatures, low precipitation, and stunning fall foliage displays."
+  },
+  "hotels": [
+    {
+      "name": "HI Boston Downtown Hostel",
+      "neighborhood": "Downtown/Waterfront",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Social hostel with private rooms and dorms in downtown location near Faneuil Hall and waterfront attractions. Common areas and affordable kitchen access."
+    },
+    {
+      "name": "The Newbury Boston",
+      "neighborhood": "Back Bay",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Stylish 4-star hotel in Back Bay near shopping and dining with modern amenities, rooftop bar, and excellent neighborhood access to museums and parks."
+    },
+    {
+      "name": "The Fairmont Copley Plaza",
+      "neighborhood": "Back Bay",
+      "pricePerNightUSD": 420,
+      "category": "Luxury",
+      "description": "Iconic beaux-arts luxury hotel overlooking Copley Square with refined accommodations, Michelin-starred dining, and personalized concierge service."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1602095656818-c66394568279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCb3N0b24lMjBoYXJib3IlMjBza3lsaW5lfGVufDF8MHx8fDE3ODEzMDMxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

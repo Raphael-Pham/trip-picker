@@ -1,0 +1,462 @@
+{
+  "id": "playa-del-carmen",
+  "city": "Playa del Carmen",
+  "country": "Mexico",
+  "region": "North America",
+  "airportCodes": [
+    "CUN",
+    "TFS",
+    "CTM"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 85,
+    "photography": 88,
+    "activities": 90,
+    "weather": 82
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 40,
+      "maxPerDayUSD": 80
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Playa del Carmen beach Mexico",
+  "summary": "Playa del Carmen is a vibrant Caribbean beach destination offering pristine turquoise waters, world-class dining, and access to ancient Mayan ruins. This modern resort town seamlessly blends adventure, relaxation, and cultural exploration with year-round warm weather and diverse activities for every traveler.",
+  "restaurants": [
+    {
+      "name": "El Tacolote",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A beloved local taquería serving authentic Yucatecan street tacos and traditional Mexican fare. Known for fresh ingredients and friendly atmosphere away from the tourist corridor.",
+      "mustTry": "Cochinita pibil tacos"
+    },
+    {
+      "name": "Alux Restaurante",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An underground cenote restaurant offering gourmet Mexican cuisine with a magical cave setting illuminated by candlelight. Multi-course tasting menus showcase regional ingredients and innovative culinary techniques.",
+      "mustTry": "Cenote-inspired tasting menu"
+    },
+    {
+      "name": "La Vaca Argentina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Premium Argentine steakhouse offering prime cuts of beef, fresh seafood, and an extensive wine selection. Located in the heart of Quinta Avenida with elegant ambiance.",
+      "mustTry": "Ribeye with chimichurri"
+    },
+    {
+      "name": "Señor Frog's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront restaurant and nightclub featuring fresh ceviche, seafood platters, and refreshing tropical drinks. Lively atmosphere with live music and ocean views.",
+      "mustTry": "Mixed ceviche platter"
+    },
+    {
+      "name": "Casa Mediterránea",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Italian fine dining restaurant serving handmade pasta, fresh seafood, and imported European ingredients. Romantic setting perfect for special occasions.",
+      "mustTry": "Pasta al granchio"
+    },
+    {
+      "name": "Fusion Cantina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Mexican restaurant blending traditional recipes with modern techniques and international flavors. Craft cocktails and an innovative tasting bar complement the menu.",
+      "mustTry": "Mole negro en negro"
+    },
+    {
+      "name": "Thulía Restaurante",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale restaurant featuring Mediterranean cuisine with Caribbean influences and an impressive wine collection. Sophisticated ambiance ideal for fine dining experiences.",
+      "mustTry": "Pan-seared grouper with local herbs"
+    },
+    {
+      "name": "Yaxche",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Mayan restaurant dedicated to pre-Hispanic and contemporary Yucatecan cuisine. Educational menu with detailed descriptions of traditional dishes.",
+      "mustTry": "Relleno negro"
+    },
+    {
+      "name": "Urban Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary restaurant featuring wood-fired pizzas, grilled meats, and fresh seafood with modern presentation. Casual-elegant setting perfect for families.",
+      "mustTry": "Wood-fired branzino"
+    },
+    {
+      "name": "La Vagabunda",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular beachfront casual dining spot serving ceviche, fish tacos, and fresh seafood at budget-friendly prices. Perfect for casual lunch or dinner with sand between your toes.",
+      "mustTry": "Fish tacos al pastor"
+    },
+    {
+      "name": "Distrito Uno",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Mexican restaurant with locally-sourced ingredients and creative presentations of traditional dishes. Stylish interior with open kitchen views.",
+      "mustTry": "Causa limeña with local tiradito"
+    },
+    {
+      "name": "El Tapeo de Cervantes",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Spanish tapas bar offering authentic Iberian cuisine with an extensive selection of cured meats, cheeses, and seafood preparations. Wine list featuring Spanish varieties.",
+      "mustTry": "Jamón ibérico with pan con tomate"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkel in Cenotes",
+      "category": "Adventure",
+      "description": "Swim and snorkel in pristine freshwater sinkholes surrounded by lush jungle. Cenotes like Cenote Cristalino and Cenote Azul offer crystal-clear waters and geological wonders.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Xel-Há National Park",
+      "category": "Adventure",
+      "description": "All-inclusive eco-park featuring underground rivers, beaches, cenotes, and Mayan archaeological sites. Activities include snorkeling, ziplining, and cave exploration.",
+      "durationHours": 8,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Xplor Adventure Park",
+      "category": "Adventure",
+      "description": "Thrilling eco-adventure park with ziplines, underground rivers, amphibious vehicles, and cave explorations. Perfect for adrenaline seekers combining nature with excitement.",
+      "durationHours": 6,
+      "estimatedCostUSD": 115,
+      "bestFor": [
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Tulum Ruins Visit",
+      "category": "Cultural",
+      "description": "Explore iconic Mayan ruins perched on cliffside overlooking Caribbean turquoise waters. Ancient pyramids and temples offer insights into pre-Columbian civilization.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Cozumel Island Day Trip",
+      "category": "Outdoor",
+      "description": "Ferry to nearby Cozumel Island for world-class diving, snorkeling, and pristine beaches. Popular destination for water sports enthusiasts and marine life observation.",
+      "durationHours": 8,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Playa del Carmen Beach Day",
+      "category": "Relaxation",
+      "description": "Relax on soft white-sand beaches with crystal-clear Caribbean waters. Perfect for swimming, paddleboarding, beach yoga, or simply soaking up the sun.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Quinta Avenida Shopping and Dining",
+      "category": "Indoor",
+      "description": "Stroll the vibrant pedestrian avenue lined with boutiques, restaurants, bars, and street performers. Day or night experience showcasing local culture and international brands.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mayan Village Cultural Tour",
+      "category": "Cultural",
+      "description": "Visit authentic Mayan villages to learn traditional practices, crafts, and indigenous lifestyle. Includes interactions with locals and traditional cuisine experiences.",
+      "durationHours": 5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "cultural",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Nightlife and Clubs",
+      "category": "Nightlife",
+      "description": "Experience world-class nightclubs like The City, Palazzo, and Dady'O featuring international DJs and dancing until dawn. High-energy party atmosphere popular with tourists.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Paddleboarding and Kayaking",
+      "category": "Outdoor",
+      "description": "Explore mangrove forests, lagoons, and coastal waters by paddleboard or kayak. Peaceful way to observe wildlife and enjoy serene Caribbean landscapes.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Playa Maroma Beach Visit",
+      "category": "Outdoor",
+      "description": "Visit pristine, less-crowded beach north of Playa del Carmen known for calm waters and luxury resorts. Excellent for photography and peaceful relaxation.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Xcaret Park Experience",
+      "category": "Family",
+      "description": "Large eco-archaeological park offering beach access, cenotes, zip-lining, cultural performances, and dining. Multi-activity park suitable for all ages.",
+      "durationHours": 8,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Tulum Ruins Cliffside",
+        "description": "Iconic pyramid perched on limestone cliffs overlooking turquoise Caribbean waters with dramatic composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour - early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Playa del Carmen Beach at Sunset",
+        "description": "Expansive white-sand beach with vibrant sky colors and silhouettes of palm trees during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cenote Azul Waters",
+        "description": "Crystal-clear freshwater cenote with stunning blue gradient waters and cave formations creating reflective surfaces.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for clear water visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Quinta Avenida Street Scene",
+        "description": "Bustling pedestrian avenue with colorful buildings, street performers, and vibrant local culture creating candid photo opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening when crowds peak",
+        "category": "Street"
+      },
+      {
+        "name": "Xel-Há Underground River",
+        "description": "Dramatic cave system with underground river featuring natural light through openings creating ethereal atmosphere.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for light penetration into caves",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mangrove Lagoon Kayaking",
+        "description": "Dense mangrove forests with still water reflections and wildlife including birds and marine species.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife and calm water",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Cozumel Coral Reefs",
+        "description": "Underwater snorkel shots featuring colorful coral formations and tropical fish in clear Caribbean waters.",
+        "difficulty": "Advanced",
+        "bestTime": "Bright sunny days for water clarity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Playa Maroma Shoreline",
+        "description": "Pristine undeveloped beach with soft waves, palm trees, and minimal crowds ideal for peaceful compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Local Markets and Street Food Stalls",
+        "description": "Colorful produce displays, street vendors, and authentic local moments capturing Mayan and Mexican culture.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning hours when markets are busiest",
+        "category": "Street"
+      },
+      {
+        "name": "Xplor Park Zipline Perspective",
+        "description": "Aerial views of jungle canopy, caves, and underground rivers from zipline vantage points.",
+        "difficulty": "Advanced",
+        "bestTime": "Late morning for optimal lighting",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Tulum Ruins",
+      "Playa del Carmen North Beach",
+      "Punta Nizuc Reef"
+    ],
+    "sunsetSpots": [
+      "Playa del Carmen Main Beach",
+      "Xcaret Park Beach",
+      "Cozumel Island Waterfront"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape and beach panoramas capturing vast seascapes",
+      "24-70mm zoom for versatile framing of cultural scenes and architectural details",
+      "70-200mm telephoto for wildlife in cenotes and compressed reef compositions",
+      "Macro lens for close-up details of coral, marine life, and local crafts"
+    ],
+    "goldenHourNotes": "Golden hour in Playa del Carmen occurs early morning (5:30-7:00 AM) and late afternoon (5:00-7:00 PM). The low sun angle creates dramatic shadows on ruins and reflects beautifully off Caribbean waters. The humidity and warm air often produce soft, diffused light ideal for all photography styles.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 27,
+        "rainfallMM": 45
+      },
+      {
+        "month": 2,
+        "avgTempC": 27,
+        "rainfallMM": 38
+      },
+      {
+        "month": 3,
+        "avgTempC": 29,
+        "rainfallMM": 32
+      },
+      {
+        "month": 4,
+        "avgTempC": 30,
+        "rainfallMM": 62
+      },
+      {
+        "month": 5,
+        "avgTempC": 31,
+        "rainfallMM": 155
+      },
+      {
+        "month": 6,
+        "avgTempC": 31,
+        "rainfallMM": 162
+      },
+      {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 168
+      },
+      {
+        "month": 8,
+        "avgTempC": 31,
+        "rainfallMM": 145
+      },
+      {
+        "month": 9,
+        "avgTempC": 30,
+        "rainfallMM": 182
+      },
+      {
+        "month": 10,
+        "avgTempC": 29,
+        "rainfallMM": 185
+      },
+      {
+        "month": 11,
+        "avgTempC": 28,
+        "rainfallMM": 95
+      },
+      {
+        "month": 12,
+        "avgTempC": 27,
+        "rainfallMM": 58
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "High season (December-March) offers dry weather and comfortable temperatures, while rainy season (May-October) brings afternoon showers and occasional hurricanes. Shoulder seasons provide fewer crowds with manageable weather.",
+    "summary": "Playa del Carmen maintains warm tropical temperatures year-round (26-31°C), ideal for beach activities. Expect higher rainfall May through October with occasional tropical storms, while dry season (November-April) provides the most favorable conditions for visiting."
+  },
+  "hotels": [
+    {
+      "name": "Hotel Básico",
+      "neighborhood": "Playa del Carmen Centro",
+      "pricePerNightUSD": 55,
+      "category": "Budget",
+      "description": "Minimalist-chic budget hotel on Quinta Avenida featuring simple rooms, rooftop terrace, and excellent location near restaurants and nightlife."
+    },
+    {
+      "name": "Grand Hotel Residencial",
+      "neighborhood": "Playa del Carmen Zona Hotelera",
+      "pricePerNightUSD": 130,
+      "category": "Mid-range",
+      "description": "All-inclusive mid-range resort offering beachfront access, multiple pools, dining options, and water sports with comfortable accommodations."
+    },
+    {
+      "name": "Hotel Grand Palladium",
+      "neighborhood": "Playa del Carmen Riviera Maya",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Expansive luxury all-inclusive resort featuring pristine beach, multiple restaurants, spa facilities, entertainment, and premium guest services."
+    }
+  ]
+}

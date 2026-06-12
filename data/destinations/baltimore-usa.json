@@ -1,0 +1,468 @@
+{
+  "id": "baltimore-usa",
+  "city": "Baltimore",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BWI",
+    "DCA",
+    "PHL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 85,
+    "photography": 80,
+    "activities": 82,
+    "weather": 70
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Baltimore Harbor sunset",
+  "summary": "Baltimore is a historic waterfront city known for its vibrant Inner Harbor, world-class seafood, and rich cultural attractions including the National Aquarium and historic USS Constellation. With its eclectic neighborhoods, thriving street art scene, and passionate sports culture, Baltimore offers an authentic East Coast experience at an accessible price point.",
+  "restaurants": [
+    {
+      "name": "Fogo de Chao",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Brazilian steakhouse offering premium cuts of meat and an elaborate salad bar in a sophisticated setting overlooking the harbor. Known for tableside service and an extensive wine selection.",
+      "mustTry": "Picanha with chimichurri"
+    },
+    {
+      "name": "Crab's Revenge",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual waterfront crab house serving authentic Maryland blue crabs steamed with Old Bay seasoning and fresh seafood. A true Baltimore institution with casual, fun atmosphere.",
+      "mustTry": "Steamed blue crabs with Old Bay"
+    },
+    {
+      "name": "The Olde England Pub & Pantry",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic pub established in 1934 offering traditional comfort food and classic American fare in a cozy, neighborhood setting. Famous for their crab cakes and vintage atmosphere.",
+      "mustTry": "Maryland-style crab cake"
+    },
+    {
+      "name": "Charm City Burger",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual burger joint located in Canton serving gourmet burgers and craft beers in a laid-back environment. Known for creative flavor combinations and quality ingredients.",
+      "mustTry": "The Baltimore Bomb burger"
+    },
+    {
+      "name": "Woodberry Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant in a converted warehouse emphasizing seasonal ingredients and wood-fired cooking. Known for inventive dishes and an excellent cocktail program.",
+      "mustTry": "Wood-grilled fish with seasonal vegetables"
+    },
+    {
+      "name": "Tesoro",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Italian restaurant offering handmade pasta and refined Mediterranean cuisine in an elegant Harbor East setting. Known for attentive service and sophisticated ambiance.",
+      "mustTry": "Handmade tagliatelle with wild mushrooms"
+    },
+    {
+      "name": "Ekiben",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Japanese bento box restaurant offering fresh, authentic Japanese cuisine in a modern, casual setting. Known for high-quality ingredients and creative preparations.",
+      "mustTry": "Chicken karaage bento box"
+    },
+    {
+      "name": "Chaps Pit Beef",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Legendary Baltimore barbecue stand serving hand-cut roast beef sandwiches since 1988 in a no-frills, counter-service environment. An iconic Baltimore dining experience.",
+      "mustTry": "Pit beef sandwich with tiger sauce"
+    },
+    {
+      "name": "The Walters Art Museum Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Free museum cafe offering light lunch options, pastries, and beverages in a cultured setting. A great budget-friendly option with museum access included.",
+      "mustTry": "Seasonal quiche and espresso"
+    },
+    {
+      "name": "Ropewalk",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary seafood restaurant located in Fells Point offering fresh catches and coastal-inspired dishes with harbor views. Known for local oysters and fish preparations.",
+      "mustTry": "Pan-seared rockfish fillet"
+    },
+    {
+      "name": "Limehouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "British gastropub in Federal Hill offering elevated pub fare and craft cocktails in a sophisticated vintage setting. Known for seasonal menus and creative drinks.",
+      "mustTry": "Pan-roasted duck breast with gastrique"
+    },
+    {
+      "name": "Tasty Tom Tacos",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual taco stand and food truck offering authentic Mexican street tacos with quality meats and fresh toppings. A local favorite for quick, affordable meals.",
+      "mustTry": "Al pastor tacos with pineapple"
+    }
+  ],
+  "activities": [
+    {
+      "name": "National Aquarium",
+      "category": "Family",
+      "description": "One of the largest and most impressive aquariums in the world featuring thousands of marine animals, interactive exhibits, and a thrilling dolphin tank. Located prominently at Inner Harbor.",
+      "durationHours": 4,
+      "estimatedCostUSD": 32,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "USS Constellation Tour",
+      "category": "Cultural",
+      "description": "Historic naval ship docked at Inner Harbor offering guided tours through a restored 19th-century sailing ship with interactive exhibits about maritime history. Educational and atmospheric.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Inner Harbor Walk",
+      "category": "Outdoor",
+      "description": "Free scenic waterfront promenade offering shops, restaurants, street performers, and beautiful water views perfect for strolling and people watching. Accessible and picturesque.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "American Visionary Art Museum",
+      "category": "Cultural",
+      "description": "Quirky, eclectic museum showcasing outsider and visionary art in a converted Victorian building with installations that challenge conventional perspectives. Truly unique experience.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "surprise",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Fells Point Neighborhood Exploration",
+      "category": "Outdoor",
+      "description": "Historic waterfront neighborhood filled with colonial-era buildings, independent shops, galleries, restaurants, and bars along cobblestone streets. Great for walking and discovering.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Baltimore Museum of Art",
+      "category": "Cultural",
+      "description": "Excellent art museum featuring works from ancient civilizations to contemporary artists with pay-what-you-wish admission. Strong collections of American and contemporary art.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Federal Hill Park Visit",
+      "category": "Outdoor",
+      "description": "Historic neighborhood park offering elevated views of Inner Harbor, the city skyline, and surrounding neighborhoods from atop a hill. Perfect for sunset viewing and photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Street Art Tour in Hampden",
+      "category": "Photography",
+      "description": "Self-guided or group tour exploring Baltimore's vibrant street art culture in the eclectic Hampden neighborhood with colorful murals and graffiti throughout. Cultural and visually striking.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Harbor East Shopping District",
+      "category": "Outdoor",
+      "description": "Upscale neighborhood with waterfront dining, boutique shops, art galleries, and beautiful architecture suitable for leisurely shopping and dining. Picturesque and accessible.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Oriole Park at Camden Yards Tour",
+      "category": "Outdoor",
+      "description": "Iconic baseball stadium with architectural significance offering stadium tours even on non-game days, showcasing beautiful design and baseball history. For sports enthusiasts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Druid Hill Park Activities",
+      "category": "Outdoor",
+      "description": "Large urban park offering hiking trails, a zoo, lake kayaking, and recreational spaces amid historic landscapes. Perfect for nature lovers and outdoor adventure.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Edgar Allan Poe House & Museum",
+      "category": "Cultural",
+      "description": "Historic house museum where the famous author lived, featuring period furnishings, manuscripts, and interactive exhibits about his life and literary contributions. Literary pilgrimage site.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "hidden-gems",
+        "standard",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Inner Harbor at Dusk",
+        "description": "Iconic waterfront view featuring illuminated buildings, boats, and the National Aquarium reflected in calm water during evening hours.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset and blue hour (30 min before sunset to 1 hour after)",
+        "category": "Architecture"
+      },
+      {
+        "name": "USS Constellation Lit at Night",
+        "description": "Historic naval ship beautifully lit by floodlights against the night sky, creating dramatic silhouettes and reflections in the harbor water.",
+        "difficulty": "Intermediate",
+        "bestTime": "Night (after sunset, 30 min to 3 hours after dark)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Federal Hill Park Overlook",
+        "description": "Elevated vantage point showcasing the entire Inner Harbor, cityscape, and surrounding neighborhoods with expansive urban landscape.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise or sunset) or blue hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Fells Point Cobblestone Streets",
+        "description": "Historic colonial-era buildings with charming architecture, gas lamps, and narrow cobblestone streets creating picturesque street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for soft shadows or late afternoon for warm tones",
+        "category": "Street"
+      },
+      {
+        "name": "Hampden Street Art Murals",
+        "description": "Vibrant street art and murals covering buildings throughout the neighborhood, offering colorful and dynamic photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for saturated colors or overcast days for even lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Canton Square at Night",
+        "description": "Lively waterfront square with restaurants, bars, and atmospheric lighting reflecting on the water, perfect for evening street and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk and night hours (blue hour to late evening)",
+        "category": "Night"
+      },
+      {
+        "name": "Oriole Park at Camden Yards",
+        "description": "Iconic baseball stadium with distinctive brick architecture and Warehouse backdrop, offering unique urban and sports photography angles.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour or during evening games for dramatic lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Patterson Park Pagoda",
+        "description": "Historic Asian-inspired pagoda structure offering elevated views of the city with unique architectural character and surrounding park landscape.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light and shadow depth",
+        "category": "Architecture"
+      },
+      {
+        "name": "Harbor East Waterfront Promenade",
+        "description": "Modern waterfront development with contemporary architecture, sculptures, and refined landscaping creating artistic composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or blue hour for atmospheric lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Druid Hill Park Lake",
+        "description": "Scenic lake surrounded by trees and park landscapes offering peaceful nature photography, wildlife opportunities, and reflection shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for mist and soft light or sunset for warm reflections",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Federal Hill Park Overlook",
+      "Patterson Park Pagoda",
+      "Druid Hill Park Lake"
+    ],
+    "sunsetSpots": [
+      "Inner Harbor at Dusk",
+      "Federal Hill Park Overlook",
+      "Harbor East Waterfront Promenade"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive harbor and cityscape shots capturing scale and context",
+      "50mm prime for intimate street photography in Fells Point and Hampden neighborhoods",
+      "70-200mm telephoto for compressed perspectives of distant buildings and architectural details",
+      "24-70mm versatile zoom for general exploration and varied composition from landscapes to street scenes"
+    ],
+    "goldenHourNotes": "Baltimore's waterfront creates exceptional golden hour photography with warm light reflecting off water and illuminating historic architecture. The 30 minutes before sunset through blue hour offers particularly dramatic opportunities, especially from Federal Hill Park and Inner Harbor viewpoints. Winter sunset hours occur earlier (around 5 PM), while summer extends until after 8 PM, allowing extended shooting sessions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 2,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 4,
+        "rainfallMM": 71
+      },
+      {
+        "month": 3,
+        "avgTempC": 9,
+        "rainfallMM": 89
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 96
+      },
+      {
+        "month": 5,
+        "avgTempC": 20,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 99
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 114
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 109
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 97
+      },
+      {
+        "month": 10,
+        "avgTempC": 16,
+        "rainfallMM": 89
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 91
+      },
+      {
+        "month": 12,
+        "avgTempC": 5,
+        "rainfallMM": 84
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Baltimore experiences distinct seasons with mild spring and fall offering comfortable temperatures and lower humidity. Summer can be hot and humid with frequent thunderstorms, while winters are cold with occasional snow.",
+    "summary": "Spring (April-May) and fall (September-October) provide the most pleasant weather for exploring, with temperatures between 15-23°C and less precipitation. Summer brings heat and humidity (26-28°C) and frequent rain, while winters are cold (2-5°C) but less crowded."
+  },
+  "hotels": [
+    {
+      "name": "HI Baltimore Hostel",
+      "neighborhood": "Fell's Point",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Friendly, clean hostel in historic Fells Point offering shared and private rooms, social atmosphere, and proximity to waterfront restaurants and bars."
+    },
+    {
+      "name": "Renaissance Baltimore Harborplace Hotel",
+      "neighborhood": "Inner Harbor",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Modern waterfront hotel with harbor views, excellent location overlooking Inner Harbor attractions, contemporary amenities, and direct access to shopping and dining."
+    },
+    {
+      "name": "Four Seasons Hotel Baltimore",
+      "neighborhood": "Harbor East",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury waterfront hotel featuring world-class service, sophisticated suites with panoramic views, Michelin-dining restaurants, and complete spa facilities."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1617409123085-f73b92288a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCYWx0aW1vcmUlMjBIYXJib3IlMjBzdW5zZXR8ZW58MXwwfHx8MTc4MTMwMzI4NXww&ixlib=rb-4.1.0&q=80&w=1080"
+}

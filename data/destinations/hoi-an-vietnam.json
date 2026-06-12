@@ -1,0 +1,472 @@
+{
+  "id": "hoi-an-vietnam",
+  "city": "Hoi An",
+  "country": "Vietnam",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "DAD",
+    "HAN",
+    "SGN"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 85,
+    "food": 95,
+    "photography": 92,
+    "activities": 88,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 20,
+      "maxPerDayUSD": 40
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    }
+  ],
+  "unsplashQuery": "Hoi An lanterns river",
+  "summary": "Hoi An is a beautifully preserved Ancient Town frozen in time, where centuries-old architecture, vibrant silk lanterns, and cobblestone streets transport visitors to a different era. Known for exceptional cuisine, tailor-made clothing, and stunning riverside scenery, this UNESCO World Heritage site offers an intoxicating blend of history, culture, and romance perfect for photographers and food lovers alike.",
+  "restaurants": [
+    {
+      "name": "Cao Lau House",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic family-run eatery specializing in cao lau, the iconic noodle dish of Hoi An made only with water from a local well. The recipe has remained unchanged for generations, offering a genuine taste of local heritage.",
+      "mustTry": "Cao Lau with pork and crispy rice papers"
+    },
+    {
+      "name": "Morning Glory Market Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual open-air restaurant set within the local market, serving fresh Vietnamese street food and seafood prepared in traditional ways. The lively market atmosphere and ultra-fresh ingredients create an authentic dining experience.",
+      "mustTry": "Grilled shrimp with herbs"
+    },
+    {
+      "name": "Bale Well Hoi An",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Vietnamese restaurant with modern presentation of traditional dishes, featuring indoor and riverside seating with lantern-lit ambiance. The menu balances classic recipes with creative interpretations.",
+      "mustTry": "White rose dumplings with shrimp"
+    },
+    {
+      "name": "Restaurant Hoa Vang",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Simple, no-frills establishment famous for their signature dishes served in a humble setting with plastic stools and communal tables. Locals queue here daily for authentic flavors and portion sizes.",
+      "mustTry": "Banh Mi and Com Tam"
+    },
+    {
+      "name": "Maison du Parc",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant French colonial villa turned restaurant offering contemporary French-Vietnamese fusion cuisine with impeccable service. The romantic garden setting and refined wine list elevate the dining experience.",
+      "mustTry": "Pan-seared barramundi with Hoi An spices"
+    },
+    {
+      "name": "Au Coeur d'Hoi An",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming bistro in a traditional wooden house featuring homestyle Vietnamese and French-Vietnamese comfort food. The intimate atmosphere and personal service create a welcoming neighborhood feel.",
+      "mustTry": "Slow-cooked beef stew with rice"
+    },
+    {
+      "name": "Thanh Huong",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Legendary street-level restaurant known for their exceptional wonton and chicken noodle soup, served with a side of passion since 1989. The broth simmers daily with secret family spices.",
+      "mustTry": "Chicken noodle soup with wontons"
+    },
+    {
+      "name": "Chi Em Vegetarian",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Dedicated vegetarian restaurant serving Buddhist temple-inspired dishes with creative vegetable and tofu preparations. Perfect for dietary preferences while maintaining authentic Vietnamese flavors.",
+      "mustTry": "Vegetarian banh chay with herb salad"
+    },
+    {
+      "name": "The Riverboat Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Floating restaurant offering fresh seafood and Vietnamese specialties with views of the Thu Bon River and the Ancient Town lights. The waterfront setting and sunset dining make it particularly romantic.",
+      "mustTry": "Grilled river fish with turmeric"
+    },
+    {
+      "name": "Mango Basket Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming multi-level restaurant housed in a French colonial building serving refined Vietnamese cuisine with international influences. The rooftop terrace offers panoramic views of the Ancient Town.",
+      "mustTry": "Hoi An fish cakes with dipping sauce"
+    },
+    {
+      "name": "Restaurant Xuan Phuong",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Modest family restaurant specializing in traditional Hoi An specialties including banh hoai and fresh spring rolls, served in a basic but welcoming environment. Known for quality ingredients and authentic preparation.",
+      "mustTry": "Banh hoai with shrimp and squid"
+    },
+    {
+      "name": "Faifo Cuisine",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated dining experience celebrating Hoi An's culinary heritage through multi-course tasting menus in an upscale colonial setting. The chef sources local ingredients and presents traditional dishes with artistic plating.",
+      "mustTry": "Chef's tasting menu with wine pairing"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Ancient Town Lantern Tours",
+      "category": "Cultural",
+      "description": "Guided evening walking tour through the UNESCO-listed Ancient Town learning about the architecture, history, and significance of the wooden buildings and merchant houses. The tour culminates in lantern-lighting ceremonies at the town's key landmarks.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Lantern Making Workshop",
+      "category": "Cultural",
+      "description": "Interactive hands-on class where visitors create their own traditional silk lanterns with assistance from local artisans. The workshop teaches about the lantern-making history and techniques that have been practiced for centuries.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "hidden-gems",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Thu Bon River Boat Tour",
+      "category": "Outdoor",
+      "description": "Relaxing sampan boat ride along the Thu Bon River passing through fishing villages, coconut groves, and rice paddies with opportunities to visit a basket boat maker. Early morning or sunset tours offer the best light and peaceful atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 6,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Tailor Shop Visit & Custom Garment Fitting",
+      "category": "Indoor",
+      "description": "Browse the town's famous tailor shops to commission custom clothing, from traditional ao dai to western suits, with fittings during your stay. Hoi An is renowned for skilled tailors and competitive prices on bespoke garments.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cam Thanh Coconut Boat Tour",
+      "category": "Outdoor",
+      "description": "Day trip to the nearby Cam Thanh village to explore mangrove forests by traditional coconut-shell boats while spotting local wildlife and learning about village life. The guide explains the ecosystem and sustainable fishing practices.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cooking Class with Local Chef",
+      "category": "Indoor",
+      "description": "Half-day class where participants visit the local market with a chef to select ingredients, then prepare 3-4 traditional Hoi An dishes in a home kitchen. The experience concludes with a shared meal and recipe handouts.",
+      "durationHours": 3.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Free Walking Tour - Ancient Town Architecture",
+      "category": "Cultural",
+      "description": "Self-guided or volunteer-led exploration of the Ancient Town's architectural styles including Chinese assembly halls, Japanese bridge, and Vietnamese shop-houses. Stop at major landmarks and learn about the town's merchant history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "My Son Ruins Day Tour",
+      "category": "Outdoor",
+      "description": "Full-day excursion to the nearby Cham Hindu temple complex dating back to the 4th century, featuring ancient stone towers and archaeological significance. The scenic drive through countryside and guided exploration provide cultural and historical context.",
+      "durationHours": 8,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Art & Craft Galleries Browse",
+      "category": "Indoor",
+      "description": "Explore the numerous galleries and craft shops selling local art, lacquerware, ceramics, and traditional crafts created by local artisans. Many shops offer demonstrations and the opportunity to meet artists at work.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sunset at the Japanese Covered Bridge",
+      "category": "Cultural",
+      "description": "Visit the iconic 18th-century Japanese covered bridge during golden hour to photograph or simply enjoy the atmospheric setting with minimal crowds. The bridge's graceful architecture is beautifully lit by the setting sun.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hoi An Night Market Experience",
+      "category": "Outdoor",
+      "description": "Evening visit to the weekend night market (Friday-Sunday) featuring local vendors selling street food, handicrafts, and souvenirs in a lively atmosphere. The colorful lanterns and bustling crowds create an immersive cultural experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bicycle Tour to Surrounding Villages",
+      "category": "Adventure",
+      "description": "Pedal through rice fields and traditional villages around Hoi An stopping at a fishpond, brick factory, and local homes to experience rural Vietnamese life. The scenic route includes visits to flower growers and silk weavers.",
+      "durationHours": 3.5,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Japanese Covered Bridge at Sunset",
+        "description": "The iconic 18th-century bridge over a small canal glows beautifully in warm light with water reflections and lantern decorations creating a romantic composition.",
+        "difficulty": "Beginner",
+        "bestTime": "45 minutes before sunset to 15 minutes after",
+        "category": "Architecture"
+      },
+      {
+        "name": "Ancient Town Lantern-Lit Streets",
+        "description": "Narrow cobblestone streets lined with illuminated silk lanterns hanging from wooden shop-houses create dreamy, atmospheric evening scenes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening after 7 PM when lanterns are fully lit",
+        "category": "Night"
+      },
+      {
+        "name": "Thu Bon River Waterfront",
+        "description": "The riverside area reflects the Ancient Town's lights and architecture, with traditional boats adding cultural elements to landscape compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cam Thanh Mangrove Forest",
+        "description": "Dense mangrove trees create natural tunnels and reflections in still water, offering moody landscape and nature photography opportunities with boat silhouettes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for best light penetration and mist",
+        "category": "Landscape"
+      },
+      {
+        "name": "Local Market Street Scenes",
+        "description": "Vibrant street market filled with colorful produce, flowers, and local vendors creating authentic street photography opportunities with candid moments.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning 6-8 AM when market is busiest",
+        "category": "Street"
+      },
+      {
+        "name": "Chinese Assembly Hall Courtyard",
+        "description": "Ornate wooden architecture with intricate carvings and decorative elements photographed in the quiet courtyard with dramatic shadow patterns from carved railings.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for side-lit architectural details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sampan Boats on the River",
+        "description": "Traditional wooden boats create iconic silhouettes and reflections on the water, especially striking during sunrise when mist rises from the river.",
+        "difficulty": "Beginner",
+        "bestTime": "One hour before sunrise or late evening",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hoi An Ancient Town Rooftop Views",
+        "description": "Elevated perspective from guesthouse or cafe rooftops shows the unified terracotta tile roofscape punctuated by lantern-adorned streets and the river beyond.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour when warm light hits the roofs",
+        "category": "Architecture"
+      },
+      {
+        "name": "My Son Temple Ruins at Sunrise",
+        "description": "Ancient Cham Hindu towers emerge from morning mist creating mystical and dramatic silhouettes against soft dawn light in an archaeological landscape.",
+        "difficulty": "Advanced",
+        "bestTime": "30 minutes before sunrise through 30 minutes after",
+        "category": "Landscape"
+      },
+      {
+        "name": "Traditional Tailor Shop Interiors",
+        "description": "Close-up details of colorful fabric bolts, sewing machines, and artisans at work create intimate portraits and still-life compositions of the craft.",
+        "difficulty": "Intermediate",
+        "bestTime": "Daytime with natural window light",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "My Son Temple Ruins",
+      "Thu Bon River Waterfront near Japanese Bridge",
+      "Cam Thanh Mangrove Forest"
+    ],
+    "sunsetSpots": [
+      "Japanese Covered Bridge",
+      "Ancient Town Riverside Promenade",
+      "Rooftop cafes in Ancient Town"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 for versatile street and architectural work with good low-light performance",
+      "50mm f/1.8 prime for intimate portraits and market scenes with beautiful bokeh",
+      "16-35mm f/2.8 wide-angle for expansive landscape and rooftop city views",
+      "85mm f/1.4 for compressed perspective in alleyways and to isolate lantern details"
+    ],
+    "goldenHourNotes": "Hoi An's golden hour extends longer than most tropical locations due to water reflection, making the 45 minutes before sunset through 15 minutes after ideal. The warm light transforms the lanterns and ancient architecture into ethereal scenes. Early morning golden hour is also excellent for river photography with the added benefit of mist and fishing boats, typically 30-45 minutes after sunrise.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 24,
+        "rainfallMM": 100
+      },
+      {
+        "month": 2,
+        "avgTempC": 25,
+        "rainfallMM": 80
+      },
+      {
+        "month": 3,
+        "avgTempC": 27,
+        "rainfallMM": 50
+      },
+      {
+        "month": 4,
+        "avgTempC": 29,
+        "rainfallMM": 80
+      },
+      {
+        "month": 5,
+        "avgTempC": 30,
+        "rainfallMM": 120
+      },
+      {
+        "month": 6,
+        "avgTempC": 31,
+        "rainfallMM": 140
+      },
+      {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 150
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 160
+      },
+      {
+        "month": 9,
+        "avgTempC": 29,
+        "rainfallMM": 200
+      },
+      {
+        "month": 10,
+        "avgTempC": 27,
+        "rainfallMM": 180
+      },
+      {
+        "month": 11,
+        "avgTempC": 25,
+        "rainfallMM": 120
+      },
+      {
+        "month": 12,
+        "avgTempC": 23,
+        "rainfallMM": 110
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "Hoi An has two distinct seasons: the dry season (November to April) with warm, pleasant weather and minimal rainfall, and the wet monsoon season (May to October) with high humidity and frequent heavy rains. The peak tourist season coincides with the dry months, making those periods crowded but offering the best weather for exploration.",
+    "summary": "Temperatures range from 23-31°C year-round, with the coolest and most comfortable period from December to February. Travelers should avoid the September-October period when rainfall exceeds 180mm and flooding becomes possible, though the green landscapes are spectacular during the wet season."
+  },
+  "hotels": [
+    {
+      "name": "Riverside Boutique Resort",
+      "neighborhood": "Ancient Town Riverfront",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Charming family-run guesthouse with basic but clean rooms featuring traditional wooden décor and views of the Thu Bon River, located within the Ancient Town walking area."
+    },
+    {
+      "name": "Lantana Hotel",
+      "neighborhood": "Ancient Town Center",
+      "pricePerNightUSD": 85,
+      "category": "Mid-range",
+      "description": "Contemporary boutique hotel housed in a restored French colonial building with modern amenities, rooftop bar, and personalized service in the heart of the Ancient Town."
+    },
+    {
+      "name": "The Oriental Riverside Hoi An",
+      "neighborhood": "Riverside",
+      "pricePerNightUSD": 220,
+      "category": "Luxury",
+      "description": "Upscale resort with elegant rooms overlooking the Thu Bon River, infinity pool, fine dining restaurant, and spa services providing the highest comfort level in Hoi An."
+    }
+  ]
+}

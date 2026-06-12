@@ -1,0 +1,461 @@
+{
+  "id": "philadelphia-usa",
+  "city": "Philadelphia",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PHL",
+    "EWR",
+    "LGA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "cultural"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 88,
+    "photography": 82,
+    "activities": 85,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Philadelphia Liberty Bell historic",
+  "summary": "Philadelphia is America's birthplace, where colonial history meets vibrant urban culture along the Delaware River. From iconic landmarks like Independence Hall to world-class museums, eclectic neighborhoods, and James Beard Award-winning restaurants, the city offers rich experiences for history buffs, foodies, and photographers alike.",
+  "restaurants": [
+    {
+      "name": "Jim's Steaks",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "An iconic Philly cheesesteak institution since 1930, serving up legendary sandwiches with onions and Cheez Whiz on thin sliced ribeye.",
+      "mustTry": "Classic Philly Cheesesteak with Whiz"
+    },
+    {
+      "name": "Reading Terminal Market - DiNic's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic market stall serving outstanding roast pork sandwiches with fresh seasonal produce stands nearby for authentic local eating.",
+      "mustTry": "Roast Pork Sandwich with Sharp Provolone"
+    },
+    {
+      "name": "Zahav",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred Israeli restaurant by Chef Michael Solomonov showcasing vibrant Middle Eastern cuisine with impeccable technique and service.",
+      "mustTry": "Wood-Fired Lamb"
+    },
+    {
+      "name": "Vetri Cucina",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant Italian fine dining celebrating handmade pasta and seasonal Italian ingredients in an intimate, sophisticated setting.",
+      "mustTry": "Handmade Pasta Tasting Menu"
+    },
+    {
+      "name": "Gwen",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American restaurant featuring locally-sourced ingredients with creative preparations in a warm, approachable atmosphere.",
+      "mustTry": "Seasonal Vegetable Plate"
+    },
+    {
+      "name": "Cheu Noodle Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Asian noodle house offering fresh, bold flavors with ramen, hand-pulled noodles, and creative Asian fusion dishes.",
+      "mustTry": "Spicy Dan Dan Noodles"
+    },
+    {
+      "name": "Laser Wolf",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "High-end Israeli steakhouse featuring premium beef, open flames, and theatrical presentation in a modern setting.",
+      "mustTry": "Prime Beef Selection"
+    },
+    {
+      "name": "Abe Fisher",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Jewish deli-inspired restaurant offering house-cured meats, challah, and Eastern European comfort food with modern twists.",
+      "mustTry": "Braised Brisket"
+    },
+    {
+      "name": "Fishmarket",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Fresh seafood restaurant in Old City featuring daily catches prepared simply to highlight quality ingredients and coastal flavors.",
+      "mustTry": "Whole Roasted Fish"
+    },
+    {
+      "name": "Lacroix at the Rittenhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary French fine dining in the iconic Rittenhouse Hotel with elegant preparations and exceptional service.",
+      "mustTry": "Seasonal Tasting Menu"
+    },
+    {
+      "name": "Barbuzzo",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Italian restaurant celebrated for house-made pastas, wood-fired cooking, and an excellent Italian wine selection.",
+      "mustTry": "House-Made Rigatoni"
+    },
+    {
+      "name": "Fork Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant in historic Old City pioneering seasonal American cuisine with locally-sourced produce and meats.",
+      "mustTry": "Seasonal Fish Special"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Liberty Bell & Independence Hall Tour",
+      "category": "Cultural",
+      "description": "Explore America's most iconic symbols of freedom with guided tours of Independence Hall where the Declaration of Independence was signed, and see the historic Liberty Bell up close.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Philadelphia Museum of Art",
+      "category": "Cultural",
+      "description": "World-class art museum featuring American, European, and Asian masterpieces across multiple wings, plus the famous Rocky Steps for city views.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Reading Terminal Market Walking Tour",
+      "category": "Foodie",
+      "description": "Explore the historic covered market dating to 1893, sampling local foods, artisan goods, and meeting Amish vendors in this beloved neighborhood institution.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Ben Franklin Museum",
+      "category": "Cultural",
+      "description": "Interactive museum celebrating the life and inventions of Founding Father Ben Franklin with engaging exhibits, print shop demonstrations, and historic artifacts.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "East Coast Brewery Tour",
+      "category": "Foodie",
+      "description": "Visit Philadelphia's craft breweries including Triumph, Fishtown Brewpub, and others for tastings and tours of local beer culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Schuylkill River Trail Cycling",
+      "category": "Outdoor",
+      "description": "Bike the scenic 30+ mile trail along the Schuylkill River with views of the city skyline, Boathouse Row, and countryside, with multiple entry points.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "outdoor"
+      ]
+    },
+    {
+      "name": "Street Art & Mural Tours",
+      "category": "Cultural",
+      "description": "Guided or self-guided tours of Philadelphia's world-famous street art scene, featuring over 3,500 colorful murals in Kensington, Fishtown, and neighborhoods citywide.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "photography",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Rodin Museum",
+      "category": "Cultural",
+      "description": "Intimate museum housing the world's largest collection of sculptor Rodin's works outside Paris, including The Thinker, in a beautiful mansion setting.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Betsy Ross House Tour",
+      "category": "Cultural",
+      "description": "Historic home of the woman who allegedly sewed the first American flag, featuring period furnishings, a working colonial garden, and stories of Revolutionary era life.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Night Food Tour - Old City",
+      "category": "Foodie",
+      "description": "Evening walking tour sampling craft cocktails, artisanal foods, and local dining at multiple stops throughout historic Old City neighborhoods.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Philadelphia History Museum",
+      "category": "Cultural",
+      "description": "Museum dedicated to city and regional history from pre-Columbian times through modern era with exhibits on industrial heritage, immigration, and urban development.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Rittenhouse Square Historic Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or led exploration of one of America's finest parks, surrounded by elegant Victorian mansions, historic brownstones, and upscale boutiques.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Philadelphia Museum of Art - Rocky Steps",
+        "description": "Iconic location of the famous Rocky run with grand views of the city skyline and Benjamin Franklin Parkway from the top steps.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for best light and fewer crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Liberty Bell Center",
+        "description": "Historic icon photographed against Independence Hall's brick facade and colonial architecture creating timeless American imagery.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for minimal crowds and soft light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Penns Landing at Dawn",
+        "description": "Delaware River waterfront with Philadelphia skyline reflections and historic ships offering dramatic compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for pink and purple sky reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Boathouse Row - Schuylkill River",
+        "description": "Historic row of Victorian boathouses with twinkling lights at night, reflected in calm river waters creating picturesque scenes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Twilight for lit boathouse reflections or sunrise mist",
+        "category": "Night"
+      },
+      {
+        "name": "Kensington Street Art District",
+        "description": "Vibrant murals and street art covering entire building facades with bold colors and diverse styles throughout multiple blocks.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for saturated colors and clear visibility",
+        "category": "Street"
+      },
+      {
+        "name": "City Hall & Broad Street",
+        "description": "Ornate Victorian Gothic architecture with William Penn statue at peak, framed by bustling city streets and surrounding buildings.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for angled side lighting on facade details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Betsy Ross House & Elfreth's Alley",
+        "description": "Charming colonial brick row houses with gas lamps and narrow alley creating authentic 18th-century atmosphere.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on red brick facades",
+        "category": "Architecture"
+      },
+      {
+        "name": "Race Street Pier",
+        "description": "Modern waterfront park with city skyline views, green space, and interactive installations perfect for urban landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for warm colors reflecting in windows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rittenhouse Square Park",
+        "description": "Tree-lined historic square surrounded by elegant Victorian architecture, fountain, and seasonal foliage for natural framing.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour for soft directional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cathedral Basilica of Saints Peter & Paul",
+        "description": "Stunning neoclassical dome structure at end of Benjamin Franklin Parkway offering grand architectural photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for dramatic dome backlighting and warm sky",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Philadelphia Museum of Art Rocky Steps",
+      "Penns Landing Delaware River",
+      "Race Street Pier"
+    ],
+    "sunsetSpots": [
+      "Boathouse Row Schuylkill River",
+      "Benjamin Franklin Parkway Cathedral View",
+      "Rittenhouse Square"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 - versatile for street, architecture, and detail work throughout the city",
+      "16-35mm f/4 - wide-angle for grand architecture and sweeping skyline compositions",
+      "70-200mm f/2.8 - telephoto for compressed perspectives of city skylines and detail isolation",
+      "35mm f/1.4 or 50mm f/1.8 - prime for street photography and low-light boathouse row shots"
+    ],
+    "goldenHourNotes": "Philadelphia's golden hour is particularly striking along the Schuylkill River where warm light reflects off water and illuminates historic boathouses. The Benjamin Franklin Parkway and colonial brick buildings glow beautifully in late afternoon light, with the City Hall dome becoming especially photogenic around sunset. Plan shoots 30-60 minutes before actual sunset for optimal color saturation and reduced harsh shadows on architectural details.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 2,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 3,
+        "rainfallMM": 68
+      },
+      {
+        "month": 3,
+        "avgTempC": 9,
+        "rainfallMM": 81
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 91
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 109
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 114
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 102
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 97
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 89
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 81
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 91
+      },
+      {
+        "month": 12,
+        "avgTempC": 5,
+        "rainfallMM": 81
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Philadelphia experiences four distinct seasons with mild springs and falls being ideal for tourism, while hot, humid summers and cold, snowy winters present contrasting conditions. Fall foliage (September-October) and spring blooms (April-May) offer particularly pleasant weather for sightseeing.",
+    "summary": "The city has a humid continental climate with warm summers averaging 26-28°C and cold winters around 2-5°C. Spring and fall offer the most pleasant conditions for outdoor activities and sightseeing with moderate temperatures and lower precipitation."
+  },
+  "hotels": [
+    {
+      "name": "HI Philadelphia Hostel",
+      "neighborhood": "Old City",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Historic building hostel offering clean dorms and private rooms in the heart of Old City near Independence Hall and dining."
+    },
+    {
+      "name": "The Rittenhouse Hotel",
+      "neighborhood": "Rittenhouse Square",
+      "pricePerNightUSD": 385,
+      "category": "Luxury",
+      "description": "Iconic five-star hotel overlooking Rittenhouse Square with world-class dining, spa services, and exceptional views of the historic neighborhood."
+    },
+    {
+      "name": "Renaissance Philadelphia Downtown Hotel",
+      "neighborhood": "Center City",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Modern upscale hotel centrally located near City Hall and Benjamin Franklin Parkway with excellent amenities and convenient access to attractions."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1742226802472-a0c1fba19db8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQaGlsYWRlbHBoaWElMjBMaWJlcnR5JTIwQmVsbCUyMGhpc3RvcmljfGVufDF8MHx8fDE3ODEzMDMxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

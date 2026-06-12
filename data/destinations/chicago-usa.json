@@ -1,0 +1,466 @@
+{
+  "id": "chicago-usa",
+  "city": "Chicago",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "ORD",
+    "MDW",
+    "JOL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 95,
+    "photography": 90,
+    "activities": 92,
+    "weather": 55
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Chicago skyline architecture",
+  "summary": "Chicago is America's third-largest city, renowned for its stunning architecture, world-class museums, deep-dish pizza, and vibrant neighborhoods along Lake Michigan. The city offers an exceptional blend of cultural attractions, culinary excellence, and photogenic urban landscapes that appeal to every type of traveler. From the iconic Bean to the prestigious Art Institute, Chicago delivers unforgettable experiences.",
+  "restaurants": [
+    {
+      "name": "Pequod's Pizzeria",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Famous for its signature caramelized crust deep-dish pizza that has been perfected since 1971. A must-visit for anyone wanting authentic Chicago pizza culture.",
+      "mustTry": "Original deep-dish pizza with caramelized edges"
+    },
+    {
+      "name": "Alinea",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three-Michelin-starred restaurant offering avant-garde molecular gastronomy in a minimalist setting. An extraordinary culinary experience with theatrical food presentations.",
+      "mustTry": "Chef's tasting menu with edible tabletop finale"
+    },
+    {
+      "name": "Portillo's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Iconic Chicago fast-casual chain serving Italian beef sandwiches, Chicago-style hot dogs, and chocolate cake since 1953. Perfect for quick, delicious meals on a budget.",
+      "mustTry": "Italian beef sandwich with peppers and dipped gravy"
+    },
+    {
+      "name": "RPM Italian",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Italian restaurant in River North offering house-made pasta, wood-fired dishes, and an extensive wine selection. Great for casual dining in a lively atmosphere.",
+      "mustTry": "Rigatoni Vodka with creamy tomato sauce"
+    },
+    {
+      "name": "Gibson's Bar & Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Classic upscale steakhouse known for premium cuts, an extensive wine collection, and elegant service. A destination for special occasions and classic American fine dining.",
+      "mustTry": "Prime ribeye with loaded baked potato"
+    },
+    {
+      "name": "Frontera Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Acclaimed Mexican cuisine by chef Rick Bayless featuring vibrant flavors, street food, and regional specialties. Always bustling with energy and authentic culinary passion.",
+      "mustTry": "Seared fish tacos with lime crema"
+    },
+    {
+      "name": "Lou Malnati's Pizzeria",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Another Chicago institution for deep-dish pizza since 1971, known for its buttery, flaky crust and quality ingredients. Multiple locations across the city.",
+      "mustTry": "Deep-dish pepperoni with extra cheese"
+    },
+    {
+      "name": "Xoco",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican street food concept by Rick Bayless offering tacos, tamales, and breakfast items at affordable prices. Quick-service with high-quality ingredients.",
+      "mustTry": "Carne asada tacos with fresh tortillas"
+    },
+    {
+      "name": "Oriole",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Intimate Michelin-starred restaurant with only 5 seats offering personalized tasting menus that change daily. An exclusive culinary journey.",
+      "mustTry": "Chef's surprise seasonal tasting menu"
+    },
+    {
+      "name": "Girl & the Goat",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "James Beard Award-winning restaurant by chef Stephanie Izard featuring seasonal American fare with Mediterranean influences. Known for its warm hospitality and innovative dishes.",
+      "mustTry": "Whole roasted goat with pan sauce"
+    },
+    {
+      "name": "Al's Beef",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic spot since 1938 serving authentic Chicago Italian beef sandwiches with dipped gravy in a no-frills setting. A true local favorite.",
+      "mustTry": "Italian beef sandwich, wet with hot peppers"
+    },
+    {
+      "name": "Acme Oyster House",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Seafood-focused restaurant offering fresh oysters, crab, and coastal-inspired dishes in a casual, vibrant setting. Great for lunch or dinner with views of the Chicago River.",
+      "mustTry": "Raw oyster selection with cocktails"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Cloud Gate (The Bean)",
+      "category": "Cultural",
+      "description": "Iconic public sculpture in Millennium Park creating kaleidoscopic reflections of the Chicago skyline and clouds. One of the most visited public artworks in the world.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Art Institute of Chicago",
+      "category": "Cultural",
+      "description": "World-renowned museum featuring American, European, and Asian art across multiple galleries and 300,000+ artworks. Home to masterpieces by Grant Wood, Monet, and many others.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Navy Pier",
+      "category": "Family",
+      "description": "Historic pier entertainment complex featuring the iconic Ferris wheel, arcades, shops, and restaurants along Lake Michigan. Perfect for families and casual evening strolls.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kayaking on Chicago River",
+      "category": "Adventure",
+      "description": "Paddle through downtown Chicago's famous bend, getting unique perspectives of architecture and bridges from the water. Tours available year-round with stunning views.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Chicago Architecture Foundation Boat Tour",
+      "category": "Cultural",
+      "description": "Expert-guided boat tour showcasing 60+ architectural landmarks along the Chicago River and Lake Michigan. Learn detailed histories while enjoying stunning views.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Field Museum",
+      "category": "Cultural",
+      "description": "Major natural history museum featuring Sue the T-Rex, Egyptian mummies, and extensive collections of wildlife and artifacts. One of the largest museums in the world.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Millennium Park Exploration",
+      "category": "Outdoor",
+      "description": "Free outdoor urban park featuring art installations, beautiful gardens, Crown Fountain, and Jay Pritzker Pavilion for summer concerts. A must-visit public space.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Willis Tower Skydeck",
+      "category": "Outdoor",
+      "description": "Observation deck on America's second-tallest building offering 360-degree views from 1,353 feet up and the thrilling Ledge experience. Unparalleled city vistas.",
+      "durationHours": 2,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Lincoln Park Zoo",
+      "category": "Family",
+      "description": "Free zoo featuring exotic animals, beautiful landscaping, and lakefront views along Lincoln Park. Great for families and casual nature walks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Chicago History Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum detailing Chicago's history from Native Americans through modern times with interactive exhibits. Discover stories that shaped the city.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Wicker Park Neighborhood Exploration",
+      "category": "Outdoor",
+      "description": "Trendy northwest neighborhood featuring street art, vintage shops, craft breweries, and diverse restaurants. Perfect for wandering and discovering local culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "hidden-gems",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Museum of Science and Industry",
+      "category": "Family",
+      "description": "Massive science museum with interactive exhibits, submarine tours, and OMNIMAX films exploring technology and natural phenomena. Endlessly engaging for all ages.",
+      "durationHours": 5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "family",
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Cloud Gate Reflections",
+        "description": "Capture the iconic Bean's mirror surface reflecting the Chicago skyline, clouds, and surrounding crowds in artistic ways.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for fewer crowds, golden hour for warm reflections",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chicago River Architecture",
+        "description": "Photograph stunning bridges and reflected skyscrapers from street level or from a kayak for unique water perspectives.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dramatic lighting on building facades",
+        "category": "Architecture"
+      },
+      {
+        "name": "Navy Pier at Sunset",
+        "description": "Capture the Ferris wheel and pier lights against dramatic lake sunsets with colorful sky reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before to after sunset for best color",
+        "category": "Night"
+      },
+      {
+        "name": "Willis Tower from Below",
+        "description": "Shoot upward to capture the tapered top of Willis Tower against blue sky, creating dramatic perspective lines.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for clear sky contrast, avoid harsh shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lake Michigan Shoreline",
+        "description": "Photograph the peaceful beach, waves, and lakefront skyline from various vantage points along the 26-mile shoreline.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on water and beach",
+        "category": "Landscape"
+      },
+      {
+        "name": "Wicker Park Street Art",
+        "description": "Explore vibrant murals and graffiti art throughout the neighborhood for colorful, expressive architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday with overcast skies for even color saturation",
+        "category": "Street"
+      },
+      {
+        "name": "Millennium Park Skyline Framed",
+        "description": "Use park structures and sculptures to frame distant downtown buildings and create layered compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour or golden hour for dramatic sky colors",
+        "category": "Architecture"
+      },
+      {
+        "name": "Downtown Street Level",
+        "description": "Capture urban street life, pedestrians, and building details from ground-level perspective among the hustle and bustle.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning for sunlit building facades, evening for shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Lincoln Park Lakefront",
+        "description": "Photograph serene lakeside scenes with trees, water, and distant skyline from this peaceful neighborhood escape.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for calm water and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Chicago Elevated Trains",
+        "description": "Document the iconic L trains against architectural backdrops, capturing movement and urban transportation culture.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour for warm tones on train cars and tracks",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Lake Shore Drive Overlook",
+      "Montrose Point Bird Sanctuary",
+      "North Avenue Beach"
+    ],
+    "sunsetSpots": [
+      "Navy Pier",
+      "Lakefront Museum Campus",
+      "Promontory Point"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural vistas and capturing entire skylines",
+      "50mm prime for street photography and intimate portraits in urban settings",
+      "70-200mm telephoto for compressed skyline shots and architectural details from distance",
+      "10-24mm ultra-wide for dramatic Willis Tower perspectives and Bean reflections"
+    ],
+    "goldenHourNotes": "Chicago's golden hour is particularly stunning along Lake Michigan and the Chicago River, where warm light bounces off water and glass buildings. The hour before sunset offers rich amber tones perfect for architectural photography, while post-sunset blue hour creates dramatic silhouettes against the skyline. Reflections on the wet pavement after rain add another dimension to street and architectural photography.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -3,
+        "rainfallMM": 41
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 38
+      },
+      {
+        "month": 3,
+        "avgTempC": 4,
+        "rainfallMM": 51
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 76
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 89
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 91
+      },
+      {
+        "month": 7,
+        "avgTempC": 26,
+        "rainfallMM": 84
+      },
+      {
+        "month": 8,
+        "avgTempC": 25,
+        "rainfallMM": 76
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 76
+      },
+      {
+        "month": 10,
+        "avgTempC": 14,
+        "rainfallMM": 66
+      },
+      {
+        "month": 11,
+        "avgTempC": 8,
+        "rainfallMM": 66
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 51
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Chicago experiences four distinct seasons with cold, snowy winters and warm, pleasant summers. Spring and fall offer ideal temperatures and less extreme weather, making them perfect for visiting.",
+    "summary": "Chicago has a humid continental climate with frigid winters averaging -3°C and warm summers around 26°C. The city receives moderate precipitation year-round, with slightly higher rainfall in spring and early summer months."
+  },
+  "hotels": [
+    {
+      "name": "HI Chicago Downtown Hostel",
+      "neighborhood": "Loop",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Social and budget-friendly hostel in the Loop with dorm and private rooms, communal kitchens, and daily events connecting travelers."
+    },
+    {
+      "name": "The Chicago Athletic Association",
+      "neighborhood": "Loop",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Stylish boutique hotel in a historic building featuring rooftop bar, gym, and modern amenities with personalized service in downtown Chicago."
+    },
+    {
+      "name": "Four Seasons Hotel Chicago",
+      "neighborhood": "Loop",
+      "pricePerNightUSD": 520,
+      "category": "Luxury",
+      "description": "Ultra-luxurious 5-star hotel with panoramic Lake Michigan views, world-class spa, fine dining, and impeccable service in a prime location."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDaGljYWdvJTIwc2t5bGluZSUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzgxMzAzMDE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

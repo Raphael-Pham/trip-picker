@@ -1,0 +1,461 @@
+{
+  "id": "queenstown-new-zealand",
+  "city": "Queenstown",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "ZQN",
+    "CHC",
+    "AKL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "adventure",
+    "photography",
+    "foodie",
+    "standard",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 82,
+    "photography": 95,
+    "activities": 98,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 280,
+      "maxPerDayUSD": 550
+    }
+  ],
+  "unsplashQuery": "Queenstown mountains lake",
+  "summary": "Queenstown is New Zealand's adventure capital, nestled on the shores of Lake Wakatipu with dramatic mountain backdrops and world-class outdoor activities. From bungee jumping and jet boating to hiking and skiing, this lakeside town offers unparalleled thrills combined with exceptional dining, craft beverages, and stunning natural photography opportunities. The region perfectly balances adrenaline-pumping adventures with moments of serene beauty and relaxation.",
+  "restaurants": [
+    {
+      "name": "Rātā",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant featuring contemporary New Zealand cuisine with focus on locally-sourced ingredients and wine pairings from Central Otago vineyards.",
+      "mustTry": "Venison Wellington with berry gastrique"
+    },
+    {
+      "name": "Botswana Butchery",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Upscale steakhouse offering premium cuts of New Zealand beef and lamb cooked over wood fire, with elegant ambiance and refined cocktails.",
+      "mustTry": "Prime ribeye with burnt onion cream"
+    },
+    {
+      "name": "Tasty Kebabs",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular casual eatery serving Turkish kebabs, wraps, and salads perfect for a quick, affordable meal after adventure activities.",
+      "mustTry": "Lamb shish kebab with special sauce"
+    },
+    {
+      "name": "The Mufti House",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary café and restaurant housed in a historic building, featuring fusion cuisine, exceptional coffee, and a vibrant atmosphere.",
+      "mustTry": "Crispy duck salad with ginger dressing"
+    },
+    {
+      "name": "Gantley's Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Intimate fine dining establishment showcasing seasonal menus with innovative techniques and curated wine selections from boutique New Zealand producers.",
+      "mustTry": "Pan-seared scallops with truffle velouté"
+    },
+    {
+      "name": "Moonbar Espresso",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved local café roasting specialty coffee on-site, serving pastries, breakfast bowls, and light lunch options with excellent service.",
+      "mustTry": "Flat white with house blend espresso"
+    },
+    {
+      "name": "Noida Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic Indian restaurant offering flavorful curries, tandoori specialties, and vegetarian options in a warm, welcoming setting.",
+      "mustTry": "Butter chicken with garlic naan"
+    },
+    {
+      "name": "Azul Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Waterfront fine dining establishment with Mediterranean-inspired cuisine, premium wine collection, and panoramic lake and mountain views.",
+      "mustTry": "Grilled fish of the day with seasonal vegetables"
+    },
+    {
+      "name": "Portobello Bar & Grill",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Casual yet sophisticated restaurant serving New Zealand fare including venison, fish, and lamb with lakeside seating and craft beer selection.",
+      "mustTry": "Grilled hapuka with citrus beurre blanc"
+    },
+    {
+      "name": "Big Mama's Italian Kitchen",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-run Italian restaurant offering homemade pasta, risotto, and traditional dishes in a cozy atmosphere with authentic recipes.",
+      "mustTry": "Pappardelle al ragù di cervo"
+    },
+    {
+      "name": "Subway",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick-service sandwich shop providing fast, customizable meal options ideal for travelers and adventure enthusiasts on a budget.",
+      "mustTry": "Turkey and ham sub with all toppings"
+    },
+    {
+      "name": "The Pāmu Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant celebrating local producers with rotating seasonal menus, craft cocktails, and a commitment to sustainable dining.",
+      "mustTry": "Grass-fed beef ribeye with mushroom jus"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Bungy Jumping at Kawarau Bridge",
+      "category": "Adventure",
+      "description": "Experience one of the world's most iconic bungy jumps from the historic 43-meter Kawarau Bridge with a plunge into the turquoise river below.",
+      "durationHours": 2,
+      "estimatedCostUSD": 210,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Jet Boating on Lake Wakatipu",
+      "category": "Adventure",
+      "description": "High-speed jet boat tour through narrow canyons and across the pristine lake, offering adrenaline-filled thrills and spectacular scenery.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 145,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Ben Lomond Track Hike",
+      "category": "Outdoor",
+      "description": "Challenging full-day hike ascending 1,748 meters with panoramic 360-degree views of the Remarkables, Lake Wakatipu, and surrounding mountains.",
+      "durationHours": 7,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Skydiving with Nzone",
+      "category": "Adventure",
+      "description": "Tandem skydiving experience jumping from 15,000 feet with breathtaking aerial views of the Southern Alps, lakes, and fjords.",
+      "durationHours": 3,
+      "estimatedCostUSD": 280,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "The Remarkables Ski Field",
+      "category": "Outdoor",
+      "description": "World-class ski and snowboard resort with varied terrain, modern facilities, and stunning mountain vistas (seasonal: June-September).",
+      "durationHours": 6,
+      "estimatedCostUSD": 125,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Lake Wakatipu Scenic Cruise",
+      "category": "Outdoor",
+      "description": "Leisurely vintage steamship cruise across the tranquil lake with storytelling, refreshments, and opportunities to spot native wildlife.",
+      "durationHours": 2,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Arrowtown Autumn Walk",
+      "category": "Outdoor",
+      "description": "Picturesque small-town exploration featuring stunning golden autumn foliage, historic gold rush architecture, and lakeside pathways.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Glenorchy-Paradise Tour",
+      "category": "Outdoor",
+      "description": "Full-day guided scenic drive through pristine wilderness to filming locations and remote backcountry with hiking opportunities.",
+      "durationHours": 8,
+      "estimatedCostUSD": 165,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Millbrook Resort Golf Course",
+      "category": "Outdoor",
+      "description": "Championship 18-hole golf course set in stunning mountain scenery, suitable for all skill levels with professional tuition available.",
+      "durationHours": 4,
+      "estimatedCostUSD": 180,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Wine Tasting at Central Otago Wineries",
+      "category": "Cultural",
+      "description": "Experience world-renowned Pinot Noir and Sauvignon Blanc at boutique vineyards in nearby Arrowtown and Gibbston Valley.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Parasailing & Water Sports",
+      "category": "Adventure",
+      "description": "Various water-based activities including parasailing, wakeboarding, and kayaking on Lake Wakatipu with professional instruction.",
+      "durationHours": 2,
+      "estimatedCostUSD": 135,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Queenstown Gardens Picnic",
+      "category": "Family",
+      "description": "Beautiful public gardens perfect for casual walks, picnicking, and enjoying native plants with views of the Remarkables mountains.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Lake Wakatipu Waterfront",
+        "description": "Golden hour reflections of the Remarkables mountain range mirrored in calm lake waters with historic steamship in foreground.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise and sunset during calm weather",
+        "category": "Landscape"
+      },
+      {
+        "name": "The Remarkables Range",
+        "description": "Dramatic jagged mountain peaks with vibrant alpine colors and ever-changing light, accessible from multiple vantage points around town.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dramatic shadow and light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Arrowtown Autumn Trees",
+        "description": "Golden willows and poplars reflecting in Lake Hayes creating iconic New Zealand landscape imagery (best March-April).",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning mist and autumn color peak",
+        "category": "Landscape"
+      },
+      {
+        "name": "Milford Sound (day trip)",
+        "description": "Stunning fjord landscape with waterfalls, wildlife, and dramatic canyon walls accessible via scenic bus or plane.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds arrive",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cecil Peak Lookout",
+        "description": "Panoramic vantage point overlooking Lake Wakatipu, surrounding mountains, and the town below with 180-degree photo opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunset for warm mountain tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Shotover Jet Canyon",
+        "description": "Dramatic canyon walls and rushing river during jet boat passage, capturing action and geological features simultaneously.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for clear canyon wall details",
+        "category": "Action"
+      },
+      {
+        "name": "Glenorchy Pier",
+        "description": "Vintage wooden jetty projecting into pristine turquoise water with mountain backdrop, perfect for reflection and composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm pier wood tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "The Mall Street",
+        "description": "Charming pedestrian thoroughfare with historic architecture, boutique shopfronts, and vibrant street life perfect for lifestyle photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for architectural details",
+        "category": "Street"
+      },
+      {
+        "name": "Coronet Peak Ski Field",
+        "description": "Alpine terrain with snow-covered peaks, ski runs, and panoramic valley views offering dramatic seasonal landscape photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning after fresh snow",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ben Lomond Summit",
+        "description": "Highest accessible point with 360-degree mountain panoramas, pristine wilderness, and dramatic weather conditions ideal for landscape photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear mornings before afternoon clouds",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Ben Lomond Summit",
+      "Cecil Peak Lookout",
+      "Lake Wakatipu Waterfront"
+    ],
+    "sunsetSpots": [
+      "The Remarkables Range",
+      "Glenorchy Pier",
+      "Arrowtown Lake Hayes"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle: Capturing expansive mountain landscapes and panoramic lake vistas",
+      "50-85mm prime: Isolating details of autumn foliage and wildlife with natural bokeh",
+      "100-400mm telephoto: Compressing mountain layers and capturing distant landscape details from accessible viewpoints",
+      "Circular polarizer filter: Enhancing lake reflections and reducing water surface glare during golden hours"
+    ],
+    "goldenHourNotes": "Queenstown's latitude provides extended golden hours during shoulder seasons (March-April, September-October). The Remarkables range casts dramatic shadows in early morning light, while evening sun turns lake reflections into molten gold. Winter sunrise timing (8:00-8:30 AM) allows extended pre-dawn shooting, and clear nights offer exceptional star photography opportunities.",
+    "overallDifficulty": "Advanced"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 21,
+        "rainfallMM": 48
+      },
+      {
+        "month": 2,
+        "avgTempC": 21,
+        "rainfallMM": 40
+      },
+      {
+        "month": 3,
+        "avgTempC": 19,
+        "rainfallMM": 38
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 48
+      },
+      {
+        "month": 5,
+        "avgTempC": 11,
+        "rainfallMM": 54
+      },
+      {
+        "month": 6,
+        "avgTempC": 8,
+        "rainfallMM": 64
+      },
+      {
+        "month": 7,
+        "avgTempC": 7,
+        "rainfallMM": 58
+      },
+      {
+        "month": 8,
+        "avgTempC": 9,
+        "rainfallMM": 50
+      },
+      {
+        "month": 9,
+        "avgTempC": 12,
+        "rainfallMM": 45
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 48
+      },
+      {
+        "month": 11,
+        "avgTempC": 18,
+        "rainfallMM": 45
+      },
+      {
+        "month": 12,
+        "avgTempC": 20,
+        "rainfallMM": 52
+      }
+    ],
+    "bestMonths": [
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "seasonality": "Queenstown experiences distinct seasons with mild summers (December-February), cold winters (June-August) ideal for skiing, and beautiful shoulder seasons with autumn foliage in March-April. Winter brings snow to ski fields and surrounding peaks but also the highest rainfall and shorter daylight hours.",
+    "summary": "The region features alpine and temperate climate zones with significant elevation changes affecting local weather. Visitors should prepare for rapidly changing conditions, layered clothing, and intense UV exposure due to Southern Hemisphere latitude and altitude."
+  },
+  "hotels": [
+    {
+      "name": "Nomad Backpackers Lodge",
+      "neighborhood": "Downtown Queenstown",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Social hostel with shared dormitory and private rooms, featuring communal kitchen, bar, and organized group activities near Lake Wakatipu."
+    },
+    {
+      "name": "The Rees Hotel & Luxury Apartments",
+      "neighborhood": "Waterfront District",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Upscale lakefront hotel offering elegant rooms, full-service spa, fine dining restaurant, and direct access to Queenstown Gardens."
+    },
+    {
+      "name": "Matakauri Lodge",
+      "neighborhood": "Glenorchy (30km from Queenstown)",
+      "pricePerNightUSD": 520,
+      "category": "Luxury",
+      "description": "Ultra-luxury lodge featuring private suites with floor-to-ceiling windows overlooking Lake Wakatipu, gourmet dining, and personalized concierge services."
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "id": "san-francisco-usa",
+  "city": "San Francisco",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SFO",
+    "OAK",
+    "SJC"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 95,
+    "photography": 92,
+    "activities": 88,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "San Francisco Golden Gate Bridge",
+  "summary": "San Francisco is a vibrant coastal city renowned for its iconic Golden Gate Bridge, steep rolling hills, and world-class dining scene spanning diverse cuisines. This historic city blends cutting-edge innovation with Victorian architecture, offering exceptional photography opportunities and outdoor adventures from bay views to rugged coastal cliffs.",
+  "restaurants": [
+    {
+      "name": "Mission District Taqueria",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Mexican street tacos with high-quality meats and fresh ingredients in the heart of the Mission District. A quintessential San Francisco experience offering excellent value.",
+      "mustTry": "Carne asada tacos"
+    },
+    {
+      "name": "Swan Oyster Depot",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic seafood counter established in 1912 serving fresh oysters, clams, and seafood cocktails. Located near Polk Street with standing-room seating and authentic Bay Area charm.",
+      "mustTry": "Oyster shooters"
+    },
+    {
+      "name": "Tartine Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Legendary French-style bakery famous for sourdough bread and pastries that draw long lines daily. The epitome of San Francisco's artisanal food culture.",
+      "mustTry": "Grilled cheese sandwich on country loaf"
+    },
+    {
+      "name": "State Bird Provisions",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Innovative American restaurant serving creative small plates presented via dim sum cart. An interactive dining experience showcasing California's fresh ingredients.",
+      "mustTry": "Seasonal vegetable dishes"
+    },
+    {
+      "name": "Namu Shoyu",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Korean-Japanese fusion restaurant in the Mission offering artistic plating and bold flavors. Combines traditional techniques with contemporary culinary innovation.",
+      "mustTry": "Koji-aged ribeye with miso butter"
+    },
+    {
+      "name": "Rich Table",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant in the Hayes Valley neighborhood emphasizing seasonal California produce and creative preparations. Known for vibrant atmosphere and excellent cocktails.",
+      "mustTry": "Roasted chicken with seasonal vegetables"
+    },
+    {
+      "name": "Quince",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Michelin three-star restaurant in Pacific Heights showcasing progressive Italian cuisine using premium ingredients. An elevated dining experience with impeccable service.",
+      "mustTry": "Multi-course tasting menu"
+    },
+    {
+      "name": "Atelier Crenn",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Innovative French fine dining restaurant in Hayes Valley with artistic presentation and poetic cuisine. Chef Dominique Crenn's signature progressive cooking style.",
+      "mustTry": "Onomatopoeia dish"
+    },
+    {
+      "name": "La Taqueria",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Award-winning Mission District taqueria serving gourmet Mexican cuisine with fresh, quality ingredients. Small restaurant with consistent excellence and strong community following.",
+      "mustTry": "Carnitas tacos with caramelized onions"
+    },
+    {
+      "name": "Brenda's French Soul Food",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Tenderloin neighborhood restaurant blending French and Creole influences with Southern comfort food style. Intimate setting with passionate ownership and authentic flavors.",
+      "mustTry": "Chicken and andouille gumbo"
+    },
+    {
+      "name": "Chez Panisse",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Berkeley-based farm-to-table pioneer that influenced California cuisine movement. While technically in Berkeley, it's accessible via Bay transit and represents Bay Area dining excellence.",
+      "mustTry": "Seasonal menu based on local harvest"
+    },
+    {
+      "name": "Burma Superstar",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular Burmese restaurant in Japantown offering authentic Southeast Asian flavors and generous portions at affordable prices. Long lines indicate the quality and popularity.",
+      "mustTry": "Shan noodles"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Golden Gate Bridge Walk",
+      "category": "Outdoor",
+      "description": "Iconic 1.7-mile pedestrian crossing of the world-famous suspension bridge with panoramic bay and city views. One of the most photographed landmarks in the world.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Cable Car Rides",
+      "category": "Outdoor",
+      "description": "Historic street cars offering scenic routes through hilly neighborhoods including iconic North Beach, Chinatown, and Nob Hill. Essential San Francisco experience with charming vintage charm.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Alcatraz Island Tour",
+      "category": "Cultural",
+      "description": "Guided visit to the famous former federal penitentiary with audio tour of historic cells and stories. Includes ferry ride with Golden Gate Bridge views and compelling history.",
+      "durationHours": 3,
+      "estimatedCostUSD": 41,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Golden Gate Park Exploration",
+      "category": "Outdoor",
+      "description": "1,017-acre urban park featuring gardens, museums, lakes, and scenic trails. Home to the California Academy of Sciences, de Young Museum, and Japanese Tea Garden.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Chinatown Walking Tour",
+      "category": "Cultural",
+      "description": "Explore historic neighborhoods with narrow alleys, traditional temples, authentic markets, and dim sum restaurants. Discover Chinese heritage and local culture in this vibrant enclave.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Painted Ladies Photography",
+      "category": "Outdoor",
+      "description": "Iconic row of Victorian and Edwardian houses at Alamo Square with San Francisco skyline backdrop. Quintessential San Francisco photo opportunity with postcard-perfect views.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography"
+      ]
+    },
+    {
+      "name": "Bay Area Bike Tour",
+      "category": "Adventure",
+      "description": "Rent bikes and explore the Embarcadero, waterfront parks, and ferry communities. Scenic routes with bay views and access to hidden neighborhoods accessible by cycling.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Mission District Street Art Walk",
+      "category": "Cultural",
+      "description": "Self-guided tour through colorful murals and street art in the vibrant Mission District. Showcase of local artists and political expression with constantly evolving artwork.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "California Academy of Sciences",
+      "category": "Indoor",
+      "description": "World-class natural history museum with planetarium, aquarium, and living roof in Golden Gate Park. Interactive exhibits perfect for all ages with unique architecture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Lands End Coastal Trail",
+      "category": "Outdoor",
+      "description": "Scenic 3.4-mile clifftop trail with dramatic ocean views, hidden beaches, and shipwreck ruins at Land's End. Stunning coastline hike with photography opportunities.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ferry Building Marketplace",
+      "category": "Foodie",
+      "description": "Historic 1898 building housing artisanal food vendors, farmers market, and gourmet shops. Bay front location with local producers and prepared foods representing California cuisine.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rooftop Bars and City Views",
+      "category": "Nightlife",
+      "description": "Explore top venues like Top of the Mark, Cityscape, or Loft offering 360-degree city views with drinks and sunset opportunities. Prime locations for evening entertainment and photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Golden Gate Bridge Vista Point",
+        "description": "Iconic north-facing overlook providing classic Golden Gate Bridge framing with Marin Headlands backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light, midday for clear visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lands End Labyrinth",
+        "description": "Clifftop trail featuring dramatic coastal geology, crashing waves, and Golden Gate Bridge sightings in distance.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon light with fog banks creating atmospheric scenes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Painted Ladies at Alamo Square",
+        "description": "Iconic Victorian row houses with downtown skyline creating perfect compositional framing for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light and fewer crowds, blue hour for city lights",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chinatown Dragon's Gate",
+        "description": "Historic ornamental gate entrance with vibrant colors and traditional Chinese architecture in busy pedestrian area.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light before crowds arrive, red lanterns glow at dusk",
+        "category": "Street"
+      },
+      {
+        "name": "Twin Peaks Summit",
+        "description": "Highest point in San Francisco offering 360-degree city views with bridges, bay, and neighborhoods sprawling below.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise for clear air, dusk for city lights and moody skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ferry Building Clock Tower",
+        "description": "Restored 1898 landmark with Romanesque architecture reflected in waterfront with sailboats and bay views.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones on clock tower, blue hour for architectural details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Mission District Murals",
+        "description": "Kaleidoscopic street art on building walls including political imagery, portraits, and cultural expressions throughout neighborhoods.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for vibrant color saturation, overcast for even lighting without harsh shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Embarcadero Waterfront Pier",
+        "description": "Historic piers with sailboats, sea lions, and bay views creating layered compositional opportunities with water reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm water reflections and dramatic pier shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Palace of Fine Arts",
+        "description": "Neoclassical 1915 exposition building with lagoon reflection and elegant dome architecture in peaceful setting.",
+        "difficulty": "Beginner",
+        "bestTime": "Dawn for soft light reflection in still water, dusk for warm architectural glow",
+        "category": "Architecture"
+      },
+      {
+        "name": "Market Street Urban Photography",
+        "description": "Bustling downtown corridor with historic streetcars, neon signs, and dynamic street scenes capturing urban energy.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for neon glow and dramatic shadows, overcast for even street lighting",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Twin Peaks Summit",
+      "Lands End Coastal Trail",
+      "Marin Headlands Overlook"
+    ],
+    "sunsetSpots": [
+      "Golden Gate Bridge Vista Point",
+      "Twin Peaks Summit",
+      "Palace of Fine Arts Lagoon"
+    ],
+    "lensRecommendations": [
+      "Wide-angle 16-35mm for expansive city skyline and bridge compositions",
+      "Standard 35-85mm for street photography and architectural details in Chinatown and Mission",
+      "Telephoto 70-200mm for compressed perspectives of bridges and distant landmarks from elevated viewpoints",
+      "Prime 24mm or 50mm for intimate street scenes and urban environmental portraits"
+    ],
+    "goldenHourNotes": "San Francisco's fog and coastal location create unique golden hour dynamics. Morning light often burns through fog by 9-10am, while evening light can be blocked by fog rolling in from the coast. Twin Peaks and elevated locations offer most reliable golden hour access. Waterfront locations like Ferry Building and Embarcadero provide excellent reflection opportunities during golden hour with minimal fog interference.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 9,
+        "rainfallMM": 120
+      },
+      {
+        "month": 2,
+        "avgTempC": 10,
+        "rainfallMM": 115
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 100
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 65
+      },
+      {
+        "month": 5,
+        "avgTempC": 15,
+        "rainfallMM": 35
+      },
+      {
+        "month": 6,
+        "avgTempC": 17,
+        "rainfallMM": 15
+      },
+      {
+        "month": 7,
+        "avgTempC": 18,
+        "rainfallMM": 5
+      },
+      {
+        "month": 8,
+        "avgTempC": 18,
+        "rainfallMM": 10
+      },
+      {
+        "month": 9,
+        "avgTempC": 17,
+        "rainfallMM": 15
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 45
+      },
+      {
+        "month": 11,
+        "avgTempC": 12,
+        "rainfallMM": 110
+      },
+      {
+        "month": 12,
+        "avgTempC": 10,
+        "rainfallMM": 130
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "San Francisco features a mild Mediterranean climate with cool summers and mild winters. September through October offers the warmest and most reliably sunny weather, while June through August can be surprisingly cool with frequent fog.",
+    "summary": "San Francisco enjoys year-round mild temperatures ranging from 9-18°C (48-64°F) with minimal seasonal variation. Winter months bring occasional rain while summer remains dry, though coastal fog is common, especially early mornings."
+  },
+  "hotels": [
+    {
+      "name": "HI San Francisco Downtown Hostel",
+      "neighborhood": "Downtown/Union Square",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Social hostel with private and dormitory rooms, kitchen facilities, and common areas in central location near cable cars and attractions."
+    },
+    {
+      "name": "Phoenix Hotel",
+      "neighborhood": "Tenderloin",
+      "pricePerNightUSD": 150,
+      "category": "Mid-range",
+      "description": "Quirky boutique hotel with artistic design, pool, and rock-and-roll vibe near vibrant nightlife and cultural venues."
+    },
+    {
+      "name": "Fairmont Heritage Place Ghirardelli Square",
+      "neighborhood": "Fishermans Wharf",
+      "pricePerNightUSD": 550,
+      "category": "Luxury",
+      "description": "Luxury waterfront all-suite hotel in historic chocolate factory building with bay views, spa services, and premium dining."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW4lMjBGcmFuY2lzY28lMjBHb2xkZW4lMjBHYXRlJTIwQnJpZGdlfGVufDF8MHx8fDE3ODEzMDMwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

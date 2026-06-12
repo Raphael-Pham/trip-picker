@@ -1,0 +1,464 @@
+{
+  "id": "osaka-japan",
+  "city": "Osaka",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "KIX",
+    "ITM",
+    "UKB"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 95,
+    "photography": 85,
+    "activities": 90,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 50,
+      "maxPerDayUSD": 80
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Osaka Castle Japan",
+  "summary": "Osaka is Japan's vibrant kitchen and entertainment hub, famous for its street food culture, bustling markets, and neon-lit nightlife. With iconic landmarks like Osaka Castle, world-class museums, and easy access to Kyoto and Kobe, it offers the perfect blend of urban energy and cultural exploration. The city's warm hospitality and affordable prices make it an ideal base for exploring the Kansai region.",
+  "restaurants": [
+    {
+      "name": "Kiji",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Famous for okonomiyaki (savory pancakes) since 1945, this Hiroshima-style okonomiyaki shop attracts crowds with its iron griddle cooking and theatrical presentation. The chef flips ingredients with practiced precision right before your eyes.",
+      "mustTry": "Okonomiyaki with shrimp and squid"
+    },
+    {
+      "name": "Dotonbori Okonomiyaki Kiji",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Budget-friendly okonomiyaki restaurant in the heart of Dotonbori with standing counter seating and quick service. A local favorite for authentic street food experience.",
+      "mustTry": "Vegetable okonomiyaki"
+    },
+    {
+      "name": "Mizuki",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred kappo-style restaurant offering intimate counter seating with seasonal kaiseki preparations. Chef crafts each course with meticulous attention to ingredient quality and presentation.",
+      "mustTry": "Seasonal kaiseki multi-course dinner"
+    },
+    {
+      "name": "Kushikatsu Daruma",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Popular chain specializing in kushikatsu (deep-fried skewers) with a fun, casual atmosphere. Diners dip their skewers in shared sauce while mingling with fellow guests.",
+      "mustTry": "Assorted kushikatsu platter"
+    },
+    {
+      "name": "Takoyaki Museum Osaka",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Multi-vendor food court dedicated entirely to takoyaki with vendors from across Osaka showcasing regional variations. Perfect for sampling different styles in one location.",
+      "mustTry": "Takoyaki from Aizuya"
+    },
+    {
+      "name": "Ichiran",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular tonkotsu ramen chain with customizable broth intensity and private booth seating for a personalized dining experience. Known for consistent quality and affordability.",
+      "mustTry": "Tonkotsu ramen with egg"
+    },
+    {
+      "name": "Ume no Chaya",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Traditional udon noodle restaurant near Osaka Castle with homemade noodles and dashi broth recipes passed down for generations. Cozy tatami seating creates an authentic atmosphere.",
+      "mustTry": "Kake udon with tempura"
+    },
+    {
+      "name": "Harukoma Sushi",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Conveyor belt sushi restaurant with fresh fish daily and reasonable prices, offering modern Japanese sushi culture. Located conveniently near Osaka Station.",
+      "mustTry": "Fresh seasonal sushi assortment"
+    },
+    {
+      "name": "Dotonbori Fugetsu",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic okonomiyaki restaurant operating for over 80 years in the lively Dotonbori district with theatrical griddle-top preparation. Tables overlook the Dotonbori River with neon reflections.",
+      "mustTry": "Okonomiyaki with pork belly"
+    },
+    {
+      "name": "Nemuro Hanamaru",
+      "category": "Midrange",
+      "priceRange": "$",
+      "description": "Hokkaido-style ramen restaurant known for delicate miso broth and quality toppings at reasonable prices. Compact but welcoming counter seating.",
+      "mustTry": "Miso ramen with scallops"
+    },
+    {
+      "name": "Matsusakagyu Yakiniku M",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Premium wagyu yakiniku restaurant specializing in Matsusaka beef, one of Japan's finest beef brands, with table-top grilling. Elegant private rooms available for special occasions.",
+      "mustTry": "Premium Matsusaka beef ribeye"
+    },
+    {
+      "name": "Osaka Castle Teahouse",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional tea house within Osaka Castle grounds serving matcha and traditional sweets with garden views. A serene cultural experience in a historic setting.",
+      "mustTry": "Matcha with seasonal wagashi"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Osaka Castle",
+      "category": "Cultural",
+      "description": "Iconic 16th-century castle with a modern museum inside featuring feudal history exhibits and samurai armor displays. The surrounding park offers cherry blossoms in spring and stunning views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Dotonbori Street Food Tour",
+      "category": "Foodie",
+      "description": "Walk through the neon-lit entertainment district sampling takoyaki, okonomiyaki, and fresh seafood from street vendors. Street performers and iconic landmarks create an energetic atmosphere.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Osaka Museum of History",
+      "category": "Cultural",
+      "description": "Modern museum with interactive exhibits tracing Osaka's 1,500-year history from ancient times through the present. Rooftop observation deck offers panoramic city views.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 13,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Shinsekai District Walk",
+      "category": "Outdoor",
+      "description": "Historic neighborhood filled with vintage shops, hidden izakayas, and retro atmosphere near Dotonbori. Explore narrow alleys with local vendors and street performers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Universal Studios Japan",
+      "category": "Family",
+      "description": "Major theme park with attractions based on popular films and franchises, including The Wizarding World of Harry Potter. Long lines and premium crowds during peak seasons.",
+      "durationHours": 8,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Osaka Aquarium",
+      "category": "Family",
+      "description": "One of the world's largest aquariums featuring a giant whale shark and diverse marine ecosystems across 11 levels. Located waterfront with surrounding Tempozan Harbor attractions.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kiyomizu-dera Temple Day Trip",
+      "category": "Cultural",
+      "description": "Easy train ride to Kyoto to visit the UNESCO-listed wooden temple with scenic hillside views and traditional Japanese architecture. Combines well with other Kyoto temples for a full day trip.",
+      "durationHours": 6,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kuromon Market Food Tour",
+      "category": "Foodie",
+      "description": "Over 190-year-old market with fresh produce, seafood, and prepared foods from local vendors. Sample uni (sea urchin), fresh sashimi, and seasonal specialties while exploring stalls.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "foodie",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Osaka City Air Loop Cycling",
+      "category": "Outdoor",
+      "description": "Rent bikes and explore the city along waterfront paths and dedicated cycling routes connecting parks and neighborhoods. Scenic loop around central Osaka with river views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sumiyoshi Taisha Shrine Visit",
+      "category": "Cultural",
+      "description": "Ancient Shinto shrine with unique architectural style and moss-covered stone pathways leading through forested grounds. Fewer crowds than major temples with authentic spiritual atmosphere.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Dotonbori River Cruise",
+      "category": "Outdoor",
+      "description": "Evening boat ride through illuminated Dotonbori district seeing neon reflections on water and famous landmarks from unique perspective. Romantic and atmospheric experience.",
+      "durationHours": 1,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Japanese Tea Ceremony Experience",
+      "category": "Cultural",
+      "description": "Hands-on workshop learning traditional matcha preparation and etiquette in authentic tea room setting. Includes instruction in proper movements and mindfulness practices.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Osaka Castle at Sunset",
+        "description": "Golden-lit castle reflected in surrounding moat with silhouetted park trees creating dramatic composition.",
+        "difficulty": "Beginner",
+        "bestTime": "45 minutes before sunset for golden light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dotonbori Neon Reflections",
+        "description": "Vibrant neon signs reflected in wet canal water after rain with bustling crowds and street food vendors.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening after dark, preferably after rain",
+        "category": "Night"
+      },
+      {
+        "name": "Shinsekai Vintage Streets",
+        "description": "Narrow alleyway lined with retro shops, vintage signage, and nostalgic architectural details with strong perspective lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or overcast day for even lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Tempozan Harbor Wheel",
+        "description": "Giant observation wheel at sunset with cityscape and waterfront creating layers of depth and color.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for warm colors and silhouettes",
+        "category": "Architecture"
+      },
+      {
+        "name": "Osaka Station Building Facade",
+        "description": "Modern architectural curves and geometric patterns of the iconic station with distinctive glass and steel design.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour for contrast or midday for detail clarity",
+        "category": "Architecture"
+      },
+      {
+        "name": "Kuromon Market Vendors",
+        "description": "Colorful displays of fresh seafood, produce, and prepared foods with energetic vendor interactions and market life.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning to early afternoon for activity and fresh light",
+        "category": "Street"
+      },
+      {
+        "name": "Okawa River Morning Light",
+        "description": "Serene river landscapes with early morning mist, traditional bridges, and reflected light creating peaceful atmosphere.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before sunrise light clears mist",
+        "category": "Landscape"
+      },
+      {
+        "name": "Sumiyoshi Taisha Stone Pathway",
+        "description": "Moss-covered stone path winding through forested shrine grounds with dappled light and traditional architecture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast day or dappled sunlight through trees",
+        "category": "Architecture"
+      },
+      {
+        "name": "Umeda Sky Building Night",
+        "description": "Illuminated modern skyscraper with futuristic design creating dramatic nighttime silhouette and cityscape backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Night from surrounding areas or blue hour",
+        "category": "Night"
+      },
+      {
+        "name": "Osaka Streets Street Photography",
+        "description": "Candid moments of locals, street vendors, and urban life captured in everyday scenarios with authentic cultural detail.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour for flattering light on subjects",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Osaka Castle Park eastern overlook",
+      "Tempozan Harbor Waterfront",
+      "Okawa River pedestrian bridge near sunrise point"
+    ],
+    "sunsetSpots": [
+      "Osaka Castle moat viewpoint",
+      "Tempozan Harbor Wheel surroundings",
+      "Dotonbori Canal embankment"
+    ],
+    "lensRecommendations": [
+      "24-70mm for versatile street and architecture photography capturing details and context",
+      "35mm fixed lens for compact traveling and authentic perspective in crowded markets",
+      "16-35mm ultra-wide for architectural drama and expansive night cityscape compositions"
+    ],
+    "goldenHourNotes": "Golden hour in Osaka is spectacular from 30 minutes before sunset extending 15 minutes after, providing warm light that beautifully illuminates the castle and reflects off water features. The neon district photography requires longer exposures during blue hour and early night when both ambient light and artificial neon achieve balanced exposure. Plan evening shoots near water features like Dotonbori Canal for compelling reflections of neon signs.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 45
+      },
+      {
+        "month": 2,
+        "avgTempC": 6,
+        "rainfallMM": 52
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 98
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 110
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 162
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 210
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 180
+      },
+      {
+        "month": 8,
+        "avgTempC": 31,
+        "rainfallMM": 165
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 140
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 85
+      },
+      {
+        "month": 11,
+        "avgTempC": 14,
+        "rainfallMM": 68
+      },
+      {
+        "month": 12,
+        "avgTempC": 8,
+        "rainfallMM": 55
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "seasonality": "Spring (March-May) and autumn (October-November) offer ideal temperatures, lower humidity, and pleasant conditions for sightseeing. Summer is hot and humid with occasional typhoons, while winter is mild but rainy.",
+    "summary": "Osaka experiences four distinct seasons with mild winters and hot summers typical of Japan's Kansai region. The city receives moderate rainfall year-round with peak precipitation during rainy season (tsuyu) in June and typhoon season in September."
+  },
+  "hotels": [
+    {
+      "name": "Hotel Relief Osaka",
+      "neighborhood": "Nishi-Nakajima, near USJ",
+      "pricePerNightUSD": 55,
+      "category": "Budget",
+      "description": "Modern budget chain hotel with clean rooms, convenient location near Universal Studios Japan, and efficient staff."
+    },
+    {
+      "name": "Daiwa Roynet Hotel Osaka-Kitahama",
+      "neighborhood": "Kitahama, near museums",
+      "pricePerNightUSD": 130,
+      "category": "Mid-range",
+      "description": "Business-class hotel with spacious rooms, kitchenette facilities, close proximity to Osaka Castle and museums, excellent service."
+    },
+    {
+      "name": "The Ritz-Carlton Osaka",
+      "neighborhood": "Umeda, city center",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury 5-star hotel occupying top floors of skyscraper with Michelin-starred restaurant, spa, and panoramic city views."
+    }
+  ]
+}

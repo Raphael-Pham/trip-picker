@@ -1,0 +1,464 @@
+{
+  "id": "miami-usa",
+  "city": "Miami",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MIA",
+    "FLL",
+    "PBI"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 92,
+    "photography": 88,
+    "activities": 90,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Miami beach sunset skyline",
+  "summary": "Miami is a vibrant tropical metropolis fusing Latin American culture with Art Deco architecture, world-class beaches, and an electrifying nightlife scene. From the colorful streets of Wynwood to the pristine waters of South Beach, the city offers exceptional photography opportunities, diverse culinary experiences, and year-round outdoor adventures. Perfect for those seeking sun, culture, and coastal sophistication.",
+  "restaurants": [
+    {
+      "name": "El Vecino",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual Cuban cafe serving authentic sandwiches and coffee in Little Havana. A local favorite for breakfast and quick lunch with traditional flavors.",
+      "mustTry": "Cubano sandwich"
+    },
+    {
+      "name": "La Mar by Gastón Acurio",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Peruvian seafood restaurant with oceanfront views at the Mandarin Oriental. Exceptional ceviche and creative coastal cuisine from renowned chef Acurio.",
+      "mustTry": "Mixed ceviche platter"
+    },
+    {
+      "name": "Juvia",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Pan-Latin fusion restaurant in Wynwood with vibrant atmosphere and innovative cocktails. Blends Peruvian, Brazilian, and African influences with modern technique.",
+      "mustTry": "Causa topped with tuna"
+    },
+    {
+      "name": "Garcia's Seafood Grille & Fish Market",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Waterfront seafood spot in Brickell with fresh daily catches and casual vibe. Great for stone crab in season and authentic Miami seafood culture.",
+      "mustTry": "Stone crab claws"
+    },
+    {
+      "name": "Stubborn Seed",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American restaurant by Michelin-trained chef in Wynwood. Features seasonal ingredients and creative plating in intimate setting.",
+      "mustTry": "Duck breast with cherry gastrique"
+    },
+    {
+      "name": "The Bazaar by José Andrés",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Spanish tapas and avant-garde cuisine at the SLS Hotel with theatrical presentation. Chef Andrés brings innovative cooking and social consciousness to Miami.",
+      "mustTry": "Pan con tomate with jamón ibérico"
+    },
+    {
+      "name": "Versailles Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic Cuban institution in Little Havana operating for decades with affordable authentic cuisine. Essential Miami cultural experience and local meeting spot.",
+      "mustTry": "Ropa vieja"
+    },
+    {
+      "name": "Peacock Garden Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Healthy vegetarian and vegan options in a botanical garden setting in Coconut Grove. Perfect for casual lunch with fresh ingredients and peaceful atmosphere.",
+      "mustTry": "Buddha bowl"
+    },
+    {
+      "name": "Juanita BMaximum",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Spanish restaurant showcasing haute cuisine techniques and premium ingredients. Offers refined dining experience with extensive wine selection.",
+      "mustTry": "Seafood paella"
+    },
+    {
+      "name": "Casa Tua",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Mediterranean restaurant in an intimate historic mansion in Wynwood with romantic ambiance. Features Spanish and Caribbean-influenced dishes.",
+      "mustTry": "Lamb chops with chimichurri"
+    },
+    {
+      "name": "Wynwood Yard",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Food hall with multiple vendors offering diverse cuisines from around the world. Great for sampling different cuisines at affordable prices.",
+      "mustTry": "Varies by vendor"
+    },
+    {
+      "name": "Naked Taco",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual taco spot with creative fillings and fresh ingredients across multiple locations. Perfect quick meal option with excellent quality-to-price ratio.",
+      "mustTry": "Fish tacos"
+    }
+  ],
+  "activities": [
+    {
+      "name": "South Beach Swim and Sunbathe",
+      "category": "Outdoor",
+      "description": "Iconic Miami beach with soft sand, lifeguards, and vibrant atmosphere. Perfect for swimming, people-watching, and soaking up the tropical sun.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Art Deco Historic District Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized tour of the world's largest collection of Art Deco architecture. Explore pastel buildings, boutiques, and cafes in South Beach.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Wynwood Walls Street Art Tour",
+      "category": "Cultural",
+      "description": "Explore massive colorful murals and street art installations in the trendy Wynwood neighborhood. Free to walk around or join guided tours for artist insights.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Everglades Airboat Tour",
+      "category": "Adventure",
+      "description": "Thrilling speedboat ride through pristine wetlands spotting alligators, manatees, and native birds. Immersive wildlife experience in Florida's natural treasure.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Vizcaya Museum & Gardens",
+      "category": "Cultural",
+      "description": "Stunning Italian Renaissance-style mansion with 10 acres of formal gardens overlooking Biscayne Bay. Features ornate rooms, decorative arts, and waterfront views.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Little Havana Cultural Walking Tour",
+      "category": "Cultural",
+      "description": "Immerse yourself in Cuban culture with cigar shops, street dominoes, murals, and authentic restaurants. Experience the heart of Miami's Latino heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking in Biscayne Bay",
+      "category": "Outdoor",
+      "description": "Paddle through turquoise waters spotting dolphins, manatees, and tropical fish. Serene experience with options for mangrove tours or reef exploration.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Pérez Art Museum Miami (PAMM)",
+      "category": "Indoor",
+      "description": "World-class contemporary art museum with modern architecture overlooking Biscayne Bay. Features cutting-edge exhibitions and impressive permanent collections.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Coconut Grove Street Stroll and Shopping",
+      "category": "Outdoor",
+      "description": "Charming bohemian neighborhood with galleries, boutiques, cafes, and waterfront parks. Perfect for casual exploration and people-watching in a relaxed setting.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Scuba Diving at Coral Reefs",
+      "category": "Adventure",
+      "description": "Dive among colorful coral formations and tropical fish in clear Atlantic waters. Multiple reef sites nearby suitable for certified divers of various levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Freedom Tower and Cuban Memorial Boulevard",
+      "category": "Cultural",
+      "description": "Historic 1925 tower serving as symbol of Cuban immigration and refuge. Offers panoramic city views and important cultural education about Miami's Cuban heritage.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nightlife at South Beach Clubs and Bars",
+      "category": "Nightlife",
+      "description": "Experience Miami's legendary nightclub scene with world-renowned DJs, rooftop bars, and nighttime beach clubs. Energy, music, and international crowd create unforgettable nights.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "South Beach Lifeguard Towers",
+        "description": "Iconic pastel-colored Art Deco lifeguard stands against ocean backdrop with perfect symmetry and color composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour sunrise or sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Wynwood Walls",
+        "description": "Massive vibrant street art murals in outdoor gallery providing endless colorful compositions and cultural street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for best light without crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Vizcaya Museum Waterfront",
+        "description": "Renaissance villa reflected in bay waters with manicured gardens and ornate architecture creating elegant landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for reflections and warm tones",
+        "category": "Architecture"
+      },
+      {
+        "name": "Little Havana Murals and Streets",
+        "description": "Colorful historic buildings, murals, and street scenes capturing vibrant Cuban-American culture and authentic neighborhood character.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light through afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Everglades Wildlife",
+        "description": "Alligators, herons, and native birds in natural wetland habitat providing authentic wildlife and landscape photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Miami Skyline from Brickell",
+        "description": "Modern skyscrapers reflected in Biscayne Bay creating dramatic urban landscape especially striking at night and during golden hour.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset and blue hour for city lights",
+        "category": "Architecture"
+      },
+      {
+        "name": "Biscayne Bay Sunset",
+        "description": "Open water vistas with dramatic sky colorations and fishing boats creating serene seascape compositions with vibrant light.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Freedom Tower Downtown",
+        "description": "Historic 1925 Mediterranean Revival tower with distinctive architecture and historical significance against urban backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or afternoon for side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Coconut Grove Marina",
+        "description": "Sailboats and waterfront cafes with tropical vegetation creating picturesque Mediterranean-style harbor scene perfect for travel photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour with warm waterside light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Miami Beach Nightlife and Neon Signs",
+        "description": "Neon-lit bars, restaurants, and street scenes capturing the energetic nighttime atmosphere and colorful urban night photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening and night with neon lights",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "South Beach Ocean Pier",
+      "Wynwood Walls",
+      "Vizcaya Museum Waterfront"
+    ],
+    "sunsetSpots": [
+      "Biscayne Bay from Brickell",
+      "Coconut Grove Waterfront",
+      "South Pointe Park Pier"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural compositions and street scenes",
+      "50mm prime for cultural portraits and intimate street photography",
+      "70-200mm telephoto for wildlife in Everglades and compressed urban landscapes",
+      "24mm for environmental portraits and overall scene documentation"
+    ],
+    "goldenHourNotes": "Miami's golden hour occurs around 7-7:30 AM and 6:30-7 PM year-round. The warm tropical light beautifully complements pastel Art Deco buildings and creates stunning reflections in Biscayne Bay. Plan visits to South Beach lifeguard towers, Vizcaya, and waterfront locations during these times for optimal photography conditions with soft directional light and minimal harsh shadows.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 20,
+        "rainfallMM": 51
+      },
+      {
+        "month": 2,
+        "avgTempC": 21,
+        "rainfallMM": 53
+      },
+      {
+        "month": 3,
+        "avgTempC": 23,
+        "rainfallMM": 64
+      },
+      {
+        "month": 4,
+        "avgTempC": 26,
+        "rainfallMM": 102
+      },
+      {
+        "month": 5,
+        "avgTempC": 28,
+        "rainfallMM": 147
+      },
+      {
+        "month": 6,
+        "avgTempC": 29,
+        "rainfallMM": 194
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 178
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 183
+      },
+      {
+        "month": 9,
+        "avgTempC": 29,
+        "rainfallMM": 216
+      },
+      {
+        "month": 10,
+        "avgTempC": 27,
+        "rainfallMM": 152
+      },
+      {
+        "month": 11,
+        "avgTempC": 24,
+        "rainfallMM": 76
+      },
+      {
+        "month": 12,
+        "avgTempC": 21,
+        "rainfallMM": 57
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "Winter (December-March) is the ideal season with comfortable temperatures around 20-23°C and minimal rainfall. Summer and early fall (June-October) brings intense heat, humidity, and afternoon thunderstorms with elevated hurricane risk during Atlantic hurricane season.",
+    "summary": "Miami features a tropical climate with hot, humid summers and warm, pleasant winters. The dry season runs November to April with perfect weather for outdoor activities, while the wet season from May to October brings frequent afternoon rainstorms and higher temperatures."
+  },
+  "hotels": [
+    {
+      "name": "The Thunderbird Hotel",
+      "neighborhood": "South Beach",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Retro-style Art Deco hotel with recently renovated rooms offering excellent value in prime South Beach location near beach and restaurants."
+    },
+    {
+      "name": "The Betsy Hotel",
+      "neighborhood": "South Beach",
+      "pricePerNightUSD": 195,
+      "category": "Mid-range",
+      "description": "Boutique Art Deco hotel featuring literary theme, rooftop pool, and personalized service in charming historic building with contemporary amenities."
+    },
+    {
+      "name": "Mandarin Oriental Miami",
+      "neighborhood": "Brickell",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury waterfront resort with spa, fine dining, impeccable service, and panoramic Biscayne Bay views from this iconic five-star property."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1582648273214-844ad913e7c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNaWFtaSUyMGJlYWNoJTIwc3Vuc2V0JTIwc2t5bGluZXxlbnwxfDB8fHwxNzgxMzAzMDE3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

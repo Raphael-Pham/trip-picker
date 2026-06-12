@@ -1,0 +1,464 @@
+{
+  "id": "montego-bay-jamaica",
+  "city": "Montego Bay",
+  "country": "Jamaica",
+  "region": "Caribbean",
+  "airportCodes": [
+    "MBJ",
+    "KIN",
+    "OCO"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 78,
+    "photography": 82,
+    "activities": 85,
+    "weather": 80
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Montego Bay Jamaica beach",
+  "summary": "Montego Bay is Jamaica's premier Caribbean beach destination, offering stunning turquoise waters, vibrant coral reefs, and a lively tourism infrastructure with world-class resorts and water sports. The city blends tropical relaxation with rich Jamaican culture, featuring colorful colonial architecture, reggae music, and exceptional local cuisine.",
+  "restaurants": [
+    {
+      "name": "The Pepperpot",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A family-run gem serving authentic Jamaican home cooking with fresh ingredients and traditional recipes passed down through generations.",
+      "mustTry": "Ackee and saltfish with bammy"
+    },
+    {
+      "name": "Scotchies",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Legendary spot famous for its jerk chicken cooked over pimento wood, delivering smoky, spiced perfection that draws locals and tourists alike.",
+      "mustTry": "Jerk chicken with festival bread"
+    },
+    {
+      "name": "Merril's Beach Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront establishment offering fresh seafood and Caribbean flavors with panoramic ocean views and a relaxed island atmosphere.",
+      "mustTry": "Whole grilled snapper"
+    },
+    {
+      "name": "Julia's Italian Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming Italian restaurant in the heart of town serving handmade pasta, fresh seafood risotto, and imported wines in an intimate setting.",
+      "mustTry": "Lobster pasta"
+    },
+    {
+      "name": "The Reef Club",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale beachfront restaurant featuring Caribbean fusion cuisine with an emphasis on fresh local seafood and creative presentations.",
+      "mustTry": "Pan-seared mahi-mahi with tropical fruit reduction"
+    },
+    {
+      "name": "MyStic Ridge Organic Farm & Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table dining experience in the hills above Montego Bay showcasing organic produce grown on-site with stunning vistas.",
+      "mustTry": "Farm vegetable medley with locally-raised protein"
+    },
+    {
+      "name": "Burgers & Conch Bar",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual waterfront establishment serving fresh conch salad, burgers, and cold beers with a laid-back beach bar vibe.",
+      "mustTry": "Cracked conch salad"
+    },
+    {
+      "name": "Groovy Grouper",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront seafood restaurant with a fun, colorful atmosphere serving Caribbean seafood specialties and tropical cocktails.",
+      "mustTry": "Fish cakes and grouper fingers"
+    },
+    {
+      "name": "RiRa Irish Pub",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "International pub fare in a colonial building offering hearty meals, local and imported beers, and live music entertainment.",
+      "mustTry": "Fish and chips"
+    },
+    {
+      "name": "Houseboat Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Unique waterfront dining on a historic houseboat offering fine Caribbean cuisine, sunset views, and an exclusive dining experience.",
+      "mustTry": "Grilled Caribbean lobster tail"
+    },
+    {
+      "name": "Pickup Sports Bar & Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual sports bar and grill serving jerk dishes, patties, and local comfort food with a friendly, social atmosphere.",
+      "mustTry": "Jerk pork patty"
+    },
+    {
+      "name": "Coral Cliff Dining",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Clifftop restaurant with breathtaking ocean views serving Mediterranean-Caribbean fusion cuisine and premium wines.",
+      "mustTry": "Pan-seared scallops with local spices"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Dunn's River Falls",
+      "category": "Outdoor",
+      "description": "Jamaica's most iconic waterfall, featuring cascading tiers dropping directly into a natural pool where visitors can swim and climb the limestone formations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Snorkeling at Montego Bay Marine Park",
+      "category": "Adventure",
+      "description": "Explore vibrant coral reefs teeming with tropical fish, sea turtles, and other marine life in crystal-clear Caribbean waters just offshore.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Glistening Waters Bioluscinescent Lagoon",
+      "category": "Adventure",
+      "description": "Experience nature's light show by kayaking through glowing blue waters filled with dinoflagellate microorganisms that emit light when disturbed.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Reggae Beach Day",
+      "category": "Relaxation",
+      "description": "Spend the day at Reggae Beach enjoying white sand, turquoise water, beach volleyball, and live reggae music with a tropical vibe.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Rose Hall Great House Tour",
+      "category": "Cultural",
+      "description": "Explore this restored 18th-century colonial mansion with its ornate furnishings, art collection, and fascinating stories of Jamaican plantation history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Zipline Adventure in Canopy Jungle",
+      "category": "Adventure",
+      "description": "Soar through the lush Jamaican canopy on multiple ziplines, experiencing adrenaline-pumping views of the tropical forest landscape.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Martha Brae River Bamboo Rafting",
+      "category": "Adventure",
+      "description": "Float peacefully down a pristine river on a traditional bamboo raft guided by a skilled poleman, surrounded by lush riverside vegetation.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Hip Strip Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll through Montego Bay's vibrant downtown, exploring colorful colonial buildings, local markets, art galleries, and authentic street food vendors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Scuba Diving with Caribbean Reef Adventures",
+      "category": "Adventure",
+      "description": "Discover underwater wonders including shipwrecks, coral gardens, and abundant marine life with certified dive guides exploring multiple reef systems.",
+      "durationHours": 4,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Croydon Plantation Tour",
+      "category": "Cultural",
+      "description": "Tour an operating banana plantation and tropical fruit garden, learning about agricultural practices with a scenic mountain backdrop.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Montego Bay Beach Club Day Pass",
+      "category": "Relaxation",
+      "description": "Access private beach facilities, poolside lounging, water sports equipment, and beach bar dining without overnight accommodation costs.",
+      "durationHours": 6,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "ATV Off-Road Adventure",
+      "category": "Adventure",
+      "description": "Ride all-terrain vehicles through jungle trails, waterfalls, and rural villages, experiencing Jamaica's natural landscape from an adventurous perspective.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Montego Bay Waterfront",
+        "description": "Scenic harbor views with colorful fishing boats, cruise ships, and colonial architecture reflected in calm blue waters.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Dunn's River Falls",
+        "description": "Cascading limestone terraces with turquoise pools creating stunning layered compositions with flowing water and lush jungle backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for even light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rose Hall Beach",
+        "description": "Pristine white sand beach with crystal-clear water and colonial ruins visible in the background creating dramatic contrasts.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Coral Reef Snorkel Site",
+        "description": "Underwater vibrant coral gardens and tropical fish creating colorful macro and wide-angle photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Mid-day when light penetrates water",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Hip Strip Downtown Alley",
+        "description": "Narrow colonial-era streets with colorful shutters, street murals, fruit vendors, and authentic local life unfolding naturally.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for soft light and activity",
+        "category": "Street"
+      },
+      {
+        "name": "Glistening Waters at Night",
+        "description": "Bioluminescent lagoon creates otherworldly blue glowing effects as kayakers disturb the water creating light trails.",
+        "difficulty": "Advanced",
+        "bestTime": "Nighttime in clear conditions",
+        "category": "Night"
+      },
+      {
+        "name": "Colonial Architecture Details",
+        "description": "Historic building facades with ornate shutters, archways, and weathered details telling stories of Jamaica's past.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones",
+        "category": "Architecture"
+      },
+      {
+        "name": "Negril Cliffs Drive",
+        "description": "Dramatic limestone cliffs overlooking the Caribbean Sea with sunset views and adventurous cliff-diving spots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon to sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Local Market Scenes",
+        "description": "Vibrant produce stalls, colorful vendors, and authentic Caribbean culture with rich textures and dynamic compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when market is busiest",
+        "category": "Street"
+      },
+      {
+        "name": "Martha Brae River at Dusk",
+        "description": "Serene river landscape with bamboo rafts silhouetted against golden sunset reflections and jungle greenery.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon approaching sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Doctor's Cave Beach",
+      "Montego Bay Waterfront Pier",
+      "Rose Hall Beach East"
+    ],
+    "sunsetSpots": [
+      "Hip Strip Waterfront Promenade",
+      "Negril Cliffs Overview",
+      "Martha Brae River Viewpoint"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape waterfalls and sweeping beach vistas",
+      "50-85mm prime for portrait work with local vendors and street photography",
+      "70-200mm telephoto for wildlife and compressed landscape compositions",
+      "Macro/close-up for coral reef details and market produce textures"
+    ],
+    "goldenHourNotes": "Montego Bay's golden hour occurs reliably year-round with optimal light between 6:30-7:30 AM and 5:30-6:30 PM. The tropical angle creates warm, directional light perfect for landscapes and architectural photography. Plan waterfront shoots during these windows to capture the Caribbean's signature warm tones.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 24,
+        "rainfallMM": 56
+      },
+      {
+        "month": 2,
+        "avgTempC": 24,
+        "rainfallMM": 43
+      },
+      {
+        "month": 3,
+        "avgTempC": 25,
+        "rainfallMM": 43
+      },
+      {
+        "month": 4,
+        "avgTempC": 26,
+        "rainfallMM": 107
+      },
+      {
+        "month": 5,
+        "avgTempC": 27,
+        "rainfallMM": 132
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 145
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 127
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 139
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 165
+      },
+      {
+        "month": 10,
+        "avgTempC": 26,
+        "rainfallMM": 175
+      },
+      {
+        "month": 11,
+        "avgTempC": 25,
+        "rainfallMM": 128
+      },
+      {
+        "month": 12,
+        "avgTempC": 24,
+        "rainfallMM": 81
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      12
+    ],
+    "seasonality": "Montego Bay has a tropical climate with warm temperatures year-round. The dry season (December-March) offers the most reliable weather, while May-October brings higher humidity and occasional tropical storms.",
+    "summary": "Expect warm temperatures between 24-28°C throughout the year with higher rainfall during summer months. Winter months deliver the most comfortable conditions for beach activities and outdoor exploration."
+  },
+  "hotels": [
+    {
+      "name": "Budgetel Montego Bay",
+      "neighborhood": "Downtown Montego Bay",
+      "pricePerNightUSD": 50,
+      "category": "Budget",
+      "description": "Basic, clean accommodation in town center offering value lodging near restaurants and attractions with modest amenities."
+    },
+    {
+      "name": "Coral Cliff Resort & Suites",
+      "neighborhood": "South Coast near Rose Hall",
+      "pricePerNightUSD": 140,
+      "category": "Mid-range",
+      "description": "All-inclusive resort featuring oceanfront rooms, multiple pools, restaurants, beach access, and water sports facilities for family-friendly vacation comfort."
+    },
+    {
+      "name": "Half Moon Resort",
+      "neighborhood": "Rose Hall Beach Area",
+      "pricePerNightUSD": 380,
+      "category": "Luxury",
+      "description": "Five-star beachfront luxury resort with private beach, championship golf course, spa, fine dining restaurants, and world-class water sports amenities."
+    }
+  ]
+}

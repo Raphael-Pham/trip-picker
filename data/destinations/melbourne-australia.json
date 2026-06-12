@@ -1,0 +1,466 @@
+{
+  "id": "melbourne-australia",
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "MEL",
+    "AVV",
+    "MEB"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 95,
+    "photography": 92,
+    "activities": 90,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Melbourne laneways street art",
+  "summary": "Melbourne is Australia's cultural capital, renowned for its world-class coffee scene, vibrant street art, and eclectic laneway culture. The city blends cosmopolitan dining, cutting-edge galleries, and stunning coastal scenery with the Great Ocean Road nearby, making it an ideal destination for food lovers and creative travelers.",
+  "restaurants": [
+    {
+      "name": "Hardware Societal",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Trendy laneway café in the heart of Melbourne's CBD serving exceptional espresso and Instagram-worthy brunch dishes. A local favorite for sourdough toast and artisanal coffee.",
+      "mustTry": "Smashed avocado on house-made sourdough"
+    },
+    {
+      "name": "Attica",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning fine dining restaurant pushing culinary boundaries with modern Australian cuisine. Located in Ripponlea with an extensive wine list and theatrical presentation.",
+      "mustTry": "Chef's tasting menu with native ingredients"
+    },
+    {
+      "name": "Chin Chin",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Southeast Asian small plates restaurant in Flinders Lane with bold flavors and excellent cocktails. Constantly bustling with a lively atmosphere and communal dining style.",
+      "mustTry": "Salt and pepper squid with lime"
+    },
+    {
+      "name": "Cumulus Inc",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated open-kitchen restaurant showcasing seasonal Australian produce with Mediterranean influences. Known for impeccable service and creative presentations.",
+      "mustTry": "Wood-roasted fish with burnt leek ash"
+    },
+    {
+      "name": "Mr. Miyagi",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual ramen bar serving authentic Japanese noodle soups and gyoza in a minimalist setting. Perfect for quick, satisfying meals after exploring the city.",
+      "mustTry": "Tonkotsu ramen with soft-boiled egg"
+    },
+    {
+      "name": "Grossi Florentino",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Historic Italian institution in the CBD offering elegant fine dining with impeccable Italian cuisine since 1938. Features a gourmet section and more casual bar area.",
+      "mustTry": "Handmade pasta with truffle"
+    },
+    {
+      "name": "Shuk",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Middle Eastern restaurant serving vibrant mezze and grilled meats in a lively setting. Great for sharing and exploring bold spice-forward flavors.",
+      "mustTry": "Charred eggplant with tahini and pomegranate"
+    },
+    {
+      "name": "Café Lucé",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Iconic laneway café where Melbourne's coffee culture began, serving single-origin espresso and classic brunch. A must-visit institution for coffee enthusiasts.",
+      "mustTry": "Flat white with house blend beans"
+    },
+    {
+      "name": "Three Michelin Star Vue de Monde",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Prestigious haute cuisine restaurant on the 55th floor of Rialto offering panoramic city views and innovative French-Australian cuisine. One of Australia's most acclaimed dining experiences.",
+      "mustTry": "Multi-course degustation with wine pairings"
+    },
+    {
+      "name": "Neff Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Relaxed laneway restaurant serving contemporary Italian pasta and wood-fired dishes with natural wines. Intimate atmosphere perfect for casual dinner.",
+      "mustTry": "House-made pappardelle with wild boar"
+    },
+    {
+      "name": "Lûmé",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Immersive dining concept with chef-led theatrical presentations and innovative tasting menus in an intimate setting. Limited seatings and highly memorable experience.",
+      "mustTry": "Interactive chef's multi-course experience"
+    },
+    {
+      "name": "Sup Healthy",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Health-focused bowl and smoothie bar with vegetarian and vegan options perfect for budget travelers. Multiple locations throughout the city with fresh, nutritious meals.",
+      "mustTry": "Acai bowl with house granola"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Street Art Laneway Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of Melbourne's famous laneways including Hosier Lane, Rutledge Lane, and AC/DC Lane filled with vibrant graffiti and murals. The ever-changing street art scene captures the city's creative spirit.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Royal Botanic Gardens Stroll",
+      "category": "Outdoor",
+      "description": "Scenic 38-hectare gardens featuring native plants, ornamental lakes, and walking paths with views of the city skyline. Perfect for picnicking and bird watching in a peaceful setting.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Great Ocean Road Drive",
+      "category": "Adventure",
+      "description": "Iconic 240km coastal drive visiting the Twelve Apostles rock formations, Lorne, and Apollo Bay. One of the world's most scenic drives with stunning cliff-top views and charming towns.",
+      "durationHours": 10,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "National Gallery of Victoria",
+      "category": "Indoor",
+      "description": "Australia's oldest and most popular art museum housing over 70,000 works including Australian, Aboriginal, and international art. Free general admission to the permanent collections.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Phillip Island Penguin Parade",
+      "category": "Outdoor",
+      "description": "Natural phenomenon where little penguins return to shore at dusk, gathering in large colonies. Located 140km southeast of Melbourne with guided viewing platforms.",
+      "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Melbourne Cricket Ground Stadium Tour",
+      "category": "Cultural",
+      "description": "Guided tour of the iconic MCG, Australia's largest stadium hosting Australian Rules Football and cricket. Includes access to premium areas and multimedia experiences.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Dandenong Ranges Day Trip",
+      "category": "Outdoor",
+      "description": "Mountain range covered in tall mountain ash and fern gullies, featuring charming villages like Olinda and Sassafras. Perfect for hiking, visiting quirky shops, and enjoying nature.",
+      "durationHours": 6,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Federation Square",
+      "category": "Cultural",
+      "description": "Contemporary public plaza hosting cultural events, markets, street performances, and art installations. Free to explore with frequent changing exhibitions and a lively atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Yarra River Bike Ride",
+      "category": "Outdoor",
+      "description": "Scenic cycling path running along the Yarra River from the city to outer suburbs, passing parks and gardens. Bike rentals available with multiple starting points.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Queen Victoria Market Experience",
+      "category": "Outdoor",
+      "description": "Historic Melbourne market operating since 1878 with produce, gourmet foods, and local goods. Perfect for sampling local specialties and experiencing authentic market culture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Melbourne Rooftop Bar Crawl",
+      "category": "Nightlife",
+      "description": "Explore the city's famous rooftop bars with 360-degree views of the Melbourne skyline and Yarra River. Popular spots include Bar Americano, Above Board, and Beneath Driver Lane.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "nightlife",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Healesville Sanctuary",
+      "category": "Family",
+      "description": "Wildlife park showcasing native Australian animals including kangaroos, koalas, and wombats in natural settings. Interactive keeper talks and feeding experiences available.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "family",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Hosier Lane",
+        "description": "Melbourne's most famous laneway completely covered in vibrant street art murals that change regularly throughout the year.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for softer light and fewer crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Twelve Apostles",
+        "description": "Iconic limestone rock formations rising from the Southern Ocean on the Great Ocean Road, creating dramatic coastal landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for golden light on rock formations",
+        "category": "Landscape"
+      },
+      {
+        "name": "Flinders Street Station",
+        "description": "Historic railway station with distinctive Romanesque Revival architecture featuring ornate facades and a grand clock tower.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for warm architectural light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Yarra River at Botanic Gardens",
+        "description": "Serene river reflections with city skyline backdrop, accessible from the Royal Botanic Gardens with varied composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for mist and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "AC/DC Lane",
+        "description": "Historic laneway featuring street art, music heritage references, and always-evolving murals capturing Melbourne's music culture.",
+        "difficulty": "Beginner",
+        "bestTime": "Daytime for vibrant color saturation",
+        "category": "Street"
+      },
+      {
+        "name": "Brighton Beach Bathing Boxes",
+        "description": "Row of colorful Victorian beach huts creating a cheerful, compact composition perfect for bold color photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for bright colors, or golden hour for shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Southbank Precinct",
+        "description": "Modern cultural district with contemporary architecture, sculptures, and riverside views creating urban photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk for architectural lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dandenong Ranges Fern Gully",
+        "description": "Dense forest with towering mountain ash trees and native ferns creating moody, atmospheric woodland photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Overcast days for soft diffused light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Queen Victoria Market",
+        "description": "Bustling historic market with colorful produce, vendors, and vibrant street life capturing authentic Melbourne culture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning when market is most active",
+        "category": "Street"
+      },
+      {
+        "name": "Arts Centre Melbourne",
+        "description": "Modern performing arts complex with striking contemporary architecture and dramatic lines creating geometric photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for architectural uplighting",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Sherbrooke Falls, Dandenong Ranges",
+      "Brighton Beach Bathing Boxes",
+      "Yarra Bend Park"
+    ],
+    "sunsetSpots": [
+      "Twelve Apostles, Great Ocean Road",
+      "Southbank Precinct with City Skyline",
+      "Brighton Beach Pier"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural and street scenes capturing laneways and building facades",
+      "50mm prime for intimate street photography and market scenes with natural perspective",
+      "70-200mm telephoto for compressed landscape shots of the Twelve Apostles and distant city skylines",
+      "24-70mm versatile zoom for general travel and mixed content throughout the city"
+    ],
+    "goldenHourNotes": "Melbourne's golden hour is particularly magical during autumn and winter months when the sun sits lower on the horizon for extended periods. The laneways receive warm sidelighting that brings out texture in street art and building facades. For landscape photography, the Great Ocean Road offers unobstructed western exposure, making sunset shots dramatically backlit against the Southern Ocean.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 26,
+        "rainfallMM": 48
+      },
+      {
+        "month": 2,
+        "avgTempC": 26,
+        "rainfallMM": 42
+      },
+      {
+        "month": 3,
+        "avgTempC": 24,
+        "rainfallMM": 43
+      },
+      {
+        "month": 4,
+        "avgTempC": 20,
+        "rainfallMM": 50
+      },
+      {
+        "month": 5,
+        "avgTempC": 16,
+        "rainfallMM": 52
+      },
+      {
+        "month": 6,
+        "avgTempC": 14,
+        "rainfallMM": 49
+      },
+      {
+        "month": 7,
+        "avgTempC": 13,
+        "rainfallMM": 48
+      },
+      {
+        "month": 8,
+        "avgTempC": 14,
+        "rainfallMM": 45
+      },
+      {
+        "month": 9,
+        "avgTempC": 16,
+        "rainfallMM": 46
+      },
+      {
+        "month": 10,
+        "avgTempC": 19,
+        "rainfallMM": 55
+      },
+      {
+        "month": 11,
+        "avgTempC": 22,
+        "rainfallMM": 50
+      },
+      {
+        "month": 12,
+        "avgTempC": 25,
+        "rainfallMM": 46
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      9,
+      10,
+      11
+    ],
+    "seasonality": "Melbourne experiences four distinct seasons with autumn (March-May) and spring (September-November) offering the most pleasant weather. Summer (December-February) is warm and can be dry, while winter (June-August) is cool and wetter but less crowded.",
+    "summary": "Melbourne has a temperate oceanic climate with mild seasons and moderate rainfall year-round. Temperatures range from 13-26°C, making it comfortable for outdoor activities and exploring the city throughout most of the year, though rain should be expected regularly."
+  },
+  "hotels": [
+    {
+      "name": "The Langham Melbourne",
+      "neighborhood": "Southbank",
+      "pricePerNightUSD": 380,
+      "category": "Luxury",
+      "description": "Five-star riverside hotel featuring opulent rooms, Michelin-star dining, spa, and direct access to the Southbank cultural precinct with stunning Yarra River views."
+    },
+    {
+      "name": "Hotel Lindrum",
+      "neighborhood": "CBD",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Stylish four-star boutique hotel in a historic building with contemporary interiors, located on Flinders Lane near major attractions and excellent laneways."
+    },
+    {
+      "name": "The Nines",
+      "neighborhood": "Fitzroy",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Affordable hostel and budget hotel in vibrant Fitzroy with colorful decor, social atmosphere, and walking distance to Street Art, cafes, and Brunswick Street."
+    }
+  ]
+}

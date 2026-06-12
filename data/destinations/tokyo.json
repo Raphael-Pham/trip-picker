@@ -1,0 +1,89 @@
+{
+  "id": "tokyo",
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "airportCodes": ["NRT", "HND"],
+  "hiddenGem": false,
+  "tripStyles": ["standard", "foodie", "photography", "adventure"],
+  "scores": { "cost": 55, "food": 98, "photography": 90, "activities": 92, "weather": 70 },
+  "budgetRanges": [
+    { "level": "budget", "minPerDayUSD": 60, "maxPerDayUSD": 120 },
+    { "level": "mid", "minPerDayUSD": 120, "maxPerDayUSD": 250 },
+    { "level": "luxury", "minPerDayUSD": 250, "maxPerDayUSD": 600 }
+  ],
+  "unsplashQuery": "Tokyo Japan city night",
+  "heroImageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=80",
+  "summary": "A dizzying blend of ancient temples and neon-lit skyscrapers, Tokyo delivers world-class food, unmatched transit, and endless neighbourhoods to explore.",
+  "restaurants": [
+    { "name": "Sukiyabashi Jiro Honten", "category": "Fine Dining", "priceRange": "$$$$", "description": "Legendary 10-seat sushi counter that earned the world's attention. Reserve months ahead.", "mustTry": "Omakase sushi course" },
+    { "name": "Ichiran Ramen", "category": "Local Specialty", "priceRange": "$", "description": "Solo ramen booths let you customise your tonkotsu broth in peace. Open 24 hours.", "mustTry": "Tonkotsu ramen" },
+    { "name": "Tsukiji Outer Market", "category": "Local Specialty", "priceRange": "$$", "description": "Fresh seafood stalls and tamagoyaki shops surrounding the old fish market.", "mustTry": "Tuna sashimi donburi" },
+    { "name": "Narisawa", "category": "Fine Dining", "priceRange": "$$$$", "description": "Innovative 'Satoyama cuisine' drawing from Japan's forests and farmlands.", "mustTry": "Bread of the Forest" },
+    { "name": "Kura Sushi", "category": "Budget", "priceRange": "$", "description": "Conveyor-belt sushi chain with plates starting at ¥115. Perfect for families.", "mustTry": "Seasonal nigiri" },
+    { "name": "Kyubey Ginza", "category": "Fine Dining", "priceRange": "$$$", "description": "Established 1936, this Ginza institution serves exquisite Edo-mae sushi.", "mustTry": "Omakase lunch set" },
+    { "name": "Afuri Ramen", "category": "Midrange", "priceRange": "$$", "description": "Yuzu shio ramen with a delicate citrusy broth. Multiple locations citywide.", "mustTry": "Yuzu shio ramen" },
+    { "name": "Tempura Kondo", "category": "Fine Dining", "priceRange": "$$$", "description": "Tempura elevated to art form — seasonal vegetables and seafood in a Ginza high-rise.", "mustTry": "Sweet potato tempura" },
+    { "name": "Ippudo Ramen", "category": "Midrange", "priceRange": "$$", "description": "Global chain born in Fukuoka. Rich Hakata-style tonkotsu done right.", "mustTry": "Shiromaru Motoaji" },
+    { "name": "Monja Street, Tsukishima", "category": "Local Specialty", "priceRange": "$$", "description": "A whole street dedicated to monjayaki — Tokyo's gooey savoury pancake.", "mustTry": "Seafood monjayaki" },
+    { "name": "Tapas Molecular Bar", "category": "Fine Dining", "priceRange": "$$$$", "description": "30-course molecular gastronomy counter at the Mandarin Oriental.", "mustTry": "Chef's tasting menu" },
+    { "name": "Hamacho Genki Shokudo", "category": "Budget", "priceRange": "$", "description": "Classic teishoku lunch sets beloved by Tokyo salarymen. Cash only.", "mustTry": "Saba teishoku" }
+  ],
+  "activities": [
+    { "name": "Senso-ji Temple at Dawn", "category": "Cultural", "description": "Arrive before 6 AM to have Asakusa's iconic temple almost to yourself.", "durationHours": 2, "estimatedCostUSD": 0, "bestFor": ["photography", "standard"] },
+    { "name": "teamLab Planets", "category": "Indoor", "description": "Immersive digital art museum in Toyosu — wade through water mirrors and floating flowers.", "durationHours": 2, "estimatedCostUSD": 30, "bestFor": ["photography", "adventure"] },
+    { "name": "Shibuya Crossing & Scramble Observation", "category": "Cultural", "description": "Watch the world's busiest pedestrian crossing from the Mag's Park observation deck.", "durationHours": 1, "estimatedCostUSD": 0, "bestFor": ["photography", "standard"] },
+    { "name": "Tokyo DisneySea", "category": "Family", "description": "Often ranked the world's best theme park — themed ports and spectacular shows.", "durationHours": 10, "estimatedCostUSD": 85, "bestFor": ["standard"] },
+    { "name": "Shinjuku Golden Gai Bar-hop", "category": "Nightlife", "description": "Navigate 200+ tiny bars crammed into six alleyways — each fits a dozen people.", "durationHours": 4, "estimatedCostUSD": 30, "bestFor": ["adventure", "foodie"] },
+    { "name": "Tsukiji Fish Market Tour", "category": "Cultural", "description": "Early-morning guided tuna auction viewing followed by a sushi breakfast.", "durationHours": 3, "estimatedCostUSD": 45, "bestFor": ["foodie", "standard"] },
+    { "name": "Mount Fuji Day Trip", "category": "Outdoor", "description": "Take the Shinkansen to Kawaguchiko for iconic lake-with-Fuji views. Season dependent.", "durationHours": 10, "estimatedCostUSD": 60, "bestFor": ["photography", "adventure"] },
+    { "name": "Akihabara Electronics & Anime", "category": "Indoor", "description": "Tokyo's otaku epicentre — multi-floor arcades, figurine shops, and maid cafés.", "durationHours": 4, "estimatedCostUSD": 20, "bestFor": ["adventure", "standard"] },
+    { "name": "Yanaka Cemetery Walk", "category": "Outdoor", "description": "Stroll through one of Tokyo's last old-shitamachi neighbourhoods — temples, cats, and craft shops.", "durationHours": 2, "estimatedCostUSD": 0, "bestFor": ["photography", "standard"] },
+    { "name": "Sumo Practice Tour", "category": "Cultural", "description": "Watch morning keiko (training) at a sumo stable in Ryogoku. Advance booking essential.", "durationHours": 3, "estimatedCostUSD": 55, "bestFor": ["adventure", "standard"] },
+    { "name": "Tokyo Tower Observatory", "category": "Indoor", "description": "Classic city panorama including Fuji on clear winter days.", "durationHours": 1, "estimatedCostUSD": 15, "bestFor": ["photography", "standard"] },
+    { "name": "Harajuku Takeshita Street", "category": "Cultural", "description": "Japan's wildest fashion street — crepe stands, vintage shops, and Harajuku style.", "durationHours": 2, "estimatedCostUSD": 10, "bestFor": ["photography", "adventure"] }
+  ],
+  "photography": {
+    "spots": [
+      { "name": "Shibuya Crossing from Shibuya Sky", "description": "Rooftop observation deck above the scramble — magical at blue hour.", "difficulty": "Beginner", "bestTime": "Sunset / night", "category": "Street" },
+      { "name": "Senso-ji Nakamise Approach", "description": "Storm gate and paper lanterns glow red at dawn.", "difficulty": "Beginner", "bestTime": "Dawn", "category": "Architecture" },
+      { "name": "Shinjuku Kabukicho Neons", "description": "Densest concentration of neon signs in the world — walk Golden Gai alley.", "difficulty": "Beginner", "bestTime": "Night", "category": "Street" },
+      { "name": "Yanaka Old Town Rooftops", "description": "Traditional tile rooflines and old Showa signage.", "difficulty": "Intermediate", "bestTime": "Morning", "category": "Architecture" },
+      { "name": "Ueno Park Cherry Blossoms", "description": "April sakura tunnels with rows of lanterns. Season: late March–early April.", "difficulty": "Beginner", "bestTime": "Early morning", "category": "Landscape" },
+      { "name": "teamLab Planets Water Mirror", "description": "Mirror-floor room with floating digital flowers — long exposure essential.", "difficulty": "Intermediate", "bestTime": "Any", "category": "Architecture" },
+      { "name": "Tokyo Station Marunouchi Facade", "description": "Red-brick Taisho-era station beautifully lit at night.", "difficulty": "Beginner", "bestTime": "Night", "category": "Architecture" },
+      { "name": "Meguro River Canal", "description": "Cherry blossoms arch over the canal in spring; lanterns in summer.", "difficulty": "Beginner", "bestTime": "Dawn", "category": "Landscape" },
+      { "name": "Hamarikyu Gardens Teahouse", "description": "Traditional garden with skyscrapers as backdrop — surreal contrast.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Landscape" },
+      { "name": "Shinjuku from Takashimaya Rooftop", "description": "Free rooftop with sweeping NS Building and skyscraper views.", "difficulty": "Beginner", "bestTime": "Dusk", "category": "Architecture" }
+    ],
+    "sunriseSpots": ["Senso-ji Temple Gate", "Tokyo Skytree Observation Deck", "Hamarikyu Gardens"],
+    "sunsetSpots": ["Shibuya Sky Rooftop", "Tokyo Tower Main Observatory", "Roppongi Hills Mori Tower"],
+    "lensRecommendations": ["24-70mm f/2.8 (versatile city shooting)", "50mm f/1.4 (neon and restaurant shots)", "70-200mm (compressing crowds at Shibuya)", "16-35mm (tight alleys of Shinjuku)"],
+    "goldenHourNotes": "Tokyo's golden hour lasts 30–40 minutes. In winter the setting sun often aligns perfectly with Mount Fuji from Chuo Line trains. Typhoon season (Sep–Oct) brings dramatic storm light.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      { "month": 1, "avgTempC": 6, "rainfallMM": 52 },
+      { "month": 2, "avgTempC": 7, "rainfallMM": 56 },
+      { "month": 3, "avgTempC": 10, "rainfallMM": 117 },
+      { "month": 4, "avgTempC": 15, "rainfallMM": 124 },
+      { "month": 5, "avgTempC": 20, "rainfallMM": 137 },
+      { "month": 6, "avgTempC": 23, "rainfallMM": 168 },
+      { "month": 7, "avgTempC": 27, "rainfallMM": 153 },
+      { "month": 8, "avgTempC": 29, "rainfallMM": 168 },
+      { "month": 9, "avgTempC": 24, "rainfallMM": 209 },
+      { "month": 10, "avgTempC": 18, "rainfallMM": 197 },
+      { "month": 11, "avgTempC": 13, "rainfallMM": 92 },
+      { "month": 12, "avgTempC": 8, "rainfallMM": 51 }
+    ],
+    "bestMonths": [3, 4, 10, 11],
+    "seasonality": "Spring (Mar–May) brings cherry blossoms; autumn (Oct–Nov) shows stunning foliage. Avoid the rainy season (Jun–Jul) and typhoon risk (Sep–Oct). Winters are dry and crisp with occasional Fuji views.",
+    "summary": "Four distinct seasons. Spring and autumn are ideal. Summers are hot and humid with a typhoon season risk."
+  },
+  "hotels": [
+    { "name": "Aman Tokyo", "neighborhood": "Otemachi", "pricePerNightUSD": 1200, "category": "Luxury", "description": "Dramatic 33rd-floor lobby inspired by traditional Japanese paper screens. Best city views." },
+    { "name": "Trunk Hotel", "neighborhood": "Shibuya", "pricePerNightUSD": 280, "category": "Mid-range", "description": "Design-forward hotel with a strong social ethos — rooftop fire pit and local craft beers." },
+    { "name": "Khaosan Tokyo Origami", "neighborhood": "Asakusa", "pricePerNightUSD": 35, "category": "Budget", "description": "Well-run hostel in historic Asakusa — private rooms and dorms, steps from Senso-ji." }
+  ]
+}

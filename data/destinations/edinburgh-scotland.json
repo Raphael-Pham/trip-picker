@@ -1,0 +1,461 @@
+{
+  "id": "edinburgh-scotland",
+  "city": "Edinburgh",
+  "country": "Scotland",
+  "region": "Europe",
+  "airportCodes": [
+    "EDI",
+    "GLA",
+    "LHR"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "hidden-gems",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 55,
+    "food": 88,
+    "photography": 95,
+    "activities": 92,
+    "weather": 35
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Edinburgh Castle Scotland",
+  "summary": "Edinburgh captivates visitors with its dramatic hilltop castle, charming medieval Old Town, and Georgian New Town architecture that earned UNESCO World Heritage status. The city blends centuries of history with world-class dining, vibrant arts scene, and stunning photography opportunities at every corner. Its rich cultural heritage, including haunted underground vaults and literary landmarks, makes it one of Europe's most compelling destinations.",
+  "restaurants": [
+    {
+      "name": "The Witchery by the Castle",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Historic luxury restaurant set in a 16th-century building adjacent to Edinburgh Castle, offering fine Scottish cuisine in gothic candlelit chambers. Known for theatrical ambiance and impeccable service.",
+      "mustTry": "Scottish venison with whisky jus"
+    },
+    {
+      "name": "Mother India",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Award-winning Indian restaurant in the West End with creative takes on traditional cuisine and an excellent vegetarian selection. Small plates make it perfect for sharing.",
+      "mustTry": "Tandoori sea bass"
+    },
+    {
+      "name": "Oink",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic street food stall in the Royal Mile serving hog roast sandwiches with crispy crackling and home-made apple sauce since 1999. A local institution and budget traveler favorite.",
+      "mustTry": "Hog roast roll with crispy skin"
+    },
+    {
+      "name": "Ondine",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred seafood restaurant in the Old Town with floor-to-ceiling windows showcasing chef Roy Brett's exquisite French-inspired dishes. Exceptional wine pairings available.",
+      "mustTry": "Scottish langoustine bisque"
+    },
+    {
+      "name": "Holyrood 9A",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary Scottish restaurant near Holyrood Palace featuring locally-sourced ingredients and creative modern plating in a relaxed setting. Great for special occasions.",
+      "mustTry": "Roasted Scottish lamb"
+    },
+    {
+      "name": "The Dogs",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Cozy neighborhood restaurant in Stockbridge serving comforting Scottish fare with seasonal menus and an impressive selection of Scottish whiskies.",
+      "mustTry": "Cock and seafood pie"
+    },
+    {
+      "name": "Catalan Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Vibrant Spanish tapas bar in the West End offering small plates perfect for sharing, with excellent jamón ibérico and a lively atmosphere.",
+      "mustTry": "Pan con tomate and Spanish meatballs"
+    },
+    {
+      "name": "Chai Pani",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Indian street food restaurant serving authentic Indian cuisine in a casual setting with curry house classics and innovative new dishes. Great value for money.",
+      "mustTry": "Samosas and butter chicken"
+    },
+    {
+      "name": "Timberyard",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant in Leith offering seasonal tasting menus using foraged and locally-sourced ingredients in a minimalist setting. Focuses on Nordic-Scottish cuisine.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Mimi's Bakehouse",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming cafe famous for homemade cakes and traditional Scottish baking including empire biscuits and shortbread. Perfect for coffee and cake breaks throughout the day.",
+      "mustTry": "Empire biscuits and speciality cakes"
+    },
+    {
+      "name": "Noto",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Italian restaurant in the Old Town serving authentic Northern Italian cuisine with handmade pastas and an excellent Italian wine selection.",
+      "mustTry": "Homemade tagliatelle Bolognese"
+    },
+    {
+      "name": "Outsider Restaurant & Rooftop Bar",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Casual restaurant in the Old Town with a rooftop bar offering panoramic views of Edinburgh, serving Scottish food with international influences.",
+      "mustTry": "Pan-seared scallops with haggis"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Edinburgh Castle",
+      "category": "Cultural",
+      "description": "Scotland's most iconic fortress dominates the skyline from an extinct volcanic rock. Explore the Crown Jewels, medieval chambers, and enjoy panoramic city views from the ramparts.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Royal Mile Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll the historic heart of Edinburgh's Old Town, a UNESCO-listed medieval thoroughfare connecting the castle to Holyrood Palace. Discover hidden closes, shops, and historic landmarks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Underground Vaults Tour",
+      "category": "Adventure",
+      "description": "Explore Edinburgh's atmospheric 18th-century underground vaults beneath the Old Town, once used as taverns and storage. A thrilling journey into the city's haunted past with expert guides.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "adventure",
+        "hidden-gems",
+        "standard"
+      ]
+    },
+    {
+      "name": "Arthur's Seat Hike",
+      "category": "Outdoor",
+      "description": "Climb Scotland's most famous urban peak (822m) in Holyrood Park for 360-degree views of Edinburgh, the Forth estuary, and Pentland Hills. Accessible yet rewarding trails for all fitness levels.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "National Museum of Scotland",
+      "category": "Cultural",
+      "description": "World-class museum featuring Egyptian mummies, dinosaurs, Scottish history, and contemporary art. Five floors of fascinating exhibits with free general admission.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Georgian House",
+      "category": "Cultural",
+      "description": "Step back to the 1790s in this perfectly preserved townhouse in the New Town, featuring period furniture, paintings, and authentic interiors showcasing Georgian elegance.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Whisky Tasting Experience",
+      "category": "Indoor",
+      "description": "Sample premium Scottish whiskies at one of Edinburgh's many distilleries and tasting rooms, learning about production methods and regional variations from expert guides.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Leith Waterfront Stroll",
+      "category": "Outdoor",
+      "description": "Walk along Edinburgh's historic port district with vibrant waterfront restaurants, galleries, and the impressive Royal Yacht Britannia. Excellent area for photography and dining.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Edinburgh Festival Fringe Shows",
+      "category": "Nightlife",
+      "description": "Experience the world's largest arts festival (August) with thousands of performances from comedy to theatre to music in venues across the city. Plan ahead for tickets.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Greyfriars Kirkyard & Cemetery Walk",
+      "category": "Cultural",
+      "description": "Explore the 17th-century cemetery famous for ghost stories and literary references, featuring dramatic monuments and the historic church where the Covenant was signed.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Royal Botanic Garden Edinburgh",
+      "category": "Outdoor",
+      "description": "Sprawling 70-acre garden on Inverleith Hill with rare plants, woodland walks, and breathtaking city views. Free general admission with optional glasshouse entry.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Calton Hill Summit Visit",
+      "category": "Outdoor",
+      "description": "Climb to this iconic viewpoint featuring the unfinished National Monument, Nelson Monument, and panoramic views of Edinburgh's skyline and surrounding landscape. Free and close to city center.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Edinburgh Castle from Grassmarket",
+        "description": "Dramatic frontal view of the castle illuminated against the sky from the historic Grassmarket square below.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise and sunset)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Royal Mile at Dawn",
+        "description": "Atmospheric medieval street captures cobblestones, historic facades, and moody light before crowds arrive.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning, 30 minutes before sunrise",
+        "category": "Street"
+      },
+      {
+        "name": "Calton Hill Panorama",
+        "description": "Wide-angle views of Edinburgh's skyline with Arthur's Seat, castle, and New Town architecture in one frame.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Arthur's Seat Summit Vista",
+        "description": "360-degree views of Edinburgh, Firth of Forth, and Pentland Hills with dramatic natural lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for golden light and clear skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Victoria Street Architecture",
+        "description": "Colorful historic buildings on the steep cobbled street create perfect framing and depth photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Greyfriars Kirkyard Monuments",
+        "description": "Moody atmospheric cemetery with dramatic gravestones, lichen-covered stones, and gothic architectural details.",
+        "difficulty": "Advanced",
+        "bestTime": "Overcast days or soft morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Water of Leith Walkway",
+        "description": "Scenic water-based photography with bridges, reflections, woodland, and urban contrasts along the river corridor.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Princes Street Gardens",
+        "description": "Urban park with castle backdrop, seasonal flowers, and street-level architecture creating layered compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring for blossom or golden hour year-round",
+        "category": "Landscape"
+      },
+      {
+        "name": "Leith Docks at Dusk",
+        "description": "Industrial-chic waterfront with yacht reflections, historic warehouses, and moody sky creating dramatic evening shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes before sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Dean Village Bridge and Buildings",
+        "description": "Hidden village below the city with arched stone bridge, period architecture, and river reflections in intimate setting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Soft morning light for texture detail",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Arthur's Seat Summit",
+      "Calton Hill",
+      "Blackford Hill"
+    ],
+    "sunsetSpots": [
+      "Calton Hill Monument",
+      "Arthur's Seat Western Ridge",
+      "Leith Docks Waterfront"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for skyline panoramas and architectural wide shots",
+      "50mm prime for street photography and intimate urban details",
+      "70-200mm telephoto for castle compression and distant landscape elements",
+      "24mm ultra-wide for dramatic architectural depth in close quarters"
+    ],
+    "goldenHourNotes": "Edinburgh's golden hour is particularly spectacular due to dramatic elevation changes and architectural density. Capture castle illumination during sunrise from Grassmarket or downtown locations, then move to Calton Hill or Arthur's Seat for comprehensive skyline photography. The city's east-west orientation makes sunset shots from western locations ideal, with castle backlighting creating silhouette opportunities. Plan to arrive 45 minutes before sunset for optimal color gradation.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 3,
+        "rainfallMM": 57
+      },
+      {
+        "month": 2,
+        "avgTempC": 3,
+        "rainfallMM": 40
+      },
+      {
+        "month": 3,
+        "avgTempC": 5,
+        "rainfallMM": 47
+      },
+      {
+        "month": 4,
+        "avgTempC": 8,
+        "rainfallMM": 49
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 56
+      },
+      {
+        "month": 6,
+        "avgTempC": 15,
+        "rainfallMM": 59
+      },
+      {
+        "month": 7,
+        "avgTempC": 17,
+        "rainfallMM": 57
+      },
+      {
+        "month": 8,
+        "avgTempC": 16,
+        "rainfallMM": 60
+      },
+      {
+        "month": 9,
+        "avgTempC": 14,
+        "rainfallMM": 51
+      },
+      {
+        "month": 10,
+        "avgTempC": 10,
+        "rainfallMM": 64
+      },
+      {
+        "month": 11,
+        "avgTempC": 6,
+        "rainfallMM": 65
+      },
+      {
+        "month": 12,
+        "avgTempC": 4,
+        "rainfallMM": 59
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Edinburgh experiences cool, wet weather year-round with mild summers (15-17°C) and cold winters (3-4°C). August brings peak tourism during the Festival Fringe, while May-September offers the most pleasant conditions for outdoor activities.",
+    "summary": "Spring and summer (May-September) provide the best weather for visiting, with temperatures reaching 15-17°C and longer daylight hours. Winter months are cold and dark but offer fewer crowds and dramatic moody photography opportunities."
+  },
+  "hotels": [
+    {
+      "name": "Travelodge Edinburgh Royal Mile",
+      "neighborhood": "Old Town",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "No-frills budget chain hotel on the famous Royal Mile with convenient location, basic comfortable rooms, and friendly service in the heart of historic Edinburgh."
+    },
+    {
+      "name": "The Scotsman Hotel",
+      "neighborhood": "Old Town",
+      "pricePerNightUSD": 160,
+      "category": "Mid-range",
+      "description": "Boutique hotel in a converted 19th-century newspaper building featuring stylish rooms, a rooftop spa, fine dining restaurant, and excellent location near major attractions."
+    },
+    {
+      "name": "The Balmoral Hotel",
+      "neighborhood": "New Town",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Edinburgh's most prestigious five-star luxury hotel overlooking Princess Street and Edinburgh Castle, featuring Michelin-starred dining, spa facilities, and impeccable service."
+    }
+  ]
+}

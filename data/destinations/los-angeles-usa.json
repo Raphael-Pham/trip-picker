@@ -1,0 +1,468 @@
+{
+  "id": "los-angeles-usa",
+  "city": "Los Angeles",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "LAX",
+    "BUR",
+    "LGB"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 92,
+    "photography": 94,
+    "activities": 95,
+    "weather": 92
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Los Angeles sunset pier",
+  "summary": "Los Angeles is a sprawling metropolis where Hollywood glamour meets diverse neighborhoods, stunning coastlines, and world-class dining. From iconic beaches and hiking trails to museums, cultural attractions, and vibrant nightlife, LA offers endless experiences for every traveler. The consistently perfect weather and year-round sunshine make it an ideal destination for photography, outdoor adventures, and culinary exploration.",
+  "restaurants": [
+    {
+      "name": "Gjelina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Celebrated Venice institution featuring California-fresh cuisine with creative vegetable-forward dishes and an impressive wine selection. Known for its vibrant atmosphere and organic ingredients sourced from local producers.",
+      "mustTry": "Charred broccolini or seasonal fish preparations"
+    },
+    {
+      "name": "Republique",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "French-inspired bakery and bistro in Los Feliz offering exceptional pastries, breakfast, and lunch items. Famous for its croissants and seasonal menu featuring French techniques with local ingredients.",
+      "mustTry": "Butter croissant and French onion soup"
+    },
+    {
+      "name": "Bestia",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning Italian restaurant in Downtown LA serving rustic Italian cuisine with exceptional charcuterie and house-made pastas. Industrial-chic space with an intimate bar and wood-fired oven.",
+      "mustTry": "Bone marrow flan and handmade pappardelle"
+    },
+    {
+      "name": "Bacchanal Buffet-style at Mother",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Indian street food in Westwood serving exceptional biryanis, kebabs, and regional specialties at budget-friendly prices. Casual counter-service with bold, authentic flavors.",
+      "mustTry": "Hyderabadi biryani or tandoori chicken"
+    },
+    {
+      "name": "The Ivy",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Iconic West Hollywood power-lunch destination famous for its ivy-covered patio and celebrity sightings. Contemporary California cuisine with impeccable service and an extensive wine list.",
+      "mustTry": "Cobb salad or grilled fish of the day"
+    },
+    {
+      "name": "Broken Spanish",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale Mexican restaurant in Downtown LA showcasing regional Mexican cuisine with creative presentations and an exceptional tequila program. Modern industrial space with open kitchen.",
+      "mustTry": "Lobster tacos or chile relleno"
+    },
+    {
+      "name": "Howlin' Ray's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved Nashville-style hot chicken spot in Hollywood serving fiery fried chicken sandwiches with bold spice levels. Long lines worth the wait for authentic, simple, delicious chicken.",
+      "mustTry": "The Howlin' Ray's sandwich with heat level of choice"
+    },
+    {
+      "name": "Nobu Malibu",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred Japanese-Peruvian fusion restaurant perched on Malibu's coastline with panoramic ocean views. Innovative omakase experiences and expertly crafted cocktails in an elegant beachfront setting.",
+      "mustTry": "Black cod with miso or yellowtail jalapeño"
+    },
+    {
+      "name": "Mauro's Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Italian deli in Santa Monica offering authentic Italian sandwiches, fresh pasta salads, and espresso. Quick, unpretentious spot perfect for a grab-and-go meal or casual lunch.",
+      "mustTry": "Italian sandwich or fresh pasta salad"
+    },
+    {
+      "name": "Republique Pastry Counter",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Counter-service pastry shop in Arts District serving exceptional French pastries, sandwiches, and coffee. Quick service with high-quality ingredients and a perfect stop for breakfast or snacks.",
+      "mustTry": "Pain au chocolat or morning pastry selection"
+    },
+    {
+      "name": "Republique Bouchon",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual French bistro in Los Feliz offering affordable French comfort food including coq au vin, cassoulet, and house-made sausages. Warm, inviting atmosphere perfect for dinner or weekend brunch.",
+      "mustTry": "Cassoulet or duck confit"
+    },
+    {
+      "name": "Faith & Flower",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three Michelin-star restaurant in Downtown LA offering artistic French cuisine with seasonal ingredients and innovative techniques. Intimate, elegant space with impeccable service and wine pairings.",
+      "mustTry": "Tasting menu with optional wine pairings"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Hike to Griffith Observatory",
+      "category": "Outdoor",
+      "description": "Scenic hiking trail leading to the iconic white dome of Griffith Observatory with panoramic views of Los Angeles and the Hollywood Sign. The trail itself is moderately easy and offers excellent photo opportunities throughout.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Venice Beach Boardwalk Walk",
+      "category": "Outdoor",
+      "description": "Stroll the famous Venice Beach Boardwalk featuring street performers, local vendors, Muscle Beach, and the iconic pier. Experience the bohemian culture and diverse crowd that defines this classic LA beach destination.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Getty Center Museum Visit",
+      "category": "Cultural",
+      "description": "World-class art museum perched on a hilltop with collections spanning centuries, stunning architecture, and beautiful gardens. Free admission with paid parking or public transit to this architectural masterpiece overlooking Los Angeles.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Santa Monica Pier Experience",
+      "category": "Family",
+      "description": "Visit the historic Santa Monica Pier featuring the solar-powered Ferris wheel, Pacific Park amusement park, and arcade games. Enjoy ocean views, street performers, and classic Southern California beach culture.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Hollywood Walk of Fame and Chinese Theatre Tour",
+      "category": "Cultural",
+      "description": "Explore the famous Hollywood Walk of Fame embedded in the sidewalk along Hollywood Boulevard and see the iconic TCL Chinese Theatre with its cement handprints. Iconic Hollywood experience with street performers and tourist attractions.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Runyon Canyon Hiking Trail",
+      "category": "Outdoor",
+      "description": "Popular Hollywood hiking trail with sweeping views of Los Angeles, the Hollywood Sign, and the city skyline. Well-maintained trail offering multiple difficulty levels and frequent celebrity sightings.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "LA County Museum of Art (LACMA)",
+      "category": "Cultural",
+      "description": "Major museum featuring diverse art collections from ancient to contemporary, plus the famous Urban Light installation and Tar Pits nearby. Diverse exhibitions, beautiful outdoor spaces, and excellent for photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Surfing Lesson in Malibu or Huntington Beach",
+      "category": "Adventure",
+      "description": "Take a professional surfing lesson at Southern California's legendary waves with experienced instructors providing board and wetsuit. Perfect introduction to surfing or intermediate skill development.",
+      "durationHours": 2,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Downtown LA Arts District Exploration",
+      "category": "Cultural",
+      "description": "Explore vibrant street art, galleries, restaurants, and street murals in the historic Arts District of Downtown LA. Hip neighborhood filled with independent galleries, vintage shops, and excellent food.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Griffith Observatory Stargazing Evening",
+      "category": "Cultural",
+      "description": "Visit Griffith Observatory in the evening for telescope viewing, planetarium shows, and lectures about astronomy with free admission. Stunning night views of Los Angeles combined with educational astronomical programming.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Malibu Beach and Coastal Drive",
+      "category": "Outdoor",
+      "description": "Drive the scenic Pacific Coast Highway through Malibu with stops at secluded beaches, tide pools, and dramatic coastal views. Perfect for photography with consistent stunning light and pristine natural settings.",
+      "durationHours": 4,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Silver Lake and Echo Park Neighborhood Tour",
+      "category": "Outdoor",
+      "description": "Explore trendy Echo Park with the iconic lotus-filled lake and Silver Lake's hip restaurants, shops, and street art. Hipster-friendly neighborhoods with excellent coffee, vintage shops, and photogenic streets.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Griffith Observatory",
+        "description": "Iconic white dome against the city skyline offering sweeping panoramic views of Los Angeles perfect for golden hour and night photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset and blue hour for city lights",
+        "category": "Architecture"
+      },
+      {
+        "name": "Getty Center",
+        "description": "Architectural masterpiece with white travertine walls, gardens, and city views offering endless composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for architectural details and soft light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Santa Monica Pier",
+        "description": "Historic wooden pier with Ferris wheel, carousel, and ocean backdrop providing classic coastal photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for warm light and silhouettes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Venice Beach Boardwalk",
+        "description": "Vibrant street scene with performers, vendors, beach, and diverse characters offering dynamic street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm light and active crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Downtown LA Arts District",
+        "description": "Colorful street murals, industrial architecture, and urban landscape creating excellent opportunities for street and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for directional light on murals",
+        "category": "Street"
+      },
+      {
+        "name": "Mulholland Drive Vista Points",
+        "description": "Elevated vantage points along the scenic drive offering expansive views of Los Angeles basin, San Fernando Valley, and Hollywood hills.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise and sunset for colorful skies and city lights",
+        "category": "Landscape"
+      },
+      {
+        "name": "El Matador Beach",
+        "description": "Secluded Malibu beach with dramatic sea caves, rock formations, and soft sand creating cinematic coastal landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Low tide for cave access, golden hour for warm light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hollywood Sign Lookout Point",
+        "description": "Iconic white letters against hillside offering quintessential LA symbol photography from multiple accessible vantage points.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour when sun creates dimensional lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lacma Urban Light Installation",
+        "description": "Rows of vintage street lamps creating striking geometric patterns and atmospheric night photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening and night for lamp illumination",
+        "category": "Night"
+      },
+      {
+        "name": "Runyon Canyon Summit",
+        "description": "High elevation hiking trail ending with panoramic city views, Hollywood Sign, and dramatic landscape vistas.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for clear skies or sunset for warm colors",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Mulholland Drive Vista Points",
+      "Runyon Canyon Summit",
+      "Griffith Observatory"
+    ],
+    "sunsetSpots": [
+      "Santa Monica Pier",
+      "Malibu's El Matador Beach",
+      "Getty Center terraces"
+    ],
+    "lensRecommendations": [
+      "Wide-angle 16-35mm for expansive city views and architectural details",
+      "Standard 35-85mm for street photography and portraits on boardwalks",
+      "Telephoto 70-200mm for compressed city skyline and distant landmarks",
+      "Fast prime 50mm f/1.8 for nighttime city lights and low-light situations"
+    ],
+    "goldenHourNotes": "Los Angeles offers exceptional golden hour conditions year-round due to its elevation changes and coastal positioning. The hour before sunset provides warm, directional light that enhances architectural details, creates dramatic silhouettes against the sky, and brings out vibrant colors in street murals. Plan activities around Mulholland Drive, Getty Center, and Santa Monica Pier during these times for optimal lighting conditions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 13,
+        "rainfallMM": 85
+      },
+      {
+        "month": 2,
+        "avgTempC": 13,
+        "rainfallMM": 80
+      },
+      {
+        "month": 3,
+        "avgTempC": 14,
+        "rainfallMM": 75
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 35
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 10
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 5
+      },
+      {
+        "month": 7,
+        "avgTempC": 24,
+        "rainfallMM": 0
+      },
+      {
+        "month": 8,
+        "avgTempC": 24,
+        "rainfallMM": 2
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 5
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 20
+      },
+      {
+        "month": 11,
+        "avgTempC": 16,
+        "rainfallMM": 50
+      },
+      {
+        "month": 12,
+        "avgTempC": 13,
+        "rainfallMM": 90
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seasonality": "Los Angeles experiences a Mediterranean climate with warm, dry summers (June-September) and mild, wetter winters (December-February). Spring and fall offer ideal conditions with comfortable temperatures, low rainfall, and consistent sunshine.",
+    "summary": "Los Angeles enjoys nearly year-round pleasant weather with average temperatures ranging from 13°C in winter to 24°C in summer. The region receives minimal rainfall concentrated in winter months, making it an excellent destination for outdoor photography and activities throughout the year."
+  },
+  "hotels": [
+    {
+      "name": "HI Los Angeles Santa Monica",
+      "neighborhood": "Santa Monica",
+      "pricePerNightUSD": 60,
+      "category": "Budget",
+      "description": "Friendly hostel near Santa Monica Beach and Pier offering private and dorm rooms with shared and private bathrooms at budget-friendly rates."
+    },
+    {
+      "name": "Ambrose Hotel",
+      "neighborhood": "Santa Monica",
+      "pricePerNightUSD": 220,
+      "category": "Mid-range",
+      "description": "Charming boutique hotel one block from Santa Monica Beach featuring locally-sourced artwork, modern amenities, and personalized service."
+    },
+    {
+      "name": "Nobu Ryokan Malibu",
+      "neighborhood": "Malibu",
+      "pricePerNightUSD": 650,
+      "category": "Luxury",
+      "description": "Ultra-luxury Japanese-inspired beachfront resort offering private villas with ocean views, world-class spa, and exceptional dining experiences."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1669610615916-227df575adda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMb3MlMjBBbmdlbGVzJTIwc3Vuc2V0JTIwcGllcnxlbnwxfDB8fHwxNzgxMzAzMDE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

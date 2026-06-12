@@ -1,0 +1,455 @@
+{
+  "id": "florence-italy",
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Europe",
+  "airportCodes": [
+    "FCO",
+    "MXP",
+    "VCE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "relaxation",
+    "hidden-gems"
+  ],
+  "scores": {
+    "cost": 55,
+    "food": 95,
+    "photography": 98,
+    "activities": 90,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 70,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Florence Duomo sunset",
+  "summary": "Florence is the cradle of the Renaissance, offering world-class art, architecture, and cuisine within a pedestrian-friendly medieval city center. With iconic monuments like the Duomo and Uffizi Gallery alongside charming trattorias and Tuscan wine, it perfectly blends cultural immersion with culinary indulgence. The Arno River and surrounding hills provide stunning photography opportunities from every angle.",
+  "restaurants": [
+    {
+      "name": "Trattoria da Burde",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-run trattoria serving traditional Florentine cuisine in an intimate setting. Try their famous bistecca alla fiorentina or wild boar ragù.",
+      "mustTry": "Ribollita and Florentine T-bone steak"
+    },
+    {
+      "name": "Enoteca Pinchiorri",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three-Michelin-star restaurant showcasing innovative Tuscan cuisine with impeccable wine pairings. Every dish is a masterpiece of flavor and presentation.",
+      "mustTry": "Seasonal tasting menu with wine flight"
+    },
+    {
+      "name": "Il Latini",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic Florentine institution known for generous portions and festive communal dining atmosphere. Famous for their ribollita and handmade pasta.",
+      "mustTry": "Pappa al pomodoro"
+    },
+    {
+      "name": "Nerbone",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Standing-room only historic sandwich counter in the Mercato Centrale since 1872. Offers authentic street food experience with boiled meat sandwiches.",
+      "mustTry": "Lampredotto sandwich"
+    },
+    {
+      "name": "Osteria del Cinghiale Bianco",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Cozy neighborhood osteria featuring wild boar specialties and seasonal ingredients. Small menu changes daily based on market availability.",
+      "mustTry": "Cinghiale in umido"
+    },
+    {
+      "name": "Cantinetta Antinori",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Renaissance palazzo wine bar and restaurant owned by the prestigious Antinori wine family. Enjoy Tuscan wines paired with elegant small plates.",
+      "mustTry": "Tuscan wine selection with cheese course"
+    },
+    {
+      "name": "All'Antico Vinaio",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved sandwich shop with lines out the door daily. Fresh ingredients and creative combinations make it a must-visit for quick, affordable meals.",
+      "mustTry": "Porchetta or vegetarian sandwiches"
+    },
+    {
+      "name": "Beccofino",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary seafood restaurant with Arno River views and innovative Italian coastal cuisine. Elegant atmosphere perfect for special occasions.",
+      "mustTry": "Fresh fish pasta and crudi"
+    },
+    {
+      "name": "Da Vinci",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Traditional trattoria in the Oltrarno district serving classic Florentine fare in a rustic setting. Frequented by locals seeking authentic home cooking.",
+      "mustTry": "Pasta e fagioli and grilled meats"
+    },
+    {
+      "name": "Gusta Pasta",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Fast-casual pasta spot offering fresh, made-to-order dishes at excellent value. Casual counter seating ideal for travelers on the go.",
+      "mustTry": "Creamy carbonara or seasonal vegetable pasta"
+    },
+    {
+      "name": "Trattoria Cibrea",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic neighborhood spot known for simple, perfectly executed traditional recipes. No reservations, arrive early for a table.",
+      "mustTry": "Tagliatelle with wild boar ragù"
+    },
+    {
+      "name": "Fuori Porta",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Wine bar and enoteca specializing in natural wines and Tuscan products. Perfect for evening aperitivos with simple, quality food pairings.",
+      "mustTry": "Wine flight with cured meats board"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Uffizi Gallery",
+      "category": "Cultural",
+      "description": "One of the world's greatest art museums housing Renaissance masterpieces by Botticelli, Leonardo da Vinci, and Michelangelo. Essential viewing for art lovers with works spanning centuries.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Climb the Duomo",
+      "category": "Outdoor",
+      "description": "Ascend the 463 steps to the top of Florence's iconic dome for breathtaking panoramic views of the city and surrounding hills. One of the most rewarding urban climbs in Europe.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Accademia Gallery",
+      "category": "Cultural",
+      "description": "Home to Michelangelo's David and other Renaissance sculptures in an intimate museum setting. Smaller and less crowded than the Uffizi with equally impressive works.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Arno River Walk",
+      "category": "Outdoor",
+      "description": "Stroll along the scenic riverbanks with views of historic bridges and the city skyline. Free activity offering peaceful moments and excellent photography opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Ponte Vecchio Shopping",
+      "category": "Indoor",
+      "description": "Browse luxury jewelry shops inside the historic 14th-century bridge spanning the Arno River. Crowded but iconic, with leather goods and souvenirs available at street level.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Tuscany Day Trip",
+      "category": "Outdoor",
+      "description": "Wine tasting and countryside exploration in the rolling hills of Chianti or Val d'Orcia. Visit wineries, see cypress-lined roads, and taste local wines and produce.",
+      "durationHours": 8,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Piazzale Michelangelo Sunset",
+      "category": "Outdoor",
+      "description": "Climb to this elevated square overlooking the entire Florence skyline for golden-hour photography and unparalleled sunset views. Arrive early to secure a good spot.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Pitti Palace",
+      "category": "Cultural",
+      "description": "Explore the opulent Renaissance palace housing museums showcasing art, furniture, and Medici collections. The courtyard alone is worth the visit for its architectural beauty.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Food Market Tour",
+      "category": "Foodie",
+      "description": "Guided exploration of Mercato Centrale and local food stalls sampling cheeses, cured meats, truffles, and fresh produce. Learn about Florentine food culture from knowledgeable guides.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Santa Maria Novella Basilica",
+      "category": "Cultural",
+      "description": "Stunning Gothic-Renaissance church containing masterpieces by Masaccio and Ghirlandaio with intricate marble facade. Peaceful interior offers respite from crowds.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Boboli Gardens",
+      "category": "Outdoor",
+      "description": "Expansive Renaissance gardens behind the Pitti Palace with sculptures, fountains, and cypress groves. Peaceful green space offering views over Florence and distant countryside.",
+      "durationHours": 2,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Leather Working Class",
+      "category": "Indoor",
+      "description": "Take a hands-on workshop learning traditional Florentine leather crafting techniques from artisans. Create a small piece to take home as a unique souvenir.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "surprise",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Piazzale Michelangelo",
+        "description": "Elevated panoramic terrace offering the most iconic Florence skyline shot with Duomo, Ponte Vecchio, and Arno River in frame.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ponte Vecchio at Dawn",
+        "description": "Historic bridge reflected in the calm Arno waters before crowds arrive, perfect for moody atmospheric shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning before 7 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Duomo Square Detail Shots",
+        "description": "Marble facade patterns and architectural details of the Santa Maria del Fiore cathedral reward close-up photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for even illumination",
+        "category": "Architecture"
+      },
+      {
+        "name": "Oltrarno Street Scenes",
+        "description": "Charming cobblestone streets, artisan workshops, and ivy-covered buildings in the lesser-known south side create authentic street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Any time, best when locals are present",
+        "category": "Street"
+      },
+      {
+        "name": "Santa Maria Novella Facade",
+        "description": "Intricate black and white marble patterns on the church's Gothic-Renaissance facade photographed straight-on for symmetrical compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for clean shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Arno River Reflections",
+        "description": "Calm water reflections of buildings and bridges create mirror-image compositions, especially magical during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset or sunrise for color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Boboli Gardens Sculptures",
+        "description": "Renaissance statuary and fountain features scattered throughout the gardens offer isolated composition opportunities away from crowds.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning when gardens are less crowded",
+        "category": "Architecture"
+      },
+      {
+        "name": "Night City Lights from Porta Romana",
+        "description": "View of the illuminated city from the southern gate with Duomo glowing at night creates dramatic night photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "30 minutes after sunset",
+        "category": "Night"
+      },
+      {
+        "name": "San Miniato Basilica Perch",
+        "description": "Hilltop church overlooking the entire city from the south provides elevated vantage point with architectural foreground.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Corridor Vasariano Window Views",
+        "description": "Windows along the private passageway frame unique angles of Ponte Vecchio and the Arno River below.",
+        "difficulty": "Advanced",
+        "bestTime": "Mid-day for clean light through windows",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Piazzale Michelangelo",
+      "San Miniato al Monte Basilica",
+      "Ponte Alle Grazie"
+    ],
+    "sunsetSpots": [
+      "Piazzale Michelangelo",
+      "Forte di Belvedere",
+      "Arno Riverbanks near Ponte Vecchio"
+    ],
+    "lensRecommendations": [
+      "24-70mm for versatile landscape and architectural work capturing the full skyline",
+      "50mm prime for intimate street scenes and detail shots in narrow Oltrarno alleys",
+      "14-24mm ultra-wide for expansive cityscape captures from elevated viewpoints",
+      "70-200mm telephoto for compressed perspective of dome details and distant hills"
+    ],
+    "goldenHourNotes": "Florence's warm terracotta roofs and cream-colored buildings glow magnificently during golden hour. The Arno River reflects colors beautifully, and shadows cast by the Duomo and bridges create dramatic depth. Plan to be at Piazzale Michelangelo 30 minutes before sunset to secure positioning and capture the full progression of light.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 6,
+        "rainfallMM": 65
+      },
+      {
+        "month": 2,
+        "avgTempC": 7,
+        "rainfallMM": 60
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 70
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 75
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 65
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 50
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 40
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 45
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 60
+      },
+      {
+        "month": 10,
+        "avgTempC": 18,
+        "rainfallMM": 80
+      },
+      {
+        "month": 11,
+        "avgTempC": 12,
+        "rainfallMM": 85
+      },
+      {
+        "month": 12,
+        "avgTempC": 7,
+        "rainfallMM": 75
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and fall (September-October) offer ideal temperatures between 15-23°C, with fewer crowds than summer. Summer is hot and crowded but ideal for outdoor dining and evening strolls, while winter is cold and rainy but offers fewer tourists and lower prices.",
+    "summary": "Florence experiences Mediterranean climate with mild winters and warm summers. July and August can exceed 28°C with significant heat, while January temperatures drop to around 6°C. Rainfall is moderate year-round with peaks in spring and fall."
+  },
+  "hotels": [
+    {
+      "name": "Hostel Gallo d'Oro",
+      "neighborhood": "Santa Maria Novella",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Social hostel with rooftop terrace, private rooms available, and excellent location near the main train station and food markets."
+    },
+    {
+      "name": "Hotel Brunelleschi",
+      "neighborhood": "Duomo/City Center",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Three-star hotel housed in a medieval tower with boutique charm, excellent central location steps from the Duomo and Piazza della Signoria."
+    },
+    {
+      "name": "Four Seasons Hotel Firenze",
+      "neighborhood": "Oltrarno",
+      "pricePerNightUSD": 550,
+      "category": "Luxury",
+      "description": "Five-star palazzo hotel with Renaissance gardens, Michelin-starred restaurant, spa facilities, and unparalleled service in a 16th-century palace."
+    }
+  ]
+}

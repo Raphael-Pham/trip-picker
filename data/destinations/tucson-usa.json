@@ -1,0 +1,467 @@
+{
+  "id": "tucson-usa",
+  "city": "Tucson",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "TUS",
+    "PHX"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 82,
+    "activities": 80,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Tucson desert mountains",
+  "summary": "Tucson is a vibrant desert city in southern Arizona known for its rich Native American heritage, stunning desert landscapes, and thriving local food scene blending Mexican and Southwestern cuisines. With world-class hiking, outdoor adventures, and colorful murals scattered throughout downtown, Tucson offers authentic Southwestern experiences at affordable prices.",
+  "restaurants": [
+    {
+      "name": "El Charro Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic Tucson institution since 1922 serving traditional Sonoran Mexican cuisine in a charming courtyard setting. Famous for their carne asada and fresh flour tortillas made daily.",
+      "mustTry": "Carne Asada"
+    },
+    {
+      "name": "Cafe Poca Cosa",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Mexican fine dining with artistic plating and innovative dishes using traditional techniques. Chef-driven menu changes daily with seasonal ingredients.",
+      "mustTry": "Chef's Tasting Menu"
+    },
+    {
+      "name": "The Tap Room",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual gastropub featuring local craft beers and elevated comfort food with Southwestern influences. Great for groups and families seeking craft beverages.",
+      "mustTry": "Arizona Burger with Chiles"
+    },
+    {
+      "name": "Maynards Market & Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant in a historic building downtown showcasing local ingredients and artisanal preparations. Excellent wine selection and vibrant atmosphere.",
+      "mustTry": "Seasonal Vegetable Medley"
+    },
+    {
+      "name": "B&E Meats",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Working butcher shop with a small counter serving excellent carnivore-focused plates. Known for quality cuts and authentic preparation of local favorites.",
+      "mustTry": "Barbacoa Tacos"
+    },
+    {
+      "name": "Wildflower Bread Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local bakery favorite offering fresh artisan breads, pastries, and breakfast items made daily. Perfect for a quick, quality meal on the go.",
+      "mustTry": "Chocolate Croissant"
+    },
+    {
+      "name": "The Grill at Hacienda del Sol",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale restaurant with stunning panoramic views of Tucson and the surrounding mountains from a historic 1929 resort. Contemporary American cuisine with Southwestern touches.",
+      "mustTry": "Grilled Salmon with Desert Citrus"
+    },
+    {
+      "name": "Mi Nidito",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Family-owned Mexican restaurant beloved by locals and celebrities alike, serving authentic Sonoran cuisine since 1952. Casual atmosphere with generous portions.",
+      "mustTry": "Chimis"
+    },
+    {
+      "name": "Alchemy Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisan coffee roaster and cafe focusing on single-origin beans and specialty drinks. Popular gathering spot with knowledgeable baristas.",
+      "mustTry": "House Espresso Blend"
+    },
+    {
+      "name": "Restaurant Joyride",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern American restaurant with creative small plates and an excellent craft cocktail program. Energetic downtown location perfect for evening dining.",
+      "mustTry": "Duck Confit Tacos"
+    },
+    {
+      "name": "Boccata",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Italian-inspired fine dining with house-made pasta and imported ingredients in an intimate setting. Extensive wine list featuring Old World selections.",
+      "mustTry": "Handmade Ravioli"
+    },
+    {
+      "name": "Otro Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Peruvian cuisine combining fresh ingredients with traditional techniques in a warm, welcoming atmosphere. Known for excellent ceviches and pisco cocktails.",
+      "mustTry": "Mixed Ceviche Plate"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Saguaro National Park East",
+      "category": "Outdoor",
+      "description": "Iconic desert landscape featuring thousands of massive saguaro cacti spread across 57,000 acres with scenic loop drive and hiking trails. Perfect for experiencing the classic Sonoran Desert ecosystem.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Mount Lemmon Hiking",
+      "category": "Outdoor",
+      "description": "Cool mountain refuge with dozens of trails ranging from easy to challenging, offering alpine forest views and respite from desert heat. Popular destination for hikers seeking elevation gain.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Arizona State Museum",
+      "category": "Cultural",
+      "description": "World-class museum showcasing Native American cultures, archaeology, and territorial history with extensive collections from Arizona tribes. Free admission and excellent educational exhibits.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Downtown Tucson Mural Tour",
+      "category": "Cultural",
+      "description": "Self-guided or led walking tour of vibrant street murals and public art installations throughout downtown's historic barrios. Captures the city's artistic spirit and cultural diversity.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Old Tucson Film Studios",
+      "category": "Family",
+      "description": "Historic working film studio and theme park where classic Western movies were filmed, offering guided tours and interactive attractions. Authentic Old West experience with movie memorabilia.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sabino Canyon Tram Ride",
+      "category": "Outdoor",
+      "description": "Open-air tram rides through scenic canyon with limestone walls, Arizona sycamores, and seasonal waterfalls accessible by electric tram. Peaceful natural escape near the city.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "University of Arizona Campus Tour",
+      "category": "Cultural",
+      "description": "Beautiful 384-acre campus featuring stunning architecture, sculptures, and gardens with free walking tours available. Home to the Arizona State Museum and several art galleries.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Stargazing at Kitt Peak National Observatory",
+      "category": "Outdoor",
+      "description": "World-renowned astronomical observatory offering daytime tours and evening stargazing programs on a mountaintop with minimal light pollution. Incredible views of night sky and planets.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mission San Xavier del Bac",
+      "category": "Cultural",
+      "description": "Historic 18th-century Spanish mission called the White Dove of the Desert, featuring stunning architecture and active religious site south of Tucson. Important cultural and spiritual landmark.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Rillito River Park Biking",
+      "category": "Outdoor",
+      "description": "22-mile multi-use path following the Rillito River with scenic views of mountains and desert vegetation, suitable for all skill levels. Free access with bike rental available nearby.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Colossal Cave Mountain Park",
+      "category": "Adventure",
+      "description": "Massive limestone cavern with guided cave tours revealing stalactites, stalagmites, and archaeological artifacts spanning 70 million years. Historic site with additional hiking trails.",
+      "durationHours": 3,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "adventure",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Local Food Tours and Farmers Markets",
+      "category": "Foodie",
+      "description": "Guided culinary tours exploring Tucson's food culture, farms, and historic neighborhoods paired with tastings at local eateries and weekly farmers markets. Authentic gastronomic experience.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Saguaro National Park Cactus Forest Loop",
+        "description": "Iconic desert landscape with massive saguaros against red-rock ridges offering infinite compositional possibilities throughout the day.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise/sunset)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Gates Pass Overlook",
+        "description": "Dramatic mountain pass with sweeping 360-degree views of Tucson basin and surrounding ranges, perfect for sunset photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Tucson Murals",
+        "description": "Vibrant street art and murals throughout Barrio Viejo and downtown districts showcasing colorful cultural expression.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning to afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Mission San Xavier del Bac",
+        "description": "Stunning white adobe mission architecture with desert surroundings creating striking architectural and cultural photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sabino Canyon Creek Bed",
+        "description": "Scenic canyon with flowing water, desert vegetation, and limestone walls creating layered landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Arizona-Sonora Desert Museum",
+        "description": "Desert wildlife and botanical gardens offering excellent opportunities to photograph native desert flora and fauna in natural settings.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Mount Lemmon Aerial Views",
+        "description": "Elevated vantage points showing sprawling desert valleys, forested mountains, and distant saguaro forests across vast terrain.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Tucson Convention Center Nighttime",
+        "description": "Modern architectural complex with interesting geometric shapes and reflective surfaces ideal for night photography and urban composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour to night",
+        "category": "Night"
+      },
+      {
+        "name": "Rillito River Park at Sunrise",
+        "description": "Peaceful river path with cottonwoods and saguaros creating silhouettes and soft light opportunities during early morning hours.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Downtown Streets",
+        "description": "Charming vintage buildings, historic storefronts, and atmospheric street scenes capturing old Tucson character and urban culture.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Saguaro National Park East",
+      "Mount Lemmon Summit",
+      "Rillito River Park"
+    ],
+    "sunsetSpots": [
+      "Gates Pass Overlook",
+      "Sabino Canyon",
+      "Mission San Xavier del Bac"
+    ],
+    "lensRecommendations": [
+      "14-24mm ultra-wide for expansive desert landscapes and mountain vistas",
+      "50mm prime for street photography and architectural details in downtown",
+      "70-200mm telephoto for wildlife at Arizona-Sonora Desert Museum and compressed landscape layers",
+      "Macro lens for desert wildflower and plant detail photography during spring bloom"
+    ],
+    "goldenHourNotes": "Tucson's desert landscape transforms dramatically during golden hours with warm, directional light accentuating saguaro silhouettes and mountain textures. The clear Arizona air and minimal atmospheric haze create crisp details and vibrant color saturation, especially at higher elevations. Winter months offer extended golden hour periods with lower sun angles producing longer shadows and more dramatic elevation changes.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 13,
+        "rainfallMM": 28
+      },
+      {
+        "month": 2,
+        "avgTempC": 15,
+        "rainfallMM": 25
+      },
+      {
+        "month": 3,
+        "avgTempC": 19,
+        "rainfallMM": 18
+      },
+      {
+        "month": 4,
+        "avgTempC": 25,
+        "rainfallMM": 10
+      },
+      {
+        "month": 5,
+        "avgTempC": 31,
+        "rainfallMM": 5
+      },
+      {
+        "month": 6,
+        "avgTempC": 37,
+        "rainfallMM": 33
+      },
+      {
+        "month": 7,
+        "avgTempC": 35,
+        "rainfallMM": 58
+      },
+      {
+        "month": 8,
+        "avgTempC": 34,
+        "rainfallMM": 51
+      },
+      {
+        "month": 9,
+        "avgTempC": 31,
+        "rainfallMM": 38
+      },
+      {
+        "month": 10,
+        "avgTempC": 25,
+        "rainfallMM": 23
+      },
+      {
+        "month": 11,
+        "avgTempC": 18,
+        "rainfallMM": 20
+      },
+      {
+        "month": 12,
+        "avgTempC": 12,
+        "rainfallMM": 32
+      }
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonality": "Winter (November-March) offers mild, pleasant weather with sunny days ideal for outdoor exploration and hiking. Summer (June-August) experiences extreme heat exceeding 35°C with monsoon rains in July-September.",
+    "summary": "Tucson's desert climate features distinct seasons with mild winters and scorching summers, making fall and spring the optimal travel periods. The region receives 65% of its annual rainfall during monsoon season (July-September) with brief afternoon thunderstorms."
+  },
+  "hotels": [
+    {
+      "name": "HotelOld Pueblo",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Historic budget-friendly hotel in downtown location with basic but clean rooms and convenient access to restaurants, museums, and cultural attractions."
+    },
+    {
+      "name": "JW Marriott Starr Pass Resort & Spa",
+      "neighborhood": "South Tucson",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "All-inclusive desert resort featuring championship golf courses, multiple pools, fine dining, and spa services with stunning mountain and saguaro views."
+    },
+    {
+      "name": "Hacienda del Sol Guest Ranch Resort",
+      "neighborhood": "Foothills",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Historic 1929 luxury resort nestled in the Santa Catalina Mountains offering breathtaking panoramic views, fine dining, and authentic Southwestern hospitality with world-class amenities."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1707837389018-4aeade271404?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxUdWNzb24lMjBkZXNlcnQlMjBtb3VudGFpbnN8ZW58MXwwfHx8MTc4MTMwMzIwN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+}

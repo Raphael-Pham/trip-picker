@@ -1,0 +1,460 @@
+{
+  "id": "athens-greece",
+  "city": "Athens",
+  "country": "Greece",
+  "region": "Europe",
+  "airportCodes": [
+    "ATH",
+    "JTR",
+    "SKU"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "cultural",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 88,
+    "photography": 92,
+    "activities": 90,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 45,
+      "maxPerDayUSD": 75
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Athens Acropolis sunset",
+  "summary": "Athens is the cradle of Western civilization, where ancient ruins meet vibrant modern culture against a backdrop of Mediterranean beauty. This historic capital offers world-class museums, exceptional cuisine, and photogenic neighborhoods that blend millennia of history with contemporary Greek life. With warm sunny weather and affordable prices, Athens delivers unforgettable experiences for every traveler type.",
+  "restaurants": [
+    {
+      "name": "Tzitzikas & Mermigas",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A beloved taverna chain celebrating traditional Greek cuisine with modern twists. Specializes in authentic regional dishes from across Greece.",
+      "mustTry": "Saganaki (fried cheese)"
+    },
+    {
+      "name": "Kuzina",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Rooftop fine dining restaurant with panoramic views of the Acropolis. Features refined Greek cuisine with Mediterranean influences.",
+      "mustTry": "Pan-seared sea bass with local vegetables"
+    },
+    {
+      "name": "Gazi Street Souvlaki",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular street food vendor in the Gazi neighborhood serving excellent souvlaki and gyros. Quick, affordable, and authentically Greek.",
+      "mustTry": "Pork souvlaki with pita"
+    },
+    {
+      "name": "Varoulko Seaside",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred seafood restaurant overlooking the marina in Mikrolimano. Exceptional fresh fish and innovative Mediterranean preparations.",
+      "mustTry": "Grilled octopus with citrus"
+    },
+    {
+      "name": "To Kouti",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional family-run taverna in Plaka serving classic Greek comfort food. Known for generous portions and authentic atmosphere.",
+      "mustTry": "Moussaka"
+    },
+    {
+      "name": "Falafel House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick-service Mediterranean restaurant near Syntagma Square offering falafel wraps and Greek salads. Perfect for budget-conscious travelers.",
+      "mustTry": "Falafel wrap with tahini"
+    },
+    {
+      "name": "Funky Gourmet",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Experimental molecular gastronomy restaurant with two Michelin stars. Offers innovative tasting menus celebrating Greek ingredients.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "O Thanasis",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Long-standing kebab restaurant in Monastiraki with a loyal following for quality meat and traditional recipes. Casual and authentic.",
+      "mustTry": "Lamb kebab"
+    },
+    {
+      "name": "Kalamaki Pitta Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Street-level grill specializing in souvlaki and grilled meats wrapped in warm pita. Ideal for quick, satisfying meals on the go.",
+      "mustTry": "Chicken souvlaki pitta"
+    },
+    {
+      "name": "Orizontes Lycabettus",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Fine dining restaurant atop Lycabettus Hill with breathtaking 360-degree views of Athens. Refined Mediterranean cuisine with attentive service.",
+      "mustTry": "Lobster with local herbs"
+    },
+    {
+      "name": "Ouzeri Tsiknopempti",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Cozy ouzo bar and grill in the Psyrri neighborhood serving grilled meats and traditional meze. Excellent wine and spirit selection.",
+      "mustTry": "Grilled lamb chops with oregano"
+    },
+    {
+      "name": "Evripidis Market Stalls",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Collection of casual food vendors in the central market offering fresh soups, roasted corn, and traditional Greek street snacks. Authentic and affordable.",
+      "mustTry": "Horta (boiled vegetables) with lemon"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Acropolis and Parthenon",
+      "category": "Cultural",
+      "description": "Explore the iconic 5th-century temple complex crowning Athens, including the magnificent Parthenon. Offers stunning views of the city and insight into ancient Greek architecture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Acropolis Museum",
+      "category": "Indoor",
+      "description": "World-class museum featuring ancient Greek artifacts and sculptures with interactive exhibits. Modern architecture provides sweeping Acropolis views.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Plaka Neighborhood Walk",
+      "category": "Outdoor",
+      "description": "Wander through charming narrow streets below the Acropolis filled with tavernas, shops, and historic buildings. Free exploration with countless photo opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "National Archaeological Museum",
+      "category": "Indoor",
+      "description": "Greece's largest museum housing the world's finest collection of ancient Greek art and artifacts. Essential for understanding ancient civilization.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Lycabettus Hill Sunset",
+      "category": "Outdoor",
+      "description": "Hike or cable car to Athens' highest point for panoramic sunset views over the city, Acropolis, and Saronic Gulf. Romantic and iconic experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Panathenaic Stadium Tour",
+      "category": "Outdoor",
+      "description": "Visit the ancient stadium where the first modern Olympic Games were held in 1896. Features museum exhibits and impressive marble architecture.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Temple of Zeus and Hadrian's Arch",
+      "category": "Cultural",
+      "description": "Explore the colossal remains of ancient Rome's largest temple and the monumental archway in the Zappeion Gardens area. Peaceful and historically significant.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Syntagma Square and Parliament",
+      "category": "Outdoor",
+      "description": "Observe the Greek Parliament building and watch the hourly Evzone guard changing ceremony in traditional costume. Central to modern Athens' political life.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard"
+      ]
+    },
+    {
+      "name": "Day Trip to Delphi",
+      "category": "Outdoor",
+      "description": "Take a guided tour to ancient Delphi, considered the center of the ancient world, perched dramatically on Mount Parnassus. UNESCO World Heritage site with stunning scenery.",
+      "durationHours": 10,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Psyrri Street Art and Nightlife",
+      "category": "Nightlife",
+      "description": "Experience Athens' vibrant street art scene and trendy bars in the revitalized Psyrri neighborhood. Perfect for contemporary culture and evening entertainment.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Byzantine and Christian Museum",
+      "category": "Indoor",
+      "description": "Comprehensive collection of Byzantine art and religious artifacts in a elegant mansion setting. Often overlooked but exceptionally well-curated.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "cultural",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Anafiotika Historic Quarter",
+      "category": "Outdoor",
+      "description": "Charming hidden neighborhood behind the Acropolis featuring whitewashed houses transplanted from Aegean islands in the 19th century. Quintessential photogenic Greek village atmosphere.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Acropolis from Areopagus Rock",
+        "description": "Iconic elevated view of the Parthenon and Acropolis complex from the nearby sacred rock formation, providing dramatic angles and context.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, early morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Parthenon South Slope",
+        "description": "Less crowded angle capturing the Parthenon from below with theatrical lighting and architectural detail in warm golden light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon, 3-5 PM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Plaka Street Scenes",
+        "description": "Charming narrow stone streets lined with ivy-covered buildings, tavernas, and locals creating authentic Greek village atmosphere within the city.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Anafiotika Alleyways",
+        "description": "Whitewashed Cycladic-style houses with blue doors and windows creating perfectly composed Mediterranean scenes with minimal crowds.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light, 7-9 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lycabettus Hill Panorama",
+        "description": "360-degree views of Athens from the highest point, capturing the sprawling city, Acropolis, and surrounding mountains in one sweep.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset, 30 minutes before dusk",
+        "category": "Landscape"
+      },
+      {
+        "name": "Syntagma Parliament Building",
+        "description": "Neoclassical architecture of the Greek Parliament with formal gardens and Evzone guards in traditional costume for cultural documentation.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light, around 10 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Temple of Zeus at Sunset",
+        "description": "Colossal Corinthian columns framed against warm sunset sky with Hadrian's Arch creating layered compositional depth.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour, 30-45 minutes before sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Panathenaic Stadium Exterior",
+        "description": "Impressive marble stadium architecture photographed from elevated angles, especially striking with dramatic cloud formations.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon with directional side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Gazi Industrial District Street Art",
+        "description": "Vibrant murals and graffiti covering factory walls and buildings, showcasing contemporary Greek street art culture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for saturated colors, or overcast for even light",
+        "category": "Street"
+      },
+      {
+        "name": "Monastiraki Square Night Scene",
+        "description": "Bustling square with Byzantine church, traditional shops, and atmospheric lighting capturing the energy of central Athens at night.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening after dusk, 7-9 PM",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Areopagus Rock",
+      "Filopappos Monument",
+      "Aerides Tower viewpoint"
+    ],
+    "sunsetSpots": [
+      "Lycabettus Hill",
+      "Temple of Zeus and Hadrian's Arch",
+      "Acropolis Museum rooftop cafe"
+    ],
+    "lensRecommendations": [
+      "24-70mm for versatile street and architectural work in tight historic streets",
+      "16-35mm wide angle for expansive city views from hilltops and panoramic landscapes",
+      "85mm prime for intimate portraits of locals and compressed architectural detail shots",
+      "50mm prime for timeless street photography in Plaka and everyday scenes"
+    ],
+    "goldenHourNotes": "Athens offers exceptional golden hour opportunities with warm light enhancing ochre and white building facades. The best window is 30-45 minutes before sunset from elevated positions like Lycabettus Hill or Areopagus Rock. Early morning light (6-8 AM) is excellent in Plaka before crowds arrive, creating long shadows that emphasize the neighborhood's cobblestone texture and architectural character.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 9,
+        "rainfallMM": 58
+      },
+      {
+        "month": 2,
+        "avgTempC": 10,
+        "rainfallMM": 46
+      },
+      {
+        "month": 3,
+        "avgTempC": 13,
+        "rainfallMM": 41
+      },
+      {
+        "month": 4,
+        "avgTempC": 19,
+        "rainfallMM": 23
+      },
+      {
+        "month": 5,
+        "avgTempC": 25,
+        "rainfallMM": 15
+      },
+      {
+        "month": 6,
+        "avgTempC": 30,
+        "rainfallMM": 7
+      },
+      {
+        "month": 7,
+        "avgTempC": 32,
+        "rainfallMM": 4
+      },
+      {
+        "month": 8,
+        "avgTempC": 32,
+        "rainfallMM": 5
+      },
+      {
+        "month": 9,
+        "avgTempC": 28,
+        "rainfallMM": 8
+      },
+      {
+        "month": 10,
+        "avgTempC": 22,
+        "rainfallMM": 54
+      },
+      {
+        "month": 11,
+        "avgTempC": 16,
+        "rainfallMM": 71
+      },
+      {
+        "month": 12,
+        "avgTempC": 11,
+        "rainfallMM": 63
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Athens experiences a Mediterranean climate with hot, dry summers (June-August) and mild, wet winters (November-February). Spring (April-May) and fall (September-October) offer ideal weather for tourism with comfortable temperatures and lower rainfall.",
+    "summary": "Expect abundant sunshine year-round with over 300 days annually. Summers are hot and dry (30-32°C) with negligible rain, while winters are mild (9-11°C) with occasional rainfall, making any season visitable for dedicated travelers."
+  },
+  "hotels": [
+    {
+      "name": "Budget Backpackers",
+      "neighborhood": "Plaka",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Friendly hostel-style accommodation in historic Plaka with shared dormitories, communal areas, and budget-conscious traveler vibe."
+    },
+    {
+      "name": "Hotel Grande Bretagne",
+      "neighborhood": "Syntagma",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Athens' most prestigious luxury hotel overlooking Syntagma Square and Acropolis, featuring world-class service, restaurants, and rooftop views."
+    },
+    {
+      "name": "Hotel Athens Cypria",
+      "neighborhood": "Omonia",
+      "pricePerNightUSD": 85,
+      "category": "Mid-range",
+      "description": "Comfortable mid-range hotel in central Omonia with modern amenities, rooftop bar with Acropolis views, and convenient location for metro access."
+    }
+  ]
+}

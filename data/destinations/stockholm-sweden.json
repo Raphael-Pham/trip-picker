@@ -1,0 +1,465 @@
+{
+  "id": "stockholm-sweden",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "region": "Europe",
+  "airportCodes": [
+    "ARN",
+    "NYO",
+    "VST"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "relaxation",
+    "cultural"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 88,
+    "photography": 92,
+    "activities": 85,
+    "weather": 60
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Stockholm archipelago water city",
+  "summary": "Stockholm is a captivating Nordic capital built across 14 islands, blending medieval charm with modern Scandinavian design and innovative cuisine. The city offers world-class museums, vibrant neighborhoods, and stunning waterfront vistas that make it a photographer's paradise. Experience the perfect intersection of history, nature, and contemporary Nordic culture.",
+  "restaurants": [
+    {
+      "name": "Noma",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "One of the world's best restaurants specializing in New Nordic cuisine with seasonal tasting menus. Exceptional presentation and locally-sourced ingredients showcase Scandinavian culinary excellence.",
+      "mustTry": "Multi-course tasting menu featuring foraged ingredients"
+    },
+    {
+      "name": "Frantzén",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Innovative Michelin-starred establishment offering artistic interpretations of Nordic flavors in an intimate setting. A theatrical dining experience combining food, art, and storytelling.",
+      "mustTry": "Chef's surprise tasting menu"
+    },
+    {
+      "name": "Fotografiska Restaurang",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Modern Swedish cuisine with waterfront views overlooking Norrmalm in a contemporary art museum setting. Perfect blend of culinary creativity and cultural ambiance.",
+      "mustTry": "Pan-seared fish with Nordic vegetables"
+    },
+    {
+      "name": "Pelikan",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional Swedish comfort food in a historic beer hall atmosphere dating back to 1904. Authentic recipes and hearty portions reflect classic Nordic dining culture.",
+      "mustTry": "Meatballs with lingonberry sauce and creamed potatoes"
+    },
+    {
+      "name": "Café Halv Trappa",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy corner café in Gamla Stan serving excellent fika (Swedish coffee break) with fresh pastries and sandwiches. Charming old-town location perfect for a quick, affordable meal.",
+      "mustTry": "Cinnamon bun with coffee"
+    },
+    {
+      "name": "Oaxen Slip",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Two Michelin stars for innovative Nordic cuisine on Djurgården island with views of Stockholm's waterways. Farm-to-table philosophy with impeccable seasonal dishes.",
+      "mustTry": "Aged duck with root vegetables"
+    },
+    {
+      "name": "Kungsholmens Strand",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Waterfront dining featuring fresh seafood and Nordic small plates with Stockholm archipelago views. Relaxed yet refined atmosphere perfect for sunset dining.",
+      "mustTry": "Fresh crayfish platter"
+    },
+    {
+      "name": "Mathias Dahlgren Matbaren",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Nordic cuisine from award-winning chef Mathias Dahlgren in a vibrant, accessible restaurant setting. Focus on seasonal produce and traditional Swedish techniques.",
+      "mustTry": "Slow-cooked lamb with pickled vegetables"
+    },
+    {
+      "name": "Debaser Strand",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual waterfront dining with burgers, Swedish classics, and craft beers in a cultural venue atmosphere. Great for a relaxed meal with live music programming.",
+      "mustTry": "Swedish meatball burger"
+    },
+    {
+      "name": "Hermans",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Vegetarian and vegan Swedish cuisine with a beautiful rooftop garden overlooking Gamla Stan. Sustainable, organic ingredients prepared with creative Nordic flair.",
+      "mustTry": "Vegan cinnamon bun"
+    },
+    {
+      "name": "Gondolen",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant dining suspended in the air on Slussen bridge with 360-degree panoramic views of Stockholm's islands. Fine Swedish and international cuisine with unmatched vistas.",
+      "mustTry": "Pan-seared scallops with seasonal vegetables"
+    },
+    {
+      "name": "Östermalms Saluhall",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic food market hall with vendors offering fresh produce, meats, seafood, and ready-to-eat Swedish specialties. Perfect for sampling local foods at budget prices.",
+      "mustTry": "Fresh herring sandwich from the fish counter"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Vasa Museum",
+      "category": "Cultural",
+      "description": "Marvel at the remarkably preserved 17th-century warship that sank on its maiden voyage and was recovered in 1961. One of Sweden's most visited museum with fascinating maritime history.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Gamla Stan Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Stockholm's charming medieval old town with narrow cobblestone streets, colorful buildings, and historic squares. Discover cafés, shops, and traditional Swedish architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Stockholm Archipelago Boat Tour",
+      "category": "Outdoor",
+      "description": "Cruise through 30,000 islands and skerries, visiting charming waterfront villages and pristine natural landscapes. Essential experience showcasing Stockholm's maritime beauty.",
+      "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Drottningholm Palace",
+      "category": "Cultural",
+      "description": "Visit the opulent 17th-century royal residence and UNESCO World Heritage site located on an island near Stockholm. Stunning architecture, beautiful gardens, and royal museum exhibits.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Museum of Modern Art at Moderna Museet",
+      "category": "Cultural",
+      "description": "Impressive collection of 20th and 21st-century art including works by Picasso, Dalí, and contemporary Nordic artists. Architecturally striking building on Djurgården island.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Skansen Open-Air Museum",
+      "category": "Family",
+      "description": "Experience historical Swedish buildings, traditional crafts, and Nordic wildlife in a sprawling outdoor museum. The world's oldest open-air museum featuring 150 historic structures.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking in Stockholm Archipelago",
+      "category": "Adventure",
+      "description": "Paddle through pristine island waterways, exploring hidden coves and untouched natural areas inaccessible by boat. Ideal for outdoor enthusiasts seeking intimate nature experiences.",
+      "durationHours": 5,
+      "estimatedCostUSD": 70,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Fotografiska Photography Museum",
+      "category": "Cultural",
+      "description": "Cutting-edge contemporary photography exhibitions in a stunning waterfront venue with rotating displays from international photographers. A must-visit for photography enthusiasts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "photography",
+        "cultural",
+        "standard"
+      ]
+    },
+    {
+      "name": "Södermalm Neighborhood Exploration",
+      "category": "Outdoor",
+      "description": "Discover Stockholm's trendiest district with vintage shops, street art, independent cafés, and vibrant nightlife scene. Bohemian atmosphere reflecting modern Swedish culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Swedish Royal Palace Tour",
+      "category": "Cultural",
+      "description": "Tour the official residence of the Swedish monarch featuring ornate state rooms, royal apartments, and the Museum of the Three Crowns. One of Europe's largest palaces.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Winter Swim at Strömkajen",
+      "category": "Adventure",
+      "description": "Take a winter dip in Stockholm's icy archipelago waters, a popular local activity in cold months. Exhilarating Nordic experience followed by sauna warming.",
+      "durationHours": 1,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "surprise",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Dinner Cruise on Stockholm Waters",
+      "category": "Nightlife",
+      "description": "Enjoy fine dining and entertainment while cruising past illuminated islands and Stockholm's glittering skyline. Romantic evening experience with panoramic water views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Gamla Stan from Monteliusvägen",
+        "description": "Iconic viewpoint overlooking the entire medieval old town with colorful buildings and harbor reflecting the golden light.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour for warm light on historic buildings",
+        "category": "Architecture"
+      },
+      {
+        "name": "Djurgården Island Waterfront",
+        "description": "Picturesque waterside promenade with museums, boats, and lush greenery creating perfectly balanced compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon when museums are illuminated and crowds diminish",
+        "category": "Landscape"
+      },
+      {
+        "name": "Strandvägen Boulevard",
+        "description": "Tree-lined avenue with classical architecture, elegant storefronts, and a refined urban character ideal for street and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning to capture symmetry and reduce pedestrian traffic",
+        "category": "Street"
+      },
+      {
+        "name": "Skeppsholmen Bridge",
+        "description": "Minimalist red bridge connecting islands with modern museum architecture and reflective waters creating striking compositional depth.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour just before sunrise or after sunset for moody atmospherics",
+        "category": "Architecture"
+      },
+      {
+        "name": "Norrmalm Skyline from Södermalm",
+        "description": "Urban landscape showcasing modern Stockholm's glass towers contrasting with historic church spires and water reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk during blue hour when city lights activate and sky retains color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Slussen Lock Gates",
+        "description": "Engineering marvel where fresh lake water meets salt archipelago water with constant dynamic maritime activity and dramatic light interactions.",
+        "difficulty": "Advanced",
+        "bestTime": "Morning light for clarity and minimal glare on water surfaces",
+        "category": "Architecture"
+      },
+      {
+        "name": "Icehotel-inspired Winter Sculptures",
+        "description": "Seasonal ice sculptures and frozen landscape installations throughout Stockholm creating ethereal winter photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Winter months with clear skies and low sun angle for crystalline detail",
+        "category": "Landscape"
+      },
+      {
+        "name": "Gröna Lund Amusement Park at Night",
+        "description": "Illuminated theme park on Djurgården island with vibrant lights and reflections creating dynamic night photography compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening hours when park lights fully activate and crowds diminish slightly",
+        "category": "Night"
+      },
+      {
+        "name": "Kungsholmen Waterfront Apartments",
+        "description": "Colorful residential buildings reflected in calm water channels creating mirror-like compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning with calm water and soft directional light",
+        "category": "Reflection"
+      },
+      {
+        "name": "City Hall Tower from Södermalm",
+        "description": "Golden-topped civic landmark photographed against varied Stockholm skylines and water with excellent vantage points throughout the district.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour when warm light illuminates the characteristic three-crown tower",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Djurgården's Hasselbacken viewpoint",
+      "Skinnarviksberget hillside lookout",
+      "Fågelholmen island observatory deck"
+    ],
+    "sunsetSpots": [
+      "Monteliusvägen terrace overlooking Gamla Stan",
+      "Gröna Lund Amusement Park western overlook",
+      "Årstaviken waterfront near Södermalm"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 for versatile street, architecture and landscape work across dynamic conditions",
+      "16-35mm f/4 ultra-wide for expansive skyline compositions and capturing archipelago vastness",
+      "70-200mm f/4 telephoto for compressed architectural details and isolated subject framing from distance",
+      "50mm f/1.8 prime for intimate street photography and portraits with excellent low-light performance"
+    ],
+    "goldenHourNotes": "Stockholm's northern latitude creates extended golden hours during summer months, with nearly full daylight from May through August. Winter offers brief but exceptionally warm-toned light in early morning and late afternoon, creating dramatic contrast against snow and ice. The archipelago's water surfaces amplify golden hour reflections, doubling the photographic impact of low-angle sunlight.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -3,
+        "rainfallMM": 38
+      },
+      {
+        "month": 2,
+        "avgTempC": -3,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": 0,
+        "rainfallMM": 28
+      },
+      {
+        "month": 4,
+        "avgTempC": 5,
+        "rainfallMM": 35
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 35
+      },
+      {
+        "month": 6,
+        "avgTempC": 17,
+        "rainfallMM": 48
+      },
+      {
+        "month": 7,
+        "avgTempC": 19,
+        "rainfallMM": 61
+      },
+      {
+        "month": 8,
+        "avgTempC": 18,
+        "rainfallMM": 56
+      },
+      {
+        "month": 9,
+        "avgTempC": 14,
+        "rainfallMM": 48
+      },
+      {
+        "month": 10,
+        "avgTempC": 9,
+        "rainfallMM": 51
+      },
+      {
+        "month": 11,
+        "avgTempC": 4,
+        "rainfallMM": 49
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 43
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Stockholm experiences dramatic seasonal variation with long, bright summers perfect for outdoor activities and short, dark winters ideal for Northern Lights viewing and cozy indoor experiences. Spring and fall offer moderate weather and fewer crowds, making them excellent shoulder seasons.",
+    "summary": "Summers are mild and pleasant (17-19°C) with nearly 24-hour daylight from May through August, ideal for exploring islands and waterways. Winters are cold (-3°C to 0°C) with regular snow, creating magical frozen landscapes and enabling ice activities, though daylight is extremely limited."
+  },
+  "hotels": [
+    {
+      "name": "Generator Stockholm",
+      "neighborhood": "Södermalm",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Vibrant social hostel and budget hotel with modern design, rooftop bar, and communal spaces in trendy Södermalm neighborhood."
+    },
+    {
+      "name": "Hotel Diplomat",
+      "neighborhood": "Norrmalm",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Stylish mid-range hotel with elegant rooms, excellent restaurant, and prime location overlooking Strandvägen and Stockholm harbor."
+    },
+    {
+      "name": "Grand Hotel Stockholm",
+      "neighborhood": "Gamla Stan",
+      "pricePerNightUSD": 380,
+      "category": "Luxury",
+      "description": "Five-star waterfront luxury hotel with royal heritage, Michelin-starred restaurant, spa facilities, and panoramic archipelago views from the old town."
+    }
+  ]
+}

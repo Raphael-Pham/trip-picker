@@ -1,0 +1,454 @@
+{
+  "id": "louisville-usa",
+  "city": "Louisville",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SDF",
+    "CVG",
+    "IND"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "cultural",
+    "photography",
+    "relaxation",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 85,
+    "photography": 78,
+    "activities": 82,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Louisville Kentucky skyline river",
+  "summary": "Louisville is a vibrant river city famous for the Kentucky Derby, world-class bourbon distilleries, and eclectic food scene that blends Southern tradition with innovative cuisine. From the scenic Ohio River waterfront to historic neighborhoods like Old Louisville with Victorian architecture, this destination offers cultural richness, outdoor recreation, and authentic local experiences.",
+  "restaurants": [
+    {
+      "name": "Jai Ho",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Indian restaurant serving elevated versions of traditional dishes with local ingredients. Known for innovative small plates and extensive wine pairings.",
+      "mustTry": "Tandoori brined chicken with burnt garlic naan"
+    },
+    {
+      "name": "The Eagle",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Southern-style fried chicken and comfort food in a casual, lively atmosphere. A local favorite that captures Louisville's culinary soul.",
+      "mustTry": "Crispy fried chicken with biscuits and gravy"
+    },
+    {
+      "name": "Vincenzo's",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Italian restaurant offering handmade pastas and extensive wine selection in an elegant setting. Features seasonal menus and impeccable service.",
+      "mustTry": "Lobster Thermidor pasta"
+    },
+    {
+      "name": "Momofuku Ando",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Japanese ramen and Asian fusion dishes in a minimalist modern space. Authentic broths and house-made noodles draw loyal crowds.",
+      "mustTry": "Tonkotsu ramen with soft-boiled egg"
+    },
+    {
+      "name": "Burgers' Smokehouse",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Traditional Kentucky barbecue and smoked meats in a casual, family-friendly setting. Known for authentic slow-smoked pork and beef.",
+      "mustTry": "Pulled pork sandwich with smoked brisket"
+    },
+    {
+      "name": "Proof on Main",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American cuisine in an upscale dining room within the historic Bourbon Distillery complex. Sophisticated preparations with local, seasonal ingredients.",
+      "mustTry": "Pan-seared Kentucky lamb with bourbon reduction"
+    },
+    {
+      "name": "Doolins Pub",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Traditional Irish pub with hearty comfort food and extensive beer selection. Casual, welcoming atmosphere perfect for late-night bites.",
+      "mustTry": "Fish and chips with house-made tartar sauce"
+    },
+    {
+      "name": "Gyu-Kaku",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Japanese table-top grilling experience where diners cook premium meats and vegetables tableside. Fun, interactive dining with high-quality ingredients.",
+      "mustTry": "Wagyu beef kalbi and scallop butter corn"
+    },
+    {
+      "name": "Le Bernardin Louisville",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-inspired seafood restaurant featuring pristine fish preparations and elegant plating. Impeccable service and sophisticated atmosphere.",
+      "mustTry": "Pan-roasted diver scallops"
+    },
+    {
+      "name": "Kacho Sushi",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary sushi restaurant with omakase experience and creative rolls. Fresh fish and artistic presentations in a modern setting.",
+      "mustTry": "Chef's omakase selection"
+    },
+    {
+      "name": "Eiderdown",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant emphasizing local ingredients and seasonal menus with creative small plates. Intimate ambiance with knowledgeable service.",
+      "mustTry": "Market vegetable risotto with truffle"
+    },
+    {
+      "name": "Whiskey Cake Kitchen + Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Southern-inspired cuisine with bourbon-infused dishes served in a warm, rustic setting. Features housemade desserts and extensive bourbon cocktails.",
+      "mustTry": "Bourbon-braised short ribs with whipped potatoes"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Kentucky Derby Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum dedicated to the world's most famous horse race with interactive exhibits, historic artifacts, and behind-the-scenes tours of Churchill Downs racetrack. Learn about 150 years of Derby history and horse racing traditions.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Bourbon Heritage Trail Tour",
+      "category": "Cultural",
+      "description": "Guided or self-guided tour of multiple historic bourbon distilleries around Louisville including Maker's Mark, Woodford Reserve, and Buffalo Trace. Sample premium bourbons and learn about whiskey-making traditions.",
+      "durationHours": 8,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Waterfront Park",
+      "category": "Outdoor",
+      "description": "Scenic 85-acre riverside park along the Ohio River with walking trails, splash pads, outdoor concerts, and beautiful views of the city skyline. Free to enter with numerous family-friendly activities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Muhammad Ali Center",
+      "category": "Cultural",
+      "description": "Interactive museum celebrating the life and legacy of Muhammad Ali with exhibits on civil rights, his boxing career, and humanitarian work. Engaging displays suitable for all ages.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 13,
+      "bestFor": [
+        "cultural",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mega Cavern Zipline",
+      "category": "Adventure",
+      "description": "Underground zipline course within a former limestone quarry transformed into a 17-acre recreational space. Thrilling airborne adventure 100 feet below Louisville's surface.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Old Louisville Historic Tour",
+      "category": "Cultural",
+      "description": "Walking tour through one of America's largest Victorian neighborhoods featuring stunning architecture, historic mansions, and charming tree-lined streets. Self-guided or professional guide available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "photography",
+        "cultural",
+        "standard"
+      ]
+    },
+    {
+      "name": "Louisville Slugger Factory",
+      "category": "Cultural",
+      "description": "Working bat factory with guided tours showing how baseball bats are manufactured, museum of famous players' bats, and hands-on experiences. Interesting industrial heritage attraction.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "River kayaking on Ohio River",
+      "category": "Outdoor",
+      "description": "Paddle along the scenic Ohio River with views of Louisville's bridges, waterfront, and surrounding countryside. Multiple outfitters offer rental equipment and guided tours.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Speed Art Museum",
+      "category": "Cultural",
+      "description": "University art museum with diverse collections spanning ancient artifacts to contemporary installations in a beautiful modernist building. Free general admission with optional paid exhibitions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "standard"
+      ]
+    },
+    {
+      "name": "Louisville Nightlife - Bourbon Street District",
+      "category": "Nightlife",
+      "description": "Entertainment district with diverse bars, live music venues, and clubs featuring everything from country to rock to jazz. Heart of Louisville's after-dark scene.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "nightlife",
+        "standard"
+      ]
+    },
+    {
+      "name": "Cooking Class at local culinary school",
+      "category": "Foodie",
+      "description": "Hands-on cooking classes teaching Southern cuisine, bourbon cooking, or international dishes with professional chefs. Includes meal at the end of class.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "foodie"
+      ]
+    },
+    {
+      "name": "Louisville Zoo",
+      "category": "Family",
+      "description": "Major zoo with over 1,300 animals, beautiful landscaping, and interactive exhibits including reptile house and red panda encounters. Educational programs and shaded walking paths.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Waterfront Park Bridge District",
+        "description": "Stunning views of pedestrian bridges, Ohio River, and city skyline reflecting on water creating dynamic layered compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or blue hour for reflections",
+        "category": "Architecture"
+      },
+      {
+        "name": "Big Four Bridge at Sunset",
+        "description": "Historic pedestrian bridge with golden lattice structure framing the river and distant cityscape during golden hour.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset, 30 minutes before and after",
+        "category": "Architecture"
+      },
+      {
+        "name": "Old Louisville Victorian Streets",
+        "description": "Tree-lined residential streets with ornate Victorian mansions, wrought iron details, and historic architecture perfect for street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for architectural details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Churchill Downs Racetrack",
+        "description": "Iconic twin spires and grandstand create recognizable Louisville silhouette, especially dramatic during golden hour.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for side lighting on spires",
+        "category": "Architecture"
+      },
+      {
+        "name": "Slugger Field Baseball Stadium Night",
+        "description": "Modern ballpark illuminated at night with dramatic lighting creating vivid color contrasts and urban energy.",
+        "difficulty": "Intermediate",
+        "bestTime": "Night during evening games",
+        "category": "Night"
+      },
+      {
+        "name": "River View from Belvedere",
+        "description": "Elevated vantage point overlooking Ohio River bend with city skyline, bridges, and water creating panoramic landscape opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for atmospheric light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown skyline from Portland Waterfront",
+        "description": "Direct view of tallest buildings and cityscape with river foreground, excellent for dramatic wide-angle shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Blue hour for balanced sky and lights",
+        "category": "Landscape"
+      },
+      {
+        "name": "Distillery Architecture - Maker's Mark",
+        "description": "Beautiful red brick distillery buildings with historic details and barrel storage areas creating authentic industrial aesthetic.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days for even exposure on brick",
+        "category": "Architecture"
+      },
+      {
+        "name": "Street Art Alley - Phoenix Hill Neighborhood",
+        "description": "Colorful murals and street art on historic buildings create vibrant urban photography opportunities with cultural context.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for saturated colors",
+        "category": "Street"
+      },
+      {
+        "name": "Ohio River Fog Landscape",
+        "description": "Early morning fog rolling over river creates moody atmospheric landscape with soft diffused light and layered depth.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning after cool night, 30 minutes after sunrise",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Waterfront Park Eastern Overlook",
+      "Big Four Bridge East End",
+      "River View from Belvedere"
+    ],
+    "sunsetSpots": [
+      "Big Four Bridge West Approach",
+      "Waterfront Park Western Terrace",
+      "Portland Waterfront Promenade"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural skyline and river landscape panoramas",
+      "50mm prime for street photography and atmospheric portraits in neighborhoods",
+      "70-200mm telephoto for compressed city skyline shots from distance and bridge details",
+      "24mm fixed for documentary street and urban exploration photography"
+    ],
+    "goldenHourNotes": "Louisville's golden hour is particularly striking along the Ohio River and Big Four Bridge due to water reflections amplifying warm tones. The hour before sunset offers the best light for distillery brick facades and historic architecture. Early morning light is softer and ideal for street-level photography in Old Louisville where tree cover creates dappled patterns.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 3,
+        "rainfallMM": 89
+      },
+      {
+        "month": 2,
+        "avgTempC": 5,
+        "rainfallMM": 86
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 127
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 127
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 140
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 127
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 127
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 108
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 102
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 76
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 114
+      },
+      {
+        "month": 12,
+        "avgTempC": 5,
+        "rainfallMM": 102
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer ideal temperatures between 15-25°C with less rainfall and comfortable humidity. Summer is hot and humid (28-29°C) with frequent afternoon thunderstorms, while winter is cold with occasional ice and snow.",
+    "summary": "Louisville experiences a humid subtropical climate with four distinct seasons. Spring and fall provide the most pleasant weather for outdoor activities and sightseeing, while summer heat and humidity make early morning or evening activities preferable."
+  },
+  "hotels": [
+    {
+      "name": "Motel 6 Louisville",
+      "neighborhood": "South Louisville",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "No-frills budget chain motel with basic rooms, free Wi-Fi, and convenient access to I-65 and main attractions."
+    },
+    {
+      "name": "Hilton Louisville Downtown",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 155,
+      "category": "Mid-range",
+      "description": "Modern upscale hotel with 373 rooms, fitness center, on-site restaurant, and walking distance to restaurants, museums, and nightlife on Main Street."
+    },
+    {
+      "name": "The Ritz-Carlton Louisville",
+      "neighborhood": "Downtown Riverfront",
+      "pricePerNightUSD": 350,
+      "category": "Luxury",
+      "description": "Five-star luxury property with 115 rooms, river views, award-winning spa, fine dining restaurant, and unparalleled service in a historic riverfront building."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1615825742158-5aac7849e4a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMb3Vpc3ZpbGxlJTIwS2VudHVja3klMjBza3lsaW5lJTIwcml2ZXJ8ZW58MXwwfHx8MTc4MTMwMzI0N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "cape-town",
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "airportCodes": ["CPT"],
+  "hiddenGem": false,
+  "tripStyles": ["standard", "adventure", "photography", "relaxation"],
+  "scores": { "cost": 72, "food": 79, "photography": 95, "activities": 90, "weather": 85 },
+  "budgetRanges": [
+    { "level": "budget", "minPerDayUSD": 45, "maxPerDayUSD": 85 },
+    { "level": "mid", "minPerDayUSD": 85, "maxPerDayUSD": 200 },
+    { "level": "luxury", "minPerDayUSD": 200, "maxPerDayUSD": 500 }
+  ],
+  "unsplashQuery": "Cape Town Table Mountain ocean",
+  "heroImageUrl": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1600&q=80",
+  "summary": "Where the Atlantic and Indian Oceans meet beneath Table Mountain — stunning landscapes, world-class wines, and safari within reach.",
+  "restaurants": [
+    { "name": "The Test Kitchen", "category": "Fine Dining", "priceRange": "$$$$", "description": "Regularly ranked Africa's best restaurant. Luke Dale Roberts' sensory tasting menus.", "mustTry": "Duck liver parfait" },
+    { "name": "La Colombe", "category": "Fine Dining", "priceRange": "$$$", "description": "Elegant Constantia wine estate restaurant with French-African fusion cuisine.", "mustTry": "Thunnus tuna tin" },
+    { "name": "Biesmiellah", "category": "Local Specialty", "priceRange": "$", "description": "Cape Malay institution in Bo-Kaap — the city's best curry in a no-frills setting.", "mustTry": "Bobotie" },
+    { "name": "The Pot Luck Club", "category": "Midrange", "priceRange": "$$$", "description": "Tapas-style sharing dishes with panoramic Woodstock views — book the window seats.", "mustTry": "Tuna tataki" },
+    { "name": "Ginja", "category": "Midrange", "priceRange": "$$", "description": "Neighbourhood gem in Oranjezicht — farm-to-table menus that change weekly.", "mustTry": "Slow-braised lamb shoulder" },
+    { "name": "Harbour House Kalk Bay", "category": "Midrange", "priceRange": "$$", "description": "Seafront seafood restaurant over the Kalk Bay harbour — watch seals steal the catch.", "mustTry": "Kingklip line fish" },
+    { "name": "Mzoli's", "category": "Local Specialty", "priceRange": "$", "description": "Legendary open-air braai spot in Gugulethu — bring your own drinks, choose your cut.", "mustTry": "Lamb chops braai" },
+    { "name": "Hemelhuijs", "category": "Midrange", "priceRange": "$$", "description": "Beloved breakfast and brunch spot in the CBD — exquisite plating, great coffee.", "mustTry": "Boeber French toast" },
+    { "name": "Nobu Cape Town", "category": "Fine Dining", "priceRange": "$$$$", "description": "Japanese-Peruvian fusion in the One&Only resort on the V&A Waterfront.", "mustTry": "Black cod miso" },
+    { "name": "Woodstock Biscuit Mill", "category": "Budget", "priceRange": "$", "description": "Saturday market with 50+ artisan food stalls — the city's foodie highlight.", "mustTry": "Gatsby sandwich" },
+    { "name": "Quay Four", "category": "Budget", "priceRange": "$", "description": "Classic pub on the V&A Waterfront — affordable calamari and sea views.", "mustTry": "Calamari and chips" },
+    { "name": "Chefs Warehouse", "category": "Midrange", "priceRange": "$$$", "description": "No reservations, no menu — the kitchen decides based on the day's best produce.", "mustTry": "Chef's daily creation" }
+  ],
+  "activities": [
+    { "name": "Table Mountain Cable Car", "category": "Outdoor", "description": "Rotating cable car to the flat-topped summit — the city views are unparalleled.", "durationHours": 3, "estimatedCostUSD": 28, "bestFor": ["photography", "standard"] },
+    { "name": "Boulders Beach Penguin Colony", "category": "Outdoor", "description": "Walk among African penguins on a white-sand beach — surreal and delightful.", "durationHours": 3, "estimatedCostUSD": 10, "bestFor": ["photography", "standard"] },
+    { "name": "Cape Point Hike", "category": "Outdoor", "description": "Hike to the lighthouse at Africa's southwestern tip — dramatic cliffs and ocean.", "durationHours": 5, "estimatedCostUSD": 18, "bestFor": ["adventure", "photography"] },
+    { "name": "Winelands Day Tour", "category": "Outdoor", "description": "Visit Stellenbosch and Franschhoek for cellar tours and lunches at estate restaurants.", "durationHours": 8, "estimatedCostUSD": 80, "bestFor": ["foodie", "relaxation"] },
+    { "name": "Shark Cage Diving, Gansbaai", "category": "Adventure", "description": "Come face to face with great white sharks in a cage off the Shark Alley boat.", "durationHours": 10, "estimatedCostUSD": 180, "bestFor": ["adventure"] },
+    { "name": "Bo-Kaap Walking Tour", "category": "Cultural", "description": "Explore the colourful Cape Malay quarter with a local guide and cooking demo.", "durationHours": 3, "estimatedCostUSD": 40, "bestFor": ["photography", "foodie"] },
+    { "name": "Kalk Bay Tide Pools", "category": "Outdoor", "description": "Explore rock pools, watch fishermen bring in the catch, browse antique shops.", "durationHours": 4, "estimatedCostUSD": 0, "bestFor": ["relaxation", "photography"] },
+    { "name": "Signal Hill Sunset", "category": "Outdoor", "description": "Drive or walk up Signal Hill for a free front-row sunset over the Atlantic.", "durationHours": 2, "estimatedCostUSD": 0, "bestFor": ["photography", "relaxation"] },
+    { "name": "Robben Island Ferry Tour", "category": "Cultural", "description": "Visit Nelson Mandela's prison cell — guided by former political prisoners.", "durationHours": 4, "estimatedCostUSD": 22, "bestFor": ["standard"] },
+    { "name": "Chapman's Peak Drive", "category": "Outdoor", "description": "One of the world's great coastal drives — 114 bends carved into the mountain face.", "durationHours": 3, "estimatedCostUSD": 5, "bestFor": ["photography", "adventure"] },
+    { "name": "V&A Waterfront & Night Markets", "category": "Nightlife", "description": "Craft beer, live music, and street food at the atmospheric harbour waterfront.", "durationHours": 3, "estimatedCostUSD": 30, "bestFor": ["standard", "foodie"] },
+    { "name": "Paragliding from Signal Hill", "category": "Adventure", "description": "Tandem paraglide over the city bowl toward Sea Point beach — breathtaking.", "durationHours": 2, "estimatedCostUSD": 120, "bestFor": ["adventure", "photography"] }
+  ],
+  "photography": {
+    "spots": [
+      { "name": "Table Mountain Summit", "description": "360° view — city bowl, Atlantic seaboard, False Bay, and distant mountains.", "difficulty": "Beginner", "bestTime": "Dawn", "category": "Landscape" },
+      { "name": "Bo-Kaap Coloured Houses", "description": "Pastel-painted heritage houses on steep cobblestone streets.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Street" },
+      { "name": "Cape Point Lighthouse", "description": "Dramatic cliffs where two oceans meet — thundering surf and wheeling birds.", "difficulty": "Intermediate", "bestTime": "Morning", "category": "Landscape" },
+      { "name": "Chapman's Peak Hairpin Bends", "description": "Classic shot of the road snaking along the cliff face — telephoto essential.", "difficulty": "Beginner", "bestTime": "Golden hour", "category": "Landscape" },
+      { "name": "Boulders Beach Penguins", "description": "African penguins in their natural habitat with turquoise water behind.", "difficulty": "Beginner", "bestTime": "Early morning", "category": "Wildlife" },
+      { "name": "Signal Hill Night Panorama", "description": "City lights spread across the bowl below the mountain — long exposure required.", "difficulty": "Intermediate", "bestTime": "Night", "category": "Landscape" },
+      { "name": "V&A Waterfront Reflections", "description": "Harbour with Table Mountain reflected in calm water at dawn.", "difficulty": "Beginner", "bestTime": "Dawn", "category": "Architecture" },
+      { "name": "Camps Bay Beach & Lions Head", "description": "White sand, palm trees, turquoise Atlantic, and Lion's Head silhouette.", "difficulty": "Beginner", "bestTime": "Sunset", "category": "Landscape" },
+      { "name": "Long Street Night Life", "description": "Neon pub signs and street performers in Cape Town's entertainment strip.", "difficulty": "Intermediate", "bestTime": "Night", "category": "Street" },
+      { "name": "Stellenbosch Vineyards", "description": "Cape Dutch gabled estates framed by Hottentots Holland mountains.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Landscape" }
+    ],
+    "sunriseSpots": ["Table Mountain Summit", "Signal Hill", "Muizenberg Beach"],
+    "sunsetSpots": ["Camps Bay beach", "Signal Hill viewpoint", "Clifton Fourth Beach"],
+    "lensRecommendations": ["16-35mm (mountain panoramas)", "70-200mm (Chapman's Peak road)", "100-400mm (wildlife — penguins, baboons)", "24-70mm (Bo-Kaap streets)"],
+    "goldenHourNotes": "Cape Town's light is extraordinary — clear Atlantic air means golden hour lasts 45 minutes and the mountains cast dramatic shadows across the city bowl. The Southeaster (Cape Doctor) wind can blow strongly in summer afternoons but usually dies at sunset.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      { "month": 1, "avgTempC": 26, "rainfallMM": 15 },
+      { "month": 2, "avgTempC": 26, "rainfallMM": 17 },
+      { "month": 3, "avgTempC": 24, "rainfallMM": 20 },
+      { "month": 4, "avgTempC": 21, "rainfallMM": 41 },
+      { "month": 5, "avgTempC": 18, "rainfallMM": 69 },
+      { "month": 6, "avgTempC": 16, "rainfallMM": 93 },
+      { "month": 7, "avgTempC": 15, "rainfallMM": 82 },
+      { "month": 8, "avgTempC": 15, "rainfallMM": 77 },
+      { "month": 9, "avgTempC": 17, "rainfallMM": 40 },
+      { "month": 10, "avgTempC": 19, "rainfallMM": 30 },
+      { "month": 11, "avgTempC": 22, "rainfallMM": 14 },
+      { "month": 12, "avgTempC": 24, "rainfallMM": 17 }
+    ],
+    "bestMonths": [11, 12, 1, 2, 3],
+    "seasonality": "Mediterranean climate — dry hot summers (Nov–Mar) and wet mild winters (Jun–Aug). Peak season is December–January. Spring (Sep–Oct) is beautiful and less crowded.",
+    "summary": "Mediterranean climate with hot dry summers. Winter brings rain but rarely cold. Excellent year-round destination."
+  },
+  "hotels": [
+    { "name": "Ellerman House", "neighborhood": "Bantry Bay", "pricePerNightUSD": 850, "category": "Luxury", "description": "Legendary boutique hotel with unrivalled Atlantic views and an outstanding wine collection." },
+    { "name": "The Silo Hotel", "neighborhood": "V&A Waterfront", "pricePerNightUSD": 550, "category": "Luxury", "description": "Dramatic conversion of an old grain silo with glass bubble windows. Rooftop bar unmissable." },
+    { "name": "Ashanti Lodge Gardens", "neighborhood": "Gardens", "pricePerNightUSD": 45, "category": "Budget", "description": "Award-winning backpackers near the Company's Garden — lively pool bar and braai nights." }
+  ]
+}

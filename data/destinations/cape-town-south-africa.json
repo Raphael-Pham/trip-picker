@@ -1,0 +1,464 @@
+{
+  "id": "cape-town-south-africa",
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "airportCodes": [
+    "CPT",
+    "JNB"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 75,
+    "food": 88,
+    "photography": 95,
+    "activities": 92,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 45,
+      "maxPerDayUSD": 80
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Cape Town Table Mountain sunset",
+  "summary": "Cape Town is a breathtaking coastal city nestled beneath the iconic Table Mountain, offering world-class wine regions, pristine beaches, and vibrant cultural experiences. From the colorful Bo-Kaap neighborhood to the windswept Cape Point, this destination captivates photographers and adventure seekers with dramatic landscapes and rich history. With excellent food scenes, affordable accommodations, and year-round activities, Cape Town delivers unforgettable experiences for every traveler.",
+  "restaurants": [
+    {
+      "name": "Chefs Warehouse at Maison",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Acclaimed fine dining establishment offering contemporary cuisine with sweeping vineyard and mountain views. Features tasting menus and an extensive wine collection from local producers.",
+      "mustTry": "Seasonal tasting menu with wine pairings"
+    },
+    {
+      "name": "Mama Africa",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic South African restaurant serving traditional dishes from across the continent in a vibrant, colorful setting. Known for capturing the essence of African culinary heritage with live music and cultural performances.",
+      "mustTry": "Bobotie with yellow rice"
+    },
+    {
+      "name": "The Test Kitchen",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "World-renowned restaurant consistently ranked among Africa's best, offering innovative South African cuisine. The experience includes theatrical presentation and carefully curated wine selections.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Brees Street Brasserie",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary French-influenced brasserie in the heart of the city featuring seasonal ingredients and creative preparations. Warm atmosphere with an excellent wine list and knowledgeable staff.",
+      "mustTry": "Duck confit with seasonal vegetables"
+    },
+    {
+      "name": "Muizenberg Beach Pavilion",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual beachside eatery offering fresh fish and chips, burgers, and light meals with ocean views. Perfect for a relaxed lunch or casual dinner after beach activities.",
+      "mustTry": "Fish and chips with tartare sauce"
+    },
+    {
+      "name": "Codfather Seafood Market & Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Live seafood market with attached grill restaurant offering the freshest catches daily. Choose your seafood from the market display and have it prepared to order.",
+      "mustTry": "Grilled linefish with lemon butter"
+    },
+    {
+      "name": "Café Caprice",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Iconic beachfront café in Camps Bay famous for its sunset views and casual Mediterranean-inspired menu. Great for coffee, breakfast, or light lunch while watching the beach.",
+      "mustTry": "Cappuccino and croissant"
+    },
+    {
+      "name": "Harbour House Hotel Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant dining overlooking the working harbor with focus on seasonal, locally-sourced ingredients. Sophisticated atmosphere with impeccable service and thoughtfully composed dishes.",
+      "mustTry": "Pan-seared rock lobster"
+    },
+    {
+      "name": "Nkhosi's Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Township restaurant in Langa offering authentic traditional South African cuisine in a welcoming community setting. An opportunity to experience local culture and genuine hospitality.",
+      "mustTry": "Umngqusho (corn and beans stew)"
+    },
+    {
+      "name": "The Codfather Fish & Chips",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual takeaway spot in the V&A Waterfront serving some of the best fish and chips in the city. Simple, quality ingredients prepared fresh daily with friendly service.",
+      "mustTry": "Kingklip fish and chips"
+    },
+    {
+      "name": "Paranga Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront Mediterranean-style restaurant in Camps Bay with fresh seafood and Italian influences. Sunset views are spectacular, and the atmosphere is relaxed yet refined.",
+      "mustTry": "Whole grilled fish with seasonal vegetables"
+    },
+    {
+      "name": "Local Flavor",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Small restaurant celebrating authentic Cape Town street food and local recipes in an informal setting. Features daily changing specials based on market availability and seasonal produce.",
+      "mustTry": "Sosaties (Cape Malay kebabs)"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Table Mountain Hike",
+      "category": "Outdoor",
+      "description": "Iconic hike offering spectacular 360-degree views of Cape Town, the Atlantic Ocean, and the surrounding landscape. Multiple routes available from beginner to advanced, with most taking 2-4 hours round trip.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cape Point and Cape of Good Hope",
+      "category": "Outdoor",
+      "description": "Visit the dramatic southernmost tip of the Cape Peninsula with dramatic cliffs and incredible vistas. Walk the trails around the point to see two oceans meeting and abundant wildlife including baboons and eagles.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Penguin Colony at Boulders Beach",
+      "category": "Outdoor",
+      "description": "Observe endangered African penguins in their natural habitat at this unique beach where penguins nest among granite boulders. One of the few places in Africa where penguins can be seen on a sandy beach.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Robben Island Prison Tour",
+      "category": "Cultural",
+      "description": "UNESCO World Heritage site and former political prison where Nelson Mandela was imprisoned for 18 years. Guided tours include the prison, lime quarry, and museum with moving historical narratives.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Stellenbosch Wine Region Tour",
+      "category": "Outdoor",
+      "description": "Explore world-class vineyards in the heart of South Africa's premier wine region just 50km from the city. Visit multiple estates for tastings, tour historic cellars, and dine among the vines.",
+      "durationHours": 6,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "V&A Waterfront Shopping and Entertainment",
+      "category": "Indoor",
+      "description": "Historic working harbor with shops, restaurants, galleries, and museums in a vibrant waterfront setting. The most visited tourist destination in Africa with something for everyone.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "family"
+      ]
+    },
+    {
+      "name": "Bo-Kaap Neighborhood Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the colorful historic neighborhood with rainbow-painted houses, street art, and Cape Malay culture. Learn about the area's rich history and enjoy street food, galleries, and local boutiques.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "photography",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Kirstenbosch National Botanical Garden",
+      "category": "Outdoor",
+      "description": "World-renowned botanical garden on the eastern slopes of Table Mountain showcasing South African native plants. Perfect for picnicking, walking, and nature photography in a stunning setting.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Shark Cage Diving",
+      "category": "Adventure",
+      "description": "Thrilling experience observing great white sharks in their natural habitat off Gansbaai, 90 minutes from Cape Town. Multiple dives available daily with experienced guides and safety-equipped cages.",
+      "durationHours": 5,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Constantia Wine Valley",
+      "category": "Outdoor",
+      "description": "The oldest wine-producing region in South Africa with historic estates, spectacular mountain views, and excellent restaurants. Less crowded alternative to Stellenbosch with equally impressive wines.",
+      "durationHours": 5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Beach Days at Camps Bay or Clifton",
+      "category": "Outdoor",
+      "description": "Relax on pristine sandy beaches backed by mountains and palm trees, perfect for swimming and sunbathing. Clifton's four coves are sheltered and family-friendly while Camps Bay offers a vibrant beach culture.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "District Six Museum and Township Tours",
+      "category": "Cultural",
+      "description": "Powerful museum and guided township experience exploring South Africa's apartheid history and community resilience. Authentic interactions with local residents provide deep cultural understanding.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "hidden-gems",
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Table Mountain Summit",
+        "description": "Panoramic vantage point offering 360-degree views of Cape Town, the Atlantic coast, and distant mountains in crisp detail.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for clear light and layered mountain ridges in background",
+        "category": "Landscape"
+      },
+      {
+        "name": "Twelve Apostles Chain",
+        "description": "Series of dramatic mountain peaks along the Atlantic coast providing layered landscape compositions with ocean and sky.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour when peaks are backlit with warm, directional light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bo-Kaap Neighborhood Streets",
+        "description": "Colorful Victorian houses painted in vibrant hues creating unique street-level compositions with heritage and culture.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for soft shadows and natural color saturation without harsh midday contrast",
+        "category": "Street"
+      },
+      {
+        "name": "Cape Point Lighthouse",
+        "description": "Historic lighthouse perched on dramatic rocky headland with crashing ocean waves and sweeping coastline views.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon when light rakes across the cliffs and ocean, creating depth and texture",
+        "category": "Architecture"
+      },
+      {
+        "name": "Boulders Beach Penguins",
+        "description": "Unique wildlife opportunity with endangered African penguins positioned naturally among distinctive granite boulder formations.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning when penguins are most active and light is soft and directional",
+        "category": "Wildlife"
+      },
+      {
+        "name": "V&A Waterfront at Night",
+        "description": "Working harbor with illuminated buildings, reflective water surfaces, and colorful lights creating vibrant night photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour just after sunset for balanced sky exposure and activated harbor lights",
+        "category": "Night"
+      },
+      {
+        "name": "Camps Bay Beach and Mountains",
+        "description": "Iconic palm-lined beach with Table Mountain backdrop creating elegant foreground-middle ground-background compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour when sun is low and creates warm tones across sand and water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Chapman's Peak Drive Coastal Views",
+        "description": "Scenic mountain pass with dramatic cliff-top perspectives overlooking the Atlantic Ocean and coastal rock formations.",
+        "difficulty": "Advanced",
+        "bestTime": "Late afternoon when the ocean takes on deep blue tones and cliffs catch warm side lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Kirstenbosch Garden Botanical Details",
+        "description": "World-class garden featuring diverse plant species, manicured landscapes, and mountain backdrop ideal for detailed nature photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning when flowers are open and light is diffused but directional",
+        "category": "Landscape"
+      },
+      {
+        "name": "Robben Island Landscape",
+        "description": "Remote island with windswept terrain, dramatic sky potential, and historical architecture creating layered visual narratives.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour when warm light softens the austere landscape and creates atmospheric mood",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Table Mountain Summit",
+      "Signal Hill with city lights backdrop",
+      "Bloubergstrand with Table Mountain silhouette"
+    ],
+    "sunsetSpots": [
+      "Camps Bay Beach and Promenade",
+      "Signal Hill Lookout",
+      "Clifton Beach with mountain backdrop"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for expansive landscape vistas and Table Mountain compositions",
+      "70-200mm telephoto for compressed coastal details and wildlife at Boulders Beach",
+      "50mm prime for street photography in Bo-Kaap and authentic environmental portraits",
+      "24-70mm versatile zoom for general travel and flexible framing in changing conditions"
+    ],
+    "goldenHourNotes": "Cape Town's position with mountains to the east and ocean to the west creates exceptional golden hour opportunities. Sunset light reflects dramatically off Table Mountain's eastern face while illuminating the Atlantic coast, lasting 45-60 minutes depending on season. Early morning light is equally spectacular, with long shadows defining mountain topography and clearing coastal haze by 7-8 AM. Blue hour photography is excellent at V&A Waterfront and Signal Hill where urban lights activate after sunset.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 26,
+        "rainfallMM": 15
+      },
+      {
+        "month": 2,
+        "avgTempC": 26,
+        "rainfallMM": 8
+      },
+      {
+        "month": 3,
+        "avgTempC": 24,
+        "rainfallMM": 8
+      },
+      {
+        "month": 4,
+        "avgTempC": 21,
+        "rainfallMM": 40
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 80
+      },
+      {
+        "month": 6,
+        "avgTempC": 16,
+        "rainfallMM": 95
+      },
+      {
+        "month": 7,
+        "avgTempC": 15,
+        "rainfallMM": 100
+      },
+      {
+        "month": 8,
+        "avgTempC": 16,
+        "rainfallMM": 85
+      },
+      {
+        "month": 9,
+        "avgTempC": 18,
+        "rainfallMM": 60
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 40
+      },
+      {
+        "month": 11,
+        "avgTempC": 23,
+        "rainfallMM": 25
+      },
+      {
+        "month": 12,
+        "avgTempC": 25,
+        "rainfallMM": 12
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "Cape Town has a Mediterranean climate with hot, dry summers (November-March) and cool, wet winters (June-August). The shoulder seasons of April-May and September-October offer pleasant weather with moderate temperatures and fewer crowds, making them excellent for visiting.",
+    "summary": "Summer temperatures average 24-26°C with minimal rainfall, perfect for beach activities and outdoor exploration. Winter months bring cooler temperatures (15-18°C) and increased rainfall, though snow on Table Mountain occasionally occurs and creates spectacular photography opportunities."
+  },
+  "hotels": [
+    {
+      "name": "Sleepy Zebra Backpackers",
+      "neighborhood": "Muizenberg",
+      "pricePerNightUSD": 25,
+      "category": "Budget",
+      "description": "Laid-back beachfront hostel offering dorms and private rooms with ocean views, perfect for meeting other travelers and enjoying beach access."
+    },
+    {
+      "name": "The Twelve Apostles Hotel & Spa",
+      "neighborhood": "Camps Bay",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Contemporary beachfront hotel with warm hospitality, spa facilities, and restaurant overlooking Camps Bay's crescent beach and Table Mountain."
+    },
+    {
+      "name": "One&Only Cape Town",
+      "neighborhood": "V&A Waterfront",
+      "pricePerNightUSD": 525,
+      "category": "Luxury",
+      "description": "Ultra-luxury resort with world-class amenities, Michelin-restaurant dining, spa, and waterfront location providing unforgettable service and sophistication."
+    }
+  ]
+}

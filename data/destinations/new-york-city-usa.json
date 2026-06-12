@@ -1,0 +1,460 @@
+{
+  "id": "new-york-city-usa",
+  "city": "New York City",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "JFK",
+    "LGA",
+    "EWR"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 98,
+    "photography": 95,
+    "activities": 97,
+    "weather": 70
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 500,
+      "maxPerDayUSD": 1500
+    }
+  ],
+  "unsplashQuery": "New York City skyline",
+  "summary": "New York City is the world's most dynamic metropolis, where iconic skyscrapers, world-class museums, diverse culinary scenes, and vibrant neighborhoods create an unmatched urban experience. From Broadway theaters to Central Park's green oasis, the city offers endless exploration for culture enthusiasts, foodies, and adventure seekers. The energy, architecture, and melting pot of cultures make NYC a destination that never sleeps and always inspires.",
+  "restaurants": [
+    {
+      "name": "Joe's Pizza",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A legendary New York institution serving iconic thin-crust pizza since 1975 with minimal toppings and maximum flavor. Located in Greenwich Village with a no-frills approach that epitomizes NYC pizza culture.",
+      "mustTry": "Classic cheese slice"
+    },
+    {
+      "name": "Balthazar",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An upscale French brasserie in SoHo featuring classic Parisian-style cuisine in an elegant, lively atmosphere with vintage decor. A NYC institution for special occasions and fine French dining.",
+      "mustTry": "Steak frites"
+    },
+    {
+      "name": "Ippudo Ramen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Japanese ramen bowls with rich broths and perfectly textured noodles in a casual, vibrant setting. Multiple locations across the city offering quick, satisfying meals.",
+      "mustTry": "Tonkotsu ramen"
+    },
+    {
+      "name": "Eleven Madison Park",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three-Michelin-starred contemporary American restaurant offering an innovative tasting menu in an Art Deco masterpiece. A transformative culinary experience featuring seasonal ingredients and creative technique.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Di Fara Pizza",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Brooklyn's most iconic pizzeria, famous for generous mozzarella and fresh basil topped by owner Domenico DeMarco himself. A no-reservations, standing-room-only experience worth the wait.",
+      "mustTry": "Large pepperoni slice"
+    },
+    {
+      "name": "Gramercy Tavern",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "An elegant American restaurant with tavern seating offering seasonal cuisine and an extensive wine list in a historic setting. The casual tavern section provides excellent value for quality ingredients.",
+      "mustTry": "Roasted chicken"
+    },
+    {
+      "name": "Shake Shack",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "NYC's beloved fast-casual burger chain serving premium Angus beef burgers, fresh-cut fries, and specialty shakes. Started as a roadside stand in Madison Square Park, now a global phenomenon.",
+      "mustTry": "Classic cheeseburger"
+    },
+    {
+      "name": "Carbone",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "A Greenwich Village Italian restaurant with twinkling lights and glamorous ambiance serving elevated versions of classic Italian dishes. Notoriously difficult to book due to overwhelming popularity.",
+      "mustTry": "Beef and bone marrow ravioli"
+    },
+    {
+      "name": "Katz's Delicatessen",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic Lower East Side deli operating since 1888, famous for towering pastrami sandwiches and old-school NYC diner atmosphere. A quintessential NYC experience immortalized in film.",
+      "mustTry": "Pastrami on rye"
+    },
+    {
+      "name": "Momofuku Ko",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Innovative East Asian cuisine in an intimate 12-seat counter format offering creative small plates and artisanal techniques. A modern fine dining concept by David Chang.",
+      "mustTry": "Chef's counter experience"
+    },
+    {
+      "name": "Toto Ramen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Tokyo-style ramen shop in Midtown featuring rich pork broths and hand-pulled noodles in a warm, welcoming space. Consistently excellent quality with reasonable prices.",
+      "mustTry": "Miso ramen"
+    },
+    {
+      "name": "Balthazar Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "French-style bakery companion to the famous brasserie, offering fresh croissants, pastries, and sandwiches for grab-and-go eating. Perfect for breakfast and quick meals.",
+      "mustTry": "Butter croissant"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Central Park",
+      "category": "Outdoor",
+      "description": "A 843-acre urban park featuring gardens, lakes, meadows, and iconic landmarks like Bethesda Terrace and Bow Bridge. Perfect for walking, jogging, picnicking, and experiencing nature in the heart of Manhattan.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "The Metropolitan Museum of Art",
+      "category": "Cultural",
+      "description": "World's largest art museum with over 2 million artworks spanning Egyptian antiquities to contemporary pieces across five locations. A comprehensive exploration of human artistic achievement and cultural history.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Empire State Building",
+      "category": "Indoor",
+      "description": "Iconic 1931 Art Deco skyscraper with observation decks on the 86th and 102nd floors offering 360-degree views of the city. A must-see for its historical significance and unparalleled panoramic vistas.",
+      "durationHours": 2,
+      "estimatedCostUSD": 36,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Brooklyn Bridge Walk",
+      "category": "Outdoor",
+      "description": "Iconic 1883 suspension bridge connecting Manhattan and Brooklyn with pedestrian walkway offering stunning views of both boroughs. A photogenic walk through NYC history with spectacular urban and waterfront vistas.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Times Square",
+      "category": "Cultural",
+      "description": "The dazzling heart of Manhattan featuring massive digital billboards, theaters, shops, and restaurants in perpetual motion. An overwhelming sensory experience that captures the frenetic energy of NYC.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "High Line",
+      "category": "Outdoor",
+      "description": "An elevated linear park built on a former freight rail line stretching 1.45 miles through Chelsea and the Meatpacking District. Features gardens, art installations, and panoramic views of the Hudson River and Manhattan.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Broadway Show",
+      "category": "Nightlife",
+      "description": "World-class theatrical performances ranging from classic musicals to contemporary plays in historic theaters. An essential NYC experience showcasing Broadway's legendary productions.",
+      "durationHours": 3,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "MoMA (Museum of Modern Art)",
+      "category": "Cultural",
+      "description": "Premier contemporary art museum with masterworks by Van Gogh, Picasso, Warhol, and contemporary artists across six floors. An essential destination for art enthusiasts and creative inspiration.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Statue of Liberty and Ellis Island",
+      "category": "Outdoor",
+      "description": "Iconic copper monument symbolizing freedom with ferry access to the island and optional crown access for panoramic views. A historical journey through America's immigration heritage.",
+      "durationHours": 4,
+      "estimatedCostUSD": 24,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Lower East Side Walking Tour",
+      "category": "Cultural",
+      "description": "Historic neighborhood tour exploring immigrant heritage, street art, vintage shops, and diverse food culture through narrow streets. A gritty, authentic NYC experience showcasing the city's multicultural roots.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Rooftop Bar Experience",
+      "category": "Nightlife",
+      "description": "NYC's famous rooftop bars offer cocktails, food, and skyline views from elevated vantage points across Manhattan. Perfect for sunset drinks and experiencing the city's nightlife scene.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Natural History Museum",
+      "category": "Cultural",
+      "description": "American Museum of Natural History featuring dinosaurs, planetarium shows, and cultural exhibits across 4 city blocks. A family-friendly institution with world-class collections spanning paleontology to anthropology.",
+      "durationHours": 3,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Brooklyn Bridge",
+        "description": "Iconic suspension bridge offering dramatic architectural lines, reflections in the East River, and stunning Manhattan skyline framed by bridge cables.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or blue hour for dramatic lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Central Park - Bethesda Terrace",
+        "description": "Ornate stone archway and fountain creating a fairy-tale setting with natural light filtering through the terrace for ethereal compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light and fewer crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Times Square",
+        "description": "Chaotic urban energy captured through neon billboards, crowds, and towering buildings creating vibrant street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for neon glow and dramatic lighting",
+        "category": "Night"
+      },
+      {
+        "name": "Staten Island Ferry",
+        "description": "Vantage point for photographing the Statue of Liberty, Manhattan skyline, and water reflections during the scenic ferry journey.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for backlighting on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "High Line",
+        "description": "Elevated linear park offering unique perspectives of Chelsea architecture, Hudson River, and artistic installations with interesting foreground elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm tones and interesting shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chinatown Streets",
+        "description": "Vibrant street life with colorful lanterns, market stalls, architectural details, and authentic urban characters creating rich street photography moments.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon for warm sunlight on narrow streets",
+        "category": "Street"
+      },
+      {
+        "name": "Grand Central Terminal",
+        "description": "Beaux-Arts architectural masterpiece with dramatic natural light through windows, ornate details, and human movement creating dynamic compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for side lighting through main entrance",
+        "category": "Architecture"
+      },
+      {
+        "name": "Williamsburg Waterfront",
+        "description": "Manhattan skyline views with industrial warehouses and modern Brooklyn architecture creating layered urban compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Blue hour for skyline illumination",
+        "category": "Landscape"
+      },
+      {
+        "name": "SoHo Cast Iron Buildings",
+        "description": "Historic cast iron facades with intricate architectural details, fire escapes, and interesting shadows creating texture-rich street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for defined shadows on building facades",
+        "category": "Architecture"
+      },
+      {
+        "name": "Coney Island Boardwalk",
+        "description": "Vintage amusement park atmosphere with colorful rides, beach scenes, and retro aesthetics offering nostalgic and vibrant photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones on vintage structures",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Brooklyn Bridge Park",
+      "Williamsburg Waterfront",
+      "Gantry Plaza State Park"
+    ],
+    "sunsetSpots": [
+      "Hudson River Greenway at Pier i",
+      "Riverside Park near 72nd Street",
+      "Battery Park"
+    ],
+    "lensRecommendations": [
+      "24-70mm for versatile street and architectural work",
+      "16-35mm wide-angle for dramatic skyline and bridge shots",
+      "50mm prime for intimate street photography and portraits",
+      "70-200mm telephoto for compressed skyline compositions from distant vantage points"
+    ],
+    "goldenHourNotes": "NYC's golden hour provides warm light that transforms the gray urban landscape into golden tones, particularly beautiful on the Brooklyn Bridge and Hudson River waterfront. The low angle of light during sunset creates dramatic shadows between buildings and illuminates skyscrapers from the west side of Manhattan. Early morning golden hour at Brooklyn Bridge Park offers calm water reflections and fewer tourists for cleaner compositions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -3,
+        "rainfallMM": 73
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 70
+      },
+      {
+        "month": 3,
+        "avgTempC": 5,
+        "rainfallMM": 81
+      },
+      {
+        "month": 4,
+        "avgTempC": 14,
+        "rainfallMM": 89
+      },
+      {
+        "month": 5,
+        "avgTempC": 20,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 25,
+        "rainfallMM": 108
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 110
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 105
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 99
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 84
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 86
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 79
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and fall (September-October) offer ideal temperatures, lower humidity, and pleasant conditions for exploring the city. Summer (June-August) is warm but humid with occasional thunderstorms, while winter (December-February) brings cold temperatures and occasional snow.",
+    "summary": "NYC experiences four distinct seasons with moderate to high precipitation throughout the year. Spring and autumn provide the most comfortable visiting conditions with mild temperatures perfect for outdoor activities and sightseeing."
+  },
+  "hotels": [
+    {
+      "name": "Pod Hotel Brooklyn",
+      "neighborhood": "Williamsburg, Brooklyn",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Modern budget hotel with compact but comfortable rooms, shared facilities, and vibrant common areas in trendy Williamsburg with easy subway access to Manhattan."
+    },
+    {
+      "name": "The Plaza Hotel",
+      "neighborhood": "Fifth Avenue at Central Park South",
+      "pricePerNightUSD": 450,
+      "category": "Mid-range",
+      "description": "Iconic luxury hotel overlooking Central Park featuring elegant rooms, world-class dining, and prime Midtown location perfect for accessing major attractions."
+    },
+    {
+      "name": "The St. Regis New York",
+      "neighborhood": "Midtown Manhattan",
+      "pricePerNightUSD": 950,
+      "category": "Luxury",
+      "description": "Ultra-luxury Beaux-Arts hotel established in 1904 with impeccable service, lavish rooms, Michelin-starred dining, and prime Fifth Avenue location."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1496588152823-86ff7695e68f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxOZXclMjBZb3JrJTIwQ2l0eSUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MTMwMzAxNXww&ixlib=rb-4.1.0&q=80&w=1080"
+}

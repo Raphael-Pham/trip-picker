@@ -1,0 +1,466 @@
+{
+  "id": "pittsburgh-usa",
+  "city": "Pittsburgh",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PIT",
+    "MDT",
+    "CLE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 82,
+    "activities": 80,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Pittsburgh skyline bridges",
+  "summary": "Pittsburgh is a revitalized industrial city transformed into a vibrant cultural hub, famous for its iconic three rivers, historic bridges, and world-class museums. The city offers stunning photography opportunities, innovative dining scenes, and outdoor adventures combined with Appalachian charm and steel industry heritage. From the Strip District's eclectic markets to the Andy Warhol Museum, Pittsburgh delivers unexpected urban experiences at remarkably affordable prices.",
+  "restaurants": [
+    {
+      "name": "Primanti Bros",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic Pittsburgh institution since 1933 serving legendary sandwiches piled with meat, coleslaw, and tomatoes on fresh rolls. A must-visit for authentic local flavor and working-class heritage.",
+      "mustTry": "Pastrami sandwich with coleslaw and tomatoes"
+    },
+    {
+      "name": "The Commoner",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant in Lawrenceville featuring seasonal American cuisine with creative cocktails and warm atmosphere. Known for locally sourced ingredients and innovative comfort food.",
+      "mustTry": "Wood-fired chicken with seasonal vegetables"
+    },
+    {
+      "name": "Eleven Contemporary",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning contemporary American restaurant in the Strip District with chef-driven tasting menus and extensive wine pairings. Offers intimate fine dining in an industrial-chic setting.",
+      "mustTry": "Multi-course tasting menu with wine pairings"
+    },
+    {
+      "name": "Apteka",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Eastern European restaurant showcasing traditional Polish and Ukrainian cuisine in a charming vintage setting on Penn Avenue. Popular for pierogis, bigos, and authentic regional flavors.",
+      "mustTry": "Hand-filled pierogis and bigos stew"
+    },
+    {
+      "name": "Smallman Galley",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Food hall in the Strip District featuring multiple local vendors offering tacos, ramen, pizza, and diverse cuisines under one roof. Perfect for casual sampling of Pittsburgh's food scene.",
+      "mustTry": "Various vendor specialties"
+    },
+    {
+      "name": "Legume Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate French-inspired bistro in Lawrenceville with seasonal tasting menus and exceptional wine selection. Chef-owner focused on locally sourced ingredients and culinary innovation.",
+      "mustTry": "Seven-course seasonal tasting menu"
+    },
+    {
+      "name": "Zenith",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern cocktail bar and restaurant in the North Shore offering craft drinks and elevated pub fare in a sophisticated industrial atmosphere. Known for creative mixology and knowledgeable bartenders.",
+      "mustTry": "House signature cocktails and burger"
+    },
+    {
+      "name": "Harris Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick-service counter restaurant in downtown serving gourmet grilled items and fresh salads with no artificial ingredients. Casual and quick with high-quality execution.",
+      "mustTry": "Custom grilled sandwich or salad"
+    },
+    {
+      "name": "Cure",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant in Lawrenceville featuring charcuterie, cured meats, and small plates with Spanish wines and sherries. Lively atmosphere perfect for social dining.",
+      "mustTry": "Jamón ibérico and Spanish cheese selection"
+    },
+    {
+      "name": "Conflict Kitchen",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Activist food spot serving Afghan cuisine from a window in Schenley Plaza with mission-driven values and community engagement. Known for flavorful wraps and educational programming.",
+      "mustTry": "Chicken or lamb wrap with Afghan spices"
+    },
+    {
+      "name": "Smoke BBQ Tacos",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual taco stand in East Liberty serving Texas-style barbecue in taco form with bold flavors and quality meat preparations. Quick service with outdoor seating.",
+      "mustTry": "Brisket and pulled pork tacos"
+    },
+    {
+      "name": "Olive",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Mediterranean-inspired fine dining in Shadyside with elegant plating, seasonal menus, and refined service. Showcases European culinary techniques with local ingredients.",
+      "mustTry": "Chef's seasonal tasting menu"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Duquesne Incline",
+      "category": "Outdoor",
+      "description": "Historic funicular railroad offering a 300-foot ascent up Mount Washington with breathtaking city and river views. The 1877 engineering marvel provides the best photography vantage points in the city.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Strip District Market Tour",
+      "category": "Cultural",
+      "description": "Walking tour through Pittsburgh's historic public market district featuring international vendors, specialty shops, and vibrant street culture. Perfect for experiencing local flavor and food heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Andy Warhol Museum",
+      "category": "Cultural",
+      "description": "Largest single-artist museum in North America housing 4,000+ Warhol works across seven floors in the North Shore. Essential for art enthusiasts and photography lovers interested in pop art evolution.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Three Rivers Heritage Trail",
+      "category": "Outdoor",
+      "description": "25-mile scenic bike and walking trail system following the Allegheny, Monongahela, and Ohio Rivers with stunning water and bridge views. Accessible sections through downtown offer river-level photography opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Carnegie Museums Complex",
+      "category": "Cultural",
+      "description": "World-class museums including Carnegie Museum of Art, Natural History, and Heinz History Center in Oakland neighborhood. Features dinosaur skeletons, fine art collections, and cultural exhibitions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Point State Park",
+      "category": "Outdoor",
+      "description": "Gateway park where three rivers converge, featuring historic Point Fort, fountain, and iconic vantage points for city skyline photography. Free public space with river access and seasonal events.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Monongahela Incline",
+      "category": "Outdoor",
+      "description": "Second historic funicular offering an alternative Mount Washington ascent with unique perspectives of the city and river systems. Less crowded than Duquesne with equally spectacular views.",
+      "durationHours": 1,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Kayaking the North Shore",
+      "category": "Adventure",
+      "description": "Guided kayak tours on the Allegheny River offering water-level perspectives of bridges, downtown skyline, and natural areas. Multiple outfitters provide beginner-friendly tours.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Heinz History Center",
+      "category": "Cultural",
+      "description": "Regional history museum exploring Western Pennsylvania's industrial heritage, sports culture, and immigrant communities. Interactive exhibits provide deep understanding of Pittsburgh's transformation.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "family"
+      ]
+    },
+    {
+      "name": "Phipps Conservatory",
+      "category": "Outdoor",
+      "description": "Historic 1893 Victorian greenhouse containing exotic plants, seasonal flower shows, and sustainable indoor gardens. Stunning photography opportunities year-round in diverse climate-controlled rooms.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Pittsburgh Brewery Tours",
+      "category": "Cultural",
+      "description": "City has 20+ craft breweries offering tours and tastings, including Brew Gentlemen and Grist House. Experience Pittsburgh's growing craft beer scene and meet local brewmasters.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Allegheny Commons Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized tour of historic neighborhoods featuring Romanesque Revival architecture, murals, and authentic street art. Free exploration of North Shore's cultural transformation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Mount Washington Overlook",
+        "description": "The most iconic Pittsburgh vantage point capturing all three rivers, 446 bridges, and the entire downtown skyline in golden light.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for dramatic lighting on bridges and cityscape",
+        "category": "Landscape"
+      },
+      {
+        "name": "16th Street Bridge",
+        "description": "Historic truss bridge offering dynamic angles of downtown reflections in the Allegheny River with architectural foreground interest.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon for side lighting on bridge structure",
+        "category": "Architecture"
+      },
+      {
+        "name": "Point State Park Gateway Center",
+        "description": "Modern glass structures reflect historic fountain and rivers, creating dynamic composition opportunities with dramatic lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for glass reflections and warm bridge lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Strip District at Night",
+        "description": "Vibrant street photography with historic signage, neon lights, and diverse street vendors creating rich color and cultural storytelling.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for neon glow and street activity",
+        "category": "Street"
+      },
+      {
+        "name": "Smithfield Street Bridge",
+        "description": "Distinctive stone arch bridge with unique geometric patterns and texture offering architectural detail photography close to downtown.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for strong shadow patterns on arch details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Heinz History Center Courtyard",
+        "description": "Historic red brick industrial spaces with seasonal light creating moody architectural compositions and urban texture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm tones on brick and window reflections",
+        "category": "Architecture"
+      },
+      {
+        "name": "Three Rivers Heritage Trail - North Shore",
+        "description": "River-level perspective capturing bridge reflections, pedestrians, and skyline with natural water element in foreground.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for calm water reflections and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lawrenceville Murals & Street Art",
+        "description": "Diverse murals and commissioned street art on warehouse buildings offering colorful urban art photography with authentic neighborhood backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even color saturation on murals",
+        "category": "Street"
+      },
+      {
+        "name": "Liberty Tunnels at Dusk",
+        "description": "Historic tunnel entrances with geometric architecture and dramatic light transitions creating moody urban industrial imagery.",
+        "difficulty": "Advanced",
+        "bestTime": "Just after sunset for tunnel lighting and sky gradient",
+        "category": "Night"
+      },
+      {
+        "name": "Allegheny Cemetery",
+        "description": "Historic Victorian cemetery with monument sculptures, tree-lined paths, and contemplative atmosphere offering peaceful landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for soft light and mist among monuments",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Mount Washington Overlook",
+      "Three Rivers Heritage Trail - North Shore",
+      "Point State Park Gateway Center"
+    ],
+    "sunsetSpots": [
+      "Mount Washington Overlook",
+      "16th Street Bridge",
+      "Strip District at Night"
+    ],
+    "lensRecommendations": [
+      "Wide-angle 14-24mm for expansive bridge and skyline compositions from Mount Washington",
+      "Standard 35-50mm for street photography in Strip District and architectural details",
+      "Telephoto 70-200mm for compressed perspectives isolating bridge elements and downtown towers",
+      "Standard zoom 24-70mm for versatile coverage across multiple locations and lighting situations"
+    ],
+    "goldenHourNotes": "Pittsburgh's three rivers and 446 bridges create magical golden hour reflections, particularly from Mount Washington and riverfront trails. The city's steel and glass architecture captures warm sunlight beautifully during sunrise and sunset, with the best colors appearing 20-30 minutes after sunrise and before sunset. Winter sunsets offer dramatic colored skies reflecting on icy rivers, while summer golden hours provide softer, longer-lasting warm tones across water and bridges.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 0,
+        "rainfallMM": 69
+      },
+      {
+        "month": 3,
+        "avgTempC": 6,
+        "rainfallMM": 81
+      },
+      {
+        "month": 4,
+        "avgTempC": 14,
+        "rainfallMM": 97
+      },
+      {
+        "month": 5,
+        "avgTempC": 20,
+        "rainfallMM": 107
+      },
+      {
+        "month": 6,
+        "avgTempC": 25,
+        "rainfallMM": 109
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 96
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 89
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 79
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 71
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 89
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 81
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Pittsburgh experiences four distinct seasons with mild springs and falls ideal for outdoor activities and photography. Summers are warm and humid with occasional thunderstorms, winters are cold and snowy, creating picturesque frozen river landscapes and icy bridge reflections.",
+    "summary": "Pittsburgh has a humid continental climate with average temperatures ranging from -2°C in January to 27°C in July. The city receives moderate rainfall year-round with notable precipitation in spring and early summer, while winter snow creates dramatic photography opportunities and spring/fall offer the most comfortable conditions for exploring."
+  },
+  "hotels": [
+    {
+      "name": "HI Pittsburgh Hostel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Friendly hostel in historic building near Point State Park offering dorms and private rooms with communal kitchen and social atmosphere for budget-conscious travelers."
+    },
+    {
+      "name": "Kimpton Hotel Monaco",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Stylish historic hotel with pet-friendly policy, complimentary wine reception, and modern amenities in renovated 1906 building with exceptional service."
+    },
+    {
+      "name": "The Omni William Penn",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Iconic 1916 luxury hotel featuring marble lobbies, impeccable service, fine dining, and prime downtown location steps from cultural attractions and riverfront."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1537052916033-2916fab31a9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQaXR0c2J1cmdoJTIwc2t5bGluZSUyMGJyaWRnZXN8ZW58MXwwfHx8MTc4MTMwMzI0Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+}

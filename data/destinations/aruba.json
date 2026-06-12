@@ -1,0 +1,448 @@
+{
+  "id": "aruba",
+  "city": "Aruba",
+  "country": "Aruba",
+  "region": "Caribbean",
+  "airportCodes": [
+    "AUA",
+    "CUR",
+    "BON"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "relaxation",
+    "photography",
+    "adventure",
+    "foodie",
+    "family"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 75,
+    "photography": 82,
+    "activities": 85,
+    "weather": 92
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Aruba beach sunset",
+  "summary": "Aruba is a sun-soaked Caribbean island paradise known for pristine white-sand beaches, consistent warm weather year-round, and colorful colonial architecture. With watersports, excellent dining, and dramatic desert landscapes, it offers the perfect blend of relaxation and adventure for all travelers.",
+  "restaurants": [
+    {
+      "name": "The Lazy Lizard",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual beachside eatery serving authentic Aruban fish cakes and fresh seafood at budget-friendly prices.",
+      "mustTry": "Fish cakes with hot sauce"
+    },
+    {
+      "name": "Hostaria da'Vittorio",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant Italian restaurant with oceanfront views offering handmade pasta and imported Italian wines.",
+      "mustTry": "Lobster ravioli in saffron butter"
+    },
+    {
+      "name": "Madame Janette's",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Historic colonial house restaurant featuring French-Caribbean fusion cuisine with an intimate ambiance."
+    },
+    {
+      "name": "Papamento",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming bistro in a restored mansion serving international cuisine with local Aruban influences."
+    },
+    {
+      "name": "Chez Mathilde",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Intimate restaurant offering French creole dishes in a historic setting with personalized service."
+    },
+    {
+      "name": "Bushiri Beach Bar & Restaurant",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Laid-back beach spot serving fresh grilled fish, seafood, and tropical drinks with sunset views."
+    },
+    {
+      "name": "The Galleon",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront restaurant specializing in fresh seafood and Caribbean-inspired dishes with live music."
+    },
+    {
+      "name": "Screaming Eagle",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local spot for fresh fish cakes, conch salad, and authentic Aruban street food."
+    },
+    {
+      "name": "L.G. Smith's Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse featuring prime cuts of beef and fresh seafood in an elegant beachfront setting."
+    },
+    {
+      "name": "Gibbons Bar & Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual restaurant on the beach offering grilled seafood, burgers, and refreshing tropical beverages."
+    },
+    {
+      "name": "Boon Gourmet Burgers",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Contemporary burger joint crafting gourmet patties with creative toppings and excellent craft beers."
+    },
+    {
+      "name": "Driftwood",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Intimate fine dining restaurant showcasing contemporary Caribbean cuisine with locally-sourced ingredients."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Eagle Beach Day",
+      "category": "Outdoor",
+      "description": "Relax on Aruba's most popular beach with calm turquoise waters, soft sand, and numerous beach bars.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Windsurfing at Fisherman's Huts",
+      "category": "Adventure",
+      "description": "Take advantage of consistent trade winds at this world-class windsurfing destination with rental shops nearby.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Ostrich Farm Tour",
+      "category": "Family",
+      "description": "Visit the only ostrich farm in the Caribbean to learn about these exotic birds and interact with them.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Snorkeling at Malmok Beach",
+      "category": "Adventure",
+      "description": "Explore vibrant coral reefs and tropical fish in crystal-clear shallow waters perfect for all skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ayo and Casibari Rock Formations Hike",
+      "category": "Outdoor",
+      "description": "Trek through dramatic boulder-strewn landscapes offering panoramic island views from ancient granite formations.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Butterfly Farm Visit",
+      "category": "Family",
+      "description": "Walk through lush gardens surrounded by hundreds of colorful butterflies from around the world.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Oranjestad Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the colorful colonial architecture, local shops, and historic sites of Aruba's charming capital city.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Scuba Diving at Multiple Wrecks",
+      "category": "Adventure",
+      "description": "Dive to several accessible shipwrecks teeming with marine life in calm, crystal-clear waters.",
+      "durationHours": 4,
+      "estimatedCostUSD": 90,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Outdoor",
+      "description": "Sail along the coast at sunset with drinks, snacks, and opportunities for dolphin and sea turtle spotting.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Grapefield Cemetery and Ghost Town",
+      "category": "Cultural",
+      "description": "Discover the haunting ruins of a former plantation village with historic cemetery and desert landscape views.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Island Jeep Safari",
+      "category": "Adventure",
+      "description": "Off-road tour through Aruba's arid interior discovering hidden beaches, wildlife, and natural landmarks.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Local Market and Food Tour",
+      "category": "Foodie",
+      "description": "Sample authentic Aruban cuisine, fresh tropical fruits, and local delicacies at the bustling farmers market.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Boca Catalina Beach",
+        "description": "Pristine turquoise waters meeting powdery white sand with dramatic rocky outcrops creating stunning composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for golden light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Oranjestad Colorful Buildings",
+        "description": "Vibrant pastel-colored colonial architecture lining the waterfront and historic downtown streets.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for architectural details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Alto Vista Chapel",
+        "description": "Iconic yellow and blue chapel perched on a hilltop overlooking the northern coast with panoramic views.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for warm backlighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Malmok Beach Shipwreck",
+        "description": "Submerged wreck visible from shore creating unique underwater photography opportunities in shallow water.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for clear water visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ayo Rock Formation",
+        "description": "Ancient granite boulders stacked dramatically against desert landscape with excellent vantage points.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm tones and shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Arashi Beach Dunes",
+        "description": "Expansive white sand dunes meeting turquoise water with minimal development creating pristine seascape.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Flamingo Sanctuary",
+        "description": "Vivid pink flamingos against blue lagoon waters offering vibrant wildlife photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when birds are most active",
+        "category": "Wildlife"
+      },
+      {
+        "name": "San Nicolas Colorful Street Art",
+        "description": "Vibrant murals and street art covering buildings in this cultural neighborhood perfect for urban photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for even lighting on wall paintings",
+        "category": "Street"
+      },
+      {
+        "name": "Grapefield Cemetery Ruins",
+        "description": "Haunting abandoned structures and weathered tombstones in stark desert landscape with moody atmosphere.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for dramatic shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mangel Halto Beach at Sunset",
+        "description": "Secluded beach with calm water reflecting golden sky and rocky coastline creating dreamy compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "One hour before sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Arashi Beach",
+      "Malmok Beach",
+      "Boca Grandi"
+    ],
+    "sunsetSpots": [
+      "Mangel Halto Beach",
+      "Eagle Beach Pier",
+      "Alto Vista Chapel"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive beach and landscape shots",
+      "70-200mm telephoto for wildlife and distant landscape compression",
+      "50mm prime for architectural details in Oranjestad",
+      "Macro or close-focus lens for flamingo and wildlife detail shots"
+    ],
+    "goldenHourNotes": "Aruba's consistent trade winds and clear skies make golden hour particularly stunning. The northern coast faces southwest, offering exceptional sunset light over water, while eastern beaches provide dramatic sunrise opportunities. With minimal light pollution, the island also offers excellent opportunities for night sky and silhouette photography during golden hour transitions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 27,
+        "rainfallMM": 38
+      },
+      {
+        "month": 2,
+        "avgTempC": 27,
+        "rainfallMM": 33
+      },
+      {
+        "month": 3,
+        "avgTempC": 28,
+        "rainfallMM": 28
+      },
+      {
+        "month": 4,
+        "avgTempC": 29,
+        "rainfallMM": 30
+      },
+      {
+        "month": 5,
+        "avgTempC": 30,
+        "rainfallMM": 25
+      },
+      {
+        "month": 6,
+        "avgTempC": 30,
+        "rainfallMM": 45
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 60
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 55
+      },
+      {
+        "month": 9,
+        "avgTempC": 29,
+        "rainfallMM": 80
+      },
+      {
+        "month": 10,
+        "avgTempC": 29,
+        "rainfallMM": 85
+      },
+      {
+        "month": 11,
+        "avgTempC": 28,
+        "rainfallMM": 70
+      },
+      {
+        "month": 12,
+        "avgTempC": 27,
+        "rainfallMM": 50
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      12
+    ],
+    "seasonality": "Aruba experiences a dry season from January to April with minimal rainfall and perfect beach conditions, while June through November represents the wet season with afternoon showers and higher humidity. The island's position south of the Caribbean hurricane belt provides exceptional year-round stability and consistently warm temperatures.",
+    "summary": "Aruba boasts one of the most consistent and pleasant climates in the Caribbean with average temperatures around 28-30°C (82-86°F) and reliable trade winds. The dry season (January-April) offers the absolute best conditions, though the island remains highly visitable throughout the year with minimal rain and virtually no hurricane risk."
+  },
+  "hotels": [
+    {
+      "name": "MerPerle Beach Resort",
+      "neighborhood": "Punta Braba",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "All-inclusive beachfront resort offering comfortable rooms, multiple pools, restaurants, and water sports in a relaxed setting."
+    },
+    {
+      "name": "Divi Aruba All Inclusive Resort",
+      "neighborhood": "Druif Beach",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Beachfront all-inclusive property featuring modern accommodations, excellent dining options, pools, and direct beach access."
+    },
+    {
+      "name": "Bucuti & Tara Beach Resort",
+      "neighborhood": "Eagle Beach",
+      "pricePerNightUSD": 425,
+      "category": "Luxury",
+      "description": "Adults-only luxury beachfront resort with spacious suites, world-class amenities, spa services, and personalized concierge."
+    }
+  ]
+}

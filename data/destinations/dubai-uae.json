@@ -1,0 +1,461 @@
+{
+  "id": "dubai-uae",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "airportCodes": [
+    "DXB",
+    "DWC"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 92,
+    "photography": 95,
+    "activities": 98,
+    "weather": 60
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 1200
+    }
+  ],
+  "unsplashQuery": "Dubai skyline desert sunset",
+  "summary": "Dubai is a glittering metropolis where ultra-modern architecture meets Arabian traditions, offering world-class shopping, innovative dining, and stunning desert landscapes. From the iconic Burj Khalifa to pristine beaches and luxurious resorts, this cosmopolitan hub delivers unparalleled luxury and unforgettable experiences. Whether you seek adventure, culture, or relaxation, Dubai seamlessly blends East and West in an electrifying desert setting.",
+  "restaurants": [
+    {
+      "name": "Al Mallah",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Legendary Lebanese grill restaurant serving authentic shawarma and grilled meats since 1973 with minimal seating and maximum flavor.",
+      "mustTry": "Lamb Shawarma"
+    },
+    {
+      "name": "Bu Qtair",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Beachfront seafood shack in the heritage Deira district offering fresh grilled fish and traditional Emirati cuisine with no frills.",
+      "mustTry": "Grilled Hammour"
+    },
+    {
+      "name": "Arabian Tea House",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic restaurant in Al Fahidi District serving traditional Emirati cuisine in an authentic heritage setting with stunning courtyard ambiance.",
+      "mustTry": "Camel Biryani"
+    },
+    {
+      "name": "Zaroob",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Lebanese fast-casual chain delivering exceptional flavors at pocket-friendly prices with quick service and generous portions.",
+      "mustTry": "Charcoal Chicken Wrap"
+    },
+    {
+      "name": "Pai Thai",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant Thai restaurant featuring authentic Southeast Asian cuisine in a contemporary setting with attentive service and balanced flavors.",
+      "mustTry": "Green Curry with Lamb"
+    },
+    {
+      "name": "Nobu",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Iconic Japanese-Peruvian fusion restaurant at Atlantis The Palm showcasing innovative dishes with premium ingredients and theatrical presentation.",
+      "mustTry": "Black Cod with Miso"
+    },
+    {
+      "name": "Zuma",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Japanese izakaya in DIFC offering exquisite sushi, sashimi, and robata-grilled specialties in an open kitchen setting.",
+      "mustTry": "Omakase Selection"
+    },
+    {
+      "name": "Gillespie's",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning steakhouse at Sofitel The Palm serving premium cuts from around the world with sophisticated ambiance and impeccable service.",
+      "mustTry": "Australian Wagyu Ribeye"
+    },
+    {
+      "name": "Elevation Burger",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual burger joint using organic beef and fresh ingredients to create gourmet burgers at reasonable prices across multiple Dubai locations.",
+      "mustTry": "Classic Elevation Burger"
+    },
+    {
+      "name": "Indego by Vineet",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Michelin-starred Indian restaurant by renowned chef Vineet Bhatia presenting innovative takes on classical Indian cuisine with artistic presentation.",
+      "mustTry": "Tandoori Preparations"
+    },
+    {
+      "name": "The Pierchic",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Romantic over-water fine dining restaurant serving contemporary French cuisine with panoramic views and sunset magic.",
+      "mustTry": "Pan-seared Foie Gras"
+    },
+    {
+      "name": "Arabian Nights Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Immersive dining experience featuring traditional Emirati and Middle Eastern cuisine with belly dance performances and Arabian ambiance.",
+      "mustTry": "Lamb Ouzi"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Burj Khalifa Observation Decks",
+      "category": "Outdoor",
+      "description": "Ascend to the world's tallest building and experience breathtaking 360-degree views from the 124th and 148th floors with audio guides available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Desert Safari with Dune Bashing",
+      "category": "Adventure",
+      "description": "Experience thrilling off-road driving through golden sand dunes followed by camel rides, belly dancing, and traditional dinner in a Bedouin camp.",
+      "durationHours": 6,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "surprise",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Gold Souk Exploration",
+      "category": "Cultural",
+      "description": "Wander through the glittering lanes of the historic Gold Souk in Deira where vendors display thousands of pieces of jewelry and gold ornaments.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Palm Jumeirah Helicopter Tour",
+      "category": "Outdoor",
+      "description": "Soar above Dubai's iconic man-made archipelago and see the Burj Al Arab, Atlantis The Palm, and pristine coastline from an unparalleled aerial perspective.",
+      "durationHours": 1,
+      "estimatedCostUSD": 220,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Dubai Museum and Al Fahidi Fort",
+      "category": "Cultural",
+      "description": "Explore Dubai's fascinating maritime history, traditional architecture, and cultural heritage through artifacts and immersive exhibits in this restored 18th-century fort.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Jumeirah Beach Volleyball and Swimming",
+      "category": "Outdoor",
+      "description": "Relax on pristine sandy beaches with turquoise waters, play beach volleyball, and swim in the warm Gulf waters with stunning views of the Burj Al Arab.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Dubai Mall Shopping and Aquarium",
+      "category": "Indoor",
+      "description": "Explore one of the world's largest shopping malls featuring 1,200+ stores, world-class dining, and an enormous aquarium with thousands of marine species.",
+      "durationHours": 5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Traditional Dhow Cruise Dinner",
+      "category": "Nightlife",
+      "description": "Set sail on a traditional wooden dhow along Dubai Creek at sunset, enjoying gourmet buffet dinner with live entertainment and cooling evening breezes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "relaxation",
+        "romantic",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Spice Souk Sensory Experience",
+      "category": "Cultural",
+      "description": "Immerse yourself in the aromatic Spice Souk in Deira where colorful spice mountains and exotic fragrances transport you to traditional Arabian markets.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Skydiving in Dubai",
+      "category": "Adventure",
+      "description": "Experience the ultimate adrenaline rush with a tandem skydive over the Palm Jumeirah and Dubai coastline with breathtaking aerial views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 300,
+      "bestFor": [
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Al Seef Heritage District Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll through the beautifully restored waterfront district featuring traditional architecture, artisan shops, cafes, and heritage museums along the historic creek.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Underwater World at Atlantis The Palm",
+      "category": "Family",
+      "description": "Explore the massive Aquaventure Waterpark or wander through the aquarium displays featuring rays, sharks, and exotic fish in immersive underwater environments.",
+      "durationHours": 5,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "family",
+        "standard",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Burj Khalifa from Downtown",
+        "description": "Capture the iconic tower framed by the geometric geometry of surrounding skyscrapers and reflecting pools at street level.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or blue hour for dramatic lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Palm Jumeirah Aerial View",
+        "description": "Photograph the distinctive palm-shaped archipelago with turquoise waters and beachfront resorts from helicopter or drone perspective.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon for clear skies and shadow definition",
+        "category": "Landscape"
+      },
+      {
+        "name": "Dubai Marina Skyline",
+        "description": "Capture modern skyscrapers reflecting in marina waters with yachts in foreground during dusk hours.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour just after sunset for optimal reflections",
+        "category": "Night"
+      },
+      {
+        "name": "Gold Souk Street Photography",
+        "description": "Photograph vibrant displays of golden jewelry, traditional merchants, and busy pedestrian traffic in narrow souk alleyways.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning before crowds or late evening with warm lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Dune Landscape at Sunset",
+        "description": "Capture undulating golden sand dunes bathed in warm orange and red tones with dramatic shadows and textural patterns.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for warm golden light and long shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Al Fahidi Fort Architecture",
+        "description": "Photograph the restored heritage fort's traditional architecture with wind towers, courtyard details, and historical facades.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for warm tones and clear detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Jumeirah Beach and Burj Al Arab",
+        "description": "Capture the iconic sail-shaped hotel rising from pristine white sand beach with turquoise water and sunset backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour before sunset for warm tones and clear visibility",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dubai Creek at Dawn",
+        "description": "Photograph traditional dhows silhouetted against sunrise with reflections in calm water and misty early light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Pre-dawn and sunrise for dramatic colors and minimal crowds",
+        "category": "Landscape"
+      },
+      {
+        "name": "Modern Architecture Street Level",
+        "description": "Capture contemporary building facades, geometric patterns, and urban geometry from creative angles at street level.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for harsh shadows creating contrast or blue hour for ambient light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Spice Souk Color and Culture",
+        "description": "Photograph vibrant mountains of colorful spices, traditional vendors, and aromatic baskets creating a sensory visual feast.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning with soft natural light and fewer tourists",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Dubai Creek at Deira Bridge",
+      "Jumeirah Beach near Burj Al Arab",
+      "Al Marmoom Desert Conservation Reserve"
+    ],
+    "sunsetSpots": [
+      "Palm Jumeirah Boardwalk",
+      "Dubai Marina Promenade",
+      "Dune Bashing in Desert Safari"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for expansive desert landscapes and architectural framing",
+      "50mm f/1.8 prime for sharp street photography and detailed souk portraits",
+      "70-200mm telephoto for compressed cityscapes and isolated architectural details",
+      "24mm f/2.8 for versatile travel and intimate cultural documentation"
+    ],
+    "goldenHourNotes": "Dubai's golden hour is incredibly brief during summer months (30-40 minutes) but extends to 60+ minutes November through February. The desert receives spectacular warm light at sunset creating dramatic sand textures and long shadows. Blue hour photography is equally compelling in Dubai's well-lit urban areas, with building facades and water reflections creating stunning night-time compositions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 23,
+        "rainfallMM": 12
+      },
+      {
+        "month": 2,
+        "avgTempC": 24,
+        "rainfallMM": 10
+      },
+      {
+        "month": 3,
+        "avgTempC": 28,
+        "rainfallMM": 6
+      },
+      {
+        "month": 4,
+        "avgTempC": 33,
+        "rainfallMM": 2
+      },
+      {
+        "month": 5,
+        "avgTempC": 37,
+        "rainfallMM": 0
+      },
+      {
+        "month": 6,
+        "avgTempC": 39,
+        "rainfallMM": 0
+      },
+      {
+        "month": 7,
+        "avgTempC": 41,
+        "rainfallMM": 0
+      },
+      {
+        "month": 8,
+        "avgTempC": 41,
+        "rainfallMM": 1
+      },
+      {
+        "month": 9,
+        "avgTempC": 38,
+        "rainfallMM": 0
+      },
+      {
+        "month": 10,
+        "avgTempC": 33,
+        "rainfallMM": 1
+      },
+      {
+        "month": 11,
+        "avgTempC": 28,
+        "rainfallMM": 4
+      },
+      {
+        "month": 12,
+        "avgTempC": 24,
+        "rainfallMM": 11
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "Dubai experiences extreme heat from June through September with temperatures exceeding 40°C, making outdoor activities challenging. The ideal travel season is November through March when temperatures range from 23-28°C with comfortable weather perfect for beach activities, desert exploration, and outdoor sightseeing.",
+    "summary": "Dubai has a hot desert climate with scorching summers and mild winters. Rain is extremely rare throughout the year, occurring mainly in winter months with occasional brief showers. Pack lightweight clothing, sunscreen, and sunglasses year-round, but bring a light jacket for winter evenings and heavily air-conditioned indoor spaces."
+  },
+  "hotels": [
+    {
+      "name": "The Beachcomber Hotel",
+      "neighborhood": "Deira",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Simple but clean budget hotel in the historic Deira district with basic amenities, air conditioning, and walking distance to the Gold and Spice souks."
+    },
+    {
+      "name": "Sofitel Dubai The Palm",
+      "neighborhood": "Palm Jumeirah",
+      "pricePerNightUSD": 280,
+      "category": "Mid-range",
+      "description": "Contemporary resort offering spacious rooms, private beach access, multiple pools, restaurants, and stunning views of Dubai Marina and the Arabian Gulf."
+    },
+    {
+      "name": "Burj Al Arab Jumeirah",
+      "neighborhood": "Jumeirah",
+      "pricePerNightUSD": 950,
+      "category": "Luxury",
+      "description": "Ultra-luxury iconic sail-shaped hotel featuring opulent suites, Michelin-starred restaurants, private beach, spa, and unparalleled service with breathtaking Arabian Gulf views."
+    }
+  ]
+}

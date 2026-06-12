@@ -1,0 +1,457 @@
+{
+  "id": "charleston-usa",
+  "city": "Charleston",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "CHS",
+    "SAV"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 92,
+    "photography": 88,
+    "activities": 85,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Charleston historic waterfront",
+  "summary": "Charleston is a beautifully preserved Southern city known for its rainbow Row mansions, exceptional Lowcountry cuisine, and cobblestone streets lined with Spanish moss-draped oaks. The historic district seamlessly blends colonial architecture with vibrant cultural attractions, art galleries, and award-winning restaurants. Perfect for foodies, photographers, and anyone seeking authentic Southern charm with world-class hospitality.",
+  "restaurants": [
+    {
+      "name": "Leon's Oyster Shop",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A casual counter-service eatery celebrating Lowcountry traditions with fried chicken, shrimp, and fresh oysters in a lively, communal atmosphere.",
+      "mustTry": "Half-shell oysters and fried chicken"
+    },
+    {
+      "name": "The Ordinary",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "A seafood hall and raw bar by James Beard award-winning chef Mike Lata, featuring pristine oysters, crudo, and an extensive wine selection.",
+      "mustTry": "Raw oyster platter"
+    },
+    {
+      "name": "Hominy Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A beloved breakfast and lunch spot serving Southern comfort food including shrimp and grits, biscuits, and fresh seasonal preparations.",
+      "mustTry": "Shrimp and grits"
+    },
+    {
+      "name": "Husk",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Chef Sean Brock's celebration of American cuisine focused on heritage grains and regional Southern ingredients with a sophisticated approach.",
+      "mustTry": "Sweet corn bisque"
+    },
+    {
+      "name": "Bowens Island Oyster Roast",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A casual waterfront institution serving roasted oysters and cold beer with stunning views of the marsh and harbor.",
+      "mustTry": "Roasted oysters"
+    },
+    {
+      "name": "167 Raw",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An intimate Japanese restaurant specializing in ultra-fresh sashimi, nigiri, and omakase experiences with impeccable technique.",
+      "mustTry": "Chef's omakase"
+    },
+    {
+      "name": "Callie's Hot Little Biscuit",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual morning spot famous for warm, flaky biscuits with creative toppings including pulled pork, fried chicken, and vegetarian options.",
+      "mustTry": "Biscuit with pimento cheese"
+    },
+    {
+      "name": "39 Rue de Jean",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A classic French brasserie serving mussels, beef frites, and traditional French preparations in an elegant historic setting.",
+      "mustTry": "Moules frites"
+    },
+    {
+      "name": "FIG Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant focused on seasonal ingredients and Mediterranean-inspired cuisine with impeccable sourcing and preparation.",
+      "mustTry": "Local fish preparations"
+    },
+    {
+      "name": "The Cypress Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Refined Southern cuisine in a historic setting, showcasing Lowcountry traditions elevated with modern technique and presentation.",
+      "mustTry": "She-crab soup"
+    },
+    {
+      "name": "Shem Creek Crab House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Waterfront casual dining famous for fresh crab, shrimp, and regional seafood with views of working fishing boats and marshlands.",
+      "mustTry": "Crab cakes"
+    },
+    {
+      "name": "Rodney Scott's BBQ",
+      "category": "Budget",
+      "priceRange": "$$",
+      "description": "Authentic pit-smoked barbecue featuring slow-cooked meats, traditional sides, and a no-frills atmosphere dedicated to quality smoking technique.",
+      "mustTry": "Pulled pork plate"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Historic District Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Rainbow Row, the historic mansions, and cobblestone streets while learning about Charleston's colonial heritage, architecture, and notable residents.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Fort Sumter National Monument",
+      "category": "Cultural",
+      "description": "Visit the pivotal Civil War site accessible by ferry, featuring exhibits, historical interpretation, and panoramic views of Charleston Harbor.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking through Shem Creek",
+      "category": "Adventure",
+      "description": "Paddle through pristine marshlands, spot dolphins and native birds, and experience the natural beauty of Lowcountry ecosystems.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "South Carolina Aquarium",
+      "category": "Family",
+      "description": "Interactive aquarium showcasing native marine life, coastal habitats, and educational exhibits about regional conservation efforts.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 29,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Magnolia Plantation & Gardens",
+      "category": "Outdoor",
+      "description": "One of America's oldest plantations featuring 60 acres of stunning gardens, nature trails, a maze, and historic cabins with cultural interpretation.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Charleston City Market Shopping",
+      "category": "Cultural",
+      "description": "Browse local crafts, Gullah sweetgrass baskets, art, and regional goods in this historic market surrounded by galleries and street performers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Boone Hall Plantation",
+      "category": "Outdoor",
+      "description": "Famous for its iconic tree-lined avenue of live oaks and historic rice fields, with exhibits about plantation history and cultural heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Waterfront Park Stroll",
+      "category": "Relaxation",
+      "description": "Walk along the scenic harbor boardwalk featuring the iconic pineapple fountain, views of boats and waterfront, and access to riverside dining.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Ghost Tour of Historic District",
+      "category": "Cultural",
+      "description": "Evening walking tour exploring Charleston's paranormal history, hauntings, and supernatural legends while discovering historic sites and architecture.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Folly Beach Pier & Beach",
+      "category": "Outdoor",
+      "description": "Public pier and beach area perfect for swimming, fishing, sunset viewing, and enjoying oceanside attractions with restaurants and bars.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Middleton Place",
+      "category": "Outdoor",
+      "description": "National Historic Landmark featuring America's oldest landscaped gardens, restored plantation grounds, working stables, and museum exhibits.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Rooftop Bar Hopping",
+      "category": "Nightlife",
+      "description": "Experience Charleston's vibrant bar scene with visits to rooftop venues offering craft cocktails, live music, and panoramic city and harbor views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Rainbow Row",
+        "description": "Iconic pastel-colored historic row houses creating a stunning and vibrant architectural photograph with perfect symmetry and color saturation.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light before crowds, or late afternoon golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Boone Hall Plantation Oak Avenue",
+        "description": "Majestic tree-lined avenue of live oaks draped in Spanish moss creating a dramatic, ethereal corridor perfect for landscape and atmospheric shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning mist or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Fort Sumter from the Water",
+        "description": "Historic fort silhouetted against Charleston Harbor skyline and water, offering unique compositional angles and waterfront perspectives.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour or sunset for dramatic lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Waterfront Park Pineapple Fountain",
+        "description": "Iconic landmark fountain surrounded by Spanish moss trees and harbor views, perfect for detail shots, reflections, and compositional framing.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Shem Creek Marshlands",
+        "description": "Golden marsh grasses, tidal waters, and fishing boats creating layered landscape compositions with wildlife opportunities including herons and egrets.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset with optimal tide conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic District Cobblestone Streets",
+        "description": "Narrow alleyways lined with historic architecture, lanterns, and flowering vines offering intimate street photography and textural detail shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for empty streets and soft light",
+        "category": "Street"
+      },
+      {
+        "name": "Folly Beach Pier at Sunset",
+        "description": "Iconic wooden pier extending into the Atlantic with spectacular sunset backdrops, reflection opportunities, and vibrant sky colors.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for dramatic color and silhouettes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Charleston Harbor Skyline from Patriot Point",
+        "description": "Panoramic view of downtown skyline reflected in calm harbor waters, perfect for cityscapes and architectural perspectives with water reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour or golden hour for optimal lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Middleton Place Gardens",
+        "description": "Extensively landscaped formal gardens featuring geometric patterns, water features, reflective pools, and manicured plantings ideal for composed shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-day for garden colors or golden hour for texture",
+        "category": "Landscape"
+      },
+      {
+        "name": "King Street Historic Windows and Storefronts",
+        "description": "Ornate historic building facades, detailed architectural elements, and reflective storefront windows perfect for detail and reflection photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning or afternoon light avoiding direct sun reflections",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Folly Beach Pier",
+      "Boone Hall Plantation Oak Avenue",
+      "Charleston Harbor from Battery Park"
+    ],
+    "sunsetSpots": [
+      "Waterfront Park Pineapple Fountain",
+      "Folly Beach Pier",
+      "Shem Creek Marshlands"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive landscape shots of marshes, tree avenues, and skyline panoramas",
+      "50mm prime for intimate street photography and architectural details in historic district",
+      "70-200mm telephoto for distant skyline compression, wildlife in marshes, and architectural detail isolation"
+    ],
+    "goldenHourNotes": "Charleston's golden hour is exceptionally photogenic due to low-angle light reflecting off water and illuminating historic facades. Early morning hours offer soft, directional light ideal for landscape photography in marshlands and tree-lined avenues. Sunset photography benefits from the calm harbor waters creating mirror-like reflections of the skyline and colorful sky transitions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 8,
+        "rainfallMM": 102
+      },
+      {
+        "month": 2,
+        "avgTempC": 10,
+        "rainfallMM": 108
+      },
+      {
+        "month": 3,
+        "avgTempC": 14,
+        "rainfallMM": 117
+      },
+      {
+        "month": 4,
+        "avgTempC": 19,
+        "rainfallMM": 105
+      },
+      {
+        "month": 5,
+        "avgTempC": 24,
+        "rainfallMM": 110
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 165
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 178
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 172
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 138
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 88
+      },
+      {
+        "month": 11,
+        "avgTempC": 15,
+        "rainfallMM": 93
+      },
+      {
+        "month": 12,
+        "avgTempC": 10,
+        "rainfallMM": 107
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "seasonality": "Charleston experiences hot, humid summers (June-August) with frequent afternoon thunderstorms, while mild winters rarely freeze. Spring and fall offer ideal conditions with comfortable temperatures, lower humidity, and less rainfall, making these the best seasons for outdoor activities and photography.",
+    "summary": "The city enjoys a subtropical climate with warm weather year-round, though summer heat and humidity can be intense. Tropical storm and hurricane season runs from June through November, with peak rainfall in summer months."
+  },
+  "hotels": [
+    {
+      "name": "HI Charleston",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "A clean, social hostel in a converted historic building offering private rooms and dormitory options with shared kitchen facilities and common areas."
+    },
+    {
+      "name": "The Vendue",
+      "neighborhood": "Historic District",
+      "pricePerNightUSD": 280,
+      "category": "Mid-range",
+      "description": "Boutique art-focused hotel combining historic architecture with contemporary art installations, rooftop bar, and restaurant in the heart of the historic district."
+    },
+    {
+      "name": "Belmond Charleston Place",
+      "neighborhood": "Historic District",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Five-star luxury hotel featuring elegant rooms, Michelin-starred dining, full spa, and prime location adjacent to the historic Charleston City Market."
+    }
+  ]
+}

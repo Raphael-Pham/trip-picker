@@ -1,0 +1,459 @@
+{
+  "id": "salt-lake-city-usa",
+  "city": "Salt Lake City",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SLC",
+    "OGD",
+    "PVT"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 62,
+    "food": 78,
+    "photography": 92,
+    "activities": 89,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Salt Lake City Mountains Snow",
+  "summary": "Salt Lake City is a dynamic mountain destination nestled in the Wasatch Range, offering world-class skiing, stunning photography opportunities, and a vibrant culinary scene. From the serene Great Salt Lake to nearby national parks and hiking trails, the city blends outdoor adventure with urban culture and rich heritage sites.",
+  "restaurants": [
+    {
+      "name": "Red Iguana",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic Mexican restaurant serving authentic Oaxacan and regional Mexican cuisine in a vibrant atmosphere. Known for mole negro and creative chile preparations.",
+      "mustTry": "Mole Negro with chicken"
+    },
+    {
+      "name": "Takashi",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Sophisticated Japanese omakase experience featuring pristine sushi and seasonal ingredients. Chef-led counter dining for an intimate culinary journey.",
+      "mustTry": "Chef's omakase selection"
+    },
+    {
+      "name": "Copper Common",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Modern American kitchen in a historic copper warehouse featuring craft cocktails and locally-sourced ingredients. Rooftop patio with city views.",
+      "mustTry": "Roasted bone marrow"
+    },
+    {
+      "name": "Eva",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary French-influenced restaurant with seasonal menus and an extensive wine collection. Elegant downtown setting perfect for special occasions.",
+      "mustTry": "Duck breast with seasonal vegetables"
+    },
+    {
+      "name": "Boneyard Bistro",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual gastro-pub with elevated comfort food and extensive craft beer selection. Known for burger and locally-sourced meats.",
+      "mustTry": "House-made burger"
+    },
+    {
+      "name": "Bambara",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale American cuisine in a historic hotel setting with seasonal menus and farm-to-table focus. Refined atmosphere with attentive service.",
+      "mustTry": "Pan-seared scallops"
+    },
+    {
+      "name": "Spicy Green Curry",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Thai street food and curries in a casual neighborhood setting. Known for fresh ingredients and genuine spice levels.",
+      "mustTry": "Green curry with jasmine rice"
+    },
+    {
+      "name": "The Pie Hole",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite serving creative hand pies, salads, and desserts. Known for fresh ingredients and quick service.",
+      "mustTry": "Spicy pork pie"
+    },
+    {
+      "name": "Sundance Mountain Resort Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Mountain-setting fine dining at a historic resort with views of Utah Canyon and seasonal American fare. Intimate and sophisticated.",
+      "mustTry": "Pan-roasted chicken breast"
+    },
+    {
+      "name": "Café Trang",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Vietnamese pho and noodle house with family recipes and affordable prices. Authentic flavors and generous portions.",
+      "mustTry": "Pho Tai"
+    },
+    {
+      "name": "The Green Pig",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table concept with rotating seasonal menu and focus on sustainable practices. Modern atmosphere and creative dishes.",
+      "mustTry": "Seasonal vegetable medley"
+    },
+    {
+      "name": "Fillings & Emulsions",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Comfort food restaurant specializing in filled pasta and handmade sauces. Casual environment with Italian-inspired cuisine.",
+      "mustTry": "House-made ravioli"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing at Snowbird and Alta",
+      "category": "Adventure",
+      "description": "World-class ski resorts just 30 minutes from downtown offering exceptional powder and challenging terrain. Together they provide over 4,500 acres of skiable terrain.",
+      "durationHours": 8,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking to Delicate Arch (Arches National Park)",
+      "category": "Outdoor",
+      "description": "Iconic 3-mile round trip hike to Utah's most photographed natural arch. Stunning red rock landscape and moderate difficulty trail.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Salt Lake City Temple Square Walking Tour",
+      "category": "Cultural",
+      "description": "Free guided or self-guided tour of the historic religious and cultural center featuring beautiful gardens, architecture, and museums. Educational experience about LDS heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Antelope Canyon Photography Tour",
+      "category": "Photography",
+      "description": "Guided tour through stunning slot canyons with exceptional light beams and narrow passages. Located 4 hours away in Arizona.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Stansbury Island Aerial Tramway Adventure",
+      "category": "Family",
+      "description": "Scenic aerial tramway with zip-lining and rope courses above the Wasatch Mountains. Family-friendly adventure with stunning views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Natural History Museum of Utah Exploration",
+      "category": "Indoor",
+      "description": "World-class museum featuring dinosaur fossils, natural history exhibits, and interactive displays. Modern architecture overlooking the valley.",
+      "durationHours": 3,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Sunset Hike at Ensign Peak",
+      "category": "Outdoor",
+      "description": "Short, easy hike just minutes from downtown with panoramic views of Salt Lake City at sunset. Free activity with incredible photo opportunities.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "The Depot District Nightlife & Dining",
+      "category": "Nightlife",
+      "description": "Historic district with bars, breweries, and restaurants in converted train stations. Vibrant evening atmosphere with craft beverages.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bonneville Salt Flats Road Trip",
+      "category": "Outdoor",
+      "description": "Day trip to otherworldly white salt flats, 2 hours west of Salt Lake City. Unique landscape for photography and exploration.",
+      "durationHours": 6,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Kayaking on Great Salt Lake",
+      "category": "Adventure",
+      "description": "Paddling experience on the massive hypersaline lake with opportunities to see wildlife and unique ecosystems. Multiple launch points and guided tours available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Red Butte Garden & Arboretum",
+      "category": "Family",
+      "description": "150-acre botanical garden with nature trails, seasonal concerts, and diverse plant collections. Peaceful setting for walking and photography.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Canyons Resort Mountain Biking",
+      "category": "Adventure",
+      "description": "Extensive trail system for all skill levels with stunning canyon views and alpine scenery. Summer activity with bike rentals and lessons available.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Delicate Arch at Sunrise",
+        "description": "The most iconic arch in Utah glowing with warm light during golden hour, set against red rock formations.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise (30 minutes before to 2 hours after)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Great Salt Lake Marina Sunset",
+        "description": "Reflective water surfaces and industrial marina elements create dramatic sunset compositions with mountain backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset (1-2 hours before to dusk)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Salt Lake Temple Square Architecture",
+        "description": "Historic temple and gardens offering beautiful architectural details, symmetry, and seasonal flora for composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise or sunset)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Antelope Canyon Slot Light Beams",
+        "description": "Narrow canyon passages with dramatic light rays penetrating from above, creating ethereal photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday (10am-2pm) for optimal light beams",
+        "category": "Landscape"
+      },
+      {
+        "name": "The Beehive House Historic District Streets",
+        "description": "Charming historic neighborhood with Victorian architecture, tree-lined streets, and period details perfect for street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour light for warm tones",
+        "category": "Street"
+      },
+      {
+        "name": "Bonneville Salt Flats White Expanse",
+        "description": "Vast white salt plain creates surreal, minimalist landscape photography with perfect reflection opportunities on salt crust.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset for colorful skies against white flats",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Salt Lake City Skyline from Mountain Viewpoints",
+        "description": "City lights and skyline framed by surrounding mountains, particularly stunning at dusk with purple sky tones.",
+        "difficulty": "Beginner",
+        "bestTime": "Blue hour (twilight) for city lights",
+        "category": "Night"
+      },
+      {
+        "name": "Ensign Peak Panoramic Views",
+        "description": "360-degree city and mountain views from accessible hilltop, ideal for wide-angle landscape and cityscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or blue hour for dramatic lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Spiral Jetty Art Installation at Great Salt Lake",
+        "description": "Large-scale earthwork sculpture creating geometric patterns visible from above and stunning reflections in pink-hued salt water.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for soft light and dramatic water colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Utah Botanical Center Seasonal Flowers",
+        "description": "Cultivated gardens with colorful flora arrangements providing vibrant, close-up photography subjects with natural backgrounds.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for soft directional light on flowers",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Delicate Arch (Arches National Park)",
+      "Bonneville Salt Flats",
+      "Ensign Peak Overlooking Salt Lake City"
+    ],
+    "sunsetSpots": [
+      "Great Salt Lake Marina",
+      "Salt Lake Temple Square",
+      "Antelope Island State Park"
+    ],
+    "lensRecommendations": [
+      "14-24mm ultra-wide for expansive landscape vistas and architectural sweeps of mountains and city skylines",
+      "50mm prime for intimate details, street photography, and portrait work in historic neighborhoods",
+      "70-200mm telephoto for compressed landscape shots, wildlife at Antelope Island, and distant mountain drama"
+    ],
+    "goldenHourNotes": "Salt Lake City offers exceptional golden hour lighting due to mountain positioning, with warm alpenglow on Wasatch peaks lasting 45+ minutes. Winter provides longer blue hour transitions with city lights creating stunning reflections on snow and salt water. Plan shoots 45 minutes before sunset and continue 30 minutes after for optimal color gradation and balanced exposure.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 33
+      },
+      {
+        "month": 2,
+        "avgTempC": -2,
+        "rainfallMM": 29
+      },
+      {
+        "month": 3,
+        "avgTempC": 2,
+        "rainfallMM": 30
+      },
+      {
+        "month": 4,
+        "avgTempC": 8,
+        "rainfallMM": 36
+      },
+      {
+        "month": 5,
+        "avgTempC": 15,
+        "rainfallMM": 25
+      },
+      {
+        "month": 6,
+        "avgTempC": 21,
+        "rainfallMM": 18
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 43
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 38
+      },
+      {
+        "month": 9,
+        "avgTempC": 20,
+        "rainfallMM": 25
+      },
+      {
+        "month": 10,
+        "avgTempC": 12,
+        "rainfallMM": 28
+      },
+      {
+        "month": 11,
+        "avgTempC": 4,
+        "rainfallMM": 30
+      },
+      {
+        "month": 12,
+        "avgTempC": -2,
+        "rainfallMM": 34
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Salt Lake City experiences four distinct seasons with heavy snow in winter (ideal for skiing), mild spring and fall with comfortable outdoor conditions, and warm dry summers. May, September, and October offer the most pleasant weather for general tourism.",
+    "summary": "The city enjoys 300+ days of sunshine annually with significant snowfall in winter and low humidity overall. Spring and fall provide ideal hiking weather, while summer heat can exceed 30°C but remains manageable due to low humidity."
+  },
+  "hotels": [
+    {
+      "name": "The Grand America Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 295,
+      "category": "Luxury",
+      "description": "Historic luxury property with Italian Renaissance-inspired architecture, marble halls, fine dining, and impeccable service in the heart of downtown Salt Lake City."
+    },
+    {
+      "name": "Kimpton Hotel Monaco Salt Lake City",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Boutique hotel featuring eco-friendly design, rooftop bar, pets welcome, and stylish rooms steps from Temple Square and downtown attractions."
+    },
+    {
+      "name": "Red Roof Inn Salt Lake City Downtown",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 78,
+      "category": "Budget",
+      "description": "Affordable downtown location with clean, simple rooms, free Wi-Fi, and convenient access to public transit and major attractions."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1681391835354-63aeb171ff41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYWx0JTIwTGFrZSUyMENpdHklMjBNb3VudGFpbnMlMjBTbm93fGVufDF8MHx8fDE3ODEzMDMxNzB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

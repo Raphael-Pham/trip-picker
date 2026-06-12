@@ -1,0 +1,469 @@
+{
+  "id": "memphis-usa",
+  "city": "Memphis",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MEM",
+    "BNA",
+    "JAN"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 85,
+    "photography": 78,
+    "activities": 80,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Memphis Tennessee music river",
+  "summary": "Memphis is the birthplace of American music, home to Graceland, the Blues, and some of the best BBQ in the South. Nestled along the Mississippi River, this vibrant city blends rich cultural heritage with modern attractions and legendary food traditions. From iconic music venues to historic sites, Memphis offers an authentic slice of American soul.",
+  "restaurants": [
+    {
+      "name": "Central BBQ",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A beloved Memphis institution serving dry-rub ribs and pulled pork with signature hot sauce. Known for casual counter-service and legendary taste that defines Memphis BBQ culture.",
+      "mustTry": "Dry-rub ribs with hot sauce"
+    },
+    {
+      "name": "Gus's World Famous Fried Chicken",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic fried chicken joint with a secret seasoning blend that has made it a Tennessee classic. The crispy, juicy chicken is served family-style in a casual, no-frills atmosphere.",
+      "mustTry": "Half chicken with sides"
+    },
+    {
+      "name": "Cozy Corner BBQ",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A tiny Memphis legend with just four tables, known for exceptional dry-rub ribs and homemade sauce. This family-run spot exemplifies authentic, no-nonsense Memphis barbecue.",
+      "mustTry": "Dry-rub ribs"
+    },
+    {
+      "name": "Chez Philippe",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "The city's premier fine dining establishment featuring contemporary French cuisine with Southern influences. Elegant ambiance in the historic Peabody Hotel with an extensive wine selection.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Andrew Michael Italian Kitchen",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning Italian restaurant offering handmade pasta and locally-sourced ingredients. The warm, welcoming atmosphere complements perfectly executed Mediterranean dishes.",
+      "mustTry": "Fresh pasta with seasonal sauce"
+    },
+    {
+      "name": "The Majestic",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A downtown Memphis favorite offering burgers, sandwiches, and local craft beers in a historic building. Known for its friendly service and vibrant atmosphere on the Main Street scene.",
+      "mustTry": "The Majestic burger"
+    },
+    {
+      "name": "Rendezvous",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Famous basement BBQ restaurant with dry-rub ribs and an iconic downstairs dining experience since 1948. A Memphis institution with character and legendary flavor.",
+      "mustTry": "Whole rack of dry ribs"
+    },
+    {
+      "name": "Restaurant Iris",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American cuisine with Asian influences in an intimate setting in the Crosstown area. Seasonal menus showcase local ingredients prepared with exceptional technique.",
+      "mustTry": "Chef's seasonal special"
+    },
+    {
+      "name": "Pho Hoa Noodle Soup",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Vietnamese pho and noodle dishes at budget-friendly prices in a casual family setting. Perfect for a quick, flavorful, and affordable meal.",
+      "mustTry": "Beef pho"
+    },
+    {
+      "name": "The Slider Inn",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual spot serving mini burgers, hot dogs, and other diner favorites in a relaxed environment. Great for late-night eats and affordable comfort food.",
+      "mustTry": "Slider variety pack"
+    },
+    {
+      "name": "Molly's La Casita",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mexican restaurant with authentic recipes, fresh ingredients, and a warm family atmosphere. Known for excellent tableside guacamole and margaritas.",
+      "mustTry": "Chile relleno"
+    },
+    {
+      "name": "Interim",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant emphasizing seasonal Southern cuisine with creative preparations. Casual yet refined dining in a neighborhood setting.",
+      "mustTry": "Seasonal vegetable plate"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Graceland",
+      "category": "Cultural",
+      "description": "The iconic mansion home of Elvis Presley, featuring extensive exhibits of his memorabilia, costumes, and music history. A pilgrimage site for music fans and one of America's most visited historic homes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sun Studio",
+      "category": "Cultural",
+      "description": "The legendary recording studio where Elvis, Johnny Cash, and many rockabilly pioneers recorded their first hits. Tour the original studio and experience the birthplace of rock and roll.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Mississippi River Walk",
+      "category": "Outdoor",
+      "description": "A scenic waterfront path offering beautiful views of the mighty Mississippi River and access to riverside attractions. Free to explore with excellent sunset viewing opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Beale Street",
+      "category": "Nightlife",
+      "description": "Memphis's famous entertainment district packed with live music venues, bars, and street performers every night. The heart of Memphis blues culture with a palpable energy and diverse musical performances.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "nightlife",
+        "photography"
+      ]
+    },
+    {
+      "name": "Memphis Rock and Roll Museum",
+      "category": "Cultural",
+      "description": "Interactive museum celebrating rock and roll history with exhibits on local and regional music legends. Hands-on displays and listening stations bring music history to life.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "National Civil Rights Museum",
+      "category": "Cultural",
+      "description": "Housed in the historic Lorraine Motel where Martin Luther King Jr. was assassinated, this powerful museum documents the civil rights movement. Essential historical experience with deeply moving exhibits.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Memphis Zoo",
+      "category": "Family",
+      "description": "A well-maintained zoo featuring over 3,500 animals from around the world in naturalistic habitats. Great for families with children and photographers interested in wildlife.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "family",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Peabody Hotel Ducks March",
+      "category": "Family",
+      "description": "Famous daily tradition of mallard ducks marching through the historic Peabody Hotel lobby at 11am and 5pm. A quirky Memphis experience that draws visitors daily.",
+      "durationHours": 0.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Shelby Farms Park",
+      "category": "Outdoor",
+      "description": "A sprawling 4,500-acre urban park with hiking trails, biking paths, paddleboarding, and scenic lake views. Perfect for outdoor activities and nature photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "outdoor",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bass Pro Shops Pyramid",
+      "category": "Family",
+      "description": "A unique indoor entertainment venue housed in a 32-story pyramid featuring an observation deck, restaurants, and shops. Offers panoramic city views and Memphis's most distinctive architectural landmark.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Elmwood Cemetery Walking Tour",
+      "category": "Cultural",
+      "description": "Historic cemetery founded in 1852 with beautiful landscaping and graves of notable Memphis figures. Guided tours reveal Memphis history and architecture in a peaceful setting.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "South Main Arts District",
+      "category": "Cultural",
+      "description": "A vibrant neighborhood gallery district featuring artist studios, galleries, murals, and boutique shops. Free to explore with excellent street photography opportunities and local creativity.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "foodie",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Shelby Farms Lake at Sunrise",
+        "description": "Tranquil lake reflections with morning light creating golden tones across the water and surrounding landscape.",
+        "difficulty": "Beginner",
+        "bestTime": "6:00-7:30am",
+        "category": "Landscape"
+      },
+      {
+        "name": "Beale Street at Night",
+        "description": "Vibrant neon signs, street performers, and energetic crowds create dynamic urban nightlife photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "8:00pm-midnight",
+        "category": "Night"
+      },
+      {
+        "name": "Mississippi River Walk at Sunset",
+        "description": "Expansive river views with dramatic sky colors reflecting off the water create stunning compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "5:00-7:00pm",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bass Pro Shops Pyramid Exterior",
+        "description": "Iconic illuminated pyramid structure with interesting geometric architecture and contrasting light.",
+        "difficulty": "Beginner",
+        "bestTime": "Dusk to night",
+        "category": "Architecture"
+      },
+      {
+        "name": "South Main Arts District Street Art",
+        "description": "Colorful murals and street art covering building walls create vibrant compositions for urban photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Street"
+      },
+      {
+        "name": "Graceland Mansion Front Gate",
+        "description": "Iconic gates and mansion facade with strong architectural details and symbolic cultural significance.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Memphis Zoo Wildlife",
+        "description": "Diverse animals in naturalistic settings offering opportunities for wildlife and environmental portraiture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Peabody Hotel Grand Staircase",
+        "description": "Ornate historic architecture with elegant details and refined interior design in dramatic lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light through windows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Elmwood Cemetery Landscape",
+        "description": "Beautiful landscaping, historic monuments, and tree-lined pathways creating serene atmospheric compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Memphis Skyline from South Bluffs",
+        "description": "Panoramic city skyline views across the Mississippi River with excellent vantage for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Shelby Farms Lake",
+      "Mississippi River Walk",
+      "Downtown Memphis Skyline from South Bluffs"
+    ],
+    "sunsetSpots": [
+      "Mississippi River Walk",
+      "Bass Pro Shops Pyramid",
+      "Downtown Memphis Skyline from South Bluffs"
+    ],
+    "lensRecommendations": [
+      "24-70mm for versatile coverage of architecture and street scenes",
+      "70-200mm for compressed architectural shots and wildlife at the zoo",
+      "14-24mm wide angle for expansive landscape and skyline compositions",
+      "50mm prime for intimate street photography and low-light Beale Street work"
+    ],
+    "goldenHourNotes": "Memphis's golden hour is exceptionally rewarding, particularly along the Mississippi River where the light reflects beautifully off the water. The early morning light at Shelby Farms creates stunning reflections and soft tones perfect for landscape work. Evening light on downtown architecture and the Bass Pro Pyramid provides rich colors and dramatic shadows ideal for architectural photography.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 130
+      },
+      {
+        "month": 2,
+        "avgTempC": 7,
+        "rainfallMM": 125
+      },
+      {
+        "month": 3,
+        "avgTempC": 12,
+        "rainfallMM": 140
+      },
+      {
+        "month": 4,
+        "avgTempC": 18,
+        "rainfallMM": 130
+      },
+      {
+        "month": 5,
+        "avgTempC": 23,
+        "rainfallMM": 115
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 120
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 135
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 115
+      },
+      {
+        "month": 9,
+        "avgTempC": 24,
+        "rainfallMM": 110
+      },
+      {
+        "month": 10,
+        "avgTempC": 18,
+        "rainfallMM": 85
+      },
+      {
+        "month": 11,
+        "avgTempC": 12,
+        "rainfallMM": 130
+      },
+      {
+        "month": 12,
+        "avgTempC": 7,
+        "rainfallMM": 140
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Memphis experiences four distinct seasons with mild winters and hot, humid summers. Spring and fall offer the most pleasant weather for outdoor activities and exploration.",
+    "summary": "Memphis has a humid subtropical climate with warm summers reaching 29°C and cool winters dropping to 5°C. Rainfall is relatively consistent throughout the year, with peak precipitation in winter and summer months."
+  },
+  "hotels": [
+    {
+      "name": "The Peabody Memphis",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Historic luxury hotel with iconic architecture, the famous duck march tradition, and refined amenities on Main Street."
+    },
+    {
+      "name": "The Germantown Hotel",
+      "neighborhood": "Midtown",
+      "pricePerNightUSD": 150,
+      "category": "Mid-range",
+      "description": "Boutique mid-range hotel in Midtown offering modern comfort, excellent dining options, and walkable neighborhood access."
+    },
+    {
+      "name": "Red Roof Inn Memphis",
+      "neighborhood": "Near Airport",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Clean and comfortable budget hotel near Memphis International Airport with basic amenities and convenient freeway access."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1562531783-f4a11f4a2c8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNZW1waGlzJTIwVGVubmVzc2VlJTIwbXVzaWMlMjByaXZlcnxlbnwxfDB8fHwxNzgxMzAzMjA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

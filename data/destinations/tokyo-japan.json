@@ -1,0 +1,465 @@
+{
+  "id": "tokyo-japan",
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "NRT",
+    "HND",
+    "YTT"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 98,
+    "photography": 96,
+    "activities": 95,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Tokyo neon lights",
+  "summary": "Tokyo is a mesmerizing blend of ancient tradition and cutting-edge modernity, where serene temples stand alongside glittering skyscrapers and neon-lit streets. From world-class cuisine and vibrant nightlife to peaceful gardens and cultural landmarks, this sprawling metropolis offers endless exploration for every traveler. With its efficient public transportation and unique neighborhoods, Tokyo rewards both quick visits and extended stays.",
+  "restaurants": [
+    {
+      "name": "Tsukiji Outer Market",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A bustling seafood market with countless stalls offering fresh sushi, grilled fish, and seafood delicacies.",
+      "mustTry": "Otoro (fatty tuna) sushi"
+    },
+    {
+      "name": "Ichiran Ramen",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A popular ramen chain known for its tonkotsu (pork bone) broth made from a secret recipe perfected over decades.",
+      "mustTry": "Tonkotsu ramen with egg"
+    },
+    {
+      "name": "Gonpachi Nishi-Azabu",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "An izakaya offering creative Japanese tapas, grilled skewers, and craft cocktails in a lively atmosphere.",
+      "mustTry": "Yakitori (grilled chicken skewers)"
+    },
+    {
+      "name": "Sukiyabashi Jiro",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "A legendary three-Michelin-starred sushi restaurant where the chef prepares an intimate omakase experience with pristine ingredients.",
+      "mustTry": "Seasonal omakase course"
+    },
+    {
+      "name": "Omoide Yokocho",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A narrow alley packed with tiny yakitori and ramen shops serving authentic grilled meats and noodles since the 1950s.",
+      "mustTry": "Grilled chicken hearts and giblets"
+    },
+    {
+      "name": "Nabezo",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A premium hot pot restaurant where diners cook wagyu beef, seafood, and vegetables in house broth at their table.",
+      "mustTry": "A5 wagyu beef shabu-shabu"
+    },
+    {
+      "name": "Hanamaru Udon",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A standing-style udon noodle counter serving thick, handmade noodles in flavorful broths with minimal wait.",
+      "mustTry": "Tempura udon"
+    },
+    {
+      "name": "Roppongi Hills Club",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A sophisticated dining destination offering French-influenced Japanese cuisine with panoramic city views.",
+      "mustTry": "Seasonal tasting menu"
+    },
+    {
+      "name": "Tonki",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A beloved tonkatsu (fried pork cutlet) restaurant operating since 1964, known for crispy breading and tender meat.",
+      "mustTry": "Pork loin tonkatsu with fresh cabbage"
+    },
+    {
+      "name": "Komasa",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual conveyor belt sushi restaurant offering freshly prepared nigiri at affordable prices with rotating selections.",
+      "mustTry": "Assorted sushi platter"
+    },
+    {
+      "name": "Kanda Matsuya",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A historic curry rice restaurant established in 1931, celebrated for its smooth, mildly spiced sauce.",
+      "mustTry": "Matsuya curry with fried egg"
+    },
+    {
+      "name": "Kajiyama",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A kaiseki restaurant presenting seasonal Japanese haute cuisine through an artistic multi-course dinner.",
+      "mustTry": "Kaiseki omakase"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Senso-ji Temple Visit",
+      "category": "Cultural",
+      "description": "Explore Tokyo's oldest temple with its iconic red lantern, browse the atmospheric shopping street, and experience traditional Japanese spirituality.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Shibuya Crossing Experience",
+      "category": "Outdoor",
+      "description": "Navigate the world's busiest pedestrian crossing, surrounded by towering screens and electric energy in the heart of Tokyo's youth culture.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Meiji Shrine Forest Walk",
+      "category": "Outdoor",
+      "description": "Wander through a serene forested area surrounding an important Shinto shrine, offering peaceful retreat from the urban chaos.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Tokyo Skytree Observation Deck",
+      "category": "Indoor",
+      "description": "Ascend Japan's tallest structure for panoramic 360-degree views of Tokyo and beyond on clear days.",
+      "durationHours": 2,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Tsukiji Outer Market Food Tour",
+      "category": "Adventure",
+      "description": "Sample fresh seafood, street snacks, and local delicacies at this iconic market while learning from knowledgeable vendors.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "foodie",
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Robot Restaurant Show",
+      "category": "Nightlife",
+      "description": "Experience an over-the-top cabaret show featuring robotic dancers, neon lights, and futuristic performances in Shinjuku.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "surprise",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Harajuku Street Fashion Exploration",
+      "category": "Outdoor",
+      "description": "Discover Takeshita Street's kawaii culture, vintage shops, and trendy boutiques showcasing Japan's unique youth fashion scene.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Tokyo Metropolitan Government Building Observation",
+      "category": "Indoor",
+      "description": "Visit the free observation deck on the 45th floor for stunning city views and architectural insight into Tokyo's skyline.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "budget",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Akihabara Electric Town Exploration",
+      "category": "Indoor",
+      "description": "Explore the epicenter of Tokyo's electronics, anime, and gaming culture across multiple floors of gadgets and merchandise.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Imperial Palace East Gardens Tour",
+      "category": "Cultural",
+      "description": "Stroll through manicured gardens and historic grounds of the Japanese Imperial Palace in central Tokyo.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kabukiza Theater Performance",
+      "category": "Cultural",
+      "description": "Experience traditional Kabuki theater with elaborate costumes, dramatic makeup, and centuries-old performance techniques.",
+      "durationHours": 4,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Onsens and Public Bathhouses Experience",
+      "category": "Relaxation",
+      "description": "Immerse yourself in traditional Japanese hot spring bathing culture at a local onsen or sento, following proper etiquette.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Shibuya Crossing",
+        "description": "Capture the world's busiest pedestrian crossing from the Starbucks overlooking it, creating mesmerizing patterns of human movement.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening during rush hour for neon reflections",
+        "category": "Street"
+      },
+      {
+        "name": "Tokyo Skytree at Night",
+        "description": "Photograph this illuminated tower from Sumida River banks or nearby parks for dramatic night cityscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "After sunset when LED lights activate",
+        "category": "Night"
+      },
+      {
+        "name": "Senso-ji Temple Red Lantern",
+        "description": "Frame the iconic paper lantern with the ornate temple gates and atmospheric shopping street in background.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light and fewer crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Meiji Shrine Torii Gates",
+        "description": "Photograph the wooden torii gates deep within the forest, creating a tunnel effect of spiritual layers.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning light filtering through trees",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rainbow Bridge from Odaiba",
+        "description": "Capture this suspension bridge spanning Tokyo Bay with cityscape and water reflections from multiple angles.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset or blue hour for vibrant colors",
+        "category": "Architecture"
+      },
+      {
+        "name": "Ginza Neon Reflections",
+        "description": "Photograph neon signs reflecting in wet pavement and storefront windows during rainy evenings for surreal urban imagery.",
+        "difficulty": "Intermediate",
+        "bestTime": "After rain during evening hours",
+        "category": "Street"
+      },
+      {
+        "name": "Tsukiji Market Colors",
+        "description": "Capture vibrant fish displays, bustling activity, and authentic market life with bold colors and dynamic composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning before 10 AM",
+        "category": "Street"
+      },
+      {
+        "name": "Tokyo Metropolitan Government Building Interior",
+        "description": "Photograph the architectural symmetry of the building's interior and sweeping city views from the observation deck.",
+        "difficulty": "Beginner",
+        "bestTime": "Clear days for maximum visibility",
+        "category": "Architecture"
+      },
+      {
+        "name": "Harajuku Fashion District",
+        "description": "Capture eclectic street fashion, colorful storefronts, and youth culture on Takeshita Street.",
+        "difficulty": "Intermediate",
+        "bestTime": "Weekends for diverse fashion subjects",
+        "category": "Street"
+      },
+      {
+        "name": "Roppongi Hills Night View",
+        "description": "Photograph Tokyo's sprawling cityscape illuminated at night from the Mori Tower observation deck.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk to night transition for layered lighting",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Tokyo Skytree from Sumida River banks",
+      "Meiji Shrine Forest trails",
+      "Chidoriguchi Park overlooking Imperial Palace"
+    ],
+    "sunsetSpots": [
+      "Odaiba Rainbow Bridge waterfront",
+      "Roppongi Hills observation deck",
+      "Sumida River bank facing Tokyo Skytree"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for cityscape and architecture shots capturing Tokyo's scale",
+      "50mm prime for street photography and intimate details in markets and temples",
+      "70-200mm telephoto for compressing urban layers and distant night lights",
+      "24-70mm versatile zoom for mixed urban and cultural photography situations"
+    ],
+    "goldenHourNotes": "Tokyo's golden hour is extremely brief due to tall buildings creating shadows. The best photography occurs during blue hour (dusk) when artificial lights complement natural light. Seek elevated positions or open spaces like parks and river banks to maximize this window. East-facing locations capture the most dramatic sunrise light on buildings.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 52
+      },
+      {
+        "month": 2,
+        "avgTempC": 6,
+        "rainfallMM": 57
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 107
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 125
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 137
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 167
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 155
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 145
+      },
+      {
+        "month": 9,
+        "avgTempC": 25,
+        "rainfallMM": 198
+      },
+      {
+        "month": 10,
+        "avgTempC": 19,
+        "rainfallMM": 102
+      },
+      {
+        "month": 11,
+        "avgTempC": 13,
+        "rainfallMM": 73
+      },
+      {
+        "month": 12,
+        "avgTempC": 8,
+        "rainfallMM": 50
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "seasonality": "Spring (March-May) and autumn (October-November) offer ideal temperatures and lower humidity with cherry blossoms and colorful foliage respectively. Summer is hot and humid with frequent rain, while winter is mild but dry and crisp.",
+    "summary": "Tokyo experiences four distinct seasons with mild winters and warm summers. Typhoon season (September-October) brings heavy rainfall, while spring and autumn provide the most pleasant conditions for outdoor exploration and tourism."
+  },
+  "hotels": [
+    {
+      "name": "Sakura Hotel Shinjuku",
+      "neighborhood": "Shinjuku",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "A clean, friendly hostel and budget hotel with dormitory and private rooms near Shinjuku Station's vibrant nightlife and dining."
+    },
+    {
+      "name": "Hotel Gracery Shinjuku",
+      "neighborhood": "Shinjuku",
+      "pricePerNightUSD": 120,
+      "category": "Mid-range",
+      "description": "A modern mid-range hotel offering comfortable rooms, excellent service, and convenient location above Shinjuku Station with great city views."
+    },
+    {
+      "name": "The Ritz-Carlton Tokyo",
+      "neighborhood": "Roppongi",
+      "pricePerNightUSD": 350,
+      "category": "Luxury",
+      "description": "An ultra-luxury hotel on the 53rd-61st floors featuring Michelin-starred dining, panoramic views, and impeccable service in central Tokyo."
+    }
+  ]
+}

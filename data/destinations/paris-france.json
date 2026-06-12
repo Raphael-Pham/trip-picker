@@ -1,0 +1,463 @@
+{
+  "id": "paris-france",
+  "city": "Paris",
+  "country": "France",
+  "region": "Europe",
+  "airportCodes": [
+    "CDG",
+    "ORY",
+    "BVA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 98,
+    "photography": 95,
+    "activities": 96,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Eiffel Tower Paris",
+  "summary": "Paris, the City of Light, enchants visitors with iconic landmarks like the Eiffel Tower, world-class museums, and charming cobblestone streets lined with cafés. From exquisite French cuisine to world-renowned art collections and romantic riverside walks, Paris offers an unmatched blend of culture, romance, and sophistication.",
+  "restaurants": [
+    {
+      "name": "L'As du Fallafel",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A legendary falafel stand in the Marais district serving crispy, perfectly-seasoned falafels and hummus wraps since 1980.",
+      "mustTry": "Falafel wrap with tahini sauce"
+    },
+    {
+      "name": "Ladurée",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "The iconic Parisian tearoom famous for its delicate macarons and light bistro fare in an elegant Belle Époque setting.",
+      "mustTry": "Rose macaron with hot chocolate"
+    },
+    {
+      "name": "Le Comptoir Général",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual neighborhood bistro serving traditional French comfort food at reasonable prices in a cozy, locals-friendly atmosphere.",
+      "mustTry": "Beef bourguignon with red wine"
+    },
+    {
+      "name": "Alain Ducasse au Plaza Athénée",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "One of Paris's most prestigious three-Michelin-star restaurants offering haute cuisine and impeccable service in a luxurious setting.",
+      "mustTry": "Signature langoustine preparations"
+    },
+    {
+      "name": "Breizh Café",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A Breton crêperie offering authentic galettes and crêpes made with organic buckwheat flour and premium local ingredients.",
+      "mustTry": "Galette complete with ham, egg, and cheese"
+    },
+    {
+      "name": "Septime",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An innovative bistro in the 11th arrondissement celebrating seasonal ingredients with creative French-inspired dishes and natural wines.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Café de Flore",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "The legendary Saint-Germain-des-Prés café where Sartre and Hemingway once sat, offering classic French cuisine and exceptional people-watching.",
+      "mustTry": "Croque monsieur and café au lait"
+    },
+    {
+      "name": "Frenchie",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A celebrated restaurant in the Les Halles area serving refined French cuisine with American influences in an intimate setting.",
+      "mustTry": "Pork belly with spice and herbs"
+    },
+    {
+      "name": "Bouchon du 15ème",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A traditional Lyon-style bouchon restaurant serving rich, authentic Lyonnaise cuisine including andouille and quenelles.",
+      "mustTry": "Quenelles de brochet in beurre blanc"
+    },
+    {
+      "name": "Balthazar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A charming seafood brasserie in the Marais with Belle Époque decor, fresh oysters, and classic French seafood preparations.",
+      "mustTry": "Plateau de fruits de mer with mignonette"
+    },
+    {
+      "name": "Yam'Tcha",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An innovative fusion restaurant blending French technique with Asian influences, paired with exceptional tea selections.",
+      "mustTry": "Seasonal tasting menu with tea pairings"
+    },
+    {
+      "name": "Merci Bouchon",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual stand-up bistro serving quick, affordable French classics like terrines, pâtés, and sandwiches perfect for lunch.",
+      "mustTry": "Paté baguette sandwich"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Eiffel Tower Visit",
+      "category": "Outdoor",
+      "description": "Ascend the iconic iron lattice monument for panoramic views of Paris from the second or third floor, or enjoy a romantic picnic in the surrounding Champ de Mars park.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Louvre Museum",
+      "category": "Indoor",
+      "description": "Explore the world's largest art museum housing over 35,000 works including the Mona Lisa and Venus de Milo in its iconic glass pyramid building.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Seine River Cruise",
+      "category": "Outdoor",
+      "description": "Glide past illuminated landmarks and charming bridges on a scenic boat tour, available during day and enchanting evening departures.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Musée d'Orsay",
+      "category": "Indoor",
+      "description": "House in a former Beaux-Arts railway station, this museum features the world's finest Impressionist and Post-Impressionist art collections.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Montmartre Walking Tour",
+      "category": "Cultural",
+      "description": "Wander cobblestone streets, visit the white-domed Sacré-Cœur basilica, discover hidden artist studios, and experience bohemian Paris in its most charming neighborhood.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Notre-Dame Cathedral Exterior Visit",
+      "category": "Cultural",
+      "description": "Admire the stunning Gothic architecture of this 850-year-old cathedral from the forecourt and surrounding areas while respecting any access restrictions.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Versailles Palace Day Trip",
+      "category": "Outdoor",
+      "description": "Journey to the opulent royal residence with its magnificent Hall of Mirrors, extensive gardens, and fountains representing 17th-century French grandeur.",
+      "durationHours": 6,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Latin Quarter & Panthéon",
+      "category": "Cultural",
+      "description": "Explore historic student district with narrow medieval streets, the grand Panthéon monument housing France's greatest figures, and charming bookstores.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Marais District Food & Shopping Walk",
+      "category": "Outdoor",
+      "description": "Discover trendy boutiques, galleries, historic Jewish delis, and vintage shops in this vibrant neighborhood with Renaissance architecture and lively nightlife.",
+      "durationHours": 4,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Luxembourg Gardens Relaxation",
+      "category": "Outdoor",
+      "description": "Stroll through 60 acres of manicured gardens, rent a chair, sail toy boats in the fountain, or simply relax like Parisians do in this iconic urban oasis.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "French Cooking Class",
+      "category": "Indoor",
+      "description": "Learn to prepare classic French dishes from professional chefs in intimate kitchen studios, often including market visits and wine tastings.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "foodie",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Pigalle Nightlife Experience",
+      "category": "Nightlife",
+      "description": "Experience Paris's lively night scene with cocktail bars, cabarets like Moulin Rouge, intimate jazz clubs, and late-night dining in this energetic district.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Trocadéro Plaza",
+        "description": "The most iconic viewpoint for capturing the Eiffel Tower with the Parisian skyline as backdrop, especially stunning at sunrise and sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise/sunset); early morning to avoid crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Pont des Arts",
+        "description": "A pedestrian bridge offering beautiful compositions of the Seine, Louvre Museum, and surrounding architecture with excellent golden hour reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset to capture warm light on the river and buildings",
+        "category": "Architecture"
+      },
+      {
+        "name": "Montmartre Steps (Sacré-Cœur)",
+        "description": "Dramatic stairway leading to the white basilica provides layered composition opportunities with Parisian rooftops and distant city views.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon to avoid crowds and harsh midday light",
+        "category": "Street"
+      },
+      {
+        "name": "Latin Quarter Narrow Streets",
+        "description": "Medieval alleyways with charming shopfronts, gas lamps, and authentic Parisian architecture create intimate street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or late afternoon for diffused light and atmospheric shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Marais District Architecture",
+        "description": "Renaissance and Baroque facades, courtyards, and galleries provide rich architectural detail with interesting textures and historic character.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon light highlighting building details and creating dramatic shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Luxembourg Gardens Reflections",
+        "description": "The ornamental pond and surrounding palace create mirror-like reflections ideal for landscape and architectural photography with natural framing.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for still water reflections and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Île de la Cité Cathedral Views",
+        "description": "Notre-Dame's Gothic architecture rises majestically from the island, with Seine reflections and bridge compositions offering multiple perspectives.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening light from the Left Bank provides warm tones and dramatic shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Canal Saint-Martin",
+        "description": "Tree-lined waterway with locks, bridges, and local culture offers an alternative perspective of Paris with industrial charm and authentic character.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days emphasize colors and textures; late afternoon for softer light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Champs-Élysées Evening Light",
+        "description": "The famous avenue's grand perspectives and historic storefronts are perfectly captured in evening light with illuminated signage and warm tones.",
+        "difficulty": "Beginner",
+        "bestTime": "Twilight hour for balanced exposure between sky and street lights",
+        "category": "Street"
+      },
+      {
+        "name": "Versailles Palace Grounds",
+        "description": "Expansive formal gardens with geometric precision, fountains, and golden hour light create striking landscape and architectural compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning mist and golden hour provide dramatic atmospheric effects",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Trocadéro Plaza",
+      "Luxembourg Gardens",
+      "Pont des Arts"
+    ],
+    "sunsetSpots": [
+      "Montmartre Sacré-Cœur",
+      "Île de la Cité from Left Bank",
+      "Champs-Élysées"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle: Ideal for architectural compositions and expansive Eiffel Tower shots from Trocadéro",
+      "50mm prime: Perfect for intimate street photography in Montmartre and the Marais with natural perspective",
+      "70-200mm telephoto: Excellent for distant Eiffel Tower compression shots and detailed architectural elements",
+      "24-70mm standard zoom: Versatile workhorse covering most situations from street scenes to monuments"
+    ],
+    "goldenHourNotes": "Paris's architecture is transformed during golden hour with warm, honeyed light illuminating limestone facades and creating dramatic shadows in narrow streets. The Seine becomes a mirror of gold, and reflections double the visual impact. Sunrise offers softer, cooler tones over fewer crowds, while sunset provides warmer amber tones with more atmospheric haze. Plan to be at Trocadéro or the Latin Quarter 30 minutes before sunset for optimal lighting conditions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 3,
+        "rainfallMM": 53
+      },
+      {
+        "month": 2,
+        "avgTempC": 4,
+        "rainfallMM": 41
+      },
+      {
+        "month": 3,
+        "avgTempC": 8,
+        "rainfallMM": 46
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 46
+      },
+      {
+        "month": 5,
+        "avgTempC": 16,
+        "rainfallMM": 55
+      },
+      {
+        "month": 6,
+        "avgTempC": 19,
+        "rainfallMM": 49
+      },
+      {
+        "month": 7,
+        "avgTempC": 21,
+        "rainfallMM": 43
+      },
+      {
+        "month": 8,
+        "avgTempC": 21,
+        "rainfallMM": 46
+      },
+      {
+        "month": 9,
+        "avgTempC": 17,
+        "rainfallMM": 44
+      },
+      {
+        "month": 10,
+        "avgTempC": 12,
+        "rainfallMM": 50
+      },
+      {
+        "month": 11,
+        "avgTempC": 8,
+        "rainfallMM": 60
+      },
+      {
+        "month": 12,
+        "avgTempC": 4,
+        "rainfallMM": 56
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and autumn (September-October) offer perfect weather with mild temperatures and fewer crowds. Summer (June-August) brings warmth but peak tourism and occasional rain, while winter (November-March) is cold and wet, though fewer visitors enjoy budget accommodations and magical holiday decorations.",
+    "summary": "Paris experiences a temperate oceanic climate with cool winters averaging 3-4°C and mild summers around 19-21°C. Rain is distributed throughout the year, with no truly dry season, making compact umbrellas and layered clothing essential year-round."
+  },
+  "hotels": [
+    {
+      "name": "Les Piaules",
+      "neighborhood": "Belleville",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "A trendy hostel offering private rooms and dorms with rooftop bar views of Paris, located in the bohemian Belleville district near galleries and street art."
+    },
+    {
+      "name": "Hotel Le Marais",
+      "neighborhood": "Marais",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "A charming 3-star hotel in the heart of the historic Marais with exposed beams, proximity to shops and restaurants, and authentic Parisian character."
+    },
+    {
+      "name": "Ritz Paris",
+      "neighborhood": "Vendôme",
+      "pricePerNightUSD": 650,
+      "category": "Luxury",
+      "description": "An iconic palace hotel offering unparalleled luxury with legendary service, fine dining restaurants, spa facilities, and timeless elegance on Place Vendôme."
+    }
+  ]
+}

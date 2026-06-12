@@ -1,0 +1,459 @@
+{
+  "id": "honolulu-usa",
+  "city": "Honolulu",
+  "country": "USA",
+  "region": "Pacific Islands",
+  "airportCodes": [
+    "HNL",
+    "OGG",
+    "KOA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 85,
+    "photography": 90,
+    "activities": 88,
+    "weather": 92
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 400
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 400,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Honolulu beach sunset",
+  "summary": "Honolulu, Hawaii's vibrant capital, offers world-class beaches, rich Hawaiian culture, and stunning volcanic landscapes that make it an ideal tropical destination. From iconic Waikiki Beach to the historic Pearl Harbor, visitors experience the perfect blend of outdoor adventure, cultural immersion, and Pacific island relaxation.",
+  "restaurants": [
+    {
+      "name": "Leonard's Bakery",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Famous institution serving malasadas (Portuguese fried doughnuts) since 1952, offering both classic and filled varieties that locals line up for daily.",
+      "mustTry": "Lilikoi malasada"
+    },
+    {
+      "name": "Giovanni's Shrimp Truck",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic food truck near Laie serving garlic butter shrimp that has become synonymous with North Shore dining, casual and delicious.",
+      "mustTry": "Garlic butter shrimp"
+    },
+    {
+      "name": "Duke's Waikiki",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront restaurant honoring legendary surfer Duke Kahanamoku with Hawaiian-inspired cuisine, fresh seafood, and relaxed island atmosphere.",
+      "mustTry": "Fish tacos"
+    },
+    {
+      "name": "La Mer",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant French restaurant at Halekulani Hotel overlooking Waikiki Beach, offering refined Pacific Rim cuisine with exceptional ocean views.",
+      "mustTry": "Opakapaka with vanilla sauce"
+    },
+    {
+      "name": "Marukame Udon",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Osaka-style udon noodle shop with warm broth and handmade noodles, extremely affordable and consistently excellent.",
+      "mustTry": "Kake udon"
+    },
+    {
+      "name": "The Pig and The Lady",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vietnamese restaurant in Chinatown with creative takes on traditional dishes, vibrant atmosphere, and reasonable prices for quality food.",
+      "mustTry": "Banh mi sandwich"
+    },
+    {
+      "name": "Orchids",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant at Halekulani with oceanfront dining, French-Hawaiian fusion cuisine, and impeccable service."
+    },
+    {
+      "name": "Koko Head Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual breakfast and lunch spot known for generous portions of comfort food, local favorites, and strong coffee at wallet-friendly prices.",
+      "mustTry": "Loco moco"
+    },
+    {
+      "name": "Alan Wong's",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Hawaiian cuisine restaurant pioneering local farm-to-table dining with seasonal menus and creative presentations.",
+      "mustTry": "Ahi-wrapped opah"
+    },
+    {
+      "name": "Wailulu",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Pan-Asian restaurant with focus on quality ingredients and modern preparation, located in vibrant Ala Moana district.",
+      "mustTry": "Miso black cod"
+    },
+    {
+      "name": "Ono Seafood",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Working fish market and casual restaurant in Chinatown where you can eat ultra-fresh poke bowls prepared from daily catch.",
+      "mustTry": "Ahi poke bowl"
+    },
+    {
+      "name": "Mizuki",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Japanese spot in Kaimuki serving ramen and donburi bowls with quality broth and fresh ingredients in relaxed neighborhood setting."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkel at Hanauma Bay",
+      "category": "Outdoor",
+      "description": "Protected marine sanctuary filled with colorful tropical fish and sea turtles, one of Hawaii's most accessible snorkeling spots with limited daily entry.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Pearl Harbor Historic Tour",
+      "category": "Cultural",
+      "description": "Guided tour of the USS Arizona Memorial and battleship museums with deep historical significance and mandatory reservations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Diamond Head Hike",
+      "category": "Outdoor",
+      "description": "Iconic 1.4-mile trail to the summit with 560-foot elevation gain offering panoramic views of Waikiki and the Pacific Ocean.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Waikiki Beach Day",
+      "category": "Relaxation",
+      "description": "Legendary beach perfect for swimming, surfing lessons, paddleboarding, and people-watching with excellent facilities and amenities.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Manoa Falls Hike",
+      "category": "Outdoor",
+      "description": "Lush 1.6-mile rainforest trail leading to a 150-foot waterfall, offering misty jungle scenery and peaceful natural escape.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Hawaiian Cultural Center Experience",
+      "category": "Cultural",
+      "description": "Immersive demonstrations of traditional Hawaiian crafts, hula dancing, lei-making, and cultural practices with knowledgeable practitioners.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Surfing Lessons at Waikiki",
+      "category": "Adventure",
+      "description": "Professional instruction on the gentle waves of Waikiki Beach for beginners through intermediates with equipment rental included.",
+      "durationHours": 2,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Chinatown Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized exploration of historic Chinatown with its markets, temples, galleries, restaurants, and authentic street atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "foodie",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Outrigger Canoe Experience",
+      "category": "Adventure",
+      "description": "Traditional Hawaiian double-hulled canoe paddling on calm Waikiki waters with cultural education and ocean connection.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Iolani Palace Tour",
+      "category": "Cultural",
+      "description": "Historic royal palace offering guided tours through lavish rooms with Hawaiian history and monarchy artifacts displayed authentically.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Relaxation",
+      "description": "Evening boat tour along Waikiki coast with snacks, drinks, and panoramic sunset views over the Pacific Ocean.",
+      "durationHours": 2,
+      "estimatedCostUSD": 70,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Honolulu Museum of Art Visit",
+      "category": "Indoor",
+      "description": "World-class art collection featuring Hawaiian, Asian, and contemporary works in an accessible downtown Honolulu location.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Diamond Head Summit",
+        "description": "Panoramic views of Waikiki, surrounding coastline, and volcanic landscape, especially stunning during sunrise or sunset.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Manoa Falls",
+        "description": "Misty rainforest waterfall with lush green vegetation creating dramatic atmospheric photography conditions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before mist clears",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hanauma Bay",
+        "description": "Crystal-clear turquoise waters with snorkelers and tropical fish visible from shore, offering vibrant underwater colors.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for clear water and light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Waikiki Beach Street Level",
+        "description": "Iconic beach with surfers, outrigger canoes, and mountain backdrop creating classic Hawaiian tourism imagery.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Ala Moana Shopping Center Sunset Lookout",
+        "description": "Urban sunset view with colorful sky reflection on water and city lights beginning to twinkle.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour before sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Koko Head Trail Vista",
+        "description": "Dramatic coastal views of windward Oahu with steep green cliffs and turquoise ocean below.",
+        "difficulty": "Advanced",
+        "bestTime": "Mid-morning with clear visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Honolulu Harbor",
+        "description": "Working harbor with boats, waterfront buildings, and historical naval vessels creating layered composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chinatown Street Market",
+        "description": "Vibrant street scenes with colorful vendors, fresh produce, and authentic cultural atmosphere.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning during active market hours",
+        "category": "Street"
+      },
+      {
+        "name": "Punchbowl Crater Rim",
+        "description": "Historic volcanic crater with cemetery and panoramic city and ocean views from elevated perspective.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Foster Botanical Garden",
+        "description": "Lush tropical garden with exotic plants, flowers, and dappled light creating colorful botanical photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning after dew dries",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Diamond Head Summit",
+      "Koko Head Trail",
+      "Makapu'u Lookout"
+    ],
+    "sunsetSpots": [
+      "Tantalus Drive Overlook",
+      "Ala Moana Regional Park",
+      "Waikiki Beach Pier"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape sweeps and Diamond Head vistas",
+      "50-85mm telephoto for beach compression and wildlife detail",
+      "24-70mm versatile zoom for street photography and cultural documentation",
+      "Macro 100mm for botanical gardens and detailed cultural elements"
+    ],
+    "goldenHourNotes": "Honolulu's consistent tropical light provides excellent golden hour conditions year-round with minimal atmospheric haze. The hour before sunset creates warm amber tones reflecting off ocean waters and urban architecture. Early morning light is particularly clear during trade wind season (June-September) when visibility extends to neighboring islands.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 23,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 23,
+        "rainfallMM": 61
+      },
+      {
+        "month": 3,
+        "avgTempC": 24,
+        "rainfallMM": 51
+      },
+      {
+        "month": 4,
+        "avgTempC": 25,
+        "rainfallMM": 41
+      },
+      {
+        "month": 5,
+        "avgTempC": 26,
+        "rainfallMM": 25
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 25
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 31
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 28
+      },
+      {
+        "month": 9,
+        "avgTempC": 28,
+        "rainfallMM": 36
+      },
+      {
+        "month": 10,
+        "avgTempC": 27,
+        "rainfallMM": 53
+      },
+      {
+        "month": 11,
+        "avgTempC": 26,
+        "rainfallMM": 74
+      },
+      {
+        "month": 12,
+        "avgTempC": 24,
+        "rainfallMM": 89
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Honolulu experiences mild weather year-round with warmer, drier summers (May-September) and cooler, wetter winters (November-February). The trade winds moderate temperatures and provide relief from tropical heat.",
+    "summary": "Expect consistent warm temperatures ranging from 23-28°C (73-82°F) throughout the year with minimal seasonal variation. Rainfall is light and scattered, concentrated primarily in winter months, making Honolulu suitable for beach activities virtually year-round."
+  },
+  "hotels": [
+    {
+      "name": "Hostelling International Honolulu",
+      "neighborhood": "Waikiki",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Clean budget hostel with dorm beds and private rooms near Waikiki Beach, offering kitchen facilities and social atmosphere."
+    },
+    {
+      "name": "Outrigger Reef Waikiki Beach Resort",
+      "neighborhood": "Waikiki",
+      "pricePerNightUSD": 250,
+      "category": "Mid-range",
+      "description": "Beachfront hotel with direct ocean access, modern rooms, multiple pools, and dining options in the heart of Waikiki."
+    },
+    {
+      "name": "Halekulani Hotel",
+      "neighborhood": "Waikiki",
+      "pricePerNightUSD": 600,
+      "category": "Luxury",
+      "description": "Ultra-luxury oceanfront property with white-sand beach, Michelin-recommended restaurants, spa, and impeccable service standards."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1716514603277-af97dea326a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxIb25vbHVsdSUyMGJlYWNoJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODEzMDMwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

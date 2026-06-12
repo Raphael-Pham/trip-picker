@@ -1,0 +1,460 @@
+{
+  "id": "richmond-usa",
+  "city": "Richmond",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "RIC",
+    "IAD",
+    "DCA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 82,
+    "activities": 80,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Richmond Virginia river skyline",
+  "summary": "Richmond, Virginia's historic capital blends Civil War heritage with vibrant contemporary culture, offering stunning riverside vistas, world-class museums, and a thriving foodie scene. The city combines architectural beauty with outdoor recreation along the James River, making it ideal for history enthusiasts, photographers, and adventure seekers alike.",
+  "restaurants": [
+    {
+      "name": "Bamboo Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Vietnamese pho and banh mi served in a casual setting. Quick, affordable, and consistently excellent for a quick lunch.",
+      "mustTry": "Beef Pho with extra basil"
+    },
+    {
+      "name": "The Boathouse at Sunday in the Park",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront dining on the James River with views of the historic pipeline bridge. Serves American comfort food with seasonal specials.",
+      "mustTry": "Pan-seared scallops"
+    },
+    {
+      "name": "L'Homage",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary French cuisine in an intimate setting showcasing local Virginia ingredients. Award-winning chef creates seasonal tasting menus.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Sub Rosa Bakery",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Artisanal wood-fired bakery producing hand-crafted breads and pastries daily. A local favorite for breakfast and lunch.",
+      "mustTry": "Sourdough loaf with coffee"
+    },
+    {
+      "name": "Mama Zu",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian restaurant in Manchester neighborhood offering homemade pasta and traditional dishes. Warm atmosphere with excellent service.",
+      "mustTry": "Handmade pappardelle with wild boar ragù"
+    },
+    {
+      "name": "Edo's Squid",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mediterranean seafood restaurant emphasizing fresh catch and vegetable-forward sides. Located in the Fan district with stylish ambiance.",
+      "mustTry": "Whole roasted fish with charred vegetables"
+    },
+    {
+      "name": "Tarrant's Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic lunch counter and local institution since 1939 serving classic American diner fare. Perfect for vintage ambiance and affordable meals.",
+      "mustTry": "Turkey sandwich with vintage decor experience"
+    },
+    {
+      "name": "The Roosevelt",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "New American cuisine with a focus on locally-sourced ingredients and innovative preparations. Elegant dining in downtown Richmond.",
+      "mustTry": "Duck breast with seasonal accompaniments"
+    },
+    {
+      "name": "Cabbage Hill Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant in the Fan emphasizing Virginia produce and meats. Cozy neighborhood spot with rotating seasonal menus.",
+      "mustTry": "Grass-fed beef burger with local cheese"
+    },
+    {
+      "name": "Citizen",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Counter-service lunch spot featuring gourmet sandwiches and salads made fresh daily. Perfect for a quick but elevated meal.",
+      "mustTry": "Roasted vegetable and goat cheese sandwich"
+    },
+    {
+      "name": "Peter Chang's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Sichuan Chinese cuisine with bold flavors and traditional recipes. Known for heat levels that range from mild to extremely spicy.",
+      "mustTry": "Chongqing chicken (La Zi Ji)"
+    },
+    {
+      "name": "Bamboo Green",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Asian fusion restaurant blending Vietnamese and American influences with creative cocktails. Vibrant atmosphere in a historic building.",
+      "mustTry": "Vietnamese caramel chicken with creative cocktail pairing"
+    }
+  ],
+  "activities": [
+    {
+      "name": "James River Park System",
+      "category": "Outdoor",
+      "description": "Multi-mile trail system following the James River with beautiful rapids, islands, and scenic viewpoints. Perfect for jogging, walking, or cycling.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Virginia Museum of History & Culture",
+      "category": "Cultural",
+      "description": "Comprehensive museum documenting Virginia's complex history from indigenous peoples through modern times. Multiple galleries and changing exhibits.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "St. John's Church",
+      "category": "Cultural",
+      "description": "Historic 1741 church where Patrick Henry gave his famous 'Give me liberty or give me death' speech. Active historic site with guided tours available.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "The Valentine Museum",
+      "category": "Cultural",
+      "description": "Museum dedicated to Richmond's urban history with interactive exhibits and extensive costume collection. Located in beautiful historic building.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Canal Walk",
+      "category": "Outdoor",
+      "description": "Scenic 1.25-mile paved path along historic canal with historic locks, interpretive signage, and river views. Easy walk suitable for all ages.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking the James River",
+      "category": "Adventure",
+      "description": "Guided or self-guided kayaking trips through Class I-III rapids with stunning scenery. Multiple outfitters offering equipment rental and tours.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Institute for Contemporary Art",
+      "category": "Indoor",
+      "description": "Free contemporary art museum with stunning architecture, rotating exhibitions, and thought-provoking installations. Architecture itself is a masterpiece.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Hollywood Cemetery Tour",
+      "category": "Cultural",
+      "description": "Historic cemetery overlooking James River containing graves of two U.S. Presidents and Confederate generals. Guided tours available with scenic views.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Science Museum of Virginia",
+      "category": "Family",
+      "description": "Interactive science museum in historic Broad Street Station with IMAX theater, planetarium, and hands-on exhibits. Great for all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Walking Food Tour of Carytown",
+      "category": "Foodie",
+      "description": "Curated walking tour through eclectic shopping district with tastings at local restaurants and shops. Learn Richmond's food culture while exploring neighborhoods.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Live Music at The National",
+      "category": "Nightlife",
+      "description": "Historic concert venue hosting local and touring artists across all genres. Beautiful 1923 theater building with excellent acoustics.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Rockwood Park Natural Area",
+      "category": "Outdoor",
+      "description": "Wooded park with hiking trails, pond, and diverse wildlife habitat. Peaceful escape just minutes from downtown Richmond.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Lee Bridge at Sunset",
+        "description": "Iconic pedestrian bridge spanning James River with downtown skyline reflection and dramatic golden hour lighting.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, 30 minutes before sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Canal Walk Lock Gates",
+        "description": "Historic canal lock system with layered textures, water reflections, and architectural detail perfect for composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light or overcast days",
+        "category": "Architecture"
+      },
+      {
+        "name": "Monument Avenue",
+        "description": "Tree-lined avenue with statue circles, historic mansions, and dramatic perspective creating powerful compositional lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light filtering through trees",
+        "category": "Street"
+      },
+      {
+        "name": "Manchester Skyline from Belle Isle",
+        "description": "Stunning riverside views of downtown Richmond reflecting in water with forested island foreground.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour, especially sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hollywood Cemetery Overlook",
+        "description": "Elevated viewpoint overlooking James River bend with historic monuments, tombstones, and river meanders in composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon light for dimensional shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Main Street Station",
+        "description": "Historic 1901 Romanesque Revival station building with intricate architecture, ironwork, and dramatic interior barrel vault ceiling.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for even lighting of facade",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fan District Streets",
+        "description": "Victorian and Edwardian row houses creating rhythmic patterns and historic urban landscape perfect for street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour with directional side-lighting",
+        "category": "Street"
+      },
+      {
+        "name": "James River Rapids from Belle Isle",
+        "description": "Dramatic whitewater and rocky terrain with dynamic water movement and natural landscape elements.",
+        "difficulty": "Advanced",
+        "bestTime": "Overcast days for water texture detail",
+        "category": "Landscape"
+      },
+      {
+        "name": "Institute for Contemporary Art Facade",
+        "description": "Modern architectural marvel with angular glass and metal facade creating striking geometric patterns and reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon for angular shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Jeff Davis Statue and Trees at Dusk",
+        "description": "Silhouetted monument surrounded by ancient oaks with dramatic evening sky creating moody atmospheric composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour, 20-30 minutes after sunset",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Belle Isle Park overlooking Manchester rapids",
+      "Hollywood Cemetery overlooking James River bend",
+      "Canal Walk near Bowens Island Lock"
+    ],
+    "sunsetSpots": [
+      "Lee Bridge pedestrian walkway",
+      "Monument Avenue oaks with golden light",
+      "Maymont Park western overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for architecture and expansive river landscapes",
+      "50mm prime for street photography and intimate cultural scenes",
+      "70-200mm telephoto for compressed perspectives of river rapids and monuments",
+      "Macro lens for detail work on historic stonework and natural textures"
+    ],
+    "goldenHourNotes": "Richmond's James River location and tree-lined streets create spectacular golden hour opportunities. The window between sunset and blue hour lasts approximately 40 minutes, ideal for capturing both warm light and dramatic sky colors. Lee Bridge and Monument Avenue are best at golden hour, while Belle Isle captures both sunrise and sunset beautifully with water reflections.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 2,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 4,
+        "rainfallMM": 71
+      },
+      {
+        "month": 3,
+        "avgTempC": 10,
+        "rainfallMM": 81
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 84
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 107
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 122
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 107
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 91
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 81
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 84
+      },
+      {
+        "month": 12,
+        "avgTempC": 4,
+        "rainfallMM": 84
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and Fall (September-October) offer ideal temperatures, vibrant colors, and comfortable outdoor conditions. Summer is hot and humid with frequent thunderstorms, while winter is cold with occasional snow.",
+    "summary": "Richmond experiences a humid subtropical climate with four distinct seasons. The best time to visit is spring and fall when temperatures are mild (16-23°C) and outdoor activities are most enjoyable."
+  },
+  "hotels": [
+    {
+      "name": "Quirk Hotel",
+      "neighborhood": "Manchester",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Eclectic boutique hotel in artsy Manchester neighborhood with colorful decor, quirky charm, and locally-inspired design."
+    },
+    {
+      "name": "The Jefferson Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Historic 1895 hotel on Monument Avenue combining classic elegance with modern amenities and Southern hospitality."
+    },
+    {
+      "name": "The Boathouse at Sunday in the Park",
+      "neighborhood": "James River Waterfront",
+      "pricePerNightUSD": 350,
+      "category": "Luxury",
+      "description": "Exclusive riverside resort with waterfront suites, fine dining, spa services, and direct access to James River activities."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1605202764282-89f3fbce5c16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxSaWNobW9uZCUyMFZpcmdpbmlhJTIwcml2ZXIlMjBza3lsaW5lfGVufDF8MHx8fDE3ODEzMDMyODV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

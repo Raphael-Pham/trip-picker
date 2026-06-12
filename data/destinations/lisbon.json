@@ -1,0 +1,89 @@
+{
+  "id": "lisbon",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Europe",
+  "airportCodes": ["LIS"],
+  "hiddenGem": false,
+  "tripStyles": ["standard", "foodie", "photography", "relaxation"],
+  "scores": { "cost": 78, "food": 82, "photography": 85, "activities": 75, "weather": 88 },
+  "budgetRanges": [
+    { "level": "budget", "minPerDayUSD": 50, "maxPerDayUSD": 90 },
+    { "level": "mid", "minPerDayUSD": 90, "maxPerDayUSD": 180 },
+    { "level": "luxury", "minPerDayUSD": 180, "maxPerDayUSD": 400 }
+  ],
+  "unsplashQuery": "Lisbon Portugal tram hills",
+  "heroImageUrl": "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=1600&q=80",
+  "summary": "Sun-soaked hillside city with pastel facades, outstanding seafood, and a melancholic soul — Europe's best value capital.",
+  "restaurants": [
+    { "name": "Belcanto", "category": "Fine Dining", "priceRange": "$$$$", "description": "Two Michelin-star restaurant by chef José Avillez. Modern Portuguese cuisine at its peak.", "mustTry": "Garden of the Goose" },
+    { "name": "Tasca do Chico", "category": "Local Specialty", "priceRange": "$$", "description": "Tiny fado restaurant in Bairro Alto — live fado music, petiscos and natural wine.", "mustTry": "Bacalhau à Brás" },
+    { "name": "Time Out Market", "category": "Budget", "priceRange": "$", "description": "Curated market hall with the city's best chefs under one roof — outstanding for solo diners.", "mustTry": "Pastéis de nata from Aloma" },
+    { "name": "Solar dos Presuntos", "category": "Midrange", "priceRange": "$$", "description": "Old-school taberna beloved by politicians and bullfighters since 1976.", "mustTry": "Arroz de pato" },
+    { "name": "A Cevicheria", "category": "Midrange", "priceRange": "$$$", "description": "Chef Kiko's playful take on Peruvian-Portuguese fusion under a giant octopus sculpture.", "mustTry": "Tiger's milk ceviche" },
+    { "name": "Taberna da Rua das Flores", "category": "Local Specialty", "priceRange": "$$", "description": "No menu — the waiter recites the day's catch. Come hungry and adventurous.", "mustTry": "Daily grilled fish" },
+    { "name": "Restaurante Vicente", "category": "Midrange", "priceRange": "$$", "description": "Alentejo wine estate's Lisbon outpost — exceptional charcuterie and slow-roasted meats.", "mustTry": "Black pork secreto" },
+    { "name": "Pastéis de Belém", "category": "Local Specialty", "priceRange": "$", "description": "The original custard tart since 1837. Queue at 7 AM; still fresh every 20 minutes.", "mustTry": "Pastel de Belém with cinnamon" },
+    { "name": "Zé da Mouraria", "category": "Budget", "priceRange": "$", "description": "Worker's taberna in the Mouraria — enormous portions, surly waiters, perfect bifanas.", "mustTry": "Prego sandwich" },
+    { "name": "Casa de Pasto", "category": "Midrange", "priceRange": "$$", "description": "Modern petiscos in a gorgeous azulejo-tiled room in Príncipe Real.", "mustTry": "Smoked salmon tartare" },
+    { "name": "Guilty by Olivier", "category": "Fine Dining", "priceRange": "$$$", "description": "Upscale burgers and cocktails from Michelin-starred chef Olivier da Costa.", "mustTry": "Black truffle burger" },
+    { "name": "Cervejaria Ramiro", "category": "Midrange", "priceRange": "$$", "description": "No-frills seafood palace open since 1956 — pile on the gambas and percebes.", "mustTry": "Whole grilled tiger prawns" }
+  ],
+  "activities": [
+    { "name": "Tram 28 Ride", "category": "Cultural", "description": "Rattle through Alfama and Graça on Lisbon's iconic yellow tram — buy ticket on board.", "durationHours": 1, "estimatedCostUSD": 3, "bestFor": ["photography", "standard"] },
+    { "name": "Alfama Fado Walking Tour", "category": "Cultural", "description": "Evening guided walk ending in a traditional fado restaurant with dinner.", "durationHours": 4, "estimatedCostUSD": 55, "bestFor": ["foodie", "standard"] },
+    { "name": "Sintra Day Trip", "category": "Outdoor", "description": "UNESCO village of palaces in the hills — Pena Palace and Quinta da Regaleira are unmissable.", "durationHours": 8, "estimatedCostUSD": 35, "bestFor": ["photography", "adventure"] },
+    { "name": "Belém Tower & Jerónimos", "category": "Cultural", "description": "Manueline masterpieces at the mouth of the Tagus — UNESCO heritage.", "durationHours": 3, "estimatedCostUSD": 12, "bestFor": ["photography", "standard"] },
+    { "name": "Cascais Coastal Walk", "category": "Outdoor", "description": "Cycle or walk the 8 km seafront promenade from Estoril to Cascais.", "durationHours": 4, "estimatedCostUSD": 15, "bestFor": ["relaxation", "adventure"] },
+    { "name": "LX Factory Sunday Market", "category": "Indoor", "description": "Hip market in a repurposed textile factory — books, vintage, and street food.", "durationHours": 3, "estimatedCostUSD": 0, "bestFor": ["photography", "foodie"] },
+    { "name": "Miradouro da Graça Sunset", "category": "Outdoor", "description": "Best free sunset viewpoint — locals bring wine and cheese, tourists arrive late.", "durationHours": 1, "estimatedCostUSD": 0, "bestFor": ["photography", "relaxation"] },
+    { "name": "MAAT Museum", "category": "Indoor", "description": "Museum of Art, Architecture and Technology on the riverfront — stunning building.", "durationHours": 2, "estimatedCostUSD": 12, "bestFor": ["photography", "standard"] },
+    { "name": "Surf Lesson at Cascais", "category": "Outdoor", "description": "Atlantic swells make Lisbon's coast Europe's surf capital. Beginners welcome.", "durationHours": 3, "estimatedCostUSD": 50, "bestFor": ["adventure", "relaxation"] },
+    { "name": "Azulejo Painting Workshop", "category": "Indoor", "description": "Paint your own traditional blue tile at a local studio in Alfama.", "durationHours": 2, "estimatedCostUSD": 40, "bestFor": ["standard"] },
+    { "name": "Wine Tasting in Príncipe Real", "category": "Indoor", "description": "Natural wine bar crawl through Lisbon's most fashionable neighbourhood.", "durationHours": 3, "estimatedCostUSD": 40, "bestFor": ["foodie", "relaxation"] },
+    { "name": "Arrábida Natural Park", "category": "Outdoor", "description": "Turquoise coves and white cliffs 40 km south of Lisbon — bring a picnic.", "durationHours": 8, "estimatedCostUSD": 25, "bestFor": ["photography", "adventure"] }
+  ],
+  "photography": {
+    "spots": [
+      { "name": "Miradouro da Graça", "description": "Locals' favourite viewpoint with terracotta rooflines and the castle.", "difficulty": "Beginner", "bestTime": "Sunset", "category": "Landscape" },
+      { "name": "Rua Agosta Rosa, Alfama", "description": "Laundry-strewn alley with azulejo tiles and fado-house doorways.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Street" },
+      { "name": "Tram 28 on Rua da Graca", "description": "Catch the yellow tram cresting the hill — use a 70-200mm from distance.", "difficulty": "Intermediate", "bestTime": "Golden hour", "category": "Street" },
+      { "name": "Belém Tower from the River", "description": "Hire a kayak or take the ferry for a clean riverside composition.", "difficulty": "Intermediate", "bestTime": "Morning", "category": "Architecture" },
+      { "name": "Pena Palace, Sintra", "description": "Colourful Romanticist palace emerging from misty forest — ethereal at dawn.", "difficulty": "Beginner", "bestTime": "Dawn", "category": "Architecture" },
+      { "name": "LX Factory Murals", "description": "Ever-changing street art on derelict factory walls — new murals every season.", "difficulty": "Beginner", "bestTime": "Midday (even light)", "category": "Street" },
+      { "name": "Chiado from Rua Serpa Pinto", "description": "Classic uphill view of church facades and wrought-iron balconies.", "difficulty": "Beginner", "bestTime": "Late afternoon", "category": "Architecture" },
+      { "name": "Arrábida Limestone Cliffs", "description": "Drone-perfect white cliffs over Caribbean-blue water. Check regulations.", "difficulty": "Advanced", "bestTime": "Midday", "category": "Landscape" },
+      { "name": "Mercado da Ribeira Interior", "description": "Arched iron structure with perfect symmetry — wide angle essential.", "difficulty": "Beginner", "bestTime": "Early morning", "category": "Architecture" },
+      { "name": "Santa Luzia Viewpoint Tiles", "description": "Panoramic azulejo murals depicting old Lisbon — irresistible detail shots.", "difficulty": "Beginner", "bestTime": "Any", "category": "Architecture" }
+    ],
+    "sunriseSpots": ["Castelo de São Jorge walls", "Miradouro da Senhora do Monte", "Tagus riverfront Cais do Sodré"],
+    "sunsetSpots": ["Miradouro da Graça", "Portas do Sol viewpoint", "Ponte 25 de Abril (from Cristo Rei)"],
+    "lensRecommendations": ["35mm f/1.8 (Alfama street walk)", "24mm (tile murals and tight alleys)", "70-200mm (tram in motion)", "50mm f/1.4 (fado restaurant low-light)"],
+    "goldenHourNotes": "Lisbon faces west — the light hits the hilltop miradouros beautifully every evening. Morning fog sometimes clings to the valleys between the seven hills, creating layered cityscape shots.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      { "month": 1, "avgTempC": 12, "rainfallMM": 111 },
+      { "month": 2, "avgTempC": 13, "rainfallMM": 86 },
+      { "month": 3, "avgTempC": 15, "rainfallMM": 69 },
+      { "month": 4, "avgTempC": 17, "rainfallMM": 54 },
+      { "month": 5, "avgTempC": 20, "rainfallMM": 39 },
+      { "month": 6, "avgTempC": 24, "rainfallMM": 16 },
+      { "month": 7, "avgTempC": 27, "rainfallMM": 3 },
+      { "month": 8, "avgTempC": 28, "rainfallMM": 4 },
+      { "month": 9, "avgTempC": 25, "rainfallMM": 33 },
+      { "month": 10, "avgTempC": 20, "rainfallMM": 80 },
+      { "month": 11, "avgTempC": 15, "rainfallMM": 114 },
+      { "month": 12, "avgTempC": 12, "rainfallMM": 103 }
+    ],
+    "bestMonths": [4, 5, 6, 9, 10],
+    "seasonality": "Spring and early autumn are ideal — warm, uncrowded, and great light. July–August is peak season with 30°C+ heat and long queues. Winter is mild but rainy.",
+    "summary": "One of Europe's sunniest capitals. Mild winters, warm and dry summers. Best visited April–June or September–October."
+  },
+  "hotels": [
+    { "name": "Bairro Alto Hotel", "neighborhood": "Chiado", "pricePerNightUSD": 420, "category": "Luxury", "description": "Lisbon's most prestigious address — rooftop bar with 360° city views." },
+    { "name": "The Lumiares Hotel", "neighborhood": "Bairro Alto", "pricePerNightUSD": 200, "category": "Mid-range", "description": "Converted 18th-century palace with apartment-style suites and a rooftop pool." },
+    { "name": "Home Lisbon Hostel", "neighborhood": "Rossio", "pricePerNightUSD": 25, "category": "Budget", "description": "Award-winning hostel in the heart of the city — legendary communal dinners." }
+  ]
+}

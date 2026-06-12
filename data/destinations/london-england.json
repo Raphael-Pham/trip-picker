@@ -1,0 +1,461 @@
+{
+  "id": "london-england",
+  "city": "London",
+  "country": "England",
+  "region": "Europe",
+  "airportCodes": [
+    "LHR",
+    "LGW",
+    "STN"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 92,
+    "photography": 95,
+    "activities": 98,
+    "weather": 55
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "London Big Ben sunset",
+  "summary": "London is a dynamic global metropolis blending centuries of history with cutting-edge culture, world-class museums, and exceptional dining. From iconic landmarks like Big Ben and Tower Bridge to hidden Georgian streets and vibrant neighborhoods, the city offers endless exploration for every traveler. Its diverse food scene, top-tier theater, and rich artistic heritage make it one of Europe's most captivating destinations.",
+  "restaurants": [
+    {
+      "name": "Poppies Fish & Chips",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Classic British fish and chips with crispy battered cod and hand-cut chips in a retro-style shop. A quintessential London experience in Spitalfields.",
+      "mustTry": "Beer-battered cod with mushy peas"
+    },
+    {
+      "name": "Dishoom",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Outstanding Indian cuisine inspired by Bombay's street food and Parsi traditions. The lamb keema and black dhal are exceptional with warm naan fresh from the tandoor.",
+      "mustTry": "Lamb keema with naan"
+    },
+    {
+      "name": "Borough Market Food Stalls",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Legendary food market offering global street food from sourdough to Thai curries and Italian pasta. Perfect for budget-conscious travelers seeking authentic flavors.",
+      "mustTry": "Portuguese grilled chicken or Japanese okonomiyaki"
+    },
+    {
+      "name": "The Ledbury",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant led by chef Brett Graham featuring creative British cuisine with impeccable technique. The tasting menu showcases seasonal ingredients in innovative dishes.",
+      "mustTry": "Grilled langoustine or roasted partridge"
+    },
+    {
+      "name": "Padella",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Minimalist Italian pasta restaurant producing fresh handmade pasta daily. The cacio e pepe and mafaldini are heavenly, served with quality wine.",
+      "mustTry": "Cacio e pepe pasta"
+    },
+    {
+      "name": "Lucky Chip Burger",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Acclaimed street food burger stand creating juicy, creative burgers with premium beef and inventive toppings. Queue early for limited daily batches.",
+      "mustTry": "Signature Lucky Chip burger"
+    },
+    {
+      "name": "Sketch",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Whimsical three-Michelin-starred restaurant by Pierre Gagnaire with avant-garde French cuisine and enchanting gallery-like décor. An unforgettable theatrical dining experience.",
+      "mustTry": "Tasting menu with artistic presentations"
+    },
+    {
+      "name": "Barrafina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant offering pintxos and shared plates with excellent jamón ibérico and seafood. Counter seating creates an intimate, authentic atmosphere.",
+      "mustTry": "Jamón ibérico with pan con tomate"
+    },
+    {
+      "name": "Thai Stick",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Thai street food vendor serving fragrant pad thai and grilled chicken skewers from a simple stall. Genuine flavors at bargain prices.",
+      "mustTry": "Grilled chicken satay skewers"
+    },
+    {
+      "name": "Cote Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "French-style steakhouse with aged cuts of British beef cooked to perfection, served with proper french fries and béarnaise. Professional but relaxed atmosphere.",
+      "mustTry": "Cote de boeuf or ribeye steak"
+    },
+    {
+      "name": "Chinoiserie",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Chinese restaurant with refined dishes honoring regional Chinese cuisine traditions. Sophisticated dim sum and elevated Sichuan flavors.",
+      "mustTry": "Peking duck or hand-pulled noodles"
+    },
+    {
+      "name": "Breakfast Club",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual all-day brunch spot with generous portions of eggs, pancakes, and creative breakfast plates. Colorful décor and friendly vibe perfect for mornings.",
+      "mustTry": "Loaded pancakes or smashed avocado toast"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Tower of London & Crown Jewels",
+      "category": "Cultural",
+      "description": "UNESCO World Heritage fortress housing the British Crown Jewels, exhibiting 1000 years of royal history and artifacts. Beefeater tours provide fascinating historical context.",
+      "durationHours": 3,
+      "estimatedCostUSD": 32,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Westminster Abbey & Houses of Parliament",
+      "category": "Cultural",
+      "description": "Gothic masterpiece Abbey hosting royal coronations and state funerals for centuries, adjacent to the iconic Big Ben clock tower. Parliamentary tours available when Parliament is in session.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "British Museum Free Galleries",
+      "category": "Indoor",
+      "description": "World's oldest national museum with 8 million objects spanning human history from Egyptian mummies to the Rosetta Stone. Most galleries are free to enter with optional donations.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Boat Tour Along the Thames",
+      "category": "Outdoor",
+      "description": "Scenic river journey passing Tower Bridge, Waterloo Bridge, and Parliament Houses while learning London's riverine history. Multiple departure points from Westminster Pier to Tower Pier.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Street Art Walking Tour in Shoreditch",
+      "category": "Outdoor",
+      "description": "Guided exploration of East London's vibrant street art and graffiti murals by local artists. Hidden galleries and alleyways reveal London's contemporary artistic soul.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Hampstead Heath Walk & Viewpoint",
+      "category": "Outdoor",
+      "description": "Expansive 320-acre green space offering panoramic city views from Parliament Hill, woodland trails, and historic swimming ponds. Accessible natural escape within city limits.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "West End Theater Show",
+      "category": "Nightlife",
+      "description": "World-class theatrical productions in London's equivalent to Broadway featuring musicals, dramas, and comedies. Book tickets in advance for best selection and prices.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Camden Market & Lock",
+      "category": "Outdoor",
+      "description": "Eclectic market with vintage clothing, crafts, and global street food vendors surrounded by quirky canal-side atmosphere. Sundays draw the biggest crowds and energy.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "hidden-gems",
+        "foodie",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Natural History Museum",
+      "category": "Indoor",
+      "description": "Victorian specimen palace with dinosaur skeletons, gemstone collections, and interactive galleries about Earth's evolution. Impressive architecture and free entry to main galleries.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "London Night Walk: Ghosts & History",
+      "category": "Outdoor",
+      "description": "Atmospheric evening guided tour through historic streets revealing Jack the Ripper sites, ancient taverns, and medieval alleyways. Immersive storytelling brings London's dark past alive.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "hidden-gems",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Notting Hill Vintage Shopping",
+      "category": "Outdoor",
+      "description": "Bohemian neighborhood famous for independent boutiques, antique shops, and colorful Victorian townhouses featured in films. Portobello Road Market on Saturdays is legendary.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "St. Paul's Cathedral Climb to Whispering Gallery",
+      "category": "Cultural",
+      "description": "Baroque masterpiece with 528 steps leading to panoramic city views and the famous Whispering Gallery creating acoustic anomalies. Stunning interior with intricate mosaics and dome.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Tower Bridge at Golden Hour",
+        "description": "Iconic Gothic Revival bascule bridge photographed beautifully during sunset with reflections in the Thames below.",
+        "difficulty": "Beginner",
+        "bestTime": "45 minutes before sunset for warm light on stone",
+        "category": "Architecture"
+      },
+      {
+        "name": "Big Ben & Houses of Parliament from Westminster Bridge",
+        "description": "Classic view of the clock tower and Gothic Parliament buildings perfectly framed from the bridge at twilight.",
+        "difficulty": "Beginner",
+        "bestTime": "One hour before sunset or blue hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Shoreditch Street Art Alleys",
+        "description": "Vibrant, ever-changing murals and graffiti covering brick walls in narrow lanes east of Old Street station.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday with overcast sky to avoid harsh shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Leadenhall Market Covered Arcade",
+        "description": "Victorian cast-iron and glass market hall with ornate architecture creating dramatic leading lines and symmetry.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light through glass roof creating warm geometric patterns",
+        "category": "Architecture"
+      },
+      {
+        "name": "St. Paul's Cathedral Dome from Millennium Bridge",
+        "description": "Sir Christopher Wren's Baroque dome framed perfectly from the pedestrian bridge during blue hour or sunrise.",
+        "difficulty": "Intermediate",
+        "bestTime": "Pre-dawn for soft pink light reflecting on Thames",
+        "category": "Architecture"
+      },
+      {
+        "name": "Red Telephone Boxes in Covent Garden",
+        "description": "Quintessential British telephone boxes amid historic columned architecture and street performers creating vibrant scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon with softer light and crowds for storytelling",
+        "category": "Street"
+      },
+      {
+        "name": "Piccadilly Circus Neon Signs at Night",
+        "description": "Dazzling display of illuminated advertising screens and crowds creating energetic nighttime urban landscape.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes after sunset when neon glows and twilight remains",
+        "category": "Night"
+      },
+      {
+        "name": "Tower of London from Tower Bridge",
+        "description": "Medieval fortress viewed from the bridge creating dramatic perspectives with moat, walls, and riverside reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour creates warm tones on ancient stone",
+        "category": "Architecture"
+      },
+      {
+        "name": "Regent's Canal in Little Venice",
+        "description": "Picturesque waterway lined with narrowboats, arched bridges, and weeping willows creating idyllic reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days provide even light without harsh shadows on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Westminster Abbey West Front at Dusk",
+        "description": "Soaring Gothic façade with intricate stonework beautifully illuminated during twilight creating ethereal quality.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour after sunset when architectural lighting activates",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Hampstead Heath Parliament Hill",
+      "Tower Bridge from St. Katharine Docks",
+      "St. Paul's Cathedral from Millennium Bridge"
+    ],
+    "sunsetSpots": [
+      "Westminster Bridge facing Big Ben",
+      "South Bank near Tower Bridge",
+      "Primrose Hill overlooking city skyline"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural sweeping shots of bridges and Parliament",
+      "50mm f/1.8 prime for street portraits and intimate Covent Garden scenes",
+      "70-200mm telephoto for compressed cityscapes and details of distant monuments",
+      "24mm f/2.8 wide for Thames reflections and tight alley compositions"
+    ],
+    "goldenHourNotes": "London's winter sunset around 3:30 PM provides extended golden hour perfect for architectural photography. Summer sunsets at 9 PM offer long blue hour for night cityscapes. The Thames creates excellent reflections during calm evening conditions, doubling composition opportunities. Cloud cover is frequent but diffuses light beautifully for even exposure without harsh shadows.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 8,
+        "rainfallMM": 55
+      },
+      {
+        "month": 2,
+        "avgTempC": 8,
+        "rainfallMM": 40
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 42
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 44
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 45
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 48
+      },
+      {
+        "month": 7,
+        "avgTempC": 24,
+        "rainfallMM": 49
+      },
+      {
+        "month": 8,
+        "avgTempC": 23,
+        "rainfallMM": 50
+      },
+      {
+        "month": 9,
+        "avgTempC": 20,
+        "rainfallMM": 49
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 57
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 63
+      },
+      {
+        "month": 12,
+        "avgTempC": 8,
+        "rainfallMM": 59
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Late spring through early autumn (May-September) offers warm temperatures, longer daylight, and minimal rainfall ideal for sightseeing and outdoor activities. Winter months are cold and gray with frequent drizzle, though fewer tourists and festive holiday decorations create charm.",
+    "summary": "London experiences a temperate maritime climate with mild winters (8°C) and cool summers (23-24°C). Rainfall is consistent year-round averaging 50mm monthly, with October-November being wetter, while June-August provide the most pleasant conditions for outdoor exploration."
+  },
+  "hotels": [
+    {
+      "name": "The Standard London",
+      "neighborhood": "Southwark",
+      "pricePerNightUSD": 145,
+      "category": "Budget",
+      "description": "Hip, design-forward hostel and hotel hybrid with private rooms, communal spaces, and rooftop bar overlooking the Thames near Borough Market."
+    },
+    {
+      "name": "The Hoxton Shoreditch",
+      "neighborhood": "Shoreditch",
+      "pricePerNightUSD": 220,
+      "category": "Mid-range",
+      "description": "Stylish converted warehouse with industrial-chic rooms, acclaimed restaurant, and vibrant nightlife scene in trendy East London neighborhood."
+    },
+    {
+      "name": "The Savoy",
+      "neighborhood": "Covent Garden",
+      "pricePerNightUSD": 550,
+      "category": "Luxury",
+      "description": "Iconic five-star Thames-facing palace hotel with Art Deco elegance, Michelin-starred dining, and impeccable service since 1889."
+    }
+  ]
+}

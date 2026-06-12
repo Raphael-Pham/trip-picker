@@ -1,0 +1,459 @@
+{
+  "id": "phoenix-usa",
+  "city": "Phoenix",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PHX",
+    "MSC"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 62,
+    "food": 78,
+    "photography": 81,
+    "activities": 85,
+    "weather": 88
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 75,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Phoenix desert sunset Arizona",
+  "summary": "Phoenix is a vibrant desert metropolis known for stunning sunsets, world-class hiking, and exceptional Southwestern cuisine. With year-round sunshine, diverse neighborhoods, and iconic desert landscapes, it offers the perfect blend of urban exploration and outdoor adventure.",
+  "restaurants": [
+    {
+      "name": "Matt's Big Breakfast",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A beloved Phoenix institution serving massive, delicious breakfast portions in a casual diner setting. Known for generous portions and quality ingredients sourced locally.",
+      "mustTry": "Pancakes with applewood smoked bacon"
+    },
+    {
+      "name": "The Blind Pig",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A trendy Roosevelt Row favorite featuring creative American fare with Southwest influences. Excellent for lunch or casual dinner with craft cocktails.",
+      "mustTry": "Pulled pork sandwich"
+    },
+    {
+      "name": "Los Favoritos Tacos",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic street tacos and Mexican cuisine at unbeatable prices in South Phoenix. Quick service with incredible flavors and genuine local atmosphere.",
+      "mustTry": "Al pastor tacos"
+    },
+    {
+      "name": "Pomo Pizzeria",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Neapolitan-style pizza using imported ingredients and traditional wood-fired ovens. Intimate atmosphere perfect for a date night or casual meal.",
+      "mustTry": "Margherita pizza"
+    },
+    {
+      "name": "Kai Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning fine dining establishment celebrating Native American and Southwestern cuisine with stunning desert views. An exceptional culinary experience.",
+      "mustTry": "Prickly pear and indigenous heritage tasting menu"
+    },
+    {
+      "name": "Rito Loco Tacos",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Fast-casual Mexican spot with creative, flavorful tacos and fresh ingredients. Perfect for a quick, delicious lunch.",
+      "mustTry": "Fish tacos with habanero slaw"
+    },
+    {
+      "name": "FnB Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary American cuisine with locally-sourced ingredients and seasonal menus. Offers an elegant dining experience in an intimate setting.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Carolina's Mexican Food",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Multi-location family-owned gem serving authentic, homemade Mexican cuisine since 1952. Known for burritos and sopapillas with genuine recipes.",
+      "mustTry": "Chile relleno burrito"
+    },
+    {
+      "name": "Pizzeria Bianco",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic pizzeria in downtown Phoenix crafting exceptional wood-fired pizzas with heritage recipes. Often has a wait but worth every minute.",
+      "mustTry": "The Salad Pizza"
+    },
+    {
+      "name": "The Henry",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant focusing on fresh, seasonal Arizona ingredients with creative preparations. Perfect for lunch with energetic atmosphere.",
+      "mustTry": "Arizona produce-driven entrees"
+    },
+    {
+      "name": "Otro Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy neighborhood coffeehouse and bistro with excellent pastries and light fare. Great for breakfast or afternoon coffee break.",
+      "mustTry": "Artisan espresso drinks"
+    },
+    {
+      "name": "Virtu Honest Craft",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated Italian cuisine in an upscale Scottsdale location with extensive wine selection. Offers refined dining with impeccable service.",
+      "mustTry": "Handmade pasta specials"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Camelback Mountain Hike",
+      "category": "Outdoor",
+      "description": "Challenging but rewarding 3-mile roundtrip hike offering 360-degree views of Phoenix and the surrounding desert. Best attempted early morning to avoid heat.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Taliesin West Frank Lloyd Wright Home",
+      "category": "Cultural",
+      "description": "Guided tours of the famous architect's winter home and architecture school showcasing innovative design principles. Historical significance with stunning grounds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Desert Botanical Garden",
+      "category": "Outdoor",
+      "description": "Sprawling 140-acre garden featuring rare desert plants and thoughtfully designed landscapes. Perfect for leisurely strolls and desert plant education.",
+      "durationHours": 3,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Phoenix Art Museum",
+      "category": "Cultural",
+      "description": "Comprehensive art museum with diverse collections ranging from contemporary to classical works. Features rotating exhibits and a beautiful building.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Papago Park Hike and Views",
+      "category": "Outdoor",
+      "description": "Moderate 1.5-mile loop hike with stunning panoramic desert vistas and red rock formations. More accessible than Camelback with equally impressive views.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Roosevelt Row Street Art Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized walking tour through downtown Phoenix's vibrant street art district. Numerous murals, galleries, and creative energy throughout.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sedona Day Trip",
+      "category": "Adventure",
+      "description": "Scenic 2-hour drive north to stunning red rock formations, hiking trails, and artistic villages. Cathedral Rock and Bell Rock offer world-class photography.",
+      "durationHours": 8,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Phoenix Zoo",
+      "category": "Family",
+      "description": "Large zoo featuring animals from diverse ecosystems with excellent enclosures and interactive experiences. Great for families and wildlife enthusiasts.",
+      "durationHours": 4,
+      "estimatedCostUSD": 32,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Sunset at Phoenician Resort Escape Lounge",
+      "category": "Relaxation",
+      "description": "Upscale lounge experience with cocktails and appetizers overlooking sunset views of the valley. Perfect for romantic evening or special occasion.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Arizona Hiking Club Guided Trails",
+      "category": "Adventure",
+      "description": "Organized group hikes exploring Phoenix-area trails with experienced guides. Educational and social way to discover local landscapes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Heard Museum Native American Art",
+      "category": "Cultural",
+      "description": "Premier museum showcasing Native American art, history, and culture with extensive collections. Educational exhibits and important cultural institution.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Desert Jeep Tour Experience",
+      "category": "Adventure",
+      "description": "Off-road jeep excursions into Phoenix's scenic desert areas with experienced drivers. Thrilling way to explore inaccessible landscapes and wildlife habitats.",
+      "durationHours": 4,
+      "estimatedCostUSD": 125,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Camelback Mountain Summit",
+        "description": "Panoramic desert vistas with Phoenix sprawl, red rock formations, and distant mountains creating layered landscape composition.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Desert Botanical Garden Conservatory",
+        "description": "Intimate desert plant compositions with colorful blooms and architectural elements creating natural frame opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Roosevelt Row Street Murals",
+        "description": "Vibrant street art and colorful murals throughout downtown creating bold, eye-catching compositions for urban photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning or golden hour",
+        "category": "Street"
+      },
+      {
+        "name": "Taliesin West Architecture",
+        "description": "Frank Lloyd Wright's innovative geometric designs and desert integration providing stunning architectural photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Papago Park Red Rocks",
+        "description": "Dramatic red sandstone formations and desert vegetation creating stunning landscape and geological photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Phoenix Skyline",
+        "description": "City skyline reflecting in water features or photographed during blue hour with desert backdrop and urban lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour or dusk",
+        "category": "Architecture"
+      },
+      {
+        "name": "Desert Wildlife at Sunrise",
+        "description": "Diverse desert fauna including roadrunners, coyotes, and various bird species most active during early morning hours.",
+        "difficulty": "Advanced",
+        "bestTime": "Dawn",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Saguaro Cactus Silhouettes",
+        "description": "Iconic tall desert plants creating distinctive silhouettes against vibrant sunset skies in surrounding desert regions.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Scottsdale Old Town Architecture",
+        "description": "Western-style buildings, storefronts, and pedestrian paths with historic charm and colorful evening lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Phoenix City Lights Night Photography",
+        "description": "Urban nightscape with city lights, highways, and architectural illumination from elevated vantage points.",
+        "difficulty": "Advanced",
+        "bestTime": "Night (blue hour to midnight)",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Camelback Mountain",
+      "Papago Park East Overlook",
+      "Desert Botanical Garden"
+    ],
+    "sunsetSpots": [
+      "Papago Park",
+      "Phoenician Resort Overlook",
+      "Saguaro National Park East"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive desert landscapes and mountain panoramas",
+      "70-200mm telephoto for wildlife detail and compressed landscape perspectives",
+      "35mm prime for street art and architectural details in natural light",
+      "24-70mm versatile zoom for various urban and outdoor compositions"
+    ],
+    "goldenHourNotes": "Phoenix's desert environment offers extended golden hour periods with warm, directional light that beautifully illuminates red rock formations and enhances color saturation. Best photography occurs in the 1-2 hours before sunset when light becomes increasingly warm and shadows become more dramatic, creating excellent conditions for landscape and architectural work.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 13,
+        "rainfallMM": 8
+      },
+      {
+        "month": 2,
+        "avgTempC": 15,
+        "rainfallMM": 8
+      },
+      {
+        "month": 3,
+        "avgTempC": 19,
+        "rainfallMM": 3
+      },
+      {
+        "month": 4,
+        "avgTempC": 25,
+        "rainfallMM": 2
+      },
+      {
+        "month": 5,
+        "avgTempC": 32,
+        "rainfallMM": 1
+      },
+      {
+        "month": 6,
+        "avgTempC": 38,
+        "rainfallMM": 11
+      },
+      {
+        "month": 7,
+        "avgTempC": 40,
+        "rainfallMM": 34
+      },
+      {
+        "month": 8,
+        "avgTempC": 39,
+        "rainfallMM": 30
+      },
+      {
+        "month": 9,
+        "avgTempC": 37,
+        "rainfallMM": 16
+      },
+      {
+        "month": 10,
+        "avgTempC": 30,
+        "rainfallMM": 6
+      },
+      {
+        "month": 11,
+        "avgTempC": 21,
+        "rainfallMM": 5
+      },
+      {
+        "month": 12,
+        "avgTempC": 14,
+        "rainfallMM": 10
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "seasonality": "Phoenix experiences extreme summer heat (June-August exceeding 40°C) making outdoor activities challenging and best reserved for early morning or evening. Winter and spring (November-April) offer ideal conditions with mild temperatures perfect for hiking and exploration.",
+    "summary": "Phoenix enjoys 300+ days of sunshine annually with a stark contrast between scorching summers and pleasant winters. The monsoon season (July-September) brings dramatic thunderstorms and brief rain, while spring and fall are perfect for outdoor activities."
+  },
+  "hotels": [
+    {
+      "name": "Extended Stay America Phoenix",
+      "neighborhood": "Downtown Phoenix",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Comfortable budget hotel with kitchenettes, essential amenities, and convenient downtown location near restaurants and attractions."
+    },
+    {
+      "name": "Kimpton Hotel Palomar Phoenix",
+      "neighborhood": "Scottsdale",
+      "pricePerNightUSD": 190,
+      "category": "Mid-range",
+      "description": "Upscale boutique hotel featuring modern design, pet-friendly policies, and excellent dining options with refined service and amenities."
+    },
+    {
+      "name": "The Phoenician",
+      "neighborhood": "Scottsdale Foothills",
+      "pricePerNightUSD": 425,
+      "category": "Luxury",
+      "description": "Ultra-luxe resort featuring world-class spa, multiple restaurants, championship golf course, and stunning desert mountain views with exceptional service."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1589046207215-b5ee3097bafc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQaG9lbml4JTIwZGVzZXJ0JTIwc3Vuc2V0JTIwQXJpem9uYXxlbnwxfDB8fHwxNzgxMzAzMTMzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

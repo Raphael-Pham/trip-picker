@@ -1,0 +1,473 @@
+{
+  "id": "cancun-mexico",
+  "city": "Cancun",
+  "country": "Mexico",
+  "region": "North America",
+  "airportCodes": [
+    "CUN",
+    "PLS",
+    "TYR"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 85,
+    "photography": 90,
+    "activities": 95,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 1000
+    }
+  ],
+  "unsplashQuery": "Cancun beach turquoise",
+  "summary": "Cancun is a premier Caribbean beach destination featuring stunning turquoise waters, pristine white-sand beaches, and an incredible variety of water sports and cultural experiences. From ancient Mayan ruins to vibrant nightlife and world-class resorts, this resort city offers something for every traveler seeking tropical paradise with modern amenities.",
+  "restaurants": [
+    {
+      "name": "El Taco de Don Jose",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Mexican street food experience with handmade tortillas and fresh ingredients. Popular with locals for breakfast and lunch.",
+      "mustTry": "Cochinita Pibil Tacos"
+    },
+    {
+      "name": "La Habichuela",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Garden restaurant in downtown Cancun serving traditional Yucatecan cuisine in a lush tropical setting. Known for authentic flavors and intimate atmosphere.",
+      "mustTry": "Huachinango a la Sal"
+    },
+    {
+      "name": "Señor Frogs",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Fun casual dining spot with Mexican dishes and strong margaritas in a lively atmosphere. Great for families and groups seeking entertainment with meals.",
+      "mustTry": "Quesadillas and Fresh Guacamole"
+    },
+    {
+      "name": "The Bull",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse in the Hotel Zone offering premium cuts, extensive wine selection, and elegant ambiance. Perfect for special occasions.",
+      "mustTry": "Argentine Ribeye with Lobster Tail"
+    },
+    {
+      "name": "Thai Pavillion",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Thai cuisine with fresh seafood and traditional recipes in a sophisticated setting. Excellent pad thai and curry dishes.",
+      "mustTry": "Thai Green Curry with Shrimp"
+    },
+    {
+      "name": "Harry's Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Premium steakhouse with oceanfront views, aged beef selections, and impeccable service. A favorite among tourists and locals alike.",
+      "mustTry": "Dry-Aged New York Strip"
+    },
+    {
+      "name": "Manglar",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Beachfront seafood shack serving fresh ceviche, whole grilled fish, and seafood cocktails at budget-friendly prices. Perfect casual beach dining.",
+      "mustTry": "Ceviche Mixto"
+    },
+    {
+      "name": "Palazzo",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Italian fine dining with imported ingredients, handmade pasta, and extensive wine cellar overlooking the Caribbean Sea. Romantic ambiance.",
+      "mustTry": "Homemade Lobster Ravioli"
+    },
+    {
+      "name": "Toro Sushi",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary sushi bar serving fresh rolls, nigiri, and Asian fusion dishes with creative presentations. Known for quality fish and attentive service.",
+      "mustTry": "Dragon Roll with Tempura"
+    },
+    {
+      "name": "Cocina Veracruzana",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-run establishment serving traditional Veracruz-style Mexican comfort food. Authentic flavors and generous portions at minimal cost.",
+      "mustTry": "Arroz con Camarones"
+    },
+    {
+      "name": "Alligator Park Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual cafe within Alligator Park offering light Mexican fare, fresh juices, and snacks. Great spot between activities.",
+      "mustTry": "Fresh Horchata and Panuchos"
+    },
+    {
+      "name": "Quintas Avenida Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Popular oceanfront restaurant with fresh seafood, grilled meats, and tropical cocktails in a relaxed beachside setting. Excellent sunset views.",
+      "mustTry": "Whole Grilled Red Snapper"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling in Cenotes",
+      "category": "Adventure",
+      "description": "Swim and snorkel in crystal-clear natural sinkholes unique to the Yucatan Peninsula. An otherworldly experience surrounded by jungle and limestone formations.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Visit Mayan Ruins - Tulum",
+      "category": "Cultural",
+      "description": "Explore pre-Columbian fortress city perched on Caribbean cliffs with stunning views and rich historical significance. One of Mexico's most iconic archaeological sites.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Jet Ski and Water Sports",
+      "category": "Adventure",
+      "description": "High-octane water activities including jet skiing, parasailing, and banana boat rides along Cancun's beaches. Perfect for adrenaline seekers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Xcel Ha Eco Park",
+      "category": "Family",
+      "description": "All-inclusive ecological park with cenotes, underground rivers, cliff diving, and cultural shows. A full day of swimming, snorkeling, and Mexican culture.",
+      "durationHours": 8,
+      "estimatedCostUSD": 110,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Isla Mujeres Boat Tour",
+      "category": "Outdoor",
+      "description": "Day trip to the nearby island featuring pristine beaches, snorkeling spots, and a laid-back island atmosphere. Ferries available from Cancun.",
+      "durationHours": 6,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Scuba Diving - Coral Reefs",
+      "category": "Adventure",
+      "description": "Explore Mexico's coral reef system with PADI-certified divers. World-class dive sites with abundant marine life and underwater caverns.",
+      "durationHours": 4,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Swim with Whale Sharks",
+      "category": "Adventure",
+      "description": "Seasonal activity to encounter gentle whale sharks in their natural habitat. An unforgettable wildlife experience unique to the region.",
+      "durationHours": 5,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Xel-Ha Cenote Exploration",
+      "category": "Outdoor",
+      "description": "Visit multiple cenotes in one day with zip-lining and underground river kayaking. Adventure-packed exploration of Yucatan's hidden natural wonders.",
+      "durationHours": 6,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Downtown Cancun Walking Tour",
+      "category": "Cultural",
+      "description": "Explore authentic local neighborhoods away from resort areas, visiting markets, temples, and traditional restaurants. Discover the real Cancun.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nightclub and Bar Hopping",
+      "category": "Nightlife",
+      "description": "Experience world-famous nightclubs like The City, Palazzo, and Dady'O with world-class DJs and high-energy dancing. Cancun's legendary nightlife scene.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Beach Day and Swimming",
+      "category": "Outdoor",
+      "description": "Relax on pristine white-sand beaches with turquoise water, sunbathe, swim, and enjoy beachside restaurants and bars. The classic Cancun experience.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cancun Underwater Museum",
+      "category": "Indoor",
+      "description": "Snorkel or dive among submerged sculptures creating artificial reef habitats. Unique artistic and marine conservation experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 70,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Cancun Beach - Hotel Zone",
+        "description": "Iconic stretches of white sand and turquoise water perfect for golden hour beach photography with resort backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for golden light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Tulum Ruins with Ocean Backdrop",
+        "description": "Ancient Mayan ruins dramatically positioned on cliffs above the Caribbean Sea, combining history and landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for moody light and fewer crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cenote Gran Cenote",
+        "description": "Underground cave with crystal-clear water and natural light creating dramatic reflections and ethereal photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday when sunlight filters through cave openings",
+        "category": "Landscape"
+      },
+      {
+        "name": "Isla Mujeres Punta Sur Underwater Sculpture",
+        "description": "Submerged bronze sculpture beneath clear tropical waters accessible via snorkel or freediving with fish and rays.",
+        "difficulty": "Advanced",
+        "bestTime": "Calm morning seas with clear visibility",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Cancun Market - Street Photography",
+        "description": "Vibrant local market with colorful stalls, fresh produce, and authentic Mexican street life away from tourist areas.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning when markets are busiest",
+        "category": "Street"
+      },
+      {
+        "name": "Xel-Ha Natural Lagoon",
+        "description": "Emerald-green freshwater lagoon surrounded by jungle vegetation creating stunning color contrast and reflection photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light with calm water conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hotel Zone Architecture at Night",
+        "description": "Modern resort buildings illuminated at night with creative architectural lighting and reflections in pools and water features.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour at dusk and evening after lights are activated",
+        "category": "Night"
+      },
+      {
+        "name": "Coral Reef Underwater Photography",
+        "description": "Vibrant coral formations, tropical fish species, and marine life in shallow and deep reef environments.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday with clear weather and calm seas for best light penetration",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Cancun Sunset from Pier or Beach Club",
+        "description": "Dramatic Caribbean sunsets with golden and pink hues reflecting off calm waters with silhouetted figures.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour before sunset, 30 minutes before dusk",
+        "category": "Landscape"
+      },
+      {
+        "name": "Jungle Canopy and Zip-line Structures",
+        "description": "Dense green jungle vegetation with natural and man-made structures creating layered depth and texture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days for even jungle light or early morning with mist",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Cancun Beach - Deserted early sections",
+      "Tulum Ruins archaeological site",
+      "Isla Blanca northern beach point"
+    ],
+    "sunsetSpots": [
+      "Cancun Beach - Hotel Zone west-facing areas",
+      "Isla Mujeres westward-facing beaches",
+      "Downtown Cancun waterfront park area"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive beach and architecture shots capturing dramatic skies",
+      "70-200mm telephoto for compressing distant ruins and wildlife subjects with shallow depth of field",
+      "14-24mm ultra-wide for immersive underwater cenote and cave photography highlighting scale",
+      "50mm prime for street photography and portrait work in markets with natural background blur"
+    ],
+    "goldenHourNotes": "Cancun's tropical location near the equator provides consistent golden hour opportunities year-round from 6:00-6:30 AM for sunrise and 5:30-6:00 PM for sunset depending on season. Beach photography benefits tremendously from shooting during these windows as the low angle light transforms ordinary turquoise water into glowing liquid gold. Plan reef and cenote photography strategically as cloud cover and jungle canopy significantly impact available light.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 26,
+        "rainfallMM": 50
+      },
+      {
+        "month": 2,
+        "avgTempC": 27,
+        "rainfallMM": 40
+      },
+      {
+        "month": 3,
+        "avgTempC": 28,
+        "rainfallMM": 40
+      },
+      {
+        "month": 4,
+        "avgTempC": 29,
+        "rainfallMM": 60
+      },
+      {
+        "month": 5,
+        "avgTempC": 30,
+        "rainfallMM": 140
+      },
+      {
+        "month": 6,
+        "avgTempC": 31,
+        "rainfallMM": 160
+      },
+      {
+        "month": 7,
+        "avgTempC": 32,
+        "rainfallMM": 130
+      },
+      {
+        "month": 8,
+        "avgTempC": 32,
+        "rainfallMM": 150
+      },
+      {
+        "month": 9,
+        "avgTempC": 31,
+        "rainfallMM": 180
+      },
+      {
+        "month": 10,
+        "avgTempC": 30,
+        "rainfallMM": 180
+      },
+      {
+        "month": 11,
+        "avgTempC": 28,
+        "rainfallMM": 100
+      },
+      {
+        "month": 12,
+        "avgTempC": 26,
+        "rainfallMM": 60
+      }
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonality": "Cancun has a tropical climate with warm temperatures year-round but distinct dry and wet seasons. November through April offers the best weather with lower rainfall, while May through October experiences higher temperatures, humidity, and frequent afternoon thunderstorms plus hurricane season risk from June to November.",
+    "summary": "Expect consistently warm temperatures between 26-32°C throughout the year with turquoise waters perfect for swimming and water sports. The dry season (November-April) provides the most comfortable conditions for outdoor activities, while the wet season (May-October) brings discounted rates and fewer tourists despite afternoon rain showers."
+  },
+  "hotels": [
+    {
+      "name": "Albergue Juvenil Cancun",
+      "neighborhood": "Downtown Cancun",
+      "pricePerNightUSD": 25,
+      "category": "Budget",
+      "description": "Hostel-style accommodation offering dormitory and private rooms with basic amenities, popular with backpackers and budget travelers."
+    },
+    {
+      "name": "Le Blanc Spa Resort",
+      "neighborhood": "Hotel Zone",
+      "pricePerNightUSD": 350,
+      "category": "Mid-range",
+      "description": "All-inclusive resort with oceanfront rooms, multiple restaurants, spa services, and direct beach access with excellent service and amenities."
+    },
+    {
+      "name": "Grand Palladium Cancun Resort & Spa",
+      "neighborhood": "Hotel Zone",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury all-inclusive resort featuring multiple pools, championship golf course, premium restaurants, extensive spa, and private beach with personalized service."
+    }
+  ]
+}

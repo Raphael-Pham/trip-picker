@@ -1,0 +1,456 @@
+{
+  "id": "amsterdam-netherlands",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Europe",
+  "airportCodes": [
+    "AMS",
+    "RTM",
+    "EHV"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 88,
+    "photography": 92,
+    "activities": 90,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Amsterdam canal houses",
+  "summary": "Amsterdam is a picturesque European capital famous for its intricate canal system, world-class museums, and bicycle culture. The city blends historic Dutch architecture with vibrant neighborhoods, excellent food scene, and incredible photo opportunities at every corner.",
+  "restaurants": [
+    {
+      "name": "Stroopwafels & Co",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Traditional Dutch street food stall specializing in warm stroopwafels and classic Dutch snacks. Perfect for a quick, authentic local experience.",
+      "mustTry": "Fresh stroopwafel with caramel"
+    },
+    {
+      "name": "Café de Jaren",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual riverside café with a sunny terrace overlooking the Amstel River, serving contemporary Dutch cuisine. Great spot for lunch or an afternoon drink.",
+      "mustTry": "Pijltje bitterballen"
+    },
+    {
+      "name": "Greetje",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Hip neighborhood restaurant in De Pijp serving Dutch classics with a modern twist. Cozy atmosphere with local charm and excellent service.",
+      "mustTry": "Endive with ham and cheese"
+    },
+    {
+      "name": "Ron Gastrobar",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate fine dining establishment featuring innovative Dutch cuisine with international influences. Seasonal menus and carefully curated wine pairings.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "The Pancake Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Famous tourist-friendly spot near the Anne Frank House serving authentic Dutch pancakes both sweet and savory. Quick service and budget-friendly prices.",
+      "mustTry": "Savory pancake with bacon and cheese"
+    },
+    {
+      "name": "Restaurant D'Vijff Vlieghen",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Historic upscale restaurant housed in five interconnected 17th-century townhouses with traditional Dutch decor. Specializes in authentic Dutch cuisine in an elegant setting.",
+      "mustTry": "Tournedos with mushroom ragout"
+    },
+    {
+      "name": "Café de Reiger",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary neighborhood café in the Jordan district serving fresh seasonal dishes and craft beverages. Popular with locals for breakfast, lunch, and dinner.",
+      "mustTry": "Daily changing fish special"
+    },
+    {
+      "name": "Senses by Puur",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Michelin-starred restaurant offering contemporary European cuisine with artistic plating and refined flavors. Intimate dining experience with attentive service.",
+      "mustTry": "Multi-course tasting menu"
+    },
+    {
+      "name": "De Kas",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Two Michelin-starred restaurant set in a former greenhouse featuring innovative cuisine focused on seasonal ingredients. A culinary destination with exceptional ambiance.",
+      "mustTry": "Oyster course with caviar"
+    },
+    {
+      "name": "Broodnodig",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisanal bakery café serving fresh pastries, sandwiches, and excellent coffee. Perfect for a quick breakfast or light lunch with quality ingredients.",
+      "mustTry": "Sourdough sandwich with local cheese"
+    },
+    {
+      "name": "Restaurant Envy",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern restaurant in the Jordaan neighborhood with a focus on seasonal Mediterranean-inspired dishes. Friendly staff and warm, inviting atmosphere.",
+      "mustTry": "Grilled fish with lemon butter"
+    },
+    {
+      "name": "Café de Dokter",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Tiny historic brown café hidden on a small alley, famous for its cozy atmosphere and strong Dutch beers. Locals gather for authentic Amsterdam nightlife.",
+      "mustTry": "Bitterball with brown mustard"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Canal Boat Tour",
+      "category": "Outdoor",
+      "description": "Scenic 1-2 hour boat tour through Amsterdam's famous canal system, passing historic buildings and bridges. Daytime and evening options with local commentary available.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Anne Frank House",
+      "category": "Cultural",
+      "description": "Moving museum dedicated to Anne Frank's life during WWII, housed in the original hiding place. Requires advance booking and typically 2-3 hours to explore thoroughly.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Rijksmuseum",
+      "category": "Cultural",
+      "description": "World-renowned art museum featuring Dutch masters including Rembrandt and Vermeer. Over 2,000 paintings across multiple floors in a stunning historic building.",
+      "durationHours": 3,
+      "estimatedCostUSD": 23,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cycling Through Amsterdam",
+      "category": "Outdoor",
+      "description": "Experience the city like a local on a traditional Dutch bicycle exploring neighborhoods, parks, and countryside villages. Rentals available from €8-15 per day.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Van Gogh Museum",
+      "category": "Cultural",
+      "description": "Comprehensive collection of over 200 Van Gogh paintings and drawings. The world's most significant Van Gogh collection housed in a modern, accessible building.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Jordaan District Walking Tour",
+      "category": "Outdoor",
+      "description": "Explore charming narrow streets, independent galleries, and local shops in Amsterdam's most picturesque neighborhood. Free to wander or join a guided tour.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Albert Cuyp Market",
+      "category": "Outdoor",
+      "description": "Vibrant daily street market in the De Pijp neighborhood with over 100 vendors selling fresh produce, flowers, clothing, and street food. Best visited weekday mornings.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Amsterdam Museum",
+      "category": "Cultural",
+      "description": "Interactive museum showcasing the city's history, culture, and evolution from 1300s to present day. Features unique exhibits and historical artifacts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Vondelpark Stroll",
+      "category": "Outdoor",
+      "description": "Beautiful 47-hectare urban park with tree-lined pathways, ponds, and meadows. Free to explore with open-air concerts, sculptures, and local life.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Heineken Experience",
+      "category": "Indoor",
+      "description": "Interactive brewery museum and experience at the historic Heineken brewery with tastings and exhibits. 2 hours of entertainment with included beer samples.",
+      "durationHours": 2,
+      "estimatedCostUSD": 21,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Red Light District Walking Tour",
+      "category": "Cultural",
+      "description": "Guided or self-guided exploration of Amsterdam's historic Red Light District with its unique canal-side architecture and cultural significance. Respectful observation encouraged.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Canal-Side Picnic at Sunset",
+      "category": "Relaxation",
+      "description": "Gather local cheeses, bread, and wine from a market then relax along the canals during golden hour. Peaceful Amsterdam experience away from crowds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Magere Brug (Skinny Bridge)",
+        "description": "Iconic wooden drawbridge over the Amstel River with 1,600 lights creating magical reflections at night.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or night",
+        "category": "Architecture"
+      },
+      {
+        "name": "Positano Café Terrace",
+        "description": "Picturesque café with blue chairs perfectly reflected in canal water, iconic Amsterdam moment.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light 8-10am",
+        "category": "Street"
+      },
+      {
+        "name": "Prinsengracht Canal Houses",
+        "description": "Rows of colorful 17th-century townhouses with reflections in still canal water.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or overcast days",
+        "category": "Architecture"
+      },
+      {
+        "name": "Amsterdam Central Station",
+        "description": "Grand Renaissance-style railway station reflected in water with historic architecture and busy activity.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bloemenmarkt Flower Market",
+        "description": "Vibrant floating flower market with colorful tulips, hyacinths, and local flowers creating a riot of color.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light before crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Brouwersgracht Canal",
+        "description": "Quiet, less-touristed canal with charming bridges, houseboats, and authentic Amsterdam atmosphere.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Amsterdam Windmills at Zaanse Schans",
+        "description": "Historic 18th-century wooden windmills reflected in water with traditional Dutch countryside charm.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Begijnhof Hidden Courtyard",
+        "description": "Secret medieval courtyard surrounded by historic almshouses away from street level, quiet and atmospheric.",
+        "difficulty": "Intermediate",
+        "bestTime": "Soft morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Neon Signs at Night",
+        "description": "Neon-lit storefronts and reflections in wet canal streets create vibrant urban nighttime imagery.",
+        "difficulty": "Advanced",
+        "bestTime": "Night after rain",
+        "category": "Night"
+      },
+      {
+        "name": "Vondelpark Tree-Lined Paths",
+        "description": "Green tree canopies creating natural tunnels over pathways with soft filtered light and romantic atmosphere.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Magere Brug",
+      "Brouwersgracht Canal",
+      "Amsterdam Central Station"
+    ],
+    "sunsetSpots": [
+      "Prinsengracht Canal Houses",
+      "Vondelpark",
+      "Amstel River from Skinny Bridge"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for canal architecture and bridge compositions",
+      "50mm prime for street photography and candid moments in markets",
+      "70-200mm telephoto for compressed canal reflections and distant details"
+    ],
+    "goldenHourNotes": "Amsterdam's flat landscape and reflective canals make golden hour spectacular any direction you face. The soft light brings out warm tones in red brick buildings and creates mirror-like reflections in water. Early mornings (6-8am) are ideal to avoid crowds while capturing light at its best.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 3,
+        "rainfallMM": 67
+      },
+      {
+        "month": 2,
+        "avgTempC": 3,
+        "rainfallMM": 55
+      },
+      {
+        "month": 3,
+        "avgTempC": 6,
+        "rainfallMM": 58
+      },
+      {
+        "month": 4,
+        "avgTempC": 10,
+        "rainfallMM": 48
+      },
+      {
+        "month": 5,
+        "avgTempC": 15,
+        "rainfallMM": 62
+      },
+      {
+        "month": 6,
+        "avgTempC": 18,
+        "rainfallMM": 70
+      },
+      {
+        "month": 7,
+        "avgTempC": 20,
+        "rainfallMM": 73
+      },
+      {
+        "month": 8,
+        "avgTempC": 19,
+        "rainfallMM": 72
+      },
+      {
+        "month": 9,
+        "avgTempC": 16,
+        "rainfallMM": 68
+      },
+      {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 70
+      },
+      {
+        "month": 11,
+        "avgTempC": 7,
+        "rainfallMM": 78
+      },
+      {
+        "month": 12,
+        "avgTempC": 4,
+        "rainfallMM": 72
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9
+    ],
+    "seasonality": "Spring (April-May) offers mild weather with blooming flowers including famous tulip season. Fall (September) brings pleasant temperatures and fewer crowds than summer.",
+    "summary": "Amsterdam experiences a temperate maritime climate with cool winters and mild summers. Rain is frequent year-round, so waterproof clothing is essential; best visit during spring or early fall for pleasant weather and manageable crowds."
+  },
+  "hotels": [
+    {
+      "name": "ClinkNOORD",
+      "neighborhood": "Amsterdam North",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Vibrant hostel with private rooms and dorms across the river with free ferry access, young atmosphere, and social events."
+    },
+    {
+      "name": "The Dylan Amsterdam",
+      "neighborhood": "Grachtengordel Canal Belt",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Charming luxury hotel in a 17th-century palace with canal views, personalized service, and an excellent restaurant."
+    },
+    {
+      "name": "Waldorf Astoria Amsterdam",
+      "neighborhood": "Jordaan",
+      "pricePerNightUSD": 420,
+      "category": "Luxury",
+      "description": "Ultra-luxe hotel in six interconnected 17th-century palaces with fine dining, spa services, and impeccable Amsterdam hospitality."
+    }
+  ]
+}

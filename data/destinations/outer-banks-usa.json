@@ -1,0 +1,462 @@
+{
+  "id": "outer-banks-usa",
+  "city": "Outer Banks",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "ILM",
+    "RDU",
+    "ORF"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "adventure",
+    "relaxation",
+    "family"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 75,
+    "photography": 90,
+    "activities": 85,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Outer Banks lighthouse beach",
+  "summary": "The Outer Banks is a 200-mile barrier island chain off North Carolina's coast, famous for its pristine beaches, wild horses, and iconic Cape Hatteras Lighthouse. This destination offers exceptional opportunities for beach photography, water sports, and relaxation with a charming maritime heritage. Perfect for families, adventure seekers, and photographers seeking dramatic coastal landscapes.",
+  "restaurants": [
+    {
+      "name": "Sam & Omie's",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A classic breakfast institution since 1937 serving hearty coastal comfort food. Famous for fluffy pancakes and fresh seafood omelets with a nostalgic diner atmosphere.",
+      "mustTry": "Seafood omelet with hash browns"
+    },
+    {
+      "name": "Awful Arthur Oyster Bar",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Lively waterfront spot specializing in fresh oysters and local seafood with a casual, fun atmosphere. Known for excellent steamed shrimp and crab cakes.",
+      "mustTry": "Fresh local oysters and steamed shrimp"
+    },
+    {
+      "name": "The Fisherman's Wharf",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-friendly restaurant offering fresh catch daily with views of Roanoke Sound. Features traditional coastal cooking and a great selection of local fish.",
+      "mustTry": "Daily catch prepared grilled"
+    },
+    {
+      "name": "Coastal Barbeque & Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual BBQ joint serving smoked meats and comfort food at affordable prices. Perfect for quick meals with authentic Carolina-style barbecue.",
+      "mustTry": "Pulled pork sandwich with coleslaw"
+    },
+    {
+      "name": "1587 Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale establishment named after the Lost Colony with elegant coastal cuisine and an extensive wine list. Features fresh seafood and creative preparations in a sophisticated setting.",
+      "mustTry": "Pan-seared scallops with seasonal vegetables"
+    },
+    {
+      "name": "Tortuga's Lie Shellfish Bar & Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant waterfront restaurant celebrating shellfish with creative appetizers and fresh preparations. Features daily specials and a lively bar atmosphere.",
+      "mustTry": "Steamed clams and oyster selection"
+    },
+    {
+      "name": "Basnight's Lone Cedar Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual waterfront spot famous for creative seafood and warm hospitality. Offers beautiful sunset views and a relaxed island vibe.",
+      "mustTry": "Blackened fish tacos"
+    },
+    {
+      "name": "The Dunes Restaurant",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-friendly casual dining with generous portions and local favorites. Known for seafood platters and breakfast service.",
+      "mustTry": "Seafood platter with hushpuppies"
+    },
+    {
+      "name": "Grits Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Southern comfort food restaurant serving classic breakfast and lunch fare. Features made-from-scratch recipes and a cozy atmosphere.",
+      "mustTry": "Shrimp and grits with cheese"
+    },
+    {
+      "name": "The Hurricane",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront establishment with panoramic ocean views and seafood-focused menu. Great for both casual dining and special occasions with a beautiful deck.",
+      "mustTry": "Crab cakes and fresh flounder"
+    },
+    {
+      "name": "Kelly's Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-owned establishment serving fresh seafood and American fare with authentic island hospitality. Known for consistent quality and reasonable prices.",
+      "mustTry": "Tuna sandwich or local catch"
+    },
+    {
+      "name": "Diamond Shoals Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant dining establishment offering fresh seafood and coastal cuisine in a refined atmosphere. Features seasonal menus and an excellent wine selection.",
+      "mustTry": "Herb-crusted flounder with crab imperial"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Cape Hatteras Lighthouse Climb",
+      "category": "Outdoor",
+      "description": "Ascend the iconic 208-foot spiral staircase of America's tallest brick lighthouse for panoramic coastal views. The distinctive black and white stripes and surrounding maritime heritage site make this a must-do experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Outer Banks Wild Horse Tour",
+      "category": "Outdoor",
+      "description": "Guided tour to observe the famous wild horses roaming freely in their natural habitat on the barrier islands. Educational experience explaining the history and ecology of these unique animals.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kitty Hawk Beach & Watersports",
+      "category": "Adventure",
+      "description": "World-class destination for surfing, windsurfing, and kiteboarding with consistent waves and optimal conditions. Multiple rental shops and schools available for all skill levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Wright Brothers National Memorial",
+      "category": "Cultural",
+      "description": "Historic site commemorating the first powered flight with museum exhibits, monument climb, and educational displays. Beautiful grounds with a visitors center featuring interactive exhibits about aviation history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 7,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Roanoke Island Ferry & Historic Tours",
+      "category": "Cultural",
+      "description": "Scenic ferry ride to Roanoke Island with guided tours of historic sites including the Lost Colony settlement and colonial attractions. Combines maritime history with beautiful waterway views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Kayaking Through Salt Marshes",
+      "category": "Adventure",
+      "description": "Paddling through pristine salt marshes and sound waters with opportunities to spot wildlife including birds, fish, and occasionally dolphins. Guided tours available with experienced naturalists.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Free Beach Walking & Shelling",
+      "category": "Outdoor",
+      "description": "Explore miles of pristine sandy beaches perfect for collecting seashells and observing coastal wildlife. No cost activity ideal for families and photographers seeking natural beauty.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Jockey's Ridge State Park Dune Exploration",
+      "category": "Outdoor",
+      "description": "North Carolina's tallest natural sand dune with hiking trails offering stunning elevated views of the sound and Atlantic. Popular for sandboarding, paragliding, and sunset viewing.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Sport Fishing Charter",
+      "category": "Adventure",
+      "description": "Half-day or full-day guided fishing trips for billfish, tuna, and bottom fish in productive Atlantic waters. Professional crews provide all equipment and expertise for memorable fishing experiences.",
+      "durationHours": 6,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Outer Banks History Museum Tour",
+      "category": "Cultural",
+      "description": "Comprehensive museum documenting maritime heritage, shipwrecks, and local history with interactive exhibits and artifacts. Free or low-cost entry with engaging educational content.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Sunset Beach Picnic & Stargazing",
+      "category": "Relaxation",
+      "description": "Pack a picnic dinner and watch the sunset over calm sound waters, then enjoy pristine dark skies for stargazing. Peaceful, free activity perfect for couples and photographers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nags Head Pier Fishing & Ocean Views",
+      "category": "Outdoor",
+      "description": "Classic wooden fishing pier extending into the Atlantic with no equipment needed and stunning panoramic ocean views. Casual atmosphere perfect for relaxation, photography, and casual recreation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Cape Hatteras Lighthouse",
+        "description": "Iconic candy-striped lighthouse with dramatic surrounding landscape, especially stunning during golden hour and overcast conditions.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for warm light and shadows; overcast mornings for moody shots",
+        "category": "Architecture"
+      },
+      {
+        "name": "Jockey's Ridge State Park",
+        "description": "North Carolina's tallest sand dune offering expansive landscape views with sand patterns, dune grass, and panoramic vistas.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon light illuminating sand dunes; golden hour for dramatic shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Roanoke Island Marshlands",
+        "description": "Expansive salt marshes with winding waterways, grasses, and reflections creating graphic compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist and reflections; golden hour for warm marsh tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Nags Head Fishing Pier",
+        "description": "Classic wooden pier extending into the Atlantic with dramatic seascapes, moody skies, and strong compositional lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise for soft light; before storms for dramatic cloud formations",
+        "category": "Architecture"
+      },
+      {
+        "name": "Kill Devil Hills Beach Access",
+        "description": "Scenic beach access with dramatic dunes, sea oats, and pristine sand offering clean landscape compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset; overcast conditions for detail in sky",
+        "category": "Landscape"
+      },
+      {
+        "name": "Manteo Waterfront",
+        "description": "Historic waterfront with boats, reflections, and charming architecture against sound water backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour when reflections are vivid; sunrise for peaceful maritime scenes",
+        "category": "Architecture"
+      },
+      {
+        "name": "Seagrove Beach Vegetation",
+        "description": "Beach vegetation and sea oats with dramatic cloud formations and strong natural light.",
+        "difficulty": "Beginner",
+        "bestTime": "Afternoon light for shadow detail; golden hour for warm tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bodie Island Lighthouse Area",
+        "description": "Striking black and white striped lighthouse with beautiful surrounding landscape and accessible photo opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on structure; overcast for even architectural detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cape Point Beach",
+        "description": "Diamond Shoals area with unique wave patterns, dramatic ocean conditions, and powerful seascape potential.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for calm water reflections; afternoon storms for dramatic seascapes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Wright Brothers Memorial Grounds",
+        "description": "Historic monument with attractive landscaping, sculptures, and open fields against sky backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm monument lighting; sunrise for soft landscape detail",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Cape Hatteras Lighthouse",
+      "Nags Head Fishing Pier",
+      "Kill Devil Hills Beach Access"
+    ],
+    "sunsetSpots": [
+      "Jockey's Ridge State Park",
+      "Roanoke Island Marshlands",
+      "Manteo Waterfront"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for expansive landscapes and lighthouse architectural context",
+      "70-200mm telephoto for compressed perspectives of lighthouses and wildlife details",
+      "50mm prime lens for versatile focal length in variable lighting conditions",
+      "10-24mm ultra-wide for dramatic dune and architectural compositions"
+    ],
+    "goldenHourNotes": "The Outer Banks offers exceptional golden hour photography with warm, soft light reflecting off water and sand. Early morning light creates perfect conditions for highlighting dune textures and mirrored reflections in calm water. Late afternoon light beautifully illuminates the distinctive lighthouse stripes and creates dramatic shadows across expansive beaches, making this destination outstanding for golden hour work.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 86
+      },
+      {
+        "month": 2,
+        "avgTempC": 7,
+        "rainfallMM": 79
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 89
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 84
+      },
+      {
+        "month": 5,
+        "avgTempC": 23,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 114
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 130
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 127
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 127
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 94
+      },
+      {
+        "month": 11,
+        "avgTempC": 14,
+        "rainfallMM": 97
+      },
+      {
+        "month": 12,
+        "avgTempC": 8,
+        "rainfallMM": 91
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer pleasant temperatures (15-26°C), lower humidity, and excellent beach conditions with minimal rainfall. Summer brings warm weather (28-30°C) and water perfect for swimming but with higher rainfall and occasional hurricanes requiring caution.",
+    "summary": "The Outer Banks experiences mild winters (5-8°C) and warm summers (29-30°C) with precipitation distributed throughout the year. Late spring (April-May) and early fall (September-October) are ideal for visitors seeking comfortable weather and reduced crowd levels, while summer attracts families despite higher temperatures and rainfall."
+  },
+  "hotels": [
+    {
+      "name": "Nags Head Beach Hotel",
+      "neighborhood": "Nags Head",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Simple oceanfront or soundside accommodations offering clean rooms and direct beach access at affordable rates, perfect for families on a budget."
+    },
+    {
+      "name": "The First Colony Inn",
+      "neighborhood": "Manteo",
+      "pricePerNightUSD": 145,
+      "category": "Mid-range",
+      "description": "Historic waterfront inn with charming rooms, on-site restaurant, and access to Manteo's cultural attractions and sound views."
+    },
+    {
+      "name": "Outer Banks Resort & Conference Center",
+      "neighborhood": "Kill Devil Hills",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Premium oceanfront resort with indoor and outdoor pools, spa services, fine dining, and spacious suites with contemporary amenities and outstanding ocean views."
+    }
+  ]
+}

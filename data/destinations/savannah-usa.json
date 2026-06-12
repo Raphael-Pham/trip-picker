@@ -1,0 +1,465 @@
+{
+  "id": "savannah-usa",
+  "city": "Savannah",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SAV",
+    "JAX",
+    "ATL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 85,
+    "photography": 90,
+    "activities": 82,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Savannah moss oak trees",
+  "summary": "Savannah captivates visitors with its Spanish moss-draped oak trees, historic squares, and Southern charm that has remained largely unchanged for centuries. This picturesque Georgia city blends antebellum architecture, award-winning cuisine, and a thriving riverside district into an unforgettable destination perfect for history buffs, food enthusiasts, and photographers alike.",
+  "restaurants": [
+    {
+      "name": "The Collins Quarter",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Multi-level restaurant and cocktail bar featuring Southern cuisine with modern techniques, housed in a historic building with exposed brick and intimate ambiance.",
+      "mustTry": "Low country shrimp and grits"
+    },
+    {
+      "name": "Alligator Soul",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual restaurant serving authentic Lowcountry fare including seafood, local favorites, and creative comfort food in a rustic setting.",
+      "mustTry": "Alligator pasta"
+    },
+    {
+      "name": "The Sentient Bean",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular coffee shop and café offering excellent espresso drinks, pastries, and light lunch options in a bohemian atmosphere perfect for morning gatherings.",
+      "mustTry": "Local roasted coffee"
+    },
+    {
+      "name": "Chez Philippe",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant French restaurant in the historic district offering classical European cuisine with impeccable service and an extensive wine list.",
+      "mustTry": "Duck confit"
+    },
+    {
+      "name": "B&J's Steaks and Seafood",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Classic steakhouse with fresh seafood options, friendly service, and a casual yet upscale dining environment in downtown Savannah.",
+      "mustTry": "Prime ribeye with local shrimp"
+    },
+    {
+      "name": "Back in the Day Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming neighborhood bakery known for artisanal breads, pastries, and sandwiches made fresh daily with quality ingredients.",
+      "mustTry": "Savory hand pies"
+    },
+    {
+      "name": "The Wyld Dock Bar",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Waterfront restaurant and bar offering fresh seafood with casual vibes, craft cocktails, and scenic views of the Wilmington River.",
+      "mustTry": "Fresh catch of the day"
+    },
+    {
+      "name": "Vinnie Van GoGhul's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual New York-style sandwich shop located in River Street offering quick, affordable dining with creative combinations and generous portions.",
+      "mustTry": "Italian sandwiches"
+    },
+    {
+      "name": "Sapphire Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American cuisine in an upscale setting with a focus on seasonal ingredients, impeccable plating, and an elegant atmosphere.",
+      "mustTry": "Pan-seared local fish"
+    },
+    {
+      "name": "Treylor Park",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant emphasizing local ingredients and seasonal menus, offering creative dishes in a warm, welcoming neighborhood setting.",
+      "mustTry": "Deviled eggs with creative toppings"
+    },
+    {
+      "name": "The Collins Quarter",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual daytime café offering Southern breakfast specialties, comfort food classics, and friendly service in a historic building.",
+      "mustTry": "Shrimp and cheddar grits breakfast"
+    },
+    {
+      "name": "Elizabeth on 37th",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning restaurant housed in a historic mansion serving innovative Southern cuisine with artistic presentation and exceptional service.",
+      "mustTry": "Pan-seared crab cakes"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Forsyth Park exploration",
+      "category": "Outdoor",
+      "description": "Wander through Savannah's most iconic park featuring the famous fountain, ancient live oaks, and grassy squares perfect for leisurely walks and picnics.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bonaventure Cemetery kayaking",
+      "category": "Outdoor",
+      "description": "Paddle through serene waterways lined with Spanish moss-draped cypress trees and historic graves in this peaceful historic cemetery.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Historic District walking tour",
+      "category": "Cultural",
+      "description": "Guided or self-guided exploration of Savannah's 22 historic squares featuring antebellum architecture, ghost stories, and centuries of Southern history.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Wormsloe Historic Site visit",
+      "category": "Cultural",
+      "description": "Explore this stunning colonial estate featuring a 1.5-mile oak-lined avenue, ruins, and museums showcasing Lowcountry history and nature.",
+      "durationHours": 2,
+      "estimatedCostUSD": 7,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "River Street shopping and dining",
+      "category": "Outdoor",
+      "description": "Stroll along the historic waterfront district with cobblestone streets, boutique shops, galleries, restaurants, and river views for entertainment and people-watching.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bonaventure River eco-tour",
+      "category": "Adventure",
+      "description": "Wildlife observation tour by boat spotting dolphins, herons, and other native species while learning about the unique Lowcountry ecosystem.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Tybee Island beach day",
+      "category": "Outdoor",
+      "description": "Visit Georgia's primary beach destination 20 minutes from downtown featuring swimming, surfing, a historic lighthouse, and oceanside dining.",
+      "durationHours": 5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Midnight in the Garden of Good and Evil book tour",
+      "category": "Cultural",
+      "description": "Explore locations featured in John Berendt's famous crime novel while learning about Savannah's artistic scene and colorful characters.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Owens-Thomas House museum tour",
+      "category": "Cultural",
+      "description": "Tour this exquisitely preserved 1819 mansion showcasing fine art, architecture, and historical artifacts representing Savannah's aristocratic heritage.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Brewing and distillery tours",
+      "category": "Nightlife",
+      "description": "Visit craft breweries and distilleries like Forsyth Brewing and Copper Barrel Distillery for tastings and tours in historic buildings.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "First Friday Art Association gallery hop",
+      "category": "Cultural",
+      "description": "Monthly art walk through downtown galleries, studios, and creative spaces showcasing local artists with live music and refreshments.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Skidaway Island State Park exploration",
+      "category": "Outdoor",
+      "description": "Nature preserve featuring trails through maritime forest, observation tower with panoramic views, and peaceful natural environments.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Forsyth Park Fountain",
+        "description": "Iconic fountain surrounded by live oaks and magnolia trees, perfect for morning and late afternoon light with dramatic sky backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bonaventure Cemetery grounds",
+        "description": "Hauntingly beautiful cemetery with Spanish moss, cypress trees, and angel statues creating ethereal atmospheric compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning mist or overcast days",
+        "category": "Landscape"
+      },
+      {
+        "name": "River Street at night",
+        "description": "Historic waterfront district with lamp-lit cobblestone streets, reflections on the river, and atmospheric night photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "One hour after sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Wormsloe Avenue oak tunnel",
+        "description": "Legendary 1.5-mile drive lined with massive live oaks creating a tunnel effect, spectacular in any season with perfect leading lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cathedral of St. John the Baptist",
+        "description": "Stunning Gothic-Revival architecture with intricate stained glass, ornate interior details, and impressive exterior stone facade.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for side-lighting on exterior",
+        "category": "Architecture"
+      },
+      {
+        "name": "Tybee Island Lighthouse",
+        "description": "Historic red and white striped lighthouse with sandy beach, weathered wooden structures, and golden hour beach light.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for best light and shadow contrast",
+        "category": "Architecture"
+      },
+      {
+        "name": "Savannah Historic District squares",
+        "description": "Twenty-two historic squares each offering unique architectural frames, monument details, and street-level candid photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds or late afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Driftaway Marsh at sunrise",
+        "description": "Expansive salt marsh with winding waterways creating mirror-like reflections and dramatic morning light over golden grasses.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise with clear skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bonaventure River dolphin sightings",
+        "description": "Natural wildlife habitat where dolphins frequently surface creating action shots and candid animal photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Morning or late afternoon feeding times",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Mickve Israel Temple interior",
+        "description": "America's third-oldest Jewish congregation with ornate architectural details, chandeliers, and rich historical interior photography potential.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning when natural light streams through windows",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Forsyth Park",
+      "Driftaway Marsh",
+      "Tybee Island Beach"
+    ],
+    "sunsetSpots": [
+      "River Street",
+      "Wormsloe Avenue",
+      "Bonaventure Cemetery"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape sweeps of oak-lined avenues and marsh expanses",
+      "50mm prime for street photography and intimate architectural details in historic squares",
+      "70-200mm telephoto for wildlife/dolphin shots and compressed perspective of distant monuments",
+      "24-70mm versatile zoom for all-around touring and varied composition options"
+    ],
+    "goldenHourNotes": "Savannah's golden hour is exceptionally photogenic due to the dense live oak canopy creating dappled light patterns on streets and pathways. The low angle of morning and evening sun beautifully illuminates Spanish moss creating silhouettes and volumetric lighting effects. The Spanish moss acts as a natural diffuser during harsh midday sun, making Savannah more photographable throughout the day than many Southern destinations.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 10,
+        "rainfallMM": 102
+      },
+      {
+        "month": 2,
+        "avgTempC": 12,
+        "rainfallMM": 110
+      },
+      {
+        "month": 3,
+        "avgTempC": 16,
+        "rainfallMM": 107
+      },
+      {
+        "month": 4,
+        "avgTempC": 21,
+        "rainfallMM": 95
+      },
+      {
+        "month": 5,
+        "avgTempC": 26,
+        "rainfallMM": 115
+      },
+      {
+        "month": 6,
+        "avgTempC": 29,
+        "rainfallMM": 165
+      },
+      {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 178
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 150
+      },
+      {
+        "month": 9,
+        "avgTempC": 28,
+        "rainfallMM": 130
+      },
+      {
+        "month": 10,
+        "avgTempC": 22,
+        "rainfallMM": 75
+      },
+      {
+        "month": 11,
+        "avgTempC": 17,
+        "rainfallMM": 108
+      },
+      {
+        "month": 12,
+        "avgTempC": 12,
+        "rainfallMM": 112
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "seasonality": "Spring (March-May) and fall (October-November) offer ideal weather with moderate temperatures and lower humidity, while summers are hot and humid with frequent afternoon thunderstorms. Winter is mild compared to northern states but can be cool and rainy, making shoulder seasons the premium travel time.",
+    "summary": "Savannah experiences a humid subtropical climate with hot summers reaching 30-31°C and mild winters around 10-12°C. The city receives consistent rainfall year-round with highest precipitation during summer months (June-August) due to afternoon thunderstorms."
+  },
+  "hotels": [
+    {
+      "name": "Marshall House",
+      "neighborhood": "Historic District",
+      "pricePerNightUSD": 110,
+      "category": "Budget",
+      "description": "Historic boutique hotel in a converted Civil War-era building offering charm and character with comfortable rooms and excellent downtown location."
+    },
+    {
+      "name": "The Kehoe House",
+      "neighborhood": "Historic District",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Victorian mansion converted to an elegant bed and breakfast with personalized service, period furnishings, and a prime location near Forsyth Park."
+    },
+    {
+      "name": "The Brice Hotel",
+      "neighborhood": "Historic District",
+      "pricePerNightUSD": 380,
+      "category": "Luxury",
+      "description": "Sophisticated luxury hotel featuring contemporary design, rooftop bar with city views, fine dining, and impeccable service in the heart of downtown Savannah."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1611859328053-3cbc9f9399f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYXZhbm5haCUyMG1vc3MlMjBvYWslMjB0cmVlc3xlbnwxfDB8fHwxNzgxMzAzMDk0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

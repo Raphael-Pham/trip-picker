@@ -1,0 +1,465 @@
+{
+  "id": "napa-valley-usa",
+  "city": "Napa Valley",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SFO",
+    "OAK",
+    "SJC"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "relaxation",
+    "surprise"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 95,
+    "photography": 88,
+    "activities": 85,
+    "weather": 82
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 500,
+      "maxPerDayUSD": 1500
+    }
+  ],
+  "unsplashQuery": "Napa Valley vineyards sunset",
+  "summary": "Napa Valley is a premier wine destination in Northern California, renowned for world-class Cabernet Sauvignons, Pinot Noirs, and exceptional farm-to-table dining. Rolling vineyard-covered hills, luxury resorts, and charming wine towns create an ideal setting for wine enthusiasts, food lovers, and photographers seeking beautiful landscapes and culinary experiences.",
+  "restaurants": [
+    {
+      "name": "The French Laundry",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin three-star restaurant offering an exquisite multi-course tasting menu showcasing seasonal ingredients and French culinary techniques. Considered one of the best restaurants in the world.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Bistro Jeanty",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Classic French bistro in Yountville featuring traditional dishes like coq au vin and duck confit in an intimate, charming setting. Perfect for authentic French cuisine without the ultra-fine dining atmosphere.",
+      "mustTry": "Coq au vin"
+    },
+    {
+      "name": "Oxbow Market",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Public market in Napa offering diverse food vendors, fresh produce, and casual dining options for breakfast and lunch. Great for affordable, quality meals and local products.",
+      "mustTry": "Acme bread and fresh juices"
+    },
+    {
+      "name": "Ad Hoc",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Casual, family-style restaurant from Thomas Keller serving comfort food with high-quality ingredients and exceptional service. Offers a more relaxed alternative to The French Laundry.",
+      "mustTry": "Fried chicken dinner"
+    },
+    {
+      "name": "Mustard's Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic roadside restaurant in Rutherford known for American comfort food and a lively atmosphere. Features Napa Valley wines and creative burgers.",
+      "mustTry": "Smoky eggplant and grilled fish"
+    },
+    {
+      "name": "Farmstead at Long Meadow Ranch",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant located on a working ranch, serving seasonal cuisine with ingredients from their own farm. Beautiful vineyard and mountain views complement the exceptional food.",
+      "mustTry": "Wood-fired dishes and grass-fed beef"
+    },
+    {
+      "name": "Bouchon Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "French-style bakery and café in Yountville offering pastries, sandwiches, and coffee in a casual, welcoming environment. Perfect for breakfast or light lunch.",
+      "mustTry": "Croissants and pain au chocolat"
+    },
+    {
+      "name": "Terra",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant in St. Helena showcasing innovative California cuisine with Asian influences in an elegant setting. Emphasizes seasonal vegetables and finest local ingredients.",
+      "mustTry": "Heirloom tomato dishes and seafood preparations"
+    },
+    {
+      "name": "Redd",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary fine dining in Yountville offering modern American cuisine crafted from local, seasonal ingredients. Sophisticated atmosphere with an excellent wine list.",
+      "mustTry": "Wood-fired preparations and market vegetables"
+    },
+    {
+      "name": "Celadon",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "California cuisine restaurant in Napa featuring fresh, locally-sourced ingredients prepared with creative techniques. Warm, welcoming atmosphere with an impressive wine selection.",
+      "mustTry": "Seasonal fish and vegetable sides"
+    },
+    {
+      "name": "Taylor's Refresher",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual burger and hot dog stand in St. Helena offering high-quality, affordable meals in a fun outdoor setting. Great for a quick, satisfying lunch.",
+      "mustTry": "Grass-fed burgers and hand-cut fries"
+    },
+    {
+      "name": "Bottega",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Italian restaurant in Yountville featuring fresh pasta, wood-fired pizzas, and traditional Italian dishes in a warm, rustic setting. Excellent wine pairings with an Italian focus.",
+      "mustTry": "House-made pasta and wood-fired meats"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Wine Tasting at Wineries",
+      "category": "Cultural",
+      "description": "Visit renowned wineries throughout Napa Valley for tastings of Cabernet Sauvignon, Pinot Noir, and Chardonnay with knowledgeable sommeliers. Each winery offers unique terroir, history, and architecture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Napa Valley Wine Train",
+      "category": "Cultural",
+      "description": "Historic luxury train journey through vineyard-covered valleys with gourmet multi-course dining and wine pairings. Combines scenic views with fine dining in an elegant, unique setting.",
+      "durationHours": 3,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ballooning Over Vineyards",
+      "category": "Adventure",
+      "description": "Early morning hot air balloon ride offering stunning aerial views of Napa Valley's patchwork vineyards and rolling hills. Includes champagne breakfast and photos from above.",
+      "durationHours": 4,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Hiking at Bothe-Napa Valley State Park",
+      "category": "Outdoor",
+      "description": "Scenic hiking trails through redwood forests and oak woodlands with views of vineyards and mountains. Multiple trail options suitable for various fitness levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Oxbow Market Food Tour",
+      "category": "Culinary",
+      "description": "Guided tour of Napa's premier public market featuring local artisans, farmers, and food vendors with tastings. Learn about local ingredients and sustainable farming practices.",
+      "durationHours": 2,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Art and Architecture Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Yountville's galleries, historic buildings, and public art installations with expert guides. Discover the valley's creative community and contemporary art scene.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Spa Day at Luxury Resorts",
+      "category": "Relaxation",
+      "description": "Indulge in world-class spa treatments featuring mud baths, massages, and wellness therapies. Many spas incorporate local mineral-rich elements and wine-based treatments.",
+      "durationHours": 3,
+      "estimatedCostUSD": 300,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Bicycle Wine Tour",
+      "category": "Outdoor",
+      "description": "Pedal through scenic backroads visiting multiple wineries with expert guides and tastings included. Combines exercise, wine education, and stunning valley views.",
+      "durationHours": 5,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cooking Class at Culinary Schools",
+      "category": "Cultural",
+      "description": "Learn from professional chefs in hands-on classes focusing on seasonal ingredients and wine pairing. Classes include market tours, preparation, and meals.",
+      "durationHours": 4,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Scenic Drive Through Napa Valley",
+      "category": "Outdoor",
+      "description": "Self-guided or organized drive through the valley visiting small towns, vineyards, and scenic overlooks. Stop at vista points, roadside stands, and hidden gems.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Visit Oxbow Preserve and Nature Centers",
+      "category": "Outdoor",
+      "description": "Explore protected natural areas with hiking trails, birdwatching opportunities, and educational programs. Free or low-cost access to pristine natural landscapes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Wine Education and Certification Workshops",
+      "category": "Cultural",
+      "description": "Attend sommelier-led seminars on wine tasting techniques, varietals, and regional characteristics. Perfect for deepening wine knowledge and meeting fellow enthusiasts.",
+      "durationHours": 3,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Castello di Amorosa",
+        "description": "Stunning 121-room castle winery with Tuscan-inspired architecture photographed against vineyard backdrops and dramatic skies.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Oxbow Market Interior",
+        "description": "Vibrant marketplace with colorful produce, interesting characters, and dynamic lighting opportunities for street and food photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light",
+        "category": "Street"
+      },
+      {
+        "name": "Rutherford Dust Trail Vineyards",
+        "description": "Rolling vineyard rows with dramatic perspective leading into misty mornings or golden sunsets over distant hills.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bothe-Napa Valley State Park",
+        "description": "Diverse landscape featuring redwood groves, oak forests, and valley vistas with excellent hiking photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Yountville Architecture",
+        "description": "Historic French-style buildings, shutters, and boutiques creating picturesque European-feel street photography scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning and late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sterling Vineyard Overlook",
+        "description": "Elevated viewpoint offering panoramic valley vistas with layered vineyards and mountain ranges creating depth and scale.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Napa River Walk",
+        "description": "Riverside pathway with reflections, bridges, and natural lighting perfect for landscape and architectural reflection photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Harvest Season Vineyard Rows",
+        "description": "Workers among vineyard rows during harvest season offering dynamic action, color, and cultural photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "September-October mornings",
+        "category": "Street"
+      },
+      {
+        "name": "Calistoga Mud Baths Area",
+        "description": "Geothermal landscape with mineral-rich waters creating unique colors and steam effects, especially during cooler morning hours.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning",
+        "category": "Landscape"
+      },
+      {
+        "name": "Culinary Institute of America Building",
+        "description": "Modern and historic architectural blend with elegant courtyards and professional kitchen spaces showcasing culinary artistry.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday light",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Oxbow Preserve Overlook",
+      "Bothe-Napa Valley State Park Ridge Trail",
+      "Rutherford Dust Trail Vineyards"
+    ],
+    "sunsetSpots": [
+      "Sterling Vineyard Terrace",
+      "Skyline Park Vista Point",
+      "Napa River Walk Bridge"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 for versatile winery and landscape coverage",
+      "70-200mm f/4 for compressed vineyard rows and distant mountain layers",
+      "14-24mm f/2.8 wide angle for expansive valley vistas and architecture",
+      "50mm f/1.8 for intimate street photography and bokeh in markets"
+    ],
+    "goldenHourNotes": "Napa Valley's golden hour is exceptionally photogenic, with warm light illuminating vineyard rows and creating dramatic shadows on rolling hills. The valley's east-west orientation provides excellent sunrise and sunset opportunities. Morning fog in vineyards during cooler months adds atmospheric depth and romance to landscape compositions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 8,
+        "rainfallMM": 115
+      },
+      {
+        "month": 2,
+        "avgTempC": 10,
+        "rainfallMM": 85
+      },
+      {
+        "month": 3,
+        "avgTempC": 13,
+        "rainfallMM": 65
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 50
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 30
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 20
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 5
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 8
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 15
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 40
+      },
+      {
+        "month": 11,
+        "avgTempC": 13,
+        "rainfallMM": 85
+      },
+      {
+        "month": 12,
+        "avgTempC": 9,
+        "rainfallMM": 105
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Napa Valley experiences warm, dry summers (May-September) perfect for wine touring and outdoor activities, with peak season during harvest months (September-October). Winter months (December-February) bring cooler temperatures and rainfall, offering fewer crowds and lower prices, though some outdoor activities are limited.",
+    "summary": "The valley enjoys a Mediterranean climate with mild winters and warm summers, making it accessible year-round. Spring wildflowers and fall harvest season are particularly beautiful, while summer provides consistent sunny weather ideal for outdoor exploration."
+  },
+  "hotels": [
+    {
+      "name": "Napa Valley Budget Inn",
+      "neighborhood": "Napa Downtown",
+      "pricePerNightUSD": 120,
+      "category": "Budget",
+      "description": "Clean, comfortable motel-style accommodation in central Napa offering convenient access to restaurants, markets, and valley attractions at affordable rates."
+    },
+    {
+      "name": "Bardessono",
+      "neighborhood": "Yountville",
+      "pricePerNightUSD": 350,
+      "category": "Mid-range",
+      "description": "LEED-certified hotel featuring contemporary design, heated pools, spa services, and sustainable practices with excellent proximity to Yountville dining and galleries."
+    },
+    {
+      "name": "The Meritage Resort and Spa",
+      "neighborhood": "Napa Valley",
+      "pricePerNightUSD": 850,
+      "category": "Luxury",
+      "description": "Ultra-luxury resort with world-class spa, wine cave experiences, gourmet dining, and breathtaking vineyard views offering comprehensive wine country indulgence."
+    }
+  ]
+}

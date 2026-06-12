@@ -1,0 +1,464 @@
+{
+  "id": "istanbul-turkey",
+  "city": "Istanbul",
+  "country": "Turkey",
+  "region": "Europe",
+  "airportCodes": [
+    "IST",
+    "SAW",
+    "GNY"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 95,
+    "photography": 94,
+    "activities": 92,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 40,
+      "maxPerDayUSD": 75
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 75,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Istanbul Blue Mosque sunset",
+  "summary": "Istanbul is a transcontinental metropolis where East meets West, straddling Europe and Asia across the Bosphorus Strait. This ancient city blends Ottoman heritage, Byzantine grandeur, and vibrant modern culture with world-class cuisine, iconic architecture, and endless exploration opportunities. From the bustling bazaars to serene waterfront views, Istanbul captivates every traveler with its timeless charm and dynamic energy.",
+  "restaurants": [
+    {
+      "name": "Kanaat Lokantası",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A beloved Istanbul institution since 1927 serving authentic Turkish home cooking in a no-frills setting. Famous for its traditional meatballs and comforting stews that exemplify Turkish culinary tradition.",
+      "mustTry": "Köfte (Turkish meatballs) with bulgur pilaf"
+    },
+    {
+      "name": "Nusr-Et",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Legendary steakhouse known for theatrical salt-bae style meat preparation and premium cuts. High-energy dining experience with impeccable service and world-class beef.",
+      "mustTry": "Dry-aged ribeye with signature sea salt finish"
+    },
+    {
+      "name": "Balıklı Rum Ortaköy",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront seafood restaurant with stunning Bosphorus views and fresh daily catches. Perfect for enjoying Turkish meze and grilled fish at sunset.",
+      "mustTry": "Grilled sea bass with lemon and olive oil"
+    },
+    {
+      "name": "Café Canim",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual Turkish breakfast and street food spot in Balat offering börek, menemen, and traditional pastries. Authentic neighborhood feel with budget-friendly prices.",
+      "mustTry": "Cheese börek with Turkish tea"
+    },
+    {
+      "name": "Mikla",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Rooftop fine dining restaurant with panoramic Istanbul views and innovative Turkish-Mediterranean cuisine. Michelin-starred establishment offering an unforgettable gastronomic experience.",
+      "mustTry": "Multi-course tasting menu featuring seasonal ingredients"
+    },
+    {
+      "name": "Tarihi Eminönü Balık Ekmek",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic waterfront fish sandwich stand operating for generations with simple, fresh preparations. The quintessential Istanbul street food experience.",
+      "mustTry": "Balık ekmek (fish sandwich) with fresh catch of the day"
+    },
+    {
+      "name": "Cecca",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Italian restaurant with Turkish influences located in Galata, featuring housemade pasta and seasonal dishes. Elegant atmosphere with excellent wine selection.",
+      "mustTry": "Handmade pasta with Anatolian herbs and white truffle"
+    },
+    {
+      "name": "Çiya Sofrası",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Award-winning restaurant celebrating Turkish regional cuisines with an ever-changing menu of traditional dishes from across Anatolia. Educational and delicious dining experience.",
+      "mustTry": "Rotating regional specialties like lamb with pomegranate"
+    },
+    {
+      "name": "Pandeli",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Legendary restaurant above the Spice Market since 1901 serving classic Ottoman cuisine. The intimate upstairs dining room offers authentic ambiance and traditional flavors.",
+      "mustTry": "Imam baildi (stuffed eggplant) with pilaf"
+    },
+    {
+      "name": "Urfali Kofte",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Simple, unpretentious kofte specialist from Şanlıurfa region serving spiced meatballs with fresh vegetables and flatbread. Authentic street food quality at minimal cost.",
+      "mustTry": "Spiced kofte with onion and parsley salad"
+    },
+    {
+      "name": "Neolokal",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Turkish cuisine in a gallery-like setting celebrating local ingredients and traditional techniques with modern presentation. Intimate chef's counter experience available.",
+      "mustTry": "Wood-fired Turkish meatballs with fermented sauce"
+    },
+    {
+      "name": "Tatlı Kuru Pasta",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Traditional Turkish pastry and baklava shop in the Bazaar offering hundreds of varieties of handmade desserts. Perfect for sampling Turkish sweets at excellent prices.",
+      "mustTry": "Pistachio baklava and Turkish delight assortment"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Hagia Sophia",
+      "category": "Cultural",
+      "description": "UNESCO World Heritage site and architectural masterpiece originally built as a Byzantine church, converted to mosque, museum, and now mosque again. This 1,500-year-old monument features an massive dome and stunning interior with Byzantine mosaics.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Blue Mosque (Sultanahmet Camii)",
+      "category": "Cultural",
+      "description": "Iconic Ottoman mosque featuring six minarets and stunning blue İznik tiles covering the interior walls. One of Istanbul's most recognizable landmarks best visited early morning or evening to avoid crowds.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Topkapi Palace",
+      "category": "Cultural",
+      "description": "Former residence of Ottoman sultans spanning 700,000 square meters with multiple courtyards, gardens, and pavilions filled with artifacts. Houses the Imperial Treasury and Harem with informative guides available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Grand Bazaar (Kapalı Çarşı)",
+      "category": "Outdoor",
+      "description": "Historic covered market dating back 500+ years with 61 streets and over 4,000 shops selling textiles, spices, jewelry, carpets, and souvenirs. A sensory overload representing authentic Istanbul commerce and culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Bosphorus Sunset Cruise",
+      "category": "Outdoor",
+      "description": "Scenic ferry or boat tour along the Bosphorus Strait separating Europe and Asia, passing palaces, fortresses, and vibrant neighborhoods. Best experienced at sunset with refreshments and opportunity to see Istanbul from the water.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Spice Market (Mısır Çarşısı) Food Tour",
+      "category": "Foodie",
+      "description": "Guided exploration of Istanbul's oldest spice market with tastings of Turkish delights, nuts, spices, and local products. Learn about ingredients central to Turkish cuisine while sampling from vendors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Balat Street Exploration & Café Culture",
+      "category": "Outdoor",
+      "description": "Charming historic neighborhood with colorful Greek and Jewish architecture, hidden courtyards, independent boutiques, and artisanal cafés. Perfect for wandering, photography, and authentic local interactions away from tourist crowds.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Turkish Hammam (Bath House Experience)",
+      "category": "Relaxation",
+      "description": "Traditional steam bath ritual involving scrubbing, massage, and full body treatment in historic bathhouse. Therapeutic and culturally immersive experience unique to Turkey.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "relaxation",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Galata Tower Climb & Neighborhood Walk",
+      "category": "Outdoor",
+      "description": "Ascend the medieval tower for panoramic 360-degree views of Istanbul and the Bosphorus, followed by exploration of bohemian Galata district with galleries, vintage shops, and street art. Combined cultural and scenic experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Turkish Carpet Weaving Workshop",
+      "category": "Cultural",
+      "description": "Hands-on class learning traditional carpet and kilim weaving techniques from experienced weavers. Interactive experience providing insight into one of Turkey's most celebrated crafts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Whirling Dervish Ceremony",
+      "category": "Cultural",
+      "description": "Mystical Sufi spinning performance representing spiritual devotion and meditation in mesmerizing circular movements. Deeply artistic and meditative experience rooted in Islamic mysticism.",
+      "durationHours": 1,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Istanbul Street Food Tour & Walking Adventure",
+      "category": "Foodie",
+      "description": "Guided exploration through bustling neighborhoods sampling 8-10 authentic street foods including simit, kokoreç, midye tava, and gözleme while learning about Istanbul's food culture. Interactive culinary adventure.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "foodie",
+        "surprise",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Hagia Sophia Interior",
+        "description": "Breathtaking Byzantine architecture with massive dome, golden light through windows, and intricate calligraphy creating dramatic compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning (8-10am) for softer directional light through windows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Blue Mosque at Dusk",
+        "description": "Iconic six-minaret silhouette against twilight sky with intricate tile work visible when illuminated from within.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset to 30 minutes after (magic hour)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Galata Bridge Street Photography",
+        "description": "Fishermen silhouettes, busy commerce, Bosphorus reflections, and layered city backdrop creating rich street compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon (4-6pm) with side lighting on faces and water",
+        "category": "Street"
+      },
+      {
+        "name": "Balat Colorful Streets",
+        "description": "Vibrant yellow, blue, and pink building facades with hanging laundry, narrow alleys, and authentic daily life scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday (11am-2pm) for saturated color rendering",
+        "category": "Street"
+      },
+      {
+        "name": "Topkapi Palace Gardens",
+        "description": "Manicured gardens with Bosphorus views, Ottoman architecture, and cypress trees creating layered landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour (6-7:30am or 5-6:30pm) for warm tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bosphorus Sunset from Ortaköy",
+        "description": "Ortaköy Mosque silhouette against sunset sky with Bosphorus Bridge creating iconic scenic composition.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset through 15 minutes after",
+        "category": "Landscape"
+      },
+      {
+        "name": "Grand Bazaar Interior",
+        "description": "Complex layered arches, hanging goods, warm tungsten lighting, and busy vendor interactions creating moody atmospheric images.",
+        "difficulty": "Advanced",
+        "bestTime": "Mid-morning (9-11am) for balanced overhead and side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bosphorus from Camlica Hill",
+        "description": "Elevated vantage point showcasing the entire strait with European and Asian coastlines, bridges, and water traffic.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning mist (6-8am) or clear evening light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Spice Market (Mısır Çarşı) Details",
+        "description": "Colorful spice pyramids, dried herbs, ornate measuring scales, and vendor faces creating vibrant detail and cultural documentation.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning (7-10am) with fresh setup and softer indoor light",
+        "category": "Street"
+      },
+      {
+        "name": "Galata Tower Night Photography",
+        "description": "Illuminated medieval tower against dark sky with cityscape lights creating dramatic night composition.",
+        "difficulty": "Advanced",
+        "bestTime": "Twilight (20 minutes after sunset) through 10pm",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Camlica Hill",
+      "Pierre Loti Viewpoint",
+      "Bosphorus from Balata Waterfront"
+    ],
+    "sunsetSpots": [
+      "Ortaköy Mosque and Promenade",
+      "Bosphorus Sunset Cruise",
+      "Galata Tower Upper Level"
+    ],
+    "lensRecommendations": [
+      "14-24mm wide-angle for architectural interiors and Bosphorus vistas",
+      "35-50mm prime for street photography and detail work in bazaars",
+      "70-200mm telephoto for compressed Bosphorus scenes and distant subjects",
+      "16-35mm ultra-wide for night photography and establishing shots"
+    ],
+    "goldenHourNotes": "Istanbul's golden hours are exceptionally photogenic due to the Bosphorus water reflections and architectural variety. Early morning (6-8am) provides cool light perfect for architectural details with minimal crowds, while evening (5-7pm) offers warm tones for sweeping landscape and street scenes. The city's geography means sunrise hits Asian hills first, then European side, allowing photographers to chase light across the strait.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 94
+      },
+      {
+        "month": 2,
+        "avgTempC": 5,
+        "rainfallMM": 77
+      },
+      {
+        "month": 3,
+        "avgTempC": 8,
+        "rainfallMM": 71
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 60
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 40
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 33
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 23
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 21
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 32
+      },
+      {
+        "month": 10,
+        "avgTempC": 18,
+        "rainfallMM": 61
+      },
+      {
+        "month": 11,
+        "avgTempC": 12,
+        "rainfallMM": 92
+      },
+      {
+        "month": 12,
+        "avgTempC": 7,
+        "rainfallMM": 109
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Istanbul experiences a temperate oceanic climate with mild winters and warm summers. Spring (April-May) and Fall (September-October) offer ideal conditions with moderate temperatures, lower rainfall, and pleasant conditions for exploring. Summer (June-August) brings heat and crowds, while winter (December-February) brings rain but fewer tourists.",
+    "summary": "Istanbul's weather is generally temperate, with average temperatures ranging from 5°C in winter to 27°C in summer. The city receives significant rainfall throughout the year with peak precipitation in December-January and driest months in July-August. Best visiting conditions are spring and autumn when temperatures are comfortable and rainfall is moderate."
+  },
+  "hotels": [
+    {
+      "name": "Cheers Hostel Sultanahmet",
+      "neighborhood": "Sultanahmet",
+      "pricePerNightUSD": 22,
+      "category": "Budget",
+      "description": "Social hostel with rooftop views of Blue Mosque, communal kitchen, and common areas perfect for meeting other travelers in the heart of Old City."
+    },
+    {
+      "name": "Vault Karakoy",
+      "neighborhood": "Karakoy",
+      "pricePerNightUSD": 95,
+      "category": "Mid-range",
+      "description": "Trendy design hotel in converted bank vault with rooftop bar overlooking Bosphorus, modern amenities, and proximity to Galata's vibrant dining and nightlife scene."
+    },
+    {
+      "name": "Four Seasons Hotel Sultanahmet",
+      "neighborhood": "Sultanahmet",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury property housed in a restored Ottoman palace with Bosphorus views, Michelin-starred dining, spa services, and unparalleled service in Istanbul's most historic district."
+    }
+  ]
+}

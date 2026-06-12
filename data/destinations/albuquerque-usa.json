@@ -1,0 +1,467 @@
+{
+  "id": "albuquerque-usa",
+  "city": "Albuquerque",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "ABQ",
+    "SAF",
+    "ELP"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 85,
+    "activities": 80,
+    "weather": 82
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Albuquerque desert sunset",
+  "summary": "Albuquerque is a vibrant high-desert city renowned for its stunning natural landscapes, rich cultural heritage, and world-famous hot air balloon festival. Known as the gateway to the American Southwest, it offers exceptional photography opportunities, authentic New Mexican cuisine, and access to outdoor adventures ranging from hiking to rock climbing.",
+  "restaurants": [
+    {
+      "name": "Sadie's of New Mexico",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "An iconic New Mexican restaurant serving traditional red and green chile dishes in a colorful, family-friendly atmosphere. Famous for their fresh salsa and authentic regional cuisine.",
+      "mustTry": "Combination plate with red and green chile"
+    },
+    {
+      "name": "Scalo Northern Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Northern Italian restaurant in a historic building with an extensive wine list and creative seasonal dishes. Offers elegant dining with warm ambiance.",
+      "mustTry": "Pan-seared duck breast with berry reduction"
+    },
+    {
+      "name": "El Pinto",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned New Mexican establishment featuring traditional cuisine in a charming hacienda setting with beautiful gardens. Known for their sopapillas and chile rellenos.",
+      "mustTry": "Sopapillas with honey"
+    },
+    {
+      "name": "Farm & Table",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant showcasing local New Mexico ingredients with creative contemporary cuisine. Features a relaxed atmosphere and excellent cocktails.",
+      "mustTry": "Local green chile burger"
+    },
+    {
+      "name": "Sophia's Place",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual family-owned spot serving authentic New Mexican breakfast and lunch with generous portions. Perfect for experiencing local flavors on a budget.",
+      "mustTry": "Breakfast burrito with red chile"
+    },
+    {
+      "name": "Antiquity Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Romantic fine dining establishment offering French-inspired cuisine with a sophisticated wine program. Known for personalized service and exquisite presentations.",
+      "mustTry": "Beef Wellington"
+    },
+    {
+      "name": "The Range Café",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant celebrating regional New Mexican ingredients with globally-inspired dishes. Features a lively bar scene and creative comfort food.",
+      "mustTry": "Blue corn enchiladas"
+    },
+    {
+      "name": "Frontier Restaurant",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic University of New Mexico meeting place since 1931, serving New Mexican classics and American fare. A local institution with affordable prices and character.",
+      "mustTry": "Red chile stew"
+    },
+    {
+      "name": "Vivace Italian Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate Italian restaurant with handmade pasta and traditional recipes from Northern Italy. Features an extensive wine selection and elegant rustic decor.",
+      "mustTry": "Fresh ravioli with wild mushrooms"
+    },
+    {
+      "name": "Chaia Tacos",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Modern taco spot with creative vegetarian and meat options using high-quality ingredients. Quick service perfect for casual meals.",
+      "mustTry": "Cauliflower tacos"
+    },
+    {
+      "name": "Seasons Rotisserie",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Portuguese-inspired restaurant specializing in perfectly roasted chickens and seasonal sides. Known for generous portions and warm hospitality.",
+      "mustTry": "Half rotisserie chicken with piri piri sauce"
+    },
+    {
+      "name": "Sandia Peak Tramway Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse at the top of Sandia Peak offering panoramic city views and prime cuts of beef. Combines fine dining with spectacular scenery.",
+      "mustTry": "Prime ribeye steak"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Albuquerque International Balloon Fiesta",
+      "category": "Outdoor",
+      "description": "The world's largest hot air balloon festival held annually in October, featuring over 600 balloons ascending into the sky. A spectacular and colorful experience not to be missed.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sandia Peak Tramway",
+      "category": "Outdoor",
+      "description": "Scenic aerial tramway ascending 2.7 miles up Sandia Peak with panoramic views of the city and surrounding landscape. Provides access to hiking trails and mountain dining.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "New Mexico Museum of Art",
+      "category": "Cultural",
+      "description": "World-class museum featuring contemporary and traditional New Mexican art in a beautiful building inspired by Santa Fe architecture. Includes works by renowned regional artists.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rio Grande Nature Preserve",
+      "category": "Outdoor",
+      "description": "Protected riparian area perfect for birdwatching, hiking, and nature photography along the Rio Grande. Free access to walking trails and wildlife viewing opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kasha-Katuwe Tent Rocks National Monument",
+      "category": "Adventure",
+      "description": "Stunning canyonland with distinctive cone-shaped rock formations north of Albuquerque featuring scenic hiking trails. Offers unique landscape photography opportunities.",
+      "durationHours": 4,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Old Town Albuquerque",
+      "category": "Cultural",
+      "description": "Historic neighborhood featuring adobe buildings, galleries, shops, and restaurants around a charming plaza. The heart of historic Albuquerque with colonial architecture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Indian Pueblo Cultural Center",
+      "category": "Cultural",
+      "description": "Museum and cultural center dedicated to New Mexico's 19 pueblos with exhibits, demonstrations, and a restaurant. Provides deep insight into indigenous heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Petroglyph National Monument",
+      "category": "Outdoor",
+      "description": "Ancient rock art carved into volcanic basalt by ancestors of modern pueblos, with over 24,000 petroglyphs. Multiple trails showcasing different petroglyphic sites.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "American International Rattlesnake Museum",
+      "category": "Indoor",
+      "description": "Quirky and fascinating museum housing the world's largest collection of live rattlesnakes and reptile-related artifacts. Educational and entertaining experience.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Climbing at Cochiti Mesa",
+      "category": "Adventure",
+      "description": "Premier rock climbing destination with hundreds of routes suitable for all skill levels in beautiful desert terrain. Access to dramatic canyon views and challenging climbing.",
+      "durationHours": 5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bachechi Open Space",
+      "category": "Outdoor",
+      "description": "Protected open space with extensive trail system for hiking, mountain biking, and nature walks. Free access to diverse terrain and desert wildlife.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nob Hill District Shopping and Dining",
+      "category": "Indoor",
+      "description": "Eclectic neighborhood featuring vintage shops, art galleries, quirky cafes, and craft breweries. Perfect for casual exploration and discovering local culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Sandia Peak at Sunrise",
+        "description": "Golden light hits the distinctive mountain providing stunning color gradients across the peak and surrounding landscape.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour sunrise, September-March",
+        "category": "Landscape"
+      },
+      {
+        "name": "Old Town Plaza at Dusk",
+        "description": "Historic adobe buildings are beautifully lit by warm sunset light creating dramatic shadows and architectural details.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Petroglyph National Monument Petroglyphs",
+        "description": "Ancient rock carvings displayed on volcanic basalt with dramatic canyon backlighting and shadow details.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rio Grande Nature Preserve Birdlife",
+        "description": "Riparian habitat attracting diverse bird species perfect for wildlife photography with water reflections.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning, year-round",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Kasha-Katuwe Tent Rocks",
+        "description": "Distinctive cone-shaped rock formations create unique geometric patterns and warm earth tones ideal for landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning, golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Albuquerque Balloon Fiesta Launch",
+        "description": "Colorful hot air balloons creating vibrant patterns against the morning sky and surrounding desert landscape.",
+        "difficulty": "Beginner",
+        "bestTime": "October, dawn launch time",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Albuquerque Street Art",
+        "description": "Vibrant murals and graffiti art throughout downtown reflecting local culture and creativity.",
+        "difficulty": "Beginner",
+        "bestTime": "Afternoon for side lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Nob Hill District Vintage Architecture",
+        "description": "Historic mid-century buildings and vintage storefronts offering charming architectural details and nostalgic appeal.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cochiti Reservoir Desert Landscape",
+        "description": "Water reservoir surrounded by desert terrain creating contrast and reflection opportunities with dramatic light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour, sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Indian Pueblo Cultural Center Plaza",
+        "description": "Traditional pueblo architecture with authentic adobe structures and indigenous art creating cultural and architectural photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Sandia Peak Tramway",
+      "Kasha-Katuwe Tent Rocks",
+      "Petroglyph National Monument"
+    ],
+    "sunsetSpots": [
+      "Old Town Plaza",
+      "Sandia Peak Tramway",
+      "Rio Grande Nature Preserve"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 for versatile landscape and architecture work with excellent light gathering",
+      "14-24mm ultra-wide for expansive desert vistas and rock formation perspectives",
+      "70-200mm f/2.8 telephoto for wildlife photography and compressed landscape compositions",
+      "50mm f/1.8 prime for intimate street photography and cultural documentation"
+    ],
+    "goldenHourNotes": "Albuquerque's high desert location at 5,312 feet elevation provides crystal-clear air and extended golden hours year-round. The surrounding landscape transitions dramatically during golden hour, with dramatic color shifts from warm oranges to purples across the desert. Sunrise light is particularly spectacular hitting Sandia Peak, while sunset offers excellent opportunities throughout the Old Town and along the Rio Grande.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 6
+      },
+      {
+        "month": 2,
+        "avgTempC": 8,
+        "rainfallMM": 5
+      },
+      {
+        "month": 3,
+        "avgTempC": 12,
+        "rainfallMM": 5
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 5
+      },
+      {
+        "month": 5,
+        "avgTempC": 23,
+        "rainfallMM": 6
+      },
+      {
+        "month": 6,
+        "avgTempC": 29,
+        "rainfallMM": 15
+      },
+      {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 45
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 42
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 28
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 10
+      },
+      {
+        "month": 11,
+        "avgTempC": 12,
+        "rainfallMM": 7
+      },
+      {
+        "month": 12,
+        "avgTempC": 6,
+        "rainfallMM": 7
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Albuquerque experiences four distinct seasons with mild winters and warm summers. Spring and fall offer the most pleasant weather for outdoor activities with comfortable temperatures and lower precipitation.",
+    "summary": "The city enjoys 310+ days of sunshine annually with a semi-arid desert climate. Summers are hot and occasionally see afternoon thunderstorms, while winters are mild with occasional snow, making it ideal for year-round exploration."
+  },
+  "hotels": [
+    {
+      "name": "Econo Lodge Old Town",
+      "neighborhood": "Old Town",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Simple and clean budget hotel in the heart of historic Old Town with convenient access to galleries, restaurants, and cultural attractions."
+    },
+    {
+      "name": "Albuquerque Marriott",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 135,
+      "category": "Mid-range",
+      "description": "Contemporary mid-range hotel downtown with modern amenities, on-site dining, and easy access to museums, galleries, and shopping."
+    },
+    {
+      "name": "Hyatt Regency Albuquerque",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Upscale luxury hotel featuring elegant rooms, fine dining restaurants, spa services, and stunning views of the city and surrounding mountains."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1692386705905-f3a377978740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBbGJ1cXVlcnF1ZSUyMGRlc2VydCUyMHN1bnNldHxlbnwxfDB8fHwxNzgxMzAzMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

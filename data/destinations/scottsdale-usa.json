@@ -1,0 +1,466 @@
+{
+  "id": "scottsdale-usa",
+  "city": "Scottsdale",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PHX",
+    "DVT",
+    "AZA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 92,
+    "photography": 88,
+    "activities": 90,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Scottsdale Arizona desert sunset",
+  "summary": "Scottsdale is a vibrant Arizona destination renowned for world-class dining, luxury resorts, and stunning desert landscapes. With pristine galleries, championship golf courses, and easy access to iconic landmarks like Camelback Mountain, it offers the perfect blend of sophistication and outdoor adventure. The city's perfect winter weather and artistic culture make it a premier destination for travelers seeking both relaxation and exploration.",
+  "restaurants": [
+    {
+      "name": "FnB",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning contemporary American cuisine in Old Town Scottsdale featuring locally sourced ingredients and innovative presentations. The intimate setting and chef's tasting menu provide an unforgettable culinary experience.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Dominick's Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Italian steakhouse with an extensive wine collection and classic recipes served in an elegant Old World setting. Known for prime cuts and impeccable service in a romantic atmosphere.",
+      "mustTry": "Prime bone-in ribeye"
+    },
+    {
+      "name": "Sushi Roku",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary Japanese restaurant offering premium sushi, sake, and creative Asian fusion dishes in a modern setting. The omakase experience showcases the chef's finest selections with impeccable technique.",
+      "mustTry": "Omakase tasting menu"
+    },
+    {
+      "name": "The Blind Pig",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual American gastropub with craft cocktails and elevated comfort food in Old Town Scottsdale. Features a welcoming atmosphere and creative seasonal menu.",
+      "mustTry": "House-made burgers and craft beer selection"
+    },
+    {
+      "name": "Prado",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Spanish-inspired restaurant showcasing Mediterranean flavors with an exceptional wine program and sophisticated ambiance. Known for fresh seafood and elegant presentations.",
+      "mustTry": "Paella de marisco"
+    },
+    {
+      "name": "Lon's at Hermosa",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Desert fine dining offering contemporary American cuisine with spectacular views of the Arizona landscape. The romantic setting and exceptional service create memorable dining experiences.",
+      "mustTry": "Arizona lamb with seasonal vegetables"
+    },
+    {
+      "name": "Otro Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual coffee shop and cafe serving excellent espresso drinks, pastries, and light breakfast fare. Popular with locals for its friendly atmosphere and quality coffee.",
+      "mustTry": "Cappuccino and fresh croissants"
+    },
+    {
+      "name": "Los Favoritos Taco Shop",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Mexican taqueria serving traditional street tacos, carne asada, and fresh salsas in a casual setting. A local favorite for genuine Mexican cuisine at budget-friendly prices.",
+      "mustTry": "Carne asada tacos with handmade tortillas"
+    },
+    {
+      "name": "Cowboy Ciao",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Eclectic fusion restaurant blending southwestern and global influences with an emphasis on fresh ingredients and bold flavors. Known for creative dishes and an inviting Old Town location.",
+      "mustTry": "BBQ duck tacos with cherry hazelnut mole"
+    },
+    {
+      "name": "The Taco Shop",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual, quick-service taco restaurant offering fresh, affordable Mexican street food with multiple locations. Perfect for quick lunch or dinner with authentic flavors.",
+      "mustTry": "Fish tacos with lime crema"
+    },
+    {
+      "name": "Mister S Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern comfort food restaurant showcasing seasonal menus with locally sourced ingredients in a casual, friendly setting. Features elevated takes on classic American dishes.",
+      "mustTry": "House-made pasta with seasonal vegetables"
+    },
+    {
+      "name": "Citizen Public House",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American gastropub featuring craft beers, elevated pub food, and a vibrant atmosphere in Old Town Scottsdale. Known for quality ingredients and creative preparations.",
+      "mustTry": "Crispy chicken sandwich with spicy mayo"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Camelback Mountain Hike",
+      "category": "Outdoor",
+      "description": "Iconic 2.5-mile summit hike offering stunning 360-degree views of the Phoenix Valley and surrounding desert mountains. The challenging trail rewards visitors with panoramic vistas of Scottsdale and beyond.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Old Town Scottsdale Gallery Walk",
+      "category": "Cultural",
+      "description": "Self-guided exploration of over 100 galleries, shops, and restaurants in historic Old Town featuring southwestern art, contemporary pieces, and Native American crafts. The charming brick streets offer perfect opportunities for browsing and photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Desert Botanical Garden",
+      "category": "Outdoor",
+      "description": "World-renowned 140-acre garden showcasing over 50,000 plants from deserts around the world including cacti, succulents, and flowering plants. The stunning landscape photography opportunities and guided tours make it an essential Scottsdale experience.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Taliesin West Frank Lloyd Wright Home Tour",
+      "category": "Cultural",
+      "description": "Historic winter home and school of renowned architect Frank Lloyd Wright featuring stunning desert modernist design and architecture. Guided tours reveal Wright's innovative design principles and influence on American architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Papago Park Sunset Hike",
+      "category": "Outdoor",
+      "description": "Moderate 1-mile round trip trail leading to exceptional sunset views over Scottsdale and Phoenix. Popular photography location with accessible terrain perfect for capturing golden hour colors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Scottsdale Museum of Contemporary Art",
+      "category": "Cultural",
+      "description": "World-class contemporary art museum featuring rotating exhibitions, installations, and permanent collections in a striking modernist building. The museum's architecture and outdoor plaza are ideal for photography enthusiasts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Horseback Riding Desert Tour",
+      "category": "Adventure",
+      "description": "Guided horseback riding through pristine Sonoran Desert landscape with experienced wranglers leading scenic trails. Experience authentic desert terrain and wildlife while enjoying the natural beauty of the region.",
+      "durationHours": 3,
+      "estimatedCostUSD": 110,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Jeep Expedition to Superstition Mountains",
+      "category": "Adventure",
+      "description": "Off-road adventure exploring rugged desert terrain and scenic mountain vistas with professional guides sharing regional history and geology. Thrilling ride through iconic Arizona landscape with abundant photo opportunities.",
+      "durationHours": 4,
+      "estimatedCostUSD": 125,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Championship Golf Course Round",
+      "category": "Outdoor",
+      "description": "Scottsdale hosts over 200 championship golf courses ranging from public to exclusive clubs with desert and manicured course designs. World-class facilities attract golfers of all skill levels with stunning views and challenging play.",
+      "durationHours": 5,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Old Town Scottsdale Historic District Evening Stroll",
+      "category": "Cultural",
+      "description": "Leisurely evening walk through charming historic streets lined with galleries, restaurants, boutiques, and art installations lit up beautifully at night. Perfect for soaking in local culture and finding dinner spots.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Arizona Sunburst Cactus Botanical Walking Tour",
+      "category": "Outdoor",
+      "description": "Guided nature walk exploring diverse desert flora including rare cacti, wildflowers, and native plants with expert naturalists explaining desert ecology. Educational experience with excellent wildlife and botanical photography opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Scottsdale Spa Relaxation Experience",
+      "category": "Relaxation",
+      "description": "World-class spa treatments and wellness centers offering massages, facials, and desert-inspired therapies in luxury resort settings. Perfect way to unwind after outdoor adventures with rejuvenating services.",
+      "durationHours": 2,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Camelback Mountain Summit",
+        "description": "Iconic desert peak offering panoramic valley views and stunning light during golden hour with dramatic mountain silhouettes.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise and sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Desert Botanical Garden Pathways",
+        "description": "Perfectly composed desert plant arrangements with dramatic cacti and flowering succulents creating vibrant color and texture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light and late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Old Town Scottsdale Historic Streets",
+        "description": "Charming brick-lined streets with galleries, storefronts, and art installations perfect for street photography and architectural details.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and evening",
+        "category": "Street"
+      },
+      {
+        "name": "Papago Park Red Rock Formation",
+        "description": "Striking red sandstone formations with spectacular sunset colors and accessible viewpoints for landscape and nature photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Frank Lloyd Wright's Taliesin West Architecture",
+        "description": "Modernist architectural masterpiece with clean lines, geometric shapes, and dramatic desert views offering composition-rich shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning and afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Scottsdale Civic Center Plaza",
+        "description": "Contemporary urban landscape with striking architectural elements, water features, and desert landscaping for modern composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "McCormick-Stillman Railroad Park",
+        "description": "Vintage trains and desert landscape combining industrial heritage with natural scenery for unique compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light",
+        "category": "Street"
+      },
+      {
+        "name": "Sonoran Desert Landscape Views",
+        "description": "Vast desert terrain with saguaro cacti, creosote bushes, and mountains creating expansive landscape photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Old Town Scottsdale Night Photography",
+        "description": "Gallery lights, shop windows, and street lamps creating vibrant night scenes with neon and ambient light sources.",
+        "difficulty": "Advanced",
+        "bestTime": "Night and twilight",
+        "category": "Night"
+      },
+      {
+        "name": "Superstition Mountain Range Vistas",
+        "description": "Rugged mountain peaks with desert foreground creating dramatic layered compositions and striking silhouettes at sunrise and sunset.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise and sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Camelback Mountain Summit",
+      "Papago Park East Overlook",
+      "Superstition Mountain Range Views"
+    ],
+    "sunsetSpots": [
+      "Camelback Mountain Summit",
+      "Papago Park Red Rock Formation",
+      "Desert Botanical Garden Upper Terraces"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive desert landscapes and architectural compositions",
+      "70-200mm telephoto for compressed mountain layers and distant peak silhouettes",
+      "50mm prime for street photography in Old Town with shallow depth of field for subject isolation",
+      "24-70mm versatile zoom for hiking flexibility and mixed scene photography throughout the day"
+    ],
+    "goldenHourNotes": "Scottsdale's desert environment creates exceptional golden hour light lasting 45-60 minutes before sunset with rich warm tones reflecting off red rocks and sandy terrain. The low humidity and clear skies ensure vibrant colors and minimal haze, making it an ideal destination for sunrise and sunset photography. Plan shoots at Camelback Mountain, Papago Park, and Superstition Mountains for maximum impact during these magical hours.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 13,
+        "rainfallMM": 8
+      },
+      {
+        "month": 2,
+        "avgTempC": 15,
+        "rainfallMM": 8
+      },
+      {
+        "month": 3,
+        "avgTempC": 19,
+        "rainfallMM": 3
+      },
+      {
+        "month": 4,
+        "avgTempC": 25,
+        "rainfallMM": 2
+      },
+      {
+        "month": 5,
+        "avgTempC": 32,
+        "rainfallMM": 1
+      },
+      {
+        "month": 6,
+        "avgTempC": 38,
+        "rainfallMM": 12
+      },
+      {
+        "month": 7,
+        "avgTempC": 40,
+        "rainfallMM": 35
+      },
+      {
+        "month": 8,
+        "avgTempC": 39,
+        "rainfallMM": 30
+      },
+      {
+        "month": 9,
+        "avgTempC": 36,
+        "rainfallMM": 20
+      },
+      {
+        "month": 10,
+        "avgTempC": 28,
+        "rainfallMM": 8
+      },
+      {
+        "month": 11,
+        "avgTempC": 20,
+        "rainfallMM": 5
+      },
+      {
+        "month": 12,
+        "avgTempC": 13,
+        "rainfallMM": 10
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "Scottsdale experiences mild, pleasant winters (December-February) with daytime temperatures around 13-15°C, making it peak tourism season. Summers are intensely hot (June-August) with temperatures exceeding 38°C, though monsoon season (July-August) brings dramatic afternoon storms.",
+    "summary": "Winter months offer perfect weather for outdoor exploration and photography with clear skies and comfortable temperatures. Summer brings extreme heat but stunning monsoon storms, while spring and fall provide pleasant conditions with fewer crowds."
+  },
+  "hotels": [
+    {
+      "name": "Budget Inn Scottsdale",
+      "neighborhood": "Tempe/Downtown Adjacent",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Clean, functional hotel with basic amenities and convenient location near Old Town Scottsdale, perfect for budget-conscious travelers."
+    },
+    {
+      "name": "Scottsdale Plaza Resort",
+      "neighborhood": "Old Town Scottsdale",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Contemporary resort featuring pools, spa services, and prime Old Town location with easy access to galleries, restaurants, and shops."
+    },
+    {
+      "name": "Fairmont Scottsdale Princess",
+      "neighborhood": "Paradise Valley",
+      "pricePerNightUSD": 420,
+      "category": "Luxury",
+      "description": "World-class luxury resort with championship golf courses, multiple pools, fine dining, full-service spa, and stunning desert landscape views."
+    }
+  ]
+}

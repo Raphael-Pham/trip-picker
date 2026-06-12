@@ -1,0 +1,456 @@
+{
+  "id": "grand-canyon-usa",
+  "city": "Grand Canyon",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "LAS",
+    "PHX",
+    "FLG"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 60,
+    "photography": 98,
+    "activities": 95,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Grand Canyon sunset landscape",
+  "summary": "The Grand Canyon stands as one of Earth's most spectacular natural wonders, carved by the Colorado River over millions of years to reveal vibrant layers of geological history. This iconic destination offers breathtaking vistas, world-class hiking, and unparalleled photography opportunities across its vast expanse of towering cliffs and deep canyons.",
+  "restaurants": [
+    {
+      "name": "Bright Angel Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Located at the historic Bright Angel Lodge, this establishment offers casual dining with views of the canyon. The menu features Southwestern cuisine and classic American dishes.",
+      "mustTry": "Canyon-style pork chops"
+    },
+    {
+      "name": "Grand Canyon Village Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick and affordable pizza joint serving visitors at the village. Popular for grab-and-go meals before hiking adventures.",
+      "mustTry": "Pepperoni pizza slice"
+    },
+    {
+      "name": "El Tovar Dining Room",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale restaurant in the historic El Tovar Hotel featuring elevated Southwestern and contemporary American cuisine. Offers stunning canyon views with dinner service.",
+      "mustTry": "Pan-seared Colorado trout"
+    },
+    {
+      "name": "Tusayan Diner",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic local diner serving hearty American fare in nearby Tusayan. A favorite among park staff and regular visitors for its generous portions and friendly atmosphere.",
+      "mustTry": "Hopi blue corn pancakes"
+    },
+    {
+      "name": "Arizona Room at Bright Angel Lodge",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual dining spot with excellent views and Southwestern specialties. Known for its relaxed atmosphere and quality comfort food.",
+      "mustTry": "Navajo-inspired beef stew"
+    },
+    {
+      "name": "Masala Indian Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Located in Tusayan, this restaurant brings Indian cuisine to the Grand Canyon area with authentic recipes and spiced dishes.",
+      "mustTry": "Tandoori chicken"
+    },
+    {
+      "name": "Canyon Village Market & Deli",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual market with prepared sandwich and salad options for picnic-goers and day hikers. Great for budget-conscious travelers.",
+      "mustTry": "Turkey and avocado sandwich"
+    },
+    {
+      "name": "Phantom Ranch Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Historic dining establishment accessible only to ranch guests and requires prior reservation. Offers family-style meals with mule-served canyon descent experience.",
+      "mustTry": "Prime rib dinner"
+    },
+    {
+      "name": "Gerardo's Mexican Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional Mexican restaurant in Tusayan featuring homemade tortillas and authentic recipes passed through generations.",
+      "mustTry": "Chile rellenos"
+    },
+    {
+      "name": "The Pines Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mountain lodge-style dining in Williams near Grand Canyon South Rim. Serves steaks, seafood, and Southwestern specialties in rustic ambiance.",
+      "mustTry": "Wild salmon fillet"
+    },
+    {
+      "name": "Cedar Ridge Pizzeria",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy pizzeria in Williams offering wood-fired pizzas and Italian pasta dishes at reasonable prices.",
+      "mustTry": "Margherita pizza"
+    },
+    {
+      "name": "The Grand Canyon Restaurant at Grand Hotel",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining featuring prime cuts and fresh seafood with an emphasis on presentation and service excellence.",
+      "mustTry": "Filet mignon with canyon herb butter"
+    }
+  ],
+  "activities": [
+    {
+      "name": "South Rim Scenic Loop Drive",
+      "category": "Outdoor",
+      "description": "Self-guided scenic drive featuring 20+ pullout points with stunning viewpoints along the South Rim. Accessible by personal vehicle or free shuttle service.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bright Angel Trail Hiking",
+      "category": "Adventure",
+      "description": "One of the most iconic trails descending 9.3 miles into the canyon with water stations and mule rests. Options range from 1-mile day hikes to multi-day backpacking.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunrise Hike to Mather Point",
+      "category": "Outdoor",
+      "description": "Short 0.5-mile morning hike to one of the park's best sunrise viewpoints. Popular with photographers for capturing first light illuminating the canyon layers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Mule Ride Adventure",
+      "category": "Adventure",
+      "description": "Guided mule rides descending into the canyon, ranging from 3-hour rides to overnight Phantom Ranch treks. Requires advance reservation.",
+      "durationHours": 8,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Colorado River Rafting Tour",
+      "category": "Adventure",
+      "description": "Guided whitewater rafting trips on the Colorado River offering stunning canyon views, rapids, and access to hidden waterfalls and archaeological sites.",
+      "durationHours": 8,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rim Trail Walk",
+      "category": "Outdoor",
+      "description": "Easy 13-mile scenic walking trail along the South Rim with paved sections. Offers diverse viewpoints without significant elevation gain.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Grand Canyon Visitor Center Experience",
+      "category": "Cultural",
+      "description": "Interactive museum and educational facility with exhibits on geology, Native American history, and natural ecosystems. Features free ranger-led talks and programs.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Photography Workshop with Local Guides",
+      "category": "Adventure",
+      "description": "Guided photography tours focusing on optimal composition, lighting, and location. Caters to all skill levels with small group instruction.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Hermits Rest Historic Site Tour",
+      "category": "Cultural",
+      "description": "Visit the historic 1914 building and explore Hermits Rest Trail, a scenic path along the South Rim with architectural and geological significance.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Desert Botanical Garden at Williams",
+      "category": "Family",
+      "description": "Located near Williams, this garden showcases Arizona native plants and desert flora with walking paths and educational displays.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Stargazing and Night Sky Viewing",
+      "category": "Outdoor",
+      "description": "Grand Canyon is an International Dark Sky Park offering exceptional stargazing opportunities. Ranger-led programs and self-guided night viewing available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Cross-Country Mountain Biking",
+      "category": "Adventure",
+      "description": "Guided or self-guided mountain biking trails around the rim and adjacent areas. Various difficulty levels from beginner to expert routes.",
+      "durationHours": 4,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Hopi Point",
+        "description": "One of the highest points on the South Rim offering panoramic views perfect for capturing the canyon's vast expanse and layered geology.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mather Point",
+        "description": "Premier sunrise location providing dramatic first-light illumination across the canyon's varied terrain and color transitions.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Yavapai Point",
+        "description": "Elevated viewpoint with interpretive displays and clear sightlines for capturing canyon depths and geological formations.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-day light for texture",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bright Angel Point Trail",
+        "description": "Elevated hiking trail offering multiple vantage points with close-ups of canyon walls and the Colorado River far below.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Powell Point",
+        "description": "Remote viewpoint featuring dramatic cliff faces and deep canyon shadows ideal for contrast and depth photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Shoshone Point",
+        "description": "Secluded point accessible only by 1-mile walk offering intimate canyon views without crowds, perfect for solitude photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset hours",
+        "category": "Landscape"
+      },
+      {
+        "name": "El Tovar Historic Hotel Grounds",
+        "description": "Historic building and manicured grounds combine architecture with stunning canyon backdrop for compositional layering.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Desert View Watchtower",
+        "description": "Historic 1932 stone tower framing canyon vistas through architectural elements, offering unique foreground interest.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Havasu Falls Triple Cascade",
+        "description": "Hidden waterfall with turquoise pools requiring backcountry hiking, offering unique water and mineral color contrasts.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday light on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rim Trail Overlooks Series",
+        "description": "Sequential pullouts along the Rim Trail each offering different perspectives and lighting conditions throughout the day.",
+        "difficulty": "Beginner",
+        "bestTime": "Variable with sun position",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Mather Point",
+      "Hopi Point",
+      "Desert View Watchtower"
+    ],
+    "sunsetSpots": [
+      "Hopi Point",
+      "Pima Point",
+      "Shoshone Point"
+    ],
+    "lensRecommendations": [
+      "14-24mm ultra-wide for expansive landscape captures and canyon depth",
+      "70-200mm telephoto for compressed perspectives and distant geological detail",
+      "50mm prime for architectural elements and personal perspectives with shallow depth of field",
+      "24-70mm standard zoom for versatility across changing light conditions and subject distances"
+    ],
+    "goldenHourNotes": "Golden hour at Grand Canyon is exceptionally photogenic with warm light illuminating the canyon walls in deep oranges and reds. The North Rim receives different light angles than South Rim, offering photographers multiple locations to chase ideal lighting. Shadows cast by canyon walls create dramatic contrast, making technical exposure metering critical for preserving highlight and shadow detail.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 5,
+        "rainfallMM": 13
+      },
+      {
+        "month": 2,
+        "avgTempC": 7,
+        "rainfallMM": 13
+      },
+      {
+        "month": 3,
+        "avgTempC": 10,
+        "rainfallMM": 10
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 8
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 5
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 13
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 40
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 38
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 25
+      },
+      {
+        "month": 10,
+        "avgTempC": 18,
+        "rainfallMM": 10
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 8
+      },
+      {
+        "month": 12,
+        "avgTempC": 6,
+        "rainfallMM": 15
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer ideal conditions with mild temperatures, low precipitation, and excellent visibility for photography. Summer brings intense heat with afternoon thunderstorms, while winter offers clear skies but cold temperatures and occasional snow at higher elevations.",
+    "summary": "The South Rim elevation of 2,134 meters experiences moderate seasonal variation with cool winters and warm summers. Weather can change rapidly with sudden afternoon thunderstorms possible during July and August monsoon season."
+  },
+  "hotels": [
+    {
+      "name": "Grand Canyon Village Budget Inn",
+      "neighborhood": "Grand Canyon Village South Rim",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Basic but comfortable rooms in the village core offering convenient access to restaurants and visitor facilities at economy pricing."
+    },
+    {
+      "name": "Bright Angel Lodge",
+      "neighborhood": "Grand Canyon Village South Rim",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Historic 1935 lodge with rustic charm, fireplace lounge, and excellent restaurant offering mid-range comfort with authentic canyon hospitality."
+    },
+    {
+      "name": "El Tovar Hotel",
+      "neighborhood": "Grand Canyon Village South Rim",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Historic luxury hotel built in 1905 featuring elegant suites, fine dining, and direct canyon views from this iconic clifftop establishment."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1615551043360-33de8b5f410c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxHcmFuZCUyMENhbnlvbiUyMHN1bnNldCUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzgxMzAzMzY0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

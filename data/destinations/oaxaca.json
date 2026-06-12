@@ -1,0 +1,89 @@
+{
+  "id": "oaxaca",
+  "city": "Oaxaca",
+  "country": "Mexico",
+  "region": "North America",
+  "airportCodes": ["OAX", "MEX"],
+  "hiddenGem": true,
+  "tripStyles": ["hidden-gems", "foodie", "photography"],
+  "scores": { "cost": 88, "food": 95, "photography": 83, "activities": 78, "weather": 80 },
+  "budgetRanges": [
+    { "level": "budget", "minPerDayUSD": 30, "maxPerDayUSD": 60 },
+    { "level": "mid", "minPerDayUSD": 60, "maxPerDayUSD": 130 },
+    { "level": "luxury", "minPerDayUSD": 130, "maxPerDayUSD": 300 }
+  ],
+  "unsplashQuery": "Oaxaca Mexico colorful market",
+  "heroImageUrl": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=1600&q=80",
+  "summary": "Mexico's culinary capital — mezcal, mole negro, vibrant markets, and ancient Zapotec ruins in the Sierra Norte mountains.",
+  "restaurants": [
+    { "name": "Casa Oaxaca", "category": "Fine Dining", "priceRange": "$$$", "description": "Alejandro Ruiz's rooftop restaurant reimagining Oaxacan classics with market ingredients.", "mustTry": "Mole negro with turkey" },
+    { "name": "Mercado 20 de Noviembre", "category": "Local Specialty", "priceRange": "$", "description": "The smoky corridor of Pasillo de Carnes Asadas — charcoal-grilled meats and tlayudas.", "mustTry": "Tasajo tlayuda" },
+    { "name": "Los Danzantes", "category": "Midrange", "priceRange": "$$", "description": "Courtyard restaurant and mezcal distillery in the historic centre.", "mustTry": "Tetela de chile pasilla" },
+    { "name": "El Tule", "category": "Budget", "priceRange": "$", "description": "Family-run comida corrida steps from the great tree — three courses for $4.", "mustTry": "Sopa de guías" },
+    { "name": "Pitiona", "category": "Fine Dining", "priceRange": "$$$", "description": "Tasting menu exploring the seven moles and Oaxacan biodiversity.", "mustTry": "Seven moles tasting" },
+    { "name": "Crillo", "category": "Midrange", "priceRange": "$$", "description": "Modern Oaxacan in a colonial mansion — excellent natural wine list.", "mustTry": "Chapulines guacamole" },
+    { "name": "La Biznaga", "category": "Midrange", "priceRange": "$$", "description": "Garden restaurant near the Zócalo — traditional recipes executed impeccably.", "mustTry": "Enfrijoladas" },
+    { "name": "El Destilado", "category": "Fine Dining", "priceRange": "$$$", "description": "15-course omakase pairing Oaxacan flavours with international technique.", "mustTry": "Chef's tasting menu" },
+    { "name": "Mezcalería In Situ", "category": "Local Specialty", "priceRange": "$$", "description": "500+ mezcals from small producers — the world's finest agave spirits bar.", "mustTry": "Tobala mezcal flight" },
+    { "name": "Doña Esthela", "category": "Budget", "priceRange": "$", "description": "Legendary breakfast spot in Tlacolula market — the best tlayuda in the valley.", "mustTry": "Enfrijolada breakfast" },
+    { "name": "Zandunga", "category": "Midrange", "priceRange": "$$", "description": "Isthmus Zapotec cuisine — mole amarillo and green leaf tamales.", "mustTry": "Tamales de rajas" },
+    { "name": "Origen", "category": "Fine Dining", "priceRange": "$$$", "description": "Rodolfo Castellanos' creative take on pre-Hispanic ingredients and techniques.", "mustTry": "Hoja santa cured fish" }
+  ],
+  "activities": [
+    { "name": "Monte Albán Zapotec Ruins", "category": "Cultural", "description": "Ancient hilltop city — pyramids and ballcourt with panoramic valley views.", "durationHours": 4, "estimatedCostUSD": 6, "bestFor": ["photography", "standard"] },
+    { "name": "Tlacolula Sunday Market", "category": "Cultural", "description": "The most authentic village market in Mexico — textiles, mezcal, and meats.", "durationHours": 4, "estimatedCostUSD": 5, "bestFor": ["photography", "foodie"] },
+    { "name": "Mezcal Distillery Tour", "category": "Outdoor", "description": "Visit a palenque in the hills to see agave roasting, crushing, and fermentation.", "durationHours": 4, "estimatedCostUSD": 35, "bestFor": ["foodie", "standard"] },
+    { "name": "Hierve el Agua Petrified Falls", "category": "Outdoor", "description": "Swim in a cliff-edge mineral pool overlooking a vast valley — otherworldly.", "durationHours": 5, "estimatedCostUSD": 20, "bestFor": ["photography", "adventure"] },
+    { "name": "Mole Cooking Class", "category": "Indoor", "description": "Learn to make Oaxacan mole negro from scratch with a local abuela.", "durationHours": 5, "estimatedCostUSD": 65, "bestFor": ["foodie"] },
+    { "name": "Mitla Archaeological Zone", "category": "Cultural", "description": "Finest mosaic stonework in all of Mesoamerica — geometric perfection.", "durationHours": 3, "estimatedCostUSD": 5, "bestFor": ["photography", "standard"] },
+    { "name": "Zócalo Evening Stroll", "category": "Outdoor", "description": "Oaxaca's main square comes alive at dusk — marimba bands, mezcal bars, and locals.", "durationHours": 2, "estimatedCostUSD": 0, "bestFor": ["photography", "relaxation"] },
+    { "name": "Sierra Norte Village Trek", "category": "Outdoor", "description": "Guided multi-day hike through indigenous Zapotec mountain communities.", "durationHours": 24, "estimatedCostUSD": 90, "bestFor": ["adventure", "photography"] },
+    { "name": "Textile Weaving Workshop", "category": "Indoor", "description": "Learn backstrap loom weaving with natural dyes in Teotitlán del Valle.", "durationHours": 3, "estimatedCostUSD": 40, "bestFor": ["standard"] },
+    { "name": "Día de Muertos Celebrations", "category": "Cultural", "description": "Most authentic Día de Muertos altars and cemetery vigils in Mexico. October/November.", "durationHours": 8, "estimatedCostUSD": 10, "bestFor": ["photography", "standard"] },
+    { "name": "Chocolate Factory Visit", "category": "Indoor", "description": "Oaxacan chocolate is a food group — watch grinding and taste drinking chocolate.", "durationHours": 2, "estimatedCostUSD": 15, "bestFor": ["foodie"] },
+    { "name": "Etla Wednesday Market", "category": "Cultural", "description": "Village artisan market 20 minutes north — cheese, herbs, and Oaxacan crafts.", "durationHours": 3, "estimatedCostUSD": 5, "bestFor": ["foodie", "photography"] }
+  ],
+  "photography": {
+    "spots": [
+      { "name": "Monte Albán at Sunrise", "description": "Ancient pyramids glowing gold with the valley mist below.", "difficulty": "Intermediate", "bestTime": "Sunrise", "category": "Architecture" },
+      { "name": "Tlacolula Market Spice Stalls", "description": "Mountains of chiles, mole pastes, and insect snacks in vivid colour.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Street" },
+      { "name": "Hierve el Agua Cliff Pool", "description": "Mineral pool at the edge of a cliff — epic landscape behind.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Landscape" },
+      { "name": "Oaxaca Zócalo Arcades", "description": "Green fluorescent church towers against a deep blue sky.", "difficulty": "Beginner", "bestTime": "Dusk", "category": "Architecture" },
+      { "name": "Alebrijes Workshop", "description": "Brightly painted fantasy creatures — macro lens ideal for the detail work.", "difficulty": "Beginner", "bestTime": "Any", "category": "Street" },
+      { "name": "Mezcal Palenque Smoke & Fire", "description": "Dramatic shots of the agave pit roasting — smoke and firelight.", "difficulty": "Intermediate", "bestTime": "Late afternoon", "category": "Street" },
+      { "name": "Mitla Stone Mosaics", "description": "Geometric pre-Hispanic stonework — abstract and intricate.", "difficulty": "Beginner", "bestTime": "Midday", "category": "Architecture" },
+      { "name": "Teotitlán del Valle Weavers", "description": "Zapotec artisans at their looms with colourful rugs drying outside.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Street" },
+      { "name": "Tule Tree — World's Widest", "description": "3,000-year-old ahuehuete tree with a 58-metre circumference.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Landscape" },
+      { "name": "Día de Muertos Cemetery Vigil", "description": "Candlelit flower altars in the cemetery at night — once-in-a-lifetime.", "difficulty": "Advanced", "bestTime": "Night", "category": "Street" }
+    ],
+    "sunriseSpots": ["Monte Albán hilltop", "Hierve el Agua cliff pool", "Sierra Norte mountain trails"],
+    "sunsetSpots": ["Oaxaca Zócalo", "Monte Albán west pyramid", "Cerro del Fortín hill park"],
+    "lensRecommendations": ["35mm f/1.8 (market street shooting)", "50mm (food and mezcal)", "24mm (cathedral facades)", "100mm macro (alebrijes detail)"],
+    "goldenHourNotes": "Oaxaca sits in a mountain valley at 1,500m — the light is clear and golden, especially in dry season (Nov–May). The Zócalo glows beautifully at dusk when the church is lit. Market photography works best before 9 AM when vendors set up.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      { "month": 1, "avgTempC": 19, "rainfallMM": 10 },
+      { "month": 2, "avgTempC": 21, "rainfallMM": 6 },
+      { "month": 3, "avgTempC": 24, "rainfallMM": 8 },
+      { "month": 4, "avgTempC": 26, "rainfallMM": 18 },
+      { "month": 5, "avgTempC": 26, "rainfallMM": 55 },
+      { "month": 6, "avgTempC": 23, "rainfallMM": 128 },
+      { "month": 7, "avgTempC": 22, "rainfallMM": 86 },
+      { "month": 8, "avgTempC": 22, "rainfallMM": 90 },
+      { "month": 9, "avgTempC": 22, "rainfallMM": 98 },
+      { "month": 10, "avgTempC": 21, "rainfallMM": 45 },
+      { "month": 11, "avgTempC": 20, "rainfallMM": 12 },
+      { "month": 12, "avgTempC": 19, "rainfallMM": 8 }
+    ],
+    "bestMonths": [11, 12, 1, 2, 3, 4],
+    "seasonality": "Dry season (Nov–May) is ideal. Rainy season (Jun–Oct) brings daily afternoon showers — mornings stay clear. The famous Guelaguetza festival is in July.",
+    "summary": "Pleasant year-round highland climate. Warm days, cool evenings. Dry season (Nov–May) is ideal for travel."
+  },
+  "hotels": [
+    { "name": "Casa Oaxaca Hotel", "neighborhood": "Centro Histórico", "pricePerNightUSD": 280, "category": "Luxury", "description": "Boutique hotel in a colonial mansion — rooftop pool and the city's best restaurant below." },
+    { "name": "Hotel Los Pilares", "neighborhood": "Centro Histórico", "pricePerNightUSD": 70, "category": "Mid-range", "description": "Colonial courtyard hotel steps from the Zócalo — great rooftop terrace with mezcal bar." },
+    { "name": "Hostel Casa del Sotano", "neighborhood": "Centro Histórico", "pricePerNightUSD": 18, "category": "Budget", "description": "Social hostel with a beautiful courtyard and nightly communal dinners." }
+  ]
+}

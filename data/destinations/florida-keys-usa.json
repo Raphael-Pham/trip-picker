@@ -1,0 +1,465 @@
+{
+  "id": "florida-keys-usa",
+  "city": "Florida Keys",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MIA",
+    "FLL",
+    "EYW"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 85,
+    "photography": 92,
+    "activities": 88,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Florida Keys sunset ocean",
+  "summary": "The Florida Keys are a tropical paradise stretching 120 miles south of Miami, featuring pristine coral reefs, vibrant marine life, and stunning sunset views. With world-class diving and snorkeling, fresh seafood cuisine, and a laid-back island atmosphere, the Keys offer the perfect blend of adventure and relaxation. This unique destination is known for its colorful sunsets, diverse wildlife, and accessible water sports suitable for all skill levels.",
+  "restaurants": [
+    {
+      "name": "The Conch Republic Seafood Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "An iconic seafood institution serving fresh catches and traditional Keys cuisine since 1977. Known for their daily fish specials and authentic conch chowder.",
+      "mustTry": "Conch chowder"
+    },
+    {
+      "name": "Latitudes",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Beachfront fine dining on Sunset Key with fresh seafood and Caribbean-inspired cuisine. This elegant establishment offers romantic oceanfront views and excellent wine selection.",
+      "mustTry": "Pan-seared mahi-mahi"
+    },
+    {
+      "name": "B.O.'s Fish Wagon",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual waterfront eatery in a converted fish house serving fresh fish sandwiches and poke bowls. A local favorite for lunch with outdoor seating and tropical vibes.",
+      "mustTry": "Fish sandwich"
+    },
+    {
+      "name": "Cafe Solé",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate 50-seat restaurant featuring nightly changing menus with local seafood and agricultural ingredients. This Islamorada gem offers refined coastal cuisine in a charming setting.",
+      "mustTry": "Catch of the day special"
+    },
+    {
+      "name": "Santiago's Bodega",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas and wine bar in Key West offering small plates and an extensive wine list. Perfect for casual dining with a European coastal atmosphere.",
+      "mustTry": "Patatas bravas"
+    },
+    {
+      "name": "Louie's Backyard",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant in Key West combining contemporary American cuisine with fresh seafood. Features an intimate upstairs dining room and outdoor patio with views.",
+      "mustTry": "Grilled fish with seasonal preparations"
+    },
+    {
+      "name": "Pincher's Crab Shack",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual seafood spot known for stone crab claws and affordable fresh catches. Operating year-round with a fun, unpretentious Keys atmosphere.",
+      "mustTry": "Stone crab claws"
+    },
+    {
+      "name": "Morada Bay Beach Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront restaurant in Islamorada offering fresh seafood and tropical drinks with direct sand beach access. Great for sunset dining and casual beach atmosphere.",
+      "mustTry": "Grouper sandwich"
+    },
+    {
+      "name": "Ts Restaurant and Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Upscale casual dining in Marathon featuring fresh seafood and steaks with an extensive wine list. Known for consistently excellent food and attentive service.",
+      "mustTry": "Blackened mahi-mahi"
+    },
+    {
+      "name": "Hogfish Bar and Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Waterfront restaurant celebrating the unique hogfish with creative preparations and fresh daily catches. Located in Stock Island with casual Keys charm.",
+      "mustTry": "Fried hogfish sandwich"
+    },
+    {
+      "name": "Green Parrot Bar",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic dive bar in Key West since 1890 serving burgers, wings, and cold beers with live music daily. A authentic local gathering spot with vibrant nightlife.",
+      "mustTry": "Classic burger"
+    },
+    {
+      "name": "Island Fish Company",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Working fish market with attached restaurant offering ultra-fresh seafood cooked to order. Casual waterfront setting with excellent value for premium seafood.",
+      "mustTry": "Fresh grilled snapper"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling the Coral Reef",
+      "category": "Adventure",
+      "description": "Explore vibrant coral reefs teeming with tropical fish and marine life just offshore. Multiple reef systems are accessible via boat tours departing from various Keys locations.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Dry Tortugas National Park",
+      "category": "Adventure",
+      "description": "Day trip to Fort Jefferson and pristine beaches 70 miles west of Key West accessible by fast ferry or seaplane. Features excellent snorkeling, hiking, and historic ruins.",
+      "durationHours": 10,
+      "estimatedCostUSD": 195,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Kayaking Through Mangrove Tunnels",
+      "category": "Outdoor",
+      "description": "Paddle through scenic mangrove channels observing birds, dolphins, and manatees in their natural habitat. Tours available for all skill levels from multiple Keys locations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Swimming with Dolphins",
+      "category": "Family",
+      "description": "Interact with trained dolphins in structured programs offering educational and memorable experiences. Located in Islamorada with facilities for all ages.",
+      "durationHours": 2,
+      "estimatedCostUSD": 180,
+      "bestFor": [
+        "standard",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Key West Walking Tour",
+      "category": "Cultural",
+      "description": "Guided tour through historic downtown Key West covering Duval Street, Ernest Hemingway sites, and colorful architecture. Learn about pirate history, literary heritage, and local culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Deep Sea Fishing",
+      "category": "Adventure",
+      "description": "Charter fishing boats targeting grouper, snapper, and offshore species with experienced captains. Full-day and half-day options available for different skill levels and budgets.",
+      "durationHours": 8,
+      "estimatedCostUSD": 350,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Glass Bottom Boat Tour",
+      "category": "Family",
+      "description": "Experience coral reefs and marine life from the comfort of a boat with submerged viewing panels. Suitable for all ages and swimming abilities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "family",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sunset Sailing",
+      "category": "Relaxation",
+      "description": "Sail along the horizon during golden hour with complimentary drinks and snacks included. Romantic experience perfect for couples and sunset photographers.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fort Jefferson Explore",
+      "category": "Cultural",
+      "description": "Self-guided exploration of the historic Civil War-era fort with ranger programs and scenic hiking trails. Accessible as part of Dry Tortugas day trips.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Coral Restoration Volunteer Experience",
+      "category": "Adventure",
+      "description": "Participate in reef restoration efforts with marine conservation nonprofits learning about ecosystem challenges. Hands-on educational experience contributing to environmental protection.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Hemingway House and Museum Visit",
+      "category": "Cultural",
+      "description": "Tour the historic home of Ernest Hemingway featuring his original furnishings and a large population of six-toed cats. Self-guided or docent-led tours available daily.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Nightlife Crawl in Key West",
+      "category": "Nightlife",
+      "description": "Explore famous bars and live music venues along Duval Street including Jimmy Buffett's Margaritaville. Experience vibrant nightlife and local entertainment scene.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Seven Mile Bridge",
+        "description": "Historic bridge spanning turquoise waters with dramatic perspectives from both sunrise and sunset angles.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunrise or sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fort Jefferson",
+        "description": "Massive Civil War fort with red brick architecture set against crystal clear water and pristine beach.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning or late afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Key West Harbor at Sunset",
+        "description": "Colorful boats and sailboats silhouetted against vibrant orange and pink sunset skies.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before to 30 minutes after sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Duval Street Facades",
+        "description": "Pastel-colored colonial buildings and street art creating vibrant street photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for soft light",
+        "category": "Street"
+      },
+      {
+        "name": "Coral Reef Underwater",
+        "description": "Vibrant coral formations and tropical fish accessible via snorkeling with underwater camera housing.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday with high sun angle for color saturation",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Mallory Square Sunset Celebration",
+        "description": "Street performers and crowds against dramatic sunset backdrop in Key West's busiest evening venue.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes before sunset",
+        "category": "Street"
+      },
+      {
+        "name": "Bahia Honda Beach",
+        "description": "Long sandy beach with pier, calm waters, and excellent reflection opportunities during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mangrove Reflections",
+        "description": "Mirrored mangrove trees in calm water creating symmetrical abstract compositions at dawn.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning before wind picks up",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hemingway House Architecture",
+        "description": "Spanish colonial style home with lush tropical gardens and six-toed cats as subjects.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light through gardens",
+        "category": "Architecture"
+      },
+      {
+        "name": "Nighttime Bioluminescence Tour",
+        "description": "Glowing dinoflagellates in kayak create magical night photography opportunities with long exposures.",
+        "difficulty": "Advanced",
+        "bestTime": "Dark moonless nights",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Bahia Honda Beach",
+      "South Point Key West",
+      "Long Key State Park"
+    ],
+    "sunsetSpots": [
+      "Mallory Square Key West",
+      "Seven Mile Bridge",
+      "Islamorada Beach Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive seascapes and architectural surveys",
+      "50mm prime for intimate street photography and cultural documentation",
+      "100-400mm telephoto for wildlife including dolphins, birds, and distant boats",
+      "Macro lens with underwater housing for coral detail and snorkel photography"
+    ],
+    "goldenHourNotes": "The Keys experience predictable, dramatic golden hour lighting year-round with rapidly changing sky colors. Arrive 30 minutes before official sunset times for the most vibrant colors and shooting 15-20 minutes after sunset captures lingering blue hour tones. The flat terrain means shooting from water level or elevated positions significantly changes perspectives.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 22,
+        "rainfallMM": 58
+      },
+      {
+        "month": 2,
+        "avgTempC": 22,
+        "rainfallMM": 53
+      },
+      {
+        "month": 3,
+        "avgTempC": 24,
+        "rainfallMM": 48
+      },
+      {
+        "month": 4,
+        "avgTempC": 26,
+        "rainfallMM": 98
+      },
+      {
+        "month": 5,
+        "avgTempC": 28,
+        "rainfallMM": 152
+      },
+      {
+        "month": 6,
+        "avgTempC": 29,
+        "rainfallMM": 192
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 168
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 180
+      },
+      {
+        "month": 9,
+        "avgTempC": 29,
+        "rainfallMM": 224
+      },
+      {
+        "month": 10,
+        "avgTempC": 27,
+        "rainfallMM": 178
+      },
+      {
+        "month": 11,
+        "avgTempC": 25,
+        "rainfallMM": 102
+      },
+      {
+        "month": 12,
+        "avgTempC": 23,
+        "rainfallMM": 73
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "The Florida Keys enjoy warm tropical weather year-round with December through April offering the driest conditions and comfortable temperatures. Summer and early fall bring heat, humidity, and increased hurricane risk with frequent afternoon storms.",
+    "summary": "Plan visits during winter months for optimal weather with temperatures in the comfortable 22-24°C range and minimal rainfall. Summer months are hot and humid with high hurricane activity, though discounted accommodations and fewer crowds appeal to budget travelers."
+  },
+  "hotels": [
+    {
+      "name": "Sunset Cove Motel",
+      "neighborhood": "Islamorada",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Family-owned waterfront motel with basic but clean rooms, beach access, and convenient location for reef tours and dining."
+    },
+    {
+      "name": "Hawks Cay Resort",
+      "neighborhood": "Duck Key",
+      "pricePerNightUSD": 225,
+      "category": "Mid-range",
+      "description": "Full-service resort offering beach access, multiple dining options, spa, and water sports facilities with modern amenities and scenic views."
+    },
+    {
+      "name": "Marker Waterfront Resort",
+      "neighborhood": "Key West",
+      "pricePerNightUSD": 420,
+      "category": "Luxury",
+      "description": "Ultra-luxury waterfront property featuring spa, fine dining, infinity pool overlooking Sunset Key, and personalized concierge service."
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "id": "indianapolis-usa",
+  "city": "Indianapolis",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "IND",
+    "ORD",
+    "CLE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation",
+    "family"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 75,
+    "photography": 70,
+    "activities": 78,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Indianapolis Monument Circle",
+  "summary": "Indianapolis blends American motorsport heritage with a thriving cultural scene, anchored by the iconic Indianapolis Motor Speedway and the beautiful Monument Circle downtown. The city offers affordable Midwest charm, excellent museums, diverse dining, and family-friendly attractions that make it an underrated destination for road trips and weekend getaways.",
+  "restaurants": [
+    {
+      "name": "Milktooth",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A trendy breakfast and brunch destination known for creative morning dishes and excellent coffee. Their innovative takes on classics draw lines of eager diners, especially on weekends.",
+      "mustTry": "The Beet Cured Pork Belly Eggs Benedict"
+    },
+    {
+      "name": "St. Elmo Steak House",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An Indianapolis institution since 1902, this historic steakhouse offers premium beef, impeccable service, and a legendary shrimp cocktail. The elegant wood-paneled dining room exudes old-world sophistication.",
+      "mustTry": "Prime Ribeye with their Famous Shrimp Cocktail"
+    },
+    {
+      "name": "Bluebeard",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A sophisticated farm-to-table restaurant in a converted storefront featuring seasonal American cuisine. Their carefully curated wine list and inventive menu change frequently.",
+      "mustTry": "Seasonal tasting menu selections"
+    },
+    {
+      "name": "Jucebox",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A casual sandwich and juice spot celebrating Indo-Chinese fusion and plant-based options. Known for fresh, vibrant flavors and friendly neighborhood vibes.",
+      "mustTry": "Biryani Sandwich"
+    },
+    {
+      "name": "The Eagle",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A bourbon-focused restaurant and bar serving elevated Southern comfort food in a rustic-industrial setting. Their extensive whiskey collection and generous portions make it a local favorite.",
+      "mustTry": "Fried Chicken"
+    },
+    {
+      "name": "Pizzology",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual pizzeria offering Neapolitan-style pies with quality ingredients and reasonable prices. Perfect for quick, delicious meals.",
+      "mustTry": "The Margherita Pizza"
+    },
+    {
+      "name": "Rook Café",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "An elegant American restaurant with an open kitchen, farm-sourced ingredients, and creative plating. The intimate atmosphere makes it ideal for special occasions.",
+      "mustTry": "Seasonal vegetable preparations"
+    },
+    {
+      "name": "Indy's Urban Outfitters Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual cafe and social hub offering healthy bowls, sandwiches, and excellent coffee. Great spot for working or casual meetings.",
+      "mustTry": "Acai Bowl"
+    },
+    {
+      "name": "Mesh Café",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A gastropub featuring locally sourced meats, fresh vegetables, and creative cocktails. The industrial-chic space attracts a lively crowd.",
+      "mustTry": "House-Made Charcuterie Board"
+    },
+    {
+      "name": "Bakehouse Market",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A artisanal bakery and market offering fresh pastries, bread, and local products. Ideal for breakfast or picking up gourmet items.",
+      "mustTry": "Croissants and Sourdough Loaf"
+    },
+    {
+      "name": "Beholder",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An intimate fine dining restaurant with a focus on seasonal menus and wine pairings. The ever-changing approach keeps returning guests engaged.",
+      "mustTry": "Tasting menu with wine pairing"
+    },
+    {
+      "name": "Nataraj",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "An authentic Indian restaurant serving traditional curries, breads, and vegetarian options. The flavors are bold and the service is warm.",
+      "mustTry": "Lamb Vindaloo and Garlic Naan"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Indianapolis Motor Speedway Tour",
+      "category": "Outdoor",
+      "description": "Tour the legendary home of the Indy 500, featuring museum exhibits, pit lane access, and the famous 2.5-mile oval track. You can drive around the track or ride as a passenger for an additional fee.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Indianapolis Museum of Art",
+      "category": "Cultural",
+      "description": "A world-class free art museum housing over 50,000 works spanning ancient to contemporary periods. The stunning architecture and beautiful grounds make it worth multiple visits.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "White River State Park",
+      "category": "Outdoor",
+      "description": "An expansive urban park offering walking trails, gardens, and waterfront views of downtown. Home to the Zoo, Victory Field, and various cultural institutions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Indianapolis Zoo",
+      "category": "Family",
+      "description": "A 64-acre zoo featuring over 3,700 animals from around the world with immersive exhibits and interactive experiences. The dolphin shows and African savanna section are particularly popular.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Fountain Square Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the vibrant arts district with colorful murals, boutique shops, restaurants, and galleries. The neighborhood comes alive in the evening with live music and street performances.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Children's Museum of Indianapolis",
+      "category": "Family",
+      "description": "The world's largest children's museum with interactive exhibits, LEGO displays, and science demonstrations. Great for families but also educational for adults.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Indiana State Museum",
+      "category": "Cultural",
+      "description": "Located on White River, this museum explores Indiana's natural history, culture, and heritage. The IMAX theater and interactive exhibits engage visitors of all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Monument Circle Visit and Climb",
+      "category": "Outdoor",
+      "description": "Visit the iconic 284-foot Soldiers and Sailors Monument at the heart of downtown Indianapolis. Climb the internal spiral staircase for panoramic city views.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 7,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Lucas Oil Stadium Tours",
+      "category": "Cultural",
+      "description": "Tour the home of the Indianapolis Colts NFL team, featuring the retractable roof and state-of-the-art facilities. Learn about the stadium's engineering and sports history.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Garfield Park Conservatory and Gardens",
+      "category": "Outdoor",
+      "description": "A stunning Victorian conservatory and surrounding gardens featuring seasonal blooms and tropical plants. One of the finest conservatories in the country.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Indiana Historical Society Library",
+      "category": "Cultural",
+      "description": "Explore Indiana's rich history through artifacts, documents, and rotating exhibits in a beautiful downtown location. Many resources are free to browse.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Indianapolis Craft Breweries Hop Tour",
+      "category": "Nightlife",
+      "description": "Explore the growing craft beer scene with visits to local breweries like Sun King, Fountain City, and Triton. Many offer tours and tastings.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Monument Circle at Dusk",
+        "description": "The iconic 284-foot monument illuminated against the twilight sky with downtown buildings reflected in surrounding pools of water.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour to night (5:30-8:00 PM)",
+        "category": "Architecture"
+      },
+      {
+        "name": "White River Bridges",
+        "description": "Multiple architectural styles of pedestrian and vehicle bridges framing the river with downtown skyline in the background.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon for directional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fountain Square Murals",
+        "description": "Vibrant street art murals covering buildings in the arts district with colorful abstract designs and artistic character.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for color saturation, but any time for detail shots",
+        "category": "Street"
+      },
+      {
+        "name": "Indianapolis Motor Speedway Turns",
+        "description": "The iconic banked oval track with distinctive architectural banking and the famous pagoda structure.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for soft light and empty track feel",
+        "category": "Landscape"
+      },
+      {
+        "name": "Garfield Park Conservatory Interior",
+        "description": "Ornate Victorian greenhouse architecture with tropical plants, glass panels, and atmospheric filtered light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Cloudy days for even light; early morning for fewer crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Canal Walk Reflections",
+        "description": "The scenic canal with reflective water capturing downtown buildings, bridges, and trees creating mirror-like compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for still water and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Indianapolis Skyline from Holliday Park",
+        "description": "Downtown skyline featuring Lucas Oil Stadium, OneAmerica Tower, and other skyscrapers against natural park vegetation.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm city lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mass Ave Arts District Street Level",
+        "description": "Eclectic mix of galleries, vintage shops, and graffiti art creating a dynamic urban environment.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for even light or late afternoon for dramatic shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Indiana State Museum at Twilight",
+        "description": "Modern architecture of the museum reflected in the adjacent canal with downtown lights activating the scene.",
+        "difficulty": "Intermediate",
+        "bestTime": "Civil twilight (15-20 minutes after sunset)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Northside Wetlands and Birds",
+        "description": "Natural wetland preserve north of downtown featuring migratory birds, water reflections, and native flora.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for bird activity and soft directional light",
+        "category": "Wildlife"
+      }
+    ],
+    "sunriseSpots": [
+      "Holliday Park overlook",
+      "White River Canal Walk bridge",
+      "Monument Circle"
+    ],
+    "sunsetSpots": [
+      "Monument Circle",
+      "Garfield Park Conservatory grounds",
+      "Holliday Park east-facing viewpoint"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architecture and skyline compositions",
+      "50mm or 85mm prime for street photography and detailed portraits",
+      "70-200mm telephoto for compressing downtown layers and isolating subjects",
+      "Macro lens for conservatory plant details and street art textures"
+    ],
+    "goldenHourNotes": "Indianapolis benefits significantly from golden hour lighting due to tall buildings creating dramatic shadows and warm illumination on stone facades. The Monument Circle area is particularly photogenic during the 20-30 minutes before sunset when the structure is backlit and downtown buildings glow. White River reflections become mirror-like during calm early morning conditions, offering excellent composition opportunities.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 58
+      },
+      {
+        "month": 2,
+        "avgTempC": -2,
+        "rainfallMM": 51
+      },
+      {
+        "month": 3,
+        "avgTempC": 4,
+        "rainfallMM": 76
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 89
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 114
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 127
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 102
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 102
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 76
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 66
+      },
+      {
+        "month": 11,
+        "avgTempC": 8,
+        "rainfallMM": 76
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 61
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Indianapolis experiences all four seasons with mild springs and falls, warm summers, and cold, snowy winters. May through October offers the most pleasant weather for outdoor activities and sightseeing.",
+    "summary": "The city experiences a humid continental climate with warm summers (averaging 26-27°C), cool winters (averaging -4 to 0°C), and moderate rainfall throughout the year. Spring and fall are ideal visiting seasons with comfortable temperatures and lower precipitation."
+  },
+  "hotels": [
+    {
+      "name": "Fairfield Inn & Suites Indianapolis Downtown",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "A reliable chain hotel in downtown with basic amenities, free WiFi, and convenient access to Monument Circle and museums."
+    },
+    {
+      "name": "Hilton Indianapolis",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "A well-located upscale business hotel with excellent dining options, fitness center, and views of the city near the convention center."
+    },
+    {
+      "name": "JW Marriott Indianapolis",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "An elegant luxury hotel connected to the convention center offering fine dining, spa services, and sophisticated accommodations with premium furnishings."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1660238286297-c2159c4621c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxJbmRpYW5hcG9saXMlMjBNb251bWVudCUyMENpcmNsZXxlbnwxfDB8fHwxNzgxMzAzMjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

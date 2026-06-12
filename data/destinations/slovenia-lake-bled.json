@@ -1,0 +1,89 @@
+{
+  "id": "slovenia-lake-bled",
+  "city": "Lake Bled",
+  "country": "Slovenia",
+  "region": "Europe",
+  "airportCodes": ["LJU"],
+  "hiddenGem": true,
+  "tripStyles": ["hidden-gems", "photography", "adventure", "relaxation"],
+  "scores": { "cost": 75, "food": 65, "photography": 97, "activities": 85, "weather": 72 },
+  "budgetRanges": [
+    { "level": "budget", "minPerDayUSD": 55, "maxPerDayUSD": 95 },
+    { "level": "mid", "minPerDayUSD": 95, "maxPerDayUSD": 180 },
+    { "level": "luxury", "minPerDayUSD": 180, "maxPerDayUSD": 380 }
+  ],
+  "unsplashQuery": "Lake Bled Slovenia castle island",
+  "heroImageUrl": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=1600&q=80",
+  "summary": "A fairytale island church on an alpine lake, framed by the Julian Alps — one of Europe's most photogenic destinations.",
+  "restaurants": [
+    { "name": "Gostilna Mlino", "category": "Local Specialty", "priceRange": "$$", "description": "Lakeside terrace restaurant specialising in trout from the lake and Slovenian classics.", "mustTry": "Lake trout with local herbs" },
+    { "name": "Park Restaurant", "category": "Fine Dining", "priceRange": "$$$", "description": "Grand terrace of the Grand Hotel Toplice with the finest lake views in Bled.", "mustTry": "Cream cake (kremšnita)" },
+    { "name": "Smon Slaščičarna", "category": "Local Specialty", "priceRange": "$", "description": "Original home of the Bled cream cake since 1953 — the definitive kremšnita.", "mustTry": "Kremšnita" },
+    { "name": "Gostilna pri Planincu", "category": "Budget", "priceRange": "$", "description": "Alpine-style inn with hearty Slovenian mountain food — roast pork and dumplings.", "mustTry": "Jota (bean and sauerkraut stew)" },
+    { "name": "Vila Bled Restaurant", "category": "Fine Dining", "priceRange": "$$$", "description": "Tito's former summer residence — elegant dining with private lake access.", "mustTry": "Venison with polenta" },
+    { "name": "Bled Castle Restaurant", "category": "Fine Dining", "priceRange": "$$$", "description": "Dining inside a medieval castle with bird's-eye lake views.", "mustTry": "Medieval feast tasting menu" },
+    { "name": "Okarina", "category": "Midrange", "priceRange": "$$", "description": "Award-winning Slovenian cuisine in a cosy stone building near the lake.", "mustTry": "Štruklji (rolled dumplings)" },
+    { "name": "Gostilna Lectar", "category": "Local Specialty", "priceRange": "$$", "description": "Historic inn in Radovljica — honey cakes and Carniolian sausage.", "mustTry": "Carniolian sausage" },
+    { "name": "Triglav Restaurant", "category": "Midrange", "priceRange": "$$", "description": "Named after Slovenia's highest peak — excellent game dishes and local wines.", "mustTry": "Deer stew with chestnut puree" },
+    { "name": "Koča pri Triglavski Roži", "category": "Budget", "priceRange": "$", "description": "Mountain hut on the way to Vintgar Gorge — goulash and hot chocolate.", "mustTry": "Goulash with rye bread" },
+    { "name": "Linhart Square Cafes, Radovljica", "category": "Budget", "priceRange": "$", "description": "Coffee and strudel in a perfectly preserved Baroque town square nearby.", "mustTry": "Apple strudel" },
+    { "name": "Pizzeria Rustika", "category": "Budget", "priceRange": "$", "description": "Beloved local pizzeria with wood-fired pies and a lively atmosphere.", "mustTry": "Truffle pizza" }
+  ],
+  "activities": [
+    { "name": "Rowing to Bled Island Church", "category": "Outdoor", "description": "Row a traditional wooden pletna boat to the island and ring the wishing bell.", "durationHours": 2, "estimatedCostUSD": 20, "bestFor": ["photography", "relaxation"] },
+    { "name": "Bled Castle Hike", "category": "Outdoor", "description": "20-minute hike to the 11th-century castle perched on a 130m sheer cliff.", "durationHours": 2, "estimatedCostUSD": 12, "bestFor": ["photography", "adventure"] },
+    { "name": "Vintgar Gorge Walk", "category": "Outdoor", "description": "1.6 km wooden walkway through a stunning emerald gorge with waterfalls.", "durationHours": 3, "estimatedCostUSD": 8, "bestFor": ["photography", "adventure"] },
+    { "name": "Lake Bled Circuit Walk", "description": "Easy 6 km walk around the entire lake — every angle reveals a postcard view.", "category": "Outdoor", "durationHours": 2, "estimatedCostUSD": 0, "bestFor": ["photography", "relaxation"] },
+    { "name": "Triglav National Park Day Hike", "category": "Outdoor", "description": "Hike to Lake Bohinj or up to the Pokljuka plateau in Slovenia's only national park.", "durationHours": 8, "estimatedCostUSD": 15, "bestFor": ["adventure", "photography"] },
+    { "name": "Canyoning on the Soča River", "category": "Adventure", "description": "The impossibly turquoise Soča offers world-class canyoning and kayaking.", "durationHours": 5, "estimatedCostUSD": 70, "bestFor": ["adventure"] },
+    { "name": "Zip-line over Lake Bled", "category": "Adventure", "description": "Launch from the castle walls and zip over the lake — spectacular views.", "durationHours": 1, "estimatedCostUSD": 60, "bestFor": ["adventure"] },
+    { "name": "E-bike Bled Valley Tour", "category": "Outdoor", "description": "Cycle through apple orchards and alpine meadows surrounding the lake.", "durationHours": 4, "estimatedCostUSD": 35, "bestFor": ["relaxation", "photography"] },
+    { "name": "Škocjan Caves", "category": "Indoor", "description": "UNESCO World Heritage cave system with a 140m-deep underground canyon.", "durationHours": 5, "estimatedCostUSD": 22, "bestFor": ["adventure", "photography"] },
+    { "name": "Thermal Spa at Grand Hotel Toplice", "category": "Indoor", "description": "Soak in the natural thermal pool overlooking the lake.", "durationHours": 3, "estimatedCostUSD": 35, "bestFor": ["relaxation"] },
+    { "name": "Paragliding from Straža Hill", "category": "Adventure", "description": "Tandem paraglide launch above the lake — heart-stopping lake views.", "durationHours": 1, "estimatedCostUSD": 95, "bestFor": ["adventure", "photography"] },
+    { "name": "Radovljica Beekeeping Museum", "category": "Indoor", "description": "Fascinating museum in a Baroque town — Slovenia's ancient beekeeping tradition.", "durationHours": 2, "estimatedCostUSD": 8, "bestFor": ["standard"] }
+  ],
+  "photography": {
+    "spots": [
+      { "name": "Mala Osojnica Viewpoint", "description": "The classic postcard shot — island church, castle, and Alps all aligned.", "difficulty": "Intermediate", "bestTime": "Sunrise", "category": "Landscape" },
+      { "name": "Ojstrica Viewpoint", "description": "Slightly lower than Mala Osojnica but often fog-free — south shore ascent.", "difficulty": "Intermediate", "bestTime": "Dawn", "category": "Landscape" },
+      { "name": "Bled Castle Walls", "description": "Looking down at the lake — unique angle showing the full geography.", "difficulty": "Beginner", "bestTime": "Morning", "category": "Landscape" },
+      { "name": "Vintgar Gorge Wooden Walkway", "description": "Emerald water rushing between sheer limestone walls — polariser essential.", "difficulty": "Beginner", "bestTime": "Midday (even light)", "category": "Landscape" },
+      { "name": "Pletna Boat on the Lake", "description": "Traditional wooden gondolas reflected in glass-calm water at dawn.", "difficulty": "Beginner", "bestTime": "Dawn", "category": "Landscape" },
+      { "name": "Island Church Bell Tower", "description": "Ring the bell and photograph the baroque interior — permission required.", "difficulty": "Beginner", "bestTime": "Midday", "category": "Architecture" },
+      { "name": "Lake Bohinj Winter Ice", "description": "Neighbouring lake freezes in winter — skaters on a mirror under the Alps.", "difficulty": "Intermediate", "bestTime": "Morning", "category": "Landscape" },
+      { "name": "Soča River Turquoise", "description": "The most vivid natural water colour you'll ever photograph.", "difficulty": "Beginner", "bestTime": "Midday", "category": "Landscape" },
+      { "name": "Radovljica Old Town", "description": "Perfectly preserved Renaissance arcaded square — golden stone facades.", "difficulty": "Beginner", "bestTime": "Late afternoon", "category": "Architecture" },
+      { "name": "Pokljuka Plateau Pine Forest", "description": "Ancient primeval forest with morning mist — wildlife and silence.", "difficulty": "Advanced", "bestTime": "Dawn", "category": "Landscape" }
+    ],
+    "sunriseSpots": ["Mala Osojnica viewpoint", "Ojstrica viewpoint", "Lake shore below the castle"],
+    "sunsetSpots": ["Bled Castle terrace", "Mlino shore", "Grand Hotel Toplice lawn"],
+    "lensRecommendations": ["24-70mm (versatile lake shooting)", "16-35mm (gorge and forest interiors)", "70-200mm (compressing island-castle-mountain layers)", "10-20mm ultra-wide (castle walls looking down)"],
+    "goldenHourNotes": "Bled's most iconic viewpoint (Mala Osojnica) faces east-southeast, making it perfect for sunrise. The lake is mirror-calm before 7 AM in summer. Autumn fog fills the valley at dawn, lifting by 9 AM to reveal the snow-capped Alps — a photographers' dream.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      { "month": 1, "avgTempC": 0, "rainfallMM": 100 },
+      { "month": 2, "avgTempC": 2, "rainfallMM": 90 },
+      { "month": 3, "avgTempC": 7, "rainfallMM": 110 },
+      { "month": 4, "avgTempC": 12, "rainfallMM": 120 },
+      { "month": 5, "avgTempC": 17, "rainfallMM": 130 },
+      { "month": 6, "avgTempC": 20, "rainfallMM": 140 },
+      { "month": 7, "avgTempC": 23, "rainfallMM": 120 },
+      { "month": 8, "avgTempC": 22, "rainfallMM": 130 },
+      { "month": 9, "avgTempC": 17, "rainfallMM": 140 },
+      { "month": 10, "avgTempC": 11, "rainfallMM": 160 },
+      { "month": 11, "avgTempC": 5, "rainfallMM": 130 },
+      { "month": 12, "avgTempC": 1, "rainfallMM": 110 }
+    ],
+    "bestMonths": [6, 7, 8, 9],
+    "seasonality": "Summer (Jun–Aug) is warm and great for water activities. Autumn (Sep–Oct) has atmospheric fog and gorgeous foliage. Winter (Dec–Feb) brings snow and the lake sometimes freezes — magical for photographers.",
+    "summary": "Alpine climate with four distinct seasons. Summer is warm, winters are cold with potential snow. Rain falls year-round."
+  },
+  "hotels": [
+    { "name": "Vila Bled", "neighborhood": "Cankarjeva cesta", "pricePerNightUSD": 380, "category": "Luxury", "description": "Tito's former summer residence — private lake access and extraordinary history." },
+    { "name": "Hotel Triglav Bled", "neighborhood": "Kolodvorska", "pricePerNightUSD": 140, "category": "Mid-range", "description": "Charming hotel steps from the lake with a sauna and panoramic restaurant." },
+    { "name": "Traveller's Haven Hostel", "neighborhood": "Grajska cesta", "pricePerNightUSD": 28, "category": "Budget", "description": "Welcoming hostel within walking distance of all attractions — great breakfast." }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "id": "maldives",
+  "city": "Malé",
+  "country": "Maldives",
+  "region": "Asia Pacific",
+  "airportCodes": [
+    "MLE",
+    "GAN"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "relaxation",
+    "photography",
+    "adventure",
+    "foodie",
+    "standard"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 75,
+    "photography": 95,
+    "activities": 90,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 800,
+      "maxPerDayUSD": 3000
+    }
+  ],
+  "unsplashQuery": "Maldives turquoise water overwater bungalows",
+  "summary": "The Maldives is a tropical island paradise renowned for crystal-clear turquoise waters, pristine white sand beaches, and exceptional coral reefs. This luxurious destination offers world-class diving and snorkeling, unique overwater resort experiences, and romantic island escapes with consistently warm weather year-round.",
+  "restaurants": [
+    {
+      "name": "Ufaa by Alia",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Innovative Maldivian fine dining restaurant showcasing contemporary interpretations of traditional island cuisine with ocean views.",
+      "mustTry": "Maldivian tuna carpaccio with coconut foam"
+    },
+    {
+      "name": "Tsunami Malé",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Popular casual dining spot serving fresh seafood and Asian fusion cuisine with a vibrant atmosphere in Malé.",
+      "mustTry": "Grilled fish with garlic butter"
+    },
+    {
+      "name": "Jade Island Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale resort restaurant offering multicultural cuisine with panoramic ocean vistas and personalized service.",
+      "mustTry": "Pan-seared snapper with mango salsa"
+    },
+    {
+      "name": "Lotus Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite serving authentic Maldivian curries and street food at affordable prices in central Malé.",
+      "mustTry": "Mas huni - shredded tuna with coconut"
+    },
+    {
+      "name": "The Dhoni Harbour",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Waterfront restaurant specializing in fresh catch of the day prepared traditional Maldivian style with ocean views.",
+      "mustTry": "Grilled reef fish with chili and lime"
+    },
+    {
+      "name": "Mulah Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual island café offering light meals, fresh fruit smoothies, and local snacks popular with both tourists and locals.",
+      "mustTry": "Fresh mango lassi and paratha bread"
+    },
+    {
+      "name": "Aromas of Maldives",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary restaurant blending traditional Maldivian spices with modern cooking techniques in a charming setting.",
+      "mustTry": "Curry fish cakes with tamarind sauce"
+    },
+    {
+      "name": "Salt Water Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Exclusive overwater dining experience featuring molecular gastronomy and sustainable seafood selections.",
+      "mustTry": "Caviar-topped ceviche with passion fruit"
+    },
+    {
+      "name": "Island Spice",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic Sri Lankan and Maldivian cuisine served in a cozy neighborhood restaurant with warm hospitality.",
+      "mustTry": "Maldivian fish curry with rice"
+    },
+    {
+      "name": "The Coconut Grove",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachside restaurant with emphasis on fresh tropical ingredients and seafood prepared to order daily.",
+      "mustTry": "Coconut-crusted prawns with sweet chili"
+    },
+    {
+      "name": "Malé Street Food Market",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Vibrant open-air food stalls offering authentic Maldivian street food and quick bites at minimal cost.",
+      "mustTry": "Fish kebabs and banana fritters"
+    },
+    {
+      "name": "Aqua Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Premium underwater or overwater dining venue with extensive wine selection and creative seafood tasting menus.",
+      "mustTry": "Lobster thermidor with saffron risotto"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling at Banana Reef",
+      "category": "Outdoor",
+      "description": "Explore vibrant coral gardens and tropical fish species in one of the most accessible and spectacular shallow reefs near Malé.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Diving at North Malé Atoll",
+      "category": "Adventure",
+      "description": "Experience world-class diving with encounters of manta rays, sharks, and pristine coral formations in crystal-clear waters.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunset Dolphin Cruise",
+      "category": "Outdoor",
+      "description": "Witness playful dolphins in their natural habitat during a magical sunset cruise through the atolls.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Island Hopping Tour",
+      "category": "Outdoor",
+      "description": "Visit multiple local and uninhabited islands to discover diverse ecosystems, pristine beaches, and authentic island culture.",
+      "durationHours": 8,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Spa and Wellness Retreat",
+      "category": "Indoor",
+      "description": "Indulge in traditional Maldivian spa treatments using coconut oil and island herbs in overwater treatment rooms.",
+      "durationHours": 3,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Fishing Excursion",
+      "category": "Adventure",
+      "description": "Join traditional dhoni fishing boats for authentic hand-line fishing techniques with local fishermen at sunrise or sunset.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Coral Restoration Project Visit",
+      "category": "Cultural",
+      "description": "Learn about marine conservation efforts and participate in or observe coral restoration initiatives protecting the reef ecosystem.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "hidden-gems",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Malé City Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the capital's colorful streets, historic mosques, fish market, and local bazaars with knowledgeable guides.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Nighttime Bioluminescent Plankton Tour",
+      "category": "Outdoor",
+      "description": "Paddle or boat through waters glowing with bioluminescent organisms, creating a magical otherworldly experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Water Sports Package",
+      "category": "Adventure",
+      "description": "Try multiple water activities including kayaking, paddleboarding, windsurfing, and jet skiing with professional instructors.",
+      "durationHours": 4,
+      "estimatedCostUSD": 110,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Manta Ray Encounter",
+      "category": "Adventure",
+      "description": "Swim alongside graceful manta rays during seasonal migrations through designated reef channels with expert guides.",
+      "durationHours": 5,
+      "estimatedCostUSD": 140,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beach Picnic on Private Island",
+      "category": "Relaxation",
+      "description": "Enjoy an all-inclusive gourmet picnic on a secluded island with white sand, clear waters, and personalized service.",
+      "durationHours": 6,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Banana Reef Coral Gardens",
+        "description": "Shallow coral formations creating colorful underwater gardens visible from surface snorkeling positions.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning between 8-11 AM for best light penetration",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Malé Waterfront Fish Market",
+        "description": "Bustling early morning market with vibrant fish displays, local vendors, and authentic cultural moments.",
+        "difficulty": "Beginner",
+        "bestTime": "5-7 AM during peak activity",
+        "category": "Street"
+      },
+      {
+        "name": "Grand Friday Mosque",
+        "description": "Stunning Islamic architecture with ornate golden dome and intricate calligraphic details in Malé.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm side-lighting on the dome",
+        "category": "Architecture"
+      },
+      {
+        "name": "Local Island Harbor",
+        "description": "Traditional wooden dhoni boats anchored against turquoise water and palm tree backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Overwater Bungalow Decks",
+        "description": "Iconic resort architecture reflecting in mirror-like shallow lagoon waters at dawn.",
+        "difficulty": "Intermediate",
+        "bestTime": "First light for perfect reflection conditions",
+        "category": "Architecture"
+      },
+      {
+        "name": "Reef Edge Underwater Formations",
+        "description": "Dramatic drop-off walls with colorful sponges, corals, and schooling fish creating depth layers.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for color saturation in deep blue water",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Sunset Dhoni Silhouettes",
+        "description": "Traditional sailing boats backlit against fiery orange and pink sunset skies over the ocean horizon.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset through sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bioluminescent Beach Walk",
+        "description": "Nighttime glowing plankton footprints and water trails creating ethereal light patterns in darkness.",
+        "difficulty": "Advanced",
+        "bestTime": "New moon nights, 2-3 hours after sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Manta Ray Underwater Close-ups",
+        "description": "Graceful manta rays gliding through water with distinctive spotted patterns and wing-like fins.",
+        "difficulty": "Advanced",
+        "bestTime": "October-April peak season during midday dives",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Tropical Vegetation and Coconut Palms",
+        "description": "Lush island vegetation with towering coconut palms against bright turquoise sky backgrounds.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for vibrant green foliage saturation",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Veligandu Island East Beach",
+      "Banana Reef Northern Point",
+      "Malé Harbor Waterfront"
+    ],
+    "sunsetSpots": [
+      "West Beach of Ari Atoll",
+      "Dhoni Boat Sunset Cruise Route",
+      "Local Island Lagoon Pier"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape seascapes and bungalow overviews",
+      "70-200mm telephoto for manta ray and marine wildlife detail work",
+      "100mm macro for coral and small fish detail in underwater settings",
+      "14mm ultra-wide for immersive underwater reef wall formations"
+    ],
+    "goldenHourNotes": "The Maldives enjoys consistent equatorial light with two distinct golden hours lasting approximately 45-60 minutes each. Early morning golden hour between 6-7 AM is optimal for reflecting light off calm lagoon waters and silhouetting palm trees, while evening golden hour from 6-7 PM provides warm side-lighting on reef formations and traditional boats. Underwater golden hour photography is best achieved during morning dives when light rays penetrate crystalline water with maximum color saturation.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 28,
+        "rainfallMM": 40
+      },
+      {
+        "month": 2,
+        "avgTempC": 29,
+        "rainfallMM": 35
+      },
+      {
+        "month": 3,
+        "avgTempC": 30,
+        "rainfallMM": 45
+      },
+      {
+        "month": 4,
+        "avgTempC": 30,
+        "rainfallMM": 90
+      },
+      {
+        "month": 5,
+        "avgTempC": 29,
+        "rainfallMM": 180
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 200
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 190
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 210
+      },
+      {
+        "month": 9,
+        "avgTempC": 28,
+        "rainfallMM": 185
+      },
+      {
+        "month": 10,
+        "avgTempC": 28,
+        "rainfallMM": 145
+      },
+      {
+        "month": 11,
+        "avgTempC": 28,
+        "rainfallMM": 85
+      },
+      {
+        "month": 12,
+        "avgTempC": 28,
+        "rainfallMM": 50
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "The Maldives has two distinct seasons: the dry northeast monsoon (November-March) offers calm waters and sunny skies ideal for water activities, while the wet southwest monsoon (May-September) brings increased rainfall and rougher seas but with fewer tourists and excellent diving opportunities. April and October are transitional months with unpredictable weather patterns.",
+    "summary": "The Maldives maintains consistently warm tropical temperatures between 28-30°C year-round with warm ocean waters averaging 26-27°C. The dry season from November to March is the peak tourist season with minimal rainfall and excellent visibility for both water activities and photography."
+  },
+  "hotels": [
+    {
+      "name": "Cosy Inn Malé",
+      "neighborhood": "Henveiru",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Simple but clean guesthouse in Malé city center with basic amenities and friendly staff, ideal for budget travelers and city exploration."
+    },
+    {
+      "name": "The Seaside Resort",
+      "neighborhood": "Ari Atoll",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Mid-range island resort with beachfront rooms, house reef access, restaurant, and snorkeling activities without the ultra-luxury price tag."
+    },
+    {
+      "name": "Soneva Jani",
+      "neighborhood": "Medhufushi Island",
+      "pricePerNightUSD": 1200,
+      "category": "Luxury",
+      "description": "Ultra-luxury overwater villa resort featuring glass floor pools, private cinemas, innovative architecture, and world-class dining experiences."
+    }
+  ]
+}

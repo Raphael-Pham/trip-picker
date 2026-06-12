@@ -1,0 +1,460 @@
+{
+  "id": "budapest-hungary",
+  "city": "Budapest",
+  "country": "Hungary",
+  "region": "Europe",
+  "airportCodes": [
+    "BUD",
+    "FER",
+    "VIE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 75,
+    "food": 88,
+    "photography": 92,
+    "activities": 89,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 35,
+      "maxPerDayUSD": 60
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 70,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Budapest Parliament Danube",
+  "summary": "Budapest, the Pearl of the Danube, enchants visitors with its stunning Belle Époque architecture, thermal baths, and vibrant cultural scene straddling two historic cities. From the imposing Parliament Building to the candlelit Ruin Bars hidden in crumbling courtyards, this affordable European gem offers world-class cuisine, exceptional photography opportunities, and rejuvenating spas at a fraction of Western European prices.",
+  "restaurants": [
+    {
+      "name": "Café Promenade",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic Budapest café serving traditional Hungarian breakfasts and coffee since 1930, located in a charming Pest neighborhood.",
+      "mustTry": "Hungarian pastries with strong coffee"
+    },
+    {
+      "name": "Chez Nous",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Intimate French-Hungarian fusion restaurant with only 12 seats, offering innovative tasting menus using seasonal local ingredients.",
+      "mustTry": "Chef's multi-course tasting menu"
+    },
+    {
+      "name": "Pesti Disznó",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Rustic traditional Hungarian eatery famous for slow-cooked pork dishes and authentic gulyás, beloved by locals.",
+      "mustTry": "Pork knuckle with crispy skin"
+    },
+    {
+      "name": "Costes Downtown",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Budapest's first Michelin-starred restaurant showcasing modern Hungarian cuisine in a sleek downtown setting.",
+      "mustTry": "Foie gras with Hungarian flavors"
+    },
+    {
+      "name": "Szalami Vendéglő",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-frills local canteen serving hearty Hungarian classics like chicken paprikash and bean soup at unbeatable prices.",
+      "mustTry": "Chicken paprikash with egg noodles"
+    },
+    {
+      "name": "Tasting Table",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary restaurant combining Hungarian heritage with modern culinary techniques, featuring a tasting menu format.",
+      "mustTry": "Duck with cherry and paprika sauce"
+    },
+    {
+      "name": "Onyx",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred establishment presenting molecular gastronomy interpretations of Hungarian traditional dishes.",
+      "mustTry": "Deconstructed gulyás"
+    },
+    {
+      "name": "Spinoza Café",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Jewish quarter institution serving Central European cuisine with a focus on traditional Jewish-Hungarian comfort food.",
+      "mustTry": "Matzo ball soup and challah"
+    },
+    {
+      "name": "Kiosk",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Hip casual eatery offering gourmet street food and local specialties at pocket-friendly prices in a relaxed atmosphere.",
+      "mustTry": "Langos with garlic and sour cream"
+    },
+    {
+      "name": "Babel",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Modern Middle Eastern and Mediterranean cuisine in the Jewish Quarter, featuring creative mezze platters and grilled specialties.",
+      "mustTry": "Lamb kebab with tahini"
+    },
+    {
+      "name": "Gundel",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Historic fine dining establishment since 1910 in City Park, serving classical and contemporary Hungarian haute cuisine.",
+      "mustTry": "Crêpes Gundel with chocolate sauce"
+    },
+    {
+      "name": "Karavan",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Food truck collection in Kazinczy Street offering international and Hungarian street food with excellent quality-to-price ratio.",
+      "mustTry": "Hungarian street sausage"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Széchenyi Thermal Bath",
+      "category": "Relaxation",
+      "description": "Massive outdoor and indoor thermal complex in City Park featuring 18 pools at varying temperatures, including the famous bright yellow buildings.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Parliament Building Tour",
+      "category": "Cultural",
+      "description": "Guided tour of Hungary's stunning Gothic Revival parliament, the world's second-largest parliament building with breathtaking interior details.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Danube River Sunset Cruise",
+      "category": "Outdoor",
+      "description": "Evening cruise along the Danube with views of all major illuminated landmarks including Parliament, Castle, and Chain Bridge.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Buda Castle Exploration",
+      "category": "Cultural",
+      "description": "Hilltop palace complex offering palace museums, gardens, and unrivaled panoramic views of the entire city from multiple vantage points.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Ruin Bar Crawl",
+      "category": "Nightlife",
+      "description": "Explore Budapest's unique ruin bar scene, where bars occupy abandoned buildings and courtyards with eclectic décor, live music, and vibrant nightlife.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "surprise",
+        "hidden-gems",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Chain Bridge Walk",
+      "category": "Outdoor",
+      "description": "Free pedestrian crossing of Budapest's iconic 19th-century suspension bridge connecting Buda and Pest with stunning city views.",
+      "durationHours": 0.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Great Market Hall Food Tour",
+      "category": "Foodie",
+      "description": "Historic covered market featuring traditional Hungarian produce, paprika, salami, and local crafts with excellent food stall sampling opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "House of Terror Museum",
+      "category": "Cultural",
+      "description": "Powerful museum documenting Hungary's Nazi and communist eras in a former secret police headquarters with immersive historical exhibits.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Fisherman's Bastion",
+      "category": "Outdoor",
+      "description": "Neo-Gothic lookout terrace on Buda hills offering the most photogenic views of Parliament and the Danube, free to explore exterior areas.",
+      "durationHours": 1,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Gellért Hill Hike",
+      "category": "Outdoor",
+      "description": "Scenic hillside walk in Buda with panoramic city views, the Citadel fortress, and multiple photo opportunities throughout the climb.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Jewish Quarter Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of Budapest's historic Jewish Quarter featuring hidden courtyards, the Dohány Street Synagogue, and cultural landmarks.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Gypsy Folk Dinner Show",
+      "category": "Cultural",
+      "description": "Traditional Hungarian dinner with live Gypsy music and dance performances in an intimate restaurant setting with authentic cuisine.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Chain Bridge at Sunrise",
+        "description": "Iconic 19th-century suspension bridge illuminated by golden morning light with Parliament building reflected in calm Danube waters.",
+        "difficulty": "Beginner",
+        "bestTime": "5:30-6:30 AM during spring through fall",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fisherman's Bastion Overlook",
+        "description": "Ornate neo-Gothic terrace providing sweeping panoramic vistas of Parliament, the Danube, and Pest skyline with dramatic architectural foreground.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour: 6-7 AM or 6-8 PM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Parliament Building from Batthyány Square",
+        "description": "Direct frontal view of the Gothic Revival Parliament facade reflected in the Danube with symmetrical composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light or evening for dramatic shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Gellért Hill Citadel at Night",
+        "description": "The illuminated Citadel fortress overlooking the entire city with the Chain Bridge and Parliament creating a layered nighttime cityscape.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes after sunset for twilight blue hour",
+        "category": "Night"
+      },
+      {
+        "name": "Ruin Bar Street Art Details",
+        "description": "Eclectic street art, graffiti murals, and architectural decay creating vibrant abstract and artistic photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for even lighting on walls",
+        "category": "Street"
+      },
+      {
+        "name": "Danube River from Margaret Bridge",
+        "description": "Central vantage point capturing both Buda Castle and Parliament with the river in foreground and surrounding urban landscape.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones reflecting in water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Jewish Quarter Courtyards",
+        "description": "Hidden weathered courtyards with peeling yellow walls, hanging laundry, and atmospheric shadows creating moody urban exploration photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days for even lighting in narrow spaces",
+        "category": "Street"
+      },
+      {
+        "name": "Széchenyi Thermal Bath at Dusk",
+        "description": "Steaming outdoor pools surrounded by bright yellow Neo-Baroque architecture with people in warm water creating surreal contrasts at twilight.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour after sunset when thermal mist is most visible",
+        "category": "Architecture"
+      },
+      {
+        "name": "Elizabeth Bridge Perspective",
+        "description": "Modern white suspension bridge with unique A-frame towers framing Parliament building in the distance across the Danube.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for clean shadows and minimal traffic",
+        "category": "Architecture"
+      },
+      {
+        "name": "Great Market Hall Interior",
+        "description": "Ornate iron and glass ceiling structure with colorful produce stalls, hanging paprikas, and dynamic street vendor activity below.",
+        "difficulty": "Advanced",
+        "bestTime": "Mid-morning for best natural light through skylights",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Chain Bridge from Buda embankment",
+      "Fisherman's Bastion eastern platform",
+      "Margaret Island northern tip"
+    ],
+    "sunsetSpots": [
+      "Gellért Hill Citadel viewing area",
+      "Buda Castle western terrace",
+      "Danube embankment near Parliament"
+    ],
+    "lensRecommendations": [
+      "24-70mm versatile zoom for architectural details and street scenes",
+      "14-24mm ultra-wide for sweeping landscape and bridge vantage compositions",
+      "70-200mm telephoto for compressed Parliament and bridge tower detail shots",
+      "50mm prime for intimate street photography and ruin bar ambiance"
+    ],
+    "goldenHourNotes": "Budapest's golden hour is exceptionally photogenic due to the abundance of pale limestone architecture and water surfaces that reflect warm light beautifully. The Danube water acts as a natural mirror extending golden hour photography opportunities by 30-40 minutes. Spring through autumn offer the most dramatic golden hour angles when the sun sets across the river behind Parliament.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -1,
+        "rainfallMM": 43
+      },
+      {
+        "month": 2,
+        "avgTempC": 1,
+        "rainfallMM": 40
+      },
+      {
+        "month": 3,
+        "avgTempC": 7,
+        "rainfallMM": 41
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 52
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 68
+      },
+      {
+        "month": 6,
+        "avgTempC": 21,
+        "rainfallMM": 78
+      },
+      {
+        "month": 7,
+        "avgTempC": 23,
+        "rainfallMM": 66
+      },
+      {
+        "month": 8,
+        "avgTempC": 22,
+        "rainfallMM": 60
+      },
+      {
+        "month": 9,
+        "avgTempC": 18,
+        "rainfallMM": 51
+      },
+      {
+        "month": 10,
+        "avgTempC": 12,
+        "rainfallMM": 48
+      },
+      {
+        "month": 11,
+        "avgTempC": 7,
+        "rainfallMM": 61
+      },
+      {
+        "month": 12,
+        "avgTempC": 1,
+        "rainfallMM": 50
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer months (June-August) offer warm, pleasant weather perfect for outdoor activities and thermal baths, though crowds peak during this period. Spring (April-May) and early autumn (September) provide ideal combinations of pleasant weather, manageable crowds, and spectacular golden hour photography.",
+    "summary": "Budapest experiences a continental climate with mild winters and warm summers. The best time to visit is May through September when temperatures range from 18-23°C, though July-August can be quite warm and crowded. Winter months feature occasional snow and cold temperatures below freezing, making December through February less ideal for tourism."
+  },
+  "hotels": [
+    {
+      "name": "Bubble Hotel",
+      "neighborhood": "Jewish Quarter, District VII",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Hip capsule-style hostel with private pods, social spaces, and location near ruin bars and kosher restaurants at excellent budget rates."
+    },
+    {
+      "name": "Aria Hotel Budapest",
+      "neighborhood": "Castle District, District I",
+      "pricePerNightUSD": 220,
+      "category": "Mid-range",
+      "description": "Design-forward 4-star hotel with music-themed suites, exceptional Parliament and Danube views, and rooftop bar overlooking the cityscape."
+    },
+    {
+      "name": "Four Seasons Hotel Gresham Palace",
+      "neighborhood": "Downtown Pest, District V",
+      "pricePerNightUSD": 480,
+      "category": "Luxury",
+      "description": "Ultra-luxury art nouveau palace directly on the Danube with Michelin-starred restaurant, spa, and commanding views of Chain Bridge and Parliament."
+    }
+  ]
+}

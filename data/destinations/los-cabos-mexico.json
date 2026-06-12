@@ -1,0 +1,465 @@
+{
+  "id": "los-cabos-mexico",
+  "city": "Los Cabos",
+  "country": "Mexico",
+  "region": "North America",
+  "airportCodes": [
+    "SJD",
+    "LAP"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 85,
+    "photography": 90,
+    "activities": 88,
+    "weather": 82
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 1200
+    }
+  ],
+  "unsplashQuery": "Los Cabos sunset beach",
+  "summary": "Los Cabos, located at the southern tip of the Baja California Peninsula, is a world-class beach destination renowned for dramatic desert-meets-ocean landscapes, luxury resorts, and exceptional seafood dining. The region offers perfect conditions for water sports, golf, spa retreats, and stunning photography opportunities at iconic locations like El Arco and Medano Beach. Whether seeking relaxation or adventure, Los Cabos combines pristine coastal beauty with cosmopolitan amenities and vibrant Mexican culture.",
+  "restaurants": [
+    {
+      "name": "Mariscos Playa",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual beachfront seafood shack serving fresh ceviche, grilled fish, and shrimp tacos with ocean views. A local favorite offering authentic Baja flavors at budget-friendly prices.",
+      "mustTry": "Fish ceviche with fresh lime and cilantro"
+    },
+    {
+      "name": "Tótem Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Mexican cuisine featuring seasonal ingredients and traditional techniques in a vibrant, artistic setting. Known for creative ceviche presentations and regional specialties.",
+      "mustTry": "Tuna tostadas with avocado mousse"
+    },
+    {
+      "name": "Cabo Pulmo Seafood",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-run restaurant showcasing the daily catch from the nearby marine sanctuary, prepared simply to highlight fresh flavors. Outdoor seating with beach access.",
+      "mustTry": "Whole grilled red snapper"
+    },
+    {
+      "name": "Flora Farms",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table dining experience featuring organic produce from their own gardens and sustainably sourced seafood. Elegant presentation and thoughtful wine pairings in a rustic-elegant setting.",
+      "mustTry": "Chef's tasting menu with local fish course"
+    },
+    {
+      "name": "Agua Caliente Taco Shop",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-frills taco stand serving authentic Baja-style tacos including carnitas, al pastor, and fresh fish preparations. Perfect for quick, delicious meals.",
+      "mustTry": "Battered fish tacos with cabbage slaw"
+    },
+    {
+      "name": "Sunset Monalisa",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront Italian restaurant with sunset views, serving handmade pasta, fresh seafood, and thin-crust pizzas. Relaxed atmosphere perfect for evening dining.",
+      "mustTry": "Lobster tagliatelle"
+    },
+    {
+      "name": "The Taco Stand",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular casual spot in downtown Cabo offering traditional Mexican breakfast and lunch items including chilaquiles, huevos rancheros, and fresh juices.",
+      "mustTry": "Breakfast burrito with chorizo and eggs"
+    },
+    {
+      "name": "Pitahayas",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Mexican fine dining with French influences, housed in an elegant beachfront location. Featuring creative interpretations of traditional dishes with premium presentations.",
+      "mustTry": "Seared tuna with mole negro"
+    },
+    {
+      "name": "Medano Seafood Market",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Working seafood market with attached casual restaurant where fish is served within hours of landing. Direct, fresh, and authentically local experience.",
+      "mustTry": "Octopus ceviche"
+    },
+    {
+      "name": "Cabo Wabo Cantina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Celebrity-owned cantina in downtown Cabo offering Baja cuisine, live music, and vibrant nightlife atmosphere. Famous for margaritas and grilled meats.",
+      "mustTry": "Carne asada with all the fixings"
+    },
+    {
+      "name": "Zibu",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Japanese-fusion restaurant featuring premium sushi, sashimi, and innovative cooked dishes using local and imported ingredients. Intimate setting with sushi counter views.",
+      "mustTry": "Yellowfin tuna with serrano pepper"
+    },
+    {
+      "name": "Grill Room at Hilton",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Steakhouse featuring prime cuts, fresh seafood, and an extensive wine list in an upscale resort setting. Elegant preparations and attentive service.",
+      "mustTry": "Pan-seared yellowfin tuna with ponzu reduction"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling at Medano Beach",
+      "category": "Outdoor",
+      "description": "Explore colorful coral reefs and tropical fish just offshore from the main beach. Equipment rental available on-site with minimal entry fees.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Sportfishing Charter",
+      "category": "Adventure",
+      "description": "Half or full-day deep-sea fishing trips targeting marlin, dorado, wahoo, and roosterfish with experienced captains. All equipment and bait provided.",
+      "durationHours": 6,
+      "estimatedCostUSD": 350,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Outdoor",
+      "description": "Sail to El Arco rock formation at sunset with onboard beverages and snacks, often including whale watching in season. Romantic and photogenic experience.",
+      "durationHours": 3,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Desert ATV & Zip Line Adventure",
+      "category": "Adventure",
+      "description": "Combine off-road ATV riding through scenic desert landscapes with multiple zip-line courses offering adrenaline and aerial views. Guided tours with safety equipment.",
+      "durationHours": 4,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "El Arco Kayaking",
+      "category": "Outdoor",
+      "description": "Paddle kayak around the iconic El Arco rock formation and explore sea caves and hidden beaches. Guided tours depart from Medano Beach.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "outdoor"
+      ]
+    },
+    {
+      "name": "Golf at Championship Courses",
+      "category": "Outdoor",
+      "description": "Play world-class golf courses like Cabo del Sol and Palmilla offering ocean views, challenging layouts, and professional services. Multiple courses available.",
+      "durationHours": 5,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Whale Watching Tour",
+      "category": "Outdoor",
+      "description": "December through April, witness migrating gray whales and breaching humpbacks from dedicated boats with marine biologists. One of North America's best whale watching experiences.",
+      "durationHours": 4,
+      "estimatedCostUSD": 90,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Medano Beach Relaxation & Swimming",
+      "category": "Relaxation",
+      "description": "Enjoy the main sandy beach with calm waters, beach clubs, restaurants, and stunning sunset views. Free access with optional food and drink purchases.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Spa & Wellness Treatments",
+      "category": "Relaxation",
+      "description": "Indulge in massages, facials, and holistic treatments at luxury resort spas using local and organic products. Many spas offer oceanview treatment rooms.",
+      "durationHours": 2,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Downtown Cabo Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the historic marina area, colonial architecture, local galleries, artisan shops, and authentic restaurants. Free self-guided or small fee for guided tours.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Nightlife & Club Experience",
+      "category": "Nightlife",
+      "description": "Experience vibrant nightclubs, beachfront bars, and live music venues throughout downtown Cabo and resort areas. Music ranges from DJ sets to traditional Mexican bands.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Cabo Pulmo National Marine Sanctuary Dive",
+      "category": "Adventure",
+      "description": "Scuba dive in pristine coral reefs home to 200+ fish species and large pelagics, located 70km from Los Cabos. World-class dive site with experienced operators.",
+      "durationHours": 6,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "El Arco (The Arch)",
+        "description": "Iconic rock formation at the meeting of the Pacific Ocean and Sea of Cortez, offering dramatic composition opportunities at sunrise and sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for warm tones or early morning for cool light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Medano Beach",
+        "description": "Sweeping sandy beach with colorful boats, beach clubs, and mountains in background, perfect for wide-angle landscape and lifestyle shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light, sunrise for solitude",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lover's Beach",
+        "description": "Small intimate beach accessible by boat with turquoise waters, white sand, and dramatic rock formations creating intimate framing.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for soft light without harsh shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Marina District",
+        "description": "Colonial-style buildings, boats, waterfront shops, and local life create dynamic street photography and cultural documentation opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for clean light and fewer crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Flora Farms",
+        "description": "Farm gardens with organic produce and rustic architecture surrounded by desert landscape, offering nature and environmental storytelling.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm garden tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cerritos Beach",
+        "description": "Long sandy beach with consistent waves, surfboards, and dramatic desert backdrop, ideal for action sports and lifestyle photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning sessions for offshore light and surfer activity",
+        "category": "Landscape"
+      },
+      {
+        "name": "Todos Santos Art District",
+        "description": "Charming coastal town with colorful colonial buildings, street art, galleries, and local craftspeople creating vibrant cultural scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even light on architecture",
+        "category": "Architecture"
+      },
+      {
+        "name": "San Jose del Cabo Market",
+        "description": "Local farmers market with colorful produce, flowers, crafts, and vibrant local activity offering authentic documentary and detail shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning when vendors are setting up",
+        "category": "Street"
+      },
+      {
+        "name": "Shipwreck at Cerritos",
+        "description": "Abandoned wooden shipwreck remains on beach creating dramatic texture and historical storytelling with desert and ocean backdrops.",
+        "difficulty": "Advanced",
+        "bestTime": "Low tide for full structure visibility, golden hour for mood",
+        "category": "Landscape"
+      },
+      {
+        "name": "Punta Colorada",
+        "description": "Red rock formations meeting turquoise water creating vibrant color contrasts and dramatic seascapes unique to the region.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon when red rocks glow warmly",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Cerritos Beach",
+      "Medano Beach",
+      "Cabo Pulmo National Marine Sanctuary"
+    ],
+    "sunsetSpots": [
+      "El Arco (The Arch)",
+      "Lover's Beach",
+      "Flora Farms"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for sweeping landscape shots of El Arco and beaches",
+      "70-200mm telephoto for compressed perspective of rock formations and wildlife",
+      "50mm prime for street photography in downtown and markets with natural bokeh",
+      "Macro lens for detail shots of coral, marine life, and local crafts"
+    ],
+    "goldenHourNotes": "Los Cabos offers exceptional golden hour photography year-round with consistent warm light across both sunrise and sunset. The desert landscape intensifies golden hour colors, turning rocks and sand into warm amber tones, while the meeting of two bodies of water at El Arco creates dramatic reflections during these windows. Plan 30 minutes before and after official sunrise/sunset times for optimal shooting conditions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 20,
+        "rainfallMM": 10
+      },
+      {
+        "month": 2,
+        "avgTempC": 21,
+        "rainfallMM": 8
+      },
+      {
+        "month": 3,
+        "avgTempC": 23,
+        "rainfallMM": 5
+      },
+      {
+        "month": 4,
+        "avgTempC": 25,
+        "rainfallMM": 3
+      },
+      {
+        "month": 5,
+        "avgTempC": 29,
+        "rainfallMM": 2
+      },
+      {
+        "month": 6,
+        "avgTempC": 32,
+        "rainfallMM": 15
+      },
+      {
+        "month": 7,
+        "avgTempC": 34,
+        "rainfallMM": 20
+      },
+      {
+        "month": 8,
+        "avgTempC": 34,
+        "rainfallMM": 22
+      },
+      {
+        "month": 9,
+        "avgTempC": 32,
+        "rainfallMM": 25
+      },
+      {
+        "month": 10,
+        "avgTempC": 28,
+        "rainfallMM": 18
+      },
+      {
+        "month": 11,
+        "avgTempC": 25,
+        "rainfallMM": 12
+      },
+      {
+        "month": 12,
+        "avgTempC": 21,
+        "rainfallMM": 8
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "seasonality": "Los Cabos experiences a desert climate with hot summers (June-September reaching 32-34°C) when hurricane season approaches and rainfall increases, making these months less ideal for travel. The optimal visiting season runs November through April when temperatures are pleasantly warm (20-25°C), rainfall minimal, and weather is most stable.",
+    "summary": "Los Cabos enjoys abundant sunshine year-round with minimal rainfall outside hurricane season (June-September). The region offers exceptional weather for beach and outdoor activities during the dry season, though summer months attract fewer visitors due to heat and occasional tropical storms."
+  },
+  "hotels": [
+    {
+      "name": "Hotel California",
+      "neighborhood": "Todos Santos (30km north)",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Charming historic colonial-style hotel with colorful rooms, local art gallery, and restaurant in the artistic town of Todos Santos."
+    },
+    {
+      "name": "Pueblo Bonito Sunset Beach Resort & Spa",
+      "neighborhood": "Medano Beach",
+      "pricePerNightUSD": 220,
+      "category": "Mid-range",
+      "description": "All-inclusive beachfront resort featuring multiple pools, restaurants, spa, water sports, and direct beach access with ocean views."
+    },
+    {
+      "name": "One&Only Palmilla",
+      "neighborhood": "Punta Palmilla",
+      "pricePerNightUSD": 650,
+      "category": "Luxury",
+      "description": "Ultra-luxury beachfront resort offering private beach access, Michelin-worthy dining, championship golf course, and world-class spa services."
+    }
+  ]
+}
