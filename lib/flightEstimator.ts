@@ -1,27 +1,84 @@
 // Static IATA region mapping for flight cost estimation
 const IATA_REGIONS: Record<string, string> = {
-  // North America
+  // North America — USA majors
   JFK: 'NA', LAX: 'NA', ORD: 'NA', ATL: 'NA', DFW: 'NA', DEN: 'NA', SFO: 'NA',
   SEA: 'NA', MIA: 'NA', BOS: 'NA', LAS: 'NA', PHX: 'NA', IAH: 'NA', MSP: 'NA',
-  DTW: 'NA', PHL: 'NA', CLT: 'NA', SLC: 'NA', YYZ: 'NA', YVR: 'NA', YUL: 'NA',
-  MEX: 'NA', CUN: 'NA', GDL: 'NA',
-  // Europe
+  DTW: 'NA', PHL: 'NA', CLT: 'NA', SLC: 'NA', IAD: 'NA', DCA: 'NA', BWI: 'NA',
+  EWR: 'NA', LGA: 'NA', MDW: 'NA', OAK: 'NA', SJC: 'NA', LGB: 'NA', BUR: 'NA',
+  // North America — USA regionals
+  AUS: 'NA', BNA: 'NA', MSY: 'NA', MEM: 'NA', PDX: 'NA', SAN: 'NA', SAT: 'NA',
+  TPA: 'NA', MCO: 'NA', SFB: 'NA', FLL: 'NA', PBI: 'NA', RSW: 'NA', EYW: 'NA',
+  MCI: 'NA', STL: 'NA', IND: 'NA', CMH: 'NA', CVG: 'NA', CLE: 'NA', PIT: 'NA',
+  RIC: 'NA', SDF: 'NA', BOS: 'NA', ORF: 'NA', RDU: 'NA', CHS: 'NA', SAV: 'NA',
+  JAX: 'NA', MEM: 'NA', BNA: 'NA', BOI: 'NA', ABQ: 'NA', TUS: 'NA', ELP: 'NA',
+  AUS: 'NA', AVL: 'NA', GSP: 'NA', OGG: 'NA', KOA: 'NA', RNO: 'NA', SMF: 'NA',
+  FAT: 'NA', ONT: 'NA', STS: 'NA', MFR: 'NA', TAC: 'NA', BZN: 'NA', FCA: 'NA',
+  JAC: 'NA', MDT: 'NA', SYR: 'NA', BUF: 'NA', ROC: 'NA', PVD: 'NA', BGR: 'NA',
+  COS: 'NA', GJT: 'NA', SAF: 'NA', ABQ: 'NA', FLG: 'NA', BTR: 'NA', MOB: 'NA',
+  JAN: 'NA', LUK: 'NA', PDK: 'NA', FTY: 'NA', MCC: 'NA', MSC: 'NA', AZA: 'NA',
+  HDT: 'NA', MIC: 'NA', OGD: 'NA', PVT: 'NA', WYS: 'NA', MIS: 'NA', CIU: 'NA',
+  // North America — Canada
+  YYZ: 'NA', YVR: 'NA', YUL: 'NA', YYC: 'NA', YYJ: 'NA', YQB: 'NA', YTZ: 'NA',
+  YLW: 'NA', YHM: 'NA', YMX: 'NA',
+  // North America — Mexico
+  MEX: 'NA', CUN: 'NA', GDL: 'NA', SJD: 'NA', PVR: 'NA', OAX: 'NA', MZT: 'NA',
+  VER: 'NA', CTM: 'NA', LAP: 'NA',
+  // Europe — Western
   LHR: 'EU', CDG: 'EU', AMS: 'EU', FRA: 'EU', MAD: 'EU', BCN: 'EU', FCO: 'EU',
   MUC: 'EU', ZRH: 'EU', VIE: 'EU', BRU: 'EU', LIS: 'EU', CPH: 'EU', ARN: 'EU',
   OSL: 'EU', HEL: 'EU', DUB: 'EU', ATH: 'EU', WAW: 'EU', PRG: 'EU', BUD: 'EU',
-  IST: 'EU', SVO: 'EU', LED: 'EU',
-  // Asia Pacific
-  NRT: 'AP', HND: 'AP', PEK: 'AP', PVG: 'AP', HKG: 'AP', SIN: 'AP', BKK: 'AP',
-  KUL: 'AP', CGK: 'AP', ICN: 'AP', TPE: 'AP', MNL: 'AP', DEL: 'AP', BOM: 'AP',
-  SYD: 'AP', MEL: 'AP', AKL: 'AP', NAN: 'AP', DPS: 'AP',
-  // Middle East & Africa
-  DXB: 'ME', AUH: 'ME', DOH: 'ME', RUH: 'ME', CAI: 'AF', JNB: 'AF', NBO: 'AF',
-  CMN: 'AF', ACC: 'AF', ADD: 'AF', LOS: 'AF', CPT: 'AF', DAR: 'AF',
-  // Latin America
-  GRU: 'SA', BOG: 'SA', LIM: 'SA', SCL: 'SA', EZE: 'SA', MVD: 'SA', UIO: 'SA',
-  PTY: 'SA', SJO: 'SA', HAV: 'SA',
-  // Caribbean & Pacific Islands
-  MBJ: 'CAR', PUJ: 'CAR', SXM: 'CAR', ANU: 'CAR', PPT: 'PAC', HNL: 'PAC',
+  SVO: 'EU', LED: 'EU',
+  // Europe — additional
+  LGW: 'EU', STN: 'EU', MAN: 'EU', EDI: 'EU', GLA: 'EU', SNN: 'EU',
+  BER: 'EU', TXL: 'EU', SXF: 'EU', MXP: 'EU', VCE: 'EU', NAP: 'EU', CIA: 'EU',
+  OPO: 'EU', FAO: 'EU', AGP: 'EU', IBZ: 'EU', VLC: 'EU', VGO: 'EU',
+  ORY: 'EU', BVA: 'EU', EHV: 'EU', RTM: 'EU', NYO: 'EU', VST: 'EU',
+  DBV: 'EU', SPU: 'EU', ZAG: 'EU', LJU: 'EU',
+  JTR: 'EU', RHO: 'EU', SKU: 'EU', ATH: 'EU',
+  KEF: 'EU', RKE: 'EU', RKV: 'EU',
+  CPH: 'EU', MME: 'EU',
+  INN: 'EU', BRN: 'EU', FKB: 'EU',
+  IST: 'EU', SAW: 'EU', ASR: 'EU', KYA: 'EU', AYP: 'EU',
+  // Asia Pacific — Northeast Asia
+  NRT: 'AP', HND: 'AP', KIX: 'AP', ITM: 'AP', NGO: 'AP', UKB: 'AP',
+  PEK: 'AP', PVG: 'AP', CAN: 'AP', SZX: 'AP', TXG: 'AP',
+  HKG: 'AP', TPE: 'AP', GMP: 'AP', ICN: 'AP',
+  // Asia Pacific — Southeast Asia
+  SIN: 'AP', XSP: 'AP', BKK: 'AP', DMK: 'AP', HKT: 'AP',
+  KUL: 'AP', CGK: 'AP', SUB: 'AP', DPS: 'AP',
+  MNL: 'AP', CRK: 'AP',
+  HAN: 'AP', SGN: 'AP', DAD: 'AP',
+  // Asia Pacific — South Asia
+  DEL: 'AP', BOM: 'AP', CJB: 'AP',
+  // Asia Pacific — Maldives
+  MLE: 'AP', GAN: 'AP',
+  // Asia Pacific — Australia / NZ
+  SYD: 'AP', MEL: 'AP', BNE: 'AP', CBR: 'AP', AVV: 'AP', MEB: 'AP', KNX: 'AP',
+  AKL: 'AP', CHC: 'AP', ZQN: 'AP',
+  // Asia Pacific — Pacific
+  NAN: 'PAC', PPT: 'PAC', HNL: 'PAC', OGG: 'PAC', KOA: 'PAC',
+  // Middle East
+  DXB: 'ME', AUH: 'ME', DWC: 'ME', DOH: 'ME', RUH: 'ME',
+  AMM: 'ME', AQJ: 'ME',
+  // Africa
+  CAI: 'AF', JNB: 'AF', CPT: 'AF', NBO: 'AF', DAR: 'AF',
+  CMN: 'AF', RAK: 'AF',
+  ACC: 'AF', ADD: 'AF', LOS: 'AF',
+  JRO: 'AF', ZNZ: 'AF', MRU: 'AF',
+  // Latin America — Central America
+  SJO: 'SA', LIR: 'SA', MGA: 'SA', GUA: 'SA', PTY: 'SA',
+  // Latin America — South America
+  GRU: 'SA', GIG: 'SA', SDU: 'SA', BOG: 'SA', CTG: 'SA', MDE: 'SA',
+  LIM: 'SA', CUZ: 'SA', AYP: 'SA',
+  SCL: 'SA', EZE: 'SA', AEP: 'SA', BRC: 'SA', CPC: 'SA', USH: 'SA', PSS: 'SA',
+  MVD: 'SA', UIO: 'SA', HAV: 'SA',
+  // Caribbean
+  MBJ: 'CAR', KIN: 'CAR', PUJ: 'CAR', SDQ: 'CAR', STI: 'CAR',
+  SJU: 'CAR', STT: 'CAR', SXM: 'CAR', ANU: 'CAR', SLU: 'CAR', SVD: 'CAR',
+  AUA: 'CAR', BON: 'CAR', CUR: 'CAR',
+  NAS: 'CAR', GDT: 'CAR', PLS: 'CAR', CYB: 'CAR',
+  BGI: 'CAR',
+  BZE: 'CAR',
 };
 
 // Base flight costs (USD round-trip per person) between regions
