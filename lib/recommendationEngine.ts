@@ -32,13 +32,13 @@ function applyModeModifiers(
   return { adjusted, bonus };
 }
 
-function applySupriseSalt(scores: DestinationScores): DestinationScores {
+function applySalt(scores: DestinationScores, maxJitter: number): DestinationScores {
   return {
-    cost:        Math.min(100, scores.cost        + Math.random() * 5),
-    food:        Math.min(100, scores.food        + Math.random() * 5),
-    photography: Math.min(100, scores.photography + Math.random() * 5),
-    activities:  Math.min(100, scores.activities  + Math.random() * 5),
-    weather:     Math.min(100, scores.weather     + Math.random() * 5),
+    cost:        Math.min(100, scores.cost        + Math.random() * maxJitter),
+    food:        Math.min(100, scores.food        + Math.random() * maxJitter),
+    photography: Math.min(100, scores.photography + Math.random() * maxJitter),
+    activities:  Math.min(100, scores.activities  + Math.random() * maxJitter),
+    weather:     Math.min(100, scores.weather     + Math.random() * maxJitter),
   };
 }
 
@@ -86,8 +86,11 @@ export function scoreDestinations(
   const scored: ScoredDestination[] = candidates.map(dest => {
     let { adjusted, bonus } = applyModeModifiers(dest.scores, travelMode);
     if (travelMode === 'surprise') {
-      adjusted = applySupriseSalt(adjusted);
+      adjusted = applySalt(adjusted, 5);
       bonus = 0;
+    } else {
+      // Small jitter so repeated searches with identical inputs yield variety
+      adjusted = applySalt(adjusted, 3);
     }
     const rawScore = computeWeightedScore(adjusted, weights);
     return {
