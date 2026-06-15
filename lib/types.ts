@@ -147,6 +147,15 @@ export interface ScoredDestination extends DestinationIndex {
   modeBonus: number;
 }
 
+export interface LiveCityData {
+  weatherScore: number | null;
+  weatherSummary: string | null;
+  hotelPerNightUSD: number | null;
+  foodPerDayUSD: number | null;
+  costScore: number | null;
+  source: 'live' | 'partial' | 'estimated';
+}
+
 export interface RecommendationResult {
   destination: Destination;
   overallScore: number;
@@ -155,4 +164,5 @@ export interface RecommendationResult {
   budgetAllocation: BudgetAllocation;
   estimatedFlightCostUSD: number;
   rank: number;
+  liveData: LiveCityData;
 }

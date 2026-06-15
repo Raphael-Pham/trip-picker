@@ -1,10 +1,11 @@
-import type { BudgetAllocation, DestinationIndex } from './types';
+import type { BudgetAllocation, DestinationIndex, LiveCityData } from './types';
 
 export function allocateBudget(
   totalBudget: number,
   destination: DestinationIndex,
   tripDays: number,
   estimatedFlightCost: number,
+  live?: Pick<LiveCityData, 'hotelPerNightUSD' | 'foodPerDayUSD'>,
 ): BudgetAllocation {
   const maxFlights = totalBudget * 0.35;
   const flights = Math.min(estimatedFlightCost, maxFlights);
@@ -12,17 +13,35 @@ export function allocateBudget(
 
   const remaining = Math.max(totalBudget - flights, 0);
 
-  // Adjust hotel allocation based on cost score (lower cost score = pricier destination)
-  const costScore = destination.scores.cost;
-  const hotelMultiplier = costScore < 40 ? 0.44 : costScore < 60 ? 0.38 : 0.32;
-  const activitiesMultiplier = costScore < 40 ? 0.14 : 0.18;
+  let hotel: number;
+  let food: number;
+  let activities: number;
+  let transportation: number;
+  let emergencyBuffer: number;
 
-  const hotel = Math.round(remaining * hotelMultiplier);
-  const food = Math.round(remaining * 0.22);
-  const activities = Math.round(remaining * activitiesMultiplier);
-  const transportation = Math.round(remaining * 0.10);
-  // Emergency buffer gets the remainder to ensure exact sum
-  const emergencyBuffer = remaining - hotel - food - activities - transportation;
+  if (live?.hotelPerNightUSD || live?.foodPerDayUSD) {
+    // Use live prices where available; fall back to proportional split for missing items
+    hotel = live.hotelPerNightUSD
+      ? Math.min(Math.round(live.hotelPerNightUSD * tripDays), Math.round(remaining * 0.55))
+      : Math.round(remaining * 0.38);
+    food = live.foodPerDayUSD
+      ? Math.min(Math.round(live.foodPerDayUSD * tripDays), Math.round(remaining * 0.35))
+      : Math.round(remaining * 0.22);
+    const discretionary = Math.max(remaining - hotel - food, 0);
+    activities = Math.round(discretionary * 0.50);
+    transportation = Math.round(discretionary * 0.28);
+    emergencyBuffer = discretionary - activities - transportation;
+  } else {
+    // Static proportional split (original logic)
+    const costScore = destination.scores.cost;
+    const hotelMultiplier = costScore < 40 ? 0.44 : costScore < 60 ? 0.38 : 0.32;
+    const activitiesMultiplier = costScore < 40 ? 0.14 : 0.18;
+    hotel = Math.round(remaining * hotelMultiplier);
+    food = Math.round(remaining * 0.22);
+    activities = Math.round(remaining * activitiesMultiplier);
+    transportation = Math.round(remaining * 0.10);
+    emergencyBuffer = remaining - hotel - food - activities - transportation;
+  }
 
   return {
     flights: Math.round(flights),

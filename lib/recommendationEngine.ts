@@ -5,9 +5,17 @@ import type {
   RecommendationResult,
   ScoredDestination,
   TravelMode,
+  LiveCityData,
 } from './types';
 import { estimateFlightCost, isAirportReachable } from './flightEstimator';
 import { allocateBudget, getTripDays } from './budgetEngine';
+import { fetchLiveCityData } from './liveData';
+
+const ESTIMATED_LIVE: LiveCityData = {
+  weatherScore: null, weatherSummary: null,
+  hotelPerNightUSD: null, foodPerDayUSD: null,
+  costScore: null, source: 'estimated',
+};
 
 const MODE_MODIFIERS: Partial<Record<TravelMode, Partial<DestinationScores>>> = {
   photography: { photography: 15 },
@@ -130,32 +138,37 @@ export async function getRecommendations(
 
   const results: RecommendationResult[] = [];
 
-  for (let i = 0; i < scored.length; i++) {
-    const s = scored[i];
-    const flightCost = estimateFlightCost(params.departureAirport, s.airportCodes, tripDays);
+  // Fetch full destination JSON + live data for all top results in parallel
+  const enriched = await Promise.all(
+    scored.map(async (s, i) => {
+      const flightCost = estimateFlightCost(params.departureAirport, s.airportCodes, tripDays);
 
-    // Dynamic import of full destination JSON
-    let fullDest;
-    try {
-      const mod = await import(`@/data/destinations/${s.id}.json`);
-      fullDest = { ...(mod.default ?? mod), heroImageUrl: s.heroImageUrl };
-    } catch {
-      // Fall back to index data if full file missing
-      fullDest = { ...s, restaurants: [], activities: [], photography: null, weather: null, hotels: [] };
-    }
+      const [destMod, liveData] = await Promise.all([
+        import(`@/data/destinations/${s.id}.json`).catch(() => null),
+        fetchLiveCityData(s.city, s.country, params.startDate, params.endDate)
+          .catch(() => ESTIMATED_LIVE),
+      ]);
 
-    const budgetAllocation = allocateBudget(budget, s, tripDays, flightCost);
+      const fullDest = destMod
+        ? { ...(destMod.default ?? destMod), heroImageUrl: s.heroImageUrl }
+        : { ...s, restaurants: [], activities: [], photography: null, weather: null, hotels: [] };
 
-    results.push({
-      destination: fullDest,
-      overallScore: s.overallScore,
-      adjustedScores: s.adjustedScores,
-      modeBonus: s.modeBonus,
-      budgetAllocation,
-      estimatedFlightCostUSD: flightCost,
-      rank: i + 1,
-    });
-  }
+      const budgetAllocation = allocateBudget(budget, s, tripDays, flightCost, liveData);
+
+      return {
+        destination: fullDest,
+        overallScore: s.overallScore,
+        adjustedScores: s.adjustedScores,
+        modeBonus: s.modeBonus,
+        budgetAllocation,
+        estimatedFlightCostUSD: flightCost,
+        rank: i + 1,
+        liveData,
+      } satisfies RecommendationResult;
+    })
+  );
+
+  results.push(...enriched);
 
   return results;
 }

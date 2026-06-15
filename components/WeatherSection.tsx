@@ -3,11 +3,13 @@ import { WeatherData } from '@/lib/types';
 interface Props {
   weather: WeatherData;
   startDate?: string;
+  liveWeatherSummary?: string | null;
+  liveWeatherScore?: number | null;
 }
 
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-export default function WeatherSection({ weather, startDate }: Props) {
+export default function WeatherSection({ weather, startDate, liveWeatherSummary, liveWeatherScore }: Props) {
   if (!weather) return null;
 
   const travelMonth = startDate ? new Date(startDate).getMonth() + 1 : null;
@@ -18,7 +20,20 @@ export default function WeatherSection({ weather, startDate }: Props) {
   return (
     <div>
       <h3 className="font-semibold text-lg mb-2">🌤️ Weather</h3>
-      <p className="text-sm text-muted-foreground mb-4">{weather.summary}</p>
+      {liveWeatherSummary ? (
+        <div className="flex items-center gap-2 mb-4">
+          <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 border border-emerald-200 px-2 py-0.5 text-xs font-medium text-emerald-700">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+            Live forecast
+          </span>
+          <span className="text-sm text-foreground font-medium">{liveWeatherSummary}</span>
+          {liveWeatherScore != null && (
+            <span className="text-xs text-muted-foreground">· Score: {liveWeatherScore}/100</span>
+          )}
+        </div>
+      ) : (
+        <p className="text-sm text-muted-foreground mb-4">{weather.summary}</p>
+      )}
 
       <div className="overflow-x-auto">
         <div className="min-w-[500px]">

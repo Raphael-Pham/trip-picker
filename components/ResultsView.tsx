@@ -34,7 +34,8 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
   }
 
   const result = results[index];
-  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD } = result;
+  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, liveData } = result;
+  const isLive = liveData.source === 'live' || liveData.source === 'partial';
 
   // Use baked-in URL from generation script; fall back to a reliable placeholder
   const imageUrl = dest.heroImageUrl
@@ -87,14 +88,52 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
       </div>
 
       {/* Quick stats */}
+      {isLive && (
+        <div className="flex items-center gap-1.5 mb-3">
+          <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 text-xs font-medium text-emerald-700">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
+            Live prices
+          </span>
+          {liveData.weatherSummary && (
+            <span className="text-xs text-muted-foreground">{liveData.weatherSummary}</span>
+          )}
+        </div>
+      )}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         {[
-          { label: 'Estimated Flight', value: `$${estimatedFlightCostUSD.toLocaleString()}`, icon: '✈️' },
-          { label: 'Hotel/Night', value: `$${Math.round(budgetAllocation.hotel / Math.max(budgetAllocation.totalDays, 1)).toLocaleString()}`, icon: '🏨' },
-          { label: 'Food/Day', value: `$${Math.round(budgetAllocation.food / Math.max(budgetAllocation.totalDays, 1)).toLocaleString()}`, icon: '🍽️' },
-          { label: 'Activities Est.', value: `$${budgetAllocation.activities.toLocaleString()}`, icon: '🎯' },
-        ].map(({ label, value, icon }) => (
-          <div key={label} className="rounded-xl border border-border bg-background p-3 text-center">
+          {
+            label: 'Est. Flight',
+            value: `$${estimatedFlightCostUSD.toLocaleString()}`,
+            icon: '✈️',
+            live: false,
+          },
+          {
+            label: 'Hotel/Night',
+            value: liveData.hotelPerNightUSD
+              ? `$${liveData.hotelPerNightUSD.toLocaleString()}`
+              : `$${Math.round(budgetAllocation.hotel / Math.max(budgetAllocation.totalDays, 1)).toLocaleString()}`,
+            icon: '🏨',
+            live: !!liveData.hotelPerNightUSD,
+          },
+          {
+            label: 'Food/Day',
+            value: liveData.foodPerDayUSD
+              ? `$${liveData.foodPerDayUSD.toLocaleString()}`
+              : `$${Math.round(budgetAllocation.food / Math.max(budgetAllocation.totalDays, 1)).toLocaleString()}`,
+            icon: '🍽️',
+            live: !!liveData.foodPerDayUSD,
+          },
+          {
+            label: 'Activities',
+            value: `$${budgetAllocation.activities.toLocaleString()}`,
+            icon: '🎯',
+            live: false,
+          },
+        ].map(({ label, value, icon, live }) => (
+          <div key={label} className="rounded-xl border border-border bg-background p-3 text-center relative">
+            {live && (
+              <span className="absolute top-1.5 right-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400" title="Live price" />
+            )}
             <div className="text-xl mb-1">{icon}</div>
             <div className="text-sm font-bold">{value}</div>
             <div className="text-xs text-muted-foreground">{label}</div>
@@ -164,7 +203,7 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
         </TabsContent>
 
         <TabsContent value="weather" className="mt-0">
-          <WeatherSection weather={dest.weather} startDate={startDate} />
+          <WeatherSection weather={dest.weather} startDate={startDate} liveWeatherSummary={liveData.weatherSummary} liveWeatherScore={liveData.weatherScore} />
         </TabsContent>
       </Tabs>
 
