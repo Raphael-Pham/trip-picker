@@ -39,7 +39,7 @@ export default function SearchForm() {
     if (!startDate) e.startDate = 'Select a start date';
     if (!endDate) e.endDate = 'Select an end date';
     if (startDate && endDate && endDate <= startDate) e.endDate = 'End date must be after start date';
-    if (!groupMode && (!budget || parseInt(budget) <= 0)) e.budget = 'Enter a valid budget';
+    if (!groupMode && (!budget || parseInt(budget) < 500)) e.budget = 'Minimum budget is $500 (flights alone cost more)';
     if (groupMode && travelers.length < 2) e.travelers = 'Add at least 2 travelers for group mode';
     const weightTotal = Object.values(weights).reduce((s, v) => s + v, 0);
     if (weightTotal !== 100) e.weights = 'Preference weights must total 100';
@@ -100,23 +100,26 @@ export default function SearchForm() {
 
         <div>
           <label htmlFor="budget" className="block text-sm font-semibold mb-1.5">
-            {groupMode ? 'Budget (auto from group)' : 'Total Budget (USD)'}
+            {groupMode ? 'Budget (auto from group)' : 'Total Trip Budget (USD)'}
           </label>
           <div className="relative">
             <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-sm">$</span>
             <input
               id="budget"
               type="number"
-              placeholder="2,500"
+              placeholder="3,000"
               value={groupMode ? '' : budget}
               onChange={e => setBudget(e.target.value)}
               disabled={groupMode}
-              min={0}
+              min={500}
               className={cn(inputClass('budget'), 'pl-7', groupMode && 'opacity-50 cursor-not-allowed')}
               aria-describedby={errors.budget ? 'budget-error' : undefined}
             />
           </div>
-          {errors.budget && <p id="budget-error" className="text-xs text-destructive mt-1">{errors.budget}</p>}
+          {errors.budget
+            ? <p id="budget-error" className="text-xs text-destructive mt-1">{errors.budget}</p>
+            : <p className="text-xs text-muted-foreground mt-1">Total for the trip including flights (e.g. $2,000–$5,000)</p>
+          }
         </div>
 
         <div>
