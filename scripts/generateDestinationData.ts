@@ -31,12 +31,37 @@ const DESTINATION_SEEDS: string[] = [
   'Pittsburgh, USA', 'Cleveland, USA', 'Cincinnati, USA', 'Louisville, USA', 'Indianapolis, USA',
   'Columbus, USA', 'Richmond, USA', 'Baltimore, USA', 'Tampa, USA', 'Orlando, USA',
 
+  // USA — More Cities
+  'Raleigh, USA', 'Charlotte, USA', 'Sacramento, USA', 'Buffalo, USA', 'Providence, USA',
+  'Anchorage, USA', 'Spokane, USA', 'Omaha, USA', 'Tulsa, USA', 'El Paso, USA',
+  'Chattanooga, USA', 'Greenville, USA', 'Knoxville, USA', 'Fayetteville, USA',
+  'Flagstaff, USA', 'Tucson, USA', 'Wichita, USA', 'Madison, USA', 'Burlington, USA',
+  'Charlottesville, USA', 'Santa Fe, USA', 'Taos, USA',
+
+  // USA — Beach Towns
+  'Myrtle Beach, USA', 'Virginia Beach, USA', 'Hilton Head, USA', 'Santa Barbara, USA',
+  'Carmel-by-the-Sea, USA', 'Newport, USA', 'Cape Cod, USA', 'Ocean City, USA',
+  'Rehoboth Beach, USA', 'Galveston, USA', 'Destin, USA', 'Panama City Beach, USA',
+  'Seaside, USA', 'Malibu, USA', 'Laguna Beach, USA', 'Cannon Beach, USA',
+
+  // USA — Ski & Mountain Towns
+  'Aspen, USA', 'Vail, USA', 'Park City, USA', 'Telluride, USA', 'Mammoth Lakes, USA',
+  'Sun Valley, USA', 'Steamboat Springs, USA', 'Breckenridge, USA', 'Bend, USA',
+  'Missoula, USA', 'Whitefish, USA', 'Taos Ski Valley, USA',
+
+  // USA — Wine & Food Regions
+  'Willamette Valley, USA', 'Paso Robles, USA', 'Santa Ynez Valley, USA',
+  'Fredericksburg, USA', 'Hudson Valley, USA', 'Traverse City, USA',
+  'Walla Walla, USA', 'Healdsburg, USA', 'Los Olivos, USA',
+
   // USA — Nature & Regions
   'Sedona, USA', 'Moab, USA', 'Jackson Hole, USA', 'Glacier National Park, USA',
   'Yellowstone, USA', 'Grand Canyon, USA', 'Zion National Park, USA', 'Yosemite, USA',
   'Great Smoky Mountains, USA', 'Acadia National Park, USA', 'Napa Valley, USA',
   'Big Sur, USA', 'Outer Banks, USA', 'Florida Keys, USA', 'Lake Tahoe, USA',
   'Finger Lakes, USA', 'Sonoma County, USA', 'Williamsburg, USA', 'Scottsdale, USA',
+  'Bryce Canyon, USA', 'Arches National Park, USA', 'Olympic National Park, USA',
+  'Joshua Tree, USA', 'Death Valley, USA', 'Crater Lake, USA', 'Big Bend, USA',
 
   // Canada
   'Vancouver, Canada', 'Toronto, Canada', 'Montreal, Canada', 'Quebec City, Canada',
