@@ -32,15 +32,25 @@ export function allocateBudget(
     transportation = Math.round(discretionary * 0.28);
     emergencyBuffer = discretionary - activities - transportation;
   } else {
-    // Static proportional split (original logic)
-    const costScore = destination.scores.cost;
-    const hotelMultiplier = costScore < 40 ? 0.44 : costScore < 60 ? 0.38 : 0.32;
-    const activitiesMultiplier = costScore < 40 ? 0.14 : 0.18;
-    hotel = Math.round(remaining * hotelMultiplier);
-    food = Math.round(remaining * 0.22);
-    activities = Math.round(remaining * activitiesMultiplier);
-    transportation = Math.round(remaining * 0.10);
-    emergencyBuffer = remaining - hotel - food - activities - transportation;
+    // Derive per-city estimates from the destination's budgetRanges,
+    // which carry real USD amounts (e.g. Maldives mid: $400-800/day vs Hanoi $60-120/day).
+    const perDay = remaining / Math.max(tripDays, 1);
+    const sorted = [...destination.budgetRanges].sort((a, b) => a.minPerDayUSD - b.minPerDayUSD);
+    // Pick the tier whose floor the user's remaining per-day budget can cover
+    let tier = sorted[0];
+    for (const range of sorted) {
+      if (perDay >= range.minPerDayUSD * 0.8) tier = range;
+    }
+    const midpoint = (tier.minPerDayUSD + tier.maxPerDayUSD) / 2;
+    // Hotels ≈ 45% of all-in daily cost, food ≈ 22%
+    const hotelPerNight = Math.round(midpoint * 0.45);
+    const foodPerDay = Math.round(midpoint * 0.22);
+    hotel = Math.min(hotelPerNight * tripDays, Math.round(remaining * 0.55));
+    food = Math.min(foodPerDay * tripDays, Math.round(remaining * 0.35));
+    const discretionary = Math.max(remaining - hotel - food, 0);
+    activities = Math.round(discretionary * 0.50);
+    transportation = Math.round(discretionary * 0.28);
+    emergencyBuffer = discretionary - activities - transportation;
   }
 
   return {

@@ -73,9 +73,24 @@ describe('allocateBudget', () => {
     expect(alloc.flightWarning).toBe(false);
   });
 
-  it('expensive destinations (low cost score) get higher hotel allocation', () => {
-    const cheapDest = makeDestination(70);   // affordable — lower hotel%
-    const priceyDest = makeDestination(25);  // expensive — higher hotel%
+  it('expensive destinations (high budgetRanges) get higher hotel allocation', () => {
+    // Realistic: an expensive city has much higher per-day costs in its budgetRanges
+    const cheapDest: DestinationIndex = {
+      ...makeDestination(70),
+      budgetRanges: [
+        { level: 'budget', minPerDayUSD: 40,  maxPerDayUSD: 70  },
+        { level: 'mid',    minPerDayUSD: 70,  maxPerDayUSD: 120 },
+        { level: 'luxury', minPerDayUSD: 120, maxPerDayUSD: 300 },
+      ],
+    };
+    const priceyDest: DestinationIndex = {
+      ...makeDestination(25),
+      budgetRanges: [
+        { level: 'budget', minPerDayUSD: 150, maxPerDayUSD: 250 },
+        { level: 'mid',    minPerDayUSD: 250, maxPerDayUSD: 500 },
+        { level: 'luxury', minPerDayUSD: 500, maxPerDayUSD: 1200 },
+      ],
+    };
     const allocCheap  = allocateBudget(5000, cheapDest,  7, 700);
     const allocPricey = allocateBudget(5000, priceyDest, 7, 700);
     expect(allocPricey.hotel).toBeGreaterThan(allocCheap.hotel);
