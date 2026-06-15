@@ -135,7 +135,7 @@ export async function getRecommendations(
     let fullDest;
     try {
       const mod = await import(`@/data/destinations/${s.id}.json`);
-      fullDest = mod.default ?? mod;
+      fullDest = { ...(mod.default ?? mod), heroImageUrl: s.heroImageUrl };
     } catch {
       // Fall back to index data if full file missing
       fullDest = { ...s, restaurants: [], activities: [], photography: null, weather: null, hotels: [] };

@@ -106,7 +106,7 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
 
       {/* Tabs */}
       <Tabs defaultValue="overview" className="w-full">
-        <TabsList className="w-full grid grid-cols-5 mb-6 h-auto">
+        <TabsList className="w-full grid grid-cols-5 mb-6 h-auto overflow-visible pb-1">
           {[
             { value: 'overview',      label: '📊 Overview' },
             { value: 'food',          label: '🍽️ Food' },
