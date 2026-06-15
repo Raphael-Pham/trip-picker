@@ -9,12 +9,12 @@ const IATA_REGIONS: Record<string, string> = {
   AUS: 'NA', BNA: 'NA', MSY: 'NA', MEM: 'NA', PDX: 'NA', SAN: 'NA', SAT: 'NA',
   TPA: 'NA', MCO: 'NA', SFB: 'NA', FLL: 'NA', PBI: 'NA', RSW: 'NA', EYW: 'NA',
   MCI: 'NA', STL: 'NA', IND: 'NA', CMH: 'NA', CVG: 'NA', CLE: 'NA', PIT: 'NA',
-  RIC: 'NA', SDF: 'NA', BOS: 'NA', ORF: 'NA', RDU: 'NA', CHS: 'NA', SAV: 'NA',
-  JAX: 'NA', MEM: 'NA', BNA: 'NA', BOI: 'NA', ABQ: 'NA', TUS: 'NA', ELP: 'NA',
-  AUS: 'NA', AVL: 'NA', GSP: 'NA', OGG: 'NA', KOA: 'NA', RNO: 'NA', SMF: 'NA',
+  RIC: 'NA', SDF: 'NA', ORF: 'NA', RDU: 'NA', CHS: 'NA', SAV: 'NA',
+  JAX: 'NA', BOI: 'NA', ABQ: 'NA', TUS: 'NA', ELP: 'NA',
+  AVL: 'NA', GSP: 'NA', RNO: 'NA', SMF: 'NA',
   FAT: 'NA', ONT: 'NA', STS: 'NA', MFR: 'NA', TAC: 'NA', BZN: 'NA', FCA: 'NA',
   JAC: 'NA', MDT: 'NA', SYR: 'NA', BUF: 'NA', ROC: 'NA', PVD: 'NA', BGR: 'NA',
-  COS: 'NA', GJT: 'NA', SAF: 'NA', ABQ: 'NA', FLG: 'NA', BTR: 'NA', MOB: 'NA',
+  COS: 'NA', GJT: 'NA', SAF: 'NA', FLG: 'NA', BTR: 'NA', MOB: 'NA',
   JAN: 'NA', LUK: 'NA', PDK: 'NA', FTY: 'NA', MCC: 'NA', MSC: 'NA', AZA: 'NA',
   HDT: 'NA', MIC: 'NA', OGD: 'NA', PVT: 'NA', WYS: 'NA', MIS: 'NA', CIU: 'NA',
   // North America — Canada
@@ -23,7 +23,7 @@ const IATA_REGIONS: Record<string, string> = {
   // North America — Mexico
   MEX: 'NA', CUN: 'NA', GDL: 'NA', SJD: 'NA', PVR: 'NA', OAX: 'NA', MZT: 'NA',
   VER: 'NA', CTM: 'NA', LAP: 'NA',
-  // Europe — Western
+  // Europe — Western majors
   LHR: 'EU', CDG: 'EU', AMS: 'EU', FRA: 'EU', MAD: 'EU', BCN: 'EU', FCO: 'EU',
   MUC: 'EU', ZRH: 'EU', VIE: 'EU', BRU: 'EU', LIS: 'EU', CPH: 'EU', ARN: 'EU',
   OSL: 'EU', HEL: 'EU', DUB: 'EU', ATH: 'EU', WAW: 'EU', PRG: 'EU', BUD: 'EU',
@@ -32,13 +32,12 @@ const IATA_REGIONS: Record<string, string> = {
   LGW: 'EU', STN: 'EU', MAN: 'EU', EDI: 'EU', GLA: 'EU', SNN: 'EU',
   BER: 'EU', TXL: 'EU', SXF: 'EU', MXP: 'EU', VCE: 'EU', NAP: 'EU', CIA: 'EU',
   OPO: 'EU', FAO: 'EU', AGP: 'EU', IBZ: 'EU', VLC: 'EU', VGO: 'EU',
-  ORY: 'EU', BVA: 'EU', EHV: 'EU', RTM: 'EU', NYO: 'EU', VST: 'EU',
+  ORY: 'EU', BVA: 'EU', EHV: 'EU', RTM: 'EU', NYO: 'EU', VST: 'EU', MME: 'EU',
   DBV: 'EU', SPU: 'EU', ZAG: 'EU', LJU: 'EU',
-  JTR: 'EU', RHO: 'EU', SKU: 'EU', ATH: 'EU',
+  JTR: 'EU', RHO: 'EU', SKU: 'EU',
   KEF: 'EU', RKE: 'EU', RKV: 'EU',
-  CPH: 'EU', MME: 'EU',
   INN: 'EU', BRN: 'EU', FKB: 'EU',
-  IST: 'EU', SAW: 'EU', ASR: 'EU', KYA: 'EU', AYP: 'EU',
+  IST: 'EU', SAW: 'EU', ASR: 'EU', KYA: 'EU',
   // Asia Pacific — Northeast Asia
   NRT: 'AP', HND: 'AP', KIX: 'AP', ITM: 'AP', NGO: 'AP', UKB: 'AP',
   PEK: 'AP', PVG: 'AP', CAN: 'AP', SZX: 'AP', TXG: 'AP',
@@ -55,7 +54,7 @@ const IATA_REGIONS: Record<string, string> = {
   // Asia Pacific — Australia / NZ
   SYD: 'AP', MEL: 'AP', BNE: 'AP', CBR: 'AP', AVV: 'AP', MEB: 'AP', KNX: 'AP',
   AKL: 'AP', CHC: 'AP', ZQN: 'AP',
-  // Asia Pacific — Pacific
+  // Pacific Islands (Hawaii treated as PAC — domestic carrier but still long-haul from mainland)
   NAN: 'PAC', PPT: 'PAC', HNL: 'PAC', OGG: 'PAC', KOA: 'PAC',
   // Middle East
   DXB: 'ME', AUH: 'ME', DWC: 'ME', DOH: 'ME', RUH: 'ME',
@@ -77,8 +76,7 @@ const IATA_REGIONS: Record<string, string> = {
   SJU: 'CAR', STT: 'CAR', SXM: 'CAR', ANU: 'CAR', SLU: 'CAR', SVD: 'CAR',
   AUA: 'CAR', BON: 'CAR', CUR: 'CAR',
   NAS: 'CAR', GDT: 'CAR', PLS: 'CAR', CYB: 'CAR',
-  BGI: 'CAR',
-  BZE: 'CAR',
+  BGI: 'CAR', BZE: 'CAR',
 };
 
 // Base flight costs (USD round-trip per person) between regions
