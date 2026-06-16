@@ -31,12 +31,6 @@ jobs:
       matrix:
         group: [0, 1, 2, 3, 4, 5, 6]
 
-    # Skip shards not matching manual override (if provided)
-    if: >
-      github.event_name == 'schedule' ||
-      github.event.inputs.group == '' ||
-      github.event.inputs.group == matrix.group
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -55,6 +49,12 @@ jobs:
 
       - name: Capture prices (shard ${{ matrix.group }} of 7)
         run: |
+          # If workflow_dispatch specified a single shard, skip all others.
+          INPUT_GROUP="${{ github.event.inputs.group }}"
+          if [[ -n "$INPUT_GROUP" && "$INPUT_GROUP" != "${{ matrix.group }}" ]]; then
+            echo "Skipping shard ${{ matrix.group }} (manual run requested shard $INPUT_GROUP only)"
+            exit 0
+          fi
           # No --resume: always do a full refresh so daily prices stay current.
           # xvfb-run provides a virtual display so Playwright can open a headed
           # browser (less detectable than headless) even without a real screen.
