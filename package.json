@@ -16,7 +16,8 @@
     "generate:data": "npx tsx scripts/generateDestinationData.ts",
     "generate:data:resume": "npx tsx scripts/generateDestinationData.ts --resume",
     "capture:flights": "npx tsx scripts/captureFlightPrices.ts",
-    "capture:flights:resume": "npx tsx scripts/captureFlightPrices.ts --resume"
+    "capture:flights:resume": "npx tsx scripts/captureFlightPrices.ts --resume",
+    "capture:flights:hub": "npx tsx scripts/captureFlightPrices.ts --hub"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.1",

@@ -1,0 +1,123 @@
+name: Weekly flight price update
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Every Monday at 3 AM UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+    inputs:
+      group:
+        description: 'Run only this shard (0-6). Leave empty to run all.'
+        required: false
+        default: ''
+      resume:
+        description: 'Skip already-captured pairs'
+        type: boolean
+        default: true
+
+# Cancel any in-progress run when a new one is triggered
+concurrency:
+  group: flight-prices
+  cancel-in-progress: true
+
+jobs:
+  # ── Parallel capture shards ────────────────────────────────────────────────
+  capture:
+    name: Capture shard ${{ matrix.group }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    strategy:
+      fail-fast: false   # let other shards finish even if one fails
+      matrix:
+        group: [0, 1, 2, 3, 4, 5, 6]
+
+    # Skip shards not matching manual override (if provided)
+    if: >
+      github.event_name == 'schedule' ||
+      github.event.inputs.group == '' ||
+      github.event.inputs.group == matrix.group
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Capture prices (shard ${{ matrix.group }} of 7)
+        run: |
+          ARGS="--group ${{ matrix.group }} --total 7 --concurrency 3"
+          if [ "${{ github.event.inputs.resume }}" != "false" ]; then
+            ARGS="$ARGS --resume"
+          fi
+          # xvfb-run provides a virtual display so Playwright can open a headed
+          # browser (less detectable than headless) even without a real screen.
+          xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" \
+            npx tsx scripts/captureFlightPrices.ts $ARGS
+        env:
+          DISPLAY: ':99'
+
+      - name: Upload shard results
+        uses: actions/upload-artifact@v4
+        if: always()   # upload even on partial failure so merge can use what we got
+        with:
+          name: flight-prices-shard-${{ matrix.group }}
+          path: data/flightPrices/
+          retention-days: 1
+
+  # ── Merge shards and commit ────────────────────────────────────────────────
+  commit:
+    name: Merge & commit
+    runs-on: ubuntu-latest
+    needs: capture
+    if: always()   # run even if some shards failed
+
+    permissions:
+      contents: write   # needed to push the commit
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Use a PAT so the push triggers CI on the new commit.
+          # Set FLIGHT_PRICES_PAT in repo Settings > Secrets.
+          # Falls back to GITHUB_TOKEN (push won't re-trigger CI, which is fine).
+          token: ${{ secrets.FLIGHT_PRICES_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: flight-prices-shard-*
+          path: shard-artifacts
+          merge-multiple: true   # merge into a flat directory
+
+      - name: Merge shard files into data/flightPrices/
+        run: |
+          mkdir -p data/flightPrices
+          # Copy every <HUB>.json from artifacts; later shards overwrite earlier
+          # ones for the same hub (each shard owns distinct hubs, so no conflict).
+          cp -f shard-artifacts/*.json data/flightPrices/ 2>/dev/null || true
+          echo "Hub files after merge:"
+          ls data/flightPrices/ | head -60
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/flightPrices/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            COUNT=$(git diff --staged --name-only | wc -l)
+            git commit -m "chore: weekly flight price update (${COUNT} hub files) [skip ci]"
+            git push
+          fi

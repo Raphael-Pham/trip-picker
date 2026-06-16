@@ -1,229 +1,369 @@
 /**
- * Captures real flight prices from Google Flights into data/flightPrices.json.
+ * Captures real flight prices from Google Flights into data/flightPrices/<HUB>.json.
  *
- * Run:  npx tsx scripts/captureFlightPrices.ts
- * Args: --airport JFK        (only capture for one departure airport)
- *       --resume             (skip airport+region pairs already in the file)
+ * Architecture:
+ *   - 48 "hub" airports, geographically distributed, cover all 373 airports in
+ *     data/index.json via a nearest-hub mapping (see AIRPORT_TO_HUB / getHub()).
+ *   - Destinations are loaded live from data/index.json (every unique IATA code).
+ *   - Each hub gets its own file: data/flightPrices/JFK.json = { NRT: 850, LHR: 620 }
+ *   - flightEstimator.ts maps any departure airport -> hub -> dest price.
  *
- * Opens a VISIBLE Chrome window — you can watch it work, solve any CAPTCHA
- * manually, and it will continue automatically.  No headless tricks.
- *
- * Output shape (data/flightPrices.json):
- * {
- *   "JFK": { "NA": 285, "EU": 650, "AP": 830, ... },
- *   "LAX": { ... },
- *   ...
- * }
- *
- * The flightEstimator checks this file first; missing entries fall back to
- * the static regional matrix.
+ * Usage:
+ *   npm run capture:flights                          # all hubs
+ *   npm run capture:flights -- --hub JFK,LAX         # specific hubs only
+ *   npm run capture:flights -- --group 0 --total 7   # CI matrix shard (group 0 of 7)
+ *   npm run capture:flights -- --resume              # skip already-captured pairs
+ *   npm run capture:flights -- --concurrency 6       # parallel browsers (default 4)
  */
 
 import { chromium } from 'playwright';
 import fs from 'fs/promises';
 import path from 'path';
 
-// ── Config ────────────────────────────────────────────────────────────────────
+// ── Hub airports ───────────────────────────────────────────────────────────────
+// One per geographic cluster. All 373+ destination airports map to a hub via
+// AIRPORT_TO_HUB or fall back to REGION_DEFAULT_HUB.
 
-// Key departure airports to capture prices from
-const DEPARTURE_AIRPORTS = [
-  'JFK', // New York (JFK)
-  'LAX', // Los Angeles
-  'ORD', // Chicago
-  'SFO', // San Francisco
-  'MIA', // Miami
-  'DFW', // Dallas/Fort Worth
-  'SEA', // Seattle
-  'BOS', // Boston
-  'ATL', // Atlanta
-  'DEN', // Denver
-  'IAD', // Washington DC
-  'PHX', // Phoenix
-  'MSP', // Minneapolis
-  'DTW', // Detroit
-  'HNL', // Honolulu (Pacific departure)
-];
+export const HUB_AIRPORTS: readonly string[] = [
+  // North America — Eastern USA
+  'JFK', 'BOS', 'IAD', 'ATL', 'MIA', 'MSY',
+  // North America — Midwest
+  'ORD', 'MSP', 'DTW', 'STL',
+  // North America — South / Mountain
+  'DFW', 'DEN', 'PHX', 'SLC',
+  // North America — West Coast / Pacific
+  'LAX', 'SFO', 'SEA', 'LAS', 'HNL',
+  // North America — Canada & Mexico
+  'YYZ', 'YVR', 'MEX', 'CUN',
+  // Europe
+  'LHR', 'CDG', 'FRA', 'AMS', 'MAD', 'FCO',
+  'ARN', 'ATH', 'LIS', 'PRG', 'VIE', 'DUB', 'IST',
+  // Asia Pacific
+  'NRT', 'ICN', 'HKG', 'SIN', 'BKK', 'SGN', 'DEL', 'SYD', 'AKL',
+  // Middle East
+  'DXB',
+  // Africa
+  'JNB', 'CAI', 'NBO',
+  // South America & Caribbean
+  'BOG', 'GRU', 'LIM', 'EZE', 'SJU',
+] as const;
 
-// One representative destination per region for price calibration
-const REGION_SAMPLES: Record<string, { iata: string; label: string }> = {
-  NA:  { iata: 'ORD', label: 'Chicago (domestic benchmark)' },
-  EU:  { iata: 'LHR', label: 'London' },
-  AP:  { iata: 'NRT', label: 'Tokyo' },
-  ME:  { iata: 'DXB', label: 'Dubai' },
-  AF:  { iata: 'JNB', label: 'Johannesburg' },
-  SA:  { iata: 'BOG', label: 'Bogota' },
-  CAR: { iata: 'CUN', label: 'Cancun' },
-  PAC: { iata: 'HNL', label: 'Honolulu' },
+// ── Airport → nearest hub ──────────────────────────────────────────────────────
+
+export const AIRPORT_TO_HUB: Record<string, string> = {
+  // New York metro
+  LGA: 'JFK', EWR: 'JFK', HPN: 'JFK', ISP: 'JFK',
+  // New England
+  BDL: 'BOS', PVD: 'BOS', MHT: 'BOS', BGR: 'BOS', PWM: 'BOS',
+  SYR: 'BOS', BUF: 'BOS', ROC: 'BOS', ALB: 'BOS', BTV: 'BOS',
+  // DC / Mid-Atlantic
+  PHL: 'IAD', BWI: 'IAD', DCA: 'IAD', MDT: 'IAD', ORF: 'IAD', RIC: 'IAD',
+  // Southeast
+  CLT: 'ATL', GSP: 'ATL', AVL: 'ATL', CHS: 'ATL', SAV: 'ATL',
+  JAX: 'ATL', BHM: 'ATL', HSV: 'ATL', RDU: 'ATL', GSO: 'ATL', TLH: 'MIA',
+  // South Florida
+  FLL: 'MIA', PBI: 'MIA', MCO: 'MIA', TPA: 'MIA', RSW: 'MIA',
+  SFB: 'MIA', EYW: 'MIA', PIE: 'MIA', SRQ: 'MIA', DAB: 'MIA',
+  // Gulf Coast
+  MOB: 'MSY', BTR: 'MSY', JAN: 'MSY', PNS: 'MSY', VPS: 'MSY',
+  // Chicago / Great Lakes
+  MDW: 'ORD', RFD: 'ORD', MKE: 'ORD', GRB: 'ORD',
+  // Ohio Valley / Detroit
+  IND: 'DTW', CMH: 'DTW', CVG: 'DTW', CLE: 'DTW', PIT: 'DTW', SDF: 'DTW',
+  // Upper Midwest
+  DSM: 'MSP', MSN: 'MSP', DLH: 'MSP', FAR: 'MSP', BIS: 'MSP',
+  // Missouri / Plains
+  MCI: 'STL', SGF: 'STL', ICT: 'STL', OMA: 'STL', LNK: 'STL',
+  TUL: 'DFW', XNA: 'DFW', OKC: 'DFW',
+  // Texas
+  IAH: 'DFW', HOU: 'DFW', SAT: 'DFW', AUS: 'DFW', ELP: 'PHX',
+  // Mountain West
+  COS: 'DEN', GJT: 'DEN', BZN: 'DEN', FCA: 'DEN', JAC: 'DEN',
+  BOI: 'SLC', SGU: 'SLC', ABQ: 'PHX', TUS: 'PHX', FLG: 'PHX',
+  // Southern California
+  SAN: 'LAX', SBA: 'LAX', SNA: 'LAX', ONT: 'LAX', BUR: 'LAX', LGB: 'LAX', PSP: 'LAX',
+  // Bay Area / NorCal
+  OAK: 'SFO', SJC: 'SFO', SMF: 'SFO', FAT: 'SFO', STS: 'SFO',
+  // Pacific Northwest
+  PDX: 'SEA', GEG: 'SEA', MFR: 'SEA', EUG: 'SEA',
+  // Nevada
+  RNO: 'LAS',
+  // Hawaii / Pacific
+  OGG: 'HNL', KOA: 'HNL', ITO: 'HNL', LIH: 'HNL',
+  PPT: 'HNL', NAN: 'HNL', APW: 'HNL',
+  // Canada East
+  YUL: 'YYZ', YOW: 'YYZ', YHM: 'YYZ', YTZ: 'YYZ', YQB: 'YYZ',
+  // Canada West
+  YYJ: 'YVR', YYC: 'YVR', YLW: 'YVR', YXE: 'YVR', YEG: 'YVR',
+  // Mexico
+  GDL: 'MEX', MTY: 'MEX', OAX: 'MEX', VER: 'MEX',
+  MZT: 'CUN', SJD: 'CUN', PVR: 'CUN', CZM: 'CUN', MID: 'CUN', CTM: 'CUN', LAP: 'CUN',
+  // UK
+  LGW: 'LHR', STN: 'LHR', MAN: 'LHR', EDI: 'LHR', GLA: 'LHR', BHX: 'LHR',
+  // Ireland / Iceland
+  SNN: 'DUB', ORK: 'DUB', KEF: 'DUB',
+  // France
+  ORY: 'CDG', BVA: 'CDG', LYS: 'CDG', NCE: 'CDG', MRS: 'CDG', TLS: 'CDG',
+  // Germany
+  MUC: 'FRA', BER: 'FRA', HAM: 'FRA', DUS: 'FRA', CGN: 'FRA',
+  // Austria / Switzerland
+  ZRH: 'VIE', GVA: 'VIE', INN: 'VIE',
+  // Benelux
+  BRU: 'AMS', RTM: 'AMS', EIN: 'AMS',
+  // Spain
+  BCN: 'MAD', VLC: 'MAD', AGP: 'MAD', IBZ: 'MAD', VGO: 'MAD', LPA: 'MAD', PMI: 'MAD',
+  // Portugal
+  OPO: 'LIS', FAO: 'LIS', FNC: 'LIS',
+  // Italy
+  MXP: 'FCO', VCE: 'FCO', NAP: 'FCO', CIA: 'FCO', BGY: 'FCO', BLQ: 'FCO',
+  // Scandinavia
+  CPH: 'ARN', OSL: 'ARN', HEL: 'ARN', NYO: 'ARN', BGO: 'ARN', GOT: 'ARN',
+  // Central / Eastern Europe
+  WAW: 'PRG', KRK: 'PRG', BUD: 'PRG', BTS: 'PRG',
+  LJU: 'PRG', ZAG: 'PRG', DBV: 'PRG', SPU: 'PRG', OTP: 'PRG',
+  // Greece / Cyprus
+  SKG: 'ATH', HER: 'ATH', RHO: 'ATH', JTR: 'ATH', LCA: 'ATH', PFO: 'ATH',
+  // Turkey
+  SAW: 'IST', AYT: 'IST', ESB: 'IST', ASR: 'IST', ADB: 'IST', KYA: 'IST',
+  // Japan
+  HND: 'NRT', KIX: 'NRT', ITM: 'NRT', NGO: 'NRT', CTS: 'NRT', OKA: 'NRT', FUK: 'NRT',
+  // Korea
+  GMP: 'ICN', PUS: 'ICN',
+  // China / Taiwan
+  PEK: 'HKG', PVG: 'HKG', CAN: 'HKG', SZX: 'HKG', CTU: 'HKG', TPE: 'HKG', KHH: 'HKG',
+  // SE Asia — Singapore cluster
+  KUL: 'SIN', XSP: 'SIN', CGK: 'SIN', DPS: 'SIN', SUB: 'SIN',
+  MNL: 'SIN', CEB: 'SIN', CRK: 'SIN', DVO: 'SIN',
+  // SE Asia — Bangkok cluster
+  DMK: 'BKK', HKT: 'BKK', CNX: 'BKK', USM: 'BKK', RGN: 'BKK',
+  // Vietnam
+  HAN: 'SGN', DAD: 'SGN', PQC: 'SGN', CXR: 'SGN',
+  // India / subcontinent
+  BOM: 'DEL', MAA: 'DEL', BLR: 'DEL', CCU: 'DEL', HYD: 'DEL',
+  COK: 'DEL', CJB: 'DEL', AMD: 'DEL', JAI: 'DEL',
+  MLE: 'DEL', GAN: 'DEL', CMB: 'DEL', KTM: 'DEL',
+  // Australia
+  MEL: 'SYD', BNE: 'SYD', PER: 'SYD', ADL: 'SYD', CBR: 'SYD', AVV: 'SYD', MEB: 'SYD',
+  // New Zealand
+  CHC: 'AKL', ZQN: 'AKL', WLG: 'AKL',
+  // Middle East
+  AUH: 'DXB', DWC: 'DXB', DOH: 'DXB', RUH: 'DXB', KWI: 'DXB',
+  AMM: 'DXB', AQJ: 'DXB', BEY: 'DXB', TLV: 'DXB',
+  // Africa — North
+  CMN: 'CAI', RAK: 'CAI', TUN: 'CAI', LXR: 'CAI', HRG: 'CAI', SSH: 'CAI', MRU: 'CAI',
+  // Africa — West
+  LOS: 'JNB', ACC: 'JNB', DKR: 'JNB',
+  // Africa — East
+  DAR: 'NBO', JRO: 'NBO', ZNZ: 'NBO', ADD: 'NBO', MBA: 'NBO',
+  // Africa — South
+  CPT: 'JNB', DUR: 'JNB',
+  // Central America
+  SJO: 'BOG', LIR: 'BOG', MGA: 'BOG', GUA: 'BOG', PTY: 'BOG', HAV: 'BOG',
+  // South America — Northern
+  CTG: 'BOG', MDE: 'BOG', CLO: 'BOG', UIO: 'BOG', GYE: 'BOG',
+  // South America — Brazil
+  GIG: 'GRU', SDU: 'GRU', FOR: 'GRU', REC: 'GRU', SSA: 'GRU', CWB: 'GRU', POA: 'GRU',
+  // South America — Andean
+  CUZ: 'LIM', AYP: 'LIM',
+  // South America — Southern Cone
+  SCL: 'EZE', MVD: 'EZE', USH: 'EZE', BRC: 'EZE', AEP: 'EZE',
+  // Caribbean
+  MBJ: 'SJU', KIN: 'SJU', PUJ: 'SJU', SDQ: 'SJU', STI: 'SJU',
+  STT: 'SJU', SXM: 'SJU', ANU: 'SJU', SLU: 'SJU', SVD: 'SJU',
+  AUA: 'SJU', BON: 'SJU', CUR: 'SJU', NAS: 'SJU', GDT: 'SJU',
+  PLS: 'SJU', CYB: 'SJU', BGI: 'SJU', BZE: 'SJU',
 };
 
-const OUTPUT_PATH = path.join(process.cwd(), 'data', 'flightPrices.json');
-const RESUME = process.argv.includes('--resume');
-const ONLY_AIRPORT = (() => {
-  const idx = process.argv.indexOf('--airport');
-  return idx >= 0 ? process.argv[idx + 1]?.toUpperCase() : null;
-})();
+const REGION_DEFAULT_HUB: Record<string, string> = {
+  'North America':   'JFK',
+  'Europe':          'LHR',
+  'Asia Pacific':    'SIN',
+  'Middle East':     'DXB',
+  'Africa':          'JNB',
+  'South America':   'GRU',
+  'Caribbean':       'SJU',
+  'Central America': 'BOG',
+  'Pacific Islands': 'HNL',
+};
 
-// Trip: 7 nights starting ~6 weeks from today (enough lead time for realistic fares)
-function getTripDates(): { depart: string; ret: string } {
-  const d = new Date();
-  d.setDate(d.getDate() + 42); // 6 weeks out
-  const depart = d.toISOString().slice(0, 10);
-  d.setDate(d.getDate() + 7);
-  const ret = d.toISOString().slice(0, 10);
-  return { depart, ret };
+/** Map any IATA code to its pricing hub. Exported for use by flightEstimator. */
+export function getHub(iata: string, regionHint?: string): string {
+  const code = iata.toUpperCase();
+  if ((HUB_AIRPORTS as readonly string[]).includes(code)) return code;
+  if (AIRPORT_TO_HUB[code]) return AIRPORT_TO_HUB[code];
+  if (regionHint && REGION_DEFAULT_HUB[regionHint]) return REGION_DEFAULT_HUB[regionHint];
+  return 'JFK';
 }
 
-// ── Google Flights scraper ────────────────────────────────────────────────────
+// ── Helpers ────────────────────────────────────────────────────────────────────
+
+async function loadDestinations(): Promise<Array<{ iata: string; label: string }>> {
+  const index: Array<{ city: string; country: string; airportCodes: string[] }> =
+    JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'index.json'), 'utf-8'));
+  const seen = new Set<string>();
+  const dests: Array<{ iata: string; label: string }> = [];
+  for (const d of index) {
+    for (const raw of d.airportCodes ?? []) {
+      const iata = raw.toUpperCase();
+      if (!seen.has(iata)) {
+        seen.add(iata);
+        dests.push({ iata, label: `${d.city}, ${d.country}` });
+      }
+    }
+  }
+  return dests;
+}
+
+function argVal(flag: string): string | null {
+  const i = process.argv.indexOf(flag);
+  return i >= 0 ? (process.argv[i + 1] ?? null) : null;
+}
+
+function getTripDates() {
+  const d = new Date();
+  d.setDate(d.getDate() + 42);
+  const depart = d.toISOString().slice(0, 10);
+  d.setDate(d.getDate() + 7);
+  return { depart, ret: d.toISOString().slice(0, 10) };
+}
 
 async function fetchPrice(
   page: import('playwright').Page,
-  origin: string,
-  dest: string,
-  depart: string,
-  ret: string,
+  origin: string, dest: string, depart: string, ret: string,
 ): Promise<number | null> {
-  const url = `https://www.google.com/travel/flights?q=Flights+from+${origin}+to+${dest}+on+${depart}+returning+${ret}`;
+  const url =
+    `https://www.google.com/travel/flights?q=Flights+from+${origin}+to+${dest}+on+${depart}+returning+${ret}`;
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-
-  // Wait for flight results to populate (prices appear in these elements)
   try {
-    await page.waitForSelector('[data-price], .YMlIz, .qx27Je, .Rj2Mlc', {
-      timeout: 20000,
-    });
+    await page.waitForSelector('[data-price], .YMlIz, .qx27Je, .Rj2Mlc', { timeout: 18000 });
   } catch {
-    // Selector might have changed; try waiting a bit longer for any price text
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
   }
-
-  // Try multiple selector strategies — Google Flights changes its DOM frequently
-  const priceSelectors = [
-    '[data-price]',           // data attribute
-    '.YMlIz',                 // price in result list
-    '.qx27Je',                // price chip
-    '.Rj2Mlc',                // price in calendar
-    '[aria-label*="$"]',      // any element with $ in aria-label
-  ];
-
   const prices: number[] = [];
-
-  for (const sel of priceSelectors) {
-    const elements = await page.$$(sel);
-    for (const el of elements) {
-      const text = await el.getAttribute('data-price')
-        ?? await el.textContent()
-        ?? '';
-      const match = text.replace(/,/g, '').match(/\$?(\d{2,5})/);
-      if (match) {
-        const val = parseInt(match[1], 10);
-        if (val >= 50 && val <= 10000) prices.push(val);
-      }
+  for (const sel of ['[data-price]', '.YMlIz', '.qx27Je', '.Rj2Mlc', '[aria-label*="$"]']) {
+    for (const el of await page.$$(sel)) {
+      const text = (await el.getAttribute('data-price')) ?? (await el.textContent()) ?? '';
+      const m = text.replace(/,/g, '').match(/\$?(\d{2,5})/);
+      if (m) { const v = parseInt(m[1], 10); if (v >= 50 && v <= 12000) prices.push(v); }
     }
-    if (prices.length > 0) break;
+    if (prices.length) break;
   }
-
-  // Also scrape page text as fallback
   if (!prices.length) {
-    const bodyText = await page.evaluate(() => document.body.innerText);
-    const matches = [...bodyText.matchAll(/\$(\d{2,5})/g)];
-    for (const m of matches) {
-      const val = parseInt(m[1], 10);
-      if (val >= 50 && val <= 10000) prices.push(val);
+    const body = await page.evaluate(() => document.body.innerText);
+    for (const m of body.matchAll(/\$(\d{2,5})/g)) {
+      const v = parseInt(m[1], 10);
+      if (v >= 50 && v <= 12000) prices.push(v);
     }
   }
-
-  if (!prices.length) return null;
-  return Math.min(...prices); // return the cheapest price found
+  return prices.length ? Math.min(...prices) : null;
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
+// ── Main ───────────────────────────────────────────────────────────────────────
 
 async function main() {
-  // Load existing data if resuming
-  let data: Record<string, Record<string, number>> = {};
-  if (RESUME) {
-    try {
-      data = JSON.parse(await fs.readFile(OUTPUT_PATH, 'utf-8'));
-      console.log('Resuming from existing data.');
-    } catch {
-      console.log('No existing data found, starting fresh.');
-    }
-  }
+  const RESUME      = process.argv.includes('--resume');
+  const specificHub = argVal('--hub')?.split(',').map(h => h.trim().toUpperCase()) ?? null;
+  const groupIdx    = argVal('--group') != null ? parseInt(argVal('--group')!, 10) : null;
+  const totalGroups = parseInt(argVal('--total') ?? '1', 10);
+  const CONCURRENCY = parseInt(argVal('--concurrency') ?? '4', 10);
+  const OUTPUT_DIR  = path.join(process.cwd(), 'data', 'flightPrices');
 
+  await fs.mkdir(OUTPUT_DIR, { recursive: true });
+  const dests = await loadDestinations();
   const { depart, ret } = getTripDates();
-  console.log(`\nCapturing prices for a 7-night trip departing ${depart}, returning ${ret}`);
-  console.log('A Chrome window will open — do not close it.\n');
 
-  const airports = ONLY_AIRPORT ? [ONLY_AIRPORT] : DEPARTURE_AIRPORTS;
-  const regions = Object.keys(REGION_SAMPLES);
-
-  const browser = await chromium.launch({
-    headless: false,
-    args: ['--start-maximized'],
-  });
-  const context = await browser.newContext({
-    viewport: null, // use maximized window size
-    userAgent:
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-  });
-  const page = await context.newPage();
-
-  let saved = 0;
-  let failed = 0;
-
-  for (const airport of airports) {
-    data[airport] ??= {};
-
-    for (const region of regions) {
-      // Skip same-airport searches (e.g., HNL→PAC where sample is HNL)
-      const sample = REGION_SAMPLES[region];
-      if (airport === sample.iata) {
-        data[airport][region] = 0; // same city — no flight needed
-        continue;
-      }
-
-      if (RESUME && data[airport][region] != null) {
-        console.log(`  ↷ ${airport}→${region} already captured ($${data[airport][region]})`);
-        continue;
-      }
-
-      process.stdout.write(`  ${airport} → ${region} (${sample.label}) … `);
-
-      try {
-        const price = await fetchPrice(page, airport, sample.iata, depart, ret);
-
-        if (price) {
-          data[airport][region] = price;
-          console.log(`$${price}`);
-          saved++;
-        } else {
-          console.log('no price found (will use matrix fallback)');
-          failed++;
-        }
-      } catch (e) {
-        console.log(`ERROR: ${(e as Error).message?.slice(0, 60)}`);
-        failed++;
-      }
-
-      // Checkpoint after every entry
-      await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
-      await fs.writeFile(OUTPUT_PATH, JSON.stringify(data, null, 2));
-
-      // Polite delay between searches (3–6 seconds, randomised)
-      await page.waitForTimeout(3000 + Math.random() * 3000);
-    }
-
-    console.log(`  ✓ ${airport} done — checkpoint saved\n`);
+  let hubs: string[];
+  if (specificHub) {
+    hubs = specificHub;
+  } else if (groupIdx !== null) {
+    hubs = [...HUB_AIRPORTS].filter((_, i) => i % totalGroups === groupIdx);
+  } else {
+    hubs = [...HUB_AIRPORTS];
   }
 
-  await browser.close();
+  console.log(`\n✈  Flight price capture`);
+  console.log(`   Hubs: ${hubs.length} | Destinations: ${dests.length} | Parallel: ${CONCURRENCY}`);
+  if (groupIdx !== null) console.log(`   CI shard: group ${groupIdx + 1}/${totalGroups}`);
+  console.log(`   Dates: ${depart} -> ${ret}\n`);
 
-  await fs.writeFile(OUTPUT_PATH, JSON.stringify(data, null, 2));
-  console.log(`\nDone. ${saved} prices captured, ${failed} failed.`);
-  console.log(`Saved to ${OUTPUT_PATH}`);
-  console.log('\nCommit the result: git add data/flightPrices.json && git commit -m "Update flight price snapshots"');
+  // Load existing data and build work queue
+  const hubData = new Map<string, Record<string, number>>();
+  const queue: Array<{ hub: string; dest: { iata: string; label: string } }> = [];
+
+  for (const hub of hubs) {
+    let existing: Record<string, number> = {};
+    try {
+      existing = JSON.parse(await fs.readFile(path.join(OUTPUT_DIR, `${hub}.json`), 'utf-8'));
+    } catch { /* new hub */ }
+    hubData.set(hub, existing);
+    for (const dest of dests) {
+      if (dest.iata === hub) continue;
+      if (RESUME && existing[dest.iata] != null) continue;
+      queue.push({ hub, dest });
+    }
+  }
+
+  queue.sort(() => Math.random() - 0.5); // shuffle so tabs hit different hubs
+  const total = queue.length;
+  if (total === 0) {
+    console.log('All pairs captured. Run without --resume to refresh.');
+    return;
+  }
+  console.log(`${total} searches queued.\n`);
+
+  let queuePos = 0;
+  let captured = 0;
+  let missed   = 0;
+
+  async function checkpoint(hub: string) {
+    await fs.writeFile(
+      path.join(OUTPUT_DIR, `${hub}.json`),
+      JSON.stringify(hubData.get(hub), null, 2),
+    );
+  }
+
+  async function runBrowser(browserId: number) {
+    const browser = await chromium.launch({
+      headless: false,
+      args: ['--start-maximized', '--disable-blink-features=AutomationControlled'],
+    });
+    const ctx = await browser.newContext({
+      viewport: null,
+      userAgent:
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+    });
+    const page = await ctx.newPage();
+
+    while (true) {
+      const i = queuePos++;
+      if (i >= queue.length) break;
+      const { hub, dest } = queue[i];
+      process.stdout.write(`[${browserId}] ${hub}->${dest.iata} (${dest.label}) ... `);
+      try {
+        const price = await fetchPrice(page, hub, dest.iata, depart, ret);
+        if (price) {
+          hubData.get(hub)![dest.iata] = price;
+          console.log(`$${price}  (${i + 1}/${total})`);
+          captured++;
+        } else {
+          console.log(`no price  (${i + 1}/${total})`);
+          missed++;
+        }
+        await checkpoint(hub);
+      } catch (e) {
+        console.log(`err: ${(e as Error).message?.slice(0, 60)}`);
+        missed++;
+      }
+      await page.waitForTimeout(1500 + Math.random() * 2000);
+    }
+    await browser.close();
+  }
+
+  await Promise.all(Array.from({ length: CONCURRENCY }, (_, i) => runBrowser(i + 1)));
+
+  console.log(`\nDone: ${captured} captured, ${missed} without price (matrix fallback).`);
+  console.log(`Output: ${OUTPUT_DIR}/`);
+  console.log('Commit: git add data/flightPrices/ && git commit -m "Weekly flight price update"');
 }
 
-main().catch(err => {
-  console.error('Fatal:', err);
-  process.exit(1);
-});
+main().catch(err => { console.error('Fatal:', err); process.exit(1); });
