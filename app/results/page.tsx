@@ -32,6 +32,7 @@ function parseParams(params: Record<string, string>): SearchParams {
     departureTime: (params.departureTime as TimeOfDay) || undefined,
     arrivalTime: (params.arrivalTime as TimeOfDay) || undefined,
     cabinClass: (params.cabinClass as CabinClass) || undefined,
+    preferDirect: params.preferDirect === 'true',
   };
 }
 

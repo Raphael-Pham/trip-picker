@@ -7,9 +7,23 @@ import type {
   TravelMode,
   LiveCityData,
 } from './types';
-import { estimateFlightCostRange, isAirportReachable } from './flightEstimator';
+import { estimateFlightCostRange, isAirportReachable, getRegion } from './flightEstimator';
 import { allocateBudget, getTripDays } from './budgetEngine';
 import { fetchLiveCityData } from './liveData';
+
+// Countries that commonly require advance visa (not eVisa/VOA) for most Western passport holders.
+// This is intentionally conservative — only flag well-known cases to avoid false positives.
+const VISA_WARNING_COUNTRIES = new Set([
+  'China', 'Russia', 'Belarus', 'Iran', 'North Korea', 'Turkmenistan',
+  'Bhutan', 'Libya', 'Syria', 'Yemen', 'Afghanistan', 'Sudan',
+]);
+
+// Region pairs where low-cost carriers dominate (bag fees likely not included in base fare).
+const LCC_DOMINANT_REGION_PAIRS = new Set([
+  'EU:EU',   // Ryanair, EasyJet, Wizz Air
+  'AP:AP',   // AirAsia, Lion Air, Scoot, IndiGo
+  'NA:NA',   // Spirit, Frontier, Allegiant, Swoop
+]);
 
 const ESTIMATED_LIVE: LiveCityData = {
   weatherScore: null, weatherSummary: null,
@@ -141,13 +155,19 @@ export async function getRecommendations(
   // Fetch full destination JSON + live data for all top results in parallel
   const enriched = await Promise.all(
     scored.map(async (s, i) => {
+      const depRegion  = getRegion(params.departureAirport);
+      const destRegion = getRegion(s.airportCodes[0] ?? '');
+      const regionPair = `${depRegion}:${destRegion}`;
+
       const flightRange = estimateFlightCostRange(
         params.departureAirport, s.airportCodes, {
           tripDays,
           departureDate: params.startDate,
+          returnDate:    params.endDate,
           departureTime: params.departureTime,
           arrivalTime:   params.arrivalTime,
           cabinClass:    params.cabinClass,
+          preferDirect:  params.preferDirect,
         },
       );
 
@@ -163,6 +183,12 @@ export async function getRecommendations(
 
       const budgetAllocation = allocateBudget(budget, s, tripDays, flightRange.median, liveData);
 
+      const visaWarning = VISA_WARNING_COUNTRIES.has(s.country)
+        ? 'Visa likely required — check requirements before booking'
+        : undefined;
+
+      const baggageWarning = LCC_DOMINANT_REGION_PAIRS.has(regionPair);
+
       return {
         destination: fullDest,
         overallScore: s.overallScore,
@@ -173,6 +199,8 @@ export async function getRecommendations(
         flightPriceRange: flightRange,
         rank: i + 1,
         liveData,
+        visaWarning,
+        baggageWarning,
       } satisfies RecommendationResult;
     })
   );

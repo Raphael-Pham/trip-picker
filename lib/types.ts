@@ -28,6 +28,8 @@ export interface WeightPreferences {
 export interface Traveler {
   name: string;
   budget: number;
+  availableFrom?: string; // ISO date
+  availableTo?: string;   // ISO date
 }
 
 export interface SearchParams {
@@ -47,6 +49,7 @@ export interface SearchParams {
   departureTime?: TimeOfDay;
   arrivalTime?: TimeOfDay;
   cabinClass?: CabinClass;
+  preferDirect?: boolean;
 }
 
 export interface DestinationScores {
@@ -167,6 +170,8 @@ export interface LiveCityData {
   foodPerDayUSD: number | null;
   costScore: number | null;
   source: 'live' | 'partial' | 'estimated';
+  fxRateUSD?: number;    // units of local currency per 1 USD (higher = cheaper for USD holders)
+  currencyCode?: string; // e.g. "JPY", "EUR"
 }
 
 export interface RecommendationResult {
@@ -179,4 +184,6 @@ export interface RecommendationResult {
   flightPriceRange: FlightPriceRange;
   rank: number;
   liveData: LiveCityData;
+  visaWarning?: string;      // e.g. "Visa required — check before booking"
+  baggageWarning?: boolean;  // true when route is LCC-dominant (bag fees likely)
 }

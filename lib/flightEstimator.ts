@@ -224,9 +224,11 @@ export function getRegion(iataCode: string): string {
 interface FlightEstimateOptions {
   tripDays?: number;
   departureDate?: string;   // ISO date — used for lead-time, DOW, seasonal
+  returnDate?: string;      // ISO date — used for return-leg DOW asymmetry
   departureTime?: TimeOfDay;
   arrivalTime?: TimeOfDay;
   cabinClass?: CabinClass;
+  preferDirect?: boolean;   // true = add ~30% surcharge (direct flights cost more)
 }
 
 /**
@@ -238,7 +240,7 @@ export function estimateFlightCostRange(
   destinationAirportCodes: string[],
   options: FlightEstimateOptions = {},
 ): FlightPriceRange {
-  const { tripDays = 7, departureDate, departureTime, arrivalTime, cabinClass = 'economy' } = options;
+  const { tripDays = 7, departureDate, returnDate, departureTime, arrivalTime, cabinClass = 'economy', preferDirect = false } = options;
 
   const dep = departureAirport.toUpperCase();
   const depRegion = getRegion(dep);
@@ -248,9 +250,13 @@ export function estimateFlightCostRange(
   const lengthAdj   = tripDays >= 7 ? 0.9 : tripDays <= 3 ? 1.15 : 1.0;
   const timeAdj     = timeOfDayMultiplier(departureTime, arrivalTime);
   const cabinAdj    = CABIN_CLASS_MULTIPLIER[cabinClass];
-  const dowAdj      = departureDate ? dayOfWeekMultiplier(departureDate) : 1.0;
+  // Blend outbound + return DOW (outbound 60%, return 40%) to reflect real round-trip pricing
+  const depDowAdj   = departureDate ? dayOfWeekMultiplier(departureDate) : 1.0;
+  const retDowAdj   = returnDate    ? dayOfWeekMultiplier(returnDate)    : depDowAdj;
+  const dowAdj      = Math.round((depDowAdj * 0.6 + retDowAdj * 0.4) * 1000) / 1000;
   const leadAdj     = departureDate ? leadTimeMultiplier(departureDate) : 1.0;
   const depMonth    = departureDate ? new Date(departureDate + 'T12:00:00Z').getUTCMonth() + 1 : new Date().getMonth() + 1;
+  const directAdj   = preferDirect ? 1.30 : 1.0;
 
   let bestMin    = Infinity;
   let bestMedian = Infinity;
@@ -261,7 +267,7 @@ export function estimateFlightCostRange(
     const destRegion = getRegion(dest);
     const seasonAdj  = seasonalMultiplier(depRegion, destRegion, depMonth);
 
-    const totalMult = lengthAdj * timeAdj * cabinAdj * dowAdj * leadAdj * seasonAdj;
+    const totalMult = lengthAdj * timeAdj * cabinAdj * dowAdj * leadAdj * seasonAdj * directAdj;
 
     // Try to get a captured price range
     let range: { min: number; median: number; max: number } | null = null;

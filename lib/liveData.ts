@@ -3,18 +3,12 @@
  *  - Teleport (api.teleport.org): cost-of-living index + meal prices
  *  - Open-Meteo (api.open-meteo.com / archive-api.open-meteo.com): weather forecasts
  *  - Xotelo (data.xotelo.com): TripAdvisor-backed hotel prices
+ *  - Open Exchange Rates (open.er-api.com): USD FX rates
  *
  * All calls are best-effort with a hard timeout. On failure, callers fall back to static estimates.
  */
 
-export interface LiveCityData {
-  weatherScore: number | null;       // 0–100, computed from Open-Meteo
-  weatherSummary: string | null;     // e.g. "Avg 24°C · 2 rainy days"
-  hotelPerNightUSD: number | null;   // median mid-range hotel/night from Xotelo
-  foodPerDayUSD: number | null;      // per-person daily food cost from Teleport meal prices
-  costScore: number | null;          // 0–100 cost score (100 = cheapest), derived from Teleport
-  source: 'live' | 'partial' | 'estimated';
-}
+import type { LiveCityData } from './types';
 
 const TIMEOUT_MS = 5000;
 
@@ -256,6 +250,54 @@ async function fetchXoteloPrice(
   }
 }
 
+// ── FX rate (open.er-api.com — free, no API key) ─────────────────────────────
+
+// Maps common destination country names → ISO 4217 currency code
+const COUNTRY_CURRENCY: Record<string, string> = {
+  Japan: 'JPY', Thailand: 'THB', Indonesia: 'IDR', Vietnam: 'VND', Philippines: 'PHP',
+  Malaysia: 'MYR', Cambodia: 'KHR', Myanmar: 'MMK', India: 'INR', Nepal: 'NPR',
+  'Sri Lanka': 'LKR', Bangladesh: 'BDT', Pakistan: 'PKR',
+  Mexico: 'MXN', Colombia: 'COP', Peru: 'PEN', Argentina: 'ARS', Chile: 'CLP',
+  Brazil: 'BRL', Ecuador: 'USD', Bolivia: 'BOB', Paraguay: 'PYG', Uruguay: 'UYU',
+  Cuba: 'CUP', 'Costa Rica': 'CRC', Guatemala: 'GTQ', Honduras: 'HNL',
+  'El Salvador': 'USD', Panama: 'USD', 'Dominican Republic': 'DOP', Jamaica: 'JMD',
+  'United Kingdom': 'GBP', France: 'EUR', Germany: 'EUR', Spain: 'EUR', Italy: 'EUR',
+  Portugal: 'EUR', Netherlands: 'EUR', Belgium: 'EUR', Switzerland: 'CHF',
+  Austria: 'EUR', Greece: 'EUR', Croatia: 'EUR', Poland: 'PLN', Hungary: 'HUF',
+  'Czech Republic': 'CZK', Romania: 'RON', Bulgaria: 'BGN', Serbia: 'RSD',
+  Turkey: 'TRY', Iceland: 'ISK', Norway: 'NOK', Sweden: 'SEK', Denmark: 'DKK',
+  Finland: 'EUR', Ireland: 'EUR',
+  China: 'CNY', 'South Korea': 'KRW', Taiwan: 'TWD', 'Hong Kong': 'HKD',
+  Singapore: 'SGD', Australia: 'AUD', 'New Zealand': 'NZD',
+  Morocco: 'MAD', Egypt: 'EGP', Kenya: 'KES', Tanzania: 'TZS', 'South Africa': 'ZAR',
+  Ghana: 'GHS', Nigeria: 'NGN', Ethiopia: 'ETB', Senegal: 'XOF', Rwanda: 'RWF',
+  'United Arab Emirates': 'AED', Qatar: 'QAR', 'Saudi Arabia': 'SAR', Jordan: 'JOD',
+  Israel: 'ILS', Oman: 'OMR', Bahrain: 'BHD', Kuwait: 'KWD',
+  Canada: 'CAD', Maldives: 'MVR', Fiji: 'FJD', 'French Polynesia': 'XPF',
+};
+
+let fxRatesCache: { rates: Record<string, number>; fetchedAt: number } | null = null;
+
+async function fetchFxRate(country: string): Promise<{ fxRateUSD: number; currencyCode: string } | null> {
+  const code = COUNTRY_CURRENCY[country];
+  if (!code || code === 'USD') return null;
+  try {
+    // Cache rates for 1 hour
+    if (!fxRatesCache || Date.now() - fxRatesCache.fetchedAt > 3_600_000) {
+      const res = await withTimeout(fetch('https://open.er-api.com/v6/latest/USD'));
+      if (!res.ok) return null;
+      const json = await res.json();
+      if (!json.rates) return null;
+      fxRatesCache = { rates: json.rates as Record<string, number>, fetchedAt: Date.now() };
+    }
+    const rate = fxRatesCache.rates[code];
+    if (!rate) return null;
+    return { fxRateUSD: rate, currencyCode: code };
+  } catch {
+    return null;
+  }
+}
+
 // ── Public entry point ────────────────────────────────────────────────────────
 
 export async function fetchLiveCityData(
@@ -267,10 +309,11 @@ export async function fetchLiveCityData(
   // Step 1: Teleport lookup (sequential: need lat/lon for weather)
   const teleport = await fetchTeleport(city, country).catch(() => null);
 
-  // Step 2: Weather + Xotelo in parallel (weather needs lat/lon from Teleport)
-  const [weather, hotelPrice] = await Promise.all([
+  // Step 2: Weather, Xotelo, FX in parallel
+  const [weather, hotelPrice, fx] = await Promise.all([
     teleport ? fetchWeather(teleport.lat, teleport.lon, startDate, endDate).catch(() => null) : Promise.resolve(null),
     fetchXoteloPrice(city, country, startDate, endDate).catch(() => null),
+    fetchFxRate(country).catch(() => null),
   ]);
 
   const costScore = teleport
@@ -287,5 +330,7 @@ export async function fetchLiveCityData(
     foodPerDayUSD: teleport?.foodPerDayUSD ?? null,
     costScore,
     source: hasFull ? 'live' : hasLive ? 'partial' : 'estimated',
+    fxRateUSD: fx?.fxRateUSD,
+    currencyCode: fx?.currencyCode,
   };
 }

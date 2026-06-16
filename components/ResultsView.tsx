@@ -34,7 +34,7 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
   }
 
   const result = results[index];
-  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, flightPriceRange, liveData } = result;
+  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, flightPriceRange, liveData, visaWarning, baggageWarning } = result;
   const isLive = liveData.source === 'live' || liveData.source === 'partial';
 
   // Use baked-in URL from generation script; fall back to a reliable placeholder
@@ -142,6 +142,37 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
           </div>
         ))}
       </div>
+
+      {/* Visa / baggage / FX warnings */}
+      {(visaWarning || baggageWarning || liveData.fxRateUSD) && (
+        <div className="flex flex-wrap gap-2 mb-4">
+          {visaWarning && (
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 border border-amber-200 px-3 py-1 text-xs font-medium text-amber-700">
+              🛂 {visaWarning}
+            </span>
+          )}
+          {baggageWarning && (
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-sky-50 border border-sky-200 px-3 py-1 text-xs font-medium text-sky-700">
+              🧳 Budget carriers common on this route — check bag fee policy
+            </span>
+          )}
+          {liveData.fxRateUSD && liveData.currencyCode && (() => {
+            // Classify how favourable the USD is vs this currency's long-run average
+            // We compare against USD baseline of 1.0 (EUR), 100 (JPY), etc.
+            // Instead, we just show the rate and a qualitative label.
+            const isStrongUSD = liveData.fxRateUSD > 50; // arbitrary: JPY 150, IDR 16000, etc.
+            return isStrongUSD ? (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 border border-emerald-200 px-3 py-1 text-xs font-medium text-emerald-700">
+                💵 USD goes far here · 1 USD = {liveData.fxRateUSD.toLocaleString()} {liveData.currencyCode}
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-50 border border-slate-200 px-3 py-1 text-xs font-medium text-slate-600">
+                💱 1 USD = {liveData.fxRateUSD.toFixed(2)} {liveData.currencyCode}
+              </span>
+            );
+          })()}
+        </div>
+      )}
 
       <Separator className="my-6" />
 

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { TravelMode, TimeOfDay, CabinClass, WeightPreferences, Traveler, SearchParams } from '@/lib/types';
+import { TravelMode, TimeOfDay, CabinClass, WeightPreferences, Traveler } from '@/lib/types';
 import TravelModeSelector from './TravelModeSelector';
 import WeightSliders from './WeightSliders';
 import GroupMode from './GroupMode';
@@ -87,6 +87,7 @@ export default function SearchForm() {
   const [departureTime, setDepartureTime] = useState<TimeOfDay | null>(null);
   const [arrivalTime, setArrivalTime] = useState<TimeOfDay | null>(null);
   const [cabinClass, setCabinClass] = useState<CabinClass>('economy');
+  const [preferDirect, setPreferDirect] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const validate = (): boolean => {
@@ -129,6 +130,7 @@ export default function SearchForm() {
     if (departureTime) params.set('departureTime', departureTime);
     if (arrivalTime) params.set('arrivalTime', arrivalTime);
     params.set('cabinClass', cabinClass);
+    if (preferDirect) params.set('preferDirect', 'true');
 
     router.push(`/results?${params.toString()}`);
   };
@@ -248,6 +250,26 @@ export default function SearchForm() {
           value={arrivalTime}
           onChange={setArrivalTime}
         />
+
+        {/* Prefer direct flights */}
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-xs font-medium text-muted-foreground">Prefer direct flights</p>
+            <p className="text-[10px] text-muted-foreground">Adds ~30% to estimates — direct flights cost more</p>
+          </div>
+          <button
+            type="button"
+            role="switch"
+            aria-checked={preferDirect}
+            onClick={() => setPreferDirect(v => !v)}
+            className={cn(
+              'relative inline-flex h-5 w-9 items-center rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring flex-shrink-0',
+              preferDirect ? 'bg-primary' : 'bg-input',
+            )}
+          >
+            <span className={cn('inline-block h-3.5 w-3.5 transform rounded-full bg-white shadow transition-transform', preferDirect ? 'translate-x-[18px]' : 'translate-x-[3px]')} />
+          </button>
+        </div>
       </div>
 
       {/* Travel Mode */}
