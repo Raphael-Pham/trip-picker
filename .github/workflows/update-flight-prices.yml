@@ -1,8 +1,8 @@
-name: Weekly flight price update
+name: Daily flight price update
 
 on:
   schedule:
-    - cron: '0 3 * * 1'   # Every Monday at 3 AM UTC
+    - cron: '0 3 * * *'   # Every day at 3 AM UTC
   workflow_dispatch:        # Allow manual trigger from GitHub UI
     inputs:
       group:
@@ -118,6 +118,6 @@ jobs:
             echo "No changes to commit."
           else
             COUNT=$(git diff --staged --name-only | wc -l)
-            git commit -m "chore: weekly flight price update (${COUNT} hub files) [skip ci]"
+            git commit -m "chore: daily flight price update (${COUNT} hub files) [skip ci]"
             git push
           fi
