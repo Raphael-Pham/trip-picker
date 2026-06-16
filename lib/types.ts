@@ -1,3 +1,5 @@
+export type TimeOfDay = 'morning' | 'noon' | 'afternoon' | 'evening' | 'night';
+
 export type TravelMode =
   | 'standard'
   | 'surprise'
@@ -34,6 +36,8 @@ export interface SearchParams {
     average: number;
     recommended: number;
   };
+  departureTime?: TimeOfDay;
+  arrivalTime?: TimeOfDay;
 }
 
 export interface DestinationScores {

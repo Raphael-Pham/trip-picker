@@ -3,7 +3,7 @@ export const runtime = 'edge';
 import { Suspense } from 'react';
 import Link from 'next/link';
 import { getRecommendations } from '@/lib/recommendationEngine';
-import { SearchParams, WeightPreferences, TravelMode, Traveler } from '@/lib/types';
+import { SearchParams, WeightPreferences, TravelMode, Traveler, TimeOfDay } from '@/lib/types';
 import ResultsView from '@/components/ResultsView';
 import catalogData from '@/data/index.json';
 
@@ -29,6 +29,8 @@ function parseParams(params: Record<string, string>): SearchParams {
     groupMode: params.groupMode === 'true',
     travelers,
     computedBudget,
+    departureTime: (params.departureTime as TimeOfDay) || undefined,
+    arrivalTime: (params.arrivalTime as TimeOfDay) || undefined,
   };
 }
 

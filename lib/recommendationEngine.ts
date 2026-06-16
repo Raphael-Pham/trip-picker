@@ -141,7 +141,10 @@ export async function getRecommendations(
   // Fetch full destination JSON + live data for all top results in parallel
   const enriched = await Promise.all(
     scored.map(async (s, i) => {
-      const flightCost = estimateFlightCost(params.departureAirport, s.airportCodes, tripDays);
+      const flightCost = estimateFlightCost(
+        params.departureAirport, s.airportCodes, tripDays,
+        params.departureTime, params.arrivalTime,
+      );
 
       const [destMod, liveData] = await Promise.all([
         import(`@/data/destinations/${s.id}.json`).catch(() => null),

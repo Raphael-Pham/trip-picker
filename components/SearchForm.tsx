@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { TravelMode, WeightPreferences, Traveler, SearchParams } from '@/lib/types';
+import { TravelMode, TimeOfDay, WeightPreferences, Traveler, SearchParams } from '@/lib/types';
 import TravelModeSelector from './TravelModeSelector';
 import WeightSliders from './WeightSliders';
 import GroupMode from './GroupMode';
@@ -11,6 +11,14 @@ import { cn } from '@/lib/utils';
 
 const DEFAULT_WEIGHTS: WeightPreferences = { cost: 20, food: 20, photography: 20, activities: 20, weather: 20 };
 
+const TIME_OPTIONS: { value: TimeOfDay; label: string; icon: string; hint: string }[] = [
+  { value: 'morning',   label: 'Morning',   icon: '🌅', hint: '5 am–11 am' },
+  { value: 'noon',      label: 'Midday',    icon: '☀️',  hint: '11 am–2 pm' },
+  { value: 'afternoon', label: 'Afternoon', icon: '🌤️', hint: '2 pm–6 pm' },
+  { value: 'evening',   label: 'Evening',   icon: '🌆', hint: '6 pm–10 pm' },
+  { value: 'night',     label: 'Night',     icon: '🌙', hint: '10 pm–5 am' },
+];
+
 function getTodayStr() {
   return new Date().toISOString().split('T')[0];
 }
@@ -18,6 +26,44 @@ function getNextWeekStr() {
   const d = new Date();
   d.setDate(d.getDate() + 7);
   return d.toISOString().split('T')[0];
+}
+
+function TimeOfDayPicker({
+  label,
+  value,
+  onChange,
+}: {
+  label: string;
+  value: TimeOfDay | null;
+  onChange: (v: TimeOfDay | null) => void;
+}) {
+  return (
+    <div>
+      <p className="text-xs font-medium text-muted-foreground mb-2">{label}</p>
+      <div className="flex flex-wrap gap-2">
+        {TIME_OPTIONS.map(opt => (
+          <button
+            key={opt.value}
+            type="button"
+            onClick={() => onChange(value === opt.value ? null : opt.value)}
+            title={opt.hint}
+            className={cn(
+              'flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-all',
+              value === opt.value
+                ? 'border-primary bg-primary text-primary-foreground shadow-sm'
+                : 'border-input bg-background text-foreground hover:border-primary/50 hover:bg-accent',
+            )}
+          >
+            <span>{opt.icon}</span>
+            <span>{opt.label}</span>
+            <span className={cn('text-[10px]', value === opt.value ? 'text-primary-foreground/70' : 'text-muted-foreground')}>
+              {opt.hint}
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default function SearchForm() {
@@ -31,6 +77,8 @@ export default function SearchForm() {
   const [weights, setWeights] = useState<WeightPreferences>(DEFAULT_WEIGHTS);
   const [groupMode, setGroupMode] = useState(false);
   const [travelers, setTravelers] = useState<Traveler[]>([]);
+  const [departureTime, setDepartureTime] = useState<TimeOfDay | null>(null);
+  const [arrivalTime, setArrivalTime] = useState<TimeOfDay | null>(null);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const validate = (): boolean => {
@@ -69,6 +117,9 @@ export default function SearchForm() {
     } else {
       params.set('budget', budget);
     }
+
+    if (departureTime) params.set('departureTime', departureTime);
+    if (arrivalTime) params.set('arrivalTime', arrivalTime);
 
     router.push(`/results?${params.toString()}`);
   };
@@ -147,6 +198,21 @@ export default function SearchForm() {
           />
           {errors.endDate && <p className="text-xs text-destructive mt-1">{errors.endDate}</p>}
         </div>
+      </div>
+
+      {/* Flight time preferences */}
+      <div className="rounded-xl border border-border bg-accent/30 p-4 space-y-4">
+        <h3 className="text-sm font-semibold">Flight Time Preferences <span className="font-normal text-muted-foreground">(optional — affects price estimate)</span></h3>
+        <TimeOfDayPicker
+          label="Departure time"
+          value={departureTime}
+          onChange={setDepartureTime}
+        />
+        <TimeOfDayPicker
+          label="Arrival time at destination"
+          value={arrivalTime}
+          onChange={setArrivalTime}
+        />
       </div>
 
       {/* Travel Mode */}

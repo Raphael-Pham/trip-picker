@@ -1,4 +1,46 @@
 import { HUB_AIRPORTS, AIRPORT_TO_HUB, getHub } from '../scripts/captureFlightPrices';
+import type { TimeOfDay } from './types';
+
+// Price multipliers by departure time of day.
+// Red-eyes and midday are cheapest; morning rush and late afternoon cost more.
+// Source: broadly consistent with published fare studies (IdeaWorks, Expedia, Google Flights data).
+const DEPARTURE_TIME_MULTIPLIER: Record<TimeOfDay, number> = {
+  morning:   1.12,  // 5 am–11 am  — popular, business demand, premium
+  noon:      0.95,  // 11 am–2 pm  — off-peak, often cheapest midday window
+  afternoon: 1.08,  // 2 pm–6 pm   — leisure peak, moderately elevated
+  evening:   1.02,  // 6 pm–10 pm  — post-work, light premium
+  night:     0.85,  // 10 pm–5 am  — red-eye / overnight, lowest demand
+};
+
+// Arrival time multipliers work differently: they constrain which flights are
+// available. Wanting to arrive in the morning forces an overnight departure
+// (cheap red-eye); wanting to arrive in the evening means normal daytime flight.
+const ARRIVAL_TIME_MULTIPLIER: Record<TimeOfDay, number> = {
+  morning:   0.88,  // must take red-eye / overnight — cheapest option set
+  noon:      0.97,  // early departure, moderate availability
+  afternoon: 1.00,  // baseline — widest choice of flights
+  evening:   1.05,  // later arrival preferred, slightly narrower options
+  night:     0.92,  // late arrivals less popular — some discount available
+};
+
+/**
+ * Combined time-of-day price multiplier.
+ * When both are specified the adjustment reflects the realistic overlap:
+ * e.g. depart night + arrive morning (red-eye) = deepest discount.
+ * When only one is given, use that multiplier alone.
+ */
+export function timeOfDayMultiplier(
+  departureTime?: TimeOfDay,
+  arrivalTime?: TimeOfDay,
+): number {
+  if (!departureTime && !arrivalTime) return 1.0;
+  if (departureTime && !arrivalTime) return DEPARTURE_TIME_MULTIPLIER[departureTime];
+  if (!departureTime && arrivalTime) return ARRIVAL_TIME_MULTIPLIER[arrivalTime];
+  // Both specified: average with slight tilt toward departure (more controllable)
+  const dMult = DEPARTURE_TIME_MULTIPLIER[departureTime!];
+  const aMult = ARRIVAL_TIME_MULTIPLIER[arrivalTime!];
+  return Math.round((dMult * 0.6 + aMult * 0.4) * 100) / 100;
+}
 
 // Static IATA region mapping — used as final fallback
 const IATA_REGIONS: Record<string, string> = {
@@ -97,11 +139,14 @@ export function estimateFlightCost(
   departureAirport: string,
   destinationAirportCodes: string[],
   tripDays: number,
+  departureTime?: TimeOfDay,
+  arrivalTime?: TimeOfDay,
 ): number {
   const dep = departureAirport.toUpperCase();
   const depRegion = getRegion(dep);
   const depHub = getHub(dep);
   const lengthAdj = tripDays >= 7 ? 0.9 : tripDays <= 3 ? 1.15 : 1.0;
+  const timeAdj = timeOfDayMultiplier(departureTime, arrivalTime);
 
   let minCost = Infinity;
 
@@ -128,7 +173,7 @@ export function estimateFlightCost(
       baseCost = REGION_FLIGHT_COSTS[depRegion]?.[destRegion] ?? 800;
     }
 
-    minCost = Math.min(minCost, Math.round(baseCost * lengthAdj));
+    minCost = Math.min(minCost, Math.round(baseCost * lengthAdj * timeAdj));
   }
 
   return minCost === Infinity ? 800 : minCost;
