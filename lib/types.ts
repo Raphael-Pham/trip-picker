@@ -184,4 +184,5 @@ export interface RecommendationResult {
   liveData: LiveCityData;
   visaWarning?: string;      // e.g. "Visa required — check before booking"
   baggageWarning?: boolean;  // true when route is LCC-dominant (bag fees likely)
+  driveInfo?: { driveMiles: number; approxHours: number }; // set when destination is driveable
 }

@@ -160,6 +160,74 @@ const REGION_DEFAULT_HUB: Record<string, string> = {
   'Pacific Islands': 'HNL',
 };
 
+// ── Airport coordinates (lat, lon) ────────────────────────────────────────────
+// Hub airports only. Used for drive-distance detection.
+export const AIRPORT_COORDS: Readonly<Record<string, readonly [number, number]>> = {
+  JFK: [40.6413, -73.7781], BOS: [42.3656, -71.0096], IAD: [38.9531, -77.4565],
+  ATL: [33.6407, -84.4277], MIA: [25.7959, -80.2870], MSY: [29.9934, -90.2580],
+  ORD: [41.9742, -87.9073], MSP: [44.8848, -93.2223], DTW: [42.2162, -83.3554],
+  STL: [38.7487, -90.3700], DFW: [32.8998, -97.0403], DEN: [39.8561, -104.6737],
+  PHX: [33.4373, -112.0078], SLC: [40.7884, -111.9779], LAX: [33.9425, -118.4081],
+  SFO: [37.6213, -122.3790], SEA: [47.4502, -122.3088], LAS: [36.0840, -115.1537],
+  HNL: [21.3245, -157.9251], YYZ: [43.6777, -79.6248], YVR: [49.1967, -123.1815],
+  MEX: [19.4363, -99.0721],  CUN: [21.0365, -86.8771], LHR: [51.4700, -0.4543],
+  CDG: [49.0097, 2.5479],    FRA: [50.0379, 8.5622],   AMS: [52.3086, 4.7639],
+  MAD: [40.4983, -3.5676],   FCO: [41.8003, 12.2389],  ARN: [59.6519, 17.9186],
+  ATH: [37.9364, 23.9445],   LIS: [38.7813, -9.1359],  PRG: [50.1008, 14.2600],
+  VIE: [48.1103, 16.5697],   DUB: [53.4264, -6.2499],  IST: [40.9769, 28.8146],
+  NRT: [35.7720, 140.3929],  ICN: [37.4602, 126.4407], HKG: [22.3080, 113.9185],
+  SIN: [1.3644,  103.9915],  BKK: [13.6900, 100.7501], SGN: [10.8188, 106.6520],
+  DEL: [28.5562, 77.1000],   SYD: [-33.9399, 151.1753], AKL: [-37.0082, 174.7850],
+  DXB: [25.2528, 55.3644],   JNB: [-26.1367, 28.2411], CAI: [30.1219, 31.4056],
+  NBO: [-1.3192,  36.9275],  BOG: [4.7016,  -74.1469], GRU: [-23.4356, -46.4731],
+  LIM: [-12.0219, -77.1143], EZE: [-34.8222, -58.5358], SJU: [18.4394, -66.0018],
+};
+
+function haversineKm(a: readonly [number, number], b: readonly [number, number]): number {
+  const R = 6371;
+  const dLat = (b[0] - a[0]) * Math.PI / 180;
+  const dLon = (b[1] - a[1]) * Math.PI / 180;
+  const lat1 = a[0] * Math.PI / 180;
+  const lat2 = b[0] * Math.PI / 180;
+  const sinHalfLat = Math.sin(dLat / 2);
+  const sinHalfLon = Math.sin(dLon / 2);
+  const h = sinHalfLat ** 2 + Math.cos(lat1) * Math.cos(lat2) * sinHalfLon ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+const DRIVE_THRESHOLD_KM = 320; // ~200 straight-line miles
+
+export interface DriveInfo {
+  driveable: boolean;
+  driveMiles: number;
+  approxHours: number;
+}
+
+/**
+ * Returns driving feasibility between a departure airport and a set of
+ * destination airport codes. Uses hub coordinates for the comparison
+ * (destinations list all nearby airports, so the nearest hub match wins).
+ */
+export function driveableInfo(depAirport: string, destAirportCodes: string[]): DriveInfo {
+  const depHub    = getHub(depAirport);
+  const depCoords = AIRPORT_COORDS[depHub];
+  if (!depCoords) return { driveable: false, driveMiles: 9999, approxHours: 99 };
+
+  let minKm = Infinity;
+  for (const code of destAirportCodes) {
+    const hub    = getHub(code);
+    const coords = AIRPORT_COORDS[hub];
+    if (!coords) continue;
+    const km = haversineKm(depCoords, coords);
+    if (km < minKm) minKm = km;
+  }
+
+  const straightMiles = minKm * 0.6214;
+  const driveMiles    = Math.round(straightMiles * 1.35);
+  const approxHours   = Math.round(driveMiles / 55 * 10) / 10;
+  return { driveable: minKm < DRIVE_THRESHOLD_KM, driveMiles, approxHours };
+}
+
 export function getHub(iata: string, regionHint?: string): string {
   const code = iata.toUpperCase();
   if ((HUB_AIRPORTS as readonly string[]).includes(code)) return code;

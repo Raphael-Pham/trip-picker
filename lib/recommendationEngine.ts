@@ -8,6 +8,7 @@ import type {
   LiveCityData,
 } from './types';
 import { estimateFlightCostRange, isAirportReachable, getRegion } from './flightEstimator';
+import { driveableInfo } from './airportHubs';
 import { allocateBudget, getTripDays } from './budgetEngine';
 import { fetchLiveCityData } from './liveData';
 
@@ -92,6 +93,9 @@ export function scoreDestinations(
 
   let candidates = catalog.filter(dest => {
     if (travelMode === 'hidden-gems' && !dest.hiddenGem) return false;
+    // Driveable destinations bypass flight and per-day budget checks —
+    // the full budget goes to local expenses, so even $50 can work.
+    if (driveableInfo(departureAirport, dest.airportCodes).driveable) return true;
     if (!isAirportReachable(departureAirport, dest.airportCodes, budget, params.startDate)) return false;
     if (!isBudgetViable(budget, dest, tripDays)) return false;
     return true;
@@ -159,21 +163,24 @@ export async function getRecommendations(
       const destRegion = getRegion(s.airportCodes[0] ?? '');
       const regionPair = `${depRegion}:${destRegion}`;
 
-      const flightRange = estimateFlightCostRange(
-        params.departureAirport, s.airportCodes, {
-          tripDays,
-          departureDate: params.startDate,
-          returnDate:    params.endDate,
-          departureTime: params.departureTime,
-          arrivalTime:   params.arrivalTime,
-          cabinClass:    params.cabinClass,
-          preferDirect:  params.preferDirect,
-        },
-      );
+      const drive = driveableInfo(params.departureAirport, s.airportCodes);
+      const flightRange = drive.driveable
+        ? { min: 0, median: 0, max: 0 }
+        : estimateFlightCostRange(
+            params.departureAirport, s.airportCodes, {
+              tripDays,
+              departureDate: params.startDate,
+              returnDate:    params.endDate,
+              departureTime: params.departureTime,
+              arrivalTime:   params.arrivalTime,
+              cabinClass:    params.cabinClass,
+              preferDirect:  params.preferDirect,
+            },
+          );
 
-      // Hard budget gate: if even the cheapest flight exceeds the total budget,
-      // this destination is impossible regardless of other scores.
-      if (flightRange.min >= budget) return null;
+      // Hard budget gate (flight-only trips): skip if cheapest flight alone
+      // exceeds the entire budget. Not applied to driveable destinations.
+      if (!drive.driveable && flightRange.min >= budget) return null;
 
       const [destMod, liveData] = await Promise.all([
         import(`@/data/destinations/${s.id}.json`).catch(() => null),
@@ -205,6 +212,9 @@ export async function getRecommendations(
         liveData,
         visaWarning,
         baggageWarning,
+        driveInfo: drive.driveable
+          ? { driveMiles: drive.driveMiles, approxHours: drive.approxHours }
+          : undefined,
       } satisfies RecommendationResult;
     })
   );

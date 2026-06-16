@@ -96,7 +96,7 @@ export default function SearchForm() {
     if (!startDate) e.startDate = 'Select a start date';
     if (!endDate) e.endDate = 'Select an end date';
     if (startDate && endDate && endDate <= startDate) e.endDate = 'End date must be after start date';
-    if (!groupMode && (!budget || parseInt(budget) < 500)) e.budget = 'Minimum budget is $500 (flights alone cost more)';
+    if (!groupMode && (!budget || parseInt(budget) < 50)) e.budget = 'Minimum budget is $50';
     if (groupMode && travelers.length < 2) e.travelers = 'Add at least 2 travelers for group mode';
     const weightTotal = Object.values(weights).reduce((s, v) => s + v, 0);
     if (weightTotal !== 100) e.weights = 'Preference weights must total 100';
@@ -173,14 +173,14 @@ export default function SearchForm() {
               value={groupMode ? '' : budget}
               onChange={e => setBudget(e.target.value)}
               disabled={groupMode}
-              min={500}
+              min={50}
               className={cn(inputClass('budget'), 'pl-7', groupMode && 'opacity-50 cursor-not-allowed')}
               aria-describedby={errors.budget ? 'budget-error' : undefined}
             />
           </div>
           {errors.budget
             ? <p id="budget-error" className="text-xs text-destructive mt-1">{errors.budget}</p>
-            : <p className="text-xs text-muted-foreground mt-1">Total for the trip including flights (e.g. $2,000–$5,000)</p>
+            : <p className="text-xs text-muted-foreground mt-1">Total trip budget — nearby destinations skip flights entirely (e.g. $150 day-trip, $2,000 international)</p>
           }
         </div>
 

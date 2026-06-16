@@ -34,7 +34,7 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
   }
 
   const result = results[index];
-  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, flightPriceRange, liveData, visaWarning, baggageWarning } = result;
+  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, flightPriceRange, liveData, visaWarning, baggageWarning, driveInfo } = result;
   const isLive = liveData.source === 'live' || liveData.source === 'partial';
 
   // Use baked-in URL from generation script; fall back to a reliable placeholder
@@ -101,14 +101,21 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
       )}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         {[
-          {
-            label: 'Est. Flight',
-            value: flightPriceRange
-              ? `$${flightPriceRange.min.toLocaleString()}–$${flightPriceRange.max.toLocaleString()}`
-              : `$${estimatedFlightCostUSD.toLocaleString()}`,
-            icon: '✈️',
-            live: false,
-          },
+          driveInfo
+            ? {
+                label: 'Drive',
+                value: `~${driveInfo.driveMiles.toLocaleString()} mi · ~${driveInfo.approxHours}h`,
+                icon: '🚗',
+                live: false,
+              }
+            : {
+                label: 'Est. Flight',
+                value: flightPriceRange
+                  ? `$${flightPriceRange.min.toLocaleString()}–$${flightPriceRange.max.toLocaleString()}`
+                  : `$${estimatedFlightCostUSD.toLocaleString()}`,
+                icon: '✈️',
+                live: false,
+              },
           {
             label: 'Hotel/Night',
             value: liveData.hotelPerNightUSD
