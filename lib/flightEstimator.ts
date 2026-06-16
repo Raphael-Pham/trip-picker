@@ -1,4 +1,4 @@
-import { HUB_AIRPORTS, AIRPORT_TO_HUB, getHub } from '../scripts/captureFlightPrices';
+import { HUB_AIRPORTS, AIRPORT_TO_HUB, getHub } from './airportHubs';
 import type { TimeOfDay, CabinClass, FlightPriceRange } from './types';
 
 // ── 1. Cabin class multipliers ─────────────────────────────────────────────────
