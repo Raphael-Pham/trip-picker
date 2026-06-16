@@ -28,8 +28,6 @@ export interface WeightPreferences {
 export interface Traveler {
   name: string;
   budget: number;
-  availableFrom?: string; // ISO date
-  availableTo?: string;   // ISO date
 }
 
 export interface SearchParams {
