@@ -11,265 +11,264 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
     "photography",
     "foodie",
-    "relaxation"
+    "relaxation",
+    "cultural"
   ],
   "scores": {
-    "cost": 45,
+    "cost": 55,
     "food": 92,
-    "photography": 89,
-    "activities": 95,
+    "photography": 88,
+    "activities": 90,
     "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 60,
-      "maxPerDayUSD": 100
+      "minPerDayUSD": 70,
+      "maxPerDayUSD": 120
     },
     {
       "level": "mid",
-      "minPerDayUSD": 100,
-      "maxPerDayUSD": 200
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Vienna Schönbrunn Palace",
-  "summary": "Vienna, Austria's imperial capital, captivates visitors with its stunning Habsburg palaces, world-class museums, and vibrant coffee culture. Elegant architecture lines every street, from St. Stephen's Cathedral to the Hofburg Palace, while the Danube River offers scenic escape routes beyond the city. This cultural powerhouse seamlessly blends centuries of history with contemporary artistry and exceptional cuisine.",
+  "unsplashQuery": "Vienna Stephansdom Austria",
+  "summary": "Vienna captivates visitors with its imperial palaces, world-class museums, and vibrant coffee culture that inspired Mozart and Freud. This elegant capital blends Habsburg grandeur with modern sophistication, offering exceptional cuisine, classical music, and stunning architecture at every turn. From the iconic St. Stephen's Cathedral to the sprawling Schönbrunn Palace, Vienna is a destination for culture enthusiasts and romantics alike.",
   "restaurants": [
+    {
+      "name": "Plachutta",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Vienna's most celebrated Tafelspitz restaurant, serving the city's signature boiled beef dish in a traditional Austro-Hungarian setting.",
+      "mustTry": "Tafelspitz with horseradish sauce"
+    },
+    {
+      "name": "Naschmarkt Eateries",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Street food vendors and casual restaurants throughout Vienna's most vibrant market offering fresh produce, kebabs, and international cuisine.",
+      "mustTry": "Austrian sausages and fresh fruit"
+    },
     {
       "name": "Figlmüller",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Vienna's most famous schnitzel restaurant, operating since 1905 with massive, expertly-fried cutlets that hang over plate edges. A quintessential Viennese dining experience beloved by locals and visitors alike.",
-      "mustTry": "Wiener Schnitzel with lemon"
-    },
-    {
-      "name": "Prater Garten",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Vienna's oldest wine garden in the leafy Prater district, serving simple Austrian fare and excellent local wines in a charming, casual atmosphere. Perfect for soaking in Viennese vineyard culture without formality.",
-      "mustTry": "Grilled sausages with mustard"
+      "description": "Historic establishment famous for massive, expertly-prepared Wiener schnitzel that hangs over the plate edge since 1905.",
+      "mustTry": "Classic Wiener Schnitzel"
     },
     {
       "name": "Steirereck",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Two Michelin stars and consistently ranked among Europe's best restaurants, offering innovative Austrian cuisine with precision and artistry. Located in the stunning Karmelitermarkt building overlooking the Danube Park.",
-      "mustTry": "Chef's tasting menu"
+      "description": "Two-Michelin-star restaurant showcasing innovative Austrian and Styrian cuisine in a contemporary riverside setting.",
+      "mustTry": "Seasonal tasting menu"
     },
     {
-      "name": "Café Central",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic imperial café where Trotsky and Freud once gathered, serving traditional Viennese coffee culture with pastries and light meals in a grand belle époque setting. An essential taste of old Vienna.",
-      "mustTry": "Sachertorte with Melange coffee"
-    },
-    {
-      "name": "Naschmarkt",
+      "name": "Wvu Kaffee",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Vienna's most vibrant outdoor market stretching 1.5 km with produce vendors, food stalls, and international cuisine. Browse fresh ingredients, taste global flavors, and experience daily Viennese life.",
-      "mustTry": "Turkish kebabs and fresh fruit"
+      "description": "Cozy traditional Viennese coffee house serving strong coffee, pastries, and light lunch in an authentic old-world atmosphere.",
+      "mustTry": "Melange with apple strudel"
     },
     {
-      "name": "Weisl Wirt",
+      "name": "Motto am Fluss",
       "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary riverside restaurant offering Mediterranean-inspired cuisine with views of the Danube and modern Austrian classics.",
+      "mustTry": "Fresh fish and seasonal vegetables"
+    },
+    {
+      "name": "Gmoakeller",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Intimate, cozy tavern in Vienna's 6th district serving traditional Austrian comfort food with exceptional wine pairings. Known for duck, beef, and seasonal game prepared with generations of family tradition.",
-      "mustTry": "Tafelspitz with horseradish sauce"
+      "description": "Traditional Styrian restaurant in a historic building serving hearty Alpine fare and Sturm wine, popular with locals since the 1970s.",
+      "mustTry": "Styrian fried chicken"
     },
     {
       "name": "Do & Co",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Rooftop restaurant overlooking St. Stephen's Cathedral with modern Austrian and international cuisine, impeccable service, and one of Vienna's best city views. Romantic and sophisticated without being pretentious.",
-      "mustTry": "Pan-seared duck with seasonal vegetables"
+      "description": "Rooftop fine dining restaurant with panoramic views of St. Stephen's Cathedral and inventive international cuisine.",
+      "mustTry": "Tasting menu with cathedral views"
     },
     {
-      "name": "Karmelitermarkt Restaurants",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Surrounding Vienna's famous fruit and vegetable market are small eateries and wine bars offering affordable, fresh Viennese fare. Perfect casual lunch spot with authentic neighborhood atmosphere.",
-      "mustTry": "Marktfrisch vegetable dishes"
-    },
-    {
-      "name": "Mayer am Pfarrplatz",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic wine tavern in Grinzing, Vienna's famous wine village, serving traditional Heuriger (young wine) with rustic Austrian dishes in a charming courtyard setting. Experience wine harvested from local vineyards.",
-      "mustTry": "Sturm (new wine) with fresh bread"
-    },
-    {
-      "name": "Heunisch & Co",
+      "name": "Gmoakeller Stephansplatz",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Modern Viennese grill restaurant in the Karmelitermarkt neighborhood, focusing on high-quality meat preparation and fresh seasonal ingredients with contemporary plating. Casual elegance with excellent cocktails.",
-      "mustTry": "Wagyu beef with seasonal sides"
+      "description": "Casual eatery near the cathedral offering traditional Viennese comfort food and Austrian beer in a bustling tourist-friendly location.",
+      "mustTry": "Goulash and Kaiserschmarrn"
     },
     {
-      "name": "Zum weissen Rauchfangkehrer",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Charming traditional wine tavern with wood-beamed ceilings and cozy alcoves, serving hearty Austrian mountain cuisine paired with excellent local wines. Experience genuine Viennese atmosphere unchanged for generations.",
-      "mustTry": "Kaiserschmarrn dessert"
+      "name": "Karmelitermarkt Vendors",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming neighborhood market with food stalls, bakeries, and casual restaurants representing Vienna's multicultural food scene.",
+      "mustTry": "Fresh pastries and international street food"
     },
     {
-      "name": "Veranda",
-      "category": "Fine Dining",
+      "name": "Landtmann's",
+      "category": "Midrange",
       "priceRange": "$$$",
-      "description": "Contemporary Austrian cuisine in an elegant setting with floor-to-ceiling windows overlooking the Danube. Creative dishes honor tradition while showcasing modern techniques and seasonal ingredients.",
-      "mustTry": "Seasonal tasting menu"
+      "description": "Historic coffeehouse and restaurant adjacent to the Burgtheater, famous for Viennese classics and the city's best sachertorte.",
+      "mustTry": "Sachertorte with coffee"
+    },
+    {
+      "name": "Café Prater Garten",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Vienna's oldest coffeehouse dating to 1786, offering traditional Viennese atmosphere with excellent pastries and authentic coffee culture.",
+      "mustTry": "Einspänner coffee with whipped cream"
     }
   ],
   "activities": [
     {
       "name": "Schönbrunn Palace Tour",
       "category": "Cultural",
-      "description": "Explore the 1,441-room summer residence of the Habsburgs with opulent state rooms, imperial apartments, and stunning Baroque gardens spanning 190 acres. Wander through where Mozart performed as a child or enjoy guided historical tours.",
+      "description": "Explore the 1,441-room imperial summer palace with stunning gardens, featuring rooms where Mozart performed as a child.",
       "durationHours": 3,
-      "estimatedCostUSD": 16,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "photography"
-      ]
-    },
-    {
-      "name": "St. Stephen's Cathedral Visit",
-      "category": "Cultural",
-      "description": "Climb the 343 steps to the cathedral's tower for panoramic views of Vienna, or explore the interior's soaring Gothic architecture and intricate tile roof. Free entry to cathedral, paid access to tower.",
-      "durationHours": 2,
-      "estimatedCostUSD": 5,
+      "estimatedCostUSD": 22,
       "bestFor": [
         "standard",
         "photography",
-        "relaxation"
+        "cultural"
+      ]
+    },
+    {
+      "name": "St. Stephen's Cathedral",
+      "category": "Cultural",
+      "description": "Marvel at Vienna's most iconic Gothic cathedral with the distinctive tile roof, climb the 343 steps for panoramic city views.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 6,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Hofburg Palace",
+      "category": "Cultural",
+      "description": "Former winter residence of Habsburg emperors featuring 2,600 rooms, home to the Spanish Riding School and multiple museums.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
       ]
     },
     {
       "name": "Danube River Cruise",
       "category": "Outdoor",
-      "description": "Sail past Vienna's landmarks and the Danube Valley's wine country on scenic boat tours ranging from 1-8 hours. Day trips to Melk Abbey or multi-day river cruises available with dining and entertainment.",
-      "durationHours": 2,
+      "description": "Scenic cruise along the Blue Danube through the Danube Valley with views of riverside towns, vineyards, and historic churches.",
+      "durationHours": 3,
       "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
-        "surprise",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Hofburg Palace Complex",
-      "category": "Cultural",
-      "description": "The former imperial winter residence spanning 2,600 rooms contains 18 museums, the Spanish Riding School, and imperial apartments. Explore centuries of Habsburg power through art, artifacts, and architecture.",
-      "durationHours": 4,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "photography"
-      ]
-    },
-    {
-      "name": "Vienna Coffee House Culture",
-      "category": "Relaxation",
-      "description": "Spend hours at historic coffeehouse treasures like Prater Garten, Café Central, or Café Hawelka, enjoying Melange coffee and pastries while reading newspapers. UNESCO-recognized tradition of Viennese coffee culture.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
         "relaxation",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Belvedere Palace and Gardens",
-      "category": "Cultural",
-      "description": "Marvel at Gustav Klimt's 'The Kiss' and other Austrian masterpieces in this opulent palace housing world-class art collections. Stroll manicured gardens designed in formal Baroque style with city views.",
-      "durationHours": 3,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "standard",
-        "surprise",
         "photography"
-      ]
-    },
-    {
-      "name": "Grinzing Wine Tavern Evening",
-      "category": "Nightlife",
-      "description": "Experience traditional Heuriger wine taverns in Vienna's most famous wine village, sipping fresh local wines with zither music and traditional Austrian snacks. Authentic neighborhood atmosphere with vineyards visible from tables.",
-      "durationHours": 3,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "foodie"
       ]
     },
     {
       "name": "Kunsthistorisches Museum",
       "category": "Indoor",
-      "description": "One of the world's greatest art museums housing masterworks by Bruegel, Velázquez, Rembrandt, and Caravaggio spanning 7,000 works. Byzantine mosaics, Egyptian mummies, and Renaissance paintings create an unforgettable collection.",
+      "description": "One of Europe's finest art museums housing Egyptian mummies, Old Master paintings, and world-class antiquities in a stunning Renaissance building.",
       "durationHours": 3,
       "estimatedCostUSD": 16,
       "bestFor": [
         "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Prater Park and Giant Ferris Wheel",
-      "category": "Family",
-      "description": "Ride Vienna's iconic 1897 Ferris wheel 65 meters above the Danube plain for stunning city views. Explore the sprawling Prater Park with gardens, meadows, and recreational facilities.",
-      "durationHours": 2,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "family"
-      ]
-    },
-    {
-      "name": "Spanish Riding School Performance",
-      "category": "Cultural",
-      "description": "Watch the world-famous Lipizzaner stallions perform classical dressage in the stunning Winter Riding School at the Hofburg Palace. Training sessions and full performances available with advance bookings.",
-      "durationHours": 2,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Naschmarkt Exploration",
-      "category": "Outdoor",
-      "description": "Browse Vienna's longest market with 120 vendors selling fresh produce, spices, international foods, and flowers. Experience genuine daily Viennese life and sample diverse cuisines.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "hidden-gems",
-        "foodie",
         "photography"
       ]
     },
     {
       "name": "Vienna State Opera House Tour",
       "category": "Cultural",
-      "description": "Tour the Renaissance Revival building hosting world-class opera and ballet performances in one of Europe's most prestigious venues. Evening performances available or daytime architectural tours.",
+      "description": "Guided backstage tour of the world-renowned opera house with ornate interior, historic balconies, and stories of legendary performances.",
       "durationHours": 1,
-      "estimatedCostUSD": 10,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
-        "surprise",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Naschmarkt Stroll",
+      "category": "Outdoor",
+      "description": "Walk through Vienna's most colorful produce and spice market stretching nearly a mile, featuring food stalls and street performers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
         "photography"
+      ]
+    },
+    {
+      "name": "Belvedere Palace",
+      "category": "Cultural",
+      "description": "Two stunning palaces housing modern Austrian art including Klimt's The Kiss, with manicured Baroque gardens and fountain displays.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Prater Park and Giant Ferris Wheel",
+      "category": "Family",
+      "description": "Historic amusement park featuring the iconic 212-foot red Ferris wheel offering 360-degree city views from 1897.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Classical Concert at Musikverein",
+      "category": "Cultural",
+      "description": "Experience world-class orchestral performances in the Golden Hall, one of the world's finest concert venues built in 1870.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Vienna Coffee House Experience",
+      "category": "Relaxation",
+      "description": "Spend hours in a traditional coffeehouse reading newspapers, playing chess, and savoring Viennese pastries with coffee, a UNESCO tradition.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ringstrasse Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or guided walk along Vienna's famous grand boulevard featuring the Opera House, Parliament, Natural History Museum, and Gothic churches.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
       ]
     }
   ],
@@ -277,92 +276,92 @@
     "spots": [
       {
         "name": "St. Stephen's Cathedral Square",
-        "description": "Iconic Gothic cathedral with distinctive tile roof dominates the frame, especially stunning at sunrise with warm light illuminating architectural details.",
+        "description": "Iconic Gothic cathedral with distinctive tile roof dominates the central plaza, perfect for architecture and street photography.",
         "difficulty": "Beginner",
         "bestTime": "Early morning or golden hour",
         "category": "Architecture"
       },
       {
-        "name": "Schönbrunn Palace Front Gates",
-        "description": "Elegant Baroque gates and palace facade framed by manicured gardens and formal symmetry, perfect for capturing imperial grandeur.",
+        "name": "Schönbrunn Palace Main Facade",
+        "description": "Baroque palace with symmetrical gardens creating a majestic composition, ideal for wide-angle architecture shots.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light, overcast for even exposure",
+        "bestTime": "Afternoon for warm light on facade",
         "category": "Architecture"
       },
       {
-        "name": "Belvedere Palace Gardens",
-        "description": "Formal Baroque gardens with palace in background, geometric hedges and fountains creating layered composition opportunities.",
+        "name": "Belvedere Palace Lower Building",
+        "description": "Stunning Baroque architecture with manicured gardens and fountain displays offering multiple composition angles.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for soft light on gardens",
-        "category": "Landscape"
+        "bestTime": "Late afternoon when gardens are illuminated",
+        "category": "Architecture"
       },
       {
-        "name": "Danube Tower Viewpoint",
-        "description": "From 150 meters, capture expansive city skyline, Danube curves, and city districts stretching to horizons with exceptional depth.",
+        "name": "Danube Waterfront at Donauinsel",
+        "description": "River landscape with city skyline backdrop, bridges, and parks creating layered compositional depth.",
         "difficulty": "Beginner",
-        "bestTime": "Clear days, sunset for golden tones",
+        "bestTime": "Golden hour for warm reflections",
         "category": "Landscape"
       },
       {
-        "name": "Hofburg Palace Michaelerplatz",
-        "description": "Historic square with Hofburg facade, detailed Renaissance architecture, and bustling street life creating dynamic urban scenes.",
+        "name": "Ringstrasse from Parliament Steps",
+        "description": "Grand boulevard with opera house, museums, and historic architecture framed by grand avenue perspective.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning for side-lighting, people activity",
+        "bestTime": "Early morning for clean street scenes",
         "category": "Street"
-      },
-      {
-        "name": "Prater Ferris Wheel",
-        "description": "The iconic 1897 Giant Ferris Wheel becomes a geometric subject with surrounding park and city backdrop, especially striking at night.",
-        "difficulty": "Intermediate",
-        "bestTime": "Dusk for twilight colors, night for light trails",
-        "category": "Night"
       },
       {
         "name": "Naschmarkt Vendor Stalls",
-        "description": "Vibrant market colors, diverse vendors, fresh produce arrangements create street photography and cultural documentation opportunities.",
+        "description": "Vibrant market colors, textures, and cultural diversity offering authentic street and candid photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning light, when market is fullest",
+        "bestTime": "Mid-morning when market is active",
         "category": "Street"
       },
       {
-        "name": "Vienna State Opera House",
-        "description": "Renaissance Revival facade with detailed stonework and grand staircase, theatrical lighting effects at night create dramatic architectural drama.",
+        "name": "Prater Giant Ferris Wheel",
+        "description": "Iconic red wheel and amusement park architecture against city skyline, dramatic day or night subject.",
         "difficulty": "Beginner",
-        "bestTime": "Evening for architectural lighting, sunset shadows",
+        "bestTime": "Sunset for dramatic silhouettes",
         "category": "Architecture"
       },
       {
-        "name": "Karl-Borromäus Church Spires",
-        "description": "Twin Baroque domes and spires create striking silhouettes against skies, especially dramatic with urban context and storm clouds.",
+        "name": "Hofburg Palace Courtyards",
+        "description": "Multiple nested courtyards with Renaissance and Baroque architecture, arches, and symmetrical compositions.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset or dramatic cloud formations",
+        "bestTime": "Midday for even light in courtyards",
         "category": "Architecture"
       },
       {
-        "name": "Grinzing Wine Village Streets",
-        "description": "Charming narrow cobblestone streets, traditional vine-covered houses, hanging lanterns create picturesque European village atmosphere.",
+        "name": "Vienna State Opera House at Night",
+        "description": "Renaissance Revival building illuminated at night with street lamps and surrounding architecture creating atmospheric night photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Dusk with village lights, golden afternoon",
-        "category": "Street"
+        "bestTime": "Blue hour to night",
+        "category": "Night"
+      },
+      {
+        "name": "Stephansdom Tower Views from Bridges",
+        "description": "Cathedral spire and Gothic details visible from various Danube bridges and embankments with multiple viewing angles.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour with side lighting",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Danube Tower observation deck",
-      "Schönbrunn Palace rear gardens",
-      "St. Stephen's Cathedral square"
+      "Danube Waterfront at Donauinsel",
+      "Schönbrunn Palace Upper Terrace",
+      "St. Stephen's Cathedral Square"
     ],
     "sunsetSpots": [
-      "Belvedere Palace upper terrace",
-      "Prater Ferris Wheel",
-      "Danube riverbank near Neue Donau"
+      "Belvedere Palace Upper Terrace",
+      "Danube Bank near Millennium Tower",
+      "Prater Park Ferris Wheel"
     ],
     "lensRecommendations": [
-      "24-70mm versatile for streets, markets, and detail work capturing Viennese life",
-      "16-35mm wide-angle for palaces, architectural facades, and expansive city views",
-      "50mm prime for intimate portraits and detail photography in historic quarters",
-      "70-200mm telephoto for compressing skylines and isolating architectural details"
+      "16-35mm wide-angle for architectural facades and palace interiors",
+      "50mm prime for street photography in markets and narrow streets",
+      "70-200mm telephoto for compressed architectural details and golden hour light",
+      "24mm prime for versatile documentary and cultural photography"
     ],
-    "goldenHourNotes": "Vienna's golden hour bathes classical architecture in warm tones that emphasize stonework texture and imperial grandeur. The low angle light creates dramatic shadows on palace facades and church spires, transforming ordinary squares into theatrical scenes. Arrive 30 minutes before sunset at elevated viewpoints or major monuments to capture the optimal light window.",
+    "goldenHourNotes": "Vienna's golden hour (one hour before sunset) provides exceptional warm light on the cream and tan facades of imperial buildings, particularly Schönbrunn and Hofburg palaces. The Danube waterfront receives perfect side-lighting at sunset, creating dramatic reflections and silhouettes of the city skyline. Early morning light from 6-8am reveals architectural details with soft directional light before crowds arrive.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -370,22 +369,22 @@
       {
         "month": 1,
         "avgTempC": -1,
-        "rainfallMM": 40
+        "rainfallMM": 38
       },
       {
         "month": 2,
         "avgTempC": 1,
-        "rainfallMM": 45
+        "rainfallMM": 42
       },
       {
         "month": 3,
         "avgTempC": 6,
-        "rainfallMM": 50
+        "rainfallMM": 48
       },
       {
         "month": 4,
         "avgTempC": 12,
-        "rainfallMM": 65
+        "rainfallMM": 55
       },
       {
         "month": 5,
@@ -395,7 +394,7 @@
       {
         "month": 6,
         "avgTempC": 21,
-        "rainfallMM": 85
+        "rainfallMM": 88
       },
       {
         "month": 7,
@@ -405,27 +404,27 @@
       {
         "month": 8,
         "avgTempC": 23,
-        "rainfallMM": 70
+        "rainfallMM": 78
       },
       {
         "month": 9,
-        "avgTempC": 19,
-        "rainfallMM": 55
+        "avgTempC": 18,
+        "rainfallMM": 60
       },
       {
         "month": 10,
-        "avgTempC": 13,
+        "avgTempC": 12,
         "rainfallMM": 45
       },
       {
         "month": 11,
-        "avgTempC": 7,
-        "rainfallMM": 60
+        "avgTempC": 6,
+        "rainfallMM": 55
       },
       {
         "month": 12,
-        "avgTempC": 2,
-        "rainfallMM": 50
+        "avgTempC": 1,
+        "rainfallMM": 45
       }
     ],
     "bestMonths": [
@@ -433,31 +432,31 @@
       6,
       9
     ],
-    "seasonality": "Vienna experiences moderate continental climate with warm summers (June-August, 21-23°C) ideal for sightseeing and outdoor activities, while winters (December-February, -1 to 1°C) bring occasional snow and Christmas markets charm. Spring (April-May) and fall (September-October) offer pleasant temperatures, fewer crowds, and excellent photography light.",
-    "summary": "Vienna's climate features mild summers perfect for palace exploration and Danube cruises, with some rainfall throughout the year. Winter visitors enjoy festive Christmas markets and fewer crowds, though temperatures drop below freezing, making layered clothing essential."
+    "seasonality": "May through June and September offer the most pleasant weather with warm temperatures, moderate rainfall, and beautiful gardens in full bloom. July and August can be warm and humid with higher tourist crowds, while winter months are cold with occasional snow, creating festive Christmas markets but limiting outdoor activities.",
+    "summary": "Vienna experiences a continental climate with cold winters averaging 0°C and warm summers reaching 23°C. Spring and fall provide ideal conditions for exploring palaces and walking tours, while December transforms the city with magical Christmas markets despite freezing temperatures."
   },
   "hotels": [
     {
-      "name": "Hostel Ruthensteiner",
-      "neighborhood": "District 8 (Josefstadt)",
-      "pricePerNightUSD": 25,
+      "name": "Hostelle Vienna",
+      "neighborhood": "Leopoldstadt",
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Social youth hostel with private and dormitory rooms, free Wi-Fi, communal kitchen, and laid-back atmosphere attracting budget travelers and backpackers."
+      "description": "Modern, socially-minded hostel with private rooms and dorms, rooftop bar, and welcoming common areas near the Danube Canal."
     },
     {
-      "name": "Hotel Austria",
-      "neighborhood": "District 1 (Innere Stadt)",
-      "pricePerNightUSD": 120,
-      "category": "Mid-range",
-      "description": "Family-run 3-star hotel in Vienna's historic center steps from major attractions, featuring comfortable rooms with classic decor and excellent location."
-    },
-    {
-      "name": "Hotel Bristol Vienna",
-      "neighborhood": "District 1 (Innere Stadt)",
-      "pricePerNightUSD": 350,
+      "name": "Hotel Sacher Vienna",
+      "neighborhood": "Innere Stadt",
+      "pricePerNightUSD": 380,
       "category": "Luxury",
-      "description": "Five-star legendary hotel opposite Vienna State Opera House featuring Belle Époque elegance, Michelin-starred dining, spa facilities, and impeccable service since 1892."
+      "description": "Iconic 5-star hotel across from St. Stephen's Cathedral, featuring the famous Sacher Torte, impeccable service, and luxurious rooms since 1876."
+    },
+    {
+      "name": "Boutique Hotel Donauwalzer",
+      "neighborhood": "Landstrasse",
+      "pricePerNightUSD": 145,
+      "category": "Mid-range",
+      "description": "Charming 4-star hotel near the Danube with contemporary design, attentive service, and convenient public transit access to major attractions."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1615232867241-ebf770bc68b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxWaWVubmElMjBTY2glQzMlQjZuYnJ1bm4lMjBQYWxhY2V8ZW58MXwwfHx8MTc4MTU2MjI2NXww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1567786311633-11cefc906c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxWaWVubmElMjBTdGVwaGFuc2RvbSUyMEF1c3RyaWF8ZW58MXwwfHx8MTc4MTYyOTM1NHww&ixlib=rb-4.1.0&q=80&w=1080"
 }

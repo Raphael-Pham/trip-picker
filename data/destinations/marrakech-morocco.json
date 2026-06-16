@@ -12,131 +12,142 @@
   "tripStyles": [
     "standard",
     "surprise",
-    "hidden-gems",
     "photography",
     "foodie",
     "adventure",
     "relaxation"
   ],
   "scores": {
-    "cost": 78,
-    "food": 92,
-    "photography": 95,
-    "activities": 88,
-    "weather": 82
+    "cost": 75,
+    "food": 95,
+    "photography": 94,
+    "activities": 92,
+    "weather": 85
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 30,
+      "minPerDayUSD": 35,
       "maxPerDayUSD": 60
     },
     {
       "level": "mid",
-      "minPerDayUSD": 60,
+      "minPerDayUSD": 80,
       "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 400
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Marrakech medina sunset",
-  "summary": "Marrakech is a vibrant imperial city where ancient medinas, stunning palaces, and lush gardens blend seamlessly with modern energy. Known as the 'Red City' for its terracotta walls, it's a photographer's paradise with world-class food, bustling souks, and the dramatic Atlas Mountains as a backdrop. The perfect balance of culture, adventure, and relaxation makes it Morocco's most enchanting destination.",
+  "unsplashQuery": "Marrakech medina market",
+  "summary": "Marrakech is Morocco's enchanting red-walled city where ancient medinas burst with exotic spices, intricate tilework, and bustling souks that ignite all the senses. From the iconic Jemaa el-Fnaa square to the serene Atlas Mountains and Sahara Desert beyond, this vibrant destination seamlessly blends centuries of Islamic architecture with world-class hospitality and unforgettable culinary experiences.",
   "restaurants": [
     {
-      "name": "Djemaa el-Fnaa Food Stalls",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Historic plaza with dozens of food vendors serving tagines, kebabs, and traditional Moroccan street food. An authentic, immersive culinary experience in the heart of the medina.",
-      "mustTry": "Harira soup and grilled lamb skewers"
-    },
-    {
       "name": "Le Jardin",
-      "category": "Midrange",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Hidden gem in the medina offering Mediterranean cuisine in a lush garden setting with fountains and exotic plants. Ideal for a romantic lunch or dinner break from exploring.",
-      "mustTry": "Garden salad with argan oil"
+      "description": "Hidden within the medina, this charming garden restaurant serves authentic Moroccan tagines and couscous in a serene courtyard setting surrounded by orange blossoms and fountains.",
+      "mustTry": "Lamb tagine with apricots"
     },
     {
-      "name": "Riad Laksiba",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Traditional riad restaurant serving authentic Moroccan tagines and couscous in an intimate courtyard setting. Each dish is home-cooked with family recipes.",
-      "mustTry": "Chicken tagine with preserved lemons and olives"
-    },
-    {
-      "name": "Nomad",
+      "name": "Kosybar",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary rooftop restaurant overlooking the medina with modern Moroccan cuisine and an extensive wine list. Stunning sunset views paired with creative dishes.",
-      "mustTry": "Saffron-infused lamb with mint couscous"
+      "priceRange": "$$$$",
+      "description": "Rooftop restaurant offering contemporary Moroccan cuisine with stunning views of the Koutoubia Mosque and medina, featuring innovative dishes paired with excellent wines.",
+      "mustTry": "Seafood pastilla"
     },
     {
-      "name": "Café Kech",
+      "name": "Dar Anika",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Intimate riad restaurant serving traditional Moroccan home cooking with recipes passed down through generations, featuring fresh locally-sourced ingredients.",
+      "mustTry": "Chicken and preserved lemon tagine"
+    },
+    {
+      "name": "Jemaa el-Fnaa Food Stalls",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Local café perfect for breakfast with fresh pastries, strong coffee, and orange juice. Simple, authentic, and beloved by residents.",
-      "mustTry": "Almond croissant and mint tea"
+      "description": "Iconic street food experience in the main square offering fresh grilled kebabs, snails, harira soup, and fresh squeezed orange juice at unbeatable prices.",
+      "mustTry": "Grilled lamb skewers with bread"
     },
     {
-      "name": "Al Fassia",
+      "name": "Riad Laaroussa",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Elegant riad restaurant serving both traditional Moroccan dishes and Mediterranean fusion cuisine in a beautifully restored 17th-century palace with traditional decor.",
+      "mustTry": "Bastilla with pigeon meat"
+    },
+    {
+      "name": "Al Fida",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-run restaurant near the souks serving generous portions of authentic Moroccan fare including harira, tajines, and fresh bread in a casual local atmosphere.",
+      "mustTry": "Vegetable and chickpea tagine"
+    },
+    {
+      "name": "Catanzaro",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Italian restaurant in the Gueliz district offering contemporary European cuisine with Moroccan influences, known for impeccable service and elegant ambiance.",
+      "mustTry": "Seafood risotto"
+    },
+    {
+      "name": "Kasbah Cafe",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Family-run restaurant in the Gueliz district run entirely by women, famous for generous portions of traditional Moroccan cuisine. The tagines are exceptional.",
-      "mustTry": "Chicken tagine with apricots and almonds"
+      "description": "Casual rooftop cafe serving light lunches, pastries, and mint tea with views over the medina, popular with travelers for its relaxed vibe and reliable food.",
+      "mustTry": "Moroccan salad selection"
+    },
+    {
+      "name": "Be d'Marrakech",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Contemporary restaurant celebrating Moroccan culinary traditions with artistic presentation and refined techniques, set in a stylish modern riad.",
+      "mustTry": "Stuffed eggplant with herbs"
+    },
+    {
+      "name": "Cafe Kech",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local cafe near the souks serving strong Moroccan coffee, fresh pastries, and simple breakfast fare favored by both tourists and residents.",
+      "mustTry": "Msemen with honey"
+    },
+    {
+      "name": "Terrasse des Epices",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Rooftop restaurant hidden above the bustling souks offering panoramic medina views, refreshing tagines, and excellent Moroccan mint tea.",
+      "mustTry": "Mixed vegetable tagine"
     },
     {
       "name": "Dar Moha",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant palace-restaurant set in a restored 19th-century mansion with multiple dining rooms and gardens. Fine dining with traditional Moroccan and French influences.",
-      "mustTry": "Bastilla with pigeon and almonds"
-    },
-    {
-      "name": "Souk Spice Market Stalls",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Direct access to dried fruits, nuts, and fresh spices sold by vendors throughout the souks. Perfect for snacking on locally roasted almonds and dates.",
-      "mustTry": "Roasted salted almonds"
-    },
-    {
-      "name": "La Trattoria",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Italian restaurant in the Gueliz area offering fresh pasta and Mediterranean dishes. A nice break from Moroccan food with quality ingredients.",
-      "mustTry": "Pasta with fresh seafood"
-    },
-    {
-      "name": "Café de France",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Historic café overlooking Djemaa el-Fnaa square since 1920s, perfect for people-watching with coffee and pastries. Touristy but quintessentially Marrakech.",
-      "mustTry": "Fresh orange juice and traditional pastries"
-    },
-    {
-      "name": "Riad Yima",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Boutique riad restaurant with seasonal Moroccan menu in an intimate courtyard with zellige tilework. Personalized service and authentic home-style cooking.",
-      "mustTry": "Lamb tagine with vegetables"
-    },
-    {
-      "name": "Terrasse des Épices",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Rooftop restaurant in the medina with panoramic views of the city and simple but delicious Moroccan cuisine. Perfect for sunset dining.",
-      "mustTry": "Tajine with vegetables and dried fruits"
+      "priceRange": "$$$$",
+      "description": "Michelin-recommended palace restaurant showcasing refined Moroccan cuisine in a 19th-century mansion with lush gardens, featuring seasonal menus and impeccable service.",
+      "mustTry": "Slow-cooked beef with prunes"
     }
   ],
   "activities": [
     {
-      "name": "Explore Djemaa el-Fnaa Square",
+      "name": "Jemaa el-Fnaa Square Exploration",
       "category": "Cultural",
-      "description": "The beating heart of Marrakech with snake charmers, musicians, storytellers, and food vendors creating an intoxicating sensory experience. Free to wander and soak in the atmosphere day and night.",
+      "description": "Immerse yourself in the energy of Morocco's most iconic plaza, filled with snake charmers, acrobats, storytellers, musicians, and food vendors creating a sensory spectacle.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Medina Souk Wandering",
+      "category": "Cultural",
+      "description": "Navigate the labyrinthine souks selling spices, textiles, leather goods, and traditional crafts, haggling with vendors and discovering hidden shops tucked within narrow alleyways.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
         "surprise",
@@ -145,94 +156,68 @@
       ]
     },
     {
-      "name": "Guided Medina Walking Tour",
+      "name": "Atlas Mountains Trekking Day Trip",
+      "category": "Adventure",
+      "description": "Hike through the stunning High Atlas Mountains with guides, visiting Berber villages, waterfalls, and experiencing traditional mountain hospitality with lunch at a local home.",
+      "durationHours": 8,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Sahara Desert Overnight Excursion",
+      "category": "Adventure",
+      "description": "Journey to the golden dunes of the Sahara, experience camel trekking at sunset, stay in a traditional Berber tent camp, and wake for a desert sunrise with stargazing at night.",
+      "durationHours": 24,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Koutoubia Mosque and Kasbah Visit",
       "category": "Cultural",
-      "description": "Navigate the labyrinthine souks with a local guide discovering hidden riads, artisan shops, and authentic neighborhood life. Essential for understanding the city's layout and history.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
+      "description": "Admire the stunning 12th-century Koutoubia Mosque from its iconic gardens, then explore the adjacent Kasbah palace complex with its red-walled fortress architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
       "bestFor": [
         "standard",
-        "surprise",
-        "hidden-gems",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Bahia Palace Guided Tour",
+      "category": "Cultural",
+      "description": "Explore the ornate 19th-century Bahia Palace with its intricate zellige tilework, carved cedar ceilings, and beautiful courtyards showcasing the wealth of Morocco's golden age.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
         "photography"
       ]
     },
     {
       "name": "Majorelle Garden Visit",
       "category": "Outdoor",
-      "description": "Stunning 12-acre botanical garden with vibrant electric blue buildings, exotic plants, and peaceful pathways. A serene escape from the busy medina.",
+      "description": "Wander through the iconic electric-blue Art Deco gardens with exotic plants, bamboo groves, and a serene ambiance, recently enhanced with the Berber Museum.",
       "durationHours": 2,
-      "estimatedCostUSD": 9,
+      "estimatedCostUSD": 12,
       "bestFor": [
-        "standard",
+        "relaxation",
         "photography",
-        "relaxation"
+        "standard"
       ]
     },
     {
-      "name": "Atlas Mountains Day Trek",
-      "category": "Adventure",
-      "description": "Full-day trek through Berber villages and mountain landscapes with breathtaking views and interactions with local communities. Includes lunch in a traditional home.",
-      "durationHours": 8,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Bahia Palace Exploration",
-      "category": "Cultural",
-      "description": "19th-century palace with ornate rooms, courtyards, and intricate zellige tilework showcasing Moroccan architecture at its finest. Self-guided or with audio guide.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Argan Oil Cooperative Workshop",
-      "category": "Cultural",
-      "description": "Visit a women's cooperative to learn traditional argan oil production methods and meet the artisans. Includes samples and the opportunity to purchase authentic products.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "foodie",
-        "hidden-gems",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Sunset Camel Ride in the Desert",
-      "category": "Adventure",
-      "description": "Experience the Sahara fringe on a camel trek ending with sunset views and traditional Berber camp experience with tea and music. Magical desert experience.",
-      "durationHours": 5,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Saadian Tombs Visit",
-      "category": "Cultural",
-      "description": "Historic 16th-century royal burial ground with beautiful architecture and gardens, recently restored and reopened to the public. Peaceful and historically significant.",
-      "durationHours": 1,
-      "estimatedCostUSD": 4,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Hammam Traditional Bath Experience",
+      "name": "Traditional Hammam Spa Experience",
       "category": "Relaxation",
-      "description": "Authentic hammam session with steam, scrubbing, and massage in a local bathhouse, a tradition dating back centuries. Book through your hotel or a trusted guide.",
+      "description": "Indulge in an authentic Moroccan hammam with exfoliating scrubs, warm baths, and massage treatments, available at local hammams or luxury riad spas.",
       "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
@@ -242,231 +227,238 @@
     },
     {
       "name": "Cooking Class with Local Chef",
-      "category": "Foodie",
-      "description": "Hands-on Moroccan cooking class in a traditional kitchen learning to prepare tagines, couscous, and breads followed by a shared meal. Lunch or dinner classes available.",
+      "category": "Cultural",
+      "description": "Learn to prepare authentic Moroccan dishes like tagines and couscous from experienced chefs in a traditional kitchen, including a market tour and tasting of your creations.",
       "durationHours": 4,
-      "estimatedCostUSD": 55,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "foodie",
-        "standard",
-        "relaxation"
+        "cultural"
       ]
     },
     {
-      "name": "Souk Shopping and Haggling",
-      "category": "Cultural",
-      "description": "Experience the traditional art of bargaining for carpets, leather goods, textiles, and spices in the bustling souks. Authentic commerce and cultural interaction.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "name": "Menara Gardens and Olive Grove",
+      "category": "Outdoor",
+      "description": "Relax in the peaceful 12th-century Menara Gardens featuring a large pool reflecting the snow-capped Atlas Mountains, surrounded by olive groves and local landscapes.",
+      "durationHours": 2,
+      "estimatedCostUSD": 6,
       "bestFor": [
-        "standard",
-        "surprise",
-        "hidden-gems",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Atlas Mountains Berbery Village Visit",
-      "category": "Adventure",
-      "description": "Small group tour to remote Berber village with traditional pottery-making demonstrations, home visits, and authentic couscous lunch. Immersive cultural experience.",
-      "durationHours": 6,
-      "estimatedCostUSD": 40,
+      "name": "Riad Stay with Evening Entertainment",
+      "category": "Relaxation",
+      "description": "Experience traditional Moroccan hospitality by staying in a historic riad with courtyard views, enjoying evening performances of Gnawa music or belly dancing.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
       "bestFor": [
-        "adventure",
+        "relaxation",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Essaouira Coastal Day Trip",
+      "category": "Outdoor",
+      "description": "Travel to the Atlantic coastal town of Essaouira to explore the medina, visit fishing ports, enjoy fresh seafood, relax on beaches, and experience a laid-back beach vibe.",
+      "durationHours": 8,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
         "photography",
-        "hidden-gems",
-        "standard"
+        "relaxation"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Djemaa el-Fnaa Square at Sunset",
-        "description": "Iconic plaza transforms into a golden-lit wonderland with merchants, performers, and lanterns creating magical light and bustling composition.",
+        "name": "Jemaa el-Fnaa Square",
+        "description": "Capture the vibrant chaos of storytellers, musicians, and acrobats against the backdrop of the Koutoubia Mosque and surrounding medina architecture.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset to dusk",
+        "bestTime": "Early morning or late afternoon to avoid harsh shadows and capture golden light",
         "category": "Street"
       },
       {
-        "name": "Majorelle Garden Blues",
-        "description": "Vibrant electric blue buildings and lush green vegetation create striking color contrasts and symmetric photography opportunities throughout the garden.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon",
-        "category": "Architecture"
-      },
-      {
-        "name": "Medina Riad Courtyard Details",
-        "description": "Intricate zellige tilework, carved cedar, and traditional water fountains in peaceful riads offer intimate architectural detail photography.",
+        "name": "Souks of the Medina",
+        "description": "Document intricate patterns, colorful textiles, aromatic spice piles, and authentic vendor interactions within the narrow alleyways of the traditional market.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday for bright tile colors",
-        "category": "Architecture"
-      },
-      {
-        "name": "Souk Spice Markets Color",
-        "description": "Vivid pyramids of dried spices, vibrant textiles, and narrow alleys packed with products create documentary street photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning hours",
+        "bestTime": "Early morning for better light and fewer crowds within narrow passages",
         "category": "Street"
       },
       {
-        "name": "Koutoubia Mosque from Above",
-        "description": "Panoramic city views with the iconic mosque minaret rising above the medina, best captured from surrounding rooftops and terraces.",
+        "name": "Bahia Palace Interior Courtyards",
+        "description": "Photograph ornate zellige tilework, carved cedar ceilings, fountains, and geometric patterns that showcase Moroccan Islamic architecture at its finest.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
+        "bestTime": "Mid-morning when natural light illuminates the courtyards without harsh shadows",
         "category": "Architecture"
       },
       {
-        "name": "Atlas Mountains Peaks",
-        "description": "Snow-capped mountains create dramatic landscape backdrops with Berber villages in valleys offering scale and depth photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning light",
+        "name": "Majorelle Garden Blue Structures",
+        "description": "Capture the striking electric-blue painted buildings, walls, and gates set against lush green vegetation and exotic plants throughout the garden.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days or late afternoon to avoid harsh shadows that diminish the vibrant blue color",
+        "category": "Architecture"
+      },
+      {
+        "name": "Atlas Mountains from Menara Gardens",
+        "description": "Frame the snow-capped Atlas Mountains reflected in the Menara pool with olive groves in the foreground, creating a stunning layered landscape composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning when mountains are crisp and reflections are perfect in still water",
         "category": "Landscape"
       },
       {
-        "name": "Bahia Palace Interior Details",
-        "description": "Ornate stucco work, carved plaster, and traditional geometric patterns provide detailed architectural and abstract composition opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday with even lighting",
+        "name": "Koutoubia Mosque Exterior",
+        "description": "Document the iconic 12th-century mosque's distinctive green-tiled minaret and red-walled structure from various garden vantage points.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunset when warm light illuminates the red walls and minaret details",
         "category": "Architecture"
       },
       {
-        "name": "Snake Charmers and Performers",
-        "description": "Djemaa el-Fnaa's street performers provide dynamic human interest and cultural documentation photography with colorful costumes.",
-        "difficulty": "Advanced",
-        "bestTime": "Late afternoon and evening",
-        "category": "Street"
+        "name": "Medina Rooftop Terraces",
+        "description": "Explore rooftop views overlooking the densely packed medina buildings, satellite dishes, clotheslines, and the Koutoubia Mosque in the distance.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm golden light across terracotta rooftops and distant mountains",
+        "category": "Architecture"
       },
       {
         "name": "Sahara Desert Dunes at Sunrise",
-        "description": "Golden dunes with dramatic shadows and textures create sweeping landscape compositions with camel caravans adding scale.",
+        "description": "Capture silhouetted camels and dramatic sand formations as the sun rises over the golden Sahara, creating rich color gradients and long shadows.",
         "difficulty": "Advanced",
-        "bestTime": "Sunrise",
+        "bestTime": "30 minutes before sunrise for soft light, then during sunrise for dramatic color and backlighting",
         "category": "Landscape"
       },
       {
-        "name": "Tagine Street Food Photography",
-        "description": "Steaming traditional dishes, hands preparing food, and vibrant market colors offer compelling food and street culture documentation.",
-        "difficulty": "Beginner",
-        "bestTime": "Evening food stall hours",
+        "name": "Traditional Berber Market",
+        "description": "Photograph vendors, traditional dress, colorful produce, and authentic cultural moments within active Berber markets in surrounding villages.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when markets are busiest and light is most favorable",
         "category": "Street"
+      },
+      {
+        "name": "Local Riads and Courtyards",
+        "description": "Document the intricate details of traditional riad architecture including central courtyards, fountain details, carved plasterwork, and ornamental tilework.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for balanced courtyard lighting that highlights architectural details",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Saadian Tombs",
-      "Atlas Mountains High Passes",
-      "Sahara Desert Dunes"
+      "Atlas Mountains viewpoint near Menara Gardens",
+      "Sahara Desert dunes near Zagora",
+      "Ourika Valley in the foothills"
     ],
     "sunsetSpots": [
-      "Djemaa el-Fnaa Square",
-      "Koutoubia Mosque Surrounding Rooftops",
-      "Majorelle Garden"
+      "Jemaa el-Fnaa Square with Koutoubia Mosque",
+      "Menara Gardens overlooking Atlas Mountains",
+      "Rooftop terraces above the medina"
     ],
     "lensRecommendations": [
-      "24-70mm f/2.8 - Versatile for medina details, portraits, and architectural work",
-      "16-35mm ultra-wide - Captures expansive mosque views, souk perspective, and landscape vistas",
-      "85mm f/1.8 prime - Excellent for portrait work, spice market details, and street performers",
-      "70-200mm telephoto - Compresses distant mountain peaks and isolates subjects in crowded squares"
+      "24-70mm versatile zoom for capturing street scenes and architectural details in the medina",
+      "16-35mm ultra-wide angle for landscape vistas of the Atlas Mountains and desert dunes",
+      "85mm prime for intimate portraits of vendors, musicians, and local people in the souks",
+      "70-200mm telephoto for compressed compositions of the Koutoubia Mosque and distant landscapes"
     ],
-    "goldenHourNotes": "Marrakech's golden hour is exceptionally photogenic with warm terracotta walls bathed in soft orange light. The hour before sunset at Djemaa el-Fnaa is magical when street lamps begin illuminating and the square fills with activity. Mountains turn deep purple while the sky displays fire-colored gradients, perfect for landscape and architectural photography.",
+    "goldenHourNotes": "Marrakech's golden hour creates magical light on red-walled medina buildings and the iconic Koutoubia Mosque, typically lasting 30-45 minutes before sunset. The warm amber tones enhance both architectural details and street photography, making late afternoon ideal for rooftop shots and souk exploration. Early morning light at sunrise is equally spectacular for desert photography and mountain landscapes, with long shadows and soft colors perfect for silhouettes.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 12,
-        "rainfallMM": 30
+        "avgTempC": 13,
+        "rainfallMM": 25
       },
       {
         "month": 2,
-        "avgTempC": 13,
-        "rainfallMM": 28
+        "avgTempC": 15,
+        "rainfallMM": 20
       },
       {
         "month": 3,
-        "avgTempC": 16,
-        "rainfallMM": 23
-      },
-      {
-        "month": 4,
-        "avgTempC": 20,
+        "avgTempC": 19,
         "rainfallMM": 18
       },
       {
+        "month": 4,
+        "avgTempC": 24,
+        "rainfallMM": 15
+      },
+      {
         "month": 5,
-        "avgTempC": 25,
+        "avgTempC": 29,
         "rainfallMM": 8
       },
       {
         "month": 6,
-        "avgTempC": 30,
-        "rainfallMM": 3
+        "avgTempC": 34,
+        "rainfallMM": 2
       },
       {
         "month": 7,
-        "avgTempC": 33,
+        "avgTempC": 37,
         "rainfallMM": 1
       },
       {
         "month": 8,
-        "avgTempC": 33,
+        "avgTempC": 36,
         "rainfallMM": 2
       },
       {
         "month": 9,
-        "avgTempC": 29,
+        "avgTempC": 31,
         "rainfallMM": 5
       },
       {
         "month": 10,
-        "avgTempC": 23,
+        "avgTempC": 25,
         "rainfallMM": 12
       },
       {
         "month": 11,
-        "avgTempC": 17,
+        "avgTempC": 19,
         "rainfallMM": 22
       },
       {
         "month": 12,
-        "avgTempC": 13,
-        "rainfallMM": 32
+        "avgTempC": 14,
+        "rainfallMM": 28
       }
     ],
     "bestMonths": [
       3,
       4,
       5,
-      9,
       10,
       11
     ],
-    "seasonality": "Spring (March-May) and fall (September-November) offer ideal temperatures between 16-30°C with minimal rain. Summer is extremely hot (30-35°C) but dry, while winter is mild but can have occasional rain.",
-    "summary": "Marrakech features a hot desert climate with warm, dry summers and mild winters. The best time to visit is spring and autumn when temperatures are comfortable and rainfall is minimal."
+    "seasonality": "March through May and October through November offer ideal conditions with warm days, cool nights, and minimal rainfall, perfect for exploring the medina and nearby mountains. June through August brings extreme heat exceeding 35°C, making outdoor activities challenging, while December through February is cooler but can experience occasional rain.",
+    "summary": "Marrakech experiences a hot desert climate with two distinct seasons: hot dry summers and mild winters with occasional rainfall. Spring and fall provide the most comfortable weather for sightseeing and outdoor adventures, while summer visitors should prepare for intense heat and winter travelers may encounter rare rainy days."
   },
   "hotels": [
     {
-      "name": "Equity Point Marrakech Hostel",
+      "name": "Equity Point Marrakech",
       "neighborhood": "Medina",
-      "pricePerNightUSD": 18,
+      "pricePerNightUSD": 25,
       "category": "Budget",
-      "description": "Vibrant hostel in the medina with rooftop terrace, social atmosphere, and budget-friendly accommodations for independent travelers."
+      "description": "Backpacker-friendly hostel in the medina offering dorm beds and private rooms with rooftop terrace views, social atmosphere, and helpful staff for booking excursions."
     },
     {
-      "name": "Riad Mabrouka",
+      "name": "Riad Anika",
       "neighborhood": "Medina",
       "pricePerNightUSD": 85,
       "category": "Mid-range",
-      "description": "Charming traditional riad with personalized service, beautiful courtyards, and home-cooked breakfast in an authentic medina setting."
+      "description": "Charming traditional riad with eight rooms surrounding a central courtyard fountain, featuring zellige tilework, traditional decor, and excellent Moroccan breakfast."
     },
     {
       "name": "La Mamounia",
-      "neighborhood": "Gueliz",
-      "pricePerNightUSD": 280,
+      "neighborhood": "Hivernage",
+      "pricePerNightUSD": 350,
       "category": "Luxury",
-      "description": "Iconic 5-star palace hotel with legendary gardens, multiple pools, fine dining, and world-class amenities in a historic setting since 1923."
+      "description": "Legendary five-star palace hotel with lush gardens, multiple pools, fine dining restaurants, spa facilities, and unparalleled service in a historic 1923 establishment."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNYXJyYWtlY2glMjBtZWRpbmElMjBzdW5zZXR8ZW58MXwwfHx8MTc4MTU2MjMxOXww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1728230677881-6e47643157a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNYXJyYWtlY2glMjBtZWRpbmElMjBtYXJrZXR8ZW58MXwwfHx8MTc4MTYyOTYwMHww&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -5,14 +5,15 @@
   "region": "South America",
   "airportCodes": [
     "LIM",
+    "JAL",
     "CJS"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
-    "photography",
     "foodie",
+    "photography",
+    "cultural",
     "adventure",
     "relaxation"
   ],
@@ -40,427 +41,421 @@
       "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Lima Peru coast sunset",
-  "summary": "Lima is the culinary capital of South America, renowned for its world-class dining scene and rich blend of colonial architecture and modern culture perched on the Pacific coast. From exploring vibrant neighborhoods like Barranco to visiting world-class museums and ancient pre-Incan sites, the city offers an intoxicating mix of gastronomy, history, and coastal beauty. Perfect for foodies, photographers, and cultural explorers seeking authentic Peruvian experiences.",
+  "unsplashQuery": "Lima Peru coastal city",
+  "summary": "Lima is a world-class culinary destination and Peru's vibrant capital, perched on the Pacific coast with stunning colonial architecture and modern gastronomy. From exploring the historic old town's ornate plazas to savoring cutting-edge fusion cuisine, Lima seamlessly blends pre-Hispanic heritage with contemporary culture. The city offers exceptional photography opportunities, world-renowned restaurants, and close proximity to the Sacred Valley and Machu Picchu.",
   "restaurants": [
     {
       "name": "Central",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Consistently ranked among the world's best restaurants, Central offers an innovative tasting menu celebrating Peru's biodiversity from coast to jungle. Chef Virgilio Martínez creates dishes that tell the story of Peru's ecosystems.",
-      "mustTry": "Multi-course tasting menu featuring regional ingredients"
+      "description": "Consistently ranked among the world's best restaurants, Central offers an innovative tasting menu that tells the story of Peru's biodiversity through 20+ courses.",
+      "mustTry": "Sea urchin and Amazonian fruits tasting sequence"
     },
     {
       "name": "Maido",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "A Nikkei (Japanese-Peruvian fusion) restaurant in Miraflores showcasing the profound Japanese influence in Peruvian cuisine. Intimate counter dining with exquisite technical execution.",
-      "mustTry": "Nikkei ceviche and hamachi preparation"
+      "description": "A Nikkei (Japanese-Peruvian fusion) masterpiece with artful presentations and impeccable technique, ranked among the world's top 50 restaurants.",
+      "mustTry": "Miso black cod and Amazonian fish nigiri"
     },
     {
       "name": "Astrid y Gastón",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Located in a colonial mansion, this restaurant blends traditional Peruvian flavors with modern techniques in an elegant setting. One of Lima's most influential restaurants since the 1990s.",
-      "mustTry": "Causa limeña and Peruvian seafood dishes"
+      "description": "Pioneering chef Gastón Acurio's elegant restaurant in a restored mansion, celebrating Peruvian ingredients with refined technique and warm hospitality.",
+      "mustTry": "Ceviche trio and duck confit with purple potato puree"
     },
     {
-      "name": "La Mar",
+      "name": "El Señorío de Sulco",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Iconic cevicheria with beachfront views in Miraflores serving the freshest seafood and expertly prepared ceviches. Casual, lively atmosphere perfect for lunch.",
-      "mustTry": "Mixed ceviche and tiradito"
+      "description": "A charming colonial house restaurant serving traditional Peruvian cuisine with excellent ceviche, causa, and regional specialties in an intimate setting.",
+      "mustTry": "Ceviche mixto and Papa a la Huancaína"
     },
     {
-      "name": "El Cordano",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Historic colonial-era restaurant in the heart of Lima Centro serving traditional Peruvian cuisine since 1876. Famous for its thick traditional soups and authentic local dishes.",
-      "mustTry": "Caldo de gallina and traditional ají de gallina"
-    },
-    {
-      "name": "Canta Rana",
+      "name": "La Cevichería",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Family-run cevicheria in Callao specializing in ultra-fresh seafood at reasonable prices, beloved by locals and visitors alike. Simple, authentic preparation highlights the quality ingredients.",
-      "mustTry": "Ceviche with leche de tigre and fresh fish"
+      "description": "Casual, lively spot in Miraflores famous for fresh ceviche prepared right before your eyes with creative flavor combinations and excellent pisco cocktails.",
+      "mustTry": "Ceviche clásico and tiradito with ají amarillo"
+    },
+    {
+      "name": "Panchita",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "An iconic family-run cevichería in the Surquillo market serving no-frills, incredibly fresh ceviche and seafood at unbeatable prices.",
+      "mustTry": "Ceviche de pescado blanco"
     },
     {
       "name": "Isolina Taberna",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Charming Spanish-Peruvian restaurant in Miraflores offering Mediterranean and traditional Peruvian fusion dishes in an intimate setting. Known for warm service and quality ingredients.",
-      "mustTry": "Seafood paella and grilled fish"
+      "description": "Cozy traditional restaurant in Miraflores offering classic Peruvian dishes including excellent causa, anticuchos, and regional soups with authentic flavors.",
+      "mustTry": "Causa limeña and anticuchos de corazón"
     },
     {
-      "name": "Boca Negra",
+      "name": "Café Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local café in central Lima serving excellent coffee, fresh pastries, sandwiches, and light meals perfect for breakfast or lunch.",
+      "mustTry": "Avena smoothie and sándwich de pollo"
+    },
+    {
+      "name": "Pescado Cebichería",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Seafood-focused restaurant near the coast offering daily-fresh fish preparations, excellent ceviches, and traditional coastal Peruvian cuisine.",
+      "mustTry": "Ceviche de pez blanco and arroz con mariscos"
+    },
+    {
+      "name": "Punto Azul",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Hidden gem in the Callao fish market serving ultra-fresh ceviche and seafood directly from the docks at incredibly low prices.",
+      "mustTry": "Ceviche del día and fried fish fillets"
+    },
+    {
+      "name": "Rafael Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Contemporary restaurant in Barranco focusing on seasonal Peruvian ingredients with artistic plating and innovative cooking techniques. Beautiful bohemian neighborhood location.",
-      "mustTry": "Seasonal tasting menu with local catches"
+      "description": "Contemporary Peruvian cuisine in an elegant Miraflores setting, focusing on seasonal ingredients and innovative presentations with impeccable service.",
+      "mustTry": "Black mussels and lima bean risotto"
     },
     {
-      "name": "El Señorío de Sulco",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant restaurant in Miraflores celebrating traditional Peruvian flavors with refined presentation and impeccable service. Extensive wine list featuring Peruvian selections.",
-      "mustTry": "Ají de gallina and traditional ceviche"
-    },
-    {
-      "name": "Punta Sal",
+      "name": "Chez Wong",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Upscale cevicheria with multiple locations offering fresh, high-quality seafood in a bright, modern setting. Known for consistent quality and attentive service.",
-      "mustTry": "Premium ceviche and black clam ceviche"
-    },
-    {
-      "name": "Chifa Wonton",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Local Chinese-Peruvian fusion eatery offering affordable and delicious chifa cuisine reflecting Lima's rich Asian heritage. Casual family atmosphere.",
-      "mustTry": "Wontons and tallarín saltado"
-    },
-    {
-      "name": "La Chocolatería",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Charming café serving traditional Peruvian hot chocolate with churros, perfect for breakfast or afternoon snack. Located in Lima Centro with authentic local vibe.",
-      "mustTry": "Thick hot chocolate with fresh churros"
+      "description": "Family-run Chinese-Peruvian (Chifa) restaurant serving excellent tallarín saltado and fusion dishes that reflect Lima's multicultural heritage.",
+      "mustTry": "Tallarín saltado with wonton soup"
     }
   ],
   "activities": [
     {
-      "name": "Visit the Sacred City of Machu Picchu (day trip)",
-      "category": "Adventure",
-      "description": "Take a day trip from Lima via train to explore one of the world's most iconic archaeological sites nestled high in the Andes Mountains. Marvel at Incan engineering and breathtaking mountain vistas.",
+      "name": "Machu Picchu Day Tour",
+      "category": "Outdoor",
+      "description": "Take a train or fly to Aguas Calientes and hike to the iconic Incan citadel, one of the world's most important archaeological sites with breathtaking mountain views.",
       "durationHours": 14,
-      "estimatedCostUSD": 250,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Museum of Peruvian Art (MALI)",
-      "category": "Cultural",
-      "description": "One of South America's finest art museums housing pre-Columbian artifacts, colonial paintings, and contemporary Peruvian art in a beautifully renovated building. Comprehensive overview of Peru's artistic heritage.",
-      "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Lima Food Tour and Cooking Class",
-      "category": "Cultural",
-      "description": "Join a guided culinary tour through local markets followed by a hands-on cooking class where you'll prepare traditional Peruvian dishes with professional chefs. Learn the secrets behind Lima's world-class cuisine.",
-      "durationHours": 6,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Explore Barranco District",
-      "category": "Outdoor",
-      "description": "Wander through Lima's bohemian coastal neighborhood with colorful colonial buildings, art galleries, street murals, and the iconic Puente de los Suspiros (Bridge of Sighs). Vibrant nightlife and café culture center.",
-      "durationHours": 4,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Coastal Cliffs and Miraflores Promenade",
-      "category": "Outdoor",
-      "description": "Walk along dramatic Pacific coastal cliffs in Miraflores with ocean views, parks, and opportunities for paragliding. Sunset views are spectacular from the clifftop promenade.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "National Museum of Archaeology",
-      "category": "Cultural",
-      "description": "Explore Peru's most comprehensive collection of pre-Columbian artifacts including the famous Raimondi Stone and extensive textile collections. Essential museum for understanding ancient Peruvian civilizations.",
-      "durationHours": 4,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Larco Museum",
-      "category": "Cultural",
-      "description": "Housed in a beautiful 18th-century mansion, this museum features an extraordinary private collection of pre-Columbian art with rotating contemporary exhibitions. One of the world's finest pre-Columbian collections.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Lima Centro Heritage Walking Tour",
-      "category": "Cultural",
-      "description": "Guided walk through historic downtown Lima featuring colonial architecture, the Cathedral, Government Palace, and Plaza Mayor. UNESCO World Heritage site showcasing Spanish colonial grandeur.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Paragliding from Miraflores Cliffs",
-      "category": "Adventure",
-      "description": "Experience the thrill of paragliding tandem from the dramatic coastal cliffs of Miraflores with views of the Pacific Ocean and Lima skyline. Unforgettable perspective on the city.",
-      "durationHours": 3,
       "estimatedCostUSD": 150,
       "bestFor": [
+        "standard",
         "adventure",
         "photography"
       ]
     },
     {
-      "name": "Watch the Fountain Show at Plaza Mayor",
-      "category": "Family",
-      "description": "Marvel at the illuminated fountain display in historic Plaza Mayor in the heart of Lima Centro, a free evening spectacle perfect for families. Beautiful colonial architecture surrounding the plaza.",
-      "durationHours": 1,
+      "name": "Sacred Valley Tour",
+      "category": "Cultural",
+      "description": "Explore traditional Quechua communities, terraced agricultural sites, and local markets in the lush Andean valley, including stops at Ollantaytambo and Pisac ruins.",
+      "durationHours": 12,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lima Historic Center Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll through UNESCO-listed colonial architecture including the Plaza de Armas, Cathedral, and San Francisco Monastery with its catacombs containing thousands of remains.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Miraflores Cliffside Walk",
+      "category": "Outdoor",
+      "description": "Scenic coastal walk along dramatic Pacific cliffs with parks, viewpoints, restaurants, and shops, perfect for sunset viewing and people-watching.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
-        "family",
-        "photography"
+        "relaxation",
+        "photography",
+        "standard"
       ]
     },
     {
-      "name": "Callao Naval Museum and Historic Port",
-      "category": "Cultural",
-      "description": "Visit Peru's main port city exploring maritime history, naval architecture, and fortresses with ocean views. Learn about Peru's naval heritage and colonial past.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
+      "name": "Gold Museum (Museo del Oro)",
+      "category": "Indoor",
+      "description": "Impressive collection of pre-Columbian gold artifacts, textiles, and weapons spanning thousands of years of Peruvian civilization.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
-        "hidden-gems",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Larco Museum",
+      "category": "Indoor",
+      "description": "World-class private museum in a colonial mansion featuring pre-Hispanic art, erotic ceramics, and contemporary works spanning 5,000 years of Peruvian culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "cultural",
         "photography"
       ]
     },
     {
-      "name": "Luxury Shopping and Dining in Miraflores",
-      "category": "Relaxation",
-      "description": "Explore upscale boutiques, international brands, and contemporary art galleries in Lima's most affluent district followed by world-class dining. Experience modern Lima's cosmopolitan lifestyle.",
+      "name": "Barranco District Exploration",
+      "category": "Cultural",
+      "description": "Bohemian neighborhood with colorful colonial houses, street art, boutique galleries, craft breweries, live music venues, and the famous Puente de Suspiros bridge.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Peru's Gastronomic Workshop",
+      "category": "Cultural",
+      "description": "Hands-on cooking class learning to prepare traditional Peruvian dishes like ceviche and causa from expert chefs, including market tour and tasting.",
       "durationHours": 4,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Callao Naval Museum",
+      "category": "Indoor",
+      "description": "Maritime museum showcasing Peru's naval history and the famous ship La María Isabel, located in the historic port city of Callao.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Chicken Bus Food Tour",
+      "category": "Cultural",
+      "description": "Authentic street food tour sampling ceviche, anticuchos, picarones, and other local specialties at neighborhood markets and street stalls with a local guide.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Surfing at Chicama or Cerro Azul",
+      "category": "Adventure",
+      "description": "Experience world-class Pacific wave breaks with lessons available for all levels at Lima's nearby beach breaks south of the city.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Lima Nightlife and Pisco Tasting",
+      "category": "Nightlife",
+      "description": "Experience Peru's famous pisco brandy at top distilleries and bars, followed by live music and dancing at clubs in Miraflores or Barranco.",
+      "durationHours": 5,
       "estimatedCostUSD": 50,
       "bestFor": [
         "standard",
-        "relaxation",
-        "foodie"
+        "nightlife"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Puente de los Suspiros (Bridge of Sighs), Barranco",
-        "description": "Iconic wooden bridge spanning a small ravine surrounded by colonial architecture, vibrant street art, and romantic lighting at sunset.",
+        "name": "Plaza de Armas (Historic Center)",
+        "description": "Stunning colonial plaza ringed by the Cathedral and Archbishop's Palace with ornate architecture, perfect for golden hour light and people interaction.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour (sunset) or early morning light",
-        "category": "Architecture"
-      },
-      {
-        "name": "Costa Verde Cliffs, Miraflores",
-        "description": "Dramatic Pacific coastline with towering cliffs, panoramic ocean vistas, and paragliders creating dynamic foreground elements.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for warm golden light and dramatic clouds",
-        "category": "Landscape"
-      },
-      {
-        "name": "Cathedral of Lima, Plaza Mayor",
-        "description": "Stunning Spanish baroque cathedral with ornate façade, grand archways, and colonial plaza setting in historic downtown.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon for warm sidelighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Barranco Murals and Street Art",
-        "description": "Colorful street murals, bohemian cafés, and artistic graffiti throughout the district creating vibrant, dynamic street photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for vibrant color saturation",
-        "category": "Street"
-      },
-      {
-        "name": "Circuito Mágico del Agua (Magical Water Circuit)",
-        "description": "Series of illuminated fountains in El Parque de la Reserva with choreographed light shows, water effects, and night-time magic.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening when fountains are illuminated (9-11 PM)",
-        "category": "Night"
-      },
-      {
-        "name": "Government Palace and Colonial Architecture",
-        "description": "Ornate neoclassical palace with guards in traditional uniforms, colonial archways, and historic plaza framing impressive architectural details.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning for clean light and fewer crowds",
-        "category": "Architecture"
-      },
-      {
-        "name": "El Paisaje (The Landscape) viewpoint, Miraflores",
-        "description": "Elevated viewpoint overlooking suburban Lima, the distant Andes mountains, and the Pacific Ocean with expansive vistas.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunrise or sunset for atmospheric haze and color",
-        "category": "Landscape"
-      },
-      {
-        "name": "Pescadores (Fishermen) at Chorrillos Beach",
-        "description": "Local fishermen with traditional boats and nets creating authentic documentary and lifestyle photography opportunities at working beach.",
-        "difficulty": "Intermediate",
         "bestTime": "Early morning or late afternoon",
-        "category": "Street"
-      },
-      {
-        "name": "Huaca Pucllana Pre-Incan Pyramid",
-        "description": "Ancient adobe pyramid in residential Miraflores district, dramatically lit at night with surrounding modern buildings creating striking contrast.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset or night when illuminated for dramatic silhouettes",
         "category": "Architecture"
       },
       {
-        "name": "Callao Harbor and Naval Vessels",
-        "description": "Working port with ships, fishing boats, maritime architecture, and coastal industrial landscape creating unique urban environmental photography.",
+        "name": "San Francisco Monastery",
+        "description": "Magnificent Baroque church with intricate wooden ceilings and catacombs, offering dramatic architectural details in moody interior lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late morning for interior light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Miraflores Cliffs at Sunset",
+        "description": "Dramatic Pacific coastline with golden light hitting cliff faces and creating dynamic sky colors, with parks and viewpoints for positioning.",
+        "difficulty": "Beginner",
+        "bestTime": "One hour before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Barranco Painted Houses",
+        "description": "Colorful colonial architecture in this bohemian district with vibrant building facades, street art, and local characters for lively street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning or late afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Puente de Suspiros (Barranco)",
+        "description": "Iconic wrought-iron suspension bridge over a small ravine, beautifully lit in late afternoon with romantic atmosphere and surrounding colonial charm.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lima Waterfront at Chorrillos",
+        "description": "Seaside promenade with fishermen, boats, and evening light reflecting off the Pacific, offering street and landscape photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset",
+        "category": "Street"
+      },
+      {
+        "name": "Museum of Art (Interior Galleries)",
+        "description": "World-class art museum with pre-Hispanic artifacts beautifully displayed in controlled lighting, ideal for detailed macro and museum photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late morning to early afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Callao Port and Fortress",
+        "description": "Historic naval fortress with colonial stone walls, overlooking working harbor with ships and industrial elements, atmospheric at dawn or dusk.",
         "difficulty": "Advanced",
-        "bestTime": "Early morning or late afternoon for dynamic light",
+        "bestTime": "Golden hour morning or evening",
+        "category": "Architecture"
+      },
+      {
+        "name": "Kennedy Park (Miraflores)",
+        "description": "Hilltop park with 360-degree city views, ocean vistas, and local life, excellent for wide landscape shots and sunset cityscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon into sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Surquillo Market at Dawn",
+        "description": "Bustling traditional fish and produce market with vibrant colors, local vendors, and authentic daily life scenes perfect for candid street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning 6-8am",
         "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Costa Verde Cliffs, Miraflores",
-      "El Paisaje viewpoint overlooking the city",
-      "Callao Harbor waterfront"
+      "Costa Verde Cliffs (Miraflores)",
+      "San Cristóbal Hill Viewpoint",
+      "Callao Fortress Eastern Outlook"
     ],
     "sunsetSpots": [
-      "Puente de los Suspiros, Barranco",
-      "Miraflores Promenade and clifftop parks",
-      "Circuito Mágico del Agua fountains"
+      "Miraflores Cliffs and Parks",
+      "Kennedy Park Panoramic Viewpoint",
+      "Barranco Malecón Waterfront"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive coastal landscapes and architectural wide shots",
-      "50mm prime for intimate street photography and architectural details in Barranco",
-      "70-200mm telephoto for compressed coastal perspectives and distant Andes mountains",
-      "14mm ultra-wide for dramatic fountain displays and architectural interiors"
+      "16-35mm wide-angle for architectural sweeps and landscape vistas of Lima's coastline and colonial plazas",
+      "50mm prime for street photography and intimate portraits in markets and neighborhoods",
+      "70-200mm telephoto for compressed cityscapes, distant coastal features, and detailed architectural elements"
     ],
-    "goldenHourNotes": "Lima's golden hour is exceptional on clear days with warm Mediterranean light illuminating colonial architecture and coastal cliffs. The dry season (May-October) offers more consistent clear skies with dramatic cloud formations. Sunset at Miraflores cliffs is particularly stunning, while pre-dawn light at harbors creates moody atmospheric conditions for documentary photography.",
+    "goldenHourNotes": "Lima's golden hour is exceptionally long due to its coastal latitude, typically lasting 60-90 minutes before and after sunset. The Miraflores cliffs reflect warm light beautifully during this period, while colonial architecture in the historic center gains dramatic shadows. Early morning offers soft light on the Pacific and golden tones on historic buildings before marine layer develops.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 28,
-        "rainfallMM": 2
+        "avgTempC": 27,
+        "rainfallMM": 5
       },
       {
         "month": 2,
-        "avgTempC": 28,
-        "rainfallMM": 1
+        "avgTempC": 27,
+        "rainfallMM": 3
       },
       {
         "month": 3,
-        "avgTempC": 27,
-        "rainfallMM": 1
+        "avgTempC": 26,
+        "rainfallMM": 2
       },
       {
         "month": 4,
-        "avgTempC": 25,
+        "avgTempC": 23,
         "rainfallMM": 1
       },
       {
         "month": 5,
-        "avgTempC": 23,
-        "rainfallMM": 1
+        "avgTempC": 20,
+        "rainfallMM": 0
       },
       {
         "month": 6,
-        "avgTempC": 21,
-        "rainfallMM": 2
+        "avgTempC": 18,
+        "rainfallMM": 0
       },
       {
         "month": 7,
-        "avgTempC": 20,
-        "rainfallMM": 2
+        "avgTempC": 17,
+        "rainfallMM": 0
       },
       {
         "month": 8,
-        "avgTempC": 20,
-        "rainfallMM": 2
+        "avgTempC": 17,
+        "rainfallMM": 0
       },
       {
         "month": 9,
-        "avgTempC": 21,
+        "avgTempC": 18,
         "rainfallMM": 1
       },
       {
         "month": 10,
-        "avgTempC": 23,
+        "avgTempC": 20,
         "rainfallMM": 1
       },
       {
         "month": 11,
-        "avgTempC": 25,
-        "rainfallMM": 1
+        "avgTempC": 23,
+        "rainfallMM": 2
       },
       {
         "month": 12,
-        "avgTempC": 27,
-        "rainfallMM": 2
+        "avgTempC": 26,
+        "rainfallMM": 4
       }
     ],
     "bestMonths": [
+      4,
       5,
-      6,
-      7,
-      8,
       9,
-      10
+      10,
+      11
     ],
-    "seasonality": "Lima's climate is subtropical desert with minimal rainfall year-round. Summer (December-March) is warm and humid with temperatures reaching 28°C, while winter (June-August) brings cooler days around 20°C with morning fog typical of the coastal region.",
-    "summary": "Lima enjoys a temperate coastal climate with virtually no rain making it year-round destination. The dry season (May-October) offers clearest skies and most comfortable temperatures for outdoor activities, while summer months are warmer but occasionally overcast with marine layer fog."
+    "seasonality": "Lima's climate is arid and temperate year-round due to the cold Humboldt Current. Summer (December-March) brings warmth and occasional light rain, while winter (June-August) is cool and often overcast with marine layer fog. Spring and autumn offer the most pleasant conditions with mild temperatures and clear skies.",
+    "summary": "Lima enjoys a mild, coastal desert climate with virtually no rainfall and temperatures ranging from 17-27°C. The city rarely experiences extreme weather, making it accessible year-round, though May-September offers clearer skies and September-November provides the warmest, sunniest conditions."
   },
   "hotels": [
     {
-      "name": "Ayacucho Plaza",
-      "neighborhood": "Lima Centro",
+      "name": "Selina Lima Plaza Mayor",
+      "neighborhood": "Historic Center",
       "pricePerNightUSD": 55,
       "category": "Budget",
-      "description": "Basic but clean colonial-era hotel in historic downtown Lima Centro near Plaza Mayor, cathedral, and government palace with friendly service and convenient location."
+      "description": "Trendy hostel and co-working space in a restored colonial building in the historic center with shared and private rooms, rooftop bar, and vibrant social atmosphere."
     },
     {
-      "name": "Costa del Sol Miraflores",
+      "name": "Belmond Miraflores Park",
       "neighborhood": "Miraflores",
-      "pricePerNightUSD": 125,
+      "pricePerNightUSD": 280,
       "category": "Mid-range",
-      "description": "Modern beachfront hotel in Miraflores with ocean views, pool, restaurant, and proximity to shopping, dining, and clifftop parks with reliable service."
+      "description": "Elegant boutique hotel perched on the Miraflores cliffs with ocean views, excellent restaurant, spa, and direct access to coastal parks and galleries."
     },
     {
-      "name": "Park Hyatt Lima",
+      "name": "Palacio Nazarenas",
       "neighborhood": "Miraflores",
-      "pricePerNightUSD": 400,
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Five-star oceanfront property overlooking Pacific cliffs with spa, fine dining, extensive amenities, and impeccable service in Lima's most prestigious neighborhood."
+      "description": "Ultra-luxury beachfront resort with personalized service, world-class dining, spa facilities, and stunning Pacific Ocean views from every suite."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1531968455001-5c5272a41129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMaW1hJTIwUGVydSUyMGNvYXN0JTIwc3Vuc2V0fGVufDF8MHx8fDE3ODE1NTYxODh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1777198498621-d949c8fe4873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMaW1hJTIwUGVydSUyMGNvYXN0YWwlMjBjaXR5fGVufDF8MHx8fDE3ODE2MjkyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

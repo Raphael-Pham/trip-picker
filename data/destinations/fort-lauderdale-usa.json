@@ -1,0 +1,466 @@
+{
+  "id": "fort-lauderdale-usa",
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "FLL",
+    "MIA",
+    "PBI"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 82,
+    "photography": 78,
+    "activities": 85,
+    "weather": 80
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 700
+    }
+  ],
+  "unsplashQuery": "Fort Lauderdale beach yachts",
+  "summary": "Fort Lauderdale is a vibrant coastal destination famous for its pristine beaches, yacht-lined Las Olas Boulevard, and world-class water sports. From upscale dining and shopping to water activities and cultural attractions, this sun-soaked Florida gem offers the perfect blend of relaxation and excitement.",
+  "restaurants": [
+    {
+      "name": "Lolita Lobster",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual beachfront spot specializing in fresh lobster rolls and seafood with a laid-back vibe. Perfect for an authentic Fort Lauderdale beach dining experience.",
+      "mustTry": "Lobster Roll"
+    },
+    {
+      "name": "Casa Sensei",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Japanese cuisine with creative sushi rolls and modern Asian fusion dishes in an elegant setting. Chef-driven menu with premium ingredients and artistic presentations.",
+      "mustTry": "Omakase Experience"
+    },
+    {
+      "name": "The Floridian",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Farm-to-table restaurant celebrating Florida's agricultural heritage with seasonal, locally-sourced ingredients. Casual atmosphere with creative American cuisine.",
+      "mustTry": "Fresh Catch of the Day"
+    },
+    {
+      "name": "Il Primo Piatto",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Authentic Italian fine dining on Las Olas Boulevard featuring handmade pasta and traditional Mediterranean dishes. Romantic ambiance perfect for special occasions.",
+      "mustTry": "Homemade Ravioli"
+    },
+    {
+      "name": "Grille on Las Olas",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale steakhouse serving premium cuts of beef and fresh seafood in an intimate setting. Known for impeccable service and extensive wine selection.",
+      "mustTry": "Wagyu Steak"
+    },
+    {
+      "name": "Beach Burger",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual beachside burger joint with fresh ingredients and creative toppings at wallet-friendly prices. Perfect for a quick, satisfying meal with ocean views.",
+      "mustTry": "The Signature Beach Burger"
+    },
+    {
+      "name": "Rocco's Tacos",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Vibrant taco bar featuring authentic Mexican street food and fresh lime margaritas in a lively atmosphere. Known for fresh ingredients and bold flavors.",
+      "mustTry": "Carnitas Tacos"
+    },
+    {
+      "name": "Blue Moon Fish House",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Popular seafood restaurant with fresh daily catches and waterfront views. Casual yet upscale atmosphere with excellent service.",
+      "mustTry": "Miso-Glazed Fish"
+    },
+    {
+      "name": "Chin Chin",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Pan-Asian cuisine combining Chinese, Thai, and Vietnamese flavors in a trendy setting. Creative dishes with modern plating and quality ingredients.",
+      "mustTry": "Asian Fusion Noodles"
+    },
+    {
+      "name": "The Boatyard",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Waterfront restaurant with nautical charm serving fresh seafood and American classics with harbor views. Great for casual dining with waterfront scenery.",
+      "mustTry": "Grilled Yellowfin Tuna"
+    },
+    {
+      "name": "South Beach Wine Vault",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Underground wine bar and steakhouse offering premium wines and aged meats in an exclusive atmosphere. Sophisticated setting for wine enthusiasts.",
+      "mustTry": "Wine-Paired Tasting Menu"
+    },
+    {
+      "name": "Sunrise Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual breakfast and brunch spot with fresh juices, pastries, and hearty morning dishes. Local favorite for starting the day right.",
+      "mustTry": "Acai Bowl"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Sunrise Paddle Boarding at Beach",
+      "category": "Outdoor",
+      "description": "Glide across calm morning waters on a paddleboard as the sun rises over the Atlantic Ocean. A peaceful way to start your day while getting exercise and enjoying pristine beach conditions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Las Olas Boulevard Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll along Fort Lauderdale's most iconic street featuring luxury shops, galleries, restaurants, and street performers. Free to explore the vibrant atmosphere and window shop.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Jet Ski Adventure",
+      "category": "Adventure",
+      "description": "Race across the blue waters of the Atlantic with high-speed jet ski rentals and guided tours. Thrilling water sports experience with certified instructors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Visit Fort Lauderdale Beach",
+      "category": "Outdoor",
+      "description": "Relax on one of Florida's most beautiful and pristine beaches with soft sand and clear water. Perfect for swimming, sunbathing, and people-watching.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Butterfly Conservatory",
+      "category": "Family",
+      "description": "Walk through a tropical greenhouse filled with hundreds of colorful butterflies from around the world. Educational and magical experience for all ages.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Intracoastal Waterway Yacht Tour",
+      "category": "Outdoor",
+      "description": "Cruise along the scenic Intracoastal Waterway spotting luxury yachts, waterfront mansions, and local wildlife. Guided narration provides insights into local history and architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Museum of Discovery & Science",
+      "category": "Indoor",
+      "description": "Interactive science museum featuring hands-on exhibits, 3D theater, and IMAX films. Engaging for both children and adults interested in learning.",
+      "durationHours": 3,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fort Lauderdale Antique Boat Museum",
+      "category": "Cultural",
+      "description": "Explore historic and vintage boats representing different eras of boating and maritime history. Fascinating for maritime enthusiasts and history buffs.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "hidden-gems",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Snorkeling Trip to Reef",
+      "category": "Adventure",
+      "description": "Discover the underwater coral reef ecosystem teeming with tropical fish and marine life. Guided snorkeling tours with all equipment provided.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Beach Volleyball Games",
+      "category": "Outdoor",
+      "description": "Join or watch organized beach volleyball games at the public courts on Fort Lauderdale Beach. Free participation or casual spectating available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Nightlife at Beach Clubs",
+      "category": "Nightlife",
+      "description": "Experience Fort Lauderdale's vibrant nightlife scene with beach clubs featuring live DJ sets and dancing. Popular venues include Oceanside venues with ocean views.",
+      "durationHours": 4,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Kayaking in Mangrove Forest",
+      "category": "Outdoor",
+      "description": "Paddle through pristine mangrove forests observing birds, fish, and other wildlife in their natural habitat. Peaceful eco-tour experience with local guides.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Las Olas Boulevard",
+        "description": "Iconic tree-lined street with galleries, shops, and restaurants creating perfect urban and architectural photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour for soft light",
+        "category": "Street"
+      },
+      {
+        "name": "Fort Lauderdale Pier",
+        "description": "Historic wooden pier extending into the ocean with dramatic sky backdrops and waterfront scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for golden hour reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Harbor Seaport District",
+        "description": "Yacht-filled marina with luxury boats creating excellent composition opportunities against water and sky.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for clean reflections",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bonnet House Museum",
+        "description": "Historic mansion with beautiful tropical architecture, gardens, and colorful murals for artistic photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for building facade light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Hugh Taylor Birch State Park",
+        "description": "Coastal park with pristine beach, mangroves, and native vegetation offering diverse landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for nature and wildlife",
+        "category": "Landscape"
+      },
+      {
+        "name": "Deerfield Beach Pier",
+        "description": "Long fishing pier with dramatic sunset backdrop and interesting water texture photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for golden hour glow",
+        "category": "Landscape"
+      },
+      {
+        "name": "Intracoastal Waterway",
+        "description": "Scenic waterway with luxury homes, bridges, and boats creating dynamic composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for water reflections",
+        "category": "Architecture"
+      },
+      {
+        "name": "Ocean Boulevard Beachfront",
+        "description": "Long stretches of sandy beach with lifeguard towers, swimmers, and sunset views for vibrant street and landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon golden hour",
+        "category": "Street"
+      },
+      {
+        "name": "Downtown Fort Lauderdale Skyline",
+        "description": "Modern cityscape with glass buildings and waterfront reflecting in calm water, especially stunning at night.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour for city lights",
+        "category": "Night"
+      },
+      {
+        "name": "Stranahan House Historic Site",
+        "description": "Victorian riverfront building with historic architecture and lush tropical surroundings for detailed architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for facade details",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Fort Lauderdale Beach Main Pavilion",
+      "Deerfield Beach Pier",
+      "Hugh Taylor Birch State Park"
+    ],
+    "sunsetSpots": [
+      "Fort Lauderdale Pier",
+      "Las Olas Boulevard River Walk",
+      "Intracoastal Waterway Bridge Crossings"
+    ],
+    "lensRecommendations": [
+      "24-70mm standard zoom for street photography and architecture along Las Olas",
+      "16-35mm wide-angle for dramatic sky and waterfront landscapes",
+      "70-200mm telephoto for compressed beach scenes and wildlife in natural settings",
+      "50mm prime for intimate portrait shots and street details"
+    ],
+    "goldenHourNotes": "Fort Lauderdale's golden hour is spectacular for waterfront photography, with the sun reflecting off both the ocean and Intracoastal Waterway creating dual lighting opportunities. Arrive 30-45 minutes before sunset at pier locations for optimal color gradation. The tropical atmosphere can create slight haze which adds atmospheric depth to long-distance shots.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 20,
+        "rainfallMM": 64
+      },
+      {
+        "month": 2,
+        "avgTempC": 21,
+        "rainfallMM": 69
+      },
+      {
+        "month": 3,
+        "avgTempC": 23,
+        "rainfallMM": 51
+      },
+      {
+        "month": 4,
+        "avgTempC": 25,
+        "rainfallMM": 76
+      },
+      {
+        "month": 5,
+        "avgTempC": 27,
+        "rainfallMM": 152
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 196
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 172
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 168
+      },
+      {
+        "month": 9,
+        "avgTempC": 28,
+        "rainfallMM": 153
+      },
+      {
+        "month": 10,
+        "avgTempC": 26,
+        "rainfallMM": 127
+      },
+      {
+        "month": 11,
+        "avgTempC": 23,
+        "rainfallMM": 90
+      },
+      {
+        "month": 12,
+        "avgTempC": 21,
+        "rainfallMM": 78
+      }
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonality": "Fort Lauderdale has a tropical climate with mild winters and hot, humid summers with frequent afternoon thunderstorms. The dry season from November to April is ideal for visiting with comfortable temperatures and minimal rainfall.",
+    "summary": "Expect warm to hot weather year-round with winter highs around 20-23°C and summer peaks at 28-29°C. Rainy season from May to October brings afternoon thunderstorms and higher humidity, while the dry season offers perfect beach conditions."
+  },
+  "hotels": [
+    {
+      "name": "Oceanside Hotel",
+      "neighborhood": "Fort Lauderdale Beach",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Affordable beachfront hotel with basic amenities, ocean views, and direct beach access near the main pavilion."
+    },
+    {
+      "name": "Hilton Fort Lauderdale Beach Resort",
+      "neighborhood": "Beach Strip",
+      "pricePerNightUSD": 189,
+      "category": "Mid-range",
+      "description": "Well-appointed beachfront resort featuring multiple pools, restaurants, fitness center, and modern rooms with ocean or partial ocean views."
+    },
+    {
+      "name": "The Ritz-Carlton Fort Lauderdale",
+      "neighborhood": "Downtown Beach",
+      "pricePerNightUSD": 449,
+      "category": "Luxury",
+      "description": "Ultra-luxury beachfront resort with stunning ocean views, world-class dining, spa services, and five-star amenities throughout the property."
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "id": "buffalo-usa",
+  "city": "Buffalo",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BUF",
+    "IAD",
+    "YYZ"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 82,
+    "activities": 75,
+    "weather": 55
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 65,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Buffalo Niagara Falls winter",
+  "summary": "Buffalo is a revitalized Rust Belt gem featuring world-class architecture, legendary chicken wings, and proximity to Niagara Falls. This underrated destination offers vibrant arts districts, waterfront restoration, and affordable authentic experiences that showcase American industrial heritage meets modern renaissance.",
+  "restaurants": [
+    {
+      "name": "Anchor Bar",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "The birthplace of Buffalo wings in 1964, this iconic dive bar serves the original recipe that started a culinary revolution. Cozy, historic, and perpetually packed with locals and pilgrims.",
+      "mustTry": "Traditional Buffalo Wings"
+    },
+    {
+      "name": "Frankie's Metropolitan",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale American cuisine in a restored 1920s building featuring locally sourced ingredients and craft cocktails. An elegant destination for special occasions with attentive service.",
+      "mustTry": "Pan-seared duck breast"
+    },
+    {
+      "name": "Gabriel's Gate",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Another wing institution offering creative sauces and consistently excellent versions of Buffalo's signature dish. Casual neighborhood spot with authentic charm.",
+      "mustTry": "Garlic parmesan wings"
+    },
+    {
+      "name": "The Pocketeer Lounge",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic neighborhood bar serving beef on weck sandwiches, a local Buffalo specialty not found elsewhere. Dive bar atmosphere with deep roots in the community.",
+      "mustTry": "Beef on weck"
+    },
+    {
+      "name": "Seabar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary seafood restaurant with fresh catches, creative preparations, and an excellent wine list. Modern ambiance with knowledgeable staff.",
+      "mustTry": "Pan-seared scallops"
+    },
+    {
+      "name": "Attempting Craft Co.",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual spot serving creative sandwiches, local craft beers, and comfort food in a welcoming atmosphere. Perfect for lunch or casual dinner.",
+      "mustTry": "House-made Italian sub"
+    },
+    {
+      "name": "Hutopia",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant emphasizing seasonal ingredients from Western New York producers. Intimate setting with rotating menu.",
+      "mustTry": "Seasonal root vegetable dishes"
+    },
+    {
+      "name": "Toro Toro Latin Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Latin American cuisine with vibrant flavors, craft cocktails, and a lively atmosphere. Great for experiencing diverse regional dishes.",
+      "mustTry": "Ceviche trio"
+    },
+    {
+      "name": "The Colonnade",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic Greek restaurant serving traditional Mediterranean fare since 1952. Authentic, affordable, and a beloved neighborhood institution.",
+      "mustTry": "Saganaki (fried cheese)"
+    },
+    {
+      "name": "Osteria 166",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Refined Italian cuisine in an elegant setting featuring handmade pastas and curated wine selections. Chef-driven kitchen with seasonal focus.",
+      "mustTry": "House-made ravioli"
+    },
+    {
+      "name": "Bar Bill Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "West Side institution known for exceptional wings and beef on weck sandwiches in a casual neighborhood setting. Long counter seating and authentic Buffalo experience.",
+      "mustTry": "Medium wings with blue cheese"
+    },
+    {
+      "name": "Mesh Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American restaurant showcasing local artisans and purveyors with innovative plating. Intimate atmosphere with personalized service.",
+      "mustTry": "Chef's tasting menu"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Niagara Falls State Park",
+      "category": "Outdoor",
+      "description": "Experience the thundering power of Niagara Falls from the American side with trails, viewpoints, and the historic Niagara Gorge. The closest viewpoint to the falls and most convenient access.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Hornblower Niagara Cruises",
+      "category": "Adventure",
+      "description": "Get soaked and thrilled aboard the iconic Hornblower vessels that take you directly into the mist at the base of the falls. An unforgettable perspective on nature's power.",
+      "durationHours": 1,
+      "estimatedCostUSD": 32,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Albright-Knox Art Gallery",
+      "category": "Cultural",
+      "description": "World-class contemporary and modern art museum in a stunning Beaux-Arts building with recently expanded exhibition spaces. Free admission hours available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Darwin R. Barker Commons Waterfront",
+      "category": "Outdoor",
+      "description": "Recently restored waterfront promenade with walking trails, public art installations, and views of the Niagara River and Lake Erie. Perfect for sunset walks and photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Buffalo and Erie County Naval and Military Park",
+      "category": "Cultural",
+      "description": "Explore decommissioned naval vessels including the USS Niagara and USS Little Rock in this unique waterfront museum. Educational and atmospheric.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Elmwood Village Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll through Buffalo's most vibrant neighborhood featuring historic brownstones, independent shops, galleries, and cafes. Self-guided or join a organized tour.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Frank Lloyd Wright Homes Tour",
+      "category": "Cultural",
+      "description": "Buffalo contains three Frank Lloyd Wright houses open for tours, showcasing the architect's innovative Prairie style. The Martin House complex is the most comprehensive.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "City Hall Architecture Self-Guided Tour",
+      "category": "Cultural",
+      "description": "Buffalo's 1931 Art Deco City Hall is one of America's finest municipal buildings with free access to stunning interiors and observation deck. Architectural masterpiece.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Canalside Winter Festival or Summer Concert Series",
+      "category": "Family",
+      "description": "Seasonal festivals along the restored Erie Canal with live music, food vendors, ice skating, and waterfront events. Community atmosphere and local culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Bicycle Tour of Buffalo's Neighborhoods",
+      "category": "Adventure",
+      "description": "Explore Buffalo by bike through historic districts, following converted rail trails and dedicated bike lanes. Multiple outfitters offer guided tours.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Theodore Roosevelt Inaugural National Historic Site",
+      "category": "Cultural",
+      "description": "Visit the house where Theodore Roosevelt was sworn in as President in 1901, featuring period furnishings and exhibits. Intimate historical experience.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Local Brewery and Distillery Crawl",
+      "category": "Nightlife",
+      "description": "Buffalo's revitalized craft beverage scene offers numerous breweries, cider houses, and distilleries to explore. Walking trails connect many in downtown and Elmwood areas.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Niagara Falls Vista at Prospect Point",
+        "description": "Direct frontal view of the American and Horseshoe Falls with powerful water cascades and mist creating dramatic lighting conditions.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for backlighting through mist, late afternoon for side lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Buffalo City Hall Exterior",
+        "description": "Iconic 1931 Art Deco skyscraper with golden terracotta exterior and intricate architectural details, especially striking at night when illuminated.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones, blue hour for nighttime architectural lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Canalside Winter Landscape",
+        "description": "Frozen Erie Canal with historic buildings reflected in ice, bare trees, and architectural skyline creating moody winter compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon for cool light and minimal crowds",
+        "category": "Landscape"
+      },
+      {
+        "name": "Elmwood Village Street Scenes",
+        "description": "Historic brownstone facades, independent storefronts with character, street performers, and local pedestrians creating vibrant street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon for warm sidelighting on facades",
+        "category": "Street"
+      },
+      {
+        "name": "Niagara River Gorge from Lewiston",
+        "description": "Dramatic riverside gorge with steep cliffs, turbulent water, and native vegetation offering wild landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning for directional light into the gorge",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hornblower Dock and Waterfront Action",
+        "description": "Boats, water spray, crowds, and dramatic water scenes creating dynamic compositional opportunities at the falls base.",
+        "difficulty": "Advanced",
+        "bestTime": "Late afternoon when light angles across mist",
+        "category": "Action"
+      },
+      {
+        "name": "Delaware Park Historic District",
+        "description": "Tree-lined avenues, Victorian mansions, park pathways, and seasonal foliage creating classic American architectural and landscape compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring for cherry blossoms, fall for foliage color",
+        "category": "Architecture"
+      },
+      {
+        "name": "Buffalo Harbor at Dawn",
+        "description": "Industrial waterfront with historic grain elevators, restored waterfront, and water reflections creating nostalgic industrial aesthetic.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise when mist rises from water and light is soft",
+        "category": "Landscape"
+      },
+      {
+        "name": "Albright-Knox Art Gallery Facade",
+        "description": "Beaux-Arts museum building with neoclassical columns and modern glass additions creating contrasting architectural styles.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones on stone facade",
+        "category": "Architecture"
+      },
+      {
+        "name": "Frank Lloyd Wright Martin House Complex",
+        "description": "Horizontal Prairie-style architecture with geometric forms, integrated windows, and carefully composed spaces showcasing architectural harmony.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon to capture side-lighting on brick and geometric elements",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Buffalo Harbor Waterfront",
+      "Niagara River Gorge from Lewiston",
+      "Darwin R. Barker Commons Promenade"
+    ],
+    "sunsetSpots": [
+      "Niagara Falls Prospect Point",
+      "Canalside Waterfront Park",
+      "Delaware Park Lake"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for sweeping landscape compositions of falls and gorge",
+      "50mm prime for street photography in Elmwood Village and architectural details",
+      "70-200mm telephoto for compressed waterfall perspectives and detail work",
+      "24mm perspective control for architectural photography of City Hall and Frank Lloyd Wright homes"
+    ],
+    "goldenHourNotes": "Buffalo's waterfront location provides excellent golden hour opportunities, particularly along the Niagara River and Canalside. Winter offers extended blue hour periods with dramatic architectural lighting reflecting off wet surfaces and ice. Spring and fall foliage seasons provide rich color saturation during golden hour on tree-lined streets and in Delaware Park.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 32
+      },
+      {
+        "month": 2,
+        "avgTempC": -2,
+        "rainfallMM": 29
+      },
+      {
+        "month": 3,
+        "avgTempC": 3,
+        "rainfallMM": 38
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 68
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 79
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 84
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 89
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 83
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 76
+      },
+      {
+        "month": 10,
+        "avgTempC": 14,
+        "rainfallMM": 63
+      },
+      {
+        "month": 11,
+        "avgTempC": 8,
+        "rainfallMM": 51
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 36
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Buffalo experiences significant seasonal variation with cold snowy winters and mild summers. Lake effect snow is common in winter while summer brings warm temperatures ideal for waterfront activities.",
+    "summary": "Buffalo has a humid continental climate with cold winters averaging -4°C and warm summers around 27°C. Fall foliage and spring are excellent times to visit with moderate temperatures and lower precipitation than summer months."
+  },
+  "hotels": [
+    {
+      "name": "HI Buffalo Hostel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Friendly hostel in historic building offering both dorm and private rooms, social atmosphere, and proximity to Canalside and restaurants."
+    },
+    {
+      "name": "Hotel at the Falls",
+      "neighborhood": "Niagara Falls",
+      "pricePerNightUSD": 95,
+      "category": "Mid-range",
+      "description": "Modern hotel directly overlooking Niagara Falls with indoor pool, room balconies facing the falls, and convenient access to all attractions."
+    },
+    {
+      "name": "The Curtiss Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 250,
+      "category": "Luxury",
+      "description": "Historic luxury hotel in a beautifully restored 1913 building featuring elegant suites, fine dining, spa services, and upscale amenities in downtown location."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1716593104293-010eddaf6b46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCdWZmYWxvJTIwTmlhZ2FyYSUyMEZhbGxzJTIwd2ludGVyfGVufDF8MHx8fDE3ODE2MjgwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

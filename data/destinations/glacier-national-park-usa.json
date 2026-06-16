@@ -6,26 +6,26 @@
   "airportCodes": [
     "FCA",
     "MIS",
-    "BZN"
+    "BIL"
   ],
   "hiddenGem": false,
   "tripStyles": [
-    "standard",
-    "photography",
     "adventure",
+    "photography",
+    "standard",
     "relaxation"
   ],
   "scores": {
-    "cost": 45,
-    "food": 65,
+    "cost": 55,
+    "food": 70,
     "photography": 95,
-    "activities": 90,
-    "weather": 70
+    "activities": 92,
+    "weather": 75
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 80,
+      "minPerDayUSD": 85,
       "maxPerDayUSD": 150
     },
     {
@@ -40,324 +40,323 @@
     }
   ],
   "unsplashQuery": "Glacier National Park mountains",
-  "summary": "Glacier National Park is a breathtaking alpine wilderness featuring over 700 miles of trails, pristine glacial lakes, and dramatic mountain peaks spanning the Continental Divide. With exceptional wildlife viewing opportunities and some of the most photogenic landscapes in North America, it's a paradise for hikers, photographers, and nature enthusiasts seeking stunning outdoor adventure.",
+  "summary": "Glacier National Park is a stunning alpine wilderness featuring over 700 miles of pristine trails, turquoise glacial lakes, and dramatic jagged peaks across the Montana landscape. With abundant wildlife, world-class hiking, and unparalleled photography opportunities, this UNESCO World Heritage Site offers the ultimate adventure for outdoor enthusiasts. The park's accessible infrastructure and diverse lodging options make it perfect for both rugged backpackers and comfort-seeking travelers.",
   "restaurants": [
     {
-      "name": "Eddie's Cafe",
+      "name": "Serrano's Saloon & Cantina",
       "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A West Glacier institution serving authentic Mexican cuisine and regional specialties in a lively atmosphere. Known for margaritas and hearty portions perfect after a day of hiking.",
+      "mustTry": "Carne asada tacos"
+    },
+    {
+      "name": "Eddie's Cafe",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "A beloved local institution serving hearty breakfast and lunch with mountain views. Known for generous portions and friendly service.",
-      "mustTry": "Huckleberry pancakes"
+      "description": "Casual diner offering breakfast, sandwiches, and classic American fare with quick service. Perfect for grabbing fuel before hitting the trails.",
+      "mustTry": "Breakfast burritos"
+    },
+    {
+      "name": "Whitefish Lake Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale lakefront dining featuring Montana-sourced ingredients and farm-to-table preparations with panoramic views. An excellent choice for celebratory dinners.",
+      "mustTry": "Pan-seared local trout"
     },
     {
       "name": "MacKenzie River Pizza Co.",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Casual pizzeria featuring wood-fired pizzas with Montana ingredients and craft beers. Perfect for relaxed evening dining after hiking.",
-      "mustTry": "Montana beef pizza"
+      "description": "Locally-owned pizza joint in Whitefish using Montana beef and fresh ingredients for creative wood-fired pizzas. A favorite with locals and visitors alike.",
+      "mustTry": "Montana mac and cheese pizza"
     },
     {
-      "name": "Cafe Max",
+      "name": "The Depot Market Restaurant",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Charming cafe offering sandwiches, salads, and coffee in a cozy atmosphere. Great for quick lunch before heading out on trails.",
-      "mustTry": "Turkey and cranberry sandwich"
-    },
-    {
-      "name": "Whitefish Lake Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale lakeside dining with excellent views and contemporary American cuisine. Offers seasonal menus featuring local game and fresh fish.",
-      "mustTry": "Pan-seared glacier trout"
-    },
-    {
-      "name": "Stumptown Saloon",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Rustic bar and grill with local Montana craft beers and comfort food. Lively atmosphere with outdoor seating overlooking the valley.",
-      "mustTry": "Buffalo burger"
-    },
-    {
-      "name": "The Good Food Store",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Natural foods market with prepared deli items, organic produce, and hiking snacks. Ideal for packing trail lunches and picnic supplies.",
-      "mustTry": "Homemade trail mix"
-    },
-    {
-      "name": "Polebridge Mercantile",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Historic general store serving legendary huckleberry ice cream and baked goods. A must-visit roadside attraction near the park's north entrance.",
-      "mustTry": "Huckleberry ice cream cone"
-    },
-    {
-      "name": "Montana's Rib and Chop House",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Family-friendly steakhouse with slow-smoked ribs and hearty portions. Known for its extensive Montana beef selection and warm hospitality.",
-      "mustTry": "Smoked beef ribs"
-    },
-    {
-      "name": "Loungin' Moose",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual riverside bar and grill with burgers, hot dogs, and casual fare. Popular gathering spot for hikers and outdoor enthusiasts.",
-      "mustTry": "Classic moose burger"
+      "description": "Historic restored train depot converted into a charming restaurant serving burgers, salads, and pasta in an authentic railroad setting. Great for families.",
+      "mustTry": "Depot burger"
     },
     {
       "name": "Many Glacier Hotel Dining Room",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Historic lodge restaurant overlooking Swiftcurrent Lake with fine dining and panoramic mountain vistas. Offers elegant dinner service and local cuisine.",
-      "mustTry": "Glacier-region lamb chops"
+      "description": "Historic 1915 hotel restaurant with views of Swiftcurrent Lake and Mount Jackson, offering regional comfort food and fine dining experiences. Perfect for special occasions.",
+      "mustTry": "Prime rib with mountain views"
     },
     {
-      "name": "Serrano's Mexican Restaurant",
-      "category": "Midrange",
+      "name": "Walton's Authentic Mexican Restaurant",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Authentic Mexican cuisine with fresh ingredients and vibrant flavors. Great vegetarian options and refreshing margaritas.",
-      "mustTry": "Chile verde enchiladas"
+      "description": "Family-run restaurant in Kalispell serving homemade authentic Mexican cuisine with fresh ingredients and generous portions. A local favorite for generations.",
+      "mustTry": "Enchiladas verdes"
     },
     {
-      "name": "Lake McDonald Lodge Restaurant",
+      "name": "Montana Coffee Traders",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy cafe in Whitefish featuring locally-roasted coffee, fresh pastries, and light breakfast/lunch options. Ideal for a quick morning stop.",
+      "mustTry": "Espresso drinks with local pastries"
+    },
+    {
+      "name": "Cafe Crema",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Rustic lodge dining featuring Montana comfort food and lakeside views. Offers both casual and semi-formal dinner service.",
-      "mustTry": "Montana wild mushroom pasta"
+      "description": "Italian-inspired cafe in Whitefish offering wood-fired pizza, pasta, and espresso in a romantic setting. Known for fresh ingredients and traditional preparations.",
+      "mustTry": "Pappardelle with wild mushrooms"
+    },
+    {
+      "name": "Great Northern Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Craft brewery and taproom in Whitefish with house-made beers, pub food, and outdoor seating with mountain views. Great for relaxing evenings.",
+      "mustTry": "Local IPA and fish and chips"
+    },
+    {
+      "name": "The Back Room Tavern",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual tavern in West Glacier serving hearty portions of classic American comfort food and local beers in a friendly atmosphere. Perfect for post-hike meals.",
+      "mustTry": "Bison burger"
+    },
+    {
+      "name": "Russell's Fireside Dining",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Upscale casual restaurant featuring game meats, steaks, and fresh seafood in an elegant log cabin setting with fireplace. Ideal for romantic dinners.",
+      "mustTry": "Elk tenderloin"
     }
   ],
   "activities": [
     {
-      "name": "Hiking Grinnell Glacier Trail",
+      "name": "Grinnell Glacier Trail Hike",
       "category": "Adventure",
-      "description": "Strenuous 10.6-mile round-trip hike featuring turquoise lakes, cascading waterfalls, and ending at an active glacier. One of the park's most iconic and rewarding trails.",
+      "description": "A stunning 10.6-mile round-trip hike from Many Glacier Hotel to pristine turquoise Grinnell Lake and the glacier itself. Features incredible alpine scenery and potential wildlife viewing including mountain goats and bears.",
       "durationHours": 7,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
         "adventure",
         "photography"
       ]
     },
     {
-      "name": "Going-to-the-Sun Road Drive",
+      "name": "Going-to-the-Sun Road Scenic Drive",
       "category": "Outdoor",
-      "description": "Scenic 50-mile drive traversing the Continental Divide with numerous pullouts for photographs and short walks. The road is typically open June through September.",
+      "description": "Iconic 50-mile highway crossing the Continental Divide with breathtaking mountain vistas, turquoise lakes, and pullout opportunities. The road traverses from West Glacier to St. Mary, gaining over 3,400 feet in elevation.",
       "durationHours": 4,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Glacier National Park Guided Boat Tour",
-      "category": "Outdoor",
-      "description": "Guided boat tours on pristine glacial lakes including Lake McDonald and Swiftcurrent Lake. Combines water travel with scenic views and wildlife spotting opportunities.",
-      "durationHours": 2,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "standard",
-        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Rock Climbing at Glacier",
-      "category": "Adventure",
-      "description": "Technical rock climbing routes on granite peaks with varying difficulty levels. Professional guides available for experienced climbers seeking alpine challenges.",
-      "durationHours": 6,
-      "estimatedCostUSD": 150,
+      "name": "Lake McDonald Boat Tour",
+      "category": "Outdoor",
+      "description": "Guided scenic boat tour on the park's largest lake with interpretive commentary about geology, wildlife, and history. Offers relaxing water-based sightseeing with mountain backdrop.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 45,
       "bestFor": [
-        "adventure",
+        "relaxation",
+        "family",
         "standard"
       ]
     },
     {
-      "name": "Wildlife Watching and Birdwatching",
-      "category": "Outdoor",
-      "description": "Spot grizzly bears, mountain goats, bighorn sheep, and over 200 bird species in their natural habitat. Early morning drives along park roads offer best viewing opportunities.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Backcountry Camping and Multi-Day Hiking",
+      "name": "Backcountry Camping & Backpacking",
       "category": "Adventure",
-      "description": "Explore remote wilderness areas with overnight backpacking trips through alpine meadows and pristine valleys. Permits required; numerous multi-day route options available.",
+      "description": "Experience true wilderness with overnight backcountry campsites accessible via park trails. Requires permit and preparation but offers solitude and immersion in pristine alpine environments.",
       "durationHours": 24,
       "estimatedCostUSD": 25,
       "bestFor": [
         "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Fishing in Glacier Lakes and Streams",
-      "category": "Outdoor",
-      "description": "Fly fishing and spin fishing for cutthroat trout, brook trout, and lake trout in designated waters. Montana fishing license required; excellent opportunities for solitude.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "relaxation",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Scenic Easy Nature Walk - Avalanche Lake",
-      "category": "Outdoor",
-      "description": "Gentle 3.8-mile round-trip walk through old-growth forest alongside creeks to a turquoise glacial lake. Perfect for families and those seeking accessible mountain scenery.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Photography Workshops and Tours",
-      "category": "Cultural",
-      "description": "Professional photography guides lead small groups to prime locations during golden hour with equipment advice and composition techniques. Available throughout the park.",
-      "durationHours": 5,
-      "estimatedCostUSD": 200,
-      "bestFor": [
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Mountain Biking Trails",
-      "category": "Adventure",
-      "description": "Ride scenic mountain bike trails with varying difficulty through forests and alpine terrain. Popular routes include Logan Pass area and North Fork region.",
+      "name": "Avalanche Lake Trail",
+      "category": "Outdoor",
+      "description": "A moderate 3.5-mile hike from the Avalanche Picnic Area through old-growth cedar forest to a stunning glacial lake surrounded by waterfalls. One of the most photographed locations in the park.",
       "durationHours": 3,
-      "estimatedCostUSD": 40,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "adventure",
-        "standard"
+        "photography",
+        "family"
       ]
     },
     {
-      "name": "Visitor Center Exhibits and Educational Programs",
-      "category": "Cultural",
-      "description": "Learn about park geology, wildlife, glaciology, and indigenous history through interactive exhibits and ranger-led presentations. Free with park admission.",
-      "durationHours": 2,
+      "name": "Guided Wildlife Tour",
+      "category": "Adventure",
+      "description": "Professional guide leads early morning or evening tours to find bears, mountain goats, bighorn sheep, and eagles. Includes binoculars and expert knowledge of animal behavior.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "St. Mary Lake Sunrise Paddle",
+      "category": "Adventure",
+      "description": "Canoe or kayak experience launching at dawn to catch spectacular sunrise light over the park's second-largest lake. Peaceful water-based adventure with stunning photography opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Two Medicine Lake Loop Trail",
+      "category": "Outdoor",
+      "description": "Scenic 3.3-mile trail along pristine Two Medicine Lake with views of Mount Jackson and Eagle Plume Falls. Excellent for photography with opportunities to see wildlife.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Ranger-Led Naturalist Program",
+      "category": "Cultural",
+      "description": "Free educational programs led by park rangers covering geology, ecology, history, and Native American culture. Programs vary seasonally with campfire talks and guided walks.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Horseback Riding and Trail Rides",
-      "category": "Adventure",
-      "description": "Guided horse trips ranging from short scenic rides to multi-day backcountry expeditions. Experienced outfitters offer family-friendly options and advanced trail experiences.",
-      "durationHours": 3,
+      "name": "Logan Pass Visitor Center & Trail Exploration",
+      "category": "Cultural",
+      "description": "Stop at the park's main visitor center at the Continental Divide with interactive exhibits and films, then explore surrounding short trails including Hidden Lake Overlook. Essential orientation for first-time visitors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Stargazing & Night Sky Photography",
+      "category": "Photography",
+      "description": "Experience pristine dark skies perfect for Milky Way photography and stargazing. The park's remote location makes it an International Dark Sky Park with exceptional viewing.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Whitefish Mountain Resort Activities",
+      "category": "Outdoor",
+      "description": "Year-round mountain resort offering mountain biking, chairlift rides, scenic gondola experiences, and hiking with panoramic views. Located near the park with multiple summer activity options.",
+      "durationHours": 6,
       "estimatedCostUSD": 75,
       "bestFor": [
         "adventure",
-        "standard",
-        "relaxation"
+        "family"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Grinnell Lake Overlook",
-        "description": "Stunning turquoise lake surrounded by glacier-carved peaks with perfect reflections in calm morning water.",
+        "name": "Grinnell Lake",
+        "description": "Iconic turquoise glacial lake surrounded by peaks and waterfalls, offering breathtaking reflections and color contrasts perfect for landscape photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning or late evening for golden light and still water",
+        "bestTime": "Early morning for calm water and soft light",
         "category": "Landscape"
       },
       {
-        "name": "Lake McDonald Shoreline",
-        "description": "The park's largest lake offering expansive vistas with mountain reflections and varied foreground elements along the shore.",
+        "name": "Avalanche Lake",
+        "description": "Stunning turquoise alpine lake with cascading waterfalls, lush vegetation, and dramatic peaks creating a postcard-perfect composition.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise or sunset for warm light on peaks",
+        "bestTime": "Midday when waterfalls are most dramatic",
         "category": "Landscape"
       },
       {
-        "name": "Logan Pass Scenic Overlook",
-        "description": "Continental Divide vista with dramatic jagged peaks, alpine meadows, and distant valley views in all directions.",
+        "name": "Logan Pass Continental Divide",
+        "description": "Dramatic high-altitude mountain pass with views across the park, perfect for wide-angle landscape and silhouette photography.",
         "difficulty": "Beginner",
-        "bestTime": "Mid-morning for balanced lighting on multiple peaks",
+        "bestTime": "Sunrise or sunset for golden light and clouds",
         "category": "Landscape"
       },
       {
-        "name": "Swiftcurrent Lake and Many Glacier Hotel",
-        "description": "Historic lodge reflected in pristine glacial lake surrounded by towering peaks and cascading streams.",
+        "name": "Many Glacier Valley",
+        "description": "Expansive valley with turquoise Swiftcurrent Lake, historic hotel, and jagged peaks reflected in still water.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning for soft light and mirror-like reflections",
-        "category": "Architecture"
+        "bestTime": "Early morning before crowds and for reflections",
+        "category": "Landscape"
       },
       {
-        "name": "Saint Mary Lake from Scenic Point",
-        "description": "Expansive turquoise lake with the dramatic north face of Going-to-the-Sun Mountain as backdrop.",
+        "name": "Going-to-the-Sun Road Pullouts",
+        "description": "Multiple scenic pullouts along the iconic highway offering sweeping vistas of valleys, lakes, and mountains throughout the drive.",
         "difficulty": "Beginner",
-        "bestTime": "Late afternoon for warm side-lighting on peaks",
+        "bestTime": "Golden hour at either end of day",
         "category": "Landscape"
       },
       {
-        "name": "Iceberg Lake Trail",
-        "description": "Icebergs floating in a pristine alpine lake surrounded by glacier-carved cliffs and wildflower meadows in summer.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday when light reflects off floating ice",
-        "category": "Landscape"
-      },
-      {
-        "name": "Hidden Falls and Baring Creek",
-        "description": "Cascading waterfall with mist and spray alongside glacier-fed creek with diverse macro and landscape opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "After rain or snowmelt for maximum water flow",
-        "category": "Landscape"
-      },
-      {
-        "name": "Gunsight Lake and Pass",
-        "description": "Remote alpine basin with steep walls, turquoise lake, and dramatic peak silhouettes accessible via challenging backcountry trail.",
-        "difficulty": "Advanced",
-        "bestTime": "Clear weather days for maximum visibility of surrounding peaks",
-        "category": "Landscape"
-      },
-      {
-        "name": "Mountain Goats and Wildlife in Alpine Meadows",
-        "description": "Frequent wildlife encounters with mountain goats, bighorn sheep, and marmots against dramatic alpine backdrops.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning or late afternoon during active feeding times",
+        "name": "Hidden Lake Overlook",
+        "description": "Accessible via short hike from Logan Pass, offering dramatic views of a mountain lake with potential for mountain goat and wildlife photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for clear details and wildlife activity",
         "category": "Wildlife"
       },
       {
-        "name": "Going-to-the-Sun Road Hairpin Turns",
-        "description": "Engineering marvel with switchbacks offering dynamic compositional opportunities and layered mountain vistas.",
+        "name": "Lake McDonald Shore",
+        "description": "The park's largest lake surrounded by forested shores and distant peaks, ideal for long-exposure and reflective water photography.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light from the east or late afternoon from the west",
+        "bestTime": "Sunrise for calm conditions and warm light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Jackson Glacier Overlook",
+        "description": "Designated viewpoint with clear sightlines to the glacier against surrounding peaks, accessible from Going-to-the-Sun Road.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for clear visibility of glacier details",
+        "category": "Landscape"
+      },
+      {
+        "name": "Two Medicine Lake",
+        "description": "Pristine alpine lake with Mount Jackson backdrop and Eagle Plume Falls, offering excellent composition opportunities with multiple foreground elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for reflections and mist",
+        "category": "Landscape"
+      },
+      {
+        "name": "St. Mary Lake at Sunrise",
+        "description": "Large glacial lake with dramatic peaks reflected in water at dawn, creating golden light across the eastern shore.",
+        "difficulty": "Intermediate",
+        "bestTime": "Pre-dawn to catch first light hitting peaks",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
       "Logan Pass",
-      "Lake McDonald Shoreline",
-      "Swiftcurrent Lake"
+      "St. Mary Lake",
+      "Grinnell Lake Trailhead"
     ],
     "sunsetSpots": [
-      "Grinnell Lake Overlook",
-      "Saint Mary Lake",
-      "Lake McDonald West Shore"
+      "Lake McDonald Shore",
+      "Many Glacier Valley",
+      "Avalanche Lake"
     ],
     "lensRecommendations": [
-      "Wide-angle 14-24mm for expansive landscape vistas and mountain panoramas",
-      "Standard zoom 24-70mm for versatile framing of lakes, peaks, and compositional flexibility",
-      "Telephoto 70-200mm for wildlife, distant peaks, and compressed landscape perspectives",
-      "Macro 100mm for alpine wildflowers and water detail photography"
+      "Wide-angle 14-24mm for expansive landscape vistas and valley compositions",
+      "Standard 35-70mm for versatile hiking and mid-range mountain photography",
+      "Telephoto 70-200mm for wildlife, distant peaks, and compressed alpine compositions",
+      "Macro lens for wildflower and detail work in meadows and forest floors"
     ],
-    "goldenHourNotes": "Glacier's latitude and elevation create extended golden hour periods in summer. Morning light bathes eastern peaks in warm tones around 5:30-7:00 AM, while evening light illuminates western faces from 7:00-9:00 PM. Translucent glacial waters create magical reflections during these periods, making early starts and late stays essential for premium photography opportunities.",
-    "overallDifficulty": "Advanced"
+    "goldenHourNotes": "Golden hour light is exceptional at Glacier with extended hours during summer months. The high elevation and east-west valleys create perfect lighting angles at both sunrise and sunset. Plan for 30+ minutes of usable light before full sunrise and after sunset, allowing extended photography sessions during optimal color conditions.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
@@ -369,27 +368,27 @@
       {
         "month": 2,
         "avgTempC": -6,
-        "rainfallMM": 30
+        "rainfallMM": 32
       },
       {
         "month": 3,
-        "avgTempC": -2,
-        "rainfallMM": 33
+        "avgTempC": -3,
+        "rainfallMM": 38
       },
       {
         "month": 4,
         "avgTempC": 4,
-        "rainfallMM": 53
+        "rainfallMM": 51
       },
       {
         "month": 5,
         "avgTempC": 11,
-        "rainfallMM": 107
+        "rainfallMM": 88
       },
       {
         "month": 6,
-        "avgTempC": 17,
-        "rainfallMM": 127
+        "avgTempC": 16,
+        "rainfallMM": 102
       },
       {
         "month": 7,
@@ -403,55 +402,55 @@
       },
       {
         "month": 9,
-        "avgTempC": 14,
-        "rainfallMM": 64
+        "avgTempC": 15,
+        "rainfallMM": 51
       },
       {
         "month": 10,
-        "avgTempC": 7,
+        "avgTempC": 8,
         "rainfallMM": 51
       },
       {
         "month": 11,
-        "avgTempC": -3,
+        "avgTempC": -1,
         "rainfallMM": 43
       },
       {
         "month": 12,
-        "avgTempC": -8,
-        "rainfallMM": 41
+        "avgTempC": -7,
+        "rainfallMM": 38
       }
     ],
     "bestMonths": [
+      6,
       7,
       8,
       9
     ],
-    "seasonality": "Summer (July-September) offers ideal hiking conditions, wildflower blooms, and reliable weather with warm days and cool nights. Winter brings heavy snow and road closures, though cross-country skiing and snowshoeing provide alternative activities for hardy visitors.",
-    "summary": "Glacier National Park experiences dramatic seasonal variations with long snowy winters and brief warm summers. The best time to visit is mid-July through September when Going-to-the-Sun Road is fully open and all trails are accessible with comfortable hiking temperatures."
+    "seasonality": "Summer (June-September) offers warm weather, full trail access, and all lodging open with extended daylight for photography. Winter (December-March) brings heavy snowfall, closed high passes, and limited accessibility, though offers stunning snowy landscapes and solitude.",
+    "summary": "Glacier experiences distinct seasons with long, cold winters and short, mild summers. Spring and fall offer transition weather with unpredictable conditions, while summer provides optimal hiking and photography opportunities with temperatures between 15-21°C. High elevation areas receive significant precipitation year-round, especially during summer months."
   },
   "hotels": [
     {
       "name": "Many Glacier Hotel",
       "neighborhood": "Many Glacier Valley",
-      "pricePerNightUSD": 250,
+      "pricePerNightUSD": 189,
       "category": "Mid-range",
-      "description": "Historic 1915 lodge on Swiftcurrent Lake offering rustic charm, excellent dining, and direct access to numerous hiking trails with stunning mountain views."
+      "description": "Historic 1915 Swiss chalet-style hotel with 215 rooms, situated directly on Swiftcurrent Lake with views of Mount Jackson and easy access to valley trails."
     },
     {
       "name": "Lake McDonald Lodge",
-      "neighborhood": "Lake McDonald Valley",
-      "pricePerNightUSD": 150,
-      "category": "Budget",
-      "description": "Charming 1913 lodge on the park's largest lake featuring cozy cabins, lakeside setting, and proximity to easy nature walks and scenic drives."
+      "neighborhood": "Lake McDonald",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Historic 1913 lodge featuring 100 rooms on the shores of the park's largest lake with rustic charm and convenient access to west side trails."
     },
     {
-      "name": "Glacier Park Collection Hotels",
-      "neighborhood": "Whitefish",
-      "pricePerNightUSD": 400,
-      "category": "Luxury",
-      "description": "Upscale resort accommodations near the park with premium amenities, spa services, fine dining restaurants, and mountain views within 30 minutes of main park entrances."
+      "name": "St. Mary Lodge & Resort",
+      "neighborhood": "St. Mary",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Comfortable 72-room hotel just outside the park's east entrance with modern amenities, restaurant, and convenient access to Going-to-the-Sun Road."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1635965072050-9b608060234d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxHbGFjaWVyJTIwTmF0aW9uYWwlMjBQYXJrJTIwbW91bnRhaW5zfGVufDF8MHx8fDE3ODEzMDMzMjd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

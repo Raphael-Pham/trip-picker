@@ -6,32 +6,32 @@
   "airportCodes": [
     "LJU",
     "VCE",
-    "MNZ"
+    "ZAG"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
+    "surprise",
     "photography",
-    "relaxation",
     "adventure",
-    "foodie"
+    "relaxation"
   ],
   "scores": {
     "cost": 72,
     "food": 78,
-    "photography": 95,
+    "photography": 92,
     "activities": 85,
     "weather": 75
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 45,
-      "maxPerDayUSD": 75
+      "minPerDayUSD": 50,
+      "maxPerDayUSD": 85
     },
     {
       "level": "mid",
-      "minPerDayUSD": 75,
+      "minPerDayUSD": 85,
       "maxPerDayUSD": 150
     },
     {
@@ -40,229 +40,236 @@
       "maxPerDayUSD": 300
     }
   ],
-  "unsplashQuery": "Lake Bled Slovenia",
-  "summary": "Lake Bled is one of Europe's most picturesque alpine lakes, featuring a medieval castle perched on cliffs, an island church, and stunning emerald waters surrounded by forested mountains. The destination offers a perfect blend of relaxation, adventure, and photography opportunities with charming local culture and exceptional Slovenian cuisine. Whether you're hiking scenic trails, rowing to the island, or simply admiring the landscape, Lake Bled delivers postcard-perfect views at every turn.",
+  "unsplashQuery": "Lake Bled Slovenia island",
+  "summary": "Lake Bled is a picturesque alpine lake in northwestern Slovenia, famous for its emerald waters, the iconic Church of the Assumption on a small island, and stunning mountain views. The destination offers a perfect blend of outdoor adventure, romantic scenery, and authentic Slovenian culture, making it ideal for photographers, nature lovers, and couples seeking tranquility.",
   "restaurants": [
     {
-      "name": "Penzion Bled",
+      "name": "Gostilna Bled",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Traditional Slovenian cuisine in a cozy family-run setting overlooking the lake. Known for authentic local dishes prepared with fresh regional ingredients.",
-      "mustTry": "Bled Cream Cake (Bledski Krém)"
+      "description": "Traditional Slovenian restaurant serving local dishes like porcini mushroom soup and trout from the lake. A cozy, family-run establishment popular with both tourists and locals.",
+      "mustTry": "Lake trout with almond butter"
     },
     {
-      "name": "Grajska Kuhinja",
+      "name": "Vila Povski Grad",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Elegant restaurant located near Bled Castle with panoramic lake views. Specializes in contemporary Slovenian and European cuisine with refined presentation.",
-      "mustTry": "Pan-seared local trout with seasonal vegetables"
+      "description": "Upscale restaurant with panoramic lake views, offering contemporary European cuisine with Slovenian influences. Known for meticulous plating and an extensive wine list.",
+      "mustTry": "Duck confit with cherry gastrique"
     },
     {
-      "name": "Mlino Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Charming riverside location with outdoor seating, serving traditional Slovenian and Italian dishes. Popular for its relaxed atmosphere and quality pasta selections.",
-      "mustTry": "Homemade pasta with wild mushrooms"
-    },
-    {
-      "name": "Park Hotel Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Contemporary dining in a lakeside setting with seasonal menus featuring local produce. Offers both traditional and modern interpretations of regional cuisine.",
-      "mustTry": "Duck confit with polenta"
-    },
-    {
-      "name": "Pizzeria Rustika",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual pizzeria serving authentic wood-fired pizzas and Italian specialties. Perfect for budget-conscious travelers seeking quality affordable meals.",
-      "mustTry": "Wood-fired Margherita pizza"
-    },
-    {
-      "name": "Pri Planini",
+      "name": "Pri Planincu",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Mountain lodge restaurant serving hearty Slovenian mountain cuisine with generous portions. Traditional flavors in a rustic alpine atmosphere.",
-      "mustTry": "Beef stew with dumplings"
+      "priceRange": "$",
+      "description": "Budget-friendly local eatery serving hearty Slovenian fare including stews, sausages, and homemade pastries. Perfect for authentic, casual dining.",
+      "mustTry": "Bled cream cake (Bledski krof)"
     },
     {
-      "name": "Café Park",
+      "name": "Kavarna Park",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Popular cafe and bakery offering fresh pastries, sandwiches, and coffee. Great for breakfast or light lunch with lakeside views.",
-      "mustTry": "Fresh pastries and Slovenian coffee"
-    },
-    {
-      "name": "Slatina",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale lakeside dining with an emphasis on fresh local ingredients and creative European cuisine. Romantic setting ideal for special occasions.",
-      "mustTry": "Grilled fish with local herbs"
-    },
-    {
-      "name": "Pod Vintage",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Wine bar and restaurant featuring local wines paired with traditional Slovenian tapas and charcuterie. Intimate ambiance with knowledgeable staff.",
-      "mustTry": "Local cheese and cured meat platter"
+      "description": "Casual café and pastry shop ideal for breakfast, coffee, and light snacks with a focus on local ingredients. Great for grab-and-go or relaxing by the lake.",
+      "mustTry": "Fresh croissants and Slovenian coffee"
     },
     {
       "name": "Okarina",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual eatery serving traditional Slovenian soups, stews, and comfort food. Known for generous portions and authentic home-style cooking.",
-      "mustTry": "Chicken soup with noodles"
-    },
-    {
-      "name": "Mercata",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Farm-to-table concept restaurant celebrating Slovenian seasonal produce and local suppliers. Modern presentation with traditional flavors.",
-      "mustTry": "Seasonal vegetable risotto"
+      "description": "Cozy restaurant specializing in Mediterranean and Slovenian fusion cuisine, with a warm, intimate atmosphere and friendly service.",
+      "mustTry": "Pumpkin ravioli with sage butter"
     },
     {
-      "name": "Bled Island Restaurant",
+      "name": "Pod Velbom",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Located near the lake promenade, this restaurant offers fresh fish specialties and traditional Slovenian meals with views of the surrounding landscape.",
+      "mustTry": "Grilled lake fish with seasonal vegetables"
+    },
+    {
+      "name": "Snack & Cake Stara Jelica",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick service spot perfect for snacks, homemade cakes, and coffee, ideal for tourists on the go exploring the lake area.",
+      "mustTry": "Walnut cake and espresso"
+    },
+    {
+      "name": "Belvedere",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Exclusive island restaurant accessible by boat, offering fine dining with unparalleled lake and castle views. Special occasion destination with refined cuisine.",
-      "mustTry": "Island-fresh fish of the day"
+      "description": "Elegant dining establishment with stunning lake and island views, serving refined French and international cuisine with impeccable service.",
+      "mustTry": "Lobster bisque and beef Wellington"
+    },
+    {
+      "name": "Gostilna Pod Gradol",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional Slovenian gostilna (inn) offering regional specialties in a rustic, authentic setting with warm hospitality.",
+      "mustTry": "Slovenian beef stew with sour cream dumplings"
+    },
+    {
+      "name": "Pizzeria Nat",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Italian-style pizzeria with wood-fired oven, serving authentic pizzas and pasta dishes in a relaxed lakeside setting.",
+      "mustTry": "Pizza quattro formaggi"
+    },
+    {
+      "name": "Café Raj",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming lakeside café serving light meals, fresh juices, and pastries, perfect for daytime dining with lake views.",
+      "mustTry": "Fresh berry smoothie and homemade muesli"
+    },
+    {
+      "name": "Sava Kranjska Gostilna",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Riverside gostilna featuring authentic Slovenian cuisine and regional wines, set in a historic building with traditional decor.",
+      "mustTry": "Eel stew and local wine pairing"
     }
   ],
   "activities": [
     {
-      "name": "Row to Bled Island",
-      "category": "Outdoor",
-      "description": "Traditional wooden boat experience to the island church where you ring the wishing bell. A quintessential Lake Bled experience combining romance and local tradition.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Bled Castle Tour",
-      "category": "Cultural",
-      "description": "Explore the medieval castle perched 130 meters above the lake with museums, dungeons, and panoramic viewing platforms. Learn about Slovenia's rich medieval history.",
-      "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Lake Bled Circular Walk",
-      "category": "Outdoor",
-      "description": "Scenic 6km walking trail around the entire lake with viewpoints and forest sections. Accessible for all fitness levels with multiple photo opportunities.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Vintgar Gorge Hike",
+      "name": "Rowing on Lake Bled",
       "category": "Adventure",
-      "description": "Dramatic 1.6km gorge walk with wooden walkways carved into cliffs along the Radovna River. Features stunning turquoise waters and lush canyon scenery.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Stand-Up Paddleboarding on Lake Bled",
-      "category": "Outdoor",
-      "description": "Paddle across the pristine alpine lake from beginner-friendly to advanced routes. Offers unique perspectives of the island and castle from the water.",
-      "durationHours": 2,
+      "description": "Rent a traditional wooden rowboat (pletna) to visit the Church of the Assumption on the island. The 30-minute experience offers peaceful lake exploration and close-up views of the iconic church.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 25,
       "bestFor": [
-        "adventure",
+        "standard",
         "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Swimming in Lake Bled",
-      "category": "Outdoor",
-      "description": "Crystal-clear alpine waters with designated swimming areas and beaches. Water temperatures best in summer months, refreshing and safe.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 3,
+      "name": "Bled Castle Tour",
+      "category": "Cultural",
+      "description": "Explore this medieval castle perched 130 meters above the lake, featuring museum exhibits, dungeons, and panoramic viewpoints. The castle offers historical insights and breathtaking vistas across the region.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
       "bestFor": [
-        "relaxation",
-        "adventure"
+        "standard",
+        "photography",
+        "surprise"
       ]
     },
     {
-      "name": "Ojstrica Viewpoint at Sunrise",
-      "category": "Photography",
-      "description": "Hike to the classic postcard viewpoint above Lake Bled for sunrise photography. Short but rewarding climb with iconic panoramic views.",
-      "durationHours": 1.5,
+      "name": "Lake Bled Circumnavigation Walk",
+      "category": "Outdoor",
+      "description": "Walk the scenic 6km trail circling the entire lake, passing through forests, meadows, and along the shoreline. Perfect for photographers seeking changing perspectives and sunrise/sunset opportunities.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "adventure",
         "photography",
-        "adventure"
+        "standard"
       ]
     },
     {
-      "name": "Radovljica Beekeeping Museum Tour",
+      "name": "Vintgar Gorge Hike",
+      "category": "Adventure",
+      "description": "Trek through this stunning 1.6km gorge with dramatic limestone walls and crystal-clear water. Located 4km from Bled, it's an intermediate hike featuring wooden bridges and natural pools.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Bike Tour Around Bled and Region",
+      "category": "Adventure",
+      "description": "Guided or self-guided cycling tour covering the lake and surrounding countryside, with routes varying from easy lakeshore paths to challenging hill terrain. Explore traditional villages and farmland.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Church of the Assumption Visit",
       "category": "Cultural",
-      "description": "Visit the charming medieval town of Radovljica 20km away, famous for beekeeping tradition. Explore the museum and taste local honey products.",
-      "durationHours": 4,
+      "description": "Access the 17th-century baroque church on the island via rope ferry or rowboat. Ring the wishing bell inside and experience the serene island sanctuary surrounded by lake waters.",
+      "durationHours": 1,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bled Lakeshore Picnic",
+      "category": "Relaxation",
+      "description": "Pack local produce from markets and enjoy a leisurely picnic along the designated lakeside areas. Watch locals and paddle boarders while savoring Slovenian cheese and bread.",
+      "durationHours": 2,
       "estimatedCostUSD": 10,
       "bestFor": [
-        "foodie",
-        "cultural"
+        "relaxation",
+        "standard",
+        "foodie"
       ]
     },
     {
-      "name": "Cycling Around Lake Bled",
-      "category": "Outdoor",
-      "description": "Bike-friendly paths with rentals available for exploring the lake and surrounding countryside. Multiple route options for different fitness levels.",
+      "name": "Radovljica Beekeeping Museum",
+      "category": "Cultural",
+      "description": "Day trip to nearby Radovljica village to learn about traditional Slovenian beekeeping through interactive museum exhibits and honey tasting. Only 20 minutes from Bled by car.",
       "durationHours": 3,
       "estimatedCostUSD": 12,
       "bestFor": [
-        "standard",
-        "relaxation",
-        "adventure"
+        "hidden-gems",
+        "foodie",
+        "standard"
       ]
     },
     {
-      "name": "Bled Cliff Jumping",
+      "name": "Stand-Up Paddleboarding on Bled Lake",
       "category": "Adventure",
-      "description": "Guided cliff jumping experience from safe designated spots during summer months. Thrilling activity with professional safety supervision.",
+      "description": "Rent a SUP board and paddle across the calm waters for a unique perspective of the lake, island, and surrounding mountains. Suitable for beginners with instruction available.",
       "durationHours": 2,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "adventure"
-      ]
-    },
-    {
-      "name": "Paragliding over Lake Bled",
-      "category": "Adventure",
-      "description": "Tandem paragliding flights offering breathtaking aerial views of the lake, island, and castle. Professional pilots ensure safe and unforgettable experience.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 120,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "adventure",
+        "standard",
         "photography"
       ]
     },
     {
-      "name": "Bled Town Exploration and Local Cafes",
+      "name": "Ojstrica Viewpoint Hike",
+      "category": "Outdoor",
+      "description": "Short 20-minute hike to the most photographed viewpoint overlooking the entire lake, island, and castle. Essential stop for photographers at sunrise or sunset.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Thermal Pools at Radovljica",
       "category": "Relaxation",
-      "description": "Stroll through charming streets, local shops, and traditional cafes. Experience local culture without structured activities.",
+      "description": "Visit nearby natural thermal pools for a rejuvenating spa experience with geothermal waters. Several facilities offer wellness treatments and modern amenities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bled Farmers Market and Town Exploration",
+      "category": "Cultural",
+      "description": "Browse the weekly farmers market for local produce, honey, wines, and crafts, then explore the charming town center with boutique shops and galleries. Ideal for experiencing local culture.",
       "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
-        "relaxation",
         "foodie",
+        "hidden-gems",
         "standard"
       ]
     }
@@ -271,155 +278,155 @@
     "spots": [
       {
         "name": "Ojstrica Viewpoint",
-        "description": "The iconic postcard view of Lake Bled with island, castle, and mountains in perfect composition.",
+        "description": "The quintessential Lake Bled vista featuring the island church, castle, and snow-capped Alps framed perfectly in one composition.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise and sunset",
+        "bestTime": "Sunrise and sunset for golden light",
         "category": "Landscape"
       },
       {
-        "name": "Bled Island Church",
-        "description": "Charming baroque church on the island with bell tower surrounded by turquoise waters.",
+        "name": "Church of the Assumption Island",
+        "description": "Photograph the baroque church from the water at different distances and angles, with the lake and mountains creating layered depth.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning light",
+        "bestTime": "Golden hour for warm light on the church bell tower",
         "category": "Architecture"
       },
       {
-        "name": "Bled Castle from Below",
-        "description": "Medieval castle dramatically perched on cliffs reflected in the lake with forested slopes.",
+        "name": "Bled Castle Upper Ramparts",
+        "description": "Medieval castle walls frame dramatic views of the lake and surrounding landscape with architectural elements in the foreground.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
+        "bestTime": "Late afternoon for directional light on castle stonework",
         "category": "Architecture"
       },
       {
-        "name": "Vintgar Gorge",
-        "description": "Dramatic limestone gorge with turquoise river, wooden walkways, and lush vegetation.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday overcast",
-        "category": "Landscape"
-      },
-      {
-        "name": "Lake Bled Boathouse Pier",
-        "description": "Traditional wooden boats and boathouse with reflections and mountain backdrop.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning",
-        "category": "Architecture"
-      },
-      {
-        "name": "Radovljica Old Town",
-        "description": "Medieval architecture with narrow streets, local beehives, and traditional Slovenian houses.",
-        "difficulty": "Beginner",
-        "bestTime": "Late morning",
-        "category": "Street"
-      },
-      {
-        "name": "Bled Lake Southwest Shore",
-        "description": "Hidden viewpoint along the shore offering reflections of castle and castle island through trees.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
-        "category": "Landscape"
-      },
-      {
-        "name": "Promontory Cave Viewpoint",
-        "description": "Scenic overlook from clifftop cave area with panoramic lake and mountain views.",
+        "name": "Vintgar Gorge Wooden Bridges",
+        "description": "Dramatic limestone cliff faces with wooden walkways clinging to the walls, offering unique compositional opportunities.",
         "difficulty": "Advanced",
-        "bestTime": "Sunrise",
+        "bestTime": "Midday when light penetrates the gorge depths",
         "category": "Landscape"
       },
       {
-        "name": "Local Market and Town Square",
-        "description": "Colorful local vendors, traditional dress during events, and authentic cultural moments.",
+        "name": "Lakeshore Reflection Spots",
+        "description": "Still waters near the shore on calm mornings create mirror reflections of the church, castle, and mountains.",
         "difficulty": "Beginner",
-        "bestTime": "Market days morning",
+        "bestTime": "Dawn and early morning for glass-like water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Radovljica Historic Town Center",
+        "description": "Narrow medieval streets, beehive-painted building facades, and town squares offer authentic Slovenian architecture and street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Soft morning light on building details and shadows",
         "category": "Street"
       },
       {
-        "name": "Bled on the Water",
-        "description": "Misty water reflections at dawn with rowing boats and silhouetted landscape.",
+        "name": "Parkside Tree Framing",
+        "description": "Ancient trees along the lake promenade create natural frames for the church and castle in background compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for side lighting through foliage",
+        "category": "Landscape"
+      },
+      {
+        "name": "Waterfront Café Area at Dusk",
+        "description": "Evening atmosphere with lantern lighting, reflections on water, and silhouettes of visitors creates atmospheric night photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Pre-sunrise",
+        "bestTime": "Twilight and early evening",
+        "category": "Night"
+      },
+      {
+        "name": "Alpine Meadows Above Bled",
+        "description": "Wildflower meadows with wide-angle vistas of the lake and distant mountains create panoramic landscape opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Spring and summer for wildflower blooms with directional light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rowboat Details and Water Level Shots",
+        "description": "Traditional wooden pletna boats offer unique foreground elements for wide-angle compositions of the island and church.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for texture detail in wooden boats",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
       "Ojstrica Viewpoint",
-      "Promontory Cave",
-      "Bled Lake Southwest Shore"
+      "Lakeshore Reflection Spots near the promenade",
+      "Castle Upper Ramparts eastern facing"
     ],
     "sunsetSpots": [
-      "Ojstrica Viewpoint",
-      "Bled Castle Terrace",
-      "Bled Lake Boathouse Pier"
+      "Ojstrica Viewpoint western approach",
+      "Waterfront Café Area and promenade",
+      "Vintgar Gorge entrance area for filtered light"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for dramatic landscape compositions and castle reflections",
-      "50-85mm medium telephoto for isolated island church and castle detail shots",
-      "70-200mm telephoto for compressed perspectives of distant mountains and wildlife",
-      "14-24mm ultra-wide for immersive gorge and panoramic views"
+      "16-35mm wide-angle for expansive landscape compositions capturing the lake, island, castle, and mountains in one frame",
+      "50-85mm medium telephoto for isolating the island church and castle with compressed perspectives",
+      "24-70mm versatile zoom for flexibility during active exploration and architectural details",
+      "70-200mm telephoto for distant mountain details and layered landscape compression"
     ],
-    "goldenHourNotes": "Lake Bled's mountain setting creates spectacular golden hour lighting with warm tones reflecting off the water. The early morning light before sunrise produces magical mist and moody atmospheres perfect for creating mood and drama. Evening light hits the castle from the west, creating stunning silhouettes and warm backlit scenes ideal for composition.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Lake Bled experiences exceptional golden hour photography from late June through early August due to extended daylight. The sun's low angle during early morning and late evening casts warm, directional light across the lake surface and church spire. The Ojstrica viewpoint is essential at both sunrise and sunset, offering completely different atmospheric conditions and color palettes.",
+    "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
         "avgTempC": -1,
-        "rainfallMM": 80
+        "rainfallMM": 78
       },
       {
         "month": 2,
         "avgTempC": 1,
-        "rainfallMM": 85
+        "rainfallMM": 72
       },
       {
         "month": 3,
         "avgTempC": 6,
-        "rainfallMM": 90
+        "rainfallMM": 85
       },
       {
         "month": 4,
         "avgTempC": 11,
-        "rainfallMM": 105
+        "rainfallMM": 88
       },
       {
         "month": 5,
         "avgTempC": 16,
-        "rainfallMM": 130
+        "rainfallMM": 110
       },
       {
         "month": 6,
         "avgTempC": 19,
-        "rainfallMM": 145
+        "rainfallMM": 138
       },
       {
         "month": 7,
         "avgTempC": 21,
-        "rainfallMM": 135
+        "rainfallMM": 145
       },
       {
         "month": 8,
         "avgTempC": 21,
-        "rainfallMM": 130
+        "rainfallMM": 135
       },
       {
         "month": 9,
         "avgTempC": 17,
-        "rainfallMM": 115
+        "rainfallMM": 120
       },
       {
         "month": 10,
         "avgTempC": 12,
-        "rainfallMM": 110
+        "rainfallMM": 115
       },
       {
         "month": 11,
-        "avgTempC": 6,
-        "rainfallMM": 140
+        "avgTempC": 7,
+        "rainfallMM": 138
       },
       {
         "month": 12,
         "avgTempC": 1,
-        "rainfallMM": 100
+        "rainfallMM": 98
       }
     ],
     "bestMonths": [
@@ -429,31 +436,31 @@
       8,
       9
     ],
-    "seasonality": "Summer (June-August) offers warm weather perfect for lake activities and water sports, while spring and autumn provide mild temperatures and fewer crowds with stunning photography light. Winter brings snow and cold temperatures, transforming the landscape into a postcard scene but limiting outdoor activities.",
-    "summary": "Lake Bled enjoys a temperate continental climate with warm summers averaging 20-21°C and cold winters around 0°C. Spring through early autumn provides the most pleasant weather for visiting with reliable conditions for outdoor activities and water sports."
+    "seasonality": "Lake Bled experiences distinct seasons with warm, pleasant summers (June-August) ideal for water activities, and cold winters (December-February) that occasionally bring snow for picturesque alpine scenery. Spring (May) and early autumn (September) offer mild temperatures, fewer crowds, and excellent photography conditions.",
+    "summary": "The region features an alpine climate with significant rainfall year-round and cool to mild temperatures. Summer months offer the best weather for outdoor activities and tourism, while winter provides a serene, snow-covered landscape."
   },
   "hotels": [
     {
-      "name": "Bledec Hostel",
-      "neighborhood": "Central Bled",
-      "pricePerNightUSD": 28,
+      "name": "Pension Bled",
+      "neighborhood": "Town Center",
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Friendly hostel with dormitory and private rooms, communal kitchen, and sociable atmosphere perfect for budget travelers and backpackers."
+      "description": "Family-run guesthouse offering simple, clean rooms with basic amenities and friendly service, located within walking distance of the lake and town center."
     },
     {
       "name": "Park Hotel Bled",
-      "neighborhood": "Lakeside",
+      "neighborhood": "Lakeshore",
       "pricePerNightUSD": 95,
       "category": "Mid-range",
-      "description": "Elegant mid-range lakeside hotel with modern amenities, excellent restaurant, spa facilities, and direct access to the lake."
+      "description": "Well-established three-star hotel directly on the lake with comfortable rooms, restaurant, spa facilities, and stunning water views perfect for a relaxing stay."
     },
     {
       "name": "Grand Hotel Toplice",
-      "neighborhood": "Premium Lakeside",
+      "neighborhood": "Lakeshore Premium",
       "pricePerNightUSD": 220,
       "category": "Luxury",
-      "description": "Historic luxury hotel featuring spa and wellness center with thermal waters, fine dining, elegant rooms with castle views, and impeccable service."
+      "description": "Five-star historic luxury hotel combining belle époque elegance with modern amenities, featuring thermal spa, gourmet dining, and panoramic lake views from all accommodations."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1478088913771-e3a36f50bb63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwQmxlZCUyMFNsb3ZlbmlhfGVufDF8MHx8fDE3ODE1NjIyODh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1613359907151-0ab0e95ef77c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwQmxlZCUyMFNsb3ZlbmlhJTIwaXNsYW5kfGVufDF8MHx8fDE3ODE2Mjk0MzV8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

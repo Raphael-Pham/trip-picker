@@ -1,0 +1,459 @@
+{
+  "id": "bar-harbor-usa",
+  "city": "Bar Harbor",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BHB",
+    "BGR",
+    "BOS"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 82,
+    "photography": 95,
+    "activities": 88,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 280,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Bar Harbor Maine coast",
+  "summary": "Bar Harbor is a picturesque coastal town on Mount Desert Island, famous for its proximity to Acadia National Park with stunning mountain vistas, rocky shorelines, and abundant outdoor adventures. Known for fresh lobster, charming downtown galleries, and dramatic Atlantic coastal scenery, it's a premier destination for photographers and nature enthusiasts seeking New England charm.",
+  "restaurants": [
+    {
+      "name": "Blaze",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale restaurant offering contemporary American cuisine with locally-sourced ingredients and fresh seafood preparations. Features an extensive wine list and elegant atmosphere with harbor views.",
+      "mustTry": "Pan-seared diver scallops"
+    },
+    {
+      "name": "Havana",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Latin-inspired fine dining with creative cocktails and locally-caught seafood served in an intimate setting. Known for innovative flavor combinations and professional service.",
+      "mustTry": "Lobster tostadas"
+    },
+    {
+      "name": "Jordan Pond House Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Located within Acadia National Park with iconic views of Jordan Pond and The Bubbles mountains. Casual dining featuring New England favorites and outdoor seating.",
+      "mustTry": "Lobster roll"
+    },
+    {
+      "name": "Rosalie's Pizzeria",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Italian-American pizzeria in downtown Bar Harbor with authentic wood-fired pizzas and fresh pasta. Perfect for quick, affordable meals with consistently excellent quality.",
+      "mustTry": "Margherita pizza"
+    },
+    {
+      "name": "Maggie's Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-friendly restaurant serving classic New England fare including lobster, seafood, and traditional American comfort food. Known for generous portions and welcoming atmosphere.",
+      "mustTry": "Baked haddock"
+    },
+    {
+      "name": "124 Cottage",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate fine dining restaurant showcasing seasonal menus with creative preparations of local Maine ingredients. Offers an exceptional culinary experience with personalized service.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Cafe This Way",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming breakfast and lunch spot known for creative omelets, fresh pastries, and local coffee. Cozy indoor seating and popular with both tourists and locals.",
+      "mustTry": "Smoked salmon omelet"
+    },
+    {
+      "name": "Geddy's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual seafood restaurant in downtown Bar Harbor featuring fresh lobster, crab, and regional specialties. Busy atmosphere with harbor views and traditional Maine flavors.",
+      "mustTry": "Lobster dinner plate"
+    },
+    {
+      "name": "The Porcupine Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Rustic grill restaurant serving fresh seafood and steaks with a focus on quality ingredients and simple preparations. Relaxed dining environment with local artwork.",
+      "mustTry": "Grilled swordfish"
+    },
+    {
+      "name": "Epi Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French-inspired bistro offering classic European cuisine with a Maine twist and thoughtful wine pairings. Elegant setting perfect for special occasions.",
+      "mustTry": "Coq au vin"
+    },
+    {
+      "name": "Peekytoe Provisions",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual seafood market and quick-service eatery offering fresh lobster rolls, fish and chips, and local catches at reasonable prices. Popular for takeout and picnic supplies.",
+      "mustTry": "Lobster roll with butter"
+    },
+    {
+      "name": "Galyn's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Established restaurant offering diverse menu from seafood to vegetarian options with consistently good quality. Features both upstairs fine dining and downstairs casual bar atmosphere.",
+      "mustTry": "Pan-roasted haddock"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Acadia National Park - Carriage Roads Biking",
+      "category": "Adventure",
+      "description": "Cycle along 45 miles of scenic carriage roads built by John D. Rockefeller Jr., featuring stone bridges, mountain views, and diverse terrain. A perfect way to explore the park at a moderate pace with stunning scenery throughout.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cadillac Mountain Summit Hike and Sunrise",
+      "category": "Adventure",
+      "description": "Hike to the highest point on the U.S. Atlantic coast and watch the first sunrise in America. Choose from multiple trail options ranging from easy to challenging, all rewarding with 360-degree views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lighthouse Tour - Bass Harbor Head",
+      "category": "Outdoor",
+      "description": "Visit Maine's iconic red and white striped lighthouse located at the southern tip of Mount Desert Island. Scenic coastal trails lead to perfect photo opportunities of this picturesque structure.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Whale Watching Cruise",
+      "category": "Outdoor",
+      "description": "Take a guided boat tour into the Atlantic to observe humpback whales, finback whales, and dolphins in their natural habitat. Tours include expert narration and typically run from spring through fall.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Jordan Pond Loop Trail",
+      "category": "Outdoor",
+      "description": "Walk the popular 3.3-mile loop around pristine Jordan Pond with stunning reflections of The Bubbles mountain peaks. This moderate trail offers multiple photo stops and peaceful forest scenery.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bar Harbor Historical Walking Tour",
+      "category": "Cultural",
+      "description": "Guided tour through downtown Bar Harbor exploring Gilded Age history, Victorian architecture, and the town's evolution from rural village to tourist destination. Learn about local legends and historic families.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Beehive Trail Hike",
+      "category": "Adventure",
+      "description": "Challenging cliff-side hike featuring iron rungs and scenic coastal vistas overlooking Sand Beach and the Atlantic Ocean. A thrilling adventure for experienced hikers seeking dramatic views and unique mountain experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Artist Community Exploration and Gallery Hopping",
+      "category": "Cultural",
+      "description": "Explore Bar Harbor's vibrant art scene by visiting independent galleries, artist studios, and local shops throughout downtown. Many galleries showcase landscape paintings, photography, and contemporary artwork.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Thunder Hole Viewing at High Tide",
+      "category": "Outdoor",
+      "description": "Visit the natural sea cave that creates thunderous sounds when waves crash during high tide, especially dramatic during storms and fall swells. Park amenities available with short walks to multiple vantage points.",
+      "durationHours": 1,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Scenic Park Loop Drive with Multiple Stops",
+      "category": "Outdoor",
+      "description": "Drive the 20-mile Park Loop Road through Acadia National Park with pulloffs for scenic viewpoints, coastal access, and interpretive signs. Perfect option for visitors with limited mobility or time.",
+      "durationHours": 4,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sand Beach Swimming and Sunbathing",
+      "category": "Outdoor",
+      "description": "Relax on this small but scenic crescent beach within Acadia National Park surrounded by mountains and ocean. Water is cold year-round but popular for swimming during summer months and always beautiful for photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Evening Carriage Tour of Bar Harbor",
+      "category": "Relaxation",
+      "description": "Ride in a horse-drawn carriage through Bar Harbor's charming neighborhoods and waterfront, experiencing the town as travelers did during the Gilded Age. Tours available year-round with seasonal schedules.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Bass Harbor Head Lighthouse",
+        "description": "Iconic red and white striped lighthouse perched on rocky cliffs with dramatic coastal backdrop, featuring unobstructed sunset views and classic New England scenery.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, especially sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Jordan Pond with Bubbles Mountain Reflection",
+        "description": "Mirror-like pond reflecting distinctive mountain peaks creates one of Maine's most photographed vistas with perfect composition and changing seasonal colors.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for calm reflections, all seasons",
+        "category": "Landscape"
+      },
+      {
+        "name": "Thunder Hole at High Tide",
+        "description": "Dramatic sea cave where waves create powerful spray and mist, best photographed during storms and high tide for dynamic action shots and dramatic sky.",
+        "difficulty": "Advanced",
+        "bestTime": "High tide during storms or heavy swells",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cadillac Mountain Summit",
+        "description": "360-degree panoramic views from the highest Atlantic coast point with sunrise light sweeping across distant islands and mainland mountains.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise, clear weather",
+        "category": "Landscape"
+      },
+      {
+        "name": "Sand Beach with Beehive Trail Cliffs",
+        "description": "Crescent beach backed by dramatic mountain cliffs creating stunning compositional depth with opportunities for wide-angle and telephoto perspectives.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, clear weather",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Bar Harbor Harbor-side Architecture",
+        "description": "Victorian-era buildings, classic storefronts, and harbor waterfront create charming street scenes with nautical elements and local character.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for light, weekday for fewer crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Otter Point Coastal Rocky Shoreline",
+        "description": "Rugged granite rocks meeting crashing Atlantic waves create dramatic texture and dynamic seascape compositions with excellent foreground interest.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset or overcast conditions for wave drama",
+        "category": "Landscape"
+      },
+      {
+        "name": "Schoodic Peninsula Point",
+        "description": "Less crowded coastal area with moody rocky landscape, lighthouse access, and dramatic ocean backdrop perfect for contemplative landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast weather for moody atmosphere",
+        "category": "Landscape"
+      },
+      {
+        "name": "Eagle Lake Morning Mist",
+        "description": "Mountain-surrounded freshwater lake often produces beautiful morning mist and fog creating ethereal landscape conditions with excellent reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning in fall and spring",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cliff-side Trails with Coastal Vistas",
+        "description": "Multiple clifftop hiking trails offering elevated perspectives of coastline, offshore islands, and dramatic drop-offs ideal for perspective and depth photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Clear days for visibility, golden hour for light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Cadillac Mountain Summit",
+      "Bass Harbor Head Lighthouse",
+      "Jordan Pond Trail"
+    ],
+    "sunsetSpots": [
+      "Bass Harbor Head Lighthouse",
+      "Thunder Hole",
+      "Otter Point"
+    ],
+    "lensRecommendations": [
+      "14-24mm ultra-wide for expansive landscape and mountain panoramas",
+      "24-70mm standard zoom for flexible framing in varied conditions",
+      "70-200mm telephoto for distant mountain detail and wildlife",
+      "50mm prime for intimate portrait work in town settings"
+    ],
+    "goldenHourNotes": "Bar Harbor's eastern and southern exposure makes it exceptional for sunrise and sunset photography. Golden hour light transforms granite cliffs from gray to warm rose tones, and water reflections amplify the effect. Photographic conditions are particularly dramatic during fall when cool morning mists combine with golden light for ethereal landscape conditions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -5,
+        "rainfallMM": 135
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 125
+      },
+      {
+        "month": 3,
+        "avgTempC": 1,
+        "rainfallMM": 140
+      },
+      {
+        "month": 4,
+        "avgTempC": 8,
+        "rainfallMM": 130
+      },
+      {
+        "month": 5,
+        "avgTempC": 15,
+        "rainfallMM": 115
+      },
+      {
+        "month": 6,
+        "avgTempC": 20,
+        "rainfallMM": 120
+      },
+      {
+        "month": 7,
+        "avgTempC": 23,
+        "rainfallMM": 105
+      },
+      {
+        "month": 8,
+        "avgTempC": 22,
+        "rainfallMM": 110
+      },
+      {
+        "month": 9,
+        "avgTempC": 18,
+        "rainfallMM": 125
+      },
+      {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 140
+      },
+      {
+        "month": 11,
+        "avgTempC": 5,
+        "rainfallMM": 145
+      },
+      {
+        "month": 12,
+        "avgTempC": -2,
+        "rainfallMM": 145
+      }
+    ],
+    "bestMonths": [
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Bar Harbor experiences a classic New England climate with cold, snowy winters and mild summers. Peak tourist season is summer (June-August) when temperatures are warm and crowds are highest, while fall (September-October) offers comfortable temperatures, fewer tourists, and spectacular foliage colors.",
+    "summary": "Expect cold winters with frequent snow and harsh conditions, mild summers perfect for outdoor exploration, and stunning fall foliage. Spring can be unpredictable with lingering snow and cool temperatures, while coastal location moderates extreme temperature swings year-round."
+  },
+  "hotels": [
+    {
+      "name": "Harborside Hotel & Marina",
+      "neighborhood": "Downtown Bar Harbor Waterfront",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Waterfront location with modern amenities, on-site restaurant, and direct harbor access with scenic views of boats and islands."
+    },
+    {
+      "name": "Bar Harbor Grand Hotel",
+      "neighborhood": "Downtown Bar Harbor",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Classic hotel in heart of downtown offering comfortable rooms and convenient access to restaurants, galleries, and shops within walking distance."
+    },
+    {
+      "name": "Bluenose Bar Harbor",
+      "neighborhood": "Downtown Waterfront",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Upscale waterfront resort with premium amenities, fine dining restaurant, spa services, and unobstructed views of Frenchman Bay and distant islands."
+    }
+  ]
+}

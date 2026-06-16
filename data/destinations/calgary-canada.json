@@ -6,134 +6,134 @@
   "airportCodes": [
     "YYC",
     "YLW",
-    "YJA"
+    "YEW"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "adventure",
     "photography",
     "foodie",
+    "adventure",
     "relaxation"
   ],
   "scores": {
     "cost": 65,
     "food": 75,
-    "photography": 85,
-    "activities": 88,
-    "weather": 62
+    "photography": 82,
+    "activities": 85,
+    "weather": 60
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 70,
-      "maxPerDayUSD": 120
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
-      "minPerDayUSD": 120,
-      "maxPerDayUSD": 220
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 220,
+      "minPerDayUSD": 250,
       "maxPerDayUSD": 450
     }
   ],
-  "unsplashQuery": "Calgary skyline Rocky Mountains",
-  "summary": "Calgary is a vibrant prairie city gateway to the Canadian Rockies, offering world-class museums, thriving food and beverage scene, and stunning natural landscapes. Known for its Stampede heritage, outdoor adventures, and cultural attractions, Calgary combines urban sophistication with rugged wilderness accessibility. The city's clear skies and dramatic weather patterns create exceptional photography opportunities year-round.",
+  "unsplashQuery": "Calgary downtown skyline",
+  "summary": "Calgary is a vibrant prairie city nestled between the Canadian Rockies and vast grasslands, offering world-class dining, stunning photography opportunities, and thrilling outdoor adventures. Known for the iconic Calgary Tower, the prestigious Calgary Stampede, and easy access to Banff National Park, this cosmopolitan city blends urban sophistication with frontier spirit. Perfect for travelers seeking cultural attractions, exceptional food scenes, and breathtaking natural landscapes.",
   "restaurants": [
     {
-      "name": "River Café",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Award-winning restaurant in Prince's Island Park with farm-to-table cuisine and scenic river views. Offers creative menus focused on local Alberta ingredients and seasonal offerings.",
-      "mustTry": "Wild game with seasonal vegetables"
-    },
-    {
-      "name": "Paliser Restaurant + Bar",
+      "name": "Bison Restaurant & Lounge",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Elegant steakhouse in downtown Calgary specializing in premium Alberta beef and classic French cuisine. Features an extensive wine collection and refined ambiance.",
-      "mustTry": "Prime Alberta ribeye"
+      "description": "Award-winning restaurant celebrating Canadian cuisine with locally-sourced bison, game, and prairie ingredients. Features an impressive wine collection and elegant atmosphere.",
+      "mustTry": "Bison ribeye with wild mushroom jus"
     },
     {
-      "name": "The Shed Burgers + Pinups",
+      "name": "River Café",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Seasonal restaurant on Prince's Island featuring organic ingredients from local producers and farms. Offers intimate dining with river views and commitment to sustainability.",
+      "mustTry": "Wild mushroom risotto"
+    },
+    {
+      "name": "The Coup",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Casual burger joint with craft beer selection and retro Americana atmosphere. Serves locally-sourced beef patties with creative toppings.",
-      "mustTry": "The Coop burger"
+      "description": "Vegetarian and vegan comfort food restaurant with creative plant-based dishes and local craft beer selection. Casual, friendly atmosphere in vibrant Bridgeland neighborhood.",
+      "mustTry": "Chickpea shawarma with tahini sauce"
     },
     {
-      "name": "Vendome Café",
+      "name": "Trolley 5 Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Canadian cuisine in a historic building with exposed brick and railway memorabilia. Known for creative cocktails and warm hospitality.",
+      "mustTry": "Alberta beef short ribs"
+    },
+    {
+      "name": "Nube",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Latin American restaurant with modern plating and premium ingredients. Features intimate private dining and an extensive South American wine list.",
+      "mustTry": "Ceviche trio"
+    },
+    {
+      "name": "Model Milk",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant and cheese shop featuring Alberta beef, locally-made cheese, and seasonal produce. Charming rustic-modern ambiance.",
+      "mustTry": "Charcuterie and cheese board"
+    },
+    {
+      "name": "Bump 'N Grind Coffee",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Cozy French-inspired café perfect for breakfast and lunch in Inglewood neighborhood. Features excellent coffee, pastries, and light meals at affordable prices.",
-      "mustTry": "Croque madame"
+      "description": "Local coffee roastery with exceptional pour-overs, espresso drinks, and freshly baked pastries. Popular spot for breakfast and casual meetings.",
+      "mustTry": "Single-origin pour-over coffee"
     },
     {
-      "name": "RGO Craft Burgers",
+      "name": "Cluny Bistro",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Locally-focused burger restaurant in East Village with craft sauces and Alberta beef. Casual atmosphere with great value for quality ingredients.",
-      "mustTry": "Spicy chipotle burger"
-    },
-    {
-      "name": "Oyster Bar",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale seafood restaurant downtown offering fresh oysters, ceviche, and daily specials. Known for its vibrant happy hour and sophisticated cocktails.",
-      "mustTry": "Fresh Atlantic oysters"
-    },
-    {
-      "name": "Naan-Ya Beeswax",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Popular Indian restaurant in Bridgeland serving authentic curry dishes and naan bread. Offers vegetarian options and bold flavor profiles.",
-      "mustTry": "Butter chicken"
-    },
-    {
-      "name": "Ulu Cafe",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Nordic-inspired restaurant featuring contemporary Scandinavian cuisine with local Alberta ingredients. Minimalist design with warm hospitality.",
-      "mustTry": "Arctic char with dill"
-    },
-    {
-      "name": "Boudoir Bistro",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "French bistro in Inglewood with intimate ambiance and classic French dishes. Features an impressive wine list and romantic atmosphere.",
+      "description": "French-inspired bistro with warm ambiance, wood-fired pizza, and an excellent wine selection. Known for classic French comfort food and impeccable service.",
       "mustTry": "Coq au vin"
     },
     {
-      "name": "Gravity Espresso Bar",
+      "name": "Ryo Japanese Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Japanese cuisine offering sushi, sashimi, and traditional cooked dishes prepared by skilled Japanese chefs. Modern minimalist design with sushi bar.",
+      "mustTry": "Omakase tasting menu"
+    },
+    {
+      "name": "Sidewalk Citizen Bakery",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Specialty coffee shop and breakfast spot with minimalist aesthetic. Excellent pour-over coffee and avocado toast at budget-friendly prices.",
-      "mustTry": "Single-origin pour-over"
+      "description": "Artisanal bakery specializing in sourdough, croissants, and whole-grain breads using traditional methods. Excellent espresso and pastries in a casual setting.",
+      "mustTry": "Sourdough croissant"
     },
     {
-      "name": "Blackfoot Diner",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Classic Canadian diner with vintage décor serving comfort food and generous portions. Popular for breakfast and casual lunch crowds.",
-      "mustTry": "Pancakes with Alberta maple syrup"
-    },
-    {
-      "name": "Uccellino",
+      "name": "Saltlik",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Modern Italian restaurant featuring handmade pasta and seasonal Italian ingredients. Warm atmosphere with knowledgeable staff and curated wine selection.",
-      "mustTry": "Fresh tagliatelle with wild boar ragù"
+      "priceRange": "$$$$",
+      "description": "Premium steakhouse featuring dry-aged beef, fresh seafood, and an award-winning wine program. Elegant dining room with views of downtown Calgary.",
+      "mustTry": "40-day aged ribeye steak"
+    },
+    {
+      "name": "Bridgeland Thai",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual authentic Thai restaurant serving traditional dishes with bold flavors and spice levels. Popular for pad thai, curries, and fresh spring rolls.",
+      "mustTry": "Green curry with jasmine rice"
     }
   ],
   "activities": [
     {
-      "name": "Calgary Tower Observation Deck",
-      "category": "Outdoor",
-      "description": "Iconic 191-meter tall tower offering 360-degree views of the city, mountains, and prairies. Features glass floor viewing platform for thrill-seekers.",
-      "durationHours": 1.5,
+      "name": "Calgary Tower Experience",
+      "category": "Indoor",
+      "description": "Iconic 191-meter tower offering 360-degree views of the city and Rocky Mountains. Features observation deck, dining options, and interactive exhibits.",
+      "durationHours": 2,
       "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
@@ -142,49 +142,25 @@
       ]
     },
     {
-      "name": "Heritage Park Historical Village",
+      "name": "Calgary Stampede",
       "category": "Cultural",
-      "description": "Open-air museum spanning 66 acres with heritage buildings, train rides, and demonstrations of early Canadian life. Includes rides, theaters, and restaurants.",
-      "durationHours": 4,
-      "estimatedCostUSD": 22,
+      "description": "World-famous 10-day rodeo, exhibition, and festival held annually in July featuring chuck wagon races, live entertainment, and Western culture. One of Canada's largest festivals.",
+      "durationHours": 8,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
-        "photography",
-        "relaxation"
+        "adventure",
+        "foodie"
       ]
     },
     {
       "name": "Banff National Park Day Trip",
-      "category": "Adventure",
-      "description": "UNESCO World Heritage site featuring turquoise lakes, dramatic mountain peaks, and hiking trails. Located 90 minutes from Calgary with Lake Louise and Moraine Lake highlights.",
-      "durationHours": 10,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Calgary Zoo",
-      "category": "Family",
-      "description": "Major zoo with over 4,000 animals and 800 species spread across 40 acres. Features northern and exotic animal habitats with interactive experiences.",
-      "durationHours": 4,
-      "estimatedCostUSD": 24,
+      "category": "Outdoor",
+      "description": "Stunning UNESCO World Heritage site just 90 minutes away featuring turquoise lakes, dramatic mountain peaks, and world-class hiking trails. Visit Lake Louise, Moraine Lake, and Johnston Canyon.",
+      "durationHours": 12,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
-        "family",
-        "photography"
-      ]
-    },
-    {
-      "name": "Bow River Pathway System",
-      "category": "Outdoor",
-      "description": "Urban trail system with 90+ kilometers of paved and natural pathways along the Bow River. Perfect for walking, jogging, and cycling with mountain views.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
         "adventure",
         "photography"
       ]
@@ -192,55 +168,102 @@
     {
       "name": "Glenbow Museum",
       "category": "Cultural",
-      "description": "Premier art and history museum featuring Indigenous art, contemporary works, and historical artifacts. Four-story exhibition space with world-class collections.",
+      "description": "Western Canada's largest museum housing extensive art collections, international artifacts, and rotating contemporary exhibitions. Free permanent galleries and paid special exhibits.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Prince's Island Park Walk",
+      "category": "Outdoor",
+      "description": "Beautiful urban park in the Bow River featuring walking trails, picnic areas, and pristine natural surroundings. Free activity with stunning city skyline views.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Heritage Park Historical Village",
+      "category": "Family",
+      "description": "Open-air heritage museum showcasing early Calgary history with restored buildings, vintage railway, and period-costumed interpreters. Includes amusement rides and historical exhibits.",
+      "durationHours": 5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Calgary Zoo",
+      "category": "Family",
+      "description": "Major zoo spanning 40 hectares with animals from around the world, including endangered species programs and interactive exhibits. Popular year-round attraction with winter lights.",
+      "durationHours": 5,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bow River Canoeing",
+      "category": "Outdoor",
+      "description": "Scenic paddling through downtown Calgary and natural parkland, wildlife viewing opportunities including beavers and birds. Multiple rental companies offer guided and self-guided trips.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Studio Bell / National Music Centre",
+      "category": "Cultural",
+      "description": "Innovative music museum in striking architecture featuring interactive exhibits, recording studios, and live performances. Celebrates Canadian music history and contemporary artists.",
       "durationHours": 3,
       "estimatedCostUSD": 16,
       "bestFor": [
         "standard",
         "cultural",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Calgary Farmers Market",
+      "category": "Foodie",
+      "description": "Year-round market featuring local produce, artisanal products, and prepared foods from regional farmers and producers. Perfect for sampling local culinary traditions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "foodie",
         "photography"
       ]
     },
     {
-      "name": "Prince's Island Park",
+      "name": "Hiking in the Westhills",
       "category": "Outdoor",
-      "description": "Island park in the Bow River with walking paths, picnic areas, and seasonal flowers. Connected by pedestrian bridge to downtown with spectacular city views.",
-      "durationHours": 2,
+      "description": "Network of scenic trails in the foothills west of Calgary offering various difficulty levels, panoramic views, and wildlife spotting. Popular trails include Nose Hill and Signal Hill.",
+      "durationHours": 4,
       "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Calgary Stampede",
-      "category": "Cultural",
-      "description": "Annual 10-day rodeo and exhibition in July featuring livestock competitions, concerts, parades, and carnival rides. Celebrates Western heritage and ranch culture.",
-      "durationHours": 6,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Lake Louise Scenic Drive",
-      "category": "Adventure",
-      "description": "Spectacular mountain lake in Banff with turquoise waters surrounded by peaks and glaciers. Includes hiking trails ranging from easy walks to challenging mountain routes.",
-      "durationHours": 8,
-      "estimatedCostUSD": 45,
       "bestFor": [
         "adventure",
         "photography",
-        "standard"
+        "relaxation"
       ]
     },
     {
       "name": "Telus Spark",
       "category": "Family",
-      "description": "Interactive science museum with hands-on exhibits, maker spaces, and outdoor gardens. Features IMAX theater and programming for all ages.",
+      "description": "Interactive science center with hands-on exhibits, digital experiences, and outdoor creative playground. Great for learning about technology, culture, and natural sciences.",
       "durationHours": 3,
       "estimatedCostUSD": 20,
       "bestFor": [
@@ -248,185 +271,161 @@
         "family",
         "relaxation"
       ]
-    },
-    {
-      "name": "Fish Creek Park",
-      "category": "Outdoor",
-      "description": "Large urban park with diverse ecosystems including wetlands, meadows, and forest. Offers extensive trail networks, wildlife viewing, and seasonal activities.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Stephen Avenue Historic District",
-      "category": "Cultural",
-      "description": "Downtown historic district featuring Victorian-era architecture, art galleries, shops, and restaurants. Walkable area showcasing Calgary's urban evolution.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Calgary Tower at Sunrise",
-        "description": "Iconic tower framed against pink dawn sky with city lights still glowing below.",
+        "name": "Calgary Tower",
+        "description": "Iconic downtown landmark providing stunning architectural photography opportunities and panoramic cityscape views from observation deck.",
         "difficulty": "Beginner",
-        "bestTime": "30 minutes before sunrise",
+        "bestTime": "Golden hour at sunset for dramatic lighting",
         "category": "Architecture"
       },
       {
-        "name": "Bow River Pathway - Prince's Island",
-        "description": "Winding pathways with river reflections, city skyline, and mountain backdrop.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
+        "name": "Bow River Pathway System",
+        "description": "Scenic riverside trails offering excellent opportunities for landscape photography with urban skyline backdrops and natural wildlife.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for soft light",
         "category": "Landscape"
       },
       {
-        "name": "Stephen Avenue Historic District",
-        "description": "Victorian-era stone buildings with dramatic architectural details and urban textures.",
+        "name": "Studio Bell / National Music Centre",
+        "description": "Modern architectural marvel with striking geometric design and reflective surfaces creating compelling geometric and abstract compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday or blue hour for contrast",
+        "category": "Architecture"
+      },
+      {
+        "name": "Stephen Avenue District",
+        "description": "Historic downtown streets with heritage architecture, street art, and urban scenes perfect for capturing local culture and street photography.",
         "difficulty": "Beginner",
-        "bestTime": "Mid-morning light",
+        "bestTime": "Daytime for vibrant street activity",
         "category": "Street"
       },
       {
-        "name": "Fish Creek Park Wetlands",
-        "description": "Reflective water scenes with wildlife including beavers, waterfowl, and deer.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning or dusk",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Downtown Skyline from Bridgeland",
-        "description": "Modern glass towers reflected in the Bow River with mountain silhouettes.",
+        "name": "Prince's Island Park",
+        "description": "Urban island park with pristine natural landscapes, river reflections, and downtown skyline creating diverse compositional opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Blue hour after sunset",
-        "category": "Night"
-      },
-      {
-        "name": "Glenmore Reservoir",
-        "description": "Mountain reflection in calm water with golden grass and evergreen forests.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
+        "bestTime": "Golden hour for reflection photography",
         "category": "Landscape"
       },
       {
-        "name": "Calgary Zoo Pathway",
-        "description": "Animals in naturalistic settings with varied lighting and seasonal colors.",
+        "name": "Calgary Stampede Grounds",
+        "description": "Dynamic venue during stampede season offering vibrant cultural imagery, action shots, and authentic Western heritage photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning hours",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Eau Claire Crossing Market",
-        "description": "Historic market buildings with vibrant street scenes and architectural details.",
-        "difficulty": "Beginner",
-        "bestTime": "Daytime",
+        "bestTime": "During July stampede for peak activity",
         "category": "Street"
       },
       {
-        "name": "Moraine Lake (Banff Day Trip)",
-        "description": "Turquoise glacial lake surrounded by dramatic peaks and pristine wilderness.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light",
+        "name": "Signal Hill Viewpoint",
+        "description": "Elevated vantage point offering panoramic cityscape views with Rocky Mountain backdrop, ideal for landscape and cityscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for dramatic colored skies",
         "category": "Landscape"
       },
       {
-        "name": "East Village at Night",
-        "description": "Modern architecture with artistic lighting reflecting in river and street level activity.",
+        "name": "East Village District",
+        "description": "Trendy neighborhood with modern architecture, street art, and contemporary urban design creating compelling architectural photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Daytime for architectural detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Calgary Zoo Wildlife Areas",
+        "description": "Diverse wildlife photography opportunities with animals from around the world in naturalistic settings and interactive displays.",
         "difficulty": "Advanced",
-        "bestTime": "Night photography",
+        "bestTime": "Early morning for active animal behavior",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Calgary Night Photography",
+        "description": "Dramatic evening cityscapes featuring illuminated buildings, light trails, and atmospheric urban scenes perfect for night photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour and night for city lights",
         "category": "Night"
       }
     ],
     "sunriseSpots": [
-      "Calgary Tower Observation Deck",
+      "Signal Hill Viewpoint",
       "Prince's Island Park",
-      "Glenmore Reservoir"
+      "Nose Hill Park"
     ],
     "sunsetSpots": [
-      "Bow River Pathway at downtown",
-      "Fish Creek Park",
-      "Moraine Lake (Banff)"
+      "Signal Hill Viewpoint",
+      "Calgary Tower Observation Deck",
+      "Bow River Pathway near Downtown"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for landscape and architecture capturing mountain backdrops",
-      "70-200mm telephoto for wildlife in parks and zoo animals",
-      "50mm prime for street photography and architectural details",
-      "24-70mm versatile zoom for varied urban and nature scenes"
+      "16-35mm wide-angle: Landscape and cityscape photography capturing expansive views and architectural context",
+      "70-200mm telephoto: Wildlife and distant mountain photography from urban vantage points",
+      "24-70mm standard zoom: Versatile street and architectural photography for daily exploration",
+      "50mm prime: Intimate portraits and street photography with natural perspective and low-light capability"
     ],
-    "goldenHourNotes": "Calgary's clear skies and mountain proximity create exceptional golden hour photography with rich warm tones and dramatic shadows. The city's north-south orientation means east-west facing locations capture beautiful morning and evening light. Winter's crisp air and low-angle sun produce particularly striking landscapes with snow and frost enhancement.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Calgary's location on the prairie offers exceptional golden hour photography with clear sight lines to the western Rocky Mountains. The flat terrain and minimal obstructions create stunning sunsets with vibrant colors reflecting off the Bow River and urban architecture. Best photography windows occur during the summer months (May-August) when golden hour is longest and weather most stable.",
+    "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -9,
-        "rainfallMM": 18
-      },
-      {
-        "month": 2,
-        "avgTempC": -6,
+        "avgTempC": -10,
         "rainfallMM": 16
       },
       {
+        "month": 2,
+        "avgTempC": -8,
+        "rainfallMM": 13
+      },
+      {
         "month": 3,
-        "avgTempC": -2,
-        "rainfallMM": 22
+        "avgTempC": -3,
+        "rainfallMM": 20
       },
       {
         "month": 4,
-        "avgTempC": 7,
-        "rainfallMM": 35
+        "avgTempC": 8,
+        "rainfallMM": 33
       },
       {
         "month": 5,
-        "avgTempC": 14,
-        "rainfallMM": 66
+        "avgTempC": 15,
+        "rainfallMM": 72
       },
       {
         "month": 6,
-        "avgTempC": 19,
-        "rainfallMM": 95
+        "avgTempC": 20,
+        "rainfallMM": 89
       },
       {
         "month": 7,
-        "avgTempC": 21,
-        "rainfallMM": 88
+        "avgTempC": 23,
+        "rainfallMM": 60
       },
       {
         "month": 8,
-        "avgTempC": 20,
-        "rainfallMM": 74
+        "avgTempC": 22,
+        "rainfallMM": 56
       },
       {
         "month": 9,
-        "avgTempC": 15,
-        "rainfallMM": 54
+        "avgTempC": 17,
+        "rainfallMM": 42
       },
       {
         "month": 10,
-        "avgTempC": 9,
-        "rainfallMM": 32
+        "avgTempC": 10,
+        "rainfallMM": 30
       },
       {
         "month": 11,
-        "avgTempC": 1,
-        "rainfallMM": 22
+        "avgTempC": 0,
+        "rainfallMM": 24
       },
       {
         "month": 12,
-        "avgTempC": -7,
-        "rainfallMM": 20
+        "avgTempC": -8,
+        "rainfallMM": 18
       }
     ],
     "bestMonths": [
@@ -436,31 +435,30 @@
       8,
       9
     ],
-    "seasonality": "Calgary experiences four distinct seasons with cold, snowy winters and mild summers. Spring and fall offer pleasant weather with spring wildflowers and fall colors, while summer provides the most stable conditions for outdoor activities.",
-    "summary": "Calgary has a semi-arid continental climate with low annual precipitation and abundant sunshine. Winters are cold but often dry due to Chinook winds, while summers are warm and perfect for outdoor exploration."
+    "seasonality": "Summer (June-September) offers warm weather, long daylight, and optimal conditions for outdoor activities and photography. Winter (December-February) brings cold temperatures and snow but also clear skies perfect for winter sports and dramatic landscapes.",
+    "summary": "Calgary experiences a continental climate with short, warm summers and long, cold winters. Spring and fall transition periods are brief but pleasant, making summer the prime travel season. Winter visitors should prepare for significant cold and occasional chinook winds that can rapidly warm temperatures."
   },
   "hotels": [
     {
       "name": "HI Calgary Downtown Hostel",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 35,
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Modern hostel with private rooms and dormitory options, located steps from shops and restaurants on Stephen Avenue."
+      "description": "Social hostel with private and dorm rooms, communal kitchen, and friendly atmosphere perfect for budget travelers and backpackers."
     },
     {
-      "name": "Delta Hotels by Marriott Calgary Downtown",
+      "name": "Hotel Le Germain Calgary",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 140,
+      "pricePerNightUSD": 165,
       "category": "Mid-range",
-      "description": "Contemporary hotel with indoor pool, fitness center, and direct access to shopping and dining in downtown Calgary."
+      "description": "Contemporary boutique hotel featuring stylish rooms, excellent service, and convenient downtown location near attractions and restaurants."
     },
     {
-      "name": "The Fairmont Palliser",
+      "name": "Fairmont Palliser",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 350,
+      "pricePerNightUSD": 320,
       "category": "Luxury",
-      "description": "Historic luxury hotel built in 1914 featuring elegant rooms, fine dining restaurants, and refined service in downtown's heart."
+      "description": "Historic luxury hotel offering elegant rooms, fine dining, full-service spa, and impeccable service in iconic downtown building."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1662099782192-f7ba7bf67236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDYWxnYXJ5JTIwQWxiZXJ0YSUyMENhbmFkYSUyMGRvd250b3dufGVufDF8MHx8fDE3ODE1NjIyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

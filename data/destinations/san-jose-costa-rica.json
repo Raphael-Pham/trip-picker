@@ -1,12 +1,12 @@
 {
   "id": "san-jose-costa-rica",
-  "city": "San Jose",
+  "city": "San José",
   "country": "Costa Rica",
   "region": "Central America",
   "airportCodes": [
     "SJO",
     "LIR",
-    "MRU"
+    "CRX"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -20,205 +20,226 @@
   ],
   "scores": {
     "cost": 72,
-    "food": 78,
-    "photography": 75,
-    "activities": 80,
-    "weather": 70
+    "food": 85,
+    "photography": 78,
+    "activities": 88,
+    "weather": 75
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 45,
-      "maxPerDayUSD": 75
+      "minPerDayUSD": 35,
+      "maxPerDayUSD": 60
     },
     {
       "level": "mid",
-      "minPerDayUSD": 75,
-      "maxPerDayUSD": 150
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 120
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 150,
+      "minPerDayUSD": 120,
       "maxPerDayUSD": 300
     }
   ],
-  "unsplashQuery": "San Jose Costa Rica cityscape",
-  "summary": "San Jose is Costa Rica's vibrant capital, blending colonial architecture with modern urban energy, set against a backdrop of surrounding volcanic mountains and lush valleys. The city serves as the cultural heart of the country, offering world-class museums, exceptional dining, and easy access to cloud forests, coffee plantations, and natural wonders. Its central location makes it an ideal base for exploring diverse ecosystems and experiencing authentic Costa Rican hospitality.",
+  "unsplashQuery": "San Jose Costa Rica street",
+  "summary": "San José, Costa Rica's vibrant capital nestled in the Central Valley, offers a perfect blend of urban energy, cultural richness, and easy access to stunning natural landscapes. Home to world-class museums, incredible farm-to-table cuisine, and a thriving arts scene, the city serves as an ideal base for exploring cloud forests, waterfalls, and coffee plantations. With its year-round spring-like climate and warm, welcoming people, San José embodies the true spirit of Costa Rican pura vida.",
   "restaurants": [
+    {
+      "name": "Al Mercat",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Mediterranean-inspired fine dining restaurant showcasing seasonal ingredients and creative presentations. Award-winning chef delivers an exceptional culinary experience in an intimate, sophisticated setting.",
+      "mustTry": "Tasting menu with Costa Rican ingredients"
+    },
     {
       "name": "Silvestre",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Farm-to-table restaurant showcasing Costa Rican ingredients with innovative preparation techniques and an extensive wine selection. Known for creating seasonal tasting menus that highlight local flavors.",
-      "mustTry": "Costa Rican seafood with tropical fruit gastrique"
+      "description": "Farm-to-table restaurant highlighting organic, locally-sourced ingredients with innovative cooking techniques. Intimate atmosphere featuring wood-fired preparations and natural wines.",
+      "mustTry": "Costa Rican plant-forward tasting menu"
     },
     {
-      "name": "Castro's Bar & Disco",
+      "name": "Castro's Bar and Disco",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Iconic San Jose institution serving authentic gallo pinto, casados, and traditional Costa Rican comfort food in a lively atmosphere. A local favorite for breakfast and lunch with friendly service.",
-      "mustTry": "Gallo pinto with fresh jugo natural"
-    },
-    {
-      "name": "Sikwa",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Contemporary restaurant featuring modern Latin American cuisine with sophisticated plating and a curated wine list. Chef-driven establishment focusing on seasonal ingredients and artistic presentation.",
-      "mustTry": "Pan-seared local fish with miso and citrus"
-    },
-    {
-      "name": "Al Mercat",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Spanish tapas restaurant offering authentic Mediterranean flavors with Costa Rican touches in a warm, intimate setting. Perfect for sharing small plates and enjoying local craft beers.",
-      "mustTry": "Pan con tomate and jamón ibérico"
-    },
-    {
-      "name": "Cafe Mundo",
-      "category": "Budget",
       "priceRange": "$",
-      "description": "Cozy vegetarian cafe in a converted colonial house serving fresh salads, pasta, and homemade pastries. Popular meeting spot with artistic ambiance and fair-trade coffee.",
-      "mustTry": "Fresh fruit smoothie bowl"
+      "description": "Authentic San José local favorite serving traditional gallo pinto, casados, and fresh tropical juices. A neighborhood institution perfect for experiencing authentic Costa Rican breakfast culture.",
+      "mustTry": "Gallo pinto with fresh orange juice"
     },
     {
-      "name": "Olio",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale Italian restaurant in Barrio Escalante featuring house-made pasta, imported ingredients, and an exceptional wine collection. Elegant dining experience with impeccable service.",
-      "mustTry": "Handmade tagliatelle al ragù"
-    },
-    {
-      "name": "Machu Picchu",
+      "name": "Café Británico",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Peruvian restaurant serving authentic ceviche, lomo saltado, and traditional Andean dishes with fresh seafood and quality ingredients. Casual dining with vibrant decor reflecting Peruvian culture.",
-      "mustTry": "Classic lime-cured fish ceviche"
+      "priceRange": "$",
+      "description": "Historic café and bookstore dating back decades, serving excellent Costa Rican coffee and light meals in a charming, bohemian atmosphere. Perfect for morning coffee and people-watching.",
+      "mustTry": "Costa Rican café con leche"
     },
     {
       "name": "Stiefel Pub",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "German-style pub offering affordable burgers, bratwurst, and hearty comfort food with local craft beers on tap. Casual hangout spot frequented by locals and travelers.",
-      "mustTry": "House-made burger with craft ale"
-    },
-    {
-      "name": "El Sotano",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Contemporary Costa Rican cuisine in a charming underground space, featuring fresh local products and creative flavor combinations. Intimate atmosphere with carefully crafted cocktails.",
-      "mustTry": "Casado with locally sourced ingredients"
-    },
-    {
-      "name": "Park Cafe",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Bright, welcoming cafe in a converted colonial mansion serving specialty coffee, fresh pastries, and light lunch options. Garden seating and local art create a relaxed vibe.",
-      "mustTry": "Espresso and homemade croissants"
+      "description": "German-style gastro pub offering craft beers and hearty European comfort food with a Costa Rican twist. Lively atmosphere with locals and travelers enjoying quality ingredients.",
+      "mustTry": "Schnitzel with local beer pairing"
     },
     {
-      "name": "Torino's",
+      "name": "Clemente",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary restaurant celebrating Costa Rican flavors with modern plating and techniques. Features local produce, sustainable seafood, and an excellent wine selection.",
+      "mustTry": "Ceviches and tiraditos"
+    },
+    {
+      "name": "Sikwa",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Asian-fusion restaurant combining Thai, Japanese, and Costa Rican elements with fresh, vibrant flavors. Stylish setting popular with the younger San José crowd.",
+      "mustTry": "Crispy fish with Asian spices"
+    },
+    {
+      "name": "La Terrasse de París",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "French bistro delivering classic Parisian cuisine and atmosphere in the heart of San José. Cozy, romantic setting perfect for dinner with excellent wine pairings.",
+      "mustTry": "Coq au vin"
+    },
+    {
+      "name": "Pomaire",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Chilean restaurant featuring traditional South American dishes with an emphasis on fresh seafood and quality meats. Warm ambiance reflecting Chilean hospitality.",
+      "mustTry": "Ceviche and empanadas"
+    },
+    {
+      "name": "Kalú",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Family-run Italian deli and restaurant offering affordable pasta dishes, pizza, and antipasti in a casual, unpretentious setting. Quick service and authentic recipes passed through generations.",
-      "mustTry": "Spaghetti carbonara"
+      "description": "Casual café and casual dining spot serving traditional Costa Rican fare at unbeatable prices. Authentic experience with locals in a no-frills, honest environment.",
+      "mustTry": "Casado with fresh juice"
     },
     {
-      "name": "Lubnan",
+      "name": "Silvestre Soda",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Traditional soda (small local eatery) offering authentic Costa Rican sodas and comidas. Simple, delicious, affordable meals prepared daily with care.",
+      "mustTry": "Picadillo de papa"
+    },
+    {
+      "name": "Nuevo León de Castilla",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Lebanese restaurant bringing Middle Eastern flavors to San Jose with freshly prepared hummus, kebabs, and mezze platters. Family recipes and warm hospitality.",
-      "mustTry": "Mixed grill platter with fresh pita"
+      "priceRange": "$",
+      "description": "Long-standing local eatery famous for Costa Rican classics and seafood specialties. Family-run establishment with generations of authentic recipes and genuine hospitality.",
+      "mustTry": "Whole snapper with patacones"
     }
   ],
   "activities": [
     {
-      "name": "National Museum of Costa Rica",
+      "name": "National Museum Tour",
       "category": "Cultural",
-      "description": "Housed in the historic Bellavista Fortress, this museum features pre-Columbian artifacts, natural history exhibits, and contemporary art collections showcasing Costa Rican culture and history. The building itself is architecturally significant with beautiful courtyards.",
-      "durationHours": 3,
+      "description": "Explore Costa Rica's history, pre-Columbian artifacts, and natural history in this former military barracks with beautiful courtyards. Comprehensive overview of Costa Rican culture and heritage.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
         "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "La Sabana Park Exploration",
+      "category": "Outdoor",
+      "description": "Wander through San José's largest urban park featuring walking trails, museums, sports fields, and beautiful green spaces. Perfect for jogging, picnicking, or simply enjoying nature in the city.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Central Market Tour",
+      "category": "Cultural",
+      "description": "Navigate the vibrant Mercado Central with its maze of stalls selling fresh produce, local crafts, and traditional foods. An authentic sensory experience showcasing local commerce and culture.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "foodie",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Coffee Farm Tour (nearby)",
+      "category": "Adventure",
+      "description": "Visit a local coffee plantation in the Central Valley foothills to learn about cultivation, harvesting, and roasting of Costa Rican coffee. Includes tasting fresh brews and touring the processing facilities.",
+      "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "foodie",
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Teatro Nacional Performance",
+      "category": "Cultural",
+      "description": "Catch a theatrical, musical, or dance performance at Costa Rica's most iconic theater with stunning Belle Époque architecture. Elegant evening experience celebrating local and international artists.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
         "surprise"
       ]
     },
     {
-      "name": "Poás Volcano National Park",
-      "category": "Outdoor",
-      "description": "Located just 40km from San Jose, visitors can hike to the crater of an active volcano and see the dramatic main crater lake with stunning crater views. The site includes cloud forest trails and viewpoints above the clouds.",
-      "durationHours": 5,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Barrio Escalante Food Tour",
+      "name": "Sprechsal Brewery Tour",
       "category": "Foodie",
-      "description": "Guided walking tour through San Jose's trendiest neighborhood featuring artisan coffee shops, craft breweries, restaurants, and galleries with stops for tastings and meals. Expert guides share local history and culinary insights.",
-      "durationHours": 4,
-      "estimatedCostUSD": 65,
+      "description": "Tour a local craft brewery learning about beer production and Costa Rican craft beer culture. Includes tastings of unique brews and food pairings in a relaxed atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "foodie",
-        "standard",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "La Paz Waterfall Gardens",
-      "category": "Outdoor",
-      "description": "Scenic nature reserve featuring five magnificent waterfalls set in lush tropical forest with well-maintained hiking trails, wildlife viewing areas, and a hummingbird garden. Located 30km north with multiple levels of trails for different abilities.",
-      "durationHours": 4,
-      "estimatedCostUSD": 32,
-      "bestFor": [
-        "photography",
-        "adventure",
         "relaxation"
       ]
     },
     {
-      "name": "Central Market (Mercado Central) Free Exploration",
-      "category": "Cultural",
-      "description": "Bustling traditional market with rows of vendors selling fresh produce, flowers, crafts, and local goods, offering an authentic glimpse into daily Costa Rican life. The vibrant atmosphere and sensory experience is unmatched.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "name": "Poás Volcano Day Trip",
+      "category": "Adventure",
+      "description": "Drive to nearby Poás Volcano National Park to witness the dramatic crater lake and geothermal activity from observation points. Experience one of Costa Rica's most accessible and spectacular natural wonders.",
+      "durationHours": 6,
+      "estimatedCostUSD": 55,
       "bestFor": [
-        "hidden-gems",
+        "adventure",
         "photography",
-        "foodie"
+        "standard"
       ]
     },
     {
-      "name": "Teatro Nacional Tour",
+      "name": "Jade Museum Visit",
       "category": "Cultural",
-      "description": "Grand neoclassical theater built in 1891 featuring ornate interior decoration, murals, and mosaics representing Costa Rican culture and history. Guided tours showcase architectural details and the elegant theater interior.",
+      "description": "Browse the world's largest collection of American jade artifacts with pieces spanning 2,500 years of pre-Columbian history. Fascinating insight into indigenous civilizations and artistic traditions.",
       "durationHours": 1.5,
-      "estimatedCostUSD": 18,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Art Gallery Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of San José's thriving contemporary art scene through numerous galleries and street art. Discover local artists and the city's creative energy in the Barrio Escalante neighborhood.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
         "photography",
         "surprise"
       ]
     },
     {
-      "name": "Coffee Plantation Tour",
-      "category": "Outdoor",
-      "description": "Visit a working coffee farm in the Central Valley to learn about cultivation, harvesting, and roasting processes with tastings of fresh coffee. Many tours include lunch and visits to family-owned operations.",
-      "durationHours": 5,
-      "estimatedCostUSD": 55,
-      "bestFor": [
-        "foodie",
-        "adventure",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Nightlife in Castro Barrio",
+      "name": "Nightlife Experience in Castro",
       "category": "Nightlife",
-      "description": "San Jose's vibrant nightlife district featuring bars, dance clubs, live music venues, and casinos with something for every preference. Mix of upscale lounges and casual pubs with local and international crowds.",
+      "description": "Experience San José's vibrant nightlife in the Castro neighborhood with bars, clubs, and live music venues. Authentic local scene with energy, dancing, and social atmosphere.",
       "durationHours": 4,
       "estimatedCostUSD": 40,
       "bestFor": [
@@ -227,206 +248,183 @@
       ]
     },
     {
-      "name": "Cloud Forest Hike San Gerardo de Dota",
+      "name": "La Fortuna Waterfall Trek (day trip)",
       "category": "Adventure",
-      "description": "One-hour drive from San Jose leads to pristine cloud forest with trails through misty mountainside jungle featuring resplendent quetzal birds and exotic flora. Early morning hikes offer best wildlife viewing opportunities.",
-      "durationHours": 6,
-      "estimatedCostUSD": 45,
+      "description": "Journey to nearby Arenal region for trekking through rainforest to reach the powerful La Fortuna Waterfall with swimming opportunities. Full-day adventure including cloud forest exploration.",
+      "durationHours": 8,
+      "estimatedCostUSD": 75,
       "bestFor": [
         "adventure",
         "photography",
-        "hidden-gems"
+        "relaxation"
       ]
     },
     {
-      "name": "Botanical Gardens Lankester",
-      "category": "Outdoor",
-      "description": "Stunning botanical garden showcasing Costa Rican flora including over 3,000 orchid species in a peaceful natural setting. Well-maintained trails wind through different garden zones featuring tropical plants and flowering displays.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "photography",
-        "relaxation",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Zipline Adventure Canopy Tour",
-      "category": "Adventure",
-      "description": "Thrilling zipline course through cloud forest canopy with multiple lines and platforms offering aerial perspective of the forest ecosystem. Professional guides ensure safety while providing nature education.",
-      "durationHours": 3.5,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "adventure",
-        "family"
-      ]
-    },
-    {
-      "name": "Museum of Contemporary Art and Design",
-      "category": "Cultural",
-      "description": "Located in a former factory building in Barrio Escalante, this museum features rotating exhibitions of contemporary Costa Rican and Latin American art with emphasis on emerging artists. The restored industrial space is architecturally interesting.",
+      "name": "Farmers Market and Local Food Tour",
+      "category": "Foodie",
+      "description": "Visit weekend farmers markets to sample fresh tropical fruits, vegetables, and local delicacies while interacting with vendors. Guided or self-guided experience of San José's food culture.",
       "durationHours": 2,
-      "estimatedCostUSD": 8,
+      "estimatedCostUSD": 20,
       "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
+        "foodie",
+        "hidden-gems",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Teatro Nacional Interior",
-        "description": "Ornate neoclassical theater interior with stunning architectural details, chandeliers, and artistic murals that create dramatic interior photography opportunities with warm golden lighting.",
+        "name": "Teatro Nacional",
+        "description": "Iconic Belle Époque theater with ornate golden interior, marble staircase, and stunning architectural details ideal for architectural photography.",
         "difficulty": "Beginner",
-        "bestTime": "Midday or during guided tours for best interior lighting",
+        "bestTime": "Morning for exterior, afternoon for interior light",
         "category": "Architecture"
       },
       {
-        "name": "Mercado Central",
-        "description": "Vibrant market filled with colorful produce, flowers, and local vendors creating dynamic street photography with rich colors and authentic cultural moments.",
+        "name": "Central Market (Mercado Central)",
+        "description": "Vibrant bustling market with colorful produce, local vendors, and dynamic street scenes perfect for documentary and color photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning when market is busiest",
+        "bestTime": "Early morning when freshest goods arrive",
         "category": "Street"
       },
       {
-        "name": "Poás Volcano Crater",
-        "description": "Dramatic volcanic crater with steam vents and crater lake creating spectacular landscape photography opportunities with atmospheric cloud formations.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning before clouds obscure crater",
-        "category": "Landscape"
-      },
-      {
-        "name": "La Paz Waterfalls",
-        "description": "Series of five impressive waterfalls set in lush tropical forest providing stunning waterfall photography with green foliage and mist creating ethereal images.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light for side-lit waterfall shots",
-        "category": "Landscape"
+        "name": "Plaza de la Cultura",
+        "description": "Historic central square surrounded by colonial architecture and museums with excellent urban landscape photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for warm light and crowds",
+        "category": "Architecture"
       },
       {
         "name": "Barrio Escalante Street Art",
-        "description": "Trendy neighborhood featuring colorful murals, graffiti art, and street installations creating vibrant urban photography opportunities with artistic backdrops.",
+        "description": "Hip neighborhood covered in colorful murals and contemporary street art showcasing San José's creative scene.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm, directional street light",
+        "bestTime": "Golden hour for dimensional street art shadows",
         "category": "Street"
       },
       {
-        "name": "San Gerardo de Dota Cloud Forest",
-        "description": "Misty mountain forest with dramatic cloud formations, moss-covered trees, and ethereal atmospheric lighting creating moody landscape and nature photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning in cloud formations",
+        "name": "La Sabana Park at Sunset",
+        "description": "Large urban green space with silhouettes of joggers and sunset reflections on water features for landscape and lifestyle photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "One hour before sunset",
         "category": "Landscape"
       },
       {
-        "name": "Lankester Botanical Gardens Orchids",
-        "description": "Thousands of orchid species in carefully arranged gardens providing colorful macro and botanical photography opportunities with vibrant blooms.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for soft diffused light on flowers",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Downtown San Jose Colonial Architecture",
-        "description": "Historic colonial buildings and restored facades throughout downtown featuring architectural details, textures, and aged charm perfect for architectural and street photography.",
+        "name": "Jade Museum Interiors",
+        "description": "Museum displays of ancient jade artifacts with professional lighting creating excellent still-life and detail photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Late afternoon side-lighting for architectural shadows",
+        "bestTime": "Mid-morning with optimal museum lighting",
         "category": "Architecture"
       },
       {
-        "name": "Parque Sabana Evening",
-        "description": "Large urban park with open spaces, trees, and skyline views creating opportunities for landscape, sunset, and street photography with people and nature.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm light and long shadows",
+        "name": "Eastern Market (Mercado Borbón)",
+        "description": "Authentic local market with fresh fish, spices, and colorful produce offering gritty street and food photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for best light and activity",
+        "category": "Street"
+      },
+      {
+        "name": "Poás Volcano Crater Rim",
+        "description": "Dramatic volcanic landscape with crater lake and geothermal features providing striking landscape and nature photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning before clouds roll in",
         "category": "Landscape"
       },
       {
-        "name": "Night Street Photography Downtown",
-        "description": "Vibrant nighttime scenes with street lights, neon signs, and pedestrian activity creating dynamic urban night photography opportunities in the bustling city center.",
-        "difficulty": "Advanced",
-        "bestTime": "Early evening twilight or late night with city lights",
-        "category": "Night"
+        "name": "Downtown Street Photography Walks",
+        "description": "Historic downtown streets with colonial buildings, local life, and urban architecture ideal for candid street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm light and activity",
+        "category": "Street"
+      },
+      {
+        "name": "Coffee Plantations Landscape",
+        "description": "Lush green coffee fields on hillsides with mist and mountains creating beautiful agricultural landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning with mist and fresh light",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Poás Volcano National Park crater overlook",
-      "San Gerardo de Dota mountain viewpoint",
-      "Cerro Chirripó peak trail"
+      "Poás Volcano Crater Rim",
+      "La Sabana Park east side",
+      "Barva Volcano nearby viewpoint"
     ],
     "sunsetSpots": [
-      "Parque Sabana western edge",
-      "Barrio Escalante rooftop venues",
-      "San Jose city skyline from Montes de Oca"
+      "La Sabana Park west side",
+      "Teatro Nacional terrace views",
+      "Cerro de la Cruz viewpoint"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for dramatic volcano crater landscapes and expansive cloud forest vistas",
-      "24-70mm versatile all-purpose lens for street photography, architecture, and general exploration",
-      "70-200mm telephoto for waterfall compression, wildlife in cloud forests, and detail architectural shots",
-      "100mm macro lens for orchid close-ups and botanical garden flower photography"
+      "16-35mm wide-angle for architecture and street scenes",
+      "50mm prime for intimate street photography and portraits",
+      "70-200mm telephoto for landscape compression at volcanoes",
+      "Macro lens for market details and food photography"
     ],
-    "goldenHourNotes": "Golden hour in San Jose is exceptional during December through February dry season when atmospheric clarity allows for warm, directional light. The mountain elevation means early morning light on crater lookouts and cloud forests creates dramatic backlighting and atmospheric perspective. Late afternoon light transforms colonial architecture and street scenes with warm tones and sculptural shadows, particularly in Barrio Escalante and downtown historic areas.",
+    "goldenHourNotes": "San José's central valley location provides stunning golden hour light year-round, typically 6:30-7:30am and 4:30-5:45pm. The light beautifully illuminates colonial architecture and street scenes with warm tones. Cloud cover is frequent but creates diffused, even lighting ideal for portrait and street work without harsh shadows.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 21,
-        "rainfallMM": 25
+        "avgTempC": 18,
+        "rainfallMM": 15
       },
       {
         "month": 2,
-        "avgTempC": 22,
+        "avgTempC": 19,
         "rainfallMM": 10
       },
       {
         "month": 3,
-        "avgTempC": 23,
-        "rainfallMM": 25
+        "avgTempC": 20,
+        "rainfallMM": 20
       },
       {
         "month": 4,
-        "avgTempC": 23,
-        "rainfallMM": 95
+        "avgTempC": 21,
+        "rainfallMM": 80
       },
       {
         "month": 5,
-        "avgTempC": 22,
-        "rainfallMM": 230
+        "avgTempC": 21,
+        "rainfallMM": 180
       },
       {
         "month": 6,
-        "avgTempC": 22,
-        "rainfallMM": 280
+        "avgTempC": 20,
+        "rainfallMM": 200
       },
       {
         "month": 7,
-        "avgTempC": 22,
-        "rainfallMM": 260
+        "avgTempC": 20,
+        "rainfallMM": 170
       },
       {
         "month": 8,
-        "avgTempC": 22,
-        "rainfallMM": 250
+        "avgTempC": 20,
+        "rainfallMM": 220
       },
       {
         "month": 9,
-        "avgTempC": 21,
-        "rainfallMM": 330
+        "avgTempC": 20,
+        "rainfallMM": 250
       },
       {
         "month": 10,
-        "avgTempC": 21,
-        "rainfallMM": 340
+        "avgTempC": 19,
+        "rainfallMM": 240
       },
       {
         "month": 11,
-        "avgTempC": 21,
-        "rainfallMM": 160
+        "avgTempC": 18,
+        "rainfallMM": 90
       },
       {
         "month": 12,
-        "avgTempC": 20,
-        "rainfallMM": 40
+        "avgTempC": 17,
+        "rainfallMM": 25
       }
     ],
     "bestMonths": [
@@ -435,31 +433,30 @@
       3,
       12
     ],
-    "seasonality": "San Jose experiences two main seasons: the dry season (December-March) with clear skies, lower rainfall, and optimal weather for outdoor activities, and the rainy season (May-November) with afternoon downpours, lush green landscapes, and cooler temperatures. The transitional months of April and November may feature mixed weather patterns.",
-    "summary": "San Jose enjoys a pleasant subtropical highland climate with mild temperatures year-round due to its elevation of 1,200 meters, ranging from 20-23°C. The dry season is ideal for visiting with minimal rainfall, while the rainy season brings abundant precipitation in afternoons but cooler mornings and lush scenery."
+    "seasonality": "San José experiences a pronounced dry season (December-March) and rainy season (May-November), with transitional months offering variable conditions. The city's high elevation (1,172m) ensures consistently cool temperatures year-round, making it comfortable for activities regardless of season.",
+    "summary": "San José maintains pleasant spring-like weather throughout the year with temperatures between 17-21°C. The dry season provides the most sunshine and clarity for viewing volcanoes and outdoor activities, while the rainy season brings lush greenery but afternoon downpours that typically clear by evening."
   },
   "hotels": [
     {
       "name": "Hotel Presidente",
-      "neighborhood": "Downtown San Jose",
-      "pricePerNightUSD": 65,
+      "neighborhood": "Downtown San José",
+      "pricePerNightUSD": 55,
       "category": "Budget",
-      "description": "Central budget hotel within walking distance of museums, theaters, and restaurants with basic but clean rooms, friendly staff, and convenient downtown location."
+      "description": "Reliable budget hotel in central location with basic but clean rooms, friendly staff, and convenient access to markets and cultural attractions."
     },
     {
-      "name": "Hôtel Grano de Oro",
-      "neighborhood": "Barrio Escalante",
-      "pricePerNightUSD": 140,
+      "name": "Gran Via Hotel",
+      "neighborhood": "Downtown San José",
+      "pricePerNightUSD": 95,
       "category": "Mid-range",
-      "description": "Charming restored colonial mansion in trendy Barrio Escalante featuring elegant rooms, excellent restaurant, rooftop bar, and proximity to galleries and nightlife."
+      "description": "Comfortable mid-range hotel offering modern amenities, restaurant, and excellent location near shopping districts and cultural sites with professional service."
     },
     {
-      "name": "The Scarlet Hotel",
-      "neighborhood": "Barrio Escalante",
-      "pricePerNightUSD": 220,
+      "name": "Aurola Holiday Inn",
+      "neighborhood": "La Sabana",
+      "pricePerNightUSD": 180,
       "category": "Luxury",
-      "description": "Upscale luxury hotel with contemporary design, prime location in Barrio Escalante, rooftop bar with city views, fine dining restaurant, and impeccable service."
+      "description": "Luxury five-star hotel overlooking La Sabana Park featuring fine dining, spa, fitness center, and elegant rooms with premium service and city views."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1699385602094-4c5a017c64a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW4lMjBKb3NlJTIwQ29zdGElMjBSaWNhJTIwY2l0eXNjYXBlfGVufDF8MHx8fDE3ODE1NTYxNzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

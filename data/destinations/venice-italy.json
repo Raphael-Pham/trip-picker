@@ -5,8 +5,8 @@
   "region": "Europe",
   "airportCodes": [
     "VCE",
-    "MXP",
-    "FCO"
+    "TSF",
+    "BLQ"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -17,10 +17,10 @@
   ],
   "scores": {
     "cost": 25,
-    "food": 92,
+    "food": 95,
     "photography": 98,
-    "activities": 88,
-    "weather": 72
+    "activities": 90,
+    "weather": 75
   },
   "budgetRanges": [
     {
@@ -30,109 +30,109 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 130,
+      "minPerDayUSD": 150,
       "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 600
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
     }
   ],
-  "unsplashQuery": "Venice canals Italy",
-  "summary": "Venice is a unique floating city built on 118 islands connected by canals and iconic bridges, offering unparalleled photography opportunities and romantic atmosphere. World-class cuisine, Renaissance art, and centuries of Venetian history await visitors exploring its labyrinthine streets and vibrant piazzas.",
+  "unsplashQuery": "Venice Italy canals",
+  "summary": "Venice is a magical floating city built on islands and canals in northern Italy, offering unparalleled romantic architecture, world-class cuisine, and extraordinary photographic opportunities at every corner. With its Byzantine and Gothic palaces, bustling piazzas, and intimate waterways, Venice transports visitors to another era while delivering exceptional food experiences from traditional cicchetti to fine dining.",
   "restaurants": [
     {
-      "name": "Osteria al Portego",
+      "name": "Osteria al Bacareto",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A beloved local favorite serving traditional Venetian cicchetti (small plates) and fresh seafood in a cozy, authentic setting. Perfect for experiencing authentic Venetian cuisine away from tourist crowds.",
-      "mustTry": "Sarde in Saor (sardines with onions)"
+      "description": "Authentic Venetian osteria serving traditional cicchetti and homemade pasta in a cozy, no-frills setting beloved by locals. Try their seafood risotto and local wines by the glass.",
+      "mustTry": "Spaghetti alle vongole"
+    },
+    {
+      "name": "Da Marisa",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-menu, no-nonsense trattoria where the chef decides what you eat based on daily fresh catches and market finds. Expect authentic Venetian home cooking at unbeatable prices.",
+      "mustTry": "Fresh seafood pasta"
     },
     {
       "name": "Antiche Carampane",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "A Michelin-recommended restaurant specializing in fish and seafood prepared with innovative techniques while respecting Venetian traditions. Intimate setting with impeccable service and creative presentations.",
-      "mustTry": "Risotto al nero di seppia (squid ink risotto)"
-    },
-    {
-      "name": "Trattoria da Fiore",
       "category": "Midrange",
       "priceRange": "$$$",
-      "description": "A family-run trattoria offering genuine Venetian seafood dishes with fresh daily catches prepared simply and elegantly. Known for reasonable prices and welcoming atmosphere in the heart of Venice.",
-      "mustTry": "Branzino al forno (roasted sea bass)"
+      "description": "Historic seafood restaurant with elegant ambiance and traditional Venetian recipes executed with precision and quality ingredients. Beautiful presentation and attentive service.",
+      "mustTry": "Bigoli in salsa"
     },
     {
-      "name": "All'Arco",
+      "name": "Al Covo",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant focusing on seasonal ingredients and traditional Venetian cuisine elevated to fine dining standards. Intimate setting with impeccable service and wine pairings.",
+      "mustTry": "Risotto del Pescatore"
+    },
+    {
+      "name": "Vecio Fritelle",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A standing-room-only bar famous for its incredible selection of fresh cicchetti and Venetian snacks paired with local wine. Perfect for a quick, affordable, and authentic Venetian meal.",
-      "mustTry": "Mozzarella and prosciutto panini"
+      "description": "Street food vendor famous for fried pastries and sweet treats, perfect for quick breakfast or snacks while exploring the city. Quick, affordable, and authentically Venetian.",
+      "mustTry": "Fritelle (fried pastries)"
+    },
+    {
+      "name": "Trattoria Corte Sconta",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Charming family-run trattoria hidden in a quiet courtyard, known for fresh seafood and traditional pasta dishes in a genuine Venetian atmosphere. Reservations essential.",
+      "mustTry": "Grilled branzino"
+    },
+    {
+      "name": "Cantina do Spade",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic wine bar and osteria offering excellent Venetian cicchetti and local wines in an intimate, centuries-old space. Perfect for aperitivo hour.",
+      "mustTry": "Mixed cicchetti platter"
+    },
+    {
+      "name": "Riserva Vigna Dea",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-frills pizzeria near the train station offering affordable pizza and basic Italian fare for budget-conscious travelers. Quick service and generous portions.",
+      "mustTry": "Margherita pizza"
+    },
+    {
+      "name": "La Caravella",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant restaurant with Michelin recognition, featuring refined interpretations of traditional Venetian and Italian cuisine in a sophisticated setting. Exceptional wine list and sommelier service.",
+      "mustTry": "Lobster and seafood creations"
+    },
+    {
+      "name": "Pasticceria Tonolo",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic pastry shop and café famous for Venetian desserts and breakfast treats, a perfect spot for morning coffee and fresh croissants. Stands at counter or seating available.",
+      "mustTry": "Pandoro and traditional Venetian cakes"
     },
     {
       "name": "Ristorante Quadri",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Three Michelin stars with panoramic views over Saint Mark's Square, offering contemporary interpretation of Venetian cuisine. An exceptional dining experience combining art, history, and culinary excellence.",
-      "mustTry": "Delicate seafood tasting menu"
+      "description": "Iconic restaurant overlooking St. Mark's Square with panoramic terraces, offering modern Venetian cuisine in one of the city's most prestigious locations. Unbeatable views and refined service.",
+      "mustTry": "Seasonal risotto with lagoon views"
     },
     {
-      "name": "Cantina do Mori",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "One of Venice's oldest wine bars, offering excellent local wines and delicious small bites in a charming historic setting. A perfect spot for authentic Venetian aperitivo culture.",
-      "mustTry": "Polpettone (meatballs)"
-    },
-    {
-      "name": "Gelato Fantasy",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Highly-rated gelateria offering authentic Italian gelato made fresh daily with premium ingredients and unique flavors. A refreshing treat while exploring the city.",
-      "mustTry": "Pistachio or hazelnut gelato"
-    },
-    {
-      "name": "Osteria alle Testiere",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "A charming seafood-focused osteria with only ten seats, requiring advance reservations and offering an intimate dining experience. Each dish highlights the finest local fish and seasonal ingredients.",
-      "mustTry": "Branzino carpaccio"
-    },
-    {
-      "name": "Rosticceria San Bartolomeo",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "A historic roasted meat and pasta stand operating since 1500s, serving affordable and hearty Venetian comfort food. Popular with locals for quick, delicious meals.",
-      "mustTry": "Roasted chicken with polenta"
-    },
-    {
-      "name": "Ristorante da Ivo",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Award-winning restaurant specializing in Venetian classics with impeccable technique and premium ingredients presented in an elegant setting. Known for exceptional service and consistency.",
-      "mustTry": "Risotto with scallops and white truffle"
-    },
-    {
-      "name": "Pasticceria Marchini",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Legendary pastry shop famous for traditional Venetian sweets like panettone and fritelle served with coffee or hot chocolate. A perfect stop for breakfast or afternoon snack.",
-      "mustTry": "Fritelle (fried cream pastries)"
-    },
-    {
-      "name": "Trattoria Dalla Marisa",
-      "category": "Midrange",
+      "name": "All'Arco",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Family-run restaurant serving only what Marisa has decided to cook that day using fresh market produce. An authentic, ever-changing menu reflecting true Venetian home cooking.",
-      "mustTry": "Chef's daily special seafood dishes"
+      "description": "Tiny standing-room-only bar famous for creative cicchetti and natural wines, essential for experiencing authentic Venetian aperitivo culture. Always crowded but worth the wait.",
+      "mustTry": "Tramezzini sandwiches with house wine"
     }
   ],
   "activities": [
     {
       "name": "Basilica di San Marco Tour",
       "category": "Cultural",
-      "description": "Explore the stunning Byzantine and Venetian architecture of Venice's most iconic cathedral, featuring intricate mosaics, golden domes, and reliquaries. Climb the bell tower for panoramic city views.",
-      "durationHours": 2,
+      "description": "Explore the stunning Byzantine masterpiece decorated with mosaics and golden treasures, including visits to the Pala d'Oro and Museo di San Marco. Multiple entry levels and detailed architecture warrant 2-3 hours.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
@@ -140,11 +140,11 @@
       ]
     },
     {
-      "name": "Gondola Ride at Sunset",
-      "category": "Relaxation",
-      "description": "Experience Venice's most iconic activity by gliding through peaceful canals on a traditional gondola piloted by a singing gondolier. A romantic and quintessentially Venetian experience.",
+      "name": "Grand Canal Gondola Ride",
+      "category": "Outdoor",
+      "description": "Classic Venice experience gliding through the city's main waterway in a traditional gondola, passing palaces, bridges, and local life from a unique water-level perspective. Shared or private options available.",
       "durationHours": 1,
-      "estimatedCostUSD": 80,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "relaxation",
@@ -154,8 +154,8 @@
     {
       "name": "Doge's Palace and Prison Tour",
       "category": "Cultural",
-      "description": "Visit the residence and seat of power of Venetian rulers, featuring magnificent Gothic architecture, secret passages, and historic prison cells. Includes the infamous Bridge of Sighs.",
-      "durationHours": 2.5,
+      "description": "Walk through the opulent rooms of the former seat of Venetian power and descend into the famous Bridge of Sighs prison cells with audio guide. Rich history and stunning renaissance architecture throughout.",
+      "durationHours": 2,
       "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
@@ -163,44 +163,45 @@
       ]
     },
     {
-      "name": "Free Walking Tour of Venetian Neighborhoods",
+      "name": "Free Walking Tour of Hidden Neighborhoods",
       "category": "Outdoor",
-      "description": "Wander through authentic residential neighborhoods like Cannaregio and Dorsoduro discovering local life, hidden squares, and charming bridges beyond tourist areas. Tips-based tours available.",
+      "description": "Explore lesser-known areas of Venice beyond the main tourist routes, discovering quiet campos, local shops, and authentic neighborhood life with an expert guide. Perfect for understanding real Venetian culture.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "hidden-gems",
         "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Rialto Bridge and Market Visit",
+      "category": "Outdoor",
+      "description": "Browse the iconic Rialto Market for fresh produce, seafood, and local products, then explore the historic bridge with fantastic views of the Grand Canal. Best visited early morning before crowds.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "foodie",
+        "photography",
         "standard"
       ]
     },
     {
-      "name": "Murano Island Glass Blowing Demonstration",
-      "category": "Cultural",
-      "description": "Take a vaporetto to the island of Murano to watch master glassblowers create intricate pieces using centuries-old techniques. Many workshops offer demonstrations and shopping.",
-      "durationHours": 3,
-      "estimatedCostUSD": 35,
+      "name": "Island Hopping: Murano and Burano",
+      "category": "Outdoor",
+      "description": "Day trip to the colorful fishing village of Burano and the glassmaking island of Murano by vaporetto, visiting workshops, museums, and enjoying fresh seafood restaurants. Authentic Venetian lagoon experience.",
+      "durationHours": 6,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Burano Island Exploration",
-      "category": "Outdoor",
-      "description": "Visit the vibrantly colorful fishing village known for its brilliantly painted houses, lace-making tradition, and charming harbor. A photographer's paradise with authentic local character.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
         "photography",
-        "hidden-gems",
-        "relaxation"
+        "foodie"
       ]
     },
     {
-      "name": "Accademia Gallery Museum",
+      "name": "Accademia Gallery Art Museum",
       "category": "Cultural",
-      "description": "House Venice's most important art collection featuring masterworks by Venetian painters including Bellini, Giorgione, and Titian. Essential for understanding Venetian Renaissance art and history.",
+      "description": "One of Europe's most important art galleries housing masterpieces by Venetian masters including Bellini, Giorgione, and Titian in a former convent setting. Essential for art lovers.",
       "durationHours": 2,
       "estimatedCostUSD": 12,
       "bestFor": [
@@ -209,216 +210,215 @@
       ]
     },
     {
-      "name": "San Giorgio Maggiore Island Visit",
-      "category": "Cultural",
-      "description": "Visit this stunning island monastery featuring a white church designed by Palladio with exceptional views back to Venice. The elevator in the bell tower provides 360-degree vistas.",
+      "name": "Sunset Vaporetto Ride",
+      "category": "Relaxation",
+      "description": "Jump on a public vaporetto (water bus) and ride the outer lagoon routes to watch the sunset from the water while mingling with locals. Affordable and peaceful way to experience Venice's water culture.",
       "durationHours": 1.5,
-      "estimatedCostUSD": 10,
+      "estimatedCostUSD": 8,
       "bestFor": [
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Rialto Market Shopping and Exploration",
-      "category": "Outdoor",
-      "description": "Explore Venice's historic market district featuring colorful fruit and vegetable stalls, fresh fish vendors, and local shops selling Venetian specialties. Vibrant and authentic Venetian commerce.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "foodie",
-        "hidden-gems",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Pinacoteca Franchetti at Ca' d'Oro",
-      "category": "Cultural",
-      "description": "Discover this lesser-known art gallery housed in a stunning Gothic palace along the Grand Canal. Features important works by Mantegna, Titian, and other masters in an intimate setting.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "hidden-gems",
-        "photography"
-      ]
-    },
-    {
-      "name": "Nighttime Bridge Walks and Photography",
-      "category": "Nightlife",
-      "description": "Explore Venice's bridges and canals after dark when atmospheric lighting creates magical photographic opportunities. Venice takes on a mystical quality with fewer crowds and stunning reflections.",
+      "name": "Carnival Mask Workshop",
+      "category": "Indoor",
+      "description": "Participate in creating your own Venetian carnival mask with traditional techniques and materials under expert guidance. Souvenir you make yourself with deep cultural connection.",
       "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Lagoon Islands Day Trip (Torcello, Murano, Burano)",
-      "category": "Adventure",
-      "description": "Visit all three islands in the Venetian lagoon in one comprehensive day trip using vaporetto transportation. Experience diverse island character from historic Torcello ruins to colorful Burano.",
-      "durationHours": 6,
-      "estimatedCostUSD": 50,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Torcello Island Basilica and Nature Walk",
+      "category": "Outdoor",
+      "description": "Explore the quiet, peaceful island of Torcello with its ancient cathedral and beautiful mosaics, surrounded by lagoon nature and few tourists. Perfect for escaping crowds.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "hidden-gems",
         "photography",
-        "adventure"
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Bacino Orseolo Gondola Serenade",
+      "category": "Cultural",
+      "description": "Evening gondola ride with professional singers performing traditional Venetian songs, offering an iconic but touristy romantic experience. Book in advance for better rates.",
+      "durationHours": 1,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Basilica di Santa Maria della Salute",
+      "category": "Cultural",
+      "description": "Visit the iconic octagonal baroque basilica featuring masterworks by Titian and Tintoretto, located prominently where the Grand Canal meets the San Marco Basin. Free entry with stunning interiors.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Rialto Bridge at Dawn",
-        "description": "Capture the iconic Renaissance bridge with minimal crowds and soft morning light reflecting off the Grand Canal.",
+        "name": "St. Mark's Square at Dawn",
+        "description": "Capture the basilica and bell tower with morning light reflecting off the wet plaza before crowds arrive, with soft golden tones ideal for architecture shots.",
         "difficulty": "Beginner",
-        "bestTime": "6:00 AM - 7:30 AM",
+        "bestTime": "5:00-7:00 AM",
         "category": "Architecture"
       },
       {
-        "name": "Saint Mark's Basilica Golden Hour",
-        "description": "Photograph the stunning Byzantine domes and mosaics bathed in warm golden light with dramatic sky reflections.",
+        "name": "Rialto Bridge From Below",
+        "description": "Photograph the iconic bridge reflected in the Grand Canal from water level, capturing its arches and the bustling market activity with beautiful leading lines.",
         "difficulty": "Intermediate",
-        "bestTime": "4:30 PM - 6:00 PM",
+        "bestTime": "Golden hour (6:00-7:30 AM or 4:30-6:00 PM)",
         "category": "Architecture"
       },
       {
-        "name": "Burano Colorful Houses",
-        "description": "Capture the iconic brilliantly-colored facades reflected in the water canal with fishing boats as foreground elements.",
+        "name": "Grand Canal From Accademia Bridge",
+        "description": "Stunning vantage point showing the full sweep of the Grand Canal with palaces, boats, and bridges creating perfect composition with depth and layering.",
         "difficulty": "Beginner",
-        "bestTime": "8:00 AM - 10:00 AM",
+        "bestTime": "Morning light (7:00-9:00 AM) or late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Burano Fishing Village Reflections",
+        "description": "Capture the vibrant colorful houses reflected in the canal water, with boats and laundry creating dynamic street photography opportunities with bold color palettes.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning (6:30-8:30 AM) before tourist crowds",
         "category": "Street"
       },
       {
-        "name": "Grand Canal from Accademia Bridge",
-        "description": "Wide view of Venice's most important waterway with historic palaces, boats, and architectural details.",
-        "difficulty": "Beginner",
-        "bestTime": "7:00 AM - 8:00 AM",
+        "name": "Gondolier Portrait at Gondola Station",
+        "description": "Street photography capturing gondoliers in their traditional striped shirts and straw hats with the romantic canal backdrop, perfect for cultural portraiture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning (8:00-10:00 AM) when gondoliers prepare boats",
+        "category": "Street"
+      },
+      {
+        "name": "Basilica di Santa Maria della Salute at Sunset",
+        "description": "Photograph the iconic baroque dome silhouetted against golden sky from the water, with the structure perfectly reflected in the canal during magic hour.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset (4:30-6:30 PM depending on season)",
         "category": "Architecture"
       },
       {
-        "name": "Back Alley Reflections in Water",
-        "description": "Find intimate Venetian street scenes with water reflections of historic buildings, bridges, and colorful weathered textures.",
+        "name": "Quiet Campo (Square) Detail Shots",
+        "description": "Capture intricate details of well-head covers, architectural decorations, and atmospheric alleyway scenes in the lesser-known squares away from main tourist areas.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning (10:00 AM-12:00 PM) for soft side-lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Murano Glass Factory Interior",
+        "description": "Photograph the dramatic lighting of molten glass artisans at work, with intense orange glows and skilled hands creating traditional Murano glass.",
         "difficulty": "Advanced",
-        "bestTime": "Soft light hours (morning/evening)",
-        "category": "Street"
-      },
-      {
-        "name": "San Giorgio Maggiore Night Lights",
-        "description": "Photograph the illuminated white church reflected in lagoon waters with Venice's twinkling lights in the background.",
-        "difficulty": "Intermediate",
-        "bestTime": "7:30 PM - 9:00 PM",
+        "bestTime": "Morning workshops (9:00-11:00 AM) with permission",
         "category": "Night"
       },
       {
-        "name": "Basilica di Santa Maria della Salute Sunset",
-        "description": "Capture the distinctive octagonal church silhouetted against dramatic sunset colors reflected in the canal.",
-        "difficulty": "Intermediate",
-        "bestTime": "5:00 PM - 6:30 PM",
-        "category": "Architecture"
-      },
-      {
-        "name": "Torcello Cathedral Wide Landscape",
-        "description": "Photograph the ancient cathedral isolated in the lagoon with surrounding marshlands creating a unique atmospheric perspective.",
-        "difficulty": "Intermediate",
-        "bestTime": "7:00 AM - 9:00 AM",
-        "category": "Landscape"
-      },
-      {
-        "name": "Venetian Gondolas Misty Morning",
-        "description": "Capture silhouetted gondolas creating layered compositions in atmospheric fog over calm water channels.",
+        "name": "Venice at Night From Ponte dei Sospiri",
+        "description": "Capture the atmospheric night lighting of the Bridge of Sighs and surrounding architecture with canal reflections creating moody, romantic compositions.",
         "difficulty": "Advanced",
-        "bestTime": "5:30 AM - 7:00 AM",
-        "category": "Street"
+        "bestTime": "Night (8:00 PM-11:00 PM) with tripod",
+        "category": "Night"
       },
       {
-        "name": "Venetian Windows and Architectural Details",
-        "description": "Macro photography of ornate window frames, door knockers, well-heads, and weathered textures revealing Venice's layered history.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning soft light",
+        "name": "Torcello Cathedral Mosaics in Sidelight",
+        "description": "Photograph the intricate Byzantine mosaics with dramatic sidelight bringing out texture and golden details in the ancient basilica interior.",
+        "difficulty": "Advanced",
+        "bestTime": "Mid-morning (10:00 AM-12:00 PM) when side-light enters windows",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Rialto Bridge",
-      "San Giorgio Maggiore Island",
-      "Torcello Cathedral in the Lagoon"
+      "St. Mark's Basilica Square (Piazza San Marco)",
+      "Rialto Bridge from Riva del Ferro",
+      "Torcello Cathedral Island"
     ],
     "sunsetSpots": [
-      "Saint Mark's Basilica and Square",
-      "San Giorgio Maggiore Island",
-      "Accademia Bridge over Grand Canal"
+      "Santa Maria della Salute Basilica",
+      "Fondamenta delle Zattere waterfront",
+      "Academy Bridge (Ponte dell'Accademia)"
     ],
     "lensRecommendations": [
-      "Wide-angle 14-24mm for architectural vistas and full church facades from narrow streets",
-      "50mm or 35mm prime for intimate street photography and detail work in tight alleyways",
-      "70-200mm telephoto for compressed lagoon perspectives and distant island details",
-      "Macro lens or extension tubes for ornamental details, weathered textures, and reflection patterns"
+      "16-35mm wide angle for architecture and sweeping canal views",
+      "50mm prime for street portraiture and detail shots in quiet campos",
+      "70-200mm telephoto for compressed perspective of distant palaces and street details",
+      "Macro lens (90-105mm) for intricate architectural details and well-head carvings"
     ],
-    "goldenHourNotes": "Venice's narrow streets and tall buildings create challenging light conditions, but the golden hour offers spectacular color enhancement of the aged architecture and canal reflections. Early morning light (6:00-8:00 AM) is often superior to evening as it illuminates east-facing facades and minimizes shadows from adjacent buildings. The lagoon islands receive unobstructed golden light providing opportunities for dramatic silhouettes and atmospheric perspective.",
+    "goldenHourNotes": "Venice's golden hour is exceptionally magical due to the water reflections that amplify warm tones and create shimmering light on canal surfaces. Early morning (6:30-8:00 AM) offers clearer skies and fewer crowds for pristine architecture shots, while sunset (4:30-6:30 PM) provides dramatic backlighting and silhouettes. Water-level perspectives from gondolas or vaporettos capture reflections that double the golden light impact.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 3,
-        "rainfallMM": 75
+        "avgTempC": 4,
+        "rainfallMM": 55
       },
       {
         "month": 2,
-        "avgTempC": 4,
-        "rainfallMM": 68
+        "avgTempC": 5,
+        "rainfallMM": 48
       },
       {
         "month": 3,
-        "avgTempC": 9,
-        "rainfallMM": 60
+        "avgTempC": 10,
+        "rainfallMM": 52
       },
       {
         "month": 4,
-        "avgTempC": 14,
-        "rainfallMM": 68
-      },
-      {
-        "month": 5,
-        "avgTempC": 19,
+        "avgTempC": 15,
         "rainfallMM": 65
       },
       {
-        "month": 6,
-        "avgTempC": 23,
-        "rainfallMM": 72
-      },
-      {
-        "month": 7,
-        "avgTempC": 26,
-        "rainfallMM": 60
-      },
-      {
-        "month": 8,
-        "avgTempC": 25,
+        "month": 5,
+        "avgTempC": 21,
         "rainfallMM": 68
       },
       {
+        "month": 6,
+        "avgTempC": 25,
+        "rainfallMM": 73
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 58
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 64
+      },
+      {
         "month": 9,
-        "avgTempC": 21,
-        "rainfallMM": 82
+        "avgTempC": 23,
+        "rainfallMM": 70
       },
       {
         "month": 10,
-        "avgTempC": 15,
-        "rainfallMM": 85
+        "avgTempC": 17,
+        "rainfallMM": 75
       },
       {
         "month": 11,
-        "avgTempC": 9,
-        "rainfallMM": 92
+        "avgTempC": 11,
+        "rainfallMM": 78
       },
       {
         "month": 12,
-        "avgTempC": 4,
-        "rainfallMM": 85
+        "avgTempC": 6,
+        "rainfallMM": 65
       }
     ],
     "bestMonths": [
@@ -427,31 +427,31 @@
       9,
       10
     ],
-    "seasonality": "Spring (April-May) and fall (September-October) offer pleasant temperatures, manageable rainfall, and fewer crowds than summer. Summer (June-August) is hot and humid with peak tourist season, while winter (November-February) brings cold temperatures, frequent rainfall, and occasional flooding (acqua alta).",
-    "summary": "Venice's Mediterranean climate features mild to warm summers and cool, wet winters. The best time to visit is late spring or early fall when weather is comfortable, daylight is excellent for photography, and tourism is less intense than peak summer."
+    "seasonality": "Spring (April-May) and Fall (September-October) offer ideal temperatures, lower humidity, and fewer peak-season crowds. Summer brings hot weather and maximum tourism, while winter is cool, wet, and prone to acqua alta (high water flooding), though fewer visitors create a more authentic atmosphere.",
+    "summary": "Venice has a Mediterranean climate with mild winters and warm summers, though proximity to the Adriatic Sea creates higher humidity and significant rainfall year-round. The best visiting periods are late spring and early fall when weather is pleasant and crowds more manageable than summer peak season."
   },
   "hotels": [
     {
       "name": "Ostello Santa Fosca",
       "neighborhood": "Cannaregio",
-      "pricePerNightUSD": 45,
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Clean, well-maintained hostel offering private and dormitory rooms in a quiet local neighborhood, perfect for budget travelers seeking authentic Venetian experience away from crowded tourist areas."
+      "description": "Hostel with private rooms and dorm options in a quiet neighborhood away from tourist chaos, featuring helpful staff and basic but clean accommodations for budget travelers."
     },
     {
-      "name": "Hotel Arcadia",
-      "neighborhood": "Dorsoduro",
-      "pricePerNightUSD": 165,
+      "name": "Hotel Rialto",
+      "neighborhood": "San Polo",
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Charming three-star hotel in a peaceful residential area featuring comfortable rooms with Venetian decor, helpful staff, and excellent proximity to museums and the Accademia."
+      "description": "Comfortable 3-star hotel directly overlooking the Rialto Bridge with traditional Venetian decor, excellent central location, and friendly service at reasonable mid-range prices."
     },
     {
-      "name": "Gritti Palace",
-      "neighborhood": "San Marco",
-      "pricePerNightUSD": 550,
+      "name": "Palazzo Venart Luxury Hotel",
+      "neighborhood": "Santa Croce",
+      "pricePerNightUSD": 650,
       "category": "Luxury",
-      "description": "Five-star palace hotel with unparalleled Grand Canal views, Michelin-starred restaurant, spa facilities, and impeccable service in one of Venice's most prestigious historic properties."
+      "description": "Ultra-luxury 5-star palace hotel featuring authentic Venetian architecture, museum-quality art collections, impeccable service, and a grand courtyard providing rare private outdoor space in Venice."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1482690205767-61deebe15ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxWZW5pY2UlMjBjYW5hbHMlMjBJdGFseXxlbnwxfDB8fHwxNzgxNTYyMjc5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1504843812413-16480b674871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxWZW5pY2UlMjBJdGFseSUyMGNhbmFsc3xlbnwxfDB8fHwxNzgxNjI5Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

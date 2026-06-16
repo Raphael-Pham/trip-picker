@@ -14,15 +14,14 @@
     "surprise",
     "photography",
     "foodie",
-    "relaxation",
-    "cultural"
+    "relaxation"
   ],
   "scores": {
-    "cost": 72,
-    "food": 88,
-    "photography": 92,
+    "cost": 75,
+    "food": 85,
+    "photography": 90,
     "activities": 85,
-    "weather": 78
+    "weather": 80
   },
   "budgetRanges": [
     {
@@ -32,435 +31,427 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 80,
+      "minPerDayUSD": 70,
       "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Cartagena colonial walled city",
-  "summary": "Cartagena is a UNESCO World Heritage gem featuring centuries-old Spanish colonial architecture, vibrant Caribbean culture, and pristine beaches just offshore. With its colorful streets, local cuisine, and tropical climate, it offers an intoxicating blend of history, relaxation, and adventure. The city perfectly balances cultural exploration with laid-back Caribbean charm.",
+  "unsplashQuery": "Cartagena colorful historic",
+  "summary": "Cartagena is a beautifully preserved colonial walled city on Colombia's Caribbean coast, renowned for its vibrant pastel-colored architecture, cobblestone streets, and romantic atmosphere. The destination seamlessly blends rich history, world-class cuisine, and Caribbean charm, making it one of South America's most photogenic and culturally significant destinations. Perfect for culture lovers, foodies, and photographers seeking an authentic Caribbean experience.",
   "restaurants": [
     {
-      "name": "La Cevichería",
+      "name": "El Boliche Cartagenero",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Casual seafood restaurant specializing in fresh ceviches and coastal Colombian dishes with oceanfront views. A favorite among locals and travelers seeking authentic Caribbean flavors.",
-      "mustTry": "Mixed ceviche with plantain chips"
+      "description": "Traditional Colombian grilled meats and local specialties in a casual, authentic setting. Family-run establishment serving hearty portions of regional cuisine.",
+      "mustTry": "Bandeja Paisa and grilled fish"
     },
     {
-      "name": "Café San Juan",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Family-run café serving traditional Colombian breakfast and lunch items in a cozy colonial setting. Perfect for authentic arepas, bandeja paisa, and fresh tropical juices.",
-      "mustTry": "Arepa con queso de mano"
-    },
-    {
-      "name": "Divino",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale Mediterranean restaurant with creative fusion cuisine and an extensive wine list in a romantic historic building. Chef-curated tasting menus showcase local ingredients with European techniques.",
-      "mustTry": "Pan-seared fish with Caribbean spices"
-    },
-    {
-      "name": "El Boliche de San Blas",
-      "category": "Midrange",
+      "name": "Cevichería El Rodadero",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Traditional Colombian steakhouse featuring grilled meats and local specialties in a vibrant atmosphere. Known for warm hospitality and generous portions.",
-      "mustTry": "Grilled red snapper with coconut rice"
+      "description": "Seafood-focused restaurant specializing in fresh ceviches and coastal dishes. Known for vibrant flavors and generous portions.",
+      "mustTry": "Mixed seafood ceviche"
     },
     {
       "name": "Gato Negro",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Intimate restaurant blending Caribbean and international cuisine in a candlelit colonial courtyard. Focuses on seasonal ingredients and artistic presentation.",
-      "mustTry": "Seared scallops with passion fruit sauce"
+      "priceRange": "$$$$",
+      "description": "Contemporary Colombian cuisine with international influences served in an elegant colonial setting. Chef-driven menu highlighting local ingredients.",
+      "mustTry": "Duck confit with tropical fruits"
     },
     {
-      "name": "María",
+      "name": "La Vitrola",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Romantic restaurant in the old walled city featuring Mediterranean and Colombian fusion cuisine. Charming vintage atmosphere with live music.",
+      "mustTry": "Seafood pasta and mojitos"
+    },
+    {
+      "name": "Mondongo por Aquí",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Street-level eatery offering authentic Colombian comfort food including arepas, patacones, and fresh seafood soups. A genuine local experience without tourism markup.",
-      "mustTry": "Sopa de mariscos"
+      "description": "Street food and casual eats serving traditional Colombian street snacks and light meals. Popular with locals for affordable, authentic flavors.",
+      "mustTry": "Empanadas and arepas"
     },
     {
-      "name": "Artisan",
+      "name": "Café del Mar",
       "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Contemporary Colombian cuisine highlighting traditional recipes with modern presentation in a stylish setting. Farm-to-table approach using local Caribbean produce.",
-      "mustTry": "Mofongo with local shrimp"
-    },
-    {
-      "name": "Club de Pesca",
-      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Waterfront seafood restaurant with fresh daily catches and Caribbean-inspired dishes overlooking the Caribbean Sea. Established institution with refined atmosphere.",
-      "mustTry": "Grilled lobster with garlic butter"
+      "description": "Beachfront dining with fresh seafood and Caribbean-inspired dishes overlooking the Caribbean Sea. Perfect for sunset dining.",
+      "mustTry": "Grilled barracuda with coconut rice"
     },
     {
-      "name": "Bes't",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Casual spot serving authentic Colombian cuisine and fresh juices in the heart of the Old City. Known for generous portions and friendly service.",
-      "mustTry": "Caldo de costilla with vegetables"
-    },
-    {
-      "name": "Santo de Carne",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Authentic Colombian grill house offering prime cuts of meat and traditional sides in rustic surroundings. Popular with locals for celebrations and gatherings.",
-      "mustTry": "Carne asada with arepas"
-    },
-    {
-      "name": "Café del Criollismo",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Charming café serving traditional Cartagenian breakfast items, empanadas, and Colombian coffee in a historic setting. Perfect introduction to local flavors.",
-      "mustTry": "Empanada de carne"
-    },
-    {
-      "name": "Sibu",
+      "name": "Arthococo",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale Asian fusion restaurant showcasing Japanese, Thai, and contemporary techniques with Caribbean ingredients. Multi-course tasting menus in an elegant setting.",
-      "mustTry": "Peruvian-style ceviche with wasabi"
+      "description": "Upscale coconut-themed restaurant offering innovative Caribbean cuisine in an intimate, artistic space. Farm-to-table approach with local ingredients.",
+      "mustTry": "Coconut-crusted fish"
+    },
+    {
+      "name": "Carmen",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant in a restored mansion showcasing modern Colombian gastronomy. Creative tasting menus highlighting regional flavors.",
+      "mustTry": "Tasting menu with local seafood"
+    },
+    {
+      "name": "Héroes",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Colombian diner offering comfort food and traditional breakfast items. Excellent value for money in the city center.",
+      "mustTry": "Calentado and fresh juices"
+    },
+    {
+      "name": "Qué Tal Cartagena",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Colombian cuisine with creative presentations in a relaxed setting. Focus on seasonal ingredients and traditional recipes.",
+      "mustTry": "Rondón de mariscos"
+    },
+    {
+      "name": "Fuerte San Felipe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Simple seafood restaurant near the fort offering fresh catch of the day. Authentic local experience with ocean views.",
+      "mustTry": "Whole grilled snapper"
+    },
+    {
+      "name": "Balcon del Macondo",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Literary-themed restaurant inspired by García Márquez, serving Colombian and Caribbean cuisine. Atmospheric venue with books and artistic décor.",
+      "mustTry": "Arroz con mariscos"
     }
   ],
   "activities": [
     {
-      "name": "Walking Tour of Walled Old City",
+      "name": "Explore the Walled City",
       "category": "Cultural",
-      "description": "Guided or self-directed exploration of UNESCO-listed colonial architecture, colorful streets, and historic plazas. Discover hidden courtyards, churches, and centuries-old buildings in the heart of Cartagena.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
+      "description": "Wander through the UNESCO World Heritage-listed Old Town with its colorful colonial buildings, narrow cobblestone streets, and historic plazas. Discover hidden courtyards, boutique shops, and street art.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "cultural"
+        "surprise"
       ]
     },
     {
-      "name": "Island Hopping to Rosario Islands",
+      "name": "Rosario Islands Day Trip",
       "category": "Outdoor",
-      "description": "Day boat tour visiting pristine coral islands with white-sand beaches and crystal-clear waters perfect for snorkeling. Includes lunch and multiple stops at different islands with marine life viewing.",
+      "description": "Take a boat to the pristine Rosario Islands for snorkeling, swimming, and beach relaxation. Visit multiple islands with white sand beaches and crystal-clear Caribbean waters.",
       "durationHours": 8,
-      "estimatedCostUSD": 50,
+      "estimatedCostUSD": 45,
       "bestFor": [
-        "adventure",
+        "standard",
         "relaxation",
-        "photography"
+        "adventure"
       ]
     },
     {
-      "name": "Castillo San Felipe de Barajas",
+      "name": "San Felipe de Barajas Fort",
       "category": "Cultural",
-      "description": "Self-guided exploration of this impressive 16th-century fortress with tunnels, ramparts, and panoramic city views. Learn about colonial military architecture and Caribbean history.",
+      "description": "Tour the massive 18th-century fortress with underground tunnels and panoramic views of the city and bay. Learn about Colombia's colonial military history.",
       "durationHours": 2,
       "estimatedCostUSD": 8,
       "bestFor": [
         "standard",
         "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Caribbean Sunset Dinner Cruise",
-      "category": "Relaxation",
-      "description": "Evening boat excursion with buffet dinner, drinks, and live music while sailing the Caribbean coast at golden hour. Romantic experience with stops for sunset viewing and swimming.",
-      "durationHours": 4,
-      "estimatedCostUSD": 70,
-      "bestFor": [
-        "relaxation",
-        "foodie",
         "surprise"
       ]
     },
     {
-      "name": "Getsemaní Street Art Tour",
+      "name": "Getsemaní Neighborhood Street Art Tour",
       "category": "Cultural",
-      "description": "Guided walk through the bohemian Getsemaní neighborhood showcasing vibrant street art, street culture, and local artist studios. Includes stops at trendy cafés and independent shops.",
+      "description": "Discover vibrant street murals, graffiti art, and local galleries in the trendy Getsemaní district. Explore independent shops, cafés, and nightlife venues.",
       "durationHours": 3,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "photography",
-        "hidden-gems",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Snorkeling at Coral Reefs",
-      "category": "Adventure",
-      "description": "Guided snorkeling expedition to nearby coral reefs teeming with tropical fish, sea turtles, and marine biodiversity. Equipment provided with experienced guide and small group settings.",
-      "durationHours": 5,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "San Diego Historic Walking Tour",
-      "category": "Cultural",
-      "description": "Self-guided exploration of the San Diego neighborhood featuring colonial mansions, plazas, and the iconic clock tower. Walk along city walls with Caribbean Sea views.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
         "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Volcán de Lodo El Totumo",
-      "category": "Adventure",
-      "description": "Day trip to a natural mud volcano where visitors float in mineral-rich mud pools followed by freshwater rinsing in nearby lagoon. Unique wellness experience with healing properties.",
-      "durationHours": 6,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "adventure",
-        "surprise",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Cartagena Night Food Tour",
-      "category": "Foodie",
-      "description": "Evening guided walking tour sampling street food, local snacks, and regional specialties from multiple vendors across neighborhoods. Includes tastings of typical drinks and desserts.",
-      "durationHours": 3,
-      "estimatedCostUSD": 60,
-      "bestFor": [
-        "foodie",
-        "cultural",
         "surprise"
       ]
     },
     {
-      "name": "Botero Museum Tour",
-      "category": "Indoor",
-      "description": "Visit the dedicated museum showcasing works by renowned Colombian artist Fernando Botero featuring distinctive voluptuous figures. Climate-controlled gallery in a colonial palace.",
-      "durationHours": 2,
-      "estimatedCostUSD": 12,
+      "name": "Caribbean Cooking Class",
+      "category": "Cultural",
+      "description": "Learn to prepare authentic Colombian and Caribbean dishes from professional chefs. Includes market visit and meal tasting.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
       "bestFor": [
-        "cultural",
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Relaxation",
+      "description": "Sail along the Caribbean coast at sunset with drinks and snacks. Swim in secluded spots and enjoy dolphin watching opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "relaxation",
         "photography",
         "standard"
       ]
     },
     {
-      "name": "Caribbean Beach Relaxation at Bocagrande",
-      "category": "Relaxation",
-      "description": "Spend the day on pristine beach with resort facilities, water sports options, and oceanfront restaurants. Perfect for swimming, sunbathing, and people-watching.",
-      "durationHours": 6,
-      "estimatedCostUSD": 25,
+      "name": "La Boquilla Village Visit",
+      "category": "Cultural",
+      "description": "Experience authentic local culture in this coastal fishing village. Tour mangrove forests by boat and meet fishermen in their natural habitat.",
+      "durationHours": 4,
+      "estimatedCostUSD": 30,
       "bestFor": [
-        "relaxation",
         "standard",
-        "family"
+        "surprise",
+        "photography"
       ]
     },
     {
-      "name": "Local Market Tour at Market Square",
-      "category": "Cultural",
-      "description": "Guided exploration of local markets featuring tropical fruits, flowers, spices, and traditional crafts. Learn about Colombian agriculture and local economy directly from vendors.",
-      "durationHours": 2,
-      "estimatedCostUSD": 18,
+      "name": "Beach Club at Playa Blanca",
+      "category": "Relaxation",
+      "description": "Spend a day at a Caribbean beach with white sand, parasol umbrellas, and all-inclusive amenities. Includes lunch and drinks.",
+      "durationHours": 6,
+      "estimatedCostUSD": 40,
       "bestFor": [
-        "foodie",
-        "cultural",
-        "hidden-gems"
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Colombia Museum",
+      "category": "Cultural",
+      "description": "Learn about Colombian history, archaeology, and culture through extensive exhibits. Houses pre-Columbian artifacts and contemporary art.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Nightlife and Salsa Dancing",
+      "category": "Nightlife",
+      "description": "Experience live salsa music and dancing at authentic clubs in the historic center or beach clubs. Mix of tourist and local venues.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Convent of San Pedro Claver",
+      "category": "Cultural",
+      "description": "Visit this historic colonial convent and religious museum dedicated to the missionary saint. Explore cloisters, chapels, and religious art.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Spa and Wellness Treatment",
+      "category": "Relaxation",
+      "description": "Indulge in Caribbean-inspired spa treatments using local ingredients. Choose from massages, facials, and traditional therapies.",
+      "durationHours": 2,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "relaxation",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Castillo San Felipe de Barajas at Dawn",
-        "description": "Fortress walls illuminate with soft morning light creating dramatic architectural shadows and textures against the sky.",
+        "name": "Plaza Santo Domingo",
+        "description": "Iconic square surrounded by colorful colonial buildings and sculptures with perfect symmetry for composition.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise to 7:00 AM",
+        "bestTime": "Early morning or late afternoon for soft light",
         "category": "Architecture"
       },
       {
         "name": "Getsemaní Street Art Walls",
-        "description": "Vibrant murals and street art provide colorful, dynamic compositions with constantly changing artistic expressions and cultural narratives.",
-        "difficulty": "Beginner",
-        "bestTime": "10:00 AM to 4:00 PM",
+        "description": "Vibrant murals and graffiti art creating dynamic compositions with bold colors and street culture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for bright, saturated colors",
         "category": "Street"
       },
       {
-        "name": "Clock Tower Plaza",
-        "description": "Iconic clock tower framed by colonial buildings with overlook of old city streets and plaza filled with locals and sunset ambiance.",
+        "name": "Clock Tower at Gate of Splendor",
+        "description": "Historic clock tower framed by colonial archways creating iconic framed compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour before sunset",
+        "bestTime": "Golden hour for warm tones",
         "category": "Architecture"
       },
       {
-        "name": "City Walls and Caribbean Sea",
-        "description": "Ancient fortification walls frame turquoise waters with sailboats and distant islands creating layered landscape compositions.",
+        "name": "Paseo Los Pegasos Waterfront",
+        "description": "Seafront promenade with old fortifications, water reflections, and sunset opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Late afternoon light",
+        "bestTime": "Sunset for dramatic sky and water colors",
         "category": "Landscape"
       },
       {
-        "name": "Rosario Islands Coral Reefs Underwater",
-        "description": "Vibrant coral formations, tropical fish schools, and sea turtles create colorful underwater wildlife compositions with natural light.",
+        "name": "San Felipe de Barajas Fort Ramparts",
+        "description": "Massive fortress walls with geometric stonework and panoramic city views from elevated perspectives.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for clean light and minimal crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Rosario Islands Coral Reefs",
+        "description": "Underwater photography of tropical fish, coral formations, and marine life in crystal-clear waters.",
         "difficulty": "Advanced",
-        "bestTime": "Midday for optimal water clarity",
+        "bestTime": "Midday for best underwater visibility",
         "category": "Wildlife"
       },
       {
-        "name": "San Diego Courtyard with Bougainvillea",
-        "description": "Hidden colonial courtyards overflowing with pink and magenta bougainvillea flowers against whitewashed walls create stunning floral compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light through archways",
-        "category": "Architecture"
-      },
-      {
-        "name": "San Diego Street at Golden Hour",
-        "description": "Narrow cobblestone streets lined with colorful colonial buildings glow in warm evening light with dramatic shadows and depth.",
+        "name": "La Boquilla Fishing Village Boats",
+        "description": "Colorful wooden boats, fishing nets, and local fishermen creating authentic cultural scenes.",
         "difficulty": "Intermediate",
-        "bestTime": "4:00 PM to sunset",
+        "bestTime": "Early morning when fishermen are working",
         "category": "Street"
       },
       {
-        "name": "Bocagrande Beach Sunset",
-        "description": "Palm-lined beach with modern high-rises creates urban-tropical contrast as the sun dips into the Caribbean Sea.",
+        "name": "Castillo San Felipe Night Photography",
+        "description": "Fort illuminated at night with dramatic lighting revealing stonework textures and architectural details.",
+        "difficulty": "Intermediate",
+        "bestTime": "Night after sunset during blue hour",
+        "category": "Night"
+      },
+      {
+        "name": "Plaza Santo Domingo at Dusk",
+        "description": "Square with cathedral illuminated and warm light reflecting off colonial facades.",
+        "difficulty": "Beginner",
+        "bestTime": "Dusk during blue hour",
+        "category": "Night"
+      },
+      {
+        "name": "Caribbean Sunset from Fortification Walls",
+        "description": "Panoramic ocean views with golden hour light reflecting off the sea and sky gradient.",
         "difficulty": "Beginner",
         "bestTime": "30 minutes before sunset",
         "category": "Landscape"
-      },
-      {
-        "name": "Night Markets and Street Vendors",
-        "description": "Evening food stalls and market scenes lit by warm artificial light create atmospheric street photography with cultural context.",
-        "difficulty": "Intermediate",
-        "bestTime": "7:00 PM to 10:00 PM",
-        "category": "Street"
-      },
-      {
-        "name": "Fortress Gun Emplacements at Sunset",
-        "description": "Historic cannons silhouetted against dramatic sunset sky and Caribbean waters create powerful historical composition opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour before sunset",
-        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Castillo San Felipe de Barajas ramparts",
-      "City Walls overlooking Caribbean Sea",
-      "Bocagrande Beach eastern viewpoint"
+      "San Felipe de Barajas Fort",
+      "Paseo Los Pegasos Waterfront",
+      "Clock Tower at Gate of Splendor"
     ],
     "sunsetSpots": [
-      "Clock Tower Plaza San Diego",
-      "Caribbean coastline from fortress walls",
-      "Bocagrande waterfront promenade"
+      "Castillo San Felipe Fortification Walls",
+      "Rosario Islands Beach",
+      "Paseo Los Pegasos Waterfront"
     ],
     "lensRecommendations": [
-      "24-70mm versatile zoom for architecture and street scenes",
-      "16-35mm ultra-wide for expansive fortress and city wall compositions",
-      "70-200mm telephoto for compressed landscape and distant island perspectives",
-      "50mm prime for intimate street photography and cultural portraiture"
+      "16-35mm wide angle for sweeping architectural shots and street scenes",
+      "50mm prime for intimate street photography and cultural portraits",
+      "70-200mm telephoto for compressed compositions of fortifications and distant landscapes",
+      "Macro/underwater lens for detail work and snorkeling photography"
     ],
-    "goldenHourNotes": "Cartagena's golden hour is exceptionally photogenic with warm light transforming colonial architecture into glowing pastel tones. The best window is 4:00 PM to sunset when shadows create dramatic contrast on narrow streets and the Caribbean takes on deep orange hues. Time your visits to Clock Tower Plaza and the fortress walls during this period for optimal results.",
+    "goldenHourNotes": "Golden hour in Cartagena is exceptionally photogenic due to the warm colonial architecture which glows beautifully in soft light. The reflection of the sunset colors on the Caribbean Sea creates additional photo opportunities along the waterfront. Plan shoots from 30 minutes before sunset through the blue hour for optimal lighting conditions capturing both warm and cool tones.",
     "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 27,
-        "rainfallMM": 10
+        "avgTempC": 26,
+        "rainfallMM": 20
       },
       {
         "month": 2,
         "avgTempC": 27,
-        "rainfallMM": 8
+        "rainfallMM": 15
       },
       {
         "month": 3,
-        "avgTempC": 28,
-        "rainfallMM": 12
+        "avgTempC": 27,
+        "rainfallMM": 25
       },
       {
         "month": 4,
-        "avgTempC": 28,
-        "rainfallMM": 80
+        "avgTempC": 27,
+        "rainfallMM": 85
       },
       {
         "month": 5,
-        "avgTempC": 28,
-        "rainfallMM": 120
-      },
-      {
-        "month": 6,
         "avgTempC": 27,
         "rainfallMM": 110
       },
       {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 100
+      },
+      {
         "month": 7,
         "avgTempC": 27,
-        "rainfallMM": 95
+        "rainfallMM": 90
       },
       {
         "month": 8,
         "avgTempC": 27,
-        "rainfallMM": 105
+        "rainfallMM": 95
       },
       {
         "month": 9,
         "avgTempC": 27,
-        "rainfallMM": 140
+        "rainfallMM": 120
       },
       {
         "month": 10,
         "avgTempC": 27,
-        "rainfallMM": 160
+        "rainfallMM": 135
       },
       {
         "month": 11,
         "avgTempC": 27,
-        "rainfallMM": 130
+        "rainfallMM": 110
       },
       {
         "month": 12,
-        "avgTempC": 27,
+        "avgTempC": 26,
         "rainfallMM": 40
       }
     ],
     "bestMonths": [
       1,
       2,
-      3,
       12
     ],
-    "seasonality": "Cartagena experiences a tropical climate with a dry season from December to March offering the most pleasant weather for exploration. The rainy season from April to November brings afternoon showers but fewer crowds and lush vegetation, making it ideal for budget travelers.",
-    "summary": "The city enjoys warm temperatures year-round averaging 27-28°C with two distinct seasons. Dry months offer clear skies and perfect beach weather, while rainy season maintains warmth with brief tropical downpours."
+    "seasonality": "Cartagena has a tropical climate with hot, humid conditions year-round. The dry season runs from December to March and July-August, with the rainy season from April-June and September-November. The best time to visit is during the dry season when rainfall is minimal and skies are clearer.",
+    "summary": "Expect warm Caribbean weather with temperatures consistently around 26-27°C throughout the year. Pack light, breathable clothing, sun protection, and rain gear for afternoon showers during the rainy season."
   },
   "hotels": [
     {
-      "name": "Casa Pestagua",
-      "neighborhood": "San Diego Historic Center",
-      "pricePerNightUSD": 45,
+      "name": "Hotel Monasterio",
+      "neighborhood": "Old Walled City",
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Charming colonial hostel and budget hotel in renovated mansion with shared courtyard and rooftop terrace overlooking old city streets."
+      "description": "Basic but comfortable colonial-style hostel and hotel offering affordable lodging in the heart of the historic center with shared and private rooms."
     },
     {
-      "name": "Hotel Charleston",
-      "neighborhood": "San Diego",
-      "pricePerNightUSD": 120,
+      "name": "Caribbean Luxury Suites",
+      "neighborhood": "Bocagrande",
+      "pricePerNightUSD": 110,
       "category": "Mid-range",
-      "description": "Elegant boutique hotel housed in a restored colonial palace featuring personalized service, courtyard dining, and prime walled city location."
+      "description": "Modern beachfront hotel with ocean views, spacious suites, and excellent amenities including pool, restaurant, and beach access."
     },
     {
-      "name": "Sofitel Legend Santa Clara",
-      "neighborhood": "San Diego",
-      "pricePerNightUSD": 350,
+      "name": "Sofitel Santa Clara",
+      "neighborhood": "Old Walled City",
+      "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Ultra-luxury 5-star resort in a converted 16th-century convent with spa, fine dining, and panoramic views of the Caribbean and city walls."
+      "description": "Opulent 5-star colonial palace hotel featuring spa, fine dining, rooftop pool, and impeccable service in a beautifully restored 16th-century convent."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1729866515900-513ec1b967e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDYXJ0YWdlbmElMjBjb2xvbmlhbCUyMHdhbGxlZCUyMGNpdHl8ZW58MXwwfHx8MTc4MTU1NjE4MXww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

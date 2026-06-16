@@ -5,16 +5,16 @@
   "region": "South America",
   "airportCodes": [
     "MDE",
-    "BOG"
+    "CTG"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
     "surprise",
+    "hidden-gems",
     "photography",
     "foodie",
-    "adventure",
-    "relaxation"
+    "adventure"
   ],
   "scores": {
     "cost": 78,
@@ -26,115 +26,115 @@
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 35,
-      "maxPerDayUSD": 65
+      "minPerDayUSD": 40,
+      "maxPerDayUSD": 70
     },
     {
       "level": "mid",
-      "minPerDayUSD": 66,
+      "minPerDayUSD": 70,
       "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 151,
-      "maxPerDayUSD": 400
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     }
   ],
-  "unsplashQuery": "Medellín colorful city lights",
-  "summary": "Medellín, the City of Eternal Spring, transforms from its troubled past into Colombia's most vibrant and innovative destination, offering perfect year-round weather, world-class street art, and exceptional cuisine at incredibly affordable prices. Nestled in a valley with a surrounding metro cable system, Comuna 13's rainbow streets, botanical gardens, and thriving nightlife create an unforgettable Andean adventure.",
+  "unsplashQuery": "Medellín city lights flowers",
+  "summary": "Medellín, the City of Eternal Spring, has transformed from its troubled past into a vibrant hub of innovation, culture, and street art nestled in a lush Andean valley. With year-round pleasant weather, world-class coffee, colorful neighborhoods, and a thriving food scene, it offers visitors an authentic Colombian experience combined with modern infrastructure and artistic expression.",
   "restaurants": [
     {
-      "name": "Mondongos",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Authentic Colombian establishment famous for their hearty bandeja paisa and traditional soups that have served locals for decades.",
-      "mustTry": "Bandeja Paisa"
-    },
-    {
-      "name": "Herbarium",
+      "name": "Carmen",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Colombia's most celebrated restaurant offering innovative tasting menus that showcase regional ingredients and cutting-edge culinary technique.",
-      "mustTry": "Seasonal tasting menu"
+      "description": "Award-winning restaurant showcasing contemporary Colombian cuisine with locally sourced ingredients and innovative presentations. Located in Laureles with an elegant atmosphere perfect for special occasions.",
+      "mustTry": "Deconstructed ajiaco with herbs and crispy pork belly"
     },
     {
-      "name": "Comidas del Taller",
+      "name": "Mondongo's",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic casual dining spot famous for traditional Colombian tripe soup and hearty comfort food in a lively, authentic atmosphere. A beloved local institution with exposed brick and warm vibes.",
+      "mustTry": "Mondongo stew with plantains and corn"
+    },
+    {
+      "name": "Enrique Tomás",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Sophisticated Spanish jamón ibérico restaurant offering cured meats, tapas, and wine in an upscale setting in El Poblado. Perfect for tapas-style dining with premium European ingredients.",
+      "mustTry": "Jamón ibérico de bellota with pan de cristal"
+    },
+    {
+      "name": "Hato Viejo",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional Colombian steakhouse serving grilled meats and regional dishes in a rustic, family-friendly environment. Known for generous portions and authentic paisa cuisine.",
+      "mustTry": "Bandeja Paisa - traditional hearty platter"
+    },
+    {
+      "name": "Leo",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-recommended restaurant focusing on creative Colombian cuisine with artistic plating and curated wine pairings. Intimate setting with only 20 seats for a personalized experience.",
+      "mustTry": "Tasting menu featuring local ingredients"
+    },
+    {
+      "name": "Oci.cat",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Avant-garde molecular gastronomy restaurant pushing culinary boundaries with artistic presentations and innovative flavor combinations. Limited seatings create an exclusive fine dining experience.",
+      "mustTry": "Multi-course molecular gastronomic tasting"
+    },
+    {
+      "name": "Fuego Azul",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary Colombian cuisine in a stylish Laureles location, blending traditional flavors with modern presentation and locally sourced ingredients.",
-      "mustTry": "Ajiaco"
+      "description": "Contemporary Colombian bistro offering fusion cuisine blending traditional and modern techniques with fresh local produce. Casual elegance in the heart of El Poblado.",
+      "mustTry": "Arroz con caldo infused with local herbs"
     },
     {
-      "name": "Éxito",
+      "name": "El Vegetariano",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Food court within the mall offering cheap local options, perfect for quick meals while shopping or exploring downtown.",
-      "mustTry": "Arepa con queso"
+      "description": "Casual vegetarian and vegan eatery serving healthy, affordable plant-based Colombian dishes and international options. Great for conscious travelers seeking nutritious meals on a budget.",
+      "mustTry": "Vegetarian arepas with local cheese"
     },
     {
-      "name": "Leo Cocina y Bar",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale restaurant in Parque Bolívar featuring creative Colombian-Mediterranean fusion with an impressive wine list and romantic ambiance.",
-      "mustTry": "Ceviche with local fish"
-    },
-    {
-      "name": "Donde Chucho",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Beloved street food institution serving classic Colombian breakfast and lunch items including empanadas, patacones, and fresh juice.",
-      "mustTry": "Empanada de carne"
-    },
-    {
-      "name": "Matices",
+      "name": "La Matuna",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Cozy neighborhood restaurant in Laureles featuring comfort food from across Colombia with warm service and authentic home cooking atmosphere.",
-      "mustTry": "Sancocho de res"
+      "description": "Beachfront-inspired seafood restaurant celebrating Caribbean coastal cuisine with fresh ceviche and grilled fish specialties. Tropical ambiance with ocean-inspired decor.",
+      "mustTry": "Ceviche mixto with passion fruit and coconut"
     },
     {
-      "name": "Al Huerto",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Farm-to-table restaurant emphasizing organic Colombian ingredients with an extensive selection of craft beers and natural wines.",
-      "mustTry": "Grilled vegetables with herb oil"
-    },
-    {
-      "name": "Etxebarri",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Spanish Basque cuisine in an upscale setting, offering premium grilled meats and fresh seafood with exceptional service and ambiance.",
-      "mustTry": "Grilled langostinos"
-    },
-    {
-      "name": "La Tienda de los Tamales",
+      "name": "Junín",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Simple, authentic spot specializing in traditional tamales made fresh daily, perfect for breakfast or a quick snack while exploring the city.",
-      "mustTry": "Tamal con queso"
+      "description": "Authentic local comedor serving traditional Colombian breakfast and lunch with affordable pricing and genuine flavors. Perfect for experiencing paisa culture without tourist markups.",
+      "mustTry": "Arepa con queso and fresh tropical juices"
     },
     {
-      "name": "Punto G",
+      "name": "Andres Carne de Res",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Modern Venezuelan restaurant bringing arepa culture to Medellín with creative fillings, craft juices, and a vibrant casual atmosphere.",
-      "mustTry": "Arepa reina pepiada"
+      "description": "Iconic Colombian grilled meat restaurant known for excellent steaks, live music, and festive party atmosphere with extensive wine selection. A must-visit for meat lovers seeking authentic paisa experience.",
+      "mustTry": "Lomo al trapo - beef wrapped in banana leaves"
     },
     {
-      "name": "Ají",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary Colombian cuisine celebrating regional diversity with seasonal menus, craft cocktails, and a sophisticated yet welcoming atmosphere.",
-      "mustTry": "Ceviche variado"
+      "name": "Pergamino Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Specialty coffee roaster and café celebrating Colombia's coffee heritage with excellent pour-overs and single-origin beans. Casual, educational space ideal for coffee enthusiasts.",
+      "mustTry": "Single-origin Colombian pour-over coffee"
     }
   ],
   "activities": [
     {
       "name": "Comuna 13 Street Art Tour",
       "category": "Cultural",
-      "description": "Explore the transformed hillside neighborhood famous for its vibrant murals, street art, and cultural transformation. Guided tours provide historical context of this iconic area.",
+      "description": "Explore the vibrant neighborhood transformed through street art and urban renewal projects, guided by locals sharing stories of transformation and resilience. Colorful murals cover nearly every surface creating an open-air gallery experience.",
       "durationHours": 3,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
         "photography",
@@ -142,102 +142,45 @@
       ]
     },
     {
-      "name": "Metrocable Aerial Tour",
+      "name": "Cable Car & Arví Park",
       "category": "Outdoor",
-      "description": "Ride the innovative cable car system connecting Medellín's hillside neighborhoods, offering panoramic city views and access to residential areas tourists rarely visit.",
-      "durationHours": 2,
-      "estimatedCostUSD": 2,
+      "description": "Take the scenic cable car from Santo Domingo up to Arví Park for hiking trails, panoramic city views, and mountain ecosystem exploration. Multiple difficulty trails range from easy walks to challenging hikes.",
+      "durationHours": 4,
+      "estimatedCostUSD": 8,
       "bestFor": [
-        "standard",
         "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Botanical Garden",
-      "category": "Outdoor",
-      "description": "Wander through 14 hectares of lush gardens featuring native Colombian plants, orchids, and medicinal species with excellent city views.",
-      "durationHours": 2,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "family"
-      ]
-    },
-    {
-      "name": "La Comuna 13 Escaleras Eléctricas",
-      "category": "Cultural",
-      "description": "Experience the world's longest outdoor escalators (featuring 368 steps) that serve the local community and showcase colorful neighborhood culture.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "hidden-gems",
-        "photography"
-      ]
-    },
-    {
-      "name": "Monumento a la Raza",
-      "category": "Cultural",
-      "description": "Visit this modernist sculpture monument and viewpoint overlooking the city valley, offering stunning panoramic photography opportunities and cultural significance.",
-      "durationHours": 1,
-      "estimatedCostUSD": 3,
-      "bestFor": [
         "photography",
         "standard"
       ]
     },
     {
-      "name": "Pueblito Paisa",
+      "name": "Coffee Tour in Envigado",
       "category": "Cultural",
-      "description": "Explore an open-air museum recreating a traditional Antioquia village with colonial architecture, shops, restaurants, and sweeping city views from Arví Park.",
-      "durationHours": 3,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "standard",
-        "family",
-        "photography"
-      ]
-    },
-    {
-      "name": "House of Memory and Coexistence",
-      "category": "Cultural",
-      "description": "Powerful museum documenting Medellín's history, conflict, and transformation through interactive exhibits honoring victims and celebrating resilience.",
-      "durationHours": 2,
-      "estimatedCostUSD": 4,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Nightlife in Parque Bolívar",
-      "category": "Nightlife",
-      "description": "Experience Medellín's vibrant nightlife scene with rooftop bars, clubs, and lounges featuring craft cocktails, live music, and panoramic views.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Coffee Farm Tour near Medellín",
-      "category": "Adventure",
-      "description": "Visit a nearby coffee plantation to learn about Colombian coffee production, participate in harvesting, and taste freshly brewed specialty coffee.",
+      "description": "Visit local coffee farms and roasteries to learn about cultivation, harvesting, and roasting processes while tasting freshly prepared Colombian coffee. Educational and delicious experience supporting local producers.",
       "durationHours": 4,
       "estimatedCostUSD": 35,
       "bestFor": [
         "foodie",
-        "adventure",
-        "relaxation"
+        "standard",
+        "hidden-gems"
       ]
     },
     {
-      "name": "Guatapé and El Peñol Day Trip",
+      "name": "Museum of Antioquia",
+      "category": "Indoor",
+      "description": "Comprehensive art museum featuring extensive Fernando Botero collection alongside contemporary Colombian artists and Pre-Hispanic artifacts. Beautiful colonial building with courtyard housing outdoor sculptures.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Guatapé Rock & Town",
       "category": "Adventure",
-      "description": "Hike the iconic colorful Rock of Guatapé (216 steps) and explore the charming reservoir town with vibrant buildings and water activities.",
+      "description": "Day trip to climb the famous El Peñol de Guatapé giant rock formation with 652 painted steps offering spectacular valley views, then explore the charming colorful colonial town below. Approximately 2 hours from Medellín.",
       "durationHours": 8,
       "estimatedCostUSD": 45,
       "bestFor": [
@@ -247,177 +190,237 @@
       ]
     },
     {
-      "name": "Museo de Antioquia",
-      "category": "Indoor",
-      "description": "World-class art museum housing works by Fernando Botero and other Colombian masters in a beautifully restored colonial building.",
-      "durationHours": 2,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "standard",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Free Walking Tour Downtown",
-      "category": "Cultural",
-      "description": "Explore Medellín's revitalized downtown district on a guided walking tour covering Plaza Mayor, street art, colonial architecture, and transformation stories.",
-      "durationHours": 3,
+      "name": "Metro Cable Car Free Ride",
+      "category": "Outdoor",
+      "description": "Take the public cable car system free like a local to access neighborhoods and enjoy views while experiencing how Medellín residents navigate the city. Educational and economical urban transportation adventure.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "hidden-gems",
+        "budget"
+      ]
+    },
+    {
+      "name": "Nightlife in Parque Bolívar",
+      "category": "Nightlife",
+      "description": "Experience Medellín's vibrant nightlife with bars, clubs, and live music venues scattered around this popular park district. Everything from craft cocktails to reggaeton clubs caters to diverse preferences.",
+      "durationHours": 4,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Flower Festival (August)",
+      "category": "Cultural",
+      "description": "Experience Feria de las Flores, Medellín's annual floral celebration featuring flower parades, displays, and cultural events transforming the city into a botanical spectacle. Two weeks of celebrations showcasing Colombian horticultural artistry.",
+      "durationHours": 6,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Botanical Garden & Parks Walk",
+      "category": "Outdoor",
+      "description": "Stroll through Medellín's Botanical Garden with orchids, native plants, and walking paths, then explore connected parks offering city views and peaceful green spaces. Free or low-cost recreation in nature.",
+      "durationHours": 3,
+      "estimatedCostUSD": 3,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fashion District Walking Tour",
+      "category": "Cultural",
+      "description": "Explore San Alejo district with galleries, boutiques, and design studios showcasing Colombian fashion, crafts, and contemporary art. Experience the city's creative economy and emerging designers.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "standard",
         "photography"
+      ]
+    },
+    {
+      "name": "Monserrate Sanctuary Hike",
+      "category": "Religious/Outdoor",
+      "description": "Take cable car or hike to the mountaintop basilica offering panoramic views of the city and valley, with restaurants and spiritual significance. Day trip from city center with sunset viewing opportunities.",
+      "durationHours": 5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Medellín City Walking Tour",
+      "category": "Cultural",
+      "description": "Guided walking tour through historic neighborhoods including Plaza Botero, Parque Berrío, and cultural landmarks with stories of transformation and architectural heritage. Knowledgeable guides provide historical and social context.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Comuna 13 Rooftops",
-        "description": "Panoramic views of endless colorful rooftops cascading down the hillside with the valley and mountains as backdrop.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon for directional light and fewer tourists",
+        "name": "Plaza Botero",
+        "description": "Historic square featuring bronze sculptures by Fernando Botero arranged outdoors with colonial architecture providing architectural and artistic composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for soft light and fewer crowds",
         "category": "Architecture"
       },
       {
-        "name": "Arví Park Aerial View",
-        "description": "Elevated platform offering sweeping cityscape views across Medellín's entire valley with surrounding mountains and metrocable systems.",
+        "name": "Arví Park Viewpoint",
+        "description": "Panoramic viewpoint accessible by cable car offering sweeping views of the entire city, valley, and surrounding mountains during golden hour.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour or clear morning before clouds settle",
+        "bestTime": "Sunset for golden light illuminating the city",
         "category": "Landscape"
       },
       {
-        "name": "Botero Museum Interior",
-        "description": "Beautifully lit colonial courtyard with dramatic light patterns and curated sculptures creating artistic composition opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday when natural light illuminates the courtyard",
-        "category": "Architecture"
-      },
-      {
-        "name": "La Playa Street Art",
-        "description": "Dense neighborhood packed with intricate murals, colorful walls, and hidden art passages creating endless composition possibilities.",
+        "name": "Comuna 13 Murals",
+        "description": "Neighborhood completely covered in vibrant street art and murals creating colorful, dynamic compositions with cultural storytelling elements.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning before heavy pedestrian traffic",
+        "bestTime": "Morning light for vibrant color saturation without harsh shadows",
         "category": "Street"
       },
       {
-        "name": "San Alejo Markets",
-        "description": "Vibrant open-air market with colorful textiles, crafts, flowers, and local characters reflecting authentic Colombian culture.",
-        "difficulty": "Beginner",
-        "bestTime": "Saturday mornings when market is most active",
-        "category": "Street"
-      },
-      {
-        "name": "Monumento a la Raza at Dusk",
-        "description": "Dramatic modernist white sculpture silhouetted against colorful sunset sky with city lights beginning to twinkle below.",
-        "difficulty": "Beginner",
-        "bestTime": "30 minutes before sunset through twilight hours",
-        "category": "Architecture"
-      },
-      {
-        "name": "Metrocable Cable Cars",
-        "description": "Unique elevated perspective of neighborhoods, with cable cars creating leading lines through architectural and natural landscapes.",
+        "name": "San Diego Night Markets",
+        "description": "Bustling evening street market with vendors, street food, and neon-lit storefronts creating vibrant urban night photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "During golden hour for warm side-lighting of cable structure",
-        "category": "Architecture"
-      },
-      {
-        "name": "El Peñol Rock",
-        "description": "Iconic massive boulder with vibrant mural creating a stunning landmark against clear sky with surrounding reservoir and countryside.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for clarity or golden hour for directional light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Plaza Mayor at Night",
-        "description": "Illuminated historic square with colonial buildings, modern light installations, and reflections in water features.",
-        "difficulty": "Intermediate",
-        "bestTime": "30 minutes after sunset when buildings are lit and sky retains color",
+        "bestTime": "Early evening as lights come on for night photography",
         "category": "Night"
       },
       {
-        "name": "Pueblito Paisa Colonial Streets",
-        "description": "Traditional Antioquia architecture with rustic wooden buildings, flower-filled balconies, and cobblestone streets bathed in warm light.",
+        "name": "Botanical Garden Orchid House",
+        "description": "Greenhouse filled with exotic orchids and plants offering colorful macro and botanical photography with controlled lighting conditions.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning light with minimal visitors for cleaner compositions",
+        "bestTime": "Midday for even greenhouse lighting",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Guatapé Town & Rock",
+        "description": "Dramatically painted reservoir town with colorful houses reflected in water and massive granite rock formation dominating landscape composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset for dramatic lighting and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "El Hueco Downtown Markets",
+        "description": "Chaotic, colorful downtown commercial district packed with street vendors, signage, and urban energy creating dynamic street photography subjects.",
+        "difficulty": "Advanced",
+        "bestTime": "Daytime for busy street scenes and natural light",
+        "category": "Street"
+      },
+      {
+        "name": "Parque Explora Exterior",
+        "description": "Modern architectural structure with geometric lines and colorful design elements offering contemporary architecture photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or sunset for dramatic shadows",
         "category": "Architecture"
+      },
+      {
+        "name": "Monserrate Basilica",
+        "description": "Mountaintop sanctuary with white colonial church architecture, religious art, and valley views creating spiritual and landscape photography subjects.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on white stone and valley views",
+        "category": "Architecture"
+      },
+      {
+        "name": "Neighborhood Street Corners",
+        "description": "Medellín's neighborhoods offer colorful facades, street vendors, and everyday moments capturing authentic urban Colombian life.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for natural colors and active street scenes",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Arví Park overlook",
-      "Monumento a la Raza viewpoint",
-      "Botanical Garden east terrace"
+      "Arví Park Viewpoint",
+      "Monserrate Sanctuary",
+      "Guatapé Rock Peak"
     ],
     "sunsetSpots": [
-      "Monumento a la Raza",
-      "Pueblito Paisa elevated plaza",
-      "Parque Bolívar rooftop bars"
+      "Arví Park Overlook",
+      "Monserrate Basilica Steps",
+      "Guatapé Reservoir Viewpoint"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive valley and cityscape compositions from elevated viewpoints",
-      "50mm prime for intimate street photography and portrait work in neighborhoods like Comuna 13",
-      "24-70mm versatile zoom for diverse compositions from cultural sites to architectural details",
-      "70-200mm telephoto for compressed perspective of distant buildings and isolating architectural elements"
+      "24-70mm f/2.8 for versatile street and architectural work capturing neighborhood scenes and cultural moments",
+      "70-200mm f/2.8 for compressed landscape shots from viewpoints capturing city sprawl and mountain layers",
+      "16-35mm f/2.8 ultra-wide for dramatic landscape compositions at high elevation viewpoints and street photography context",
+      "50mm f/1.8 prime for street portraiture and intimate documentary shots in markets and neighborhoods"
     ],
-    "goldenHourNotes": "Medellín's eternal spring climate and valley geography create exceptional golden hour conditions year-round. Early morning light from the east illuminates Comuna 13 and other hillside neighborhoods beautifully, while sunset from western overlooks like Monumento a la Raza and Pueblito Paisa offers warm directional light across the entire city. The valley's natural orientation channels golden hour light perfectly for both landscape and architectural photography.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Medellín's eternal spring climate provides consistent golden hour quality year-round. The city's geography offers multiple elevated vantage points where golden light dramatically illuminates the urban landscape against surrounding mountains. Late afternoon light transforms street art and architectural details, while early morning light is ideal for capturing mist rising from the valley floor.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
         "avgTempC": 22,
-        "rainfallMM": 70
+        "rainfallMM": 65
       },
       {
         "month": 2,
-        "avgTempC": 22,
-        "rainfallMM": 85
+        "avgTempC": 23,
+        "rainfallMM": 80
       },
       {
         "month": 3,
-        "avgTempC": 22,
-        "rainfallMM": 120
+        "avgTempC": 23,
+        "rainfallMM": 150
       },
       {
         "month": 4,
         "avgTempC": 22,
-        "rainfallMM": 160
+        "rainfallMM": 220
       },
       {
         "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 130
+        "avgTempC": 22,
+        "rainfallMM": 200
       },
       {
         "month": 6,
         "avgTempC": 21,
-        "rainfallMM": 85
+        "rainfallMM": 180
       },
       {
         "month": 7,
         "avgTempC": 21,
-        "rainfallMM": 75
+        "rainfallMM": 160
       },
       {
         "month": 8,
         "avgTempC": 21,
-        "rainfallMM": 90
+        "rainfallMM": 170
       },
       {
         "month": 9,
         "avgTempC": 21,
-        "rainfallMM": 140
+        "rainfallMM": 240
       },
       {
         "month": 10,
         "avgTempC": 21,
-        "rainfallMM": 170
+        "rainfallMM": 280
       },
       {
         "month": 11,
         "avgTempC": 21,
-        "rainfallMM": 140
+        "rainfallMM": 220
       },
       {
         "month": 12,
@@ -427,36 +430,35 @@
     ],
     "bestMonths": [
       1,
-      6,
+      2,
       7,
       8,
       12
     ],
-    "seasonality": "Medellín experiences two rainy seasons (April-May and September-November) and two dry seasons (June-August and December-March). The city's elevation of 1,500 meters provides eternal spring-like conditions with consistent temperatures around 21-22°C year-round.",
-    "summary": "Known as the City of Eternal Spring, Medellín offers remarkably consistent weather throughout the year with mild temperatures and comfortable humidity. Afternoons occasionally bring brief showers during rainy seasons, but mornings remain pristine, making it ideal for photography and outdoor activities."
+    "seasonality": "Medellín's eternal spring climate maintains consistent year-round temperatures around 21-23°C with two rainy seasons (April-May and September-November) and two drier periods. The driest months are December through February and July through August, offering the best conditions for outdoor activities and photography.",
+    "summary": "Known as the City of Eternal Spring, Medellín enjoys mild, spring-like weather year-round due to its elevation in the Andes mountains. Temperatures rarely fluctuate significantly, remaining comfortable for outdoor exploration, though rain is frequent during several months requiring weather-appropriate clothing."
   },
   "hotels": [
     {
-      "name": "Selina Medellín",
-      "neighborhood": "Parque Bolívar",
-      "pricePerNightUSD": 45,
+      "name": "Casa Kiwi Hostel",
+      "neighborhood": "El Poblado",
+      "pricePerNightUSD": 25,
       "category": "Budget",
-      "description": "Lively social hostel with private and dorm rooms, rooftop bar, and organized activities perfect for meeting other travelers on a budget."
+      "description": "Social hostel with colorful common areas, local artwork, and vibrant atmosphere in the heart of the tourist district offering excellent value and traveler community."
     },
     {
-      "name": "Décimo Hotel",
+      "name": "Casa Medina Boutique Hotel",
       "neighborhood": "Laureles",
-      "pricePerNightUSD": 85,
+      "pricePerNightUSD": 95,
       "category": "Mid-range",
-      "description": "Stylish 4-star hotel with modern rooms, excellent restaurant, and attentive service in the upscale Laureles neighborhood near museums and dining."
+      "description": "Charming boutique hotel in residential neighborhood with personalized service, local character, and easy access to restaurants and cultural venues without tourist area premium pricing."
     },
     {
-      "name": "Sofitel Medellín El Hueco",
-      "neighborhood": "Parque Arvi",
+      "name": "Cartagena 52 Luxury Apartments",
+      "neighborhood": "Poblado Luxury Zone",
       "pricePerNightUSD": 250,
       "category": "Luxury",
-      "description": "Ultra-luxury 5-star resort offering panoramic city views, world-class spa, fine dining, and exceptional service in an exclusive hillside location."
+      "description": "Upscale residential apartments with modern amenities, concierge service, and prime location offering boutique luxury experience with more space than traditional hotel rooms."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1515366974328-f1181eb25189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNZWRlbGwlQzMlQURuJTIwY29sb3JmdWwlMjBjaXR5JTIwbGlnaHRzfGVufDF8MHx8fDE3ODE1NTYxODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

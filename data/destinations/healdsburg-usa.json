@@ -1,0 +1,463 @@
+{
+  "id": "healdsburg-usa",
+  "city": "Healdsburg",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SFO",
+    "OAK",
+    "SMF"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "relaxation",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 95,
+    "photography": 88,
+    "activities": 82,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Healdsburg wine country vineyards",
+  "summary": "Healdsburg is a world-renowned wine destination in Sonoma County, California, featuring stunning vineyards, Michelin-starred restaurants, and a charming town square lined with galleries and tasting rooms. The region offers exceptional cuisine, wine education, and picturesque landscapes perfect for photography and relaxation. Surrounded by three renowned wine valleys—Dry Creek, Alexander, and Russian River—this destination combines culinary excellence with California wine culture.",
+  "restaurants": [
+    {
+      "name": "The Madrona",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary American fine dining featuring locally-sourced ingredients and an extensive wine list. Chef-driven seasonal menus showcase Sonoma County's finest produce and proteins.",
+      "mustTry": "Duck breast with cherry gastrique"
+    },
+    {
+      "name": "Cyrus",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three Michelin-starred restaurant offering intimate tasting menus with innovative French and American cuisine. One of the most acclaimed dining experiences in the region.",
+      "mustTry": "Multi-course tasting menu with wine pairings"
+    },
+    {
+      "name": "SingleThread",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three Michelin-starred farm-to-table restaurant with a 10-acre farm providing ingredients for ever-changing seasonal menus. Offers an immersive culinary experience.",
+      "mustTry": "Multi-course farm tasting menu"
+    },
+    {
+      "name": "Barndiva",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Rustic-chic restaurant in a converted barn serving seasonal California cuisine with wood-fired preparations. Known for relaxed elegance and quality ingredients.",
+      "mustTry": "Wood-fired fish with seasonal vegetables"
+    },
+    {
+      "name": "Healdsburg Bar & Grill",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Classic American steakhouse in the town plaza with premium beef selections and extensive wine program. Perfect for casual dinner with excellent views.",
+      "mustTry": "Dry-aged ribeye with seasonal sides"
+    },
+    {
+      "name": "Rusic",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Italian restaurant featuring handmade pasta and wood-fired dishes in a warm, inviting setting. Excellent wine selection and knowledgeable staff.",
+      "mustTry": "House-made tagliatelle with wild boar ragù"
+    },
+    {
+      "name": "Valette",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Chef-owner restaurant with two Michelin stars offering refined French-Italian cuisine in an intimate setting. Focuses on quality ingredients and classic techniques.",
+      "mustTry": "Squid ink pasta with seafood"
+    },
+    {
+      "name": "Diavola",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Neapolitan-style pizza restaurant with wood-fired oven and authentic Italian small plates. Casual atmosphere with excellent cocktails and wine.",
+      "mustTry": "Margherita pizza or burrata appetizer"
+    },
+    {
+      "name": "Costeaux French Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic French bakery and café serving artisanal breads, pastries, and sandwiches. Perfect for casual breakfast or lunch with excellent coffee.",
+      "mustTry": "Croissant or French sandwich"
+    },
+    {
+      "name": "Naked Pig",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant celebrating meat and seasonal ingredients with creative preparations. Casual dining environment with excellent cocktails.",
+      "mustTry": "Charcuterie board or signature pork dish"
+    },
+    {
+      "name": "Scopa",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Elegant Italian restaurant featuring fresh pasta, seafood, and northern Italian specialties in a sophisticated setting. Known for attentive service and wine expertise.",
+      "mustTry": "Handmade tortellini or daily fresh fish special"
+    },
+    {
+      "name": "Healdsburg Shed",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-focused restaurant and market celebrating local produce with simple, delicious preparations. Features open kitchen and rustic-modern atmosphere.",
+      "mustTry": "Seasonal vegetable dishes or house-made pasta"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Wine Tasting Tour",
+      "category": "Cultural",
+      "description": "Guided tours through Dry Creek Valley, Alexander Valley, or Russian River Valley wineries featuring tastings and vineyard education. Professional sommeliers explain wine production and terroir.",
+      "durationHours": 4,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Healdsburg Plaza Exploration",
+      "category": "Cultural",
+      "description": "Free self-guided tour of the historic plaza featuring art galleries, shops, tasting rooms, and restaurants. Discover architecture, local art, and wine culture at your own pace.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Hiking in Geyserville Hills",
+      "category": "Outdoor",
+      "description": "Scenic hiking trails offering views of vineyards, oak woodlands, and distant mountains. Trails range from easy to moderate with various difficulty levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Farmers Market Visit",
+      "category": "Cultural",
+      "description": "Saturday morning farmers market featuring fresh local produce, artisan goods, and prepared foods from regional vendors. Excellent for photography and sourcing ingredients.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Healdsburg History Museum",
+      "category": "Indoor",
+      "description": "Small museum documenting the region's gold rush history, Native American heritage, and agricultural development. Features interesting exhibits and local artifacts.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Cycling Wine Country",
+      "category": "Adventure",
+      "description": "Self-guided or organized cycling tours through vineyard-covered hills and scenic country roads. Includes stops at wineries, local restaurants, and scenic overlooks.",
+      "durationHours": 5,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cooking Class with Local Chef",
+      "category": "Cultural",
+      "description": "Hands-on cooking classes featuring local ingredients and seasonal recipes taught by professional chefs. Includes wine pairing and meal preparation instruction.",
+      "durationHours": 3,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Russian River Outdoor Activities",
+      "category": "Outdoor",
+      "description": "Kayaking, swimming, and picnicking along the scenic Russian River with opportunities for wildlife viewing. Beautiful redwood groves nearby add to the natural beauty.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Artisan Studio Tour",
+      "category": "Cultural",
+      "description": "Visit working studios of local artists, potters, glassblowers, and sculptors in the Healdsburg area. Many studios feature galleries and allow visitors to watch creation processes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Sunset Picnic at Vineyard",
+      "category": "Relaxation",
+      "description": "Arrange a picnic at a working vineyard with local wine and gourmet provisions from town restaurants and markets. Experience the golden hour over rolling vineyards.",
+      "durationHours": 2,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Spa Day Relaxation",
+      "category": "Relaxation",
+      "description": "Indulge in wine-themed spa treatments, massages, and wellness services at luxury spas throughout the region. Includes facial, massage, and relaxation packages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon Ride",
+      "category": "Adventure",
+      "description": "Early morning hot air balloon flight over vineyards and wine country with champagne breakfast included. Offers breathtaking aerial views and unique photography opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Healdsburg Plaza",
+        "description": "Iconic town square with Victorian buildings, galleries, and restaurants offering beautiful architectural lines and vibrant street scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or overcast days",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dry Creek Valley Vineyards",
+        "description": "Rolling vineyard landscapes with dramatic hillsides and winding roads creating stunning compositional elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Russian River Gorge",
+        "description": "Scenic river canyon with redwood trees, water reflections, and atmospheric mist creating dramatic natural compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist",
+        "category": "Landscape"
+      },
+      {
+        "name": "Alexander Valley Overview",
+        "description": "Expansive vineyard valley views from hilltop vantage points showcasing the vastness of wine country terrain.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Farmers Market Scene",
+        "description": "Colorful fresh produce, vendors, and local characters creating vibrant street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Saturday morning",
+        "category": "Street"
+      },
+      {
+        "name": "Historic Wineries",
+        "description": "Old stone winery buildings, wooden architecture, and rustic details offering architectural and heritage photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Wildflower Fields",
+        "description": "Seasonal wildflower blooms in valley meadows creating colorful natural tapestries against vineyard backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring mornings",
+        "category": "Landscape"
+      },
+      {
+        "name": "Tasting Room Windows",
+        "description": "Reflective glass windows, wine bottles, and interior scenes creating interesting architectural and commercial photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Redwood Forest Paths",
+        "description": "Dense redwood groves with filtered light, ferns, and atmospheric conditions creating moody forest compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Misty mornings",
+        "category": "Landscape"
+      },
+      {
+        "name": "Night Market & Plaza Lights",
+        "description": "Evening plaza atmosphere with restaurant lights, streetlights, and evening crowds creating urban night photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Dusk to night",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Russian River Gorge overlook",
+      "Alexander Valley ridgeline",
+      "Dry Creek Valley high point"
+    ],
+    "sunsetSpots": [
+      "Vineyard hilltop viewpoint",
+      "Healdsburg Plaza elevated view",
+      "Western ridge overlooking Russian River"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for sweeping vineyard landscapes and architecture",
+      "50mm prime for street photography and intimate plaza scenes",
+      "70-200mm telephoto for compressed vineyard layers and distant valley details",
+      "24-70mm versatile zoom for varied compositions throughout the day"
+    ],
+    "goldenHourNotes": "Golden hour in Healdsburg wine country is exceptional, casting warm amber light across vineyards and stone buildings. Early morning mist in the Russian River valley combined with sunrise creates atmospheric, layered compositions with dramatic lighting. Late afternoon light through the vineyards produces rich, saturated colors and strong shadows that enhance landscape depth.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 9,
+        "rainfallMM": 127
+      },
+      {
+        "month": 2,
+        "avgTempC": 11,
+        "rainfallMM": 112
+      },
+      {
+        "month": 3,
+        "avgTempC": 13,
+        "rainfallMM": 89
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 61
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 41
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 25
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 15
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 20
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 25
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 58
+      },
+      {
+        "month": 11,
+        "avgTempC": 13,
+        "rainfallMM": 107
+      },
+      {
+        "month": 12,
+        "avgTempC": 9,
+        "rainfallMM": 124
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer (June-September) offers warm, dry weather perfect for wine touring and outdoor activities, with temperatures ranging from 27-29°C. Spring (April-May) features mild temperatures and wildflower blooms, while fall (October) provides harvest season festivities and warm, comfortable days.",
+    "summary": "Healdsburg enjoys a Mediterranean climate with warm, dry summers and cool, wet winters. The region experiences over 300 days of sunshine annually, making it ideal for year-round wine tourism and outdoor pursuits."
+  },
+  "hotels": [
+    {
+      "name": "h2hotel",
+      "neighborhood": "Downtown Healdsburg",
+      "pricePerNightUSD": 140,
+      "category": "Budget",
+      "description": "Eco-friendly boutique hotel near the plaza offering comfortable rooms with modern amenities and sustainable practices."
+    },
+    {
+      "name": "Hotel Healdsburg",
+      "neighborhood": "Healdsburg Plaza",
+      "pricePerNightUSD": 280,
+      "category": "Mid-range",
+      "description": "Contemporary luxury hotel in the heart of the plaza featuring elegant rooms, excellent service, and direct access to restaurants and tasting rooms."
+    },
+    {
+      "name": "SingleThread Farm Restaurant Inn",
+      "neighborhood": "Healdsburg Village",
+      "pricePerNightUSD": 550,
+      "category": "Luxury",
+      "description": "Ultra-luxury farm-to-table inn affiliated with three Michelin-starred restaurant, offering exclusive rooms, private farm tours, and exclusive dining experiences."
+    }
+  ]
+}

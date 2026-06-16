@@ -5,250 +5,185 @@
   "region": "North America",
   "airportCodes": [
     "MSP",
-    "MIC"
+    "STP"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
-    "photography",
     "foodie",
-    "adventure",
-    "relaxation"
+    "photography",
+    "cultural",
+    "relaxation",
+    "adventure"
   ],
   "scores": {
     "cost": 65,
-    "food": 78,
-    "photography": 75,
-    "activities": 82,
+    "food": 82,
+    "photography": 78,
+    "activities": 85,
     "weather": 55
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 130
+      "maxPerDayUSD": 140
     },
     {
       "level": "mid",
-      "minPerDayUSD": 130,
-      "maxPerDayUSD": 220
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 220,
-      "maxPerDayUSD": 400
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
     }
   ],
   "unsplashQuery": "Minneapolis Stone Arch Bridge",
-  "summary": "Minneapolis is a vibrant Upper Midwest hub known for its Mall of America, thriving arts scene, and beautiful Mississippi River waterfront. The city blends Scandinavian heritage with modern culture, offering excellent restaurants, galleries, and outdoor activities throughout its diverse neighborhoods.",
+  "summary": "Minneapolis is a vibrant Midwestern hub known for its innovative food scene, thriving arts districts, and scenic Chain of Lakes. The city blends urban culture with outdoor recreation, featuring world-class museums, live music venues, and stunning Mississippi River views.",
   "restaurants": [
     {
-      "name": "Matt's Bar & Grill",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic institution famous for the Jucy Lucy, a cheeseburger with melted cheese inside the patty. A Minneapolis dining legend since 1954.",
-      "mustTry": "Jucy Lucy"
-    },
-    {
-      "name": "Mizuki",
+      "name": "The Bachelor Farmer",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale Japanese restaurant offering omakase experiences and contemporary Japanese cuisine. Features an extensive sake selection and intimate counter seating.",
-      "mustTry": "Omakase tasting menu"
-    },
-    {
-      "name": "The Birchwood Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual neighborhood cafe serving organic, locally-sourced comfort food and excellent coffee. Popular for breakfast and lunch with outdoor patio seating.",
-      "mustTry": "Seasonal vegetable scramble"
+      "description": "Farm-to-table fine dining showcasing Midwestern ingredients with Nordic influences and an extensive wine program. Located in a historic building in Mill District with elegant ambiance.",
+      "mustTry": "Seasonal tasting menu with local vegetables and proteins"
     },
     {
       "name": "Spoon and Stable",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Farm-to-table restaurant with ever-changing menus based on seasonal ingredients. Chef-driven kitchen in an open, warehouse-style setting in Northeast Minneapolis.",
-      "mustTry": "Seasonal tasting menu"
+      "description": "Contemporary Mediterranean restaurant by acclaimed chef Isaac Becker featuring handmade pasta and wood-fired dishes. Intimate setting with open kitchen views.",
+      "mustTry": "Handmade tagliatelle with seasonal preparations"
     },
     {
       "name": "Hai Hai",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Modern Italian restaurant celebrating Minnesota ingredients with handmade pastas and wood-fired preparations. Warm, welcoming atmosphere in Uptown.",
-      "mustTry": "House-made ravioli"
+      "description": "Casual Italian restaurant in Northeast Minneapolis known for wood-fired pizzas and Italian small plates. Popular neighborhood spot with a lively atmosphere.",
+      "mustTry": "Wood-fired pizzas and housemade pastas"
     },
     {
-      "name": "Cafe Latte",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Cozy Italian cafe known for affordable pasta dishes, fresh salads, and homemade desserts. Features a small shop selling Italian specialty foods.",
-      "mustTry": "Pasta with fresh tomato sauce"
-    },
-    {
-      "name": "Restaurant Alma",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Fine dining establishment on the Mississippi River with innovative New American cuisine and extensive wine program. Offers stunning sunset views.",
-      "mustTry": "Prix fixe tasting menu"
-    },
-    {
-      "name": "Bison Restaurant",
+      "name": "Lucia's",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Farm-to-table dining celebrating Minnesota and Northern Great Plains ingredients with seasonal menus. Rustic yet refined atmosphere in downtown.",
-      "mustTry": "Bison preparations"
+      "description": "Long-running neighborhood trattoria serving authentic Italian cuisine with seasonal menus and excellent wine selection. Warm, inviting setting perfect for casual dining.",
+      "mustTry": "Pasta specials and risotto dishes"
     },
     {
-      "name": "Barbette",
+      "name": "Eaten Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual brunch and lunch spot famous for creative omelets and avocado toast. Quick service with quality ingredients at affordable prices.",
+      "mustTry": "Benedicts and signature omelets"
+    },
+    {
+      "name": "Boludo",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Neighborhood restaurant serving French-inspired dishes in a casual setting. Known for roasted chicken, seafood, and an excellent wine list.",
-      "mustTry": "Roasted half chicken"
+      "description": "Argentine steakhouse and wine bar offering grass-fed beef, chorizo, and traditional South American flavors. Vibrant atmosphere with knowledgeable staff.",
+      "mustTry": "Grilled ribeye and chimichurri-marinated meats"
     },
     {
-      "name": "Psycho Suzi's Motor Lounge",
+      "name": "Bar Erte",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant featuring authentic paella, jamón ibérico, and Spanish wines in a sophisticated setting. Perfect for sharing and sampling.",
+      "mustTry": "Paella valenciana and jamón ibérico selections"
+    },
+    {
+      "name": "Pizzeria Beddia",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Quirky tiki bar with entertaining decor, tropical drinks, and casual food. Located on the Mississippi River with outdoor seating.",
-      "mustTry": "Tropical cocktails"
+      "description": "Award-winning Neapolitan pizza restaurant with natural fermentation and premium Italian ingredients. Casual counter service in Northeast Minneapolis.",
+      "mustTry": "Margherita pizza and daily specials"
     },
     {
-      "name": "Eastside Co-op",
+      "name": "Gyrotis",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Community-owned cafe and restaurant focusing on vegetarian and vegan options with locally-sourced ingredients. Casual, counter-service style.",
-      "mustTry": "Vegetarian grain bowls"
+      "description": "Popular Greek fast-casual spot serving authentic gyros, souvlaki, and Mediterranean bowls. Quick service with excellent value.",
+      "mustTry": "Lamb gyro and saganaki"
     },
     {
-      "name": "The Captiol Grill",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale steakhouse with classic American cuisine, premium beef selections, and an elegant dining room. Known for professional service and quality cocktails.",
-      "mustTry": "Prime grade steaks"
+      "name": "Marazza",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Italian restaurant emphasizing housemade pastas and seasonal Italian cuisine. Sleek design with an open kitchen and excellent cocktails.",
+      "mustTry": "Fresh egg pasta and seafood preparations"
+    },
+    {
+      "name": "Cafe Lunia",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Breakfast and brunch institution serving Swedish and Scandinavian-inspired dishes. Cozy, nostalgic atmosphere in Linden Hills neighborhood.",
+      "mustTry": "Swedish meatballs and cinnamon rolls"
+    },
+    {
+      "name": "Day Block Brewing",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Craft brewery with food trucks and local vendors, showcasing Minnesota craft beer culture. Casual outdoor and indoor seating with community vibe.",
+      "mustTry": "House-brewed IPAs and seasonal local foods"
     }
   ],
   "activities": [
     {
-      "name": "Mall of America",
-      "category": "Family",
-      "description": "Massive indoor shopping and entertainment complex featuring over 500 stores, restaurants, and attractions including Nickelodeon Universe theme park. Minnesota's largest tourist attraction.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "standard",
-        "family"
-      ]
-    },
-    {
-      "name": "Stone Arch Bridge Walk",
+      "name": "Chain of Lakes Walking/Biking Trail",
       "category": "Outdoor",
-      "description": "Historic pedestrian bridge spanning the Mississippi River with stunning views of waterfalls and the city skyline. Perfect for walking, photography, or simply enjoying the waterfront.",
-      "durationHours": 1,
+      "description": "Beautiful 5.5-mile loop connecting Minneapolis's five major lakes with paved trails, parks, and scenic water views. Popular for walking, running, and cycling year-round.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "relaxation"
+        "relaxation",
+        "adventure"
       ]
     },
     {
       "name": "Minneapolis Institute of Art",
       "category": "Cultural",
-      "description": "World-class art museum with over 80,000 objects spanning multiple centuries and cultures. Free admission with optional donations.",
+      "description": "World-class art museum with over 80,000 artworks spanning 5,000 years of human creativity. Free general admission with excellent collections of contemporary and historical art.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Chain of Lakes",
-      "category": "Outdoor",
-      "description": "Beautiful series of interconnected lakes offering walking trails, kayaking, swimming, and picnicking. Perfect for experiencing Minneapolis outdoor recreation culture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "adventure",
-        "relaxation",
+        "cultural",
         "photography"
       ]
     },
     {
-      "name": "First Avenue Nightclub Tour",
-      "category": "Nightlife",
-      "description": "Iconic live music venue famous for Prince's performances and the venue's role in Minneapolis music history. Tours available and regular concerts throughout the week.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "SEA LIFE Minnesota Aquarium",
-      "category": "Family",
-      "description": "Interactive aquarium within Mall of America featuring underwater tunnel and various marine exhibits. Great for families and interactive learning.",
-      "durationHours": 2,
-      "estimatedCostUSD": 28,
-      "bestFor": [
-        "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "Northeast Minneapolis Art District Walking Tour",
-      "category": "Cultural",
-      "description": "Self-guided or organized tour through vibrant neighborhood filled with street art, galleries, boutiques, and restaurants. Free to explore with excellent photography opportunities.",
-      "durationHours": 2,
+      "name": "Stone Arch Bridge Historic Walk",
+      "category": "Outdoor",
+      "description": "Iconic 19th-century Mississippi River bridge offering pedestrian paths with stunning views of the river, downtown skyline, and historic mill district. Popular photo location.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "hidden-gems",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Minnehaha Falls Hike",
-      "category": "Outdoor",
-      "description": "Scenic waterfall in urban park setting with hiking trails and picnic areas. Historic site with beautiful natural landscape near downtown.",
-      "durationHours": 2,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "adventure",
+        "standard",
         "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Swedish Institute Historical Tour",
+      "name": "Mill City Museum",
       "category": "Cultural",
-      "description": "Museum celebrating Swedish-American heritage with exhibits, artifacts, and guided tours. Reflects Minneapolis's strong Scandinavian heritage.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 12,
+      "description": "Interactive museum housed in a historic flour mill exploring Minneapolis's milling heritage and Mississippi River history. Includes a rooftop garden with panoramic views.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Mississippi River Kayaking",
-      "category": "Adventure",
-      "description": "Guided or rental kayaking trips through downtown and nature areas along the Mississippi. Various difficulty levels with beautiful scenic paddling.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
+        "cultural",
         "photography"
       ]
     },
     {
-      "name": "Walker Art Center and Sculpture Garden",
+      "name": "Walker Art Center",
       "category": "Cultural",
-      "description": "Contemporary art museum with free admission to sculpture garden featuring iconic artworks like the Spoon and Cherry. Indoor galleries require separate admission.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Contemporary art museum and design center featuring innovative exhibitions, film, and performance art. Includes the free Minneapolis Sculpture Garden with iconic Spoon and Cherry sculpture.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
         "photography",
@@ -258,163 +193,232 @@
     {
       "name": "Minnesota History Center",
       "category": "Cultural",
-      "description": "Comprehensive museum detailing Minnesota's cultural, natural, and political history with interactive exhibits. Located in St. Paul adjacent to Minneapolis.",
+      "description": "Comprehensive state history museum with engaging exhibits on Minnesota's diverse cultures, Native American history, and regional heritage. Free general admission.",
       "durationHours": 2.5,
-      "estimatedCostUSD": 14,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "cultural"
+      ]
+    },
+    {
+      "name": "Guthrie Theater",
+      "category": "Cultural",
+      "description": "Tony Award-winning regional theater producing innovative plays and musicals. Iconic building with a cantilevered stage and public areas overlooking the river.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Kayaking/Paddleboarding on Lakes",
+      "category": "Adventure",
+      "description": "Rent kayaks or paddleboards on Lake Calhoun, Bde Maka Ska, or Harriet for water-based exploration of the Chain of Lakes. Multiple rental companies offer hourly and daily rates.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "First Avenue Nightclub",
+      "category": "Nightlife",
+      "description": "Historic music venue and cultural institution where Prince and local bands perform. Iconic concert hall with excellent acoustics and vibrant music scene.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Northeast Arts District Exploration",
+      "category": "Cultural",
+      "description": "Walkable neighborhood featuring galleries, street art, vintage shops, and independent restaurants. Colorful murals and artistic character make it a haven for creatives.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Sea Salt Eatery & Bar Rooftop",
+      "category": "Relaxation",
+      "description": "Casual waterfront dining spot with rooftop seating overlooking the Mississippi River and downtown skyline. Perfect for sunset viewing with cocktails.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Minnesota Zoo Day Trip",
+      "category": "Family",
+      "description": "Located 45 minutes south in New Ulm, this comprehensive zoo features animals from diverse habitats and conservation programs. Full-day adventure for families.",
+      "durationHours": 6,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Stone Arch Bridge at Sunrise",
-        "description": "Historic bridge spanning Mississippi River with dramatic early light illuminating the water and city skyline behind.",
+        "name": "Stone Arch Bridge at Sunset",
+        "description": "Historic brick bridge spanning the Mississippi River with downtown skyline as backdrop, providing dramatic late-day light and architectural details.",
         "difficulty": "Beginner",
-        "bestTime": "Dawn, 6:00-7:30 AM",
+        "bestTime": "One hour before sunset",
         "category": "Architecture"
       },
       {
-        "name": "Spoon and Cherry Sculpture",
-        "description": "Iconic public art installation in Walker Sculpture Garden with reflective pool and urban landscape backdrop.",
+        "name": "Minneapolis Skyline from Stone Arch Bridge",
+        "description": "Urban landscape capturing downtown towers and river reflections from the pedestrian bridge during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Walker Art Center Sculpture Garden",
+        "description": "Contemporary public art and sculptures set against urban backdrop and landscaping, featuring the iconic Spoon and Cherry.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour, 7:00-8:30 PM",
-        "category": "Street"
-      },
-      {
-        "name": "Northeast Minneapolis Street Art Alleys",
-        "description": "Vibrant murals and street art throughout alleyways and building walls creating colorful urban photography canvas.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for color saturation, 10:00 AM-3:00 PM",
-        "category": "Street"
-      },
-      {
-        "name": "Minnehaha Falls",
-        "description": "Picturesque waterfall surrounded by trees and natural landscape offering serene nature photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Overcast days or early morning for soft light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Mississippi River Overlook",
-        "description": "Elevated viewpoint with sweeping river valley vistas, downtown skyline, and natural shoreline.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones, 6:30-8:00 PM",
-        "category": "Landscape"
-      },
-      {
-        "name": "Downtown Minneapolis Skyline from Stone Arch",
-        "description": "Classic skyline view featuring modern buildings, church steeples, and river reflection.",
-        "difficulty": "Beginner",
-        "bestTime": "Blue hour, 7:00-8:00 PM",
+        "bestTime": "Morning or afternoon",
         "category": "Architecture"
       },
       {
-        "name": "U.S. Bank Stadium Exterior",
-        "description": "Modern architectural marvel with unique design and textured facade offering contemporary building photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for side-lighting, 6:00-8:00 PM",
-        "category": "Architecture"
-      },
-      {
-        "name": "Chain of Lakes Park Reflection",
-        "description": "Lake surfaces reflecting sky and surrounding trees with excellent composition possibilities throughout seasons.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning for calm water, 6:00-7:30 AM",
+        "name": "Mill City Museum Rooftop",
+        "description": "Panoramic views of the Mississippi River valley, historic mills, and downtown Minneapolis from restored mill building rooftop.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
         "category": "Landscape"
       },
       {
-        "name": "First Avenue Nightclub Entrance",
-        "description": "Historic music venue with iconic signage and architectural character perfect for street and urban photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Evening with neon lights, 7:00 PM-11:00 PM",
+        "name": "Northeast Minneapolis Street Art",
+        "description": "Vibrant murals, graffiti art, and street installations throughout the artistic neighborhood with colorful urban backgrounds.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast or morning light",
         "category": "Street"
       },
       {
-        "name": "Grain Belt Sign",
-        "description": "Vintage neon sign reflecting in nearby warehouse windows creating layered urban composition.",
+        "name": "Chain of Lakes at Dawn",
+        "description": "Mirror-like water reflections of trees and sky during early morning light, accessible from multiple parks around the lake loop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "First Avenue Theater Marquee",
+        "description": "Iconic historic theater sign with neon lettering and architectural details, representing Minneapolis's live music legacy.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening and night",
+        "category": "Street"
+      },
+      {
+        "name": "Mississippi River from Observation Deck",
+        "description": "Wide river vistas with historical mill structures, bridges, and natural landscape from elevated viewpoint.",
+        "difficulty": "Beginner",
+        "bestTime": "Any time of day",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Skyline Reflection in Puddles",
+        "description": "Urban reflections and architectural details captured during wet conditions throughout downtown streets and plazas.",
         "difficulty": "Advanced",
-        "bestTime": "Dusk when neon glows, 7:30-8:30 PM",
-        "category": "Night"
+        "bestTime": "After rain, wet pavement conditions",
+        "category": "Street"
+      },
+      {
+        "name": "Hennepin Avenue Historic Architecture",
+        "description": "Diverse architectural styles including theaters, offices, and historic buildings showcasing Minneapolis's urban heritage.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon light",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
+      "Bde Maka Ska (formerly Calhoun) East Shore",
       "Stone Arch Bridge",
-      "Minnehaha Falls Park",
-      "Chain of Lakes Outlook"
+      "Minnehaha Falls Park"
     ],
     "sunsetSpots": [
-      "Mississippi River Overlook",
-      "Walker Sculpture Garden",
-      "Spoon and Cherry Monument"
+      "Stone Arch Bridge",
+      "Chain of Lakes West Shore",
+      "Sea Salt Waterfront Rooftop"
     ],
     "lensRecommendations": [
-      "14-24mm ultra-wide for sweeping river valley and skyline captures",
-      "35-50mm prime for street photography and intimate urban scenes",
-      "70-200mm telephoto for compressed downtown skyline and distant architectural details",
-      "Macro lens for detailed street art and sculptural textures"
+      "16-35mm wide angle for architectural and landscape work capturing skylines and river views",
+      "50mm prime for street photography and detail work in Northeast Arts District",
+      "70-200mm telephoto for compressed perspectives and wildlife at lakes and parks"
     ],
-    "goldenHourNotes": "Minneapolis's Golden Hour is particularly striking along the Mississippi River when warm light illuminates the water and historic bridges. The 6:00-8:00 PM window offers exceptional opportunities for skyline photography with reflections. Blue hour immediately following sunset provides moody urban landscape opportunities with city lights beginning to glow.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Minneapolis's golden hour is particularly striking due to the Mississippi River's reflective qualities and the architectural diversity of downtown. The best window is 30-60 minutes before sunset from April through October. Winter light is colder but creates dramatic contrast against snow-covered landscapes and architectural features.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
         "avgTempC": -8,
-        "rainfallMM": 18
+        "rainfallMM": 19
       },
       {
         "month": 2,
         "avgTempC": -6,
-        "rainfallMM": 16
+        "rainfallMM": 17
       },
       {
         "month": 3,
-        "avgTempC": 2,
-        "rainfallMM": 34
+        "avgTempC": 0,
+        "rainfallMM": 38
       },
       {
         "month": 4,
-        "avgTempC": 12,
-        "rainfallMM": 56
+        "avgTempC": 9,
+        "rainfallMM": 57
       },
       {
         "month": 5,
-        "avgTempC": 19,
-        "rainfallMM": 93
-      },
-      {
-        "month": 6,
-        "avgTempC": 24,
-        "rainfallMM": 104
-      },
-      {
-        "month": 7,
-        "avgTempC": 26,
+        "avgTempC": 17,
         "rainfallMM": 89
       },
       {
-        "month": 8,
+        "month": 6,
+        "avgTempC": 23,
+        "rainfallMM": 114
+      },
+      {
+        "month": 7,
         "avgTempC": 25,
-        "rainfallMM": 82
+        "rainfallMM": 102
+      },
+      {
+        "month": 8,
+        "avgTempC": 24,
+        "rainfallMM": 89
       },
       {
         "month": 9,
         "avgTempC": 19,
-        "rainfallMM": 72
+        "rainfallMM": 71
       },
       {
         "month": 10,
-        "avgTempC": 13,
+        "avgTempC": 12,
         "rainfallMM": 51
       },
       {
         "month": 11,
-        "avgTempC": 5,
-        "rainfallMM": 41
+        "avgTempC": 4,
+        "rainfallMM": 33
       },
       {
         "month": 12,
@@ -429,31 +433,31 @@
       8,
       9
     ],
-    "seasonality": "Minneapolis experiences dramatic seasonal variations with cold, snowy winters and warm summers. Spring and fall offer pleasant temperatures and beautiful foliage, while summer provides peak tourism with outdoor activities.",
-    "summary": "Minneapolis has a continental climate with cold winters averaging -8°C and warm summers around 25°C. The best time to visit is May through September when weather is mild and outdoor activities are abundant."
+    "seasonality": "Minneapolis experiences four distinct seasons with cold winters (December-February) and warm summers (June-August). Spring and fall offer pleasant temperatures ideal for outdoor activities, while winter provides snowy landscapes but requires heavy clothing.",
+    "summary": "Summers are warm and pleasant with temperatures reaching 25°C, while winters are cold with temperatures dropping to -8°C and regular snowfall. The best time to visit is May through September when weather is mild to warm and perfect for outdoor recreation and sightseeing."
   },
   "hotels": [
     {
-      "name": "HI Minneapolis",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 55,
+      "name": "HI Minneapolis Hostel",
+      "neighborhood": "Downtown Mill District",
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Hostel offering private and dormitory rooms in downtown location near riverfront attractions and restaurants."
+      "description": "Affordable hostel with private and dorm rooms near Stone Arch Bridge and Mississippi River, offering social atmosphere and budget-friendly accommodations."
     },
     {
-      "name": "Marquette Hotel",
+      "name": "W Minneapolis The Foshay",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 165,
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Historic mid-range hotel in downtown with comfortable rooms, on-site restaurant, and convenient access to attractions."
+      "description": "Upscale mid-range hotel in iconic 1920s skyscraper featuring modern amenities, excellent downtown location, and skyline views from rooftop restaurant."
     },
     {
-      "name": "The Millennial Minneapolis",
+      "name": "Four Seasons Hotel Minneapolis",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 280,
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Upscale luxury hotel featuring stylish rooms, rooftop bar with skyline views, and fine dining restaurant."
+      "description": "Ultra-luxury hotel offering impeccable service, fine dining, spa facilities, and panoramic views of the Mississippi River and downtown skyline."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1571194577203-307f756746d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNaW5uZWFwb2xpcyUyMFN0b25lJTIwQXJjaCUyMEJyaWRnZXxlbnwxfDB8fHwxNzgxMzAzMTY5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1571194577203-307f756746d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNaW5uZWFwb2xpcyUyMFN0b25lJTIwQXJjaCUyMEJyaWRnZXxlbnwxfDB8fHwxNzgxNjI3OTMzfDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,0 +1,462 @@
+{
+  "id": "duluth-usa",
+  "city": "Duluth",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "DLH",
+    "MSP",
+    "SLC"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 75,
+    "photography": 88,
+    "activities": 82,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 135
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 135,
+      "maxPerDayUSD": 225
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 225,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Lake Superior Duluth",
+  "summary": "Duluth is a vibrant port city perched on the shores of Lake Superior, offering stunning waterfront views, rich maritime history, and a thriving arts and food scene. Nestled between the lake and dramatic hillside neighborhoods, this hidden gem combines outdoor adventure with cultural attractions and excellent regional cuisine. The city's breathtaking natural landscapes and picturesque architecture make it a photographer's paradise.",
+  "restaurants": [
+    {
+      "name": "Fitger's Brewhouse",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic brewery and restaurant housed in a 1910 Romanesque building featuring craft beers and hearty pub fare. Known for their rotating seasonal brews and wood-fired pizzas.",
+      "mustTry": "Brewhouse burger with house IPA"
+    },
+    {
+      "name": "Corktown Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Cozy neighborhood spot serving farm-to-table breakfast and lunch with locally-sourced ingredients. Warm atmosphere with excellent coffee and fresh pastries.",
+      "mustTry": "Smoked salmon benedict"
+    },
+    {
+      "name": "Grandma's Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Duluth institution since 1972, offering hearty American comfort food with Lake Superior views from the harbor location. Famous for their whitefish and locally-inspired dishes.",
+      "mustTry": "Broiled lake superior whitefish"
+    },
+    {
+      "name": "Taverna",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale Italian restaurant featuring house-made pasta and an extensive wine list in an intimate setting. Known for refined dishes and impeccable service.",
+      "mustTry": "Pappardelle with wild mushrooms"
+    },
+    {
+      "name": "Chester's Kitchen & Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American bistro celebrating local ingredients with creative seasonal menus and an impressive craft cocktail program. Exposed brick and warm lighting create an inviting ambiance.",
+      "mustTry": "Wild rice mushroom soup"
+    },
+    {
+      "name": "Burrito Union",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican eatery serving fresh, made-to-order burritos, tacos, and bowls with quality ingredients. Popular with locals for quick, affordable meals.",
+      "mustTry": "Carnitas burrito"
+    },
+    {
+      "name": "Bellows Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quirky coffee shop and small restaurant with vintage decor, excellent espresso, and homemade baked goods. A gathering spot for artists and locals.",
+      "mustTry": "House blend coffee and cinnamon rolls"
+    },
+    {
+      "name": "Lake Avenue Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated dining experience featuring contemporary American cuisine with Nordic influences and an exceptional wine program. Intimate booth seating and attentive service.",
+      "mustTry": "Pan-seared walleye with seasonal vegetables"
+    },
+    {
+      "name": "Sammy's Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Classic New York-style pizzeria with thin crust pies, crispy edges, and traditional toppings. A Duluth favorite since the 1970s.",
+      "mustTry": "Pepperoni pizza"
+    },
+    {
+      "name": "Blackwater Market",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table eatery with rotating seasonal menus highlighting local produce, meats, and fish. Warm rustic interior and knowledgeable staff.",
+      "mustTry": "Lake Superior fish special"
+    },
+    {
+      "name": "Vietnamese Restaurant Pho King Good",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Vietnamese pho and banh mi sandwiches prepared with traditional recipes and quality broth. Quick service and affordable prices.",
+      "mustTry": "Beef pho with fresh herbs"
+    },
+    {
+      "name": "The Scenic Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Fine dining perched on the hillside with panoramic Lake Superior views, featuring contemporary cuisine and an extensive wine selection. Perfect for special occasions.",
+      "mustTry": "Herb-crusted lamb chops"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Visit Lake Superior",
+      "category": "Outdoor",
+      "description": "Explore the world's largest freshwater lake by surface area with swimming at designated beaches, kayaking, or simply walking along the pristine shoreline. The massive expanse offers endless opportunities for water-based recreation and peaceful contemplation.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Duluth Harbor Cruise",
+      "category": "Outdoor",
+      "description": "Scenic boat tour of the working harbor and Superior shoreline with views of ships, lighthouses, and the city skyline. Narrated tours explain the maritime history and ecological importance of the lake.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Superior Hiking Trail",
+      "category": "Adventure",
+      "description": "Multi-day hiking trail system running through forests and along Lake Superior cliffs with 310 miles of maintained paths. Day hikes range from easy to challenging with stunning waterfall and scenic vista rewards.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "St. Louis River Greenway Trail",
+      "category": "Outdoor",
+      "description": "Paved multi-use trail perfect for biking, walking, or jogging with beautiful river views and access to parks. Well-maintained path connects multiple neighborhoods and natural areas.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Lake Superior Zoo",
+      "category": "Family",
+      "description": "35-acre zoo featuring over 700 animals from around the world with focus on northern climate species. Interactive exhibits and educational programs make it engaging for all ages.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Great Lakes Aquarium",
+      "category": "Indoor",
+      "description": "Interactive aquarium showcasing freshwater ecosystems including fish from Lake Superior and demonstration tanks. Touch pools and educational exhibits provide hands-on learning experiences.",
+      "durationHours": 3,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Duluth Art Institute",
+      "category": "Cultural",
+      "description": "Contemporary art museum featuring local and regional artists with rotating exhibitions, classes, and community events. Beautiful renovated building houses diverse artistic expressions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Canal Park District Walk",
+      "category": "Outdoor",
+      "description": "Explore the vibrant waterfront neighborhood filled with shops, restaurants, galleries, and entertainment venues. Free to walk and explore with stunning harbor views and working lighthouse.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Enger Park and Tower",
+      "category": "Outdoor",
+      "description": "Historic 1928 stone tower offering 360-degree views of Lake Superior, harbor, and city from 300 feet elevation. Beautiful park grounds with gardens and hiking trails.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "North Shore Scenic Drive",
+      "category": "Adventure",
+      "description": "Day trip along Highway 61 featuring waterfalls, hiking trails, coastal views, and charming small towns like Grand Marais and Two Harbors. Stop at scenic overlooks and explore state parks along the route.",
+      "durationHours": 8,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Bayfront Festival Park Events",
+      "category": "Family",
+      "description": "Venue hosting live music concerts, food festivals, and cultural events throughout the year in a scenic waterfront location. Check calendar for seasonal entertainment and celebrations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Glensheen Historic Estate",
+      "category": "Cultural",
+      "description": "39-room Jacobean-style mansion from 1908 with beautiful gardens overlooking Lake Superior, offering guided tours of the furnished interior. Learn about Duluth's prominent families and architectural heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Aerial Lift Bridge at Sunrise",
+        "description": "Iconic red steel bridge with Lake Superior backdrop creates stunning symmetry and reflections in morning light.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before 7am",
+        "category": "Architecture"
+      },
+      {
+        "name": "Canal Park Waterfront",
+        "description": "Harbor activity with ships, lighthouses, and colorful buildings offering dynamic urban and maritime photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning and late afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Enger Tower and Park",
+        "description": "Historic stone tower with 360-degree panoramic views of the city, harbor, and lake.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour at sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Hawk Ridge",
+        "description": "Dramatic hillside overlooking the city and lake with forest layers and birds in flight during migration season.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for light direction",
+        "category": "Landscape"
+      },
+      {
+        "name": "Glensheen Mansion and Grounds",
+        "description": "Elegant 1908 mansion with manicured gardens framing Lake Superior views creates timeless estate photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light on gardens",
+        "category": "Architecture"
+      },
+      {
+        "name": "Superior Hiking Trail Waterfalls",
+        "description": "Cascading waterfalls through forested areas north of Duluth with lush green vegetation and flowing water.",
+        "difficulty": "Intermediate",
+        "bestTime": "After rainfall for maximum flow",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lake Superior Shoreline at Chester Bowl",
+        "description": "Rocky beach with waves, ice formations in winter, and dramatic cliff backdrops along the water's edge.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light or stormy conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Fitger's Brewery Building",
+        "description": "Historic Romanesque architecture with red brick and ornate details reflecting in evening light.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "St. Louis River Greenway Trail",
+        "description": "Tree-lined paved trail with river reflections, bridges, and sunset over water creating layered compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Duluth Street Photography",
+        "description": "Historic buildings, street art, shop windows, and architectural details of Main Street and Superior Street.",
+        "difficulty": "Beginner",
+        "bestTime": "Afternoon for window reflections",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Aerial Lift Bridge",
+      "Chester Bowl Beach",
+      "Lakehead and Observation Point"
+    ],
+    "sunsetSpots": [
+      "Enger Tower",
+      "Canal Park Waterfront",
+      "Superior Hiking Trail Overlooks"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape vistas and architectural contexts",
+      "24-70mm standard zoom for versatile framing and harbor scenes",
+      "70-200mm telephoto for compressed waterfront shots and distant ships",
+      "14mm ultra-wide or fisheye for immersive Lake Superior horizons"
+    ],
+    "goldenHourNotes": "Duluth's hillside topography creates exceptional golden hour opportunities with changing light directions. The east-facing Lake Superior provides dramatic sunrise reflections off calm water, while west-facing Enger Tower captures stunning sunset illumination. Winter months offer extended golden hour periods due to lower sun angles and potential snow reflections.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -10,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -8,
+        "rainfallMM": 20
+      },
+      {
+        "month": 3,
+        "avgTempC": -3,
+        "rainfallMM": 35
+      },
+      {
+        "month": 4,
+        "avgTempC": 5,
+        "rainfallMM": 40
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 65
+      },
+      {
+        "month": 6,
+        "avgTempC": 18,
+        "rainfallMM": 85
+      },
+      {
+        "month": 7,
+        "avgTempC": 21,
+        "rainfallMM": 80
+      },
+      {
+        "month": 8,
+        "avgTempC": 20,
+        "rainfallMM": 75
+      },
+      {
+        "month": 9,
+        "avgTempC": 15,
+        "rainfallMM": 70
+      },
+      {
+        "month": 10,
+        "avgTempC": 9,
+        "rainfallMM": 60
+      },
+      {
+        "month": 11,
+        "avgTempC": 2,
+        "rainfallMM": 45
+      },
+      {
+        "month": 12,
+        "avgTempC": -7,
+        "rainfallMM": 30
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer months (June-September) offer warm temperatures and ideal hiking conditions with minimal snow. Winter is cold and snowy but beautiful for ice photography and winter sports, while spring and fall feature moderate temperatures and changing foliage.",
+    "summary": "Duluth experiences a humid continental climate with cold, snowy winters averaging -10°C and mild summers around 21°C. Lake Superior moderates temperatures year-round, creating unique microclimates and stunning weather photography opportunities throughout all seasons."
+  },
+  "hotels": [
+    {
+      "name": "Hostel DuLux",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Colorful budget hostel with private rooms and dorms, communal kitchen, and social atmosphere in downtown Duluth location."
+    },
+    {
+      "name": "Radisson Blu Duluth Waterfront",
+      "neighborhood": "Canal Park",
+      "pricePerNightUSD": 160,
+      "category": "Mid-range",
+      "description": "Modern waterfront hotel with Lake Superior views, fitness center, on-site dining, and direct access to Canal Park attractions."
+    },
+    {
+      "name": "Glensheen Heritage Inn & Suites",
+      "neighborhood": "East Hillside",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Upscale boutique hotel featuring elegant suites with Lake Superior views, premium amenities, spa services, and gourmet dining experience."
+    }
+  ]
+}

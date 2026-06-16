@@ -26,115 +26,127 @@
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
     },
     {
       "level": "mid",
       "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "maxPerDayUSD": 450
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 500,
-      "maxPerDayUSD": 1500
+      "minPerDayUSD": 550,
+      "maxPerDayUSD": 1200
     }
   ],
   "unsplashQuery": "Napa Valley vineyards sunset",
-  "summary": "Napa Valley is a premier wine destination in Northern California, renowned for world-class Cabernet Sauvignons, Pinot Noirs, and exceptional farm-to-table dining. Rolling vineyard-covered hills, luxury resorts, and charming wine towns create an ideal setting for wine enthusiasts, food lovers, and photographers seeking beautiful landscapes and culinary experiences.",
+  "summary": "Napa Valley is America's premier wine destination, renowned for world-class Cabernet Sauvignon and Pinot Noir produced in picturesque rolling vineyards. Beyond wine, the region offers exceptional farm-to-table dining, hot air ballooning, and stunning landscapes that make it a haven for food lovers and photographers alike.",
   "restaurants": [
     {
       "name": "The French Laundry",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Michelin three-star restaurant offering an exquisite multi-course tasting menu showcasing seasonal ingredients and French culinary techniques. Considered one of the best restaurants in the world.",
-      "mustTry": "Chef's tasting menu"
+      "description": "A three-Michelin-starred culinary masterpiece in Yountville featuring innovative French cuisine with seasonal California ingredients. Thomas Keller's legendary restaurant is nearly impossible to book but represents the apex of Napa dining.",
+      "mustTry": "Tasting menu featuring foie gras and seasonal preparations"
     },
     {
       "name": "Bistro Jeanty",
-      "category": "Local Specialty",
+      "category": "Midrange",
       "priceRange": "$$$",
-      "description": "Classic French bistro in Yountville featuring traditional dishes like coq au vin and duck confit in an intimate, charming setting. Perfect for authentic French cuisine without the ultra-fine dining atmosphere.",
-      "mustTry": "Coq au vin"
+      "description": "Casual French bistro in Yountville serving classic comfort food in a cozy, warm atmosphere with excellent wine pairings. Known for authentic French preparation without the pretension of haute cuisine.",
+      "mustTry": "Coq au vin and beef burgundy"
     },
     {
       "name": "Oxbow Market",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Public market in Napa offering diverse food vendors, fresh produce, and casual dining options for breakfast and lunch. Great for affordable, quality meals and local products.",
-      "mustTry": "Acme bread and fresh juices"
-    },
-    {
-      "name": "Ad Hoc",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Casual, family-style restaurant from Thomas Keller serving comfort food with high-quality ingredients and exceptional service. Offers a more relaxed alternative to The French Laundry.",
-      "mustTry": "Fried chicken dinner"
-    },
-    {
-      "name": "Mustard's Grill",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Iconic roadside restaurant in Rutherford known for American comfort food and a lively atmosphere. Features Napa Valley wines and creative burgers.",
-      "mustTry": "Smoky eggplant and grilled fish"
-    },
-    {
-      "name": "Farmstead at Long Meadow Ranch",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Farm-to-table restaurant located on a working ranch, serving seasonal cuisine with ingredients from their own farm. Beautiful vineyard and mountain views complement the exceptional food.",
-      "mustTry": "Wood-fired dishes and grass-fed beef"
+      "priceRange": "$",
+      "description": "Napa's best food hall featuring artisanal vendors, local producers, and quick-service options in a historic riverfront location. Perfect for sampling local cheeses, charcuterie, and prepared foods without breaking the bank.",
+      "mustTry": "Fresh oysters and local cheese selections"
     },
     {
       "name": "Bouchon Bakery",
       "category": "Budget",
       "priceRange": "$",
-      "description": "French-style bakery and café in Yountville offering pastries, sandwiches, and coffee in a casual, welcoming environment. Perfect for breakfast or light lunch.",
-      "mustTry": "Croissants and pain au chocolat"
+      "description": "Thomas Keller's casual bakery in Yountville offering exceptional pastries, sandwiches, and breakfast items at accessible prices. Ideal for a quick morning bite before wine tasting.",
+      "mustTry": "Croissants and fresh-baked bread"
     },
     {
-      "name": "Terra",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Michelin-starred restaurant in St. Helena showcasing innovative California cuisine with Asian influences in an elegant setting. Emphasizes seasonal vegetables and finest local ingredients.",
-      "mustTry": "Heirloom tomato dishes and seafood preparations"
+      "name": "Ad Hoc",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Family-style restaurant by Thomas Keller in Yountville offering a single nightly menu of comfort food served communal-style. Reservations are essential for this unique, casual fine dining experience.",
+      "mustTry": "Roasted chicken and seasonal family-style offerings"
     },
     {
-      "name": "Redd",
+      "name": "Farmstead at Long Meadow Ranch",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table dining at its finest with cuisine inspired by their own working farm and sustainable vineyards in Rutherford. The restaurant showcases organic produce and estate wines.",
+      "mustTry": "Seasonal farm vegetables and grass-fed beef"
+    },
+    {
+      "name": "Mustard's Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual roadside grill in Yountville since 1983 serving elevated comfort food and wine-friendly dishes at reasonable prices. Known for fresh ingredients and excellent value for Napa standards.",
+      "mustTry": "Grilled fish and herb fries"
+    },
+    {
+      "name": "The Grill at Meadowood",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Contemporary fine dining in Yountville offering modern American cuisine crafted from local, seasonal ingredients. Sophisticated atmosphere with an excellent wine list.",
-      "mustTry": "Wood-fired preparations and market vegetables"
+      "description": "Sophisticated California cuisine with Michelin recognition in St. Helena, featuring seasonal menus and an extensive wine collection. Fine dining with a relaxed luxury atmosphere.",
+      "mustTry": "Seasonal tasting menu with wine pairings"
+    },
+    {
+      "name": "Sfoglini Pasta",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Small, casual pasta shop in Napa making fresh handmade Italian pasta available to-go and at a few seats in-house. Authentic Italian preparation at budget-friendly prices.",
+      "mustTry": "Fresh tagliatelle or pappardelle with seasonal sauces"
+    },
+    {
+      "name": "Greystone Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Restaurant at the Culinary Institute of America housed in a historic stone building in St. Helena, offering sophisticated California cuisine. Combines fine dining with educational hospitality.",
+      "mustTry": "Student-prepared tasting menu with local wines"
+    },
+    {
+      "name": "Napa General Store",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual American cuisine in a historic general store setting in Napa, featuring sandwiches, salads, and comfort food. Great for casual meals without wine markup.",
+      "mustTry": "Gourmet sandwiches and fresh seasonal salads"
     },
     {
       "name": "Celadon",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "California cuisine restaurant in Napa featuring fresh, locally-sourced ingredients prepared with creative techniques. Warm, welcoming atmosphere with an impressive wine selection.",
-      "mustTry": "Seasonal fish and vegetable sides"
-    },
-    {
-      "name": "Taylor's Refresher",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual burger and hot dog stand in St. Helena offering high-quality, affordable meals in a fun outdoor setting. Great for a quick, satisfying lunch.",
-      "mustTry": "Grass-fed burgers and hand-cut fries"
-    },
-    {
-      "name": "Bottega",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Italian restaurant in Yountville featuring fresh pasta, wood-fired pizzas, and traditional Italian dishes in a warm, rustic setting. Excellent wine pairings with an Italian focus.",
-      "mustTry": "House-made pasta and wood-fired meats"
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant in Napa with creative cuisine and an excellent wine list featuring local producers. Elegant but approachable fine dining.",
+      "mustTry": "Fresh seafood preparations and seasonal vegetables"
     }
   ],
   "activities": [
     {
-      "name": "Wine Tasting at Wineries",
-      "category": "Cultural",
-      "description": "Visit renowned wineries throughout Napa Valley for tastings of Cabernet Sauvignon, Pinot Noir, and Chardonnay with knowledgeable sommeliers. Each winery offers unique terroir, history, and architecture.",
+      "name": "Hot Air Balloon Tour",
+      "category": "Adventure",
+      "description": "Sunrise balloon ride over the Napa Valley vineyards offering breathtaking views and a serene perspective of the landscape. Tours typically include champagne breakfast post-flight.",
       "durationHours": 3,
-      "estimatedCostUSD": 50,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Wine Tasting at Iconic Wineries",
+      "category": "Cultural",
+      "description": "Visit prestigious wineries like Opus One, Castello di Amorosa, or Domaine Chandon for guided tastings and vineyard tours. Experience world-class winemaking from boutique to large estates.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "standard",
         "foodie",
@@ -143,81 +155,94 @@
     },
     {
       "name": "Napa Valley Wine Train",
-      "category": "Cultural",
-      "description": "Historic luxury train journey through vineyard-covered valleys with gourmet multi-course dining and wine pairings. Combines scenic views with fine dining in an elegant, unique setting.",
+      "category": "Outdoor",
+      "description": "Scenic railway journey through vineyards with gourmet meal service and wine pairings onboard vintage train cars. Perfect combination of sightseeing and fine dining.",
       "durationHours": 3,
-      "estimatedCostUSD": 200,
+      "estimatedCostUSD": 175,
       "bestFor": [
         "standard",
         "foodie",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Ballooning Over Vineyards",
-      "category": "Adventure",
-      "description": "Early morning hot air balloon ride offering stunning aerial views of Napa Valley's patchwork vineyards and rolling hills. Includes champagne breakfast and photos from above.",
-      "durationHours": 4,
-      "estimatedCostUSD": 250,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Hiking at Bothe-Napa Valley State Park",
-      "category": "Outdoor",
-      "description": "Scenic hiking trails through redwood forests and oak woodlands with views of vineyards and mountains. Multiple trail options suitable for various fitness levels.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
+        "photography"
       ]
     },
     {
       "name": "Oxbow Market Food Tour",
-      "category": "Culinary",
-      "description": "Guided tour of Napa's premier public market featuring local artisans, farmers, and food vendors with tastings. Learn about local ingredients and sustainable farming practices.",
+      "category": "Foodie",
+      "description": "Self-guided or guided exploration of Napa's premier food hall sampling local artisanal products, cheeses, and prepared foods. Walk through historic riverfront venue.",
       "durationHours": 2,
-      "estimatedCostUSD": 75,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "foodie",
-        "standard",
+        "relaxation",
         "hidden-gems"
       ]
     },
     {
-      "name": "Art and Architecture Walking Tour",
-      "category": "Cultural",
-      "description": "Explore Yountville's galleries, historic buildings, and public art installations with expert guides. Discover the valley's creative community and contemporary art scene.",
-      "durationHours": 2,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Spa Day at Luxury Resorts",
-      "category": "Relaxation",
-      "description": "Indulge in world-class spa treatments featuring mud baths, massages, and wellness therapies. Many spas incorporate local mineral-rich elements and wine-based treatments.",
+      "name": "Hiking at Robert Louis Stevenson State Park",
+      "category": "Outdoor",
+      "description": "Scenic hiking trails with views of Mount Saint Helena and surrounding valleys near Calistoga. Multiple trails range from easy to moderately challenging.",
       "durationHours": 3,
-      "estimatedCostUSD": 300,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
+        "adventure",
+        "photography",
         "standard"
       ]
     },
     {
-      "name": "Bicycle Wine Tour",
+      "name": "Napa Valley Museum Visit",
+      "category": "Cultural",
+      "description": "Learn about Napa's natural and human history, art, and wine heritage through exhibits in Yountville. Well-curated museum with rotating exhibitions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cooking Class at CIA",
+      "category": "Indoor",
+      "description": "Hands-on cooking classes at the Culinary Institute of America in St. Helena taught by professional instructors. Learn techniques and prepare multi-course meals.",
+      "durationHours": 4,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Bothe-Napa Valley State Park Picnic",
       "category": "Outdoor",
-      "description": "Pedal through scenic backroads visiting multiple wineries with expert guides and tastings included. Combines exercise, wine education, and stunning valley views.",
+      "description": "Beautiful state park offering picnicking, hiking, and swimming in Ritchey Creek near Calistoga. Scenic redwood forests and peaceful natural environment.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Spas and Thermal Baths in Calistoga",
+      "category": "Relaxation",
+      "description": "Geothermal hot springs and mud bath treatments unique to Calistoga's volcanic landscape. Indulgent spa experiences using natural mineral water.",
+      "durationHours": 2,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bicycle Wine Tours",
+      "category": "Adventure",
+      "description": "Guided cycling through vineyard-filled roads with winery stops, wine tastings, and gourmet picnic lunch. Moderate fitness required with support vehicle available.",
       "durationHours": 5,
-      "estimatedCostUSD": 120,
+      "estimatedCostUSD": 150,
       "bestFor": [
         "adventure",
         "foodie",
@@ -225,208 +250,183 @@
       ]
     },
     {
-      "name": "Cooking Class at Culinary Schools",
+      "name": "Yountville Art Galleries Walk",
       "category": "Cultural",
-      "description": "Learn from professional chefs in hands-on classes focusing on seasonal ingredients and wine pairing. Classes include market tours, preparation, and meals.",
-      "durationHours": 4,
-      "estimatedCostUSD": 150,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Scenic Drive Through Napa Valley",
-      "category": "Outdoor",
-      "description": "Self-guided or organized drive through the valley visiting small towns, vineyards, and scenic overlooks. Stop at vista points, roadside stands, and hidden gems.",
-      "durationHours": 5,
+      "description": "Self-guided exploration of Yountville's galleries, boutiques, and public art installations in this charming wine country village. Free to browse galleries and enjoy public spaces.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "hidden-gems",
-        "surprise"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Visit Oxbow Preserve and Nature Centers",
-      "category": "Outdoor",
-      "description": "Explore protected natural areas with hiking trails, birdwatching opportunities, and educational programs. Free or low-cost access to pristine natural landscapes.",
-      "durationHours": 3,
-      "estimatedCostUSD": 5,
+      "name": "Vintage Automobile Museum Tour",
+      "category": "Indoor",
+      "description": "Visit the Oxo Tower or local car museums showcasing vintage and classic automobiles with regional automotive history. Car enthusiast paradise in St. Helena.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
       "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Wine Education and Certification Workshops",
-      "category": "Cultural",
-      "description": "Attend sommelier-led seminars on wine tasting techniques, varietals, and regional characteristics. Perfect for deepening wine knowledge and meeting fellow enthusiasts.",
-      "durationHours": 3,
-      "estimatedCostUSD": 100,
-      "bestFor": [
-        "foodie",
         "standard",
-        "surprise"
+        "surprise",
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Castello di Amorosa",
-        "description": "Stunning 121-room castle winery with Tuscan-inspired architecture photographed against vineyard backdrops and dramatic skies.",
+        "name": "Oxbow Market Entrance",
+        "description": "Historic riverfront market featuring red brick architecture reflected in water, ideal for architectural and street photography with golden hour reflections.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour",
+        "bestTime": "Golden hour (sunrise or sunset)",
         "category": "Architecture"
       },
       {
-        "name": "Oxbow Market Interior",
-        "description": "Vibrant marketplace with colorful produce, interesting characters, and dynamic lighting opportunities for street and food photography.",
+        "name": "Castello di Amorosa Vineyard",
+        "description": "Tuscan-style castle among rolling vineyards creating dramatic landscape and architectural compositions with terraced vines.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning or late afternoon for vineyard highlights",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mustard's Grill Roadside Sign",
+        "description": "Iconic vintage roadside sign with vineyards in the background, classic California rural Americana perfect for color and detail shots.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light",
+        "bestTime": "Morning light for clean colors",
         "category": "Street"
       },
       {
-        "name": "Rutherford Dust Trail Vineyards",
-        "description": "Rolling vineyard rows with dramatic perspective leading into misty mornings or golden sunsets over distant hills.",
+        "name": "Mount Saint Helena from Robert Louis Stevenson Park",
+        "description": "Panoramic mountain landscape with valleys below, wildflowers in foreground during spring creating layered depth.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning or sunset",
+        "bestTime": "Early morning for clear air and soft light",
         "category": "Landscape"
       },
       {
-        "name": "Bothe-Napa Valley State Park",
-        "description": "Diverse landscape featuring redwood groves, oak forests, and valley vistas with excellent hiking photography opportunities.",
+        "name": "Napa River Sunset Point",
+        "description": "Peaceful riverside location with willow trees and reflecting water creating mirror-like sunset compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for golden and orange tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Vintage Barn near Rutherford",
+        "description": "Weathered wooden barn surrounded by grapevines offering rustic agricultural subject with natural framing.",
         "difficulty": "Intermediate",
-        "bestTime": "Mid-morning",
+        "bestTime": "Golden hour for warm barn tones",
         "category": "Landscape"
       },
       {
-        "name": "Downtown Yountville Architecture",
-        "description": "Historic French-style buildings, shutters, and boutiques creating picturesque European-feel street photography scenes.",
+        "name": "St. Helena Main Street",
+        "description": "Charming downtown street with Victorian architecture, storefronts, and tree-lined sidewalks perfect for travel and street photography.",
         "difficulty": "Beginner",
-        "bestTime": "Morning and late afternoon",
-        "category": "Architecture"
-      },
-      {
-        "name": "Sterling Vineyard Overlook",
-        "description": "Elevated viewpoint offering panoramic valley vistas with layered vineyards and mountain ranges creating depth and scale.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset",
-        "category": "Landscape"
-      },
-      {
-        "name": "Napa River Walk",
-        "description": "Riverside pathway with reflections, bridges, and natural lighting perfect for landscape and architectural reflection photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour",
-        "category": "Landscape"
-      },
-      {
-        "name": "Harvest Season Vineyard Rows",
-        "description": "Workers among vineyard rows during harvest season offering dynamic action, color, and cultural photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "September-October mornings",
+        "bestTime": "Mid-morning for even light on buildings",
         "category": "Street"
       },
       {
-        "name": "Calistoga Mud Baths Area",
-        "description": "Geothermal landscape with mineral-rich waters creating unique colors and steam effects, especially during cooler morning hours.",
+        "name": "Yountville Courtyard Galleries",
+        "description": "Hidden courtyards with ivy-covered walls, galleries, and fountain features creating intimate architectural compositions.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning",
+        "bestTime": "Mid-day for even lighting in courtyards",
+        "category": "Architecture"
+      },
+      {
+        "name": "Vineyard Rows at Dawn",
+        "description": "Linear vineyard rows creating leading lines and geometric patterns, best captured from elevated positions with morning mist.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise with fog and dew on vines",
         "category": "Landscape"
       },
       {
-        "name": "Culinary Institute of America Building",
-        "description": "Modern and historic architectural blend with elegant courtyards and professional kitchen spaces showcasing culinary artistry.",
+        "name": "Calistoga Hot Springs Geysers",
+        "description": "Geothermal steam vents and mineral deposits creating ethereal atmospheric and close-up macro photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday light",
-        "category": "Architecture"
+        "bestTime": "Early morning when steam is most visible",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Oxbow Preserve Overlook",
-      "Bothe-Napa Valley State Park Ridge Trail",
-      "Rutherford Dust Trail Vineyards"
+      "Mount Saint Helena from Robert Louis Stevenson Park",
+      "Vineyard Rows near Rutherford Valley",
+      "Oxbow Market Riverfront"
     ],
     "sunsetSpots": [
-      "Sterling Vineyard Terrace",
-      "Skyline Park Vista Point",
-      "Napa River Walk Bridge"
+      "Napa River Sunset Point",
+      "Castello di Amorosa Vineyard Terraces",
+      "St. Helena Hillside Overlooks"
     ],
     "lensRecommendations": [
-      "24-70mm f/2.8 for versatile winery and landscape coverage",
-      "70-200mm f/4 for compressed vineyard rows and distant mountain layers",
-      "14-24mm f/2.8 wide angle for expansive valley vistas and architecture",
-      "50mm f/1.8 for intimate street photography and bokeh in markets"
+      "24-70mm for versatile landscape and architectural work across wine country",
+      "14-24mm wide-angle for expansive vineyard panoramas and dramatic skies",
+      "70-200mm telephoto for compressed mountain landscapes and distant detail",
+      "Macro lens (90-105mm) for close-up details of grapes, vines, and mineral deposits"
     ],
-    "goldenHourNotes": "Napa Valley's golden hour is exceptionally photogenic, with warm light illuminating vineyard rows and creating dramatic shadows on rolling hills. The valley's east-west orientation provides excellent sunrise and sunset opportunities. Morning fog in vineyards during cooler months adds atmospheric depth and romance to landscape compositions.",
+    "goldenHourNotes": "Napa Valley's golden hour is exceptionally photogenic due to the rolling terrain and abundant natural wine bottle-green foliage. The angle of morning and evening light creates warm tones on vineyard rows and accentuates the undulating landscape. Spring morning fog often lingers until 9-10am, creating mystical conditions perfect for atmospheric shots with a wide-angle lens.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 8,
+        "avgTempC": 9,
         "rainfallMM": 115
       },
       {
         "month": 2,
         "avgTempC": 10,
-        "rainfallMM": 85
+        "rainfallMM": 105
       },
       {
         "month": 3,
-        "avgTempC": 13,
-        "rainfallMM": 65
-      },
-      {
-        "month": 4,
-        "avgTempC": 16,
-        "rainfallMM": 50
-      },
-      {
-        "month": 5,
-        "avgTempC": 22,
-        "rainfallMM": 30
-      },
-      {
-        "month": 6,
-        "avgTempC": 27,
-        "rainfallMM": 20
-      },
-      {
-        "month": 7,
-        "avgTempC": 28,
-        "rainfallMM": 5
-      },
-      {
-        "month": 8,
-        "avgTempC": 28,
-        "rainfallMM": 8
-      },
-      {
-        "month": 9,
-        "avgTempC": 26,
-        "rainfallMM": 15
-      },
-      {
-        "month": 10,
-        "avgTempC": 20,
-        "rainfallMM": 40
-      },
-      {
-        "month": 11,
-        "avgTempC": 13,
+        "avgTempC": 12,
         "rainfallMM": 85
       },
       {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 65
+      },
+      {
+        "month": 5,
+        "avgTempC": 20,
+        "rainfallMM": 45
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 25
+      },
+      {
+        "month": 7,
+        "avgTempC": 26,
+        "rainfallMM": 10
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 12
+      },
+      {
+        "month": 9,
+        "avgTempC": 24,
+        "rainfallMM": 18
+      },
+      {
+        "month": 10,
+        "avgTempC": 19,
+        "rainfallMM": 45
+      },
+      {
+        "month": 11,
+        "avgTempC": 14,
+        "rainfallMM": 95
+      },
+      {
         "month": 12,
-        "avgTempC": 9,
-        "rainfallMM": 105
+        "avgTempC": 10,
+        "rainfallMM": 125
       }
     ],
     "bestMonths": [
@@ -434,32 +434,33 @@
       6,
       7,
       8,
-      9
+      9,
+      10
     ],
-    "seasonality": "Napa Valley experiences warm, dry summers (May-September) perfect for wine touring and outdoor activities, with peak season during harvest months (September-October). Winter months (December-February) bring cooler temperatures and rainfall, offering fewer crowds and lower prices, though some outdoor activities are limited.",
-    "summary": "The valley enjoys a Mediterranean climate with mild winters and warm summers, making it accessible year-round. Spring wildflowers and fall harvest season are particularly beautiful, while summer provides consistent sunny weather ideal for outdoor exploration."
+    "seasonality": "Napa Valley experiences a classic Mediterranean climate with warm, dry summers and mild, wet winters. Spring (April-May) brings wildflowers and fresh vineyard growth, while fall (September-October) offers harvest season excitement and warm days perfect for outdoor activities.",
+    "summary": "The region enjoys 300+ days of sunshine annually with most rainfall concentrated in winter months. Summer and early fall provide the most comfortable temperatures for wine tasting, outdoor activities, and photography with minimal rain."
   },
   "hotels": [
     {
       "name": "Napa Valley Budget Inn",
-      "neighborhood": "Napa Downtown",
-      "pricePerNightUSD": 120,
+      "neighborhood": "Napa",
+      "pricePerNightUSD": 95,
       "category": "Budget",
-      "description": "Clean, comfortable motel-style accommodation in central Napa offering convenient access to restaurants, markets, and valley attractions at affordable rates."
+      "description": "Simple, clean accommodations in downtown Napa with convenient access to Oxbow Market and local restaurants without premium pricing."
     },
     {
-      "name": "Bardessono",
-      "neighborhood": "Yountville",
-      "pricePerNightUSD": 350,
+      "name": "Harvest Inn by Boon Fly",
+      "neighborhood": "St. Helena",
+      "pricePerNightUSD": 280,
       "category": "Mid-range",
-      "description": "LEED-certified hotel featuring contemporary design, heated pools, spa services, and sustainable practices with excellent proximity to Yountville dining and galleries."
+      "description": "Contemporary luxury vineyard resort featuring two heated pools, spa facilities, and wine country elegance at reasonable mid-range pricing."
     },
     {
-      "name": "The Meritage Resort and Spa",
-      "neighborhood": "Napa Valley",
-      "pricePerNightUSD": 850,
+      "name": "The Ritz-Carlton Napa Valley",
+      "neighborhood": "Rutherford",
+      "pricePerNightUSD": 750,
       "category": "Luxury",
-      "description": "Ultra-luxury resort with world-class spa, wine cave experiences, gourmet dining, and breathtaking vineyard views offering comprehensive wine country indulgence."
+      "description": "Ultra-luxury resort with Michelin-starred restaurant, championship golf course, vineyard views, and world-class spa and hospitality services."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1701623785014-181cda1bcc37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxOYXBhJTIwVmFsbGV5JTIwdmluZXlhcmRzJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODE1NTYxMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"

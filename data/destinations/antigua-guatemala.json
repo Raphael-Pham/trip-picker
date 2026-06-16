@@ -5,8 +5,7 @@
   "region": "North America",
   "airportCodes": [
     "GUA",
-    "LIR",
-    "MGA"
+    "LIR"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -27,114 +26,126 @@
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 35,
-      "maxPerDayUSD": 65
+      "minPerDayUSD": 40,
+      "maxPerDayUSD": 70
     },
     {
       "level": "mid",
-      "minPerDayUSD": 75,
+      "minPerDayUSD": 70,
       "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 180,
-      "maxPerDayUSD": 350
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     }
   ],
-  "unsplashQuery": "Antigua Guatemala colorful colonial",
-  "summary": "Antigua is a UNESCO World Heritage Site brimming with pastel-colored colonial architecture, cobblestone streets, and a vibrant cultural scene nestled in the Guatemalan highlands. This charming town offers exceptional photography opportunities, authentic local cuisine, and proximity to three majestic volcanos, making it ideal for travelers seeking culture, adventure, and budget-friendly exploration.",
+  "unsplashQuery": "Antigua Guatemala colonial architecture",
+  "summary": "Antigua is a UNESCO World Heritage colonial gem nestled in the Guatemalan highlands, renowned for its meticulously preserved Spanish Renaissance architecture and vibrant indigenous culture. The city's cobblestone streets, pastel-colored buildings, and surrounding volcanoes create an enchanting atmosphere perfect for photographers, culture enthusiasts, and adventure seekers. With world-class cuisine, affordable prices, and countless cultural experiences, Antigua offers an authentic Central American experience unlike any other.",
   "restaurants": [
     {
-      "name": "Comedor Mary",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "A humble local favorite serving traditional Guatemalan breakfast and lunch with authentic pupusas and tamales. Perfect for experiencing genuine market-to-table cuisine.",
-      "mustTry": "Huevos Revueltos with fresh tortillas"
-    },
-    {
-      "name": "Café Condesa",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Charming courtyard café offering excellent coffee, pastries, and light lunch options in a historic colonial setting. A perfect morning stop before exploring the town.",
-      "mustTry": "Cappuccino with fresh croissant"
-    },
-    {
-      "name": "La Peña de Sol Latino",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Restaurant and cultural venue featuring Latin American fusion cuisine with live music performances most evenings. Combines excellent food with entertainment in a vibrant atmosphere.",
-      "mustTry": "Ceviche Tostadas"
-    },
-    {
-      "name": "Welten",
+      "name": "Conexión Antigua",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Sophisticated European-inspired cuisine with locally-sourced ingredients in an elegant setting overlooking Antigua's rooftops. Offers a refined dining experience with exceptional presentation.",
-      "mustTry": "Pan-seared duck with black bean reduction"
-    },
-    {
-      "name": "Casa Blanca",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Family-run comedor serving traditional chicken soup, beans, and rice in generous portions at unbeatable prices. A true local dining experience.",
-      "mustTry": "Caldo de pollo with avocado"
-    },
-    {
-      "name": "El Sereno",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary Guatemalan restaurant featuring innovative preparations of traditional ingredients with stunning views of the Agua Volcano. Highly regarded for creative presentations.",
-      "mustTry": "Coffee-crusted ribeye"
+      "priceRange": "$$$$",
+      "description": "Contemporary Guatemalan cuisine in a beautifully restored colonial home featuring organic, locally-sourced ingredients. Chef-driven tasting menus showcase the country's diverse culinary traditions with modern techniques.",
+      "mustTry": "Filet mignon with mole negro and roasted vegetables"
     },
     {
       "name": "La Cueva de los Duendes",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Cozy tapas bar offering Spanish-inspired small plates paired with local and international wines. Great for casual dinner and mixing with other travelers.",
-      "mustTry": "Patatas bravas with chipotle aioli"
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic local favorite serving traditional Guatemalan comida típica in a casual, family-style setting. Try the pepián and hichiapas for genuine highland cuisine.",
+      "mustTry": "Pepián rojo with chicken"
     },
     {
-      "name": "Biblia Chiquita",
+      "name": "Hoja Verde",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table vegetarian restaurant emphasizing organic produce from local farmers and sustainable practices. Creative dishes showcase Guatemalan ingredients with international influences.",
+      "mustTry": "Ravioli with local cheese and habañero peppers"
+    },
+    {
+      "name": "Casa Santo Domingo",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale dining within the luxury hotel featuring refined Guatemalan and international cuisine in a historic convent setting. Expert wine pairings and impeccable service create an unforgettable experience.",
+      "mustTry": "Filet with local coffee reduction"
+    },
+    {
+      "name": "Café Condesa",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual vegetarian café popular with backpackers and digital nomads serving fresh smoothie bowls, salads, and organic coffee. Perfect for budget-conscious travelers.",
-      "mustTry": "Açai bowl with granola"
+      "description": "Charming café on the central plaza perfect for breakfast and coffee, offering fresh pastries, omelets, and traditional Guatemalan breakfast fare. Ideal people-watching spot.",
+      "mustTry": "Breakfast with local coffee and fresh fruit"
+    },
+    {
+      "name": "El Sereno",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Cozy restaurant with candlelit tables serving Spanish and Guatemalan fusion cuisine with emphasis on grilled meats and fresh seafood. Intimate atmosphere perfect for dinner.",
+      "mustTry": "Ceviche tostadas"
+    },
+    {
+      "name": "Comedor Coyote",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "No-frills local comedor where residents eat, offering authentic cheap Guatemalan meals including fiambre, tamales, and traditional stews. Cash only, genuine local experience.",
+      "mustTry": "Fiambre (traditional salad) or tamales"
+    },
+    {
+      "name": "Pollo Campero",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Regional fast-casual chain famous for marinated grilled chicken served with sides of rice, beans, and tortillas. Quick, satisfying, and incredibly affordable.",
+      "mustTry": "Medio pollo with all sides"
+    },
+    {
+      "name": "Vivero's Café",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Garden-café atmosphere serving international and Guatemalan dishes with emphasis on fresh ingredients and vegetarian options. Perfect for lunch with a relaxed vibe.",
+      "mustTry": "Pasta with local vegetables"
+    },
+    {
+      "name": "Antigua Rum Casa",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Rum bar and restaurant offering Guatemalan specialties paired with craft rum selections from local distilleries. Educational tasting experiences available.",
+      "mustTry": "Ropa vieja with Guatemalan rum pairing"
+    },
+    {
+      "name": "Doña María Gordillo",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Traditional bakery and café famous for candied fruits, pastries, and sweet Guatemalan treats that have been made using family recipes for generations. Great for snacks and gifts.",
+      "mustTry": "Conservas (candied fruits)"
     },
     {
       "name": "Mesón Panza Verde",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Award-winning restaurant in a restored colonial house featuring contemporary Guatemalan cuisine with emphasis on local produce and traditional techniques. Intimate and romantic atmosphere.",
-      "mustTry": "Filet mignon with cilantro chimichurri"
-    },
-    {
-      "name": "Rainbow Café",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "International café offering pancakes, burritos, and comfort food in a relaxed bohemian setting with pinball machines and board games. Popular meeting spot for travelers.",
-      "mustTry": "Black bean burrito with fresh salsa"
-    },
-    {
-      "name": "Niño Perdido",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Traditional Guatemalan restaurant in a historic colonial building serving regional specialties with an emphasis on indigenous recipes. Offers insight into authentic highland cuisine.",
-      "mustTry": "Fiambre (traditional holiday salad)"
-    },
-    {
-      "name": "The Bagel Barn",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual bagel shop serving fresh baked goods, sandwiches, and excellent coffee in a laid-back atmosphere. Ideal for quick breakfast or lunch.",
-      "mustTry": "Bagel with cream cheese and smoked salmon"
+      "description": "Award-winning restaurant in a restored colonial mansion offering creative Guatemalan and Mediterranean cuisine. Elegant setting with courtyard dining under archways.",
+      "mustTry": "Pan-seared duck with local herbs"
     }
   ],
   "activities": [
     {
-      "name": "Walk the Colonial Streets",
+      "name": "Hike Volcán Pacaya",
+      "category": "Adventure",
+      "description": "Climb the active 2,552m volcano to experience volcanic landscapes, sulfur vents, and panoramic views of surrounding peaks and the highlands. Early morning departure recommended to avoid afternoon clouds.",
+      "durationHours": 8,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Explore Antigua City Walking Tour",
       "category": "Cultural",
-      "description": "Explore the cobblestone streets lined with pastel-colored colonial buildings, arches, and fountains that make Antigua a UNESCO World Heritage Site. This self-guided walking tour is accessible to all fitness levels.",
-      "durationHours": 2,
+      "description": "Self-guided or guided exploration of UNESCO-listed colonial architecture, including Palace of the Captains General, Cathedral ruins, and historic convents. Perfect for photography and understanding local history.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
@@ -143,287 +154,275 @@
       ]
     },
     {
-      "name": "Hike Volcano Pacaya",
-      "category": "Adventure",
-      "description": "Ascend an active volcano for stunning highland views and the opportunity to see lava flows at the summit. Tours typically include breakfast and transportation from Antigua.",
-      "durationHours": 8,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Visit Chichicastenango Market",
-      "category": "Cultural",
-      "description": "Experience Guatemala's most vibrant indigenous market with handwoven textiles, crafts, and produce spread across colorful stalls. A day trip showcasing highland culture and commerce.",
-      "durationHours": 6,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "photography",
-        "foodie",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Convento de Santa Clara",
-      "category": "Cultural",
-      "description": "Explore the ruins of this 16th-century convent featuring a museum displaying religious artifacts and colonial art. One of Antigua's most important religious monuments.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 3,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Coffee Plantation Tour",
+      "name": "Cerro de la Cruz Sunrise Hike",
       "category": "Outdoor",
-      "description": "Visit a working coffee farm to learn about cultivation, harvesting, and roasting processes while enjoying the highland landscape. Most tours include tasting and light snacks.",
-      "durationHours": 4,
-      "estimatedCostUSD": 40,
+      "description": "Short 45-minute hike to hilltop overlook providing stunning sunrise views over Antigua with volcanoes in the distance. Popular with photographers and early risers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "foodie",
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Ascend Volcano Acatenango",
-      "category": "Adventure",
-      "description": "Multi-day hike up a dormant volcano with overnight camping for sunrise views of Fuego volcano erupting in the distance. Challenging but rewarding experience for fit adventurers.",
-      "durationHours": 24,
-      "estimatedCostUSD": 120,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Jade Museum and Shop",
-      "category": "Indoor",
-      "description": "Learn about ancient Mayan jade craftsmanship and browse contemporary pieces at this small museum-shop hybrid. Discover the cultural and historical significance of jade in Guatemala.",
-      "durationHours": 1,
-      "estimatedCostUSD": 2,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Laguna Calderas",
-      "category": "Outdoor",
-      "description": "Visit a serene crater lake surrounded by lush forest and indigenous villages accessible via a scenic drive from Antigua. Perfect for peaceful afternoon walks and bird watching.",
-      "durationHours": 5,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "relaxation",
         "photography",
         "adventure"
       ]
     },
     {
-      "name": "Spanish Language Class",
-      "category": "Indoor",
-      "description": "Immerse yourself in intensive Spanish language instruction offered by multiple schools throughout Antigua. Many programs include cultural activities and home cooking classes.",
-      "durationHours": 4,
-      "estimatedCostUSD": 18,
+      "name": "Santiago Sacatepéquez Kite Festival",
+      "category": "Cultural",
+      "description": "Annual all-souls' day celebration featuring enormous colorful kites, traditional marimba music, and local street food. Seasonal experience combining culture, color, and community (late October-early November).",
+      "durationHours": 6,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "surprise"
+        "hidden-gems",
+        "photography"
       ]
     },
     {
-      "name": "Mercado Central",
+      "name": "Weaving Workshop with Local Artisans",
       "category": "Cultural",
-      "description": "Wander through Antigua's bustling central market filled with local vendors selling fresh produce, crafts, and traditional goods. Experience authentic daily life and local commerce.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Learn traditional backstrap loom weaving from indigenous Mayan artisans, understanding patterns, colors, and cultural significance. Hands-on experience producing your own textile.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Chocolate-Making Class",
+      "category": "Foodie",
+      "description": "Learn traditional Guatemalan chocolate making from cacao bean to finished product with expert instruction. Class includes tasting, crushing beans by hand, and taking home homemade chocolate.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
       "bestFor": [
         "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Day Trip to Chichicastenango Market",
+      "category": "Cultural",
+      "description": "Visit one of Guatemala's most colorful indigenous markets featuring vibrant textiles, crafts, produce, and local life. Best on market days (Thursday and Sunday) with early morning arrival.",
+      "durationHours": 8,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
         "photography",
         "hidden-gems"
       ]
     },
     {
-      "name": "Cerro de la Cruz",
-      "category": "Outdoor",
-      "description": "Climb the hill to this hilltop cross for panoramic views of Antigua and surrounding volcanoes, especially beautiful at sunset. Easy 20-minute hike with stunning rewards.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
+      "name": "Spanish Language Immersion Course",
+      "category": "Cultural",
+      "description": "Multi-day or week-long Spanish classes with local schools, often including homestays for complete immersion. Antigua has numerous reputable language schools serving all levels.",
+      "durationHours": 20,
+      "estimatedCostUSD": 150,
       "bestFor": [
         "standard",
-        "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Art Classes and Workshops",
-      "category": "Indoor",
-      "description": "Participate in painting, weaving, or pottery classes taught by local artists in traditional Mayan techniques. Perfect for creative travelers wanting to learn new skills.",
+      "name": "Horseback Riding in Highland Villages",
+      "category": "Adventure",
+      "description": "Guided horseback tours through surrounding villages, farmland, and indigenous communities with cultural interactions. Suitable for all skill levels with local guides.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Night Market and Street Food Tour",
+      "category": "Foodie",
+      "description": "Evening guided tour through local markets and street stalls sampling authentic street food, local specialties, and regional beverages. Cultural immersion with culinary focus.",
       "durationHours": 3,
       "estimatedCostUSD": 25,
       "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Coffee Plantation Day Trip",
+      "category": "Outdoor",
+      "description": "Visit local coffee finca to learn about growing, harvesting, and processing Guatemalan coffee with bean-to-cup tasting. Educational experience supporting local economy.",
+      "durationHours": 6,
+      "estimatedCostUSD": 40,
+      "bestFor": [
         "standard",
-        "surprise",
-        "relaxation"
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Convent and Religious Art Tour",
+      "category": "Cultural",
+      "description": "Guided exploration of colonial convents, religious architecture, and baroque artwork including San Felipe Neri, La Merced, and Santa Clara convents. Rich history and architectural significance.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Arco de Santa Clara",
-        "description": "Iconic yellow archway with bougainvillea vines creating a perfectly framed shot of Antigua's colonial architecture and mountain backdrop.",
+        "name": "Palace of the Captains General",
+        "description": "Iconic two-story colonial palace with ornate baroque facade, archways, and fountain courtyard providing geometric, architectural photography opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for soft light and minimal crowds",
+        "bestTime": "Early morning light or golden hour for warm tones on building facade",
         "category": "Architecture"
       },
       {
-        "name": "Chichicastenango Market",
-        "description": "Explosion of colors, textiles, and indigenous faces capturing the vibrant cultural heart of highland Guatemala.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning when market opens for golden light and active commerce",
+        "name": "Cathedral Ruins (La Iglesia de Santiago Apostol)",
+        "description": "Dramatic ruined cathedral with towering stone columns and arched openings creating powerful compositional frames against sky and surrounding architecture.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for side lighting on stone textures, sunset for silhouettes",
+        "category": "Architecture"
+      },
+      {
+        "name": "Arco de Santa Catalina",
+        "description": "Famous rose-colored stone archway straddling street with framed view of Volcán Agua in background, creating iconic composition for street and landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon when volcanoes are clearest and street traffic minimal",
         "category": "Street"
       },
       {
-        "name": "Agua Volcano at Sunrise",
-        "description": "Majestic cone-shaped volcano rising above the town at dawn, best viewed from elevated positions with foreground interest.",
-        "difficulty": "Intermediate",
-        "bestTime": "30 minutes before sunrise for pre-dawn colors",
-        "category": "Landscape"
-      },
-      {
-        "name": "Iglesia de San Francisco",
-        "description": "Ornate church facade with mustard-yellow walls and baroque architectural details exemplifying Antigua's colonial beauty.",
+        "name": "Central Plaza (Parque Central)",
+        "description": "Historic plaza surrounded by colonial architecture with market activity, locals in traditional dress, and fountain, ideal for street and cultural photography.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light on the front façade",
-        "category": "Architecture"
-      },
-      {
-        "name": "Convento de Santa Clara Ruins",
-        "description": "Crumbling arches and weathered stone columns creating atmospheric compositions with dramatic textures and historical depth.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for contrast in shadows within the ruins",
-        "category": "Architecture"
+        "bestTime": "Early morning for light and fewer tourists, or festival days for color and activity",
+        "category": "Street"
       },
       {
         "name": "Cerro de la Cruz Overlook",
-        "description": "Panoramic vista of Antigua's red-tiled roofs against three volcanoes creating iconic wideangle landscape compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour at sunset for warm illumination",
+        "description": "Elevated vantage point providing panoramic cityscape with volcanoes, churches, and colonial rooftops creating layered landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for warm colors and clear air, blue hour for city lights",
         "category": "Landscape"
       },
       {
-        "name": "Iglesia de La Merced",
-        "description": "Impressive baroque church with white and cream facade, featuring intricate details and a charming fountain in the plaza.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light highlights the ornate façade details",
-        "category": "Architecture"
-      },
-      {
-        "name": "Pacaya Volcano Slopes",
-        "description": "Volcanic landscape with dark lava rock, ash fields, and steam vents creating dramatic monochromatic environmental portraits.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday for contrast; sunrise for atmospheric mist",
-        "category": "Landscape"
-      },
-      {
-        "name": "Calle del Arco Street",
-        "description": "Charming narrow cobblestone street with colonial facades, flowering balconies, and authentic daily life scenes.",
-        "difficulty": "Beginner",
-        "bestTime": "Late afternoon for warm sidelighting on the buildings",
+        "name": "Chichicastenango Market",
+        "description": "Vibrant indigenous market with colorful textiles, traditional dress, and cultural activity providing rich documentary and street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning Thursday or Sunday when market is busiest and light is optimal",
         "category": "Street"
       },
       {
-        "name": "Central Market Colors",
-        "description": "Indigenous vendors in traditional dress selling vibrant textiles and produce, creating rich color and cultural storytelling opportunities.",
+        "name": "San Felipe Convent Courtyard",
+        "description": "Atmospheric colonial courtyard with weathered stone arches, ancient bell, and atmospheric light creating dramatic architectural and textural compositions.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning for better light, fewer tourists, and active commerce",
+        "bestTime": "Mid-morning when side light illuminates arches and textures",
+        "category": "Architecture"
+      },
+      {
+        "name": "Volcán Pacaya Lava Fields",
+        "description": "Active volcanic landscape with black lava rock, sulfur vents, and layered volcanic geology creating otherworldly terrain and textural opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear early morning before clouds form, golden hour for lava texture highlights",
+        "category": "Landscape"
+      },
+      {
+        "name": "Traditional Weaving Workshop",
+        "description": "Indoor artisans at work on backstrap looms with colorful threads, hands, and cultural activity providing intimate documentary and cultural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning with natural window light, request permission before photographing people",
+        "category": "Street"
+      },
+      {
+        "name": "Street Procession During Holy Week",
+        "description": "Purple-robed penitents carrying heavy crosses through cobblestone streets with colonial buildings and spectators, creating dramatic cultural and documentary photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon for processional light, requires planning for Holy Week dates",
         "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Cerro de la Cruz hilltop",
-      "Agua Volcano viewpoint from elevated streets",
-      "Acatenango Volcano hiking trail"
+      "Cerro de la Cruz",
+      "Volcán Pacaya Summit",
+      "Volcán Agua Approach"
     ],
     "sunsetSpots": [
-      "Cerro de la Cruz viewpoint overlooking town",
-      "Agua Volcano from Plaza Mayor",
-      "Pacaya Volcano summit"
+      "Palace of Captains General Courtyard",
+      "Cerro de la Cruz Overlook",
+      "Arco de Santa Catalina with volcano backdrop"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for colonial street scenes and volcano landscapes",
-      "50mm prime for street portraits and cultural details",
-      "70-200mm telephoto for compressing volcano distances and isolating architectural details",
-      "35mm prime for versatile documentary-style street photography"
+      "16-35mm wide angle for architectural breadth, colonial facades, and landscape vistas of city and volcanoes",
+      "50mm prime for street photography, intimate portraits of locals and market scenes with natural compression",
+      "70-200mm telephoto for compressed volcano views from city, distant landscape detail, and portrait isolation in crowded markets",
+      "24mm or 35mm prime for street work and versatile colonial architecture composition"
     ],
-    "goldenHourNotes": "Antigua's high altitude (1,530m) provides crisp, clear light ideal for photography year-round. Golden hour is particularly stunning for the colonial facades, which are often painted in warm yellows and oranges that glow during sunrise and sunset. The three volcanos surrounding the town create dramatic silhouettes during these periods, and the volcanic highlands often produce atmospheric mist that adds depth to landscape compositions.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Antigua's high altitude (1,530m) and mountain valley location create spectacular golden hour opportunities. Early morning provides warm light on colonial facades with clear volcano visibility before afternoon clouds form. Late afternoon/sunset golden hour dramatically highlights architectural details and creates romantic warm tones on pastel buildings. The surrounding volcanoes often catch final light long after city is in shadow, creating layered compositional opportunities.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 19,
-        "rainfallMM": 15
+        "avgTempC": 16,
+        "rainfallMM": 5
       },
       {
         "month": 2,
-        "avgTempC": 20,
-        "rainfallMM": 10
+        "avgTempC": 17,
+        "rainfallMM": 8
       },
       {
         "month": 3,
-        "avgTempC": 22,
-        "rainfallMM": 20
+        "avgTempC": 19,
+        "rainfallMM": 13
       },
       {
         "month": 4,
-        "avgTempC": 23,
-        "rainfallMM": 60
+        "avgTempC": 20,
+        "rainfallMM": 90
       },
       {
         "month": 5,
-        "avgTempC": 23,
-        "rainfallMM": 120
-      },
-      {
-        "month": 6,
-        "avgTempC": 22,
-        "rainfallMM": 150
-      },
-      {
-        "month": 7,
-        "avgTempC": 22,
-        "rainfallMM": 130
-      },
-      {
-        "month": 8,
-        "avgTempC": 22,
+        "avgTempC": 20,
         "rainfallMM": 140
       },
       {
+        "month": 6,
+        "avgTempC": 19,
+        "rainfallMM": 145
+      },
+      {
+        "month": 7,
+        "avgTempC": 19,
+        "rainfallMM": 135
+      },
+      {
+        "month": 8,
+        "avgTempC": 19,
+        "rainfallMM": 130
+      },
+      {
         "month": 9,
-        "avgTempC": 21,
+        "avgTempC": 18,
         "rainfallMM": 180
       },
       {
         "month": 10,
-        "avgTempC": 21,
-        "rainfallMM": 120
+        "avgTempC": 18,
+        "rainfallMM": 155
       },
       {
         "month": 11,
-        "avgTempC": 20,
-        "rainfallMM": 50
+        "avgTempC": 16,
+        "rainfallMM": 40
       },
       {
         "month": 12,
-        "avgTempC": 19,
-        "rainfallMM": 20
+        "avgTempC": 15,
+        "rainfallMM": 10
       }
     ],
     "bestMonths": [
@@ -433,31 +432,30 @@
       11,
       12
     ],
-    "seasonality": "Antigua experiences a dry season from December through March with clear skies and perfect hiking weather. The rainy season from May to October brings afternoon showers but lush green landscapes and fewer tourists.",
-    "summary": "Antigua's highland elevation (1,530m) keeps temperatures mild year-round, ranging from 19-23°C. The dry season offers the best weather for activities and photography, while the rainy season provides dramatic cloud formations and green landscapes for those who don't mind afternoon downpours."
+    "seasonality": "Antigua has two distinct seasons: dry season (November-March) with clear skies, perfect weather, and visibility of surrounding volcanoes, and rainy season (May-October) with afternoon downpours and lush green landscape. Shoulder months of April and early May offer pleasant weather but increasing afternoon rain.",
+    "summary": "Located at 1,530 meters elevation in the Guatemalan highlands, Antigua experiences cool, spring-like weather year-round with temperatures rarely exceeding 25°C. Dry season offers the most pleasant conditions with clear volcano views and minimal rainfall, while rainy season brings dramatic afternoon thunderstorms and verdant landscapes."
   },
   "hotels": [
     {
-      "name": "Casa del Sotano",
+      "name": "The Beehive Hostel",
       "neighborhood": "Central Antigua",
-      "pricePerNightUSD": 25,
+      "pricePerNightUSD": 18,
       "category": "Budget",
-      "description": "Charming budget hostel with colonial architecture, shared kitchen, and friendly common areas perfect for meeting other travelers."
+      "description": "Social hostel in restored colonial building featuring shared dormitories, communal kitchen, and rooftop views of surrounding volcanoes and city lights."
     },
     {
-      "name": "La Posada del Angel",
-      "neighborhood": "Historic Center",
+      "name": "Hotel Casa del Sotano",
+      "neighborhood": "Central Antigua",
       "pricePerNightUSD": 85,
       "category": "Mid-range",
-      "description": "Beautifully restored colonial mansion featuring courtyards with fountains, traditional Mayan decor, and attentive service in a prime location."
+      "description": "Charming 12-room boutique hotel in 17th-century colonial mansion with courtyard, fireplace common areas, and personalized service in historic setting."
     },
     {
       "name": "Casa Santo Domingo",
-      "neighborhood": "Centro Histórico",
+      "neighborhood": "Central Antigua",
       "pricePerNightUSD": 250,
       "category": "Luxury",
-      "description": "Luxury resort built into a restored convent ruins featuring archaeological museum, spa, and fine dining with volcano views and impeccable service."
+      "description": "Ultra-luxury 5-star hotel built within a restored 16th-century convent featuring archaeological museum, gourmet restaurant, spa, and impeccable colonial architecture."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1563442744-3e17a3bf4932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBbnRpZ3VhJTIwR3VhdGVtYWxhJTIwY29sb3JmdWwlMjBjb2xvbmlhbHxlbnwxfDB8fHwxNzgxNTU2MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

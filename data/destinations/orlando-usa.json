@@ -15,14 +15,15 @@
     "photography",
     "foodie",
     "adventure",
+    "relaxation",
     "family"
   ],
   "scores": {
     "cost": 45,
     "food": 78,
-    "photography": 82,
+    "photography": 75,
     "activities": 95,
-    "weather": 72
+    "weather": 70
   },
   "budgetRanges": [
     {
@@ -38,170 +39,186 @@
     {
       "level": "luxury",
       "minPerDayUSD": 300,
-      "maxPerDayUSD": 800
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Orlando theme parks sunset",
-  "summary": "Orlando is the world's premier theme park destination, home to Walt Disney World, Universal Studios, and SeaWorld, offering unmatched family entertainment and attractions. Beyond the parks, the city boasts vibrant dining, natural springs, beautiful lakes, and a thriving arts and cultural scene perfect for all travelers. The subtropical climate and year-round activities make it an ideal destination for adventure seekers and relaxation enthusiasts alike.",
+  "unsplashQuery": "Orlando theme parks cityscapes",
+  "summary": "Orlando is a world-renowned destination famous for its extraordinary theme parks including Walt Disney World, Universal Studios, and SeaWorld. Beyond the attractions, the city offers diverse dining, vibrant nightlife, beautiful natural springs, and year-round sunshine ideal for photography and outdoor adventures.",
   "restaurants": [
     {
-      "name": "The Cheesecake Factory",
-      "category": "Midrange",
+      "name": "The Polite Pig",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Located in ICON Park, this American casual dining staple offers extensive menu options with generous portions and a famous dessert selection. Perfect for families seeking familiar comfort food with excellent variety.",
-      "mustTry": "Original Cheesecake"
+      "description": "Award-winning barbecue restaurant featuring wood-fired meats and craft beverages in a casual, lively atmosphere. Signature smoked brisket and ribs draw locals and visitors alike.",
+      "mustTry": "Texas-style brisket platter"
     },
     {
-      "name": "Hanson's Shoe Repair",
+      "name": "Seito Sushi",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale farm-to-table restaurant in downtown Orlando featuring locally-sourced ingredients and innovative American cuisine in an intimate setting. Known for creative seasonal menus and exceptional wine pairings.",
-      "mustTry": "Chef's seasonal tasting menu"
-    },
-    {
-      "name": "Jaleo by José Andrés",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Vibrant Spanish tapas restaurant at Disney Springs offering authentic dishes and an energetic atmosphere perfect for sharing and celebrating. Features an extensive selection of Spanish wines and sherries.",
-      "mustTry": "Jamón ibérico and Pan con tomate"
+      "description": "Upscale Japanese sushi restaurant with omakase experiences and an extensive sake collection. Chef-driven courses showcase pristine seafood and traditional techniques.",
+      "mustTry": "Daily omakase selection"
     },
     {
       "name": "Aku Aku Tiki",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Retro Polynesian-themed tiki bar and restaurant serving creative tropical cocktails and island-inspired cuisine since 1956. A quirky Orlando institution with kitschy decor and strong rum-based drinks.",
-      "mustTry": "Mai Tai and kalua pork"
-    },
-    {
-      "name": "Bosphorous Turkish Cuisine",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Authentic Turkish restaurant offering kebabs, meze platters, and traditional Middle Eastern flavors in a warm, family-friendly environment. Known for generous portions and flavorful spice blends.",
-      "mustTry": "Lamb kebab and hummus trio"
-    },
-    {
-      "name": "Morimoto Asia",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary Asian fusion restaurant by Iron Chef Masaharu Morimoto at Disney Springs, featuring innovative sushi, ramen, and pan-Asian dishes. High-energy dining with theatrical kitchen views.",
-      "mustTry": "Miso black cod and signature ramen"
-    },
-    {
-      "name": "Ceviche Tapas Bar",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Spanish and South American-inspired tapas restaurant in downtown Orlando offering fresh ceviches, empanadas, and chorizo preparations. Great for sharing and exploring diverse Latin flavors.",
-      "mustTry": "Mixed ceviche platter and patatas bravas"
-    },
-    {
-      "name": "The Plate",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual farm-to-table counter-service restaurant in downtown offering fresh, healthy bowls, salads, and sandwiches at affordable prices. Locally-owned and popular with health-conscious diners.",
-      "mustTry": "Seasonal grain bowl with house vinaigrette"
+      "description": "Casual tiki-themed bar and restaurant serving affordable Hawaiian-inspired food and tropical cocktails. Perfect for a fun, laid-back meal with island vibes.",
+      "mustTry": "Kalua pork sandwich"
     },
     {
       "name": "Howl at the Moon",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "High-energy dueling piano bar and restaurant in downtown Orlando featuring live music, sing-alongs, and casual American fare. Perfect for memorable nights out with friends and family.",
-      "mustTry": "Wings and signature cocktails"
+      "description": "Live music venue and restaurant featuring dueling pianos and a full dinner menu. Great for combining dinner with entertainment in an energetic setting.",
+      "mustTry": "Grilled fish of the day"
     },
     {
-      "name": "Kres Chophouse",
+      "name": "Citricos",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale steakhouse in downtown Orlando housed in a historic building with elegant wood finishes and intimate booths. Features premium cuts, fresh seafood, and an impressive wine cellar.",
-      "mustTry": "Prime ribeye and Maine lobster tail"
+      "description": "Mediterranean fine dining restaurant at Grand Floridian Resort with elegant cuisine and sophisticated ambiance. Award-winning chef creates seasonal tasting menus.",
+      "mustTry": "Pan-seared scallops"
     },
     {
-      "name": "Graffiti Junktion",
+      "name": "Mesón Cristóbal",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Spanish tapas restaurant offering authentic small plates and wines from Spain. Intimate setting perfect for sharing multiple dishes and experiencing Spanish culinary traditions.",
+      "mustTry": "Jamón ibérico with manchego cheese"
+    },
+    {
+      "name": "The Farmery",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant emphasizing seasonal ingredients from local suppliers. Fresh, creative dishes in a charming rustic-modern setting.",
+      "mustTry": "Roasted vegetable plate with herb sauce"
+    },
+    {
+      "name": "Nile Ethiopian Restaurant",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual burger joint with multiple locations offering gourmet burgers, craft beer, and hand-cut fries in a fun, graffiti-decorated environment. Known for creative burger combinations and affordable prices.",
-      "mustTry": "Sriracha burger and truffle fries"
+      "description": "Authentic Ethiopian cuisine served communal-style on traditional platters. Vibrant flavors and generous portions offer excellent value for money.",
+      "mustTry": "Injera platter with doro wat"
     },
     {
-      "name": "Timpani Bar & Grill",
+      "name": "Jiko: The Cooking Place",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Japanese-Peruvian fusion cuisine with an extensive wine list. Open kitchen concept allows diners to watch skilled chefs work.",
+      "mustTry": "Crudo with citrus and crispy garlic"
+    },
+    {
+      "name": "Tabla",
       "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Italian-inspired casual restaurant in downtown Orlando serving fresh pasta, risotto, and wood-fired dishes in a warm, welcoming setting. Features excellent Italian wines and knowledgeable staff.",
-      "mustTry": "Handmade pasta of the day and risotto"
+      "priceRange": "$$$",
+      "description": "Indian restaurant serving traditional and innovative dishes with house-made breads and curries. Warm atmosphere and attentive service complement the authentic flavors.",
+      "mustTry": "Tandoori mains with naan"
+    },
+    {
+      "name": "Bosphorous Turkish Cuisine",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Turkish restaurant offering kebabs, mezze, and traditional entrees at affordable prices. Family-owned and friendly with authentic preparation.",
+      "mustTry": "Mixed kebab platter"
+    },
+    {
+      "name": "Sanaa",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "African-inspired fine dining at Animal Kingdom Lodge featuring game meats and exotic spices. Views of savanna animals and sophisticated presentation elevate the experience.",
+      "mustTry": "Pongu lumpia with baobab fruit sauce"
     }
   ],
   "activities": [
     {
-      "name": "Walt Disney World Resort",
+      "name": "Walt Disney World Magic Kingdom",
       "category": "Family",
-      "description": "Massive entertainment complex spanning four theme parks: Magic Kingdom, EPCOT, Hollywood Studios, and Animal Kingdom, each with unique attractions, dining, and entertainment. Comprehensive experience with something for all ages and interests.",
-      "durationHours": 480,
-      "estimatedCostUSD": 100,
+      "description": "Iconic theme park featuring classic Disney attractions, character meet-and-greets, parades, and fireworks. Six themed lands offer something for all ages.",
+      "durationHours": 8,
+      "estimatedCostUSD": 159,
       "bestFor": [
         "standard",
         "family",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Universal Orlando Resort",
-      "category": "Family",
-      "description": "Premier theme park destination featuring Universal Studios Florida, Islands of Adventure, and Volcano Bay water park with cutting-edge attractions and immersive experiences. Known for thrilling rides and exceptional themed lands.",
-      "durationHours": 360,
-      "estimatedCostUSD": 95,
-      "bestFor": [
-        "standard",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Kennedy Space Center",
-      "category": "Cultural",
-      "description": "Historic space facility on the Space Coast showcasing real spacecraft, astronaut experiences, and interactive exhibits about space exploration. Educational and inspiring for all ages.",
-      "durationHours": 8,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "standard",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Swimming in Natural Springs",
-      "category": "Outdoor",
-      "description": "Crystal-clear freshwater springs within an hour's drive offering pristine waters perfect for swimming, snorkeling, and kayaking. Popular springs include Rainbow Springs and Silver Springs State Park.",
-      "durationHours": 6,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "relaxation",
-        "adventure",
         "photography"
       ]
     },
     {
-      "name": "Gatorland",
-      "category": "Family",
-      "description": "16-acre wildlife preserve and educational facility home to thousands of alligators and crocodiles with feeding shows and zipline experiences. Unique opportunity to observe Florida's native reptiles.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
+      "name": "Universal Studios Florida",
+      "category": "Adventure",
+      "description": "Movie-themed amusement park with thrilling rides, immersive shows, and attractions based on popular franchises. Wizarding World of Harry Potter is a major highlight.",
+      "durationHours": 8,
+      "estimatedCostUSD": 159,
       "bestFor": [
+        "standard",
         "adventure",
         "family"
       ]
     },
     {
-      "name": "SeaWorld Orlando",
-      "category": "Family",
-      "description": "Marine life park featuring animal encounters, shows, and rides with educational programs about ocean conservation. Home to dolphins, sea lions, and other marine species.",
-      "durationHours": 8,
-      "estimatedCostUSD": 85,
+      "name": "Kennedy Space Center Visitor Complex",
+      "category": "Cultural",
+      "description": "Educational space exploration facility featuring real spacecraft, launch simulators, and interactive exhibits. Learn about NASA missions and astronaut history.",
+      "durationHours": 6,
+      "estimatedCostUSD": 69,
       "bestFor": [
-        "family",
-        "standard"
+        "standard",
+        "adventure",
+        "photography"
       ]
     },
     {
-      "name": "Downtown Orlando Walking Tour",
+      "name": "Wekiwa Springs State Park",
+      "category": "Outdoor",
+      "description": "Natural spring-fed park offering crystal-clear swimming holes, hiking trails, and scenic picnic areas. Perfect for cooling off in natural springs during hot months.",
+      "durationHours": 4,
+      "estimatedCostUSD": 6,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "ICON Park",
+      "category": "Family",
+      "description": "Entertainment complex featuring The Wheel (400-foot observation wheel), Museum of Illusions, and various attractions. Pay-per-attraction model allows flexibility in activities.",
+      "durationHours": 5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Airboat Swamp Tours",
+      "category": "Outdoor",
+      "description": "High-speed airboat rides through natural Florida wetlands and cypress swamps. Opportunity to see alligators, birds, and native wildlife in their natural habitat.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "wildlife"
+      ]
+    },
+    {
+      "name": "SeaWorld Orlando",
+      "category": "Family",
+      "description": "Marine life theme park with shows, animal interactions, and water-based rides. Educational marine education programs and up-close animal encounters.",
+      "durationHours": 7,
+      "estimatedCostUSD": 129,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Downtown Orlando Walking Tour and Street Art Exploration",
       "category": "Cultural",
-      "description": "Self-guided or organized exploration of historic downtown including Lake Eustis Park, Church Street District, and local murals. Free activity showcasing city's revitalization and cultural venues.",
+      "description": "Self-guided or guided exploration of downtown's vibrant street art, historic buildings, and cultural districts. Free activity with optional paid tours available.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -211,227 +228,217 @@
       ]
     },
     {
-      "name": "Andretti Indoor Karting & Games",
+      "name": "iFLY Indoor Skydiving",
       "category": "Adventure",
-      "description": "Multi-level facility featuring indoor go-kart racing, arcade games, laser tag, and ropes courses for high-energy entertainment. Perfect for competitive fun and family bonding.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
+      "description": "Indoor skydiving facility allowing safe freefall simulation with trained instructors. Thrilling experience suitable for all ability levels.",
+      "durationHours": 2,
+      "estimatedCostUSD": 70,
       "bestFor": [
-        "adventure"
+        "adventure",
+        "surprise"
       ]
     },
     {
       "name": "Orlando Science Center",
       "category": "Cultural",
-      "description": "Interactive science museum with hands-on exhibits, planetarium shows, and OMNIMAX theater exploring physics, nature, and technology. Educational and entertaining for curious minds of all ages.",
+      "description": "Interactive science museum with planetarium shows, hands-on exhibits, and OMNIMAX theater. Educational and entertaining for families and curious minds.",
       "durationHours": 4,
-      "estimatedCostUSD": 28,
+      "estimatedCostUSD": 29,
       "bestFor": [
+        "standard",
         "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "Kayaking Lake Eustis",
-      "category": "Outdoor",
-      "description": "Peaceful paddling experience on Central Florida's largest lake with opportunities to spot wildlife including birds, turtles, and fish. Rentals available at multiple access points.",
-      "durationHours": 3,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "relaxation",
-        "adventure",
         "photography"
       ]
     },
     {
-      "name": "Nightlife at International Drive",
-      "category": "Nightlife",
-      "description": "High-energy entertainment district featuring clubs, bars, live music venues, and late-night dining options spanning multiple city blocks. Hub of Orlando's nightlife scene.",
-      "durationHours": 5,
-      "estimatedCostUSD": 40,
+      "name": "Haunted House Tour with Local History",
+      "category": "Cultural",
+      "description": "Evening ghost tours through historic downtown neighborhoods with paranormal stories and local history. Unique perspective on Orlando's past.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
       "bestFor": [
-        "standard",
-        "surprise"
+        "surprise",
+        "hidden-gems",
+        "photography"
       ]
     },
     {
-      "name": "Winter Park Historic District Exploration",
-      "category": "Cultural",
-      "description": "Charming upscale neighborhood just north of downtown featuring boutique shops, fine dining, galleries, and the renowned Morse Museum with Tiffany glass collections. Walkable and picturesque.",
-      "durationHours": 4,
-      "estimatedCostUSD": 10,
+      "name": "Lake Eustis Nature Preserve Kayaking",
+      "category": "Outdoor",
+      "description": "Peaceful kayaking through protected wetlands and natural springs with opportunities for bird watching and wildlife photography. Serene alternative to theme parks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
       "bestFor": [
+        "relaxation",
         "photography",
-        "hidden-gems",
-        "foodie"
+        "adventure"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Lake Eustis from Mullet Park",
-        "description": "Wide-angle views of Central Florida's largest lake with marsh grasses and tree reflections creating layered compositions.",
+        "name": "Cinderella Castle at Magic Kingdom",
+        "description": "Iconic Disney castle offering stunning architectural photography opportunities with perfect symmetry and magical lighting at all times of day.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning or golden hour",
+        "bestTime": "Golden hour for warm tones; blue hour for dramatic skies",
+        "category": "Architecture"
+      },
+      {
+        "name": "Wekiwa Springs",
+        "description": "Crystal-clear spring-fed pools surrounded by lush greenery and cypress trees providing serene natural landscape photography with reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist and soft light",
         "category": "Landscape"
       },
       {
-        "name": "Downtown Orlando Murals (Church Street District)",
-        "description": "Vibrant street art installations providing colorful, contemporary urban photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning for side-lit colors",
+        "name": "Church Street District Downtown",
+        "description": "Historic district with colorful street art, vintage architecture, and vibrant murals creating dynamic urban photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for side lighting on street art",
         "category": "Street"
       },
       {
-        "name": "Walt Disney World Magic Kingdom Castle",
-        "description": "Iconic Cinderella Castle with ornate architecture perfectly framed by the plaza esplanade.",
+        "name": "Harry Potter Diagon Alley",
+        "description": "Intricately themed recreation with detailed shop fronts, cobblestone streets, and atmospheric lighting perfect for color and texture photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm lighting",
+        "bestTime": "Early morning before crowds or evening with lights",
         "category": "Architecture"
       },
       {
-        "name": "Wekiwa Springs State Park",
-        "description": "Crystal-clear spring pool surrounded by cypress trees and boardwalks with stunning water reflections.",
+        "name": "ICON Park Wheel (The Wheel)",
+        "description": "Tallest observation wheel in North America offering 360-degree city skyline views and sunset/sunrise vistas from 400 feet.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light through cypress canopy",
+        "bestTime": "Golden hour for cityscape with warm light",
         "category": "Landscape"
       },
       {
-        "name": "Orange County Regional History Center Architecture",
-        "description": "Historic building with classical details and ornamental facades providing excellent architectural photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon side-lighting",
-        "category": "Architecture"
+        "name": "Lake Lucerne Park",
+        "description": "Downtown waterfront park with lake reflections, cypress trees, and architectural backdrops ideal for urban landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise for mirror reflections on water",
+        "category": "Landscape"
       },
       {
-        "name": "Gatorland Alligator Encounters",
-        "description": "Hundreds of alligators in natural habitat providing authentic wildlife photography with dramatic reptilian subjects.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning when gators are active",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Downtown Orlando Skyline from ICON Park",
-        "description": "Modern cityscape with varied building heights and evening light reflections in Lake Eustis.",
+        "name": "Universal CityWalk",
+        "description": "Open-air shopping and entertainment venue with neon signage, modern architecture, and dynamic lighting suitable for night photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Blue hour at dusk",
+        "bestTime": "Evening and night for colorful neon and light trails",
         "category": "Night"
       },
       {
-        "name": "Winter Park Scenic Boat Tour Views",
-        "description": "Lakeside mansions, ancient cypress trees, and lily pad reflections creating quintessential Florida scenes.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour from boat vantage",
-        "category": "Landscape"
+        "name": "Gatorland",
+        "description": "Natural preserve with hundreds of alligators and native Florida wildlife in their natural habitat providing authentic wildlife photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for active animals and soft light",
+        "category": "Wildlife"
       },
       {
-        "name": "Universal Orlando's Wizarding World Architecture",
-        "description": "Immersive themed land with intricate details, dramatic stone facades, and fantastical architectural elements.",
+        "name": "Eustis Historic Downtown Waterfront",
+        "description": "Charming small-town waterfront with restored vintage buildings, Spanish moss-draped trees, and peaceful water reflections.",
         "difficulty": "Intermediate",
-        "bestTime": "Soft morning light before crowds",
+        "bestTime": "Golden hour for warm architecture lighting",
         "category": "Architecture"
       },
       {
-        "name": "Everglades Airboat Tour Wetlands",
-        "description": "Expansive marsh landscape with sawgrass, mangroves, and abundant wildlife including birds and alligators.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning or late afternoon",
-        "category": "Wildlife"
+        "name": "Orlando Wetlands Park",
+        "description": "Scenic wetlands refuge with boardwalks, diverse bird species, and natural water features providing pristine nature and wildlife photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for bird activity and mist",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Lake Eustis from Mullet Park",
-      "Wekiwa Springs State Park boardwalk",
-      "Kennedy Space Center Atlantic overlook"
+      "Lake Lucerne Park Downtown",
+      "Wekiwa Springs State Park",
+      "Orlando Wetlands Park"
     ],
     "sunsetSpots": [
-      "Downtown Orlando skyline from Lake Eustis Park",
-      "Walt Disney World Magic Kingdom castle plaza",
-      "Winter Park lakeside promenade"
+      "ICON Park (The Wheel)",
+      "Lake Eustis at Eustis Downtown",
+      "Harry Potter Forbidden Journey at Universal"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for landscape and cityscape compositions capturing expansive vistas",
-      "70-200mm telephoto for wildlife photography at Gatorland and nature preserves with subject compression",
-      "24-70mm versatile standard zoom for street photography and architectural details throughout downtown",
-      "50mm prime for intimate portraits and spring reflections with shallow depth of field"
+      "16-35mm wide-angle for architectural vistas and theme park grand shots",
+      "50mm prime for street photography and detailed urban exploration",
+      "70-200mm telephoto for wildlife and distant landscape compression",
+      "Macro lens for detail shots of street art and natural textures"
     ],
-    "goldenHourNotes": "Orlando's subtropical position offers extended golden hour windows, particularly during winter months. Shoot towards Lake Eustis from downtown for warm cityscape reflections between 6-7 AM and 5-6 PM. Springs and natural areas benefit from diffused morning light through cypress canopies, reducing harsh shadows and revealing water clarity.",
+    "goldenHourNotes": "Orlando's tropical location provides exceptional golden hour light from 6:30-7:30 AM and 6:00-7:00 PM year-round. The combination of modern architecture, natural water features, and theme park theming creates dynamic interplay of warm light and shadows during these times. Clouds are common afternoon/evening, but provide excellent diffusion and dramatic skies.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 15,
-        "rainfallMM": 54
+        "avgTempC": 19,
+        "rainfallMM": 58
       },
       {
         "month": 2,
-        "avgTempC": 16,
-        "rainfallMM": 66
+        "avgTempC": 20,
+        "rainfallMM": 61
       },
       {
         "month": 3,
-        "avgTempC": 19,
-        "rainfallMM": 71
+        "avgTempC": 23,
+        "rainfallMM": 64
       },
       {
         "month": 4,
-        "avgTempC": 23,
-        "rainfallMM": 66
+        "avgTempC": 26,
+        "rainfallMM": 89
       },
       {
         "month": 5,
+        "avgTempC": 29,
+        "rainfallMM": 140
+      },
+      {
+        "month": 6,
+        "avgTempC": 30,
+        "rainfallMM": 178
+      },
+      {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 191
+      },
+      {
+        "month": 8,
+        "avgTempC": 31,
+        "rainfallMM": 185
+      },
+      {
+        "month": 9,
+        "avgTempC": 30,
+        "rainfallMM": 147
+      },
+      {
+        "month": 10,
         "avgTempC": 27,
         "rainfallMM": 102
       },
       {
-        "month": 6,
-        "avgTempC": 29,
-        "rainfallMM": 165
-      },
-      {
-        "month": 7,
-        "avgTempC": 30,
-        "rainfallMM": 173
-      },
-      {
-        "month": 8,
-        "avgTempC": 30,
-        "rainfallMM": 160
-      },
-      {
-        "month": 9,
-        "avgTempC": 28,
-        "rainfallMM": 130
-      },
-      {
-        "month": 10,
-        "avgTempC": 24,
-        "rainfallMM": 76
-      },
-      {
         "month": 11,
-        "avgTempC": 19,
-        "rainfallMM": 51
+        "avgTempC": 23,
+        "rainfallMM": 58
       },
       {
         "month": 12,
-        "avgTempC": 16,
-        "rainfallMM": 48
+        "avgTempC": 20,
+        "rainfallMM": 51
       }
     ],
     "bestMonths": [
-      11,
-      12,
       1,
       2,
       3,
-      4
+      11,
+      12
     ],
-    "seasonality": "Orlando experiences a subtropical climate with hot, humid summers (June-September) and frequent afternoon thunderstorms, while winters (November-March) are mild and dry with ideal visiting conditions. The shoulder seasons of spring and fall offer pleasant temperatures, reduced hurricane risk, and fewer crowds than peak winter season.",
-    "summary": "Winter months provide the most comfortable weather for outdoor activities with temperatures in the 15-23°C range and minimal rainfall. Summer brings heat, humidity, and frequent intense afternoon storms, but theme parks remain open and offer evening entertainment options and water parks for cooling relief."
+    "seasonality": "Orlando has a subtropical climate with mild winters and hot, humid summers. The dry season from November to March offers pleasant weather perfect for theme park visits, while summer months (June-August) bring intense heat, humidity, and frequent afternoon thunderstorms.",
+    "summary": "Winter and early spring are ideal times to visit with temperatures around 19-26°C and minimal rainfall. Summer is hot and wet with frequent afternoon storms, while September-October brings hurricane risk despite warm water temperatures."
   },
   "hotels": [
     {
@@ -439,22 +446,22 @@
       "neighborhood": "International Drive",
       "pricePerNightUSD": 65,
       "category": "Budget",
-      "description": "No-frills budget motel conveniently located near theme parks and entertainment venues with basic but clean accommodations and free parking."
+      "description": "No-frills budget motel convenient to theme parks and attractions with basic rooms and outdoor pool."
     },
     {
-      "name": "Hyatt Centric Winter Park",
-      "neighborhood": "Winter Park",
-      "pricePerNightUSD": 185,
+      "name": "Hyatt Regency Grand Cypress",
+      "neighborhood": "Grand Cypress",
+      "pricePerNightUSD": 189,
       "category": "Mid-range",
-      "description": "Modern mid-range hotel in charming Winter Park neighborhood offering contemporary rooms, rooftop pool, and proximity to upscale shopping, dining, and cultural attractions."
+      "description": "Resort-style hotel with golf course, multiple pools, and restaurants ideally located between theme parks and downtown."
     },
     {
-      "name": "Four Seasons Resort Orlando",
-      "neighborhood": "Walt Disney World Property",
-      "pricePerNightUSD": 650,
+      "name": "Four Seasons Resort Orlando at Walt Disney World",
+      "neighborhood": "Walt Disney World",
+      "pricePerNightUSD": 529,
       "category": "Luxury",
-      "description": "Ultra-luxury resort featuring world-class amenities, fine dining, championship golf course, and exclusive access to Disney's theme parks within walking distance."
+      "description": "Ultra-luxury resort with world-class amenities, championship golf course, spa services, and exclusive Disney park access."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1774619069792-591cc14ee8c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxPcmxhbmRvJTIwdGhlbWUlMjBwYXJrcyUyMHN1bnNldHxlbnwxfDB8fHwxNzgxMzAzMjg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1575089776834-8be34696ffb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxPcmxhbmRvJTIwdGhlbWUlMjBwYXJrcyUyMGNpdHlzY2FwZXN8ZW58MXwwfHx8MTc4MTYyODA1NXww&ixlib=rb-4.1.0&q=80&w=1080"
 }

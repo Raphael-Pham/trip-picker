@@ -35,8 +35,17 @@ const DESTINATION_SEEDS: string[] = [
   'Raleigh, USA', 'Charlotte, USA', 'Sacramento, USA', 'Buffalo, USA', 'Providence, USA',
   'Anchorage, USA', 'Spokane, USA', 'Omaha, USA', 'Tulsa, USA', 'El Paso, USA',
   'Chattanooga, USA', 'Greenville, USA', 'Knoxville, USA', 'Fayetteville, USA',
-  'Flagstaff, USA', 'Tucson, USA', 'Wichita, USA', 'Madison, USA', 'Burlington, USA',
+  'Flagstaff, USA', 'Wichita, USA', 'Madison, USA', 'Burlington, USA',
   'Charlottesville, USA', 'Santa Fe, USA', 'Taos, USA',
+  'Juneau, USA', 'Fairbanks, USA', 'Billings, USA', 'Rapid City, USA',
+  'Duluth, USA', 'Green Bay, USA', 'Eau Claire, USA', 'Iowa City, USA',
+  'Columbia, USA', 'Savannah, USA', 'Pensacola, USA', 'Mobile, USA',
+  'Baton Rouge, USA', 'Shreveport, USA', 'Little Rock, USA', 'Springfield, USA',
+  'Lexington, USA', 'Bowling Green, USA', 'Huntsville, USA', 'Birmingham, USA',
+  'Montgomery, USA', 'Tallahassee, USA', 'Fort Lauderdale, USA', 'Fort Myers, USA',
+  'Daytona Beach, USA', 'St. Augustine, USA', 'Key West, USA',
+  'Roanoke, USA', 'Fredericksburg, USA', 'Annapolis, USA', 'Ocean City, USA',
+  'Mystic, USA', 'Portsmouth, USA', 'Portland Maine, USA', 'Bar Harbor, USA',
 
   // USA — Beach Towns
   'Myrtle Beach, USA', 'Virginia Beach, USA', 'Hilton Head, USA', 'Santa Barbara, USA',
@@ -96,7 +105,7 @@ const DESTINATION_SEEDS: string[] = [
   'Tokyo, Japan', 'Kyoto, Japan', 'Osaka, Japan', 'Bali, Indonesia', 'Bangkok, Thailand',
   'Singapore, Singapore', 'Seoul, South Korea', 'Sydney, Australia', 'Melbourne, Australia',
   'Queenstown, New Zealand', 'Maldives', 'Phuket, Thailand', 'Hong Kong',
-  'Taipei, Taiwan', 'Hanoi, Vietnam', 'Hoi An, Vietnam',
+  'Taipei, Taiwan', 'Hanoi, Vietnam', 'Ho Chi Minh City, Vietnam', 'Hoi An, Vietnam', 'Da Nang, Vietnam',
 
   // Middle East & Africa (top picks)
   'Dubai, UAE', 'Marrakech, Morocco', 'Cape Town, South Africa',

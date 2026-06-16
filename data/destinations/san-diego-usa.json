@@ -11,16 +11,16 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
+    "surprise",
     "photography",
     "foodie",
     "adventure",
-    "relaxation",
-    "family"
+    "relaxation"
   ],
   "scores": {
     "cost": 45,
-    "food": 88,
-    "photography": 92,
+    "food": 85,
+    "photography": 88,
     "activities": 90,
     "weather": 95
   },
@@ -28,11 +28,11 @@
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 140
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
-      "minPerDayUSD": 140,
+      "minPerDayUSD": 130,
       "maxPerDayUSD": 250
     },
     {
@@ -41,124 +41,123 @@
       "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "San Diego beaches sunset",
-  "summary": "San Diego offers year-round sunshine, pristine Pacific beaches, and a vibrant culinary scene that blends Mexican influences with modern California cuisine. From the iconic USS Midway Museum to the lush Balboa Park, the city combines outdoor adventure with cultural attractions and exceptional photography opportunities. Perfect for beach lovers, food enthusiasts, and travelers seeking a relaxed Southern California lifestyle.",
+  "unsplashQuery": "San Diego sunset beach",
+  "summary": "San Diego offers perfect year-round weather, stunning coastal landscapes, and world-class Mexican cuisine, making it an ideal destination for beach lovers, food enthusiasts, and adventure seekers. From the iconic USS Midway Museum to pristine beaches and vibrant neighborhoods, the city seamlessly blends outdoor recreation with cultural attractions. Whether you're surfing, exploring historic sites, or savoring fresh seafood, San Diego delivers unforgettable experiences.",
   "restaurants": [
     {
       "name": "Oscar's Mexican Seafood",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "A legendary spot serving authentic Baja-style ceviche and fresh fish tacos with minimal frills but maximum flavor. Operating since 1989, this casual establishment is beloved by locals and visitors alike.",
-      "mustTry": "Ceviche tostada and fish tacos"
+      "description": "Iconic beachfront seafood spot serving ceviche, fish tacos, and fresh catch daily. Perfect casual lunch destination with ocean views.",
+      "mustTry": "Ceviche tostada"
+    },
+    {
+      "name": "The Cottage",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved neighborhood breakfast and brunch spot famous for creative omelets and comfort food. Expect lines on weekends but worth the wait.",
+      "mustTry": "Cottage omelet"
     },
     {
       "name": "Puesto",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary Mexican cuisine featuring hand-made tortillas, creative ceviches, and an extensive tequila selection in a stylish Seaport setting. Known for elevated traditional dishes with fresh, locally-sourced ingredients.",
-      "mustTry": "Chiles rellenos and aguachile"
+      "description": "Modern Mexican cuisine celebrating regional flavors with house-made tortillas and craft cocktails. Located in Little Italy with vibrant atmosphere.",
+      "mustTry": "Tableside guacamole"
     },
     {
-      "name": "The Cottage",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "A charming breakfast and brunch destination in La Jolla known for generous portions and creative egg dishes. The casual atmosphere and fresh juices make it perfect for starting your day.",
-      "mustTry": "Strawberry crepes and avocado toast"
+      "name": "The Taco Stand",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Multiple locations serving authentic California-style fish tacos, carnitas, and carne asada. Quick service with excellent quality-to-price ratio.",
+      "mustTry": "Battered fish tacos"
     },
     {
-      "name": "George's at the Cove",
+      "name": "Herb & Wood",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale California cuisine with three levels offering different dining experiences, all with stunning ocean views overlooking La Jolla Cove. The top-floor Ocean Terrace provides casual fine dining with panoramic Pacific vistas.",
-      "mustTry": "Fresh local fish preparations and swordfish"
+      "description": "Chef Brian Malarkey's wood-fired restaurant showcasing seasonal California cuisine in a stunning architectural space. Reservation essential.",
+      "mustTry": "Wood-fired fish of the day"
     },
     {
-      "name": "Catania",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Intimate Italian restaurant in Little Italy showcasing house-made pastas and refined Mediterranean flavors. The romantic ambiance and wine selection make it ideal for special occasions.",
-      "mustTry": "Handmade ravioli and risotto"
+      "name": "Las Cuatro Milpas",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned gem serving authentic Oaxacan and Mexican classics with recipes passed down through generations. Warm, welcoming atmosphere.",
+      "mustTry": "Mole negro"
     },
     {
       "name": "Juniper & Ivy",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Chef Richard Blais's award-winning restaurant featuring innovative California cuisine with Asian influences in a rustic-industrial setting. Known for experimental techniques and locally-sourced seasonal ingredients.",
-      "mustTry": "Hamachi crudo and braised short ribs"
+      "description": "Chef Richard Blais brings innovative American cuisine with Asian influences in a converted craftsman cottage. Thoughtful wine pairings available.",
+      "mustTry": "Seasonal tasting menu"
     },
     {
-      "name": "Las Cuatro Milpas",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Beloved family-run restaurant serving authentic Oaxacan and Michoacán home cooking in a casual, no-frills environment. Features slow-cooked moles, tamales, and traditional chile rellenos.",
-      "mustTry": "Mole negro and tamales verdes"
-    },
-    {
-      "name": "Herb & Wood",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Wood-fired grill restaurant emphasizing sustainable, locally-sourced meats and produce with a focus on live fire cooking techniques. The rustic-modern setting near the waterfront provides a relaxed upscale experience.",
-      "mustTry": "Wood-fired fish and rotisserie chicken"
-    },
-    {
-      "name": "Underbelly Ramen",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Hip ramen shop in North Park serving rich tonkotsu broths, creative toppings, and perfectly soft-boiled eggs. Popular with the young crowd for late-night eats and strong cocktails.",
-      "mustTry": "Spicy tonkotsu ramen and gyoza"
-    },
-    {
-      "name": "Coasterra",
+      "name": "George's at the Cove",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Modern Mexican fine dining on the waterfront celebrating pre-Columbian ingredients and techniques with contemporary presentation. The chef's tasting menu showcases innovative takes on traditional Mexican flavors.",
-      "mustTry": "Multi-course chef's tasting menu"
+      "description": "Three-level oceanfront restaurant in La Jolla with Ocean Terrace offering casual dining and upscale fine dining options. Spectacular views.",
+      "mustTry": "Fresh catch ceviche"
     },
     {
-      "name": "Breakfast Republic",
+      "name": "Hodad's",
       "category": "Budget",
-      "priceRange": "$$",
-      "description": "Trendy brunch spot with multiple San Diego locations known for creative breakfast dishes, strong coffee, and Instagram-worthy presentations. Always bustling with a young, social crowd.",
-      "mustTry": "Chicken and biscuit breakfast sandwich"
+      "priceRange": "$",
+      "description": "Ocean Beach institution famous for gourmet burgers, hand-cut fries, and milkshakes. Casual vibe with vintage surf memorabilia.",
+      "mustTry": "California burger"
     },
     {
-      "name": "Ironside Fish & Oyster",
+      "name": "Cucina Urbana",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual seafood restaurant in Little Italy featuring fresh daily catches, oyster selections, and fish-centric dishes with Mediterranean influences. Known for excellent ceviche and a lively bar scene.",
-      "mustTry": "Oyster selection and ceviche trio"
+      "description": "Sophisticated Italian cuisine in Little Italy with house-made pasta and extensive wine list. Intimate setting perfect for dinner.",
+      "mustTry": "Handmade tortellini"
+    },
+    {
+      "name": "Catania",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Sicilian-inspired Italian restaurant celebrating Mediterranean flavors with fresh pasta and seafood. Charming neighborhood ambiance.",
+      "mustTry": "Pasta con le sardine"
+    },
+    {
+      "name": "The Taco Stand - PB",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Pacific Beach location of beloved local chain offering fresh fish tacos, fresh ingredients, and friendly service. Perfect post-beach meal.",
+      "mustTry": "Grilled fish tacos"
     }
   ],
   "activities": [
     {
       "name": "Balboa Park Exploration",
       "category": "Cultural",
-      "description": "A 1,200-acre urban cultural park featuring 17 museums, Spanish Colonial architecture, botanical gardens, and year-round cultural events. Free entry to museums on Tuesday rotations, with endless exploration opportunities.",
-      "durationHours": 4,
-      "estimatedCostUSD": 20,
+      "description": "Iconic 1,200-acre urban cultural park featuring 17 museums, gardens, galleries, and Spanish Renaissance architecture. One of America's premier cultural destinations.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "family"
+        "cultural"
       ]
     },
     {
-      "name": "La Jolla Cove Snorkeling",
-      "category": "Outdoor",
-      "description": "Crystal-clear protected cove ideal for snorkeling with abundant sea creatures, leopard sharks, and colorful fish in a stunning rocky setting. Equipment rental available nearby, and the pristine beach is perfect for relaxation.",
+      "name": "La Jolla Snorkeling",
+      "category": "Adventure",
+      "description": "Explore underwater reefs and kelp forests while spotting sea lions, starfish, and colorful fish. Crystal-clear waters make this world-class snorkeling destination.",
       "durationHours": 3,
-      "estimatedCostUSD": 40,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "adventure",
-        "relaxation",
-        "family"
+        "relaxation"
       ]
     },
     {
       "name": "USS Midway Museum",
       "category": "Cultural",
-      "description": "Historic aircraft carrier museum offering self-guided audio tours through decades of naval history, aircraft displays, and restored ship spaces. One of San Diego's most visited attractions with immersive experiences.",
-      "durationHours": 3,
+      "description": "Explore this decommissioned aircraft carrier with immersive exhibits, flight simulators, and restored aircraft. Fascinating naval history and engineering.",
+      "durationHours": 4,
       "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
@@ -166,111 +165,104 @@
       ]
     },
     {
-      "name": "Pacific Beach Boardwalk Walk",
-      "category": "Outdoor",
-      "description": "Scenic 2-mile beachfront promenade perfect for walking, cycling, or jogging with ocean views, beach access, restaurants, and vibrant local culture. Free to explore with plenty of photo opportunities.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Hiking Torrey Pines State Natural Reserve",
+      "name": "Surfing at Pacific Beach",
       "category": "Adventure",
-      "description": "Breathtaking coastal hiking trails featuring towering sandstone cliffs, rare Torrey pine trees, and panoramic ocean views overlooking pristine beaches. Multiple difficulty levels available with stunning landscape photography opportunities.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Seaport Village Shopping & Dining",
-      "category": "Outdoor",
-      "description": "Waterfront shopping complex with restaurants, boutiques, and views of San Diego Bay, aircraft carriers, and the Coronado Bridge. Free to walk around with plenty of dining and shopping options.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "family",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Old Town San Diego Historical Park",
-      "category": "Cultural",
-      "description": "Historic Mexican and Old West-era buildings, museums, shops, and restaurants showcasing San Diego's rich cultural heritage dating back to 1769. Free to explore the outdoor plaza with paid museum entries available.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "family"
-      ]
-    },
-    {
-      "name": "Sunset Cliffs Natural Park Sunset Viewing",
-      "category": "Outdoor",
-      "description": "Dramatic coastal bluffs offering some of Southern California's best sunset views with crashing waves, rugged rock formations, and golden hour light. Completely free and a prime location for photographers.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "relaxation",
-        "standard"
-      ]
-    },
-    {
-      "name": "Cabrillo National Monument",
-      "category": "Cultural",
-      "description": "Historic monument at the southern tip of the Peninsul celebrating the 1542 expedition of Juan Rodríguez Cabrillo, with museums, walking trails, and panoramic city and ocean views. Educational and scenic experience.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "photography",
-        "family"
-      ]
-    },
-    {
-      "name": "San Diego Zoo Safari Park",
-      "category": "Family",
-      "description": "Large open-concept animal park 35 miles northeast featuring 3,500+ animals in naturalistic habitats, safari rides, and interactive experiences. Massive facility requiring a full day visit.",
-      "durationHours": 6,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "family",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Kayaking Mission Bay",
-      "category": "Outdoor",
-      "description": "Calm, protected bay perfect for kayaking with views of sailboats, wildlife, and the city skyline, suitable for all skill levels. Equipment rentals available at multiple locations around the bay.",
+      "description": "Ride consistent waves at this iconic San Diego beach break suitable for all skill levels. Board rentals available from local shops.",
       "durationHours": 2,
       "estimatedCostUSD": 30,
       "bestFor": [
         "adventure",
-        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Old Town San Diego Walking Tour",
+      "category": "Cultural",
+      "description": "Walk through California's oldest settlement with historic adobe buildings, museums, shops, and restaurants. Immerse yourself in Spanish colonial history.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunset Cliffs Natural Park Hiking",
+      "category": "Outdoor",
+      "description": "Stunning clifftop trails offering panoramic ocean vistas, dramatic rock formations, and abundant hiking routes. Perfect for sunset viewing.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "San Diego Zoo",
+      "category": "Family",
+      "description": "World-renowned zoo featuring over 3,700 animals across 100 acres with innovative open habitats. Educational and entertaining for all ages.",
+      "durationHours": 6,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
         "family"
       ]
     },
     {
-      "name": "Gaslamp Quarter Walking Tour & Nightlife",
+      "name": "Kayaking in San Diego Bay",
+      "category": "Adventure",
+      "description": "Paddle through pristine bay waters spotting seals, sea lions, and tropical fish with views of downtown skyline. Guided tours available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Gaslamp Quarter Bar Crawl",
       "category": "Nightlife",
-      "description": "Historic Victorian-era neighborhood featuring colorful facades, galleries, restaurants, bars, and vibrant nightlife scene perfect for evening exploration. Walking tours available, or simply stroll and discover at your own pace.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
+      "description": "Vibrant historic neighborhood featuring Victorian architecture, rooftop bars, live music venues, and craft breweries. Excellent nightlife destination.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
       "bestFor": [
         "standard",
-        "photography",
-        "nightlife",
-        "foodie"
+        "surprise"
+      ]
+    },
+    {
+      "name": "Coronado Island Beach Bike Ride",
+      "category": "Outdoor",
+      "description": "Scenic bike path circumnavigating Coronado Island with beach views, historic Hotel del Coronado, and charming shops. Flat, easy terrain.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Torrey Pines State Natural Reserve Hiking",
+      "category": "Outdoor",
+      "description": "Spectacular 1,200-foot coastal cliffs with native torrey pine trees and dramatic ocean overlooks. Multiple trail options from easy to moderate.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "San Diego Safari Park",
+      "category": "Family",
+      "description": "Sister facility to Zoo with 100-acre safari showcasing African wildlife, ziplines, and guided adventures. More spacious, less crowded experience.",
+      "durationHours": 7,
+      "estimatedCostUSD": 70,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure"
       ]
     }
   ],
@@ -278,92 +270,92 @@
     "spots": [
       {
         "name": "Sunset Cliffs Natural Park",
-        "description": "Dramatic 60-foot coastal cliffs with crashing waves and golden hour light creating stunning silhouettes and vibrant colors.",
+        "description": "Dramatic 60-foot sandstone cliffs with panoramic sunset views over the Pacific Ocean and stunning golden hour light.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset, 30 minutes before golden hour",
+        "bestTime": "Golden hour, especially 30 minutes before sunset",
         "category": "Landscape"
       },
       {
         "name": "La Jolla Cove",
-        "description": "Picturesque rocky cove with crystal-clear turquoise water, sea lions, and dramatic cliff formations framing the composition.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning for light and wildlife activity",
+        "description": "Crystalline turquoise waters surrounded by dramatic rocky outcrops, sea lions, and Mediterranean vegetation creating postcard-perfect scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for clear water and soft light",
         "category": "Landscape"
+      },
+      {
+        "name": "Coronado Island - Hotel del Coronado",
+        "description": "Iconic Victorian beachfront hotel with distinctive red roof and pristine sandy beach, especially photogenic at golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset, golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Balboa Park - Botanical Building",
+        "description": "Stunning Spanish Renaissance architecture reflected in lily pond with lush tropical vegetation and dramatic shadows.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light or overcast days for even exposure",
+        "category": "Architecture"
+      },
+      {
+        "name": "Ocean Beach Pier",
+        "description": "Classic wooden pier extending into the ocean with surfers, fishermen, and dramatic sunrise/sunset potential over the water.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for golden light",
+        "category": "Architecture"
       },
       {
         "name": "Torrey Pines State Natural Reserve",
-        "description": "Iconic sandstone cliffs towering above pristine beaches with rare pine trees creating layered landscape depth.",
+        "description": "Ancient torrey pine trees clinging to 1,200-foot coastal cliffs above pristine sandy coves with dramatic geological formations.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour on clear days",
+        "bestTime": "Early morning for soft light and fewer crowds",
         "category": "Landscape"
       },
       {
-        "name": "Cabrillo National Monument Lighthouse",
-        "description": "Historic lighthouse structure against ocean backdrop with panoramic city and Coronado views perfect for telephoto compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Late afternoon light",
-        "category": "Architecture"
-      },
-      {
-        "name": "Gaslamp Quarter Historic Buildings",
-        "description": "Ornate Victorian-era facades with rich colors, detailed architecture, and vibrant street life perfect for urban photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light, blue hour for architectural detail",
+        "name": "Gaslamp Quarter Historic District",
+        "description": "Victorian-era buildings with ornate architecture, gas lamps, and colorful storefronts creating textured urban photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or late afternoon shadows",
         "category": "Street"
-      },
-      {
-        "name": "Coronado Bridge at Night",
-        "description": "Illuminated suspension bridge creating stunning geometric patterns and reflections over San Diego Bay after dark.",
-        "difficulty": "Advanced",
-        "bestTime": "30 minutes after sunset for blue hour",
-        "category": "Night"
-      },
-      {
-        "name": "Mission Bay at Sunrise",
-        "description": "Calm bay waters with sailboats, pelicans, and dramatic sky colors creating serene landscape and wildlife opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "30 minutes before sunrise",
-        "category": "Landscape"
       },
       {
         "name": "Birch Aquarium Overlook",
-        "description": "Elevated vantage point overlooking La Jolla Shores beach with sweeping coastal views and excellent wildlife photography.",
+        "description": "Elevated vantage point offering panoramic views of La Jolla, Scripps Pier, and the Pacific Ocean with excellent coastal perspective.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour",
+        "bestTime": "Golden hour for warm coastal light",
         "category": "Landscape"
       },
       {
-        "name": "Pacific Beach Pier",
-        "description": "Classic wooden pier extending into the ocean creating strong leading lines, surfers, and beach activity with dramatic skies.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunrise or golden hour",
-        "category": "Architecture"
+        "name": "Windansea Beach",
+        "description": "Rocky reef break with dramatic rock formations, powerful waves, and moody atmosphere perfect for action and seascape photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise with high tide and swell",
+        "category": "Landscape"
       },
       {
-        "name": "Seaport Village Waterfront",
-        "description": "Picturesque waterfront promenade with sailing ships, Coronado Bridge views, and Spanish colonial-style architecture.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones",
-        "category": "Street"
+        "name": "Downtown San Diego Waterfront",
+        "description": "Modern skyline reflected in bay waters with boats, palm trees, and urban architecture creating dynamic compositional elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour shortly after sunset",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Mission Bay",
       "Torrey Pines State Natural Reserve",
+      "Point Loma Lighthouse",
       "La Jolla Cove"
     ],
     "sunsetSpots": [
       "Sunset Cliffs Natural Park",
-      "Cabrillo National Monument",
-      "Pacific Beach Pier"
+      "Ocean Beach Pier",
+      "Coronado Island Beach"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for sweeping coastal landscapes and architectural context at Torrey Pines",
-      "50mm prime for intimate street photography and vibrant detail in Gaslamp Quarter",
-      "70-200mm telephoto for compressed compositions of bridge lights and distant city skyline",
-      "14mm ultra-wide for dramatic foreground elements at cliffs and immersive landscape depth"
+      "16-35mm wide-angle for sweeping coastal landscapes and architectural context",
+      "50mm prime for intimate street photography and detail work in urban areas",
+      "70-200mm telephoto for wildlife, sea lions, and compressed background elements",
+      "Neutral density filters for long-exposure waterfall and wave photography"
     ],
-    "goldenHourNotes": "San Diego's coastal position ensures stunning golden hour light along the entire western shoreline. The late afternoon sun hits cliffs and water at perfect angles between 4-7pm depending on season, creating rich warm tones reflected in the ocean. Blue hour after sunset extends 20-30 minutes longer here than inland, ideal for capturing bridge lights and architectural detail while maintaining sky gradation.",
+    "goldenHourNotes": "San Diego's consistent clear skies create spectacular golden hour opportunities year-round, with particularly long, soft light periods during fall and winter months. The Pacific water reflects warm tones beautifully during golden hour, especially at beaches facing west. Evening blue hour offers equally compelling lighting for cityscape and architectural photography with minimal harsh shadows.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -371,12 +363,12 @@
       {
         "month": 1,
         "avgTempC": 13,
-        "rainfallMM": 48
+        "rainfallMM": 46
       },
       {
         "month": 2,
         "avgTempC": 14,
-        "rainfallMM": 42
+        "rainfallMM": 41
       },
       {
         "month": 3,
@@ -386,50 +378,51 @@
       {
         "month": 4,
         "avgTempC": 17,
-        "rainfallMM": 23
+        "rainfallMM": 25
       },
       {
         "month": 5,
-        "avgTempC": 20,
+        "avgTempC": 19,
         "rainfallMM": 8
       },
       {
         "month": 6,
-        "avgTempC": 23,
+        "avgTempC": 22,
         "rainfallMM": 3
       },
       {
         "month": 7,
-        "avgTempC": 26,
+        "avgTempC": 24,
         "rainfallMM": 5
       },
       {
         "month": 8,
-        "avgTempC": 26,
+        "avgTempC": 24,
         "rainfallMM": 5
       },
       {
         "month": 9,
-        "avgTempC": 25,
-        "rainfallMM": 10
+        "avgTempC": 23,
+        "rainfallMM": 8
       },
       {
         "month": 10,
-        "avgTempC": 22,
-        "rainfallMM": 18
+        "avgTempC": 20,
+        "rainfallMM": 15
       },
       {
         "month": 11,
-        "avgTempC": 17,
-        "rainfallMM": 28
+        "avgTempC": 16,
+        "rainfallMM": 33
       },
       {
         "month": 12,
         "avgTempC": 13,
-        "rainfallMM": 45
+        "rainfallMM": 46
       }
     ],
     "bestMonths": [
+      4,
       5,
       6,
       7,
@@ -437,31 +430,31 @@
       9,
       10
     ],
-    "seasonality": "San Diego enjoys nearly perfect year-round weather with 260+ sunny days annually. Summers are warm and dry (June-September), while winters are mild with occasional rain (December-February), making it ideal for outdoor activities almost anytime.",
-    "summary": "San Diego's Mediterranean climate offers consistently pleasant temperatures ranging from 13°C in winter to 26°C in summer. Rain is minimal outside the winter months, making this one of the sunniest and most stable weather destinations in the United States."
+    "seasonality": "San Diego enjoys year-round mild weather with 260+ days of sunshine annually, making it exceptionally visitor-friendly regardless of season. Summer months (June-August) bring warmest temperatures reaching mid-20s Celsius with virtually no rain, though coastal fog can occur mornings. Winter months (December-February) remain pleasant at 13-14°C with occasional rain, but are still enjoyable for outdoor activities.",
+    "summary": "San Diego boasts one of America's most ideal climates with consistent temperatures ranging 13-24°C throughout the year and minimal rainfall outside winter months. The city's marine location moderates temperature extremes, making it perfect for beaches, hiking, and outdoor exploration any time you visit."
   },
   "hotels": [
     {
       "name": "HI San Diego Downtown Hostel",
-      "neighborhood": "Gaslamp Quarter",
+      "neighborhood": "Downtown/Gaslamp Quarter",
       "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Social hostel with private rooms and dorms in the heart of Gaslamp Quarter, featuring rooftop views and access to nightlife and dining."
+      "description": "Social hostel with private and dorm rooms, rooftop bar, communal kitchen, and prime location in vibrant Gaslamp Quarter near restaurants and nightlife."
     },
     {
-      "name": "The US Grant, a Luxury Collection Hotel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 200,
+      "name": "The Davis",
+      "neighborhood": "Little Italy",
+      "pricePerNightUSD": 165,
       "category": "Mid-range",
-      "description": "Historic boutique hotel opposite City Hall with elegant rooms, rooftop bar with panoramic views, and central location near attractions."
+      "description": "Stylish boutique hotel featuring rooftop bar with city views, modern design, Italian neighborhood location, and walking distance to restaurants and galleries."
     },
     {
-      "name": "Park Hyatt Aviara Resort, Golf & Spa",
-      "neighborhood": "Carlsbad",
+      "name": "Hotel del Coronado",
+      "neighborhood": "Coronado Island",
       "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Five-star beachfront resort 30 minutes north featuring championship golf course, spa, multiple pools, and world-class dining with lagoon views."
+      "description": "Iconic Victorian beachfront resort with sprawling grounds, multiple restaurants, spa facilities, and legendary status as one of America's most prestigious coastal hotels."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1647962431451-d0fdaf1cf21c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW4lMjBEaWVnbyUyMGJlYWNoZXMlMjBzdW5zZXR8ZW58MXwwfHx8MTc4MTMwMzEzM3ww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1529553815871-df205a9a2891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW4lMjBEaWVnbyUyMHN1bnNldCUyMGJlYWNofGVufDF8MHx8fDE3ODE2Mjc4OTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

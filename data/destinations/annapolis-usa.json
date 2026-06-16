@@ -1,0 +1,457 @@
+{
+  "id": "annapolis-usa",
+  "city": "Annapolis",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "BWI",
+    "DCA",
+    "RDW"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "relaxation",
+    "hidden-gems"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 82,
+    "photography": 78,
+    "activities": 75,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 90,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Annapolis Naval Academy waterfront",
+  "summary": "Annapolis is a historic waterfront town on the Chesapeake Bay, home to the prestigious United States Naval Academy and charming colonial architecture dating back to the 1700s. Known for its sailing culture, fresh seafood, and picturesque Main Street lined with boutiques and galleries, it offers the perfect blend of American history and coastal relaxation. The town's vibrant restaurant scene and stunning harbor views make it an ideal destination for food lovers and photography enthusiasts alike.",
+  "restaurants": [
+    {
+      "name": "Severn Inn",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale waterfront restaurant offering contemporary American cuisine with panoramic views of the Severn River and Naval Academy. Their crabcakes and pan-seared fish are exceptional.",
+      "mustTry": "Maryland Crabcakes with Old Bay aioli"
+    },
+    {
+      "name": "Cantler's Riverside Inn",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Casual waterfront spot famous for fresh steamed crabs and oysters served with cold beer in a laid-back atmosphere. A true Chesapeake Bay institution since 1974.",
+      "mustTry": "Steamed Blue Crabs"
+    },
+    {
+      "name": "Chez Francois",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Classic French fine dining restaurant featuring seasonal menus and an extensive wine collection in an intimate, elegant setting.",
+      "mustTry": "Duck Confit"
+    },
+    {
+      "name": "Graduate Annapolis",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Locally owned farm-to-table restaurant with seasonal menus, craft cocktails, and a warm atmosphere in historic downtown.",
+      "mustTry": "Roasted vegetables with local fish"
+    },
+    {
+      "name": "Carrol's Creek Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront gem with outdoor seating overlooking the Annapolis Harbor, known for fresh seafood and friendly service.",
+      "mustTry": "Shrimp and Scallop Pasta"
+    },
+    {
+      "name": "Iron Rooster",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table breakfast and brunch spot featuring locally sourced ingredients, comfort food, and exceptional coffee.",
+      "mustTry": "House-made pancakes with seasonal fruit"
+    },
+    {
+      "name": "Dock Street Brewing Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual brewery and restaurant with craft beers on tap, pub food, and games room with darts and pool tables.",
+      "mustTry": "IPA and fish and chips"
+    },
+    {
+      "name": "Boatyard Bar & Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Nautical-themed waterfront bar and restaurant with live music, fresh seafood, and stunning sunset views over the Chesapeake.",
+      "mustTry": "Crab-stuffed mushrooms"
+    },
+    {
+      "name": "The Jolly Roger Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic tavern dating back to 1942 with casual atmosphere, hearty portions, and a strong emphasis on local seafood.",
+      "mustTry": "Rockfish (striped bass)"
+    },
+    {
+      "name": "Osteria 177",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Italian restaurant featuring house-made pasta, Italian wines, and seasonal specialties in an upscale yet relaxed setting.",
+      "mustTry": "Homemade ravioli with seasonal filling"
+    },
+    {
+      "name": "Joss Cafe & Noodle House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Asian noodle house offering Vietnamese pho, ramen, and pan-Asian dishes at budget-friendly prices with generous portions.",
+      "mustTry": "Vietnamese Pho"
+    },
+    {
+      "name": "Leeward Market",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual grab-and-go market with fresh sandwiches, salads, and locally roasted coffee, perfect for quick lunches before exploring the harbor.",
+      "mustTry": "House-made turkey sandwich"
+    }
+  ],
+  "activities": [
+    {
+      "name": "United States Naval Academy Tour",
+      "category": "Cultural",
+      "description": "Guided tour through the prestigious academy featuring the iconic Bancroft Hall, the Chapel with its copper dome, and the Naval Academy Museum. Visitors learn about American naval history and the rigorous traditions of the institution.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sailing on the Chesapeake Bay",
+      "category": "Outdoor",
+      "description": "Experience classic sailing on the historic Chesapeake Bay with local charter companies offering everything from casual day sails to sunset cruises. Perfect for photographers and those seeking maritime adventure.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Historic Annapolis Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or docent-led exploration of colonial-era streets lined with 18th-century architecture, including the State House and William Paca House. Discover stories of American independence and maritime heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Free Dock Street Exploration",
+      "category": "Outdoor",
+      "description": "Wander the picturesque Dock Street waterfront at your own pace, browse shops and galleries, watch boats in the harbor, and enjoy waterfront dining and people-watching.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "William Paca House and Gardens",
+      "category": "Cultural",
+      "description": "Tour this beautifully preserved 18th-century mansion with period furnishings and explore the award-winning colonial gardens featuring original boxwoods and flowering plants.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking Adventure",
+      "category": "Adventure",
+      "description": "Paddle through the scenic waters of the Severn River and Chesapeake Bay tributaries, exploring marshlands and spotting waterfowl, herons, and occasionally dolphins.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Annapolis Maritime Museum",
+      "category": "Indoor",
+      "description": "Intimate museum showcasing Chesapeake Bay maritime heritage, traditional shipbuilding, working boatshop, and exhibits on local sailing culture and naval history.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunset Cruise with Dinner",
+      "category": "Relaxation",
+      "description": "Evening cruise departing from City Dock featuring locally-sourced dinner, live music, and breathtaking views of the Chesapeake Bay as the sun sets over the water.",
+      "durationHours": 2,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "relaxation",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Farmers Market at City Dock",
+      "category": "Outdoor",
+      "description": "Saturday morning market featuring local produce, artisan goods, crafts, and prepared foods from regional vendors, capturing the authentic spirit of Annapolis.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "foodie",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Naval Academy Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum detailing United States Naval history from colonial times to present, featuring weapons, uniforms, ship models, and interactive exhibits.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Trolley Tour of Historic Sites",
+      "category": "Cultural",
+      "description": "Narrated trolley tour visiting major historical landmarks including the State House, where the Treaty of Paris was ratified, and colonial homes of founding fathers.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Brewer's Art Trail Experience",
+      "category": "Nightlife",
+      "description": "Visit local craft breweries and distilleries including Dock Street Brewing and other establishments, sampling local beers and spirits while mingling with locals.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "foodie",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Dock Street at Sunrise",
+        "description": "Golden light illuminating historic colonial buildings reflecting in calm harbor waters, with sailboats silhouetted against the dawn sky.",
+        "difficulty": "Beginner",
+        "bestTime": "6:00 AM - 7:30 AM during spring and summer",
+        "category": "Architecture"
+      },
+      {
+        "name": "City Dock and Harbor",
+        "description": "Picturesque waterfront with multi-colored sailboats, historic buildings, and bustling activity creating dynamic street photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Late morning (9 AM - 11 AM) for optimal light on water",
+        "category": "Street"
+      },
+      {
+        "name": "Naval Academy Bancroft Hall",
+        "description": "Iconic Romanesque Revival architecture with impressive copper dome photographed beautifully with golden hour side lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon (4 PM - 6 PM) for architectural detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "State House Dome",
+        "description": "Historic brick building with distinctive gold dome set against blue sky, excellent for architectural and detail photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for clear sky contrast, late afternoon for side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Severn River Bridge at Golden Hour",
+        "description": "Dramatic steel bridge structure reflected in calm river waters during golden hour, creating stunning silhouettes and color gradients.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset 30 minutes before and after golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Chesapeake Bay Waterfront Trail",
+        "description": "Wide-open bay views with sailing boats, markers, and natural shoreline creating scenic landscape and nautical photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for side lighting on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Main Street Storefronts",
+        "description": "Charming colonial-era shop windows, narrow cobblestone streets, and historic facades offering excellent street and detail photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days reduce harsh shadows on facades",
+        "category": "Street"
+      },
+      {
+        "name": "William Paca House and Gardens",
+        "description": "Manicured colonial gardens with boxwoods, seasonal flowers, and historic mansion backdrop providing elegant landscape and botanical photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning when flowers are fully lit and shadows are not harsh",
+        "category": "Landscape"
+      },
+      {
+        "name": "Harbormaster's House Night Reflections",
+        "description": "Historic waterfront building beautifully lit at dusk with reflections in still harbor water, ideal for night and architectural photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Twilight hour just after sunset (7:15 PM - 7:45 PM)",
+        "category": "Night"
+      },
+      {
+        "name": "Naval Academy Chapel Interior",
+        "description": "Grand interior with soaring ceilings, stained glass windows, and nautical symbolism creating dramatic interior architectural and light photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday when natural light streams through windows",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Dock Street Waterfront",
+      "Chesapeake Bay Overlook at Sandy Point",
+      "Naval Academy Chapel Steps"
+    ],
+    "sunsetSpots": [
+      "Severn River Bridge",
+      "City Dock Harbor View",
+      "Chesapeake Bay State Park Beach"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for sweeping harbor and architectural vistas",
+      "50mm prime for street photography and intimate portraits on historic streets",
+      "70-200mm telephoto for compressed sailing boat shots and distant bridge detail",
+      "24mm prime for golden hour waterfront reflections and colonial streetscapes"
+    ],
+    "goldenHourNotes": "Annapolis offers exceptional golden hour photography with light reflecting brilliantly off the Chesapeake Bay waters and illuminating historic brick buildings. The western sunset views over the bay from City Dock and Severn River Bridge are particularly dramatic during late spring through early fall. Morning light at Dock Street creates magical silhouettes of sailboats against the rising sun between 6:30 AM and 7:30 AM from April through August.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 2,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 4,
+        "rainfallMM": 71
+      },
+      {
+        "month": 3,
+        "avgTempC": 9,
+        "rainfallMM": 84
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 89
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 102
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 127
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 114
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 102
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 84
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 89
+      },
+      {
+        "month": 12,
+        "avgTempC": 5,
+        "rainfallMM": 84
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Spring (May) and fall (September-October) offer the most pleasant weather with mild temperatures, lower humidity, and beautiful sailing conditions. Summer is warm but humid with frequent afternoon thunderstorms, while winter is cold with occasional snow.",
+    "summary": "Annapolis experiences a humid subtropical climate with warm summers averaging 26-28°C and cold winters averaging 2-5°C. The most comfortable visiting periods are late spring and early fall when temperatures range from 15-23°C with lower humidity and excellent conditions for outdoor exploration."
+  },
+  "hotels": [
+    {
+      "name": "Graduate Annapolis",
+      "neighborhood": "Downtown Historic District",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Modern budget-friendly hotel with clean rooms, convenient downtown location steps from City Dock, and included continental breakfast."
+    },
+    {
+      "name": "Historic Inns of Annapolis",
+      "neighborhood": "Church Circle Historic District",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Charming colonial-style inn in three historic buildings featuring period decor, complementary wine reception, and intimate courtyard setting in the heart of historic downtown."
+    },
+    {
+      "name": "Graduate Annapolis - Luxury Wing",
+      "neighborhood": "Downtown Waterfront",
+      "pricePerNightUSD": 385,
+      "category": "Luxury",
+      "description": "Upscale waterfront luxury hotel featuring rooftop bar with bay views, fine dining restaurant, premium rooms with harbor views, and concierge services."
+    }
+  ]
+}

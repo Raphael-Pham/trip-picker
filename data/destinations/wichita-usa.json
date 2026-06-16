@@ -1,0 +1,457 @@
+{
+  "id": "wichita-usa",
+  "city": "Wichita",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "ICT",
+    "MCI",
+    "DFW"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 75,
+    "food": 72,
+    "photography": 68,
+    "activities": 70,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Wichita Kansas skyline sunset",
+  "summary": "Wichita is a vibrant mid-sized city in Kansas known as the 'Air Capital of the World' with a rich aviation heritage and thriving art scene. The city offers excellent museums, outdoor recreation along the Arkansas River, and authentic Great Plains dining in an affordable, welcoming atmosphere.",
+  "restaurants": [
+    {
+      "name": "Elote Cafe & Brewery",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant celebrating Mexican and regional Kansas ingredients with craft beer pairings. Known for innovative presentations of traditional comfort food.",
+      "mustTry": "Chile Relleno with locally sourced hatch peppers"
+    },
+    {
+      "name": "Dario's Brasserie",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse in the historic Allis building featuring prime cuts and an extensive wine collection. A destination restaurant for special occasions.",
+      "mustTry": "Dry-aged ribeye with seasonal sides"
+    },
+    {
+      "name": "The Meat & Potatoes",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary American fare with an emphasis on quality proteins and comfort food elevated with modern techniques. Warm atmosphere with attentive service.",
+      "mustTry": "Kansas beef short ribs"
+    },
+    {
+      "name": "Taco City",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular taco stand serving authentic street tacos and fresh Mexican fare at budget-friendly prices. Local favorite for quick, delicious meals.",
+      "mustTry": "Carnitas tacos with fresh cilantro"
+    },
+    {
+      "name": "River City Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic brewery housed in an old building with craft beers and pub food. Great atmosphere for gathering with locals and trying seasonal brews.",
+      "mustTry": "Rye IPA with house-made pretzels"
+    },
+    {
+      "name": "Chef's Seasonal Kitchen",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Farm-to-table fine dining showcasing seasonal ingredients from regional producers. Intimate tasting menu experience with wine pairings.",
+      "mustTry": "Multi-course seasonal tasting menu"
+    },
+    {
+      "name": "Abuelo's",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Mexican restaurant with authentic recipes and upscale ambiance featuring tableside guacamole and margaritas. Sophisticated take on traditional cuisine.",
+      "mustTry": "Carne Asada with handmade tortillas"
+    },
+    {
+      "name": "Nifty Fifty's Diner",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Retro 1950s-style diner with classic American comfort food and milkshakes. Fun, nostalgic atmosphere perfect for families.",
+      "mustTry": "Double cheeseburger and chocolate malt shake"
+    },
+    {
+      "name": "Toby Keith's Bricktown Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Country-themed restaurant and bar celebrating Great Plains heritage with casual dining and live entertainment. Known for ribs and Southern-style sides.",
+      "mustTry": "Pulled pork ribs with cornbread"
+    },
+    {
+      "name": "Italian Cucina",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Family-owned Italian restaurant with traditional recipes and homemade pasta. Warm, welcoming atmosphere with attentive service.",
+      "mustTry": "Handmade lasagna bolognese"
+    },
+    {
+      "name": "Spasso",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Italian restaurant with modern interpretations of classic dishes and an impressive wine list. Elegant dining experience.",
+      "mustTry": "Risotto with wild mushrooms and truffle oil"
+    },
+    {
+      "name": "Smokin' Guns BBQ",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional Kansas barbecue joint with slow-smoked meats and regional sides. Casual, no-frills atmosphere with authentic flavor.",
+      "mustTry": "Burnt ends with Kansas City rub"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Wichita Art Museum",
+      "category": "Cultural",
+      "description": "Features American art with focus on regional artists and contemporary collections. Entry-level museum with engaging exhibitions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kansas Aviation Museum",
+      "category": "Cultural",
+      "description": "Celebrate the city's aircraft manufacturing heritage with vintage planes and interactive exhibits. Perfect for aviation enthusiasts and families.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Exploration Station",
+      "category": "Family",
+      "description": "Hands-on science and nature museum designed for children with interactive exhibits and outdoor trails. Great for families with young children.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "family"
+      ]
+    },
+    {
+      "name": "Arkansas River Walk and Trail",
+      "category": "Outdoor",
+      "description": "Urban park system with walking/biking trails, picnic areas, and scenic river views. Free access to trails with multiple entry points.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "The Keeper of the Plains Public Art",
+      "category": "Cultural",
+      "description": "Iconic 75-foot tall public sculpture by Blackfoot Indian artist Alfred Pinkham. Best viewed at dusk when lights illuminate the piece.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sedgwick County Zoo",
+      "category": "Family",
+      "description": "Well-maintained zoo featuring animals from five continents with beautiful landscaping and interactive exhibits. Popular family destination.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Tallgrass Prairie National Preserve Day Trip",
+      "category": "Outdoor",
+      "description": "Located an hour from the city, this protected tallgrass prairie offers hiking trails and native ecosystem viewing. Excellent for nature photography.",
+      "durationHours": 5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Cowtown Museum",
+      "category": "Cultural",
+      "description": "Living history museum depicting frontier life with historic buildings, artifacts, and costumed interpreters. Immersive Great Plains heritage experience.",
+      "durationHours": 3,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Kayaking on the Arkansas River",
+      "category": "Adventure",
+      "description": "Paddling through urban landscape with opportunities to spot wildlife and enjoy nature. Multiple rental companies available with beginner-friendly options.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Wichita's Historic Old Towne District Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of restored historic buildings, galleries, shops, and restaurants. Free to explore with multiple architectural styles.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Chisholm Creek Park Outdoor Activities",
+      "category": "Outdoor",
+      "description": "Modern park with picnic areas, playgrounds, and beautiful landscaping along the creek. Family-friendly outdoor recreation free for public use.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Wichita Theater & Live Entertainment District",
+      "category": "Nightlife",
+      "description": "Visit theaters and entertainment venues in the Old Towne area for concerts, plays, and performances. Check schedule for current productions and events.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Keeper of the Plains Monument",
+        "description": "Iconic 75-foot sculpture beautifully lit at night against the city skyline, offering stunning silhouette and light photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Dusk to night for illuminated shots",
+        "category": "Architecture"
+      },
+      {
+        "name": "Arkansas River Walk",
+        "description": "Urban park with scenic water reflections, pedestrian bridges, and tree-lined paths perfect for morning and golden hour photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour morning or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Douglas Avenue Streetscape",
+        "description": "Historic downtown street with restored architecture, interesting facades, and urban details ideal for street and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for detail work",
+        "category": "Street"
+      },
+      {
+        "name": "Tallgrass Prairie National Preserve",
+        "description": "Vast native prairie landscape with dramatic skies and wildflowers offering exceptional landscape and nature photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Spring wildflowers or dramatic cloud days",
+        "category": "Landscape"
+      },
+      {
+        "name": "River City Brewing District",
+        "description": "Historic industrial buildings converted to breweries and restaurants with excellent texture and color contrast photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sedgwick County Zoo Grounds",
+        "description": "Well-landscaped zoo with natural animal habitats and varied wildlife offering opportunities for wildlife and nature photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when animals are active",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Wichita Nightlife District",
+        "description": "Illuminated streets with neon signs, restaurant windows, and urban nightlife offering excellent night and street photography subjects.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening and night hours",
+        "category": "Night"
+      },
+      {
+        "name": "Exploration Tower Viewpoint",
+        "description": "Elevated platform offering panoramic city views with Arkansas River and skyline vistas ideal for cityscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for soft skyline lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cowtown Museum Historic Buildings",
+        "description": "Authentic frontier-style architecture and period details providing excellent historic and character-driven photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast conditions for even lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chisholm Creek Park Nature Area",
+        "description": "Creek-side landscape with native vegetation and wildlife habitat offering peaceful nature and detail photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for wildlife and mist",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Arkansas River Walk - East facing views",
+      "Tallgrass Prairie National Preserve",
+      "Exploration Tower Viewpoint"
+    ],
+    "sunsetSpots": [
+      "Keeper of the Plains Monument",
+      "Arkansas River Walk - Western viewpoint",
+      "Douglas Avenue Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for skyline and landscape compositions",
+      "50mm prime for street photography and portraits in urban settings",
+      "70-200mm telephoto for wildlife at the zoo and distant prairie subjects",
+      "24-70mm versatile zoom for general everyday shooting and variety"
+    ],
+    "goldenHourNotes": "Golden hour in Wichita occurs approximately 1 hour before sunset and 1 hour after sunrise with particularly beautiful warm tones reflecting off the Arkansas River and downtown architecture. The Keeper of the Plains monument is especially photogenic during this time as the setting sun creates striking backlighting. Spring and fall offer the clearest skies and most dramatic light, while summer can have hazy conditions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -1,
+        "rainfallMM": 20
+      },
+      {
+        "month": 2,
+        "avgTempC": 2,
+        "rainfallMM": 25
+      },
+      {
+        "month": 3,
+        "avgTempC": 8,
+        "rainfallMM": 50
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 90
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 110
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 95
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 75
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 85
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 70
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 60
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 35
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 25
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and fall (September-October) offer the most pleasant weather with moderate temperatures and lower humidity, making them ideal for visiting. Summer is hot and humid with occasional severe thunderstorms, while winter can be cold with potential for ice and snow.",
+    "summary": "Wichita experiences a continental climate with distinct seasons, cold winters, hot humid summers, and mild shoulder seasons. Spring and fall are the best times to visit with comfortable temperatures for outdoor activities."
+  },
+  "hotels": [
+    {
+      "name": "Motel 6 Wichita",
+      "neighborhood": "Central Wichita",
+      "pricePerNightUSD": 55,
+      "category": "Budget",
+      "description": "Clean, reliable budget accommodation with basic amenities and convenient access to downtown and attractions."
+    },
+    {
+      "name": "Drury Inn & Suites Wichita",
+      "neighborhood": "Old Towne District",
+      "pricePerNightUSD": 120,
+      "category": "Mid-range",
+      "description": "Comfortable mid-range hotel in historic district with complimentary breakfast, indoor pool, and convenient walking distance to restaurants and galleries."
+    },
+    {
+      "name": "Delano Hotel",
+      "neighborhood": "Old Towne Historic District",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Upscale boutique hotel in restored historic building featuring modern amenities, rooftop bar, and exceptional personalized service in the heart of the cultural district."
+    }
+  ]
+}

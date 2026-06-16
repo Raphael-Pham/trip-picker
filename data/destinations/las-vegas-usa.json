@@ -5,8 +5,7 @@
   "region": "North America",
   "airportCodes": [
     "LAS",
-    "MCC",
-    "HDT"
+    "MCCarran"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -15,11 +14,10 @@
     "photography",
     "foodie",
     "adventure",
-    "relaxation",
-    "hidden-gems"
+    "relaxation"
   ],
   "scores": {
-    "cost": 35,
+    "cost": 45,
     "food": 92,
     "photography": 88,
     "activities": 95,
@@ -39,140 +37,116 @@
     {
       "level": "luxury",
       "minPerDayUSD": 500,
-      "maxPerDayUSD": 1200
+      "maxPerDayUSD": 2000
     }
   ],
-  "unsplashQuery": "Las Vegas Strip night lights",
-  "summary": "Las Vegas is the world's premier entertainment destination, famous for its iconic Strip lined with luxury casinos, world-class restaurants, and spectacular shows. Beyond the glitz, the city offers stunning desert photography opportunities, diverse cuisine ranging from casual to Michelin-starred establishments, and proximity to natural wonders like the Grand Canyon and Red Rock Canyon.",
+  "unsplashQuery": "Las Vegas strip neon lights",
+  "summary": "Las Vegas is the ultimate entertainment destination, featuring world-class casinos, iconic shows, gourmet dining, and vibrant nightlife along the famous Strip. Beyond the glitz, the city offers stunning desert landscapes, outdoor adventures, and year-round attractions for every traveler type.",
   "restaurants": [
     {
       "name": "Ellis Island Casino Restaurant",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A legendary locals' favorite serving massive portions of steak and seafood at unbeatable prices. Known for $9.99 shrimp cocktails and generous steaks that feel like a throwback to old Vegas.",
-      "mustTry": "Steak and lobster special"
-    },
-    {
-      "name": "Hugo's Cellar",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "A Downtown Vegas institution offering classic French-inspired cuisine in an intimate, candle-lit setting. Servers present a rose to each female diner and offer complimentary appetizers.",
-      "mustTry": "Lobster thermidor"
-    },
-    {
-      "name": "Rao's at Caesars Palace",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "An outpost of the legendary New York establishment serving family-style Italian-American cuisine with impeccable service. Each dish is a celebration of Italian heritage with premium ingredients.",
-      "mustTry": "Lemon chicken"
+      "description": "A local favorite offering exceptional value with generous portions of classic American comfort food. Famous for their $9.99 steak special that has remained unchanged for decades.",
+      "mustTry": "9.99 New York Strip Steak"
     },
     {
       "name": "Tacos El Gordo",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "A casual Mexican spot with multiple locations serving authentic Sonoran-style tacos and marinated meats. Perfect for quick, delicious, and affordable meals.",
-      "mustTry": "Carne asada tacos"
+      "description": "Authentic Mexican street food with incredible al pastor tacos and fresh carne asada. A genuine locals' spot away from the tourist-heavy restaurants.",
+      "mustTry": "Al Pastor Tacos"
     },
     {
-      "name": "Mizumi at Wynn",
+      "name": "Peppermill Restaurant & Fireside Lounge",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A Vegas institution since 1972 offering retro charm and affordable American diner fare. Open 24 hours with a distinctive neon-lit ambiance.",
+      "mustTry": "Chicken Fried Steak"
+    },
+    {
+      "name": "Mizumi",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "An exquisite Japanese restaurant featuring sushi, omakase, and robata grilling in an elegant setting. Chef-curated experiences showcase premium sake pairings and seasonal ingredients.",
-      "mustTry": "Omakase tasting menu"
+      "description": "Three-Michelin-star Japanese restaurant at Wynn offering premium omakase, teppanyaki, and kaiseki experiences. One of Las Vegas's most acclaimed culinary destinations.",
+      "mustTry": "Chef's Omakase Selection"
     },
     {
-      "name": "Carnevor at Palazzo",
+      "name": "Carnevor Steakhouse",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "A high-end steakhouse with an expansive raw bar and wine selection featuring premium cuts and seafood. The bone marrow and dry-aged steaks are exceptional.",
-      "mustTry": "Dry-aged ribeye"
-    },
-    {
-      "name": "Peppermill Restaurant",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "A beloved 24-hour diner with retro decor serving comfort food classics and generous portions. Famous for its cozy booths and fireplace, perfect for late-night eats.",
-      "mustTry": "Meatloaf and mashed potatoes"
-    },
-    {
-      "name": "Hell's Kitchen at Caesars",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Chef Gordon Ramsay's casual restaurant featuring British and French-inspired comfort food with a modern twist. The beef wellington and sticky toffee pudding are standouts.",
-      "mustTry": "Beef wellington"
+      "description": "Luxurious steakhouse in the Palazzo featuring dry-aged beef, fresh seafood, and an impressive wine collection. Known for impeccable service and elegant ambiance.",
+      "mustTry": "Dry-Aged Prime Rib"
     },
     {
       "name": "Secret Pizza",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "A hidden gem pizzeria accessible only through a speakeasy, serving Neapolitan-style pizza with quality ingredients. The retro speakeasy aesthetic adds to the charm.",
-      "mustTry": "Margherita pizza"
-    },
-    {
-      "name": "Picasso at Bellagio",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "An elegant French restaurant overlooking the Bellagio fountains with original Picasso paintings on the walls. The seasonal menu showcases refined French cuisine.",
-      "mustTry": "Duck breast with cherry gastrique"
-    },
-    {
-      "name": "Lotus of Siam",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "An award-winning Thai restaurant serving authentic and bold flavors with an impressive wine list curated specifically for Thai food. A favorite among locals for its quality and consistency.",
-      "mustTry": "Chiang mai sausage"
+      "priceRange": "$",
+      "description": "Hidden gem tucked inside the Cosmopolitan offering authentic New York-style pizza with high-quality ingredients. Perfect for late-night casual dining.",
+      "mustTry": "Classic Margherita Pizza"
     },
     {
-      "name": "Nobu at Caesars",
+      "name": "SW Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary steakhouse at Wynn with floor-to-ceiling windows overlooking the Strip and golf course. Features premium cuts and innovative sides.",
+      "mustTry": "Prime Ribeye with Truffle Mac & Cheese"
+    },
+    {
+      "name": "Golden Tiki",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant tiki bar and restaurant offering tropical cocktails and Pacific Rim cuisine. A fun, eclectic spot perfect for creative drinks and adventurous appetizers.",
+      "mustTry": "Mai Tai with Fresh Tropical Fruit"
+    },
+    {
+      "name": "Bouchon",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French-inspired restaurant at Venetian helmed by Thomas Keller, featuring exquisite seasonal cuisine and an extensive wine program.",
+      "mustTry": "Pan-Seared Diver Scallops"
+    },
+    {
+      "name": "Evel Pie",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Trendy pizza and cocktail spot in downtown Las Vegas known for unconventional toppings and creative combinations. Great for craft beers and experimental drinks.",
+      "mustTry": "The Evel - Spicy Italian with House Sauce"
+    },
+    {
+      "name": "Nobu",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "A sophisticated Japanese-Peruvian fusion restaurant by Nobu Matsuhisa featuring innovative omakase and ceviche preparations. The dramatic views and impeccable service complement the exceptional cuisine.",
-      "mustTry": "Black cod with miso"
+      "description": "Renowned Japanese fusion restaurant at Caesars Palace offering innovative dishes that blend traditional and contemporary techniques. World-famous chef Nobuyuki Matsuhisa's creation.",
+      "mustTry": "Black Cod with Miso"
+    },
+    {
+      "name": "Hash House A Go Go",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Popular brunch destination with generous portions of elevated comfort food and creative morning cocktails. Known for long waits but worth it.",
+      "mustTry": "Pancakes with Crispy Bacon and Maple Syrup"
     }
   ],
   "activities": [
     {
-      "name": "Bellagio Fountains Show",
-      "category": "Cultural",
-      "description": "Watch the iconic choreographed water fountain show set to music and lights in front of the Bellagio hotel. Shows run throughout the day and evening with different music selections.",
+      "name": "Bellagio Fountain Show",
+      "category": "Indoor",
+      "description": "Watch the iconic dancing fountains synchronized to music and lights. Free to watch from the street; performances every 15-30 minutes throughout the day and evening.",
       "durationHours": 0.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "family"
+        "surprise"
       ]
     },
     {
-      "name": "Red Rock Canyon National Conservation Area",
+      "name": "Grand Canyon South Rim Day Tour",
       "category": "Outdoor",
-      "description": "Explore stunning desert landscapes with dramatic red sandstone formations located 30 minutes west of the Strip. Perfect for hiking, photography, and experiencing natural beauty.",
-      "durationHours": 4,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Cirque du Soleil Shows",
-      "category": "Cultural",
-      "description": "Experience world-class acrobatic performances with innovative costumes and storytelling at various Strip venues. Options include 'O', 'KA', and 'Mad Apple'.",
-      "durationHours": 2,
-      "estimatedCostUSD": 80,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "family"
-      ]
-    },
-    {
-      "name": "Grand Canyon Helicopter Tour",
-      "category": "Adventure",
-      "description": "Take a scenic helicopter flight over the Grand Canyon with spectacular aerial views and options for landing tours. An unforgettable way to see one of the world's natural wonders.",
-      "durationHours": 4,
-      "estimatedCostUSD": 300,
+      "description": "Full-day guided tour or self-drive to one of the world's most spectacular natural wonders. Includes scenic viewpoints, hiking options, and professional guides with geological expertise.",
+      "durationHours": 10,
+      "estimatedCostUSD": 120,
       "bestFor": [
         "adventure",
         "photography",
@@ -180,99 +154,121 @@
       ]
     },
     {
-      "name": "Neon Museum",
-      "category": "Cultural",
-      "description": "Explore vintage neon signs from old Vegas casinos and businesses in a historic outdoor museum Downtown. A nostalgic and photogenic tribute to Vegas's golden age.",
+      "name": "Cirque du Soleil Show (KÀ or O)",
+      "category": "Indoor",
+      "description": "World-class acrobatic performances with stunning visuals and storytelling. Multiple shows available on the Strip, each with unique themes and spectacular staging.",
       "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "hidden-gems",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Fremont Street Experience",
-      "category": "Nightlife",
-      "description": "Walk under a dazzling LED canopy downtown with street performers, live music, and vintage casino vibes. Free to explore with zip-lining and other activities available for purchase.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 75,
       "bestFor": [
         "standard",
         "surprise",
-        "photography",
-        "hidden-gems"
+        "relaxation"
       ]
     },
     {
-      "name": "The Mob Museum",
-      "category": "Cultural",
-      "description": "Discover the fascinating history of organized crime and law enforcement in Las Vegas through interactive exhibits. Located downtown with engaging displays and artifacts.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 20,
+      "name": "Red Rock Canyon Scenic Drive",
+      "category": "Outdoor",
+      "description": "13-mile loop through vibrant red rock formations just 20 minutes west of the Strip. Includes pullouts for hiking, photography, and wildlife viewing.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
       "bestFor": [
-        "hidden-gems",
-        "standard"
+        "photography",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Las Vegas Natural History Museum",
+      "category": "Cultural",
+      "description": "Educational museum featuring fossils, dinosaurs, Egyptian mummies, and interactive exhibits. Affordable admission with engaging displays for all ages.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
       ]
     },
     {
       "name": "Valley of Fire State Park",
       "category": "Outdoor",
-      "description": "Experience otherworldly red rock formations and ancient petroglyphs in a state park located 45 minutes northeast of Vegas. Excellent for hiking, photography, and exploration.",
-      "durationHours": 5,
+      "description": "Stunning desert landscape with brilliant red rock formations 45 minutes from the Strip. Features excellent hiking trails, scenic viewpoints, and exceptional photography opportunities.",
+      "durationHours": 4,
       "estimatedCostUSD": 10,
       "bestFor": [
-        "adventure",
         "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Caesars Palace Gladiator Encounters",
-      "category": "Family",
-      "description": "Interact with costumed gladiators and take photos in this entertaining attraction themed around ancient Rome. Great for families and entertainment seekers.",
-      "durationHours": 1,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "family",
-        "standard",
+        "adventure",
         "surprise"
       ]
     },
     {
-      "name": "Seven Magic Mountains",
-      "category": "Outdoor",
-      "description": "Visit colorful stacked rock formations in the desert created by an artist, offering unique photo opportunities at sunset. Located about 20 minutes south of the Strip.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
+      "name": "The Neon Museum",
+      "category": "Cultural",
+      "description": "Historic collection of vintage neon signs from classic Vegas casinos and businesses. Tours showcase the city's retro aesthetic and offer insight into Las Vegas history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "photography",
         "hidden-gems",
-        "adventure"
+        "surprise"
       ]
     },
     {
-      "name": "Erotic Heritage Museum",
-      "category": "Cultural",
-      "description": "Explore adult-oriented exhibits covering sexuality, entertainment history, and provocative art in a adults-only museum. An unconventional cultural experience.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 20,
+      "name": "Helicopter Tour of the Strip and Beyond",
+      "category": "Adventure",
+      "description": "Aerial perspective of Las Vegas from above, often including views of the Grand Canyon or Valley of Fire. Thrilling experience with unforgettable photo opportunities.",
+      "durationHours": 1,
+      "estimatedCostUSD": 200,
       "bestFor": [
-        "hidden-gems",
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Fremont Street Experience",
+      "category": "Nightlife",
+      "description": "Historic downtown Las Vegas with vintage casinos, street performers, and a 1,500-foot canopy of lights. Free to explore with unique bars, clubs, and shows.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
         "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Spa Day at Qua Baths & Spa",
+      "category": "Relaxation",
+      "description": "Luxurious spa experience at Caesars Palace featuring Roman-inspired baths, massages, and facials. Perfect for unwinding between activities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "relaxation",
         "standard"
       ]
     },
     {
-      "name": "Spring Mountain Ranch State Park",
+      "name": "Hiking in Spring Mountain Range",
       "category": "Outdoor",
-      "description": "Tour a historic mansion and grounds in the Red Rock area with theatrical performances and scenic hiking trails. A peaceful escape from the urban strip.",
+      "description": "Scenic hiking trails with mountain views and cooler temperatures, located within an hour of Las Vegas. Options range from easy walks to challenging summit hikes.",
       "durationHours": 3,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
+        "adventure",
         "photography",
-        "cultural"
+        "surprise"
+      ]
+    },
+    {
+      "name": "Stratosphere Observation Deck",
+      "category": "Indoor",
+      "description": "Tallest observation tower in North America offering 360-degree city views from 1,149 feet. Includes thrill rides like the Big Shot and SkyJump for adrenaline seekers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
       ]
     }
   ],
@@ -280,92 +276,92 @@
     "spots": [
       {
         "name": "Bellagio Fountains",
-        "description": "Iconic choreographed water fountain displays with colorful lighting and architecture creating perfect photo opportunities day and night.",
+        "description": "Iconic choreographed water fountains with stunning backlighting perfect for evening photography.",
         "difficulty": "Beginner",
-        "bestTime": "Evening (7 PM - 11 PM) for dramatic lighting",
+        "bestTime": "Evening, 30 minutes after sunset",
         "category": "Night"
       },
       {
-        "name": "The Neon Museum",
-        "description": "Vintage glowing neon signs against dark backgrounds creating vibrant, nostalgic photography opportunities.",
+        "name": "Valley of Fire - Fire Canyon Trail",
+        "description": "Dramatic red rock formations with vibrant colors intensified during golden hour.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or 2 hours before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Red Rock Canyon Scenic Drive Overlooks",
+        "description": "Multiple vantage points of colorful canyon walls and desert landscape.",
         "difficulty": "Beginner",
-        "bestTime": "Early evening during twilight or after dark",
+        "bestTime": "Late afternoon light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Neon Museum - Classic Signs",
+        "description": "Vintage neon signs illuminated against dark backgrounds for striking color contrast.",
+        "difficulty": "Beginner",
+        "bestTime": "Dusk or night tours",
         "category": "Night"
+      },
+      {
+        "name": "Fremont Street Experience Canopy",
+        "description": "Massive light display canopy with street performers and vintage casino backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening after dark",
+        "category": "Night"
+      },
+      {
+        "name": "Las Vegas Strip from Mandalay Bay",
+        "description": "Wide vista of the entire Strip with major casinos and resort buildings.",
+        "difficulty": "Beginner",
+        "bestTime": "Blue hour at dusk",
+        "category": "Architecture"
+      },
+      {
+        "name": "Grand Canyon South Rim - Mather Point",
+        "description": "Expansive views of the canyon's layered rock formations and dramatic depth.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset",
+        "category": "Landscape"
       },
       {
         "name": "Seven Magic Mountains",
-        "description": "Stacked colorful rocks in the desert creating striking geometric compositions with natural landscape backdrop.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for golden and pink light on rocks",
+        "description": "Colorful stacked rock formations in the desert northwest of Las Vegas.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning or late afternoon",
         "category": "Landscape"
       },
       {
-        "name": "Red Rock Canyon",
-        "description": "Dramatic red sandstone formations with sweeping desert vistas offering multiple composition options.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour (sunrise/sunset) for rich color saturation",
-        "category": "Landscape"
-      },
-      {
-        "name": "Fremont Street Experience",
-        "description": "Historic downtown area with LED canopy, vintage casinos, and street performers creating dynamic urban scenes.",
-        "difficulty": "Intermediate",
-        "bestTime": "Dusk and night for neon glow and crowd energy",
-        "category": "Street"
-      },
-      {
-        "name": "The Strip Architecture",
-        "description": "Iconic casino buildings like the Luxor pyramid and Mirage featuring distinctive architectural styles.",
+        "name": "Eiffel Tower at Paris Las Vegas",
+        "description": "Half-scale replica with Strip views and architectural detail opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Blue hour (twilight) for balanced ambient light",
+        "bestTime": "Golden hour",
         "category": "Architecture"
       },
       {
-        "name": "Valley of Fire State Park",
-        "description": "Otherworldly red rock formations and petroglyphs creating dramatic landscape and detail photography opportunities.",
+        "name": "Desert Dry Lake Beds near Valley of Fire",
+        "description": "Expansive white and gray mineral deposits creating otherworldly abstract compositions.",
         "difficulty": "Advanced",
-        "bestTime": "Sunrise or sunset for directional light on rock formations",
+        "bestTime": "Midday for contrast or sunrise/sunset for texture",
         "category": "Landscape"
-      },
-      {
-        "name": "Downtown Vegas Rooftop Views",
-        "description": "Elevated perspectives of the historic downtown casinos and vintage neon signage against the night sky.",
-        "difficulty": "Intermediate",
-        "bestTime": "Twilight and night hours",
-        "category": "Architecture"
-      },
-      {
-        "name": "Lost City Museum Petroglyphs",
-        "description": "Ancient rock carvings and pueblo ruins offering cultural and historic photography with authentic Southwest backdrop.",
-        "difficulty": "Intermediate",
-        "bestTime": "Mid-morning for even light on carved details",
-        "category": "Cultural"
-      },
-      {
-        "name": "The Arts District Murals",
-        "description": "Colorful street art and murals in the Arts District creating vibrant and creative photography subjects.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning to early afternoon for directional side light",
-        "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Valley of Fire State Park",
-      "Red Rock Canyon western overlooks",
-      "Stratosphere Tower observation deck"
+      "Valley of Fire State Park - Fire Canyon Trail",
+      "Red Rock Canyon Scenic Overlooks",
+      "Grand Canyon South Rim - Mather Point"
     ],
     "sunsetSpots": [
-      "Seven Magic Mountains",
-      "Red Rock Canyon scenic loop",
-      "Bellagio Fountains viewing area"
+      "Red Rock Canyon - Scenic Drive Pullouts",
+      "Bellagio Fountains area",
+      "Las Vegas Strip from Mandalay Bay observation area"
     ],
     "lensRecommendations": [
-      "14-24mm ultra-wide for landscape sweeps and architectural scale at Red Rock Canyon and Valley of Fire",
-      "50mm prime for street photography and neon sign detail work in downtown Fremont Street",
-      "70-200mm telephoto for compressed perspective on distant Red Rock formations and fountain water details",
-      "24mm wide-angle for nighttime Strip architecture and creative framing of casino buildings"
+      "16-35mm ultra-wide for landscape and canyon photography",
+      "70-200mm telephoto for compressed landscape details and canyon layers",
+      "50mm f/1.8 prime for street photography and neon signs in low light",
+      "Macro lens 90-105mm for detail shots of desert flora and rock textures"
     ],
-    "goldenHourNotes": "Las Vegas offers exceptional golden hour opportunities due to clear desert skies and minimal light pollution outside the Strip. The best golden hour photography occurs in Red Rock Canyon and Valley of Fire where warm light dramatically illuminates red rock formations. Evening golden hour near the Strip creates magical lighting for the fountains and vintage neon signs with deeper color saturation in the sky.",
+    "goldenHourNotes": "Golden hour in Las Vegas is exceptionally dramatic due to the high desert terrain and low humidity creating sharp contrast. The hour before sunset offers warm light that enhances red rock formations, while the hour after sunset provides the blue hour perfect for city lights. Plan Valley of Fire and Red Rock Canyon visits to align with these windows for maximum color saturation and atmospheric depth.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -373,12 +369,12 @@
       {
         "month": 1,
         "avgTempC": 8,
-        "rainfallMM": 5
+        "rainfallMM": 6
       },
       {
         "month": 2,
         "avgTempC": 11,
-        "rainfallMM": 3
+        "rainfallMM": 4
       },
       {
         "month": 3,
@@ -387,81 +383,82 @@
       },
       {
         "month": 4,
-        "avgTempC": 22,
+        "avgTempC": 23,
         "rainfallMM": 2
       },
       {
         "month": 5,
-        "avgTempC": 28,
-        "rainfallMM": 2
+        "avgTempC": 30,
+        "rainfallMM": 1
       },
       {
         "month": 6,
-        "avgTempC": 34,
-        "rainfallMM": 3
+        "avgTempC": 37,
+        "rainfallMM": 4
       },
       {
         "month": 7,
-        "avgTempC": 36,
+        "avgTempC": 41,
         "rainfallMM": 11
       },
       {
         "month": 8,
-        "avgTempC": 35,
-        "rainfallMM": 10
+        "avgTempC": 40,
+        "rainfallMM": 9
       },
       {
         "month": 9,
-        "avgTempC": 31,
-        "rainfallMM": 5
+        "avgTempC": 35,
+        "rainfallMM": 6
       },
       {
         "month": 10,
-        "avgTempC": 24,
-        "rainfallMM": 3
+        "avgTempC": 26,
+        "rainfallMM": 4
       },
       {
         "month": 11,
-        "avgTempC": 15,
+        "avgTempC": 16,
         "rainfallMM": 3
       },
       {
         "month": 12,
         "avgTempC": 9,
-        "rainfallMM": 6
+        "rainfallMM": 5
       }
     ],
     "bestMonths": [
       3,
       4,
+      5,
       10,
       11
     ],
-    "seasonality": "Spring (March-May) and fall (October-November) offer ideal weather with warm days and cool nights. Summer is extremely hot (35-37°C) with occasional monsoon rains, while winter is mild but can have cool evenings.",
-    "summary": "Las Vegas has a hot desert climate with four distinct seasons. Winter months are mild with occasional cool nights, spring and fall are perfect with pleasant temperatures, while summers are extremely hot and dry with brief monsoon thunderstorms in July-August."
+    "seasonality": "Las Vegas experiences extreme temperature variations, with scorching summers exceeding 40°C and mild winters around 8°C. Spring (March-May) and fall (October-November) offer the most pleasant weather for outdoor activities and exploring the surrounding desert landscapes.",
+    "summary": "Las Vegas has a hot desert climate with minimal rainfall throughout the year. The dry air and intense sun make sunscreen essential, while layered clothing is recommended for temperature swings between day and night."
   },
   "hotels": [
     {
-      "name": "The Flamingo Las Vegas",
-      "neighborhood": "The Strip",
-      "pricePerNightUSD": 60,
+      "name": "The LINQ Hotel & Casino",
+      "neighborhood": "Central Strip",
+      "pricePerNightUSD": 65,
       "category": "Budget",
-      "description": "An iconic mid-Strip casino resort with a fun party atmosphere, tropical gardens, and surprisingly affordable rates for prime Strip location."
+      "description": "Mid-range property on the Strip featuring the High Roller observation wheel, multiple restaurants, and regularly discounted room rates for value-conscious travelers."
     },
     {
-      "name": "Park MGM",
-      "neighborhood": "The Strip",
-      "pricePerNightUSD": 150,
+      "name": "The Venetian Resort Las Vegas",
+      "neighborhood": "Central Strip",
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "A modern resort featuring contemporary design, excellent dining options, and central Strip location with updated amenities and reasonable rates."
+      "description": "All-suite luxury resort featuring elegant suites with living areas, world-class restaurants, and premium amenities at a relatively accessible price point for Suite accommodations."
     },
     {
       "name": "Wynn Las Vegas",
-      "neighborhood": "The Strip",
-      "pricePerNightUSD": 400,
+      "neighborhood": "North Strip",
+      "pricePerNightUSD": 350,
       "category": "Luxury",
-      "description": "An ultra-luxurious resort with exquisite design, world-class restaurants, fine art collections, and impeccable service in an upscale setting."
+      "description": "Ultra-luxury resort featuring impeccable service, Michelin-starred dining, pristine grounds, and exclusive amenities including access to Wynn's golf course and high-end shopping."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMYXMlMjBWZWdhcyUyMFN0cmlwJTIwbmlnaHQlMjBsaWdodHN8ZW58MXwwfHx8MTc4MTMwMzA5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1577334928618-2ff2bf09e827?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMYXMlMjBWZWdhcyUyMHN0cmlwJTIwbmVvbiUyMGxpZ2h0c3xlbnwxfDB8fHwxNzgxNjI3ODU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

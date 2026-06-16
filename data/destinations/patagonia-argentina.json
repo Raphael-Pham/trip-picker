@@ -6,7 +6,7 @@
   "airportCodes": [
     "BRC",
     "USH",
-    "CPC"
+    "BUE"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -20,232 +20,119 @@
     "food": 75,
     "photography": 95,
     "activities": 90,
-    "weather": 55
+    "weather": 60
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 50,
-      "maxPerDayUSD": 80
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
     },
     {
       "level": "mid",
-      "minPerDayUSD": 120,
+      "minPerDayUSD": 100,
       "maxPerDayUSD": 200
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
+      "minPerDayUSD": 200,
       "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Patagonia glaciers mountains",
-  "summary": "Patagonia is a raw, windswept wilderness at the southern tip of South America, famous for its dramatic granite peaks, colossal glaciers, and pristine wilderness landscapes. Offering world-class hiking, wildlife encounters, and some of the planet's most photogenic scenery, it attracts adventure seekers and photographers from around the globe. The region spans Argentina and Chile with iconic destinations like El Chaltén, Los Glaciares National Park, and Tierra del Fuego.",
+  "unsplashQuery": "Patagonia mountains glacier",
+  "summary": "Patagonia is a breathtaking region spanning Argentina and Chile, renowned for its dramatic granite peaks, massive glaciers, and pristine wilderness. From the iconic Perito Moreno Glacier to the turquoise lakes of Los Glaciares National Park, this destination offers world-class hiking, wildlife viewing, and unparalleled photography opportunities. The region's raw beauty and adventurous spirit attract nature enthusiasts and photographers from around the globe.",
   "restaurants": [
     {
-      "name": "Ah Pang",
+      "name": "Pura Vida",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A beloved El Chaltén institution serving traditional Patagonian fare including lamb and fresh pasta with mountain views. Known for hearty portions and welcoming atmosphere that draws hikers and locals alike.",
-      "mustTry": "Lamb stew with Patagonian herbs"
-    },
-    {
-      "name": "La Tablita",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Rustic Argentine steakhouse in El Chaltén specializing in grilled meats and regional wines. The intimate setting and quality cuts make it a favorite among visitors exploring the region.",
-      "mustTry": "Grass-fed Argentina beef asado"
-    },
-    {
-      "name": "Viedma Resto Bar",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale restaurant in El Calafate overlooking Lago Argentino with contemporary Argentine cuisine. Features locally-sourced ingredients and an impressive wine list highlighting Patagonian vintages.",
-      "mustTry": "Centolla (king crab) with Malbec reduction"
-    },
-    {
-      "name": "Casimiro Biguá",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Sophisticated dining in Ushuaia with Tierra del Fuego specialties including fresh seafood and game. The elegant atmosphere and panoramic views make it ideal for special occasions.",
-      "mustTry": "Centolla a la parrilla (grilled king crab)"
-    },
-    {
-      "name": "The Ands",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Cozy Argentine café in El Chaltén offering excellent coffee, fresh pastries, and light meals. A perfect stop after morning hikes with friendly staff and local art on walls.",
-      "mustTry": "Medialunas with hot chocolate"
-    },
-    {
-      "name": "Estancia Helsingfors",
-      "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "Working estancia (ranch) near El Calafate offering traditional Patagonian lamb barbecue and gaucho cultural experiences. Combine authentic farm-to-table dining with horseback riding.",
-      "mustTry": "Whole lamb roasted over open fire"
-    },
-    {
-      "name": "Microbrasserie Polar",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual brewpub in Ushuaia crafting local craft beers paired with pub food and empanadas. A lively gathering spot popular with adventurers and backpackers.",
-      "mustTry": "House IPA with chorizo empanada"
-    },
-    {
-      "name": "Panadería Aonikenk",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Traditional bakery in El Chaltén with fresh bread, pastries, and simple breakfast items. Essential stop for provisions before day hikes or quick morning bites.",
-      "mustTry": "Fresh croissants and whole grain bread"
-    },
-    {
-      "name": "Helsingfors",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Premier restaurant in El Calafate serving innovative Patagonian cuisine in an elegant setting. Features venison, lamb, and local fish prepared with contemporary techniques.",
-      "mustTry": "Venison carpaccio with wild berries"
+      "description": "Cozy restaurant featuring traditional Patagonian lamb and regional dishes with warm ambiance. Known for generous portions and authentic Argentine flavors.",
+      "mustTry": "Cordero Patagónico (Patagonian lamb stew)"
     },
     {
       "name": "La Lechuza",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Traditional parrilla in Ushuaia offering grilled meats and seafood with authentic Argentine hospitality. Known for generous portions and value for money.",
-      "mustTry": "Mixed parrilla platter for two"
+      "description": "Popular spot for fresh grilled meats and seafood with views of the surrounding mountains. Friendly staff and reasonable prices make it a local favorite.",
+      "mustTry": "Grilled centolla (king crab)"
     },
     {
-      "name": "Café Literario",
+      "name": "Helsingfors",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale restaurant offering innovative Patagonian cuisine with elegant presentation. Features locally sourced ingredients and an excellent wine selection.",
+      "mustTry": "Guanaco carpaccio with Patagonian mushrooms"
+    },
+    {
+      "name": "Viedma",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Charming café in El Chaltén featuring local art, books, and simple Argentine comfort food. Perfect for lunch, relaxation, and connecting with other travelers.",
-      "mustTry": "Homemade soup and fresh sandwich"
+      "description": "Simple, affordable eatery serving hearty Argentine staples and empanadas. Perfect for quick meals without breaking the budget.",
+      "mustTry": "Empanadas de carne"
     },
     {
-      "name": "Tante Sara",
+      "name": "Microbrassería Brazalete",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Craft brewery with wood-fired grill serving locally brewed beers and grilled specialties. Casual atmosphere with stunning views.",
+      "mustTry": "Asado with house IPA"
+    },
+    {
+      "name": "Estancia José María",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Traditional estancia (ranch) restaurant offering authentic Patagonian barbecue in a rustic setting. Experience gaucho culture with traditional grilled meats.",
+      "mustTry": "Costillar de cordero (lamb ribs)"
+    },
+    {
+      "name": "Café Remolino",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming café perfect for breakfast and pastries with local coffee. Cozy spot to start your day before outdoor adventures.",
+      "mustTry": "Fresh medialunas with cappuccino"
+    },
+    {
+      "name": "La Tablita",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-run parrilla known for perfectly grilled steaks and chimichurri. Traditional Argentine dining experience with warm hospitality.",
+      "mustTry": "Bife de chorizo (sirloin steak)"
+    },
+    {
+      "name": "Sibaris",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant fine dining restaurant featuring contemporary Patagonian cuisine and an impressive wine cellar. Chef-driven creativity meets local ingredients.",
+      "mustTry": "Patagonian trout with wild mushroom risotto"
+    },
+    {
+      "name": "El Tano",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Family-run restaurant in El Chaltén offering hearty mountain cuisine including homemade pasta and regional specialties. Warm, welcoming atmosphere with generous servings.",
-      "mustTry": "Wild boar ravioli with mushroom sauce"
+      "description": "Seafood-focused restaurant specializing in fresh catches from Patagonian waters. Casual atmosphere with excellent fresh fish preparations.",
+      "mustTry": "Merluza negra (black hake) with white wine sauce"
+    },
+    {
+      "name": "Fuego Bravo",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick-service grill stand popular with locals and travelers alike. Affordable cuts of meat grilled to order with fresh salads.",
+      "mustTry": "Choripán (chorizo sandwich)"
+    },
+    {
+      "name": "Eolo Patagonia's Spirit",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale lodge restaurant offering seven-course tasting menus with wine pairings featuring regional ingredients. Refined Patagonian gastronomy in elegant surroundings.",
+      "mustTry": "Chef's tasting menu with wine pairing"
     }
   ],
   "activities": [
     {
-      "name": "Laguna de los Tres Picos hike",
-      "category": "Outdoor",
-      "description": "A challenging day hike from El Chaltén offering stunning views of three distinctive peaks reflected in pristine glacial lakes. The trail passes through diverse Patagonian landscapes including beech forests and alpine meadows.",
-      "durationHours": 8,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Perito Moreno Glacier boat tour",
-      "category": "Outdoor",
-      "description": "Navigate up close to the 70-meter-high glacier wall by boat, witnessing massive ice calving and the thunderous crash of icebergs. A mesmerizing experience combining adventure with natural spectacle.",
-      "durationHours": 3,
-      "estimatedCostUSD": 120,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Fitz Roy hike",
-      "category": "Outdoor",
-      "description": "The iconic trek to the base of Mount Fitz Roy, one of Patagonia's most photographed peaks, offering breathtaking alpine scenery and numerous viewpoint options. The trail is challenging but rewards hikers with unforgettable mountain vistas.",
-      "durationHours": 10,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Laguna Torre hike",
-      "category": "Outdoor",
-      "description": "A moderate hike from El Chaltén leading to a glacier-fed lagoon with dramatic granite towers looming overhead. The walk through pristine wilderness showcases Patagonia's raw beauty.",
-      "durationHours": 9,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Upsala Glacier helicopter tour",
+      "name": "Perito Moreno Glacier Trekking",
       "category": "Adventure",
-      "description": "Soar over massive glaciers and pristine wilderness landing on ice fields for an unforgettable aerial and ground experience. Combines extreme adventure with unparalleled photographic opportunities.",
+      "description": "Walk on the ancient ice of one of the world's few advancing glaciers with crampons and professional guides. Experience the raw power of glacial formations up close.",
       "durationHours": 4,
-      "estimatedCostUSD": 280,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Tierra del Fuego National Park exploration",
-      "category": "Outdoor",
-      "description": "Drive and hike through southernmost wilderness featuring beech forests, tundra, and coastal vistas where the Southern Ocean meets land. Multiple trails offer varying difficulty levels and scenic rewards.",
-      "durationHours": 6,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "adventure",
-        "standard",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Lake District scenic drives",
-      "category": "Outdoor",
-      "description": "Cruise through stunning routes connecting glacial lakes with mountain backdrops, including Ruta 40 and scenic viewpoint stops. Perfect for travelers wanting natural beauty with road trip flexibility.",
-      "durationHours": 8,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Estancia day experience",
-      "category": "Cultural",
-      "description": "Spend a day on an authentic working ranch learning gaucho traditions, horseback riding across grasslands, and enjoying traditional asado barbecues. Experience genuine Patagonian rural culture.",
-      "durationHours": 8,
-      "estimatedCostUSD": 110,
-      "bestFor": [
-        "adventure",
-        "standard",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Wildlife spotting excursions",
-      "category": "Outdoor",
-      "description": "Guided tours in Tierra del Fuego and coastal areas to spot guanacos, Magellanic penguins, sea lions, and Andean condors in their natural habitats. Experienced guides maximize wildlife encounters.",
-      "durationHours": 5,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Caverna del Milodón archaeological tour",
-      "category": "Cultural",
-      "description": "Explore a massive cave and museum displaying fossils and life-sized reconstructions of extinct megafauna that roamed Patagonia thousands of years ago. A fascinating window into prehistoric Patagonian life.",
-      "durationHours": 3,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "standard",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Ice trekking on Perito Moreno Glacier",
-      "category": "Adventure",
-      "description": "Don crampons and trek directly across ancient glacier ice with professional guides, exploring crevasses, moulins, and ice formations. An intimate, thrilling way to experience glacial environments.",
-      "durationHours": 5,
       "estimatedCostUSD": 150,
       "bestFor": [
         "adventure",
@@ -253,107 +140,219 @@
       ]
     },
     {
-      "name": "El Chaltén village walk and local culture",
-      "category": "Cultural",
-      "description": "Stroll through this charming mountain town visiting local shops, art galleries, and cafés while soaking in the laid-back trekker and artist community vibe. Free activity perfect for rest days.",
-      "durationHours": 3,
+      "name": "Los Glaciares National Park Hiking",
+      "category": "Outdoor",
+      "description": "Explore multiple trails ranging from easy to challenging, featuring turquoise lakes, granite peaks, and diverse flora. Popular routes include Laguna de los Tres Picos and Laguna Torre.",
+      "durationHours": 6,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Boat Tour to Glacier Viewpoints",
+      "category": "Outdoor",
+      "description": "Scenic boat excursion getting close to glaciers from the water, offering unique perspectives and wildlife viewing opportunities. Several routes available with varying lengths.",
+      "durationHours": 3,
+      "estimatedCostUSD": 120,
+      "bestFor": [
         "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Mount Fitz Roy Hike",
+      "category": "Adventure",
+      "description": "Challenging day hike to viewpoints of the iconic granite tower with stunning panoramic vistas. One of Patagonia's most photographed natural landmarks.",
+      "durationHours": 8,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Laguna Azul and Laguna Sucia Trek",
+      "category": "Outdoor",
+      "description": "Moderate hike through Patagonian steppe offering incredible views of turquoise glacial lakes surrounded by mountain peaks. Less crowded alternative to famous trails.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Estancia Tour and Horseback Riding",
+      "category": "Outdoor",
+      "description": "Experience traditional ranch life with horseback rides across Patagonian grasslands and gaucho culture demonstrations. Authentic Argentine countryside experience.",
+      "durationHours": 4,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Upsala Glacier Boat Tour",
+      "category": "Outdoor",
+      "description": "Full-day boat excursion to the second-largest glacier in South America with icebergs and pristine landscape views. Includes stops at multiple glacier viewing points.",
+      "durationHours": 8,
+      "estimatedCostUSD": 180,
+      "bestFor": [
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Condor Viewpoint and Birdwatching",
+      "category": "Outdoor",
+      "description": "Wildlife viewing opportunity to spot Andean condors and other native birds in their natural habitat from designated viewpoints. Experienced guides provide ornithological information.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Glacier Museum Visit",
+      "category": "Cultural",
+      "description": "Educational indoor museum showcasing glaciology, local history, and stunning photography of Patagonian landscapes. Perfect for rainy days with informative exhibits.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard"
+      ]
+    },
+    {
+      "name": "Laguna Torre Hike",
+      "category": "Outdoor",
+      "description": "Scenic moderate hike to a pristine glacial lake with views of Torre mountain and calafate trees. Quieter alternative to crowded Fitz Roy viewpoints.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Patagonia Self-Drive Scenic Loop",
+      "category": "Outdoor",
+      "description": "Self-guided driving tour through Patagonian landscape connecting multiple viewpoints and natural attractions. Flexible itinerary allowing exploration at your own pace.",
+      "durationHours": 8,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "photography",
         "hidden-gems"
+      ]
+    },
+    {
+      "name": "Kayaking on Glacial Lakes",
+      "category": "Adventure",
+      "description": "Paddle on pristine turquoise lakes surrounded by mountains and glaciers with professional guides. Unique water-based perspective of Patagonian wilderness.",
+      "durationHours": 4,
+      "estimatedCostUSD": 140,
+      "bestFor": [
+        "adventure",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
+        "name": "Perito Moreno Glacier Main Viewpoint",
+        "description": "Iconic viewing platform capturing the full scale of the advancing glacier with dramatic lighting and ice formations in the foreground.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light and minimal crowds",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mount Fitz Roy",
+        "description": "Legendary granite peak offering stunning silhouettes at sunrise and dramatic shadows throughout the day from multiple vantage points.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset for golden alpenglow on the tower",
+        "category": "Landscape"
+      },
+      {
         "name": "Laguna de los Tres Picos",
-        "description": "Crystal-clear alpine lake perfectly reflecting three massive peaks creates mirror-image compositions of dramatic Patagonian geology.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning for minimal wind and perfect reflections",
-        "category": "Landscape"
-      },
-      {
-        "name": "Mount Fitz Roy base",
-        "description": "Iconic granite spire surrounded by smaller peaks and forests offers the most recognizable Patagonian composition.",
-        "difficulty": "Advanced",
-        "bestTime": "Dawn and sunset for alpenglow on rock faces",
-        "category": "Landscape"
-      },
-      {
-        "name": "Perito Moreno Glacier calving zone",
-        "description": "Massive ice wall dramatically collapsing into turquoise waters creates explosive, once-in-a-moment photography opportunities.",
+        "description": "Turquoise glacial lake surrounded by three dramatic peaks with perfect reflections in calm morning conditions.",
         "difficulty": "Intermediate",
-        "bestTime": "Afternoon when ice calving is most frequent",
+        "bestTime": "Early morning when water is calmest",
         "category": "Landscape"
       },
       {
-        "name": "Laguna Torre with Cerro Torre backdrop",
-        "description": "Turquoise glacial lake framed by vertical granite tower and surrounding peaks delivers striking color contrast and composition.",
+        "name": "Laguna Torre",
+        "description": "Pristine turquoise lake with Torre mountain reflected in the water and calafate trees framing the composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dawn for best color and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Upsala Glacier from Boat",
+        "description": "Massive glacier with icebergs floating in the lake offering dramatic scale and texture from water-level perspective.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for clear visibility and blue ice tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "El Chaltén Town and Surroundings",
+        "description": "Small mountain town with colorful buildings backdropped by dramatic granite peaks and Patagonian scenery.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on buildings and peaks",
+        "category": "Architecture"
+      },
+      {
+        "name": "Punta Bandera Viewpoint",
+        "description": "Panoramic vantage point overlooking multiple glaciers, lakes, and mountain ranges in one sweeping vista.",
+        "difficulty": "Beginner",
+        "bestTime": "Clear afternoon with good visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Laguna Azul",
+        "description": "Remote turquoise lake surrounded by Patagonian steppe with minimal crowds and pristine natural lighting.",
         "difficulty": "Advanced",
-        "bestTime": "Morning light illuminating tower and lake reflections",
+        "bestTime": "Early morning before wind disturbs the water",
         "category": "Landscape"
       },
       {
-        "name": "Upsala Glacier from viewpoint",
-        "description": "Massive glacier expanse with countless blue icebergs creates surreal, otherworldly landscape compositions.",
+        "name": "Condor Ridge Trail",
+        "description": "Elevated trail offering panoramic Patagonian landscapes with opportunities for both wildlife and landscape photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday for blue ice and iceberg definition",
-        "category": "Landscape"
-      },
-      {
-        "name": "Beagle Channel penguin colonies",
-        "description": "Hundreds of Magellanic penguins on rocky shores and in water offer unique wildlife and behavioral photography moments.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon with side lighting",
+        "bestTime": "Morning when birds are most active",
         "category": "Wildlife"
       },
       {
-        "name": "Ruta 40 mountain passes",
-        "description": "Sweeping vistas along Argentina's legendary route 40 with endless mountain ranges, valleys, and dramatic sky conditions.",
+        "name": "Estancia Helsingfors Mountain View",
+        "description": "Ranch viewpoint capturing classic Patagonian wilderness with grazing animals and dramatic mountain backdrop.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset for warm light across multiple ridges",
+        "bestTime": "Late afternoon for warm light and shadow definition",
         "category": "Landscape"
-      },
-      {
-        "name": "El Chaltén town at dusk",
-        "description": "Colorful mountain town buildings with Fitz Roy rising behind create charming cultural and landscape hybrid photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour with warm light on buildings and peak",
-        "category": "Street"
-      },
-      {
-        "name": "Glacial lakes turquoise waters",
-        "description": "Brilliant blue and turquoise glacial meltwater creates stunning color photography opportunities with surrounding peaks.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for saturated color definition",
-        "category": "Landscape"
-      },
-      {
-        "name": "Guanacos in natural habitat",
-        "description": "Wild relatives of llamas roaming grasslands and slopes offer wildlife photography with authentic Patagonian landscape context.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning or late afternoon for angle and soft light",
-        "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
-      "Mount Fitz Roy viewpoint",
+      "Mount Fitz Roy Viewpoint",
       "Laguna de los Tres Picos",
-      "Cerro Torre vista"
+      "Laguna Torre"
     ],
     "sunsetSpots": [
-      "Perito Moreno Glacier overlook",
-      "El Chaltén town lookout",
-      "Upsala Glacier viewpoint"
+      "Perito Moreno Glacier Main Viewpoint",
+      "Punta Bandera Overlook",
+      "El Chaltén Town Ridge"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for expansive glacier and mountain vistas capturing dramatic scale",
-      "70-200mm telephoto for wildlife, distant peaks, and compressed mountain compositions",
-      "24-70mm versatile zoom for hiking accessibility and varied landscape compositions",
-      "Macro/50mm prime for alpine wildflowers and detail photography during lower-activity periods"
+      "16-35mm ultra-wide for vast landscape panoramas and glacial formations",
+      "70-200mm telephoto for wildlife (condors), mountain detail, and compressed perspectives of distant peaks",
+      "50mm prime for environmental portraits and intimate landscape details",
+      "24-70mm versatile zoom for general hiking and varied composition needs"
     ],
-    "goldenHourNotes": "Patagonia's extreme southern latitude creates extended twilight periods with long, low-angle golden light lasting 45+ minutes. Winter months (June-August) compress this window to brief intensity, while summer (December-February) extends gentle light. Wind management is critical—shoot during early morning lulls before Patagonian winds strengthen in afternoon, ensuring sharp images especially with telephoto lenses.",
+    "goldenHourNotes": "Patagonia's southern latitude provides extended golden hours during summer months (December-February). The low sun angle illuminates glacier ice with warm amber tones while casting dramatic shadows across peaks. Winter months offer crisp, clear air but shorter golden hour windows and potential for harsh, flat midday light. Plan hikes to summit viewpoints during golden hour for optimal lighting on landscape compositions.",
     "overallDifficulty": "Advanced"
   },
   "weather": {
@@ -361,95 +360,94 @@
       {
         "month": 1,
         "avgTempC": 16,
-        "rainfallMM": 35
+        "rainfallMM": 45
       },
       {
         "month": 2,
         "avgTempC": 15,
-        "rainfallMM": 32
-      },
-      {
-        "month": 3,
-        "avgTempC": 12,
-        "rainfallMM": 38
-      },
-      {
-        "month": 4,
-        "avgTempC": 8,
-        "rainfallMM": 42
-      },
-      {
-        "month": 5,
-        "avgTempC": 4,
-        "rainfallMM": 48
-      },
-      {
-        "month": 6,
-        "avgTempC": 1,
-        "rainfallMM": 45
-      },
-      {
-        "month": 7,
-        "avgTempC": 0,
-        "rainfallMM": 42
-      },
-      {
-        "month": 8,
-        "avgTempC": 2,
         "rainfallMM": 40
       },
       {
-        "month": 9,
-        "avgTempC": 5,
-        "rainfallMM": 38
+        "month": 3,
+        "avgTempC": 13,
+        "rainfallMM": 35
       },
       {
-        "month": 10,
+        "month": 4,
         "avgTempC": 9,
         "rainfallMM": 40
       },
       {
+        "month": 5,
+        "avgTempC": 5,
+        "rainfallMM": 50
+      },
+      {
+        "month": 6,
+        "avgTempC": 2,
+        "rainfallMM": 55
+      },
+      {
+        "month": 7,
+        "avgTempC": 1,
+        "rainfallMM": 50
+      },
+      {
+        "month": 8,
+        "avgTempC": 3,
+        "rainfallMM": 48
+      },
+      {
+        "month": 9,
+        "avgTempC": 7,
+        "rainfallMM": 42
+      },
+      {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 38
+      },
+      {
         "month": 11,
         "avgTempC": 13,
-        "rainfallMM": 36
+        "rainfallMM": 42
       },
       {
         "month": 12,
         "avgTempC": 15,
-        "rainfallMM": 34
+        "rainfallMM": 48
       }
     ],
     "bestMonths": [
       1,
       2,
-      12,
-      11
+      12
     ],
-    "seasonality": "Summer (December-February) offers warmest temperatures (13-16°C), longest daylight (17 hours), and best hiking conditions, though weather remains changeable and windy. Winter (June-August) brings extreme cold (0-2°C), possible snow, and short daylight (8 hours), but offers dramatic lighting and fewer tourists.",
-    "summary": "Patagonia's climate is notoriously unpredictable with strong winds, frequent precipitation, and rapid weather changes year-round. Visitors should prepare for all weather conditions regardless of season and expect wind to be a constant factor in photography and outdoor activities."
+    "seasonality": "Patagonia experiences extreme seasonal variation with long daylight hours in summer (December-February) and extended darkness in winter (June-August). Summer months offer the best hiking conditions and stable weather, though conditions remain unpredictable with possible rain and wind year-round.",
+    "summary": "Patagonia's climate is characterized by cold temperatures, strong winds, and significant rainfall throughout the year. The region experiences four distinct seasons with summer providing the warmest temperatures (13-16°C), longer daylight hours, and more stable conditions for outdoor activities."
   },
   "hotels": [
     {
-      "name": "Camping Laguna Torre",
+      "name": "Hospedaje Helsingfors",
       "neighborhood": "El Chaltén",
-      "pricePerNightUSD": 18,
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Basic hostel-style accommodations with shared facilities perfect for backpackers and budget trekkers exploring El Chaltén's trail system."
+      "description": "Simple, comfortable guesthouse with shared and private rooms, friendly staff, and hearty breakfast included in the heart of El Chaltén town."
     },
     {
-      "name": "Helsingfors Hotel",
+      "name": "Los Glaciares Hotel",
       "neighborhood": "El Calafate",
-      "pricePerNightUSD": 145,
+      "pricePerNightUSD": 120,
       "category": "Mid-range",
-      "description": "Comfortable three-star hotel with views of Lago Argentino, quality amenities, and convenient access to glacier tours and city attractions."
+      "description": "Modern hotel with comfortable rooms, excellent restaurant, and convenient location near Perito Moreno Glacier with professional tour booking services."
     },
     {
-      "name": "Fierro Hotel Boutique",
-      "neighborhood": "El Chaltén",
-      "pricePerNightUSD": 280,
+      "name": "Eolo Patagonia's Spirit",
+      "neighborhood": "Outside El Calafate",
+      "pricePerNightUSD": 350,
       "category": "Luxury",
-      "description": "Upscale mountain lodge with panoramic peak views, fine dining, spa services, and personalized adventure concierge in an intimate setting."
+      "description": "Five-star luxury estancia with elegant suites, world-class dining, spa services, and exclusive access to private Patagonian wilderness experiences and photography opportunities."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1494783329112-4a6795291178?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQYXRhZ29uaWElMjBnbGFjaWVycyUyMG1vdW50YWluc3xlbnwxfDB8fHwxNzgxNTU2MTkxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1494783329112-4a6795291178?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQYXRhZ29uaWElMjBtb3VudGFpbnMlMjBnbGFjaWVyfGVufDF8MHx8fDE3ODE2MjkyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

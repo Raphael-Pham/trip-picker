@@ -11,249 +11,142 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
     "photography",
     "foodie",
-    "relaxation"
+    "relaxation",
+    "surprise"
   ],
   "scores": {
     "cost": 35,
-    "food": 92,
+    "food": 95,
     "photography": 98,
-    "activities": 85,
-    "weather": 88
+    "activities": 88,
+    "weather": 90
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 60,
-      "maxPerDayUSD": 100
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
     },
     {
       "level": "mid",
       "minPerDayUSD": 150,
-      "maxPerDayUSD": 250
+      "maxPerDayUSD": 300
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 400,
-      "maxPerDayUSD": 800
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 1000
     }
   ],
-  "unsplashQuery": "Santorini sunset Oia",
-  "summary": "Santorini is an iconic Cycladic island famous for its dramatic white-and-blue architecture, stunning caldera views, and world-class sunsets. This romantic destination combines exquisite Mediterranean cuisine, pristine beaches, and rich volcanic history into an unforgettable Greek island experience.",
+  "unsplashQuery": "Santorini sunset caldera",
+  "summary": "Santorini is a stunning volcanic island in the Aegean Sea renowned for its iconic white-washed buildings with blue domes, dramatic cliffsides, and world-class sunsets that attract photographers and romantics worldwide. The island combines breathtaking natural beauty with exceptional Greek cuisine, rich history, and charming villages perched on volcanic cliffs overlooking the caldera.",
   "restaurants": [
     {
-      "name": "To Psaraki",
+      "name": "Amoudi Taverna",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Authentic family-run taverna serving fresh seafood caught daily by the owner. Located in Kamari with views of the caldera and black sand beach.",
+      "description": "Traditional Greek taverna serving fresh catch of the day and local specialties in the picturesque fishing village of Amoudi Bay. Family-run establishment with authentic atmosphere and stunning sea views.",
       "mustTry": "Grilled octopus with lemon"
-    },
-    {
-      "name": "Selene",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Michelin-starred restaurant in Pyrgos offering contemporary Greek cuisine with traditional ingredients. Intimate setting with panoramic views of the Aegean Sea.",
-      "mustTry": "Slow-cooked lamb with local wine reduction"
-    },
-    {
-      "name": "Fava",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual eatery in Perissa specializing in souvlaki, Greek salads, and traditional mezze. Perfect for a quick, authentic, and affordable meal.",
-      "mustTry": "Chicken souvlaki wrap"
-    },
-    {
-      "name": "1800-Floga",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale restaurant in Oia set in a traditional cave dwelling overlooking the caldera. Specializes in creative Mediterranean cuisine with local Santorini wines.",
-      "mustTry": "Fava cream with bottarga and caviar"
-    },
-    {
-      "name": "Naoussa Fish Taverna",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Waterfront seafood restaurant in Naoussa village offering grilled fish and traditional Greek preparations. Known for fresh catch and friendly service.",
-      "mustTry": "Whole grilled sea bream"
-    },
-    {
-      "name": "Lucky's Souvlakis",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Popular fast-casual spot near the Kamari waterfront serving delicious souvlaki, gyros, and Greek pies. Great value and quick service.",
-      "mustTry": "Pork souvlaki with tzatziki"
     },
     {
       "name": "Thalassa",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Fine dining establishment in Imerovigli featuring innovative seafood dishes and Greek wines. Romantic setting with sunset views and impeccable service.",
-      "mustTry": "Lobster spaghetti with white wine sauce"
+      "description": "Award-winning restaurant in Kamari offering contemporary Mediterranean cuisine with panoramic Aegean views. Chef-driven menu emphasizing seasonal ingredients and artistic presentation.",
+      "mustTry": "Pan-seared local fish with wild greens"
     },
     {
-      "name": "Mama Thira",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Authentic taverna in Kamari run by locals serving traditional Santorini recipes passed down through generations. Focus on fresh, seasonal ingredients.",
-      "mustTry": "Fava (yellow split pea puree)"
-    },
-    {
-      "name": "Anemone Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Cozy restaurant in Kamari offering Greek classics and Mediterranean dishes with reasonable prices. Family-friendly atmosphere with garden seating.",
-      "mustTry": "Pastitsio (Greek lasagna)"
-    },
-    {
-      "name": "Katerina's",
+      "name": "Lucky's Souvlakis",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Simple, no-frills taverna in Perissa serving authentic Greek food at budget prices. Popular with locals and backpackers alike.",
-      "mustTry": "Greek salad with feta cheese"
+      "description": "Quick, casual souvlaki stand in Fira serving traditional grilled meat skewers and wraps at excellent value. Perfect for lunch on the go with friendly service.",
+      "mustTry": "Chicken souvlaki wrap with tzatziki"
     },
     {
-      "name": "Nikolas Taverna",
+      "name": "Selene",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant in Pyrgos village showcasing innovative Greek cuisine using local volcanic soil vegetables. Intimate setting with sommelier-selected Greek wine pairings.",
+      "mustTry": "Fava with crispy calamari"
+    },
+    {
+      "name": "To Psaraki",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Long-established family taverna in Kamari known for perfectly prepared traditional dishes and warm hospitality. Ocean views from the terrace.",
-      "mustTry": "Moussaka"
+      "description": "Waterfront seafood taverna in Kamari beach offering daily fresh fish selections prepared simply with olive oil and lemon. Long-established family restaurant with loyal local clientele.",
+      "mustTry": "Grilled shrimp saganaki"
     },
     {
-      "name": "Ariadni",
+      "name": "Fira Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual cafe in central Fira serving Greek breakfast, salads, and light lunches with views of the caldera. Ideal for budget-conscious travelers seeking quality local food.",
+      "mustTry": "Saganaki fried cheese"
+    },
+    {
+      "name": "Argo",
       "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary Greek restaurant in Oia with terraced seating and caldera views, serving traditional dishes with modern presentation. Excellent wine selection featuring local Santorini varieties.",
+      "mustTry": "Stifado with local red wine"
+    },
+    {
+      "name": "Metaxy Mas",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Charming restaurant in Oia village offering Mediterranean cuisine in a traditional setting. Excellent wine list featuring local Santorini varieties.",
-      "mustTry": "Grilled shrimp saganaki with cheese"
+      "description": "Hidden gem village taverna in Kato Metaxi preparing authentic Greek food without tourist pretense. Known for generous portions and genuine warm hospitality.",
+      "mustTry": "Lamb with stamnagathi greens"
+    },
+    {
+      "name": "1800 Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Cliffside fine dining establishment in Oia offering French-Mediterranean cuisine with sunset views. Romantic ambiance with impeccable service and wine expertise.",
+      "mustTry": "Lobster ravioli in white wine sauce"
+    },
+    {
+      "name": "Naoussa Taverna",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Charming waterfront taverna in Amoudi serving fresh seafood and traditional Greek mains in casual beachside setting. Popular with both tourists and locals.",
+      "mustTry": "Saganaki with honey and oregano"
+    },
+    {
+      "name": "Canaves Oia",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Luxury restaurant within a cave-built complex in Oia emphasizing seasonal Mediterranean ingredients and wine pairings. Sophisticated atmosphere with volcano views.",
+      "mustTry": "Santorini cherry tomato tart"
+    },
+    {
+      "name": "O Foinikia",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family taverna in Kamari village cooking traditional recipes passed down through generations using local produce. Casual, unpretentious dining with authentic Greek hospitality.",
+      "mustTry": "Horta with feta cheese"
     }
   ],
   "activities": [
     {
-      "name": "Sunset Watching in Oia",
+      "name": "Caldera Sunset Boat Tour",
       "category": "Outdoor",
-      "description": "Experience Santorini's world-famous sunset from the picturesque village of Oia. Arrive early to secure a viewing spot as crowds gather along the caldera edge.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Sailboat or catamaran cruise from Fira exploring the caldera, visiting volcanic islands, and swimming in hot spring waters before watching the famous sunset from the sea. Includes wine and snacks aboard.",
+      "durationHours": 5,
+      "estimatedCostUSD": 65,
       "bestFor": [
         "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Caldera Cruise with Volcano Visit",
-      "category": "Outdoor",
-      "description": "Full-day boat tour circumnavigating the caldera with stops at Nea Kameni volcano, hot springs, and Thirassia island. Includes swimming and lunch.",
-      "durationHours": 8,
-      "estimatedCostUSD": 75,
-      "bestFor": [
-        "standard",
-        "adventure",
+        "relaxation",
         "photography"
       ]
     },
     {
       "name": "Akrotiri Archaeological Site",
       "category": "Cultural",
-      "description": "Explore the well-preserved ancient Minoan city buried under volcanic ash during the 1600 BC eruption. Features colorful frescoes and multi-story buildings.",
-      "durationHours": 3,
+      "description": "Explore the preserved Minoan settlement buried by volcanic eruption in 1600 BC featuring intact buildings, pottery, and frescoes. Museum-quality artifacts displayed in situ with covered walkways for weather protection.",
+      "durationHours": 2,
       "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "photography"
-      ]
-    },
-    {
-      "name": "Red Beach Exploration",
-      "category": "Outdoor",
-      "description": "Hike to or boat to the distinctive red sand beach created by volcanic minerals. Excellent for swimming, snorkeling, and unique beach photography.",
-      "durationHours": 3,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Wine Tasting at Santo Winery",
-      "category": "Indoor",
-      "description": "Sample award-winning Santorini wines including the distinctive Assyrtiko white variety. Tour includes vineyard views overlooking the caldera.",
-      "durationHours": 2,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "foodie"
-      ]
-    },
-    {
-      "name": "White Beach Visit",
-      "category": "Outdoor",
-      "description": "Accessible by boat or scenic hike, this pristine beach features dramatic white cliffs and crystal-clear waters. Perfect for swimming and relaxation.",
-      "durationHours": 4,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Perissa and Kamari Black Sand Beaches",
-      "category": "Outdoor",
-      "description": "Relax on long, dark volcanic sand beaches with tavernas, water sports, and ocean views. Less crowded than Red Beach with excellent amenities.",
-      "durationHours": 5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "family"
-      ]
-    },
-    {
-      "name": "Fira to Oia Walking Trail",
-      "category": "Adventure",
-      "description": "Scenic 10km cliff-top hiking path connecting the island's two main towns with stunning caldera views throughout. Takes 3-4 hours at comfortable pace.",
-      "durationHours": 4,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Byzantine Castle of Pyrgos",
-      "category": "Cultural",
-      "description": "Explore the medieval castle ruins perched on Santorini's highest point with panoramic island views. Walk through charming village streets to reach the summit.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "photography"
-      ]
-    },
-    {
-      "name": "Amoudi Bay Swimming and Dining",
-      "category": "Outdoor",
-      "description": "Swim in sheltered turquoise waters below Oia village and dine at waterfront fish tavernas. Scenic 300-step descent rewards with authentic Greek coastal experience.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Oia Village Exploration",
-      "category": "Cultural",
-      "description": "Wander through the iconic blue-domed churches, whitewashed alleyways, and boutique shops of Oia. Browse art galleries and enjoy aperitivos at sunset viewpoints.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
@@ -261,106 +154,215 @@
       ]
     },
     {
-      "name": "Scuba Diving and Snorkeling",
+      "name": "Oia Village Stroll & Sunset",
+      "category": "Outdoor",
+      "description": "Walk through the iconic white-washed village exploring narrow streets, blue-domed churches, and cliff-edge views, culminating in the world-famous Oia sunset gathering. Free activity with optional restaurant/cafe spending.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Volcanic Island Hiking Trail",
       "category": "Adventure",
-      "description": "Explore underwater volcanic formations, sea caves, and Mediterranean marine life. Multiple operators offer beginner to advanced dives around the caldera.",
-      "durationHours": 4,
-      "estimatedCostUSD": 80,
+      "description": "Guided or self-guided hike from Fira to Oia traversing the volcanic rim with panoramic caldera views, passing through traditional villages and ancient windmills. Challenging but rewarding 10km trail.",
+      "durationHours": 6,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "adventure",
-        "hidden-gems"
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Wine Tasting Tour",
+      "category": "Food",
+      "description": "Visit 2-3 local wineries sampling Santorini's unique volcanic-soil white wines and local red varieties with vineyard tours and traditional Greek snacks. Small group tours with knowledgeable sommeliers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kamari Black Sand Beach",
+      "category": "Outdoor",
+      "description": "Relax on the unique dark volcanic sand beach with calm waters and stunning mountain backdrop, featuring beachfront tavernas and water sports options. Popular for swimming and sunbathing.",
+      "durationHours": 4,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Santo Winery Visit",
+      "category": "Cultural",
+      "description": "Tour the atmospheric winery built into volcanic caves with traditional barrel-aged wines, museum exhibits on Santorini wine history, and panoramic terrace views. Educational and scenic experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Perissa Beach & Lighthouse Walk",
+      "category": "Outdoor",
+      "description": "Visit the long black sand beach with excellent swimming conditions and nearby Cape Columbo lighthouse offering hiking paths and Mediterranean views. Less crowded alternative to Kamari.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fira Town Exploration",
+      "category": "Cultural",
+      "description": "Explore the bustling capital village discovering the Archaeological Museum, shopping streets, traditional tavernas, and stunning cliff-edge promenade with caldera views. Mixed cultural and commercial experience.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Caves of Akrotiri",
+      "category": "Adventure",
+      "description": "Explore the volcanic caves and rock formations at Akrotiri cape with dramatic red and black striped cliffs and sea cave exploration. Short boat access required to reach remote caves.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Cycladic Museum Visit",
+      "category": "Cultural",
+      "description": "Discover ancient Cycladic artifacts, prehistoric tools, and island history in small museum showcasing 5000 years of settlement patterns. Quiet, educational alternative to crowded archaeological sites.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nea Kameni Volcanic Island Tour",
+      "category": "Adventure",
+      "description": "Boat excursion to the active volcanic island with guided hike to crater rim, geothermal features, and hot spring swimming. Includes volcanic geology lessons from experienced guides.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Oia Blue Dome Churches",
-        "description": "Iconic whitewashed buildings with brilliant blue domed roofs and bell towers against the Aegean backdrop.",
+        "name": "Oia Sunset Viewpoint",
+        "description": "Iconic cliffside location in Oia village offering unobstructed sunset views over the caldera with white-washed buildings and blue domes in composition.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon to avoid crowds and shadows",
-        "category": "Architecture"
-      },
-      {
-        "name": "Caldera Edge Viewpoint",
-        "description": "Dramatic cliff-top views of the volcanic caldera with the distant volcanic islands and sunset colors.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour before sunset for warm tones and dramatic lighting",
+        "bestTime": "Golden hour, 1 hour before sunset",
         "category": "Landscape"
       },
       {
-        "name": "Red Beach Cliffs",
-        "description": "Striking rust-colored volcanic rock formations rising from the red sand beach creating strong color contrasts.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon when shadows add depth to the red rock formations",
-        "category": "Landscape"
-      },
-      {
-        "name": "Narrow Oia Alleyways",
-        "description": "Winding whitewashed passages with blue shutters, doorways, and flowers creating charming street photography.",
+        "name": "Fira Caldera Promenade",
+        "description": "Clifftop walking path along Fira with dramatic volcanic cliffs, Aegean views, and traditional cave dwellings carved into rock face.",
         "difficulty": "Beginner",
-        "bestTime": "Mid-morning to late afternoon for angled sunlight through narrow streets",
-        "category": "Street"
-      },
-      {
-        "name": "Byzantine Castle Ruins",
-        "description": "Medieval fortress perched on hilltop with commanding views of Santorini's landscape and surrounding islands.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for warm golden light on stone ruins and valley views",
+        "bestTime": "Morning light, sunset",
         "category": "Architecture"
       },
       {
-        "name": "Amoudi Bay Waterfront",
-        "description": "Colorful fishing boats and taverna-lined harbor below Oia with crystal-clear turquoise water reflections.",
+        "name": "Blue Dome Church, Oia",
+        "description": "Famous blue-domed church surrounded by white-washed buildings creating iconic Mediterranean composition opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Morning for calm water and soft light, or sunset for dramatic skies",
+        "bestTime": "Early morning, before crowds, golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Amoudi Bay Fishing Village",
+        "description": "Colorful fishing boats, traditional waterfront tavernas, and dramatic cliff backdrop creating excellent maritime and cultural scenes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning, golden hour",
         "category": "Street"
+      },
+      {
+        "name": "Akrotiri Prehistoric Town Ruins",
+        "description": "Ancient Minoan buildings, stone structures, and archaeological details with dramatic striped red-black cliff surroundings.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning, overcast conditions reduce harsh shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cape Columbo Lighthouse Trail",
+        "description": "Scenic hiking path with panoramic sea views, lighthouse architecture, and dramatic coastal cliff formations.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise, late afternoon",
+        "category": "Landscape"
       },
       {
         "name": "Perissa Black Sand Beach",
-        "description": "Long stretch of dark volcanic sand with distinctive geology and dramatic mountain backdrop.",
+        "description": "Unique volcanic black sand with crystal clear water and mountain backdrop creating striking color contrasts.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for soft light and fewer tourists on the black sand",
+        "bestTime": "Golden hour, sunrise",
         "category": "Landscape"
       },
       {
-        "name": "Fira Clifftop Terraces",
-        "description": "Terraced buildings and whitewashed walls cascading down steep cliffs with sea views and architectural layers.",
+        "name": "Nea Kameni Volcanic Island",
+        "description": "Active volcanic landscape with dramatic volcanic formations, crater rim vistas, and sulfurous geothermal features.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour when warm light emphasizes texture and depth of architecture",
+        "bestTime": "Morning light for texture, afternoon for shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pyrgos Village Windmill & Views",
+        "description": "Traditional whitewashed windmill on elevated village location with panoramic island views and Cycladic architecture.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, morning light",
         "category": "Architecture"
       },
       {
-        "name": "White Beach Seacliffs",
-        "description": "Towering white chalk and pumice cliffs creating a striking vertical landscape framing clear turquoise waters.",
-        "difficulty": "Advanced",
-        "bestTime": "Mid-day for detail and color saturation, avoiding harsh shadows on vertical cliffs",
-        "category": "Landscape"
-      },
-      {
-        "name": "Sunset at Imerovigli Promontory",
-        "description": "Elevated position offers wide caldera views, volcanic islands, and unobstructed sunset vistas with fewer crowds than Oia.",
-        "difficulty": "Beginner",
-        "bestTime": "30 minutes before to 15 minutes after sunset for color range and dramatic sky",
+        "name": "Santorini Caldera from North",
+        "description": "Sweeping panoramic views of the entire caldera crater, volcanic islands, and layered geological formations from northern rim vantage points.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm light, clear weather conditions",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Fira Clifftop",
       "Perissa Black Sand Beach",
-      "Byzantine Castle of Pyrgos"
+      "Cape Columbo Lighthouse",
+      "Akrotiri Archaeological Site"
     ],
     "sunsetSpots": [
-      "Oia Village",
-      "Imerovigli Promontory",
-      "Amoudi Bay Below Oia"
+      "Oia Village Main Viewpoint",
+      "Fira Caldera Promenade",
+      "Amoudi Bay Harbor"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive caldera landscape and architectural sweeps capturing whitewashed villages against sea",
-      "50-70mm standard lens for intimate street photography in narrow Oia alleyways and detail work on architecture",
-      "70-200mm telephoto for isolating distant elements like sunset colors and compressing layers of landscape across the caldera"
+      "Wide-angle 14-24mm for sweeping caldera and architectural compositions capturing full village scenes",
+      "Standard 35-50mm for intimate street photography and architectural details in villages",
+      "Telephoto 70-200mm for compressed landscape shots emphasizing layers of caldera and volcanic islands",
+      "Macro 100mm for detail work on Byzantine architecture, traditional decorative elements, and close textures"
     ],
-    "goldenHourNotes": "Santorini's golden hour is exceptionally photogenic with the sun casting warm amber light across whitewashed buildings and blue domes. The hour before sunset provides the most dramatic color gradients in the sky and caldera, while sunrise produces softer pastels over the distant volcanic islands. Position yourself above the caldera rim for the most impactful lighting on the architectural layers.",
+    "goldenHourNotes": "Golden hour light is exceptional on Santorini, bathing white-washed buildings in warm amber tones and creating dramatic shadows in narrow streets. Arrive at sunset viewpoints 90 minutes early to secure positions and capture pre-sunset light progression. Sunrise photography on black sand beaches and cliff edges offers softer, less crowded alternatives with equally stunning light quality.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -368,12 +370,12 @@
       {
         "month": 1,
         "avgTempC": 12,
-        "rainfallMM": 65
+        "rainfallMM": 68
       },
       {
         "month": 2,
         "avgTempC": 12,
-        "rainfallMM": 55
+        "rainfallMM": 58
       },
       {
         "month": 3,
@@ -383,47 +385,47 @@
       {
         "month": 4,
         "avgTempC": 19,
-        "rainfallMM": 25
+        "rainfallMM": 22
       },
       {
         "month": 5,
         "avgTempC": 25,
-        "rainfallMM": 10
+        "rainfallMM": 8
       },
       {
         "month": 6,
-        "avgTempC": 28,
-        "rainfallMM": 5
-      },
-      {
-        "month": 7,
-        "avgTempC": 29,
-        "rainfallMM": 2
-      },
-      {
-        "month": 8,
         "avgTempC": 29,
         "rainfallMM": 3
       },
       {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 1
+      },
+      {
+        "month": 8,
+        "avgTempC": 31,
+        "rainfallMM": 2
+      },
+      {
         "month": 9,
-        "avgTempC": 26,
-        "rainfallMM": 8
+        "avgTempC": 28,
+        "rainfallMM": 5
       },
       {
         "month": 10,
-        "avgTempC": 21,
-        "rainfallMM": 35
+        "avgTempC": 23,
+        "rainfallMM": 25
       },
       {
         "month": 11,
-        "avgTempC": 17,
+        "avgTempC": 18,
         "rainfallMM": 55
       },
       {
         "month": 12,
-        "avgTempC": 13,
-        "rainfallMM": 70
+        "avgTempC": 14,
+        "rainfallMM": 72
       }
     ],
     "bestMonths": [
@@ -432,31 +434,31 @@
       9,
       10
     ],
-    "seasonality": "Santorini has distinct seasons with hot, dry summers (June-August) and mild winters with occasional rain. Spring and fall offer perfect temperatures, fewer crowds, and ideal conditions for sightseeing and photography.",
-    "summary": "The island experiences Mediterranean climate with warm, sunny days from April through October and mild winters. Summer temperatures exceed 28°C with virtually no rainfall, while winter months are cooler with occasional rain but still pleasant for tourism."
+    "seasonality": "Santorini experiences a Mediterranean climate with extremely hot, dry summers (June-August) and mild, wetter winters (December-February). Spring and early fall offer ideal conditions with warm temperatures, minimal rainfall, and smaller crowds than peak summer season.",
+    "summary": "The island enjoys over 300 days of sunshine annually with warm Mediterranean temperatures ideal for beach and outdoor activities from April through October. Winter months bring cooler temperatures and occasional rain but offer fewer crowds and authentic local experiences."
   },
   "hotels": [
     {
-      "name": "Hostel Stella",
+      "name": "Santorini Budget Rooms",
       "neighborhood": "Kamari",
-      "pricePerNightUSD": 45,
+      "pricePerNightUSD": 55,
       "category": "Budget",
-      "description": "Friendly budget hostel near Kamari beach offering clean dorms, shared kitchen facilities, and a social atmosphere perfect for backpackers."
+      "description": "Simple, clean budget accommodation in Kamari beach area with basic amenities, friendly staff, and convenient beach and taverna access within walking distance."
     },
     {
-      "name": "Andonis Apartments",
-      "neighborhood": "Perissa",
-      "pricePerNightUSD": 85,
+      "name": "Chromata Hotel",
+      "neighborhood": "Oia",
+      "pricePerNightUSD": 185,
       "category": "Mid-range",
-      "description": "Family-run hotel with comfortable rooms, Aegean views, and convenient access to Perissa's black sand beach and local tavernas."
+      "description": "Boutique hotel in Oia village featuring traditional Cycladic architecture, caldera views, and personalized service with excellent breakfast and convenient sunset viewpoint access."
     },
     {
       "name": "Canaves Oia Luxury Suites",
       "neighborhood": "Oia",
-      "pricePerNightUSD": 650,
+      "pricePerNightUSD": 750,
       "category": "Luxury",
-      "description": "Ultra-luxurious all-suite hotel carved into volcanic cliffs featuring private plunge pools, spa services, and caldera views from every room."
+      "description": "Ultra-luxury cave-suite resort with private infinity pools, spa services, fine dining restaurant, and unparalleled caldera views from cliff-edge location in iconic Oia village."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1612277288801-0d783ca59c42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW50b3JpbmklMjBzdW5zZXQlMjBPaWF8ZW58MXwwfHx8MTc4MTU2MjI3NHww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1544327404-f6aed3d39dbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW50b3JpbmklMjBzdW5zZXQlMjBjYWxkZXJhfGVufDF8MHx8fDE3ODE2MjkzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -11,23 +11,23 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "hidden-gems",
     "photography",
     "foodie",
-    "relaxation"
+    "relaxation",
+    "hidden-gems"
   ],
   "scores": {
     "cost": 45,
     "food": 95,
     "photography": 98,
-    "activities": 94,
+    "activities": 92,
     "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 50,
-      "maxPerDayUSD": 85
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
     },
     {
       "level": "mid",
@@ -36,116 +36,151 @@
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 280,
+      "minPerDayUSD": 250,
       "maxPerDayUSD": 500
     }
   ],
   "unsplashQuery": "Kyoto temple cherry blossoms",
-  "summary": "Kyoto is Japan's cultural heart, home to over 2,000 temples, traditional wooden machiya houses, and serene bamboo groves that feel frozen in time. From the iconic vermillion torii gates of Fushimi Inari to the geisha districts of Gion, every corner offers postcard-perfect scenes and authentic Japanese traditions. The city's world-class cuisine, seasonal festivals, and walkable neighborhoods make it an essential destination for travelers seeking both beauty and spiritual tranquility.",
+  "summary": "Kyoto is Japan's cultural heart, home to over 2,000 temples, traditional wooden machiya houses, and serene bamboo groves that transport visitors to centuries past. With world-class cuisine, stunning seasonal landscapes, and peaceful gardens, it offers an unparalleled blend of heritage, natural beauty, and authentic Japanese hospitality that captivates every traveler.",
   "restaurants": [
     {
-      "name": "Gion Tanto",
+      "name": "Ippudo Ramen",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "One of Japan's most popular ramen chains with rich tonkotsu broth and perfectly cooked noodles. Quick service and authentic bowls at budget-friendly prices.",
+      "mustTry": "Tonkotsu Ramen with soft-boiled egg"
+    },
+    {
+      "name": "Hyotei Kaiseki",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Intimate kaiseki restaurant in Gion serving multi-course traditional Japanese haute cuisine with seasonal ingredients. Reservations essential; expect a 2-3 hour immersive culinary experience.",
-      "mustTry": "Seasonal kaiseki tasting menu"
+      "description": "Michelin-starred kaiseki restaurant with 300 years of history, offering seasonal multi-course meals in a traditional garden setting. Reservations essential.",
+      "mustTry": "Seasonal kaiseki omakase"
     },
     {
-      "name": "Omen Kodai-ji",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic udon noodle shop near Kiyomizu-dera temple, famous for handmade udon served with seasonal vegetables and dashi broth. Operating since 1965 with traditional preparation methods.",
-      "mustTry": "Omen udon with seasonal vegetable tempura"
-    },
-    {
-      "name": "Nishi Hongan-ji Vegetarian Lunch",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Authentic shojin ryori (Buddhist vegetarian cuisine) served in temple dining rooms with mountain views. Advance booking recommended for group meals.",
-      "mustTry": "Seasonal shojin ryori set course"
-    },
-    {
-      "name": "Ramen Yokocho",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Alley of eight tiny traditional ramen shops serving authentic tonkotsu and miso broths in a nostalgic post-war atmosphere. Perfect for casual lunch or dinner with local crowds.",
-      "mustTry": "Miso ramen with chashu pork"
-    },
-    {
-      "name": "Yudofu Sagano",
+      "name": "Gion Tanto",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Traditional hot pot restaurant in bamboo grove district serving yudofu (tofu hot pot) with premium ingredients and scenic garden views. Warm, comfortable setting ideal for cold season visits.",
-      "mustTry": "Premium yudofu with seasonal vegetables"
+      "description": "Intimate soba restaurant in the historic Gion district serving handmade noodles with local mountain vegetables. Traditional counter seating offers views of the chef's craft.",
+      "mustTry": "Morioba soba with seasonal tempura"
+    },
+    {
+      "name": "Musashi Sushi",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Conveyor belt sushi restaurant offering fresh fish at reasonable prices with English menus. Popular among locals and tourists alike.",
+      "mustTry": "Fatty tuna sashimi platter"
     },
     {
       "name": "Okutan Kappa Zushi",
-      "category": "Midrange",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Centuries-old tofu specialty restaurant with private tatami rooms overlooking the river, famous for sashimi-grade tofu and delicate preparations. Historic establishment with traditional service.",
-      "mustTry": "Agedashi tofu and tofu sashimi"
+      "description": "Traditional tofu kaiseki restaurant established in 1635, specializing in elegant yudofu (hot pot) and tofu courses. Peaceful garden views complement the meal.",
+      "mustTry": "Yudofu set with sesame dipping sauce"
+    },
+    {
+      "name": "Gion Karyo",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "High-end sukiyaki restaurant featuring premium A5 wagyu beef cooked at table in a traditional setting. Intimate experience with impeccable service.",
+      "mustTry": "A5 wagyu sukiyaki course"
     },
     {
       "name": "Vermillion Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual contemporary cafe in Higashiyama district serving matcha lattes, light lunches, and fresh pastries. Instagram-friendly spot with views of traditional streets.",
-      "mustTry": "Matcha latte with traditional sweets"
+      "description": "Charming cafe near Fushimi Inari offering coffee, matcha desserts, and light meals with shrine views. Perfect for casual breaks during sightseeing.",
+      "mustTry": "Matcha latte with dorayaki"
     },
     {
-      "name": "Gion Kawakami",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Michelin-starred kaiseki restaurant overlooking the Kamogawa river, specializing in seasonal kyoto vegetables and pristine seafood. Omakase-style service with chef interaction.",
-      "mustTry": "Chef's seasonal kaiseki selection"
-    },
-    {
-      "name": "Kawakami Soba",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Humble family-run soba shop making noodles fresh daily with traditional stone-grinding methods, serving simple elegant preparations since 1970. Counter seating with authentic atmosphere.",
-      "mustTry": "Zarusoba (chilled soba) with dipping sauce"
-    },
-    {
-      "name": "Kyoto Gogyo",
+      "name": "Umenohana",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Famous yakiniku restaurant specializing in kyoto-style charcoal-grilled beef and wagyu, housed in a 100-year-old wooden building. Family-friendly with theatrical cooking at tabletop grills.",
-      "mustTry": "Premium wagyu assortment and kimchi bibimbap"
+      "description": "Renowned tempura specialty restaurant with crispy battered vegetables and seafood served in a refined setting. Lunch sets offer excellent value.",
+      "mustTry": "Assorted shrimp and vegetable tempura"
     },
     {
-      "name": "Hyotei",
+      "name": "Kikunoi",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Michelin three-star kaiseki restaurant with 400-year history and private gardens, offering the pinnacle of seasonal kyoto cuisine. Reservations required months in advance.",
-      "mustTry": "Multi-course kaiseki with garden views"
+      "description": "Three Michelin stars and over 300 years of kaiseki tradition, this legendary restaurant serves exquisitely plated seasonal courses. Reserve months in advance.",
+      "mustTry": "Multi-course seasonal kaiseki"
     },
     {
-      "name": "Shinshindo Okutan",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Standing sushi bar near the market serving ultra-fresh fish and hand-pressed nigiri at incredible prices, beloved by locals and market workers. Minimal English but welcoming atmosphere.",
-      "mustTry": "Omakase sushi lunch set"
+      "name": "Yudofu Sagano",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic yudofu hot pot restaurant near Arashiyama bamboo grove with locally-sourced ingredients and traditional preparation. Scenic garden setting.",
+      "mustTry": "Yudofu with mountain vegetables"
+    },
+    {
+      "name": "Katsukura",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Tonkatsu (breaded pork cutlet) specialist with melt-in-mouth quality meat and homemade sauces. Popular branch in Central Kyoto with English menus.",
+      "mustTry": "Premium pork loin tonkatsu set"
+    },
+    {
+      "name": "Arashiyama Yoshimura",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic soba restaurant in the heart of Arashiyama specializing in thin buckwheat noodles served chilled or hot. Beautiful traditional building with river views.",
+      "mustTry": "Cold zaru soba with tempura"
     }
   ],
   "activities": [
     {
-      "name": "Fushimi Inari Shrine Hike",
-      "category": "Outdoor",
-      "description": "Explore thousands of vermillion torii gates winding up the mountainside at this iconic shrine, one of Japan's most photographed locations. The hike takes 2-3 hours with rewarding views and quieter upper sections.",
-      "durationHours": 3,
+      "name": "Fushimi Inari Shrine Visit",
+      "category": "Cultural",
+      "description": "Walk through thousands of vermillion torii gates winding up the mountain at Japan's most visited shrine. The iconic tunnel of gates is especially magical at sunrise or dusk.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "adventure"
+        "relaxation"
       ]
     },
     {
-      "name": "Arashiyama Bamboo Grove Walk",
+      "name": "Arashiyama Bamboo Grove Walking",
       "category": "Outdoor",
-      "description": "Stroll through towering bamboo forest creating serene tunnel-like passages, best visited early morning before crowds arrive. A short 15-20 minute walk through magical green landscape.",
+      "description": "Stroll through a serene forest of towering bamboo stalks with dappled green light filtering through. Early morning visits avoid crowds and offer peaceful exploration.",
       "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kinkaku-ji (Golden Pavilion) Tour",
+      "category": "Cultural",
+      "description": "Visit the stunning golden-roofed temple reflected in a mirror-like pond surrounded by manicured gardens. One of Japan's most photographed landmarks.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Tea Ceremony Experience",
+      "category": "Cultural",
+      "description": "Participate in a traditional Japanese tea ceremony learning proper whisking and tasting of matcha with sweets. Private experiences available at cultural centers throughout the city.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Philosopher's Path Walk",
+      "category": "Outdoor",
+      "description": "Follow a picturesque canal lined with cherry trees and traditional houses for 2 kilometers of peaceful walking. Beautiful in all seasons with frequent photo opportunities.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
@@ -156,19 +191,18 @@
     {
       "name": "Kiyomizu-dera Temple Exploration",
       "category": "Cultural",
-      "description": "Visit the UNESCO-listed wooden stage temple with panoramic Kyoto views and explore traditional temple gardens. Includes museum with historical artifacts and seasonal displays.",
-      "durationHours": 2,
+      "description": "Climb to this hilltop temple famous for its wooden platform overlooking Kyoto's cityscape and traditional wooden structures. Spectacular views at sunset.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 13,
       "bestFor": [
         "standard",
-        "photography",
-        "relaxation"
+        "photography"
       ]
     },
     {
-      "name": "Geisha District Evening Walk (Gion)",
+      "name": "Geisha District Walking Tour (Gion)",
       "category": "Cultural",
-      "description": "Wander atmospheric lantern-lit streets of Gion to spot geisha heading to evening appointments, experiencing authentic geisha culture and historic machiya architecture. Best at dusk between 5-7pm.",
+      "description": "Explore the atmospheric lanes of Gion where geisha still walk to appointments in traditional dress. Evening walks increase chances of spotting geisha heading to appointments.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -178,283 +212,246 @@
       ]
     },
     {
-      "name": "Golden Pavilion (Kinkaku-ji) Visit",
-      "category": "Cultural",
-      "description": "Experience the stunning gold-leaf covered temple reflected in mirror-like pond, set in meticulously maintained garden. Morning visits offer fewer crowds; allow 1-2 hours for full appreciation.",
+      "name": "Bamboo Crafting Workshop",
+      "category": "Indoor",
+      "description": "Create your own bamboo basket or craft under expert guidance in a traditional workshop. Take home handmade souvenirs and learn traditional artisan techniques.",
       "durationHours": 2,
-      "estimatedCostUSD": 10,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "standard",
-        "photography"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Tea Ceremony Experience",
+      "name": "Ryoan-ji Rock Garden Meditation",
       "category": "Cultural",
-      "description": "Participate in traditional Japanese tea ceremony with whisk-prepared matcha and seasonal sweets in intimate tatami room. Includes instruction and cultural explanation from trained practitioners.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Philosopher's Path Bike Ride",
-      "category": "Outdoor",
-      "description": "Cycle along scenic 5km canal path lined with cherry trees, connecting temples and neighborhoods with peaceful water views. Rental bikes available throughout city; ideal during cherry blossom season.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Nijo Castle Historical Tour",
-      "category": "Cultural",
-      "description": "Explore former imperial residence with stunning architecture, 'nightingale' squeaking floorboards, and ornate palace rooms surrounded by historic gardens. Audio guides available in multiple languages.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 16,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Maruyama Park Picnic and Nature",
-      "category": "Outdoor",
-      "description": "Relax in spacious traditional Japanese park with weeping cherry trees, ponds, and mountain views, perfect for picnicking and observing local life. Free entry with excellent seasonal flower displays.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Sit in the temple hall and contemplate the minimalist rock garden, one of Japan's most important Zen gardens. Perfect for peaceful reflection and photography.",
+      "durationHours": 1,
+      "estimatedCostUSD": 13,
       "bestFor": [
         "relaxation",
-        "standard"
+        "photography"
       ]
     },
     {
-      "name": "Fushimi Sake Brewery Tours",
-      "category": "Indoor",
-      "description": "Visit historic sake breweries with guided tastings and production explanations, learning about traditional fermentation methods and regional varieties. Multiple breweries offer 30-60 minute tours.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "foodie",
-        "standard"
-      ]
-    },
-    {
-      "name": "Kimono Rental and Temple Exploration",
+      "name": "Nijo Castle Tour",
       "category": "Cultural",
-      "description": "Dress in traditional kimono and explore temples and streets as locals photograph you, experiencing immersive cultural participation. Many shops offer styling assistance and return services.",
-      "durationHours": 4,
-      "estimatedCostUSD": 45,
+      "description": "Tour the former residence of shogun featuring the famous 'nightingale floors' that squeak to prevent ninja intrusions. See elaborate decorations and defensive architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 13,
       "bestFor": [
         "standard",
-        "photography",
-        "surprise"
+        "photography"
       ]
     },
     {
-      "name": "Pottery Workshop and Raku Experience",
-      "category": "Indoor",
-      "description": "Create handmade pottery on a wheel or hand-build pieces, learning traditional Japanese ceramic techniques from skilled artisans. Finished pieces can be shipped internationally.",
-      "durationHours": 2,
+      "name": "Sake Brewery Tasting Tour",
+      "category": "Food Experience",
+      "description": "Visit historic sake breweries to learn production methods and sample premium locally-brewed sake. Several breweries offer tours with tastings and food pairings.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 40,
       "bestFor": [
-        "standard",
-        "surprise"
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Kaiseki Cooking Class",
+      "category": "Food Experience",
+      "description": "Learn to prepare traditional multi-course kaiseki meals from professional chefs in a hands-on class. Includes market visit and tasting of your creations.",
+      "durationHours": 3.5,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "foodie",
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Fushimi Inari Shrine - Torii Gates",
-        "description": "Thousands of vermillion gates creating tunnel-like pathways on mountainside, iconic silhouettes against dawn light.",
+        "name": "Fushimi Inari Shrine Gate Tunnels",
+        "description": "Thousands of vermillion torii gates create iconic tunnel passages perfect for symmetrical compositions and leading lines photography.",
         "difficulty": "Beginner",
-        "bestTime": "Before 6am for empty gates and soft light",
+        "bestTime": "Early morning before crowds, golden hour for warm lighting",
         "category": "Architecture"
       },
       {
         "name": "Arashiyama Bamboo Grove",
-        "description": "Towering bamboo stalks forming symmetrical green tunnel, ethereal atmosphere with dramatic shadows and light filtering.",
+        "description": "Towering bamboo stalks create a naturally framed vertical corridor with perfect green tones and dappled light patterns.",
         "difficulty": "Beginner",
-        "bestTime": "5:30-6:30am before crowds, overcast skies best for diffuse light",
+        "bestTime": "Dawn or overcast days to avoid harsh shadows",
         "category": "Landscape"
       },
       {
-        "name": "Kinkaku-ji (Golden Pavilion)",
-        "description": "Gold-leaf covered temple perfectly reflected in still pond, surrounded by manicured gardens and trees.",
-        "difficulty": "Intermediate",
-        "bestTime": "7-8am for reflections without crowds, autumn foliage season ideal",
-        "category": "Architecture"
+        "name": "Kinkaku-ji Reflection",
+        "description": "Golden pavilion perfectly reflects in the still pond creating a symmetrical composition, especially stunning with autumn colors or snow.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for calm water and soft light",
+        "category": "Landscape"
       },
       {
-        "name": "Gion District Streets",
-        "description": "Atmospheric wooden machiya houses, lantern-lit alleyways, and occasional geisha in traditional dress, quintessential Kyoto texture.",
+        "name": "Gion Geisha District Streets",
+        "description": "Traditional wooden machiya houses, lanterns, and atmospheric evening light create authentic Japanese street photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "5-7pm dusk for lantern light and geisha sightings",
+        "bestTime": "Evening when geisha walk to appointments and lanterns are lit",
         "category": "Street"
       },
       {
-        "name": "Philosopher's Path Canal",
-        "description": "Serene canal lined with cherry trees reflecting in water, intimate path with small bridges and seasonal color changes.",
+        "name": "Philosopher's Path Cherry Trees",
+        "description": "Canal-side path lined with cherry blossoms creates spectacular pink tunnel effects during spring blooms with water reflections.",
         "difficulty": "Beginner",
-        "bestTime": "Late March-early April cherry blossoms, early morning light",
+        "bestTime": "Late March to early April during peak bloom at dawn",
         "category": "Landscape"
       },
       {
-        "name": "Kiyomizu-dera Wooden Stage",
-        "description": "Cantilevered wooden viewing platform overlooking Kyoto cityscape, traditional architecture against distant mountains.",
+        "name": "Kiyomizu-dera Wooden Platform",
+        "description": "Historic wooden platform overlooking the city offers expansive cityscape views, temple architecture details, and stunning panoramic shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for golden hour and blue hour night photography",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ryoan-ji Rock Garden",
+        "description": "Minimalist Zen rock garden through temple windows offers perfectly composed geometric patterns with raked sand and stones.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunrise for soft light and mist over city, clear winter mornings optimal",
+        "bestTime": "Midday for strong shadows; cloudy days for even lighting",
         "category": "Architecture"
+      },
+      {
+        "name": "Nijo Castle Decorations",
+        "description": "Ornate ceiling paintings, sliding door artwork, and gold leaf decorations provide intricate close-up photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for bright illumination of interior details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sanzen-in Temple Moss Garden",
+        "description": "Lush moss-covered grounds with shaped bushes create soft green tones and textural depth perfect for macro and landscape work.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days preserve vibrant moss colors; after rain for wet texture",
+        "category": "Landscape"
       },
       {
         "name": "Maruyama Park Weeping Cherry",
-        "description": "Ancient cascading weeping cherry tree as focal point with wandering park paths and traditional tea house backdrop.",
+        "description": "Iconic weeping cherry tree with graceful drooping branches creates a natural canopy frame for dreamy spring photography.",
         "difficulty": "Beginner",
-        "bestTime": "Early April peak bloom, golden hour both morning and evening",
+        "bestTime": "Spring bloom season at golden hour with soft backlighting",
         "category": "Landscape"
-      },
-      {
-        "name": "Nijo Castle Interior Decorations",
-        "description": "Ornate gold-leaf painted sliding doors, intricate woodwork, and historical room arrangements with dramatic afternoon window light.",
-        "difficulty": "Intermediate",
-        "bestTime": "Afternoon 2-4pm for directional window light through shoji screens",
-        "category": "Architecture"
-      },
-      {
-        "name": "Fushimi Sake Brewery District",
-        "description": "Historic wooden merchant houses and traditional brewery architecture reflecting in canal waters, authentic industrial-cultural fusion.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon 4-5pm for warm light on wooden facades",
-        "category": "Architecture"
-      },
-      {
-        "name": "Pontocho Alley - Geisha Quarter",
-        "description": "Narrow atmospheric alley with lantern-lit wooden teahouses overhanging the river, intimate geisha district ambiance.",
-        "difficulty": "Advanced",
-        "bestTime": "Dusk 5:30-7pm for lantern light and geisha activity, requires respectful distant photography",
-        "category": "Night"
       }
     ],
     "sunriseSpots": [
-      "Fushimi Inari Shrine - Upper Gates",
-      "Kiyomizu-dera Temple Viewing Platform",
-      "Philosopher's Path - Canal Bridge"
+      "Fushimi Inari Shrine",
+      "Kiyomizu-dera Temple Platform",
+      "Philosopher's Path"
     ],
     "sunsetSpots": [
-      "Arashiyama Sagano District - Overlook",
-      "Maruyama Park - Main Cherry Tree Area",
-      "Pontocho Alley - River Bridge"
+      "Arashiyama Bamboo Grove West Exit",
+      "Kinkaku-ji Golden Pavilion",
+      "Kiyomizu-dera Temple Overlook"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for temple architecture and landscape context, essential for towering elements like bamboo and torii gates",
-      "50mm f/1.8 prime for street photography in Gion and Pontocho with excellent low-light performance for geisha district evenings",
-      "70-200mm telephoto for compressed perspectives of temple stacked elements, flower detail work, and distant mountain views",
-      "Macro/close-focus lens for intricate garden details, temple decorations, and seasonal flower close-ups"
+      "16-35mm ultra-wide for sweeping temple landscapes and bamboo grove depth",
+      "50mm prime for intimate street portraits in Gion district",
+      "70-200mm telephoto for compressed architectural details and distant pagodas",
+      "Macro lens for stone textures, moss details, and garden close-ups"
     ],
-    "goldenHourNotes": "Kyoto's eastern mountain setting creates dramatic golden hour light 30-45 minutes after sunrise on temple facades and 20-30 minutes before sunset on water reflections. Spring and autumn provide extended golden hour due to lower sun angles. Winter offers the longest golden hours but requires early morning starts (5:30am) for temple photography. Overcast mornings are often preferable for diffuse even light on architecture and street scenes.",
+    "goldenHourNotes": "Kyoto's temples and gardens respond beautifully to warm golden hour light, especially illuminating temple roofs and stone paths. Early morning light reveals layers in the bamboo grove and creates atmospheric mist during spring. Sunset at western-facing temples like Kinkaku-ji produces warm tones on water reflections and architectural details.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 4,
-        "rainfallMM": 58
+        "avgTempC": 5,
+        "rainfallMM": 60
       },
       {
         "month": 2,
-        "avgTempC": 5,
+        "avgTempC": 6,
         "rainfallMM": 65
       },
       {
         "month": 3,
-        "avgTempC": 11,
-        "rainfallMM": 106
+        "avgTempC": 12,
+        "rainfallMM": 90
       },
       {
         "month": 4,
-        "avgTempC": 17,
-        "rainfallMM": 117
+        "avgTempC": 20,
+        "rainfallMM": 100
       },
       {
         "month": 5,
-        "avgTempC": 22,
-        "rainfallMM": 152
+        "avgTempC": 25,
+        "rainfallMM": 110
       },
       {
         "month": 6,
-        "avgTempC": 26,
-        "rainfallMM": 229
-      },
-      {
-        "month": 7,
-        "avgTempC": 30,
+        "avgTempC": 28,
         "rainfallMM": 180
       },
       {
+        "month": 7,
+        "avgTempC": 32,
+        "rainfallMM": 140
+      },
+      {
         "month": 8,
-        "avgTempC": 31,
-        "rainfallMM": 126
+        "avgTempC": 33,
+        "rainfallMM": 130
       },
       {
         "month": 9,
         "avgTempC": 27,
-        "rainfallMM": 175
+        "rainfallMM": 140
       },
       {
         "month": 10,
         "avgTempC": 20,
-        "rainfallMM": 109
+        "rainfallMM": 95
       },
       {
         "month": 11,
         "avgTempC": 14,
-        "rainfallMM": 77
+        "rainfallMM": 75
       },
       {
         "month": 12,
         "avgTempC": 7,
-        "rainfallMM": 61
+        "rainfallMM": 65
       }
     ],
     "bestMonths": [
-      3,
       4,
       5,
       10,
       11
     ],
-    "seasonality": "Spring (March-May) features stunning cherry blossoms and mild temperatures ideal for exploration, while autumn (October-November) offers crisp air and brilliant foliage. Summer is hot and humid with frequent rainfall, while winter is cold and dry but provides peaceful temple visits with fewer crowds.",
-    "summary": "Kyoto experiences four distinct seasons with spring and autumn offering the most favorable conditions for sightseeing with comfortable temperatures and excellent photography light. Monsoon season (June-July) brings heavy rainfall and humidity, while winter provides cold but clear days perfect for temple exploration."
+    "seasonality": "Kyoto experiences distinct seasons with spring (April-May) offering cherry blossoms and pleasant temperatures, autumn (October-November) providing stunning foliage and clear skies. Summer (June-August) brings intense heat and humidity, while winter (December-February) offers fewer tourists and occasional snow on temple roofs.",
+    "summary": "Kyoto enjoys moderate temperatures with clear seasonal changes, best visited during spring and autumn when weather is mild and natural colors are spectacular. Summer can be hot and rainy, while winter is cold but offers beautiful temple photography opportunities with rare snow."
   },
   "hotels": [
     {
-      "name": "Nishi Hongan-ji Guesthouse",
-      "neighborhood": "Shiokoji",
-      "pricePerNightUSD": 35,
-      "category": "Budget",
-      "description": "Simple hostel-style accommodations in converted historic building near major temple, offering dorm beds and basic private rooms with shared bathroom facilities and communal kitchen."
-    },
-    {
       "name": "Hotel Gracery Kyoto Sanjo",
       "neighborhood": "Sanjo",
-      "pricePerNightUSD": 85,
-      "category": "Mid-range",
-      "description": "Modern 3-star hotel with comfortable rooms, restaurant, and convenient location on subway line connecting major attractions, offering good value with amenities and helpful English-speaking staff."
+      "pricePerNightUSD": 70,
+      "category": "Budget",
+      "description": "Modern business hotel with comfortable rooms, excellent central location near shopping and dining, and convenient access to public transportation."
     },
     {
-      "name": "Four Seasons Hotel Kyoto",
-      "neighborhood": "Kamogawa Nijo-Ahorikiji-Cho",
-      "pricePerNightUSD": 320,
+      "name": "The Ritz-Carlton Kyoto",
+      "neighborhood": "Kamogawa River",
+      "pricePerNightUSD": 850,
       "category": "Luxury",
-      "description": "Ultra-luxury 5-star resort with traditional sukiya architecture, private gardens, kaiseki dining, spa, and personalized service overlooking the Kamogawa river with world-class amenities."
+      "description": "Ultra-luxury riverside resort with private baths, personal concierge service, Michelin-starred dining, and traditional Japanese craftsmanship throughout."
+    },
+    {
+      "name": "Hotel Monterey Grasmere Kyoto",
+      "neighborhood": "Kawaramachi",
+      "pricePerNightUSD": 130,
+      "category": "Mid-range",
+      "description": "Contemporary mid-range hotel featuring well-appointed rooms, fitness facilities, convenient shopping district location, and reliable service."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1494884020746-bd961a27fdc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxLeW90byUyMHRlbXBsZSUyMGNoZXJyeSUyMGJsb3Nzb21zfGVufDF8MHx8fDE3ODE1NjIyOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"

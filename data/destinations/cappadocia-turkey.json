@@ -12,397 +12,406 @@
   "tripStyles": [
     "standard",
     "surprise",
+    "hidden-gems",
     "photography",
     "adventure",
     "relaxation"
   ],
   "scores": {
     "cost": 78,
-    "food": 82,
+    "food": 85,
     "photography": 95,
-    "activities": 88,
+    "activities": 90,
     "weather": 82
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 35,
-      "maxPerDayUSD": 60
+      "maxPerDayUSD": 65
     },
     {
       "level": "mid",
-      "minPerDayUSD": 60,
-      "maxPerDayUSD": 120
+      "minPerDayUSD": 65,
+      "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 120,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Cappadocia hot air balloons",
-  "summary": "Cappadocia is a magical region in central Turkey famous for its otherworldly fairy chimneys, ancient underground cities, and stunning hot air balloon rides at sunrise. The unique volcanic landscape combined with rich history, excellent local cuisine, and affordable prices makes it one of the world's most enchanting destinations. Perfect for photographers, adventurers, and anyone seeking an unforgettable experience.",
+  "unsplashQuery": "Cappadocia hot air balloons sunrise",
+  "summary": "Cappadocia is a surreal landscape of fairy-tale rock formations, ancient cave dwellings, and vibrant hot air balloons floating over otherworldly terrain. This UNESCO World Heritage region offers world-class photography, adventure activities, and authentic Turkish hospitality in a destination that feels like stepping into another world. Perfect for travelers seeking stunning visuals, cultural immersion, and unforgettable experiences.",
   "restaurants": [
     {
-      "name": "Topdeck Cave Restaurant",
+      "name": "Şirince Şarap Evi",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Traditional Turkish cuisine served in an atmospheric cave setting with views of the fairy chimneys. Try their clay pot stew cooked in traditional pottery.",
-      "mustTry": "Pottery clay pot stew (testi kebab)"
+      "priceRange": "$",
+      "description": "Family-run wine bar serving traditional Anatolian cuisine paired with local wines from the village. Known for its cozy atmosphere and homemade pottery.",
+      "mustTry": "Gözleme with cheese and herbs"
     },
     {
-      "name": "Kirkit Cafe",
+      "name": "Kara Mendil Cave Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Dining experience inside a 1200-year-old cave with traditional Turkish dishes and stunning rock-wall ambiance. Offers both indoor cave seating and outdoor terraces.",
+      "mustTry": "Testi Kebab"
+    },
+    {
+      "name": "Topiary",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale restaurant in a restored Ottoman mansion featuring modern Turkish cuisine with international influences. Exceptional service and wine selection.",
+      "mustTry": "Pan-seared lamb with pomegranate reduction"
+    },
+    {
+      "name": "Firin Evi",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual rooftop eatery perfect for breakfast with panoramic views of Göreme village. Offers fresh Turkish breakfast spreads and local pastries.",
+      "description": "Traditional bakery and casual eatery serving fresh pide, fresh bread, and simple Turkish breakfast items. Popular with locals.",
+      "mustTry": "Spinach and cheese pide"
+    },
+    {
+      "name": "Pumpkin Terrace Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Rooftop restaurant with panoramic views of the fairy chimneys and traditional Turkish mezes. Known for friendly staff and reasonable prices.",
+      "mustTry": "Hummus trio and grilled fish"
+    },
+    {
+      "name": "Silk Road Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Fine dining establishment in a cave hotel offering fusion cuisine blending Turkish and international flavors. Premium wine cellar and romantic ambiance.",
+      "mustTry": "Fillet mignon with mushroom sauce"
+    },
+    {
+      "name": "Central Konak Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual cafe and restaurant in central Göreme serving Turkish breakfast, kebabs, and fresh juices. Great value for money.",
       "mustTry": "Turkish breakfast platter"
     },
     {
-      "name": "Sophia Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale dining experience in a restored cave hotel with impeccable service and creative Turkish cuisine. Spectacular sunset views from the terrace.",
-      "mustTry": "Chef's tasting menu with wine pairings"
-    },
-    {
-      "name": "Kose Pide House",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Family-run restaurant famous for authentic Turkish pides and pastries. Cozy atmosphere with wood-fired oven visible from seating area.",
-      "mustTry": "Spinach and cheese pide (Su boregesi)"
-    },
-    {
-      "name": "Seten Restaurant",
+      "name": "Stone House Cafe",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Popular spot among locals serving traditional Ottoman dishes in a cave house setting. Known for generous portions and authentic flavors.",
-      "mustTry": "Ottoman lamb stew"
+      "description": "Contemporary Turkish cuisine in an authentic stone building with outdoor seating overlooking the valleys. Specializes in organic and locally-sourced ingredients.",
+      "mustTry": "Vegetable meze platter"
     },
     {
-      "name": "Elai Cafe",
+      "name": "Avanos Ceramic Studio Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Charming hillside cafe offering homemade Turkish food and fresh-squeezed pomegranate juice. Perfect for lunch with valley views.",
-      "mustTry": "Lentil soup (Mercimek Corba)"
+      "description": "Working pottery studio with attached cafe serving traditional Turkish food and tea. Watch artisans work while you dine.",
+      "mustTry": "Pottery plate dinner experience"
     },
     {
-      "name": "Terrassa Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary Turkish cuisine with cave-house ambiance and stellar sunset views over the valleys. Excellent wine selection featuring local vineyards.",
-      "mustTry": "Pan-seared lamb with local vegetables"
-    },
-    {
-      "name": "Sulas Restaurants",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Multiple locations serving quality Turkish and international cuisine in charming settings. Reliable choice for consistent food quality.",
-      "mustTry": "Kebab platter with fresh bread"
-    },
-    {
-      "name": "Dibek Cafe Restaurant",
+      "name": "Museum Lokantasi",
       "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Traditional cave restaurant serving home-cooked Turkish meals prepared daily. Authentic local experience with friendly family-run service.",
-      "mustTry": "Homemade manti (Turkish dumplings)"
+      "priceRange": "$$",
+      "description": "Family-style restaurant serving home-cooked Turkish dishes in a charming old stone house. Generous portions and authentic atmosphere.",
+      "mustTry": "Lentil soup and slow-cooked stew"
     },
     {
       "name": "Cappadocia Grill House",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Specialist in Turkish grilled meats and kebabs with rooftop seating overlooking the fairy chimneys. Popular pre-dinner gathering spot.",
-      "mustTry": "Mixed kebab platter"
+      "description": "Popular grilled meat and seafood restaurant with excellent views of Uçhisar Castle. Known for quality kebabs and friendly service.",
+      "mustTry": "Mixed grill platter for two"
     },
     {
-      "name": "Stone House Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Historic stone building housing a casual cafe with reasonable prices and good coffee. Great for light snacks and beverages.",
-      "mustTry": "Turkish coffee and baklava"
-    },
-    {
-      "name": "Firin Evi Restaurant",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Working bakery and restaurant featuring fresh-baked bread, pastries, and traditional Turkish dishes cooked in wood-fired ovens.",
-      "mustTry": "Wood-fired bread with butter and honey"
+      "name": "Hellenistic House Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant dining in a beautifully restored historic mansion serving contemporary Turkish cuisine. Exceptional wine pairings and attentive service.",
+      "mustTry": "Chef's special tasting menu"
     }
   ],
   "activities": [
     {
-      "name": "Hot Air Balloon Ride at Sunrise",
+      "name": "Hot Air Balloon Ride",
       "category": "Adventure",
-      "description": "The signature Cappadocia experience offering breathtaking aerial views of the fairy chimneys and valleys at dawn. Professional pilots navigate the surreal landscape as the sun rises.",
-      "durationHours": 4,
+      "description": "Float above the surreal landscape of Cappadocia at sunrise, witnessing fairy chimneys and valleys from above. One of the world's best ballooning destinations with professional operators.",
+      "durationHours": 3,
       "estimatedCostUSD": 150,
       "bestFor": [
         "standard",
         "photography",
+        "adventure",
         "surprise"
       ]
     },
     {
       "name": "Göreme Open Air Museum",
       "category": "Cultural",
-      "description": "UNESCO World Heritage site featuring Byzantine rock-cut churches with intricate frescoes dating back to the 9th century. Walk among carved monasteries and caves carved from volcanic rock.",
+      "description": "UNESCO-listed complex of ancient cave churches carved into rock with Byzantine frescoes dating back to the 10th century. Self-guided exploration of multiple cave chapels and monastic structures.",
       "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
         "photography",
-        "adventure"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Underground City Exploration (Derinkuyu)",
+      "name": "Underground City Exploration",
       "category": "Adventure",
-      "description": "Descend into ancient multi-level underground city carved entirely from rock, once sheltering thousands of people. Explore ancient ventilation systems, wine cellars, and historical chambers.",
-      "durationHours": 2,
+      "description": "Descend into ancient subterranean cities like Derinkuyu or Kaymaklı, carved up to 8 levels deep for Byzantine refuge. Guided tours explain the fascinating history and architecture.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 20,
       "bestFor": [
+        "standard",
         "adventure",
         "hidden-gems"
       ]
     },
     {
-      "name": "Red Valley Hiking Trail",
+      "name": "Red Valley Hiking",
       "category": "Outdoor",
-      "description": "Stunning 7km hiking route through valleys featuring red-hued rock formations and ancient cave dwellings. Hike at your own pace with flexible start times.",
-      "durationHours": 3,
+      "description": "Hike through scenic valleys with dramatic red and orange rock formations, ancient cave dwellings, and panoramic viewpoints. Multiple trail options ranging from easy to moderate difficulty.",
+      "durationHours": 4,
       "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Turkish Pottery Workshop",
+      "category": "Cultural",
+      "description": "Hands-on pottery class in Avanos, famous for its traditional pottery crafted from red clay. Learn ancient techniques and create your own pottery piece to take home.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Uçhisar Castle Hike",
+      "category": "Outdoor",
+      "description": "Climb to the top of Cappadocia's highest castle for 360-degree views of the entire region and surrounding valleys. Short but rewarding walk with multiple cave rooms to explore.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
       "bestFor": [
         "adventure",
         "photography"
       ]
     },
     {
-      "name": "Rose Valley Sunset Experience",
-      "category": "Outdoor",
-      "description": "Scenic valley walk timing arrival for sunset's golden light illuminating the fairy chimneys in shades of rose and gold. Moderate difficulty with rewarding photographic opportunities.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "name": "Whirling Dervish Ceremony",
+      "category": "Cultural",
+      "description": "Experience the spiritual Sufi ceremony of the Whirling Dervishes with live music and meditation. Performances typically held in the evenings at local venues.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
-        "photography",
+        "surprise",
         "relaxation"
       ]
     },
     {
-      "name": "Turkish Pottery and Ceramics Workshop",
-      "category": "Indoor",
-      "description": "Hands-on class learning traditional Turkish pottery techniques from master artisans. Create your own ceramic piece to take home.",
-      "durationHours": 2,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "foodie",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Ihlara Valley and Selime Monastery Tour",
+      "name": "Rose Valley Sunset Hike",
       "category": "Outdoor",
-      "description": "Full-day adventure through scenic canyon with ancient rock-cut monastery featuring panoramic valley views. Includes lunch and river walk through the canyon.",
-      "durationHours": 7,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Turkish Carpet Workshop and Weaving",
-      "category": "Cultural",
-      "description": "Visit traditional carpet workshops to observe skilled weavers creating hand-knotted Turkish carpets. Learn about regional patterns and techniques.",
-      "durationHours": 2,
+      "description": "Scenic hike through the valley known for its pink and rose-colored rock formations, ending at a perfect sunset viewing point. Moderate difficulty with stunning photo opportunities.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "cultural",
+        "photography",
+        "adventure",
         "hidden-gems"
       ]
     },
     {
-      "name": "Çavuşin Village and Rock Tombs",
+      "name": "Paşabağ Mushroom Valley",
+      "category": "Outdoor",
+      "description": "Visit the otherworldly landscape of towering rock formations resembling mushrooms, among Cappadocia's most iconic formations. Short walk with minimal elevation gain and excellent photography.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Local Market Tour with Guide",
       "category": "Cultural",
-      "description": "Explore ancient village featuring ornate rock-cut tombs carved into cliff faces dating to the Hittite period. Climb ancient structures for panoramic views.",
+      "description": "Explore authentic local markets in Göreme and Nevsehir with a knowledgeable guide, sampling local foods, spices, and crafts. Learn about Turkish culture and haggling traditions.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "ATV or Jeep Safari",
+      "category": "Adventure",
+      "description": "Off-road adventure through remote valleys and villages, accessing areas unreachable by foot or standard vehicles. Includes lunch and visits to local carpet weavers and pottery makers.",
+      "durationHours": 6,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Zelve Ruins and Sunset",
+      "category": "Cultural",
+      "description": "Explore the abandoned cave village and monastery ruins of Zelve, offering unique geological formations and historical significance. Perfect for golden hour photography with fewer crowds than other popular sites.",
       "durationHours": 2,
       "estimatedCostUSD": 10,
       "bestFor": [
         "photography",
+        "hidden-gems",
         "adventure"
-      ]
-    },
-    {
-      "name": "Kaymakli Underground City",
-      "category": "Adventure",
-      "description": "Smaller but less crowded alternative to Derinkuyu featuring eight stories of carved chambers, kitchens, and living spaces. More intimate exploration experience.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "adventure",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Paşabag (Monks Valley) Hiking",
-      "category": "Outdoor",
-      "description": "Easy to moderate hike through fairy chimneys with unique mushroom-shaped rock formations. Visit cave dwellings and enjoy panoramic valley views.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Turkish Night Show and Dinner",
-      "category": "Nightlife",
-      "description": "Evening entertainment featuring traditional Turkish dancing, whirling dervish performances, and folk music in cave restaurants. Dinner and drinks included.",
-      "durationHours": 3,
-      "estimatedCostUSD": 60,
-      "bestFor": [
-        "standard",
-        "surprise"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
+        "name": "Uçhisar Castle Summit",
+        "description": "360-degree panoramic vistas of all Cappadocia valleys and fairy chimneys from the region's highest point.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour (sunrise or sunset) for warm light on rock formations",
+        "category": "Landscape"
+      },
+      {
+        "name": "Göreme Panoramic Point",
+        "description": "Classic viewpoint showcasing the iconic fairy chimneys and cave dwellings with the town of Göreme below.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise for soft light and minimal crowds",
+        "category": "Landscape"
+      },
+      {
+        "name": "Red Valley Trail",
+        "description": "Dramatic orange and red rock formations creating stunning color contrasts throughout the hiking route.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon when sunlight intensifies red hues",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hot Air Balloons at Dawn",
+        "description": "Hundreds of colorful balloons rising simultaneously against the pink and purple morning sky - Cappadocia's most iconic image.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes before sunrise for best balloon density and sky color",
+        "category": "Landscape"
+      },
+      {
         "name": "Love Valley",
-        "description": "Iconic phallic-shaped fairy chimneys creating otherworldly landscape perfect for creative composition and silhouette shots.",
+        "description": "Surreal landscape of phallic rock formations with intimate cave dwellings nestled in the valley.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour at sunrise or sunset",
+        "bestTime": "Mid-morning for clear visibility and natural light",
         "category": "Landscape"
       },
       {
-        "name": "Uçhisar Castle",
-        "description": "Ancient carved fortress offering panoramic 360-degree views of the entire region with dramatic fairy chimney backdrop.",
+        "name": "Avanos Pottery Studio",
+        "description": "Artisans at work on traditional pottery with red clay dust, creating authentic cultural and documentary photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset for warm golden light",
-        "category": "Architecture"
-      },
-      {
-        "name": "White Valley (Aktepe)",
-        "description": "Ethereal white limestone formations creating dreamy landscape with soft, diffused light ideal for moody photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Overcast days or morning light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Göreme Village Rooftops",
-        "description": "UNESCO village offering elevated vantage points with layers of fairy chimneys and traditional cave houses in composition.",
-        "difficulty": "Beginner",
-        "bestTime": "Dawn or dusk for warm tones",
-        "category": "Architecture"
-      },
-      {
-        "name": "Red Valley (Kızılçukur)",
-        "description": "Vibrant rust and crimson-colored rock formations creating stunning color contrasts especially during golden hour.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for color saturation",
-        "category": "Landscape"
-      },
-      {
-        "name": "Pasabag Valley",
-        "description": "Unique mushroom-shaped rock pillars creating distinctive silhouettes perfect for dramatic backlit photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunrise for backlighting",
-        "category": "Landscape"
-      },
-      {
-        "name": "Ortahisar Castle and Village Streets",
-        "description": "Ancient castle carved into rock with narrow streets, arches, and traditional architecture creating layered compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning for soft shadows",
+        "bestTime": "Morning when workshops are most active",
         "category": "Street"
       },
       {
-        "name": "Devrent Valley (Imagination Valley)",
-        "description": "Whimsical rock formations resembling animals and creatures offering creative, surreal photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for depth and dimension",
-        "category": "Landscape"
-      },
-      {
-        "name": "Temenni Hill",
-        "description": "Popular vantage point overlooking multiple valleys with hot air balloons providing scale and dynamic elements.",
+        "name": "Paşabağ Mushroom Valley",
+        "description": "Otherworldly mushroom-shaped rock formations creating surreal and abstract compositional opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise when balloons are airborne",
+        "bestTime": "Midday for dramatic shadows between formations",
         "category": "Landscape"
       },
       {
-        "name": "Avanos Pottery Quarter",
-        "description": "Traditional pottery workshops with artisans at work, clay-covered structures, and red clay pits offering cultural street photography.",
+        "name": "Rose Valley Sunset Point",
+        "description": "Pink and rose-colored rock formations illuminated by golden hour light creating warm color palettes.",
+        "difficulty": "Intermediate",
+        "bestTime": "1 hour before sunset for optimal light and color saturation",
+        "category": "Landscape"
+      },
+      {
+        "name": "Göreme Village Architecture",
+        "description": "Narrow stone streets, cave homes, and traditional houses creating atmospheric street photography and architectural details.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds, soft directional light from narrow streets",
+        "category": "Architecture"
+      },
+      {
+        "name": "Zelve Ruins Overlook",
+        "description": "Abandoned cave village with eroded formations and unique geological patterns less crowded than main attractions.",
         "difficulty": "Advanced",
-        "bestTime": "Morning when workshops are active",
-        "category": "Street"
+        "bestTime": "Sunset for dramatic backlighting and moody atmosphere",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Temenni Hill (best for hot air balloon composition)",
-      "Paşabag Valley (for backlighting and silhouettes)",
-      "Göreme Village rooftops (for village awakening scenes)"
+      "Göreme Panoramic Point",
+      "Uçhisar Castle Summit",
+      "Love Valley Viewpoint"
     ],
     "sunsetSpots": [
-      "Rose Valley (for warm rose and gold tones)",
-      "Uçhisar Castle (for panoramic valley lighting)",
-      "Red Valley (for maximum color saturation)"
+      "Rose Valley Sunset Point",
+      "Paşabağ Mushroom Valley",
+      "Zelve Ruins Overlook"
     ],
     "lensRecommendations": [
-      "24-70mm zoom for versatile landscape and architectural composition",
-      "16-35mm wide-angle for expansive fairy chimney vistas and scale",
-      "50mm prime for intimate village and pottery workshop detail shots",
-      "70-200mm telephoto for compressed perspective and distant hot air balloons"
+      "Wide-angle 16-35mm lens for expansive landscape and valley vistas",
+      "Standard 50mm prime lens for intimate details and cave architecture",
+      "Telephoto 70-200mm lens for isolated compositional elements and valley layers",
+      "Ultra-wide 10-24mm for dramatic sky and foreground in balloon sunrise shots"
     ],
-    "goldenHourNotes": "Cappadocia's volcanic rock formations respond dramatically to warm light, with sunrise casting purple and blue tones and sunset rendering the landscape in deep oranges and reds. The light changes rapidly during golden hour, so plan multiple positions for evolving compositions. The morning mist in valleys adds atmospheric depth when combined with backlit sunrise illumination.",
+    "goldenHourNotes": "Cappadocia's unique geology creates exceptional golden hour opportunities with warm light reflecting off red and orange rock formations. The best golden hour photography occurs 30-60 minutes before sunrise when balloons are launching and skies show pink, purple, and gold tones. Sunset provides equally dramatic lighting with the added benefit of longer duration and fewer crowds at key vantage points.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
+        "avgTempC": 0,
+        "rainfallMM": 40
+      },
+      {
+        "month": 2,
         "avgTempC": 2,
         "rainfallMM": 38
       },
       {
-        "month": 2,
-        "avgTempC": 4,
+        "month": 3,
+        "avgTempC": 7,
         "rainfallMM": 35
       },
       {
-        "month": 3,
-        "avgTempC": 9,
-        "rainfallMM": 36
-      },
-      {
         "month": 4,
-        "avgTempC": 15,
+        "avgTempC": 13,
         "rainfallMM": 40
       },
       {
         "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 30
+        "avgTempC": 20,
+        "rainfallMM": 25
       },
       {
         "month": 6,
-        "avgTempC": 27,
-        "rainfallMM": 15
+        "avgTempC": 26,
+        "rainfallMM": 12
       },
       {
         "month": 7,
-        "avgTempC": 29,
-        "rainfallMM": 10
+        "avgTempC": 28,
+        "rainfallMM": 5
       },
       {
         "month": 8,
-        "avgTempC": 29,
-        "rainfallMM": 8
+        "avgTempC": 28,
+        "rainfallMM": 3
       },
       {
         "month": 9,
         "avgTempC": 24,
-        "rainfallMM": 12
+        "rainfallMM": 8
       },
       {
         "month": 10,
@@ -411,13 +420,13 @@
       },
       {
         "month": 11,
-        "avgTempC": 10,
+        "avgTempC": 9,
         "rainfallMM": 38
       },
       {
         "month": 12,
-        "avgTempC": 4,
-        "rainfallMM": 40
+        "avgTempC": 2,
+        "rainfallMM": 45
       }
     ],
     "bestMonths": [
@@ -426,31 +435,31 @@
       9,
       10
     ],
-    "seasonality": "Spring (April-May) and Fall (September-October) offer ideal temperatures, clear skies, and minimal rainfall perfect for outdoor activities and hot air ballooning. Summer (June-August) brings hot, dry weather with minimal precipitation but intense midday heat, while winter (November-March) features cold temperatures with occasional snow and increased rainfall.",
-    "summary": "Cappadocia experiences a continental climate with warm, dry summers and cold, snowy winters. The region receives most precipitation in spring and fall, with summer being the driest season, making it suitable for outdoor exploration year-round."
+    "seasonality": "Cappadocia experiences distinct seasons with spring (April-May) and autumn (September-October) offering ideal temperatures of 13-24°C, minimal rainfall, and clear skies perfect for photography and balloon rides. Summer (June-August) brings intense heat (26-28°C) with minimal rain, while winter (December-February) is cold (0-2°C) with moderate snowfall that closes some hiking trails.",
+    "summary": "Cappadocia's continental climate features hot, dry summers with minimal precipitation, cold winters with occasional snow, and pleasant spring and autumn seasons. The region's high altitude (1000+ meters) creates temperature fluctuations and clear skies that enhance photography and outdoor activities throughout the year."
   },
   "hotels": [
     {
-      "name": "Fairy Chimneys Cave Hotel",
+      "name": "Cappadocia Cave Suites",
       "neighborhood": "Göreme",
       "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Authentic cave hotel carved into volcanic rock with basic but clean rooms, rooftop terrace with fairy chimney views, and friendly family management."
-    },
-    {
-      "name": "Cappadocia Terrace Hotel",
-      "neighborhood": "Göreme",
-      "pricePerNightUSD": 85,
-      "category": "Mid-range",
-      "description": "Modern hotel with traditional cave elements featuring comfortable rooms, excellent breakfast, hot tub, and panoramic sunset views from terraces."
+      "description": "Authentic cave hotel with basic amenities, traditional decor, and excellent location in central Göreme with access to shops and restaurants."
     },
     {
       "name": "Museum Hotel",
-      "neighborhood": "Göreme",
-      "pricePerNightUSD": 180,
+      "neighborhood": "Uçhisar",
+      "pricePerNightUSD": 120,
+      "category": "Mid-range",
+      "description": "Award-winning boutique cave hotel featuring restored cave rooms with modern amenities, exceptional service, and stunning panoramic rooftop views of the region."
+    },
+    {
+      "name": "Argos in Cappadocia",
+      "neighborhood": "Uçhisar",
+      "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Award-winning luxury cave hotel with individually designed suites, exquisite Ottoman decor, infinity pool with valley views, and Michelin-level dining."
+      "description": "Ultra-luxury hotel with rooms carved into cave formations, exceptional cuisine, spa facilities, and white-glove service overlooking Cappadocia's most spectacular views."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1631152282084-b8f1b380ccab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDYXBwYWRvY2lhJTIwaG90JTIwYWlyJTIwYmFsbG9vbnN8ZW58MXwwfHx8MTc4MTU2NTM1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1631152282084-b8f1b380ccab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDYXBwYWRvY2lhJTIwaG90JTIwYWlyJTIwYmFsbG9vbnMlMjBzdW5yaXNlfGVufDF8MHx8fDE3ODE2Mjk2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

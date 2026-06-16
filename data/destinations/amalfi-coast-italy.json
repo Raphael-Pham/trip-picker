@@ -5,7 +5,7 @@
   "region": "Europe",
   "airportCodes": [
     "NAP",
-    "FCO",
+    "SLM",
     "CIA"
   ],
   "hiddenGem": false,
@@ -14,14 +14,14 @@
     "photography",
     "foodie",
     "relaxation",
-    "adventure"
+    "surprise"
   ],
   "scores": {
-    "cost": 45,
+    "cost": 35,
     "food": 95,
     "photography": 98,
     "activities": 85,
-    "weather": 88
+    "weather": 82
   },
   "budgetRanges": [
     {
@@ -41,216 +41,170 @@
     }
   ],
   "unsplashQuery": "Amalfi Coast Italy",
-  "summary": "The Amalfi Coast is a stunning stretch of southern Italian coastline renowned for its dramatic cliffs, colorful villages, and world-class Mediterranean cuisine. Perched villages like Positano and Ravello offer breathtaking views, winding terraces of lemon groves, and some of Italy's most photographed landscapes. This enchanting destination perfectly balances relaxation, culinary exploration, and adventure activities.",
+  "summary": "The Amalfi Coast is a breathtaking stretch of Italian coastline featuring dramatic cliffs, pastel-colored villages clinging to hillsides, and world-class Mediterranean cuisine. A UNESCO World Heritage site offering stunning photography, coastal hikes, and the best fresh seafood and limoncello in Italy. Perfect for romance, culinary adventures, and capturing some of Europe's most iconic landscapes.",
   "restaurants": [
     {
-      "name": "Franco Pepe at Pepe in Grani",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "A Michelin-starred restaurant in nearby Salerno offering innovative coastal cuisine with locally sourced ingredients. Chef Franco Pepe creates artistic dishes that blend tradition with modern techniques.",
-      "mustTry": "Pasta with sea urchin and bottarga"
-    },
-    {
-      "name": "La Gavitella",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant hilltop restaurant in Praiano with panoramic views of the Tyrrhenian Sea. Specializes in fresh seafood and traditional Campanian dishes prepared with exceptional care.",
-      "mustTry": "Homemade pasta with local fish"
-    },
-    {
-      "name": "Da Adolfo",
+      "name": "Da Salvatore",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A beachfront institution accessible only by water or steep stairs, this family-run trattoria serves incredibly fresh seafood in an intimate setting. Known for its simplicity and quality ingredients.",
-      "mustTry": "Whole grilled fish with lemon"
+      "description": "Family-run trattoria in Amalfi serving traditional Campania cuisine with fresh pasta and local fish daily. Locals fill this modest restaurant for authentic flavors and generous portions.",
+      "mustTry": "Pasta alle vongole veraci"
     },
     {
-      "name": "Casa Costagliola",
+      "name": "L'Antica Trattoria",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Charming family restaurant in Positano offering traditional Amalfi Coast cuisine with reasonable prices. Famous for their homemade pasta and fresh seafood caught daily.",
+      "description": "Cozy spot in Positano with sea views and Mediterranean comfort food made from local ingredients. Known for their handmade pasta and fresh mozzarella.",
       "mustTry": "Scialatielli ai frutti di mare"
     },
     {
-      "name": "Le Botteghe",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Intimate tavern-style eatery in Ravello featuring traditional Campanian mountain and coastal dishes. Intimate candlelit setting with excellent local wines.",
-      "mustTry": "Rabbit braised in white wine"
+      "name": "Ristorante Pappalardo",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant clifftop restaurant overlooking the Tyrrhenian Sea with innovative takes on classic Amalfi dishes. Michelin-recognized for exceptional service and presentation.",
+      "mustTry": "Sea urchin ravioli with champagne sauce"
     },
     {
-      "name": "Pizzeria Vicolo",
+      "name": "Pizza Vertigo",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual neighborhood pizzeria in Amalfi town serving authentic Neapolitan pizza at budget-friendly prices. Perfect for a quick, satisfying meal with locals.",
-      "mustTry": "Margherita pizza"
+      "description": "Casual pizzeria in Positano serving wood-fired Neapolitan pizza at reasonable prices. Perfect for quick, delicious lunch with a view.",
+      "mustTry": "Pizza Amalfi with fresh mozzarella and local herbs"
     },
     {
-      "name": "Il Pirata",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Waterfront restaurant in Positano with colorful decor and stunning sea views. Known for fresh pasta, seafood risotto, and an excellent wine selection.",
-      "mustTry": "Seafood risotto"
-    },
-    {
-      "name": "Trattoria del Capo",
+      "name": "Il Tram",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Family-owned restaurant in Atrani featuring simple, authentic coastal cuisine using centuries-old recipes. Minimal fuss, maximum flavor with daily specials.",
-      "mustTry": "Pasta e patate (pasta and potato soup)"
+      "description": "Historic lemon-themed restaurant in Amalfi town featuring dishes and drinks infused with the famous local lemons. Try their signature limoncello and lemon pasta.",
+      "mustTry": "Pasta al limone"
     },
     {
-      "name": "Ristorante Rossellinis",
+      "name": "Casa Costagliola",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated dining in Ravello with terraced sea views and chef-driven Mediterranean cuisine using organic local produce. Multi-course tasting menus showcase seasonal ingredients.",
+      "mustTry": "Lobster with fresh passion fruit and basil"
+    },
+    {
+      "name": "Ristorante Giordano",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Long-established restaurant in Praiano with a small terrace overlooking the sea and specializing in fresh daily catches. Known for their warm hospitality and simple, well-executed dishes.",
+      "mustTry": "Grilled Mediterranean branzino"
+    },
+    {
+      "name": "Café Pasticceria",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming café throughout the coast towns offering fresh pastries, espresso, and casual lunch. Perfect for breakfast before exploring or taking a break during the day.",
+      "mustTry": "Sfogliatella and cappuccino"
+    },
+    {
+      "name": "Aurora",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Michelin-starred restaurant in Ravello with breathtaking garden views and innovative Mediterranean cuisine. Chef Crescenzo Scappaticci creates visual and culinary masterpieces.",
-      "mustTry": "Tasting menu with wine pairing"
+      "description": "Legendary restaurant in Positano with romantic sea-view tables and award-winning Italian cuisine prepared with precision and artistry. Reservations essential months in advance.",
+      "mustTry": "Lobster risotto with sea truffles"
     },
     {
-      "name": "O'Canonico",
+      "name": "Ristorante Salvatore",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Cozy restaurant in Positano specializing in fresh pasta made daily and locally caught fish. Warm atmosphere with personalized service from the owner.",
-      "mustTry": "Fresh mozzarella with local lemons"
+      "description": "Waterfront restaurant in Maiori featuring fresh fish bought daily from local boats and traditional cooking methods. Casual yet refined atmosphere perfect for lunch or dinner.",
+      "mustTry": "Spaghetti ai ricci di mare"
     },
     {
-      "name": "Pasticceria Sal De Riso",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Famous pastry shop and café throughout the coast serving exceptional desserts, pastries, and gelato. Perfect for breakfast or afternoon treats.",
-      "mustTry": "Sfogliatella (crispy pastry with ricotta)"
-    },
-    {
-      "name": "Maria Grazia",
+      "name": "Trattoria Gennaro",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Unassuming beachfront restaurant in Praiano serving the freshest seafood with minimal preparation. Tables literally on the sand with direct sea access.",
-      "mustTry": "Fresh sea bream fillet"
+      "priceRange": "$",
+      "description": "Authentic neighborhood trattoria in Amalfi serving traditional dishes at local prices in a no-frills setting. Popular with residents for its value and genuine hospitality.",
+      "mustTry": "Melanzane alla parmigiana"
+    },
+    {
+      "name": "Ristorante Furore",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary restaurant in Furore's hidden fjord setting with creative Mediterranean dishes and an excellent wine list featuring Campania vintages. Intimate and special-occasion worthy.",
+      "mustTry": "Swordfish with lemon and pistachio crust"
     }
   ],
   "activities": [
     {
-      "name": "Positano Village Exploration",
-      "category": "Cultural",
-      "description": "Wander through the vertical village of Positano, discovering steep winding streets, pastel buildings, boutiques, and artwork. Stop at viewpoints and small cafés to soak in the ambiance.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Boat Tour Along the Coast",
-      "category": "Adventure",
-      "description": "Experience the coastline from the water with visits to hidden coves, sea caves, and pristine beaches accessible only by boat. Many tours include swimming and snorkeling opportunities.",
-      "durationHours": 4,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Hiking the Path of Gods",
+      "name": "Positano Cliff Walk",
       "category": "Outdoor",
-      "description": "Trek the famous Sentiero degli Dei trail between Praiano and Positano, offering panoramic views of the coastline and Mediterranean Sea. Moderate difficulty with stunning photo opportunities throughout.",
-      "durationHours": 4,
+      "description": "Scenic hiking trail connecting Positano to Praiano with stunning coastal views and access to secluded beaches. The path offers multiple viewpoints perfect for photography.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "adventure",
+        "standard",
         "photography",
-        "standard"
+        "adventure"
       ]
     },
     {
-      "name": "Ravello Town & Villa Visits",
+      "name": "Boat Tour to Capri and Blue Grotto",
+      "category": "Outdoor",
+      "description": "Full-day guided boat excursion from Amalfi to the island of Capri featuring the famous Blue Grotto sea cave and coastal grottos. Includes swimming opportunities and lunch.",
+      "durationHours": 8,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ravello Villa Tours and Gardens",
       "category": "Cultural",
-      "description": "Explore the hilltop town of Ravello with its stunning villas like Villa d'Este and Villa Rufolo, featuring beautiful gardens and coastal views. Visit the cathedral and local artisan shops.",
-      "durationHours": 4,
+      "description": "Explore historic clifftop villas Villa Rufolo and Villa d'Este with lush gardens, art collections, and panoramic terraces. Cultural highlight featuring medieval architecture and contemporary art installations.",
+      "durationHours": 3,
       "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
         "photography",
-        "cultural"
+        "surprise"
       ]
     },
     {
-      "name": "Lemon Grove Tour",
-      "category": "Outdoor",
-      "description": "Visit a family-run lemon grove terraced into the cliffs, learning about cultivation of lemons used for limoncello and local cuisine. Includes tastings and samples of local products.",
+      "name": "Lemon Grove Tours in Furore",
+      "category": "Cultural",
+      "description": "Visit traditional terraced lemon groves and learn about cultivation methods for the famous Sfusato lemons used in limoncello production. Includes tasting of limoncello and local products.",
       "durationHours": 2,
       "estimatedCostUSD": 20,
       "bestFor": [
         "foodie",
         "standard",
-        "relaxation"
+        "surprise"
       ]
     },
     {
-      "name": "Amalfi Town Historic Walk",
-      "category": "Cultural",
-      "description": "Discover the main town's maritime history, stunning cathedral with Arab-Norman architecture, and ancient trading heritage. Browse local shops, museums, and waterfront areas.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Scuba Diving & Snorkeling",
+      "name": "Kayaking and Snorkeling",
       "category": "Adventure",
-      "description": "Explore vibrant underwater ecosystems with multiple dive sites featuring colorful fish, underwater caves, and reefs. Suitable for beginners to advanced divers with certified guides.",
-      "durationHours": 4,
-      "estimatedCostUSD": 85,
+      "description": "Guided kayaking tour along the coast with access to hidden coves and caves for snorkeling in crystal-clear Mediterranean waters. Equipment provided and suitable for beginners.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
       "bestFor": [
         "adventure",
-        "standard"
+        "standard",
+        "photography"
       ]
     },
     {
-      "name": "Cooking Class at Local Home",
-      "category": "Foodie",
-      "description": "Learn to prepare authentic Amalfi Coast cuisine in a local family kitchen or cooking school, including pasta making, seafood preparation, and traditional recipes. Includes a multi-course meal.",
-      "durationHours": 3,
-      "estimatedCostUSD": 75,
+      "name": "Cooking Class in Amalfi",
+      "category": "Cultural",
+      "description": "Hands-on class learning to prepare traditional pasta and regional specialties from a local chef. Includes market visit, cooking, and tasting of your creations with wine.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
       "bestFor": [
         "foodie",
         "standard",
-        "relaxation"
+        "surprise"
       ]
     },
     {
-      "name": "Limoncello & Wine Tasting",
-      "category": "Foodie",
-      "description": "Visit local producers to taste authentic limoncello, local wines, and other regional specialties while learning about production methods. Many locations offer beautiful terrace settings.",
-      "durationHours": 2,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "foodie",
-        "relaxation",
-        "standard"
-      ]
-    },
-    {
-      "name": "Beach Day at Spiaggia Grande",
-      "category": "Relaxation",
-      "description": "Spend a day at Positano's main beach with its pebbles, crystal-clear water, and beachfront restaurants. Rent beach umbrellas and enjoy swimming, sunbathing, and people-watching.",
-      "durationHours": 6,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "relaxation",
-        "standard"
-      ]
-    },
-    {
-      "name": "Atrani Village Discovery",
+      "name": "Atrani Village Exploration",
       "category": "Cultural",
-      "description": "Visit the smallest municipality in Italy, a charming fishing village with authentic local character, minimal tourism, and stunning harbor views. Perfect for photography and peaceful exploration.",
+      "description": "Wander the smallest commune in Campania with medieval architecture, charming piazzas, and fewer tourists than Positano. Perfect for authentic photography and cultural immersion.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -260,204 +214,250 @@
       ]
     },
     {
-      "name": "Sunset Aperitivo Experience",
-      "category": "Nightlife",
-      "description": "Enjoy evening drinks and appetizers at a clifftop bar or beachfront establishment while watching the sun set over the Tyrrhenian Sea. Sample local wines and limoncello.",
+      "name": "Emerald Grotto Visit",
+      "category": "Outdoor",
+      "description": "Explore the emerald-colored Grotta dello Smeraldo by boat with views of stalactites and stalagmites reflected in luminous green waters. Shorter, less crowded alternative to Blue Grotto.",
       "durationHours": 2,
       "estimatedCostUSD": 25,
       "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Praiano Beach and Cliff Bar Sunset",
+      "category": "Relaxation",
+      "description": "Enjoy the small pebble beach at Praiano with local beach bars serving cocktails and fresh fish. Perfect spot to swim, relax, and watch the sunset from the water.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Path of the Gods Trail",
+      "category": "Adventure",
+      "description": "Legendary hiking route from Praiano to Positano offering some of the coast's most dramatic scenery with Mediterranean vegetation and endless sea views. Moderate difficulty with excellent photo opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Maiori Beach and Beach Club Experience",
+      "category": "Relaxation",
+      "description": "Visit the largest beach on the Amalfi Coast with organized sections, water sports, and beachfront restaurants. Family-friendly with facilities and a more relaxed vibe than Positano.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
         "relaxation",
         "standard",
-        "foodie"
+        "photography"
+      ]
+    },
+    {
+      "name": "Ravello Concert Evening",
+      "category": "Cultural",
+      "description": "Attend a classical music performance or concert at Villa Rufolo's famous outdoor amphitheater with sea backdrop during summer season. World-class venue and international artists.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "relaxation"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Positano Main Beach Viewpoint",
-        "description": "Elevated view of the iconic vertical village cascading down to the sea with colorful buildings, boats, and Mediterranean waters.",
+        "name": "Positano Main Beach Overlook",
+        "description": "Classic vantage point capturing the iconic stacked pastel houses cascading down the cliff face with the beach and Mediterranean Sea below.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour, early morning or sunset",
+        "bestTime": "Golden hour sunrise or sunset for warm side light on buildings",
         "category": "Architecture"
       },
       {
-        "name": "Praiano Terraces",
-        "description": "Dramatic clifftop terraces with lemon groves overlooking the coast, perfect for wide-angle landscape shots.",
+        "name": "Path of the Gods Trail Viewpoints",
+        "description": "Multiple scenic overlooks along the famous hiking trail with dramatic coastal landscapes, tiny villages in the distance, and layered Mediterranean vegetation.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for clear visibility across the entire coast or late afternoon for warm tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Atrani Piazza",
+        "description": "Charming medieval square with weathered buildings, laundry lines, and authentic Italian village atmosphere rarely seen in touristy areas.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light for detail, evening for backlighting",
-        "category": "Landscape"
-      },
-      {
-        "name": "Amalfi Cathedral Facade",
-        "description": "Stunning Arab-Norman architecture of the white and black striped cathedral with intricate bronze doors and historic details.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for side lighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Path of Gods Trail Overlook",
-        "description": "Breathtaking panoramic views of the coastline, villages, and sea accessible from the hiking trail with multiple vantage points.",
-        "difficulty": "Intermediate",
-        "bestTime": "Mid-morning or late afternoon for light direction",
-        "category": "Landscape"
-      },
-      {
-        "name": "Ravello Villa d'Este Gardens",
-        "description": "Manicured terraced gardens with stone sculptures, Mediterranean plants, and dramatic sea views through cypress trees.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light in gardens, sunset for broader vistas",
-        "category": "Landscape"
-      },
-      {
-        "name": "Atrani Harbor",
-        "description": "Authentic fishing village harbor with colorful boats, weathered buildings, and locals, offering authentic street photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning when fishermen work, golden hour",
+        "bestTime": "Early morning before crowds or late afternoon when locals gather",
         "category": "Street"
       },
       {
-        "name": "Emerald Grotto Cave Interior",
-        "description": "Ethereal water cave with bioluminescent green hues reflected in still water, accessed by boat.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday for green water illumination",
-        "category": "Landscape"
-      },
-      {
-        "name": "Lemon Grove Terraces at Sunset",
-        "description": "Yellow lemon fruits against green foliage with Mediterranean sea in background, bathed in warm evening light.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour, late afternoon",
-        "category": "Landscape"
-      },
-      {
-        "name": "Conca dei Marini Beach",
-        "description": "Small secluded beach with turquoise water, fishing boats, and dramatic cliff backdrop creating composition depth.",
+        "name": "Ravello Villa Rufolo Terrace",
+        "description": "Dramatic clifftop terraces with manicured gardens, historic architecture, and unobstructed panoramic sea views extending to Capri.",
         "difficulty": "Beginner",
-        "bestTime": "Morning or late afternoon for side lighting",
+        "bestTime": "Late afternoon for warm golden light on the terraces and buildings",
+        "category": "Architecture"
+      },
+      {
+        "name": "Emerald Grotto Interior",
+        "description": "Luminous sea cave with glowing emerald water reflections on limestone walls and natural stalactite formations creating surreal compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday when sunlight enters the cave creating maximum emerald glow effect",
         "category": "Landscape"
       },
       {
-        "name": "Furore Fjord",
-        "description": "Hidden fjord with emerald waters surrounded by steep cliffs and small village, accessible by steep stairs.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday for water color, late afternoon for cliff lighting",
+        "name": "Praiano Colorful Boats Harbor",
+        "description": "Picturesque fishing village harbor with bright traditional boats, fishing nets, and colorful buildings providing excellent street and still-life opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when fishermen are active and light is soft and directional",
+        "category": "Street"
+      },
+      {
+        "name": "Furore Fjord Hidden Beach",
+        "description": "Secret cove tucked into a narrow fjord with dramatic cliff walls, small beach, and weathered buildings creating an intimate composition rarely seen by tourists.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday when light reaches the fjord bottom, or late afternoon for dramatic cliff shadows",
         "category": "Landscape"
+      },
+      {
+        "name": "Amalfi Cathedral Piazza",
+        "description": "Historic town square dominated by the ornate Arab-Norman cathedral with its impressive bronze doors and grand staircase, bustling with local life.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon to avoid harsh midday shadows on the facade",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lemon Grove Terraces",
+        "description": "Traditional terraced lemon groves cascading down hillsides with characteristic wooden pergolas creating geometric patterns and golden fruit highlights.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late morning or early afternoon when sun creates strong contrast on the terraces",
+        "category": "Landscape"
+      },
+      {
+        "name": "Maiori Beachfront Promenade",
+        "description": "Long sandy beach with colorful umbrellas, beachgoers, and the backdrop of dramatic cliffs with architecture scattered up the hillside.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm beach lighting and silhouettes against sea",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Path of Gods Trail near Praiano",
-      "Ravello Cathedral Terrace",
-      "Positano Clifftop Viewpoint"
+      "Ravello Villa Terrace overlooking the coast",
+      "Praiano Cliffs above the harbor",
+      "Path of the Gods starting point near Praiano"
     ],
     "sunsetSpots": [
       "Positano Main Beach",
-      "Amalfi Waterfront Promenade",
-      "Ravello Villa Rufolo Gardens"
+      "Atrani Piazza with Mediterranean backdrop",
+      "Ravello Villa d'Este gardens"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive landscape and village architecture shots",
-      "50mm prime for intimate street photography and architectural details in villages",
-      "70-200mm telephoto for compressed perspective of coastal layers and distant vistas",
-      "Macro lens for detail shots of lemons, local crafts, and food photography"
+      "24-70mm f/2.8 - Versatile for landscapes, architecture, and street photography throughout the coast",
+      "70-200mm f/2.8 - Telephoto for compressed perspectives of distant villages and dramatic cliff compression",
+      "16-35mm f/2.8 - Ultra-wide for expansive coastal landscapes and dramatic cliff formations from hiking trails",
+      "50mm f/1.4 - Prime for intimate village scenes and portrait work with beautiful background separation"
     ],
-    "goldenHourNotes": "The Amalfi Coast experiences exceptional golden hour light due to its east-west cliff orientation, with the western sea providing dramatic backlighting in late afternoon. Evening light transforms the pastel villages into warm, saturated colors, while morning light illuminates terraces and creates long shadows. Plan shoots during the 1-2 hours before sunset for optimal warm tones and landscape depth.",
+    "goldenHourNotes": "The Amalfi Coast's west-facing orientation makes it exceptional for sunrise shots from elevated vantage points and evening photography with warm light cascading across cliff faces. Early morning light on Positano's pastel buildings is particularly magical, while sunset illuminates the terraced landscape and sea caves with amber tones. Golden hour lasts extended periods due to the dramatic topography creating varied lighting conditions across the vertical landscape.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 8,
-        "rainfallMM": 120
+        "avgTempC": 9,
+        "rainfallMM": 95
       },
       {
         "month": 2,
         "avgTempC": 9,
-        "rainfallMM": 100
-      },
-      {
-        "month": 3,
-        "avgTempC": 12,
-        "rainfallMM": 90
-      },
-      {
-        "month": 4,
-        "avgTempC": 16,
         "rainfallMM": 85
       },
       {
-        "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 50
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 75
       },
       {
-        "month": 6,
-        "avgTempC": 25,
+        "month": 4,
+        "avgTempC": 14,
+        "rainfallMM": 65
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
         "rainfallMM": 40
       },
       {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 25
+      },
+      {
         "month": 7,
-        "avgTempC": 28,
-        "rainfallMM": 30
+        "avgTempC": 26,
+        "rainfallMM": 15
       },
       {
         "month": 8,
-        "avgTempC": 28,
-        "rainfallMM": 35
+        "avgTempC": 26,
+        "rainfallMM": 20
       },
       {
         "month": 9,
-        "avgTempC": 24,
-        "rainfallMM": 60
+        "avgTempC": 23,
+        "rainfallMM": 45
       },
       {
         "month": 10,
-        "avgTempC": 19,
-        "rainfallMM": 95
+        "avgTempC": 18,
+        "rainfallMM": 90
       },
       {
         "month": 11,
         "avgTempC": 14,
-        "rainfallMM": 110
+        "rainfallMM": 105
       },
       {
         "month": 12,
         "avgTempC": 10,
-        "rainfallMM": 130
+        "rainfallMM": 100
       }
     ],
     "bestMonths": [
-      4,
       5,
       6,
-      9,
-      10
+      9
     ],
-    "seasonality": "Summer (July-August) is peak season with hot temperatures and crowded attractions, while spring (April-May) and fall (September-October) offer ideal weather with fewer tourists. Winter months are cool and rainy but provide a quieter, more authentic experience.",
-    "summary": "The Amalfi Coast enjoys a Mediterranean climate with warm, dry summers perfect for beach activities and cool, wet winters. Spring and fall are ideal visiting seasons with pleasant temperatures ranging from 16-24°C and manageable rainfall."
+    "seasonality": "May through early October offers warm, dry weather ideal for hiking, boating, and exploring, with June through August being peak tourist season with temperatures reaching 26°C. October and April provide pleasant temperatures and fewer crowds, though occasional rain is possible.",
+    "summary": "The Amalfi Coast enjoys a Mediterranean climate with mild winters and warm, dry summers. Summer months (June-August) are hot and crowded, while spring (April-May) and fall (September-October) offer the best balance of pleasant weather and manageable tourist numbers."
   },
   "hotels": [
     {
-      "name": "Hotel Positano",
+      "name": "Hostel Positano",
       "neighborhood": "Positano",
-      "pricePerNightUSD": 110,
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Simple family-run hotel in the heart of Positano offering comfortable rooms with basic amenities and proximity to the main beach and village attractions."
+      "description": "Friendly hostel offering dormitory and private rooms with a social atmosphere, basic amenities, and central location in Positano near shops and restaurants."
     },
     {
-      "name": "Hotel Ravello",
-      "neighborhood": "Ravello",
-      "pricePerNightUSD": 180,
+      "name": "Hotel Villa Franca",
+      "neighborhood": "Positano",
+      "pricePerNightUSD": 160,
       "category": "Mid-range",
-      "description": "Charming 3-star hotel with sea views, friendly staff, and convenient location for exploring Ravello's villas and cultural sites with a small pool."
+      "description": "Family-run 3-star hotel with comfortable rooms, sea-view terraces, and a small beach area, featuring traditional Italian hospitality and convenient access to hiking trails."
     },
     {
-      "name": "Monastero Santa Rosa",
-      "neighborhood": "Conca dei Marini",
-      "pricePerNightUSD": 420,
+      "name": "Monastero Santa Maria Costantinopoli",
+      "neighborhood": "Ravello",
+      "pricePerNightUSD": 425,
       "category": "Luxury",
-      "description": "Exclusive 5-star hotel built within a converted 17th-century monastery perched above the coast, offering spa services, fine dining, and private beach access with unparalleled views."
+      "description": "Exclusive luxury hotel housed in a restored 13th-century monastery overlooking the coast, featuring suites with frescoed ceilings, Michelin-starred restaurant, and impeccable service."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1583844056361-4418a8f2a985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBbWFsZmklMjBDb2FzdCUyMEl0YWx5fGVufDF8MHx8fDE3ODE1NjIyODF8MA&ixlib=rb-4.1.0&q=80&w=1080"

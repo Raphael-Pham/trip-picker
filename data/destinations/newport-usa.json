@@ -1,0 +1,483 @@
+{
+  "id": "newport-usa",
+  "city": "Newport",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PVD",
+    "BOS",
+    "MHT"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "relaxation",
+    "foodie"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 85,
+    "photography": 90,
+    "activities": 80,
+    "weather": 70
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Newport Cliff Walk sunset",
+  "summary": "Newport is a picturesque New England coastal town renowned for its Gilded Age mansions, dramatic cliff-lined shores, and thriving culinary scene. The iconic Cliff Walk offers breathtaking ocean vistas, while charming downtown streets blend historic charm with upscale shopping and dining. Perfect for photography enthusiasts and those seeking relaxation with New England elegance.",
+  "restaurants": [
+    {
+      "name": "The Mooring Seafood Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Waterfront fine dining with floor-to-ceiling windows overlooking Newport Harbor. Specializes in fresh seafood and New England classics with an extensive wine list.",
+      "mustTry": "Pan-seared scallops with seasonal vegetables"
+    },
+    {
+      "name": "Nikki's Boathouse",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Casual waterfront spot serving authentic Rhode Island clam chowder and lobster rolls with direct harbor views. Known for friendly atmosphere and generous portions.",
+      "mustTry": "Newport clam chowder"
+    },
+    {
+      "name": "Salvation Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Eclectic American cuisine in a converted 1887 building with exposed brick and art displays. Menu changes seasonally with emphasis on local ingredients.",
+      "mustTry": "House-made pasta dishes"
+    },
+    {
+      "name": "Le Cordon Bleu at Newport",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French dining in an intimate setting with impeccable service and refined cuisine. Features classic French techniques with modern presentations.",
+      "mustTry": "Duck confit"
+    },
+    {
+      "name": "Scales & Shells",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Counter-service oyster bar and raw bar with fresh daily catches from local fishermen. Casual atmosphere with high-quality seafood at reasonable prices.",
+      "mustTry": "Fresh oysters and littleneck clams"
+    },
+    {
+      "name": "The Flaming Hearth",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned tavern serving hearty New England fare since 1969. Features wood-fired grilling and comfort food classics in a warm, welcoming setting.",
+      "mustTry": "Prime rib"
+    },
+    {
+      "name": "Brick Alley Pub & Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic pub in a brick building with casual atmosphere serving burgers, sandwiches, and pub classics. Popular gathering spot with local beer selection.",
+      "mustTry": "Brick Alley burger"
+    },
+    {
+      "name": "Atlantic Beach Club",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant beachfront restaurant with contemporary American cuisine and craft cocktails. Offers stunning sunset views and exceptional service.",
+      "mustTry": "Swordfish with seasonal preparation"
+    },
+    {
+      "name": "Mudville Pub",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual pub with affordable eats, craft beers, and sports on TVs. Known for happy hour specials and friendly local crowd.",
+      "mustTry": "Fish and chips"
+    },
+    {
+      "name": "Café Zelda",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming coffee shop and cafe serving breakfast and lunch with homemade pastries and sandwiches. Perfect for casual meals and morning coffee.",
+      "mustTry": "Breakfast sandwich"
+    },
+    {
+      "name": "Perro Salado",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant offering small plates perfect for sharing with Spanish wines and craft cocktails. Vibrant atmosphere with exposed brick.",
+      "mustTry": "Patatas bravas"
+    },
+    {
+      "name": "Ocean Coffee Roasters",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Specialty coffee roastery with house-roasted beans, pastries, and light lunch options. Welcoming space for relaxing with a quality coffee.",
+      "mustTry": "Single-origin pour over coffee"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Cliff Walk",
+      "category": "Outdoor",
+      "description": "A 3.5-mile scenic walking path along Newport's cliffs with dramatic ocean views, mansion glimpses, and rocky beaches. One of New England's most iconic coastal walks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mansions of Newport",
+      "category": "Cultural",
+      "description": "Tour America's most magnificent Gilded Age estates including The Breakers and Marble House. Explore opulent rooms, manicured gardens, and fascinating history.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Newport Harbor Boat Tour",
+      "category": "Outdoor",
+      "description": "Scenic cruise around Newport Harbor with views of historic yachts, coastal mansions, and marine wildlife. Various tour operators offer different routes.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "International Tennis Hall of Fame",
+      "category": "Cultural",
+      "description": "Historic tennis museum housed in a Victorian casino building with championship exhibits, grass courts, and interactive displays. Perfect for tennis enthusiasts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "First Beach Swim",
+      "category": "Outdoor",
+      "description": "Popular family-friendly beach with lifeguards, concessions, and clean waters. Perfect for swimming, sunbathing, and beach activities during summer.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Newport Farmer's Market",
+      "category": "Outdoor",
+      "description": "Weekly market featuring local produce, artisan goods, and prepared foods. Great for sampling local cuisine and supporting local vendors.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Salve Regina University Grounds Walk",
+      "category": "Outdoor",
+      "description": "Free walk through picturesque university grounds with mansion estates, manicured lawns, and ocean views. Often overlook gem for visitors exploring the area.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Newport Art Museum",
+      "category": "Cultural",
+      "description": "Comprehensive art collection featuring American impressionism, contemporary works, and rotating exhibitions. Set in a historic building with beautiful grounds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Ocean Drive Scenic Drive",
+      "category": "Outdoor",
+      "description": "Self-guided 10-mile drive through Newport's most prestigious neighborhoods with mansion views, coastal scenery, and pullouts for photos.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Easton's Beach Bowling & Arcade",
+      "category": "Indoor",
+      "description": "Retro bowling alley and arcade near Easton's Beach with nostalgic games, food, and entertainment for all ages.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kayaking Goat Island",
+      "category": "Adventure",
+      "description": "Guided kayak tours around Goat Island with wildlife viewing, coastal exploration, and scenic paddling. Suitable for beginners to intermediate paddlers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "outdoor"
+      ]
+    },
+    {
+      "name": "Downtown Newport Shopping & Dining",
+      "category": "Outdoor",
+      "description": "Stroll through charming downtown streets with boutique shops, galleries, restaurants, and historic architecture. Free activity with optional shopping.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Cliff Walk Edge",
+        "description": "Dramatic rocky cliffs meeting Atlantic Ocean with mansion views and crashing waves creating dynamic compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on cliffs and water",
+        "category": "Landscape"
+      },
+      {
+        "name": "The Breakers Mansion Front",
+        "description": "Iconic Gilded Age mansion with Italian Renaissance architecture photographing beautifully in soft daylight.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light from the east side",
+        "category": "Architecture"
+      },
+      {
+        "name": "Easton's Beach Pier",
+        "description": "Charming wooden pier extending into the ocean with lighthouse and beach town backdrop for classic New England imagery.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for warm tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "First Beach Boardwalk",
+        "description": "Sandy beach with surfers, swimmers, and lifeguard stands creating dynamic beach lifestyle imagery.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or late afternoon for directional light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bowen's Wharf Harbor",
+        "description": "Historic working waterfront with fishing boats, colorful buildings, and genuine maritime character.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for boat activity and soft light",
+        "category": "Street"
+      },
+      {
+        "name": "Bannister's Wharf Sunset",
+        "description": "Upscale waterfront with moored yachts, restaurants, and reflections creating picturesque sunset compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for golden hour reflections on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Thames Street Architecture",
+        "description": "Historic downtown street lined with 18th and 19th-century buildings, shop windows, and character-filled facades.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for street light and shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Marble House Gardens",
+        "description": "Ornate mansion grounds with formal gardens, stonework, and architectural details offering intricate composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days for even garden lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sunset Cliffs Near Rough Point",
+        "description": "Secluded rocky coast with dramatic cliff formations and powerful ocean swells perfect for moody seascape photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunset for warm colors and dramatic skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ochre Point Avenue Mansions",
+        "description": "Elite residential street with grand estates, ornate gates, and old-growth trees creating stately architectural imagery.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm mansion facade lighting",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Cliff Walk at Easton's Point",
+      "First Beach East End",
+      "Battery Park Overlook"
+    ],
+    "sunsetSpots": [
+      "Bannister's Wharf",
+      "Cliff Walk Scenic Overlook",
+      "Ocean Drive Scenic Pullout"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for dramatic cliff and mansion landscape expanses",
+      "50mm prime for intimate street photography and architecture detail work",
+      "70-200mm telephoto for compressed harbor views and distant mansion details",
+      "24mm prime for documentary-style waterfront and street scenes"
+    ],
+    "goldenHourNotes": "Newport's coastal position offers excellent golden hour lighting from both sunrise over the Atlantic and sunset over the harbor. The warm light beautifully illuminates mansion facades and creates rich reflections on water. Plan shoots at Cliff Walk and Bannister's Wharf during golden hour for optimal color and contrast.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -1,
+        "rainfallMM": 110
+      },
+      {
+        "month": 2,
+        "avgTempC": 0,
+        "rainfallMM": 100
+      },
+      {
+        "month": 3,
+        "avgTempC": 5,
+        "rainfallMM": 100
+      },
+      {
+        "month": 4,
+        "avgTempC": 12,
+        "rainfallMM": 110
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 100
+      },
+      {
+        "month": 6,
+        "avgTempC": 23,
+        "rainfallMM": 90
+      },
+      {
+        "month": 7,
+        "avgTempC": 26,
+        "rainfallMM": 90
+      },
+      {
+        "month": 8,
+        "avgTempC": 25,
+        "rainfallMM": 100
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 100
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 110
+      },
+      {
+        "month": 11,
+        "avgTempC": 10,
+        "rainfallMM": 120
+      },
+      {
+        "month": 12,
+        "avgTempC": 3,
+        "rainfallMM": 130
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seasonality": "Summer (June-August) brings warm weather ideal for beach and water activities, while fall (September-October) offers pleasant temperatures and stunning foliage. Winter can be cold and snowy, making some cliff walks treacherous, while spring brings gradually warming weather with fewer crowds.",
+    "summary": "Newport has a typical New England climate with cold, snowy winters and mild to warm summers. The coastal location moderates temperatures but increases precipitation and wind, particularly in autumn and winter months."
+  },
+  "hotels": [
+    {
+      "name": "The Chanler at Cliff Walk",
+      "neighborhood": "Cliff Walk",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury oceanfront mansion-style hotel perched on Cliff Walk with individually designed suites, fine dining, and breathtaking Atlantic views."
+    },
+    {
+      "name": "The Vanderbilt",
+      "neighborhood": "Cliff Walk",
+      "pricePerNightUSD": 400,
+      "category": "Luxury",
+      "description": "Elegant resort in a restored mansion with spa, oceanfront dining, and historic charm combined with modern luxury amenities."
+    },
+    {
+      "name": "Newport Harbor Hotel & Marina",
+      "neighborhood": "Downtown Waterfront",
+      "pricePerNightUSD": 200,
+      "category": "Mid-range",
+      "description": "Contemporary waterfront hotel with harbor views, modern rooms, and easy access to restaurants, shopping, and Bowen's Wharf."
+    },
+    {
+      "name": "The Murray House",
+      "neighborhood": "Downtown Newport",
+      "pricePerNightUSD": 160,
+      "category": "Mid-range",
+      "description": "Historic bed and breakfast in a restored Colonial building with period charm, walking distance to downtown attractions and restaurants."
+    },
+    {
+      "name": "Red Roof Inn Newport",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "No-frills budget hotel with clean rooms and convenient location near downtown, shopping, and major attractions at affordable rates."
+    },
+    {
+      "name": "Motel 6 Newport",
+      "neighborhood": "North Newport",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Basic economy motel with essential amenities, pet-friendly policy, and economical pricing for budget-conscious travelers."
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "id": "raleigh-usa",
+  "city": "Raleigh",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "RDU",
+    "CLT",
+    "GSO"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "cultural",
+    "relaxation",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 68,
+    "food": 78,
+    "photography": 75,
+    "activities": 82,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 110
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 110,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Raleigh North Carolina downtown skyline",
+  "summary": "Raleigh, the vibrant capital of North Carolina, seamlessly blends Southern charm with modern innovation in the heart of the Research Triangle. The city offers excellent dining, world-class museums, lush parks, and a thriving cultural scene perfect for photography enthusiasts and curious travelers. With affordable prices and year-round activities, Raleigh delivers authentic Southern hospitality without breaking the bank.",
+  "restaurants": [
+    {
+      "name": "Death & Taxes",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Chef's tasting menu experience featuring locally-sourced ingredients and innovative American cuisine in an intimate downtown setting.",
+      "mustTry": "7-course seasonal tasting menu"
+    },
+    {
+      "name": "Bida Manda",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Authentic Lao cuisine showcasing bold flavors and traditional recipes from Southeast Asia with a warm, welcoming atmosphere.",
+      "mustTry": "Larb and sticky rice"
+    },
+    {
+      "name": "The Pit",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic North Carolina barbecue institution serving whole hog BBQ with Eastern-style vinegar sauce since 1996.",
+      "mustTry": "Whole hog BBQ sandwich"
+    },
+    {
+      "name": "Neomonde Mediterranean Deli",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Long-running Mediterranean deli and restaurant famous for shawarma, hummus, and authentic Middle Eastern flavors at wallet-friendly prices.",
+      "mustTry": "Chicken shawarma wrap"
+    },
+    {
+      "name": "Irregardless Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vegetarian-friendly cafe featuring farm-to-table seasonal menus with creative preparations and live music performances.",
+      "mustTry": "Seasonal vegetable plate"
+    },
+    {
+      "name": "Ridgewood Barbecue",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual family-owned barbecue restaurant famous for slow-smoked meats and traditional Eastern NC BBQ taste.",
+      "mustTry": "BBQ pulled pork plate"
+    },
+    {
+      "name": "Nash & Stable",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale meat-focused restaurant with expertly crafted cocktails and an elegant atmosphere in downtown Raleigh.",
+      "mustTry": "Dry-aged steak"
+    },
+    {
+      "name": "Cucalorus",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant offering small plates, charcuterie, and excellent wines in a relaxed, social dining environment.",
+      "mustTry": "Jamón ibérico and patatas bravas"
+    },
+    {
+      "name": "Gravy",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Southern comfort food spot known for biscuits, fried chicken, and breakfast items at affordable prices.",
+      "mustTry": "Biscuits and gravy"
+    },
+    {
+      "name": "Stanbury",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Modern American restaurant with refined small plates, craft cocktails, and a sophisticated atmosphere in a historic building.",
+      "mustTry": "Chef's special tasting menu"
+    },
+    {
+      "name": "Bleu Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary French cuisine with fresh seafood preparations and an extensive wine list in an upscale casual setting.",
+      "mustTry": "Fresh catch preparation"
+    },
+    {
+      "name": "Sushi King",
+      "category": "Budget",
+      "priceRange": "$$",
+      "description": "Casual sushi restaurant offering fresh rolls, nigiri, and Japanese fusion dishes at reasonable prices.",
+      "mustTry": "Spicy tuna roll"
+    }
+  ],
+  "activities": [
+    {
+      "name": "North Carolina Museum of Art",
+      "category": "Cultural",
+      "description": "Comprehensive art museum featuring ancient to contemporary works, outdoor nature trails, and rotating exhibitions across diverse cultures and time periods.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "North Carolina State Museum of Natural Sciences",
+      "category": "Cultural",
+      "description": "Interactive natural history museum with aquariums, nature trails, and exhibits showcasing North Carolina's biodiversity and geological heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "cultural"
+      ]
+    },
+    {
+      "name": "William B. Umstead State Park",
+      "category": "Outdoor",
+      "description": "Beautiful 5,579-acre state park offering hiking trails through forests, lakes for canoeing, and picnic areas perfect for nature lovers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 7,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Downtown Raleigh Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or group tour exploring historic architecture, public art installations, and landmarks in the vibrant downtown district.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Dorothea Dix Park",
+      "category": "Outdoor",
+      "description": "Expansive 308-acre public park featuring open meadows, walking trails, historic gardens, and scenic overlooks ideal for relaxation and photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "North Carolina Museum of History",
+      "category": "Cultural",
+      "description": "Engaging museum telling North Carolina's story from Native Americans through modern times with artifacts, interactive exhibits, and educational programs.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Kayaking on the Neuse River",
+      "category": "Adventure",
+      "description": "Paddling adventure on the scenic Neuse River with opportunities to spot wildlife, observe nature, and explore from a unique water perspective.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "City Market",
+      "category": "Cultural",
+      "description": "Historic downtown marketplace and entertainment venue featuring local vendors, restaurants, galleries, live music, and authentic Raleigh culture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Raleigh Beer Garden",
+      "category": "Nightlife",
+      "description": "Large outdoor beer garden with 40+ craft beers on tap, food trucks, lawn games, and a lively atmosphere perfect for social evenings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "North Carolina Museum of Natural Sciences - Naturalist Walk",
+      "category": "Outdoor",
+      "description": "Guided or self-guided nature trails exploring local ecosystems, wildlife habitats, and the beauty of North Carolina's natural environment.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Pullen Park",
+      "category": "Family",
+      "description": "Beloved community park featuring a lake, amusement park rides, botanical gardens, sports facilities, and picnic areas for families and groups.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Live Music at The Ritz Theatre and various venues",
+      "category": "Nightlife",
+      "description": "Enjoy diverse live music performances ranging from local bands to national acts at historic theaters and modern entertainment venues throughout the city.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "nightlife",
+        "cultural"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "North Carolina State Capitol Building",
+        "description": "Stunning 1840s neoclassical architecture with grand columns and dome offering beautiful symmetry and historic character for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "City of Raleigh Public Art Collection - Downtown District",
+        "description": "Diverse public art installations including murals, sculptures, and contemporary works scattered throughout downtown streets perfect for street and urban photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday or overcast conditions",
+        "category": "Street"
+      },
+      {
+        "name": "Dorothea Dix Park Meadows at Sunrise",
+        "description": "Expansive open meadows with panoramic views and dramatic lighting during golden hour, ideal for landscape and nature photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise with clear skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "North Carolina State Museum of Art - Nature Trail",
+        "description": "Wooded trails with artistic land installations and natural elements creating unique compositional opportunities for landscape and fine art photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Neuse River from River Road",
+        "description": "Scenic river views with tree-lined banks and reflected light on water offering excellent opportunities for landscape and wildlife photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Raleigh Skyline from Multi-Story Parking Decks",
+        "description": "Elevated urban perspective showcasing the city's downtown architecture and skyline, excellent for cityscape and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "William B. Umstead State Park - Lake Raleigh Trail",
+        "description": "Scenic lake views surrounded by dense forest and wildlife habitat with excellent opportunities for nature, reflection, and wildlife photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist and wildlife",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Fayetteville Street at Night",
+        "description": "Well-lit historic downtown street with vintage architecture and evening lighting creating dramatic urban night photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening after dark",
+        "category": "Night"
+      },
+      {
+        "name": "Pullen Park Botanical Gardens",
+        "description": "Manicured gardens with seasonal flowers, water features, and landscaped compositions ideal for detailed botanical and garden photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday or overcast for even lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "City Market Courtyard and Street Level",
+        "description": "Vibrant historic marketplace with colorful vendor stalls, architectural details, and authentic street life perfect for street and cultural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning or late afternoon",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Dorothea Dix Park East Meadow",
+      "William B. Umstead State Park Lake Overlook",
+      "North Carolina State Museum of Art Nature Trail"
+    ],
+    "sunsetSpots": [
+      "Neuse River from River Road Bridge",
+      "Downtown Raleigh Rooftop View Points",
+      "Pullen Park Lake Waterfront"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape and urban architecture capturing expansive views",
+      "50mm prime for street and architectural detail work with excellent sharpness",
+      "70-200mm telephoto for wildlife, isolated subjects, and compressed perspective in nature",
+      "14mm ultra-wide for dramatic skyline and extreme landscape compositions"
+    ],
+    "goldenHourNotes": "Raleigh's golden hours are particularly photogenic during spring and fall when humidity is lower and skies are clearer. The best light occurs roughly one hour before sunset, casting warm tones across downtown architecture and the Neuse River. Early morning golden hour is excellent at Dorothea Dix Park and forest areas for misty, atmospheric conditions.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 4,
+        "rainfallMM": 89
+      },
+      {
+        "month": 2,
+        "avgTempC": 6,
+        "rainfallMM": 92
+      },
+      {
+        "month": 3,
+        "avgTempC": 11,
+        "rainfallMM": 89
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 107
+      },
+      {
+        "month": 5,
+        "avgTempC": 22,
+        "rainfallMM": 117
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 122
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 132
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 119
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 99
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 76
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 81
+      },
+      {
+        "month": 12,
+        "avgTempC": 6,
+        "rainfallMM": 94
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and fall (September-October) offer ideal weather with mild temperatures and lower humidity, perfect for outdoor activities and photography. Summer is warm and humid with frequent afternoon thunderstorms, while winter is cool with occasional snow.",
+    "summary": "Raleigh experiences a humid subtropical climate with warm summers, mild springs and falls, and cool winters. The city receives consistent rainfall throughout the year, with slightly wetter periods during summer and spring months."
+  },
+  "hotels": [
+    {
+      "name": "HI Raleigh Hostel",
+      "neighborhood": "Downtown Raleigh",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Social backpacker-friendly hostel with shared and private rooms, common kitchen, and convenient downtown location near attractions."
+    },
+    {
+      "name": "Hampton Inn & Suites Raleigh Downtown",
+      "neighborhood": "Downtown Raleigh",
+      "pricePerNightUSD": 135,
+      "category": "Mid-range",
+      "description": "Comfortable mid-range hotel with modern amenities, business center, fitness facilities, and walking distance to museums, restaurants, and City Market."
+    },
+    {
+      "name": "The StateView Hotel",
+      "neighborhood": "Downtown Raleigh",
+      "pricePerNightUSD": 275,
+      "category": "Luxury",
+      "description": "Upscale historic boutique hotel featuring elegant rooms, fine dining restaurant, rooftop bar, and proximity to cultural institutions and entertainment venues."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1676934556859-624fa21e2588?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxSYWxlaWdoJTIwTm9ydGglMjBDYXJvbGluYSUyMGRvd250b3duJTIwc2t5bGluZXxlbnwxfDB8fHwxNzgxNjI4MDkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

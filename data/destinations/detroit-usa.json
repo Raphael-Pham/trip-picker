@@ -5,12 +5,13 @@
   "region": "North America",
   "airportCodes": [
     "DTW",
-    "ORD",
-    "CLE"
+    "MBS",
+    "ORD"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
+    "surprise",
     "hidden-gems",
     "photography",
     "foodie",
@@ -31,122 +32,121 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 120,
+      "minPerDayUSD": 100,
       "maxPerDayUSD": 200
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 450
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Detroit Motor City urban",
-  "summary": "Detroit is a dynamic Midwestern hub rich in automotive history, stunning Art Deco architecture, and a thriving music legacy. From world-class museums and street art to waterfront parks and authentic Coney Island hot dog stands, the city offers affordable exploration of American industrial heritage and contemporary cultural renewal.",
+  "unsplashQuery": "Detroit skyline architecture",
+  "summary": "Detroit is a revitalized industrial powerhouse showcasing striking art deco architecture, world-class museums, and a thriving food and music scene rooted in authentic American culture. Once the Motor City, it now attracts visitors with its gritty charm, street art, historic neighborhoods, and innovative culinary renaissance. Perfect for travelers seeking genuine urban exploration with rich automotive and cultural heritage.",
   "restaurants": [
-    {
-      "name": "Lafayette Coney Island",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Historic Detroit institution since 1914 serving iconic Coney Island hot dogs with chili and mustard. A must-visit for authentic Detroit street food tradition.",
-      "mustTry": "Coney Island Hot Dog"
-    },
     {
       "name": "Slows Bar BQ",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Award-winning barbecue joint in Corktown featuring slow-smoked meats and inventive sides. Known for bourbon selection and rustic-chic atmosphere.",
-      "mustTry": "Texas Brisket"
+      "description": "Detroit's most beloved BBQ joint serving slow-smoked meats and authentic barbecue sides in a casual, friendly atmosphere.",
+      "mustTry": "Burnt ends with house-made barbecue sauce"
     },
     {
       "name": "Zingerman's Delicatessen",
-      "category": "Midrange",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Legendary Ann Arbor-born deli with Detroit location offering artisanal sandwiches and imported specialty foods. Perfect for gourmet picnics and lunch.",
-      "mustTry": "Roast Beef Sandwich"
-    },
-    {
-      "name": "Harry's Detroit Bar & Grill",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Classic upscale American dining with an extensive martini menu and nostalgic 1940s ambiance. Located in the historic Book Building downtown.",
-      "mustTry": "Prime Rib"
+      "description": "An iconic Detroit institution since 1929, famous for hand-sliced meats, fresh bread, and exceptional sandwiches made with premium ingredients.",
+      "mustTry": "Reuben sandwich with house-cured corned beef"
     },
     {
       "name": "Selden Standard",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary American fine dining in Corktown featuring locally-sourced ingredients and creative seasonal menus. Intimate setting with craft cocktails.",
-      "mustTry": "Chef's Tasting Menu"
-    },
-    {
-      "name": "Buddy's Pizza",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Detroit-famous square pizza with thick, airy crust and crispy cheese edges. Local institution with multiple locations throughout the city.",
-      "mustTry": "Detroit-style Pepperoni"
-    },
-    {
-      "name": "Via Stella",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale Italian restaurant in Corktown with housemade pasta and Italian wine list. Romantic ambiance with wood-fired kitchen.",
-      "mustTry": "Handmade Tagliatelle Bolognese"
-    },
-    {
-      "name": "Ima",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Japanese ramen and soba noodle house in Midtown with rich broths and quality toppings. Casual setting with quick service.",
-      "mustTry": "Tonkotsu Ramen"
+      "description": "Upscale-casual neighborhood restaurant featuring inventive, locally-sourced New American cuisine in a sophisticated industrial setting.",
+      "mustTry": "Seasonal fish preparation with roasted vegetables"
     },
     {
-      "name": "Café N深",
+      "name": "Frita Batidos",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Authentic Vietnamese pho and banh mi sandwiches in Southwest Detroit. Affordable authentic cuisine with generous portions.",
-      "mustTry": "Rare Beef Pho"
+      "description": "Vibrant Cuban street food restaurant serving authentic Cuban sandwiches, rice bowls, and tropical shakes at affordable prices.",
+      "mustTry": "Frita Cubana with yuca fries"
+    },
+    {
+      "name": "Chartreuse Kitchen & Cocktails",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant fine dining establishment with French-inspired cuisine, impeccable service, and an extensive wine collection in a historic building.",
+      "mustTry": "Duck confit with seasonal accompaniments"
+    },
+    {
+      "name": "Union Street Station",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant in a beautifully restored historic train station offering seasonal American cuisine with craft cocktails.",
+      "mustTry": "House-made pasta with local Michigan produce"
+    },
+    {
+      "name": "Supino Pizzeria",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Detroit's legendary square pizza institution serving Sicilian-style pizza with crispy, airy crust and quality toppings since 1989.",
+      "mustTry": "Square Margherita pizza with fresh mozzarella"
+    },
+    {
+      "name": "Green Dot Stables",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Classic Detroit slinger bar serving greasy, delicious mini corn-bread wrapped hot dogs with nostalgic charm and late-night vibes.",
+      "mustTry": "Coney Island style slinger with chili and onions"
     },
     {
       "name": "The Apparatus Room",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Sophisticated cocktail bar and restaurant in historic firehouse serving elevated comfort food. Craft cocktails and curated wine selection.",
-      "mustTry": "House Cocktail Specialties"
+      "priceRange": "$$$$",
+      "description": "Intimate fine dining experience in a historic fire station featuring inventive, artistic plated dishes with personalized service.",
+      "mustTry": "Chef's tasting menu with wine pairings"
     },
     {
-      "name": "Café Gratitude",
+      "name": "Niki's Coney Island",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Detroit institution since 1917 famous for authentic Coney Island hot dogs topped with chili, onions, and mustard in a timeless diner setting.",
+      "mustTry": "Two Coney dogs with all the toppings"
+    },
+    {
+      "name": "Flowers of Vietnam",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Vietnamese restaurant in Corktown serving fragrant pho, fresh spring rolls, and flavorful curries with a welcoming atmosphere.",
+      "mustTry": "Pho bo with fresh herbs and homemade broth"
+    },
+    {
+      "name": "Mudgie's Deli",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Plant-based cafe in Midtown offering organic vegan bowls, smoothies, and fresh juices. Bright, healthy casual dining.",
-      "mustTry": "Açaí Power Bowl"
-    },
-    {
-      "name": "The Columbo Steakhouse",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Classic Detroit steakhouse with dry-aged beef, seafood, and elegant 1950s-style dining room. Professional service and wine cellar.",
-      "mustTry": "Dry-Aged Porterhouse"
+      "description": "Casual sandwich shop in Corktown offering creative, flavor-packed sandwiches on fresh bread with quality ingredients and friendly service.",
+      "mustTry": "The Mudgie with roasted pork and cheese"
     }
   ],
   "activities": [
     {
       "name": "Detroit Institute of Arts",
       "category": "Cultural",
-      "description": "World-class art museum featuring the famous Detroit Industry Murals by Diego Rivera and extensive collections from ancient to contemporary periods. Free admission for Michigan residents.",
+      "description": "World-renowned art museum housing over 65,000 artworks including Diego Rivera's iconic Detroit Industry Murals and works spanning ancient to contemporary periods. Pay-what-you-wish admission for Michigan residents makes it accessible to all.",
       "durationHours": 3,
       "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
-        "photography",
-        "hidden-gems"
+        "photography"
       ]
     },
     {
       "name": "Henry Ford Museum",
       "category": "Cultural",
-      "description": "Massive museum dedicated to American innovation with historic vehicles, presidential limousines, and the Rosa Parks bus. Engaging and comprehensive automotive and cultural history.",
+      "description": "Massive museum dedicated to American innovation and invention, featuring historic vehicles, aircraft, and artifacts that shaped the nation's industrial legacy. Visitors can explore everything from vintage cars to the bus Rosa Parks rode.",
       "durationHours": 4,
-      "estimatedCostUSD": 25,
+      "estimatedCostUSD": 32,
       "bestFor": [
         "standard",
         "adventure",
@@ -154,255 +154,251 @@
       ]
     },
     {
-      "name": "Detroit River Walk",
+      "name": "Corktown Historic Neighborhood Walk",
       "category": "Outdoor",
-      "description": "Beautiful 3.5-mile paved riverfront path connecting downtown to Belle Isle with parks, public art, and scenic views of the Windsor waterfront. Perfect for walking, running, or cycling.",
+      "description": "Stroll through Detroit's oldest and trendiest neighborhood filled with colorful Victorian homes, street art murals, independent shops, and the birthplace of Detroit's culinary renaissance. Self-guided walking tours are completely free.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "relaxation",
-        "photography"
+        "hidden-gems",
+        "photography",
+        "foodie"
       ]
     },
     {
       "name": "Motown Museum",
       "category": "Cultural",
-      "description": "Historic Hitsville USA studio where Motown records were produced, featuring exhibits on legendary artists like The Supremes and Marvin Gaye. Intimate look at music history.",
+      "description": "Legendary studio where Stevie Wonder, The Supremes, The Temptations, and Marvin Gaye recorded their iconic hits. Tour the original Hitsville U.S.A. building and experience the city's profound musical heritage firsthand.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Detroit Riverwalk Cycling",
+      "category": "Outdoor",
+      "description": "Scenic 5.5-mile paved path along the Detroit River connecting cultural attractions with views of Windsor, Canada, and the downtown skyline. Great for cycling, walking, or jogging with numerous parks and rest stops.",
       "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
-        "standard",
-        "foodie",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Street Art Tour in Corktown",
-      "category": "Photography",
-      "description": "Walk through Detroit's vibrant street art district featuring murals by renowned artists and ever-changing graffiti art. Self-guided or organized tours available.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "hidden-gems",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Belle Isle Park Exploration",
-      "category": "Outdoor",
-      "description": "Historic island park with botanical gardens, nature trails, historic lighthouse, and scenic observation tower overlooking Detroit and Windsor. Multiple attractions in one accessible destination.",
-      "durationHours": 3,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "standard",
-        "photography",
+        "adventure",
         "relaxation",
-        "family"
-      ]
-    },
-    {
-      "name": "Guardian Building Art Deco Tour",
-      "category": "Cultural",
-      "description": "Stunning 1929 Art Deco skyscraper with ornate tilework, vaulted ceilings, and historical significance. Self-guided lobby exploration or organized architectural tours available.",
-      "durationHours": 1,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "hidden-gems",
-        "standard"
-      ]
-    },
-    {
-      "name": "Detroit Brewing Company Tour",
-      "category": "Food & Beverage",
-      "description": "Local craft brewery offering guided tours of the production facility and tasting rooms with seasonal beers. Family-friendly with food trucks and events.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "foodie",
-        "relaxation",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Hitsville USA Night Tour",
-      "category": "Nightlife",
-      "description": "Evening walking tour through historic downtown Detroit covering music venues, speakeasies, and live performance spots. Discover Detroit's vibrant nightlife culture.",
-      "durationHours": 2,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "hidden-gems",
         "photography"
       ]
     },
     {
-      "name": "Fisher Building Arcade Shopping",
-      "category": "Shopping",
-      "description": "Historic 1928 Art Deco shopping arcade with ornate ceiling, vintage shops, and architectural details. Free exploration of one of Detroit's most beautiful indoor spaces.",
-      "durationHours": 1.5,
+      "name": "Guardian Building Tour",
+      "category": "Cultural",
+      "description": "Stunning art deco masterpiece built in 1929 featuring intricate tilework, ornate details, and architectural brilliance. Guided tours showcase the building's craftsmanship and Detroit's architectural heritage.",
+      "durationHours": 1,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Street Art and Murals Self-Guided Tour",
+      "category": "Outdoor",
+      "description": "Explore Detroit's vibrant street art scene featuring works by renowned artists like Shepard Fairey and local crews throughout Corktown and Midtown. The ever-changing murals reflect the city's creative renaissance.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "photography",
         "hidden-gems",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Detroit Historical Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum exploring Detroit's history from Native Americans through the automotive boom, Prohibition, and modern revival. Interactive exhibits and artifacts tell the complete story of the Motor City.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
         "standard"
       ]
     },
     {
-      "name": "Heidelberg Project Art District",
-      "category": "Photography",
-      "description": "Outdoor community art project covering entire blocks with colorful painted houses, polka dots, and thought-provoking installations. Unique and ever-evolving artistic expression.",
-      "durationHours": 2,
+      "name": "Woodward Avenue Exploration",
+      "category": "Outdoor",
+      "description": "Historic boulevard stretching from downtown through Midtown and Corktown, featuring iconic buildings, restaurants, galleries, and shops that capture Detroit's character. Explore at your own pace on foot or by public transit.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "photography",
+        "standard",
         "hidden-gems",
-        "adventure"
+        "foodie",
+        "photography"
       ]
     },
     {
-      "name": "Michigan Science Center",
+      "name": "Detroit Science Center",
       "category": "Family",
-      "description": "Interactive science museum with OMNIMAX theater, hands-on exhibits, and planetarium shows. Engaging for all ages with focus on innovation and discovery.",
+      "description": "Free interactive science museum with OMNIMAX theater, planetarium shows, and exhibits covering physics, biology, and technology. Perfect for families and anyone interested in hands-on learning.",
       "durationHours": 3,
-      "estimatedCostUSD": 18,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "family",
-        "adventure"
+        "family"
+      ]
+    },
+    {
+      "name": "Local Brewery and Distillery Tours",
+      "category": "Nightlife",
+      "description": "Detroit's craft beverage scene includes multiple breweries and distilleries offering tastings and tours, such as Atwater Brewery and Michigan Bottle Company. Learn about the city's resurgent alcohol production culture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Eastern Market Weekend Exploration",
+      "category": "Outdoor",
+      "description": "Historic farmers market and neighborhood bustling with local vendors, restaurants, galleries, and Saturday farmers market crowds. Experience authentic Detroit culture, grab fresh produce, and explore the historic sheds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "foodie",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Guardian Building Lobby",
-        "description": "Spectacular Art Deco interior with turquoise and gold tilework, vaulted ceilings, and dramatic lighting creating stunning architectural photography opportunities.",
+        "name": "Guardian Building Art Deco Lobby",
+        "description": "Intricate tilework, dramatic archways, and ornate details create a photographer's paradise showcasing Detroit's architectural majesty.",
         "difficulty": "Beginner",
-        "bestTime": "Midday for interior light",
+        "bestTime": "Morning light 9-11am for interior detail clarity",
         "category": "Architecture"
       },
       {
-        "name": "Detroit Institute of Arts Exterior",
-        "description": "Iconic Beaux-Arts facade with classical columns and ornate stonework, especially beautiful in golden hour light against Detroit skyline.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
-        "category": "Architecture"
-      },
-      {
-        "name": "Heidelberg Project Houses",
-        "description": "Vibrant polka-dotted and colorfully painted residential buildings creating bold street art photography with dynamic colors and bold patterns.",
+        "name": "Detroit Riverwalk at Sunset",
+        "description": "Picturesque waterfront path with stunning views of Windsor skyline, riverside parks, and golden hour reflections on the water.",
         "difficulty": "Beginner",
-        "bestTime": "Midday for saturated colors",
-        "category": "Street"
-      },
-      {
-        "name": "Detroit River Walk with Windsor Skyline",
-        "description": "Scenic waterfront location capturing both Detroit's skyline and Windsor's lights reflected in calm river water.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for golden reflections",
+        "bestTime": "Evening golden hour 6-8pm",
         "category": "Landscape"
       },
       {
-        "name": "Fisher Building Art Deco Lobby",
-        "description": "Historic 1928 arcade with soaring ceilings, ornate details, and dramatic interior architecture perfect for symmetrical and geometric compositions.",
+        "name": "Corktown Painted Ladies",
+        "description": "Rows of colorful Victorian homes with vibrant facades and street-level details perfect for street and architectural photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday for balanced lighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Corktown Brick Industrial Buildings",
-        "description": "Historic brick warehouses and factories with character, street murals, and industrial aesthetic creating rich texture and urban photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning for directional light",
+        "bestTime": "Midday for color saturation",
         "category": "Street"
       },
       {
-        "name": "Motown Museum Hitsville USA",
-        "description": "Historic recording studio exterior and signage with nostalgic Motown-era details perfect for vintage and cultural photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light on facade",
-        "category": "Architecture"
-      },
-      {
-        "name": "Belle Isle Lighthouse",
-        "description": "Historic white lighthouse against sky and water, framed by trees and gardens offering classic landscape and architectural photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones",
-        "category": "Landscape"
-      },
-      {
-        "name": "Downtown Detroit Skyline from Perspective",
-        "description": "Urban skyline featuring mix of Art Deco and modern architecture with distinctive silhouette against sky.",
+        "name": "Downtown Detroit Skyline from Belle Isle",
+        "description": "Classic cityscape view capturing the illuminated downtown towers reflected in water, especially dramatic at night.",
         "difficulty": "Intermediate",
-        "bestTime": "Blue hour or golden hour",
-        "category": "Night"
+        "bestTime": "Blue hour 30 minutes after sunset",
+        "category": "Landscape"
       },
       {
         "name": "Street Art Murals in Midtown",
-        "description": "Diverse collection of large-scale murals and contemporary street art on building sides and alleyways with vibrant colors and artistic styles.",
+        "description": "Vibrant colorful murals throughout Midtown district provide dynamic street art and urban culture photography opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Midday for color saturation",
+        "bestTime": "Bright daylight for color pop",
         "category": "Street"
+      },
+      {
+        "name": "Michigan Central Station Exterior",
+        "description": "Imposing beaux-arts facade of this iconic abandoned-then-restored building provides dramatic architectural and urban decay imagery.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Eastern Market Vendors and Stalls",
+        "description": "Bustling farmers market scene with vendors, produce, and crowds offering authentic street photography and cultural moments.",
+        "difficulty": "Intermediate",
+        "bestTime": "Saturday mornings 8-10am for peak activity",
+        "category": "Street"
+      },
+      {
+        "name": "Fisher Building Interior",
+        "description": "Stunning art deco interior with dramatic lighting, geometric patterns, and ornate details visible in the lobby and theatre area.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning 10am-12pm for soft interior light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Belle Isle Park Lighthouse",
+        "description": "Historic white lighthouse framed by landscaped island grounds, water features, and Detroit skyline backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour sunset 6-7:30pm",
+        "category": "Landscape"
+      },
+      {
+        "name": "Abandoned Industrial Buildings",
+        "description": "Historic factory ruins and industrial structures throughout Detroit offer dramatic urban exploration and architectural decay photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Afternoon side lighting for texture",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Belle Isle Lighthouse",
-      "Detroit River Walk",
-      "River Plaza Park Overlook"
+      "Belle Isle Park",
+      "Detroit Riverwalk near Joe Louis Arena",
+      "Cathedral Park overlooking downtown"
     ],
     "sunsetSpots": [
-      "Detroit River Walk Windsor View",
-      "Belle Isle Observation Tower",
-      "Riverfront Plaza Downtown"
+      "Detroit Riverwalk west side",
+      "Belle Isle Lighthouse viewpoint",
+      "Guardian Building plaza"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for architectural interiors and comprehensive street scenes",
-      "24-70mm versatile zoom for general exploration and varied compositions",
-      "70-200mm telephoto for skyline compression and isolated details",
-      "50mm prime for street portraits and environmental storytelling"
+      "24-70mm f/2.8 for versatile street and architectural photography in variable light conditions",
+      "16-35mm f/2.8 for wide-angle skyline and architectural detail capture",
+      "85mm f/1.4 for street portrait and close detail work in urban settings",
+      "14mm prime for ultra-wide dramatic architectural interiors and skyline compositions"
     ],
-    "goldenHourNotes": "Detroit's golden hour is particularly striking along the Detroit River Walk where light reflects off water and illuminates historic architecture in warm tones. The Guardian Building and surrounding Art Deco structures take on rich amber and gold hues during sunset. Morning light is excellent for the Heidelberg Project's colorful houses and street art in Corktown.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Detroit's golden hour stretches 45-60 minutes before sunset, providing warm, directional light perfect for highlighting the city's architectural details and skyline reflections. Winter sunsets occur around 5pm while summer extends to 9pm. The riverwalk and Belle Isle park provide ideal golden hour composition opportunities with water reflections amplifying the warm light.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
         "avgTempC": -3,
-        "rainfallMM": 56
+        "rainfallMM": 43
       },
       {
         "month": 2,
         "avgTempC": -1,
-        "rainfallMM": 53
+        "rainfallMM": 36
       },
       {
         "month": 3,
-        "avgTempC": 3,
-        "rainfallMM": 64
+        "avgTempC": 4,
+        "rainfallMM": 41
       },
       {
         "month": 4,
-        "avgTempC": 11,
-        "rainfallMM": 76
+        "avgTempC": 12,
+        "rainfallMM": 59
       },
       {
         "month": 5,
-        "avgTempC": 18,
+        "avgTempC": 19,
         "rainfallMM": 84
       },
       {
         "month": 6,
         "avgTempC": 24,
-        "rainfallMM": 89
+        "rainfallMM": 87
       },
       {
         "month": 7,
         "avgTempC": 26,
-        "rainfallMM": 81
+        "rainfallMM": 73
       },
       {
         "month": 8,
@@ -411,23 +407,23 @@
       },
       {
         "month": 9,
-        "avgTempC": 20,
-        "rainfallMM": 77
+        "avgTempC": 21,
+        "rainfallMM": 66
       },
       {
         "month": 10,
-        "avgTempC": 13,
-        "rainfallMM": 71
+        "avgTempC": 14,
+        "rainfallMM": 69
       },
       {
         "month": 11,
         "avgTempC": 7,
-        "rainfallMM": 82
+        "rainfallMM": 58
       },
       {
         "month": 12,
-        "avgTempC": 1,
-        "rainfallMM": 69
+        "avgTempC": 0,
+        "rainfallMM": 51
       }
     ],
     "bestMonths": [
@@ -437,31 +433,31 @@
       8,
       9
     ],
-    "seasonality": "Detroit experiences four distinct seasons with cold snowy winters and warm mild summers. Spring and fall offer pleasant temperatures ideal for walking tours and outdoor photography, while summer is peak season with festivals and outdoor activities.",
-    "summary": "Winter temperatures drop below freezing with frequent snow, while summer brings warm comfortable weather. Spring and autumn provide the most pleasant conditions for exploring the city's architectural and cultural attractions."
+    "seasonality": "Detroit experiences a traditional Midwest climate with cold, snowy winters (December-February) and warm, humid summers (June-August). Spring and fall offer pleasant temperatures perfect for outdoor exploration and walking tours without excessive heat or cold.",
+    "summary": "Expect significant temperature variation throughout the year, with winter lows around -3°C and summer highs reaching 26°C. Moderate rainfall is distributed throughout the year with slightly wetter spring and summer months, while winter precipitation often falls as snow."
   },
   "hotels": [
     {
-      "name": "HI Detroit Hostel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 45,
+      "name": "The Westin Book Cadillac Detroit",
+      "neighborhood": "Downtown Detroit",
+      "pricePerNightUSD": 85,
       "category": "Budget",
-      "description": "Affordable hostel in downtown location with shared and private rooms, community kitchen, and social atmosphere."
+      "description": "Historic yet affordable hotel in a restored 1924 building offering comfortable rooms and convenient access to downtown museums and restaurants."
     },
     {
-      "name": "The Westin Detroit Metropolitan Airport",
-      "neighborhood": "Airport/Dearborn",
-      "pricePerNightUSD": 110,
+      "name": "The Fillmore Detroit Hotel",
+      "neighborhood": "Midtown",
+      "pricePerNightUSD": 145,
       "category": "Mid-range",
-      "description": "Reliable chain hotel convenient to airport with modern amenities, fitness center, and on-site restaurant."
+      "description": "Stylish mid-range hotel in Midtown offering modern amenities, contemporary design, and proximity to cultural attractions and dining in the arts district."
     },
     {
       "name": "The Siren Hotel",
       "neighborhood": "Corktown",
       "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Boutique luxury hotel in historic Corktown with rooftop pool, fine dining, and stylish contemporary design in restored building."
+      "description": "Luxurious boutique hotel in a converted fire station featuring sophisticated decor, rooftop bar, and prime location in trendy Corktown neighborhood."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1656718945411-85ed6fe9cfec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEZXRyb2l0JTIwTW90b3IlMjBDaXR5JTIwdXJiYW58ZW58MXwwfHx8MTc4MTMwMzE2OXww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1568267938179-f50e67de5ffc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEZXRyb2l0JTIwc2t5bGluZSUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzgxNjI3OTMzfDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,0 +1,458 @@
+{
+  "id": "mobile-usa",
+  "city": "Mobile",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MOB",
+    "MSY",
+    "PIB"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 78,
+    "food": 82,
+    "photography": 75,
+    "activities": 76,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 65,
+      "maxPerDayUSD": 110
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 110,
+      "maxPerDayUSD": 185
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 185,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Mobile Alabama waterfront sunset",
+  "summary": "Mobile is a charming Gulf Coast city with a rich maritime heritage, vibrant arts scene, and some of the South's best Creole and seafood cuisine. Known for its historic downtown, beautiful spring azaleas, and laidback atmosphere, it offers authentic Southern culture without the crowds of major tourist destinations. The city serves as a perfect gateway to Mobile Bay's natural beauty and the white-sand beaches of the Gulf Shores.",
+  "restaurants": [
+    {
+      "name": "Justine's at Noon",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale farm-to-table establishment serving elevated Southern cuisine in an elegant historic setting. Known for seasonal menus featuring local Gulf ingredients and creative preparations.",
+      "mustTry": "Pan-seared local grouper with citrus beurre blanc"
+    },
+    {
+      "name": "The Flour",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual bakery and cafe serving artisanal breads, pastries, and sandwiches with a focus on quality ingredients. A favorite among locals for breakfast and lunch.",
+      "mustTry": "Fresh croissants and specialty coffee"
+    },
+    {
+      "name": "Wintzell's Oyster House",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Historic oyster bar and seafood restaurant established in 1938, famous for charbroiled oysters and Gulf Coast specialties. A Mobile institution with a fun, casual atmosphere.",
+      "mustTry": "Charbroiled oysters with garlic butter"
+    },
+    {
+      "name": "Katie Kat's Steaks & Seafood",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Sophisticated steakhouse offering premium cuts and fresh Gulf seafood in an upscale downtown setting. Extensive wine list and professional service.",
+      "mustTry": "Prime ribeye with stone crab claws"
+    },
+    {
+      "name": "The Catch",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Waterfront seafood restaurant with casual elegance, featuring fresh daily catches and creative preparations. Great views of Mobile Bay from the dining area.",
+      "mustTry": "Blackened fish tacos"
+    },
+    {
+      "name": "Dauphin's Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned Creole restaurant serving authentic New Orleans-style cuisine in a vibrant, casual setting. Known for gumbo, po'boys, and strong community ties.",
+      "mustTry": "Shrimp and sausage gumbo"
+    },
+    {
+      "name": "Panini Pete's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Italian-inspired sandwich shop with creative panini combinations and fresh ingredients. Perfect for quick, affordable lunch.",
+      "mustTry": "The Godfather panini with prosciutto and truffle oil"
+    },
+    {
+      "name": "Bushel Head Oyster Bar & Seafood Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual oyster bar with charming rustic decor, serving fresh Gulf oysters and straightforward seafood. Known for friendly staff and lively atmosphere.",
+      "mustTry": "Raw oyster sampler"
+    },
+    {
+      "name": "Avenue Pub",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic dive bar and restaurant serving classic American comfort food and craft beers in a quirky, welcoming environment. Great for locals and visitors alike.",
+      "mustTry": "Burgers and wings"
+    },
+    {
+      "name": "Warehouse Bakery & Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Industrial-chic space in a converted warehouse offering Southern comfort food with creative twists, fresh baked goods, and excellent coffee.",
+      "mustTry": "Breakfast hash with Gulf shrimp"
+    },
+    {
+      "name": "Spot of Tea",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming British-style cafe serving afternoon tea, light sandwiches, and homemade pastries. Delightful atmosphere for a relaxing break.",
+      "mustTry": "Traditional afternoon tea service"
+    },
+    {
+      "name": "Dragonfly Sushi",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary sushi restaurant offering creative rolls and fresh nigiri alongside Japanese-inspired small plates and craft cocktails.",
+      "mustTry": "Mobile Bay roll with local Gulf shrimp"
+    }
+  ],
+  "activities": [
+    {
+      "name": "USS Alabama Battleship Tour",
+      "category": "Cultural",
+      "description": "Self-guided or guided tour of the WWII-era battleship docked at Battleship Park. Explore multiple decks, gun turrets, and learn maritime history through interactive exhibits.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Historic Downtown Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Mobile's charming historic downtown featuring Spanish colonial architecture, ancient oak trees, and significant historic landmarks. Many tours are free or low-cost.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mobile Botanical Gardens",
+      "category": "Outdoor",
+      "description": "Beautiful 65-acre gardens featuring native plants, seasonal flowers including famous spring azaleas, walking paths, and peaceful natural areas.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Dauphin Island Audubon Bird Sanctuary",
+      "category": "Outdoor",
+      "description": "Nature preserve on nearby Dauphin Island featuring coastal ecosystems, bird watching opportunities, hiking trails, and Gulf views. Excellent for wildlife photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mobile Museum of Art",
+      "category": "Cultural",
+      "description": "Excellent contemporary art museum housed in a beautiful modern building, featuring rotating exhibitions, collections, and special events throughout the year.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Gulf Shores Beach Day",
+      "category": "Outdoor",
+      "description": "About 45 minutes drive east to the pristine white-sand beaches of Gulf Shores State Park, perfect for swimming, sunbathing, and coastal photography.",
+      "durationHours": 5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kayaking Mobile Bay",
+      "category": "Adventure",
+      "description": "Guided or self-guided kayaking tours through Mobile Bay's calm waters, marshlands, and barrier islands. Excellent for wildlife spotting and peaceful water exploration.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mobile Carnival Museum",
+      "category": "Cultural",
+      "description": "Celebrate Mobile's famous Mardi Gras traditions with exhibits of historical floats, costumes, and memorabilia. Open year-round with special programming during carnival season.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "African American Museum of History",
+      "category": "Cultural",
+      "description": "Important cultural institution documenting African American history, experiences, and contributions in Mobile and the broader South through exhibits and education programs.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 7,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Five Rivers Delta Safaris",
+      "category": "Adventure",
+      "description": "Boat tours through the scenic delta region observing wildlife including birds, dolphins, and alligators in their natural habitat. Professional naturalist guides provide interpretation.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Downtown Mobile Nightlife & Live Music",
+      "category": "Nightlife",
+      "description": "Experience Mobile's vibrant evening scene with live music venues, craft breweries, and bars concentrated in the historic downtown area.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bellingrath Gardens and Home",
+      "category": "Outdoor",
+      "description": "Stunning 65-acre estate gardens featuring seasonal flowers, azaleas, native plants, walking paths, and a beautiful historic home with tours available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Battleship Memorial Park",
+        "description": "The iconic USS Alabama battleship against dramatic sky creates striking silhouettes and architectural photography opportunities, especially at golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bienville Square Historic Oak Trees",
+        "description": "Ancient moss-draped live oak trees create ethereal canopies and romantic atmospheric shots in the heart of historic downtown.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light through branches, golden hour for silhouettes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mobile Bay Waterfront at Sunset",
+        "description": "Expansive water vistas with dramatic colored skies reflecting off the bay, perfect for seascape and atmospheric photography.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before to 30 minutes after sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Government Street Historic Architecture",
+        "description": "Collection of beautifully preserved colonial and antebellum buildings with intricate details, ornate facades, and charming storefronts.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light to avoid harsh shadows on facades",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dauphin Island Nature Preserve",
+        "description": "Coastal marshlands, beaches, and wildlife habitats offering landscape, wildlife, and nature photography opportunities throughout the preserve.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity and soft light",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Mobile Botanical Gardens Azalea Path",
+        "description": "Colorful seasonal flowers, walking paths through gardens, and natural landscaping create vibrant and serene composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring for azaleas, morning light for flower details",
+        "category": "Landscape"
+      },
+      {
+        "name": "Conti Street Historic District",
+        "description": "Picturesque historic street with colonial architecture, gas lamps, brick buildings, and atmospheric details perfect for street and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light, evening for street ambiance",
+        "category": "Street"
+      },
+      {
+        "name": "Cathedral Basilica of the Immaculate Conception",
+        "description": "Beautiful Spanish colonial church with ornate architectural details, stained glass, and historic charm offering interior and exterior photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light through windows for interior shots",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fort Condé Historic Fort",
+        "description": "Star-shaped historic military fort with brick walls, ramparts, and scenic river views creating interesting geometric and historical compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dramatic wall textures and shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Mobile Harbor and Riverside Areas",
+        "description": "Working waterfront with boats, reflections, maritime activity, and water vistas providing dynamic urban landscape and street photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for calm water reflections, evening for harbor activity",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Mobile Bay Waterfront",
+      "Dauphin Island Audubon Bird Sanctuary",
+      "Bienville Square Historic Park"
+    ],
+    "sunsetSpots": [
+      "Mobile Bay Waterfront at Sunset",
+      "Gulf Shores Beach",
+      "Battleship Memorial Park"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for sweeping bay vistas and historic architecture photography",
+      "50mm prime for street photography and intimate historical details in downtown",
+      "70-200mm telephoto for wildlife at sanctuaries and compressed landscaping at sunset"
+    ],
+    "goldenHourNotes": "Mobile's waterfront locations offer exceptional golden hour photography with soft light reflecting off the bay creating pastel skies. The historic downtown's oak trees create dramatic silhouettes and atmospheric effects during early morning and evening hours. Spring azalea blooms at gardens and parks provide vibrant color saturated during golden hour periods.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 8,
+        "rainfallMM": 137
+      },
+      {
+        "month": 2,
+        "avgTempC": 10,
+        "rainfallMM": 142
+      },
+      {
+        "month": 3,
+        "avgTempC": 14,
+        "rainfallMM": 130
+      },
+      {
+        "month": 4,
+        "avgTempC": 19,
+        "rainfallMM": 120
+      },
+      {
+        "month": 5,
+        "avgTempC": 24,
+        "rainfallMM": 137
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 180
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 190
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 165
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 140
+      },
+      {
+        "month": 10,
+        "avgTempC": 21,
+        "rainfallMM": 95
+      },
+      {
+        "month": 11,
+        "avgTempC": 15,
+        "rainfallMM": 137
+      },
+      {
+        "month": 12,
+        "avgTempC": 10,
+        "rainfallMM": 150
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "seasonality": "Spring (March-May) and Fall (October-November) offer the most pleasant weather with mild temperatures and lower humidity. Summer (June-August) is hot and humid with frequent afternoon thunderstorms and occasional hurricanes, while winter (December-February) is mild but rainy.",
+    "summary": "Mobile enjoys a humid subtropical climate with warm to hot summers and mild winters. The city experiences significant rainfall year-round, particularly during summer months, with spring featuring beautiful azalea blooms during peak growing season."
+  },
+  "hotels": [
+    {
+      "name": "Extended Stay Mobile",
+      "neighborhood": "Downtown/Midtown",
+      "pricePerNightUSD": 62,
+      "category": "Budget",
+      "description": "No-frills hotel offering clean, basic rooms with essential amenities and good value for budget-conscious travelers exploring the area."
+    },
+    {
+      "name": "Renaissance Mobile Downtown Harbor Hotel",
+      "neighborhood": "Downtown Waterfront",
+      "pricePerNightUSD": 145,
+      "category": "Mid-range",
+      "description": "Modern waterfront hotel with bay views, on-site dining, fitness center, and convenient downtown location near attractions and restaurants."
+    },
+    {
+      "name": "Battle House Renaissance Mobile Hotel & Spa",
+      "neighborhood": "Historic Downtown",
+      "pricePerNightUSD": 275,
+      "category": "Luxury",
+      "description": "Historic luxury hotel in a beautifully restored building with full spa, fine dining, elegant rooms, and prime location among historic monuments and cultural attractions."
+    }
+  ]
+}

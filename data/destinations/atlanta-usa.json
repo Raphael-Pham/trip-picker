@@ -6,363 +6,360 @@
   "airportCodes": [
     "ATL",
     "PDK",
-    "FTY"
+    "RYY"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
     "surprise",
-    "foodie",
     "photography",
+    "foodie",
     "adventure",
     "relaxation"
   ],
   "scores": {
-    "cost": 65,
+    "cost": 68,
     "food": 85,
     "photography": 78,
-    "activities": 88,
+    "activities": 82,
     "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 120
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
       "minPerDayUSD": 150,
-      "maxPerDayUSD": 250
+      "maxPerDayUSD": 280
     },
     {
       "level": "luxury",
       "minPerDayUSD": 300,
-      "maxPerDayUSD": 500
+      "maxPerDayUSD": 600
     }
   ],
   "unsplashQuery": "Atlanta skyline downtown",
-  "summary": "Atlanta is a vibrant Southern metropolis blending rich Civil Rights history, world-class dining, and urban culture. From the Georgia Aquarium to the Martin Luther King Jr. National Historical Park, the city offers both modern attractions and meaningful historical experiences. Known for its thriving food scene, diverse neighborhoods, and year-round events, Atlanta welcomes millions of visitors annually.",
+  "summary": "Atlanta is a vibrant Southern metropolis blending modern culture with Civil Rights history, offering exceptional food scenes, world-class attractions, and lush green spaces. From the iconic Georgia Aquarium to the BeltLine urban trail, the city provides diverse experiences for every traveler type. Known as the 'City Too Busy to Hate,' Atlanta continues to evolve as a creative hub with thriving neighborhoods and Southern hospitality.",
   "restaurants": [
     {
-      "name": "The Varsity",
+      "name": "Gu's Dumplings",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Chinese dumpling house serving handmade xiaolongbao and pan-fried dumplings at exceptional value. A local favorite hidden in a strip mall with minimal decor but maximum flavor.",
+      "mustTry": "Pork and chive xiaolongbao"
+    },
+    {
+      "name": "Antico Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Neapolitan-style pizzeria with wood-fired oven serving wood-fired pizzas with imported Italian ingredients. Known for long lines and authentic preparation methods.",
+      "mustTry": "Margherita pizza"
+    },
+    {
+      "name": "Busy Bee Cafe",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "An Atlanta institution since 1928 serving classic American diner food with a Southern twist. Famous for hot dogs, chili dogs, and fried chicken in a retro counter-service setting.",
-      "mustTry": "Chili dog with onions and a frosted orange drink"
+      "description": "Soul food institution serving Southern classics like fried chicken, collard greens, and peach cobbler in a no-frills cafeteria setting. A genuine taste of Atlanta's food heritage.",
+      "mustTry": "Fried chicken with mac and cheese"
+    },
+    {
+      "name": "Empire State South",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern American restaurant celebrating Georgia's agricultural heritage with seasonal menus and locally sourced ingredients. Elegant atmosphere in the heart of Midtown.",
+      "mustTry": "Shrimp and grits with seasonal vegetables"
+    },
+    {
+      "name": "Uchi",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Japanese restaurant offering omakase, innovative sushi rolls, and craft cocktails in a sleek setting. Known for creative presentations and fresh fish.",
+      "mustTry": "Toro with jalapeño and ponzu"
+    },
+    {
+      "name": "Goro Ramen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Japanese ramen house with house-made noodles and rich broths prepared daily in small batches. Intimate counter seating provides an authentic experience.",
+      "mustTry": "Tonkotsu ramen with chashu pork"
+    },
+    {
+      "name": "The Optimist",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Seafood-focused fine dining restaurant with a raw bar, wood-fired grill, and extensive wine list. Housed in a historic West Midtown building with soaring ceilings.",
+      "mustTry": "Wood-fired fish with seasonal preparations"
     },
     {
       "name": "Sotto Sotto",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "An upscale Italian restaurant featuring handmade pasta and elegant dishes in an intimate underground setting. Known for impeccable service and wine pairings.",
-      "mustTry": "Tagliatelle with truffle"
-    },
-    {
-      "name": "Uchi",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Contemporary Japanese cuisine with innovative sushi preparations and wood-fire cooking in a sophisticated setting. Features an extensive omakase menu.",
-      "mustTry": "Omakase experience"
-    },
-    {
-      "name": "Mary Mac's Tea Room",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "A beloved Southern comfort food restaurant serving classic dishes like fried chicken, collard greens, and mac and cheese since 1945. Offers authentic Southern hospitality.",
-      "mustTry": "Fried chicken with collard greens and cornbread"
-    },
-    {
-      "name": "Gunshow",
-      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "An innovative multi-course experience with dishes presented creatively by chefs moving throughout the intimate dining room. Offers a theatrical and interactive culinary experience.",
-      "mustTry": "Chef's choice tasting menu"
-    },
-    {
-      "name": "Fogo de Chao",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "A Brazilian steakhouse offering churrascaria-style dining with continuous meat service and an unlimited salad bar. Perfect for a festive group dinner.",
-      "mustTry": "Rodizio with picanha and lamb"
-    },
-    {
-      "name": "JCT Kitchen & Bar",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Farm-to-table restaurant showcasing Southern cuisine with seasonal ingredients and craft cocktails. Located in a historic building in Inman Park.",
-      "mustTry": "Fried chicken with buttermilk biscuits"
-    },
-    {
-      "name": "Bacchanalia",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "One of Atlanta's most acclaimed restaurants featuring New American cuisine with French influences in an intimate setting. Chef Anne Quatrano presents ever-changing seasonal menus.",
-      "mustTry": "Chef's selection tasting menu"
-    },
-    {
-      "name": "Republics at Lenox",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual restaurant with diverse global comfort food options and friendly service in Lenox Square Mall area. Great for quick quality meals at affordable prices.",
-      "mustTry": "Meatball sandwich or seasonal pasta"
+      "description": "Underground Italian fine dining establishment with candlelit ambiance, handmade pasta, and an impressive wine cellar. An intimate and romantic dining experience.",
+      "mustTry": "Pasta al tartufo with shaved truffles"
     },
     {
       "name": "Canoe",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Upscale New American restaurant with stunning river views overlooking the Chattahoochee River. Known for seasonal menus and impressive wine selection.",
-      "mustTry": "Grilled fish of the day"
+      "description": "Contemporary Southern cuisine restaurant overlooking the Chattahoochee River with seasonal tasting menus and impeccable service. Known for celebrating Georgia's food traditions with innovation.",
+      "mustTry": "Seared scallops with seasonal accompaniments"
     },
     {
-      "name": "Bone Garden Cantina",
+      "name": "Raku",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual Mexican restaurant in a historic building featuring street tacos, ceviches, and craft cocktails with vibrant decor. Popular for groups and casual dining.",
-      "mustTry": "Carnitas tacos and guacamole"
+      "description": "Japanese yakitori restaurant specializing in grilled chicken skewers with premium sake pairings in a minimalist setting. Casual counter dining with theatrical grill preparation.",
+      "mustTry": "Assorted chicken skewers with ponzu dipping sauce"
     },
     {
-      "name": "Paschal's Restaurant",
+      "name": "Leon's Full Service",
       "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Historic Soul food restaurant and cultural landmark serving traditional dishes in a welcoming atmosphere. An important Civil Rights history site and community gathering place.",
-      "mustTry": "Fried chicken, mac and cheese, and sweet tea"
+      "priceRange": "$$",
+      "description": "Casual Southern restaurant and cocktail bar in a historic building serving elevated comfort food and craft drinks. Known for maintaining neighborhood charm and quality.",
+      "mustTry": "Pimento cheese burger"
+    },
+    {
+      "name": "Juniper & Ivy",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "New American fine dining with seasonal menus showcasing local ingredients and creative cooking techniques. Elegant plating and thoughtful wine selections.",
+      "mustTry": "Chef's seasonal tasting menu"
     }
   ],
   "activities": [
     {
       "name": "Georgia Aquarium",
       "category": "Family",
-      "description": "One of the largest aquariums in the world featuring whale sharks, beluga whales, and diverse marine life across multiple galleries. Offers interactive experiences and educational programs.",
+      "description": "One of the world's largest aquariums featuring whale sharks, beluga whales, manta rays, and thousands of marine species across multiple galleries. Interactive touch pools and feeding demonstrations throughout the day.",
       "durationHours": 4,
-      "estimatedCostUSD": 40,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
-        "family"
-      ]
-    },
-    {
-      "name": "Martin Luther King Jr. National Historical Park",
-      "category": "Cultural",
-      "description": "Birthplace, childhood home, and tomb of MLK Jr. with a visitor center featuring exhibits about the Civil Rights Movement. Free admission to most sites with paid parking.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "World of Coca-Cola",
-      "category": "Family",
-      "description": "Interactive museum dedicated to the history and global reach of Coca-Cola with tastings, exhibits, and memorabilia. Located downtown with immersive experiences.",
-      "durationHours": 2,
-      "estimatedCostUSD": 22,
-      "bestFor": [
-        "standard",
-        "family",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Atlanta BeltLine",
-      "category": "Outdoor",
-      "description": "A 22-mile urban trail converted from railroad corridors connecting neighborhoods, parks, and cultural districts. Perfect for walking, running, or cycling with street art and green spaces.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "relaxation",
-        "hidden-gems",
-        "photography"
-      ]
-    },
-    {
-      "name": "Fox Theatre Historic Tour",
-      "category": "Cultural",
-      "description": "Guided tour of the opulent 1920s movie palace featuring stunning architecture, intricate details, and fascinating history. Attend a live performance for full experience.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Piedmont Park",
-      "category": "Outdoor",
-      "description": "A 189-acre urban park with trails, gardens, sports facilities, and scenic views of the Atlanta skyline. Home to summer outdoor festivals and concerts.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
-        "adventure",
-        "photography",
         "family"
       ]
     },
     {
       "name": "National Center for Civil and Human Rights",
       "category": "Cultural",
-      "description": "Museum dedicated to civil rights history with powerful exhibits, documentaries, and interactive displays. Comprehensive look at local and global human rights movements.",
-      "durationHours": 2,
+      "description": "Powerful museum documenting the Civil Rights Movement and contemporary human rights issues through interactive exhibits and artifacts. Located downtown with profound educational value.",
+      "durationHours": 3,
       "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "surprise"
+        "photography"
       ]
     },
     {
-      "name": "Atlanta History Center",
-      "category": "Cultural",
-      "description": "Extensive museum with galleries on Atlanta's history, Civil War artifacts, and local culture set on 33 acres with gardens and historic houses. Comprehensive regional history experience.",
-      "durationHours": 3,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Nightlife in Midtown",
-      "category": "Nightlife",
-      "description": "Vibrant neighborhood with rooftop bars, cocktail lounges, live music venues, and clubs offering diverse nightlife options. Known for energetic atmosphere and diverse crowds.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "East Atlanta Village Street Art Tour",
-      "category": "Cultural",
-      "description": "Self-guided or organized tour exploring colorful murals and street art in the eclectic East Atlanta neighborhood. Combines art, culture, local shops, and cafes.",
+      "name": "BeltLine Trail and Parks",
+      "category": "Outdoor",
+      "description": "22-mile urban multi-use trail converting historic railroad corridors into parks, trails, and green spaces with public art installations throughout. Perfect for walking, biking, or jogging with access to multiple neighborhoods.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "hidden-gems",
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "World of Coca-Cola",
+      "category": "Family",
+      "description": "Interactive museum showcasing Coca-Cola history with tastings from beverages around the world and interactive exhibits. Located downtown near the Georgia Aquarium.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Atlanta BeltLine Eastside Trail Bike Tour",
+      "category": "Adventure",
+      "description": "Guided bike tour along the most developed section of the BeltLine featuring street art, local businesses, and community spaces. Expert guides provide neighborhood history and insights.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
         "photography",
         "surprise"
       ]
     },
     {
-      "name": "Brookhaven Park and Trail System",
+      "name": "Piedmont Park",
       "category": "Outdoor",
-      "description": "Suburban park with scenic trails, natural areas, and peaceful ponds suitable for hiking and nature exploration. Less crowded alternative to downtown parks.",
+      "description": "135-acre urban park offering hiking trails, playgrounds, athletic fields, and scenic lake views with picnic areas. Free access to open green space in the heart of the city.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "relaxation",
-        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Martin Luther King Jr. National Historical Park",
+      "category": "Cultural",
+      "description": "Historic site featuring MLK's childhood home, Ebenezer Baptist Church, and the King Center with tours and exhibits about the Civil Rights Movement. Free admission to outdoor areas and exhibits.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Fox Theatre Tour",
+      "category": "Cultural",
+      "description": "Stunning 1920s movie palace offering guided historical tours of ornate architecture, murals, and backstage areas. One of Atlanta's most iconic buildings with fascinating entertainment history.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
         "photography"
       ]
     },
     {
-      "name": "SkyView Atlanta Ferris Wheel",
+      "name": "Skyview Atlanta Observation Wheel",
       "category": "Family",
-      "description": "Iconic 200-foot observation wheel in Centennial Olympic Park offering 360-degree views of downtown and surrounding areas. Climate-controlled cabins with optional drink service.",
-      "durationHours": 0.5,
+      "description": "200-foot tall Ferris wheel offering 360-degree views of downtown Atlanta and surrounding areas from glass-enclosed cabins. Located in the heart of downtown near the Aquarium.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Little Five Points Neighborhood Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of eclectic historic neighborhood featuring street art, vintage shops, independent bookstores, and vintage clothing boutiques. Known for bohemian character and creative energy.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "surprise",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Atlanta History Center",
+      "category": "Cultural",
+      "description": "Comprehensive museum covering Atlanta history from pre-Civil War times through modern era with extensive archives and historic house museums. Beautiful gardens on 33-acre estate.",
+      "durationHours": 3,
       "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "family",
         "photography"
+      ]
+    },
+    {
+      "name": "Rooftop and Speakeasy Bar Crawl",
+      "category": "Nightlife",
+      "description": "Self-guided or group tour of Atlanta's famous rooftop bars and hidden speakeasies featuring craft cocktails and city views. Popular neighborhoods include Midtown, Downtown, and Virginia-Highland.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "nightlife"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Stone Mountain Park",
-        "description": "Massive granite mountain carved with Confederate monument offering panoramic valley views and opportunity to capture the distinctive quartzite face with varying light.",
+        "name": "Centennial Olympic Park",
+        "description": "Iconic urban park featuring the Olympic Rings, fountains, and Atlanta skyline backdrop perfect for daytime cityscape photography.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour sunrise or sunset",
-        "category": "Landscape"
+        "bestTime": "Golden hour for skyline reflections or midday for fountain detail shots",
+        "category": "Architecture"
       },
       {
-        "name": "Georgia Aquarium at Night",
-        "description": "Illuminated modern architecture with reflections in water features creates dynamic nighttime compositions capturing Atlanta's contemporary design.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening after dark with indoor lighting",
+        "name": "Georgia Aquarium Exterior",
+        "description": "Modern architectural facility with dramatic glass facade and geometric design reflecting light beautifully throughout the day.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for directional light on facade",
         "category": "Architecture"
+      },
+      {
+        "name": "BeltLine Trail with Street Art",
+        "description": "Ever-changing collection of street art murals along the BeltLine providing colorful and creative backdrops for photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even color saturation or early morning light",
+        "category": "Street"
+      },
+      {
+        "name": "Ponce City Market Building",
+        "description": "Historic 1926 Sears building with striking red-brick Victorian architecture and iconic clock tower in trendy Virginia-Highland.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour from the east for dramatic shadow play",
+        "category": "Architecture"
+      },
+      {
+        "name": "Little Five Points Street Scene",
+        "description": "Eclectic neighborhood with colorful storefronts, vintage signs, street performers, and bohemian atmosphere for street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon for natural light on facades and interesting shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Chattahoochee River from Piedmont Park",
+        "description": "Natural landscape views of the river valley with mature trees, green banks, and wildlife observation opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist and soft light or late afternoon for golden tones",
+        "category": "Landscape"
       },
       {
         "name": "Downtown Atlanta Skyline from Piedmont Park",
-        "description": "Classic vantage point capturing the downtown skyline with natural foreground of park vegetation and seasonal color variation.",
+        "description": "Classic elevated cityscape view with downtown towers framed by Piedmont Park trees and lake reflections.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour or blue hour",
+        "bestTime": "Sunset for warm tones or blue hour for dramatic city lights",
         "category": "Landscape"
       },
       {
-        "name": "BeltLine Trail Murals",
-        "description": "Colorful street art and murals along the converted rail corridor provide vibrant composition opportunities with urban textures and bold colors.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for saturated colors or overcast for even lighting",
-        "category": "Street"
-      },
-      {
-        "name": "East Atlanta Village Street Art",
-        "description": "Eclectic neighborhood known for constantly changing murals and installations offering diverse color palettes and contemporary artistic expression.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday with strong directional light or overcast",
-        "category": "Street"
-      },
-      {
-        "name": "Fox Theatre Exterior and Marquee",
-        "description": "Ornate 1920s architecture with detailed facade and illuminated marquee offers both daytime architectural detail and dramatic nighttime compositions.",
+        "name": "Fox Theatre Marquee and Architecture",
+        "description": "Ornate 1920s theatre facade with elaborate marquee lettering and dramatic architectural details.",
         "difficulty": "Beginner",
-        "bestTime": "Evening when marquee is lit or golden hour for facade detail",
+        "bestTime": "Evening for neon lights or late afternoon for architectural detail",
         "category": "Architecture"
       },
       {
-        "name": "Centennial Olympic Park Fountain Show",
-        "description": "Choreographed fountain with colorful lighting and water jets creates dynamic action shots, especially impressive after sunset.",
-        "difficulty": "Intermediate",
-        "bestTime": "Dusk and evening when color lighting is visible",
-        "category": "Night"
+        "name": "Krog Street Tunnel",
+        "description": "Historic industrial tunnel transformed with constantly evolving street art and creative lighting creating dramatic urban scenes.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday or overcast for even lighting or night photography for neon effects",
+        "category": "Street"
       },
       {
-        "name": "Martin Luther King Jr. Tomb",
-        "description": "Reflective pool and historic monument in peaceful setting offers contemplative compositions with natural and architectural elements.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon light",
-        "category": "Architecture"
-      },
-      {
-        "name": "Atlanta BeltLine Sunset Views",
-        "description": "Elevated trail sections with tree canopy create natural framing for sunset compositions over the city with layers of depth.",
+        "name": "Stone Mountain from Distance",
+        "description": "Iconic granite mountain monument outside Atlanta accessible for landscape photography with varied perspectives and lighting.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour approaching sunset",
+        "bestTime": "Sunrise or sunset for dramatic lighting or midday for landscape depth",
         "category": "Landscape"
-      },
-      {
-        "name": "Inman Park Historic Homes",
-        "description": "Victorian and historic architecture with established trees and landscaping create textured neighborhood scenes with character and depth.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm light on building facades",
-        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Stone Mountain Park Summit",
-      "Piedmont Park East Ridge",
-      "Atlanta BeltLine Trail at Eastside"
+      "Piedmont Park East Overlook",
+      "Centennial Olympic Park",
+      "Atlanta BeltLine Near Inman Park"
     ],
     "sunsetSpots": [
-      "Piedmont Park West Overlook",
-      "SkyView Atlanta Ferris Wheel",
-      "Stone Mountain Park West Face"
+      "Skyview Atlanta Observation Wheel",
+      "Piedmont Park West Over Downtown",
+      "Chattahoochee River Overlook"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive skyline and landscape shots capturing downtown context",
-      "50mm prime for street photography and architectural detail in urban neighborhoods",
-      "70-200mm telephoto for compressed skyline compositions and distant mountain views",
-      "24mm prime for environmental portraiture and intimate architectural framing"
+      "Wide-angle 16-35mm for cityscape and street art murals",
+      "Standard 35-85mm for portraits and architectural details",
+      "Telephoto 70-200mm for distant skyline compression and wildlife in parks",
+      "Macro 90-105mm for close-up detail of street art and ornate architectural elements"
     ],
-    "goldenHourNotes": "Atlanta's golden hours offer warm light ideal for skyline photography and architectural facades, particularly from Piedmont Park and Stone Mountain. The subtropical climate creates hazy conditions that can diffuse harsh light, enhancing soft quality. Plan shoots during extended golden hours in spring and fall when weather is most predictable.",
+    "goldenHourNotes": "Atlanta's golden hour is exceptionally photogenic with warm light reflecting off glass buildings downtown and creating dramatic shadows in historic neighborhoods. The best times are 30-45 minutes after sunrise over Piedmont Park and 45 minutes before sunset from elevated viewpoints like Skyview Atlanta. Street photography benefits greatly from the soft directional light on facades and murals during golden hour.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -370,95 +367,95 @@
       {
         "month": 1,
         "avgTempC": 6,
-        "rainfallMM": 130
+        "rainfallMM": 127
       },
       {
         "month": 2,
         "avgTempC": 8,
-        "rainfallMM": 120
+        "rainfallMM": 127
       },
       {
         "month": 3,
         "avgTempC": 13,
-        "rainfallMM": 140
+        "rainfallMM": 145
       },
       {
         "month": 4,
         "avgTempC": 19,
-        "rainfallMM": 130
+        "rainfallMM": 114
       },
       {
         "month": 5,
         "avgTempC": 24,
-        "rainfallMM": 110
+        "rainfallMM": 102
       },
       {
         "month": 6,
         "avgTempC": 27,
-        "rainfallMM": 150
+        "rainfallMM": 140
       },
       {
         "month": 7,
         "avgTempC": 29,
-        "rainfallMM": 150
+        "rainfallMM": 127
       },
       {
         "month": 8,
         "avgTempC": 28,
-        "rainfallMM": 140
+        "rainfallMM": 127
       },
       {
         "month": 9,
         "avgTempC": 25,
-        "rainfallMM": 120
+        "rainfallMM": 102
       },
       {
         "month": 10,
         "avgTempC": 19,
-        "rainfallMM": 100
+        "rainfallMM": 89
       },
       {
         "month": 11,
         "avgTempC": 13,
-        "rainfallMM": 120
+        "rainfallMM": 102
       },
       {
         "month": 12,
         "avgTempC": 8,
-        "rainfallMM": 130
+        "rainfallMM": 127
       }
     ],
     "bestMonths": [
       4,
       5,
-      10,
-      11
+      9,
+      10
     ],
-    "seasonality": "Spring (April-May) and fall (October-November) offer ideal weather with moderate temperatures and lower humidity. Summers are hot and humid with frequent afternoon thunderstorms, while winters are mild but can be unpredictable with occasional ice and snow.",
-    "summary": "Atlanta experiences four distinct seasons with mild winters averaging 6-8°C and warm summers reaching 27-29°C. The city receives significant rainfall throughout the year, totaling around 1,280mm annually, with higher precipitation during summer months. Spring and fall present the most pleasant conditions for outdoor activities and tourism."
+    "seasonality": "Spring and fall offer the most pleasant weather with mild temperatures and lower humidity, making them ideal for outdoor activities. Summer is hot and humid with frequent afternoon thunderstorms, while winter is mild but can occasionally dip below freezing with rare ice events.",
+    "summary": "Atlanta has a humid subtropical climate with distinct seasons and moderate rainfall year-round. Expect warm to hot summers, mild winters, and beautiful transitional seasons in spring and fall."
   },
   "hotels": [
     {
-      "name": "Motel 6 Atlanta Downtown",
+      "name": "HI Atlanta Downtown Hostel",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 75,
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "No-frills budget motel with basic amenities located near downtown attractions and easy highway access for exploring the city."
+      "description": "Social hostel with dormitory and private rooms, communal kitchen, rooftop deck, and free walking tours near major attractions."
     },
     {
-      "name": "Renaissance Atlanta Midtown Hotel",
-      "neighborhood": "Midtown",
+      "name": "Kimpton Hotel Monaco Atlanta",
+      "neighborhood": "Downtown",
       "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Modern upscale hotel with stylish rooms, excellent service, and prime location in vibrant Midtown neighborhood near restaurants and galleries."
+      "description": "Stylish boutique hotel with eco-friendly practices, pet-friendly policy, complimentary wine hour, and excellent location near Centennial Olympic Park."
     },
     {
-      "name": "Four Seasons Hotel Atlanta",
-      "neighborhood": "Buckhead",
+      "name": "The St. Regis Atlanta",
+      "neighborhood": "Midtown",
       "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Five-star luxury property in exclusive Buckhead area featuring fine dining, spa services, elegant rooms, and impeccable personalized service."
+      "description": "Ultra-luxury five-star hotel with white-glove service, Michelin-inspired dining, spa, and panoramic city views from prestigious Midtown location."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1663601460253-aba72eea6edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBdGxhbnRhJTIwc2t5bGluZSUyMGRvd250b3dufGVufDF8MHx8fDE3ODEzMDMxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1663601460253-aba72eea6edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBdGxhbnRhJTIwc2t5bGluZSUyMGRvd250b3dufGVufDF8MHx8fDE3ODE2Mjc5MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

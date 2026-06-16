@@ -11,357 +11,361 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
-    "photography",
     "foodie",
+    "photography",
+    "cultural",
     "adventure",
     "relaxation"
   ],
   "scores": {
     "cost": 35,
-    "food": 88,
-    "photography": 82,
-    "activities": 85,
-    "weather": 65
+    "food": 90,
+    "photography": 85,
+    "activities": 88,
+    "weather": 60
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 60,
-      "maxPerDayUSD": 100
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 120
     },
     {
       "level": "mid",
-      "minPerDayUSD": 100,
-      "maxPerDayUSD": 200
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Toronto CN Tower skyline",
-  "summary": "Toronto is Canada's largest city and a vibrant cultural hub featuring iconic landmarks like the CN Tower, diverse neighborhoods with world-class dining, and stunning waterfront attractions. The city blends multicultural heritage, modern architecture, and creative arts scenes, making it an ideal destination for food lovers, photographers, and urban explorers.",
+  "unsplashQuery": "Toronto skyline CN Tower",
+  "summary": "Toronto is Canada's largest city and a vibrant multicultural metropolis renowned for its iconic CN Tower, diverse neighborhoods, and exceptional food scene. From world-class museums and theater to lakefront parks and street art, the city offers endless cultural experiences and culinary adventures. Whether exploring Kensington Market, catching a Blue Jays game, or visiting Niagara Falls nearby, Toronto captures the energy and diversity of modern Canada.",
   "restaurants": [
     {
       "name": "Pai Northern Thai",
-      "category": "Local Specialty",
+      "category": "Midrange",
       "priceRange": "$$",
-      "description": "Authentic northern Thai cuisine in a trendy Ossington corridor location with bold flavors and traditional cooking methods.",
-      "mustTry": "Northern Thai sausage and green papaya salad"
-    },
-    {
-      "name": "Alo",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Innovative tasting menu restaurant offering contemporary Canadian cuisine in an elegant, intimate setting.",
-      "mustTry": "Chef's seasonal tasting menu"
-    },
-    {
-      "name": "Kiin Kiin",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Modern Thai fine dining with artistic presentation and premium ingredients in a sophisticated atmosphere.",
-      "mustTry": "Royal Thai curry with rare ingredients"
-    },
-    {
-      "name": "Sneaky Dee's",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Iconic dive bar and restaurant famous for its incredible wings and casual vibe on College Street.",
-      "mustTry": "Buffalo wings with blue cheese dip"
+      "description": "Casual Thai restaurant in a trendy West Queen West location serving authentic Northern Thai cuisine with bold flavors and communal dining style.",
+      "mustTry": "Khao Soi (Northern Thai curry noodle soup)"
     },
     {
       "name": "Bouchon Bakery",
       "category": "Budget",
       "priceRange": "$",
-      "description": "French-inspired bakery and café offering fresh pastries, sandwiches, and excellent coffee in a charming setting.",
-      "mustTry": "Croissants and almond croissants"
+      "description": "Classic French-Canadian bakery with fresh pastries, sandwiches, and coffee perfect for a quick breakfast or lunch in the Entertainment District.",
+      "mustTry": "Croissant au chocolat"
+    },
+    {
+      "name": "Scaramouche",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French fine dining restaurant with panoramic city views overlooking the skyline from a 43rd-floor location, offering contemporary French cuisine.",
+      "mustTry": "Roasted rack of lamb with herb crust"
+    },
+    {
+      "name": "Hunts",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Award-winning restaurant featuring nose-to-tail British and European cuisine in an intimate, sophisticated setting in downtown Toronto.",
+      "mustTry": "Beef tartare with bone marrow toast"
+    },
+    {
+      "name": "Banh Mi Boys",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Vietnamese banh mi sandwich shop with a cult following, offering authentic Vietnamese flavors and quick service in Kensington Market.",
+      "mustTry": "Pâté and Vietnamese cold cuts banh mi"
     },
     {
       "name": "Canteen",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual neighborhood restaurant celebrating Canadian ingredients with comfort food and welcoming atmosphere.",
-      "mustTry": "Roasted chicken with seasonal vegetables"
+      "description": "Contemporary Asian fusion restaurant combining Japanese, Korean, and Thai influences with a lively atmosphere in a central downtown location.",
+      "mustTry": "Korean fried chicken with spicy mayo"
     },
     {
-      "name": "Momofuku Shim Sui",
-      "category": "Midrange",
+      "name": "Alo",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Multi-Michelin star fine dining destination offering an innovative tasting menu with theatrical presentation in an exclusive 10-seat venue.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Kenzo Ramen",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Modern Japanese ramen and noodle bar with creative broths and high-quality ingredients.",
-      "mustTry": "House special tonkotsu ramen"
+      "description": "Japanese ramen specialty restaurant in Chinatown serving authentic tonkotsu broth and handmade noodles with rich umami flavors.",
+      "mustTry": "Tonkotsu ramen with soft-boiled egg and pork belly"
+    },
+    {
+      "name": "Graffiti's Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Italian breakfast and lunch spot in Little Italy with fresh ingredients, homemade pasta, and a cozy neighborhood vibe.",
+      "mustTry": "Frittata with seasonal vegetables"
     },
     {
       "name": "Sotto Sotto",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Romantic Italian fine dining hidden below street level with handmade pasta and extensive wine list.",
-      "mustTry": "Fresh pasta with truffle sauce"
+      "description": "Underground Italian fine dining restaurant with romantic candlelit ambiance serving authentic Italian cuisine in a historic basement setting.",
+      "mustTry": "Handmade pasta with truffle and porcini"
     },
     {
-      "name": "Pearlette's",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Vibrant brunch destination with French-Canadian influences and creative cocktails in a lively atmosphere.",
-      "mustTry": "Eggs Benedict with unique variations"
-    },
-    {
-      "name": "Tsukiji",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Fresh sushi and Japanese fare from a chef with decades of experience in a minimalist setting.",
-      "mustTry": "Omakase selection"
-    },
-    {
-      "name": "The Burger's Priest",
-      "category": "Budget",
+      "name": "Lee Kitchen",
+      "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Cult favorite burger joint serving juicy, carefully-crafted burgers with minimal toppings philosophy.",
-      "mustTry": "Single or double cheeseburger"
+      "description": "Authentic Cantonese restaurant in Chinatown offering dim sum by cart and traditional Hong Kong street food at local prices.",
+      "mustTry": "Har gow (shrimp dumplings) and siu mai (pork dumplings)"
     },
     {
-      "name": "Estilo Español",
+      "name": "Cluny Bistro",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Authentic Spanish tapas and paella restaurant with lively atmosphere and generous portions.",
-      "mustTry": "Paella mixta and Spanish ham platter"
+      "description": "French-inspired bistro in Old Town Toronto with warm hospitality, classic French comfort food, and an excellent wine selection.",
+      "mustTry": "Coq au vin with creamy mashed potatoes"
     }
   ],
   "activities": [
     {
-      "name": "CN Tower Visit",
+      "name": "CN Tower Experience",
       "category": "Outdoor",
-      "description": "Iconic 1,136-foot tower offering panoramic city views from the observation deck, with optional EdgeWalk experience for thrill-seekers.",
-      "durationHours": 3,
+      "description": "Ascend Canada's most iconic landmark to the observation deck for 360-degree panoramic views of Toronto and Lake Ontario, with optional glass floor viewing.",
+      "durationHours": 2,
       "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
         "photography",
-        "adventure"
+        "cultural"
       ]
     },
     {
-      "name": "Toronto Islands Exploration",
-      "category": "Outdoor",
-      "description": "Short ferry ride to a chain of islands featuring parks, beaches, bike trails, and stunning views of the city skyline.",
-      "durationHours": 4,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Art Gallery of Ontario",
+      "name": "Explore Kensington Market",
       "category": "Cultural",
-      "description": "World-class art museum featuring Canadian, contemporary, and African art with impressive architecture and rotating exhibitions.",
-      "durationHours": 3,
-      "estimatedCostUSD": 22,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Distillery District Walking Tour",
-      "category": "Cultural",
-      "description": "Historic pedestrian village with Victorian-era cobblestone streets, galleries, shops, restaurants, and street art in a charming setting.",
+      "description": "Wander through this historic bohemian neighborhood with vintage shops, street art, diverse international food vendors, and vintage clothing boutiques.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography",
         "foodie",
-        "surprise"
+        "photography"
       ]
     },
     {
-      "name": "Royal Ontario Museum",
-      "category": "Cultural",
-      "description": "One of North America's largest museums with extensive natural history, world culture, and dinosaur exhibits.",
+      "name": "Visit Toronto Islands",
+      "category": "Outdoor",
+      "description": "Take a ferry to the peaceful Toronto Islands for beaches, parks, cycling trails, and views back toward the downtown skyline across Lake Ontario.",
+      "durationHours": 4,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Art Gallery of Ontario",
+      "category": "Indoor",
+      "description": "Explore one of North America's largest art museums featuring contemporary works, Group of Seven paintings, and rotating international exhibitions.",
       "durationHours": 3,
-      "estimatedCostUSD": 25,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Niagara Falls Day Trip",
+      "category": "Adventure",
+      "description": "Journey to the iconic falls 1.5 hours away for boat tours, hiking trails, and the breathtaking power of one of the world's greatest natural wonders.",
+      "durationHours": 8,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Blue Jays Baseball Game",
+      "category": "Nightlife",
+      "description": "Experience Major League Baseball at Rogers Centre, cheering on the Toronto Blue Jays in a lively stadium atmosphere with great views and classic ballpark food.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "standard",
         "family"
       ]
     },
     {
-      "name": "Kayaking Lake Ontario",
-      "category": "Adventure",
-      "description": "Guided or self-guided kayaking adventure offering unique water-level perspective of the city skyline and waterfront.",
+      "name": "Toronto Islands Bike Tour",
+      "category": "Outdoor",
+      "description": "Cycle through multiple Toronto Islands exploring beaches, parks, and wildlife habitats while enjoying fresh lake air and car-free paths.",
       "durationHours": 3,
-      "estimatedCostUSD": 65,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "adventure",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Graffiti Alley Walking Tour",
+      "name": "Distillery District Walking Tour",
       "category": "Cultural",
-      "description": "Vibrant laneway filled with constantly changing street art and murals, offering authentic Toronto artistic expression.",
+      "description": "Discover this pedestrian village with Victorian-era industrial architecture, galleries, boutiques, restaurants, and craft breweries in restored buildings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Royal Ontario Museum",
+      "category": "Indoor",
+      "description": "Explore natural history, world cultures, and dinosaur fossils in Canada's largest museum featuring diverse exhibits across six levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "family"
+      ]
+    },
+    {
+      "name": "St. Lawrence Market Experience",
+      "category": "Foodie",
+      "description": "Browse this historic public market since 1803 featuring local produce, artisanal foods, Canadian specialties, and local vendors in a vibrant marketplace.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Toronto Theatre District Show",
+      "category": "Nightlife",
+      "description": "Catch a Broadway-style musical or theatrical production at one of 20+ theaters in the Entertainment District featuring world-class performances.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Graffiti Alley Street Art Tour",
+      "category": "Cultural",
+      "description": "Walk through Toronto's famous colorful street art corridor in the Arts and Design District, featuring constantly changing murals and installations by local artists.",
       "durationHours": 1,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "standard",
         "photography",
-        "surprise",
         "hidden-gems"
-      ]
-    },
-    {
-      "name": "Ripley's Aquarium",
-      "category": "Family",
-      "description": "Interactive aquarium at the base of CN Tower featuring underwater tunnel, touch pools, and diverse marine life.",
-      "durationHours": 2,
-      "estimatedCostUSD": 32,
-      "bestFor": [
-        "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "St. Lawrence Market Exploration",
-      "category": "Foodie",
-      "description": "Historic public market operating since 1803 offering fresh produce, local goods, street food, and authentic neighborhood atmosphere.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Casa Loma Mansion Tour",
-      "category": "Cultural",
-      "description": "Gothic Revival castle and former mansion with 98 rooms offering tours of luxurious interiors and panoramic city views from the terrace.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Blue Jays Baseball Game",
-      "category": "Family",
-      "description": "Experience Major League Baseball at Rogers Centre, the world's first retractable roof stadium, with passionate fans and electric atmosphere.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "Neighborhood Walking Tour",
-      "category": "Cultural",
-      "description": "Self-guided exploration of distinct neighborhoods including Kensington Market, Chinatown, Little Italy, and Queen West with shops, galleries, and cafes.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "photography",
-        "surprise"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "CN Tower from Lighthouse Point",
-        "description": "Iconic tower framed against Lake Ontario with waterfront park in foreground, perfect for golden hour photography.",
+        "name": "CN Tower Base",
+        "description": "Iconic architectural landmark providing dramatic upward perspectives against Toronto's skyline with symmetrical modern design.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour (sunrise/sunset)",
+        "bestTime": "Golden hour or blue hour",
         "category": "Architecture"
       },
       {
         "name": "Toronto Islands Skyline View",
-        "description": "Unobstructed view of downtown skyline from Toronto Islands, especially striking at night or during blue hour.",
-        "difficulty": "Beginner",
-        "bestTime": "Blue hour or night",
+        "description": "Pristine vantage point across Lake Ontario capturing downtown skyline with water reflections and natural foreground elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset",
         "category": "Landscape"
       },
       {
-        "name": "Gooderham Building (Flatiron)",
-        "description": "Historic triangular red-brick building with cobblestone street, extremely popular for architectural and street photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning to avoid crowds",
+        "name": "Distillery District Victorian Architecture",
+        "description": "Historic red brick industrial buildings and cobblestone streets offering rich textural composition and nostalgic aesthetic.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even lighting",
         "category": "Architecture"
       },
       {
-        "name": "Graffiti Alley",
-        "description": "Vibrant street art corridor with constantly changing murals and colorful designs perfect for vibrant street photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for even lighting",
+        "name": "Graffiti Alley Street Art",
+        "description": "Vibrant colorful murals and street art covering brick walls providing bold colors and dynamic urban compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for saturated colors",
         "category": "Street"
       },
       {
+        "name": "Chinatown Lanterns and Signs",
+        "description": "Traditional red lanterns, neon signs, and vibrant market scenes capturing the energy and colors of Toronto's historic Chinese neighborhood.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for neon glow",
+        "category": "Night"
+      },
+      {
+        "name": "St. Lawrence Market Hall Interior",
+        "description": "Historic market with wooden beams, natural light streaming through windows, and bustling vendor activity creating dynamic scenes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning natural light",
+        "category": "Architecture"
+      },
+      {
         "name": "Toronto Waterfront Trail",
-        "description": "Scenic 22-km trail along Lake Ontario offering diverse composition opportunities from water reflections to wildlife.",
+        "description": "Scenic pathway along Lake Ontario with joggers, cyclists, and water views creating layered compositional opportunities.",
         "difficulty": "Beginner",
         "bestTime": "Golden hour",
         "category": "Landscape"
       },
       {
-        "name": "Casa Loma Exterior",
-        "description": "Gothic Revival castle architecture with manicured grounds offering dramatic architectural photography opportunities.",
-        "difficulty": "Intermediate",
+        "name": "Flatiron Building and Gooderham Street",
+        "description": "Historic red-brick triangular building with converging streets providing unique geometric compositions and Old Toronto character.",
+        "difficulty": "Beginner",
         "bestTime": "Morning light",
         "category": "Architecture"
       },
       {
-        "name": "St. Lawrence Market Interior",
-        "description": "Historic market with rustic wood beams, vendor stalls, and atmospheric lighting creating documentary and street photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning when light streams in",
-        "category": "Street"
-      },
-      {
-        "name": "Distillery District",
-        "description": "Victorian-era pedestrian village with cobblestone streets, red brick buildings, and artistic installations ideal for architectural and atmospheric photography.",
+        "name": "Hockey Hall of Fame Exterior",
+        "description": "Classical bank building architecture with neoclassical details and historical significance in downtown core.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour",
+        "bestTime": "Overcast for detail visibility",
         "category": "Architecture"
       },
       {
-        "name": "High Park in Spring",
-        "description": "Urban park with Japanese cherry blossoms, natural landscape, and city views in background for nature and landscape photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Cherry blossom season (April-May)",
-        "category": "Landscape"
-      },
-      {
-        "name": "Scarborough Bluffs",
-        "description": "Dramatic cliff formations along Lake Ontario with colorful clay deposits and water reflections offering advanced landscape photography.",
+        "name": "Toronto Islands Wildlife and Nature",
+        "description": "Natural marshlands, bird sanctuaries, and water reflections offering opportunities for nature and wildlife photography.",
         "difficulty": "Advanced",
-        "bestTime": "Golden hour",
-        "category": "Landscape"
+        "bestTime": "Early morning for wildlife activity",
+        "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
       "Scarborough Bluffs",
-      "Toronto Islands",
-      "Lighthouse Point"
+      "Toronto Islands Eastern Point",
+      "Ashbridge's Bay Park"
     ],
     "sunsetSpots": [
-      "Toronto Islands",
-      "Lighthouse Point",
-      "High Park"
+      "Centre Island Lookout",
+      "Hanlan's Point Beach",
+      "Waterfront Trail near Exhibition Place"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for cityscape and architectural shots of CN Tower and downtown skyline",
-      "50mm prime for street photography in neighborhoods and markets with shallow depth of field",
-      "70-200mm telephoto for compressed skyline views from islands and wildlife along waterfront",
-      "14mm ultra-wide for dramatic architectural and landscape perspectives at Scarborough Bluffs"
+      "16-35mm ultra-wide for expansive skyline and architectural perspectives",
+      "50mm prime for street photography and market scenes with natural compression",
+      "70-200mm telephoto for compressed skyline views and wildlife on islands",
+      "14mm ultra-wide for dramatic upward architectural shots of CN Tower"
     ],
-    "goldenHourNotes": "Toronto's golden hour is exceptionally photogenic with warm light illuminating the glass facades of downtown towers and reflecting beautifully off Lake Ontario. The best golden hour locations are from the islands looking back at the skyline or from Lighthouse Point facing the CN Tower. Winter golden hours offer longer duration and dramatic shadows across snowy landscapes.",
+    "goldenHourNotes": "Toronto's urban landscape comes alive during golden hour with warm light reflecting off glass and steel towers. The Toronto Islands and Waterfront Trail offer ideal golden hour positions with water reflections amplifying the effect. Winter months provide longer shadows and lower sun angles ideal for dramatic architectural photography.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -369,62 +373,62 @@
       {
         "month": 1,
         "avgTempC": -6,
-        "rainfallMM": 27
+        "rainfallMM": 25
       },
       {
         "month": 2,
         "avgTempC": -5,
-        "rainfallMM": 24
+        "rainfallMM": 20
       },
       {
         "month": 3,
-        "avgTempC": -1,
-        "rainfallMM": 31
+        "avgTempC": 0,
+        "rainfallMM": 35
       },
       {
         "month": 4,
-        "avgTempC": 8,
-        "rainfallMM": 64
+        "avgTempC": 10,
+        "rainfallMM": 55
       },
       {
         "month": 5,
         "avgTempC": 16,
-        "rainfallMM": 73
+        "rainfallMM": 75
       },
       {
         "month": 6,
         "avgTempC": 21,
-        "rainfallMM": 76
+        "rainfallMM": 65
       },
       {
         "month": 7,
         "avgTempC": 24,
-        "rainfallMM": 76
+        "rainfallMM": 70
       },
       {
         "month": 8,
         "avgTempC": 23,
-        "rainfallMM": 66
+        "rainfallMM": 68
       },
       {
         "month": 9,
         "avgTempC": 18,
-        "rainfallMM": 65
+        "rainfallMM": 68
       },
       {
         "month": 10,
-        "avgTempC": 11,
-        "rainfallMM": 58
+        "avgTempC": 12,
+        "rainfallMM": 60
       },
       {
         "month": 11,
-        "avgTempC": 4,
-        "rainfallMM": 51
+        "avgTempC": 5,
+        "rainfallMM": 50
       },
       {
         "month": 12,
-        "avgTempC": -2,
-        "rainfallMM": 30
+        "avgTempC": -3,
+        "rainfallMM": 35
       }
     ],
     "bestMonths": [
@@ -433,31 +437,30 @@
       9,
       10
     ],
-    "seasonality": "Toronto experiences four distinct seasons with summer (June-August) offering warm weather and outdoor activities, while winter (December-February) brings cold temperatures and potential snow. Spring and fall are ideal for visiting with comfortable temperatures, fewer crowds, and beautiful foliage or blooming flowers.",
-    "summary": "Toronto has a humid continental climate with cold, snowy winters and warm, humid summers. The city experiences significant seasonal variation, making spring and early fall the most pleasant times to visit with moderate temperatures and lower precipitation."
+    "seasonality": "Toronto experiences distinct four seasons with cold, snowy winters (December-February) and warm, humid summers (June-August). Spring (April-May) and fall (September-October) offer ideal temperatures for outdoor exploration with moderate rainfall.",
+    "summary": "Toronto has a humid continental climate with temperatures ranging from -6°C in winter to 24°C in summer. Best visiting months are May-June and September-October when weather is mild, with July-August offering warmest temperatures but higher humidity and tourist crowds."
   },
   "hotels": [
     {
-      "name": "The Broadview Hotel",
-      "neighborhood": "Distillery District",
+      "name": "HI Toronto Hostel",
+      "neighborhood": "Downtown Core",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Social hostel in the heart of downtown with private and shared rooms, common areas, and easy access to major attractions and transit."
+    },
+    {
+      "name": "Delta Hotels by Marriott Downtown Toronto",
+      "neighborhood": "Entertainment District",
       "pricePerNightUSD": 140,
       "category": "Mid-range",
-      "description": "Historic hotel in the Distillery District with modern amenities, rooftop bar, and walking access to galleries, shops, and restaurants."
+      "description": "Modern four-star hotel with comfortable rooms, fitness facilities, and convenient location near theaters, restaurants, and CN Tower."
     },
     {
-      "name": "HI Toronto Hostel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 45,
-      "category": "Budget",
-      "description": "Centrally located hostel offering private and dormitory rooms with kitchen facilities, social atmosphere, and proximity to major attractions."
-    },
-    {
-      "name": "The Ritz-Carlton Toronto",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 380,
+      "name": "Fairmont Royal York",
+      "neighborhood": "Downtown Core",
+      "pricePerNightUSD": 400,
       "category": "Luxury",
-      "description": "Ultra-luxury hotel with world-class service, fine dining, spa facilities, and breathtaking views from the tallest building in Canada."
+      "description": "Historic five-star luxury hotel directly above Union Station with elegant rooms, fine dining restaurants, and impeccable service in an iconic landmark building."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1543962226-818f4301073f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxUb3JvbnRvJTIwQ04lMjBUb3dlciUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MTU1NjEzNHww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

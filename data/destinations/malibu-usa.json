@@ -1,0 +1,466 @@
+{
+  "id": "malibu-usa",
+  "city": "Malibu",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "LAX",
+    "BUR",
+    "SFX"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "relaxation",
+    "foodie",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 82,
+    "photography": 95,
+    "activities": 88,
+    "weather": 92
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 600,
+      "maxPerDayUSD": 1500
+    }
+  ],
+  "unsplashQuery": "Malibu beach sunset California",
+  "summary": "Malibu is an exclusive coastal paradise renowned for its pristine beaches, rugged cliffside scenery, and celebrity homes nestled along the Pacific Coast Highway. With world-class dining, premium shopping, and exceptional outdoor activities, Malibu offers the perfect blend of relaxation and coastal adventure for discerning travelers. The dramatic coastline and golden light make it a photographer's dream destination.",
+  "restaurants": [
+    {
+      "name": "Duke's Malibu",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Beachfront tiki bar and grill with stunning ocean views and Hawaiian-inspired cuisine. Known for fresh fish, tropical drinks, and the casual island atmosphere right on the sand.",
+      "mustTry": "Grilled fish tacos with coconut rice"
+    },
+    {
+      "name": "Nobu Malibu",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Iconic upscale Japanese-Peruvian fusion restaurant with ocean views and impeccable service. A celebrity hotspot offering innovative seafood dishes and an extensive sake selection.",
+      "mustTry": "Black cod with miso"
+    },
+    {
+      "name": "Crossroads Malibu",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table organic restaurant offering plant-based and seasonal cuisine with panoramic ocean vistas. Known for innovative vegetable dishes and sustainable sourcing practices.",
+      "mustTry": "Cauliflower steak with seasonal vegetables"
+    },
+    {
+      "name": "Barrels Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual California-style restaurant serving Mediterranean-inspired brunch and lunch with farm-fresh ingredients. Popular spot with locals for its relaxed vibe and quality food.",
+      "mustTry": "Avocado toast with poached eggs"
+    },
+    {
+      "name": "Tra di Noi",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate Italian restaurant tucked away in Malibu Village, serving classic Northern Italian cuisine with excellent wine pairings. Romantic setting perfect for special occasions.",
+      "mustTry": "Homemade pasta with truffle sauce"
+    },
+    {
+      "name": "The Reel Inn",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual seafood market and restaurant offering fresh-caught fish at reasonable prices with ocean views. Family-friendly spot known for straightforward, quality preparations.",
+      "mustTry": "Fresh local fish and chips"
+    },
+    {
+      "name": "Splash Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Laid-back beachfront cafe serving sandwiches, salads, and smoothies with casual seating overlooking the sand. Perfect for a quick meal before a beach day.",
+      "mustTry": "California wrap with local produce"
+    },
+    {
+      "name": "Escada Pizzeria",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian pizzeria offering wood-fired pizzas and traditional Italian appetizers in a warm, welcoming atmosphere. Great for casual family dinners and group gatherings.",
+      "mustTry": "Pizza Margherita with fresh mozzarella"
+    },
+    {
+      "name": "Las Tunas",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish-Mediterranean restaurant serving paella, fresh seafood, and tapas with a relaxed beach village setting. Known for attentive service and quality ingredients.",
+      "mustTry": "Seafood paella with saffron rice"
+    },
+    {
+      "name": "Cyclone Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French-California fusion restaurant with elegant decor and creative seasonal menus focusing on local ingredients. Excellent wine list and sophisticated preparations.",
+      "mustTry": "Duck confit with seasonal vegetables"
+    },
+    {
+      "name": "The Bungalow",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Tropical-themed beach bar and restaurant serving casual fare with a focus on cocktails and sunset views. Lively atmosphere with music and dancing in the evenings.",
+      "mustTry": "Tropical fish ceviche with plantain chips"
+    },
+    {
+      "name": "Malibu Local",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual cafe and deli offering breakfast, sandwiches, and coffee drinks with a community vibe. Popular with locals for quick meals and strong coffee.",
+      "mustTry": "Breakfast burrito with house salsa"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Hiking Malibu Creek Trail",
+      "category": "Adventure",
+      "description": "Scenic trail through Malibu Creek State Park featuring waterfalls, oak groves, and coastal views with moderate difficulty. The trail passes near filming locations from popular TV shows and leads to swimming holes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Surfer's Paradise Beach Break",
+      "category": "Adventure",
+      "description": "World-class surfing destination known for consistent waves and stunning coastline perfect for all skill levels. Multiple beach breaks along the coast cater to beginners and experienced surfers alike.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Zuma Beach Swimming and Sunbathing",
+      "category": "Outdoor",
+      "description": "Wide, sandy beach ideal for swimming, sunbathing, and beach volleyball with facilities and lifeguard services. Family-friendly atmosphere with calm waters and beautiful shoreline.",
+      "durationHours": 4,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Getty Villa Malibu Tour",
+      "category": "Cultural",
+      "description": "Stunning museum replica of an ancient Roman villa featuring Greek and Roman antiquities, art collections, and meticulously landscaped gardens. Free admission with advance reservations and exceptional educational experiences.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Pacific Coast Highway Scenic Drive",
+      "category": "Outdoor",
+      "description": "Iconic 27-mile coastal drive through Malibu offering breathtaking ocean vistas, dramatic cliff formations, and accessible viewpoints. Stop at multiple scenic overlooks and hidden beaches throughout the route.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kayaking Malibu Lagoon",
+      "category": "Adventure",
+      "description": "Paddle through calm lagoon waters surrounded by wildlife including herons, egrets, and occasional dolphins. Accessible to beginners with stunning nature photography opportunities.",
+      "durationHours": 2,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Point Dume State Beach Exploration",
+      "category": "Outdoor",
+      "description": "Distinctive headland with excellent tide pools, rock formations, and panoramic coastal views accessible via easy beach walk. Popular filming location with diverse marine wildlife and geology.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Malibu Pier Fishing and Strolling",
+      "category": "Outdoor",
+      "description": "Historic pier extending into the Pacific Ocean offering opportunities for fishing, photography, and sunset watching. Clean facilities and casual dining options available on the pier.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Yoga and Wellness Classes at Local Studios",
+      "category": "Relaxation",
+      "description": "Multiple yoga and wellness studios throughout Malibu offering classes focused on mindfulness and fitness in serene settings. Many studios feature ocean views and specialize in different yoga disciplines.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "relaxation",
+        "wellness"
+      ]
+    },
+    {
+      "name": "Malibu Wine Safari Experience",
+      "category": "Cultural",
+      "description": "Open-air tram tour through private property with exotic animals, vineyard landscapes, and wine tasting experiences. Unique combination of wildlife encounters and wine education.",
+      "durationHours": 3,
+      "estimatedCostUSD": 125,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Adamson House and Museum Tour",
+      "category": "Cultural",
+      "description": "Historic 1929 Spanish Colonial Revival mansion showcasing California coastal architecture and Mediterranean design with guided tours. Beautiful gardens and heritage tile work provide cultural insights.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Beach Bonfire and Stargazing",
+      "category": "Relaxation",
+      "description": "Evening beach experience with permitted bonfire pits, roasting marshmallows, and observing stars in relatively clear skies away from urban light pollution. Romantic and peaceful coastal evening activity.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "romance"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Point Dume Overlook",
+        "description": "Dramatic sandstone promontory with sweeping coastal vistas, rock formations, and tide pools creating layered composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Malibu Pier at Sunrise",
+        "description": "Iconic pier structure silhouetted against dramatically lit sky with calm morning waters reflecting light and creating moody atmospheric shots.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "El Matador State Beach Coves",
+        "description": "Hidden cove with dramatic sea caves, rock arches, and hidden formations accessible only at low tide, offering intimate and unusual perspectives.",
+        "difficulty": "Advanced",
+        "bestTime": "Low tide during golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Malibu Lagoon Wetlands",
+        "description": "Pristine natural wetland ecosystem with wading birds, native plants, and reflective water surfaces creating wildlife and nature photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Pacific Coast Highway Lookouts",
+        "description": "Multiple accessible scenic overlooks along the famous highway offering sweeping coastline views, cliff formations, and dramatic lighting conditions.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for side lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Zuma Beach Lifeguard Towers",
+        "description": "Colorful vintage lifeguard stations set against wide sandy beach and ocean backdrop creating striking architectural and landscape compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light and shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Malibu Village Street Photography",
+        "description": "Charming village center with boutiques, galleries, and restaurants offering street photography opportunities and authentic local culture moments.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for natural shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Solstice Canyon Trail Waterfall",
+        "description": "Hidden waterfall destination reached through scenic canyon hike with native plants, rock formations, and cascading water creating dynamic shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for soft diffused light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Getty Villa Exterior and Gardens",
+        "description": "Mediterranean-style architecture, manicured gardens, and classical sculptures providing elegant framing opportunities and cultural-architectural subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for minimal crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Surfrider Beach Wave Photography",
+        "description": "Legendary surf break with consistent waves creating dynamic action shots, water texture studies, and athletic composition opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Morning light with offshore winds",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Malibu Pier",
+      "Point Dume Headland",
+      "Zuma Beach Eastern Overlook"
+    ],
+    "sunsetSpots": [
+      "Point Dume Summit",
+      "Malibu Lagoon Overlook",
+      "Pacific Coast Highway Vista Point"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for expansive coastal vistas and landscape compositions",
+      "70-200mm telephoto for compressed perspectives and wildlife detail in lagoon areas",
+      "24-70mm versatile standard zoom for street photography and architectural details",
+      "50mm prime for intimate portraits and cultural subject isolation"
+    ],
+    "goldenHourNotes": "Malibu's western-facing coastline offers exceptional golden hour opportunities during sunset with warm light illuminating cliffs and creating dramatic shadows. Morning light at sunrise provides softer quality and cooler tones, perfect for wildlife and landscape detail work. The extended twilight period after sunset offers vibrant skies for 20-30 minutes, ideal for capturing city lights and coastal silhouettes.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 14,
+        "rainfallMM": 85
+      },
+      {
+        "month": 2,
+        "avgTempC": 14,
+        "rainfallMM": 80
+      },
+      {
+        "month": 3,
+        "avgTempC": 15,
+        "rainfallMM": 75
+      },
+      {
+        "month": 4,
+        "avgTempC": 17,
+        "rainfallMM": 45
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 15
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 5
+      },
+      {
+        "month": 7,
+        "avgTempC": 24,
+        "rainfallMM": 3
+      },
+      {
+        "month": 8,
+        "avgTempC": 24,
+        "rainfallMM": 5
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 8
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 20
+      },
+      {
+        "month": 11,
+        "avgTempC": 17,
+        "rainfallMM": 55
+      },
+      {
+        "month": 12,
+        "avgTempC": 14,
+        "rainfallMM": 90
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seasonality": "Malibu experiences mild winters with occasional rain and warm, mostly dry summers that attract the most visitors. Spring and fall offer ideal conditions with comfortable temperatures, reduced crowds, and excellent weather for outdoor activities and photography.",
+    "summary": "Malibu enjoys a Mediterranean climate with year-round mild temperatures ranging from 14-24°C and minimal rainfall concentrated in winter months. The coastal location provides consistent sunshine, gentle ocean breezes, and excellent visibility for outdoor pursuits throughout most of the year."
+  },
+  "hotels": [
+    {
+      "name": "Malibu Beach Inn",
+      "neighborhood": "Carbon Beach",
+      "pricePerNightUSD": 285,
+      "category": "Mid-range",
+      "description": "Oceanfront hotel with contemporary design, private beach access, and rooms featuring ocean views, ideal for travelers seeking quality accommodations without premium pricing."
+    },
+    {
+      "name": "The Ritz-Carlton Malibu",
+      "neighborhood": "Southern Malibu",
+      "pricePerNightUSD": 850,
+      "category": "Luxury",
+      "description": "Ultra-luxury oceanfront resort with infinity pools, world-class dining, spa services, and unparalleled coastal views offering the ultimate Malibu experience."
+    },
+    {
+      "name": "Malibu Overlook Motel",
+      "neighborhood": "Malibu Village",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Basic but clean motel offering affordable coastal accommodations with convenient location near restaurants, shops, and easy beach access."
+    }
+  ]
+}

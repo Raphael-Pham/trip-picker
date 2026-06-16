@@ -1,0 +1,460 @@
+{
+  "id": "hilton-head-usa",
+  "city": "Hilton Head",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SAV",
+    "CHS",
+    "JAX"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "relaxation",
+    "photography",
+    "foodie",
+    "family"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 78,
+    "photography": 82,
+    "activities": 85,
+    "weather": 80
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Hilton Head beach lighthouse",
+  "summary": "Hilton Head Island is a pristine coastal destination in South Carolina known for its crescent-shaped beaches, world-class golf courses, and laid-back island lifestyle. This family-friendly resort offers excellent seafood dining, water sports, and scenic natural beauty perfect for both relaxation and adventure.",
+  "restaurants": [
+    {
+      "name": "Red Fish",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale seafood restaurant featuring fresh catches prepared with innovative techniques and an extensive wine selection. Known for its elegant ambiance and impeccable service overlooking the waterfront.",
+      "mustTry": "Pan-seared Florida grouper with seasonal vegetables"
+    },
+    {
+      "name": "Hudson's Seafood House on the Docks",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Working seafood dock turned restaurant where you can watch boats unload their catch while dining on the freshest local seafood. Casual atmosphere with authentic low-country flavor.",
+      "mustTry": "Shrimp and grits with stone crab claws"
+    },
+    {
+      "name": "The Wreck of Richard & Eileen",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual waterfront eatery built over the Calibogue Sound offering fresh seafood with a rustic charm and spectacular views. Great for families and those seeking authentic low-country dining.",
+      "mustTry": "Fresh shrimp platters and oyster roasts"
+    },
+    {
+      "name": "Skull Creek Boathouse",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Laid-back dockside restaurant with fresh seafood, casual vibes, and live music on weekends. Perfect for sunset dining with scenic creek views.",
+      "mustTry": "Fish tacos and steamed shrimp buckets"
+    },
+    {
+      "name": "Poseidon on the Water",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Greek and Mediterranean fine dining establishment offering fresh seafood and traditional recipes in an elegant waterfront setting. Exceptional wine pairings and refined cuisine.",
+      "mustTry": "Whole Mediterranean branzino with lemon and herbs"
+    },
+    {
+      "name": "Palmetto Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant featuring coastal cuisine with Southern influences, craft cocktails, and an extensive wine list in an upscale atmosphere. Consistently praised for culinary excellence.",
+      "mustTry": "She-crab soup and seared local fish"
+    },
+    {
+      "name": "Shoeless Joe's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual sports bar and grill offering burgers, wings, and seafood in a fun, relaxed environment. Popular with families and golf tourists for post-round dining.",
+      "mustTry": "Blackened fish sandwich"
+    },
+    {
+      "name": "Bistro Olé",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Spanish tapas and paella restaurant delivering authentic flavors with an intimate, cozy ambiance. Excellent for sharing small plates and enjoying Spanish wines.",
+      "mustTry": "Paella valenciana and Spanish chorizo"
+    },
+    {
+      "name": "San Miguel's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican restaurant serving authentic tacos, burritos, and enchiladas at affordable prices. Family-friendly with quick service and generous portions.",
+      "mustTry": "Fish tacos and carne asada"
+    },
+    {
+      "name": "The Crazy Crab",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual seafood spot famous for its crab cakes and low-country boils, offering fresh local ingredients in a relaxed atmosphere. Great value for quality seafood.",
+      "mustTry": "She-crab soup and crab cakes"
+    },
+    {
+      "name": "The Steamed Shrimp Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual eatery specializing in fresh steamed shrimp, oysters, and traditional low-country fare with picnic-style seating. Perfect for casual, affordable island dining.",
+      "mustTry": "Steamed shrimp buckets with seasoning"
+    },
+    {
+      "name": "Forsythe's Prime",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse featuring premium cuts of beef, fresh seafood, and an impressive wine collection in an elegant setting. Perfect for special occasions and fine dining experiences.",
+      "mustTry": "Prime ribeye and pan-seared scallops"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Biking the Island",
+      "category": "Outdoor",
+      "description": "Hilton Head has over 60 miles of bike paths offering scenic routes through forests, marshes, and along the beach. Rentals are readily available at numerous shops across the island.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Beach Days and Swimming",
+      "category": "Outdoor",
+      "description": "The island features beautiful crescents of sandy beaches perfect for swimming, sunbathing, and water activities. Public beach access is available at multiple locations with free parking.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kayaking and Paddleboarding",
+      "category": "Adventure",
+      "description": "Explore the salt marshes, creeks, and coastal waterways by kayak or paddleboard to spot dolphins, herons, and other wildlife. Tours and rentals available through multiple outfitters.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Golf at Championship Courses",
+      "category": "Outdoor",
+      "description": "Hilton Head is world-famous for its 24 championship golf courses designed by legends like Jack Nicklaus and Pete Dye. Courses range from public to private with varying difficulty levels.",
+      "durationHours": 5,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Calibogue Cruises",
+      "category": "Outdoor",
+      "description": "Scenic boat tours departing from Daufuskie Island ferry offering wildlife viewing, dolphin watching, and island exploration. Professional guides provide educational commentary on the ecosystem.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "family",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Pinckney Island National Wildlife Refuge",
+      "category": "Outdoor",
+      "description": "Free nature preserve offering hiking trails through maritime forests with excellent opportunities for bird watching and wildlife photography. Multiple loop trails of varying difficulty.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Historic Daufuskie Island Tour",
+      "category": "Cultural",
+      "description": "Day trip to car-free island accessible by ferry featuring historic lighthouses, tabby ruins, and pristine beaches. Golf carts are the primary transportation on this charming island.",
+      "durationHours": 6,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "photography",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Dolphin Watching Tours",
+      "category": "Outdoor",
+      "description": "Professional guided tours specifically designed to observe and photograph wild dolphins in their natural habitat. Tours depart daily from various marinas with expert naturalists.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "family",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fishing Charters",
+      "category": "Adventure",
+      "description": "Deep sea and inshore fishing charters available for all skill levels with equipment provided by experienced captains. Full-day and half-day options departing from local marinas.",
+      "durationHours": 6,
+      "estimatedCostUSD": 180,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hilton Head Island Museum",
+      "category": "Cultural",
+      "description": "Small museum chronicling the island's Native American heritage, colonial history, and development through interactive exhibits. Educational resource covering low-country culture.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Sunrises at Beach Pavilions",
+      "category": "Outdoor",
+      "description": "Free activity to watch stunning sunrises from various public beach pavilions across the island. Best during golden hour with excellent photography opportunities.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Shopping at Coligny Plaza",
+      "category": "Indoor",
+      "description": "Beachside shopping area with boutiques, restaurants, galleries, and entertainment options in a relaxed village setting. Mix of local shops, national brands, and casual eateries.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Calibogue Sound Overlook",
+        "description": "Scenic waterfront vista offering golden hour light on the sound with excellent foreground and background elements for landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise and sunset)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lighthouse Point Preserve",
+        "description": "Historic lighthouse structure set against coastal marsh creating iconic architectural and landscape photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for warm side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Daufuskie Island Ferry Dock",
+        "description": "Weathered wooden dock and maritime structures providing rustic character and reflection opportunities in calm water.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late evening",
+        "category": "Architecture"
+      },
+      {
+        "name": "Pinckney Island Nature Trail",
+        "description": "Dense maritime forest trails offering opportunities for wildlife photography including birds, herons, and occasional deer.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Beach Grass and Dunes",
+        "description": "Golden sea oats and coastal vegetation creating textured foreground elements with ocean backdrop for landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour with side lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Salt Marsh at Skull Creek",
+        "description": "Winding tidal creeks and marsh grasses creating dramatic patterns visible from elevated vantage points during low tide.",
+        "difficulty": "Intermediate",
+        "bestTime": "Low tide for defined water channels",
+        "category": "Landscape"
+      },
+      {
+        "name": "Coligny Beach Pavilion",
+        "description": "Iconic wooden beach pavilion structure providing symmetrical framing and architectural interest with beach and ocean background.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones and shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dolphin Encounters at Broad Creek",
+        "description": "Reliable location for photographing wild dolphins breaking through water during morning and evening feeding times.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Spanish Moss Canopy in Forests",
+        "description": "Ethereal Spanish moss draped from oak trees creating atmospheric woodland scenes with diffused natural light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or early morning mist",
+        "category": "Landscape"
+      },
+      {
+        "name": "Sunset at Calibogue Sound Fishing Pier",
+        "description": "Extended pier structure jutting into the sound with dramatic sunset reflections and silhouette opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Coligny Beach Pavilion",
+      "Lighthouse Point Beach Access",
+      "Palmetto Dunes Beach"
+    ],
+    "sunsetSpots": [
+      "Calibogue Sound Overlook",
+      "Skull Creek Boathouse Dock",
+      "Sunset Beach on Daufuskie Island"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for sweeping marsh and landscape vistas",
+      "70-200mm telephoto for wildlife and dolphin photography from distance",
+      "50mm prime for street photography and intimate portrait work in town",
+      "24-70mm versatile zoom for general travel and mixed composition needs"
+    ],
+    "goldenHourNotes": "Hilton Head's coastal location provides exceptional golden hour light from both sunrise and sunset. The marshes, water features, and beach pavilions are dramatically illuminated during these times, creating warm tones and long shadows. Plan to arrive 30-45 minutes before sunrise or sunset for optimal positioning and exposure.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 8,
+        "rainfallMM": 85
+      },
+      {
+        "month": 2,
+        "avgTempC": 10,
+        "rainfallMM": 80
+      },
+      {
+        "month": 3,
+        "avgTempC": 14,
+        "rainfallMM": 90
+      },
+      {
+        "month": 4,
+        "avgTempC": 19,
+        "rainfallMM": 95
+      },
+      {
+        "month": 5,
+        "avgTempC": 25,
+        "rainfallMM": 105
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 170
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 180
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 155
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 145
+      },
+      {
+        "month": 10,
+        "avgTempC": 21,
+        "rainfallMM": 100
+      },
+      {
+        "month": 11,
+        "avgTempC": 16,
+        "rainfallMM": 95
+      },
+      {
+        "month": 12,
+        "avgTempC": 10,
+        "rainfallMM": 90
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "seasonality": "Spring and fall offer ideal conditions with mild temperatures, lower humidity, and minimal rainfall, making them peak tourist seasons. Summer is hot and humid with frequent afternoon thunderstorms, while winter is mild but can be cool and wet.",
+    "summary": "Hilton Head features a subtropical climate with warm summers and mild winters. Hurricane season runs June through November with greatest risk in late summer and early fall."
+  },
+  "hotels": [
+    {
+      "name": "Ocean Reef Resort",
+      "neighborhood": "Coligny Beach Area",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Oceanfront budget option with basic amenities, beach access, and simple but clean rooms ideal for cost-conscious travelers seeking beachside location."
+    },
+    {
+      "name": "The Sonesta Resort",
+      "neighborhood": "Palmetto Dunes",
+      "pricePerNightUSD": 210,
+      "category": "Mid-range",
+      "description": "Full-service resort featuring golf courses, multiple restaurants, pools, and beach access with spacious rooms and comprehensive amenities for families and leisure travelers."
+    },
+    {
+      "name": "The Ritz-Carlton Hilton Head",
+      "neighborhood": "Calibogue Sound",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury oceanfront resort with world-class service, fine dining, spa, championship golf, and elegant accommodations with premium amenities and exclusive access."
+    }
+  ]
+}

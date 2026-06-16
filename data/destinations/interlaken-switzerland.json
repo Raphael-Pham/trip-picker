@@ -6,14 +6,15 @@
   "airportCodes": [
     "ZRH",
     "BRN",
-    "ZSC"
+    "GVA"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
     "photography",
     "adventure",
-    "relaxation"
+    "relaxation",
+    "foodie"
   ],
   "scores": {
     "cost": 25,
@@ -39,124 +40,101 @@
       "maxPerDayUSD": 800
     }
   ],
-  "unsplashQuery": "Interlaken Swiss Alps mountains",
-  "summary": "Interlaken is a world-class adventure destination nestled between two pristine alpine lakes, offering breathtaking views of the Eiger, Mönch, and Jungfrau peaks. This charming Swiss town combines outdoor thrills with refined Alpine hospitality, making it ideal for hikers, photographers, and those seeking mountain escapism. Whether you're paragliding over dramatic valleys or savoring fondue in a cozy chalet, Interlaken delivers quintessential Swiss mountain magic.",
+  "unsplashQuery": "Interlaken Switzerland mountains",
+  "summary": "Interlaken is a world-class adventure destination nestled between two pristine alpine lakes with the stunning Jungfrau massif as its backdrop. This Swiss gem offers exceptional hiking, paragliding, mountaineering, and water sports alongside charming villages and world-renowned views. Perfect for both thrill-seekers and those seeking peaceful mountain scenery.",
   "restaurants": [
     {
-      "name": "Harder Kulm Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Perched on a mountain with panoramic views of the Jungfrau region, this elegant restaurant offers modern Swiss cuisine with spectacular vistas. The cable car journey up is an experience in itself.",
-      "mustTry": "Roasted wild boar with Alpine herbs"
-    },
-    {
-      "name": "Restaurants Gerberhaus",
+      "name": "Schuh Restaurant",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A traditional Swiss restaurant serving authentic Bernese specialties in a cozy, historic setting dating back centuries. Known for hearty portions and warm hospitality.",
-      "mustTry": "Geschnetzeltes Kalbfleisch (veal strips in cream sauce)"
+      "description": "Traditional Swiss cuisine in a cozy alpine setting overlooking the Jungfrau. Known for authentic raclette and fondue prepared at your table.",
+      "mustTry": "Cheese fondue with crusty bread"
     },
     {
       "name": "Café de Paris",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual French-Swiss bistro in the town center offering excellent steaks, fondue, and regional wines. Perfect for a relaxed lunch or dinner.",
-      "mustTry": "Entrecôte with Café de Paris butter"
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French cuisine with panoramic views of the mountains. Offers an extensive wine selection and contemporary plating.",
+      "mustTry": "Entrecôte with herb butter"
     },
     {
-      "name": "Bären Restaurant",
+      "name": "Taverne",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Historic inn serving traditional Swiss mountain cuisine with an emphasis on local ingredients and time-honored recipes. The atmosphere is quintessentially Alpine.",
-      "mustTry": "Fondue Chinoise"
+      "description": "Rustic Swiss bistro serving hearty mountain fare including rösti and alpine specialties. Warm, authentic atmosphere.",
+      "mustTry": "Rösti with bacon and egg"
     },
     {
-      "name": "Mercato",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual Italian market-style eatery offering fresh pasta, pizzas, and antipasti at reasonable prices. Great for quick, affordable meals.",
-      "mustTry": "Fresh pasta with pesto"
-    },
-    {
-      "name": "The Sherpa Restaurant",
+      "name": "Bonsai Sushi & Teppanyaki",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Nepali and Tibetan cuisine reflecting the mountaineering culture of Interlaken, with authentic dishes and cozy ambiance. A unique alternative to traditional Swiss fare.",
-      "mustTry": "Momos (dumplings) and dal bhat"
+      "description": "Contemporary Asian cuisine with fresh sushi rolls and teppanyaki performances. Family-friendly with modern decor.",
+      "mustTry": "Dragon roll with spicy mayo"
     },
     {
-      "name": "Steak Chalet",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Premium steakhouse featuring high-quality cuts and refined Alpine wine selection in an intimate setting overlooking Höhematte Park.",
-      "mustTry": "Wagyu ribeye with truffle butter"
-    },
-    {
-      "name": "Sunflower Lodge Vegetarian Restaurant",
+      "name": "Backpackers Villa Sonnenhof",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Dedicated vegetarian restaurant offering organic, locally-sourced vegetables and plant-based dishes in a laid-back backpacker atmosphere.",
-      "mustTry": "Buddha bowl with Alpine vegetables"
+      "description": "Budget-friendly hostel restaurant with hearty meals and international options. Great for meeting fellow travelers.",
+      "mustTry": "Daily pasta specials"
     },
     {
-      "name": "Jäger Restaurant",
+      "name": "Höheweg Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Fine dining establishment with Michelin-caliber Swiss and international cuisine overlooking the valley. Exceptional service.",
+      "mustTry": "Veal medallions with truffle sauce"
+    },
+    {
+      "name": "Restaurant Giessbach Falls",
       "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "Rustic hunting lodge-themed restaurant serving game specialties and traditional Swiss mountain fare with extensive wine cellar.",
-      "mustTry": "Venison steak with juniper berry sauce"
+      "priceRange": "$$",
+      "description": "Scenic restaurant accessible by vintage funicular railway with views of the Giessbach waterfalls. Swiss traditional food.",
+      "mustTry": "Bratwurst with mountain greens"
     },
     {
-      "name": "Lapin Bleu",
+      "name": "Cantina Interlaken",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Cozy French bistro with Swiss influences, featuring rabbit specialties, seafood, and classic comfort food in a charming townhouse setting.",
-      "mustTry": "Lapin à la Moutarde (rabbit in mustard sauce)"
+      "description": "Italian restaurant offering fresh pasta and Mediterranean dishes in a warm, inviting setting. Popular with both tourists and locals.",
+      "mustTry": "Handmade tagliatelle al ragù"
     },
     {
-      "name": "Grindelwald House Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Alpine luxury dining experience with chef's tasting menus showcasing seasonal mountain ingredients and innovative Swiss-inspired cuisine.",
-      "mustTry": "Multi-course tasting menu with wine pairings"
-    },
-    {
-      "name": "Mountain Deli & Bakery",
+      "name": "Pizzeria Colosseo",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Traditional Swiss bakery and deli offering fresh breads, pastries, sandwiches, and local cheeses perfect for picnics or quick breakfasts.",
-      "mustTry": "Zopf (Swiss braided bread) with local butter"
+      "description": "Casual pizza restaurant with traditional wood-fired oven and authentic Italian recipes. Quick service.",
+      "mustTry": "Pizza Quattro Formaggi"
+    },
+    {
+      "name": "Aare-Stube",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Cozy riverside restaurant serving traditional Swiss-Bernese cuisine with local cheeses and meats.",
+      "mustTry": "Bernese Platter with multiple local specialties"
+    },
+    {
+      "name": "Indian Palace",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Quality Indian restaurant with authentic curries and tandoor specialties. Comfortable dining with good service.",
+      "mustTry": "Butter chicken with naan"
+    },
+    {
+      "name": "Eiger Restaurant & Bar",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Sophisticated alpine fine dining with locally-sourced ingredients and award-winning wine pairings. Stunning mountain views.",
+      "mustTry": "Seasonal game with forest mushrooms"
     }
   ],
   "activities": [
     {
-      "name": "Jungfrau Top of Europe Cable Car",
-      "category": "Outdoor",
-      "description": "Take the scenic railway up to Europe's highest train station at 3,454 meters, featuring the Sphinx Observatory and Aletsch Glacier views. The round trip takes approximately 4-5 hours with stunning mountain panoramas.",
-      "durationHours": 5,
-      "estimatedCostUSD": 185,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Paragliding over Interlaken",
+      "name": "Jungfrau Top of Europe",
       "category": "Adventure",
-      "description": "Experience the thrill of tandem paragliding with professional instructors, launching from Harder Kulm with unobstructed views of the Three Peaks. This is one of the world's most scenic paragliding locations.",
-      "durationHours": 3,
-      "estimatedCostUSD": 220,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Harder Kulm Hiking Trail",
-      "category": "Outdoor",
-      "description": "Easy to moderate hiking trail ascending 370 meters with breathtaking panoramic views of Interlaken, both lakes, and the Jungfrau massif. Can combine with cable car for a partial descent.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 12,
+      "description": "Visit Europe's highest railway station at 3,454m via the scenic mountain railway. Stunning 360-degree views, ice palace, and glacier walks.",
+      "durationHours": 6,
+      "estimatedCostUSD": 185,
       "bestFor": [
         "standard",
         "photography",
@@ -164,105 +142,124 @@
       ]
     },
     {
-      "name": "Lake Brienz Water Activities",
-      "category": "Outdoor",
-      "description": "Kayaking, paddleboarding, or scenic cruises on the turquoise Lake Brienz with views of the Giessbach waterfall and Alpine surroundings. Perfect for water enthusiasts of all levels.",
-      "durationHours": 3,
-      "estimatedCostUSD": 55,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Eiger Trail Hiking",
+      "name": "Paragliding over Alpine Lakes",
       "category": "Adventure",
-      "description": "Stunning hiking trail offering dramatic close-up views of the iconic Eiger north face, combining mountain scenery with manageable difficulty. The 7km route takes approximately 3-4 hours.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
+      "description": "Tandem paragliding flight with experienced pilots offering breathtaking views of lakes, valleys, and mountains. Flights depart daily in good weather.",
+      "durationHours": 3,
+      "estimatedCostUSD": 180,
       "bestFor": [
         "adventure",
-        "photography",
-        "standard"
+        "photography"
       ]
     },
     {
-      "name": "Strolling Höhematte Park",
-      "category": "Relaxation",
-      "description": "Free leisurely walk through Interlaken's scenic central park with perfectly framed mountain views, riverside paths, and benches for relaxation. A quintessential Swiss Alpine town experience.",
-      "durationHours": 1.5,
+      "name": "Schynige Platte Hiking Trail",
+      "category": "Outdoor",
+      "description": "Popular scenic alpine hiking trail with panoramic views of the Eiger, Mönch, and Jungfrau. Route passes through wildflower meadows.",
+      "durationHours": 5,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
+        "adventure",
         "relaxation",
         "photography"
       ]
     },
     {
-      "name": "White Water Rafting on Aare River",
-      "category": "Adventure",
-      "description": "Exciting rafting experience on the pristine Aare River with varying difficulty levels, guided by experienced professionals through Alpine gorges. Suitable for both beginners and experienced paddlers.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
+      "name": "Hiking in Oeschinen Lake Region",
+      "category": "Outdoor",
+      "description": "Moderate alpine hike leading to a pristine turquoise lake surrounded by steep rock faces and waterfalls. Perfect for photography and nature lovers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Schynige Platte Alpine Trail",
-      "category": "Outdoor",
-      "description": "Scenic train journey followed by hiking through Alpine meadows at 2,000m elevation, offering panoramic views and botanical gardens. Multiple route options from 1-4 hours.",
-      "durationHours": 4,
-      "estimatedCostUSD": 95,
-      "bestFor": [
-        "standard",
         "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Interlaken Town Exploration",
-      "category": "Cultural",
-      "description": "Self-guided walking tour of charming historic town center featuring traditional chalets, local shops, galleries, and the famous twin lakes viewpoint. Discover Swiss hospitality traditions.",
+      "name": "Raft or Kayak on the Aare River",
+      "category": "Adventure",
+      "description": "Exciting water sports on glacial-fed rivers with varying difficulty levels. Equipment and guides provided.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Mountaineering Course - Eiger",
+      "category": "Adventure",
+      "description": "Professional mountaineering courses for all levels culminating in summit attempts of Swiss peaks. Multi-day programs available.",
+      "durationHours": 24,
+      "estimatedCostUSD": 450,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Harder Kulm Viewpoint Train",
+      "category": "Outdoor",
+      "description": "Funicular railway to a high vantage point with 360-degree views of the Eiger, Mönch, and Jungfrau. Restaurant and walking trails available.",
       "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 28,
       "bestFor": [
         "standard",
         "photography"
       ]
     },
     {
-      "name": "Outdoor Adventure Park",
-      "category": "Family",
-      "description": "Tree-top adventure course with zip-lines, suspension bridges, and rope challenges among the treetops at varying difficulty levels. Suitable for children and adults seeking adrenaline.",
-      "durationHours": 3,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "adventure",
-        "family"
-      ]
-    },
-    {
-      "name": "Fondue Cooking Class",
+      "name": "Turísmusmuseum Interlaken",
       "category": "Cultural",
-      "description": "Hands-on experience learning to prepare authentic Swiss fondue and raclette from local chefs in a traditional Alpine setting. Includes wine pairing and cultural insights.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 95,
+      "description": "Museum documenting 200 years of Swiss alpine tourism with historic artifacts, paintings, and interactive exhibits about mountaineering.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
         "foodie"
       ]
     },
     {
-      "name": "Mountain Biking on Designated Trails",
-      "category": "Adventure",
-      "description": "Well-maintained biking trails ranging from easy valley routes to challenging Alpine descents, with bike rental readily available. Combines cardio with spectacular scenery.",
+      "name": "Adventure Park Interlaken",
+      "category": "Family",
+      "description": "Outdoor rope course and zipline park with multiple difficulty levels suspended between trees. Suitable for ages 4+.",
       "durationHours": 3,
       "estimatedCostUSD": 45,
       "bestFor": [
         "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Swiss Open-Air Museum (Ballenberg)",
+      "category": "Cultural",
+      "description": "Expansive museum showcasing traditional Swiss architecture with 100+ historic buildings, craftspeople demonstrations, and alpine gardens.",
+      "durationHours": 4,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Biking the Interlaken Valley",
+      "category": "Outdoor",
+      "description": "Scenic recreational cycling routes connecting Interlaken, Brienz, and surrounding villages. Bike rentals available throughout town.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Otter Spotting & Nature Walk",
+      "category": "Outdoor",
+      "description": "Guided nature walks along pristine alpine streams searching for otters and other wildlife. Expert naturalist guides provide ecological insights.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "photography",
         "standard"
       ]
     }
@@ -270,92 +267,93 @@
   "photography": {
     "spots": [
       {
-        "name": "Höhematte Park Main Viewpoint",
-        "description": "Classic postcard view of the three peaks (Eiger, Mönch, Jungfrau) reflected across the twin lakes with traditional chalets in foreground.",
+        "name": "Jungfrau Railway Station Viewing Platform",
+        "description": "Iconic vantage point for capturing the Jungfrau massif with crystalline alpine air and dramatic cliff faces.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning or golden hour for soft light and mountain clarity",
+        "bestTime": "Early morning for clear light and reduced clouds",
         "category": "Landscape"
       },
       {
-        "name": "Harder Kulm Summit Viewpoint",
-        "description": "360-degree panoramic vistas capturing both Interlaken lakes, surrounding valleys, and the entire Jungfrau massif in dramatic detail.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning for even light, or sunset for golden tones on peaks",
-        "category": "Landscape"
-      },
-      {
-        "name": "Giessbach Waterfall",
-        "description": "Spectacular multi-tiered waterfall cascading into Lake Brienz surrounded by lush forest, offering dynamic foreground interest.",
+        "name": "Giessbach Falls",
+        "description": "Spectacular multi-tiered waterfall cascading into Lake Brienz with surrounding forest creating moody atmospheric shots.",
         "difficulty": "Intermediate",
-        "bestTime": "Spring when water flow is highest, overcast days reduce glare",
+        "bestTime": "Golden hour or overcast days for waterfall motion blur",
         "category": "Landscape"
       },
       {
-        "name": "Eiger North Face Close-Up Trail",
-        "description": "Dramatic close-range perspective of the iconic Eiger's north face with hikers providing scale, creating powerful compositional opportunities.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning light hitting the rock face, avoiding harsh midday shadows",
-        "category": "Landscape"
-      },
-      {
-        "name": "Lake Thun Reflection Point",
-        "description": "Serene lakeside location capturing mirror reflections of mountains during calm morning conditions with charming boathouse elements.",
+        "name": "Harder Kulm Mountain",
+        "description": "High alpine viewpoint offering 360-degree panoramas of three famous peaks with the twin lakes below.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise or early morning when water is perfectly still",
+        "bestTime": "Sunrise or sunset for colorful skies and dramatic shadows",
         "category": "Landscape"
       },
       {
-        "name": "Interlaken Town Center Historic Architecture",
-        "description": "Picturesque Swiss chalets and traditional architecture with flower boxes along narrow streets, capturing Alpine village character.",
+        "name": "Brienz Lakeside Promenade",
+        "description": "Charming waterfront with traditional Swiss wooden chalets, mountains reflected in still waters, and golden hour light opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour emphasizes building details and textures",
+        "bestTime": "Late afternoon golden hour for warm reflections",
         "category": "Architecture"
       },
       {
-        "name": "Schynige Platte Alpine Meadows",
-        "description": "Expansive high-altitude meadows with wildflowers, mountain backdrops, and dramatic skies offering vast compositional possibilities.",
+        "name": "Schynige Platte Alpine Meadow",
+        "description": "Expansive alpine meadow with wildflowers in summer, offering layered landscape shots with Jungfrau in the background.",
         "difficulty": "Intermediate",
-        "bestTime": "Mid-summer for wildflower blooms, late afternoon golden light",
+        "bestTime": "June-July for maximum wildflower bloom and clear skies",
         "category": "Landscape"
       },
       {
-        "name": "Cable Car Ascending Harder Kulm",
-        "description": "Dynamic perspective of the cable car ascending the mountainside with the town and lakes below, excellent for action and scale photography.",
+        "name": "Eiger North Face Viewpoint",
+        "description": "Strategic vantage point for capturing the infamous north face with dramatic lighting and atmospheric conditions.",
         "difficulty": "Intermediate",
-        "bestTime": "Clear days with good visibility, side-lighting for cable definition",
+        "bestTime": "Early morning for sharp focus and cool color tones",
         "category": "Landscape"
       },
       {
-        "name": "Aare River Gorge Section",
-        "description": "Narrow gorge carved by the Aare River with dramatic rock walls, flowing water, and verdant vegetation creating moody compositions.",
-        "difficulty": "Advanced",
-        "bestTime": "Overcast conditions reduce shadows and glare on rock faces",
+        "name": "Oeschinen Lake",
+        "description": "Glacially-fed turquoise lake surrounded by cliff faces creating striking color contrast and reflective opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Clear midday for vibrant turquoise water color",
         "category": "Landscape"
       },
       {
-        "name": "Jungfrau Railway Train Station",
-        "description": "Historic alpine railway station with vintage character, mountain backdrop, and interesting architectural details from the Belle Époque era.",
+        "name": "Interlaken Town Square & Church",
+        "description": "Historic architecture with traditional Swiss style buildings, flower-filled town square, and mountain backdrop.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon for directional light on building",
+        "bestTime": "Overcast days to avoid harsh shadows on buildings",
+        "category": "Architecture"
+      },
+      {
+        "name": "Aare River Gorge",
+        "description": "Narrow canyon with turquoise glacial water, dramatic rock formations, and interesting light patterns through narrow passages.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday when sunlight penetrates the gorge",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mountain Railway Tracks & Tunnels",
+        "description": "Historic red railway cars traversing scenic routes with foreground interest and dramatic mountain backgrounds.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunny days for contrast between train and landscape",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Harder Kulm Summit",
-      "Schynige Platte Alpine Plateau",
-      "Höhematte Park East Overlook"
+      "Jungfrau Railway Station Viewing Platform",
+      "Harder Kulm Mountain",
+      "Schynige Platte Alpine Meadow"
     ],
     "sunsetSpots": [
-      "Brienz Lake Western Shore",
-      "Eiger Trail Viewpoint",
-      "Thun Lake Boathouse Point"
+      "Brienz Lakeside Promenade",
+      "Eiger North Face Viewpoint",
+      "Oeschinen Lake"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for expansive Alpine landscapes and dramatic foreground-to-peak compositions",
-      "50-70mm prime for intimate mountain details, architecture, and compressed perspective shots",
-      "70-200mm telephoto for isolating distant peaks, wildlife in meadows, and compressing dramatic mountain faces"
+      "14-24mm ultra-wide for expansive alpine landscape vistas and dramatic valley compositions",
+      "50-85mm telephoto for isolating peak details and compressing mountain layers for striking depth",
+      "100-400mm super-telephoto for dramatic wildlife, detail capture of Eiger face, and distant peak separation",
+      "Neutral density filter for long-exposure waterfall and river shots with silky water effects"
     ],
-    "goldenHourNotes": "Interlaken's position between lakes and mountains creates exceptional golden hour opportunities with warm light illuminating peak faces while shadows deepen valleys. Early sunrise sessions at Harder Kulm capture pastel alpenglow on the Three Peaks, while sunset over Lake Brienz produces stunning reflections. Expect clear conditions primarily in summer and autumn months for consistent golden hour photography.",
+    "goldenHourNotes": "Interlaken's alpine valleys create exceptional golden hour light with extended duration due to surrounding peaks reflecting warm tones. The twin lakes amplify light, creating magical reflections during sunrise and sunset. Overcast conditions are common; plan backup timing and embrace the soft, even light for landscape work.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -363,62 +361,62 @@
       {
         "month": 1,
         "avgTempC": -2,
-        "rainfallMM": 76
+        "rainfallMM": 52
       },
       {
         "month": 2,
-        "avgTempC": 0,
-        "rainfallMM": 73
+        "avgTempC": 1,
+        "rainfallMM": 48
       },
       {
         "month": 3,
-        "avgTempC": 4,
-        "rainfallMM": 81
+        "avgTempC": 5,
+        "rainfallMM": 62
       },
       {
         "month": 4,
-        "avgTempC": 9,
-        "rainfallMM": 107
+        "avgTempC": 10,
+        "rainfallMM": 85
       },
       {
         "month": 5,
-        "avgTempC": 14,
-        "rainfallMM": 127
+        "avgTempC": 15,
+        "rainfallMM": 128
       },
       {
         "month": 6,
-        "avgTempC": 17,
-        "rainfallMM": 141
+        "avgTempC": 18,
+        "rainfallMM": 145
       },
       {
         "month": 7,
-        "avgTempC": 19,
-        "rainfallMM": 148
-      },
-      {
-        "month": 8,
-        "avgTempC": 18,
+        "avgTempC": 20,
         "rainfallMM": 142
       },
       {
-        "month": 9,
-        "avgTempC": 15,
-        "rainfallMM": 116
+        "month": 8,
+        "avgTempC": 19,
+        "rainfallMM": 138
       },
       {
-        "month": 10,
-        "avgTempC": 10,
+        "month": 9,
+        "avgTempC": 16,
         "rainfallMM": 102
       },
       {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 88
+      },
+      {
         "month": 11,
-        "avgTempC": 5,
-        "rainfallMM": 97
+        "avgTempC": 6,
+        "rainfallMM": 75
       },
       {
         "month": 12,
-        "avgTempC": 0,
-        "rainfallMM": 89
+        "avgTempC": 1,
+        "rainfallMM": 56
       }
     ],
     "bestMonths": [
@@ -427,31 +425,31 @@
       8,
       9
     ],
-    "seasonality": "Summer (June-September) offers the best weather with warm temperatures, lower precipitation, and clear mountain visibility ideal for all outdoor activities. Winter (December-February) brings cold temperatures and frequent snow, excellent for those seeking Alpine winter landscapes but challenging for standard activities.",
-    "summary": "Interlaken experiences an Alpine climate with considerable annual precipitation and significant temperature variation between seasons. The warmest, driest months align perfectly with peak tourist season when hiking, paragliding, and mountain activities are most accessible."
+    "seasonality": "Summer (June-September) offers warm temperatures, longest daylight, and best hiking conditions with minimal snow. Winter brings snow to higher elevations and requires proper gear for alpine activities, though lower valleys remain accessible.",
+    "summary": "Alpine climate with significant rainfall year-round, particularly in summer months. Higher elevations experience cooler temperatures and occasional snow even in summer; valley temperatures are mild during peak season."
   },
   "hotels": [
     {
       "name": "Backpackers Villa Sonnenhof",
-      "neighborhood": "Matten (near town center)",
-      "pricePerNightUSD": 35,
+      "neighborhood": "Interlaken West",
+      "pricePerNightUSD": 55,
       "category": "Budget",
-      "description": "Social hostel with dorm beds and private rooms, communal kitchen, and outdoor space attracting adventure seekers and younger travelers seeking affordable Alpine accommodation."
+      "description": "Popular hostel with private rooms and dormitories, free kitchen facilities, and social atmosphere perfect for budget travelers and backpackers."
     },
     {
-      "name": "Hotel Interlaken",
-      "neighborhood": "Central Höhematte",
-      "pricePerNightUSD": 185,
+      "name": "Hotel Alpenrose",
+      "neighborhood": "Höheweg (Central Interlaken)",
+      "pricePerNightUSD": 220,
       "category": "Mid-range",
-      "description": "Family-run 3-star hotel featuring direct views of Höhematte Park and mountains, combines traditional Swiss charm with modern amenities including restaurant and wellness facilities."
+      "description": "Classic Swiss hotel with comfortable rooms, excellent restaurant, and convenient central location near shops and train stations."
     },
     {
-      "name": "Grandhotel Giessbach",
-      "neighborhood": "Lake Brienz shoreline",
-      "pricePerNightUSD": 520,
+      "name": "Jungfrau Hotel",
+      "neighborhood": "Höheweg (Central Interlaken)",
+      "pricePerNightUSD": 580,
       "category": "Luxury",
-      "description": "Iconic Belle Époque luxury resort perched above Lake Brienz with Giessbach waterfall views, featuring Michelin-standard dining, spa, and unparalleled Alpine elegance since 1874."
+      "description": "5-star luxury property with panoramic mountain views, gourmet dining, spa facilities, and personalized concierge service."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1719343113554-1a60f8764403?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxJbnRlcmxha2VuJTIwU3dpc3MlMjBBbHBzJTIwbW91bnRhaW5zfGVufDF8MHx8fDE3ODE1NjIyODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1719343113554-1a60f8764403?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxJbnRlcmxha2VuJTIwU3dpdHplcmxhbmQlMjBtb3VudGFpbnN8ZW58MXwwfHx8MTc4MTYyOTQzNXww&ixlib=rb-4.1.0&q=80&w=1080"
 }

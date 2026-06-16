@@ -11,455 +11,449 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "hidden-gems",
+    "surprise",
     "photography",
     "foodie",
     "adventure",
     "relaxation"
   ],
   "scores": {
-    "cost": 62,
+    "cost": 65,
     "food": 88,
     "photography": 92,
     "activities": 85,
-    "weather": 55
+    "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 70,
-      "maxPerDayUSD": 120
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
       "minPerDayUSD": 150,
-      "maxPerDayUSD": 250
+      "maxPerDayUSD": 280
     },
     {
       "level": "luxury",
       "minPerDayUSD": 300,
-      "maxPerDayUSD": 500
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Quebec City Old Town",
-  "summary": "Quebec City is a captivating French-Canadian destination where cobblestone streets, 17th-century architecture, and charming bistros transport visitors to Europe without leaving North America. Known for its rich history, exceptional cuisine, and stunning riverside views, the city offers a unique blend of cultural heritage and modern vibrancy. The walled Old Town is a UNESCO World Heritage site that captures the essence of North American heritage.",
+  "unsplashQuery": "Quebec City historic streets",
+  "summary": "Quebec City is a charming European-inspired destination nestled along the St. Lawrence River, featuring cobblestone streets, historic architecture, and vibrant French-Canadian culture. With world-class cuisine, stunning natural landscapes, and rich heritage sites, it offers an enchanting escape that feels worlds away despite its North American location. The city transforms dramatically with seasons, making it a photographer's paradise year-round.",
   "restaurants": [
     {
-      "name": "Poutine Lafleur",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "A beloved casual spot serving the best traditional poutine in the city with perfectly crispy fries, fresh cheese curds, and rich gravy. Simple, authentic, and absolutely essential for first-time visitors.",
-      "mustTry": "Classic Poutine"
-    },
-    {
-      "name": "Légende",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "An innovative restaurant celebrating Quebec's terroir with seasonal tasting menus featuring local ingredients and creative preparations. Each course tells a story of the region's culinary traditions.",
-      "mustTry": "Chef's Tasting Menu"
-    },
-    {
-      "name": "Café-Boulangerie Kossover",
+      "name": "Cactus Club",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A charming Jewish bakery and café offering fresh bagels, pastries, and coffee in a historic location near the Old Town. Perfect for breakfast or a quick pastry break.",
-      "mustTry": "Montreal-style Bagel"
+      "description": "Casual taqueria in the Saint-Roch neighborhood serving authentic Mexican street food and fresh seafood tacos. A local favorite known for generous portions and vibrant atmosphere.",
+      "mustTry": "Fish tacos with chipotle crema"
     },
     {
-      "name": "Initiale",
+      "name": "L'Affaire Est Ketchup",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Cozy neighborhood bistro specializing in Quebec comfort food with a modern twist. Features seasonal ingredients and traditional poutine elevated with gourmet toppings.",
+      "mustTry": "Lobster poutine"
+    },
+    {
+      "name": "Panache",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Recipient of prestigious culinary awards, this restaurant showcases refined French cuisine with a Quebec accent in an intimate setting. Impeccable service and wine pairings complement each thoughtfully prepared dish.",
-      "mustTry": "Seafood Tasting Course"
+      "description": "Located in the historic Auberge Saint-Antoine, this upscale restaurant offers contemporary French cuisine with local influences. Elegant ambiance perfect for special occasions with views of the St. Lawrence River.",
+      "mustTry": "Duck breast with cherry gastrique"
     },
     {
-      "name": "La Buche",
+      "name": "Rue Saint-Paul Brasserie",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A cozy bistro specializing in traditional Québécois cuisine and French comfort food with an emphasis on local game and seasonal vegetables. The warm atmosphere and generous portions make it a local favorite.",
-      "mustTry": "Tourtière Meat Pie"
+      "description": "Traditional French brasserie in Old Quebec serving classic dishes like coq au vin and beef bourguignon. Charming interior with vintage bistro decor creates authentic Parisian atmosphere.",
+      "mustTry": "Coq au vin with red wine reduction"
     },
     {
-      "name": "Casse-Crêpe Breton",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "An authentic Breton crêperie serving both sweet dessert crêpes and savory galettes made with quality ingredients in a charming Old Town location. A quick, delicious, and affordable meal option.",
-      "mustTry": "Ham, Cheese & Egg Galette"
-    },
-    {
-      "name": "Les Anciens Canadiens",
+      "name": "Portobello Market",
       "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual market-style eatery featuring fresh seasonal produce, local cheeses, and prepared foods. Great for quick, affordable meals with authentic Quebec products.",
+      "mustTry": "Artisan cheese board with local honey"
+    },
+    {
+      "name": "Marie-Clarisse",
+      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Housed in Quebec City's oldest building, this restaurant serves traditional French-Canadian cuisine in a historic setting dating back to 1675. Experience authentic dishes like tourtière and cipaille in an atmospheric environment.",
-      "mustTry": "Cipaille (Meat Pie)"
+      "description": "Intimate seafood restaurant overlooking the St. Lawrence River with fresh daily catches. Sophisticated yet unpretentious dining experience highlighting Quebec's maritime heritage.",
+      "mustTry": "Whole grilled fish with herb butter"
     },
     {
       "name": "Chez Muffy",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "An elegant restaurant in the Montmorency neighborhood offering contemporary French cuisine with panoramic views of Montmorency Falls. Exceptional attention to detail in both food and presentation.",
-      "mustTry": "Pan-Seared Foie Gras"
-    },
-    {
-      "name": "Gourmet Burger Café",
-      "category": "Midrange",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A trendy burger joint in Saint-Roch offering creative gourmet burgers with premium beef and unique flavor combinations. Great for a casual meal with craft beer selections.",
-      "mustTry": "The Quebec Burger with Local Cheese"
+      "description": "Beloved diner serving traditional Quebec breakfast and brunch dishes all day long. Famous for thick-cut french toast and authentic maple syrup preparations.",
+      "mustTry": "Eggs Benedict with Quebec ham"
     },
     {
-      "name": "Milk Coffee Gallery",
+      "name": "Hydrant Espresso",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A hip café and art space in the Saint-Roch district serving excellent espresso drinks, fresh pastries, and light lunches. Perfect for mingling with locals and enjoying contemporary art.",
-      "mustTry": "Signature Flat White"
+      "description": "Trendy specialty coffee roastery in Saint-Roch with locally roasted beans and pastries. Minimalist design attracts creative locals and tourists seeking great caffeine.",
+      "mustTry": "Flat white with house blend"
     },
     {
-      "name": "L'Entrecôte Saint-Jean",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "A stylish steakhouse in Old Town specializing in high-quality beef cuts prepared with classic French techniques and served with classic sauces. Known for consistent excellence and attentive service.",
-      "mustTry": "Côte de Boeuf with Béarnaise"
+      "name": "La Fenouillère",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-listed restaurant offering innovative French-Quebec fusion cuisine in an intimate setting. Chef-driven tasting menus showcase seasonal ingredients and artistic plating.",
+      "mustTry": "Foie gras with apple gastrique"
     },
     {
-      "name": "Batterie",
+      "name": "Charlevoix Brewpub",
       "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Craft brewery and gastropub serving locally brewed beers paired with hearty Quebecois pub fare. Rustic interior with exposed stone creates warm, welcoming atmosphere.",
+      "mustTry": "Quebec tourtière with house amber ale"
+    },
+    {
+      "name": "Gourmet Burger Truck",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "A vegetarian and vegan-friendly café serving creative plant-based dishes, smoothie bowls, and fresh juices in a casual, welcoming environment. A great option for those seeking healthier local cuisine.",
-      "mustTry": "Buddha Bowl with Local Vegetables"
+      "description": "Food truck phenomenon in Old Quebec serving gourmet burgers with local beef and creative toppings. Perfect quick lunch option while exploring historic streets.",
+      "mustTry": "Quebec cheddar burger with maple aioli"
+    },
+    {
+      "name": "L'Eau à la Bouche",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary bistro focusing on locally sourced ingredients and seasonal menus. Friendly service and relaxed ambiance make it perfect for casual dining.",
+      "mustTry": "Salmon with dill and local vegetables"
     }
   ],
   "activities": [
     {
-      "name": "Explore Old Town (Vieux-Québec)",
+      "name": "Explore Old Quebec (Vieux-Québec)",
       "category": "Cultural",
-      "description": "Wander through the UNESCO World Heritage-listed cobblestone streets featuring 17th-century architecture, boutique shops, galleries, and historic landmarks. The compact and walkable area captures the essence of French colonial North America.",
+      "description": "Wander the UNESCO World Heritage district with cobblestone streets, historic architecture, and charming shops. Visit iconic sites like the Château Frontenac and Cathedral-Basilica.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "hidden-gems",
         "photography",
-        "foodie"
+        "surprise"
       ]
     },
     {
-      "name": "Montmorency Falls Adventure Park",
+      "name": "Montmorency Falls Hike",
       "category": "Outdoor",
-      "description": "A stunning natural attraction featuring a 272-meter waterfall with zip-lining, walking trails, and scenic viewpoints overlooking the St. Lawrence River. Summer activities include zip-lines over the falls, while winter offers unique perspectives.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
+      "description": "Scenic waterfall just 15 minutes north of the city offering trails with stunning views of the St. Lawrence River. Challenge yourself with 487 steps or enjoy easier riverside paths.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "adventure",
-        "photography",
-        "standard"
+        "photography"
       ]
     },
     {
       "name": "Île d'Orléans Cycling Tour",
-      "category": "Outdoor",
-      "description": "Bicycle through this charming island accessed via a bridge from Quebec City, featuring rural landscapes, farm stands, artisan shops, and historic churches. The 67-km loop offers stunning river views and authentic Québécois culture.",
-      "durationHours": 5,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Musée de la Civilisation",
-      "category": "Indoor",
-      "description": "An exceptional museum exploring Quebec's history, culture, and civilization through interactive exhibits and immersive displays. Diverse collections cover everything from indigenous peoples to contemporary Québécois society.",
-      "durationHours": 3,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "standard",
-        "hidden-gems",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Saint-Lawrence River Cruise",
-      "category": "Outdoor",
-      "description": "A scenic boat tour departing from the port offering panoramic views of the city skyline, historic landmarks, and natural landscapes from the water. Evening cruises often include dining and entertainment options.",
-      "durationHours": 2,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Château Frontenac Tour",
-      "category": "Cultural",
-      "description": "Visit the iconic castle-like hotel perched on the cliff overlooking the city, one of Canada's most photographed landmarks. Guided tours reveal the building's fascinating history and architectural significance.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Saint-Roch District Food & Art Walk",
-      "category": "Cultural",
-      "description": "Explore Quebec City's trendy neighborhood filled with street art, independent galleries, craft breweries, and innovative restaurants. This bohemian district reflects the city's creative contemporary culture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "foodie",
-        "hidden-gems",
-        "photography"
-      ]
-    },
-    {
-      "name": "Basilica-Cathedral of-Sainte-Anne-de-Beaupré",
-      "category": "Cultural",
-      "description": "A stunning neo-Romanesque basilica 30 minutes from Quebec City that attracts pilgrims and visitors worldwide. The magnificent interior, intricate mosaics, and spiritual atmosphere create a profound experience.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Winter Activities at Mont-Sainte-Anne",
       "category": "Adventure",
-      "description": "A premier ski resort 40 minutes north featuring excellent skiing, snowboarding, and cross-country trails during winter months. Summer activities include mountain biking and zip-lining with scenic valley views.",
-      "durationHours": 8,
-      "estimatedCostUSD": 65,
+      "description": "Pedal through this charming island with farms, artisan shops, and historic villages. Rent bikes to explore 47 kilometers of scenic routes with river views.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "adventure",
+        "hidden-gems",
         "standard"
       ]
     },
     {
-      "name": "Quartier Petit-Champlain Shopping & Gallery Tour",
+      "name": "Musée de la Civilisation",
       "category": "Cultural",
-      "description": "Stroll through North America's oldest street lined with art galleries, antique shops, bookstores, and specialty boutiques. The charming pedestrian area captures old-world elegance with modern amenities.",
-      "durationHours": 2,
-      "estimatedCostUSD": 5,
+      "description": "World-class museum exploring Quebec's history, culture, and civilization through interactive exhibits. Features rotating contemporary art and traveling exhibitions.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Terrasse Dufferin Stroll",
+      "category": "Outdoor",
+      "description": "Iconic wooden boardwalk along the St. Lawrence River offering panoramic views and street performers. Perfect for sunset walks, people-watching, and photography.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Quebec Winter Carnival (Seasonal)",
+      "category": "Family",
+      "description": "North America's largest winter festival featuring ice sculptures, dog sledding races, and traditional snow activities. Held in February with parades and live entertainment.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Basilica-Cathedral of Quebec",
+      "category": "Cultural",
+      "description": "Stunning Gothic Revival cathedral with intricate architectural details and sacred art collections. Active place of worship since 1647 with guided tours available.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
         "photography"
       ]
     },
     {
-      "name": "Musée National des Beaux-Arts",
-      "category": "Indoor",
-      "description": "Quebec's premier art museum showcasing Canadian, Québécois, and international artworks across contemporary and historical periods. Four pavilions connected by underground passages offer an extensive cultural experience.",
+      "name": "Kayaking the St. Lawrence River",
+      "category": "Adventure",
+      "description": "Paddle along the scenic river with views of Old Quebec and surrounding landscapes. Guided tours accommodate all skill levels from beginner to advanced.",
       "durationHours": 3,
-      "estimatedCostUSD": 16,
+      "estimatedCostUSD": 65,
       "bestFor": [
-        "standard",
-        "relaxation"
+        "adventure",
+        "photography"
       ]
     },
     {
-      "name": "Réserve Nationale de Fabreries Walking Trails",
-      "category": "Outdoor",
-      "description": "A nature reserve offering peaceful walking trails through forests with opportunities for birdwatching and wildlife observation just outside the city. Perfect for escaping urban crowds and connecting with nature.",
-      "durationHours": 3,
+      "name": "Artisan Markets & Galleries",
+      "category": "Cultural",
+      "description": "Browse local artist studios, craft shops, and weekend markets throughout Saint-Roch neighborhood. Discover unique handmade goods, art, and local creations.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Montmorency Park Picnic",
+      "category": "Relaxation",
+      "description": "Pack local cheese and wine for a leisurely picnic with waterfall views. Peaceful grassy areas perfect for relaxation and enjoying Quebec's natural beauty.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Ghost Tour of Old Quebec",
+      "category": "Nightlife",
+      "description": "Evening walking tour exploring the haunted history and ghost stories of historic Old Quebec. Guides share legends and historical tales through atmospheric streets.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Rue Saint-Jean Shopping & Dining",
+      "category": "Indoor",
+      "description": "Main pedestrian street lined with independent boutiques, cafes, restaurants, and live music venues. Vibrant hub for shopping, eating, and experiencing local culture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Château Frontenac at Dawn",
-        "description": "The iconic château silhouetted against the morning sky from Dufferin Terrace offers one of Canada's most recognizable and photogenic views.",
+        "name": "Château Frontenac",
+        "description": "Iconic turretted hotel dominating the Quebec City skyline with picturesque views from multiple angles including Terrasse Dufferin.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning, 6:00-7:30 AM",
+        "bestTime": "Golden hour for warm light on stone facade; winter for snow-covered landscape",
         "category": "Architecture"
       },
       {
         "name": "Montmorency Falls",
-        "description": "A spectacular 272-meter waterfall surrounded by autumn foliage and mist, especially dramatic during spring snowmelt or autumn color.",
+        "description": "Powerful 83-meter waterfall cascading into the St. Lawrence River with verdant cliff surroundings and multiple viewpoint angles.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning light, spring thaw",
+        "bestTime": "Spring during snowmelt for maximum water flow; overcast days eliminate harsh shadows",
         "category": "Landscape"
       },
       {
-        "name": "Old Town Cobblestone Streets",
-        "description": "Narrow, winding streets of Vieux-Québec lined with centuries-old buildings, charming doorways, and intimate architectural details.",
+        "name": "Terrasse Dufferin at Sunset",
+        "description": "Wooden boardwalk stretching along the river with sweeping vistas, street performers, and warm light bathing historic architecture.",
         "difficulty": "Beginner",
-        "bestTime": "Late afternoon golden hour",
+        "bestTime": "30 minutes before sunset through dusk for optimal golden and blue light",
         "category": "Street"
       },
       {
-        "name": "Dufferin Terrace at Sunset",
-        "description": "A promenade overlooking the St. Lawrence River and city skyline, offering stunning sunset colors reflecting off the water.",
+        "name": "Rue du Petit-Champlain",
+        "description": "Charming historic narrow street lined with colorful buildings, old storefronts, and cobblestones creating quintessential European atmosphere.",
         "difficulty": "Beginner",
-        "bestTime": "One hour before sunset",
-        "category": "Landscape"
+        "bestTime": "Early morning before crowds; afternoon light reflects off stone facades",
+        "category": "Street"
       },
       {
         "name": "Île d'Orléans Rural Landscape",
-        "description": "Farmland, historic churches, and river views across the island create pastoral scenes with authentic Québécois character.",
+        "description": "Rolling farmland with traditional houses, apple orchards, and river views creating pastoral Quebec countryside scenery.",
         "difficulty": "Intermediate",
-        "bestTime": "Late morning, early evening",
+        "bestTime": "Early fall with harvest scenes; spring with blooming orchards",
         "category": "Landscape"
       },
       {
-        "name": "Saint-Roch District Street Art",
-        "description": "Vibrant murals and contemporary street art covering buildings throughout this bohemian neighborhood showcase urban creativity.",
+        "name": "Quebec City Cityscape from Lévis",
+        "description": "Across-river perspective showcasing the entire Old Quebec skyline with St. Lawrence River in foreground reflecting light.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for backlit cityscape; overcast days for even exposure across water and buildings",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cathedral-Basilica Interior",
+        "description": "Ornate Gothic Revival interior with intricate wooden ceilings, stained glass, and candlelit sacred artworks.",
+        "difficulty": "Advanced",
+        "bestTime": "Late afternoon when side light illuminates stained glass; avoid flash photography",
+        "category": "Architecture"
+      },
+      {
+        "name": "Saint-Roch Street Art & Murals",
+        "description": "Vibrant neighborhood featuring colorful murals, street art installations, and creative urban expressions on historic buildings.",
         "difficulty": "Intermediate",
-        "bestTime": "Overcast days or morning light",
+        "bestTime": "Bright midday sun for saturated colors; blue hour for dramatic contrast",
         "category": "Street"
       },
       {
-        "name": "Basilica-Cathedral of Sainte-Anne-de-Beaupré",
-        "description": "An ornate neo-Romanesque basilica with intricate architecture, interior mosaics, and towering twin spires.",
+        "name": "St. Lawrence River Frozen (Winter)",
+        "description": "Dramatic winter landscape showing ice formations along the riverbank with snow-covered landscape and clear skies.",
         "difficulty": "Intermediate",
-        "bestTime": "Late afternoon sunlight",
-        "category": "Architecture"
-      },
-      {
-        "name": "Montmorency Park River Overlook",
-        "description": "Elevated viewpoint of the St. Lawrence River valley with sweeping vistas of forest, water, and distant landscapes.",
-        "difficulty": "Beginner",
-        "bestTime": "Clear days with good visibility",
+        "bestTime": "Early morning light across frozen surface; clear days for detail and texture",
         "category": "Landscape"
       },
       {
-        "name": "Petit-Champlain Quarter Historic Details",
-        "description": "North America's oldest street featuring ornate doorways, galleries, antique storefronts, and intimate architectural textures.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning or late afternoon",
+        "name": "Market Square (Place Royale)",
+        "description": "Historic plaza surrounded by 17th-century architecture featuring the bust of King Louis XIV and atmospheric street-level perspectives.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light; golden hour for warm tones on stone buildings",
         "category": "Architecture"
-      },
-      {
-        "name": "Winter Cityscape from Upper Town",
-        "description": "Snow-covered rooftops, church spires, and city lights create magical winter scenes from elevated vantage points.",
-        "difficulty": "Advanced",
-        "bestTime": "Blue hour, fresh snowfall",
-        "category": "Night"
       }
     ],
     "sunriseSpots": [
-      "Dufferin Terrace",
-      "Montmorency Park Overlook",
-      "Île d'Orléans East Shore"
+      "Montmorency Falls viewpoint",
+      "Île d'Orléans eastern shore",
+      "Terrasse Dufferin from Lévis side"
     ],
     "sunsetSpots": [
-      "Dufferin Terrace",
-      "Saint-Lawrence River Waterfront",
-      "Montmorency Falls Park"
+      "Terrasse Dufferin boardwalk",
+      "Montmorency Park overlook",
+      "Île d'Orléans western cliffs"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for sweeping city and landscape views",
-      "50mm f/1.8 prime for street photography and intimate architectural details",
-      "70-200mm telephoto for compressed river and distant landscape compositions",
-      "24-70mm versatile zoom for diverse compositions throughout the city"
+      "24-70mm f/2.8 for architectural detail and street scenes in varied lighting conditions",
+      "70-200mm f/2.8 for compressed river landscapes and distant cityscape perspectives",
+      "16-35mm f/2.8 for expansive waterfall and landscape compositions, especially at Montmorency Falls",
+      "50mm f/1.4 for intimate street portraiture and moody golden hour atmospheric shots"
     ],
-    "goldenHourNotes": "Quebec City's Old Town architecture is exceptionally photogenic during golden hour, with warm light illuminating historic stone facades and cobblestone textures. The river views become particularly spectacular during sunset when light reflects off the water in brilliant oranges and pinks. Spring and fall offer extended golden hours with clearer air and interesting weather patterns that add drama to skies.",
+    "goldenHourNotes": "Quebec City's golden hour is particularly magical from 7-8 AM and 5-6 PM, with low-angled sun illuminating historic stone facades in warm amber tones. The Château Frontenac and riverside buildings glow beautifully during these periods. Winter extends golden hour with lower sun trajectories, while summer's extended daylight creates extended shooting windows ideal for photographers.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -10,
-        "rainfallMM": 91
+        "avgTempC": -11,
+        "rainfallMM": 104
       },
       {
         "month": 2,
-        "avgTempC": -8,
-        "rainfallMM": 78
+        "avgTempC": -9,
+        "rainfallMM": 86
       },
       {
         "month": 3,
         "avgTempC": -2,
-        "rainfallMM": 81
+        "rainfallMM": 89
       },
       {
         "month": 4,
         "avgTempC": 8,
-        "rainfallMM": 89
+        "rainfallMM": 81
       },
       {
         "month": 5,
         "avgTempC": 17,
-        "rainfallMM": 99
+        "rainfallMM": 92
       },
       {
         "month": 6,
         "avgTempC": 22,
-        "rainfallMM": 112
+        "rainfallMM": 107
       },
       {
         "month": 7,
         "avgTempC": 25,
-        "rainfallMM": 117
+        "rainfallMM": 113
       },
       {
         "month": 8,
         "avgTempC": 24,
-        "rainfallMM": 109
+        "rainfallMM": 116
       },
       {
         "month": 9,
-        "avgTempC": 19,
-        "rainfallMM": 100
+        "avgTempC": 18,
+        "rainfallMM": 101
       },
       {
         "month": 10,
         "avgTempC": 12,
-        "rainfallMM": 103
+        "rainfallMM": 96
       },
       {
         "month": 11,
-        "avgTempC": 5,
-        "rainfallMM": 111
+        "avgTempC": 3,
+        "rainfallMM": 123
       },
       {
         "month": 12,
-        "avgTempC": -5,
-        "rainfallMM": 99
+        "avgTempC": -7,
+        "rainfallMM": 118
       }
     ],
     "bestMonths": [
       5,
       6,
-      9,
-      10
+      7,
+      8,
+      9
     ],
-    "seasonality": "Quebec City experiences four distinct seasons with cold, snowy winters (December-March) perfect for winter sports, warm summers (June-August) with temperatures reaching 25°C, and spectacular spring and fall foliage periods. Summer offers the best weather for outdoor activities and sightseeing, while winter transforms the city into a picturesque snow-covered landscape ideal for photography.",
-    "summary": "The city has a continental climate with significant seasonal variation, featuring freezing winters with substantial snowfall and warm summers with occasional rainfall. Spring and fall are particularly beautiful with moderate temperatures and stunning foliage, making these shoulder seasons ideal for most visitors seeking comfortable weather without extreme conditions."
+    "seasonality": "Winter (December-February) brings severe snow and cold perfect for winter activities but challenging travel. Spring (March-May) offers mild weather with blooming scenery. Summer (June-August) is warm and ideal for outdoor activities. Fall (September-November) showcases stunning foliage but increasingly cold and rainy.",
+    "summary": "Quebec City experiences four distinct seasons with cold, snowy winters averaging -9°C and pleasant summers around 23°C. Late May through September provides the best weather for visiting, while winter transforms the city into a magical snowy landscape ideal for seasonal activities and festivals."
   },
   "hotels": [
     {
       "name": "Auberge Saint-Antoine",
-      "neighborhood": "Old Town (Vieux-Québec)",
-      "pricePerNightUSD": 85,
+      "neighborhood": "Vieux-Québec",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Historic hotel in Old Quebec with river views, on-site archaeology museum, and excellent restaurant Panache featuring contemporary French cuisine."
+    },
+    {
+      "name": "Le Capitole Hôtel",
+      "neighborhood": "Saint-Roch",
+      "pricePerNightUSD": 95,
       "category": "Budget",
-      "description": "A charming heritage hotel in a converted warehouse featuring exposed stone, historic architecture, and affordable rates in the heart of the Old Town with easy access to major attractions."
+      "description": "Converted historic theater building offering affordable lodging with character, located in vibrant Saint-Roch neighborhood near galleries and restaurants."
     },
     {
       "name": "Fairmont Le Château Frontenac",
-      "neighborhood": "Old Town (Vieux-Québec)",
-      "pricePerNightUSD": 380,
+      "neighborhood": "Vieux-Québec",
+      "pricePerNightUSD": 425,
       "category": "Luxury",
-      "description": "Canada's most iconic castle-hotel offering unparalleled luxury, stunning river views, world-class service, and a privileged location overlooking the St. Lawrence River and city skyline."
-    },
-    {
-      "name": "Hotel Champlain",
-      "neighborhood": "Saint-Roch District",
-      "pricePerNightUSD": 165,
-      "category": "Mid-range",
-      "description": "A contemporary mid-range hotel in the trendy Saint-Roch neighborhood offering modern amenities, easy access to galleries and restaurants, and a vibrant local atmosphere away from tourist crowds."
+      "description": "Iconic castle-like luxury hotel dominating the skyline with panoramic river views, spa facilities, fine dining, and impeccable service in the heart of Old Quebec."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1598637529152-69afaa58432b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxRdWViZWMlMjBDaXR5JTIwT2xkJTIwVG93bnxlbnwxfDB8fHwxNzgxNTU2MTM3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

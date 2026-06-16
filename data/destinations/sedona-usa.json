@@ -5,7 +5,7 @@
   "region": "North America",
   "airportCodes": [
     "PHX",
-    "PHL"
+    "PHO"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -13,173 +13,210 @@
     "photography",
     "adventure",
     "relaxation",
-    "foodie"
+    "hidden-gems"
   ],
   "scores": {
     "cost": 35,
-    "food": 78,
-    "photography": 95,
-    "activities": 88,
-    "weather": 82
+    "food": 82,
+    "photography": 98,
+    "activities": 90,
+    "weather": 85
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 140
+      "maxPerDayUSD": 150
     },
     {
       "level": "mid",
-      "minPerDayUSD": 140,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Sedona red rocks",
-  "summary": "Sedona captivates visitors with its stunning crimson rock formations and vibrant arts scene, nestled in the scenic Arizona high desert. The destination offers world-class hiking, spiritual retreats, exceptional galleries, and some of the most photographed landscapes in America. Perfect for adventure seekers, photographers, and those seeking rejuvenation amidst natural beauty.",
+  "unsplashQuery": "Sedona red rocks sunset",
+  "summary": "Sedona enchants visitors with its iconic crimson-hued buttes, vibrant arts scene, and world-class outdoor recreation nestled in Arizona's high desert. This spiritual wellness hub offers exceptional hiking, shopping, and dining alongside stunning natural formations that have captivated photographers and adventurers for generations. The dramatic landscape combines accessibility with adventure, making it perfect for both relaxation and exploration.",
   "restaurants": [
     {
-      "name": "The Collective at Uptown Sedona",
+      "name": "Pago Northern Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning contemporary restaurant featuring locally-sourced ingredients and innovative southwestern cuisine in an elegant setting with panoramic views.",
+      "mustTry": "Arizona lamb with red rock spice blend"
+    },
+    {
+      "name": "Oka Restaurant + Lounge",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Japanese fusion restaurant offering exquisite sushi, sashimi, and creative rolls in a sophisticated atmosphere overlooking Sedona's red rocks.",
+      "mustTry": "Sedona sunset roll with local peppers"
+    },
+    {
+      "name": "Cafe Solé",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Casual dining featuring Southwest cuisine with local ingredients and craft beverages. A gathering spot for locals and visitors alike with a relaxed atmosphere.",
-      "mustTry": "Chile relleno tacos with local green chile"
+      "priceRange": "$$$",
+      "description": "Charming farm-to-table bistro serving French-inspired American cuisine with a focus on seasonal ingredients and artisanal preparations.",
+      "mustTry": "Wild mushroom risotto"
+    },
+    {
+      "name": "L'Auberge on Oak Creek",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Creekside fine dining establishment with French cuisine and an exceptional wine collection, offering intimate dining experiences with natural surroundings.",
+      "mustTry": "Pan-seared duck breast"
+    },
+    {
+      "name": "Mariposa Latin Inspired Grill",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary Latin American restaurant featuring creative ceviches, grilled meats, and fresh seafood in a vibrant, welcoming atmosphere.",
+      "mustTry": "Shrimp ceviche with avocado mousse"
     },
     {
       "name": "Elote Cafe",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Farm-to-table fine dining celebrating Southwestern flavors with innovative techniques and an extensive wine list. Intimate setting with views of Tlaquepaque Arts & Crafts Village.",
-      "mustTry": "Pan-seared wild mushrooms with corn silk bisque"
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual Mexican eatery specializing in authentic street food and family recipes with a focus on fresh, house-made ingredients.",
+      "mustTry": "Chile relleno"
+    },
+    {
+      "name": "Black Cow Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table café offering breakfast, lunch, and pastries made fresh daily with local and organic ingredients in a cozy setting.",
+      "mustTry": "Huevos rancheros with house-made tortillas"
+    },
+    {
+      "name": "Joe's Italian Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-owned Italian trattoria serving homemade pasta, classic risotto, and traditional dishes in a warm, welcoming neighborhood atmosphere.",
+      "mustTry": "Lasagna bolognese"
+    },
+    {
+      "name": "Takashi Japanese Cuisine",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Authentic Japanese restaurant featuring fresh sushi, tempura, and traditional cooked dishes prepared by skilled chefs.",
+      "mustTry": "Omakase selection"
+    },
+    {
+      "name": "Criollo Latin Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Latin American spot with vibrant flavors, fresh ceviche, empanadas, and tropical cocktails in a relaxed, colorful setting.",
+      "mustTry": "Peruvian pollo a la brasa"
     },
     {
       "name": "Wildflower Bread Company",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Beloved local bakery chain serving fresh-baked pastries, sandwiches, and coffee. Perfect for grab-and-go breakfast before hikes.",
-      "mustTry": "Rosemary focaccia sandwich"
+      "description": "Casual bakery and café offering fresh-baked bread, pastries, sandwiches, and coffee perfect for breakfast or a quick lunch.",
+      "mustTry": "Artisan sourdough sandwich"
     },
     {
-      "name": "Reds Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Contemporary bistro located in historic building with casual elegance and Southwestern flair. Known for creative dishes and friendly service.",
-      "mustTry": "Seared tuna with cilantro lime sauce"
-    },
-    {
-      "name": "Mariposa Latin Inspired Grill",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale Latin cuisine with an emphasis on fresh seafood and vibrant flavors. Stunning patio views of Cathedral Rock.",
-      "mustTry": "Chilian sea bass with mango habanero glaze"
-    },
-    {
-      "name": "Takashi",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Authentic Japanese restaurant offering sushi, sashimi, and hot dishes in a welcoming casual setting. High-quality ingredients and skilled preparation.",
-      "mustTry": "Spicy tuna roll with crispy wonton"
-    },
-    {
-      "name": "Pizza Pie",
+      "name": "The Raven Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Local favorite for wood-fired pizzas with creative toppings and organic ingredients. Family-friendly with a fun atmosphere.",
-      "mustTry": "Roasted vegetable and goat cheese pizza"
-    },
-    {
-      "name": "Grounds for Thought",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Cozy coffee shop and cafe serving excellent espresso drinks, smoothies, and light lunch items. Perfect meeting spot with local art on walls.",
-      "mustTry": "Lavender latte with homemade pastry"
-    },
-    {
-      "name": "The Hideaway",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Charming Italian restaurant tucked away from main streets offering homemade pasta and classic European dishes. Intimate candlelit ambiance.",
-      "mustTry": "Ravioli with wild mushroom and sage butter"
-    },
-    {
-      "name": "Criollo Latin Kitchen",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Modern Latin American cuisine featuring bold flavors and artistic plating. Extensive South American wine selection and sophisticated cocktails.",
-      "mustTry": "Peruvian sea bass ceviche with crispy plantains"
-    },
-    {
-      "name": "Pies On Oak",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual pizzeria and bakery offering wood-fired pies and fresh baked goods. Great for casual lunch or picnic supplies.",
-      "mustTry": "Seasonal vegetable pie with fresh herbs"
-    },
-    {
-      "name": "Schuerman's",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic restaurant serving classic American comfort food with Southwestern touches. Family-owned with charming vintage decor and reliable quality.",
-      "mustTry": "Chicken fried steak with green chile gravy"
+      "description": "Laid-back coffee shop and bistro serving excellent coffee, smoothie bowls, salads, and sandwiches in a bohemian atmosphere.",
+      "mustTry": "Acai bowl with local granola"
     }
   ],
   "activities": [
     {
-      "name": "Cathedral Rock Trail Hike",
-      "category": "Adventure",
-      "description": "Popular 1.2-mile moderate hike to one of Sedona's most iconic rock formations with stunning 360-degree views. Trail features rock scrambling sections with incredible photo opportunities.",
+      "name": "Cathedral Rock Hiking Trail",
+      "category": "Outdoor",
+      "description": "Iconic 1.2-mile trail leading to stunning red rock formations with 360-degree views of Sedona's landscape. The hike features a series of scrambles and overlooks offering some of the most photographed vistas in Arizona.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
+        "photography",
         "adventure",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Devil's Bridge Hike",
+      "category": "Outdoor",
+      "description": "4.2-mile round-trip hike to Arizona's largest natural sandstone arch, offering dramatic red rock scenery and spectacular photo opportunities. This moderately challenging trail rewards hikers with breathtaking views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Jeep Tour - Backcountry Experience",
+      "category": "Adventure",
+      "description": "Guided off-road adventure through remote desert trails, ancient Native American sites, and scenic overlooks inaccessible by foot. Expert guides share local history and natural wonders.",
+      "durationHours": 4,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "standard",
         "photography"
       ]
     },
     {
-      "name": "Jeep Tour - Off-Road Adventure",
-      "category": "Adventure",
-      "description": "Professional guided off-road Jeep tour through backcountry trails accessing hidden viewpoints and remote landscapes. Expert drivers navigate rugged terrain while sharing geological and cultural history.",
+      "name": "Sedona Arts Village & Galleries",
+      "category": "Cultural",
+      "description": "Explore over 80 galleries showcasing local artists, sculptors, and craftspeople in charming village streets. Browse galleries featuring paintings, pottery, jewelry, and unique southwestern art.",
       "durationHours": 3,
-      "estimatedCostUSD": 99,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "adventure",
-        "photography"
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Oak Creek Canyon Drive",
+      "category": "Outdoor",
+      "description": "Scenic 25-mile drive through a stunning canyon with pullouts, waterfalls, and viewpoints. This leisurely drive showcases dramatic geology and seasonal foliage changes.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Vortex Meditation & Spiritual Tours",
+      "category": "Cultural",
+      "description": "Guided experiences at Sedona's famous energy vortex sites believed to enhance meditation and spiritual connection. Tours include history, geology, and guided meditations.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "relaxation",
+        "standard"
       ]
     },
     {
       "name": "Red Rock State Park Exploration",
       "category": "Outdoor",
-      "description": "135-acre park featuring scenic trails along Oak Creek with diverse wildlife viewing opportunities. Multiple difficulty levels available with picnic areas and visitor center.",
+      "description": "213-acre park featuring scenic trails, wildlife viewing, and creek access alongside educational exhibits. Trail options range from easy to moderate with consistent red rock views.",
       "durationHours": 3,
-      "estimatedCostUSD": 12,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
         "adventure",
-        "relaxation"
+        "family"
       ]
     },
     {
-      "name": "Vortex Meditation & Spiritual Tour",
-      "category": "Cultural",
-      "description": "Guided tour to Sedona's famous vortex sites believed to be centers of energy conducive to self-exploration and healing. Experienced guides explain geological formations and spiritual significance.",
-      "durationHours": 3,
-      "estimatedCostUSD": 75,
-      "bestFor": [
-        "relaxation",
-        "standard"
-      ]
-    },
-    {
-      "name": "Hot Air Balloon Ride at Sunrise",
+      "name": "Sedona Hot Air Balloon Ride",
       "category": "Adventure",
-      "description": "Experience breathtaking aerial views of Sedona's red rocks from a hot air balloon at dawn. Includes champagne breakfast and hotel transport for magical unforgettable experience.",
+      "description": "Early morning hot air balloon experience drifting over red rocks with panoramic sunrise views and champagne breakfast. This once-in-a-lifetime activity offers unmatched aerial photography opportunities.",
       "durationHours": 3,
-      "estimatedCostUSD": 250,
+      "estimatedCostUSD": 225,
       "bestFor": [
         "adventure",
         "photography",
@@ -187,83 +224,49 @@
       ]
     },
     {
-      "name": "Tlaquepaque Arts & Crafts Village Shopping",
+      "name": "Downtown Sedona Shopping & Dining",
       "category": "Cultural",
-      "description": "Charming Mexican village-style shopping district featuring galleries, shops, and restaurants. Browse local artwork, crafts, and jewelry while experiencing authentic Southwestern architecture.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Walkable downtown featuring boutique shops, galleries, restaurants, and sidewalk cafés. Explore upscale retail, artisan crafts, and local businesses in a charming walkable environment.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "standard",
-        "foodie"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Oak Creek Canyon Scenic Drive",
+      "name": "Slide Rock State Park",
       "category": "Outdoor",
-      "description": "Stunning 13-mile drive through dramatic canyon with multiple pullouts for photography and short walks. Considered one of Arizona's most beautiful roads with constant scenic vistas.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Yoga & Wellness Class",
-      "category": "Relaxation",
-      "description": "Morning or sunset yoga sessions held outdoors with views of red rocks, incorporating local energy and natural surroundings. Suitable for all levels with emphasis on mindfulness and connection.",
-      "durationHours": 1.5,
+      "description": "Family-friendly park with natural water slides, creek swimming, and easy hiking trails along Oak Creek. Perfect for cooling off in summer or enjoying autumn foliage in cooler months.",
+      "durationHours": 3,
       "estimatedCostUSD": 20,
       "bestFor": [
-        "relaxation",
-        "standard"
-      ]
-    },
-    {
-      "name": "Devil's Bridge Trail Hike",
-      "category": "Adventure",
-      "description": "Moderate 4.2-mile roundtrip hike to Arizona's largest natural sandstone arch with spectacular views. Popular sunset destination with rock scrambling and rewarding photo opportunities.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Art Gallery Tours & Artist Visits",
-      "category": "Cultural",
-      "description": "Explore world-class galleries showcasing local and international artists, some with artist meet-and-greets available. Sedona hosts over 80 galleries across galleries districts.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Crescent Moon Beach Picnic",
-      "category": "Outdoor",
-      "description": "Scenic picnic area along Oak Creek with swimming opportunities and stunning red rock backdrop. Perfect for families with easy accessibility and shaded picnic tables.",
-      "durationHours": 2,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "standard",
         "family",
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Sedona Wine Tours",
+      "category": "Cultural",
+      "description": "Guided tours visiting local wineries and tasting rooms showcasing Arizona wines with scenic red rock backdrops. Tours include education on local vineyard practices and wine pairings.",
+      "durationHours": 4,
+      "estimatedCostUSD": 110,
+      "bestFor": [
+        "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Sunset Dinner at Mountaintop Restaurant",
-      "category": "Nightlife",
-      "description": "Fine dining experience with panoramic sunset views of Sedona's entire red rock landscape. Multi-course cuisine paired with sunset colors changing over hours.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 85,
+      "name": "Bell Rock Pathway Loop",
+      "category": "Outdoor",
+      "description": "Easy 3.6-mile loop around the iconic Bell Rock formation with stunning views and multiple photo opportunities. Accessible for all fitness levels with consistently impressive red rock scenery.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "foodie",
-        "photography"
+        "photography",
+        "family"
       ]
     }
   ],
@@ -271,110 +274,110 @@
     "spots": [
       {
         "name": "Cathedral Rock",
-        "description": "Iconic twin peaks formation offering dramatic silhouettes and rich red coloring, especially stunning during golden hour with multiple vantage points.",
+        "description": "Iconic twin peaks with layered red rock formations creating a dramatic cathedral-like silhouette against Arizona skies.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset, golden hour",
-        "category": "Landscape"
-      },
-      {
-        "name": "Bell Rock Pathway",
-        "description": "Easy walking path offering stunning views of Bell Rock formation with balanced compositions and foreground interest from desert vegetation.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light, afternoon shadows",
+        "bestTime": "Early morning or late afternoon golden hour",
         "category": "Landscape"
       },
       {
         "name": "Devil's Bridge",
-        "description": "Arizona's largest natural arch providing dramatic arch framing opportunities with layered red rock backgrounds and complex compositions.",
+        "description": "Arizona's largest natural sandstone arch framing desert landscape with striking geometric rock formations.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset, golden hour",
+        "bestTime": "Late afternoon for warm backlighting on arch",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bell Rock",
+        "description": "Distinctive bell-shaped formation rising dramatically from desert floor, visible from multiple vantage points and parking areas.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for directional lighting",
         "category": "Landscape"
       },
       {
         "name": "Courthouse Butte",
-        "description": "Distinctive rock formation resembling courthouse with excellent contrast possibilities and varied textures in the sandstone.",
+        "description": "Massive red rock formation resembling a courthouse with intricate layered striations and shadow patterns throughout the day.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning, late afternoon",
+        "bestTime": "Mid-morning for detailed shadow definition",
         "category": "Landscape"
       },
       {
-        "name": "Boynton Canyon",
-        "description": "Deep canyon with layered rock walls offering complex compositions, dramatic shadows, and excellent texture detail in sandstone.",
+        "name": "Boynton Canyon Road",
+        "description": "Scenic tree-lined road framed by towering red rocks creating natural leading lines and dramatic canyon walls.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning with soft directional light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Schnebly Hill Road Scenic Drive",
+        "description": "Winding dirt road offering elevated vistas of entire Sedona valley with panoramic red rock formations and sunset colors.",
         "difficulty": "Intermediate",
-        "bestTime": "Mid-morning for canyon lighting",
+        "bestTime": "Late afternoon approaching sunset",
         "category": "Landscape"
       },
       {
-        "name": "Tlaquepaque Arts Village",
-        "description": "Mexican-style architecture with colorful buildings, artistic details, and shadows creating excellent street and architectural photography opportunities.",
+        "name": "Downtown Sedona Art Village",
+        "description": "Charming pedestrian streets with colorful gallery facades, sculpture displays, and architectural details perfect for street photography.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour, overcast days",
+        "bestTime": "Afternoon with side-lighting on storefronts",
+        "category": "Architecture"
+      },
+      {
+        "name": "Tlaquepaque Arts and Crafts Village",
+        "description": "Mexican-inspired marketplace with rustic architecture, colorful buildings, courtyards, and artistic details throughout.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning with warm directional light in courtyards",
         "category": "Architecture"
       },
       {
         "name": "Oak Creek Canyon Overlooks",
-        "description": "Multiple pullouts along scenic highway offering sweeping canyon views with layers of rock formations and varying light conditions.",
+        "description": "Multiple pullout locations along scenic drive offering dramatic canyon vistas with layered rock formations and seasonal foliage.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light from north-facing views",
+        "bestTime": "Late afternoon for warm canyon lighting",
         "category": "Landscape"
       },
       {
-        "name": "Crescent Moon Beach",
-        "description": "Red rocks reflected in calm creek waters offering mirror-like compositions and excellent foreground interest with water reflections.",
+        "name": "Red Rock State Park Trails",
+        "description": "Protected parkland with pristine hiking trails offering creek reflections, wildflower meadows, and intimate red rock close-ups.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning, calm water conditions",
-        "category": "Landscape"
-      },
-      {
-        "name": "Sedona Arts Village & Galleries",
-        "description": "Gallery windows, art installations, and local artists providing diverse architectural and cultural photography subjects.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour, evening",
-        "category": "Street"
-      },
-      {
-        "name": "Schnebly Hill Vista Point",
-        "description": "Elevated viewpoint offering sweeping panoramic views of entire Sedona region with excellent sunset colors and atmospheric perspective.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset, golden hour",
+        "bestTime": "Early morning with soft overcast light",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Bell Rock Pathway",
-      "Courthouse Butte",
-      "Boynton Canyon Trail Head"
+      "Cathedral Rock",
+      "Bell Rock",
+      "Devil's Bridge"
     ],
     "sunsetSpots": [
-      "Cathedral Rock",
-      "Devil's Bridge",
-      "Schnebly Hill Vista Point"
+      "Courthouse Butte",
+      "Schnebly Hill Road",
+      "Boynton Canyon overlook"
     ],
     "lensRecommendations": [
-      "Wide-angle 16-35mm for sweeping landscape vistas and canyon compositions",
-      "Standard 50mm prime for intimate detail shots of rock texture and architectural elements",
-      "Telephoto 70-200mm for compressed landscapes and distant formation isolation",
-      "Ultra-wide 14mm or fisheye for dramatic immersive canyon and arch photography"
+      "24-70mm zoom for versatile landscape framing and architectural details",
+      "14-24mm ultra-wide for expansive red rock panoramas and canyon vistas",
+      "70-200mm telephoto for compressed distant rock formations and wildlife detail",
+      "16-35mm wide-angle for immersive desert environment and leading line compositions"
     ],
-    "goldenHourNotes": "Sedona's golden hour is exceptionally dramatic due to red rocks reflecting warm light and creating rich saturated colors. Golden hour extends longer here due to canyon geography, typically 45 minutes before sunset and 30 minutes after sunrise. Sunset photography is particularly spectacular as the rocks transition through orange, pink, and purple hues within 60 minutes.",
+    "goldenHourNotes": "Sedona's golden hour is exceptionally photogenic with warm red tones amplifying natural rock coloration. The best shooting occurs within 90 minutes of sunrise and sunset when low angle light creates dramatic shadow definition on rock formations. Afternoon light also excels during cooler months (October-March) when humidity is minimal and atmospheric clarity peaks.",
     "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 12,
+        "avgTempC": 10,
         "rainfallMM": 25
       },
       {
         "month": 2,
-        "avgTempC": 13,
+        "avgTempC": 12,
         "rainfallMM": 23
       },
       {
         "month": 3,
-        "avgTempC": 16,
-        "rainfallMM": 20
+        "avgTempC": 15,
+        "rainfallMM": 18
       },
       {
         "month": 4,
@@ -383,77 +386,75 @@
       },
       {
         "month": 5,
-        "avgTempC": 26,
+        "avgTempC": 27,
         "rainfallMM": 5
       },
       {
         "month": 6,
-        "avgTempC": 31,
-        "rainfallMM": 30
+        "avgTempC": 33,
+        "rainfallMM": 45
       },
       {
         "month": 7,
-        "avgTempC": 32,
-        "rainfallMM": 53
+        "avgTempC": 34,
+        "rainfallMM": 65
       },
       {
         "month": 8,
-        "avgTempC": 31,
-        "rainfallMM": 48
+        "avgTempC": 33,
+        "rainfallMM": 52
       },
       {
         "month": 9,
-        "avgTempC": 29,
-        "rainfallMM": 30
+        "avgTempC": 30,
+        "rainfallMM": 38
       },
       {
         "month": 10,
         "avgTempC": 23,
-        "rainfallMM": 18
+        "rainfallMM": 20
       },
       {
         "month": 11,
-        "avgTempC": 17,
-        "rainfallMM": 15
+        "avgTempC": 16,
+        "rainfallMM": 22
       },
       {
         "month": 12,
-        "avgTempC": 12,
+        "avgTempC": 11,
         "rainfallMM": 28
       }
     ],
     "bestMonths": [
       3,
       4,
-      5,
       10,
       11
     ],
-    "seasonality": "Sedona experiences mild winters perfect for outdoor activities and pleasant spring/fall weather ideal for hiking. Summer brings intense heat with afternoon monsoon thunderstorms, while winter occasionally sees light snow on surrounding peaks.",
-    "summary": "Sedona enjoys over 260 days of sunshine annually with moderate temperatures year-round. The high desert climate means cool mornings and evenings with warm afternoons, making it ideal for outdoor activities most of the year."
+    "seasonality": "Sedona experiences mild winters with occasional snow, hot dry summers, and spectacular spring and fall seasons with ideal temperatures. Monsoon season (June-September) brings afternoon thunderstorms and lush vegetation growth.",
+    "summary": "Sedona's high desert climate (elevation 1,280m) offers year-round activities with cool winters and warm summers moderated by elevation. The best time to visit is spring (March-May) and fall (October-November) when temperatures are comfortable for outdoor activities and hiking."
   },
   "hotels": [
     {
-      "name": "Sedona Quality Inn & Suites",
-      "neighborhood": "North Sedona",
-      "pricePerNightUSD": 85,
+      "name": "Sedona Motel",
+      "neighborhood": "Downtown Sedona",
+      "pricePerNightUSD": 110,
       "category": "Budget",
-      "description": "Comfortable mid-scale hotel with clean rooms, friendly service, and convenient location near hiking trailheads and shops."
+      "description": "No-frills comfortable lodging in downtown location with basic amenities and walkable access to shops and restaurants."
+    },
+    {
+      "name": "Amara Resort & Spa",
+      "neighborhood": "Uptown Sedona",
+      "pricePerNightUSD": 220,
+      "category": "Mid-range",
+      "description": "Contemporary resort offering comfortable rooms, full-service spa, pools, and excellent restaurant with convenient Uptown location and red rock views."
     },
     {
       "name": "Enchantment Resort",
       "neighborhood": "Boynton Canyon",
-      "pricePerNightUSD": 350,
-      "category": "Mid-range",
-      "description": "All-inclusive luxury resort nestled in canyon with spa, fine dining, golf course, and breathtaking rock views with full-service amenities."
-    },
-    {
-      "name": "Sky Ranch Lodge",
-      "neighborhood": "Airport Area",
-      "pricePerNightUSD": 155,
-      "category": "Mid-range",
-      "description": "Charming lodge with stellar service, excellent restaurant, and stunning panoramic views of Sedona's red rocks from elevated location."
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury all-inclusive resort nestled in Boynton Canyon featuring spa, fine dining, scenic trails, championship golf, and personalized service."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1617771431802-58b6aaf93399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTZWRvbmElMjByZWQlMjByb2Nrc3xlbnwxfDB8fHwxNzgxMzAzMzI2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

@@ -1,0 +1,457 @@
+{
+  "id": "iowa-city-usa",
+  "city": "Iowa City",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "CID",
+    "ORD",
+    "MCI"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 78,
+    "food": 72,
+    "photography": 68,
+    "activities": 70,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 65,
+      "maxPerDayUSD": 95
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 95,
+      "maxPerDayUSD": 160
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 160,
+      "maxPerDayUSD": 250
+    }
+  ],
+  "unsplashQuery": "Iowa City downtown river",
+  "summary": "Iowa City is a charming college town nestled along the Iowa River, offering literary heritage as home to the prestigious University of Iowa Writers' Workshop and the birthplace of the National Book Award. This hidden gem combines Midwestern warmth with vibrant cultural offerings, excellent local restaurants, and picturesque natural landscapes perfect for photography and exploration.",
+  "restaurants": [
+    {
+      "name": "Motley Cow Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A beloved local favorite serving comfort food classics and hearty sandwiches in a cozy, eclectic atmosphere. Known for supporting local ingredients and community gathering space.",
+      "mustTry": "The daily special sandwich"
+    },
+    {
+      "name": "Devotay",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table fine dining restaurant featuring seasonal menus and innovative preparations of locally sourced ingredients. An intimate setting showcasing contemporary cuisine with artistic presentation.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "The Old Capitol Grille",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Located near historic landmarks, offering American classics with a modern twist in an elegant yet relaxed setting. Features an extensive wine selection and warm hospitality.",
+      "mustTry": "Grilled steaks and locally raised beef"
+    },
+    {
+      "name": "Quinton's",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "An iconic hamburger joint since 1919, serving simple, delicious burgers and shakes in a retro diner atmosphere. A true Iowa City institution beloved by generations.",
+      "mustTry": "Classic hamburger with hand-cut fries"
+    },
+    {
+      "name": "Pondicheri",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Indian cuisine restaurant featuring traditional and contemporary dishes prepared with aromatic spices and authentic techniques. Warm ambiance with friendly service.",
+      "mustTry": "Butter chicken and naan"
+    },
+    {
+      "name": "Kum & Go Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local casual dining spot serving breakfast all day with coffee, pastries, and quick meals. A convenient and affordable option for travelers.",
+      "mustTry": "Breakfast sandwiches"
+    },
+    {
+      "name": "Texas Roadhouse",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual steakhouse known for hand-cut steaks and fresh-baked rolls in a fun, energetic environment. Great for families and groups.",
+      "mustTry": "Fresh-cut steaks and baked potatoes"
+    },
+    {
+      "name": "The Mill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning restaurant in a restored mill building featuring wood-fired cuisine and an elegant atmosphere with river views. Focuses on seasonal, local ingredients.",
+      "mustTry": "Wood-fired fish and artisanal pasta"
+    },
+    {
+      "name": "Masala",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Indian restaurant with vibrant spices and creative dishes in a modern, welcoming setting. Offers vegetarian and meat options.",
+      "mustTry": "Paneer tikka masala and samosas"
+    },
+    {
+      "name": "Brewers Alley Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual cafe atmosphere with craft beers, sandwiches, and salads perfect for lunch or casual dining. Local art adorns the walls.",
+      "mustTry": "Artisan sandwiches and local craft beer"
+    },
+    {
+      "name": "Taste of Thai",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Thai cuisine featuring fragrant curries, noodles, and traditional dishes in a simple, welcoming space. Excellent value for money.",
+      "mustTry": "Pad Thai and green curry"
+    },
+    {
+      "name": "Blackstone District Kitchen",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining establishment offering elevated American cuisine in a sophisticated setting with craft cocktails. Chef-driven menu emphasizing quality ingredients.",
+      "mustTry": "Seasonal tasting menu with wine pairings"
+    }
+  ],
+  "activities": [
+    {
+      "name": "University of Iowa Campus Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the beautiful historic campus featuring iconic architecture, the Old Capitol building, and famous literary sites associated with the Writers' Workshop. Learn about Iowa's academic heritage and literary significance.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Iowa River Path Biking and Walking",
+      "category": "Outdoor",
+      "description": "Scenic trails along the Iowa River offering peaceful nature walks and excellent biking opportunities through town and surrounding areas. Perfect for observing local wildlife and enjoying riverside views.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "City Park and Swimming Hole",
+      "category": "Family",
+      "description": "Charming neighborhood park with picnic areas, playgrounds, and a historic swimming hole for summer recreation. A quintessential Midwestern outdoor gathering space.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "University Museum of Art",
+      "category": "Cultural",
+      "description": "Exceptional art museum featuring American and international works, contemporary installations, and rotating exhibits. Free admission with impressive collections spanning centuries.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Historic Downtown Exploration and Shopping",
+      "category": "Indoor",
+      "description": "Walk through charming downtown streets lined with independent bookstores, vintage shops, galleries, and historic buildings. Discover local businesses and quirky finds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Coralville Reservoir Outdoor Recreation",
+      "category": "Adventure",
+      "description": "Large recreational lake offering boating, fishing, swimming, and picnicking opportunities just outside the city. Beautiful natural setting with hiking trails and scenic overlooks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "outdoor",
+        "photography"
+      ]
+    },
+    {
+      "name": "Writers' Workshop Literary Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized tour exploring the legendary Iowa Writers' Workshop and its connection to renowned American authors. Visit historic literary landmarks and bookstores.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "hidden-gems",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Old Capitol Building Tour",
+      "category": "Cultural",
+      "description": "Historic 1840 territorial capitol building offering guided tours showcasing Iowa's government history and architectural significance. Beautifully restored interior with period furnishings.",
+      "durationHours": 1,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Farmers Market and Local Food Scene",
+      "category": "Foodie",
+      "description": "Saturday farmers market featuring local produce, crafts, and artisan foods reflecting Iowa's agricultural heritage. Great for sampling local specialties and meeting producers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Local Breweries and Craft Beer Tours",
+      "category": "Nightlife",
+      "description": "Iowa City has several craft breweries offering tastings and brewery tours showcasing local beer culture. Casual atmosphere with social scenes and seasonal offerings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "nightlife",
+        "relaxation",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Art Glass Studios and Galleries",
+      "category": "Cultural",
+      "description": "Visit working art glass studios where artisans create beautiful blown glass pieces available for purchase. Some studios offer demonstrations and workshops.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Scenic Sunset Picnic at Parks",
+      "category": "Relaxation",
+      "description": "Pack local food and enjoy a peaceful sunset picnic in one of Iowa City's parks overlooking the river or landscape. Perfect end-of-day activity for relaxation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Hubbard Park Bridge",
+        "description": "Historic arched pedestrian bridge spanning the Iowa River with beautiful reflections and surrounding green space.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for reflections, all seasons",
+        "category": "Architecture"
+      },
+      {
+        "name": "Old Capitol Building",
+        "description": "Iconic domed territorial capitol building with classical architecture, especially striking at sunrise or sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Iowa River Valley Overlook",
+        "description": "Panoramic views of the river valley with rolling hills and seasonal foliage creating dramatic landscapes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Fall for foliage, spring for green landscapes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Historic District",
+        "description": "Charming street photography opportunities featuring Victorian storefronts, local businesses, and vibrant street life.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for street light, weekend markets",
+        "category": "Street"
+      },
+      {
+        "name": "University of Iowa Campus Trees",
+        "description": "Mature trees creating natural canopy with beautiful shadows and patterns, especially striking in different seasons.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon, fall foliage",
+        "category": "Landscape"
+      },
+      {
+        "name": "Coralville Reservoir Landscape",
+        "description": "Large water body with distant hills, dramatic skies, and wildlife creating scenic composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset, spring and fall",
+        "category": "Landscape"
+      },
+      {
+        "name": "River Pedestrian Path",
+        "description": "Scenic pathway along the Iowa River with natural vegetation, water reflections, and seasonal changes.",
+        "difficulty": "Beginner",
+        "bestTime": "Any time of day, beautiful year-round",
+        "category": "Landscape"
+      },
+      {
+        "name": "City Park Historic Structures",
+        "description": "Small historic buildings and structures within parks create interesting architectural and contextual photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon for directional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Library and Cultural Institution Facades",
+        "description": "Modern and historic university buildings offer interesting architectural details and geometric compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dimensional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Farmers Market at Dawn",
+        "description": "Early morning market activity with vendors, colorful produce, and dynamic human interest with natural light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Saturday morning before 9 AM",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Hubbard Park Bridge",
+      "Iowa River Valley Overlook",
+      "Coralville Reservoir East Shore"
+    ],
+    "sunsetSpots": [
+      "Coralville Reservoir West Shore",
+      "Old Capitol Building",
+      "Iowa River Pedestrian Path"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for landscape and architectural vistas capturing expansive river valley views",
+      "50mm prime for street photography and intimate downtown scenes with natural perspective",
+      "70-200mm telephoto for wildlife at Coralville Reservoir and distant landscape compression",
+      "24mm wide angle for architectural details of historic buildings and campus structures"
+    ],
+    "goldenHourNotes": "Iowa City's riverside location offers excellent golden hour opportunities with directional light hitting historic buildings and water reflections. The best times are spring and fall when the sun angle is optimal and weather is most stable. Early morning light along the river path and sunset over Coralville Reservoir create dramatic atmospheric conditions with warm, directional illumination ideal for landscape and architectural photography.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -6,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": 3,
+        "rainfallMM": 56
+      },
+      {
+        "month": 4,
+        "avgTempC": 12,
+        "rainfallMM": 89
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 107
+      },
+      {
+        "month": 6,
+        "avgTempC": 23,
+        "rainfallMM": 132
+      },
+      {
+        "month": 7,
+        "avgTempC": 25,
+        "rainfallMM": 127
+      },
+      {
+        "month": 8,
+        "avgTempC": 24,
+        "rainfallMM": 114
+      },
+      {
+        "month": 9,
+        "avgTempC": 19,
+        "rainfallMM": 89
+      },
+      {
+        "month": 10,
+        "avgTempC": 13,
+        "rainfallMM": 66
+      },
+      {
+        "month": 11,
+        "avgTempC": 6,
+        "rainfallMM": 51
+      },
+      {
+        "month": 12,
+        "avgTempC": -3,
+        "rainfallMM": 30
+      }
+    ],
+    "bestMonths": [
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Iowa City experiences four distinct seasons with cold, snowy winters and warm, humid summers. Spring and fall offer the most pleasant weather for exploration, with moderate temperatures and beautiful foliage displays making these ideal visiting seasons.",
+    "summary": "Winter temperatures drop below freezing with moderate snowfall, while summers are warm and humid with occasional thunderstorms. Spring and fall provide ideal conditions with comfortable temperatures, lower humidity, and scenic beauty, making May, September, and October the best months to visit."
+  },
+  "hotels": [
+    {
+      "name": "University of Iowa Conference Center",
+      "neighborhood": "Downtown/Campus",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Convenient hotel on the university campus offering basic comfortable accommodations with easy access to downtown attractions and cultural sites."
+    },
+    {
+      "name": "The Hotel at Old Capitol",
+      "neighborhood": "Downtown Historic District",
+      "pricePerNightUSD": 125,
+      "category": "Mid-range",
+      "description": "Charming mid-range hotel located in the heart of historic downtown with restored period features, excellent dining options, and proximity to restaurants and galleries."
+    },
+    {
+      "name": "Coralville Lakeside Resort and Spa",
+      "neighborhood": "Coralville",
+      "pricePerNightUSD": 185,
+      "category": "Luxury",
+      "description": "Upscale resort offering luxurious amenities, spa services, lake views, and fine dining with easy access to outdoor recreation at Coralville Reservoir."
+    }
+  ]
+}

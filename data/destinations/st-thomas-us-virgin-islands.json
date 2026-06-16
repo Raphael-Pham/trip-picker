@@ -6,7 +6,7 @@
   "airportCodes": [
     "STT",
     "SJU",
-    "CYB"
+    "CUZ"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -33,167 +33,218 @@
     {
       "level": "mid",
       "minPerDayUSD": 200,
-      "maxPerDayUSD": 350
+      "maxPerDayUSD": 400
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 350,
-      "maxPerDayUSD": 800
+      "minPerDayUSD": 400,
+      "maxPerDayUSD": 1000
     }
   ],
-  "unsplashQuery": "St Thomas Virgin Islands beach",
-  "summary": "St. Thomas is a Caribbean paradise offering world-class beaches, vibrant culture, and duty-free shopping in the heart of the US Virgin Islands. With pristine waters perfect for diving and snorkeling, charming colonial architecture, and excellent local cuisine, it combines tropical relaxation with adventure and cultural exploration.",
+  "unsplashQuery": "St Thomas beach paradise",
+  "summary": "St. Thomas is a vibrant Caribbean island destination featuring pristine beaches, world-class water sports, and colorful colonial architecture in Charlotte Amalie. Known for duty-free shopping, exceptional Caribbean cuisine, and stunning natural landscapes, it offers the perfect blend of relaxation and adventure. The island's rich history, welcoming culture, and year-round tropical weather make it an ideal escape for both families and solo travelers.",
   "restaurants": [
     {
-      "name": "Gladys Café",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "A beloved local institution serving authentic Virgin Islands cuisine in a casual, family-friendly atmosphere. Known for generous portions and traditional Caribbean flavors.",
-      "mustTry": "Conch in butter sauce"
+      "name": "Café Solé",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Caribbean cuisine with fresh seafood and innovative island flavors in an intimate setting. Chef-driven dishes showcase local ingredients and international techniques.",
+      "mustTry": "Pan-seared mahi-mahi with passion fruit glaze"
     },
     {
-      "name": "The Lunch Box",
+      "name": "Virgilio's",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Northern Italian fine dining restaurant offering handmade pasta, risotto, and premium meats in an elegant atmosphere overlooking Charlotte Amalie. Known for its extensive wine collection.",
+      "mustTry": "Fresh lobster ravioli with truffle butter"
+    },
+    {
+      "name": "Sabalas",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Authentic Caribbean restaurant serving traditional island dishes including conch salad, goat stew, and local seafood prepared family-style. A local favorite for genuine culture and flavor.",
+      "mustTry": "Conch in butter sauce with fungi"
+    },
+    {
+      "name": "The Greenhouse",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual beachfront restaurant on the waterfront serving fresh seafood, burgers, and Caribbean specialties with excellent happy hour deals. Popular for both lunch and dinner with live music.",
+      "mustTry": "Blackened mahi-mahi sandwich"
+    },
+    {
+      "name": "Storehouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant emphasizing locally-sourced ingredients and sustainable practices with creative Caribbean-inspired cuisine. Offers an excellent wine and craft cocktail program.",
+      "mustTry": "Seasonal catch with local vegetables"
+    },
+    {
+      "name": "Magens Bay Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual beachside spot offering fresh sandwiches, salads, and light Caribbean fare with stunning ocean views. Perfect for a quick, affordable meal.",
-      "mustTry": "Lionfish ceviche sandwich"
+      "description": "Casual beachside cafe offering sandwiches, wraps, smoothie bowls, and light fare at reasonable prices. Perfect for a quick meal with stunning beach views.",
+      "mustTry": "Tropical acai bowl"
+    },
+    {
+      "name": "Beni Iguana's Sushi Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Japanese restaurant featuring fresh sushi, sashimi, and Asian fusion dishes in a casual setting. Known for creative rolls and quality ingredients.",
+      "mustTry": "St. Thomas Dragon Roll"
+    },
+    {
+      "name": "Victor's New Hide Out",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Long-standing local institution serving authentic Caribbean home cooking in a casual atmosphere. Famous for traditional dishes like kallaloo soup and fried fish.",
+      "mustTry": "Johnny cakes with salt fish"
     },
     {
       "name": "Taverna on the Waterfront",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Charming Italian restaurant overlooking the harbor with fresh pasta and seafood specialties. Romantic ambiance perfect for sunset dining.",
-      "mustTry": "Lobster ravioli"
-    },
-    {
-      "name": "Frenchtown Brewing Company",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Craft brewery and gastropub featuring locally brewed beers and creative American fare in a laid-back industrial setting. Great for groups and casual dining.",
-      "mustTry": "Fish tacos with house IPA"
-    },
-    {
-      "name": "Ocean Prime",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale steakhouse with Caribbean influences offering premium cuts, fresh seafood, and an extensive wine collection. Formal dress and reservations recommended.",
-      "mustTry": "Pan-seared yellowfin tuna"
-    },
-    {
-      "name": "Banana Tree Grille",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Tropical-themed restaurant serving Caribbean cuisine with Asian fusion influences in a vibrant setting. Known for innovative cocktails and fresh local ingredients.",
-      "mustTry": "Mango fish with coconut sauce"
-    },
-    {
-      "name": "Iggies Beach Bar & Grill",
-      "category": "Budget",
-      "priceRange": "$$",
-      "description": "Beachfront casual dining with burgers, wings, and Caribbean specialties. Family-friendly with live music and water sports access.",
-      "mustTry": "Island jerk chicken"
-    },
-    {
-      "name": "Sapore di Mare",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Italian seafood restaurant featuring fresh catches prepared with traditional Mediterranean techniques and an intimate seaside setting.",
-      "mustTry": "Whole grilled snapper"
+      "description": "Waterfront Italian restaurant serving classic pasta, fresh seafood, and wood-fired specialties with stunning harbor views and sunset dining.",
+      "mustTry": "Linguine with fresh clams and white wine sauce"
     },
     {
-      "name": "Mafolie Restaurant",
+      "name": "Dueling Piano Bar",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Historic restaurant perched on a hilltop with panoramic views of Charlotte Amalie harbor and the surrounding islands. Caribbean and international cuisine.",
-      "mustTry": "Callaloo soup"
+      "description": "Interactive dining experience with live dueling pianists entertaining guests while they enjoy American cuisine and cocktails. Great for group celebrations.",
+      "mustTry": "Prime rib with all the trimmings"
     },
     {
-      "name": "Caribbean Saloon",
+      "name": "Cruz Bay Watersports Grill",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual sports bar and restaurant serving burgers, sandwiches, and Caribbean comfort food. Great for watching games and casual hangout.",
-      "mustTry": "Conch salad"
+      "description": "Casual waterfront spot specializing in grilled seafood, fish tacos, and Caribbean plates at budget-friendly prices. Popular with locals and divers.",
+      "mustTry": "Grilled catch of the day with rice and beans"
     },
     {
-      "name": "Sessionz Restaurant & Lounge",
+      "name": "Shipwreck Bar & Grill",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary restaurant with a rooftop bar offering Caribbean-inspired small plates and craft cocktails with sunset views.",
-      "mustTry": "Beef short rib bites"
-    },
-    {
-      "name": "The Deck Bar & Grill",
-      "category": "Budget",
-      "priceRange": "$$",
-      "description": "Waterfront casual dining with fresh seafood, grilled items, and tropical drinks. Known for fresh catch daily and friendly service.",
-      "mustTry": "Grilled mahi-mahi"
+      "description": "Lively beachside restaurant with fresh seafood, generous portions, and tropical cocktails in a relaxed island atmosphere. Features daily specials and live entertainment.",
+      "mustTry": "Jerk chicken with coconut rice"
     }
   ],
   "activities": [
     {
-      "name": "Magens Bay Beach",
+      "name": "Magens Bay Beach Day",
       "category": "Outdoor",
-      "description": "One of the world's most beautiful beaches with calm, clear turquoise waters ideal for swimming, snorkeling, and beach lounging. This mile-long crescent of white sand offers pristine natural beauty and excellent visibility for marine life viewing.",
+      "description": "Relax at one of the Caribbean's most beautiful beaches with calm turquoise waters, white sand, and excellent swimming conditions. The crescent-shaped bay offers stunning views and water sports rentals.",
       "durationHours": 4,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "relaxation",
-        "photography"
+        "photography",
+        "family"
       ]
     },
     {
-      "name": "Coral World Ocean Park & Undersea Observatory",
+      "name": "Coral World Ocean Park",
       "category": "Family",
-      "description": "Marine life experience featuring an underwater observatory 100 feet below the surface, touch pools, and aquarium exhibits. Great for learning about Caribbean marine ecosystems and observing tropical fish species.",
+      "description": "Interactive marine park featuring underwater observation towers, sea turtle pools, and tropical fish exhibits. Perfect for learning about Caribbean marine life and the coral reef ecosystem.",
       "durationHours": 3,
       "estimatedCostUSD": 25,
       "bestFor": [
-        "standard",
         "family",
+        "standard",
         "adventure"
       ]
     },
     {
-      "name": "Blackbeard's Castle & Historic District Walking Tour",
+      "name": "Blackbeard's Castle Tour",
       "category": "Cultural",
-      "description": "Explore the rich pirate history and colonial architecture of Charlotte Amalie including this 17th-century fortress with panoramic views. Learn about the island's fascinating past and see restored Danish colonial buildings.",
+      "description": "Historic tower and museum offering panoramic views of Charlotte Amalie and insight into the island's pirate history and Danish colonial past. The grounds include lush gardens.",
       "durationHours": 2,
-      "estimatedCostUSD": 12,
+      "estimatedCostUSD": 10,
       "bestFor": [
         "standard",
-        "hidden-gems",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Sapphire Beach Snorkeling",
+      "category": "Adventure",
+      "description": "Snorkel at one of the island's top-rated beaches with abundant coral reefs, tropical fish, and sea turtles. Crystal-clear waters and calm conditions make it ideal for all skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Charlotte Amalie Shopping & Walking Tour",
+      "category": "Outdoor",
+      "description": "Explore duty-free shops in the charming downtown area filled with colorful colonial architecture, local markets, and waterfront promenades. Great for souvenirs and local goods.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "surprise",
         "photography"
       ]
     },
     {
-      "name": "Sapphire Beach Snorkeling & Windsurfing",
+      "name": "Coral Princess Submarine Excursion",
       "category": "Adventure",
-      "description": "Pristine beach ideal for snorkeling with vibrant coral reefs and abundant marine life, plus excellent windsurfing conditions. Rental equipment available for both activities.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
+      "description": "Experience the underwater world without getting wet aboard a submarine that descends to 100 feet. See coral reefs and marine life through viewing windows in an air-conditioned vessel.",
+      "durationHours": 2,
+      "estimatedCostUSD": 99,
       "bestFor": [
         "adventure",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "St. Thomas Sailing & Catamaran Cruise",
+      "category": "Adventure",
+      "description": "Full-day sailing adventure visiting pristine beaches, snorkeling spots, and nearby islands with complimentary drinks and lunch. Excellent for water lovers seeking active relaxation.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Mountaintop Scenic Vista & Viewpoint",
+      "category": "Outdoor",
+      "description": "Drive to the highest point on the island for 360-degree panoramic views of the harbor, neighboring islands, and the surrounding Caribbean. Free attraction with spectacular photography opportunities.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Emerald Beach Water Sports",
+      "category": "Adventure",
+      "description": "Enjoy paddleboarding, kayaking, and windsurfing at this scenic beach with calm waters and professional instruction available. Rentals and lessons available for all experience levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "family",
         "standard"
       ]
     },
     {
-      "name": "Scuba Diving at Thatch Cay & Saba Island",
-      "category": "Adventure",
-      "description": "World-class diving sites featuring coral gardens, shipwrecks, and marine wildlife in crystal-clear water. Multiple dive operators offer certification courses and guided dives for all levels.",
-      "durationHours": 4,
-      "estimatedCostUSD": 120,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Emancipation Garden & Fort Christian Walk",
+      "name": "Fort Christian Museum & Historic Tour",
       "category": "Cultural",
-      "description": "Historic waterfront park honoring the emancipation of slaves with monuments and statues, adjacent to the restored 17th-century Danish fortress. Beautiful shaded grounds perfect for history lovers.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
+      "description": "Visit the oldest structure in the US Virgin Islands, a 17th-century fort with museum exhibits covering island history, archaeology, and cultural artifacts. Beautiful waterfront location.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
       "bestFor": [
         "standard",
         "cultural",
@@ -201,71 +252,25 @@
       ]
     },
     {
-      "name": "Boat Excursion to Water Island & Honeymoon Beach",
-      "category": "Adventure",
-      "description": "Short ferry ride to nearby Water Island featuring pristine beaches, easy snorkeling, and scenic hiking trails. A quick escape offering quieter waters and fewer crowds.",
+      "name": "Lindbergh Bay Beach & Sunset Picnic",
+      "category": "Outdoor",
+      "description": "Peaceful beach with excellent sunset views, less crowded than major beaches, perfect for picnicking and evening relaxation. Gentle waters ideal for families.",
       "durationHours": 3,
-      "estimatedCostUSD": 35,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "adventure",
         "relaxation",
+        "family",
         "photography"
       ]
     },
     {
-      "name": "Botanical Garden at Lotus Valley",
-      "category": "Outdoor",
-      "description": "Lush tropical gardens featuring native plants, peaceful walking paths, and panoramic island views. Ideal for nature lovers and photographers seeking serene natural landscapes.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
+      "name": "Local Island Food & Rum Tour",
+      "category": "Foodie",
+      "description": "Guided culinary experience visiting local eateries, rum distillery, and markets sampling authentic Caribbean cuisine and island spirits. Learn about local food culture and cooking traditions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
       "bestFor": [
-        "relaxation",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Charlotte Amalie Duty-Free Shopping & Local Market",
-      "category": "Indoor",
-      "description": "World-famous shopping district with duty-free jewelry, watches, perfumes, and local crafts. The local market offers authentic island goods, spices, and souvenirs.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Sunset Sailing Catamaran Cruise",
-      "category": "Relaxation",
-      "description": "Evening catamaran adventure featuring stunning sunset views, swimming stops, and tropical drinks. Often includes snacks and entertainment with fellow travelers.",
-      "durationHours": 3,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Mountain Peak Scenic Drive & Skyline Trail Hike",
-      "category": "Outdoor",
-      "description": "Drive or hike to the island's highest point for 360-degree panoramic views of St. Thomas and neighboring islands. Short hikes available for varied fitness levels.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Nightlife Bar Hopping in Frenchtown",
-      "category": "Nightlife",
-      "description": "Vibrant neighborhood with colorful bars, live music venues, and casual eateries perfect for evening entertainment. Known for craft cocktails and local character.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
-      "bestFor": [
+        "foodie",
         "standard",
         "surprise"
       ]
@@ -274,93 +279,93 @@
   "photography": {
     "spots": [
       {
-        "name": "Magens Bay Viewpoint",
-        "description": "Iconic crescent bay with pristine turquoise waters and white sand offering stunning wide-angle compositions perfect for landscape photography.",
+        "name": "Magens Bay",
+        "description": "Picture-perfect crescent beach with turquoise waters, white sand, and dramatic palm trees creating postcard-worthy compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour, sunrise",
+        "bestTime": "Golden hour, early morning for glass-like water reflections",
         "category": "Landscape"
       },
       {
-        "name": "Charlotte Amalie Waterfront at Sunset",
-        "description": "Colorful colonial architecture reflects in calm harbor waters during sunset, creating stunning composition opportunities with dramatic sky backgrounds.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset hour",
+        "name": "Charlotte Amalie Waterfront",
+        "description": "Colorful colonial buildings reflected in the harbor with historic ships, offering vibrant street photography and architectural compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for building details, sunset for golden reflections",
         "category": "Architecture"
       },
       {
         "name": "Blackbeard's Castle Tower",
-        "description": "Historic stone fortress on hilltop provides both intimate detail shots and panoramic views of the harbor and distant islands.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning or late afternoon light",
-        "category": "Architecture"
+        "description": "Historic tower with panoramic views of the island and harbor below, perfect for elevated landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm island light and distant island silhouettes",
+        "category": "Landscape"
       },
       {
         "name": "Sapphire Beach Reef",
-        "description": "Shallow coral reef visible from shore offers vibrant underwater photography opportunities with tropical fish and colorful coral formations.",
+        "description": "Shallow reef ecosystem with tropical fish visible from shore, ideal for underwater and snorkel photography.",
         "difficulty": "Advanced",
-        "bestTime": "Midday for water clarity",
+        "bestTime": "Midday for maximum underwater light penetration",
         "category": "Wildlife"
       },
       {
-        "name": "Drake's Passage Beach",
-        "description": "Secluded beach with dramatic rock formations and hidden coves creating interesting foreground elements for landscape compositions.",
+        "name": "Coral World Ocean Park",
+        "description": "Marine life including sea turtles, tropical fish, and coral formations within controlled environments ideal for wildlife photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour",
-        "category": "Landscape"
-      },
-      {
-        "name": "Mountain Top Scenic Overlook",
-        "description": "The highest point in St. Thomas provides 360-degree vistas of the island, water, and neighboring islands ideal for panoramic photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon",
-        "category": "Landscape"
-      },
-      {
-        "name": "Frenchtown Colorful Homes",
-        "description": "Pastel-colored historic buildings and boats create vibrant street photography opportunities with authentic Caribbean character and cultural details.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light",
-        "category": "Street"
-      },
-      {
-        "name": "Coral World Underwater",
-        "description": "Controlled underwater environment with colorful marine life and coral gardens offering accessible macro and wildlife photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning before crowds",
+        "bestTime": "Early morning before crowds arrive and light is optimal",
         "category": "Wildlife"
       },
       {
-        "name": "Emancipation Garden Monuments",
-        "description": "Historic statues and monuments with backdrop of harbor create meaningful cultural and architectural photography subjects with historical significance.",
+        "name": "Trunk Bay Underwater Trail",
+        "description": "Snorkeling trail with vibrant coral formations and colorful fish communities creating stunning underwater compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday with calm conditions and bright overhead sun",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Drake's Seat Overlook",
+        "description": "Elevated viewpoint overlooking Magens Bay and surrounding islands with dramatic landscape photography potential.",
         "difficulty": "Beginner",
-        "bestTime": "Morning or soft afternoon light",
+        "bestTime": "Golden hour for warm tones and dramatic cloud formations",
+        "category": "Landscape"
+      },
+      {
+        "name": "Frederiksborg Fort Ruins",
+        "description": "Abandoned fort with weathered stone walls, arches, and ruins offering historical and architectural photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for texture detail in stone and shadow contrast",
         "category": "Architecture"
       },
       {
-        "name": "Megans Bay Sunset Tree",
-        "description": "Distinctive trees along the beach create natural framing for sunset compositions with silhouette opportunities and dynamic sky colors.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset hour",
-        "category": "Landscape"
+        "name": "Night Market Street Photography",
+        "description": "Vibrant street scenes in downtown Charlotte Amalie with colorful storefronts, local vendors, and cultural street moments.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon through early evening for warm street lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Morning Fishing Fleet at Harbor",
+        "description": "Local fishing boats departing at dawn with dramatic sky, silhouettes, and cultural authenticity.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for dramatic sky colors and boat silhouettes against dawn light",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
+      "Magens Bay",
       "Sapphire Beach",
-      "Mountain Top Overlook",
-      "Magens Bay Viewpoint"
+      "Drake's Seat Overlook"
     ],
     "sunsetSpots": [
+      "Blackbeard's Castle Tower",
       "Charlotte Amalie Waterfront",
-      "Magens Bay Beach",
-      "Frenchtown Harborside"
+      "Lindbergh Bay Beach"
     ],
     "lensRecommendations": [
-      "Wide-angle (16-35mm) for expansive landscape and panoramic island views",
-      "Standard zoom (24-70mm) for versatile beach, architecture, and street photography",
-      "Telephoto (70-200mm) for compressed reef and wildlife shots, harbor details",
-      "Macro (90-105mm) for coral detail and marine life close-ups in controlled settings"
+      "Wide-angle 16-35mm for expansive beach and landscape compositions capturing the bay and sky",
+      "Telephoto 70-200mm for compressed island perspectives and wildlife photography at Sapphire Beach",
+      "50mm prime lens for street photography in Charlotte Amalie and architectural details of historic buildings",
+      "Macro or close-focus lens for coral and small fish detail in underwater and snorkeling photography"
     ],
-    "goldenHourNotes": "St. Thomas benefits from extended golden hour periods year-round due to tropical latitude. Sunrise produces soft, diffused light ideal for beach portraits and landscape work, while sunset creates dramatic orange and pink skies reflecting off the calm harbor waters. The contrast between foreground silhouettes and colorful skies is particularly striking during both sessions.",
+    "goldenHourNotes": "St. Thomas offers exceptional golden hour light year-round with warm tropical tones reflecting off turquoise waters and colonial architecture. The sun moves relatively fast due to the tropical latitude, providing dramatic light changes within 30-45 minutes before sunset. Early morning light is equally spectacular with cool tones highlighting architectural details and creating mirror-like water reflections at Magens Bay.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -368,95 +373,95 @@
       {
         "month": 1,
         "avgTempC": 26,
-        "rainfallMM": 74
+        "rainfallMM": 45
       },
       {
         "month": 2,
         "avgTempC": 26,
-        "rainfallMM": 61
+        "rainfallMM": 35
       },
       {
         "month": 3,
         "avgTempC": 27,
-        "rainfallMM": 56
+        "rainfallMM": 40
       },
       {
         "month": 4,
         "avgTempC": 28,
-        "rainfallMM": 89
+        "rainfallMM": 60
       },
       {
         "month": 5,
         "avgTempC": 29,
-        "rainfallMM": 127
+        "rainfallMM": 120
       },
       {
         "month": 6,
         "avgTempC": 29,
-        "rainfallMM": 152
+        "rainfallMM": 140
       },
       {
         "month": 7,
         "avgTempC": 30,
-        "rainfallMM": 140
+        "rainfallMM": 145
       },
       {
         "month": 8,
         "avgTempC": 30,
-        "rainfallMM": 145
+        "rainfallMM": 160
       },
       {
         "month": 9,
-        "avgTempC": 29,
-        "rainfallMM": 178
+        "avgTempC": 30,
+        "rainfallMM": 160
       },
       {
         "month": 10,
         "avgTempC": 29,
-        "rainfallMM": 216
+        "rainfallMM": 140
       },
       {
         "month": 11,
         "avgTempC": 28,
-        "rainfallMM": 132
+        "rainfallMM": 90
       },
       {
         "month": 12,
         "avgTempC": 27,
-        "rainfallMM": 84
+        "rainfallMM": 60
       }
     ],
     "bestMonths": [
       1,
       2,
       3,
+      11,
       12
     ],
-    "seasonality": "St. Thomas experiences a tropical climate with the dry season running from December to March, offering the most reliable weather. The summer and fall months bring higher rainfall and occasional hurricane activity, though St. Thomas is somewhat south of the primary hurricane belt.",
-    "summary": "Warm year-round temperatures between 26-30°C make St. Thomas ideal for water activities. The dry winter season provides the clearest skies and lowest rainfall, while summer months feature higher precipitation and humidity but fewer crowds."
+    "seasonality": "The dry season from December to April offers the best weather with lower rainfall, comfortable temperatures, and excellent visibility for water activities. The wet season from May to November experiences higher temperatures, increased rainfall, and potential hurricane activity, though prices are lower and crowds thinner.",
+    "summary": "St. Thomas enjoys year-round warm tropical weather with average temperatures ranging from 26-30°C (79-86°F). Visitors should expect afternoon showers during summer months and prepare accordingly, though the island remains an attractive destination throughout the year with its consistent warm conditions and ocean breezes."
   },
   "hotels": [
     {
-      "name": "Bolongo Bay Beach Resort",
-      "neighborhood": "Bolongo",
-      "pricePerNightUSD": 85,
+      "name": "Emerald Beach Resort",
+      "neighborhood": "Sapphire Beach",
+      "pricePerNightUSD": 89,
       "category": "Budget",
-      "description": "All-inclusive beachfront resort offering water sports, daily meals, and entertainment for budget-conscious travelers seeking a complete vacation package."
+      "description": "Casual beachfront hotel with comfortable rooms, direct beach access, and excellent value for money near one of the island's top snorkeling beaches."
+    },
+    {
+      "name": "Bolongo Bay Beach Resort",
+      "neighborhood": "Bolongo Bay",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "All-inclusive beachfront resort with water sports included, multiple dining options, and direct access to a protected beach with watersports facilities."
     },
     {
       "name": "The Ritz-Carlton St. Thomas",
       "neighborhood": "Great Bay",
-      "pricePerNightUSD": 450,
-      "category": "Mid-range",
-      "description": "Elegant beachfront property featuring two pools, spa, multiple restaurants, and stunning ocean views with easy access to beaches and shopping."
-    },
-    {
-      "name": "Frenchman's Cove Resort",
-      "neighborhood": "East End",
       "pricePerNightUSD": 650,
       "category": "Luxury",
-      "description": "Ultra-luxury boutique resort with private beach cove, personalized service, gourmet dining, and exclusive amenities set in a secluded tropical paradise."
+      "description": "Ultra-luxury resort featuring pristine private beach, world-class spa, fine dining restaurants, and stunning views of neighboring islands with impeccable service."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1696273323407-e9e463bfe168?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTdCUyMFRob21hcyUyMFZpcmdpbiUyMElzbGFuZHMlMjBiZWFjaHxlbnwxfDB8fHwxNzgxNTU2MTcxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

@@ -5,7 +5,8 @@
   "region": "Europe",
   "airportCodes": [
     "FCO",
-    "CIA"
+    "CIA",
+    "VBS"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -13,10 +14,10 @@
     "surprise",
     "photography",
     "foodie",
-    "adventure"
+    "cultural"
   ],
   "scores": {
-    "cost": 45,
+    "cost": 55,
     "food": 95,
     "photography": 98,
     "activities": 96,
@@ -31,332 +32,338 @@
     {
       "level": "mid",
       "minPerDayUSD": 120,
-      "maxPerDayUSD": 250
+      "maxPerDayUSD": 200
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
-      "maxPerDayUSD": 800
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 600
     }
   ],
   "unsplashQuery": "Rome Colosseum sunset",
-  "summary": "Rome, the Eternal City, captivates visitors with its timeless blend of ancient ruins, Renaissance art, and vibrant Italian culture. From the iconic Colosseum and Vatican to charming piazzas and world-class cuisine, Rome offers an unmatched journey through millennia of history. Whether exploring on foot or savoring authentic pasta in centuries-old trattorias, Rome delivers an unforgettable experience.",
+  "summary": "Rome, the Eternal City, is a living museum where ancient ruins stand alongside Renaissance masterpieces and vibrant modern life. Every corner reveals layers of history spanning over 2,500 years, from the iconic Colosseum to the spiritual heart of Vatican City. World-class cuisine, unforgettable art, and timeless architecture make Rome an essential destination for travelers seeking culture, history, and culinary excellence.",
   "restaurants": [
+    {
+      "name": "Armando al Pantheon",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A family-run institution near the Pantheon serving authentic Roman cuisine since 1961. Try their cacio e pepe and carbonara made with guanciale.",
+      "mustTry": "Cacio e Pepe"
+    },
     {
       "name": "Flavio al Velavevodetto",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Authentic Roman cuisine in a family-run trattoria near Termini Station, famous for traditional dishes passed down through generations. Try their cacio e pepe and carbonara for a genuine taste of Rome.",
-      "mustTry": "Cacio e Pepe"
-    },
-    {
-      "name": "Armando al Pantheon",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Historic family-run restaurant since 1961 overlooking the Pantheon, serving elevated Roman classics in an elegant setting. Reserve well in advance as this iconic spot fills quickly.",
-      "mustTry": "Rigatoni all'Amatriciana"
-    },
-    {
-      "name": "Da Enzo al 29",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Tiny neighborhood gem in Trastevere with no sign, no reservations, and authentic Roman comfort food at unbeatable prices. Arrive early to secure a spot at this beloved locals' haunt.",
-      "mustTry": "Pasta Puttanesca"
-    },
-    {
-      "name": "Il Sorpasso",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Trendy Roman hotspot blending traditional cuisine with modern flair, located in the historic center near Campo de' Fiori. Known for both classic dishes and creative preparations.",
-      "mustTry": "Burrata with Heirloom Tomatoes"
-    },
-    {
-      "name": "Antico Arco",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Michelin-recognized restaurant atop the Gianicolo Hill with panoramic city views and innovative Italian cuisine. An exceptional dining experience combining tradition with contemporary techniques.",
-      "mustTry": "Handmade Ravioli with Burrata"
-    },
-    {
-      "name": "Fascino Profondo",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Intimate wine bar and restaurant in Monti neighborhood featuring seasonal Roman dishes and excellent Italian wines. Perfect for a relaxed evening with authentic flavors.",
-      "mustTry": "Saltimbocca alla Romana"
-    },
-    {
-      "name": "Gravina Rooftop",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Modern rooftop venue in Monti offering contemporary Italian cuisine with stunning views of Rome's historic skyline. Great for sunset dinner with a vibrant atmosphere.",
-      "mustTry": "Tagliatelle al Ragù"
-    },
-    {
-      "name": "Sour Cherry",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual café and sandwich shop in San Lorenzo district serving quality coffee and creative panini at student-friendly prices. Ideal for quick, authentic Roman meals.",
-      "mustTry": "Porchetta Sandwich"
-    },
-    {
-      "name": "Ostia Antica Café",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Charming café near the ancient Roman port ruins serving traditional cuisine and fresh pasta in a historical setting. Experience dining where Roman traders once gathered.",
-      "mustTry": "Fresh Seafood Pasta"
+      "description": "Located in the charming Testaccio neighborhood, this restaurant specializes in traditional Roman offal dishes and seasonal vegetables. A true local favorite with rustic ambiance.",
+      "mustTry": "Coda alla Vaccinara"
     },
     {
       "name": "Pipero Roma",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant restaurant near the Trevi Fountain delivering refined Roman and Italian cuisine with impeccable service. A sophisticated choice for special occasions.",
-      "mustTry": "Spaghetti al Tartufo"
-    },
-    {
-      "name": "Trastevere Kitchen",
       "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Vibrant restaurant in Trastevere combining traditional Roman recipes with modern presentation and a welcoming atmosphere. Popular with both tourists and locals.",
-      "mustTry": "Bucatini all'Amatriciana"
+      "priceRange": "$$$",
+      "description": "Modern take on Roman classics with an open kitchen concept near the Trevi Fountain. Known for perfectly executed pasta dishes and excellent service.",
+      "mustTry": "Tonnarelli Cacio e Pepe"
     },
     {
-      "name": "Colonna Antica",
+      "name": "Il Convivio Troiani",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "A Michelin-starred restaurant offering refined Italian cuisine in an intimate setting near Piazza Navona. Each dish is a work of art with impeccable presentation.",
+      "mustTry": "Tasting Menu"
+    },
+    {
+      "name": "Supplizio",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Historic trattoria near the Pantheon serving authentic Roman street food and traditional pasta dishes at reasonable prices. A genuine taste of old Rome.",
-      "mustTry": "Guanciale Carbonara"
+      "description": "A casual spot famous for supplì al telefono, the Roman fried rice croquette. Quick, delicious, and perfect for lunch on the go.",
+      "mustTry": "Supplì al Telefono"
+    },
+    {
+      "name": "Dar Enzo al 29",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Tiny neighborhood trattoria in Trastevere with no menu, only what the chef decides. Authentic Roman soul food with exceptional quality ingredients.",
+      "mustTry": "Chef's Daily Selection"
+    },
+    {
+      "name": "Antico Forno",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Traditional Roman bakery offering fresh focaccia, pizza al taglio, and pastries. Perfect for breakfast or a quick bite.",
+      "mustTry": "Pizza al Taglio"
+    },
+    {
+      "name": "Quintonil",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Italian fine dining with Michelin stars in a sleek setting. Chef Paolo Lopriore creates innovative dishes using premium seasonal ingredients.",
+      "mustTry": "Pasta al Tartufo"
+    },
+    {
+      "name": "Sora Margherita",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Hidden gem in the Ghetto with no sign, serving Roman-Jewish cuisine. Fish-focused menu with exceptional seafood preparations and traditional recipes.",
+      "mustTry": "Filetti di Baccalà"
+    },
+    {
+      "name": "Gelateria del Teatro",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Award-winning gelateria near Piazza Navona with natural, high-quality gelato in creative and classic flavors. A must for gelato enthusiasts.",
+      "mustTry": "Pistachio or Dark Chocolate Gelato"
+    },
+    {
+      "name": "Colline Emiliane",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Emilia-Romagna regional cuisine specialist serving handmade pasta and rich meat dishes. Family-run establishment with warm hospitality.",
+      "mustTry": "Tortellini in Brodo"
+    },
+    {
+      "name": "Osteria da Fortunata",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Tiny restaurant near the Pantheon famous for handmade pasta. Reservation essential; experience-focused dining with exceptional craftsmanship.",
+      "mustTry": "Tonnarelli Cacio e Pepe"
     }
   ],
   "activities": [
     {
-      "name": "Colosseum and Roman Forum Guided Tour",
+      "name": "Colosseum and Roman Forum",
       "category": "Cultural",
-      "description": "Explore the iconic amphitheater and ancient Roman marketplace with an expert guide explaining 2,000 years of history. Skip-the-line tours available to minimize wait times.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
+      "description": "Explore the iconic amphitheater and walk through the ancient ruins of the Roman Forum, the center of power in ancient Rome. Audioguides and combined tickets available.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "cultural"
       ]
     },
     {
       "name": "Vatican Museums and Sistine Chapel",
       "category": "Cultural",
-      "description": "Marvel at one of the world's greatest art collections and Michelangelo's breathtaking ceiling frescoes in the papal museum. Book tickets in advance to avoid long queues.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
+      "description": "Marvel at one of the world's greatest art collections including Michelangelo's masterpiece ceiling in the Sistine Chapel. Book skip-the-line tickets in advance.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
-        "surprise"
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "St. Peter's Basilica Climb",
+      "category": "Adventure",
+      "description": "Climb 551 steps to the top of St. Peter's Basilica for breathtaking 360-degree views of Rome and Vatican City. Choose elevator or stairs option.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
       ]
     },
     {
       "name": "Trastevere Neighborhood Walk",
       "category": "Outdoor",
-      "description": "Wander through charming cobblestone streets lined with ivy-covered buildings, artisan studios, and authentic trattorias in this bohemian riverside district. Free self-guided exploration or join a walking tour.",
-      "durationHours": 2,
+      "description": "Stroll through charming cobblestone streets, hidden piazzas, and ivy-covered buildings in Rome's most picturesque neighborhood. Perfect for photos and casual dining.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "photography"
-      ]
-    },
-    {
-      "name": "St. Peter's Basilica and Dome Climb",
-      "category": "Cultural",
-      "description": "Ascend 551 steps to the top of Christendom's most famous church for panoramic city views and intimate interior exploration. Prepare for crowds but the experience is extraordinary.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Pantheon Interior and Piazza della Rotonda",
-      "category": "Cultural",
-      "description": "Step inside Rome's best-preserved ancient building to witness the perfectly proportioned dome and oculus, then relax at the piazza's outdoor café. Free entry and minimal crowds in early morning.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Villa d'Este Fountain Tour in Tivoli",
-      "category": "Outdoor",
-      "description": "Day trip to this UNESCO World Heritage villa featuring 500 spectacular fountains set in Renaissance gardens outside Rome. Experience water engineering and artistry from the 16th century.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
       "bestFor": [
         "standard",
         "photography",
-        "adventure"
+        "foodie"
       ]
     },
     {
-      "name": "Night Vespa Food Tour",
-      "category": "Nightlife",
-      "description": "Ride vintage Vespas through Rome's streets at night while stopping at local markets, bakeries, and pizza shops for authentic food tastings. An entertaining and delicious way to experience the city.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "foodie",
-        "surprise",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Spanish Steps and Trevi Fountain at Sunrise",
-      "category": "Outdoor",
-      "description": "Arrive early before crowds to experience Rome's most famous fountains and monuments with soft morning light and peaceful surroundings. Perfect for photography and contemplation.",
+      "name": "Pantheon Visit",
+      "category": "Cultural",
+      "description": "See the best-preserved Roman building with its iconic dome and oculus. Free entry; arrive early to avoid crowds or visit during off-peak hours.",
       "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "cultural"
       ]
     },
     {
-      "name": "Catacombs of San Callisto Underground Tour",
-      "category": "Cultural",
-      "description": "Descend into ancient Christian burial chambers spanning 20 kilometers, learning about early Christian history in this atmospheric underground necropolis. Guided tours only, required.",
+      "name": "Spanish Steps at Sunrise",
+      "category": "Outdoor",
+      "description": "Watch the sun rise over Rome's most elegant staircase. Arrive very early to avoid crowds and experience the romantic atmosphere of the city waking up.",
       "durationHours": 2,
-      "estimatedCostUSD": 25,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
+        "photography",
         "surprise",
-        "adventure"
+        "romantic"
       ]
     },
     {
-      "name": "Galleria Borghese Private Collection Tour",
+      "name": "Catacombs of San Callisto",
       "category": "Cultural",
-      "description": "Discover one of Europe's finest private art museums housing Titian, Raphael, and Bernini masterpieces in an intimate villa setting. Timed entry required; book weeks ahead.",
+      "description": "Descend underground to explore ancient Christian burial sites with intricate tunnels and historical frescoes. Guided tours provide rich historical context.",
       "durationHours": 2,
-      "estimatedCostUSD": 20,
+      "estimatedCostUSD": 12,
       "bestFor": [
+        "cultural",
         "standard",
         "surprise"
       ]
     },
     {
-      "name": "Gianicolo Hill Sunset and Street Musicians",
+      "name": "Trevi Fountain Evening Visit",
       "category": "Outdoor",
-      "description": "Climb to Rome's highest point for panoramic sunset views over the entire city while local musicians perform and artists sketch. A romantic, free evening activity beloved by locals.",
-      "durationHours": 2,
+      "description": "Experience the stunning Baroque fountain illuminated at night with fewer crowds than daytime. Toss a coin to ensure your return to Rome.",
+      "durationHours": 1,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "relaxation",
-        "photography"
+        "photography",
+        "romantic"
       ]
     },
     {
-      "name": "Day Trip to Pompeii from Rome",
-      "category": "Adventure",
-      "description": "Train journey to the excavated Roman city buried by Vesuvius in 79 AD, exploring remarkably preserved homes, streets, and artifacts. Understand daily life in ancient Rome through this archaeological wonder.",
-      "durationHours": 10,
+      "name": "Galleria Borghese Private Collection",
+      "category": "Cultural",
+      "description": "Explore a world-class art collection in an intimate villa setting with works by Bernini, Titian, and Raphael. Timed entry tickets protect the experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Sunset from Gianicolo Hill",
+      "category": "Outdoor",
+      "description": "Watch the sun set over the entire city from this elevated vantage point in Trastevere. Bring a bottle of wine and enjoy street musicians.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "romantic",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Roman Food and Wine Tour",
+      "category": "Foodie",
+      "description": "Join a guided tasting tour through neighborhood markets and trattorias sampling local specialties. Learn about Roman culinary traditions from expert guides.",
+      "durationHours": 3,
       "estimatedCostUSD": 80,
       "bestFor": [
-        "standard",
-        "adventure",
-        "photography"
+        "foodie",
+        "cultural",
+        "standard"
+      ]
+    },
+    {
+      "name": "Castel Sant'Angelo Walk and Viewpoint",
+      "category": "Cultural",
+      "description": "Discover this former mausoleum with Renaissance art and rooftop terraces overlooking the Tiber River. Includes views of Vatican and surrounding neighborhoods.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "photography",
+        "cultural",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Trevi Fountain",
-        "description": "The city's most iconic baroque fountain offers stunning architectural details and dramatic lighting, especially beautiful at night when illuminated.",
+        "name": "Colosseum at Golden Hour",
+        "description": "Capture the iconic amphitheater glowing in warm light during sunrise or sunset for classic Roman imagery.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning before crowds or at night for golden floodlights",
+        "bestTime": "Golden hour: 1 hour before sunset or after sunrise",
         "category": "Architecture"
       },
       {
-        "name": "Colosseum from Foro Traiano",
-        "description": "Capture the ancient amphitheater framed by surrounding ruins for a layered historical composition with excellent depth and scale.",
+        "name": "Trevi Fountain Night",
+        "description": "Photograph the illuminated Baroque fountain with dramatic lighting reflecting in the water.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm light on ancient stones",
+        "bestTime": "After 9 PM for fewer crowds and optimal lighting",
+        "category": "Night"
+      },
+      {
+        "name": "Spanish Steps at Dawn",
+        "description": "Capture the elegant staircase bathed in early morning light before tourists arrive.",
+        "difficulty": "Beginner",
+        "bestTime": "Before 6 AM",
         "category": "Architecture"
       },
       {
-        "name": "Trastevere Street Scene",
-        "description": "Ivy-covered buildings, laundry hanging between windows, and locals dining al fresco create quintessential Roman charm and color.",
+        "name": "Trastevere Ivy-Covered Streets",
+        "description": "Photograph charming cobblestone alleys with ivy-covered buildings and warm terracotta tones.",
         "difficulty": "Beginner",
-        "bestTime": "Late afternoon when warm light fills narrow streets",
+        "bestTime": "Golden hour for warm tones and soft shadows",
         "category": "Street"
       },
       {
         "name": "Gianicolo Hill Panorama",
-        "description": "Sweeping citywide vistas with St. Peter's Dome, multiple church bells, and layered architecture creating depth across Rome's skyline.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for golden light and dramatic clouds",
+        "description": "Capture panoramic vistas of Rome's skyline with St. Peter's Basilica, Tiber River, and hills.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour from either sunrise or sunset",
         "category": "Landscape"
       },
       {
-        "name": "Pantheon Interior Oculus",
-        "description": "The perfectly proportioned ancient dome and dramatic light beam from the oculus create a breathtaking architectural photograph.",
+        "name": "Pantheon Oculus Interior",
+        "description": "Photograph the dramatic light beam through the historic dome's oculus onto the floor.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday when the sun rays through the opening are most dramatic",
+        "bestTime": "Midday when sunlight penetrates the oculus most clearly",
         "category": "Architecture"
       },
       {
-        "name": "Spanish Steps at Dawn",
-        "description": "The sweeping staircase with cascading light and minimal crowds early morning offers a clean, elegant composition of historic Rome.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunrise or very early morning before tourist crowds",
-        "category": "Street"
-      },
-      {
-        "name": "Tiber River at Ponte Sisto",
-        "description": "The pedestrian bridge reflects in the river with historic Roman architecture on both banks creating a romantic waterside scene.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunrise or sunset for soft reflected light on water",
-        "category": "Landscape"
-      },
-      {
-        "name": "Vatican Dome from Castel Sant'Angelo Bridge",
-        "description": "St. Peter's Basilica dome framed by the ornate bridge angels and Tiber River offers a postcard-perfect composition of papal Rome.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour creates warm tones on dome and stone",
+        "name": "Castel Sant'Angelo and Bridge",
+        "description": "Capture the castle silhouette and the Roman bridges over the Tiber with architectural detail.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for dramatic sky and reflection in river",
         "category": "Architecture"
       },
       {
-        "name": "Monti Neighborhood Alleyways",
-        "description": "Narrow winding streets with colorful storefronts, vintage shutters, and interesting characters create authentic street photography opportunities.",
+        "name": "Roman Forum Ruins",
+        "description": "Photograph ancient columns and ruins with layers of history, perfect for texture and composition.",
         "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for warm sideways light creating shadows and dimension",
-        "category": "Street"
+        "bestTime": "Early morning or late afternoon to avoid harsh midday shadows",
+        "category": "Architecture"
       },
       {
-        "name": "Roman Forum from Capitoline Hill",
-        "description": "Ancient scattered columns, arches, and temple remnants photographed from an elevated vantage point create a compelling historical narrative.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour illuminates stones and creates dramatic shadows",
-        "category": "Landscape"
+        "name": "Piazza Navona Fountain",
+        "description": "Capture Bernini's sculptural fountains with dramatic baroque architecture and street life.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening for warm ambiance and interesting light",
+        "category": "Architecture"
+      },
+      {
+        "name": "St. Peter's Basilica Dome",
+        "description": "Photograph the imposing dome from various angles in Vatican area, particularly striking at dusk.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour from elevated viewpoints across the Tiber",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Gianicolo Hill",
       "Spanish Steps",
+      "Gianicolo Hill",
       "Castel Sant'Angelo Bridge"
     ],
     "sunsetSpots": [
       "Gianicolo Hill",
       "Trevi Fountain",
-      "Vatican Dome from Ponte Sisto"
+      "Castel Sant'Angelo"
     ],
     "lensRecommendations": [
-      "35mm prime for street photography in narrow Trastevere alleys capturing intimate neighborhood moments",
-      "24-70mm versatile zoom for architectural details at Colosseum, Pantheon, and Roman Forum from various distances",
-      "16-35mm wide angle for panoramic cityscape shots from Gianicolo Hill and capturing entire monuments",
-      "70-200mm telephoto for compressed perspectives isolating St. Peter's Dome and distant architectural elements"
+      "16-35mm wide-angle for architectural vistas and expansive views of the Roman Forum and Colosseum",
+      "50mm prime for street photography in Trastevere with beautiful shallow depth of field",
+      "70-200mm telephoto for compressed perspectives of distant landmarks and fountain details",
+      "24mm prime for environmental portraits and intimate neighborhood scenes with context"
     ],
-    "goldenHourNotes": "Rome's golden hour is exceptionally long due to latitude, typically lasting 60-90 minutes before sunset and after sunrise. The warm southern European light beautifully illuminates honey-colored stone and enhances the romantic atmosphere. Avoid harsh midday sun on monuments; prioritize early morning and late afternoon shooting when shadows add dimension to ancient structures.",
+    "goldenHourNotes": "Rome's golden hour is exceptionally photogenic due to terracotta tones reflecting in warm light. Plan shoots from 7-8 AM for sunrise or 5:30-7 PM for sunset. The Colosseum, Spanish Steps, and Gianicolo Hill offer the most dramatic transformations during these hours. Arrive early to secure positions before crowds obscure views.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -364,22 +371,22 @@
       {
         "month": 1,
         "avgTempC": 8,
-        "rainfallMM": 81
+        "rainfallMM": 72
       },
       {
         "month": 2,
         "avgTempC": 9,
-        "rainfallMM": 74
+        "rainfallMM": 62
       },
       {
         "month": 3,
         "avgTempC": 12,
-        "rainfallMM": 66
+        "rainfallMM": 57
       },
       {
         "month": 4,
         "avgTempC": 16,
-        "rainfallMM": 71
+        "rainfallMM": 61
       },
       {
         "month": 5,
@@ -389,37 +396,37 @@
       {
         "month": 6,
         "avgTempC": 26,
-        "rainfallMM": 38
+        "rainfallMM": 36
       },
       {
         "month": 7,
         "avgTempC": 28,
-        "rainfallMM": 16
+        "rainfallMM": 17
       },
       {
         "month": 8,
         "avgTempC": 28,
-        "rainfallMM": 23
+        "rainfallMM": 25
       },
       {
         "month": 9,
         "avgTempC": 24,
-        "rainfallMM": 58
+        "rainfallMM": 51
       },
       {
         "month": 10,
         "avgTempC": 18,
-        "rainfallMM": 106
+        "rainfallMM": 87
       },
       {
         "month": 11,
         "avgTempC": 13,
-        "rainfallMM": 107
+        "rainfallMM": 93
       },
       {
         "month": 12,
         "avgTempC": 9,
-        "rainfallMM": 90
+        "rainfallMM": 81
       }
     ],
     "bestMonths": [
@@ -428,30 +435,30 @@
       9,
       10
     ],
-    "seasonality": "Spring (April-May) and Fall (September-October) offer ideal temperatures between 16-24°C with manageable crowds and minimal rainfall. Summer (June-August) brings hot, dry weather with temperatures reaching 28°C but intense crowds at major attractions. Winter (November-February) is cool and wet with frequent rain, ideal for experiencing Rome like a local away from peak tourist season.",
-    "summary": "Rome enjoys a Mediterranean climate with warm, dry summers and mild, wet winters. The best time to visit is spring and autumn when temperatures are pleasant (16-24°C), rainfall is moderate, and crowds are manageable compared to peak summer."
+    "seasonality": "Spring (April-May) and fall (September-October) offer ideal weather with comfortable temperatures and fewer crowds than summer. Summer (June-August) brings intense heat and peak tourism, while winter (November-February) features cooler temperatures and occasional rain but fewer visitors.",
+    "summary": "Rome experiences a Mediterranean climate with hot, dry summers and mild winters. Spring and fall are the best seasons to visit, featuring pleasant temperatures around 15-25°C and lower precipitation. Pack layers for early mornings and evenings even in warmer months."
   },
   "hotels": [
     {
-      "name": "Hotel Bed & Breakfast Valadier",
-      "neighborhood": "Monti",
-      "pricePerNightUSD": 70,
+      "name": "Hotel Artemide",
+      "neighborhood": "Pantheon/Centro Storico",
+      "pricePerNightUSD": 85,
       "category": "Budget",
-      "description": "Simple, clean guesthouse in the trendy Monti neighborhood near Roman ruins and excellent restaurants, offering basic comfort at an affordable price."
+      "description": "Comfortable mid-sized hotel with rooftop terrace in the historic center, close to major attractions and public transport."
     },
     {
-      "name": "Hotel Art by the Spanish Steps",
-      "neighborhood": "Centro Storico",
-      "pricePerNightUSD": 180,
+      "name": "Hotel de Russie",
+      "neighborhood": "Spanish Steps/Trinità dei Monti",
+      "pricePerNightUSD": 350,
       "category": "Mid-range",
-      "description": "Contemporary design hotel steps from the Spanish Steps and Trevi Fountain with rooftop terrace, excellent service, and prime historic center location."
+      "description": "Elegant boutique hotel with historic charm, featuring a beautiful garden courtyard and excellent service in a prime location."
     },
     {
-      "name": "Hotel Eden",
-      "neighborhood": "Via Ludovisi",
-      "pricePerNightUSD": 450,
+      "name": "Hassler Roma",
+      "neighborhood": "Spanish Steps/Trinità dei Monti",
+      "pricePerNightUSD": 550,
       "category": "Luxury",
-      "description": "Historic luxury palazzo hotel with Michelin-starred restaurant, panoramic rooftop bar overlooking the city, and impeccable service in a prime location near Spanish Steps."
+      "description": "Iconic luxury hotel overlooking the Spanish Steps with rooftop restaurant offering panoramic views, Michelin-starred dining, and impeccable service."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxSb21lJTIwQ29sb3NzZXVtJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODE1NjIyNTF8MA&ixlib=rb-4.1.0&q=80&w=1080"

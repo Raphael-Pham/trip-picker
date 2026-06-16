@@ -5,8 +5,8 @@
   "region": "Caribbean",
   "airportCodes": [
     "NAS",
-    "FLL",
-    "MIA"
+    "MIA",
+    "FLL"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -19,10 +19,10 @@
   ],
   "scores": {
     "cost": 35,
-    "food": 75,
-    "photography": 85,
+    "food": 82,
+    "photography": 88,
     "activities": 90,
-    "weather": 82
+    "weather": 85
   },
   "budgetRanges": [
     {
@@ -33,145 +33,177 @@
     {
       "level": "mid",
       "minPerDayUSD": 150,
-      "maxPerDayUSD": 300
+      "maxPerDayUSD": 350
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
-      "maxPerDayUSD": 800
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 1000
     }
   ],
-  "unsplashQuery": "Nassau Bahamas turquoise waters",
-  "summary": "Nassau is the vibrant capital of the Bahamas, offering pristine turquoise waters, world-class beaches, and a rich colonial heritage blended with modern Caribbean culture. From snorkeling adventures and water sports to exploring colorful colonial architecture and enjoying fresh seafood, Nassau provides the perfect tropical escape with something for every traveler. The island's warm weather, friendly locals, and abundance of water-based activities make it an ideal destination year-round.",
+  "unsplashQuery": "Nassau Bahamas turquoise beach",
+  "summary": "Nassau is the vibrant capital of the Bahamas, renowned for its pristine turquoise waters, world-class beaches, and colonial architecture. This tropical paradise offers everything from water sports and reef exploration to cultural landmarks and exceptional Caribbean cuisine. Perfect for beach lovers, adventure seekers, and those looking to experience authentic island hospitality.",
   "restaurants": [
-    {
-      "name": "Arawak Cay (Fish Fry)",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "An authentic local institution featuring a collection of shacks serving freshly caught fish prepared with traditional Bahamian recipes. This is the place to experience true local culture with conch salad, fried fish, and tropical beverages.",
-      "mustTry": "Conch Salad"
-    },
     {
       "name": "Graycliff Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "An elegant fine dining establishment housed in a historic mansion with an extensive wine cellar featuring over 800 selections. The menu showcases contemporary cuisine with Caribbean and international influences.",
-      "mustTry": "Pan-seared snapper with mango glaze"
-    },
-    {
-      "name": "Twin Brothers",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "A beloved casual restaurant serving authentic Bahamian dishes in a relaxed atmosphere. Known for their fresh seafood and traditional recipes passed down through generations.",
-      "mustTry": "Cracked conch"
+      "description": "Historic restaurant housed in a 200-year-old mansion with award-winning French-Bahamian cuisine. Features an impressive wine cellar with over 900 selections.",
+      "mustTry": "Conch chowder with dark rum"
     },
     {
       "name": "Junkanoo Beach Club",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "A beachfront restaurant offering fresh seafood and Caribbean dishes with stunning ocean views. Perfect for lunch after a morning at the nearby beach.",
-      "mustTry": "Grouper sandwich"
-    },
-    {
-      "name": "Atlantico at SLS Baha Mar",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "A sophisticated Mediterranean-inspired restaurant featuring fresh seafood and seasonal ingredients with impeccable service. Located within the luxury SLS resort.",
-      "mustTry": "Mediterranean branzino"
-    },
-    {
-      "name": "Poop Deck",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "A casual beachfront eatery famous for its fish and chips and fresh seafood offerings. Popular with both tourists and locals for authentic Caribbean fare.",
-      "mustTry": "Fish and chips"
-    },
-    {
-      "name": "Bacchanal Restaurant & Lounge",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "An upscale dining establishment offering French-Caribbean fusion cuisine in an intimate setting. Known for creative presentations and exceptional service.",
-      "mustTry": "Lobster thermidor"
-    },
-    {
-      "name": "Arawak Restaurant",
       "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Beachfront casual dining celebrating Bahamian culture with fresh seafood and authentic local dishes. Live music and festive atmosphere every evening.",
+      "mustTry": "Cracked conch and peas and rice"
+    },
+    {
+      "name": "Arawak Cay",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "A family-friendly spot serving generous portions of authentic Bahamian breakfast and lunch items. Great for experiencing local flavors at budget-friendly prices.",
-      "mustTry": "Boil fish and Johnny cakes"
+      "description": "Famous fish fry featuring humble wooden shacks serving authentic Bahamian street food. Fresh-caught fish prepared daily with tropical sides.",
+      "mustTry": "Fried snapper and johnny cakes"
     },
     {
       "name": "Nirvana Beach Club",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A beachfront venue combining restaurant and nightlife with Caribbean and international cuisine. Ideal for casual dining during the day with laid-back island vibes.",
-      "mustTry": "Bahama mama cocktail with fresh conch"
+      "description": "Stylish beachfront venue offering Mediterranean and Caribbean fusion cuisine with stunning sunset views. Great for both casual lunch and dinner.",
+      "mustTry": "Fish tacos with mango salsa"
     },
     {
-      "name": "Café Skans",
+      "name": "Café Matilda",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Charming downtown spot serving traditional Bahamian breakfast and lunch specialties in a colorful colonial setting. Famous for baked goods and coffee.",
+      "mustTry": "Boil fish and dumplings"
+    },
+    {
+      "name": "Atlantico",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale restaurant at Atlantis Resort showcasing contemporary cuisine with Caribbean influences. Elegant ambiance with ocean views.",
+      "mustTry": "Pan-seared grouper with tropical fruit gastrique"
+    },
+    {
+      "name": "Fish Fry at Tony's",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A small casual café offering quick meals and traditional Bahamian breakfast items. Popular with locals for authentic, affordable food.",
-      "mustTry": "Ackee and saltfish"
+      "description": "Popular casual eatery offering no-frills authentic Bahamian seafood at bargain prices. Simple setting with consistent quality.",
+      "mustTry": "Grilled mahi-mahi and plantains"
     },
     {
-      "name": "Conch Bar & Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "A casual oceanfront spot specializing in fresh conch dishes and tropical drinks. Perfect casual spot for lunch with beach access.",
-      "mustTry": "Conch salad and coconut water"
+      "name": "Shake Shack",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "International casual dining chain with Bahamian location offerings burgers, hot dogs, and shakes at affordable prices.",
+      "mustTry": "Classic Shack burger"
     },
     {
-      "name": "The Pint",
+      "name": "Bacchanal Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant dining experience at Atlantis Resort featuring Mediterranean and international cuisine in an sophisticated setting. Award-winning service.",
+      "mustTry": "Lobster thermidor"
+    },
+    {
+      "name": "Bamboo Shack",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A vibrant gastropub offering creative comfort food and craft beers in a lively atmosphere. Great for casual dining and experiencing Nassau's local beer scene.",
-      "mustTry": "Fish tacos with lime crema"
+      "description": "Laid-back beachside restaurant serving fresh seafood and tropical cocktails with barefoot ambiance. Perfect for lunch after water activities.",
+      "mustTry": "Conch salad with coconut dressing"
+    },
+    {
+      "name": "The Poop Deck Downtown",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Iconic Bahamian seafood restaurant with waterfront views and casual atmosphere. Long-standing favorite for fresh fish and local specialties.",
+      "mustTry": "Crawfish stew and Nassau salad"
+    },
+    {
+      "name": "Sunset Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Scenic dining venue overlooking the harbor serving Bahamian and Caribbean fare. Excellent for experiencing island culture and flavors.",
+      "mustTry": "Rock lobster thermidor"
     }
   ],
   "activities": [
     {
-      "name": "Swimming with Dolphins at Dolphin Cay",
+      "name": "Snorkeling at Thunderball Grotto",
       "category": "Adventure",
-      "description": "An immersive experience where you can swim and interact with bottlenose dolphins in their natural habitat within the Atlantis Resort complex. Professional trainers guide you through encounters with these intelligent marine mammals.",
+      "description": "Explore the famous underwater cave featured in James Bond films with crystal-clear waters and vibrant marine life. Guided tours depart from Nassau with boat transport.",
       "durationHours": 4,
-      "estimatedCostUSD": 199,
+      "estimatedCostUSD": 85,
       "bestFor": [
-        "standard",
-        "adventure",
-        "family"
-      ]
-    },
-    {
-      "name": "Snorkeling at Blue Lagoon Island",
-      "category": "Outdoor",
-      "description": "Explore vibrant coral reefs and encounter tropical fish species in crystal-clear turquoise waters just off the coast. Multiple reef sites cater to both beginners and experienced snorkelers.",
-      "durationHours": 5,
-      "estimatedCostUSD": 89,
-      "bestFor": [
-        "standard",
         "adventure",
         "photography"
       ]
     },
     {
-      "name": "Visit The Atlantis Resort",
-      "category": "Family",
-      "description": "Explore one of the world's largest resort aquariums featuring thousands of marine animals across multiple themed aquatic zones. The resort's architecture and design also make it a photography hotspot.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
+      "name": "Swimming with Pigs at Pig Beach",
+      "category": "Adventure",
+      "description": "Unique experience swimming alongside friendly wild pigs in shallow turquoise water on a remote island. Includes beach time and snorkeling opportunities.",
+      "durationHours": 5,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nassau Straw Market Tour",
+      "category": "Cultural",
+      "description": "Explore the colorful historic market filled with local crafts, souvenirs, and authentic Bahamian goods. Interact with local artisans and vendors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Blue Lagoon Island Day Trip",
+      "category": "Outdoor",
+      "description": "Visit this pristine private island with powder-white sand beaches, dolphins, and water sports. All-inclusive packages available with meals and activities.",
+      "durationHours": 7,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "relaxation",
         "family",
         "photography"
       ]
     },
     {
-      "name": "Historic Fort Fincastle Walking Tour",
-      "category": "Cultural",
-      "description": "Climb the 66 steps of this historic hilltop fortress built in 1793 to enjoy panoramic views of Nassau and the surrounding islands. Learn about the city's colonial history from informative plaques throughout the site.",
+      "name": "Atlantis Resort Exploration",
+      "category": "Family",
+      "description": "Day pass to explore Atlantis mega-resort with aquariums, water slides, beaches, and marine exhibits. One of the world's largest aquatic attractions.",
+      "durationHours": 8,
+      "estimatedCostUSD": 199,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Junkanoo Beach Parasailing",
+      "category": "Adventure",
+      "description": "Thrilling parasailing experience over Nassau's turquoise waters with stunning aerial views of the coastline. Professional operators ensure safety.",
       "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 70,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nassau Historical Walking Tour",
+      "category": "Cultural",
+      "description": "Guided tour of colonial architecture, government buildings, and historical landmarks in downtown Nassau. Learn about pirate history and British colonial era.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
         "photography",
@@ -179,254 +211,217 @@
       ]
     },
     {
-      "name": "Cable Beach Day at Paradise Island Beach",
-      "category": "Outdoor",
-      "description": "Relax on pristine white-sand beaches with calm, clear waters perfect for swimming and water sports. Beach amenities include loungers, umbrellas, and nearby restaurants and shops.",
-      "durationHours": 6,
-      "estimatedCostUSD": 30,
+      "name": "Coral Gardens Reef Snorkeling",
+      "category": "Adventure",
+      "description": "Pristine coral reef system teeming with tropical fish, rays, and sea turtles accessible by boat from Nassau. Ideal for intermediate snorkelers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
       "bestFor": [
-        "relaxation",
-        "standard",
+        "adventure",
         "photography"
       ]
     },
     {
-      "name": "Exuma Swimming with Pigs Day Trip",
-      "category": "Adventure",
-      "description": "A full-day excursion to the nearby Exuma islands where you can swim with the famous swimming pigs, visit the thunderball grotto, and relax on secluded beaches. Includes boat transportation, guide, and lunch.",
-      "durationHours": 8,
-      "estimatedCostUSD": 160,
-      "bestFor": [
-        "adventure",
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Deep Sea Fishing Charter",
-      "category": "Adventure",
-      "description": "Experience world-class deep-sea fishing in the Atlantic with professional captains targeting marlin, wahoo, and tuna. Full-day charters include equipment, crew, and the thrill of big-game fishing.",
-      "durationHours": 8,
-      "estimatedCostUSD": 600,
-      "bestFor": [
-        "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Junkanoo Beach Festival Cultural Experience",
+      "name": "Junkanoo Festival Parade Experience",
       "category": "Cultural",
-      "description": "Experience Nassau's most iconic celebration featuring colorful parades, live music, dancing, and elaborate costumes celebrating Bahamian culture. Events occur primarily around Boxing Day and New Year's.",
+      "description": "Watch the famous Junkanoo parades featuring elaborate floats, costumed dancers, and live music. Main parades occur on Boxing Day and New Year's Day.",
       "durationHours": 4,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Visit Nassau Straw Market",
-      "category": "Cultural",
-      "description": "Explore this vibrant open-air bazaar filled with local artisans selling handmade crafts, straw goods, jewelry, and souvenirs. Great for experiencing local commerce and finding authentic Bahamian gifts.",
-      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "hidden-gems",
+        "surprise",
         "photography"
       ]
     },
     {
-      "name": "Glass Bottom Boat Tour",
+      "name": "Beach Day at Cable Beach",
       "category": "Outdoor",
-      "description": "View marine life and coral reefs from the comfort of a glass-bottomed boat without getting wet. Perfect for those wanting to experience the underwater world with minimal effort.",
-      "durationHours": 2,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "family",
-        "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Sunset Sailing Catamaran Cruise",
-      "category": "Outdoor",
-      "description": "Cruise the turquoise waters aboard a catamaran while enjoying tropical drinks, fresh snacks, and live music as the sun sets over the ocean. Perfect for a romantic evening or casual group outing.",
-      "durationHours": 3,
-      "estimatedCostUSD": 75,
+      "description": "Long stretch of pristine sandy beach near downtown Nassau with calm turquoise waters, beach bars, and water sports rentals. Perfect for relaxation.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "relaxation",
-        "standard",
+        "family",
         "photography"
       ]
     },
     {
-      "name": "Nassau Nightlife at Junkanoo Beach Club",
-      "category": "Nightlife",
-      "description": "Experience Nassau's vibrant nightlife with live bands, DJs, tropical drinks, and dancing under the stars at beachfront venues. Multiple clubs and bars offer different atmospheres and music styles.",
-      "durationHours": 4,
-      "estimatedCostUSD": 40,
+      "name": "Dolphin Cay Encounter",
+      "category": "Family",
+      "description": "Interactive dolphin swim and educational program at Atlantis Resort where visitors touch and play with trained dolphins. Memorable for all ages.",
+      "durationHours": 2,
+      "estimatedCostUSD": 249,
       "bestFor": [
-        "standard",
-        "surprise",
-        "nightlife"
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Relaxation",
+      "description": "Scenic sailing experience along Nassau's coast at golden hour with complimentary drinks and snacks. Perfect for couples and peaceful travelers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "romance"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Fort Fincastle",
-        "description": "Historic hilltop fortress offering 360-degree panoramic views of Nassau, Paradise Island, and the surrounding turquoise waters with dramatic lighting during golden hour.",
+        "name": "Paradise Island Beach",
+        "description": "Stunning turquoise water and white sand with palm trees creating perfect tropical paradise compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour (sunrise or sunset)",
+        "bestTime": "Early morning or late afternoon for soft light",
         "category": "Landscape"
       },
       {
-        "name": "Paradise Island Bridge",
-        "description": "Iconic arched bridge connecting Nassau to Paradise Island, striking architectural lines against turquoise water and colorful boats.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon",
+        "name": "Fort Fincastle",
+        "description": "Historic hilltop fort offering panoramic views of Nassau harbor and the surrounding islands.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for dramatic orange light on the water",
         "category": "Architecture"
       },
       {
-        "name": "Junkanoo Beach",
-        "description": "Vibrant sandy beach with crystal-clear turquoise waters, palm trees, and colorful beach umbrellas creating vivid tropical compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for saturated colors or golden hour for warm tones",
-        "category": "Landscape"
+        "name": "Atlantis Resort",
+        "description": "Stunning architecture and elaborate water features create compelling compositions against tropical backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light highlights the resort's unique structures",
+        "category": "Architecture"
       },
       {
-        "name": "Nassau Straw Market",
-        "description": "Bustling market with colorful straw goods, local vendors, and vibrant cultural atmosphere perfect for street and candid photography.",
+        "name": "Junkanoo Beach Street Market",
+        "description": "Vibrant colorful market stalls with local vendors offering authentic street photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning to midday with soft directional light",
+        "bestTime": "Mid-morning when light is bright but vendors are active",
         "category": "Street"
       },
       {
-        "name": "Coral Gardens Reef",
-        "description": "Underwater photography location featuring vibrant coral formations, tropical fish, and clear water visibility for detailed macro and wide-angle shots.",
+        "name": "Thunderball Grotto",
+        "description": "Dramatic underwater cave with ethereal blue light creating magical underwater photography.",
         "difficulty": "Advanced",
-        "bestTime": "Calm conditions with good visibility, typically mid-morning",
-        "category": "Wildlife"
-      },
-      {
-        "name": "The Atlantis Resort",
-        "description": "Dramatic architecture with water features, bridges, and golden-hued buildings creating striking compositional opportunities throughout the property.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour or blue hour for architectural lighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Nassau Harbor at Night",
-        "description": "Illuminated skyline, moored boats with reflection lighting, and colorful building facades creating dynamic night photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Blue hour and after sunset for best city light balance",
-        "category": "Night"
-      },
-      {
-        "name": "Blue Lagoon Island",
-        "description": "Pristine turquoise lagoon with white sand and tropical vegetation creating idyllic travel photography with excellent color saturation.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for vibrant colors or golden hour for warm tones",
+        "bestTime": "Midday when sunlight penetrates deepest into cave",
         "category": "Landscape"
       },
       {
-        "name": "Queens Staircase",
-        "description": "Historic 66-step stone staircase carved from limestone surrounded by lush tropical vegetation and waterfalls, creating moody atmospheric compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Overcast days or early morning for soft even lighting",
+        "name": "Nassau Harbor Skyline",
+        "description": "Colonial buildings and modern structures reflected in calm harbor water during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for warm light reflection on water",
         "category": "Architecture"
       },
       {
-        "name": "Cable Beach Sunrise Vantage",
-        "description": "Wide sandy beach with calm morning waters reflecting golden sky and silhouettes of palm trees creating classic tropical sunrise scenes.",
+        "name": "Blue Lagoon Island",
+        "description": "Pristine beach with crystalline water and tropical vegetation creating postcard-perfect scenes.",
         "difficulty": "Beginner",
-        "bestTime": "30 minutes before and after sunrise",
+        "bestTime": "Morning light for clear water definition",
+        "category": "Landscape"
+      },
+      {
+        "name": "Coral Gardens Reef",
+        "description": "Vibrant coral formations and tropical fish create colorful underwater wildlife photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for maximum water clarity and color saturation",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Nassau Colonial District",
+        "description": "Historic pastel-colored buildings and narrow streets offer charming architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light to avoid harsh shadows on building facades",
+        "category": "Street"
+      },
+      {
+        "name": "Cable Beach Sunset",
+        "description": "Wide sandy beach with dramatic sky during sunset creating stunning beach photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset hour for vibrant colors and water reflections",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Cable Beach",
-      "Paradise Island Lighthouse",
-      "Blue Lagoon Island"
+      "Paradise Island Beach",
+      "Junkanoo Beach",
+      "Montagu Beach"
     ],
     "sunsetSpots": [
+      "Cable Beach",
       "Fort Fincastle",
-      "Junkanoo Beach",
-      "Paradise Island Bridge"
+      "Nassau Harbor"
     ],
     "lensRecommendations": [
-      "24-70mm f/2.8 for versatile landscape and architectural photography capturing both wide vistas and intimate details",
-      "50mm f/1.8 for street and market photography in the vibrant straw market with excellent bokeh for isolating subjects",
-      "10-18mm ultra-wide angle for dramatic landscape and architectural compositions at Fort Fincastle and The Atlantis Resort",
-      "60mm macro for underwater coral reef and macro detail photography with optimal water light transmission"
+      "16-35mm wide angle for landscape and architectural shots capturing expansive beach and harbor views",
+      "24-70mm standard zoom for versatile street photography and market scenes with good detail",
+      "70-200mm telephoto for wildlife photography of birds and reef fish from distance",
+      "Macro lens (90-105mm) for close-up details of coral, shells, and small creatures"
     ],
-    "goldenHourNotes": "Nassau's tropical location provides exceptionally warm, saturated golden hour light lasting 45-60 minutes before sunset due to the low latitude. The turquoise waters dramatically shift to shades of orange and pink during this period, while the white sand becomes luminous. Schedule shoots at Fort Fincastle or Paradise Island Bridge during golden hour to capture dramatic backlighting against the water and sky.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Nassau's tropical location offers consistently reliable golden hour light year-round, with sunrise and sunset lasting approximately 30-40 minutes. The calm harbor water creates perfect mirror reflections during early morning and evening hours. Beach and colonial architecture photography benefit most from the warm tones during these periods, with the best color saturation occurring 15-20 minutes before actual sunrise/sunset.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
         "avgTempC": 24,
-        "rainfallMM": 68
+        "rainfallMM": 51
       },
       {
         "month": 2,
         "avgTempC": 24,
-        "rainfallMM": 63
+        "rainfallMM": 53
       },
       {
         "month": 3,
-        "avgTempC": 25,
-        "rainfallMM": 71
+        "avgTempC": 26,
+        "rainfallMM": 64
       },
       {
         "month": 4,
-        "avgTempC": 27,
+        "avgTempC": 28,
         "rainfallMM": 76
       },
       {
         "month": 5,
-        "avgTempC": 28,
-        "rainfallMM": 152
-      },
-      {
-        "month": 6,
-        "avgTempC": 29,
-        "rainfallMM": 165
-      },
-      {
-        "month": 7,
-        "avgTempC": 29,
-        "rainfallMM": 152
-      },
-      {
-        "month": 8,
-        "avgTempC": 29,
-        "rainfallMM": 159
-      },
-      {
-        "month": 9,
-        "avgTempC": 29,
-        "rainfallMM": 140
-      },
-      {
-        "month": 10,
-        "avgTempC": 28,
+        "avgTempC": 30,
         "rainfallMM": 127
       },
       {
+        "month": 6,
+        "avgTempC": 31,
+        "rainfallMM": 152
+      },
+      {
+        "month": 7,
+        "avgTempC": 32,
+        "rainfallMM": 165
+      },
+      {
+        "month": 8,
+        "avgTempC": 32,
+        "rainfallMM": 175
+      },
+      {
+        "month": 9,
+        "avgTempC": 31,
+        "rainfallMM": 191
+      },
+      {
+        "month": 10,
+        "avgTempC": 29,
+        "rainfallMM": 152
+      },
+      {
         "month": 11,
-        "avgTempC": 26,
-        "rainfallMM": 101
+        "avgTempC": 27,
+        "rainfallMM": 89
       },
       {
         "month": 12,
-        "avgTempC": 24,
-        "rainfallMM": 76
+        "avgTempC": 25,
+        "rainfallMM": 61
       }
     ],
     "bestMonths": [
@@ -434,33 +429,33 @@
       2,
       3,
       4,
+      11,
       12
     ],
-    "seasonality": "Nassau experiences mild winters (December to April) with temperatures around 24-27°C and minimal rainfall, making it the peak tourist season. The summer months (June to August) are hot and humid with increased hurricane risk, while May and September-November experience moderate rainfall.",
-    "summary": "Nassau enjoys a subtropical climate with warm temperatures year-round, making it suitable for beach activities most of the year. The dry season from December to April is ideal for visiting, while summer months bring higher heat, humidity, and Atlantic hurricane season threats."
+    "seasonality": "Nassau experiences a subtropical climate with warm, pleasant weather from November through April during dry season. Summer months (June-September) are hot, humid, and experience hurricane season with occasional tropical storms.",
+    "summary": "Nassau offers year-round warmth with temperatures ranging from 24°C in winter to 32°C in summer. The dry season from December to April provides the most comfortable weather for tourism, while summer months bring higher humidity and afternoon rain showers."
   },
   "hotels": [
     {
       "name": "SLS Baha Mar",
       "neighborhood": "Cable Beach",
-      "pricePerNightUSD": 350,
+      "pricePerNightUSD": 280,
+      "category": "Mid-range",
+      "description": "Modern resort with stylish rooms, multiple pools, casino, and excellent beach access near downtown Nassau."
+    },
+    {
+      "name": "Atlantis Resort Nassau",
+      "neighborhood": "Paradise Island",
+      "pricePerNightUSD": 650,
       "category": "Luxury",
-      "description": "A stunning ultra-modern luxury resort featuring world-class amenities, multiple restaurants, casino, and beach access with cutting-edge design and impeccable service."
+      "description": "World-renowned mega-resort featuring aquariums, water slides, fine dining, casino, and comprehensive water sports facilities."
     },
     {
       "name": "Comfort Suites Paradise Island",
       "neighborhood": "Paradise Island",
-      "pricePerNightUSD": 120,
+      "pricePerNightUSD": 110,
       "category": "Budget",
-      "description": "An affordable all-inclusive resort option offering comfortable rooms, beach access, and basic amenities perfect for budget-conscious travelers seeking value."
-    },
-    {
-      "name": "Atlantis Resort",
-      "neighborhood": "Paradise Island",
-      "pricePerNightUSD": 450,
-      "category": "Luxury",
-      "description": "An iconic mega-resort featuring massive aquariums, water parks, fine dining, casino, and private beach with unmatched entertainment and family-friendly attractions."
+      "description": "Reliable budget accommodations with basic amenities, beach access, and convenient location near Atlantis."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1690682085124-61c671ba22f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCYWhhbWFzJTIwdHJvcGljYWwlMjBiZWFjaCUyMHBhcmFkaXNlfGVufDF8MHx8fDE3ODE1NjIyNDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

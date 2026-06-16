@@ -1,0 +1,464 @@
+{
+  "id": "santa-fe-usa",
+  "city": "Santa Fe",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SAF",
+    "ABQ",
+    "Denver"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 92,
+    "photography": 95,
+    "activities": 88,
+    "weather": 82
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Santa Fe adobe architecture sunset",
+  "summary": "Santa Fe captivates visitors with its distinctive Pueblo Revival architecture, world-class art galleries, and vibrant culinary scene rooted in centuries-old Spanish and Native American traditions. Perched at 7,000 feet above sea level, this artistic mountain town offers stunning natural light for photography, excellent hiking, and a rich cultural heritage. The historic Plaza serves as the heart of the city, surrounded by adobe buildings, galleries, and restaurants showcasing authentic New Mexican cuisine.",
+  "restaurants": [
+    {
+      "name": "The Shed",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A Santa Fe institution since 1953 located in a historic adobe building with charming patio. Specializes in traditional New Mexican red and green chile dishes.",
+      "mustTry": "Red chile enchiladas with sopapillas"
+    },
+    {
+      "name": "Cafe Pasqual's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Organic, farm-to-table restaurant with locally sourced ingredients and a creative New Mexican menu. Colorful walls and energetic atmosphere.",
+      "mustTry": "Breakfast huevos rancheros"
+    },
+    {
+      "name": "Coyote Cafe",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Southwestern cuisine in an elegant setting overlooking the Plaza. Chef Mark Miller elevates traditional flavors with innovative techniques.",
+      "mustTry": "Wild mushroom and chile soup"
+    },
+    {
+      "name": "Sazon",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Spanish tapas and pintxos in a sophisticated setting near the Plaza with excellent wine selection. Features Basque and Spanish flavors.",
+      "mustTry": "Jamón Ibérico and Spanish croquetas"
+    },
+    {
+      "name": "Mutts Nuts Coffee House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual coffee shop with excellent pastries, sandwiches, and smoothies in a laid-back atmosphere. Perfect for breakfast before exploring.",
+      "mustTry": "Breakfast burrito and specialty lattes"
+    },
+    {
+      "name": "Pasticceria Francese",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Italian pastry shop and bakery with fresh croissants, quiches, and Italian-inspired breakfast items. Small but charming with high quality.",
+      "mustTry": "Cornetto and espresso"
+    },
+    {
+      "name": "Sebastians Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse with aged beef, fresh seafood, and extensive wine list in an intimate setting. Classic fine dining experience.",
+      "mustTry": "Bone-in rib eye and fresh catch"
+    },
+    {
+      "name": "El Nido",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic red chile restaurant in an old adobe since 1965, serving classic New Mexican food in a no-frills authentic setting.",
+      "mustTry": "Green chile chicken stew"
+    },
+    {
+      "name": "Cowgirl",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual barn-themed restaurant with BBQ, burgers, and New Mexican food. Fun atmosphere with a full bar and outdoor patio.",
+      "mustTry": "Half-smoked chicken and green chile cheeseburger"
+    },
+    {
+      "name": "Farina Pizzeria",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Neapolitan-style wood-fired pizza with locally sourced toppings and imported Italian ingredients in a warm, welcoming space.",
+      "mustTry": "Fresh mozzarella and vegetable pizza"
+    },
+    {
+      "name": "Sugar Nymphs Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French-influenced bistro with seasonal menus, excellent wine pairings, and intimate ambiance in a historic building.",
+      "mustTry": "Duck confit with local vegetables"
+    },
+    {
+      "name": "Maria's New York Bar",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "New York-style pizza joint popular with locals for thick crust pies and Italian sandwiches. Lively bar scene with margaritas.",
+      "mustTry": "Original New York pizza and hot Italian sandwich"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Georgia O'Keeffe Museum",
+      "category": "Cultural",
+      "description": "Dedicated museum showcasing the life and work of the acclaimed American modernist painter. Intimate galleries displaying paintings inspired by New Mexico landscapes.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Santa Fe Plaza Exploration",
+      "category": "Cultural",
+      "description": "Walk the historic Plaza surrounded by art galleries, shops, and restaurants in the heart of the city. Watch local artists and performers while experiencing the city's vibrant culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Hiking in Sangre de Cristo Mountains",
+      "category": "Outdoor",
+      "description": "Access numerous trails through the scenic mountains immediately north of Santa Fe with stunning views and diverse terrain. Options range from easy day hikes to challenging full-day adventures.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "San Miguel Mission Tour",
+      "category": "Cultural",
+      "description": "Visit one of the oldest churches in the continental United States, built in 1610 with historic adobe construction and authentic Spanish colonial interior. Active parish with beautiful altar and artwork.",
+      "durationHours": 1,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Meow Wolf Santa Fe",
+      "category": "Indoor",
+      "description": "Immersive art installation and entertainment complex featuring interactive exhibits, virtual reality, and mind-bending art installations. A unique contemporary art experience blending technology and creativity.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Gallery Hopping and Art District Tour",
+      "category": "Cultural",
+      "description": "Explore over 100 art galleries throughout Santa Fe showcasing contemporary, traditional, and Native American art. Self-guided or docent-led tours available with diverse artistic styles.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Tesuque Pueblo Visit",
+      "category": "Cultural",
+      "description": "Day trip to nearby Native American pueblo to experience authentic tribal culture, traditional pottery, and indigenous traditions. Respectful cultural exchange with artisan shops and galleries.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "St. Catherine Indian School Art Market",
+      "category": "Cultural",
+      "description": "Weekend art market featuring authentic Native American crafts, jewelry, and pottery directly from tribal artisans. Support indigenous artists while acquiring authentic pieces.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bandelier National Monument Day Trip",
+      "category": "Outdoor",
+      "description": "Explore ancient cliff dwellings and petroglyphs of ancestral Puebloans on scenic hiking trails through piñon and juniper forest. Located 30 minutes north with excellent photographs of archaeological sites.",
+      "durationHours": 6,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "New Mexico History Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum detailing Santa Fe and New Mexico history from Spanish colonial period through modern times. Excellent exhibits on Native American, Hispanic, and Anglo cultures.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Farmers Market at Railyard District",
+      "category": "Outdoor",
+      "description": "Year-round Saturday market featuring local produce, artisan goods, and local food vendors in the revitalized Railyard District. Vibrant community gathering with local crafts and prepared foods.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunset at Canyon Road",
+      "category": "Outdoor",
+      "description": "Scenic drive and walk through Santa Fe's famous Canyon Road lined with galleries, studios, and restaurants. Golden hour light perfect for photography and evening walks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Santa Fe Plaza at Dawn",
+        "description": "The historic plaza surrounded by adobe buildings with soft morning light creating warm tones on the architecture.",
+        "difficulty": "Beginner",
+        "bestTime": "First light, 6:00-7:00 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Canyon Road Golden Hour",
+        "description": "Tree-lined road with galleries, adobe walls, and dramatic shadows during sunset with perfect warm lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "One hour before sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bandelier Cliff Dwellings",
+        "description": "Ancient pueblo ruins nestled in canyon walls with archaeological details and natural rock formations.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light 7:00-10:00 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sangre de Cristo Mountain Overlook",
+        "description": "Panoramic mountain landscape views from high elevation with dramatic peaks and colorful geological layers.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise or sunset for dramatic colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "St. Catherine Indian School Art Market",
+        "description": "Street market with colorful textiles, crafts, and diverse cultural subjects with natural outdoor light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Weekend mornings 10:00-12:00 PM",
+        "category": "Street"
+      },
+      {
+        "name": "San Miguel Mission Interior",
+        "description": "Historic church interior with ornate colonial altar, candlelight, and architectural details in soft natural light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for window light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Meow Wolf Exterior and Entry",
+        "description": "Striking contemporary installation with colorful geometric structures and art facades against desert landscape.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for dramatic shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Fenn Gallery Alley",
+        "description": "Narrow alley between galleries with adobe walls, arched doorways, and artistic architectural details.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for side-lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Railyard District Sunset",
+        "description": "Industrial historic buildings converted to galleries and shops with warm sunset light and creative street art.",
+        "difficulty": "Beginner",
+        "bestTime": "One hour before sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Tesuque Pueblo Landscape",
+        "description": "Desert pueblo setting with traditional adobe structures, mountains in distance, and authentic cultural elements.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Sangre de Cristo Mountain Trailhead",
+      "Santa Fe Plaza from Palace Avenue",
+      "Bandelier Monument Overlook Trail"
+    ],
+    "sunsetSpots": [
+      "Canyon Road near Acequia Madre",
+      "Railyard District west side",
+      "Meow Wolf Western perimeter"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for landscape and mountain panoramas with context",
+      "50mm prime for architectural details, street scenes, and intimate cultural moments",
+      "70-200mm telephoto for compressed mountain layers and distant details",
+      "24-70mm versatile zoom for gallery interiors and mixed lighting situations"
+    ],
+    "goldenHourNotes": "Santa Fe's high altitude (7,000 feet) creates exceptionally clear, crisp golden hour light lasting 45-60 minutes. The adobe architecture glows with warm peachy tones during sunset, while morning light reveals texture and detail. The Sangre de Cristo Mountains create dramatic backlighting opportunities in early morning with pink and purple alpenglow.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -1,
+        "rainfallMM": 13
+      },
+      {
+        "month": 2,
+        "avgTempC": 1,
+        "rainfallMM": 13
+      },
+      {
+        "month": 3,
+        "avgTempC": 5,
+        "rainfallMM": 10
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 15
+      },
+      {
+        "month": 5,
+        "avgTempC": 17,
+        "rainfallMM": 24
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 43
+      },
+      {
+        "month": 7,
+        "avgTempC": 23,
+        "rainfallMM": 76
+      },
+      {
+        "month": 8,
+        "avgTempC": 23,
+        "rainfallMM": 71
+      },
+      {
+        "month": 9,
+        "avgTempC": 20,
+        "rainfallMM": 46
+      },
+      {
+        "month": 10,
+        "avgTempC": 14,
+        "rainfallMM": 18
+      },
+      {
+        "month": 11,
+        "avgTempC": 6,
+        "rainfallMM": 13
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 13
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and fall (September-October) offer perfect temperatures (10-22°C), minimal rain, and ideal photography light. Summer brings afternoon thunderstorms but warm days; winter features cool temperatures and occasional snow.",
+    "summary": "Santa Fe sits at 7,000 feet elevation with a mild high-desert climate offering over 310 days of sunshine annually. Weather is generally pleasant year-round with cool winters and warm summers, though visitors should pack layers due to elevation and temperature fluctuations."
+  },
+  "hotels": [
+    {
+      "name": "Santa Fe Motel & Inn",
+      "neighborhood": "Downtown/near Plaza",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Affordable, family-run motel with clean rooms, free parking, and convenient location near galleries and restaurants."
+    },
+    {
+      "name": "La Fonda de Santa Fe",
+      "neighborhood": "Plaza",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Historic 1925 hotel directly on the Plaza with authentic Pueblo Revival architecture, restaurant, and prime location for exploring."
+    },
+    {
+      "name": "Rosewood Inn of the Governors",
+      "neighborhood": "Plaza",
+      "pricePerNightUSD": 425,
+      "category": "Luxury",
+      "description": "Luxury boutique hotel in historic adobe building featuring high-end amenities, spa services, fine dining, and impeccable service near the Plaza."
+    }
+  ]
+}

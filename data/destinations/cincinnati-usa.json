@@ -11,23 +11,23 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "hidden-gems",
-    "photography",
     "foodie",
-    "adventure",
+    "photography",
+    "cultural",
+    "family",
     "relaxation"
   ],
   "scores": {
     "cost": 72,
-    "food": 78,
+    "food": 82,
     "photography": 75,
-    "activities": 80,
+    "activities": 78,
     "weather": 65
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 80,
+      "minPerDayUSD": 60,
       "maxPerDayUSD": 120
     },
     {
@@ -42,99 +42,185 @@
     }
   ],
   "unsplashQuery": "Cincinnati skyline river",
-  "summary": "Cincinnati is a vibrant Midwestern city blending rich history, world-class museums, and an emerging food scene along the scenic Ohio River. Known for its architectural gems, thriving arts district, and welcoming neighborhoods, the city offers affordable charm with plenty to explore for culture, photography, and culinary adventures.",
+  "summary": "Cincinnati blends historic charm with vibrant modern culture along the Ohio River, offering world-class museums, innovative food scene, and charming neighborhoods like Over-the-Rhine. Known as the birthplace of American industry and home to iconic brands, this Midwest gem provides authentic experiences without the crowds or expense of larger cities.",
   "restaurants": [
     {
       "name": "Sotto",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Underground Italian fine dining restaurant featuring handmade pasta and innovative preparations in an intimate speakeasy-style setting. An elevated culinary experience celebrating traditional Italian techniques with modern creativity.",
-      "mustTry": "Handmade Tagliatelle Bolognese"
+      "description": "Underground Italian fine dining gem located in historic downtown, featuring handmade pasta and an extensive wine collection in intimate candlelit setting.",
+      "mustTry": "Squid ink pappardelle with scallops"
     },
     {
-      "name": "Jeff Ruby's Precinct",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Award-winning steakhouse housed in a historic 1926 police patrol house with upscale American cuisine and an extensive wine collection. Offers refined elegance with perfectly aged steaks and classic preparations.",
-      "mustTry": "Bone-in Ribeye"
+      "name": "Eli's BBQ",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic slow-smoked barbecue joint serving tender brisket, ribs, and pulled pork with house-made sauces and traditional sides.",
+      "mustTry": "Half brisket with burnt ends"
     },
     {
       "name": "Skyline Chili",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Cincinnati's iconic chili parlor chain famous for unique Greek-influenced chili served over spaghetti, a beloved local staple since 1949. A must-try Cincinnati experience that defines the city's food culture.",
-      "mustTry": "3-Way (Chili, Spaghetti, Cheese)"
+      "description": "Cincinnati's iconic chili parlor chain serving unique spiced chili over spaghetti in the distinctive 'Cincinnati way' since 1949.",
+      "mustTry": "3-Way or 5-Way chili"
     },
     {
-      "name": "The Eagle",
+      "name": "Jeff Ruby's Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Prestigious upscale steakhouse offering premium cuts, impeccable service, and an award-winning wine program in an elegant setting.",
+      "mustTry": "Dry-aged ribeye with truffle butter"
+    },
+    {
+      "name": "Senate",
       "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Farm-to-table Southern restaurant celebrating bold flavors with wood-fired cooking and locally sourced ingredients in a casual, vibrant atmosphere. Known for inventive preparation of regional comfort food.",
-      "mustTry": "Wood-Fired Chicken"
-    },
-    {
-      "name": "Eli's BBQ Smokehouse",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Casual barbecue joint serving slow-smoked meats and traditional sides in a laid-back setting with communal tables. Authentic Texas-style BBQ brought to Cincinnati with excellent execution.",
-      "mustTry": "Brisket Sandwich"
+      "priceRange": "$$$",
+      "description": "Trendy Over-the-Rhine restaurant featuring modern American cuisine with seasonal ingredients and craft cocktails in a converted historic building.",
+      "mustTry": "House-cured charcuterie board"
     },
     {
       "name": "Orchids at Palm Court",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Elegant French fine dining restaurant within the historic Hilton Cincinnati Rainforest conservatory featuring refined technique and impeccable service. A sophisticated culinary destination with stunning botanical surroundings.",
-      "mustTry": "Pan-Seared Duck Breast"
+      "description": "Elegant contemporary French cuisine located within the historic Hilton Cincinnati Rainforest, offering refined dishes and impeccable presentation.",
+      "mustTry": "Pan-seared diver scallops"
     },
     {
-      "name": "Senate",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Trendy American restaurant and cocktail bar in a historic building offering creative small plates and seasonal menus in a stylish downtown setting. Perfect blend of innovative cuisine and craft cocktails.",
-      "mustTry": "Charcuterie Board"
-    },
-    {
-      "name": "Sotto Espresso Bar",
+      "name": "Sotto Lofts Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Cozy Italian espresso bar and café serving authentic coffee, pastries, and light snacks in a charming neighborhood spot. Perfect for breakfast or a quick caffeine boost with Italian flair.",
-      "mustTry": "Cappuccino and Cornetto"
+      "description": "Casual coffee shop and light fare spot perfect for breakfast and lunch with local pastries and espresso drinks.",
+      "mustTry": "Morning croissant sandwich"
     },
     {
-      "name": "The Boca",
+      "name": "Sotto Restaurant Group locations",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary restaurant featuring seasonal Spanish-inspired cuisine with an emphasis on fresh ingredients and bold flavors in an intimate setting. Creative tapas-style dining celebrating Mediterranean traditions.",
-      "mustTry": "Cured Fish Crudo"
+      "description": "Collection of neighborhood Italian restaurants throughout Cincinnati serving housemade pasta, fresh ingredients, and traditional recipes.",
+      "mustTry": "Gnocchi carbonara"
     },
     {
-      "name": "Sotto Espresso Bourbon Steaks",
+      "name": "Sotto Prima Pasta",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual Italian counter-service restaurant in Over-the-Rhine specializing in fresh housemade pastas, pizza, and Italian meats.",
+      "mustTry": "Fresh ravioli of the day"
+    },
+    {
+      "name": "Sotto Pastorale",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Neighborhood Italian eatery focusing on seasonal preparations, vegetable-forward dishes, and natural wines in a relaxed atmosphere.",
+      "mustTry": "Pasta primavera with local produce"
+    },
+    {
+      "name": "Sotto Table 34",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Premium steakhouse with bourbon-focused menu and extensive selection of aged spirits in an upscale historic setting. Combines world-class steaks with Kentucky bourbon heritage.",
-      "mustTry": "Bourbon-Aged Filet Mignon"
+      "priceRange": "$$$",
+      "description": "Contemporary fine dining restaurant offering creative Italian-inspired cuisine with carefully curated wine pairings.",
+      "mustTry": "Chef's tasting menu with wine pairing"
     },
     {
-      "name": "Sotto Ristorante Portofino",
+      "name": "Sotto Alchemy",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Family-friendly Italian restaurant serving traditional pasta dishes and seafood preparations in a warm, welcoming atmosphere with Italian hospitality. Consistently excellent traditional Italian cooking in the Over-the-Rhine neighborhood.",
-      "mustTry": "Fresh Seafood Pasta"
-    },
-    {
-      "name": "Holy Mule",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual Mexican restaurant and tequila bar offering authentic regional dishes, fresh ingredients, and creative cocktails in a vibrant, colorful setting. Perfect for quick, delicious Mexican fare and margaritas.",
-      "mustTry": "Carne Asada Tacos"
+      "description": "Craft cocktail bar and restaurant serving elevated bar food with an impressive selection of spirits and creative mixology.",
+      "mustTry": "House-infused cocktails"
     }
   ],
   "activities": [
     {
+      "name": "Cincinnati Museum Center",
+      "category": "Cultural",
+      "description": "Massive indoor complex housed in historic Union Terminal featuring natural history, children's museums, and history exhibits across multiple floors.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "family"
+      ]
+    },
+    {
+      "name": "Smale Riverfront Park",
+      "category": "Outdoor",
+      "description": "Beautiful 53-acre park along the Ohio River with walking paths, interactive fountains, playgrounds, and stunning city skyline views.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Over-the-Rhine Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Cincinnati's most vibrant neighborhood with restored historic buildings, street art, independent shops, galleries, and restaurants.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
       "name": "Cincinnati Art Museum",
       "category": "Cultural",
-      "description": "World-class art museum featuring Egyptian antiquities, American paintings, and contemporary works in an impressive Romanesque building. Free general admission with optional special exhibitions.",
+      "description": "Comprehensive art collection spanning 5,000 years with Egyptian artifacts, contemporary works, and special exhibitions in a historic building.",
       "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "cultural",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Great American Ball Park Tour",
+      "category": "Family",
+      "description": "Home of the Cincinnati Reds baseball team offering stadium tours with views of the field, dugout, and Ohio River beyond.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Findlay Market Experience",
+      "category": "Outdoor",
+      "description": "America's oldest continuously operated farmers market with 200+ vendors selling fresh produce, meats, flowers, and artisan goods since 1855.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Krohn Conservatory",
+      "category": "Indoor",
+      "description": "Stunning botanical garden under glass featuring tropical plants, orchids, and rotating seasonal displays in a historic greenhouse structure.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "family",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Purple People Bridge Walk",
+      "category": "Outdoor",
+      "description": "Pedestrian-only bridge connecting Cincinnati to Covington, Kentucky with spectacular river and skyline views, especially at sunset.",
+      "durationHours": 1,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
@@ -145,137 +231,47 @@
     {
       "name": "Gorman Heritage Farm",
       "category": "Family",
-      "description": "Living history farm demonstrating 19th-century agricultural practices with animals, gardens, and seasonal activities. Educational and interactive experience perfect for families and history enthusiasts.",
+      "description": "Historic working farm offering seasonal activities like pumpkin picking, hayrides, farm animals, and educational programs.",
       "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "family",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Smale Riverfront Park",
-      "category": "Outdoor",
-      "description": "Beautiful waterfront park along the Ohio River with walking paths, playgrounds, and scenic views of the Cincinnati skyline. Free public space perfect for morning walks and sunset watching.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Cincinnati Zoo & Botanical Garden",
-      "category": "Family",
-      "description": "Historic zoo featuring 500+ animal species and beautiful botanical gardens spread across 125 acres in Avondale. One of the oldest zoos in America with excellent animal care and exhibits.",
-      "durationHours": 5,
-      "estimatedCostUSD": 22,
-      "bestFor": [
-        "standard",
-        "family",
-        "photography"
-      ]
-    },
-    {
-      "name": "Riverside Drive Scenic Byway",
-      "category": "Outdoor",
-      "description": "Scenic drive along the Ohio River showcasing natural beauty, historic sites, and river views from multiple overlooks. Perfect for photography and experiencing Cincinnati's geography.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "American Sign Museum",
-      "category": "Indoor",
-      "description": "Quirky museum featuring vintage neon signs, hand-painted advertising, and Americana spanning the 20th century in a historic building. Interactive, colorful, and perfect for unique photography opportunities.",
-      "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
-        "hidden-gems",
-        "photography",
+        "family",
         "standard"
       ]
     },
     {
-      "name": "Over-the-Rhine Walking Tour",
-      "category": "Cultural",
-      "description": "Self-guided or guided exploration of Cincinnati's most vibrant neighborhood featuring Victorian architecture, street art, boutiques, and cafés. Historic neighborhood with excellent murals and restoration efforts.",
+      "name": "The Banks Entertainment District",
+      "category": "Nightlife",
+      "description": "Waterfront entertainment zone with restaurants, bars, nightclubs, and seasonal events along the Ohio River.",
       "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "nightlife",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Eden Park Scenic Drive",
+      "category": "Outdoor",
+      "description": "Historic 274-acre urban park with scenic overlooks, walking trails, historic monuments, and views of the city and surrounding valleys.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
         "photography",
-        "foodie",
-        "hidden-gems"
+        "relaxation",
+        "standard"
       ]
     },
     {
-      "name": "Ault Park",
-      "category": "Outdoor",
-      "description": "Large public park in the hills east of downtown offering trails, scenic overlooks, historic mansion tours, and nature experiences. Excellent for hiking with stunning city views and diverse wildlife.",
-      "durationHours": 4,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Cincinnati Music Hall",
+      "name": "Taft Museum of Art",
       "category": "Cultural",
-      "description": "Magnificent 1878 Victorian building hosting Cincinnati Symphony Orchestra, Ballet, Pops, and Broadway shows. Architectural masterpiece with world-class performances and historic ambiance.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
+      "description": "Intimate art museum in a historic mansion featuring fine art from medieval to contemporary periods with rotating exhibitions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
       "bestFor": [
-        "standard",
         "cultural",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "The Krohn Conservatory",
-      "category": "Indoor",
-      "description": "Historic greenhouse with tropical plants, exotic species, and seasonal displays in a beautiful Art Deco structure within Eden Park. Serene indoor botanical experience year-round.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 7,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Cincinnati Beer Tours",
-      "category": "Foodie",
-      "description": "Guided tours of local craft breweries featuring tastings, brewery history, and conversations with brewmasters. Experience Cincinnati's growing craft beer scene and local brewing culture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Purple People Bridge Walk",
-      "category": "Outdoor",
-      "description": "Pedestrian-friendly bridge connecting Cincinnati to Covington, Kentucky with excellent river views and access to Newport's attractions. Free walk offering unique perspectives of the Ohio River and city skyline.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure",
-        "relaxation"
+        "standard"
       ]
     }
   ],
@@ -283,92 +279,92 @@
     "spots": [
       {
         "name": "John A. Roebling Suspension Bridge",
-        "description": "Historic 1867 bridge spanning the Ohio River offering stunning architectural lines and city skyline reflections from both Kentucky and Ohio sides.",
+        "description": "Historic 1867 bridge spanning the Ohio River with dramatic architecture offering stunning symmetrical compositions and city backdrop.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for side lighting of bridge structure and reflections in water",
+        "bestTime": "Golden hour or blue hour for silhouettes",
         "category": "Architecture"
       },
       {
-        "name": "Smale Riverfront Park Observation Deck",
-        "description": "Elevated platform providing unobstructed views of the Cincinnati skyline reflected in the Ohio River, perfect for cityscape photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for golden light on buildings, blue hour for night skyline",
+        "name": "Smale Riverfront Park Fountains",
+        "description": "Interactive water features with dynamic spray patterns, children playing, and city skyline reflections providing vibrant daytime subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for water droplet detail, sunset for backlighting",
         "category": "Landscape"
       },
       {
-        "name": "Over-the-Rhine Street Art",
-        "description": "Vibrant murals and street art covering historic buildings throughout the neighborhood, featuring colorful contemporary works and historic facades.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for saturated colors and minimal shadows on murals",
+        "name": "Over-the-Rhine Murals",
+        "description": "Colorful street art and murals covering building walls throughout the neighborhood offering bold colors and interesting textures.",
+        "difficulty": "Beginner",
+        "bestTime": "Soft morning light or overcast days to avoid harsh shadows",
         "category": "Street"
       },
       {
-        "name": "Ault Park Overlook",
-        "description": "Elevated viewpoint offering panoramic city and landscape views with historic mansion framing and natural woodland surroundings.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning fog or sunset for atmospheric conditions",
-        "category": "Landscape"
-      },
-      {
-        "name": "Cincinnati Music Hall",
-        "description": "Ornate Victorian architecture with detailed stonework, towers, and grand entrance creating excellent compositional opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening when building is illuminated for dramatic architectural photography",
-        "category": "Architecture"
-      },
-      {
-        "name": "The Banks District",
-        "description": "Modern riverfront development with contemporary architecture, river access, and interesting geometric lines against historic bridges.",
-        "difficulty": "Intermediate",
-        "bestTime": "Blue hour for contrast between modern lighting and river reflections",
-        "category": "Architecture"
-      },
-      {
-        "name": "Eden Park Paths",
-        "description": "Winding nature trails through green spaces with tree canopies, natural light filtering, and seasonal flower displays.",
-        "difficulty": "Intermediate",
-        "bestTime": "Spring for blooms or autumn for foliage colors",
-        "category": "Landscape"
-      },
-      {
-        "name": "Newport Aquarium Exterior",
-        "description": "Modern architectural structure on Kentucky side of river with reflective surfaces and interesting geometric shapes.",
+        "name": "Cincinnati Skyline from Covington",
+        "description": "Classic panoramic view of downtown skyline reflected in the Ohio River, best viewed from the Kentucky side.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light for clean reflections and less tourist congestion",
-        "category": "Architecture"
+        "bestTime": "Sunset or sunrise for color and reflection",
+        "category": "Landscape"
       },
       {
-        "name": "Purple People Bridge at Night",
-        "description": "Illuminated pedestrian bridge with vibrant purple lighting creating striking night photography opportunities with river and city reflections.",
+        "name": "Findlay Market Interior",
+        "description": "Bustling market atmosphere with colorful produce, vendors, natural light from covered roof creating dynamic street photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Evening after dark for maximum light effect and night skyline context",
-        "category": "Night"
+        "bestTime": "Early morning when market opens for fresh light and less crowds",
+        "category": "Street"
       },
       {
         "name": "Cincinnati Union Terminal",
-        "description": "Art Deco masterpiece with soaring interior ceilings, geometric tilework, and dramatic architectural details.",
+        "description": "Art Deco masterpiece featuring grand architecture with soaring ceilings, dramatic arches, and ornate details perfect for architectural photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday for natural light through skylights highlighting interior details",
+        "bestTime": "Midday for interior light, avoid backlight from entrance",
+        "category": "Architecture"
+      },
+      {
+        "name": "Purple People Bridge at Dusk",
+        "description": "Illuminated pedestrian bridge with distinctive purple color creating stunning nighttime photography with river and city lights.",
+        "difficulty": "Intermediate",
+        "bestTime": "Just after sunset when lights turn on but sky retains color",
+        "category": "Night"
+      },
+      {
+        "name": "Eden Park Scenic Overlook",
+        "description": "Elevated vantage point offering panoramic city views surrounded by mature trees, perfect for layered landscape composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light, or clear mornings for atmospheric perspective",
+        "category": "Landscape"
+      },
+      {
+        "name": "The Cincinnati Public Library",
+        "description": "Modern architectural structure with geometric glass and steel features, dramatic interior spaces with interesting lighting.",
+        "difficulty": "Advanced",
+        "bestTime": "Interior daytime for window light patterns, exterior evening for facade illumination",
+        "category": "Architecture"
+      },
+      {
+        "name": "Great American Ball Park Exterior",
+        "description": "Striking contemporary stadium architecture with Ohio River views, distinctive design elements framing the cityscape.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm tones on building facade, evening game lights",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Ault Park East Overlook",
+      "Eden Park East Overlook",
       "Smale Riverfront Park",
-      "Mount Washington Scenic Overlook"
+      "Purple People Bridge Kentucky Side"
     ],
     "sunsetSpots": [
-      "Smale Riverfront Park Observation Deck",
-      "John A. Roebling Suspension Bridge Kentucky side",
-      "Ault Park West-facing trails"
+      "Smale Riverfront Park Amphitheater",
+      "Purple People Bridge Cincinnati Side",
+      "Eden Park Scenic Overlook"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for architecture and cityscape sweeping views",
-      "50mm prime for street photography and detail work in Over-the-Rhine",
-      "70-200mm telephoto for compressed skyline shots and bridge isolation",
-      "14mm ultra-wide for Music Hall and Union Terminal interior expansiveness"
+      "16-35mm wide angle for architectural details and panoramic skyline shots",
+      "50mm prime for street photography and intimate details in Over-the-Rhine",
+      "70-200mm telephoto for compressed skyline perspectives from Covington",
+      "24-70mm versatile zoom for market scenes and varied compositions throughout city"
     ],
-    "goldenHourNotes": "Cincinnati's river position offers excellent golden hour opportunities, particularly from Smale Riverfront Park and bridge vantage points. Early morning light creates beautiful reflections in the Ohio River and illuminates historic architecture at 45-degree angles. Evening golden hour around 6-7pm (depending on season) provides warm sidelighting across the skyline and complements the industrial riverfront character.",
+    "goldenHourNotes": "Cincinnati's golden hour is particularly striking from April through September with extended evening light. The Ohio River acts as a natural reflector amplifying warm tones, especially visible from Smale Park and the purple bridge. Early morning light hitting downtown's glass buildings creates interesting refraction patterns worth exploring.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -376,62 +372,62 @@
       {
         "month": 1,
         "avgTempC": -2,
-        "rainfallMM": 64
+        "rainfallMM": 58
       },
       {
         "month": 2,
         "avgTempC": 1,
-        "rainfallMM": 71
+        "rainfallMM": 63
       },
       {
         "month": 3,
-        "avgTempC": 7,
-        "rainfallMM": 86
+        "avgTempC": 8,
+        "rainfallMM": 83
       },
       {
         "month": 4,
-        "avgTempC": 14,
-        "rainfallMM": 109
-      },
-      {
-        "month": 5,
-        "avgTempC": 20,
-        "rainfallMM": 130
-      },
-      {
-        "month": 6,
-        "avgTempC": 25,
-        "rainfallMM": 114
-      },
-      {
-        "month": 7,
-        "avgTempC": 27,
-        "rainfallMM": 102
-      },
-      {
-        "month": 8,
-        "avgTempC": 26,
+        "avgTempC": 15,
         "rainfallMM": 97
       },
       {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 112
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 110
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 99
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 89
+      },
+      {
         "month": 9,
-        "avgTempC": 22,
-        "rainfallMM": 86
+        "avgTempC": 23,
+        "rainfallMM": 84
       },
       {
         "month": 10,
-        "avgTempC": 15,
-        "rainfallMM": 71
+        "avgTempC": 17,
+        "rainfallMM": 74
       },
       {
         "month": 11,
-        "avgTempC": 8,
-        "rainfallMM": 91
+        "avgTempC": 10,
+        "rainfallMM": 81
       },
       {
         "month": 12,
-        "avgTempC": 1,
-        "rainfallMM": 79
+        "avgTempC": 3,
+        "rainfallMM": 71
       }
     ],
     "bestMonths": [
@@ -440,31 +436,31 @@
       9,
       10
     ],
-    "seasonality": "Cincinnati experiences four distinct seasons with warm summers (25-27°C) and cold winters (-2-1°C). Spring and fall offer ideal visiting conditions with moderate temperatures, lower humidity, and beautiful scenery; May through October generally provides the most comfortable weather for exploring outdoor attractions.",
-    "summary": "The city receives moderate rainfall throughout the year with spring being the wettest season. Late spring (May-June) and early fall (September-October) offer the most pleasant weather for activities and photography, while summers are warm but humid, and winters are cold with occasional snow."
+    "seasonality": "Cincinnati experiences four distinct seasons with warm summers (25-28°C) ideal for outdoor activities and river enjoyment, while spring and fall offer comfortable temperatures (15-23°C) and colorful scenery. Winter is cold and snowy (−2 to 3°C) but suitable for indoor attractions and holiday festivities.",
+    "summary": "The best time to visit is late spring through early fall when temperatures range from 15-28°C and outdoor activities are most enjoyable. Winter months can be cold and snowy, though the city maintains indoor entertainment options throughout the year."
   },
   "hotels": [
     {
-      "name": "The Metropole Cincinnati",
+      "name": "Kimpton Hotel Cincinnati",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 85,
-      "category": "Budget",
-      "description": "Affordable downtown hotel offering clean, basic rooms with convenient access to riverfront attractions, dining, and major museums in a central location."
-    },
-    {
-      "name": "Renaissance Cincinnati Downtown Hotel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 155,
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Contemporary mid-range hotel featuring modern amenities, fitness facilities, and excellent downtown positioning with easy access to The Banks and Over-the-Rhine."
+      "description": "Upscale pet-friendly downtown hotel with modern rooms, rooftop bar, and convenient access to museums and riverfront attractions."
     },
     {
       "name": "The Hilton Cincinnati Rainforest",
       "neighborhood": "Downtown",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Historic 1931 building featuring a tropical atrium conservatory, reasonable rates, and downtown location near Museum Center."
+    },
+    {
+      "name": "The Vernon Manor",
+      "neighborhood": "Corryville",
       "pricePerNightUSD": 320,
       "category": "Luxury",
-      "description": "Upscale luxury hotel featuring an indoor tropical conservatory, fine dining at Orchids at Palm Court, and elegant accommodations with premium service and river views."
+      "description": "Historic boutique luxury hotel with art deco elegance, high-end dining, and proximity to cultural attractions in a restored 1926 mansion."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1600186203774-769f73209d00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDaW5jaW5uYXRpJTIwc2t5bGluZSUyMHJpdmVyfGVufDF8MHx8fDE3ODEzMDMyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1600186203774-769f73209d00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDaW5jaW5uYXRpJTIwc2t5bGluZSUyMHJpdmVyfGVufDF8MHx8fDE3ODE1NjgxODR8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

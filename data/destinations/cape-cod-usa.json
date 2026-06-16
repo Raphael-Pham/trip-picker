@@ -1,0 +1,470 @@
+{
+  "id": "cape-cod-usa",
+  "city": "Cape Cod",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BOS",
+    "ACK",
+    "HYA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "relaxation",
+    "photography",
+    "foodie",
+    "family",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 82,
+    "photography": 88,
+    "activities": 85,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 280,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Cape Cod beach lighthouse",
+  "summary": "Cape Cod is a picturesque New England peninsula famous for its pristine beaches, charming coastal towns, and fresh seafood offerings. With its iconic lighthouses, rolling sand dunes, and vibrant arts scene, it offers the perfect blend of relaxation and exploration for travelers seeking quintessential American coastal charm.",
+  "restaurants": [
+    {
+      "name": "The Mayflower",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic waterfront restaurant serving classic New England clam chowder and lobster rolls with stunning harbor views.",
+      "mustTry": "Lobster Roll"
+    },
+    {
+      "name": "Chatham Bars Inn Dining Room",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning fine dining establishment offering seasonal New England cuisine with ocean views and impeccable service.",
+      "mustTry": "Pan-seared sea scallops"
+    },
+    {
+      "name": "Mac's Fish House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual seafood shack famous for its fish and chips and fresh daily catches prepared simply and perfectly.",
+      "mustTry": "Fried clams"
+    },
+    {
+      "name": "Sal's Place",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-frills Italian pizzeria delivering authentic New York-style pizza and pasta at affordable prices in a laid-back atmosphere.",
+      "mustTry": "Margherita pizza"
+    },
+    {
+      "name": "The Wicked Oyster",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Upscale seafood bar featuring fresh oysters, ceviche, and creative coastal cuisine in a modern, vibrant setting.",
+      "mustTry": "Raw oyster selection"
+    },
+    {
+      "name": "Naturally Yours Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Health-conscious cafe offering organic smoothie bowls, avocado toast, and fresh salads perfect for a quick breakfast or lunch.",
+      "mustTry": "Acai bowl"
+    },
+    {
+      "name": "Federalist at Chatham Squire",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic colonial-themed tavern serving traditional American comfort food with a local craft beer selection.",
+      "mustTry": "Yankee pot roast"
+    },
+    {
+      "name": "Captain Frosty's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Summer institution famous for its crispy fish and chips and soft-serve ice cream, best enjoyed at picnic tables overlooking the water.",
+      "mustTry": "Fish and chips with tartar sauce"
+    },
+    {
+      "name": "Impudent Oyster",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Creative seafood restaurant blending Asian and Mediterranean influences with an impressive selection of fresh oysters.",
+      "mustTry": "Asian pear and ginger oysters"
+    },
+    {
+      "name": "Fancy's Famous Hot Dogs",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Iconic hot dog stand operating since 1948, serving grilled hot dogs and sausages with simple toppings to hungry locals and visitors.",
+      "mustTry": "Classic hot dog with onions"
+    },
+    {
+      "name": "The Vault",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Farm-to-table fine dining in a historic bank building featuring innovative New England cuisine with wine pairings.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Bleu",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary French-inspired bistro offering duck confit, bouillabaisse, and seasonal specials in an intimate setting.",
+      "mustTry": "Duck confit"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Race Point Beach",
+      "category": "Outdoor",
+      "description": "One of Cape Cod's most famous beaches featuring dramatic dunes, strong waves for swimming, and excellent sunset views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Highland Light Tour",
+      "category": "Outdoor",
+      "description": "Visit the iconic red and white striped lighthouse with museum exhibits and panoramic views of the Atlantic Ocean from the cliff-top location.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 6,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Cape Cod National Seashore",
+      "category": "Outdoor",
+      "description": "40-mile stretch of protected sandy beaches, salt marshes, and pine forests ideal for hiking, swimming, and wildlife observation.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Wellfleet Bay Wildlife Sanctuary",
+      "category": "Outdoor",
+      "description": "Premier birding and nature exploration destination with 1,100 acres of trails through salt marshes, woodlands, and bay views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Chatham Fish Pier",
+      "category": "Outdoor",
+      "description": "Working fishing pier where you can observe the daily catch being unloaded and watch fishing boats operate, best visited in late afternoon.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Cranberry bog tours",
+      "category": "Outdoor",
+      "description": "Learn about Cape Cod's cranberry farming heritage with guided harvesting season tours through working bogs with farm-fresh tastings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "family",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cape Cod Whale Watching",
+      "category": "Outdoor",
+      "description": "Multi-hour boat excursions departing from Provincetown and other harbors for encounters with humpback whales, finback whales, and marine life.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Art galleries in Provincetown",
+      "category": "Cultural",
+      "description": "Explore 100+ galleries showcasing contemporary art, local artists, and LGBTQ+ cultural institutions in this vibrant artistic community.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Cape Cod Rail Trail",
+      "category": "Outdoor",
+      "description": "22-mile scenic paved bike path winding through forests, sand dunes, and coastal villages perfect for leisurely cycling and nature observation.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Sandwich Glass Museum",
+      "category": "Cultural",
+      "description": "Museum dedicated to the history of American pressed glass with extensive collections and demonstrations of traditional glass-making techniques.",
+      "durationHours": 2,
+      "estimatedCostUSD": 11,
+      "bestFor": [
+        "standard",
+        "family",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Kayaking in Nauset Marsh",
+      "category": "Adventure",
+      "description": "Paddle through pristine salt marsh ecosystem observing herons, egrets, and ospreys while exploring creeks and tidal channels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Provincetown nightlife",
+      "category": "Nightlife",
+      "description": "Experience the lively evening scene with live music venues, dance clubs, comedy shows, and bars throughout this vibrant coastal town.",
+      "durationHours": 4,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Cape Cod Light at Highland Light",
+        "description": "Iconic red and white striped lighthouse perched on dramatic clay cliffs overlooking the Atlantic with stunning backlit conditions at sunrise.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Race Point Beach dunes",
+        "description": "Sweeping sandy dunes with beach grass creating dramatic leading lines and excellent texture for landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or overcast skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Chatham Fish Pier at sunset",
+        "description": "Working fishing pier with colorful boats and fishing gear creating layered compositions against a golden sky.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Nauset Beach Lighthouse",
+        "description": "Red and white lighthouse on a pristine sandy beach with clear foreground and clean compositions for classic lighthouse photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Wellfleet Bay salt marsh",
+        "description": "Expansive salt marsh with winding channels, golden grasses, and reflected sky creating painterly landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Provincetown harbor street scene",
+        "description": "Colorful buildings, boats, and dock scene with vibrant street art and lively activity perfect for street and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light",
+        "category": "Street"
+      },
+      {
+        "name": "Monomoy Island Wildlife Reserve",
+        "description": "Remote barrier island with pristine beaches, dunes, and abundant bird and seal populations for wildlife photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Eastham Windmill silhouette",
+        "description": "Historic wooden windmill creating striking silhouettes against colorful sunrise and sunset skies.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cranberry bog landscape",
+        "description": "Colorful cranberry bogs with brilliant reds and purples during harvest season creating unique agricultural landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour during harvest",
+        "category": "Landscape"
+      },
+      {
+        "name": "Brewster Beach at low tide",
+        "description": "Exposed tidal flats and pools reflecting sky with opportunities for minimalist compositions and interesting foreground elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Low tide golden hour",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Highland Light",
+      "Race Point Beach",
+      "Nauset Beach Lighthouse"
+    ],
+    "sunsetSpots": [
+      "Chatham Fish Pier",
+      "Provincetown Harbor",
+      "Brewster Beach"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for sweeping beach and lighthouse compositions",
+      "70-200mm telephoto for wildlife at Monomoy and birds in salt marshes",
+      "50mm prime for street photography in Provincetown and intimate village scenes",
+      "Circular polarizer filter to enhance sky saturation and reduce glare on water"
+    ],
+    "goldenHourNotes": "Cape Cod's coastal light during golden hour is exceptional with dramatic skies reflecting off water and sand. The shallow water and extensive tidal flats create unique reflections and composition opportunities. Plan to arrive at lighthouses 30 minutes before sunset for optimal positioning before the sky's peak color.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 95
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 85
+      },
+      {
+        "month": 3,
+        "avgTempC": 4,
+        "rainfallMM": 100
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 95
+      },
+      {
+        "month": 5,
+        "avgTempC": 17,
+        "rainfallMM": 85
+      },
+      {
+        "month": 6,
+        "avgTempC": 23,
+        "rainfallMM": 80
+      },
+      {
+        "month": 7,
+        "avgTempC": 26,
+        "rainfallMM": 75
+      },
+      {
+        "month": 8,
+        "avgTempC": 25,
+        "rainfallMM": 85
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 90
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 105
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 115
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 110
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer (June-August) is peak season with warm temperatures and calm seas ideal for beach activities, while fall (September-October) offers stunning foliage and fewer crowds. Winter months are cold and wet but provide quieter exploration opportunities and dramatic storm photography.",
+    "summary": "Cape Cod experiences a temperate oceanic climate with mild summers averaging 23-26°C and cool winters around -2°C. The peninsula receives consistent rainfall throughout the year with slightly higher amounts in fall and winter months."
+  },
+  "hotels": [
+    {
+      "name": "Cape Cod Motor Lodge",
+      "neighborhood": "Orleans",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Family-friendly lodge with clean rooms, pool access, and convenient location near beaches and attractions at affordable rates."
+    },
+    {
+      "name": "The Wauwinet",
+      "neighborhood": "Nantucket Sound",
+      "pricePerNightUSD": 195,
+      "category": "Mid-range",
+      "description": "Charming waterfront property offering comfortable rooms with ocean views, on-site restaurant, and beach access on Nantucket Sound."
+    },
+    {
+      "name": "Chatham Bars Inn",
+      "neighborhood": "Chatham",
+      "pricePerNightUSD": 475,
+      "category": "Luxury",
+      "description": "Premier oceanfront resort featuring upscale accommodations, fine dining, spa services, private beach access, and panoramic Atlantic views."
+    }
+  ]
+}

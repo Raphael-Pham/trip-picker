@@ -1,0 +1,465 @@
+{
+  "id": "madison-usa",
+  "city": "Madison",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MSN",
+    "ORD",
+    "MKE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "relaxation",
+    "cultural"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 78,
+    "photography": 82,
+    "activities": 80,
+    "weather": 62
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Madison Wisconsin lakes sunset",
+  "summary": "Madison, Wisconsin's vibrant capital, sits between two pristine lakes and offers a perfect blend of progressive culture, farm-to-table dining, and scenic outdoor recreation. Home to the University of Wisconsin and a thriving downtown scene, the city captivates visitors with its beautiful Capitol building, world-class museums, and abundant farmers markets featuring local produce and artisan goods. The surrounding lakes and parks provide excellent opportunities for photography, water sports, and peaceful nature escapes.",
+  "restaurants": [
+    {
+      "name": "The Old Fashioned",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A historic Wisconsin tavern serving classic comfort food and craft beers in a charming 1920s setting. Famous for their butter burgers and cheese curds.",
+      "mustTry": "Butter burger with Wisconsin cheddar"
+    },
+    {
+      "name": "Graze",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale farm-to-table restaurant highlighting seasonal Wisconsin ingredients with creative preparations. Elegant ambiance perfect for special occasions.",
+      "mustTry": "Grass-fed Wisconsin beef with local vegetables"
+    },
+    {
+      "name": "Alchemy Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual vegetarian-friendly cafe with hearty breakfasts, sandwiches, and organic coffee. Popular with students and locals seeking affordable quality food.",
+      "mustTry": "Breakfast burrito with local eggs"
+    },
+    {
+      "name": "Harvest Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American cuisine featuring Wisconsin farmers market ingredients and locally sourced proteins. Warm, welcoming atmosphere with excellent wine selection.",
+      "mustTry": "Pan-seared fish with seasonal sides"
+    },
+    {
+      "name": "Natt Spil",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Scandinavian-inspired restaurant celebrating Madison's cultural heritage with house-made breads, cured meats, and traditional Nordic dishes. Cozy intimate setting.",
+      "mustTry": "Gravlax with rye bread"
+    },
+    {
+      "name": "Lombardino's",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning Italian restaurant with house-made pasta and traditional recipes passed down through generations. Romantic lighting and attentive service.",
+      "mustTry": "Handmade pappardelle with wild boar ragù"
+    },
+    {
+      "name": "Bagelmania",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "New York-style bagel shop with authentic boiling process and creative schmear options. Quick breakfast or lunch spot beloved by locals.",
+      "mustTry": "Everything bagel with smoked salmon cream cheese"
+    },
+    {
+      "name": "Quivey's Grove",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual American restaurant in a charming stone cottage with fireplaces and outdoor patio. Known for their generous portions and craft cocktails.",
+      "mustTry": "Prime rib with loaded baked potato"
+    },
+    {
+      "name": "Arboretum Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Fine dining establishment set within the beautiful University of Wisconsin Arboretum with views of nature. Sophisticated menu changes with seasonal availability.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Graffiti Pizza & Tap",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Hip casual pizzeria with creative thin-crust pizzas, local craft beers, and laid-back vibe. Great for groups and families.",
+      "mustTry": "Signature graffiti pizza with local sausage"
+    },
+    {
+      "name": "The Microbakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisanal bakery producing fresh sourdough, pastries, and bread using traditional methods. Perfect for coffee and pastry before sightseeing.",
+      "mustTry": "Sourdough croissant with morning coffee"
+    },
+    {
+      "name": "Salso Pizzeria",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Wood-fired pizza restaurant with imported Italian ingredients and a warm, inviting atmosphere. Also serves fresh pasta and Italian wines.",
+      "mustTry": "Neapolitan pizza with buffalo mozzarella"
+    }
+  ],
+  "activities": [
+    {
+      "name": "State Capitol Building Tour",
+      "category": "Cultural",
+      "description": "Explore the stunning Renaissance Revival Capitol building with free guided tours showcasing Wisconsin history and beautiful marble interiors. The building sits prominently on Capitol Square with excellent photo opportunities.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Madison Museum of Contemporary Art",
+      "category": "Cultural",
+      "description": "Impressive contemporary art museum on the Capitol Square with rotating exhibits and permanent collections. Free admission makes it a great cultural experience for any budget.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Olbrich Botanical Gardens",
+      "category": "Outdoor",
+      "description": "Stunning 16-acre botanical garden with themed gardens, conservatory, and lakefront views. Perfect for peaceful walks and botanical photography throughout the year.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Madison Farmers Market at Capitol Square",
+      "category": "Cultural",
+      "description": "One of the largest farmers markets in the USA, operating year-round on the Capitol Square with local produce, crafts, and artisans. Free to browse and best on Saturday mornings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "foodie",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kayaking or Paddleboarding on Lakes Mendota or Monona",
+      "category": "Adventure",
+      "description": "Rent kayaks or paddleboards to explore Madison's two beautiful lakes with scenic shorelines and urban skyline views. Multiple rental companies offer equipment and instruction.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "University of Wisconsin-Madison Campus Tour",
+      "category": "Cultural",
+      "description": "Walk the historic and beautiful UW-Madison campus featuring Gothic architecture, green spaces, and world-class museums. Free self-guided or paid official tours available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Henry Vilas Zoo",
+      "category": "Family",
+      "description": "Free admission zoo featuring diverse animal exhibits, beautiful grounds, and educational programs. Located near the Arboretum with scenic walking paths throughout.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Wisconsin Historical Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum detailing Wisconsin's history from Native Americans through modern times with interactive exhibits. Free admission and located on Capitol Square.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Tenney Park and Lock Observation",
+      "category": "Outdoor",
+      "description": "Beautiful riverfront park with walking trails, picnic areas, and boat locks where you can watch recreational boats and barges passing through. Great for photography and nature observation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Beer Brewery Tours",
+      "category": "Nightlife",
+      "description": "Visit local breweries like Ale Asylum, The Great Dane, or Tyranena Brewing for tours and tastings. Madison's craft beer scene is thriving with friendly, knowledgeable staff.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "nightlife",
+        "standard"
+      ]
+    },
+    {
+      "name": "University of Wisconsin Art Museum",
+      "category": "Cultural",
+      "description": "Free admission museum featuring American, Asian, and contemporary art in a beautiful building on campus. Excellent collection with rotating exhibitions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Picnic and Sunset at Memorial Park",
+      "category": "Relaxation",
+      "description": "Scenic lakefront park with picnic areas, walking paths, and unobstructed sunset views over Lake Mendota. Bring a picnic from local shops for an affordable evening activity.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Capitol Square",
+        "description": "The stunning Capitol building provides classical architecture photography with flower gardens, fountains, and beautiful landscaping throughout the seasons.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, daytime for architectural detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lake Mendota Shoreline at Tenney Park",
+        "description": "Scenic waterfront with reflections of downtown Madison, trees, and water creating beautiful landscape and nature photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset for reflections and light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Olbrich Botanical Gardens Conservatory",
+        "description": "Glass conservatory with tropical plants, colorful flowers, and interesting architectural glass structures perfect for detailed macro and botanical photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for sunlight through glass",
+        "category": "Landscape"
+      },
+      {
+        "name": "University of Wisconsin Campus - Bascom Hall",
+        "description": "Iconic Gothic Revival building surrounded by green lawn and trees, offering classic campus architecture photography with seasonal foliage variations.",
+        "difficulty": "Beginner",
+        "bestTime": "Afternoon for shadow detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Madison Farmers Market - Capitol Square",
+        "description": "Vibrant street photography opportunity with colorful produce, local artisans, diverse crowds, and seasonal goods creating dynamic lifestyle images.",
+        "difficulty": "Intermediate",
+        "bestTime": "Saturday mornings when market is largest",
+        "category": "Street"
+      },
+      {
+        "name": "Henry Vilas Zoo Wildlife Areas",
+        "description": "Opportunity to photograph diverse animals in well-maintained habitats with natural backgrounds, excellent for wildlife and nature photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when animals are active",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Madison Street Scenes",
+        "description": "Vibrant downtown core with diverse architecture, street art, shop windows, and urban landscapes ideal for contemporary street and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm street lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Lake Monona Path at Dusk",
+        "description": "Urban waterfront path offering skyline reflections, bridge architecture, and beautiful light for evening and night photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk to night for reflection photography",
+        "category": "Night"
+      },
+      {
+        "name": "Memorial Park Overlook",
+        "description": "Elevated viewpoint overlooking Lake Mendota with expansive landscape views, sunset opportunities, and tree framing for scenic photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for dramatic lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Arboretum Nature Trails",
+        "description": "Extensive wooded trails with seasonal flowers, wildlife, and natural water features creating diverse opportunities for nature and forest photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Spring for flowers, fall for foliage",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Lake Mendota Shoreline at Tenney Park",
+      "Memorial Park Overlook",
+      "Olbrich Botanical Gardens"
+    ],
+    "sunsetSpots": [
+      "Lake Monona Path",
+      "Capitol Square",
+      "Memorial Park Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape and Capitol building architectural shots",
+      "50mm f/1.8 prime for street photography and farmers market detail work",
+      "70-200mm telephoto for wildlife at the zoo and distant landscape compression",
+      "Macro lens for botanical garden close-ups and detail photography"
+    ],
+    "goldenHourNotes": "Madison's lakes and Capitol building are particularly photogenic during golden hour when warm light reflects off water and illuminates stone architecture. The best golden hour sessions occur on clear days with minimal cloud cover; schedule activities around Tenney Park or Memorial Park for optimal lake reflections. Spring and fall provide the most dramatic skies and foliage colors to complement the golden hour light.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -6,
+        "rainfallMM": 28
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 31
+      },
+      {
+        "month": 3,
+        "avgTempC": 2,
+        "rainfallMM": 56
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 79
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 92
+      },
+      {
+        "month": 6,
+        "avgTempC": 23,
+        "rainfallMM": 102
+      },
+      {
+        "month": 7,
+        "avgTempC": 25,
+        "rainfallMM": 89
+      },
+      {
+        "month": 8,
+        "avgTempC": 24,
+        "rainfallMM": 79
+      },
+      {
+        "month": 9,
+        "avgTempC": 19,
+        "rainfallMM": 71
+      },
+      {
+        "month": 10,
+        "avgTempC": 12,
+        "rainfallMM": 64
+      },
+      {
+        "month": 11,
+        "avgTempC": 5,
+        "rainfallMM": 64
+      },
+      {
+        "month": 12,
+        "avgTempC": -3,
+        "rainfallMM": 38
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Madison experiences four distinct seasons with cold snowy winters and warm summers. Spring (May) and fall (September-October) offer mild temperatures and beautiful foliage, making them ideal for outdoor activities and photography.",
+    "summary": "Madison's climate features cold winters with frequent snow, mild springs and falls, and warm summers ideal for lake activities. The transitional seasons provide the best weather for visiting, while summer offers peak outdoor recreation and warm lake temperatures."
+  },
+  "hotels": [
+    {
+      "name": "Madison Concourse Hotel",
+      "neighborhood": "Downtown Capitol Square",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Historic budget-friendly hotel located directly on Capitol Square with comfortable rooms, convenient location for attractions, and free WiFi."
+    },
+    {
+      "name": "The Edgewater",
+      "neighborhood": "Lakefront Memorial Park",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Contemporary mid-range hotel on Lake Mendota's shore with scenic views, fitness center, on-site restaurant, and direct park access for outdoor activities."
+    },
+    {
+      "name": "Madison Marriott Hotel",
+      "neighborhood": "Downtown Capitol Square",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Premium luxury hotel with upscale amenities, sophisticated dining, spa services, and direct Capitol Square access in the heart of downtown."
+    }
+  ]
+}

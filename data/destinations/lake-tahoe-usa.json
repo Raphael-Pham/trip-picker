@@ -1,7 +1,7 @@
 {
   "id": "lake-tahoe-usa",
   "city": "Lake Tahoe",
-  "country": "USA",
+  "country": "United States",
   "region": "North America",
   "airportCodes": [
     "RNO",
@@ -21,141 +21,130 @@
     "food": 78,
     "photography": 95,
     "activities": 92,
-    "weather": 85
+    "weather": 82
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 100,
-      "maxPerDayUSD": 180
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
     },
     {
       "level": "mid",
-      "minPerDayUSD": 180,
-      "maxPerDayUSD": 350
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 400
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 350,
+      "minPerDayUSD": 400,
       "maxPerDayUSD": 800
     }
   ],
-  "unsplashQuery": "Lake Tahoe alpine mountain",
-  "summary": "Lake Tahoe is a pristine alpine lake straddling California and Nevada, renowned for its crystal-clear waters, stunning mountain scenery, and world-class ski resorts. Offering year-round outdoor adventures from skiing and hiking to water sports and photography, Tahoe combines natural beauty with vibrant lake towns and excellent dining options.",
+  "unsplashQuery": "Lake Tahoe alpine turquoise",
+  "summary": "Lake Tahoe is a stunning high-altitude alpine lake straddling California and Nevada, offering world-class skiing, pristine beaches, and dramatic granite peaks that create one of the most photographed landscapes in North America. Whether you're seeking adventure on mountain trails, relaxation on sandy shores, or gourmet dining experiences, Lake Tahoe delivers year-round appeal with incredible weather and iconic natural beauty.",
   "restaurants": [
     {
-      "name": "Riva Seafood",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale lakeside dining with fresh seafood and panoramic water views. Known for innovative fish preparations and an extensive wine list.",
-      "mustTry": "Pan-seared diver scallops"
-    },
-    {
-      "name": "The Rind",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Farm-to-table restaurant featuring local ingredients and seasonal menus. Casual atmosphere with an excellent craft cocktail program.",
-      "mustTry": "Grass-fed beef burger"
-    },
-    {
-      "name": "Stateline Brewery",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Casual brewery with hearty comfort food and house-made craft beers. Great for a relaxed post-hike meal with locals.",
-      "mustTry": "Sierra pale ale with fish and chips"
-    },
-    {
-      "name": "FireFly Lakeside Lounge",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Modern lakeside restaurant with contemporary American cuisine and stunning sunset views. Known for fresh ingredients and creative presentations.",
-      "mustTry": "Lavender-brined pork chop"
-    },
-    {
-      "name": "The Breakfast Club",
+      "name": "Emerald Bay Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Popular morning spot serving generous breakfast portions with Lake Tahoe views. Features classic American breakfast favorites and fresh pastries.",
-      "mustTry": "Homemade granola with fresh berries"
+      "description": "Casual lakeside cafe serving breakfast, sandwiches, and coffee with stunning water views. Perfect for a quick morning fuel before hiking or skiing.",
+      "mustTry": "Breakfast burritos"
     },
     {
-      "name": "Manzanita",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Farm-to-table fine dining showcasing seasonal Sierra Nevada ingredients. Intimate setting with expertly curated wine pairings.",
-      "mustTry": "Wild mushroom risotto"
-    },
-    {
-      "name": "Sunnyside Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Charming lakeside lodge restaurant with a fireplace and beach access. Serves California cuisine with emphasis on local trout.",
-      "mustTry": "Grilled Tahoe trout"
-    },
-    {
-      "name": "Tacos El Paisano",
+      "name": "The Driftwood Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Authentic Mexican street food in a casual setting. Known for fresh, flavorful tacos and horchata made fresh daily.",
-      "mustTry": "Carnitas tacos with grilled pineapple"
+      "description": "Local favorite in South Lake Tahoe offering hearty breakfast and lunch fare at reasonable prices. Known for their generous portions and friendly service.",
+      "mustTry": "Pancakes with tahoe berries"
     },
     {
-      "name": "Chart House",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Elegant steakhouse with floor-to-ceiling windows overlooking Lake Tahoe. Serves prime beef and fresh seafood with an award-winning wine list.",
-      "mustTry": "Prime ribeye with lobster tail"
-    },
-    {
-      "name": "Alpina Restaurant",
+      "name": "Sushi King",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Swiss-inspired lodge restaurant featuring fondue, raclette, and alpine cuisine. Cozy atmosphere perfect for families and groups.",
-      "mustTry": "Classic Swiss cheese fondue"
+      "description": "Contemporary Japanese restaurant featuring fresh sushi, ramen, and fusion dishes. Great for casual dinner with excellent quality-to-price ratio.",
+      "mustTry": "Dragon roll"
     },
     {
-      "name": "The Lakehouse",
+      "name": "Peace of Mind Pizza",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Wood-fired pizza restaurant with creative toppings and a cozy atmosphere. Perfect for groups and families looking for shareable dining.",
+      "mustTry": "Tahoe forest mushroom pizza"
+    },
+    {
+      "name": "Riva Fish House",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual seafood spot on the water offering fresh fish, lobster, and creative preparations with beautiful lake views.",
+      "mustTry": "Fresh catch of the day"
+    },
+    {
+      "name": "Edgewaters",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Upscale casual dining on Lake Tahoe's shoreline with mountain and water views, featuring contemporary American cuisine.",
+      "mustTry": "Herb-crusted salmon"
+    },
+    {
+      "name": "Kalani's",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Oceanside-style fine dining with Pacific Rim influences, offering an elegant atmosphere and expertly prepared seafood dishes.",
+      "mustTry": "Macadamia nut crusted mahi mahi"
+    },
+    {
+      "name": "Waterbar",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated restaurant featuring fresh seafood, steaks, and an extensive wine list with floor-to-ceiling lake views.",
+      "mustTry": "Pan-seared scallops"
+    },
+    {
+      "name": "Mouthful Cafe",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Casual waterfront bistro with fresh pasta, salads, and local wines. Great for lunch or casual dinner with lake views.",
-      "mustTry": "Pappardelle with wild boar ragù"
+      "description": "Farm-to-table restaurant emphasizing local sourcing and seasonal menus, offering artisanal preparations.",
+      "mustTry": "House-made pasta with local produce"
     },
     {
-      "name": "Zephyr Cove Resort Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Family-friendly restaurant with barbecue and traditional American fare. Located on the beach with direct lake access and sunset views.",
-      "mustTry": "Smoked ribs with cornbread"
+      "name": "Base Camp Pizza Company",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Ski town favorite featuring sourdough crust pizzas and hearty mountain fare loved by locals and visitors alike.",
+      "mustTry": "The Base Camp special"
+    },
+    {
+      "name": "Tahoe Blue Vodka Bar and Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining establishment showcasing premium ingredients and creative cocktails in an intimate setting.",
+      "mustTry": "Pan-seared halibut with seasonal vegetables"
+    },
+    {
+      "name": "Tramway Burger Co.",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Gourmet burger joint with locally-sourced beef and creative toppings, perfect for a quick lunch before outdoor adventures.",
+      "mustTry": "The Tahoe burger with local cheese"
     }
   ],
   "activities": [
     {
-      "name": "Skiing at Lake Tahoe Resorts",
+      "name": "Hiking the Cascade Falls Trail",
       "category": "Adventure",
-      "description": "World-class skiing at Heavenly, Northstar, or Palisades Tahoe with terrain for all levels. Over 200 ski runs and 500+ inches of annual snowfall.",
-      "durationHours": 8,
-      "estimatedCostUSD": 120,
-      "bestFor": [
-        "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Hiking Eagle Lake Trail",
-      "category": "Outdoor",
-      "description": "Scenic moderate hike to a pristine alpine lake with mountain views and wildflowers. 5.1 miles round trip with 500 feet elevation gain.",
-      "durationHours": 3,
+      "description": "A scenic 2.5-mile round trip hike to a cascading waterfall through pine forests and granite boulders. Moderate difficulty with rewarding views of Cascade Lake at the summit.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "standard",
         "adventure",
-        "photography",
-        "relaxation"
+        "photography"
       ]
     },
     {
       "name": "Lake Tahoe Boat Tour",
       "category": "Outdoor",
-      "description": "Scenic cruise exploring the lake's crystal-clear waters and shoreline. Tours highlight Emerald Bay, Fannette Island, and mountain views.",
+      "description": "Guided boat cruise across the pristine alpine lake, visiting famous spots like Emerald Bay and Sand Harbor with interpretive commentary about the region's geology and history.",
       "durationHours": 3,
       "estimatedCostUSD": 65,
       "bestFor": [
@@ -165,76 +154,54 @@
       ]
     },
     {
-      "name": "Kayaking Emerald Bay",
+      "name": "Skiing at Heavenly or Northstar",
       "category": "Adventure",
-      "description": "Paddle through turquoise waters to Fannette Island and Vikingsholm Castle. Guided tours available for all skill levels.",
-      "durationHours": 4,
-      "estimatedCostUSD": 75,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Mountain Biking Trails",
-      "category": "Adventure",
-      "description": "Extensive network of trails from beginner to expert. Stunning forest scenery and lake views from ridge-top trails.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
+      "description": "World-class ski resorts offering terrain for all levels with exceptional snow quality, scenic chairlift rides, and ski-in ski-out accommodations available.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
       "bestFor": [
         "adventure",
         "standard"
       ]
     },
     {
-      "name": "Tahoe Rim Trail Hiking",
+      "name": "Stand-Up Paddleboarding on the Lake",
       "category": "Outdoor",
-      "description": "Multi-day hiking trail circumnavigating Lake Tahoe with alpine meadows and panoramic vistas. Day hikes available on various sections.",
-      "durationHours": 8,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Stand-Up Paddleboarding",
-      "category": "Outdoor",
-      "description": "Peaceful water activity on calm lake waters with stunning mountain backdrops. Rentals and lessons available at multiple beach access points.",
+      "description": "Peaceful water activity exploring Lake Tahoe's shoreline and coves at your own pace. Rentals available at multiple lakeside locations for all skill levels.",
       "durationHours": 2,
-      "estimatedCostUSD": 35,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "relaxation",
-        "standard"
+        "adventure"
       ]
     },
     {
-      "name": "Heavenly Gondola Scenic Ride",
+      "name": "Emerald Bay Scenic Viewpoint",
       "category": "Outdoor",
-      "description": "Summer gondola lift providing panoramic views of Lake Tahoe and surrounding mountains. Access to hiking trails and viewpoints at the summit.",
-      "durationHours": 2,
-      "estimatedCostUSD": 25,
+      "description": "One of Lake Tahoe's most photographed spots offering panoramic views of the turquoise bay and Vikingsholm Castle across the water, easily accessible by short hike.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
         "photography",
+        "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Waterfall Hikes",
-      "category": "Outdoor",
-      "description": "Scenic hikes to alpine waterfalls including Tahoe Falls and Glen Alpine Falls. Best in spring and early summer with strong water flow.",
+      "name": "Mountain Biking",
+      "category": "Adventure",
+      "description": "Extensive trail networks ranging from beginner to expert, weaving through alpine meadows and forests with spectacular views. Bike rentals available at resort base villages.",
       "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "adventure",
-        "photography"
+        "standard"
       ]
     },
     {
-      "name": "Beach Day at Sand Harbor",
+      "name": "Sand Harbor Beach Day",
       "category": "Relaxation",
-      "description": "Beautiful sandy beach with crystal-clear water, picnic areas, and summer concert series. Perfect for swimming and sunbathing.",
+      "description": "Beautiful public beach on Lake Tahoe's east shore with sandy beach, clear water for swimming, and picnic areas. Home to Shakespeare festival performances in summer.",
       "durationHours": 4,
       "estimatedCostUSD": 10,
       "bestFor": [
@@ -244,182 +211,216 @@
       ]
     },
     {
-      "name": "Historical Walking Tours",
+      "name": "Tahoe City Historic Exploration",
       "category": "Cultural",
-      "description": "Guided tours through historic mining towns and landmarks documenting Tahoe's Gold Rush era heritage. Includes local history and architecture.",
+      "description": "Charming lakeside town featuring shops, galleries, and restaurants along the waterfront. Browse local boutiques and museums documenting Tahoe's rich history.",
       "durationHours": 2,
-      "estimatedCostUSD": 20,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "cultural"
+        "foodie"
       ]
     },
     {
-      "name": "Stargazing at Lake Tahoe",
-      "category": "Outdoor",
-      "description": "Dark sky viewing at one of California's clearest locations. Watch meteor showers and observe constellations at high altitude.",
-      "durationHours": 3,
+      "name": "Sunrise Hike to Mount Tallac",
+      "category": "Adventure",
+      "description": "Challenging 10-mile round trip hike to a summit offering 360-degree alpine views of the lake and surrounding peaks. Best done with early start to catch sunrise.",
+      "durationHours": 6,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "photography",
         "adventure",
-        "relaxation"
+        "photography"
+      ]
+    },
+    {
+      "name": "Fishing on Lake Tahoe",
+      "category": "Outdoor",
+      "description": "World-renowned fishing destination for Mackinaw trout, kokanee salmon, and rainbow trout. Charter boats and shore fishing options available for all experience levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Tahoe Forest National Recreation Area",
+      "category": "Outdoor",
+      "description": "Vast wilderness area perfect for backpacking, camping, and day hikes with over 1,000 miles of trails through pristine forests and scenic alpine terrain.",
+      "durationHours": 8,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Lakeside Picnic and Sunset Viewing",
+      "category": "Relaxation",
+      "description": "Pack a local feast and settle at a scenic lakeside spot for an evening of relaxation, wine, and stunning sunset colors reflected on the water.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "relaxation",
+        "foodie",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Emerald Bay State Park",
-        "description": "Stunning turquoise bay with Fannette Island and Vikingsholm Castle creating an iconic and highly photogenic scene.",
+        "name": "Emerald Bay Overlook",
+        "description": "Iconic viewpoint capturing the brilliant turquoise bay with Vikingsholm Castle and surrounding granite peaks in a single frame.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise or sunset for golden light reflecting off the water",
+        "bestTime": "Early morning for soft light and calm water reflections",
         "category": "Landscape"
       },
       {
         "name": "Sand Harbor Beach",
-        "description": "Golden sandy beach with clear water and mountain backdrop, perfect for golden hour reflections and vibrant water colors.",
+        "description": "Golden sandy beach with crystal-clear water, perfect for capturing reflections of mountains and vibrant sunset colors.",
         "difficulty": "Beginner",
-        "bestTime": "Late afternoon for warm sunlight on sand and water",
+        "bestTime": "Sunset for warm golden light and colorful skies",
         "category": "Landscape"
       },
       {
-        "name": "Rubicon Trail Trailhead",
-        "description": "Dramatic rocky shoreline with pine forests and crystalline blue water creating layered landscape compositions.",
+        "name": "Cascade Falls",
+        "description": "Dramatic waterfall framed by alpine forest and granite boulders, excellent for water flow and natural framing.",
         "difficulty": "Intermediate",
-        "bestTime": "Mid-morning for even light and vibrant colors",
+        "bestTime": "Early morning or overcast days to minimize harsh shadows",
         "category": "Landscape"
       },
       {
-        "name": "Lake Tahoe from Heavenly Gondola",
-        "description": "Expansive panoramic views of the entire lake basin with surrounding peaks and valleys from 9,100 feet elevation.",
+        "name": "Cave Rock",
+        "description": "Distinctive rock formation jutting into the lake offering dramatic silhouettes and interesting geological textures for composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for dramatic backlighting against the water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Zephyr Cove Beach",
+        "description": "Scenic beach with clear water, sandy shores, and backdrop of snow-capped mountains reflecting in the calm lake surface.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning before haze or sunset for pink tones",
+        "bestTime": "Dawn for soft light and minimal crowds",
         "category": "Landscape"
       },
       {
-        "name": "Sand Harbor North Beach",
-        "description": "Secluded cove with granite boulders, pine trees, and pristine water ideal for intimate landscape and detail shots.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm rock tones and water reflections",
-        "category": "Landscape"
-      },
-      {
-        "name": "Fannette Island",
-        "description": "The only island in Lake Tahoe with historic cabin, accessible by kayak, offering unique foreground elements and dramatic water reflections.",
+        "name": "Eagle Lake Trail",
+        "description": "Alpine lake surrounded by granite peaks with mirror-like reflections, offering multiple compositional opportunities through the hike.",
         "difficulty": "Advanced",
-        "bestTime": "Sunrise for mist and soft light",
+        "bestTime": "Mid-morning when light is balanced across peaks and water",
         "category": "Landscape"
       },
       {
-        "name": "Logan Shoals Vista Point",
-        "description": "Breathtaking overlook of the lake's southern basin with Castle Rock and Clear Creek Range in the distance.",
+        "name": "Tahoe City Waterfront",
+        "description": "Charming downtown area with waterfront buildings, boats, and mountain backdrop providing good architecture and lifestyle photography.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset for dramatic sky colors and silhouettes",
+        "bestTime": "Golden hour for warm light on buildings and water",
+        "category": "Architecture"
+      },
+      {
+        "name": "Mount Tamalpais Vista Point",
+        "description": "High elevation viewpoint offering expansive lake views with layered mountain ranges creating depth and scale in compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning before atmospheric haze builds",
         "category": "Landscape"
       },
       {
-        "name": "Sand Harbor Road scenic pullouts",
-        "description": "Multiple roadside viewpoints offering quick access to stunning lake views without strenuous hiking.",
-        "difficulty": "Beginner",
-        "bestTime": "Any clear day, but golden hour optimal",
-        "category": "Landscape"
-      },
-      {
-        "name": "Crystal Bay North Shore",
-        "description": "Quiet beach area with a quaint pier and natural framing by pine forests and mountains.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light for clear reflections",
-        "category": "Street"
-      },
-      {
-        "name": "Tahoe City Marina",
-        "description": "Charming waterfront with boats, docks, and mountain views offering both architectural and landscape photography opportunities.",
+        "name": "Fallen Leaf Lake",
+        "description": "Smaller, more intimate alpine lake with dramatic granite cliffs and dense forest providing excellent reflection and wilderness photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning when light hits boats and creates water reflections",
+        "bestTime": "Calm mornings for perfect reflections of surrounding peaks",
+        "category": "Landscape"
+      },
+      {
+        "name": "Vikingsholm Castle",
+        "description": "Historic mansion on Emerald Bay's shore offering unique architecture and historic character with beautiful water and mountain backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon when castle is lit and water reflections are clear",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Sand Harbor Beach",
-      "Heavenly Gondola Summit",
-      "Fannette Island (from kayak)"
+      "Spooner Lake Vista",
+      "Mount Tallac Summit",
+      "Sand Harbor East Beach"
     ],
     "sunsetSpots": [
-      "Emerald Bay State Park",
-      "Logan Shoals Vista Point",
-      "Lake Tahoe West Shore Drive overlooks"
+      "Emerald Bay Overlook",
+      "Tahoe City Waterfront Pier",
+      "Zephyr Cove Beach"
     ],
     "lensRecommendations": [
-      "Wide-angle 14-24mm for expansive landscape vistas and encompassing lake and mountains",
-      "Standard 50mm for intimate shoreline details and human-scale environmental portraits",
-      "Telephoto 70-200mm for compressed mountain layers and distant peak details across the lake",
-      "Macro 100mm for alpine flower and water droplet close-ups on beach rocks"
+      "16-35mm wide-angle for expansive landscape shots capturing multiple peaks and lake reflections",
+      "70-200mm telephoto to compress distant mountain layers and isolate detail compositions",
+      "50mm prime for intimate portraits with alpine background and environmental storytelling",
+      "24-70mm versatile zoom for mixed compositions ranging from landscape to detail work"
     ],
-    "goldenHourNotes": "Lake Tahoe's high altitude (6,224 feet) extends golden hour and provides exceptionally clear atmospheric conditions. Early morning light creates stunning reflections off the mirror-like water, while evening light bathes granite peaks in warm amber tones. The surrounding mountains create dramatic shadows that add depth and dimension to compositions.",
+    "goldenHourNotes": "Lake Tahoe's high elevation (6,224 feet) provides extended golden hours with especially warm, directional light. Early morning light at sunrise tends to be crisp and cool, perfect for capturing the lake's turquoise color and sharp details, while sunset creates warm amber tones across the granite peaks. The surrounding granite cliffs and forest create excellent natural modifiers that soften harsh light during midday.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -4,
-        "rainfallMM": 200
+        "avgTempC": -3,
+        "rainfallMM": 155
       },
       {
         "month": 2,
         "avgTempC": -2,
-        "rainfallMM": 180
-      },
-      {
-        "month": 3,
-        "avgTempC": 2,
-        "rainfallMM": 160
-      },
-      {
-        "month": 4,
-        "avgTempC": 7,
         "rainfallMM": 140
       },
       {
+        "month": 3,
+        "avgTempC": 0,
+        "rainfallMM": 125
+      },
+      {
+        "month": 4,
+        "avgTempC": 4,
+        "rainfallMM": 85
+      },
+      {
         "month": 5,
-        "avgTempC": 12,
-        "rainfallMM": 80
+        "avgTempC": 10,
+        "rainfallMM": 55
       },
       {
         "month": 6,
-        "avgTempC": 18,
-        "rainfallMM": 60
+        "avgTempC": 16,
+        "rainfallMM": 45
       },
       {
         "month": 7,
-        "avgTempC": 23,
-        "rainfallMM": 50
+        "avgTempC": 21,
+        "rainfallMM": 35
       },
       {
         "month": 8,
-        "avgTempC": 22,
-        "rainfallMM": 50
+        "avgTempC": 21,
+        "rainfallMM": 40
       },
       {
         "month": 9,
         "avgTempC": 17,
-        "rainfallMM": 70
+        "rainfallMM": 45
       },
       {
         "month": 10,
-        "avgTempC": 11,
-        "rainfallMM": 100
+        "avgTempC": 10,
+        "rainfallMM": 75
       },
       {
         "month": 11,
-        "avgTempC": 4,
-        "rainfallMM": 180
+        "avgTempC": 3,
+        "rainfallMM": 130
       },
       {
         "month": 12,
         "avgTempC": -2,
-        "rainfallMM": 220
+        "rainfallMM": 165
       }
     ],
     "bestMonths": [
@@ -428,31 +429,30 @@
       8,
       9
     ],
-    "seasonality": "Lake Tahoe experiences distinct seasons with heavy snow winters (December-March) attracting skiers, mild summers (June-September) ideal for outdoor recreation, and beautiful fall colors (September-October). The area receives average annual snowfall of 500+ inches, making winter the busiest tourist season for skiing.",
-    "summary": "Lake Tahoe's alpine location at 6,224 feet elevation creates a cool, dry climate with abundant sunshine and exceptionally clear air quality. Winter is cold and snowy while summers are pleasantly warm with cool nights, making it a year-round destination suitable for both winter sports and summer hiking."
+    "seasonality": "Lake Tahoe experiences dramatic seasonal changes with heavy snow winters (December-March) ideal for skiing, while summers (June-September) offer warm days and cool nights perfect for hiking, swimming, and water sports. Spring and fall provide excellent photography opportunities with fewer crowds and beautiful seasonal colors.",
+    "summary": "Lake Tahoe's high alpine location means weather is generally cool year-round with warm, dry summers and cold, snowy winters. The region experiences approximately 300 days of sunshine annually, making it ideal for outdoor activities and photography."
   },
   "hotels": [
     {
-      "name": "Crystal Bay Beach Resort",
-      "neighborhood": "Crystal Bay (North Shore)",
+      "name": "Tahoe Budget Lodge",
+      "neighborhood": "South Lake Tahoe",
       "pricePerNightUSD": 89,
       "category": "Budget",
-      "description": "No-frills beachfront motel with direct lake access and basic amenities, offering unbeatable value for budget travelers seeking direct beach location."
+      "description": "No-frills motel offering clean rooms and basic amenities within walking distance of beaches and downtown South Lake Tahoe attractions."
     },
     {
-      "name": "Heavenly Valley Lodge",
-      "neighborhood": "South Lake Tahoe",
-      "pricePerNightUSD": 220,
+      "name": "The Ritz-Carlton Lake Tahoe",
+      "neighborhood": "North Lake Tahoe",
+      "pricePerNightUSD": 425,
       "category": "Mid-range",
-      "description": "Contemporary mountain lodge with ski-in/ski-out access to Heavenly, hot tub, and mountain views with comfortable family-friendly accommodations."
+      "description": "Upscale resort with lake views, fine dining, spa services, and direct beach access providing excellent value for luxury amenities and service."
     },
     {
-      "name": "Ritz-Carlton Lake Tahoe",
-      "neighborhood": "Truckee (North Shore)",
+      "name": "Hyatt Centric Lake Tahoe",
+      "neighborhood": "Tahoe City",
       "pricePerNightUSD": 650,
       "category": "Luxury",
-      "description": "Ultra-luxury mountain resort with world-class amenities, spa, fine dining, and architectural design showcasing lake and mountain vistas."
+      "description": "Premier lakefront property featuring contemporary design, multiple dining options, full spa, and ski-in/out access with world-class concierge services."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1587669011881-b1399be4d47e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwVGFob2UlMjBhbHBpbmUlMjBtb3VudGFpbnxlbnwxfDB8fHwxNzgxNTU2MTIzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

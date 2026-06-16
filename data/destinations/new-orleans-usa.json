@@ -11,200 +11,191 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
+    "hidden-gems",
     "photography",
-    "cultural",
-    "nightlife",
+    "foodie",
+    "adventure",
     "relaxation"
   ],
   "scores": {
     "cost": 65,
     "food": 95,
     "photography": 85,
-    "activities": 88,
+    "activities": 90,
     "weather": 60
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 60,
-      "maxPerDayUSD": 120
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
     },
     {
       "level": "mid",
-      "minPerDayUSD": 120,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 600
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
     }
   ],
   "unsplashQuery": "New Orleans French Quarter",
-  "summary": "New Orleans is a vibrant cultural melting pot where French colonial architecture, world-class jazz, and iconic Creole cuisine converge in the atmospheric French Quarter and beyond. The city's unique blend of history, music, food, and festive spirit makes it one of America's most distinctive and photogenic destinations.",
+  "summary": "New Orleans captivates visitors with its intoxicating blend of French colonial architecture, world-class cuisine, and vibrant music culture rooted in jazz, blues, and funk. The city's unique Creole heritage, spirited festivals like Mardi Gras, and mysterious swamp landscapes create an unforgettable atmosphere found nowhere else in America.",
   "restaurants": [
     {
-      "name": "Café du Monde",
-      "category": "Local Specialty",
+      "name": "Bacchanal Buffet",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "Historic café famous for chicory coffee and beignets since 1862, located in the French Quarter with iconic open-air seating.",
-      "mustTry": "Café au lait with beignets"
+      "description": "Casual buffet-style restaurant in the Marigny neighborhood offering affordable Creole and local favorites. Great for experiencing authentic New Orleans flavors on a budget.",
+      "mustTry": "Crawfish étouffée"
+    },
+    {
+      "name": "Frenchmen Street Pop-Ups",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Various street vendors and casual eateries along Frenchmen Street serving po'boys, gumbo, and local specialties. Perfect for street food exploration and live music atmosphere.",
+      "mustTry": "Shrimp po'boy"
+    },
+    {
+      "name": "Café Bacchanal",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Beloved local spot in the Marigny area known for its generous portions and authentic New Orleans Creole cuisine. The casual vibe and community atmosphere make it a neighborhood favorite.",
+      "mustTry": "Crawfish pasta"
     },
     {
       "name": "Willie Mae's Scotch House",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "James Beard Award-winning spot serving authentic Creole fried chicken and home cooking in a casual neighborhood setting.",
-      "mustTry": "Fried chicken with okra gumbo"
+      "description": "Family-run Creole restaurant in Treme serving soul food and New Orleans classics since 1967. Famous for its fried chicken that has won James Beard Award recognition.",
+      "mustTry": "Fried chicken"
+    },
+    {
+      "name": "Peche Seafood Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary seafood restaurant in the Warehouse District featuring locally-sourced Gulf ingredients and creative preparations. Excellent balance of quality and value.",
+      "mustTry": "Gulf fish of the day"
+    },
+    {
+      "name": "Parkway Bakery & Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic bakery and sandwich shop on Dauphine Street famous for its roast beef po'boys made with traditional gravy. An institution beloved by locals and visitors alike.",
+      "mustTry": "Roast beef po'boy"
+    },
+    {
+      "name": "The Court of Two Sisters",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic Creole restaurant in the French Quarter with beautiful courtyard dining and a famous jazz brunch buffet. Excellent for traditional New Orleans cuisine in an atmospheric setting.",
+      "mustTry": "Shrimp and grits"
+    },
+    {
+      "name": "Brennan's Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Legendary French Creole fine dining establishment in the French Quarter established in 1946. Home of Bananas Foster and known for impeccable service and classic creole preparations.",
+      "mustTry": "Bananas Foster"
     },
     {
       "name": "Commander's Palace",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Iconic fine dining establishment in the Garden District known for elevated Creole cuisine and impeccable service since 1893.",
-      "mustTry": "Turtle soup and bananas Foster"
-    },
-    {
-      "name": "Bacchanal Buffet",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual, affordable buffet-style restaurant serving generous portions of po'boys, crawfish, and traditional New Orleans fare.",
-      "mustTry": "Crawfish po'boy"
-    },
-    {
-      "name": "Brennan's",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Historic French Quarter institution famous for elegant Creole fine dining and hosting the invention of Bananas Foster.",
-      "mustTry": "Bananas Foster and Oysters Rockefeller"
-    },
-    {
-      "name": "Gumbo Shop",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual French Quarter restaurant specializing in authentic Louisiana gumbos, jambalaya, and traditional Creole dishes.",
-      "mustTry": "Seafood gumbo"
-    },
-    {
-      "name": "Restaurant August",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Contemporary American cuisine with Louisiana influences by renowned chef John Besh, located in the Warehouse District.",
-      "mustTry": "Gulf fish with seasonal vegetables"
-    },
-    {
-      "name": "Johnny's Po'Boys",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Beloved sandwich shop serving classic New Orleans po'boys with roast beef, shrimp, and oyster options since 1950.",
-      "mustTry": "Roast beef po'boy"
-    },
-    {
-      "name": "The Grill Room at Windsor Court",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Sophisticated fine dining in the CBD with French-inspired cuisine and an extensive wine collection."
+      "description": "Iconic Garden District restaurant featuring French Creole haute cuisine in an elegant Victorian mansion. Award-winning kitchen and exceptional wine program make it a must-visit.",
+      "mustTry": "Turtle soup"
     },
     {
       "name": "Coop's Place",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual French Quarter bar-restaurant serving Creole specialties, pasta, and jambalaya in a lively neighborhood atmosphere.",
-      "mustTry": "Jambalaya and oyster pasta"
+      "description": "Casual neighborhood tavern in the French Quarter serving hearty comfort food and creative preparations of local ingredients. Known for its welcoming atmosphere and generous portions.",
+      "mustTry": "Jambalaya pasta"
     },
     {
-      "name": "Dooky Chase's Restaurant",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic Creole restaurant family-owned since 1941, famous for authentic gumbo, fried chicken, and red beans and rice.",
-      "mustTry": "Creole gumbo and fried chicken"
-    },
-    {
-      "name": "Emeril's New Orleans",
+      "name": "Herbsaint",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Chef Emeril Lagasse's flagship restaurant in the Warehouse District serving creative Creole-inspired cuisine.",
-      "mustTry": "Blackened fish and pasta dishes"
+      "description": "Intimate French restaurant with Mediterranean influences in the Warehouse District, using local Gulf products. Chef Susan Spicer's refined approach to Creole cooking earns consistent praise.",
+      "mustTry": "Local fish preparations"
+    },
+    {
+      "name": "Frenchmen Street Raw Bars",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Multiple casual raw bar establishments along Frenchmen Street offering fresh Gulf oysters and seafood. Perfect for standing-room-only eating while enjoying live music.",
+      "mustTry": "Fresh Gulf oysters"
     }
   ],
   "activities": [
     {
-      "name": "French Quarter Walking Tour",
+      "name": "Stroll the French Quarter",
       "category": "Cultural",
-      "description": "Explore historic narrow streets, colonial architecture, and historic sites in the heart of New Orleans with knowledgeable guides.",
+      "description": "Wander through the historic French Quarter's charming streets lined with colonial architecture, wrought-iron balconies, and street performers. Free activity that captures the essence of old New Orleans.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Jazz Museum Visit",
+      "category": "Cultural",
+      "description": "Explore the Preservation Hall Foundation's museum dedicated to New Orleans jazz history and culture. Learn about the legends who shaped American music in this intimate educational space.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Live Jazz at Preservation Hall",
+      "category": "Nightlife",
+      "description": "Experience traditional New Orleans jazz in this historic venue with nightly performances by top local musicians. Cramped standing-room venue creates intimate, authentic atmosphere.",
       "durationHours": 2,
       "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "photography",
-        "cultural"
+        "surprise",
+        "adventure"
       ]
     },
     {
-      "name": "Jazz Club Experience",
-      "category": "Nightlife",
-      "description": "Enjoy live jazz performances at iconic venues like Preservation Hall, The Spotted Cat, or Frenchmen Street clubs with authentic local musicians.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "nightlife",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Steamboat Natchez River Cruise",
+      "name": "Swamp Tour by Boat",
       "category": "Outdoor",
-      "description": "Experience the Mississippi River aboard a historic paddlewheel steamboat with live jazz, dinner options, and scenic views.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Swamp Tour",
-      "category": "Outdoor",
-      "description": "Navigate through Louisiana bayous by boat spotting alligators, cypress trees, and wildlife in their natural habitat.",
+      "description": "Navigate the Louisiana swamps by airboat spotting alligators, herons, and cypress trees in natural habitat. Thrilling adventure that showcases the unique ecosystem surrounding New Orleans.",
       "durationHours": 3,
       "estimatedCostUSD": 65,
       "bestFor": [
         "adventure",
         "photography",
-        "family"
+        "standard"
       ]
     },
     {
-      "name": "City Park and Sculpture Garden",
-      "category": "Outdoor",
-      "description": "Free access to one of America's largest urban parks featuring 1,300 acres, lagoons, walking trails, and art installations.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "family"
-      ]
-    },
-    {
-      "name": "New Orleans Museum of Art",
-      "category": "Indoor",
-      "description": "World-class art museum featuring African, contemporary, and decorative art collections in City Park setting.",
+      "name": "Cemetery Tour",
+      "category": "Cultural",
+      "description": "Guided walk through historic above-ground cemeteries known as Cities of the Dead with Spanish colonial tombs and ornate monuments. Fascinating glimpse into New Orleans' unique death traditions and architecture.",
       "durationHours": 2,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 25,
       "bestFor": [
-        "cultural",
-        "photography"
+        "hidden-gems",
+        "photography",
+        "standard"
       ]
     },
     {
-      "name": "Street Car Ride on St. Charles Line",
+      "name": "Streetcar Ride on the St. Charles Line",
       "category": "Outdoor",
-      "description": "Historic 1930s streetcar journey through residential neighborhoods and past Tulane University, one of the oldest street car lines in continuous operation.",
-      "durationHours": 1.5,
+      "description": "Hop on the historic green streetcar running through the Garden District past grand mansions and oak-lined streets. Romantic and affordable way to explore neighborhoods beyond the French Quarter.",
+      "durationHours": 1,
       "estimatedCostUSD": 3,
       "bestFor": [
         "standard",
@@ -213,60 +204,75 @@
       ]
     },
     {
-      "name": "Bourbon Street and French Quarter Nightlife",
-      "category": "Nightlife",
-      "description": "Experience the vibrant street culture, bars, clubs, and street performers on the famous party district and surrounding areas.",
-      "durationHours": 3,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "nightlife",
-        "standard"
-      ]
-    },
-    {
-      "name": "Mardi Gras Museum",
-      "category": "Indoor",
-      "description": "Interactive museum dedicated to the history and traditions of Mardi Gras with costumes, floats, and cultural exhibits.",
-      "durationHours": 1.5,
+      "name": "Mardi Gras World",
+      "category": "Cultural",
+      "description": "Tour the working warehouse where elaborate Mardi Gras parade floats are created and stored year-round. Impressive displays of creativity and craftsmanship showcase the spectacle of Carnival season.",
+      "durationHours": 2,
       "estimatedCostUSD": 20,
       "bestFor": [
-        "cultural",
+        "standard",
+        "surprise",
         "family"
       ]
     },
     {
-      "name": "Garden District Walking Tour",
-      "category": "Cultural",
-      "description": "Explore grand 19th-century mansions, oak-lined streets, and historic Victorian architecture in this prestigious neighborhood.",
-      "durationHours": 2,
-      "estimatedCostUSD": 25,
+      "name": "Kayak through Bayou",
+      "category": "Adventure",
+      "description": "Paddle through secluded bayou waterways spotting wildlife and experiencing pristine wetlands. More peaceful alternative to airboat tours with greater immersion in nature.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
       "bestFor": [
-        "standard",
+        "adventure",
         "photography",
-        "cultural"
+        "relaxation"
       ]
     },
     {
-      "name": "Frenchmen Street Live Music",
+      "name": "City Park Picnic & Lake Pontchartrain",
+      "category": "Family",
+      "description": "Explore one of America's largest urban parks with walking trails, botanical gardens, and lake views. Free access with optional paid attractions like the New Orleans Museum of Art.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "French Market & Cafe du Monde",
+      "category": "Cultural",
+      "description": "Browse the historic French Market for local crafts and fresh produce, then indulge in beignets and chicory coffee at the iconic Cafe du Monde. Quintessential New Orleans experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bourbon Street Evening Walk",
       "category": "Nightlife",
-      "description": "Walk the bohemian Frenchmen Street lined with authentic live music venues, bars, and local galleries with free street performances.",
+      "description": "Experience the vibrant energy of Bourbon Street at night with live music pouring from bars and clubs. Free to walk though drinks and entry fees to bars apply.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "nightlife",
-        "cultural",
-        "standard"
+        "standard",
+        "surprise",
+        "adventure"
       ]
     },
     {
-      "name": "Louisiana State Museum",
-      "category": "Indoor",
-      "description": "Comprehensive museum exploring Louisiana's history, culture, and heritage through exhibits on indigenous peoples, colonial period, and modern era.",
-      "durationHours": 2,
-      "estimatedCostUSD": 18,
+      "name": "Plantation Tours (Laura or Oak Alley)",
+      "category": "Cultural",
+      "description": "Visit historic plantations with antebellum mansions and gardens showcasing Louisiana's complex history. Educational tours address plantation history including enslaved people's experiences.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
       "bestFor": [
-        "cultural",
-        "family"
+        "standard",
+        "photography",
+        "hidden-gems"
       ]
     }
   ],
@@ -274,120 +280,120 @@
     "spots": [
       {
         "name": "French Quarter Balconies",
-        "description": "Iconic wrought-iron balconies draped in bougainvillea and azaleas creating colorful, romantic architectural frames.",
+        "description": "Ornate wrought-iron balconies adorned with hanging plants create iconic colorful compositions throughout Royal and Bourbon Streets.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning or golden hour for soft light and fewer crowds",
+        "bestTime": "Golden hour morning or late afternoon",
         "category": "Architecture"
       },
       {
-        "name": "Jackson Square",
-        "description": "Historic plaza with the stunning Saint Louis Cathedral and equestrian statue, framed by colonial architecture and Spanish moss in trees.",
+        "name": "Cafe du Monde",
+        "description": "Historic café with atmospheric interior and exterior courtyard perfect for capturing street life and beignet moments with authentic New Orleans ambiance.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise or golden hour for dramatic cathedral lighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Bourbon Street at Night",
-        "description": "Neon signs, street performers, and vibrant nightlife create dynamic urban street photography opportunities with colorful reflections.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening to capture neon and atmospheric lighting",
-        "category": "Night"
-      },
-      {
-        "name": "Streetcar on St. Charles Avenue",
-        "description": "Historic green streetcar moving through tree-lined residential streets with Spanish moss creating cinematic travel and motion shots.",
-        "difficulty": "Intermediate",
-        "bestTime": "Daytime for clear detail, golden hour for mood",
+        "bestTime": "Early morning or dusk",
         "category": "Street"
       },
       {
-        "name": "Bayou and Cypress Swamp",
-        "description": "Ancient cypress trees with Spanish moss reflected in dark water creating moody, atmospheric landscape and nature photography.",
+        "name": "St. Louis Cathedral",
+        "description": "Iconic white neoclassical cathedral in Jackson Square with dramatic architectural details and beautiful symmetry.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Oak Alley Plantation",
+        "description": "Stunning canopy of 300-year-old oak trees lining the approach to the plantation mansion creating dramatic perspective lines.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Frenchmen Street Live Music",
+        "description": "Vibrant street musicians and performers create dynamic street photography opportunities with authentic cultural energy.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening when musicians perform",
+        "category": "Street"
+      },
+      {
+        "name": "Swamp Cypress Trees",
+        "description": "Ancient bald cypress trees rising from dark water with Spanish moss creating moody atmospheric landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for fog and mist",
+        "category": "Landscape"
+      },
+      {
+        "name": "Garden District Mansions",
+        "description": "Victorian and Greek Revival mansions with grand columns, manicured lawns, and oak-lined streets perfect for architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning or late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Preservation Hall Entrance",
+        "description": "Historic narrow entrance with aged brick and atmospheric lighting creating intimate portrait and street photography opportunities.",
         "difficulty": "Advanced",
-        "bestTime": "Early morning for mist and wildlife activity",
-        "category": "Landscape"
-      },
-      {
-        "name": "Mississippi River Sunset",
-        "description": "Wide river views from levees and parks with dramatic colored skies reflecting on water during golden hour.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for vibrant colors and dramatic sky",
-        "category": "Landscape"
-      },
-      {
-        "name": "French Market",
-        "description": "Colorful produce stalls, local vendors, and bustling marketplace atmosphere with vibrant colors and authentic street culture.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning when market is active and light is soft",
+        "bestTime": "Evening with stage lighting spilling onto street",
         "category": "Street"
       },
       {
-        "name": "Cemetery and Above-Ground Tombs",
-        "description": "Weathered white marble tombs, ornate gates, and historic gravestones creating unique architectural and cultural photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning for side-lighting and atmospheric mood",
-        "category": "Architecture"
-      },
-      {
-        "name": "Algiers Point Wharf",
-        "description": "Industrial waterfront with warehouses, wooden docks, and river views creating gritty urban and landscape photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm industrial light",
+        "name": "City Park Spanish Moss Trees",
+        "description": "Ancient live oaks draped in hanging Spanish moss creating ethereal and moody landscape compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or overcast days",
         "category": "Landscape"
       },
       {
-        "name": "Preservation Hall Exterior",
-        "description": "Historic jazz hall with weathered brick, vintage signage, and crowds of musicians creating authentic cultural and street photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Evening when musicians gather and lights activate",
-        "category": "Street"
+        "name": "Bourbon Street Neon Signs",
+        "description": "Colorful vintage neon signs reflecting on wet pavement after rain create vibrant nightlife photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Night after rain with street reflections",
+        "category": "Night"
       }
     ],
     "sunriseSpots": [
-      "Jackson Square",
-      "City Park Pavilion",
-      "Mississippi River Levee"
+      "Oak Alley Plantation",
+      "City Park Live Oak Grove",
+      "Lake Pontchartrain Boardwalk"
     ],
     "sunsetSpots": [
-      "Mississippi River Crescent Park",
-      "Algiers Point Wharf",
-      "City Park near Bayou"
+      "Lake Pontchartrain Boardwalk",
+      "Mississippi River Overlook",
+      "Frenchmen Street"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for architectural shots, street scenes, and expansive landscape views",
-      "50mm prime for intimate street photography, portraits, and detail work with shallow depth of field",
-      "70-200mm telephoto for compressed landscape shots, distant details, and isolating subjects",
-      "24mm or 35mm prime for versatile street and architectural work in tight French Quarter spaces"
+      "14-24mm wide angle for architectural shots of cathedrals and plantation avenues",
+      "35-50mm prime for street photography and intimate portraits in the French Quarter",
+      "70-200mm telephoto for swamp wildlife and compressed landscape perspectives",
+      "Macro lens for detail shots of ornate ironwork and vintage signage"
     ],
-    "goldenHourNotes": "New Orleans offers exceptional golden hour opportunities, particularly around Jackson Square where Cathedral facades glow warm amber. The Mississippi River provides stunning sunset backdrops with reflective water intensifying colors. Early morning in the French Quarter captures atmospheric light filtering through narrow streets and building facades before crowds arrive.",
+    "goldenHourNotes": "New Orleans' golden hour is dramatically extended in the humid subtropical climate, lasting up to 90 minutes before and after sunrise/sunset. The moisture-laden atmosphere creates soft, diffused light perfect for portraiture and landscape work. Morning light is particularly magical at swamp locations where mist combines with golden rays filtering through cypress trees.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 11,
-        "rainfallMM": 130
+        "avgTempC": 12,
+        "rainfallMM": 140
       },
       {
         "month": 2,
         "avgTempC": 13,
-        "rainfallMM": 140
+        "rainfallMM": 145
       },
       {
         "month": 3,
         "avgTempC": 17,
-        "rainfallMM": 150
+        "rainfallMM": 135
       },
       {
         "month": 4,
         "avgTempC": 22,
-        "rainfallMM": 140
+        "rainfallMM": 150
       },
       {
         "month": 5,
         "avgTempC": 26,
-        "rainfallMM": 150
+        "rainfallMM": 155
       },
       {
         "month": 6,
@@ -396,8 +402,8 @@
       },
       {
         "month": 7,
-        "avgTempC": 30,
-        "rainfallMM": 160
+        "avgTempC": 31,
+        "rainfallMM": 165
       },
       {
         "month": 8,
@@ -407,22 +413,22 @@
       {
         "month": 9,
         "avgTempC": 28,
-        "rainfallMM": 170
+        "rainfallMM": 155
       },
       {
         "month": 10,
         "avgTempC": 23,
-        "rainfallMM": 100
+        "rainfallMM": 90
       },
       {
         "month": 11,
         "avgTempC": 18,
-        "rainfallMM": 120
+        "rainfallMM": 130
       },
       {
         "month": 12,
         "avgTempC": 13,
-        "rainfallMM": 140
+        "rainfallMM": 150
       }
     ],
     "bestMonths": [
@@ -431,31 +437,31 @@
       10,
       11
     ],
-    "seasonality": "Spring (March-April) and fall (October-November) offer ideal weather with comfortable temperatures and lower humidity. Summer brings intense heat and humidity with frequent thunderstorms, while hurricane season peaks August-October.",
-    "summary": "New Orleans has a subtropical climate with hot, humid summers and mild winters. Rainfall is consistent year-round with peak precipitation in summer months and occasional tropical storms during hurricane season."
+    "seasonality": "New Orleans experiences hot, humid summers (June-September) with frequent thunderstorms and risk of hurricanes, while mild winters arrive with occasional cold snaps. The ideal visiting seasons are spring (March-April) and fall (October-November) with pleasant temperatures and lower humidity.",
+    "summary": "The city has a humid subtropical climate with warm winters and hot, humid summers frequently interrupted by afternoon thunderstorms. Hurricane season runs June through November, with peak activity in August-September, though direct hits are relatively rare."
   },
   "hotels": [
     {
-      "name": "HI New Orleans Hostel",
-      "neighborhood": "Marigny",
-      "pricePerNightUSD": 35,
+      "name": "Auberge New Orleans",
+      "neighborhood": "French Quarter",
+      "pricePerNightUSD": 150,
       "category": "Budget",
-      "description": "Social hostel in colorful Marigny near Frenchmen Street with dorms, private rooms, and local hospitality."
+      "description": "Affordable hotel on the edge of the French Quarter offering basic amenities and convenient location for exploring the historic district."
     },
     {
-      "name": "Le Pavillon Hotel",
-      "neighborhood": "Central Business District",
-      "pricePerNightUSD": 180,
+      "name": "Hotel Monteleone",
+      "neighborhood": "French Quarter",
+      "pricePerNightUSD": 250,
       "category": "Mid-range",
-      "description": "Historic boutique hotel with European elegance, rooftop pool, and convenient CBD location near attractions."
+      "description": "Historic boutique hotel in the heart of the French Quarter with classic elegance, rooftop pool, and storied literary history hosting famous writers for over a century."
     },
     {
       "name": "Windsor Court Hotel",
       "neighborhood": "Central Business District",
-      "pricePerNightUSD": 450,
+      "pricePerNightUSD": 500,
       "category": "Luxury",
-      "description": "Five-star luxury hotel offering impeccable service, fine dining, spa facilities, and views of the Mississippi River and French Quarter."
+      "description": "Ultra-luxury five-star hotel featuring world-class dining, spa facilities, and opulent suites with views of the Mississippi River and downtown skyline."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1583477716463-9c485c89f6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxOZXclMjBPcmxlYW5zJTIwRnJlbmNoJTIwUXVhcnRlcnxlbnwxfDB8fHwxNzgxMzAzMDE3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1583477716463-9c485c89f6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxOZXclMjBPcmxlYW5zJTIwRnJlbmNoJTIwUXVhcnRlcnxlbnwxfDB8fHwxNzgxNTY4MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

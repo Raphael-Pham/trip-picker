@@ -5,7 +5,8 @@
   "region": "North America",
   "airportCodes": [
     "YVR",
-    "SEA"
+    "SEA",
+    "YLW"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -17,121 +18,121 @@
   ],
   "scores": {
     "cost": 35,
-    "food": 92,
-    "photography": 95,
-    "activities": 94,
-    "weather": 72
+    "food": 88,
+    "photography": 92,
+    "activities": 90,
+    "weather": 65
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 130
+      "maxPerDayUSD": 140
     },
     {
       "level": "mid",
-      "minPerDayUSD": 150,
+      "minPerDayUSD": 140,
       "maxPerDayUSD": 280
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
+      "minPerDayUSD": 280,
       "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Vancouver city mountains ocean",
-  "summary": "Vancouver seamlessly blends urban sophistication with stunning natural beauty, offering world-class dining, iconic skyline views framed by mountains and water, and endless outdoor adventures. From the vibrant Downtown core to the serene West Coast wilderness, this Pacific gem delivers unforgettable experiences for every traveler. The city's multicultural food scene, outdoor recreation, and dramatic landscapes make it a photographer's paradise and adventure seeker's dream.",
+  "unsplashQuery": "Vancouver skyline mountains water",
+  "summary": "Vancouver is a stunning West Coast metropolis nestled between mountains and ocean, offering world-class dining, outdoor adventures, and some of North America's most photogenic landscapes. From vibrant neighborhoods like Gastown and Kitsilano to pristine natural parks and beaches, the city perfectly blends urban sophistication with wilderness access. The mild climate and diverse cultural attractions make it an ideal destination year-round.",
   "restaurants": [
     {
-      "name": "Guu with Garlic",
+      "name": "Noodle King",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Authentic Japanese izakaya featuring yakitori, takoyaki, and creative small plates in a lively standing-room atmosphere. A Vancouver institution known for bold flavors and interactive dining experience.",
-      "mustTry": "Garlic butter yakitori and takoyaki"
-    },
-    {
-      "name": "The Elysian Coffee",
-      "category": "Budget",
       "priceRange": "$",
-      "description": "Cozy neighborhood cafe serving excellent espresso drinks, pastries, and light breakfast fare. Perfect for starting your day like a local.",
-      "mustTry": "Flat white and croissant"
+      "description": "A beloved hole-in-the-wall serving authentic hand-pulled noodles and dumplings in Chinatown. Family-run since the 1980s with minimal decor but maximum flavor.",
+      "mustTry": "Hand-pulled noodle soup"
     },
     {
-      "name": "Nora Gray",
+      "name": "The Acorn",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Award-winning Italian restaurant with seasonal pasta and house-made charcuterie in an intimate, sophisticated setting. Consistently ranked among Canada's best restaurants.",
-      "mustTry": "House-made pasta and wine pairings"
+      "description": "Award-winning plant-based fine dining restaurant pushing culinary boundaries with innovative vegetable-forward tasting menus. Every dish is a work of art.",
+      "mustTry": "Seasonal vegetable tasting menu"
     },
     {
-      "name": "Japadog",
-      "category": "Local Specialty",
+      "name": "Vij's",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Iconic Indian restaurant blending traditional spices with modern techniques in an elegant setting. Famous for its creative curries and impeccable service.",
+      "mustTry": "Marinated beef short ribs with fenugreek cream"
+    },
+    {
+      "name": "Guu with Garlic",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Lively Japanese izakaya with communal seating and energetic atmosphere serving yakitori, ramen, and small plates. A local favorite in Gastown.",
+      "mustTry": "Garlic butter oysters"
+    },
+    {
+      "name": "The Wallflower Modern Chinese",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Chinese restaurant featuring house-made dim sum, creative wok dishes, and an extensive wine list. Modern industrial setting in Kitsilano.",
+      "mustTry": "Handmade dumplings"
+    },
+    {
+      "name": "Tacofino",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "Iconic street cart and small shop serving creative Japanese-inspired hot dogs with unique toppings and okonomiyaki. A must-try Vancouver street food institution.",
-      "mustTry": "Terimayo dog"
+      "description": "Casual beachside taco shack with fresh seafood tacos, ceviches, and surfer vibes. Started as a food cart and now a local institution.",
+      "mustTry": "Fish tacos with chipotle crema"
+    },
+    {
+      "name": "Canteen",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-frills Filipino comfort food spot serving authentic adobo, lumpia, and rice bowls with friendly service. Located in Mount Pleasant.",
+      "mustTry": "Chicken adobo"
     },
     {
       "name": "Hawksworth Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Chef David Hawksworth's elegant Pacific Northwest cuisine in a stunning downtown location with floor-to-ceiling windows. Innovative dishes featuring local seafood and seasonal produce.",
-      "mustTry": "Sablefish and seasonal tasting menu"
+      "description": "Contemporary West Coast cuisine in an elegant downtown setting with locally-sourced ingredients and impeccable technique. Multi-award winning establishment.",
+      "mustTry": "BC halibut with seasonal preparations"
     },
     {
-      "name": "Granville Island Public Market",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Vibrant year-round market offering fresh produce, artisan foods, prepared meals, and local delicacies. Perfect for casual eating and sampling local specialties.",
-      "mustTry": "Fresh BC salmon and artisan cheese"
-    },
-    {
-      "name": "Chinatown Spring Rolls",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Hole-in-the-wall Vietnamese spot famous for crispy spring rolls, pho, and authentic street food at rock-bottom prices. Tiny space with massive flavors.",
-      "mustTry": "Fresh spring rolls and pho"
-    },
-    {
-      "name": "Botanist",
-      "category": "Midrange",
+      "name": "L'Abbattoir",
+      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Contemporary restaurant and bar in Shangrila with creative cocktails and refined comfort food. Modern aesthetic with botanical-inspired decor and excellent service.",
-      "mustTry": "Seasonal cocktails and duck confit"
+      "description": "French-inspired bistro in historic Gastown with intimate ambiance, classic preparations, and outstanding wine selection.",
+      "mustTry": "Duck confit"
     },
     {
       "name": "Bao Bei",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Hip Chinatown spot serving elevated Chinese dishes, house-made noodles, and creative cocktails in a vibrant, artistic space. Perfect blend of tradition and innovation.",
-      "mustTry": "Hand-pulled noodles and pork belly bao"
+      "description": "Hip Asian-fusion restaurant in Chinatown combining street food vibes with refined flavors. Fun cocktails and creative small plates.",
+      "mustTry": "Chili oil noodles"
     },
     {
-      "name": "Café Artigiano",
+      "name": "Lee's Donuts",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Multiple locations throughout Vancouver serving championship-quality espresso and quality pastries. Known for consistent excellence and latte art competitions.",
-      "mustTry": "Cappuccino and house-made panettone"
+      "description": "Institution since 1970s serving made-to-order donuts and coffee in a tiny Chinatown shop. Line out the door most mornings.",
+      "mustTry": "Boston cream donut"
     },
     {
-      "name": "Oka Sushi",
+      "name": "Maenam",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary sushi restaurant offering fresh nigiri, creative rolls, and Japanese-inspired dishes. Minimalist design with focus on ingredient quality.",
-      "mustTry": "Omakase experience and toro"
-    },
-    {
-      "name": "The Pie Hole",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual bakery and restaurant featuring house-made pies, savory hand pies, and comfort food classics. Perfect for lunch or dessert with quality ingredients.",
-      "mustTry": "Butter chicken pie and apple crumble pie"
+      "description": "Upscale Thai restaurant in Kitsilano with refined preparations of regional Thai dishes and an excellent wine program.",
+      "mustTry": "Massaman curry"
     }
   ],
   "activities": [
     {
       "name": "Stanley Park Seawall Walk",
       "category": "Outdoor",
-      "description": "Iconic 8.8-km paved pathway circling Stanley Park with breathtaking ocean views, mountain vistas, and beach access. Can be walked, jogged, or cycled at your own pace.",
+      "description": "Iconic 8.8 km waterfront path offering stunning views of mountains, ocean, and city skyline. Perfect for walking, running, or cycling with multiple beaches and stopping points along the way.",
       "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -141,57 +142,80 @@
       ]
     },
     {
-      "name": "Grouse Mountain Summit Experience",
-      "category": "Outdoor",
-      "description": "Take the Skyride gondola 1,231 meters up for panoramic views of the city, mountains, and ocean. Excellent hiking trails, grizzly bears exhibit, and dining at the summit.",
-      "durationHours": 3,
-      "estimatedCostUSD": 65,
+      "name": "Grouse Mountain Hiking",
+      "category": "Adventure",
+      "description": "Multiple trail options from easy to challenging with panoramic views of Vancouver and surrounding peaks. Summer wildflowers and fall foliage make it spectacular.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Granville Island Market and Exploration",
-      "category": "Cultural",
-      "description": "Explore the historic public market, artisan shops, galleries, and street performers on this iconic island. Perfect for shopping, eating, and experiencing local culture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Vancouver Art Gallery",
-      "category": "Indoor",
-      "description": "World-class museum featuring contemporary and historical artworks, with a strong emphasis on Canadian and Indigenous artists. Rotating exhibitions and stunning building architecture.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 24,
-      "bestFor": [
-        "standard",
         "photography"
+      ]
+    },
+    {
+      "name": "Gastown Walking Tour",
+      "category": "Cultural",
+      "description": "Historic neighborhood with Victorian-era architecture, independent boutiques, and the famous Steam Clock. Street art, galleries, and vintage vibes throughout.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
       ]
     },
     {
       "name": "Capilano Suspension Bridge",
-      "category": "Adventure",
-      "description": "Walk across the famous swaying suspension bridge spanning 140 meters above Capilano River through old-growth rainforest. Includes treetop walkways and carved totems.",
-      "durationHours": 2,
-      "estimatedCostUSD": 58,
+      "category": "Outdoor",
+      "description": "Thrilling 137-meter bridge spanning a 70-meter gorge with interpretive trails through old-growth forest. Crown jewel of North Shore attractions.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 45,
       "bestFor": [
+        "standard",
         "adventure",
-        "photography",
         "family"
       ]
     },
     {
-      "name": "English Bay Beach Sunset Experience",
-      "category": "Outdoor",
-      "description": "Popular sandy beach perfect for watching dramatic sunsets with the North Shore mountains as backdrop. Great for swimming in summer, picnicking, and evening strolls.",
+      "name": "Vancouver Art Gallery",
+      "category": "Cultural",
+      "description": "World-class museum featuring contemporary and historical works with strong focus on Canadian artists. Beautiful Beaux-Arts building in downtown core.",
       "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Granville Island Public Market",
+      "category": "Family",
+      "description": "Vibrant marketplace with local produce, artisanal foods, and crafts in a historic industrial setting. Street performers and waterfront views add to the charm.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking in False Creek",
+      "category": "Adventure",
+      "description": "Paddle through urban waterways with views of downtown skyline, surrounding mountains, and wildlife. Rental companies offer beginner-friendly options.",
+      "durationHours": 2,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kitsilano Beach and Neighborhood",
+      "category": "Relaxation",
+      "description": "Blue-flag beach perfect for swimming with mountain backdrop, trendy cafes, and vintage shops. Vibrant neighborhood feel with young, creative population.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
@@ -200,167 +224,143 @@
       ]
     },
     {
-      "name": "Gastown Food and Historic Walking Tour",
+      "name": "Museum of Anthropology",
       "category": "Cultural",
-      "description": "Explore Vancouver's birthplace with its Victorian architecture, Steam Clock, and independent shops. Stop at local restaurants, craft breweries, and galleries.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "photography"
-      ]
-    },
-    {
-      "name": "Kayaking on False Creek",
-      "category": "Adventure",
-      "description": "Paddle through the heart of the city with stunning views of downtown skyline, bridges, and mountains. Multiple rental facilities offer guided or independent options.",
-      "durationHours": 2,
-      "estimatedCostUSD": 70,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "University of British Columbia Campus and Botanical Garden",
-      "category": "Outdoor",
-      "description": "Beautiful 400-acre campus with world-class museums including anthropology and geology exhibits. Explore scenic trails, beaches, and the stunning Botanical Garden.",
-      "durationHours": 3.5,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Kitsilano Beach and Neighborhood",
-      "category": "Outdoor",
-      "description": "Longest beach in Vancouver with heated outdoor pools, volleyball courts, and excellent people-watching. Surrounding neighborhood offers trendy shops, cafes, and street art.",
-      "durationHours": 3,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "family"
-      ]
-    },
-    {
-      "name": "Vancouver Brewery Tour",
-      "category": "Cultural",
-      "description": "Visit multiple craft breweries in the Strathcona neighborhood with guided tastings and food pairings. Vancouver is home to over 30 breweries with unique styles.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "nightlife"
-      ]
-    },
-    {
-      "name": "Museum of Anthropology at UBC",
-      "category": "Indoor",
-      "description": "World-renowned museum housing one of the finest collections of Indigenous Canadian art and artifacts. Stunning architecture and provocative exhibits on world cultures.",
+      "description": "Outstanding collection of Indigenous art and artifacts from Pacific Northwest cultures. Modern architecture and natural light create exceptional viewing experience.",
       "durationHours": 2.5,
       "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "cultural"
+        "photography"
+      ]
+    },
+    {
+      "name": "Whale Watching Tour",
+      "category": "Adventure",
+      "description": "Guided boat tours departing from downtown seeking orcas, humpback whales, and other marine life. Best May through October with experienced naturalist guides.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Deep Cove Beach and Hike",
+      "category": "Outdoor",
+      "description": "Picturesque cove on North Shore with turquoise waters, sandy beach, and surrounding hiking trails. Less crowded than Stanley Park with more secluded vibe.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Vancouver Nightlife Scene",
+      "category": "Nightlife",
+      "description": "World-class bars and clubs throughout Gastown, Downtown, and East Vancouver. From craft cocktail bars to electronic dance clubs with international DJs.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "surprise"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Lions Gate Bridge at Dusk",
-        "description": "Iconic suspension bridge connecting Stanley Park to North Vancouver with stunning city skyline backdrop and reflected in English Bay.",
+        "name": "Lions Gate Bridge at Sunset",
+        "description": "Iconic suspension bridge framed against North Shore mountains with golden hour light creating dramatic contrast.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour to blue hour (late afternoon to dusk)",
+        "bestTime": "1 hour before sunset, September-October",
         "category": "Architecture"
       },
       {
-        "name": "Granville Island Colorful Buildings",
-        "description": "Vibrant array of red, yellow, and blue waterfront buildings reflected in False Creek creating perfect color contrast photography.",
+        "name": "Prospect Point, Stanley Park",
+        "description": "Elevated viewpoint overlooking downtown skyline, mountains, and ocean with foreground trees creating layered compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light or overcast days to avoid harsh shadows",
-        "category": "Street"
-      },
-      {
-        "name": "North Shore Mountains from Downtown",
-        "description": "Dramatic snow-capped peaks rising behind glassy downtown towers creating striking landscape with urban elements.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late evening for best contrast and alpenglow",
+        "bestTime": "Early morning or sunset",
         "category": "Landscape"
       },
       {
-        "name": "Capilano Suspension Bridge Forest",
-        "description": "Dense old-growth rainforest with misty canopy, moss-covered trees, and the dramatic bridge creating moody nature photography.",
+        "name": "Gastown Steam Clock",
+        "description": "Historic cast-iron clock in Victorian architecture setting, especially dramatic with evening lighting and street reflections.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning with mist or after rain for atmospheric conditions",
+        "bestTime": "Dusk when street lights activate, avoiding midday crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "False Creek Reflections",
+        "description": "Downtown skyline reflected in calm water with Granville Island and bridges creating compositional depth.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for calm water and soft light",
         "category": "Landscape"
-      },
-      {
-        "name": "Chinatown Street Art and Lanterns",
-        "description": "Colorful murals, traditional red lanterns, and bustling streets offering vibrant cultural and street photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning to afternoon for directional light on murals",
-        "category": "Street"
-      },
-      {
-        "name": "Stanley Park Totem Poles",
-        "description": "Ancient Indigenous totem poles set against forest backdrop representing authentic cultural artifacts and artistic carved details.",
-        "difficulty": "Intermediate",
-        "bestTime": "Mid-morning light to illuminate carved details and colors",
-        "category": "Cultural"
       },
       {
         "name": "Kitsilano Beach with Mountains",
-        "description": "Wide sandy beach with bathers and volleyball players framed by North Shore mountains and ocean horizons.",
+        "description": "Sandy beach in foreground with North Shore mountains and city skyline creating layered landscape composition.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones and long shadows on beach",
+        "bestTime": "Sunset or golden hour, clear days only",
         "category": "Landscape"
       },
       {
-        "name": "Science World Geodesic Dome",
-        "description": "Iconic white geodesic sphere reflecting in False Creek water creating geometric and architectural photography masterpiece.",
+        "name": "Chinatown Street Photography",
+        "description": "Narrow streets with colorful signage, hanging lanterns, and diverse subjects creating vibrant cultural street scenes.",
         "difficulty": "Intermediate",
-        "bestTime": "Blue hour for color contrast between dome and sky",
-        "category": "Architecture"
-      },
-      {
-        "name": "Seawall Path at Sunset",
-        "description": "Cyclists and joggers silhouetted against golden sunset over English Bay with North Shore mountains as dramatic backdrop.",
-        "difficulty": "Beginner",
-        "bestTime": "30 minutes before to 15 minutes after sunset",
+        "bestTime": "Morning for better light and fewer crowds",
         "category": "Street"
       },
       {
-        "name": "Vancouver Public Library Atrium",
-        "description": "Stunning modern architecture with curved glass, natural light, and spiral design creating dramatic interior photography opportunities.",
+        "name": "Capilano Suspension Bridge Forest",
+        "description": "Old-growth trees and suspension bridge structure create dramatic depth and perspective through forest canopy.",
         "difficulty": "Advanced",
-        "bestTime": "Midday for bright interior light filling atrium space",
-        "category": "Architecture"
+        "bestTime": "Overcast days for even light, fall for foliage color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Seawall at Night",
+        "description": "Waterfront promenade with city lights reflecting off water, bridges illuminated, and moving traffic creating light trails.",
+        "difficulty": "Advanced",
+        "bestTime": "30 minutes after sunset for blue hour, clear nights",
+        "category": "Night"
+      },
+      {
+        "name": "Granville Island Market",
+        "description": "Colorful produce, flowers, and street vendors creating vibrant composition with human interest and local culture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light, early hours before peak crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Burrard Inlet Seaplanes",
+        "description": "Historic seaplanes taking off and landing with downtown backdrop and mountain scenery creating dynamic action shots.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning when light is best and seaplane activity peaks",
+        "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
-      "Lighthouse Park West Vancouver",
-      "Jericho Beach East End",
-      "Burnaby Mountain Overlook"
+      "Prospect Point, Stanley Park",
+      "First Beach, Stanley Park",
+      "Jericho Beach"
     ],
     "sunsetSpots": [
-      "English Bay Beach",
-      "Kitsilano Beach South End",
-      "Wreck Beach Cliffs"
+      "Lions Gate Bridge viewpoint",
+      "Kitsilano Beach",
+      "Wreck Beach lookout"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive mountain and cityscape vistas",
-      "50mm prime for intimate street photography and detailed cultural scenes",
-      "70-200mm telephoto for compressing layers of mountains with city skyline",
-      "Macro lens for close-up rainforest details and Indigenous art carvings"
+      "14-24mm ultra-wide for sweeping landscape vistas and architecture perspective",
+      "35mm or 50mm prime for street photography and intimate cultural scenes",
+      "70-200mm telephoto for compressed mountain and skyline compositions",
+      "14mm rectilinear for dramatic bridge and building geometry correction"
     ],
-    "goldenHourNotes": "Vancouver offers exceptional golden hour photography from multiple vantage points with the North Shore mountains creating a dramatic northern backdrop. The interplay of water reflections in False Creek and English Bay magnifies golden light, while the city's varied elevation changes provide endless composition opportunities. Best results occur during clear days with minimal cloud cover, though overcast conditions work beautifully for street and architectural photography.",
+    "goldenHourNotes": "Vancouver's golden hour is particularly stunning from May to September when the sun approaches from the north-west, illuminating the North Shore mountains and creating warm reflections in False Creek. The hour before sunset provides optimal light for bridge photography with the downtown skyline becoming increasingly dramatic as darkness approaches. Overcast conditions are common even in summer, so clear days should be prioritized for optimal lighting.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -373,57 +373,57 @@
       {
         "month": 2,
         "avgTempC": 4,
-        "rainfallMM": 152
+        "rainfallMM": 147
       },
       {
         "month": 3,
         "avgTempC": 6,
-        "rainfallMM": 152
+        "rainfallMM": 131
       },
       {
         "month": 4,
         "avgTempC": 10,
-        "rainfallMM": 127
+        "rainfallMM": 110
       },
       {
         "month": 5,
         "avgTempC": 15,
-        "rainfallMM": 89
+        "rainfallMM": 84
       },
       {
         "month": 6,
-        "avgTempC": 19,
+        "avgTempC": 18,
         "rainfallMM": 78
       },
       {
         "month": 7,
         "avgTempC": 21,
-        "rainfallMM": 51
+        "rainfallMM": 48
       },
       {
         "month": 8,
-        "avgTempC": 21,
-        "rainfallMM": 56
+        "avgTempC": 20,
+        "rainfallMM": 51
       },
       {
         "month": 9,
         "avgTempC": 17,
-        "rainfallMM": 76
+        "rainfallMM": 63
       },
       {
         "month": 10,
         "avgTempC": 11,
-        "rainfallMM": 178
+        "rainfallMM": 142
       },
       {
         "month": 11,
-        "avgTempC": 6,
-        "rainfallMM": 241
+        "avgTempC": 7,
+        "rainfallMM": 226
       },
       {
         "month": 12,
-        "avgTempC": 3,
-        "rainfallMM": 241
+        "avgTempC": 4,
+        "rainfallMM": 201
       }
     ],
     "bestMonths": [
@@ -433,31 +433,30 @@
       8,
       9
     ],
-    "seasonality": "Vancouver features a mild Pacific coastal climate with wet, cool winters and warm, dry summers. Peak season runs May through September with the warmest and driest weather, while the shoulder months of April and October offer pleasant conditions with fewer crowds.",
-    "summary": "Vancouver experiences moderate temperatures year-round with significant rainfall from November through March. Summer months (June-August) are ideal for outdoor activities with temperatures reaching 20-21°C and minimal precipitation, while winter rarely sees snow but brings frequent rain and cloud cover."
+    "seasonality": "Summer (June-August) offers warm, dry weather perfect for outdoor activities with long daylight hours. Winter (November-February) brings frequent rain and cool temperatures but fewer tourists and dramatic storm photography opportunities.",
+    "summary": "Vancouver has a mild oceanic climate with cool, wet winters and warm, dry summers. The city experiences significant rainfall, particularly from October through March, while summer months are generally sunny with temperatures in the 20-21°C range."
   },
   "hotels": [
     {
       "name": "HI Vancouver Downtown Hostel",
-      "neighborhood": "Downtown Core",
-      "pricePerNightUSD": 45,
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Clean, modern hostel in the heart of downtown with private and dormitory options, shared kitchens, and a social atmosphere perfect for backpackers and budget travelers."
+      "description": "Social hostel with private and dorm rooms, rooftop patio with city views, and excellent location near Chinatown and Gastown."
     },
     {
-      "name": "The Sutton Place Hotel",
-      "neighborhood": "Downtown Core",
-      "pricePerNightUSD": 220,
+      "name": "Sylvia Hotel",
+      "neighborhood": "Kitsilano",
+      "pricePerNightUSD": 145,
       "category": "Mid-range",
-      "description": "Upscale mid-range hotel featuring elegant rooms with city views, on-site restaurant and bar, and excellent location near shopping and attractions."
+      "description": "Historic beachfront hotel with character, waterfront views, and close proximity to Kitsilano Beach and trendy neighborhood shops."
     },
     {
-      "name": "Fairmont Hotel Vancouver",
-      "neighborhood": "Downtown Core",
-      "pricePerNightUSD": 480,
+      "name": "Fairmont Pacific Rim",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Iconic luxury property with distinctive Gothic architecture, world-class amenities, spa services, multiple fine dining options, and unparalleled city and mountain views."
+      "description": "Ultra-luxury waterfront hotel with modern architecture, Michelin-rated restaurant, full spa, and unobstructed views of mountains and ocean."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1647655806923-e8202f4f2b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxWYW5jb3V2ZXIlMjBjaXR5JTIwbW91bnRhaW5zJTIwb2NlYW58ZW58MXwwfHx8MTc4MTU1NjEzMnww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

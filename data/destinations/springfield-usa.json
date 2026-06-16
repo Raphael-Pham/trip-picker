@@ -1,0 +1,466 @@
+{
+  "id": "springfield-usa",
+  "city": "Springfield",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SPI",
+    "ORD",
+    "STL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "family",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 76,
+    "photography": 74,
+    "activities": 78,
+    "weather": 68
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 135
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 225
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 230,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Springfield historic downtown architecture",
+  "summary": "Springfield offers a charming blend of American history, local character, and Midwestern hospitality. The city features excellent museums, vibrant dining scenes, and picturesque neighborhoods perfect for exploration. From cultural attractions to scenic parks, Springfield provides an accessible and rewarding destination for diverse travelers.",
+  "restaurants": [
+    {
+      "name": "The Hungry Hippo Diner",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Classic American diner serving hearty breakfast and comfort food. Known for generous portions and friendly service.",
+      "mustTry": "Homemade biscuits and gravy"
+    },
+    {
+      "name": "Moe's Tavern & Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Local favorite featuring craft burgers and regional specialties. Casual atmosphere with warm hospitality.",
+      "mustTry": "Springfield-style burger with signature sauce"
+    },
+    {
+      "name": "The Rusty Nail Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse with aged beef and wine selection. Elegant ambiance perfect for special occasions.",
+      "mustTry": "Prime ribeye with truffle butter"
+    },
+    {
+      "name": "Panda Garden",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Asian cuisine featuring Sichuan and Cantonese dishes. Family-run establishment with fresh ingredients.",
+      "mustTry": "Mapo tofu with jasmine rice"
+    },
+    {
+      "name": "Krusty Burger",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick-service burger joint with customizable options and milkshakes. Popular with families and students.",
+      "mustTry": "Double patty burger with bacon"
+    },
+    {
+      "name": "Il Palazzo Italian Kitchen",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Romantic Italian restaurant with homemade pasta and imported wines. Intimate setting with candlelit tables.",
+      "mustTry": "Lobster ravioli in saffron cream sauce"
+    },
+    {
+      "name": "The Daily Grind Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy coffee shop with locally roasted beans and fresh pastries. Perfect for breakfast and studying.",
+      "mustTry": "Caramel macchiato with croissant"
+    },
+    {
+      "name": "Barney's BBQ Smokehouse",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic barbecue with slow-smoked meats and traditional sides. Outdoor seating available.",
+      "mustTry": "Pulled pork sandwich with coleslaw"
+    },
+    {
+      "name": "Señor Abe's Taquería",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Vibrant Mexican food stand serving authentic street tacos and fresh salsas. Quick service and high quality.",
+      "mustTry": "Carnitas tacos with fresh cilantro"
+    },
+    {
+      "name": "The Gilded Grape Wine Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Upscale wine bar with small plates and local artisanal cheeses. Contemporary atmosphere.",
+      "mustTry": "Charcuterie board with house wine pairing"
+    },
+    {
+      "name": "Lard Lad Donuts",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local donut shop famous for creative flavors and fresh offerings daily. Morning destination for locals.",
+      "mustTry": "Chocolate-glazed with sprinkles"
+    },
+    {
+      "name": "The Bouffant Café",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary French-inspired cuisine with seasonal menus and attentive service. Sophisticated yet welcoming.",
+      "mustTry": "Coq au vin with creamed potatoes"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Springfield History Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum documenting the city's development from pioneer settlement to modern era. Interactive exhibits showcase local artifacts and heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Lincoln's Home National Historic Site",
+      "category": "Cultural",
+      "description": "Preserved 19th-century residence offering guided tours and historical context. Beautiful Victorian architecture with period furnishings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Riverside Park Walking Trail",
+      "category": "Outdoor",
+      "description": "Scenic 5-mile paved path along the Springfield River with viewpoints and picnic areas. Excellent for walking, jogging, or cycling.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Vance Arcade Gaming Lounge",
+      "category": "Indoor",
+      "description": "Retro and modern arcade games in a fun, casual setting. Full bar and snacks available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Oak Creek Botanical Gardens",
+      "category": "Outdoor",
+      "description": "Beautiful 45-acre garden featuring themed sections, walking paths, and seasonal blooms. Peaceful retreat from the city.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Downtown Art District Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of galleries, street art, and creative studios in the revitalized downtown area. Free walking map available at visitor center.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Springfield Science Academy",
+      "category": "Family",
+      "description": "Interactive science museum with hands-on exhibits, planetarium shows, and IMAX theater. Engaging for all ages.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "family",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Live Music at The Fillmore Theater",
+      "category": "Nightlife",
+      "description": "Historic venue hosting local bands and national acts most weekends. Great atmosphere and sound system.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Sunset Ridge Hiking Trail",
+      "category": "Adventure",
+      "description": "Moderate 4-mile trail with elevation gain offering panoramic views of the surrounding landscape. Best attempted in afternoon.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Springfield Farmers Market",
+      "category": "Family",
+      "description": "Weekday outdoor market featuring local produce, baked goods, and artisan crafts. Spring through fall season.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Capital Building Architectural Tour",
+      "category": "Cultural",
+      "description": "Guided tours of the impressive state capitol building with historical narratives and art installations. Reserve in advance.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Lake Springfield Kayaking",
+      "category": "Adventure",
+      "description": "Peaceful paddling experience on calm lake waters with scenic shoreline views. Rentals available year-round.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Old Train Station Archway",
+        "description": "Historic Romanesque stone archway with dramatic shadows and textural details ideal for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for side-lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Riverside Park Footbridge",
+        "description": "Wooden bridge spanning the Springfield River with water reflections and tree-lined banks.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on bridge and water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Mural Wall",
+        "description": "Vibrant street art mural featuring bold colors and intricate designs in alleyway setting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for even lighting without harsh shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Capitol Building Front Steps",
+        "description": "Neoclassical columns and grand staircase creating geometric composition with people for scale.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for soft light and minimal crowds",
+        "category": "Architecture"
+      },
+      {
+        "name": "Oak Creek Botanical Gardens Pond",
+        "description": "Serene water feature surrounded by manicured gardens and flowering plants with wildlife activity.",
+        "difficulty": "Beginner",
+        "bestTime": "Late morning for soft directional light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic District Storefronts",
+        "description": "Victorian-era building facades with ornate details and character-filled street-level activity.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm cross-lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sunset Ridge Overlook",
+        "description": "Elevated vantage point with expansive views of city skyline and distant landscapes.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening golden hour for dramatic sky and cityscape",
+        "category": "Landscape"
+      },
+      {
+        "name": "Art District Gallery Windows",
+        "description": "Reflective glass storefronts with artistic displays creating layered compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days to avoid harsh reflections",
+        "category": "Street"
+      },
+      {
+        "name": "Lincoln's Home Exterior",
+        "description": "Victorian mansion with beautiful brick architecture and period landscaping.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for front-facing light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lake Springfield Sunset Point",
+        "description": "Water body with distant tree line and open sky creating clean horizon lines.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening golden hour one hour before sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Sunset Ridge Overlook",
+      "Riverside Park Footbridge",
+      "Lake Springfield Sunset Point"
+    ],
+    "sunsetSpots": [
+      "Capitol Building Front Steps",
+      "Oak Creek Botanical Gardens Pond",
+      "Downtown Mural Wall"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape vistas and architectural perspectives at Sunset Ridge",
+      "50mm prime for street photography and intimate details in historic district storefronts",
+      "70-200mm telephoto for compressed city skyline shots from elevated viewpoints",
+      "24-70mm versatile zoom for varied framing in gardens and botanical areas"
+    ],
+    "goldenHourNotes": "Springfield's golden hour provides exceptional warm tones from 6:30-7:30 AM and 5:00-6:30 PM depending on season. The riverside locations benefit most from morning light creating rim lighting on water reflections. Downtown architecture captures beautiful warm illumination on stone facades during evening golden hour.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 45
+      },
+      {
+        "month": 2,
+        "avgTempC": 1,
+        "rainfallMM": 48
+      },
+      {
+        "month": 3,
+        "avgTempC": 8,
+        "rainfallMM": 65
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 85
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 105
+      },
+      {
+        "month": 6,
+        "avgTempC": 27,
+        "rainfallMM": 95
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 88
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 82
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 75
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 62
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 58
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 52
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Springfield experiences four distinct seasons with warm summers ideal for outdoor activities and cool winters suitable for holiday visits. Spring (May-June) and fall (September-October) offer pleasant temperatures and lower precipitation.",
+    "summary": "The city enjoys moderate continental climate with warm summers averaging 27-29°C and cold winters around -2 to 2°C. Annual rainfall is distributed evenly with slightly elevated precipitation in spring and early summer months."
+  },
+  "hotels": [
+    {
+      "name": "Budget Inn Express",
+      "neighborhood": "Near Downtown",
+      "pricePerNightUSD": 68,
+      "category": "Budget",
+      "description": "Clean, no-frills hotel with comfortable rooms, complimentary breakfast, and convenient downtown location near attractions."
+    },
+    {
+      "name": "Springfield Commons Hotel",
+      "neighborhood": "Historic District",
+      "pricePerNightUSD": 155,
+      "category": "Mid-range",
+      "description": "Contemporary hotel with modern amenities, on-site restaurant, business center, and prime location in the cultural district."
+    },
+    {
+      "name": "The Grand Springfield Palace",
+      "neighborhood": "Riverside",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "Five-star resort featuring river views, spa services, gourmet dining, concierge, and premium suites with exceptional service."
+    }
+  ]
+}

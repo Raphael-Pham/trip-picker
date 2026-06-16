@@ -11,6 +11,7 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
+    "surprise",
     "hidden-gems",
     "photography",
     "foodie",
@@ -18,411 +19,412 @@
     "relaxation"
   ],
   "scores": {
-    "cost": 72,
+    "cost": 65,
     "food": 88,
     "photography": 92,
-    "activities": 89,
-    "weather": 78
+    "activities": 87,
+    "weather": 75
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 85,
-      "maxPerDayUSD": 135
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
-      "minPerDayUSD": 135,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Asheville mountains autumn",
-  "summary": "Nestled in the Blue Ridge Mountains, Asheville is a vibrant arts hub famous for its eclectic culture, world-class breweries, and stunning natural scenery. The city offers a perfect blend of outdoor adventure, culinary excellence, and bohemian charm with abundant photography opportunities throughout its historic downtown and surrounding landscapes. From waterfall hikes to colorful street art and the iconic Biltmore Estate, Asheville delivers unforgettable experiences for every traveler.",
+  "unsplashQuery": "Asheville Blue Ridge Mountains",
+  "summary": "Nestled in the Blue Ridge Mountains, Asheville is a vibrant arts hub known for its eclectic culture, world-class brewery scene, and stunning natural landscapes. The city seamlessly blends outdoor adventure with urban sophistication, featuring the iconic Biltmore Estate, diverse culinary offerings, and numerous galleries and music venues.",
   "restaurants": [
     {
-      "name": "The Ellington",
+      "name": "The Winery at Biltmore",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale Southern cuisine with locally sourced ingredients and an extensive wine list in a sophisticated setting. Known for elevated takes on Appalachian comfort food.",
-      "mustTry": "Pan-seared trout with local vegetables"
+      "description": "Upscale dining experience at the Biltmore Estate with locally-sourced cuisine and an extensive wine selection. Features French-inspired dishes prepared with Southern ingredients.",
+      "mustTry": "Beef Wellington with local mushrooms"
+    },
+    {
+      "name": "Cote",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Modern French bistro offering seasonal tasting menus and an impressive wine collection. Known for intimate ambiance and creative preparations of local ingredients.",
+      "mustTry": "Duck confit with regional vegetables"
     },
     {
       "name": "Curate",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Spanish tapas restaurant by James Beard Award-winning chef Katie Button featuring authentic small plates and an outstanding cocktail program. Vibrant atmosphere in downtown Asheville.",
-      "mustTry": "Jamón ibérico with pan con tomate"
-    },
-    {
-      "name": "Sunny Point Cafe",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Popular breakfast and brunch spot famous for creative egg dishes and fresh pastries in a cozy, artsy environment. Local favorite with consistently long lines.",
-      "mustTry": "Baked oatmeal with seasonal fruit"
-    },
-    {
-      "name": "White Duck Taco Shop",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual taco stand serving creative, locally-inspired tacos with fresh ingredients and unique flavor combinations. Perfect quick lunch with excellent value.",
-      "mustTry": "Duck confit taco with mango salsa"
-    },
-    {
-      "name": "The Raging Burrito",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Laid-back burrito restaurant with customizable options, fresh ingredients, and vegetarian-friendly choices. Affordable and filling with quick service.",
-      "mustTry": "Black bean burrito with house salsa"
-    },
-    {
-      "name": "Posana Cafe",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Plant-based and health-conscious eatery emphasizing organic, locally-sourced ingredients with diverse international flavors. Welcoming vegan and vegetarian destination.",
-      "mustTry": "Cashew alfredo pasta with seasonal vegetables"
+      "description": "Spanish tapas restaurant featuring small plates, cured meats, and cheeses with a lively atmosphere. Perfect for sharing and sampling multiple dishes.",
+      "mustTry": "Jamón ibérico with local cheese"
     },
     {
-      "name": "Bouchon",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "French bistro with refined preparations and an impressive wine selection focusing on seasonal, locally-sourced ingredients. Intimate and romantic dining experience.",
-      "mustTry": "Beef bourguignon with root vegetables"
+      "name": "The Laughing Seed Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Vegetarian-friendly restaurant emphasizing fresh, locally-sourced ingredients with creative vegetable-forward cooking. Known for innovative preparations and gluten-free options.",
+      "mustTry": "Seasonal vegetable enchiladas"
     },
     {
       "name": "Early Girl Eatery",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Southern comfort food restaurant serving homestyle cooking with organic and local ingredients in a warm, family-friendly atmosphere. Classic Appalachian flavors done right.",
-      "mustTry": "Fried chicken with buttermilk biscuits"
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual, farm-to-table restaurant focused on breakfast and lunch with a commitment to local sourcing. Popular breakfast spot with large portions and reasonable prices.",
+      "mustTry": "Organic eggs with local pastries"
     },
     {
       "name": "Chai Pani",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Vibrant Indian street food restaurant by James Beard Award winner Floyd Cardoz featuring ghat-inspired cuisine with bold spices and creative preparations. Casual but sophisticated.",
-      "mustTry": "Bhelpuri with tamarind chutney"
+      "description": "Award-winning Indian street food restaurant offering regional Indian cuisine in a casual setting. Known for bold flavors and authentic preparations.",
+      "mustTry": "Pav bhaji and chai service"
     },
     {
-      "name": "Craggy Brewing Company",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Craft brewery with a full restaurant menu serving innovative beers alongside wood-fired pizza and pub fare. Popular spot to experience Asheville's brewing culture.",
-      "mustTry": "House IPA with wood-fired margherita pizza"
-    },
-    {
-      "name": "Vivian Restaurant",
+      "name": "Rhubarb",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Contemporary American cuisine with Italian influences using seasonal ingredients and creative technique in an elegant setting. Known for exceptional service and wine pairings.",
-      "mustTry": "Handmade pasta with duck ragù"
+      "description": "Contemporary American restaurant in the historic Asheville neighborhood with seasonal menus and craft cocktails. Features locally-raised proteins and foraged ingredients.",
+      "mustTry": "North Carolina mountain trout"
     },
     {
-      "name": "Ginger's Bread House",
+      "name": "Gajapati Nivas",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual cafe and bakery serving fresh sandwiches, soups, and baked goods with vegetarian options and excellent coffee. Great for quick lunch or afternoon treat.",
-      "mustTry": "Tomato soup with grilled cheese sandwich"
+      "description": "Casual South Indian restaurant featuring dosas, idlis, and curries at affordable prices. Authentic flavors with vegetarian-friendly options.",
+      "mustTry": "Masala dosa with sambar"
+    },
+    {
+      "name": "Tupelo Honey Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Southern comfort food restaurant celebrating regional Appalachian cuisine with a modern twist. Popular for brunch with creative takes on classic dishes.",
+      "mustTry": "Shrimp and grits with local produce"
+    },
+    {
+      "name": "Biscuit Head",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual bakery and brunch spot known for fresh-baked biscuits and creative breakfast sandwiches. Quick service with quality ingredients.",
+      "mustTry": "Savory biscuit breakfast sandwich"
+    },
+    {
+      "name": "Strada",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Neapolitan-style pizza restaurant with wood-fired oven and carefully sourced ingredients. Casual atmosphere with craft beers on tap.",
+      "mustTry": "Margherita pizza with local mozzarella"
+    },
+    {
+      "name": "Sunny Point Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Eclectic neighborhood cafe serving breakfast and lunch with an emphasis on local sourcing and creative vegetarian options. Cozy atmosphere with local art.",
+      "mustTry": "Scrambled eggs with seasonal vegetables"
     }
   ],
   "activities": [
     {
-      "name": "Hiking to Linville Falls",
-      "category": "Outdoor",
-      "description": "Spectacular waterfall hike featuring a 45-minute round trip trail with stunning views of a 90-foot cascading waterfall in the Blue Ridge Mountains. One of North Carolina's most iconic natural attractions.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "photography"
-      ]
-    },
-    {
       "name": "Biltmore Estate Tour",
       "category": "Cultural",
-      "description": "Tour America's largest privately-owned mansion with 250 rooms, stunning gardens, and museum exhibits showcasing Gilded Age opulence. Self-guided or docent-led options available.",
+      "description": "Explore America's largest privately-owned mansion, built by George Vanderbilt II in 1895. The 250-room mansion features exquisite architecture, art collections, and 8,000 acres of grounds.",
       "durationHours": 4,
       "estimatedCostUSD": 89,
       "bestFor": [
         "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Brewery Tours & Tastings",
-      "category": "Nightlife",
-      "description": "Asheville has over 30 craft breweries, many offering tours and tastings of award-winning beers in unique settings. Most breweries are clustered in South Slope for easy brewery hopping.",
-      "durationHours": 3,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "foodie",
+        "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Blue Ridge Parkway Scenic Drive",
+      "name": "Blue Ridge Parkway Drive",
       "category": "Outdoor",
-      "description": "Drive the stunning 469-mile parkway with countless pullouts offering panoramic mountain vistas, particularly beautiful during fall foliage season. Many hiking trails accessible from the parkway.",
+      "description": "Drive one of America's most scenic routes with 469 miles of stunning mountain views, numerous pullouts, and hiking access. Best experienced as a multi-day journey with stops at overlooks.",
       "durationHours": 6,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "relaxation"
+        "adventure"
       ]
     },
     {
-      "name": "Downtown Asheville Art District Walk",
+      "name": "Chimney Rock State Park",
+      "category": "Outdoor",
+      "description": "Day trip featuring 404-foot chimney rock tower with panoramic views of three states. Multiple waterfall hikes and scenic trails accessible from the main area.",
+      "durationHours": 4,
+      "estimatedCostUSD": 17,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "French Broad River Whitewater Rafting",
+      "category": "Adventure",
+      "description": "Navigate exciting Class III and IV rapids through scenic river canyon with professional guides. Half-day and full-day trips available for various skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Asheville Urban Trail Walking Tour",
       "category": "Cultural",
-      "description": "Explore colorful street art, galleries, murals, and the vibrant bohemian culture of downtown Asheville on foot. Many galleries and shops offer free entry with excellent photo opportunities.",
+      "description": "Self-guided 1.7-mile walk through downtown covering 30 stations of local history, architecture, and culture. Free with helpful map available at visitor center.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "hidden-gems",
-        "photography",
-        "foodie"
+        "photography"
       ]
     },
     {
-      "name": "Waterfall Cascade Tour",
-      "category": "Adventure",
-      "description": "Guided adventure featuring rappelling down multiple waterfalls in scenic gorges with professional equipment and instruction. Thrilling experience for adventure seekers.",
-      "durationHours": 5,
-      "estimatedCostUSD": 199,
-      "bestFor": [
-        "adventure",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Pisgah National Forest Exploration",
+      "name": "Cataloochee Valley Scenic Drive",
       "category": "Outdoor",
-      "description": "Vast forest offering hiking trails of all difficulty levels, scenic vistas, and pristine natural landscapes just outside the city. Home to numerous waterfalls and mountain views.",
-      "durationHours": 4,
+      "description": "Drive through pristine valley within Great Smoky Mountains with elk herds, historic homesteads, and wildlife viewing opportunities. Excellent for photography and nature exploration.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "adventure",
         "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "River Kayaking on French Broad River",
-      "category": "Adventure",
-      "description": "Paddle the scenic French Broad River through Asheville with rental companies offering guided or self-guided trips suitable for all skill levels. Beautiful way to see the city and surrounding nature.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
-      "bestFor": [
         "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Farmer's Market & Local Food Scene",
-      "category": "Foodie",
-      "description": "Year-round farmers market featuring local produce, artisans, and prepared foods showcasing the region's culinary culture. Perfect for sampling local flavors and meeting vendors.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "foodie",
         "hidden-gems"
       ]
     },
     {
-      "name": "Mountain Biking at Bent Creek",
+      "name": "Brewery Tours and Tastings",
+      "category": "Nightlife",
+      "description": "Explore Asheville's renowned craft brewery scene with tastings and tours at multiple locations. The city hosts over 30 breweries within walking distance downtown.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Hiking to Laurel Falls",
       "category": "Adventure",
-      "description": "Free, beginner-friendly mountain biking trails in Bent Creek Experimental Forest with well-maintained paths through scenic forest. Great for all skill levels with multiple route options.",
+      "description": "Moderate 2.6-mile round trip hike to a cascading 45-foot waterfall through mountain forest. Beautiful year-round with wildflowers in spring and fall colors in autumn.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "adventure",
-        "relaxation"
+        "photography"
       ]
     },
     {
-      "name": "Performing Arts & Live Music Venues",
-      "category": "Nightlife",
-      "description": "Asheville's thriving music scene features live performances nightly at venues ranging from intimate clubs to concert halls. Known for diverse genres including bluegrass, rock, and indie.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Grove Arcade Public Market",
-      "category": "Family",
-      "description": "Historic covered market built in 1920s with independent vendors selling crafts, art, food, and local goods. Victorian arcade architecture adds to the charm of browsing.",
+      "name": "Grove Arcade Public Market Exploration",
+      "category": "Indoor",
+      "description": "Browse restored 1920s arcade featuring local artisans, crafts, food vendors, and unique shops. Historic covered market in downtown with indoor and outdoor shopping.",
       "durationHours": 2,
       "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "foodie",
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Blue Ridge Parkway Overlook Sunrise Viewing",
+      "category": "Outdoor",
+      "description": "Wake before dawn to witness spectacular sunrise views from various parkway overlooks with fog-filled valleys and mountain vistas. Best from June-September for reliable weather.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Local Art Gallery Crawl",
+      "category": "Cultural",
+      "description": "Explore dozens of independent galleries and artist studios throughout downtown Asheville. Free walking route covering contemporary art, traditional crafts, and experimental works.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
         "hidden-gems"
+      ]
+    },
+    {
+      "name": "Looking Glass Falls Photography Hike",
+      "category": "Outdoor",
+      "description": "Easy 0.8-mile walk to the most photographed waterfall in North Carolina, featuring a 60-foot cascading waterfall with accessible viewing platform. Popular sunrise and sunset spot.",
+      "durationHours": 1,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Linville Falls Overlook",
-        "description": "Dramatic 90-foot waterfall framed by forested cliffs offering multiple vantage points for capturing the cascading water and surrounding landscape.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light, after rainfall for increased water flow",
-        "category": "Landscape"
-      },
-      {
-        "name": "Blue Ridge Parkway Overlook (Craggy Gardens)",
-        "description": "Expansive mountain vistas with rolling ridges and wildflowers in season, providing panoramic landscape photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm light, September-October for fall colors",
-        "category": "Landscape"
-      },
-      {
-        "name": "Biltmore Estate Exterior",
-        "description": "Iconic French Renaissance mansion with manicured gardens and architectural details providing stunning composition opportunities.",
+        "name": "Craggy Gardens",
+        "description": "Stunning alpine meadows with rhododendron thickets and panoramic mountain views accessible via moderate hiking trail.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning light on south facade, sunset on grounds",
-        "category": "Architecture"
-      },
-      {
-        "name": "Downtown Asheville Murals (South Slope)",
-        "description": "Vibrant street art and colorful building murals create dynamic compositions with urban decay and artistic elements.",
-        "difficulty": "Beginner",
-        "bestTime": "Overcast days to avoid harsh shadows, afternoon for side lighting",
-        "category": "Street"
-      },
-      {
-        "name": "Looking Glass Falls",
-        "description": "Easily accessible 60-foot waterfall surrounded by hemlock forest, perfect for capturing flowing water with lush green surroundings.",
-        "difficulty": "Beginner",
-        "bestTime": "Cloudy days for even lighting, spring for higher water volume",
+        "bestTime": "June for blooming rhododendrons, fall for golden light",
         "category": "Landscape"
+      },
+      {
+        "name": "Biltmore Estate Grounds",
+        "description": "Architecturally magnificent mansion with manicured gardens, reflecting pools, and multiple scenic angles with banked azaleas and seasonal blooms.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring for flower blooms, golden hour for facade lighting",
+        "category": "Architecture"
       },
       {
         "name": "French Broad River Greenway",
-        "description": "River landscapes with bridges, surrounding vegetation, and wildlife opportunities along this urban recreational path.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunrise and sunset for golden light, autumn for foliage colors",
+        "description": "Scenic riverside trail with bridges, water reflections, and surrounding vegetation creating dramatic compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light and mist",
         "category": "Landscape"
       },
       {
-        "name": "Pack Square Downtown",
-        "description": "Historic downtown plaza with architecture, street performers, and vibrant urban energy offering street and cultural photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour, weekends for more activity",
+        "name": "Downtown Street Art and Murals",
+        "description": "Vibrant street art, murals, and architectural details throughout South Slope and downtown neighborhoods.",
+        "difficulty": "Beginner",
+        "bestTime": "Cloudy days to avoid harsh shadows on murals",
         "category": "Street"
       },
       {
-        "name": "Cataloochee Valley",
-        "description": "Historic valley with old cabins, pastoral landscapes, and wildflower meadows offering rural Appalachian character and wildlife.",
+        "name": "Cataloochee Valley Wildlife",
+        "description": "Pristine valley with wild elk herds, historic homesteads, and dramatic morning mist creating ideal wildlife and landscape photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Spring for rhododendrons, sunrise for mist in valley",
-        "category": "Landscape"
+        "bestTime": "Early morning for elk sightings and soft light",
+        "category": "Wildlife"
       },
       {
-        "name": "Chimney Rock State Park",
-        "description": "Dramatic granite cliff formations with 404-foot waterfall and panoramic valley views providing stunning geological photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Clear days for visibility, autumn for colors",
-        "category": "Landscape"
-      },
-      {
-        "name": "Brevard Covered Bridge",
-        "description": "Historic red covered bridge with reflections in the surrounding water and forest, offering classic Americana and architectural shots.",
+        "name": "Looking Glass Falls",
+        "description": "Iconic 60-foot cascading waterfall with easily accessible viewing platform and rich surrounding forest creating layered compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour, overcast days for even exposure",
+        "bestTime": "Spring runoff for powerful water flow, golden hour for side lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Blue Ridge Parkway Viaduct",
+        "description": "Engineering marvel of curved concrete bridge with dramatic mountain backdrop and multiple compositional angles.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm bridge tones, clear mornings for definition",
         "category": "Architecture"
+      },
+      {
+        "name": "Pisgah National Forest Old Growth",
+        "description": "Ancient forest with massive trees, dappled light through canopy, and forest floor details creating intimate landscape opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "After rain for enhanced textures and mist, fall for color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Grove Arcade Historic Market",
+        "description": "Restored 1920s arcade interior with architectural details, vendor displays, and covered passageways offering sheltered urban photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for consistent interior lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Laurel Falls Mountain Vista",
+        "description": "Waterfall with surrounding mountain backdrop accessible via moderate hike, offering both cascade detail and landscape context.",
+        "difficulty": "Intermediate",
+        "bestTime": "Spring for water volume, early morning for soft light through mist",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Craggy Gardens on Blue Ridge Parkway",
-      "Max Patch Grassy Bald",
-      "Looking Glass Rock overlook"
+      "Craggy Gardens Overlook",
+      "Blue Ridge Parkway Milepost 411",
+      "Max Patch Bald Meadow"
     ],
     "sunsetSpots": [
-      "Blue Ridge Parkway near Folk Art Center",
-      "Biltmore Estate grounds",
-      "French Broad River Greenway"
+      "Asheville Overlook on Blue Ridge Parkway",
+      "Roan Mountain Balds",
+      "Chimney Rock Top Platform"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for expansive mountain vistas and waterfall landscapes",
-      "70-200mm telephoto for wildlife, distant ridges, and compressed perspectives",
-      "35mm prime for street photography and cultural urban scenes",
-      "24mm prime for architectural details at Biltmore and historic sites"
+      "16-35mm wide-angle for landscape vistas and parkway overlooks",
+      "70-200mm telephoto for wildlife in Cataloochee and compressed mountain layers",
+      "50mm prime for street art, architecture details, and low-light brewery interiors"
     ],
-    "goldenHourNotes": "Asheville's mountain terrain creates dramatic golden hour lighting with side-lit ridges and valleys. The surrounding peaks create natural directional light that emphasizes texture and depth. Early morning mist in valleys adds atmospheric quality while late afternoon light warmly illuminates historic architecture and wildflower meadows.",
+    "goldenHourNotes": "Golden hour in Asheville occurs around 7:30-8:30 AM and 5:30-6:30 PM depending on season. The elevation (2,200 feet) extends golden hour compared to lower elevations. Mountain valleys create extended warm light periods, especially from overlooks facing west across layered ridges. Misty mornings in spring create dramatic diffused golden light perfect for waterfall photography.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 3,
+        "avgTempC": 4,
         "rainfallMM": 97
       },
       {
         "month": 2,
-        "avgTempC": 5,
-        "rainfallMM": 102
+        "avgTempC": 6,
+        "rainfallMM": 99
       },
       {
         "month": 3,
         "avgTempC": 11,
-        "rainfallMM": 107
+        "rainfallMM": 108
       },
       {
         "month": 4,
-        "avgTempC": 16,
-        "rainfallMM": 107
+        "avgTempC": 17,
+        "rainfallMM": 110
       },
       {
         "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 114
+        "avgTempC": 22,
+        "rainfallMM": 124
       },
       {
         "month": 6,
-        "avgTempC": 25,
-        "rainfallMM": 127
+        "avgTempC": 26,
+        "rainfallMM": 146
       },
       {
         "month": 7,
-        "avgTempC": 27,
-        "rainfallMM": 142
+        "avgTempC": 28,
+        "rainfallMM": 152
       },
       {
         "month": 8,
-        "avgTempC": 26,
-        "rainfallMM": 127
+        "avgTempC": 27,
+        "rainfallMM": 140
       },
       {
         "month": 9,
         "avgTempC": 23,
-        "rainfallMM": 107
+        "rainfallMM": 115
       },
       {
         "month": 10,
         "avgTempC": 17,
-        "rainfallMM": 86
+        "rainfallMM": 98
       },
       {
         "month": 11,
-        "avgTempC": 11,
-        "rainfallMM": 102
+        "avgTempC": 12,
+        "rainfallMM": 104
       },
       {
         "month": 12,
-        "avgTempC": 5,
-        "rainfallMM": 102
+        "avgTempC": 6,
+        "rainfallMM": 109
       }
     ],
     "bestMonths": [
@@ -431,31 +433,31 @@
       9,
       10
     ],
-    "seasonality": "Fall (September-October) offers spectacular foliage and crisp weather, while spring (April-May) brings wildflowers and mild temperatures. Summer can be warm and humid with afternoon thunderstorms, while winter brings cooler temperatures with occasional snow at higher elevations.",
-    "summary": "Asheville experiences a humid subtropical highland climate with mild winters and warm summers moderated by mountain elevation. The region receives significant rainfall year-round, particularly in summer months, but offers distinct seasonal beauty from spring blooms to autumn colors."
+    "seasonality": "Asheville experiences four distinct seasons with spring (April-May) and fall (September-October) offering the most pleasant weather, comfortable temperatures, and lower humidity. Summer (June-August) brings warm weather but increased rainfall and crowds, while winter (December-February) is cold with occasional snow but fewer tourists.",
+    "summary": "The Blue Ridge Mountains provide a temperate climate with mild winters averaging 6°C and warm summers around 27°C. Annual rainfall of approximately 1,400mm is well-distributed throughout the year, with higher precipitation during summer months, making the region lush and green with reliable waterfall flows."
   },
   "hotels": [
     {
-      "name": "Campfire Asheville",
-      "neighborhood": "South Slope",
+      "name": "Beaucatcher Inn",
+      "neighborhood": "Downtown Asheville",
       "pricePerNightUSD": 89,
       "category": "Budget",
-      "description": "Colorful, stylish budget hotel with retro-modern design, local art, and a social atmosphere perfect for travelers seeking affordable comfort in the trendy South Slope brewing district."
+      "description": "Charming budget-friendly inn with clean rooms, friendly staff, and convenient downtown location near restaurants and galleries."
     },
     {
-      "name": "The Omni Asheville Hotel on Haywood",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 179,
+      "name": "The Swag",
+      "neighborhood": "Maggie Valley",
+      "pricePerNightUSD": 165,
       "category": "Mid-range",
-      "description": "Contemporary downtown hotel with rooftop bar, fitness center, and convenient access to restaurants, galleries, and cultural attractions with modern amenities and excellent service."
+      "description": "Mountain resort with comfortable rooms, on-site restaurant, hiking trails, and panoramic mountain views just 20 minutes from downtown."
     },
     {
-      "name": "The Windsor Boutique Hotel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 349,
+      "name": "Biltmore Historic Estates Inn",
+      "neighborhood": "Estate District",
+      "pricePerNightUSD": 289,
       "category": "Luxury",
-      "description": "Upscale boutique hotel housed in a historic building featuring luxurious rooms, exceptional service, on-site dining, and a spa in the heart of downtown Asheville's cultural district."
+      "description": "Upscale hotel adjacent to the Biltmore Estate featuring elegant rooms, fine dining, spa services, and exclusive access to estate grounds at dawn and dusk."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1572989755981-d6362c2bd279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBc2hldmlsbGUlMjBtb3VudGFpbnMlMjBhdXR1bW58ZW58MXwwfHx8MTc4MTMwMzIwOHww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1617912172807-ceaf08ba7bf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBc2hldmlsbGUlMjBCbHVlJTIwUmlkZ2UlMjBNb3VudGFpbnN8ZW58MXwwfHx8MTc4MTYyNzk3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
 }

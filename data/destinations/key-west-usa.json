@@ -1,0 +1,464 @@
+{
+  "id": "key-west-usa",
+  "city": "Key West",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "EYW",
+    "MIA",
+    "FLL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 92,
+    "photography": 88,
+    "activities": 85,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 90,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 280
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 280,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Key West sunset pier",
+  "summary": "Key West is a vibrant island destination at the southernmost point of the continental United States, famous for its laid-back Caribbean atmosphere, world-class seafood, and stunning ocean sunsets. The city offers a unique blend of cultural attractions, water sports, and nightlife surrounded by crystal-clear waters perfect for diving and snorkeling. With colorful historic architecture, eclectic art galleries, and year-round warm weather, Key West delivers an unforgettable tropical escape.",
+  "restaurants": [
+    {
+      "name": "El Siboney",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Family-owned Cuban restaurant serving authentic dishes in a casual, unpretentious setting. Known for generous portions and flavor-packed traditional Cuban cuisine.",
+      "mustTry": "Ropa Vieja"
+    },
+    {
+      "name": "Conch Republic Seafood Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual waterfront seafood shack with picnic table seating and fresh daily catches. Perfect for conch salad and fish tacos with an ocean breeze.",
+      "mustTry": "Conch Salad"
+    },
+    {
+      "name": "Latitudes",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Beachfront fine dining establishment located on Sunset Key with elegant cuisine and unparalleled sunset views. Accessible by boat with complimentary ferry service.",
+      "mustTry": "Pan-seared mahi-mahi"
+    },
+    {
+      "name": "Santiago's Bodega",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant with an extensive wine selection and intimate atmosphere. Features jamón ibérico, patatas bravas, and seasonal Spanish dishes.",
+      "mustTry": "Gambas al Ajillo"
+    },
+    {
+      "name": "Cafe Solé",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Small intimate restaurant focusing on fresh local ingredients and New American cuisine. Only seats 30 guests with nightly changing menu based on daily catches.",
+      "mustTry": "Catch of the Day"
+    },
+    {
+      "name": "Blue Heaven",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic bohemian institution with roosters roaming freely and live music nightly. Serves fresh seafood and Caribbean dishes in a colorful, eccentric setting.",
+      "mustTry": "Shrimp and grits"
+    },
+    {
+      "name": "Louie's Backyard",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale oceanfront restaurant with contemporary American cuisine and an extensive wine list. Features a heated pool and lounge area with sunset views.",
+      "mustTry": "Pan-roasted fish"
+    },
+    {
+      "name": "The Hurricane Seafood Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual waterfront dining offering fresh seafood and tropical drinks with views of the water and sunset. Family-friendly atmosphere with daily specials.",
+      "mustTry": "Grilled grouper sandwich"
+    },
+    {
+      "name": "Thai Island",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Thai restaurant offering flavorful curries, pad thai, and fresh spring rolls at reasonable prices. Popular with locals for quality and value.",
+      "mustTry": "Green curry with seafood"
+    },
+    {
+      "name": "Pepe's Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic Key West establishment since 1909 serving hearty breakfast and lunch fare. Known for strong Cuban coffee and traditional breakfast sandwiches.",
+      "mustTry": "Sandwich a la Cubana"
+    },
+    {
+      "name": "Waterfront Market & Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Fresh market with prepared foods, sandwiches, and salads ideal for lunch or picnics. Features local produce and quality ingredients.",
+      "mustTry": "Mahi-mahi sandwich"
+    },
+    {
+      "name": "Truman Hotel Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary restaurant in a historic hotel offering fresh seafood and local ingredients with craft cocktails. Modern ambiance in a beautifully restored building.",
+      "mustTry": "Yellowtail snapper"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling at Dry Tortugas National Park",
+      "category": "Adventure",
+      "description": "Full-day excursion to pristine coral reefs and crystal-clear waters 70 miles off the coast. Includes ferry or seaplane transportation with snorkeling gear, featuring abundant marine life and historic Fort Jefferson.",
+      "durationHours": 10,
+      "estimatedCostUSD": 195,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mallory Square Sunset Celebration",
+      "category": "Cultural",
+      "description": "Free nightly gathering featuring street performers, artists, musicians, and food vendors celebrating the sunset. A unique Key West tradition with carnival-like atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Key West Butterfly Conservatory",
+      "category": "Indoor",
+      "description": "Indoor tropical garden housing thousands of live butterflies from around the world. Climate-controlled enclosure with diverse butterfly species and educational displays.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "photography",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Scuba Diving Deep Sea Adventure",
+      "category": "Adventure",
+      "description": "Guided dive trips to reefs, wrecks, and deep-sea locations off Key West with experienced instructors. Suitable for certified divers with options for certification courses.",
+      "durationHours": 5,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Ernest Hemingway Home and Museum",
+      "category": "Cultural",
+      "description": "Historic home of famous author featuring original furnishings, personal artifacts, and the famous six-toed cats. Guided tours provide insight into Hemingway's life and literary contributions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Glass Bottom Boat Tour",
+      "category": "Outdoor",
+      "description": "Unique vessel with underwater viewing windows allowing observation of coral reefs and marine life without getting wet. Educational narration about reef ecology and local marine species.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "family",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Duval Street Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized walking tour through Key West's most famous street featuring historic buildings, galleries, shops, and bars. Covers the heart of Old Town with 19th-century architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Sunset Sail",
+      "category": "Outdoor",
+      "description": "Evening sailing adventure aboard a traditional or catamaran sailboat watching the spectacular sunset from the water. Often includes drinks, snacks, and live music with dolphin sightings possible.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fort Zachary Taylor State Park",
+      "category": "Outdoor",
+      "description": "Historic Civil War fort offering guided tours, beach access, and snorkeling opportunities. Features museum exhibits and panoramic views of the harbor and keys.",
+      "durationHours": 3,
+      "estimatedCostUSD": 7,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Key West Distillery Tour",
+      "category": "Cultural",
+      "description": "Behind-the-scenes tour of craft rum production including the history of rum in Key West and tasting samples. Interactive experience with knowledgeable staff explaining production methods.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kayaking Through Mangrove Forests",
+      "category": "Adventure",
+      "description": "Guided kayak tours through pristine mangrove ecosystems and shallow waters with abundant wildlife observation opportunities. Perfect for spotting manatees, dolphins, and tropical fish.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "nature"
+      ]
+    },
+    {
+      "name": "Conch Bar Crawl",
+      "category": "Nightlife",
+      "description": "Guided tour visiting multiple historic bars and establishments along Duval Street with drinks and entertainment. Learn local history while experiencing Key West's famous nightlife scene.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "nightlife",
+        "foodie",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Mallory Square Sunset",
+        "description": "Iconic sunset viewing location featuring dramatic sky colors, street performers silhouettes, and carnival-like atmosphere perfect for candid and landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset to 15 minutes after",
+        "category": "Landscape"
+      },
+      {
+        "name": "Southernmost Point Buoy",
+        "description": "Famous red and black striped marker marking the southernmost point of continental USA with ocean backdrop and colorful tourist activity.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or early morning for fewer crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Fort Jefferson Moat",
+        "description": "Massive Civil War-era fort surrounded by turquoise moat water with dramatic brick architecture and historical detail perfect for wide-angle compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for architectural detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Duval Street at Night",
+        "description": "Vibrant street photography opportunities with neon signs, street performers, colorful facades, and bustling nightlife creating dynamic urban scenes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk to midnight for neon glow and activity",
+        "category": "Night"
+      },
+      {
+        "name": "Hemingway Home Gardens",
+        "description": "Lush tropical gardens with six-toed cats, colorful plants, and historic architecture offering intimate compositional opportunities and wildlife photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light through filtered canopy",
+        "category": "Landscape"
+      },
+      {
+        "name": "Sunset Key Beach",
+        "description": "Pristine beach with palm trees, clear turquoise water, and sunset reflections providing classic tropical paradise compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, 30 minutes before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Shipping Wharves",
+        "description": "Weathered docks, colorful boats, and maritime details with rustic textures and character ideal for documentary and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light revealing textures",
+        "category": "Architecture"
+      },
+      {
+        "name": "Coral Reef Wildlife",
+        "description": "Underwater photography of vibrant coral formations, tropical fish, and marine life during snorkeling and diving excursions requiring specialized equipment.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for best water visibility and light penetration",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Old Town Bungalows",
+        "description": "Charming historic pastel-colored houses with white picket fences, tropical plants, and weathered architecture on quiet residential streets.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or late afternoon for directional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dolphin Encounter at Sunrise",
+        "description": "Wildlife photography of wild dolphins in their natural habitat during early morning water activities with dramatic lighting conditions.",
+        "difficulty": "Advanced",
+        "bestTime": "One hour after sunrise during boat tours",
+        "category": "Wildlife"
+      }
+    ],
+    "sunriseSpots": [
+      "Fort Zachary Taylor State Park",
+      "Smathers Beach",
+      "Key West Pier"
+    ],
+    "sunsetSpots": [
+      "Mallory Square",
+      "Sunset Key",
+      "South Pointe Park"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for expansive sunset landscapes and architectural sweeps",
+      "50mm prime for intimate street photography and detail work in Old Town",
+      "70-200mm telephoto for wildlife, dolphin encounters, and compressed cityscapes",
+      "Macro or 100mm for close-up flower and garden photography at Hemingway estate"
+    ],
+    "goldenHourNotes": "Key West experiences exceptional golden hour lighting from 30 minutes before sunset through 15 minutes after, with dramatic color gradients ranging from deep oranges to purples reflecting off calm ocean waters. The unique geography with water surrounding the island provides 360-degree sunset opportunities. Morning golden hour is equally spectacular for architectural work with warm side-lighting illuminating historic pastel buildings.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 21,
+        "rainfallMM": 58
+      },
+      {
+        "month": 2,
+        "avgTempC": 22,
+        "rainfallMM": 61
+      },
+      {
+        "month": 3,
+        "avgTempC": 24,
+        "rainfallMM": 53
+      },
+      {
+        "month": 4,
+        "avgTempC": 26,
+        "rainfallMM": 78
+      },
+      {
+        "month": 5,
+        "avgTempC": 28,
+        "rainfallMM": 114
+      },
+      {
+        "month": 6,
+        "avgTempC": 29,
+        "rainfallMM": 127
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 137
+      },
+      {
+        "month": 8,
+        "avgTempC": 30,
+        "rainfallMM": 130
+      },
+      {
+        "month": 9,
+        "avgTempC": 29,
+        "rainfallMM": 152
+      },
+      {
+        "month": 10,
+        "avgTempC": 27,
+        "rainfallMM": 152
+      },
+      {
+        "month": 11,
+        "avgTempC": 25,
+        "rainfallMM": 114
+      },
+      {
+        "month": 12,
+        "avgTempC": 22,
+        "rainfallMM": 71
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "seasonality": "Key West experiences two distinct seasons: the dry winter season (November to April) with pleasant temperatures and minimal rainfall, and the hot, humid rainy season (May to October) with frequent afternoon thunderstorms and hurricane risk peaking in September. Water temperatures range from 22°C in winter to 29°C in summer.",
+    "summary": "Key West enjoys a tropical maritime climate with warm temperatures year-round averaging 22-30°C. The destination is ideal during the winter dry season when rainfall is minimal and temperatures are comfortable, while the summer months bring increased rainfall, humidity, and occasional hurricane threats."
+  },
+  "hotels": [
+    {
+      "name": "The Marker Waterfront Resort",
+      "neighborhood": "Downtown Key West",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Modern luxury resort with rooftop pool, waterfront location, full-service spa, and contemporary rooms featuring Gulf views and premium amenities."
+    },
+    {
+      "name": "Pillar Hotel",
+      "neighborhood": "Old Town",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Historic mid-range hotel in restored building with modern rooms, outdoor pool, and convenient location near Duval Street and local attractions."
+    },
+    {
+      "name": "Southernmost House Hotel",
+      "neighborhood": "Southernmost Point",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Budget-friendly historic hotel near the iconic Southernmost Point buoy offering basic but clean rooms and convenient access to beaches and attractions."
+    }
+  ]
+}

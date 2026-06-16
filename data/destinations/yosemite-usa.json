@@ -4,24 +4,23 @@
   "country": "USA",
   "region": "North America",
   "airportCodes": [
-    "FAT",
     "SFO",
-    "OAK"
+    "OAK",
+    "FAT"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
     "photography",
     "adventure",
-    "relaxation",
-    "hidden-gems"
+    "relaxation"
   ],
   "scores": {
-    "cost": 35,
+    "cost": 45,
     "food": 72,
     "photography": 98,
-    "activities": 96,
-    "weather": 78
+    "activities": 95,
+    "weather": 82
   },
   "budgetRanges": [
     {
@@ -40,112 +39,100 @@
       "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Yosemite Valley waterfalls",
-  "summary": "Yosemite National Park is a breathtaking wilderness sanctuary featuring towering granite cliffs, cascading waterfalls, and ancient giant sequoias in California's Sierra Nevada mountains. Home to world-class hiking, rock climbing, and some of the most iconic photography locations on Earth, Yosemite offers unforgettable outdoor adventures for all skill levels. The park's stunning natural beauty and diverse ecosystems make it one of America's most treasured destinations.",
+  "unsplashQuery": "Yosemite granite cliffs",
+  "summary": "Yosemite National Park is a breathtaking wilderness featuring iconic granite cliffs, cascading waterfalls, giant sequoias, and pristine alpine meadows that attract photographers and adventurers worldwide. With over 1,200 square miles of stunning landscapes and world-class outdoor activities, it's one of America's most visited and photographed national parks.",
   "restaurants": [
     {
-      "name": "The Majestic Yosemite Hotel Dining Room",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale restaurant within the historic Majestic Yosemite Hotel offering contemporary California cuisine with Yosemite Valley views. Features seasonal menus highlighting local ingredients and an extensive wine list.",
-      "mustTry": "Pan-seared trout with Sierra Nevada herbs"
+      "name": "Degnan's Kitchen",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual dining spot in Yosemite Village offering sandwiches, salads, and wraps with fresh ingredients. Quick service perfect for grabbing lunch before hitting the trails.",
+      "mustTry": "Turkey and avocado sandwich"
+    },
+    {
+      "name": "Tuolumne Meadows Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Seasonal outdoor grill serving burgers, hot dogs, and simple fare in a scenic high-altitude setting. Great for a casual meal with mountain views.",
+      "mustTry": "Grilled burger"
     },
     {
       "name": "Mountain Room Restaurant",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual fine dining at Yosemite Valley Lodge with floor-to-ceiling windows overlooking waterfalls and cliffs. Known for steaks, salmon, and creative vegetarian options.",
-      "mustTry": "Grilled salmon with seasonal vegetables"
+      "description": "Contemporary dining with floor-to-ceiling windows overlooking Yosemite Falls, offering American cuisine with seasonal menus. Reservations highly recommended.",
+      "mustTry": "Pan-seared fish with local vegetables"
     },
     {
-      "name": "Yosemite Valley Lodge Cafeteria",
+      "name": "Curry Village Pizza Patio",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Quick-service dining with diverse options including sandwiches, salads, pizza, and grab-and-go items perfect for hikers. Limited seating with convenient location.",
-      "mustTry": "Breakfast burritos and fresh pastries"
+      "description": "Casual pizzeria with outdoor seating offering wood-fired pizzas and simple Italian fare. Popular gathering spot for families and hikers.",
+      "mustTry": "Margherita pizza"
     },
     {
-      "name": "Tuolumne Meadows Grill and Burger Bar",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Rustic outdoor grill in Tuolumne Meadows serving burgers, hot dogs, and sandwiches in a scenic alpine setting. Open seasonally during summer months.",
-      "mustTry": "Grilled burger with mountain views"
-    },
-    {
-      "name": "Wawona Hotel Dining Room",
+      "name": "The Majestic Yosemite Hotel Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Historic Victorian-era restaurant in the charming Wawona Hotel featuring farm-to-table cuisine and classic American dishes. Elegant ambiance with fireplace dining.",
+      "description": "Elegant dining in a historic 1927 hotel featuring classic American cuisine and an extensive wine list with fine service and elegant ambiance.",
       "mustTry": "Prime rib with seasonal sides"
     },
     {
-      "name": "Curry Village Pizzeria",
-      "category": "Budget",
+      "name": "Wawona Hotel Dining Room",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Classic hotel restaurant with family-style dining and a fireplace, serving comfort food and regional specialties in a historic setting.",
+      "mustTry": "Roasted chicken dinner"
+    },
+    {
+      "name": "Ahwahnee Lounge",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic lounge offering light fare, cocktails, and appetizers in an architecturally stunning room with natural stone and massive windows.",
+      "mustTry": "Local craft cocktails"
+    },
+    {
+      "name": "White Wolf Lodge Dining",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Seasonal rustic dining experience with family-style service offering hearty American meals in an intimate mountain lodge setting.",
+      "mustTry": "Family-style comfort food platters"
+    },
+    {
+      "name": "Four Mile Trail Picnic Spot",
+      "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Casual pizzeria in Curry Village offering freshly made pizzas, salads, and beer in a relaxed outdoor setting. Perfect for post-hike meals.",
-      "mustTry": "California vegetable pizza"
-    },
-    {
-      "name": "Degnan's Kitchen",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Family-friendly restaurant near Yosemite Valley Lodge offering breakfast, lunch, and dinner with hearty portions and comfort food favorites.",
-      "mustTry": "Pancakes with fresh berries"
-    },
-    {
-      "name": "Ahwahnee Hotel Dining Room",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Historic grand dining room in the iconic Ahwahnee Hotel featuring fine French-inspired cuisine, floor-to-ceiling windows, and impeccable service. Dress code enforced.",
-      "mustTry": "Duck confit with seasonal preparations"
-    },
-    {
-      "name": "Badger Pass Ski Lodge Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Mountain lodge dining serving hearty soups, stews, and warming dishes perfect for winter visitors and skiers. Cozy fireplace atmosphere.",
-      "mustTry": "Beef stew with fresh bread"
-    },
-    {
-      "name": "White Wolf Lodge Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual lodge restaurant offering rustic comfort food, steaks, and vegetarian options in a historic high-country setting. Intimate dining experience.",
-      "mustTry": "Grilled chicken with mountain herb butter"
+      "description": "Pack a picnic lunch to enjoy at scenic overlooks along popular hiking trails throughout the park. DIY dining with unbeatable views.",
+      "mustTry": "Trail mix and granola bars"
     },
     {
       "name": "Glacier Point Snack Stand",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Seasonal outdoor snack stand at Glacier Point offering hot dogs, sandwiches, and beverages with panoramic valley views. Limited service hours.",
-      "mustTry": "Hot dogs and local craft beverages"
+      "description": "Seasonal outdoor snack bar serving light refreshments, ice cream, and cold beverages at one of the park's most scenic viewpoints.",
+      "mustTry": "Ice cream cone"
     },
     {
-      "name": "El Portal Village Cafe",
+      "name": "Yosemite Village Store Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Convenient café in the village offering coffee, pastries, and sandwiches for quick breakfast or lunch before adventures.",
+      "mustTry": "Fresh pastries and espresso"
+    },
+    {
+      "name": "Mono Lake Visitor Center Café",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Charming village cafe just outside Yosemite Gate featuring homemade soups, sandwiches, and baked goods with local art on display. Community gathering spot.",
-      "mustTry": "Homemade soup of the day"
+      "priceRange": "$",
+      "description": "Simple regional café near Mono Lake serving local favorites and providing insight into the Eastern Sierra ecosystem.",
+      "mustTry": "Local coffee and regional pastries"
     }
   ],
   "activities": [
     {
       "name": "Mist Trail Hike",
       "category": "Adventure",
-      "description": "Epic trail featuring Vernal Fall and Nevada Fall with misty spray and granite steps. Hikers get soaked in spray during spring runoff, creating an unforgettable experience.",
-      "durationHours": 5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Half Dome Backpacking",
-      "category": "Adventure",
-      "description": "Multi-day wilderness trek to Half Dome summit with breathtaking views of Yosemite Valley and High Sierra lakes. Requires lottery permit and mountain experience.",
-      "durationHours": 48,
+      "description": "Popular 5.5-mile round trip hike to Vernal Fall with stunning views and refreshing mist from the waterfall. Steep sections with cables provide an exhilarating challenge.",
+      "durationHours": 4,
       "estimatedCostUSD": 0,
       "bestFor": [
         "adventure",
@@ -153,9 +140,9 @@
       ]
     },
     {
-      "name": "Glacier Point Scenic Drive",
+      "name": "Valley Loop Trail",
       "category": "Outdoor",
-      "description": "Scenic 20-mile drive to 7,214-foot viewpoint offering panoramic views of Half Dome, Yosemite Valley, and Sierra peaks. Open summer through early fall.",
+      "description": "Scenic 7.2-mile mostly flat trail circling Yosemite Valley with views of El Capitan, Bridalveil Fall, and Half Dome. Accessible for most fitness levels.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -165,110 +152,115 @@
       ]
     },
     {
-      "name": "Valley Loop Trail Walk",
-      "category": "Outdoor",
-      "description": "Easy 7.2-mile paved and dirt loop through Yosemite Valley with views of El Capitan, Bridalveil Fall, and meadows. Accessible for all fitness levels.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation",
-        "family"
-      ]
-    },
-    {
-      "name": "Rock Climbing at El Capitan",
+      "name": "Half Dome Cable Route",
       "category": "Adventure",
-      "description": "World-class climbing destination with routes from beginner to expert across massive granite monolith. Professional guides and gear rental available.",
-      "durationHours": 8,
-      "estimatedCostUSD": 350,
+      "description": "Challenging 16-17 mile round trip climb to Half Dome's summit using iconic steel cables and granite slabs. Requires permits and extreme fitness.",
+      "durationHours": 10,
+      "estimatedCostUSD": 10,
       "bestFor": [
-        "adventure",
-        "photography"
+        "adventure"
       ]
     },
     {
-      "name": "Tuolumne Meadows Backpacking Loop",
-      "category": "Adventure",
-      "description": "High-country wilderness loops through pristine alpine meadows, past mountain lakes, and granite peaks. Multiple route options from 2 to 7 days.",
-      "durationHours": 36,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Mirror Lake Hike",
+      "name": "Glacier Point Road Scenic Drive",
       "category": "Outdoor",
-      "description": "Scenic 5-mile round-trip hike to reflective alpine lake with mirror-like views of Half Dome and surrounding peaks. Easy to moderate difficulty.",
+      "description": "Stunning 20-mile drive offering breathtaking panoramic views of Half Dome, Yosemite Valley, and the High Sierra. Open seasonally, spectacular at sunrise and sunset.",
       "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mirror Lake Loop",
+      "category": "Outdoor",
+      "description": "Peaceful 5-mile loop trail around a reflective alpine lake with views of Half Dome and surrounding cliffs. Best in spring and early summer when water levels are high.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "relaxation",
-        "family"
+        "relaxation"
       ]
     },
     {
-      "name": "Yosemite Museum and History Center Tour",
-      "category": "Cultural",
-      "description": "Free museum exploring Native Miwok history, park history, and natural exhibits with native plant gardens. Guided ranger programs available.",
-      "durationHours": 2,
+      "name": "Bridalveil Fall Walk",
+      "category": "Outdoor",
+      "description": "Easy 0.5-mile paved trail to the base of this iconic 620-foot waterfall, often framed by rainbows. One of the most accessible waterfalls in the park.",
+      "durationHours": 0.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "hidden-gems",
+        "photography",
         "family"
       ]
     },
     {
-      "name": "Stargazing and Night Sky Program",
+      "name": "Tuolumne Meadows Exploration",
       "category": "Outdoor",
-      "description": "Experience pristine dark skies with ranger-led night sky programs identifying constellations, planets, and galaxies. Telescope viewing available seasonally.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Horseback Riding Tours",
-      "category": "Outdoor",
-      "description": "Guided horseback tours ranging from scenic valley rides to multi-day high sierra pack trips. Available through licensed outfitters.",
+      "description": "High-altitude meadows with numerous hiking options, wildflower blooms, and granite peaks. Popular base for backcountry hiking and day trips.",
       "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rock Climbing and Bouldering",
+      "category": "Adventure",
+      "description": "World-class climbing destination with routes for all skill levels on iconic granite formations. Requires permits and proper equipment or guided services.",
+      "durationHours": 6,
       "estimatedCostUSD": 150,
       "bestFor": [
-        "adventure",
-        "family",
-        "standard"
+        "adventure"
       ]
     },
     {
-      "name": "Waterfall Circuit Photography Tour",
-      "category": "Photography",
-      "description": "Self-guided or ranger-led tour visiting major waterfalls including Bridalveil, Yosemite, and Nevada Falls. Best in spring and early summer.",
-      "durationHours": 4,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Mariposa Grove Giant Sequoia Loop",
+      "name": "Stargazing at Badger Pass",
       "category": "Outdoor",
-      "description": "6.6-mile loop through ancient giant sequoia forest with trails through groves of 1,500-year-old trees. Shuttle tram available or hike entire loop.",
+      "description": "Experience some of the darkest skies in California with exceptional views of the Milky Way and constellations. Best in clear, moonless nights.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mariposa Grove Giant Sequoia Walk",
+      "category": "Outdoor",
+      "description": "Guided or self-guided walks through groves of massive ancient sequoias, the largest trees on Earth. Multiple trail options from 1 to 6 miles.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
         "standard",
         "photography",
-        "relaxation",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Backcountry Camping and Wilderness Trips",
+      "category": "Adventure",
+      "description": "Multi-day backpacking expeditions into pristine wilderness areas with alpine lakes and high passes. Requires permits and self-sufficiency.",
+      "durationHours": 48,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Yosemite Museum and Village Exploration",
+      "category": "Cultural",
+      "description": "Learn about Yosemite's natural and human history through exhibits, galleries, and cultural sites. Family-friendly indoor activity on rainy days.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
         "family"
       ]
     }
@@ -276,156 +268,156 @@
   "photography": {
     "spots": [
       {
-        "name": "El Capitan Meadow",
-        "description": "Classic granite monolith framed by meadow flowers and river in golden hour light with perfect symmetry.",
+        "name": "El Capitan",
+        "description": "Massive 3,000-foot granite monolith best photographed from the valley floor at sunrise with dramatic side lighting.",
         "difficulty": "Beginner",
-        "bestTime": "Morning and evening light; spring for wildflowers",
+        "bestTime": "Early morning for golden light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Half Dome from Glacier Point",
+        "description": "Iconic granite peak framed perfectly from this high-altitude viewpoint, especially stunning during sunset with alpenglow.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset and golden hour",
         "category": "Landscape"
       },
       {
         "name": "Bridalveil Fall",
-        "description": "Ethereal waterfall with mist creating atmospheric light beams, especially dramatic during spring flow.",
+        "description": "Ethereal 620-foot waterfall with mist and often rainbow, captured best with wide-angle lens during peak flow season.",
         "difficulty": "Beginner",
-        "bestTime": "Late morning for backlit mist; May-July for maximum water",
+        "bestTime": "Mid-morning to avoid harsh shadows",
         "category": "Landscape"
       },
       {
         "name": "Mirror Lake Reflection",
-        "description": "Perfect mirror-like reflections of Half Dome and surrounding peaks in calm water during early morning.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning before wind; June-August for reliable water",
-        "category": "Landscape"
-      },
-      {
-        "name": "Glacier Point Overlook",
-        "description": "Panoramic vista encompassing Half Dome, Yosemite Valley, and distant Sierra peaks with dramatic lighting angles.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for warm tones; clear weather essential",
-        "category": "Landscape"
-      },
-      {
-        "name": "Valley View at El Capitan",
-        "description": "Wide-angle composition showcasing Bridalveil Fall, El Capitan, Cathedral Rocks, and flowing Merced River.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones; winter for snow-capped peaks",
-        "category": "Landscape"
-      },
-      {
-        "name": "Vernal Fall Upper Trail",
-        "description": "Dynamic waterfall photography with misty spray, granite rocks, and varied perspectives along Mist Trail.",
+        "description": "Perfect mirror reflections of Half Dome and surrounding peaks in calm morning waters, best in spring and early summer.",
         "difficulty": "Intermediate",
-        "bestTime": "May-July for powerful water flow; late afternoon for side-light",
+        "bestTime": "Early morning before wind ripples the water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Four Mile Trail Overlooks",
+        "description": "Multiple stunning vistas of Yosemite Valley from different angles with varied lighting throughout the day.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour near sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mariposa Grove Giant Sequoias",
+        "description": "Ancient massive trees creating dramatic vertical compositions with filtered light through the canopy.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or morning light filtering through trees",
         "category": "Landscape"
       },
       {
         "name": "Tunnel View",
-        "description": "Iconic composition framing Bridalveil Fall, El Capitan, and Half Dome through natural granite rock frame.",
+        "description": "Classic postcard view of El Capitan, Bridalveil Fall, and Half Dome framed by granite cliffs.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset for dramatic sky; any clear day",
+        "bestTime": "Afternoon light illuminates the valley",
         "category": "Landscape"
       },
       {
-        "name": "Mariposa Grove Old Grove Section",
-        "description": "Ancient giant sequoias towering above with dramatic morning light filtering through canopy and fog.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning fog for atmospheric light; fall for colored understory",
-        "category": "Landscape"
-      },
-      {
-        "name": "Half Dome from Sentinel Dome",
-        "description": "High-elevation perspective of Half Dome with dramatic shadows and distant mountain ranges visible.",
+        "name": "Vernal Fall from Mist Trail",
+        "description": "Powerful 317-foot waterfall photographed through mist and spray, creating ethereal soft-focus effects.",
         "difficulty": "Advanced",
-        "bestTime": "Sunset for warm light on dome; clear weather for detail",
+        "bestTime": "Midday when sun is high and creates rainbow in mist",
         "category": "Landscape"
       },
       {
-        "name": "Tenaya Lake Alpine Landscape",
-        "description": "High-country alpine lake with Cathedral Range reflection and dramatic granite peak backgrounds.",
+        "name": "Mono Lake and Eastern Sierra",
+        "description": "Unique landscape with tufa towers and alkaline lake reflecting dramatic mountain peaks in eastern Yosemite region.",
         "difficulty": "Intermediate",
-        "bestTime": "Late afternoon light; August-September for clearest skies",
+        "bestTime": "Sunrise and sunset for rich colors",
         "category": "Landscape"
+      },
+      {
+        "name": "Yosemite Falls Moonlit Night",
+        "description": "Iconic 2,425-foot waterfall illuminated by moonlight during full moon nights creating ethereal nocturnal compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Full moon nights with clear skies",
+        "category": "Night"
       }
     ],
     "sunriseSpots": [
       "Glacier Point",
-      "Sentinel Dome",
-      "Mirror Lake"
+      "Tunnel View",
+      "Valley View Pullout"
     ],
     "sunsetSpots": [
       "Glacier Point",
-      "Tunnel View",
-      "El Capitan Meadow"
+      "Sentinel Dome",
+      "Taft Point"
     ],
     "lensRecommendations": [
-      "14-24mm ultra-wide for landscape vistas and waterfall compositions",
-      "50mm prime for intimate nature details and giant sequoia portraits",
-      "70-200mm telephoto for Half Dome compression and wildlife photography",
-      "16-35mm zoom for flexible landscape and architectural elements"
+      "16-35mm wide-angle for expansive landscape and dramatic valley compositions",
+      "70-200mm telephoto for compressing distant peaks and isolating waterfall details",
+      "24-105mm versatile zoom for variety of compositions from wide valleys to tighter framing",
+      "50mm prime for intimate tree and detail photography in Mariposa Grove"
     ],
-    "goldenHourNotes": "Yosemite's granite cliffs turn brilliant orange and red during golden hour, particularly visible from Valley View and Glacier Point. Spring offers extended golden hours due to lower sun angles, while fall provides warm tones against changing foliage. Plan shots 30-60 minutes before sunset for optimal lighting on Half Dome and El Capitan.",
+    "goldenHourNotes": "Yosemite's granite cliffs provide exceptional golden hour lighting from multiple viewpoints. Early morning light from Glacier Point bathes the valley in warm tones while evening light from Valley View creates dramatic side-lighting on El Capitan. The high elevation extends golden hour duration compared to lower elevations.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 3,
-        "rainfallMM": 152
+        "avgTempC": -2,
+        "rainfallMM": 183
       },
       {
         "month": 2,
-        "avgTempC": 4,
-        "rainfallMM": 135
+        "avgTempC": 1,
+        "rainfallMM": 165
       },
       {
         "month": 3,
-        "avgTempC": 7,
-        "rainfallMM": 114
+        "avgTempC": 5,
+        "rainfallMM": 137
       },
       {
         "month": 4,
         "avgTempC": 11,
-        "rainfallMM": 99
+        "rainfallMM": 102
       },
       {
         "month": 5,
-        "avgTempC": 16,
-        "rainfallMM": 51
+        "avgTempC": 17,
+        "rainfallMM": 76
       },
       {
         "month": 6,
-        "avgTempC": 22,
-        "rainfallMM": 28
+        "avgTempC": 24,
+        "rainfallMM": 43
       },
       {
         "month": 7,
-        "avgTempC": 27,
+        "avgTempC": 28,
         "rainfallMM": 25
       },
       {
         "month": 8,
-        "avgTempC": 26,
+        "avgTempC": 27,
         "rainfallMM": 28
       },
       {
         "month": 9,
         "avgTempC": 23,
-        "rainfallMM": 25
+        "rainfallMM": 41
       },
       {
         "month": 10,
-        "avgTempC": 16,
-        "rainfallMM": 51
+        "avgTempC": 15,
+        "rainfallMM": 89
       },
       {
         "month": 11,
-        "avgTempC": 9,
-        "rainfallMM": 127
+        "avgTempC": 7,
+        "rainfallMM": 152
       },
       {
         "month": 12,
-        "avgTempC": 4,
-        "rainfallMM": 165
+        "avgTempC": 0,
+        "rainfallMM": 198
       }
     ],
     "bestMonths": [
@@ -435,31 +427,30 @@
       8,
       9
     ],
-    "seasonality": "Yosemite experiences four distinct seasons with summer (June-September) offering warm days, open roads, and accessible high country. Winter (December-February) brings snow, partially closed roads, and fewer crowds but creates stunning snowy landscape photography. Spring (March-May) features peak waterfall flows and wildflowers, while fall (September-November) offers crisp air, fewer visitors, and dramatic foliage.",
-    "summary": "The park's elevation (4,000-13,000 feet) creates significant temperature variations between valley floor and high country, with temperatures dropping 10°C for every 1,000 meters of elevation gained. Summer brings warm days (20-27°C) and dry conditions perfect for hiking, while winter often closes high elevation roads but provides serene landscapes for valley-based activities."
+    "seasonality": "Summer (June-August) offers warm, dry weather perfect for hiking and camping, though crowds are heaviest. Spring and fall provide mild temperatures with fewer visitors and stunning wildflowers or fall colors, while winter brings snow and limited access to high-elevation areas.",
+    "summary": "Yosemite experiences four distinct seasons with winter bringing heavy snow to valley floors and road closures above. Summer is warm and mostly dry with temperatures ranging 15-28°C, making it ideal for outdoor activities despite peak crowds."
   },
   "hotels": [
     {
       "name": "Yosemite Valley Lodge",
       "neighborhood": "Yosemite Valley",
-      "pricePerNightUSD": 185,
+      "pricePerNightUSD": 120,
+      "category": "Budget",
+      "description": "Basic motel-style rooms in the valley offering convenient access to major attractions and dining with functional amenities and valley views from some rooms."
+    },
+    {
+      "name": "The Majestic Yosemite Hotel",
+      "neighborhood": "Yosemite Valley",
+      "pricePerNightUSD": 350,
       "category": "Mid-range",
-      "description": "Modern lodge with convenient valley location near restaurants, museums, and trailheads featuring comfortable rooms and mountain views."
+      "description": "Historic 1927 hotel with elegant Art Deco architecture, fine dining, and fireplace lounges offering classic Yosemite hospitality with modern amenities and valley proximity."
     },
     {
       "name": "Ahwahnee Hotel",
       "neighborhood": "Yosemite Valley",
-      "pricePerNightUSD": 475,
+      "pricePerNightUSD": 550,
       "category": "Luxury",
-      "description": "Historic 1927 grand hotel with distinctive Art Deco architecture, fine dining, and iconic views of Half Dome and Yosemite Falls from its imposing granite structure."
-    },
-    {
-      "name": "Wawona Hotel",
-      "neighborhood": "Wawona",
-      "pricePerNightUSD": 125,
-      "category": "Budget",
-      "description": "Historic Victorian-era hotel in charming Wawona village near Mariposa Grove with rustic charm and access to south park attractions."
+      "description": "Iconic luxury resort with architectural grandeur, world-class dining, spa facilities, and dramatic valley views representing the ultimate Yosemite experience with impeccable service."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1533990898332-9d87e79f0f78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxZb3NlbWl0ZSUyMFZhbGxleSUyMHdhdGVyZmFsbHN8ZW58MXwwfHx8MTc4MTMwMzM2NXww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

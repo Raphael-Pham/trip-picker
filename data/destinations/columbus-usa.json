@@ -5,253 +5,272 @@
   "region": "North America",
   "airportCodes": [
     "CMH",
-    "CVG",
-    "IND"
+    "IND",
+    "CVG"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
     "photography",
-    "activities",
+    "foodie",
+    "adventure",
     "relaxation"
   ],
   "scores": {
     "cost": 72,
     "food": 78,
     "photography": 75,
-    "activities": 82,
-    "weather": 68
+    "activities": 80,
+    "weather": 65
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 80,
-      "maxPerDayUSD": 140
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
-      "minPerDayUSD": 140,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Columbus Ohio skyline",
-  "summary": "Columbus is Ohio's vibrant capital, offering a dynamic mix of world-class museums, trendy dining scenes, and cultural attractions. The city blends Midwestern charm with urban energy, featuring outstanding art museums, lively neighborhoods, and affordable travel options that make it an excellent destination for culture lovers and food enthusiasts.",
+  "unsplashQuery": "Columbus Ohio skyline cityscape",
+  "summary": "Columbus, Ohio's vibrant capital, blends cultural attractions, innovative dining, and accessible outdoor recreation in the heart of the Midwest. Known for its diverse neighborhoods, world-class museums, and thriving food scene, Columbus offers visitors an authentic American experience with a creative, welcoming energy. The city serves as a gateway to nearby natural attractions while maintaining a compact, walkable urban core.",
   "restaurants": [
     {
-      "name": "Harvest Bistro",
+      "name": "The Barn Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Upscale farm-to-table restaurant featuring seasonal Ohio ingredients prepared with contemporary techniques. Known for innovative dishes and an extensive wine selection.",
-      "mustTry": "Pan-seared duck breast with cherry gastrique"
-    },
-    {
-      "name": "The Thurber House Café",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Casual neighborhood spot housed in a historic building serving comfort food and classic American fare. Popular breakfast and lunch destination with local charm.",
-      "mustTry": "Benedictine sandwich"
-    },
-    {
-      "name": "Biscuit & Co.",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Cozy Southern-inspired café specializing in house-made biscuits and traditional breakfast items. Quick service and budget-friendly pricing make it ideal for quick meals.",
-      "mustTry": "Bacon cheddar biscuit with sorghum butter"
-    },
-    {
-      "name": "Mikey's Late Night Slice",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Popular late-night pizza joint offering New York-style slices and whole pies with quality toppings. Perfect casual dining option open until 3 AM on weekends.",
-      "mustTry": "Classic pepperoni slice"
+      "description": "Award-winning farm-to-table establishment featuring seasonal menus and locally-sourced ingredients in an elegant historic setting.",
+      "mustTry": "Pan-seared duck breast with seasonal vegetables"
     },
     {
       "name": "Lindey's",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Sophisticated German Village fine dining establishment with contemporary American cuisine and an impressive wine list. Intimate setting perfect for special occasions.",
-      "mustTry": "Seared scallops with seasonal vegetables"
-    },
-    {
-      "name": "Barcelona Restaurant & Bar",
-      "category": "Midrange",
       "priceRange": "$$$",
-      "description": "Spanish tapas restaurant featuring authentic small plates, sangria, and Mediterranean flavors in a lively atmosphere. Great for sharing dishes and social dining.",
-      "mustTry": "Patatas bravas and Iberian jamón"
+      "description": "Intimate German Village gem offering contemporary American cuisine with an impressive wine list in a romantic atmosphere.",
+      "mustTry": "Herb-crusted lamb chops"
     },
     {
-      "name": "Aab Indian Restaurant",
+      "name": "Schmidt's Sausage Haus",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic German Village institution famous for authentic German sausages and the legendary cream puff dessert.",
+      "mustTry": "Bahama Mama cream puff"
+    },
+    {
+      "name": "Mikey's Late Night Slice",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Beloved neighborhood pizza joint serving oversized slices and unique toppings combinations until late night.",
+      "mustTry": "The Mikey's Special with pepperoni and roasted garlic"
+    },
+    {
+      "name": "Jeni's Splendid Ice Creams",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Columbus-born ice cream phenomenon offering innovative flavors made with local ingredients in a charming storefront.",
+      "mustTry": "Salted Caramel with Dark Chocolate or Seasonal Flavor"
+    },
+    {
+      "name": "Katalina's",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary Indian cuisine with regional specialties and a welcoming atmosphere in the Short North district. Known for flavorful curries and tandoori preparations.",
-      "mustTry": "Butter chicken with naan bread"
+      "description": "South Side breakfast and lunch favorite known for creative omelets, fresh pastries, and welcoming neighborhood vibe.",
+      "mustTry": "Southwestern omelet with green chile and chorizo"
     },
     {
-      "name": "Kawase Sushi",
+      "name": "The Thurber Cafe",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Upscale sushi restaurant offering fresh nigiri, creative rolls, and authentic Japanese preparations. Features a full bar with sake selections.",
-      "mustTry": "Omakase experience"
+      "priceRange": "$$",
+      "description": "Charming cafe in the historic Thurber House offering sandwiches, salads, and pastries in a literary-inspired setting.",
+      "mustTry": "House-made quiche of the day"
     },
     {
-      "name": "Fusion Burger + Bar",
+      "name": "Columbus Fish Market",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant seafood restaurant and raw bar offering fresh catches, happy hour specials, and lively atmosphere.",
+      "mustTry": "Oyster selection and grilled Atlantic salmon"
+    },
+    {
+      "name": "Dragonfly East Asian Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Asian fusion spot featuring Vietnamese, Thai, and Chinese cuisines with expertly crafted cocktails.",
+      "mustTry": "Pad Thai and Vietnamese spring rolls"
+    },
+    {
+      "name": "Borgne",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale Creole and Cajun restaurant featuring Gulf Coast seafood and New Orleans-inspired ambiance.",
+      "mustTry": "Gumbo and Gulf fish preparations"
+    },
+    {
+      "name": "Boundary Stone Brew Co.",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual burger joint with creative gourmet burgers, craft sodas, and a fun atmosphere. Excellent value for high-quality burgers.",
-      "mustTry": "Smoked brisket burger"
+      "description": "Casual brewery and restaurant with craft beers, burgers, and comfort food in an industrial-chic setting.",
+      "mustTry": "House burger and rotating craft beer selection"
     },
     {
-      "name": "Mesh Café",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Trendy German Village spot serving breakfast all day, sandwiches, and locally roasted coffee. Casual vibe with strong community presence.",
-      "mustTry": "Breakfast burrito with local ingredients"
-    },
-    {
-      "name": "The Cheesecake Factory",
+      "name": "Nada",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Popular casual dining chain with extensive menu featuring American comfort food and their famous cheesecake. Family-friendly environment.",
-      "mustTry": "Original cheesecake"
-    },
-    {
-      "name": "Tip Top Kitchen",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Farm-to-table neighborhood restaurant emphasizing locally sourced ingredients and seasonal menus. Intimate setting with chef-driven approach.",
-      "mustTry": "Seasonal vegetable plate with house vinaigrette"
+      "description": "Mexican restaurant in German Village offering authentic cuisine with creative cocktails and warm hospitality.",
+      "mustTry": "Chiles Rellenos and house-made tamales"
     }
   ],
   "activities": [
     {
       "name": "Columbus Museum of Art",
       "category": "Cultural",
-      "description": "World-class art museum featuring American, contemporary, and regional collections housed in a stunning modern building. Free admission to galleries and frequent special exhibitions.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "description": "Contemporary and modern art museum featuring works by regional and international artists, plus thought-provoking installations.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "relaxation"
       ]
     },
     {
       "name": "German Village Walking Tour",
       "category": "Outdoor",
-      "description": "Explore historic neighborhood with distinctive brick homes, charming streets, and the beautiful Schiller Park. Self-guided walking tours are free with maps available online.",
-      "durationHours": 2.5,
+      "description": "Explore the charming brick-lined streets, historic architecture, and quaint shops of this historic neighborhood on foot.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
+        "photography",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Scioto Greenways Bike Trail",
+      "category": "Outdoor",
+      "description": "Multi-use recreational trail along the Scioto River offering walking, biking, and scenic city views from various overlooks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Columbus Zoo and Aquarium",
-      "category": "Family",
-      "description": "Large zoo featuring diverse animal exhibits including polar bears, gorillas, and aquatic life in attractive habitats. Educational programs and seasonal events available.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "family"
-      ]
-    },
-    {
-      "name": "Scioto Mile Biking and Walking",
-      "category": "Outdoor",
-      "description": "Scenic 3.5-mile path along the Scioto River with parks, fountains, and city views. Completely free public recreation area perfect for walking, running, or biking.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "name": "Ohio History Center",
+      "category": "Cultural",
+      "description": "Comprehensive state history museum with interactive exhibits, artifacts, and immersive galleries spanning Ohio's heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
       "bestFor": [
         "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Ohio Statehouse Tour",
-      "category": "Cultural",
-      "description": "Free guided tours of historic 1839 statehouse featuring neoclassical architecture and government chambers. Self-guided tours available when legislature not in session.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard"
-      ]
-    },
-    {
-      "name": "Short North Arts District Exploration",
-      "category": "Cultural",
-      "description": "Vibrant neighborhood filled with galleries, street murals, trendy shops, and restaurants. Gallery Hop on first Saturdays features artist openings and special events.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "name": "COSI (Center of Science and Industry)",
+      "category": "Family",
+      "description": "World-class science museum with hands-on exhibits, planetarium shows, and interactive learning experiences for all ages.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "photography"
+        "family",
+        "adventure"
       ]
     },
     {
-      "name": "Franklin Park Conservatory",
-      "category": "Indoor",
-      "description": "Beautiful Victorian-style conservatory with tropical plants, exotic flowers, and rotating seasonal exhibits. Peaceful indoor attraction with year-round appeal.",
-      "durationHours": 2,
-      "estimatedCostUSD": 12,
+      "name": "Columbus Zoo & Aquarium",
+      "category": "Family",
+      "description": "Major metropolitan zoo featuring diverse animal habitats, aquarium exhibits, and seasonal attractions in a beautifully landscaped setting.",
+      "durationHours": 4,
+      "estimatedCostUSD": 22,
       "bestFor": [
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Columbus Brewing Company Tour",
-      "category": "Foodie",
-      "description": "Tour historic brewery with beer tasting, production facility viewing, and craft beer education. Taproom offers flights and full menu.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "foodie"
+        "standard",
+        "family",
+        "adventure"
       ]
     },
     {
       "name": "Topiary Park",
       "category": "Outdoor",
-      "description": "Whimsical public park featuring life-sized topiary sculptures recreating famous artworks. Free public space offering unique photo opportunities and artistic appreciation.",
-      "durationHours": 1,
+      "description": "Quirky outdoor art installation featuring topiary recreations of famous artworks in a public park setting near downtown.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "photography",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Highbanks Metropolitan Park",
+      "category": "Outdoor",
+      "description": "Scenic park featuring hiking trails, natural prairies, woodlands, and a historic home surrounded by native plant gardens.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "COSI Science Center",
-      "category": "Family",
-      "description": "Interactive science museum with hands-on exhibits, planetarium shows, and OMNIMAX theater experiences. Great for learning and family engagement.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "name": "Short North Arts District Gallery Crawl",
+      "category": "Cultural",
+      "description": "Vibrant neighborhood featuring galleries, street art, boutiques, and restaurants showcasing Columbus's creative community.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 5,
       "bestFor": [
-        "family"
+        "standard",
+        "photography",
+        "foodie",
+        "surprise"
       ]
     },
     {
-      "name": "Haunted Tunnel Tours",
-      "category": "Adventure",
-      "description": "Underground tour exploring historic Civil War era tunnels beneath German Village with local history narratives. Unique adventure combining history and exploration.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 18,
+      "name": "Columbus Blue Jackets Game",
+      "category": "Nightlife",
+      "description": "Watch professional ice hockey at the Nationwide Arena, experiencing the city's sports culture and lively game-day atmosphere.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
       "bestFor": [
+        "standard",
         "adventure"
       ]
     },
     {
-      "name": "Columbus Nightlife - Brewery and Bar Crawl",
-      "category": "Nightlife",
-      "description": "Explore downtown and Short North bar scene with craft breweries, cocktail bars, and live music venues. Self-guided crawl or organized group tours available.",
-      "durationHours": 3,
-      "estimatedCostUSD": 30,
+      "name": "Gorman Heritage Farm",
+      "category": "Family",
+      "description": "Working farm museum offering educational programs, seasonal events, and opportunities to interact with animals and historic farm life.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 10,
       "bestFor": [
+        "family",
+        "relaxation",
+        "surprise"
+      ]
+    },
+    {
+      "name": "North Bank Park Riverfront Walk",
+      "category": "Outdoor",
+      "description": "Scenic riverfront promenade with walking paths, overlooks, public art installations, and views of downtown Columbus skyline.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
         "standard"
       ]
     }
@@ -259,93 +278,93 @@
   "photography": {
     "spots": [
       {
-        "name": "Scioto Mile Fountains",
-        "description": "Interactive fountains with dynamic water jets against Columbus skyline backdrop, creating dynamic reflections and lighting opportunities.",
+        "name": "Scioto Greenways - Main Pavilion",
+        "description": "Downtown skyline reflections and architectural views across the Scioto River with modern bridge elements.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour and blue hour for sky reflections",
-        "category": "Night"
+        "bestTime": "Golden hour and blue hour",
+        "category": "Architecture"
       },
       {
         "name": "German Village Brick Streets",
-        "description": "Charming cobblestone streets with historic Victorian architecture and gas lamps creating authentic atmospheric scenes.",
+        "description": "Charming historic alleyways with ivy-covered buildings, gas lamps, and atmospheric street-level compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for soft light and minimal crowds",
-        "category": "Architecture"
-      },
-      {
-        "name": "Topiary Park Art Installations",
-        "description": "Unique topiary sculptures recreating famous artworks offer surreal and colorful photography opportunities in a public garden setting.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for vibrant green tones and clear shadows",
+        "bestTime": "Morning light or overcast skies",
         "category": "Street"
       },
       {
-        "name": "Columbus Museum of Art Modern Building",
-        "description": "Contemporary architecture with geometric lines, large glass panels, and modern design elements reflected in surrounding structures.",
+        "name": "Topiary Park",
+        "description": "Colorful topiary art installations offering unique abstract and surreal photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm building tones and dramatic shadows",
-        "category": "Architecture"
+        "bestTime": "Midday with clear skies for color saturation",
+        "category": "Landscape"
       },
       {
-        "name": "Huntington Park Baseball Stadium",
-        "description": "Historic minor league ballpark with architectural details and vibrant atmosphere, especially during evening games with lighting.",
+        "name": "Franklin Park Conservatory",
+        "description": "Lush tropical and botanical environments with vibrant flora, glass architecture, and natural light diffusion.",
         "difficulty": "Intermediate",
-        "bestTime": "Evening games for dynamic lighting and crowd energy",
+        "bestTime": "Overcast days or midday for soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Short North Murals and Street Art",
+        "description": "Colorful large-scale murals and graffiti art on building facades along High Street.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning to mid-afternoon for directional light",
+        "category": "Street"
+      },
+      {
+        "name": "Nationwide Arena at Night",
+        "description": "Modern glass and steel sports architecture illuminated dramatically during evening events.",
+        "difficulty": "Intermediate",
+        "bestTime": "Twilight and night with event lighting",
         "category": "Night"
       },
       {
-        "name": "Downtown Skyline from Park Street Bridge",
-        "description": "Elevated vantage point capturing full Columbus skyline with Scioto River reflection and downtown buildings in one frame.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for golden and blue hour transitions",
-        "category": "Landscape"
-      },
-      {
-        "name": "Schiller Park Stone Bridge",
-        "description": "Historic stone bridge with scenic backdrop of park gardens, water features, and surrounding architecture creating layered compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon light",
+        "name": "Huntington Park Baseball Field",
+        "description": "Historic ballpark with architectural details, crowd energy, and scenic downtown backdrops.",
+        "difficulty": "Intermediate",
+        "bestTime": "During games for dynamic light and action",
         "category": "Architecture"
       },
       {
-        "name": "Short North Street Murals",
-        "description": "Colorful contemporary street art and murals creating vibrant abstract and portrait compositions throughout the arts district.",
+        "name": "Goodale Park Lake",
+        "description": "Urban park water features with tree reflections, wildlife, and downtown skyline in background.",
         "difficulty": "Beginner",
-        "bestTime": "Midday for bright colors and minimal shadows",
-        "category": "Street"
-      },
-      {
-        "name": "Olentangy River Pathway",
-        "description": "Natural river corridor with tree-lined paths, wildlife opportunities, and seasonal foliage changes providing landscape photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Fall for foliage or spring for flowering trees",
+        "bestTime": "Golden hour for water reflections",
         "category": "Landscape"
       },
       {
-        "name": "Franklin Park Conservatory Interior",
-        "description": "Tropical plants, exotic flowers, and Victorian glass architecture create colorful and textured photography opportunities in controlled environment.",
+        "name": "State Capitol Building",
+        "description": "Neoclassical architecture with imposing columns, manicured grounds, and symmetrical composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and overcast skies",
+        "category": "Architecture"
+      },
+      {
+        "name": "North Bank Park Pedestrian Bridge",
+        "description": "Modern bridge structure with river views, downtown reflections, and dynamic architectural lines.",
         "difficulty": "Intermediate",
-        "bestTime": "Cloudy days for diffused light on plant details",
-        "category": "Street"
+        "bestTime": "Sunrise, sunset, and blue hour",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Scioto Mile Park overlook facing east",
-      "Summit Street viewpoint above German Village",
-      "Olentangy River Park east-facing trails"
+      "Scioto Greenways - Main Pavilion",
+      "North Bank Park Pedestrian Bridge",
+      "Goodale Park Lake"
     ],
     "sunsetSpots": [
-      "Scioto Mile Fountains western vantage",
-      "Park Street Bridge over Scioto River",
-      "German Village Schiller Park west lawn"
+      "Scioto Greenways - Main Pavilion",
+      "North Bank Park Pedestrian Bridge",
+      "Franklin Park Conservatory Grounds"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for skyline and architecture capturing expansive cityscapes",
-      "35-85mm prime for street photography and architectural details in German Village",
-      "70-200mm telephoto for compressed skyline shots and fountain detail work",
-      "14mm ultra-wide for dramatic architectural perspectives and museum interiors"
+      "16-35mm wide-angle for architectural skyline and panoramic river views",
+      "50mm prime for street photography and intimate German Village details",
+      "70-200mm telephoto for compressed skyline shots and wildlife at parks",
+      "14mm ultra-wide for dramatic night photography and modern architecture"
     ],
-    "goldenHourNotes": "Columbus offers excellent golden hour opportunities especially along the Scioto Mile and downtown area. The river provides perfect reflective surfaces for sunset photography, with the best light typically occurring 90 minutes before sunset through 30 minutes after. German Village brick architecture glows beautifully during golden hour, creating warm tones ideal for architectural photography.",
+    "goldenHourNotes": "Columbus's river position and downtown skyline create exceptional golden hour conditions, particularly along the Scioto Greenways where reflections amplify the warm light. Golden hour lasts approximately 45-60 minutes depending on season. The Short North area's east-west oriented streets allow for directional golden hour lighting on building facades and murals.",
     "overallDifficulty": "Beginner"
   },
   "weather": {
@@ -358,22 +377,22 @@
       {
         "month": 2,
         "avgTempC": 0,
-        "rainfallMM": 61
+        "rainfallMM": 63
       },
       {
         "month": 3,
-        "avgTempC": 7,
-        "rainfallMM": 71
+        "avgTempC": 6,
+        "rainfallMM": 73
       },
       {
         "month": 4,
-        "avgTempC": 14,
-        "rainfallMM": 91
+        "avgTempC": 15,
+        "rainfallMM": 89
       },
       {
         "month": 5,
         "avgTempC": 21,
-        "rainfallMM": 127
+        "rainfallMM": 99
       },
       {
         "month": 6,
@@ -388,22 +407,22 @@
       {
         "month": 8,
         "avgTempC": 27,
-        "rainfallMM": 81
+        "rainfallMM": 84
       },
       {
         "month": 9,
         "avgTempC": 23,
-        "rainfallMM": 76
+        "rainfallMM": 79
       },
       {
         "month": 10,
         "avgTempC": 17,
-        "rainfallMM": 69
+        "rainfallMM": 71
       },
       {
         "month": 11,
         "avgTempC": 10,
-        "rainfallMM": 84
+        "rainfallMM": 79
       },
       {
         "month": 12,
@@ -413,34 +432,34 @@
     ],
     "bestMonths": [
       5,
+      6,
       9,
       10
     ],
-    "seasonality": "Columbus experiences four distinct seasons with warm summers ideal for outdoor activities and spring/fall offering pleasant temperatures and lower humidity. Winter can be cold and snowy, while summer temperatures typically reach comfortable mid-20s Celsius.",
-    "summary": "Columbus has a humid continental climate with warm summers averaging 26-28°C and cold winters dropping to -2-2°C. The best time to visit is May and September-October when temperatures are mild and precipitation moderate, making outdoor exploration most enjoyable."
+    "seasonality": "Columbus experiences four distinct seasons with mild spring and fall being ideal for outdoor activities and photography. Summer brings warm temperatures and occasional humidity, while winters are cold with moderate snowfall.",
+    "summary": "Columbus has a humid continental climate with cold winters averaging -2°C to 2°C and warm summers around 26-28°C. Spring and fall offer pleasant temperatures between 15-21°C with lower humidity, making them the best times to visit for comfortable outdoor exploration."
   },
   "hotels": [
     {
-      "name": "Red Roof Inn Columbus Downtown",
+      "name": "Residence Inn Columbus Downtown",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 65,
+      "pricePerNightUSD": 95,
       "category": "Budget",
-      "description": "No-frills budget hotel offering clean rooms and convenient downtown location with easy access to attractions and restaurants."
+      "description": "Extended-stay hotel with kitchenettes, convenient downtown location near attractions, and complimentary breakfast included."
     },
     {
       "name": "Renaissance Columbus Downtown Hotel",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 160,
+      "pricePerNightUSD": 165,
       "category": "Mid-range",
-      "description": "Upscale mid-range hotel featuring modern amenities, fitness center, and prime downtown location near Scioto Mile and dining districts."
+      "description": "Contemporary upscale hotel with modern amenities, excellent service, and prime location near restaurants and cultural institutions."
     },
     {
       "name": "Hilton Columbus Downtown",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 340,
-      "category": "Luxury",
-      "description": "Luxury hotel offering premium accommodations, fine dining, spa services, and unparalleled views of Columbus skyline and river."
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Luxury-style hotel featuring upscale rooms, business facilities, rooftop bar with city views, and direct access to entertainment district."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1654115480560-67642e776a30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDb2x1bWJ1cyUyME9oaW8lMjBza3lsaW5lfGVufDF8MHx8fDE3ODEzMDMyODR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

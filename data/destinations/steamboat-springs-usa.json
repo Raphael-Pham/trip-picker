@@ -1,0 +1,459 @@
+{
+  "id": "steamboat-springs-usa",
+  "city": "Steamboat Springs",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "HDN",
+    "DEN",
+    "ASE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "adventure",
+    "standard",
+    "photography",
+    "relaxation",
+    "foodie"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 78,
+    "photography": 85,
+    "activities": 92,
+    "weather": 88
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 400,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Steamboat Springs snow ski mountains",
+  "summary": "Steamboat Springs is a world-class ski destination nestled in the Colorado Rockies, renowned for its abundant powder snow and vibrant mountain town culture. Beyond winter sports, the town offers year-round activities including hiking, mountain biking, hot springs, and exceptional dining with a Western charm that captivates visitors.",
+  "restaurants": [
+    {
+      "name": "Altitude Chophouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning steakhouse featuring locally-sourced beef and an extensive wine collection in an upscale setting.",
+      "mustTry": "Colorado prime rib"
+    },
+    {
+      "name": "The Cabin",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate fine dining restaurant housed in a historic log cabin with French-inspired cuisine and farm-to-table ingredients.",
+      "mustTry": "Pan-seared duck breast"
+    },
+    {
+      "name": "Storm Peak Brewing",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Local brewery with craft beers and hearty pub fare in a relaxed mountain atmosphere with outdoor patio seating.",
+      "mustTry": "Storm Peak IPA with fish and chips"
+    },
+    {
+      "name": "La Montana",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Mexican restaurant serving traditional dishes in a warm, family-friendly environment with scenic mountain views.",
+      "mustTry": "Chile relleno"
+    },
+    {
+      "name": "Mahogany Ridge Brewery & Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Brewpub featuring house-made craft beers and gourmet burgers with mountain lodge ambiance and live entertainment.",
+      "mustTry": "Mahogany Ridge burger and house amber ale"
+    },
+    {
+      "name": "The Ore House",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale steakhouse and seafood restaurant with an extensive wine selection and sophisticated Rocky Mountain charm.",
+      "mustTry": "Grilled elk steak"
+    },
+    {
+      "name": "Toscanini's Italian Ristorante",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-owned Italian restaurant offering homemade pasta and classic Mediterranean dishes in a cozy setting.",
+      "mustTry": "Lasagna Bolognese"
+    },
+    {
+      "name": "Creekside Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual breakfast and lunch spot known for hearty omelets, fresh pastries, and excellent coffee near the ski base.",
+      "mustTry": "Homemade granola and Greek yogurt"
+    },
+    {
+      "name": "Mountain Tap Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Local favorite sports bar featuring BBQ, wings, and craft beers with lively atmosphere and mountain views.",
+      "mustTry": "Smoked brisket sandwich"
+    },
+    {
+      "name": "Gondola Aroma Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming coffee shop and bakery serving excellent espresso drinks and fresh pastries near downtown pedestrian mall.",
+      "mustTry": "Cinnamon roll and cappuccino"
+    },
+    {
+      "name": "Sushi Toro",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary sushi restaurant offering fresh rolls, sashimi platters, and Japanese fusion cuisine in downtown location.",
+      "mustTry": "Spicy tuna roll with tempura"
+    },
+    {
+      "name": "Steamboat Smokehouse",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic slow-smoked BBQ joint with Texas-style meats, sides, and regional flavors in a casual wooden-beamed setting.",
+      "mustTry": "Tri-tip with brown butter cornbread"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing at Steamboat Ski Resort",
+      "category": "Adventure",
+      "description": "World-renowned ski resort with 2,965 acres of terrain, 165 trails, and famous champagne powder snow across 12 bowls.",
+      "durationHours": 8,
+      "estimatedCostUSD": 169,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Yampa River Kayaking",
+      "category": "Outdoor",
+      "description": "Scenic paddling through Class I-II rapids with stunning canyon views and wildlife spotting opportunities along the river corridor.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Hot Springs Natural Bath Experience",
+      "category": "Relaxation",
+      "description": "Soak in natural geothermal hot springs with surrounding mountain scenery and wellness amenities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Emerald Mountain Trail Hike",
+      "category": "Outdoor",
+      "description": "Popular 10-mile round-trip hike with panoramic mountain views, wildlife sightings, and accessible difficulty with multiple route options.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mountain Biking at Steamboat Bike Park",
+      "category": "Adventure",
+      "description": "Extensive network of single tracks and downhill trails suitable for all skill levels with lift-assisted terrain access.",
+      "durationHours": 6,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Horseback Riding Adventure",
+      "category": "Outdoor",
+      "description": "Guided trail rides through aspen forests and high meadows with experienced outfitters and stunning valley vistas.",
+      "durationHours": 3,
+      "estimatedCostUSD": 125,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Downtown Steamboat Springs Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of historic buildings, public art installations, and the charming pedestrian mall with local galleries and shops.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Fly Fishing on Yampa River",
+      "category": "Adventure",
+      "description": "Professional guided fly fishing experience for brown and cutthroat trout with instruction and scenic riverside casting spots.",
+      "durationHours": 4,
+      "estimatedCostUSD": 195,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Steamboat Brewery Tour & Tasting",
+      "category": "Nightlife",
+      "description": "Local brewery tours featuring craft beer tastings, production insights, and socially vibrant tasting room environments.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon Ride",
+      "category": "Adventure",
+      "description": "Early morning flight over the Yampa Valley with 360-degree panoramic views and champagne celebration at landing.",
+      "durationHours": 3,
+      "estimatedCostUSD": 275,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Tread of Pioneers Museum Visit",
+      "category": "Cultural",
+      "description": "Local history museum showcasing ski culture heritage, Native American artifacts, and Old West exhibits with interactive displays.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cross-Country Skiing",
+      "category": "Outdoor",
+      "description": "Groomed trails through winter forests with varying difficulty levels and stunning snowy mountain backdrop vistas.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Steamboat Ski Resort Summit",
+        "description": "Aerial vantage point offering sweeping 360-degree views of multiple bowls, forested valleys, and distant mountain ranges.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for golden light and minimal crowds",
+        "category": "Landscape"
+      },
+      {
+        "name": "Yampa River Canyon",
+        "description": "Dramatic rock formations and whitewater rapids framed by steep canyon walls creating compelling landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for shadow contrast and water clarity",
+        "category": "Landscape"
+      },
+      {
+        "name": "Emerald Lake",
+        "description": "Alpine lake reflecting surrounding peaks and aspen forests with pristine turquoise waters ideal for mirror reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for soft light and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Steamboat Springs Pedestrian Mall",
+        "description": "Historic storefronts, art galleries, and local architecture with string lights and seasonal decorations creating vibrant street scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon or evening for architectural detail lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Sleeping Giant Mountain",
+        "description": "Distinctive profile recognizable from multiple angles with alternating tree and snow patterns creating strong visual contrast.",
+        "difficulty": "Beginner",
+        "bestTime": "Any clear day for profile definition",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mount Werner",
+        "description": "Peak offering panoramic vistas of surrounding valleys, basins, and distant Continental Divide with variable seasonal color.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for alpenglow effects",
+        "category": "Landscape"
+      },
+      {
+        "name": "Steamboat Springs Historic Train Depot",
+        "description": "Charming restored Victorian architecture with railway heritage details perfect for architectural and historical photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for side-lighting on structure details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Strawberry Park Natural Hot Springs",
+        "description": "Steaming pools nestled in snowy forest clearings with thermal mist creating atmospheric and moody conditions.",
+        "difficulty": "Advanced",
+        "bestTime": "Winter dusk for contrast between warm steam and cold air",
+        "category": "Landscape"
+      },
+      {
+        "name": "Storm Peak",
+        "description": "Jagged alpine ridge with dramatic snow cornices and exposure creating high-altitude adventure and dramatic silhouettes.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for backlighting and color saturation",
+        "category": "Landscape"
+      },
+      {
+        "name": "Catamount Bridge Wildlife Corridor",
+        "description": "Wildlife crossing infrastructure with surrounding forest habitat offering opportunities for animal and habitat documentation.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dawn and dusk for wildlife activity",
+        "category": "Wildlife"
+      }
+    ],
+    "sunriseSpots": [
+      "Steamboat Ski Resort Summit",
+      "Mount Werner Peak",
+      "Emerald Lake Shoreline"
+    ],
+    "sunsetSpots": [
+      "Sleeping Giant Mountain Viewpoint",
+      "Yampa River Canyon Overlook",
+      "Strawberry Park Hot Springs"
+    ],
+    "lensRecommendations": [
+      "Wide-angle 16-35mm for sweeping landscape vistas and dramatic mountain compositions",
+      "Standard 50-85mm for wildlife and detail work capturing texture and distant features",
+      "Telephoto 70-200mm for compressed perspectives and mountain range layering",
+      "Macro 90-105mm for hot spring mineral details and flora close-ups"
+    ],
+    "goldenHourNotes": "Steamboat Springs offers exceptional golden hour opportunities with high-elevation terrain creating extended color saturation periods. The valley orientation provides optimal sunrise light on eastern faces and sunset on western peaks. Winter months extend golden hour duration due to lower sun angle and atmospheric moisture amplifying warm tones.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -6,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": -1,
+        "rainfallMM": 43
+      },
+      {
+        "month": 4,
+        "avgTempC": 4,
+        "rainfallMM": 64
+      },
+      {
+        "month": 5,
+        "avgTempC": 10,
+        "rainfallMM": 84
+      },
+      {
+        "month": 6,
+        "avgTempC": 16,
+        "rainfallMM": 76
+      },
+      {
+        "month": 7,
+        "avgTempC": 19,
+        "rainfallMM": 89
+      },
+      {
+        "month": 8,
+        "avgTempC": 18,
+        "rainfallMM": 76
+      },
+      {
+        "month": 9,
+        "avgTempC": 13,
+        "rainfallMM": 61
+      },
+      {
+        "month": 10,
+        "avgTempC": 6,
+        "rainfallMM": 51
+      },
+      {
+        "month": 11,
+        "avgTempC": -2,
+        "rainfallMM": 38
+      },
+      {
+        "month": 12,
+        "avgTempC": -5,
+        "rainfallMM": 30
+      }
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Winter (December-March) dominates as peak ski season with consistent powder and cold temperatures, while summer (June-August) offers excellent hiking and outdoor activities with mild conditions. Shoulder seasons provide scenic transitions with wildlife viewing and fewer crowds.",
+    "summary": "Steamboat Springs experiences a high-altitude mountain climate with cold, snowy winters averaging -6°C and mild summers reaching 19°C. Annual snowfall exceeds 300 inches with continental weather patterns creating variable conditions and occasional rapid weather changes typical of Rocky Mountain terrain."
+  },
+  "hotels": [
+    {
+      "name": "Steamboat Budget Lodge",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Simple, comfortable rooms near downtown pedestrian mall with basic amenities and convenient mountain access at economical rates."
+    },
+    {
+      "name": "Storm Peak Lodge",
+      "neighborhood": "Ski Base Village",
+      "pricePerNightUSD": 275,
+      "category": "Mid-range",
+      "description": "Contemporary lodge featuring modern rooms, hot tub, and ski-in/ski-out convenience with excellent base village dining and retail access."
+    },
+    {
+      "name": "The Steamboat Grand Resort & Spa",
+      "neighborhood": "Ski Mountain",
+      "pricePerNightUSD": 625,
+      "category": "Luxury",
+      "description": "Premier ski-in/ski-out luxury property with full-service spa, fine dining, heated pools, and lavish accommodations overlooking the mountain terrain."
+    }
+  ]
+}

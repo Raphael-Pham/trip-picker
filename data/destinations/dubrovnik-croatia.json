@@ -14,7 +14,7 @@
     "photography",
     "foodie",
     "relaxation",
-    "cultural"
+    "hidden-gems"
   ],
   "scores": {
     "cost": 65,
@@ -32,108 +32,167 @@
     {
       "level": "mid",
       "minPerDayUSD": 120,
-      "maxPerDayUSD": 200
+      "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 800
     }
   ],
-  "unsplashQuery": "Dubrovnik Old Town sunset",
-  "summary": "Dubrovnik is a stunning medieval walled city on Croatia's Dalmatian coast, famous for its pristine marble streets, terracotta roofs, and Game of Thrones filming locations. The pearl of the Adriatic offers world-class photography, exceptional Mediterranean cuisine, and a perfect blend of cultural heritage with modern amenities. Crystal-clear waters, nearby island escapes, and romantic sunsets make it one of Europe's most enchanting destinations.",
+  "unsplashQuery": "Dubrovnik old town coast",
+  "summary": "Dubrovnik is a stunning medieval walled city on the Croatian Adriatic coast, famous for its perfectly preserved Old Town with terracotta roofs and limestone streets. Combining rich history, world-class Mediterranean cuisine, and breathtaking Dalmatian landscapes, it offers unforgettable experiences for photographers, culture seekers, and leisure travelers alike.",
   "restaurants": [
     {
-      "name": "Nisiazushi",
+      "name": "Nonna",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Cozy family-run restaurant serving traditional Dalmatian cuisine with fresh seafood and local pasta specialties.",
+      "mustTry": "Pašticada (beef stew in wine sauce)"
+    },
+    {
+      "name": "Proto",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Contemporary fusion restaurant combining Japanese techniques with Adriatic seafood. Offers intimate tasting menus with locally-sourced ingredients and exceptional wine pairings.",
-      "mustTry": "Sea urchin with Adriatic white fish carpaccio"
+      "description": "Award-winning seafood restaurant with stunning harbor views, featuring contemporary Mediterranean dishes prepared with premium ingredients.",
+      "mustTry": "Lobster risotto"
+    },
+    {
+      "name": "Orsan",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant waterfront restaurant specializing in fresh fish and shellfish with an extensive wine selection from Croatian vineyards.",
+      "mustTry": "Grilled sea bass"
+    },
+    {
+      "name": "Lady Pi-Pi",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual fast-casual spot offering excellent value with traditional Croatian sandwiches, fresh juice, and local snacks.",
+      "mustTry": "Pljeskavica (Serbian burger)"
+    },
+    {
+      "name": "Klarisa",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Intimate restaurant in the Old Town with locally sourced ingredients and authentic Mediterranean flavors in a romantic setting.",
+      "mustTry": "Scallop carpaccio"
+    },
+    {
+      "name": "Konoba Dalmatino",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional konoba serving hearty Dalmatian specialties in a rustic atmosphere with stone walls and local wine on tap.",
+      "mustTry": "Crni rižot (black risotto with squid ink)"
+    },
+    {
+      "name": "Restaurant Poklisar",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale restaurant combining traditional and modern Croatian cuisine with impeccable service and refined presentation.",
+      "mustTry": "Truffled pasta with Adriatic prawns"
+    },
+    {
+      "name": "Buffet Careva Taberna",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "No-frills buffet-style restaurant offering authentic local comfort food at very reasonable prices.",
+      "mustTry": "Mixed grilled meats plate"
     },
     {
       "name": "Nautika",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Elegant waterfront restaurant with panoramic Old Town views overlooking the Adriatic. Specializes in fresh seafood and Mediterranean cuisine with impeccable service.",
-      "mustTry": "Lobster spaghetti with truffle cream"
+      "description": "Prestigious three-star restaurant with panoramic Old Town views, offering innovative Mediterranean cuisine with impeccable wine pairings.",
+      "mustTry": "Delicacies of Adriatic tasting menu"
     },
     {
-      "name": "Buža",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Hidden beachfront wine and rakija bar built into the old city walls with spectacular sea views. A local favorite offering affordable drinks and casual Mediterranean atmosphere.",
-      "mustTry": "House rakija with fresh figs"
-    },
-    {
-      "name": "Proto",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Award-winning restaurant featuring modern interpretations of Dalmatian classics. Located on the main street with warm ambiance and creative seafood dishes.",
-      "mustTry": "Black risotto with squid ink and scallops"
-    },
-    {
-      "name": "Kolona",
+      "name": "Restaurant Amfora",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Charming family-run restaurant in the Old Town serving authentic Croatian cuisine. Known for generous portions and traditional recipes passed down through generations.",
-      "mustTry": "Pašticada - beef stew in red wine sauce"
+      "description": "Charming Old Town restaurant with friendly staff and reliable Croatian fare featuring fresh daily catches.",
+      "mustTry": "Octopus salad"
     },
     {
-      "name": "Café Plača",
+      "name": "Fresh Juice Bar",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual café on the main promenade offering quick bites, pastries, and coffee. Perfect for breakfast or snacks while exploring the Old Town.",
-      "mustTry": "Burek pastry with spinach or meat filling"
+      "description": "Popular casual spot for fresh smoothies, vegetarian options, and light Mediterranean snacks throughout the day.",
+      "mustTry": "Mango and passion fruit smoothie"
     },
     {
-      "name": "Taboo",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant rooftop restaurant with stunning city views serving Mediterranean and international cuisine. Ideal for special occasions with a sophisticated ambiance.",
-      "mustTry": "Pan-seared local fish with seasonal vegetables"
-    },
-    {
-      "name": "Lady Pi-Pi",
+      "name": "Mizarela",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Intimate pizzeria in the Old Town creating authentic wood-fired pizzas with quality ingredients. Cozy setting with local charm and reasonable prices.",
-      "mustTry": "Pizza Dubrovnik with local prosciutto and truffles"
-    },
-    {
-      "name": "Orhan",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Waterfront restaurant offering fresh seafood and traditional Dalmatian fare with exceptional sunset views. Family-owned with warm hospitality and good value.",
-      "mustTry": "Grilled octopus with lemon and olive oil"
-    },
-    {
-      "name": "Wineyard Pizzeria",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual pizzeria and wine bar near the Old Town with affordable meals and local wines. Great for a relaxed evening with quality Croatian wines.",
-      "mustTry": "Homemade pasta with seafood or truffle cream"
-    },
-    {
-      "name": "Marojica",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Traditional Croatian restaurant serving hearty Mediterranean dishes with emphasis on fresh local ingredients. Authentic recipes in a welcoming family atmosphere.",
-      "mustTry": "Scampi buzara - prawns in white wine tomato sauce"
-    },
-    {
-      "name": "Sesame",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Modern restaurant offering fusion Mediterranean cuisine with Asian influences. Stylish setting with creative dishes and excellent service quality.",
-      "mustTry": "Sushi roll with Adriatic fish and mango"
+      "description": "Casual family restaurant hidden outside Old Town walls, serving generous portions of authentic Croatian home cooking.",
+      "mustTry": "Grilled fish with roasted potatoes"
     }
   ],
   "activities": [
     {
-      "name": "Walk the City Walls",
+      "name": "Old Town Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the UNESCO-listed walled city with its marble streets, historic monuments, and baroque architecture. Guided tours provide rich historical context.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "City Walls Walk",
       "category": "Outdoor",
-      "description": "Circumnavigate the perfectly preserved medieval walls surrounding the Old Town for breathtaking panoramic views. The 2km walk takes approximately 1.5-2 hours and offers countless photo opportunities.",
+      "description": "Walk the 1.6-mile defensive walls surrounding Old Town for panoramic views of the Adriatic, red roofs, and surrounding islands.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 13,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kayaking the Coast",
+      "category": "Adventure",
+      "description": "Paddle along the stunning Dalmatian coastline, visiting hidden coves, sea caves, and secluded beaches inaccessible by land.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Island Hopping Tour",
+      "category": "Outdoor",
+      "description": "Take a boat tour to nearby islands like Lopud, Koločep, and Šipan, exploring beaches, medieval villages, and olive groves.",
+      "durationHours": 6,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cliff Jumping at Bunje Beach",
+      "category": "Adventure",
+      "description": "Experience thrilling cliff jumps into crystal-clear Adriatic waters at this popular local spot just outside the city.",
       "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Sunset Cable Car Ride",
+      "category": "Outdoor",
+      "description": "Ride the cable car up Mount Srđ for breathtaking sunset views over Old Town, islands, and the Adriatic Sea.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
@@ -142,224 +201,162 @@
       ]
     },
     {
-      "name": "Kayak to Lokrum Island",
+      "name": "Snorkeling Tour",
       "category": "Adventure",
-      "description": "Paddle to the nearby island featuring a Benedictine monastery, botanical gardens, and pristine beaches. A guided tour includes swimming, snorkeling, and exploring the island's natural attractions.",
-      "durationHours": 4,
-      "estimatedCostUSD": 45,
+      "description": "Snorkel in pristine waters around Dubrovnik, exploring marine life, underwater caves, and artificial reefs.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "adventure",
-        "relaxation",
-        "photography"
+        "standard"
       ]
     },
     {
-      "name": "Sunset Dinner Cruise",
-      "category": "Nightlife",
-      "description": "Sail along the Adriatic coastline during golden hour with drinks, snacks, and unobstructed sunset views. Perfect for romance and photography with the city skyline as backdrop.",
-      "durationHours": 3,
-      "estimatedCostUSD": 70,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Game of Thrones Walking Tour",
+      "name": "Museum of Glass Blowing",
       "category": "Cultural",
-      "description": "Guided tour visiting iconic filming locations from the HBO series throughout the Old Town and nearby areas. Learn behind-the-scenes stories while exploring the city's architectural gems.",
-      "durationHours": 3,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "photography"
-      ]
-    },
-    {
-      "name": "Snorkeling at Caves",
-      "category": "Adventure",
-      "description": "Explore hidden sea caves and underwater formations with a professional guide in crystal-clear Adriatic waters. Includes equipment, transportation, and safety briefing for all experience levels.",
-      "durationHours": 4,
-      "estimatedCostUSD": 55,
-      "bestFor": [
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Explore the Old Town (Self-Guided)",
-      "category": "Cultural",
-      "description": "Wander cobblestone streets, discover hidden courtyards, baroque architecture, and local shops at your own pace. Free exploration allows flexible timing and personal discovery of Dubrovnik's charm.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Visit Trsteno Arboretum",
-      "category": "Outdoor",
-      "description": "Explore this Renaissance-era botanical garden just outside Dubrovnik with exotic plants, fountains, and peaceful grounds. A perfect escape from the busy Old Town with exceptional green spaces.",
-      "durationHours": 2,
+      "description": "Watch artisans create beautiful glass pieces using traditional techniques, with demonstrations and the opportunity to purchase unique souvenirs.",
+      "durationHours": 1,
       "estimatedCostUSD": 10,
       "bestFor": [
-        "relaxation",
-        "photography"
+        "cultural",
+        "standard"
       ]
     },
     {
-      "name": "Island-Hopping Day Tour",
+      "name": "Trsteno Arboretum Visit",
       "category": "Outdoor",
-      "description": "Visit multiple islands in the Elaphiti Archipelago including Lopud, Šipan, and Koločep with beach stops and local village exploration. Includes boat transportation and flexibility for swimming.",
-      "durationHours": 8,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "adventure",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Fort Lovrijenac Visit",
-      "category": "Cultural",
-      "description": "Climb to this 16th-century fortress perched on a cliff offering stunning city and sea vistas. Explore the fortress interior, watch street performances, and enjoy photography opportunities.",
-      "durationHours": 1.5,
+      "description": "Explore this 16th-century botanical garden 14 miles north of Dubrovnik, featuring exotic plants, historical ruins, and peaceful walking trails.",
+      "durationHours": 2,
       "estimatedCostUSD": 12,
       "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Game of Thrones Tour",
+      "category": "Cultural",
+      "description": "Visit filming locations from Game of Thrones throughout Dubrovnik and learn behind-the-scenes production stories from knowledgeable guides.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
         "standard",
-        "photography",
         "cultural"
+      ]
+    },
+    {
+      "name": "Sunset Beach Day at Banje",
+      "category": "Relaxation",
+      "description": "Relax on this pebble beach opposite Old Town walls with clear waters, beach bars, and golden hour views of the historic city.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography"
       ]
     },
     {
       "name": "Wine Tasting Tour",
       "category": "Foodie",
-      "description": "Visit local wineries in the Pelješac Peninsula region sampling renowned Dalmatian wines like Dingač and Postup. Includes vineyard walks, tastings, and traditional food pairings.",
-      "durationHours": 6,
-      "estimatedCostUSD": 85,
+      "description": "Sample local Dalmatian wines like Plavac Mali and Dingač at family-run wineries with scenic vineyard views and authentic hospitality.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "foodie",
         "relaxation"
-      ]
-    },
-    {
-      "name": "Dubrovnik Cable Car Ride",
-      "category": "Outdoor",
-      "description": "Take the cable car up Mount Srđ for 360-degree views of the city, islands, and Adriatic Sea. The mountain top offers hiking, restaurants, and exceptional photography vantage points.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Franciscan Monastery & Museums",
-      "category": "Cultural",
-      "description": "Discover medieval art, manuscripts, and pharmaceutical exhibits in this atmospheric monastery with a peaceful courtyard. Learn about Dubrovnik's religious and cultural heritage through historical artifacts.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "cultural"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Old Town Walls at Dawn",
-        "description": "Capture the mist-covered city and terracotta roofs bathed in golden morning light from the walls' highest points.",
+        "name": "Fortuna Reef Viewpoint",
+        "description": "Elevated viewpoint offering the most iconic postcard view of Old Town with all three fortresses and red-tiled roofs in one frame.",
         "difficulty": "Beginner",
-        "bestTime": "6:30-7:30 AM in summer",
+        "bestTime": "Golden hour sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Buza Bar Cliff",
+        "description": "Dramatic seaside cliff location with white stone walls dropping into turquoise water, perfect for layered compositions at sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon to sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pile Gate at Dawn",
+        "description": "Photograph the main entrance gate with soft morning light illuminating the stone architecture and empty streets for serene compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light",
         "category": "Architecture"
       },
       {
-        "name": "Stradun Main Street",
-        "description": "Photograph the marble-paved main street lined with historic buildings, capturing both day and night atmospheric scenes.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning before crowds or golden hour",
+        "name": "Stradun Street Scene",
+        "description": "The main marble street with historic buildings on both sides, beautiful for street photography capturing daily life and light reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning or late afternoon",
         "category": "Street"
       },
       {
-        "name": "Fort Lovrijenac Viewpoint",
-        "description": "Shoot panoramic city and coastline views from this clifftop fortress overlooking the entire Old Town and Adriatic.",
+        "name": "Fort Lovrijenac",
+        "description": "Dramatic fortress on a rocky outcrop with sweeping views of Old Town and Adriatic, stunning for backlit golden hour silhouettes.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm tones, blue hour for city lights",
-        "category": "Landscape"
-      },
-      {
-        "name": "Buža Bar Vantage Point",
-        "description": "Capture stunning sea views framed by ancient stone walls and locals enjoying wine at this hidden gem built into fortifications.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon and sunset",
+        "bestTime": "Golden hour",
         "category": "Architecture"
       },
       {
-        "name": "Lokrum Island Monastery",
-        "description": "Photograph the Gothic-Renaissance monastery ruins set against pine trees and crystalline Adriatic waters.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light for architectural details",
-        "category": "Architecture"
-      },
-      {
-        "name": "Mount Srđ Summit",
-        "description": "Capture 360-degree views of Dubrovnik, surrounding islands, and the Adriatic from this elevated vantage point.",
+        "name": "Lokrum Island Viewpoint",
+        "description": "Accessible by short ferry, this island offers elevated views of Old Town from the east with natural foreground vegetation.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset for warm colors, clear days for maximum visibility",
+        "bestTime": "Afternoon light",
         "category": "Landscape"
       },
       {
-        "name": "Adriatic Seascapes",
-        "description": "Shoot coastal landscapes featuring dramatic cliffs, hidden coves, and turquoise waters from boat or shoreline locations.",
+        "name": "Rector's Palace Courtyard",
+        "description": "Gothic-Renaissance architecture with intricate details and dramatic shadows, excellent for architectural and detail photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Calm seas at sunrise, golden hour for warm tones",
-        "category": "Landscape"
-      },
-      {
-        "name": "Cathedral of the Assumption Interior",
-        "description": "Photograph baroque architectural details, ornate altars, and painted ceilings in this luminous religious interior.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday when sunlight streams through windows",
+        "bestTime": "Midday or golden hour",
         "category": "Architecture"
       },
       {
-        "name": "Nighttime City Lights",
-        "description": "Capture the Old Town's stunning illumination reflecting off the harbor with long exposures from waterfront vantage points.",
+        "name": "Harbour at Night",
+        "description": "Old Town waterfront with reflected lights creating romantic night scenes and interesting compositions with boats and buildings.",
         "difficulty": "Advanced",
-        "bestTime": "30 minutes after sunset for blue hour depth",
+        "bestTime": "Night after sunset",
         "category": "Night"
       },
       {
-        "name": "Trsteno Arboretum Fountains",
-        "description": "Photograph ornate Renaissance fountains, manicured gardens, and exotic plants in this peaceful botanical setting.",
+        "name": "Coastal Kayak Perspective",
+        "description": "Unique water-level view of Old Town walls and fortresses from kayak, offering perspective unavailable from shore.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cable Car Ascending",
+        "description": "Cable car ascending Mount Srđ with Old Town below and islands beyond, capturing layered landscape and sense of scale.",
         "difficulty": "Intermediate",
-        "bestTime": "Soft morning light or overcast days for even exposure",
+        "bestTime": "Late afternoon approaching sunset",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Mount Srđ Summit",
-      "Old Town Walls North Gate",
-      "Lokrum Island Beach"
+      "Lokrum Island Eastern Trail",
+      "Banje Beach Promenade",
+      "Pile Gate Approach"
     ],
     "sunsetSpots": [
-      "Fort Lovrijenac",
-      "Mount Srđ",
-      "Buža Bar Terrace"
+      "Mount Srđ Cable Car Summit",
+      "Fortuna Reef Viewpoint",
+      "Fort Lovrijenac Terrace"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for sweeping cityscape panoramas and architectural context",
-      "50mm prime for intimate street scenes and architectural details with beautiful bokeh",
-      "70-200mm telephoto for compressed cityscapes from distance and island isolation shots",
-      "14mm ultra-wide for dramatic fortress perspectives and complete wall circumnavigation shots"
+      "Wide-angle 16-35mm for sweeping landscape vistas of Old Town and coastline",
+      "Standard 35-50mm for street photography and architectural details in the Old Town",
+      "Telephoto 70-200mm for compressed perspectives and distant island compositions",
+      "Prime 85mm f/1.8 for golden hour portraits with Old Town background bokeh"
     ],
-    "goldenHourNotes": "Dubrovnik's golden hour is exceptionally photogenic due to the terracotta roofs and marble streets reflecting warm light. The city's westward orientation means sunset light comes from behind many viewpoints, creating rim-lit architectural details. Early morning light from Mount Srđ creates a magical mist effect over the Old Town, best captured during summer months when sunrise occurs around 5:30 AM.",
+    "goldenHourNotes": "Golden hour in Dubrovnik is exceptional due to the Mediterranean light quality and multiple elevated viewpoints. The best sunset views occur from Mount Srđ, Fort Lovrijenac, and Fortuna Reef between 45 minutes before and 15 minutes after official sunset. Morning light at the Pile Gate creates soft, directional illumination ideal for street and architectural photography with minimal crowds.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -367,62 +364,62 @@
       {
         "month": 1,
         "avgTempC": 8,
-        "rainfallMM": 142
-      },
-      {
-        "month": 2,
-        "avgTempC": 8,
-        "rainfallMM": 127
-      },
-      {
-        "month": 3,
-        "avgTempC": 11,
         "rainfallMM": 115
       },
       {
+        "month": 2,
+        "avgTempC": 9,
+        "rainfallMM": 108
+      },
+      {
+        "month": 3,
+        "avgTempC": 12,
+        "rainfallMM": 88
+      },
+      {
         "month": 4,
-        "avgTempC": 15,
-        "rainfallMM": 99
+        "avgTempC": 16,
+        "rainfallMM": 78
       },
       {
         "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 65
+        "avgTempC": 22,
+        "rainfallMM": 48
       },
       {
         "month": 6,
         "avgTempC": 26,
-        "rainfallMM": 34
+        "rainfallMM": 32
       },
       {
         "month": 7,
         "avgTempC": 29,
-        "rainfallMM": 19
+        "rainfallMM": 20
       },
       {
         "month": 8,
         "avgTempC": 28,
-        "rainfallMM": 29
+        "rainfallMM": 25
       },
       {
         "month": 9,
         "avgTempC": 25,
-        "rainfallMM": 53
+        "rainfallMM": 52
       },
       {
         "month": 10,
-        "avgTempC": 19,
-        "rainfallMM": 112
+        "avgTempC": 20,
+        "rainfallMM": 95
       },
       {
         "month": 11,
         "avgTempC": 14,
-        "rainfallMM": 164
+        "rainfallMM": 130
       },
       {
         "month": 12,
         "avgTempC": 10,
-        "rainfallMM": 152
+        "rainfallMM": 128
       }
     ],
     "bestMonths": [
@@ -432,31 +429,31 @@
       8,
       9
     ],
-    "seasonality": "Dubrovnik enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. The shoulder seasons of May and September offer perfect weather with fewer crowds than peak summer months.",
-    "summary": "Summer temperatures regularly exceed 28°C with minimal rainfall, making it ideal for water activities and outdoor exploration. Winter sees occasional rain and cooler temperatures, but snow is extremely rare, allowing year-round visiting with proper clothing for shoulder seasons."
+    "seasonality": "Dubrovnik enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. The peak tourist season runs from June through September when temperatures exceed 25°C and rainfall is minimal.",
+    "summary": "Dubrovnik offers comfortable weather year-round for exploration, with summer temperatures reaching 29°C and winter lows around 8°C. Spring and early autumn provide the ideal balance of warm weather, low rainfall, and smaller crowds for optimal travel conditions."
   },
   "hotels": [
     {
-      "name": "Rooms by Rumi",
+      "name": "Hostel Old Town",
       "neighborhood": "Old Town",
-      "pricePerNightUSD": 60,
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Charming budget guesthouse with basic amenities in a restored medieval building, offering authentic Old Town location with narrow street charm."
+      "description": "Social hostel with dorm beds and private rooms in the heart of Old Town, offering a rooftop terrace and common kitchen."
     },
     {
-      "name": "Boutique Hotel Astarea",
-      "neighborhood": "Old Town",
-      "pricePerNightUSD": 155,
+      "name": "Hotel Hilton Imperial Dubrovnik",
+      "neighborhood": "Pile",
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Elegant mid-range hotel featuring modern rooms in a historic building with sea views, rooftop bar, and personalized service in the heart of the Old Town."
+      "description": "Four-star beachfront hotel just outside Old Town walls with modern amenities, multiple restaurants, and direct sea access."
     },
     {
-      "name": "Hotel Excelsior",
-      "neighborhood": "Babin Kuk",
-      "pricePerNightUSD": 380,
+      "name": "Villa Orsula",
+      "neighborhood": "Old Town",
+      "pricePerNightUSD": 650,
       "category": "Luxury",
-      "description": "Five-star beachfront resort with panoramic Adriatic views, spa facilities, fine dining, and impeccable service just outside the Old Town."
+      "description": "Ultra-luxury five-room boutique hotel housed in a restored 16th-century palace with personalized service and sea-view terraces."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1626699748984-47d6942751ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEdWJyb3ZuaWslMjBPbGQlMjBUb3duJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODE1NjIyODV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1414862625453-d87604a607e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEdWJyb3ZuaWslMjBvbGQlMjB0b3duJTIwY29hc3R8ZW58MXwwfHx8MTc4MTYyOTQzNHww&ixlib=rb-4.1.0&q=80&w=1080"
 }

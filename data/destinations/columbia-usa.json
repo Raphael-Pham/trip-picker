@@ -1,0 +1,458 @@
+{
+  "id": "columbia-usa",
+  "city": "Columbia",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "COU",
+    "MCI",
+    "STL"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "relaxation",
+    "hidden-gems"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 75,
+    "photography": 78,
+    "activities": 76,
+    "weather": 68
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 300
+    }
+  ],
+  "unsplashQuery": "Columbia Missouri downtown historic",
+  "summary": "Columbia, Missouri's capital city, blends small-town charm with vibrant cultural attractions, world-class museums, and a thriving food scene centered around local ingredients and craft beverages. Known as the 'Athens of the Mid-Missouri,' this college town offers excellent photo opportunities with its historic architecture, lush parks, and scenic riverfront, all at an affordable price point. Visitors enjoy exploring the prestigious University of Missouri campus, browsing independent galleries, and discovering hidden local restaurants that punch well above their modest price tags.",
+  "restaurants": [
+    {
+      "name": "Broadway Brewery",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic local brewpub housed in a historic building on Broadway, serving craft beers and elevated pub fare.",
+      "mustTry": "Smoked Brisket Sandwich with house IPA"
+    },
+    {
+      "name": "Sophia's Place",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale Italian restaurant featuring housemade pasta and seasonal ingredients in an intimate setting.",
+      "mustTry": "Wild Mushroom Risotto"
+    },
+    {
+      "name": "The Majestic Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Historic Art Deco diner offering contemporary American cuisine with locally-sourced ingredients.",
+      "mustTry": "Pan-Seared Missouri Catfish"
+    },
+    {
+      "name": "TacoPalooza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual taco stand with authentic Mexican recipes and fresh ingredients at unbeatable prices.",
+      "mustTry": "Al Pastor Tacos"
+    },
+    {
+      "name": "The Rainforest Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy vegetarian and vegan eatery with flavorful bowls, salads, and smoothies.",
+      "mustTry": "Buddha Bowl with Tahini Dressing"
+    },
+    {
+      "name": "Indochine",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vietnamese and Thai fusion restaurant with vibrant flavors and family-friendly atmosphere.",
+      "mustTry": "Pho with Beef Brisket"
+    },
+    {
+      "name": "Sleepy Otter Coffee House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisan coffee shop with pastries, light breakfast fare, and excellent single-origin espresso.",
+      "mustTry": "Almond Croissant with Flat White"
+    },
+    {
+      "name": "Flat Branch Pub & Brewing",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic brewery and restaurant with innovative craft beers and wood-fired pizza.",
+      "mustTry": "Hazy IPA with Margherita Pizza"
+    },
+    {
+      "name": "Umi Japanese Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Japanese cuisine featuring fresh sushi, ramen, and izakaya-style small plates.",
+      "mustTry": "Spicy Tuna Roll with Miso Ramen"
+    },
+    {
+      "name": "El Columpio",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-owned Mexican restaurant serving traditional authentic recipes and homemade salsas.",
+      "mustTry": "Chile Relleno with Enchiladas"
+    },
+    {
+      "name": "The Café Europé",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "French-inspired bistro with crepes, quiches, and classic European comfort food.",
+      "mustTry": "Crêpe Suzette with Coq au Vin"
+    },
+    {
+      "name": "Addison's Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table fine dining with seasonal menus celebrating Missouri's agricultural heritage.",
+      "mustTry": "Grass-Fed Steak with Seasonal Vegetables"
+    }
+  ],
+  "activities": [
+    {
+      "name": "University of Missouri Campus Tour",
+      "category": "Cultural",
+      "description": "Explore the prestigious Mizzou campus featuring historic columns, beautiful quads, and world-class museums. The campus is free to walk and offers exceptional architecture for photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "State Capitol Building Tour",
+      "category": "Cultural",
+      "description": "Guided tour of Missouri's stunning Renaissance Revival capitol building with ornate interiors and impressive architecture. Tours are available and provide insights into state history.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Columbia Museum of Art",
+      "category": "Indoor",
+      "description": "Contemporary art museum with rotating exhibitions featuring modern and classical works in an architecturally stunning building. Free admission with optional donations.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rockbridge State Park Hiking",
+      "category": "Outdoor",
+      "description": "Scenic hiking trails through Missouri's natural landscape with waterfalls, streams, and stunning geological formations. Multiple trail options for various skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Katy Trail Biking",
+      "category": "Outdoor",
+      "description": "Missouri's premier 240-mile biking trail with a scenic section near Columbia following historic railroad routes through beautiful countryside.",
+      "durationHours": 4,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Craft Brewery Crawl Tour",
+      "category": "Nightlife",
+      "description": "Guided tour visiting multiple local breweries including Flat Branch, Broadway, and others, featuring tastings and local knowledge. Tours include tastings and snacks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Missouri Botanical Garden Day Trip",
+      "category": "Outdoor",
+      "description": "Drive to nearby St. Louis (90 minutes) to visit the world-renowned botanical gardens with 79 acres of themed gardens, water features, and exotic plants.",
+      "durationHours": 6,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Stephens Lake Park Nature Walk",
+      "category": "Outdoor",
+      "description": "Beautiful urban park with scenic walking paths, lake views, and abundant wildlife photography opportunities. The park features paved trails and several vantage points.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Broadway Street Exploration & Shopping",
+      "category": "Indoor",
+      "description": "Columbia's vibrant downtown historic street lined with independent boutiques, galleries, antique shops, and restaurants. Excellent for local culture and urban photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Jesse Hall & Mizzou Museum of Art & Archaeology",
+      "category": "Cultural",
+      "description": "Iconic university building with free admission to explore historic architecture and extensive museum collections of ancient artifacts and contemporary art.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Farmer's Market at Rose Garden",
+      "category": "Family",
+      "description": "Weekly farmers market (Saturday mornings) featuring local produce, artisan goods, baked items, and crafts. Best in spring and summer months.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Paint Nite or Local Art Class",
+      "category": "Indoor",
+      "description": "Several venues offer paint-and-sip experiences, pottery classes, and art workshops perfect for evening entertainment and creative expression.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Jesse Hall",
+        "description": "Iconic Renaissance Revival building at Mizzou campus center with magnificent columns and symmetrical architecture.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour for warm light on columns",
+        "category": "Architecture"
+      },
+      {
+        "name": "Missouri State Capitol Dome",
+        "description": "Stunning Renaissance Revival dome with ornate architectural details and imposing presence against sky.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for crisp details, golden hour for atmospheric shots",
+        "category": "Architecture"
+      },
+      {
+        "name": "Broadway Historic District",
+        "description": "Tree-lined historic street with vintage storefronts, old signs, and authentic small-town American character.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds, late afternoon for dappled light",
+        "category": "Street"
+      },
+      {
+        "name": "Stephens Lake Reflection",
+        "description": "Serene lake with mirror-like reflections of trees and sky, excellent for landscape and reflection photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for calm water and mist effects",
+        "category": "Landscape"
+      },
+      {
+        "name": "Rock Bridge State Park Waterfall",
+        "description": "Natural waterfall cascading over moss-covered rocks creating dynamic water flow and lush greenery.",
+        "difficulty": "Intermediate",
+        "bestTime": "After rainfall when water flow is strong, overcast days for even lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mizzou Campus Quad",
+        "description": "Historic quadrangle surrounded by classical architecture with manicured lawns and seasonal flowers.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring for flowering trees, golden hour for warm building tones",
+        "category": "Architecture"
+      },
+      {
+        "name": "Columbia Museum of Art Exterior",
+        "description": "Modern glass and steel architecture with distinctive curved lines reflecting sky and surroundings.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour for glass reflections, cloudy days for dramatic contrast",
+        "category": "Architecture"
+      },
+      {
+        "name": "Katy Trail Corridor",
+        "description": "Long tree-lined biking path through rural landscape with vanishing point perspective and seasonal changes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Spring for blooming trees, autumn for foliage",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Alley Murals",
+        "description": "Vibrant street art murals in downtown alleys offering colorful abstract and figurative compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for vibrant color saturation and even lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Frances Quadrangle Twilight",
+        "description": "University quad with historic buildings illuminated during twilight, featuring warm lamp light and architectural drama.",
+        "difficulty": "Advanced",
+        "bestTime": "30 minutes after sunset for blue hour transitions",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Stephens Lake Park East Overlook",
+      "Rock Bridge State Park Upper Trailhead",
+      "Mizzou Campus Francis Quadrangle"
+    ],
+    "sunsetSpots": [
+      "Stephens Lake Park West Shore",
+      "Broadway Street Looking West",
+      "State Capitol Building Front Steps"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural symmetry and expansive landscapes",
+      "50mm prime for street photography and bokeh in park settings",
+      "70-200mm telephoto for compressed perspectives and wildlife at lakes",
+      "14mm ultra-wide for dramatic sky and sweeping vistas at viewpoints"
+    ],
+    "goldenHourNotes": "Columbia's relatively flat terrain means golden hour light beautifully illuminates the historic architecture, particularly Jesse Hall and the State Capitol. The best golden hour shooting is 30 minutes before sunset through 15 minutes after, when warm light rakes across building facades. Capture the campus quad during spring golden hour when blooming trees are backlit and appear luminous.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 45
+      },
+      {
+        "month": 2,
+        "avgTempC": 1,
+        "rainfallMM": 50
+      },
+      {
+        "month": 3,
+        "avgTempC": 8,
+        "rainfallMM": 70
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 90
+      },
+      {
+        "month": 5,
+        "avgTempC": 20,
+        "rainfallMM": 120
+      },
+      {
+        "month": 6,
+        "avgTempC": 25,
+        "rainfallMM": 110
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 95
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 85
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 75
+      },
+      {
+        "month": 10,
+        "avgTempC": 16,
+        "rainfallMM": 60
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 65
+      },
+      {
+        "month": 12,
+        "avgTempC": 1,
+        "rainfallMM": 55
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and fall (September-October) offer ideal weather with mild temperatures and moderate rainfall, making them perfect for outdoor activities and photography. Summer is hot and humid with occasional thunderstorms, while winters are cold with snow possible, creating beautiful landscape photography opportunities but less comfortable for touring.",
+    "summary": "Columbia experiences a humid continental climate with four distinct seasons. Temperatures range from cold winters averaging -2°C to warm summers around 27°C, with moderate rainfall throughout the year peaking in late spring."
+  },
+  "hotels": [
+    {
+      "name": "HI Columbia Hostel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 35,
+      "category": "Budget",
+      "description": "Friendly hostel with shared and private rooms, communal kitchen, and excellent location near Broadway restaurants and museums."
+    },
+    {
+      "name": "Drury Inn & Suites Columbia",
+      "neighborhood": "North Campus",
+      "pricePerNightUSD": 95,
+      "category": "Mid-range",
+      "description": "Comfortable hotel with free breakfast, indoor pool, fitness center, and convenient location near Mizzou campus and local attractions."
+    },
+    {
+      "name": "The Shack Bed and Breakfast",
+      "neighborhood": "Midtown Historic",
+      "pricePerNightUSD": 160,
+      "category": "Luxury",
+      "description": "Charming boutique bed and breakfast in historic home with thoughtful amenities, gourmet breakfast, and personalized hospitality near downtown."
+    }
+  ]
+}

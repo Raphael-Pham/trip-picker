@@ -27,7 +27,7 @@
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 85,
+      "minPerDayUSD": 80,
       "maxPerDayUSD": 140
     },
     {
@@ -41,101 +41,92 @@
       "maxPerDayUSD": 450
     }
   ],
-  "unsplashQuery": "Finger Lakes wine vineyards",
-  "summary": "The Finger Lakes region in upstate New York is a stunning destination featuring eleven long, narrow glacial lakes surrounded by rolling hills, world-class wineries, and dramatic gorges with waterfalls. Famous for its cool-climate wines, farm-to-table cuisine, and natural beauty, this area offers a perfect blend of relaxation, adventure, and culinary excellence away from crowded tourist destinations.",
+  "unsplashQuery": "Finger Lakes New York wine",
+  "summary": "The Finger Lakes region of upstate New York is a stunning destination featuring eleven elongated glacial lakes, world-class wineries, and dramatic gorges with waterfalls. Known for exceptional Rieslings, farm-to-table dining, and outdoor adventures, this area offers both sophisticated wine country experiences and rugged natural beauty perfect for photography and relaxation.",
   "restaurants": [
     {
-      "name": "Aurora Inn Restaurant",
+      "name": "Rosewood Grill",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant lakeside dining with New American cuisine focusing on local seasonal ingredients. Features an extensive wine selection from nearby vineyards and panoramic views of Cayuga Lake.",
+      "priceRange": "$$$$",
+      "description": "Upscale farm-to-table establishment featuring locally-sourced meats and seasonal produce paired with Finger Lakes wines in an elegant setting.",
       "mustTry": "Pan-seared duck breast with cherry gastrique"
     },
     {
-      "name": "Morada",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale Spanish-inspired restaurant in Geneva offering innovative small plates and an impressive cocktail program. Known for its sophisticated atmosphere and creative use of local produce.",
-      "mustTry": "Crispy shishito peppers with sea salt"
+      "name": "Ithaca Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved local bakery offering fresh pastries, artisan breads, and excellent coffee in a casual, welcoming atmosphere.",
+      "mustTry": "Chocolate croissant and cappuccino"
     },
     {
-      "name": "Taughannock Farms Inn",
-      "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "Farm-to-table restaurant housed in a historic inn, showcasing menus that change with seasonal harvests from their own farm. Emphasizes organic, local ingredients in comfort food preparations.",
-      "mustTry": "Roasted farm vegetables with herb butter"
-    },
-    {
-      "name": "The Finger Lakes Kitchen",
+      "name": "Moosewood Restaurant",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual eatery celebrating regional flavors with locally-sourced meats, cheeses, and produce. Offers a relaxed atmosphere perfect for lunch or casual dinner.",
-      "mustTry": "Finger Lakes beef burger with local cheddar"
+      "description": "Legendary vegetarian cooperative restaurant featuring creative plant-based cuisine with global influences and locally-sourced ingredients."
+    },
+    {
+      "name": "Red Newt Cellars Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate winery restaurant with exceptional wine pairings, French-inspired cuisine, and views overlooking Seneca Lake's vineyards.",
+      "mustTry": "Grilled lamb with Riesling reduction"
+    },
+    {
+      "name": "Señor Wences",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Popular Mexican restaurant serving authentic cuisine with fresh ingredients and vibrant flavors in a lively casual setting."
+    },
+    {
+      "name": "Finger Lakes Brewing Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual brewery with craft beers, pub food, and views of Seneca Lake featuring wings, burgers, and local favorites."
+    },
+    {
+      "name": "L'Adresse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "French fine dining gem offering classical techniques with modern sensibilities, featuring seasonal tasting menus and extensive wine lists."
+    },
+    {
+      "name": "The Boatyard Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront restaurant with fresh seafood, steaks, and local fare with direct views of Cayuga Lake and sunset dining opportunities."
+    },
+    {
+      "name": "Purity Ice Cream",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic ice cream parlor since 1936 serving small-batch, handmade ice cream with unique seasonal flavors and nostalgic charm."
     },
     {
       "name": "Dano's Heuriger",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Traditional Austrian wine tavern in Dundee featuring schnitzel, sausages, and hearty European fare paired with Finger Lakes wines. Authentic and family-friendly atmosphere.",
-      "mustTry": "Wiener schnitzel with Austrian potatoes"
-    },
-    {
-      "name": "Halsey's",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Waterfront pub in Seneca Falls offering casual American fare with lake views. Known for fresh seafood, burgers, and a lively bar scene.",
-      "mustTry": "Steamed mussels in white wine sauce"
+      "description": "Austrian-inspired wine bar and restaurant featuring schnitzel, sausages, and European wines in a cozy tavern atmosphere."
     },
     {
-      "name": "The Grange",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary American restaurant in Interlaken with a strong emphasis on sustainability and local partnerships. Offers creative dishes in an intimate setting.",
-      "mustTry": "Grass-fed beef tenderloin with root vegetables"
+      "name": "The Taughannnock Falls State Park Concession",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual outdoor food stand near the falls offering sandwiches, hot dogs, and snacks perfect for hikers and park visitors."
     },
     {
-      "name": "Rasa Asian Cuisine",
+      "name": "Stella's Trattoria",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Modern Asian fusion restaurant offering Thai, Japanese, and Vietnamese-inspired dishes. High-quality ingredients and creative presentations in a contemporary setting.",
-      "mustTry": "Pad Thai with local shrimp"
-    },
-    {
-      "name": "Laconic Brewpub",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual craft brewery and pub offering house-made beers paired with pub favorites and wood-fired pizza. Popular gathering spot with locals and visitors.",
-      "mustTry": "Wood-fired pizza with local sausage"
-    },
-    {
-      "name": "Ports Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Cozy breakfast and brunch spot in Ithaca serving hearty omelets, pancakes, and sandwiches at reasonable prices. Known for generous portions and friendly service.",
-      "mustTry": "Belgian waffle with fresh berries"
-    },
-    {
-      "name": "Sunflower Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Vegetarian and vegan-friendly cafe offering healthy grain bowls, smoothies, and baked goods. Great option for dietary restrictions and quick lunch.",
-      "mustTry": "Buddha bowl with quinoa and roasted vegetables"
-    },
-    {
-      "name": "Oldport Harbour Grill",
-      "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "Waterfront seafood restaurant in Seneca Falls featuring fresh catches prepared simply and perfectly. Known for white fish specials and upscale casual atmosphere.",
-      "mustTry": "Pan-seared lake whitefish with lemon butter"
+      "description": "Authentic Italian restaurant featuring housemade pasta, wood-fired pizza, and Italian wines in an intimate candlelit setting."
     }
   ],
   "activities": [
     {
-      "name": "Wine Tasting Tours",
-      "category": "Outdoor",
-      "description": "Explore over 100 wineries throughout the Finger Lakes, ranging from boutique operations to established vineyards. Most offer tastings, tours, and beautiful vineyard settings.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
+      "name": "Wine Tasting Tour",
+      "category": "Cultural",
+      "description": "Visit multiple award-winning wineries across the region specializing in Riesling, Cabernet Franc, and other varietals. Tours typically include tastings, cellar tours, and educational sessions about the region's unique terroir.",
+      "durationHours": 6,
+      "estimatedCostUSD": 80,
       "bestFor": [
         "standard",
         "foodie",
@@ -143,274 +134,281 @@
       ]
     },
     {
-      "name": "Kayaking Cayuga Lake",
-      "category": "Adventure",
-      "description": "Paddle on one of the largest Finger Lakes, enjoying pristine waters and scenic shorelines. Rentals and guided tours available for all skill levels.",
+      "name": "Taughannock Falls Hike",
+      "category": "Outdoor",
+      "description": "Trek to the base of 215-foot Taughannock Falls, one of the highest waterfalls east of the Mississippi, through scenic gorge trails with multiple viewpoints.",
       "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cayuga Lake Kayaking",
+      "category": "Adventure",
+      "description": "Paddle across pristine Cayuga Lake with views of vineyards, gorges, and distant hills. Rentals available at multiple locations with guided tours optional.",
+      "durationHours": 4,
       "estimatedCostUSD": 60,
       "bestFor": [
         "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Taughannock Falls State Park",
-      "category": "Outdoor",
-      "description": "Hike to a 215-foot waterfall, the highest in New York State east of the Rocky Mountains. Multiple trail options with varying difficulty levels.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
         "photography",
-        "hidden-gems"
+        "relaxation"
       ]
     },
     {
-      "name": "Cornell University Campus Tour",
+      "name": "Corning Museum of Glass",
       "category": "Cultural",
-      "description": "Explore one of America's premier Ivy League universities with stunning architecture and beautiful grounds overlooking Ithaca. Self-guided or official tour available.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "World-class museum featuring glass art from ancient times to contemporary works with interactive demonstrations and a working hot glass studio.",
+      "durationHours": 3,
+      "estimatedCostUSD": 22,
       "bestFor": [
         "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Gorge Trail Hiking",
-      "category": "Adventure",
-      "description": "Experience multiple waterfall gorges with scenic trails, suspension bridges, and ravine views. Popular gorges include Ithaca Falls, Cascadilla Falls, and Enfield Falls.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Sonoma Farm Dinners",
-      "category": "Cultural",
-      "description": "Attend outdoor farm-to-table dining experiences during summer months, celebrating local agriculture and seasonal ingredients. Reserve in advance.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "foodie",
+        "cultural",
         "surprise"
       ]
     },
     {
-      "name": "Seneca Falls Heritage National Historic Site",
-      "category": "Cultural",
-      "description": "Visit the birthplace of women's rights movement and explore museums dedicated to this pivotal 1848 convention. Educational and historically significant.",
-      "durationHours": 2,
-      "estimatedCostUSD": 12,
+      "name": "Seneca Lake Sunset Boat Cruise",
+      "category": "Relaxation",
+      "description": "Scenic evening cruise along New York's largest Finger Lake with narration about local history, geology, and vineyard views culminating in a lakeside sunset.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 45,
       "bestFor": [
-        "standard",
+        "relaxation",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Gorge Trail at Robert H. Treman State Park",
+      "category": "Outdoor",
+      "description": "Stunning 2-mile loop featuring cascading waterfalls, natural stone bridges, and swimming holes in a lush gorge environment with multiple scenic overlooks.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "adventure",
+        "photography",
         "hidden-gems"
       ]
     },
     {
-      "name": "Lakeside Picnicking and Beaches",
-      "category": "Relaxation",
-      "description": "Relax at numerous public beaches and picnic areas along the lakes, with swimming, sunbathing, and scenic views. Most are free and family-friendly.",
+      "name": "Farm-to-Table Cooking Class",
+      "category": "Cultural",
+      "description": "Hands-on culinary experience using locally-sourced Finger Lakes ingredients to prepare multi-course meals paired with regional wines.",
       "durationHours": 4,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ithaca Commons Historic Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or led tour through Ithaca's vibrant downtown featuring Victorian architecture, local galleries, shops, and the famous Ithaca Commons waterfall.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cascadilla Falls Gorge Trail",
+      "category": "Outdoor",
+      "description": "Moderate 3-mile hike featuring multiple waterfalls, stone bridges, and swimming areas in a lush gorge with excellent autumn foliage displays.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Windridge Alpaca Farm Visit",
+      "category": "Family",
+      "description": "Unique experience meeting and interacting with alpacas on a working farm with guided tours, feeding opportunities, and alpaca-themed gift shop.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
         "family"
       ]
     },
     {
-      "name": "Craft Brewery Tours",
-      "category": "Foodie",
-      "description": "Visit award-winning breweries throughout the region offering tours, tastings, and live music. Learn about local craft beer culture.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "foodie",
-        "standard"
-      ]
-    },
-    {
-      "name": "Hot Air Ballooning at Sunrise",
-      "category": "Adventure",
-      "description": "Float above the lakes and vineyards at dawn for spectacular aerial views and photography opportunities. Pre-booking required.",
+      "name": "Birding at Montezuma National Wildlife Refuge",
+      "category": "Outdoor",
+      "description": "Premier birdwatching destination with over 250 bird species, scenic trails, and observation towers ideal for photography and nature enthusiasts.",
       "durationHours": 3,
-      "estimatedCostUSD": 200,
+      "estimatedCostUSD": 5,
       "bestFor": [
-        "adventure",
         "photography",
-        "surprise"
+        "adventure",
+        "hidden-gems"
       ]
     },
     {
-      "name": "Ithaca College Cinema Program",
-      "category": "Cultural",
-      "description": "Catch independent and classic films at historic theaters showcasing student and professional productions. Check seasonal schedules for shows.",
+      "name": "Watkins Glen State Park Gorge Trail",
+      "category": "Outdoor",
+      "description": "Breathtaking 1.7-mile trail descending into a narrow gorge with 19 waterfalls, stone bridges, and natural tunnels creating dramatic photo opportunities.",
       "durationHours": 2,
       "estimatedCostUSD": 10,
       "bestFor": [
-        "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Farmers Markets and Orchards",
-      "category": "Foodie",
-      "description": "Browse local farmers markets for fresh produce, cheese, honey, and prepared foods. Visit apple and cherry orchards for seasonal picking.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "foodie",
-        "family",
-        "hidden-gems"
+        "adventure",
+        "photography",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Taughannock Falls",
-        "description": "Majestic 215-foot waterfall surrounded by gorge walls, offering dramatic vertical composition with mist and flowing water.",
+        "name": "Taughannock Falls Lower View",
+        "description": "Stunning frontal view of the 215-foot waterfall with mist and pool reflection creating dramatic composition opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for soft light and minimal crowds",
+        "bestTime": "Early morning for mist and soft light; after rain for higher water flow",
         "category": "Landscape"
       },
       {
-        "name": "Seneca Lake at Sunset",
-        "description": "Wide, calm lake surface reflecting golden hour light with vineyard-covered hills in the background.",
+        "name": "Cascadilla Falls Main Bridge",
+        "description": "Historic stone bridge spanning above cascading falls with lush gorge vegetation framing the composition.",
         "difficulty": "Beginner",
-        "bestTime": "One hour before sunset for golden light",
+        "bestTime": "Mid-morning with diffused light; autumn for foliage colors",
         "category": "Landscape"
       },
       {
-        "name": "Cascadilla Gorge Trail",
-        "description": "Lush gorge with multiple small waterfalls, natural pools, and rock formations creating layered compositional opportunities.",
+        "name": "Watkins Glen Gorge Tunnel Section",
+        "description": "Natural stone tunnel with waterfall backdrop creating dramatic framed composition with tunnel walls as guide.",
         "difficulty": "Intermediate",
-        "bestTime": "Mid-morning for side-lit waterfall details",
+        "bestTime": "Midday for light penetration through tunnel; overcast for even exposure",
         "category": "Landscape"
       },
       {
-        "name": "Canopy Vineyard Rows",
-        "description": "Geometrically perfect rows of grapevines creating leading lines and depth, especially dramatic during harvest season.",
+        "name": "Seneca Lake Vineyard Overlook",
+        "description": "Elevated view of sloping vineyards cascading toward the lake with distant hills creating layered depth.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm vineyard tones",
+        "bestTime": "Golden hour for warm vineyard tones; early morning for mist",
         "category": "Landscape"
       },
       {
-        "name": "Downtown Ithaca Architecture",
-        "description": "Historic buildings, storefronts, and pedestrian areas offering street photography and architectural detail opportunities.",
+        "name": "Cayuga Lake Inlet at Sunrise",
+        "description": "Misty lake inlet with rocky shoreline and reflecting sky creating serene minimalist photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Afternoon for building shadow interplay",
-        "category": "Architecture"
+        "bestTime": "30 minutes before and after sunrise for golden and blue hour light",
+        "category": "Landscape"
       },
       {
-        "name": "Cayuga Lake From Waterfront Trails",
-        "description": "Multiple vantage points along scenic trails offering water reflections, wildflowers, and distant shoreline layers.",
+        "name": "Robert H. Treman Swimming Hole",
+        "description": "Crystal clear emerald pool surrounded by moss-covered rocks and cascading falls with turquoise water reflection.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday with direct overhead light for water clarity; overcast for reduced reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ithaca Commons Waterfall",
+        "description": "Urban waterfall in downtown setting with architectural backdrop and natural flow creating dynamic compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for calm water and soft light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Farmer's Market Produce and People",
-        "description": "Vibrant vendor stalls, fresh produce displays, and candid people moments capturing local culture and colors.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early Saturday morning for best light and crowds",
+        "bestTime": "Early evening for soft light and reduced crowds; night for light trails",
         "category": "Street"
       },
       {
-        "name": "Enfield Falls and Gorge",
-        "description": "Picturesque waterfall with moss-covered rocks and fern-lined ravine offering moody, intimate landscape compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Overcast days for even gorge lighting",
+        "name": "Buttermilk Falls Gorge Perspective",
+        "description": "Narrow gorge walls with cascading water creating framed vertical composition with dramatic shadows.",
+        "difficulty": "Advanced",
+        "bestTime": "Overcast days for even gorge lighting; early morning to avoid crowds",
         "category": "Landscape"
       },
       {
-        "name": "Lake Reflections at Dawn",
-        "description": "Mirror-like water surfaces during early morning calm, perfect for reflection compositions and silhouette opportunities.",
+        "name": "Seneca Lake Sunset Reflection Dock",
+        "description": "Weathered dock extending into calm lake with vineyard-covered hills reflecting in still water at golden hour.",
         "difficulty": "Beginner",
-        "bestTime": "30-60 minutes after sunrise",
+        "bestTime": "30 minutes before sunset with clear skies for colorful reflections",
         "category": "Landscape"
       },
       {
-        "name": "Historic Winery Architecture",
-        "description": "Charming farmhouses, stone buildings, and rustic structures with character shots and textured details throughout vineyard properties.",
+        "name": "Montezuma Wildlife Refuge Tower View",
+        "description": "Elevated wetland perspective with multiple water channels, bird species, and distant tree lines creating wildlife habitat composition.",
         "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for building profile light",
-        "category": "Architecture"
+        "bestTime": "Early morning and late afternoon for bird activity and golden light",
+        "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
-      "Taughannock Falls Overlook",
-      "Seneca Lake East Shore",
-      "Cayuga Lake North End Viewpoint"
+      "Cayuga Lake Inlet",
+      "Seneca Lake Vineyard Overlook",
+      "Montezuma Wildlife Refuge Tower"
     ],
     "sunsetSpots": [
-      "Seneca Lake West Shoreline",
-      "Ithaca Commons Green Space",
-      "Keuka Lake Southern Overlook"
+      "Seneca Lake Sunset Reflection Dock",
+      "Watkins Glen State Park Overlook",
+      "Taughannock Falls Upper Rim Trail"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive landscape and waterfall compositions",
-      "50mm prime for detailed vineyard and architecture photography",
-      "70-200mm telephoto for compressed lake reflections and distant shoreline details",
-      "Macro lens for wildflowers, produce, and close-up details"
+      "16-35mm wide-angle for expansive waterfall and gorge landscapes capturing full scenes",
+      "70-200mm telephoto for compressed vineyard layers and distant wildlife subjects",
+      "24-70mm versatile zoom for varied compositions from gorges to urban scenes",
+      "Macro lens for intimate waterfall detail, moss textures, and water reflections"
     ],
-    "goldenHourNotes": "The Finger Lakes region experiences ideal golden hour conditions for 60-90 minutes before sunset due to the east-west oriented lakes and surrounding hills. Morning light reflects beautifully off calm water surfaces, particularly in spring and fall when atmospheric haze is minimal. The region's rolling topography creates variable lighting conditions throughout the day, making mid-afternoon gorge shots more challenging but rewarding.",
+    "goldenHourNotes": "The Finger Lakes region benefits tremendously from golden hour photography, with warm light illuminating vineyard slopes and waterfalls creating rich warm tones against cool water. Early morning mist over lakes and waterfalls adds atmospheric depth, while evening light reflecting off calm water surfaces creates mirror-like compositions. Autumn provides extended golden hours with colorful foliage adding warmth to gorge scenes.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -4,
-        "rainfallMM": 58
+        "avgTempC": -5,
+        "rainfallMM": 76
       },
       {
         "month": 2,
         "avgTempC": -3,
-        "rainfallMM": 52
+        "rainfallMM": 71
       },
       {
         "month": 3,
         "avgTempC": 2,
-        "rainfallMM": 71
+        "rainfallMM": 81
       },
       {
         "month": 4,
         "avgTempC": 10,
-        "rainfallMM": 88
+        "rainfallMM": 89
       },
       {
         "month": 5,
         "avgTempC": 17,
-        "rainfallMM": 92
+        "rainfallMM": 96
       },
       {
         "month": 6,
         "avgTempC": 22,
-        "rainfallMM": 98
+        "rainfallMM": 102
       },
       {
         "month": 7,
         "avgTempC": 24,
-        "rainfallMM": 85
+        "rainfallMM": 94
       },
       {
         "month": 8,
         "avgTempC": 23,
-        "rainfallMM": 88
+        "rainfallMM": 89
       },
       {
         "month": 9,
         "avgTempC": 19,
-        "rainfallMM": 81
+        "rainfallMM": 83
       },
       {
         "month": 10,
         "avgTempC": 12,
-        "rainfallMM": 82
+        "rainfallMM": 91
       },
       {
         "month": 11,
@@ -419,8 +417,8 @@
       },
       {
         "month": 12,
-        "avgTempC": 0,
-        "rainfallMM": 76
+        "avgTempC": -2,
+        "rainfallMM": 89
       }
     ],
     "bestMonths": [
@@ -431,31 +429,30 @@
       9,
       10
     ],
-    "seasonality": "Summer (June-August) offers warmest temperatures and lake activities, while Fall (September-October) features stunning foliage and wine harvest season. Spring (April-May) brings wildflowers and waterfall flows, while winters are cold with significant snowfall, ideal for those seeking seasonal charm.",
-    "summary": "The Finger Lakes region experiences a humid continental climate with cold, snowy winters and mild summers moderated by the large lakes. The area receives moderate rainfall year-round, with the best weather for visiting occurring from late May through early October when temperatures are comfortable and outdoor activities are most accessible."
+    "seasonality": "Summer and early fall offer the most pleasant weather with warm temperatures, lower rainfall, and spectacular foliage colors. Winter brings heavy snowfall and cold temperatures, while spring features unpredictable weather with frequent rain but emerging greenery.",
+    "summary": "The Finger Lakes region experiences a humid continental climate with cold, snowy winters and warm, moderate summers. Shoulder seasons of spring and fall provide excellent visiting conditions with fewer crowds and beautiful natural transitions, though summer remains popular for water activities and wine festivals."
   },
   "hotels": [
     {
-      "name": "The Wordsworth Inn",
-      "neighborhood": "Ithaca Downtown",
-      "pricePerNightUSD": 95,
+      "name": "The Ithaca Downtown Hotel",
+      "neighborhood": "Ithaca Commons",
+      "pricePerNightUSD": 85,
       "category": "Budget",
-      "description": "Charming budget-friendly bed and breakfast in historic downtown Ithaca with simple, clean rooms and complimentary breakfast featuring local ingredients."
+      "description": "Affordable downtown hotel with modern rooms, easy access to restaurants and shops, and proximity to waterfalls and gorge trails."
     },
     {
-      "name": "Cayuga Lake Boutique Hotel",
-      "neighborhood": "Seneca Falls Waterfront",
-      "pricePerNightUSD": 185,
+      "name": "Seneca Lake Sunrise Resort & Spa",
+      "neighborhood": "Geneva",
+      "pricePerNightUSD": 165,
       "category": "Mid-range",
-      "description": "Contemporary waterfront hotel with modern amenities, lake views, on-site restaurant, and easy access to wineries and historic sites."
+      "description": "Lakefront resort featuring waterfront views, spa amenities, winery partnerships, and on-site dining with access to Seneca Lake activities."
     },
     {
-      "name": "Aurora Inn Resort & Spa",
-      "neighborhood": "Aurora Lakeside",
-      "pricePerNightUSD": 325,
+      "name": "The Hostage House Luxury Inn",
+      "neighborhood": "Ithaca",
+      "pricePerNightUSD": 320,
       "category": "Luxury",
-      "description": "Upscale lakeside resort featuring fine dining restaurant, full-service spa, wine bar, and elegant rooms overlooking Cayuga Lake with world-class hospitality."
+      "description": "Historic mansion-turned-boutique hotel offering lavish rooms, concierge wine services, gourmet breakfasts, and walking distance to fine dining and cultural attractions."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1629953888049-3fe4a81b2769?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxGaW5nZXIlMjBMYWtlcyUyMHdpbmUlMjB2aW5leWFyZHN8ZW58MXwwfHx8MTc4MTU1NjEyNXww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

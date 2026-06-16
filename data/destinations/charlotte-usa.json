@@ -1,0 +1,464 @@
+{
+  "id": "charlotte-usa",
+  "city": "Charlotte",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "CLT",
+    "RDU",
+    "GSP"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 78,
+    "photography": 72,
+    "activities": 80,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Charlotte skyline uptown",
+  "summary": "Charlotte is a vibrant Southern city blending modern urban energy with rich history, renowned for its thriving food scene, impressive art institutions, and outdoor recreational opportunities. From the bustling Uptown district to serene parks and lakes, the city offers diverse experiences for every traveler. Dynamic nightlife, world-class museums, and proximity to the Blue Ridge Mountains make it an ideal East Coast destination.",
+  "restaurants": [
+    {
+      "name": "Price's Chicken Coop",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A Charlotte institution since 1962 serving crispy fried chicken and comfort food in a no-frills setting. This iconic spot is beloved by locals for authentic Southern charm.",
+      "mustTry": "Half-fried chicken with hushpuppies"
+    },
+    {
+      "name": "Amélie's French Bakery & Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming French bakery with freshly baked pastries, sandwiches, and excellent coffee in a cozy atmosphere. Perfect for breakfast or a casual lunch.",
+      "mustTry": "Croissants and French onion soup"
+    },
+    {
+      "name": "Baku",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Mediterranean restaurant featuring Azerbaijani and Middle Eastern cuisines with an extensive wine list. Located in the trendy South End neighborhood.",
+      "mustTry": "Plov and grilled kebabs"
+    },
+    {
+      "name": "The Ballantyne Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning fine dining establishment showcasing contemporary American cuisine with refined seasonal menus. An elegant destination for special occasions.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Heist Brewery",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Craft brewery with elevated pub food, local beers, and a vibrant atmosphere in a historic building in South End. Great for casual dining and socializing.",
+      "mustTry": "Wood-fired pizza and house-brewed IPA"
+    },
+    {
+      "name": "Cowfish Sushi Burger Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Unique fusion restaurant combining Japanese sushi with American burgers in a playful, modern setting. Perfect for adventurous diners.",
+      "mustTry": "Sushi burgers and Asian fusion appetizers"
+    },
+    {
+      "name": "Soluna",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Spanish restaurant specializing in seafood and paella with an impressive selection of Spanish wines. Sophisticated ambiance in Uptown.",
+      "mustTry": "Seafood paella and Spanish octopus"
+    },
+    {
+      "name": "Stagioni",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Italian fine dining featuring seasonal Italian cuisine with handmade pasta and an extensive wine collection. Elegant Uptown location.",
+      "mustTry": "Seasonal pasta dishes and Italian imports"
+    },
+    {
+      "name": "NoDa Brewing Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual brewery in the artsy NoDa district offering craft beers and food trucks. Great for experiencing Charlotte's creative neighborhood culture.",
+      "mustTry": "Signature IPAs and rotating food truck selections"
+    },
+    {
+      "name": "The Capital Grille",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse offering premium steaks, fresh seafood, and an impressive wine cellar. Classic American fine dining experience.",
+      "mustTry": "Prime steaks and lobster tail"
+    },
+    {
+      "name": "Counter Culture Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Specialty coffee roaster with locations throughout Charlotte serving excellent third-wave coffee and light pastries. Local favorite for caffeine lovers.",
+      "mustTry": "Single-origin pour-overs and espresso drinks"
+    },
+    {
+      "name": "Fogo de Chao",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Brazilian churrascaria featuring tableside service of various grilled meats and an expansive salad bar. Perfect for meat lovers and group celebrations.",
+      "mustTry": "Picanha and pork ribs with rodizio service"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Explore Uptown Charlotte",
+      "category": "Outdoor",
+      "description": "Walk through the vibrant Uptown district featuring modern architecture, public art installations, boutique shops, and diverse dining options. This pedestrian-friendly area is the heart of Charlotte's urban renaissance.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "North Carolina Museum of Art",
+      "category": "Cultural",
+      "description": "Impressive art museum with ancient Egyptian artifacts, modern art collections, and outdoor trails with contemporary sculptures. Admission is free to the main galleries.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Lake Norman State Park",
+      "category": "Outdoor",
+      "description": "Scenic 760-acre park surrounding a beautiful lake offering hiking, fishing, water sports, and picnic areas. Ideal for outdoor enthusiasts and nature photography.",
+      "durationHours": 4,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Discovery Place Science Museum",
+      "category": "Family",
+      "description": "Interactive science museum with hands-on exhibits, OMNIMAX theater, and aquarium experiences. Perfect for families and curious minds of all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Kayaking on Lake Norman",
+      "category": "Adventure",
+      "description": "Paddle across the pristine waters of Lake Norman with stunning views of the surrounding landscape and wildlife. Rentals available at multiple locations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "NoDa Arts District Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Charlotte's creative heart featuring street murals, artist studios, galleries, and independent shops. This eclectic neighborhood is perfect for urban photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Mint Museum",
+      "category": "Cultural",
+      "description": "Premier art museum housed in a historic building featuring decorative arts, contemporary works, and rotating exhibitions. Two locations in Charlotte.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Catawba Riverfront Trail",
+      "category": "Outdoor",
+      "description": "Scenic 7-mile paved trail along the Catawba River perfect for walking, jogging, or biking with beautiful views and wildlife. Free access to this urban greenway.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "North Carolina Zoo (1 hour away)",
+      "category": "Family",
+      "description": "One of the largest natural habitat zoos in the world featuring African and North American animals in immersive exhibits. Day trip worthy attraction.",
+      "durationHours": 6,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bottleworks Brewing Trail",
+      "category": "Nightlife",
+      "description": "Explore Charlotte's craft brewery scene with tastings at multiple brewery locations throughout the city. Perfect for beer enthusiasts.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bechtler Museum of Modern Art",
+      "category": "Cultural",
+      "description": "Contemporary art museum in a striking modernist building featuring rotating exhibitions and outdoor sculpture garden. Located in Uptown Charlotte.",
+      "durationHours": 2,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "South End Charlotte Shopping & Dining",
+      "category": "Indoor",
+      "description": "Trendy neighborhood with upscale shops, boutiques, galleries, and restaurants in a revitalized industrial area. Great for urban exploration and people watching.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Uptown Charlotte Skyline",
+        "description": "Iconic view of Charlotte's modern skyline with glass towers reflecting light, particularly stunning from the Romare Bearden Park area.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones; blue hour for city lights",
+        "category": "Architecture"
+      },
+      {
+        "name": "Romare Bearden Park",
+        "description": "Urban park featuring artistic sculptures, fountains, and landscaping with excellent compositions of modern architecture in the background.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for soft light and fewer crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Lake Norman",
+        "description": "Expansive lake offering reflective water photography, wildlife, and scenic landscape compositions with tree-lined shores.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise and sunset for golden light reflecting on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "NoDa Street Murals",
+        "description": "Vibrant street art and murals throughout the NoDa district providing colorful and creative urban photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday overcast for even lighting on murals",
+        "category": "Street"
+      },
+      {
+        "name": "Catawba Riverfront Trail",
+        "description": "Scenic river trail offering landscape photography with mature trees, water reflections, and wildlife opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for soft light and active wildlife",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mint Museum Building",
+        "description": "Historic classical architecture with stunning exterior and courtyard perfect for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm building tones",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bechtler Museum Exterior",
+        "description": "Contemporary modernist architecture with clean geometric lines and dramatic shadow patterns.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for strong geometric shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fourth Ward Historic Homes",
+        "description": "Tree-lined streets with Victorian and historic architecture, creating charming neighborhood photography with seasonal foliage.",
+        "difficulty": "Beginner",
+        "bestTime": "Fall for autumn colors; spring for flowering trees",
+        "category": "Architecture"
+      },
+      {
+        "name": "Hornets Nest Park",
+        "description": "Urban park featuring native plants, water features, and city views for both landscape and urban photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dimensional lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Uptown After Dark",
+        "description": "Charlotte's illuminated Uptown skyline and street photography opportunities with neon signs and city lights.",
+        "difficulty": "Advanced",
+        "bestTime": "Blue hour to full darkness for light trails and contrast",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Lake Norman State Park overlook",
+      "Catawba Riverfront Trail eastern access",
+      "Uptown Charlotte from Romare Bearden Park"
+    ],
+    "sunsetSpots": [
+      "Lake Norman western shoreline",
+      "Uptown Charlotte from southern viewing areas",
+      "Catawba River at sunset overlook near nature center"
+    ],
+    "lensRecommendations": [
+      "14-24mm wide angle for expansive skyline and landscape shots of Lake Norman and riverfront",
+      "50mm prime for street photography in NoDa district and intimate urban details",
+      "70-200mm telephoto for compressed skyline compositions and distant architectural details",
+      "16-35mm ultra-wide for dramatic architectural angles of museum buildings and Uptown towers"
+    ],
+    "goldenHourNotes": "Charlotte's Uptown offers exceptional golden hour photography with glass buildings creating warm reflections between 6:30-7:30 AM and 5:30-6:30 PM depending on season. Lake Norman's western shores provide stunning golden hour reflections off the water surface. NoDa's street art and industrial buildings photograph beautifully during golden hour with enhanced color saturation and dimensional lighting.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 7,
+        "rainfallMM": 102
+      },
+      {
+        "month": 2,
+        "avgTempC": 9,
+        "rainfallMM": 102
+      },
+      {
+        "month": 3,
+        "avgTempC": 14,
+        "rainfallMM": 107
+      },
+      {
+        "month": 4,
+        "avgTempC": 20,
+        "rainfallMM": 102
+      },
+      {
+        "month": 5,
+        "avgTempC": 25,
+        "rainfallMM": 127
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 140
+      },
+      {
+        "month": 7,
+        "avgTempC": 30,
+        "rainfallMM": 127
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 114
+      },
+      {
+        "month": 9,
+        "avgTempC": 25,
+        "rainfallMM": 102
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 76
+      },
+      {
+        "month": 11,
+        "avgTempC": 14,
+        "rainfallMM": 102
+      },
+      {
+        "month": 12,
+        "avgTempC": 8,
+        "rainfallMM": 107
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer the most pleasant weather with mild temperatures, lower humidity, and beautiful natural colors. Summer is hot and humid with frequent afternoon thunderstorms, while winters are cool but rarely severe.",
+    "summary": "Charlotte experiences a humid subtropical climate with warm summers and mild winters. Best weather occurs in April-May and September-October when temperatures are comfortable and humidity is lower."
+  },
+  "hotels": [
+    {
+      "name": "La Quinta by Wyndham Charlotte",
+      "neighborhood": "North Charlotte",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Pet-friendly budget hotel with comfortable rooms, free breakfast, and convenient highway access near shopping and dining."
+    },
+    {
+      "name": "The Ritz-Carlton Charlotte",
+      "neighborhood": "Uptown",
+      "pricePerNightUSD": 350,
+      "category": "Luxury",
+      "description": "Upscale luxury hotel in the heart of Uptown featuring fine dining, spa services, and stunning city views from modern accommodations."
+    },
+    {
+      "name": "Hilton Charlotte Center City",
+      "neighborhood": "Uptown",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Modern mid-range hotel in downtown Charlotte with rooftop bar, fitness center, and direct access to Uptown restaurants and attractions."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1652236795482-88964a4db901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDaGFybG90dGUlMjBza3lsaW5lJTIwdXB0b3dufGVufDF8MHx8fDE3ODE2MjgwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+}

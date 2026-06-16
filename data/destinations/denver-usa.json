@@ -6,7 +6,7 @@
   "airportCodes": [
     "DEN",
     "COS",
-    "MCI"
+    "APA"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -17,7 +17,7 @@
     "relaxation"
   ],
   "scores": {
-    "cost": 65,
+    "cost": 62,
     "food": 78,
     "photography": 82,
     "activities": 85,
@@ -27,124 +27,112 @@
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 140
+      "maxPerDayUSD": 150
     },
     {
       "level": "mid",
-      "minPerDayUSD": 140,
-      "maxPerDayUSD": 280
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 280,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Denver skyline mountains sunset",
-  "summary": "Denver, the Mile High City, combines outdoor adventure with vibrant urban culture, offering world-class museums, craft breweries, and direct access to the Rocky Mountains. Known for its 300+ days of sunshine annually and laid-back Colorado vibe, Denver is perfect for hiking, photography, and exploring one of America's most dynamic food scenes.",
+  "unsplashQuery": "Denver downtown skyline",
+  "summary": "Denver, the mile-high capital of Colorado, offers stunning Rocky Mountain views, world-class museums, and a thriving craft beer scene in a modern yet laid-back mountain city. With 300 days of sunshine annually, exceptional outdoor recreation, and a vibrant downtown core, Denver seamlessly blends urban sophistication with alpine adventure.",
   "restaurants": [
     {
-      "name": "Elitch's Steakhouse",
+      "name": "Linger",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Trendy rooftop restaurant featuring wood-fired meats and seasonal American cuisine with panoramic city views.",
+      "mustTry": "Wood-fired brisket with charred vegetables"
+    },
+    {
+      "name": "Rioja",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Classic Denver institution serving premium steaks and upscale American cuisine since 1891. Elegant atmosphere with exceptional service and an award-winning wine list.",
-      "mustTry": "Dry-aged ribeye with herb butter"
+      "description": "Award-winning Spanish restaurant in a historic building with an extensive wine list and elevated tapas.",
+      "mustTry": "Pan-seared scallops with saffron risotto"
     },
     {
       "name": "Denver Biscuit Company",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual breakfast spot famous for inventive biscuits and gravy combinations in a quirky, welcoming space. Local favorite with lines out the door on weekends.",
-      "mustTry": "Breakfast biscuit sandwich with chorizo and egg"
-    },
-    {
-      "name": "Fruition Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Farm-to-table fine dining offering multi-course tasting menus with seasonal Colorado ingredients. Intimate setting with expert wine pairings.",
-      "mustTry": "Chef's tasting menu with Colorado lamb"
-    },
-    {
-      "name": "Root & Flower",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Creative vegetable-focused restaurant celebrating Colorado produce with innovative techniques. Excellent for herbivores and omnivores seeking fresh cuisine.",
-      "mustTry": "Seasonal vegetable composition plate"
-    },
-    {
-      "name": "Skinny J's Chicago Pizzeria",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Authentic Chicago-style deep-dish pizza in a casual, family-friendly environment. Quick service and generous portions at affordable prices.",
-      "mustTry": "Deep-dish pepperoni with cornmeal crust"
-    },
-    {
-      "name": "Stoic & Genuine",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale seafood restaurant with an impressive oyster bar and fresh daily catches. Industrial-chic interior with excellent cocktails.",
-      "mustTry": "Raw oyster selection and pan-seared scallops"
-    },
-    {
-      "name": "Watercourse Foods",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Popular vegan diner with creative plant-based comfort food and breakfast options. Casual, welcoming atmosphere perfect for quick meals.",
-      "mustTry": "Vegan chicken sandwich with special sauce"
-    },
-    {
-      "name": "Linger",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Rooftop restaurant and bar serving globally-inspired small plates with panoramic downtown views. Hip atmosphere perfect for dinner and drinks.",
-      "mustTry": "Charred octopus and house-made pasta"
-    },
-    {
-      "name": "Kim Long Vietnamese Restaurant",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Authentic Vietnamese cuisine in a modest, family-run setting serving pho and vermicelli bowls. Affordable and genuinely flavorful traditional dishes.",
-      "mustTry": "Beef pho with homemade broth"
-    },
-    {
-      "name": "The Source Market Hall",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Upscale food hall featuring multiple artisanal vendors including butcher, bakery, and prepared foods. Great for sampling diverse cuisines in one location.",
-      "mustTry": "Rotisserie chicken from Departure"
-    },
-    {
-      "name": "Steuben's Food Service",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Modern American comfort food restaurant celebrating traditional recipes with seasonal twists. Popular for brunch and creative daily specials.",
-      "mustTry": "Fried chicken with seasonal sides"
+      "description": "Casual breakfast spot famous for buttermilk biscuits served with creative toppings and excellent coffee.",
+      "mustTry": "Fried chicken biscuit sandwich"
     },
     {
       "name": "Frasca Food and Wine",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Michelin-starred Italian restaurant specializing in Friuli-Venezia Giulia cuisine and natural wines. Exceptional culinary experience in intimate setting.",
-      "mustTry": "House-made pasta with seasonal preparations"
+      "description": "Michelin-starred Italian restaurant specializing in Friuli-Venezia Giulia cuisine with meticulous ingredient sourcing.",
+      "mustTry": "Tajarin with butter and sage"
+    },
+    {
+      "name": "Root & Flower",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant emphasizing Colorado ingredients and seasonal menus with vegetarian-friendly options.",
+      "mustTry": "Wood-fired vegetables with local herbs"
+    },
+    {
+      "name": "Steuben's Food Service",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Classic American comfort food restaurant with upscale twists, retro atmosphere, and craft cocktails.",
+      "mustTry": "Fried chicken with thyme gravy"
+    },
+    {
+      "name": "Fruition Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Farm-to-table fine dining with an innovative tasting menu and carefully curated wine pairings.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Wynkoop Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic brewery and restaurant housed in a century-old building, famous for Colorado craft beers and pub fare.",
+      "mustTry": "RailYard Ale with house-smoked brisket"
+    },
+    {
+      "name": "Sushi den",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning sushi restaurant featuring pristine fish and innovative omakase experiences with expert preparation.",
+      "mustTry": "Omakase multi-course experience"
+    },
+    {
+      "name": "Bearroot Vegetable Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vegetable-forward restaurant celebrating seasonal produce with creative preparations and natural wines.",
+      "mustTry": "Roasted vegetables with miso vinaigrette"
+    },
+    {
+      "name": "Q Cuisine",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Vietnamese restaurant offering authentic pho, bánh mì, and noodle dishes at affordable prices.",
+      "mustTry": "Beef pho with fresh herbs and lime"
+    },
+    {
+      "name": "Mizuna",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "French-Asian fusion restaurant with elegant plating and an extensive wine list showcasing Colorado vintages.",
+      "mustTry": "Pan-seared duck breast with Asian spices"
     }
   ],
   "activities": [
     {
-      "name": "Rocky Mountain National Park Day Trip",
-      "category": "Outdoor",
-      "description": "Stunning alpine scenery with over 350 miles of trails, pristine lakes, and abundant wildlife viewing opportunities. Located 90 minutes north offering dramatic mountain photography.",
-      "durationHours": 8,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "photography"
-      ]
-    },
-    {
       "name": "Denver Art Museum",
       "category": "Cultural",
-      "description": "World-class museum with extensive American Indian art, contemporary works, and special exhibitions in distinctive modern building. One of Denver's premier cultural attractions.",
+      "description": "World-class museum featuring extensive collections of American Indian art, Western art, and contemporary works across multiple galleries.",
       "durationHours": 3,
       "estimatedCostUSD": 18,
       "bestFor": [
@@ -155,99 +143,19 @@
     {
       "name": "Red Rocks Park & Amphitheatre",
       "category": "Outdoor",
-      "description": "Geological marvel featuring towering sandstone formations perfect for hiking, photography, and concerts. Free exploration of trails with stunning views.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "South Platte River Float Trip",
-      "category": "Adventure",
-      "description": "Scenic float down the river through downtown Denver offering water fun and unique city perspective. Beginner-friendly activity with rental equipment available.",
+      "description": "Stunning geological formation and concert venue with scenic hiking trails offering panoramic views of Denver and the Front Range.",
       "durationHours": 3,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Denver Botanic Gardens",
-      "category": "Outdoor",
-      "description": "Expansive 150-acre gardens featuring diverse plant collections, water features, and seasonal exhibitions. Peaceful escape with exceptional photography opportunities.",
-      "durationHours": 2,
-      "estimatedCostUSD": 16,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "relaxation"
+        "adventure"
       ]
     },
     {
-      "name": "Brewery Tour & Tasting",
-      "category": "Food & Beverage",
-      "description": "Denver has over 150 craft breweries; many offer tours and tastings of unique local beers. Explore brewery districts like RiNo with multiple tasting rooms.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "standard",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Denver Museum of Nature & Science",
-      "category": "Cultural",
-      "description": "Comprehensive museum with natural history exhibits, planetarium, and IMAX theater covering diverse topics. Family-friendly with something for all ages.",
-      "durationHours": 4,
-      "estimatedCostUSD": 23,
-      "bestFor": [
-        "standard",
-        "family"
-      ]
-    },
-    {
-      "name": "Hiking Bear Mountain Trail",
+      "name": "South Platte River Walk",
       "category": "Outdoor",
-      "description": "Popular 3-mile trail with panoramic Denver views and moderate difficulty. Located in city limits offering accessible mountain adventure with photo opportunities.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Colorado State Capitol Tour",
-      "category": "Cultural",
-      "description": "Free guided tours of beautiful Neoclassical building featuring 24-karat gold dome and architectural details. Educational and accessible cultural experience.",
-      "durationHours": 1,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "16th Street Mall & Downtown Exploration",
-      "category": "Relaxation",
-      "description": "Free downtown walking district with shopping, dining, street art, and people-watching. Pedestrian mall with clear mountain views and vibrant urban atmosphere.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Washington Park Walk & Picnic",
-      "category": "Relaxation",
-      "description": "Beautiful 155-acre urban park with walking paths, lakes, gardens, and green space. Perfect for relaxation and casual exploration with scenic views.",
+      "description": "Scenic urban trail following the river through downtown Denver connecting parks, gardens, and cultural attractions.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -257,114 +165,205 @@
       ]
     },
     {
-      "name": "Denver Nightlife Bar Crawl",
-      "category": "Nightlife",
-      "description": "Vibrant bar scene concentrated in LoDo and Highland neighborhoods with craft cocktails, live music, and rooftop venues. Lively atmosphere exploring Denver's nightlife culture.",
+      "name": "Rocky Mountain National Park day trip",
+      "category": "Adventure",
+      "description": "Access Colorado's premier high-altitude wilderness with Trail Ridge Road, pristine alpine lakes, and abundant wildlife viewing opportunities.",
+      "durationHours": 10,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Denver Botanic Gardens",
+      "category": "Outdoor",
+      "description": "80-acre botanical garden featuring diverse plant collections, seasonal displays, and peaceful walking paths through themed gardens.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Denver Museum of Nature & Science",
+      "category": "Cultural",
+      "description": "Interactive museum with extensive fossil collections, planetarium shows, and exhibits covering natural history, space, and Egyptian mummies.",
       "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "LoDo Historic District exploration",
+      "category": "Cultural",
+      "description": "Lower Downtown's historic brick buildings house galleries, boutique shops, restaurants, and nightlife venues in a beautifully restored district.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "photography"
+      ]
+    },
+    {
+      "name": "Great American Beer Festival brewery tours",
+      "category": "Foodie",
+      "description": "Denver's craft beer scene offers numerous breweries with guided tours and tastings showcasing innovative local brewing traditions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Garden of the Gods day trip (Colorado Springs)",
+      "category": "Outdoor",
+      "description": "Dramatic red rock formations with exceptional hiking and rock climbing opportunities 90 minutes south of Denver.",
+      "durationHours": 8,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Denver Performing Arts Complex shows",
+      "category": "Cultural",
+      "description": "World-class performance venue hosting Broadway shows, ballet, opera, and concerts in a stunning architectural complex.",
+      "durationHours": 3,
       "estimatedCostUSD": 60,
       "bestFor": [
         "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Cherry Creek Shopping District",
+      "category": "Outdoor",
+      "description": "Upscale outdoor shopping area with premium retail, art galleries, restaurants, and a scenic creek running through the neighborhood.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
         "foodie"
+      ]
+    },
+    {
+      "name": "Hiking Bear Lake Trail in Rocky Mountain National Park",
+      "category": "Adventure",
+      "description": "Moderate alpine lake hike offering pristine mountain scenery, wildlife spotting opportunities, and mountain reflection photography.",
+      "durationHours": 4,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Red Rocks Amphitheatre",
-        "description": "Dramatic sandstone formations creating stunning natural amphitheatre with vibrant red-orange tones perfect for landscape photography.",
+        "name": "Red Rocks Park at sunrise",
+        "description": "Towering crimson sandstone formations bathed in golden light with Denver skyline visible in the distance.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour, sunrise",
+        "bestTime": "30 minutes before sunrise",
         "category": "Landscape"
       },
       {
-        "name": "Downtown Denver Skyline from Cherry Creek",
-        "description": "Classic urban skyline view with city buildings reflected in cherry creek water, excellent for cityscape photography.",
+        "name": "Downtown Denver skyline from South Platte River",
+        "description": "Modern glass towers reflected in the calm river creating mirror-like compositions with mountains in background.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset, blue hour",
+        "bestTime": "Golden hour (sunrise/sunset)",
         "category": "Architecture"
       },
       {
-        "name": "Union Station Architecture",
-        "description": "Historic Romanesque Revival building with ornate details, arched windows, and geometric patterns ideal for architectural photography.",
+        "name": "Cherry Creek Bike Path",
+        "description": "Scenic urban creek with colorful foliage, pedestrian bridges, and downtown towers creating layered compositional elements.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday, golden hour",
-        "category": "Architecture"
-      },
-      {
-        "name": "South Platte River at Confluence Park",
-        "description": "River landscape with urban backdrop and native plantings creating layered composition opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunrise, sunset",
-        "category": "Landscape"
-      },
-      {
-        "name": "City Park with Capitol Dome",
-        "description": "Green space with Colorado State Capitol visible in background, excellent for environmental portraiture and architecture blending.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour",
-        "category": "Architecture"
-      },
-      {
-        "name": "RiNo Street Art District Murals",
-        "description": "Colorful large-scale murals and street art covering warehouse walls, perfect for vibrant street and contemporary art photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday, overcast",
+        "bestTime": "Fall season",
         "category": "Street"
       },
       {
-        "name": "Mount Evans Scenic Byway Summit",
-        "description": "Highest paved road in North America offering alpine landscapes, dramatic mountain vistas, and above-tree-line photography opportunities.",
-        "difficulty": "Advanced",
-        "bestTime": "Clear days, sunrise",
-        "category": "Landscape"
-      },
-      {
-        "name": "Washington Park Waterfront",
-        "description": "Urban park lake reflections with downtown skyline backdrop and native vegetation creating balanced compositions.",
+        "name": "Museum of Science rooftop area",
+        "description": "Architectural views of the museum's modernist design with the city and mountains as dramatic background elements.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunrise, sunset, golden hour",
-        "category": "Landscape"
-      },
-      {
-        "name": "Denver International Airport Art Installations",
-        "description": "Contemporary art installations and architectural elements creating unique abstract and modern photography subjects.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday, artificial light",
+        "bestTime": "Late afternoon light",
         "category": "Architecture"
       },
       {
-        "name": "Bear Mountain Trail Overlook",
-        "description": "Elevated viewpoint offering panoramic Denver valley views with mountains in distance, ideal for landscape and city vista photography.",
+        "name": "Bear Lake in Rocky Mountain National Park",
+        "description": "Alpine lake surrounded by evergreen forests with snow-capped peaks creating picture-perfect mountain vistas.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunrise, sunset, clear mornings",
+        "bestTime": "Early morning before crowds",
         "category": "Landscape"
+      },
+      {
+        "name": "Denver Botanic Gardens Japanese garden",
+        "description": "Carefully composed garden scenes with water features, bridges, and plant life offering intimate compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring (cherry blossoms) or fall (autumn colors)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Evans Avenue underpass street art",
+        "description": "Vibrant murals and graffiti art creating colorful street photography opportunities in RiNo Art District.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Trail Ridge Road Alpine Tundra",
+        "description": "High-altitude landscape with vast expanses of tundra vegetation, distant peaks, and expansive sky views.",
+        "difficulty": "Intermediate",
+        "bestTime": "Clear days after snow melt (July-August)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Denver Union Station interior",
+        "description": "Grand Beaux-Arts architecture with soaring arches, intricate details, and dramatic window light creating architectural drama.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light through tall windows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Wildlife at Barr Lake State Park",
+        "description": "Accessible wetland environment with abundant birdlife and wildlife offering excellent telephoto photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning (6-8 AM)",
+        "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
-      "Mount Evans Scenic Byway",
-      "Bear Mountain Trail Overlook",
-      "South Platte River Confluence Park"
+      "Red Rocks Amphitheatre",
+      "Bear Lake Trail (Rocky Mountain National Park)",
+      "South Platte River near Confluence Park"
     ],
     "sunsetSpots": [
-      "Red Rocks Amphitheatre",
-      "Washington Park Waterfront",
-      "Downtown Denver Skyline from Cherry Creek"
+      "Cherry Creek Bike Path overlook",
+      "Garden of the Gods (Colorado Springs day trip)",
+      "West side of City Park near Denver Museum"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for landscape and architectural vistas at Red Rocks and Mount Evans",
-      "24-70mm versatile zoom for street photography and urban scenes in RiNo and downtown",
-      "70-200mm telephoto for compressed perspectives and wildlife in Rocky Mountain areas",
-      "50mm prime for intimate street photography and portrait work in urban neighborhoods"
+      "16-35mm wide-angle for landscape and architecture photography capturing expansive views",
+      "70-200mm telephoto for wildlife and compressed mountain vistas at Rocky Mountain National Park",
+      "50mm prime for street photography and intimate portraits in downtown Denver neighborhoods",
+      "24-70mm standard zoom for versatility across all photography situations and lighting conditions"
     ],
-    "goldenHourNotes": "Denver's high altitude and clear, dry climate create exceptionally vibrant golden hours with minimal atmospheric haze. Golden hour extends longer than sea-level cities due to thinner atmosphere, offering extended shooting windows at sunrise and sunset. Best light occurs 60-90 minutes after sunrise and before sunset, particularly in spring and fall when sun angles are lower.",
+    "goldenHourNotes": "Denver's mile-high elevation and low humidity create exceptionally clear golden hour light with rich color saturation. The window is typically 30-45 minutes before sunset with warm tones lasting longer than sea-level locations. Position yourself facing the mountains to the west during sunset and east-facing downtown towers during sunrise for optimal light direction.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -1,
+        "avgTempC": -2,
         "rainfallMM": 13
       },
       {
@@ -375,52 +374,52 @@
       {
         "month": 3,
         "avgTempC": 6,
-        "rainfallMM": 25
+        "rainfallMM": 33
       },
       {
         "month": 4,
         "avgTempC": 12,
-        "rainfallMM": 51
+        "rainfallMM": 58
       },
       {
         "month": 5,
-        "avgTempC": 18,
-        "rainfallMM": 76
+        "avgTempC": 17,
+        "rainfallMM": 84
       },
       {
         "month": 6,
-        "avgTempC": 24,
-        "rainfallMM": 89
+        "avgTempC": 23,
+        "rainfallMM": 97
       },
       {
         "month": 7,
-        "avgTempC": 27,
-        "rainfallMM": 102
+        "avgTempC": 26,
+        "rainfallMM": 107
       },
       {
         "month": 8,
-        "avgTempC": 26,
-        "rainfallMM": 89
+        "avgTempC": 25,
+        "rainfallMM": 91
       },
       {
         "month": 9,
-        "avgTempC": 21,
-        "rainfallMM": 51
+        "avgTempC": 20,
+        "rainfallMM": 58
       },
       {
         "month": 10,
-        "avgTempC": 15,
-        "rainfallMM": 25
+        "avgTempC": 14,
+        "rainfallMM": 36
       },
       {
         "month": 11,
         "avgTempC": 7,
-        "rainfallMM": 18
+        "rainfallMM": 25
       },
       {
         "month": 12,
         "avgTempC": 1,
-        "rainfallMM": 13
+        "rainfallMM": 15
       }
     ],
     "bestMonths": [
@@ -429,31 +428,31 @@
       9,
       10
     ],
-    "seasonality": "Denver enjoys over 300 days of sunshine annually, making it consistently pleasant. Summer offers warm days with afternoon thunderstorms, while spring and fall provide perfect temperatures for outdoor activities and photography.",
-    "summary": "Denver's high altitude (5,280 feet) creates mild temperatures and dry conditions year-round with low humidity. Winter brings occasional snow but frequent clear, sunny days, while summer thunderstorms occur in late afternoons."
+    "seasonality": "Denver enjoys 300 days of sunshine annually with spring (May-June) and fall (September-October) offering ideal temperatures and clear skies. Winters are mild with occasional snow, while summers are warm with afternoon thunderstorms.",
+    "summary": "Denver's high-altitude climate features low humidity, abundant sunshine, and significant temperature swings between day and night. Spring and fall provide the most comfortable weather for outdoor activities, while summer afternoon thunderstorms are common but typically brief."
   },
   "hotels": [
     {
-      "name": "HotelIndigo Denver Downtown",
-      "neighborhood": "Downtown/LoDo",
-      "pricePerNightUSD": 95,
+      "name": "HotelBeds Denver Downtown",
+      "neighborhood": "LoDo Historic District",
+      "pricePerNightUSD": 89,
       "category": "Budget",
-      "description": "Modern budget-friendly hotel with contemporary rooms, convenient downtown location near attractions and restaurants, and quality amenities."
+      "description": "Clean, no-frills hotel in the heart of historic downtown with walkable access to restaurants, galleries, and nightlife."
     },
     {
       "name": "The Maven Hotel",
-      "neighborhood": "RiNo/Five Points",
-      "pricePerNightUSD": 185,
+      "neighborhood": "LoDo Historic District",
+      "pricePerNightUSD": 195,
       "category": "Mid-range",
-      "description": "Trendy mid-range hotel in artsy neighborhood featuring rooftop bar, locally-curated art, and modern aesthetic with excellent walkability to breweries."
+      "description": "Stylish boutique hotel in a historic building featuring modern amenities, rooftop bar, and proximity to downtown attractions."
     },
     {
-      "name": "The Brown Palace Hotel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 350,
+      "name": "The Brown Palace Hotel and Spa",
+      "neighborhood": "Downtown Denver",
+      "pricePerNightUSD": 425,
       "category": "Luxury",
-      "description": "Historic luxury landmark hotel with opulent interiors, fine dining, spa facilities, and impeccable service representing Colorado hospitality since 1892."
+      "description": "Historic luxury hotel built in 1889 featuring an iconic atrium, fine dining, spa services, and unparalleled elegance in downtown Denver."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1709689702529-6fa1f343e108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEZW52ZXIlMjBza3lsaW5lJTIwbW91bnRhaW5zJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODEzMDMwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1648441095877-90406e6ba04d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEZW52ZXIlMjBkb3dudG93biUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MTYyNzg1NHww&ixlib=rb-4.1.0&q=80&w=1080"
 }

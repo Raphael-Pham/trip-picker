@@ -1,0 +1,456 @@
+{
+  "id": "burlington-usa",
+  "city": "Burlington",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BTV",
+    "MHT",
+    "BOS"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "relaxation",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 78,
+    "photography": 82,
+    "activities": 85,
+    "weather": 68
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 70,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Lake Champlain Burlington Vermont",
+  "summary": "Burlington is Vermont's largest city, a vibrant waterfront destination nestled on the shores of Lake Champlain with stunning mountain views and a thriving local food scene. Known for its progressive culture, diverse dining options, and access to outdoor recreation, this charming New England hub offers the perfect blend of urban exploration and natural beauty.",
+  "restaurants": [
+    {
+      "name": "The Farmhouse Tap & Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant celebrating Vermont's agricultural heritage with grass-fed beef and local produce. Their burger and craft beer selection are exceptional.",
+      "mustTry": "Farmhouse Burger"
+    },
+    {
+      "name": "Penny Cluse Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved breakfast and brunch spot with long lines but worth the wait, known for creative omelets and fresh baked goods. A local institution since 1994.",
+      "mustTry": "Benedict with smoked salmon"
+    },
+    {
+      "name": "Bluebird Barbecue",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic slow-smoked barbecue with house-made sauces and sides, featuring brisket, pulled pork, and ribs. Casual counter-service dining with outdoor seating.",
+      "mustTry": "Brisket platter"
+    },
+    {
+      "name": "Leunig's Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French-inspired bistro with an elegant atmosphere overlooking City Hall Park, serving contemporary European cuisine with seasonal ingredients. Known for impeccable service and wine selection.",
+      "mustTry": "Duck confit"
+    },
+    {
+      "name": "Misery Loves Co.",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy coffee shop with excellent artisanal coffee, pastries, and light breakfast items. Hip interior design and friendly staff make it a perfect morning destination.",
+      "mustTry": "Cappuccino with croissant"
+    },
+    {
+      "name": "Trattoria Delia",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Italian restaurant featuring handmade pasta and traditional Northern Italian dishes. The warm ambiance and knowledgeable staff enhance the dining experience.",
+      "mustTry": "Pappardelle with wild boar ragù"
+    },
+    {
+      "name": "Farmacy Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale modern American cuisine in a historic building, emphasizing local and seasonal ingredients with creative presentations. Award-winning wine program complements the sophisticated menu.",
+      "mustTry": "Pan-seared Vermont trout"
+    },
+    {
+      "name": "Hugo's Burger Truck",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Food truck institution serving gourmet burgers with creative toppings and sauces at affordable prices. Located on the Church Street Marketplace.",
+      "mustTry": "Hugo's signature burger"
+    },
+    {
+      "name": "Matsuri",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Japanese restaurant offering fresh sushi, sashimi, and cooked dishes in a warm, welcoming environment. Known for generous portions and creative rolls.",
+      "mustTry": "Spicy tuna roll"
+    },
+    {
+      "name": "The Farmhouse Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual dining celebrating local Vermont products with wood-fired pizza, seasonal vegetables, and craft beverages. Rustic-chic atmosphere with communal seating.",
+      "mustTry": "Wood-fired vegetable pizza"
+    },
+    {
+      "name": "Arugula",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate fine dining establishment focusing on hyper-local sourcing and innovative vegetable-forward cuisine. Multi-course tasting menus showcase Vermont's agricultural excellence.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Baba Yaga",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mediterranean-inspired vegetarian and vegan restaurant with a bohemian vibe, offering creative dishes made from fresh seasonal produce. Colorful interior and welcoming staff.",
+      "mustTry": "Falafel wrap"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Lake Champlain Waterfront Walk",
+      "category": "Outdoor",
+      "description": "Scenic 7-mile paved path along Lake Champlain offering spectacular mountain views, parks, and beach access. Perfect for walking, jogging, or cycling with multiple entry points.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Church Street Marketplace",
+      "category": "Cultural",
+      "description": "Vibrant pedestrian shopping district with boutiques, galleries, restaurants, and street performers creating a lively atmosphere. The heart of downtown Burlington with year-round events.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "shopping"
+      ]
+    },
+    {
+      "name": "Vermont Maritime Museum",
+      "category": "Cultural",
+      "description": "Museum housed in a historic waterfront building showcasing Lake Champlain's maritime heritage, naval history, and local artifacts. Interactive exhibits appeal to both adults and children.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Mount Mansfield Summit Hike",
+      "category": "Adventure",
+      "description": "Vermont's highest peak offering challenging alpine terrain with 360-degree views from the summit, accessible via multiple trail routes. The ridge walk provides dramatic mountain scenery.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hiking"
+      ]
+    },
+    {
+      "name": "ECHO Lake Aquarium and Science Center",
+      "category": "Family",
+      "description": "Interactive science museum with exhibits focused on Lake Champlain's ecosystem, hands-on activities, and an indoor aquarium. Educational and entertaining for all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Shelburne Museum",
+      "category": "Cultural",
+      "description": "World-class museum 15 minutes south of Burlington featuring American art, folk art, quilts, and historic buildings spread across 45 acres. One of New England's premier cultural institutions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Craft Beer Brewery Tour",
+      "category": "Food",
+      "description": "Visit local breweries like Foam Brewers, Switchback Brewing, and Hill Farmstead for tastings and tours. Burlington's craft beer scene is nationally renowned.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kayaking on Lake Champlain",
+      "category": "Adventure",
+      "description": "Paddle along the shoreline enjoying water-level views of mountains, islands, and wildlife including loons and bald eagles. Rentals available at several waterfront locations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Ben & Jerry's Factory Tour",
+      "category": "Food",
+      "description": "Located 30 minutes south in Waterbury, this iconic ice cream factory offers tours of the production facility and unlimited ice cream tastings. A must-do for ice cream lovers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "foodie",
+        "family"
+      ]
+    },
+    {
+      "name": "City Art Center",
+      "category": "Cultural",
+      "description": "Contemporary art gallery and creative hub showcasing local and regional artists through rotating exhibits, performances, and workshops. Free admission encourages exploration.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Seasonal Farmers Market",
+      "category": "Food",
+      "description": "Year-round farmers market featuring local produce, artisanal goods, prepared foods, and live music every Saturday. Authentic Vermont farm-to-table experience.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Winooski River Bike Path",
+      "category": "Outdoor",
+      "description": "Scenic 10-mile bike path following the Winooski River through forests and fields with minimal elevation gain. Perfect for leisurely cycling with beautiful natural scenery.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "outdoor"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Lake Champlain Waterfront at Dawn",
+        "description": "Stunning reflections of mountains and sky in still morning water with pink and orange light on the Adirondacks across the lake.",
+        "difficulty": "Beginner",
+        "bestTime": "6:00-7:30 AM during clear mornings",
+        "category": "Landscape"
+      },
+      {
+        "name": "City Hall Park",
+        "description": "Beautiful Victorian architecture surrounding a tree-filled park with excellent symmetry and seasonal colors, especially during fall foliage.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour, late afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Shelburne Point Lighthouse",
+        "description": "Historic red and white striped lighthouse surrounded by Lake Champlain waters with dramatic mountain backdrop.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset and golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Church Street Marketplace Street Photography",
+        "description": "Vibrant street scenes with street performers, colorful storefronts, and diverse crowds creating dynamic compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoons with side lighting from 2-5 PM",
+        "category": "Street"
+      },
+      {
+        "name": "Mount Mansfield Alpine Summit",
+        "description": "Dramatic rocky alpine terrain with panoramic views of Green Mountains and distant peaks, especially stunning during fall foliage.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear days, late morning for best visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Leddy Beach at Sunset",
+        "description": "Sandy beach along Lake Champlain with silhouetted mountains in the distance and dramatic sky colors during sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset to 15 minutes after",
+        "category": "Landscape"
+      },
+      {
+        "name": "Battery Park Historic Cannons",
+        "description": "Historic Revolutionary War era cannons positioned overlooking the lake with architectural interest and historical significance.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning light on the cannons",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bryant Park During Fall",
+        "description": "Local park with vibrant autumn foliage reflecting in water features and creating a colorful natural palette.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-October during peak foliage",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Burlington Street Corners",
+        "description": "Historic commercial buildings with character-filled architecture and interesting patterns, especially visible with directional side lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light from east-facing streets",
+        "category": "Architecture"
+      },
+      {
+        "name": "North Beach Park Wildlife Area",
+        "description": "Natural shoreline habitat offering opportunities to photograph waterfowl, herons, and other wildlife with water reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning, dawn to mid-morning",
+        "category": "Wildlife"
+      }
+    ],
+    "sunriseSpots": [
+      "Lake Champlain Waterfront Path near Leddy Beach",
+      "Shelburne Point Lighthouse",
+      "Mount Mansfield Summit"
+    ],
+    "sunsetSpots": [
+      "Leddy Beach",
+      "Burlington Waterfront Promenade near ECHO Center",
+      "Winooski Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle: Landscape and architectural shots capturing expansive mountain views and building facades",
+      "50mm prime: Street photography and intimate portraits with natural bokeh on Church Street Marketplace",
+      "70-200mm telephoto: Wildlife photography of waterfowl on Lake Champlain and distant mountain details",
+      "Macro lens: Detail shots of fall foliage, wildflowers, and architectural ornaments"
+    ],
+    "goldenHourNotes": "Burlington's golden hour is particularly spectacular during fall months when the low-angle sun illuminates the foliage with warm amber tones. The mountains across Lake Champlain create a silhouetted backdrop that contrasts beautifully with the lit foreground. Spring and early summer offer longer golden hours lasting 45-60 minutes due to northern latitude.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -5,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": -3,
+        "rainfallMM": 71
+      },
+      {
+        "month": 3,
+        "avgTempC": 2,
+        "rainfallMM": 89
+      },
+      {
+        "month": 4,
+        "avgTempC": 12,
+        "rainfallMM": 94
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 25,
+        "rainfallMM": 112
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 107
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 99
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 91
+      },
+      {
+        "month": 10,
+        "avgTempC": 14,
+        "rainfallMM": 99
+      },
+      {
+        "month": 11,
+        "avgTempC": 7,
+        "rainfallMM": 109
+      },
+      {
+        "month": 12,
+        "avgTempC": -1,
+        "rainfallMM": 84
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Burlington experiences four distinct seasons with cold, snowy winters (December-March), mild springs (April-May), warm summers (June-August), and spectacular fall foliage (September-October). Summer and early fall offer the best weather for outdoor activities and sightseeing.",
+    "summary": "Vermont's climate brings significant seasonal variation with temperatures ranging from -5°C in winter to 27°C in summer. Fall is magical with vibrant foliage, while winter provides snow sports opportunities but requires cold-weather preparation."
+  },
+  "hotels": [
+    {
+      "name": "Hostel Vermont",
+      "neighborhood": "Downtown Burlington",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Welcoming hostel in the heart of downtown offering dorm beds and private rooms with shared kitchen facilities and social atmosphere."
+    },
+    {
+      "name": "The Hilton Burlington",
+      "neighborhood": "Waterfront",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Full-service hotel directly on Lake Champlain with comfortable rooms, indoor pool, on-site dining, and spectacular mountain views."
+    },
+    {
+      "name": "Lang House on Main Street",
+      "neighborhood": "Downtown Burlington",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "Elegant Victorian mansion turned luxury inn offering lavishly appointed suites with period antiques, gourmet breakfast, and personalized service."
+    }
+  ]
+}

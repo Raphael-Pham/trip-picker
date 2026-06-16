@@ -6,156 +6,168 @@
   "airportCodes": [
     "SFO",
     "MRY",
-    "SMF"
+    "SLO"
   ],
   "hiddenGem": false,
   "tripStyles": [
-    "standard",
     "photography",
     "adventure",
-    "relaxation"
+    "relaxation",
+    "standard"
   ],
   "scores": {
-    "cost": 35,
+    "cost": 25,
     "food": 75,
-    "photography": 95,
+    "photography": 98,
     "activities": 85,
-    "weather": 78
+    "weather": 80
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 80,
-      "maxPerDayUSD": 150
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 180
     },
     {
       "level": "mid",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 300
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
-      "maxPerDayUSD": 600
+      "minPerDayUSD": 400,
+      "maxPerDayUSD": 800
     }
   ],
   "unsplashQuery": "Big Sur California coast",
-  "summary": "Big Sur is a stunning 90-mile stretch of California coastline featuring dramatic cliffs, pristine beaches, and redwood forests that create some of the most breathtaking scenery in America. This rugged paradise offers world-class hiking, photography opportunities, and intimate dining experiences nestled between mountains and sea. Perfect for adventure seekers and photographers seeking inspiration from nature's grandeur.",
+  "summary": "Big Sur is a breathtaking stretch of rugged California coastline where dramatic cliffs plunge into the Pacific Ocean, creating some of North America's most spectacular scenery. This remote paradise combines pristine beaches, towering redwood forests, and world-class hiking trails with an intimate collection of acclaimed restaurants and luxury retreats. The region offers unparalleled photography opportunities, outdoor adventures, and a peaceful escape from urban life.",
   "restaurants": [
     {
-      "name": "The Big Sur Bakery",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Charming roadside bakery offering fresh-baked pastries, wood-fired pizzas, and local coffee. A beloved gathering spot for locals and travelers alike.",
-      "mustTry": "Wild mushroom and truffle pizza"
+      "name": "The Restaurant at Ventana",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Located in the luxury Ventana resort, this oceanfront fine dining establishment offers California cuisine with sweeping coastal views. The chef creates innovative dishes using locally-sourced ingredients and an extensive wine list.",
+      "mustTry": "Pan-seared halibut with seasonal vegetables"
     },
     {
       "name": "Nepenthe",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Iconic clifftop restaurant with panoramic ocean views and California cuisine featuring local ingredients. Service is attentive and the sunset dining experience is unforgettable.",
-      "mustTry": "Ambrosia burger with ambrosial sauce"
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "An iconic Big Sur institution perched 808 feet above the ocean, offering casual California cuisine with panoramic Pacific views. Known for its relaxed atmosphere and eclectic crowd, it's a must-visit for both food and ambiance.",
+      "mustTry": "Ambrosia burger with house-made chips"
+    },
+    {
+      "name": "Big Sur Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A charming local bakery in Carmel Valley near Big Sur serving fresh-baked pastries, sandwiches, and excellent coffee. Perfect for a quick breakfast or lunch before exploring the coastal trails.",
+      "mustTry": "Sourdough bread and almond croissant"
     },
     {
       "name": "Big Sur Taphouse",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Casual gastropub serving craft beers and elevated pub food with stunning coastal views. Perfect for a relaxed dinner after hiking.",
-      "mustTry": "Fish and chips with local catch"
+      "priceRange": "$$",
+      "description": "A casual gastropub featuring craft beers and elevated comfort food with mountain views. The atmosphere is welcoming and perfect for post-hike meals and local interaction.",
+      "mustTry": "Fish and chips with house-made tartar sauce"
     },
     {
-      "name": "Sierra Mar",
+      "name": "Lucia Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Award-winning restaurant at Post Ranch Inn featuring innovative cuisine and three-wall ocean views. Offers prix fixe dining experiences focused on sustainability.",
-      "mustTry": "Multi-course tasting menu with wine pairings"
+      "description": "Set within the Lucia Hideaway resort with dramatic ocean cliffs, this fine dining restaurant offers Mediterranean-inspired cuisine and an exceptional wine collection. Sunset dining here is absolutely unforgettable.",
+      "mustTry": "Branzino with citrus beurre blanc"
     },
     {
       "name": "Cafe Kevah",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual oceanside cafe serving breakfast and lunch with vegetarian options and spectacular ocean vistas. Great for grab-and-go meals or leisurely breakfast.",
-      "mustTry": "Quesadilla with fresh vegetables"
+      "description": "A casual beachside cafe at Pfeiffer Big Sur State Park offering simple meals, sandwiches, and refreshments with direct beach access. Popular with hikers for its convenient location and reasonable prices.",
+      "mustTry": "Grilled fish sandwich and local smoothie"
     },
     {
-      "name": "The Espresso Bar at Glen Oaks Big Sur",
-      "category": "Budget",
+      "name": "The Roadhouse Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Located in nearby Carmel, this steakhouse offers prime beef, fresh seafood, and extensive wine selections in an elegant yet comfortable setting. A short drive from Big Sur with excellent local reputation.",
+      "mustTry": "Prime ribeye steak with seasonal sides"
+    },
+    {
+      "name": "Pfeiffer Big Sur State Park Picnic Area",
+      "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Cozy coffee spot serving specialty espresso drinks and light pastries. A perfect morning stop before hitting the trails.",
-      "mustTry": "Cappuccino with Big Sur honey drizzle"
+      "description": "Pack a picnic from nearby stores and enjoy meals surrounded by redwoods and riverside scenery. This free dining experience is quintessential Big Sur and beloved by locals.",
+      "mustTry": "Local cheeses and artisanal breads from area markets"
     },
     {
-      "name": "Deetjen's Big Sur Inn",
+      "name": "Sierra Mar at Post Ranch Inn",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Intimate fine dining in a historic inn with candlelit tables and a menu changing seasonally. The atmosphere is romantic and the cuisine impeccably prepared.",
-      "mustTry": "Pan-seared local seafood with seasonal vegetables"
+      "description": "One of California's most celebrated restaurants set dramatically on cliffs 1,200 feet above the ocean with glass walls showcasing endless Pacific vistas. Three-course prix fixe menu featuring innovative California cuisine.",
+      "mustTry": "Chef's seasonal tasting menu with wine pairings"
     },
     {
-      "name": "Big Sur Roadhouse",
+      "name": "Big Sur River Inn Restaurant",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Rustic restaurant with hearty American fare and local wines. Known for generous portions and friendly staff in a warm, rustic setting.",
-      "mustTry": "Grass-fed steak with roasted root vegetables"
-    },
-    {
-      "name": "Treebones Resort Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Unique yurt-based dining with farm-to-table cuisine and sunset ocean views. Reservation-only dinner service showcases local and organic ingredients.",
-      "mustTry": "Seasonal fish preparation with market vegetables"
-    },
-    {
-      "name": "Julia's Vegetarian Restaurant",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Family-run vegetarian spot offering simple, wholesome meals with fresh local ingredients. Casual atmosphere perfect for vegetarian and vegan travelers.",
-      "mustTry": "Veggie stir-fry with tofu"
-    },
-    {
-      "name": "Coast Gallery Cafe",
-      "category": "Budget",
       "priceRange": "$$",
-      "description": "Gallery-cafe hybrid serving light lunch fare, pastries, and espresso drinks. Browse local art while enjoying refreshments.",
-      "mustTry": "Homemade soup and fresh bread"
+      "description": "A charming riverside restaurant offering California cuisine in a rustic lodge setting with river views. The homey atmosphere and deck seating make it a local favorite for casual dining.",
+      "mustTry": "Grilled fish of the day with river-view dining"
     },
     {
-      "name": "Ragged Point Inn Restaurant",
+      "name": "Deetjen's Big Sur Inn Restaurant",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Oceanfront dining with 360-degree views and contemporary American cuisine. Ideal for sunset dining with access to nearby hiking trails.",
-      "mustTry": "Cioppino with fresh daily catch"
+      "priceRange": "$$",
+      "description": "A historic restaurant and inn offering European and California-inspired cuisine in a cozy, artistic setting. The intimate dining rooms with fireplaces create a romantic atmosphere.",
+      "mustTry": "Fresh pasta primavera or herb-roasted chicken"
+    },
+    {
+      "name": "Ragged Point Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Located at a dramatic coastal inn, this restaurant offers Pacific views and contemporary American cuisine with local ingredients. The patio seating provides stunning cliff-side dining.",
+      "mustTry": "Fish tacos with fresh lime and local catch"
     }
   ],
   "activities": [
     {
-      "name": "Pfeiffer Beach Red Sand Hike",
+      "name": "McWay Falls Trail",
       "category": "Outdoor",
-      "description": "Short scenic hike to one of California's most unique beaches featuring rare purple sand formations and dramatic rock formations. The distinctive color comes from manganese garnet deposits.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "A short and spectacular hike to a pristine beach with an 80-foot waterfall cascading onto white sand, surrounded by sea cliffs. One of California's most photographed waterfalls and easily accessible.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
       "bestFor": [
-        "standard",
         "photography",
-        "adventure"
+        "adventure",
+        "standard"
       ]
     },
     {
-      "name": "McWay Falls Trail",
+      "name": "Pfeiffer Beach (Purple Sand Beach)",
       "category": "Outdoor",
-      "description": "Moderate 4.8-mile round-trip hike in Julia Pfeiffer Burns State Park leading to a pristine cove with a waterfall cascading onto the beach. One of Big Sur's most iconic and photographed locations.",
+      "description": "A hidden gem beach with distinctive purple sand caused by manganese garnet minerals, framed by dramatic rock formations and sea caves. Best visited during low tide and requires a short hike to access.",
       "durationHours": 3,
       "estimatedCostUSD": 10,
       "bestFor": [
-        "standard",
         "photography",
-        "adventure"
+        "adventure",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Julia Burns Trail to Overlook",
+      "category": "Adventure",
+      "description": "A moderate hike offering panoramic views of the Big Sur coastline, redwood groves, and the Pacific Ocean from multiple vantage points. The trail passes through diverse ecosystems and requires moderate fitness.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
       ]
     },
     {
       "name": "Bixby Bridge Photography Tour",
       "category": "Outdoor",
-      "description": "Self-guided tour of the historic 1932 concrete arch bridge offering stunning composition opportunities from multiple angles. The bridge is a marvel of engineering and a photographer's paradise.",
+      "description": "A self-guided tour of the iconic 1932 arch bridge, one of the most photographed bridges in the world, set against coastal mountains. Multiple viewpoints provide composition opportunities from different angles.",
       "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -164,33 +176,79 @@
       ]
     },
     {
-      "name": "Pfeiffer Big Sur State Park Hiking",
-      "category": "Outdoor",
-      "description": "Extensive trail system through redwood groves and coastal bluffs with options for all skill levels. Valley View Trail and Ewoldsen Trail offer diverse landscapes from forest to ocean vistas.",
-      "durationHours": 4,
-      "estimatedCostUSD": 10,
+      "name": "Big Sur River Kayaking",
+      "category": "Adventure",
+      "description": "Paddle through the scenic Big Sur River estuary with views of redwoods, wildlife, and the surrounding mountains. A peaceful way to explore the area's inland waterways.",
+      "durationHours": 3,
+      "estimatedCostUSD": 75,
       "bestFor": [
         "adventure",
-        "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Scenic Highway 1 Drive",
+      "name": "Point Lobos State Natural Reserve",
       "category": "Outdoor",
-      "description": "Self-guided driving tour along one of America's most spectacular coastal roads with numerous pull-outs and viewpoints. Allow time for photography stops at iconic locations.",
-      "durationHours": 5,
-      "estimatedCostUSD": 15,
+      "description": "A stunning coastal park with coves, cypress groves, and abundant wildlife including sea otters, seals, and sea lions. Multiple trails of varying difficulty offer dramatic ocean and forest scenery.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
       "bestFor": [
-        "standard",
         "photography",
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Partington Cove Explorer",
+      "category": "Adventure",
+      "description": "A short hike leading to a secluded rocky cove with a hidden tunnel through the rocks and pristine ocean views. Requires moderate scrambling and is less crowded than other Big Sur attractions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Coastal Scenic Drive (Highway 1)",
+      "category": "Outdoor",
+      "description": "One of the world's most scenic drives featuring 90 miles of pristine coastline with pullouts at numerous viewpoints. Allow 4-6 hours to stop at key locations including bridges, beaches, and overlooks.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Partington Cove Kayaking",
+      "name": "Redwood Grove Nature Walk",
+      "category": "Outdoor",
+      "description": "Hike through ancient redwood forests in Pfeiffer Big Sur State Park with massive trees creating cathedral-like groves. Peaceful and meditative, offering respite from coastal activity.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Big Sur Farmers Market",
+      "category": "Cultural",
+      "description": "A weekly market featuring local produce, artisan goods, and prepared foods celebrating the region's agricultural heritage. Opportunity to meet locals and sample regional specialty items.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "foodie",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Wildlife Watching Cruise",
       "category": "Adventure",
-      "description": "Guided or self-guided kayak adventure exploring sea caves and coves accessed by a historic tunnel. Wildlife viewing opportunities include seals, sea otters, and migrating whales.",
+      "description": "Guided boat tours departing from nearby ports offering opportunities to see whales, dolphins, sea otters, and seabirds in their natural habitat. Tours vary by season and marine activity.",
       "durationHours": 3,
       "estimatedCostUSD": 85,
       "bestFor": [
@@ -199,72 +257,14 @@
       ]
     },
     {
-      "name": "Cone Peak Wilderness Backpacking",
-      "category": "Adventure",
-      "description": "Multi-day backpacking expedition through remote coastal wilderness to California's second-steepest peak. Advanced hikers can summit for breathtaking 360-degree views.",
-      "durationHours": 24,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Big Sur River Gorge Swimming",
-      "category": "Outdoor",
-      "description": "Refreshing natural swimming holes in the Big Sur River surrounded by redwoods and coastal mountains. Popular summer activity for cooling off after hiking.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Whale Watching Tours",
-      "category": "Outdoor",
-      "description": "Seasonal boat tours (December-April migration) offering close encounters with gray whales and other marine mammals. Professional guides provide education about whale behavior and Big Sur's marine ecosystem.",
-      "durationHours": 4,
-      "estimatedCostUSD": 95,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Point Lobos State Natural Reserve Exploration",
-      "category": "Outdoor",
-      "description": "Day trip to stunning reserve featuring cypress groves, rocky coves, and abundant wildlife including sea otters, seals, and sea lions. Short easy trails with maximum scenic impact.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Sunset Cliffside Meditation",
+      "name": "Yoga and Wellness Retreat at Local Studios",
       "category": "Relaxation",
-      "description": "Self-guided meditation or yoga session at designated cliff viewpoints during golden hour. Many visitors find spiritual renewal while watching the Pacific sunset.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
+      "description": "Multiple wellness studios in the area offer yoga, meditation, and spa services with ocean or forest views. Perfect for centering yourself in this peaceful natural environment.",
+      "durationHours": 2,
+      "estimatedCostUSD": 60,
       "bestFor": [
         "relaxation",
         "standard"
-      ]
-    },
-    {
-      "name": "Andrew Molera Beach Exploration",
-      "category": "Outdoor",
-      "description": "Easy 3.2-mile round-trip hike to a pristine sandy beach and river mouth with tide pools and beachcombing opportunities. Excellent for all skill levels and families.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "relaxation"
       ]
     }
   ],
@@ -272,93 +272,93 @@
     "spots": [
       {
         "name": "McWay Falls",
-        "description": "Iconic waterfall cascading onto a pristine crescent beach surrounded by dramatic purple cliffs and cypress trees.",
+        "description": "Iconic waterfall cascading onto pristine white sand beach surrounded by turquoise water and dramatic sea cliffs.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for soft light and fewer crowds",
-        "category": "Landscape"
-      },
-      {
-        "name": "Pfeiffer Beach Purple Sand",
-        "description": "Unique purple sand formations at the base of towering cliffs with dramatic rock arches and sea caves.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset for warm golden light on purple sand",
+        "bestTime": "Morning light, low tide for best beach access",
         "category": "Landscape"
       },
       {
         "name": "Bixby Bridge",
-        "description": "Historic concrete arch bridge spanning a dramatic gorge with the Pacific coastline as backdrop.",
+        "description": "Historic 1932 concrete arch bridge spanning a deep gorge with mountains and ocean visible in composition.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for side-lit bridge details",
+        "bestTime": "Golden hour from south side viewpoint, clear weather preferred",
         "category": "Architecture"
       },
       {
-        "name": "Point Lobos Cypress Grove",
-        "description": "Gnarled Monterey cypress trees framing coves, rocky outcrops, and sea otters in turquoise water.",
+        "name": "Pfeiffer Beach Purple Sand",
+        "description": "Unique purple-tinted sand beach with dramatic rock formations, sea stacks, and rock arches framing the composition.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday for clear water colors and wildlife activity",
+        "bestTime": "Low tide for maximum sand exposure, sunset for warm tones",
         "category": "Landscape"
       },
       {
-        "name": "Julia Pfeiffer Burns State Park Overlook",
-        "description": "Elevated coastal vistas with rugged cliffs, forested valleys, and distant ocean meeting dramatic sky.",
-        "difficulty": "Beginner",
-        "bestTime": "Clear afternoons for contrast and depth",
+        "name": "Point Lobos Cypress Grove",
+        "description": "Gnarled cypress trees framing rocky coves with resident sea otters, seals, and dramatic coastal cliffs.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for soft light and minimal crowds",
         "category": "Landscape"
       },
       {
-        "name": "Andrew Molera Beach River Mouth",
-        "description": "Sandy beach with braided river channels meeting the ocean, backed by forest and mountains.",
+        "name": "Julia Burns Overlook",
+        "description": "Panoramic viewpoint capturing vast stretches of Big Sur coastline with redwood forests meeting ocean cliffs.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon light for shadow depth, clear days for maximum visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Partington Cove Tunnel",
+        "description": "Unique tunnel through rock formation framing secluded cove with ocean beyond, creating natural frame composition.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour for backlighting effect through tunnel entrance",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ventana View Overlook",
+        "description": "Dramatic cliffside vantage point 808 feet above ocean with layered mountain ridges and vast Pacific Ocean.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light for beach texture and river reflections",
+        "bestTime": "Sunset with clear skies for golden and pink tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Big Sur River Redwoods",
+        "description": "Ancient coast redwoods with massive trunks creating natural leading lines through misty forest environment.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning fog for atmospheric lighting and soft diffusion",
         "category": "Landscape"
       },
       {
         "name": "Ragged Point Cliffs",
-        "description": "Towering sea cliffs with natural rock formations, crashing waves, and panoramic coastal perspectives.",
+        "description": "Jagged coastal rock formations with dramatic white water splashing against dark rocks and sunset backdrop.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm cliff tones and wave detail",
+        "bestTime": "Sunset or sunrise with rough seas for dynamic water action",
         "category": "Landscape"
       },
       {
-        "name": "Big Sur River Valley Redwoods",
-        "description": "Ancient redwood groves in misty valleys with filtered sunlight creating ethereal forest compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Foggy mornings for moody atmospheric conditions",
-        "category": "Landscape"
-      },
-      {
-        "name": "Partington Cove Sea Cave",
-        "description": "Dramatic sea caves and rock formations accessible by kayak with surreal blue water and wildlife.",
+        "name": "Highway 1 Hairpin Turns",
+        "description": "Aerial perspective of serpentine highway cutting through coastal mountains with ocean visible in distance.",
         "difficulty": "Advanced",
-        "bestTime": "Clear calm days for calm water and cave reflections",
-        "category": "Landscape"
-      },
-      {
-        "name": "Point Lobos Overlook at Sunset",
-        "description": "Elevated viewpoint with silhouetted cypress trees, crashing waves, and dramatic sky colors at dusk.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for intense sky colors and silhouettes",
+        "bestTime": "Midday for clear aerial visibility from vantage points",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Pfeiffer Beach Purple Sand",
       "Point Lobos State Natural Reserve",
-      "Andrew Molera Beach"
+      "Julia Burns Trail Overlook",
+      "Pfeiffer Beach Purple Sand"
     ],
     "sunsetSpots": [
-      "Nepenthe Restaurant Overlook",
-      "Ragged Point Cliffs",
-      "Point Lobos Cypress Grove"
+      "Ventana Overlook (808 feet above ocean)",
+      "Bixby Bridge from south viewpoint",
+      "Ragged Point Cliffs"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle: Capture expansive coastal landscapes and dramatic cliff compositions",
-      "70-200mm telephoto: Isolate distant wave patterns, wildlife, and compressed coastal perspectives",
-      "50mm prime: Ideal for intimate forest scenes among redwoods and detailed rock formations",
-      "Neutral density filters: Essential for long exposures of waves and dramatic sky enhancement"
+      "16-35mm ultra-wide for grand landscape vistas and expansive coastline compositions",
+      "70-200mm telephoto for wildlife, distant details, and compressed perspectives of layered cliffs",
+      "50mm prime for intimate redwood forest work and environmental portraits with context",
+      "10-24mm fisheye for dramatic architectural shots of Bixby Bridge and tunnel compositions"
     ],
-    "goldenHourNotes": "Big Sur's golden hour is exceptional due to the elevated coastal vantage points that allow the sun to illuminate cliffs and ocean simultaneously. The interplay between warm cliff tones and cool ocean colors creates natural contrast. Sunset is particularly magical as the sun sinks directly into the Pacific, casting long shadows through cypress groves and creating silhouette opportunities.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Big Sur's dramatic topography creates exceptional golden hour photography with warm light hitting cliffs from both sunrise and sunset directions. The proximity of peaks and ocean allows for rapid lighting transitions during magic hour, requiring quick repositioning between compositions. Morning fog common in coastal areas during spring/early summer adds atmospheric depth but also obscures some vistas—check weather forecasts for clearer sunset conditions.",
+    "overallDifficulty": "Advanced"
   },
   "weather": {
     "monthly": [
@@ -375,52 +375,52 @@
       {
         "month": 3,
         "avgTempC": 14,
-        "rainfallMM": 76
+        "rainfallMM": 89
       },
       {
         "month": 4,
         "avgTempC": 15,
-        "rainfallMM": 51
+        "rainfallMM": 58
       },
       {
         "month": 5,
         "avgTempC": 17,
-        "rainfallMM": 25
+        "rainfallMM": 30
       },
       {
         "month": 6,
-        "avgTempC": 19,
+        "avgTempC": 20,
         "rainfallMM": 13
       },
       {
         "month": 7,
-        "avgTempC": 20,
-        "rainfallMM": 3
-      },
-      {
-        "month": 8,
-        "avgTempC": 20,
+        "avgTempC": 21,
         "rainfallMM": 5
       },
       {
-        "month": 9,
-        "avgTempC": 19,
+        "month": 8,
+        "avgTempC": 21,
         "rainfallMM": 8
       },
       {
+        "month": 9,
+        "avgTempC": 20,
+        "rainfallMM": 13
+      },
+      {
         "month": 10,
-        "avgTempC": 17,
-        "rainfallMM": 38
+        "avgTempC": 18,
+        "rainfallMM": 41
       },
       {
         "month": 11,
-        "avgTempC": 14,
-        "rainfallMM": 89
+        "avgTempC": 15,
+        "rainfallMM": 91
       },
       {
         "month": 12,
         "avgTempC": 12,
-        "rainfallMM": 127
+        "rainfallMM": 130
       }
     ],
     "bestMonths": [
@@ -430,30 +430,30 @@
       8,
       9
     ],
-    "seasonality": "Big Sur experiences mild winters with frequent fog and rain from November to March, while summers (June-September) offer warm, sunny days with occasional coastal fog. Fall (September-October) and spring (April-May) provide ideal conditions with moderate temperatures and clearer skies.",
-    "summary": "Expect cool to mild temperatures year-round with significant coastal fog and wind being constant factors. The best time to visit is late spring through early fall when conditions are most favorable for hiking, photography, and coastal exploration."
+    "seasonality": "Summer (June-September) offers warm, dry weather ideal for coastal activities and hiking with minimal fog, while winter (November-March) brings significant rainfall and dramatic stormy seas but fewer crowds. Spring and fall provide pleasant weather and moderate visitor numbers.",
+    "summary": "Big Sur features a Mediterranean climate moderated by Pacific Ocean influences, with mild temperatures year-round ranging from 12-21°C. Summer brings warm, dry conditions perfect for exploration, while winter offers dramatic coastal scenery with rainfall and occasional coastal highway closures due to landslides."
   },
   "hotels": [
     {
       "name": "Big Sur Campground and Cabins",
-      "neighborhood": "Big Sur Valley",
-      "pricePerNightUSD": 65,
+      "neighborhood": "Pfeiffer Big Sur State Park",
+      "pricePerNightUSD": 85,
       "category": "Budget",
-      "description": "Rustic camping and basic cabin accommodations nestled among redwoods with picnic tables and fire pits ideal for nature enthusiasts on a budget."
+      "description": "Rustic cabins and campgrounds within state park offering basic accommodations surrounded by redwoods and river access at reasonable rates."
     },
     {
-      "name": "Glen Oaks Big Sur",
+      "name": "Big Sur River Inn",
       "neighborhood": "Big Sur",
       "pricePerNightUSD": 220,
       "category": "Mid-range",
-      "description": "Modern mid-range resort featuring redwood cabins with fireplaces, hot tub, and on-site restaurant with locally-sourced cuisine."
+      "description": "Charming riverside inn with cottage-style rooms featuring river views, fireplaces, and a respected restaurant, offering excellent value and local character."
     },
     {
       "name": "Post Ranch Inn",
-      "neighborhood": "Big Sur Highlands",
-      "pricePerNightUSD": 480,
+      "neighborhood": "Big Sur",
+      "pricePerNightUSD": 625,
       "category": "Luxury",
-      "description": "Ultra-luxury clifftop resort with minimalist architecture built into the landscape, world-class Sierra Mar restaurant, and award-winning spa with Pacific Ocean views."
+      "description": "Luxury clifftop resort with architectural homes featuring dramatic ocean views, world-class dining at Sierra Mar, spa services, and unparalleled coastal scenery."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1623169840544-0982db65d00e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCaWclMjBTdXIlMjBDYWxpZm9ybmlhJTIwY29hc3R8ZW58MXwwfHx8MTc4MTU1NjExOHww&ixlib=rb-4.1.0&q=80&w=1080"

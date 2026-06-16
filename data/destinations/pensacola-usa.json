@@ -1,0 +1,473 @@
+{
+  "id": "pensacola-usa",
+  "city": "Pensacola",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PNS",
+    "MOB",
+    "TPA"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 82,
+    "activities": 80,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 120
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Pensacola beach sunset",
+  "summary": "Pensacola offers pristine white-sand beaches, a rich naval and pirate history, and a thriving culinary scene with fresh Gulf seafood. This charming Gulf Coast destination combines outdoor adventure with cultural heritage and photography-worthy coastal landscapes, all at affordable prices.",
+  "restaurants": [
+    {
+      "name": "Peg Leg Porker",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Legendary barbecue joint serving slow-smoked meats and Southern sides since the 1990s. A local favorite with authentic flavors and casual atmosphere.",
+      "mustTry": "Pulled pork sandwich with house sauce"
+    },
+    {
+      "name": "Dharma Blue",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary American cuisine in a historic downtown building overlooking the bay. Features locally-sourced ingredients and an extensive wine list.",
+      "mustTry": "Gulf fish with seasonal preparations"
+    },
+    {
+      "name": "Five Sisters Blues Café",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Soul food restaurant with live blues music, serving fried chicken, gumbo, and Southern classics. Vibrant atmosphere with local charm.",
+      "mustTry": "Fried chicken and biscuits"
+    },
+    {
+      "name": "Flounder's Chowder House",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual waterfront seafood restaurant with fresh catch daily and award-winning clam chowder. Family-friendly with beautiful bay views.",
+      "mustTry": "Flounder's seafood combo platter"
+    },
+    {
+      "name": "The Last Call",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual dive bar and grill offering affordable burgers, wings, and pub fare. Popular with locals for late-night eats.",
+      "mustTry": "Half-pound burger"
+    },
+    {
+      "name": "Mesón",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Spanish tapas restaurant with an elegant setting and carefully curated wine pairings. Intimate atmosphere perfect for special occasions.",
+      "mustTry": "Jamón ibérico and Spanish seafood tapas"
+    },
+    {
+      "name": "Jackson's Steaks, Seafood & Chops",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse featuring prime cuts, fresh seafood, and classic American fare. Refined dining experience in downtown historic district.",
+      "mustTry": "Prime ribeye with Gulf shrimp"
+    },
+    {
+      "name": "Crab's Call",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual seafood spot specializing in fresh crab and Gulf catch prepared simply. Waterfront location with relaxed atmosphere.",
+      "mustTry": "Crab cakes"
+    },
+    {
+      "name": "Paisanos Ristorante Italiano",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-owned Italian restaurant with homemade pasta, fresh seafood preparations, and classic Northern Italian dishes. Warm, welcoming ambiance.",
+      "mustTry": "Shrimp scampi over fresh pasta"
+    },
+    {
+      "name": "Mama Roja",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Hip taco and Latin American street food spot with creative combinations and fresh ingredients. Casual counter service, great for quick meals.",
+      "mustTry": "Fish tacos with house sauce"
+    },
+    {
+      "name": "The Tin Roof",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant emphasizing seasonal Southern cuisine and craft cocktails. Contemporary rustic setting downtown.",
+      "mustTry": "Gulf grouper with seasonal vegetables"
+    },
+    {
+      "name": "Shrimp Basket",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Quick-service seafood restaurant famous for generous portions of fried shrimp. Family-friendly with picnic table seating.",
+      "mustTry": "Fried shrimp basket with hush puppies"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Pensacola Beach",
+      "category": "Outdoor",
+      "description": "Five miles of pristine white-sand beach perfect for swimming, sunbathing, and water sports. The beach features lifeguards, facilities, and clear turquoise waters.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Naval Air Station Pensacola & National Naval Aviation Museum",
+      "category": "Cultural",
+      "description": "World-class museum showcasing naval aviation history with restored aircraft and flight simulators. Interactive exhibits perfect for history enthusiasts.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Fort Pickens Historic Site",
+      "category": "Outdoor",
+      "description": "Civil War-era coastal fort with 5-mile scenic drive, hiking trails, and beach access. Explore historic structures and wildlife viewing opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Kayaking in Pensacola Bay",
+      "category": "Adventure",
+      "description": "Paddle through mangrove forests and shallow bay waters to spot dolphins, manatees, and diverse bird species. Guided tours and rentals available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Historic Pensacola Village",
+      "category": "Cultural",
+      "description": "Preserved 19th-century buildings with authentic museums, galleries, and shops in charming downtown district. Walking tours reveal pirate and colonial history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Pensacola Pier Fishing",
+      "category": "Outdoor",
+      "description": "Public pier offering excellent saltwater fishing opportunities with minimal equipment needed. Beginner-friendly spot to catch redfish, pompano, and grouper.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Escambia River Water Trail Paddling",
+      "category": "Adventure",
+      "description": "Scenic paddling route through pristine river habitat with wildlife viewing and peaceful natural surroundings. Multiple put-in points for various skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Pensacola Museum of Art",
+      "category": "Cultural",
+      "description": "Contemporary art museum in historic 1906 building featuring local and international artists. Rotating exhibitions and educational programs.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Big Lagoon State Park",
+      "category": "Outdoor",
+      "description": "350-acre park offering hiking trails, pristine beach, and observation tower with panoramic views. Excellent for birdwatching and nature photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 3,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Gulf Islands National Seashore",
+      "category": "Outdoor",
+      "description": "Protected coastal area with unspoiled beaches, sand dunes, and offshore islands accessible by boat. Perfect for swimming, snorkeling, and pristine photography.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Palafox Street Historic District Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or tour-led walk through Victorian and Edwardian architecture in lively downtown area. Shops, galleries, and restaurants throughout.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Deep Sea Fishing Charter",
+      "category": "Adventure",
+      "description": "Full-day offshore fishing expedition targeting grouper, snapper, and wahoo. Professional crew provides instruction and equipment.",
+      "durationHours": 8,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Pensacola Pier",
+        "description": "Iconic wooden pier extending into turquoise bay waters with dramatic sky backdrops, perfect for golden hour photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour - sunrise and sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Fort Pickens Historic Ruins",
+        "description": "Weathered red brick Civil War-era fortification with dramatic architectural details and beach backdrops.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for texture detail, golden hour for warmth",
+        "category": "Architecture"
+      },
+      {
+        "name": "Johnson Beach at Perdido Key",
+        "description": "Pristine undeveloped beach with soft sand, clear waters, and minimal development creating natural composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise and golden hour for color and light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Palafox Street Downtown",
+        "description": "Victorian and Edwardian architecture with tree-lined streets, storefronts, and historic facades ideal for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for even lighting, late afternoon for shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bayou Grande Nature Preserve",
+        "description": "Mangrove forests, wildlife, and reflective waterways offering wildlife and nature photography opportunities with great biodiversity.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity and soft light",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Pensacola Beach Boardwalk",
+        "description": "Vibrant beach promenade with beach umbrellas, tourists, and coastal architecture creating dynamic street and lifestyle photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light and shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Three Mile Bridge Sunset Viewpoint",
+        "description": "Long bridge spanning bay waters with expansive sky and water reflections creating stunning composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for dramatic colors and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Blue Wahoo Stadium",
+        "description": "Modern waterfront sports facility with contemporary architecture and bay views offering unique architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon and evening for dramatic lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Santa Rosa Sound at Opal Beach",
+        "description": "Crystal-clear shallow waters with fine sand and minimal crowds creating serene landscape photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for directional light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Seville District Alleyways",
+        "description": "Narrow cobblestone passages, historic buildings, and atmospheric lighting creating intimate street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for side-lit architectural details",
+        "category": "Street"
+      }
+    ],
+    "sunriseSpots": [
+      "Pensacola Pier",
+      "Johnson Beach at Perdido Key",
+      "Opal Beach Santa Rosa Sound"
+    ],
+    "sunsetSpots": [
+      "Three Mile Bridge Viewpoint",
+      "Fort Pickens Beach",
+      "Pensacola Beach Boardwalk"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide angle for expansive beach and landscape shots capturing pier and beach panoramas",
+      "24-70mm standard zoom for versatile composition of architecture, street scenes, and general photography",
+      "70-200mm telephoto for wildlife in mangroves, compressed landscape details, and isolated subjects",
+      "35mm or 50mm prime for street photography in historic districts with shallow depth of field"
+    ],
+    "goldenHourNotes": "Pensacola's Gulf Coast position provides spectacular golden hour opportunities from both sunrise over the bay and sunset over the Gulf waters. The long pier and beach create natural leading lines enhanced by warm light. Early mornings offer misty atmospheric conditions over calm waters, while evenings deliver rich orange and purple tones reflected in bay and Gulf surfaces.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 10,
+        "rainfallMM": 127
+      },
+      {
+        "month": 2,
+        "avgTempC": 11,
+        "rainfallMM": 127
+      },
+      {
+        "month": 3,
+        "avgTempC": 15,
+        "rainfallMM": 127
+      },
+      {
+        "month": 4,
+        "avgTempC": 20,
+        "rainfallMM": 127
+      },
+      {
+        "month": 5,
+        "avgTempC": 25,
+        "rainfallMM": 127
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 178
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 178
+      },
+      {
+        "month": 8,
+        "avgTempC": 28,
+        "rainfallMM": 152
+      },
+      {
+        "month": 9,
+        "avgTempC": 26,
+        "rainfallMM": 152
+      },
+      {
+        "month": 10,
+        "avgTempC": 21,
+        "rainfallMM": 102
+      },
+      {
+        "month": 11,
+        "avgTempC": 16,
+        "rainfallMM": 127
+      },
+      {
+        "month": 12,
+        "avgTempC": 12,
+        "rainfallMM": 127
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "seasonality": "Pensacola experiences mild winters and hot, humid summers with subtropical weather patterns. Hurricane season extends from June through November, with peak activity in September and October.",
+    "summary": "Spring and fall offer ideal conditions with comfortable temperatures, lower humidity, and minimal rainfall. Summer brings intense heat and frequent afternoon thunderstorms, while winter provides cool but generally pleasant weather for outdoor activities."
+  },
+  "hotels": [
+    {
+      "name": "Pensacola Beach Hotel",
+      "neighborhood": "Pensacola Beach",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Beachfront budget hotel with basic amenities, direct beach access, and convenient location near shops and restaurants."
+    },
+    {
+      "name": "The Pensacola Grand Hotel",
+      "neighborhood": "Downtown Historic District",
+      "pricePerNightUSD": 160,
+      "category": "Mid-range",
+      "description": "Historic four-story hotel in downtown Palafox Street district with restored 1912 building, modern amenities, and walkable access to attractions."
+    },
+    {
+      "name": "The Portofino Island Resort",
+      "neighborhood": "Pensacola Beach",
+      "pricePerNightUSD": 350,
+      "category": "Luxury",
+      "description": "All-suite beachfront luxury resort featuring Gulf views, full kitchens, spa services, multiple pools, and upscale amenities."
+    }
+  ]
+}

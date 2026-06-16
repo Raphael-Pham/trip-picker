@@ -1,0 +1,465 @@
+{
+  "id": "missoula-usa",
+  "city": "Missoula",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MSO",
+    "MFR",
+    "SLC"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "adventure",
+    "foodie",
+    "photography",
+    "standard",
+    "hidden-gems",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 85,
+    "activities": 88,
+    "weather": 68
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 65,
+      "maxPerDayUSD": 110
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Missoula Montana mountains river",
+  "summary": "Missoula is a vibrant college town nestled in Montana's Flathead Valley, offering world-class outdoor recreation, a thriving arts and foodie scene, and stunning mountain backdrops. Known for its literary culture, craft breweries, and access to pristine wilderness, this hidden gem delivers adventure and community charm without the crowds of major ski resorts.",
+  "restaurants": [
+    {
+      "name": "The Pearl Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Beloved local breakfast spot known for creative omelets and home-roasted coffee. A Missoula institution with colorful decor and a passionate following.",
+      "mustTry": "Sunrise omelet with local organic ingredients"
+    },
+    {
+      "name": "MacKenzie River Pizza Co.",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Gourmet pizzeria featuring wood-fired ovens and locally-sourced toppings. Excellent craft beer selection and laid-back atmosphere.",
+      "mustTry": "Wild boar sausage and local mushroom pizza"
+    },
+    {
+      "name": "The Shack",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual diner serving classic burgers, sandwiches, and milkshakes with vintage charm. Budget-friendly and popular with locals.",
+      "mustTry": "Montana burger with special sauce"
+    },
+    {
+      "name": "Ima",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale farm-to-table restaurant highlighting Montana's finest seasonal ingredients. Elegant ambiance with expertly crafted dishes.",
+      "mustTry": "Pan-seared Rocky Mountain elk with huckleberry reduction"
+    },
+    {
+      "name": "The Montana Club",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Western-themed steakhouse with generous portions and rustic charm. Known for quality beef and lively atmosphere.",
+      "mustTry": "Montana rib-eye steak"
+    },
+    {
+      "name": "Camino",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Latin American inspired cuisine with creative cocktails and warm hospitality. Vibrant space with seasonal menu changes.",
+      "mustTry": "Ceviche with local white fish"
+    },
+    {
+      "name": "Masala",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Indian cuisine with rich spices and traditional preparation methods. Intimate setting with excellent vegetarian options.",
+      "mustTry": "Butter chicken with house-made naan"
+    },
+    {
+      "name": "Freddy's Feed and Read",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Bookstore cafe combining literature with comfort food and local artwork. Cozy gathering spot with live events.",
+      "mustTry": "Homemade soup with artisan sandwich"
+    },
+    {
+      "name": "Five on Black",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Asian cuisine with creative presentations and premium ingredients. Intimate wine bar atmosphere.",
+      "mustTry": "Miso-marinated halibut"
+    },
+    {
+      "name": "The Top Hat",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic bar and grill since 1916 with Montana character and comfort classics. A true Missoula landmark.",
+      "mustTry": "Prime rib sandwich"
+    },
+    {
+      "name": "Zona Blanca",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican street food with fresh ingredients and authentic flavors. Perfect for quick, affordable meals.",
+      "mustTry": "Carnitas tacos with house-made salsa"
+    },
+    {
+      "name": "Rattlesnake Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Eclectic menu spanning global cuisines with fresh local ingredients. Casual vibe with consistent quality.",
+      "mustTry": "Seasonal vegetable plate with grain medley"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Rafting the Blackfoot River",
+      "category": "Adventure",
+      "description": "Experience Montana's scenic river system with guides offering both gentle float trips and thrilling rapids. The Blackfoot offers stunning canyon views and potential wildlife spotting.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking at Missoula Valley",
+      "category": "Outdoor",
+      "description": "Access numerous trails ranging from easy riverside walks to challenging mountain climbs with panoramic views. Missoula's surrounding peaks offer trails for all skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Missoula Art Museum",
+      "category": "Cultural",
+      "description": "Contemporary art museum featuring rotating exhibits, regional artists, and educational programming. Housed in a historic Carnegie building.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Garrick Lofts Brewery Tour",
+      "category": "Indoor",
+      "description": "Tour Missoula's thriving craft brewery scene with tastings and behind-the-scenes looks. Multiple breweries offer unique Montana-inspired craft beers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Mount Sentinel Climb",
+      "category": "Outdoor",
+      "description": "Popular 1.7-mile ascent offering 360-degree views of Missoula and the Flathead Valley. The trailhead is just minutes from downtown.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "University of Montana Campus Tour",
+      "category": "Cultural",
+      "description": "Explore the historic campus known for its Gothic architecture and literary significance. Free self-guided tours reveal the heart of Missoula's intellectual culture.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Flathead Lake Swimming and Beach",
+      "category": "Outdoor",
+      "description": "Montana's largest freshwater lake offers swimming, paddleboarding, and sandy beaches just 30 minutes from Missoula. Perfect summer recreation destination.",
+      "durationHours": 4,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Downtown Missoula Farmers Market",
+      "category": "Cultural",
+      "description": "Year-round market featuring local produce, crafts, and artisan goods on Saturday mornings. Experience authentic Missoula community culture.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "hidden-gems",
+        "standard"
+      ]
+    },
+    {
+      "name": "Kayaking or Canoeing the Clark Fork River",
+      "category": "Adventure",
+      "description": "Paddle through scenic river corridors with wildlife viewing opportunities and mountain vistas. Suitable for various skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Missoula Theater District Walking Tour",
+      "category": "Cultural",
+      "description": "Discover historic theaters and performing arts venues showcasing Missoula's vibrant entertainment scene. Catch a show at the Wilma or attend a live performance.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Mountain Biking at Blue Mountain Recreation Area",
+      "category": "Adventure",
+      "description": "World-class trail system with varied terrain for all experience levels. Just minutes from downtown with professionally maintained singletracks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunrise Stroll Along the Missoula Riverfront",
+      "category": "Outdoor",
+      "description": "Peaceful walk along the Clark Fork River with bird watching, native plants, and morning light perfect for photography. Free and accessible to all.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Mount Sentinel at Golden Hour",
+        "description": "Iconic peak overlooking Missoula offering sweeping valley views with dramatic lighting during sunrise and sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour - sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Clark Fork River at Missoula",
+        "description": "Scenic river views with native willows, bridges, and reflections creating dynamic composition opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Missoula Historic Architecture",
+        "description": "Mix of Victorian and early 20th-century buildings with character and detail, excellent for street and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for even light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Missoula Farmers Market (Saturdays)",
+        "description": "Vibrant street photography with local vendors, colorful produce, and authentic community interaction.",
+        "difficulty": "Intermediate",
+        "bestTime": "8-11 AM Saturday mornings",
+        "category": "Street"
+      },
+      {
+        "name": "Flathead Lake Sunset",
+        "description": "Montana's largest lake providing expansive water and sky compositions with dramatic color shifts during sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before to after sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "University of Montana Gothic Campus",
+        "description": "Historic architecture with dramatic stone buildings, courtyards, and leafy surroundings creating classic composition.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light on east-facing facades",
+        "category": "Architecture"
+      },
+      {
+        "name": "Rattlesnake Wilderness Trail",
+        "description": "Alpine meadows, mountain peaks, and forest landscapes offering varied terrain for wilderness photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Missoula Brewery District Street Scene",
+        "description": "Industrial-chic buildings, murals, and craft culture creating trendy urban photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon with directional light",
+        "category": "Street"
+      },
+      {
+        "name": "Blue Mountain Ridge Vista",
+        "description": "High elevation viewpoints with layered mountain ranges and vast sky creating dramatic depth.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear mornings after sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Willow Creek in Riverside Park",
+        "description": "Intimate creek setting with reflections, natural vegetation, and soft diffused light ideal for macro and water photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or dappled shade",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Mount Sentinel Summit",
+      "Flathead Lake Eastern Shore",
+      "Blue Mountain Ridge"
+    ],
+    "sunsetSpots": [
+      "Missoula Riverfront Pavilion",
+      "Flathead Lake Western Shore",
+      "Mount Jumbo Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for mountain vistas and expansive landscapes",
+      "50mm prime for street photography and detailed architecture",
+      "70-200mm telephoto for wildlife and distant mountain layering",
+      "24mm macro for detail shots of farmers market and close subjects"
+    ],
+    "goldenHourNotes": "Missoula's mountain location creates extended golden hour periods lasting 45-60 minutes. Mount Sentinel faces east making it ideal for sunrise, while the western peaks and Flathead Lake offer stunning sunset compositions. The valley's elevation and clear air create particularly vibrant color transitions during shoulder seasons.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 33
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": 4,
+        "rainfallMM": 28
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 48
+      },
+      {
+        "month": 5,
+        "avgTempC": 17,
+        "rainfallMM": 84
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 94
+      },
+      {
+        "month": 7,
+        "avgTempC": 26,
+        "rainfallMM": 51
+      },
+      {
+        "month": 8,
+        "avgTempC": 25,
+        "rainfallMM": 51
+      },
+      {
+        "month": 9,
+        "avgTempC": 19,
+        "rainfallMM": 43
+      },
+      {
+        "month": 10,
+        "avgTempC": 12,
+        "rainfallMM": 43
+      },
+      {
+        "month": 11,
+        "avgTempC": 3,
+        "rainfallMM": 46
+      },
+      {
+        "month": 12,
+        "avgTempC": -3,
+        "rainfallMM": 36
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer (June-August) offers warm days and minimal rainfall, perfect for outdoor activities. Winter brings heavy snow and cold temperatures, ideal for winter sports and cozy indoor experiences.",
+    "summary": "Missoula experiences four distinct seasons with cold winters averaging -4°C and warm summers around 25°C. Late spring through early fall provides the best weather for exploration with moderate temperatures and manageable precipitation."
+  },
+  "hotels": [
+    {
+      "name": "Missoula Valley Motel",
+      "neighborhood": "South Missoula",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Clean, comfortable budget motel with basic amenities, free WiFi, and convenient access to downtown attractions."
+    },
+    {
+      "name": "Red Lion Hotel at the Park",
+      "neighborhood": "Downtown Missoula",
+      "pricePerNightUSD": 155,
+      "category": "Mid-range",
+      "description": "Mid-range hotel featuring river views, on-site restaurant, indoor pool, and prime downtown location near shops and restaurants."
+    },
+    {
+      "name": "The Depot Hotel",
+      "neighborhood": "Downtown Missoula",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "Restored historic railroad depot hotel offering luxury accommodations, fine dining, boutique atmosphere, and impeccable service."
+    }
+  ]
+}

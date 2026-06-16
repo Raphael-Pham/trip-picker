@@ -1,0 +1,458 @@
+{
+  "id": "baton-rouge-usa",
+  "city": "Baton Rouge",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BTR",
+    "MSY",
+    "EBG"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "cultural",
+    "photography",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 82,
+    "photography": 75,
+    "activities": 78,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 65,
+      "maxPerDayUSD": 110
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 110,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Baton Rouge Mississippi River",
+  "summary": "Baton Rouge, Louisiana's capital, blends Southern charm with vibrant culture, world-class cuisine, and historic plantations along the mighty Mississippi River. Known for its jazz heritage, Creole food scene, and beautiful antebellum architecture, this river city offers authentic Louisiana experiences without the overwhelming crowds of nearby New Orleans. Perfect for food lovers, history enthusiasts, and those seeking genuine Southern hospitality.",
+  "restaurants": [
+    {
+      "name": "Drago's Seafood Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Famous institution serving chargrilled oysters and fresh Gulf seafood in a casual, lively atmosphere. Their signature chargrilled oyster preparation is legendary throughout Louisiana.",
+      "mustTry": "Chargrilled Oysters"
+    },
+    {
+      "name": "Tsunami Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Japanese cuisine featuring sushi, sashimi, and innovative rolls in an upscale casual setting. Popular for both business dinners and special occasions.",
+      "mustTry": "Rainbow Roll"
+    },
+    {
+      "name": "Maglieaux's Riverfront Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale Cajun dining with stunning Mississippi River views and refined Louisiana cuisine. Excellent for romantic dinners and special celebrations.",
+      "mustTry": "Crawfish Étouffée"
+    },
+    {
+      "name": "Baton Rouge Brewing Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual brewpub offering craft beers, burgers, and pub fare in a relaxed, friendly environment. Great for lunch and casual drinks with locals.",
+      "mustTry": "Louisiana IPA"
+    },
+    {
+      "name": "Acme Oyster House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional oyster bar serving fresh Gulf oysters and Creole seafood classics in an authentic New Orleans-style setting. Standing room only adds to the authentic charm.",
+      "mustTry": "Oyster Po'Boy"
+    },
+    {
+      "name": "The Chimes Restaurant & Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Multi-level restaurant and bar combining Cajun comfort food with American classics in a lively historic building. Famous for burgers, seafood, and craft cocktails.",
+      "mustTry": "Cajun Burger"
+    },
+    {
+      "name": "Restaurant Stella!",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning contemporary French cuisine with locally-sourced Louisiana ingredients in an intimate fine dining atmosphere. Chef-driven menu changes seasonally.",
+      "mustTry": "Duck Confit"
+    },
+    {
+      "name": "Walk-On's Bistreaux and Bar",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual sports bar and restaurant serving Louisiana comfort food, po'boys, and wings at affordable prices. Vibrant atmosphere perfect for watching games.",
+      "mustTry": "Fried Catfish Basket"
+    },
+    {
+      "name": "Cypress Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary Southern fine dining showcasing regional ingredients and innovative cooking techniques in an elegant setting. One of Baton Rouge's most prestigious restaurants.",
+      "mustTry": "Gulf Fish Amandine"
+    },
+    {
+      "name": "Cinghale",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Thai cuisine featuring authentic flavors, fresh ingredients, and flavorful curries and stir-fries. Excellent value for quality Asian cuisine in downtown.",
+      "mustTry": "Tom Yum Goong"
+    },
+    {
+      "name": "Parrain's Seafood Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned seafood restaurant serving fresh Louisiana catches prepared in traditional Cajun and Creole styles. Known for generous portions and authentic recipes.",
+      "mustTry": "Shrimp and Crawfish Gumbo"
+    },
+    {
+      "name": "Mestizo Bistro",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Latin American cuisine blending Caribbean and Central American flavors with fresh ingredients and creative presentations. Great for tapas and margaritas.",
+      "mustTry": "Ceviche Tasting Plate"
+    }
+  ],
+  "activities": [
+    {
+      "name": "LSU Rural Life Museum",
+      "category": "Cultural",
+      "description": "Comprehensive museum showcasing Louisiana's agricultural heritage with historic buildings, artifacts, and exhibits depicting rural life from the 1800s onward. Features authentic slave quarters and plantation structures.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Mississippi River Levee Walk",
+      "category": "Outdoor",
+      "description": "Scenic walking path along the riverfront offering beautiful views of the Mississippi River, historic riverboats, and city skyline. Free and accessible year-round.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Capitol Park Museum",
+      "category": "Cultural",
+      "description": "Interactive museum housed in a historic building exploring Louisiana's political and cultural history through exhibits and multimedia displays. Located adjacent to the stunning State Capitol.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Louisiana State Capitol Building Tour",
+      "category": "Cultural",
+      "description": "Magnificent Art Deco structure with guided tours showcasing beautiful architecture, legislative chambers, and historical significance. Offers panoramic views from the observation deck.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bocage Plantation House",
+      "category": "Cultural",
+      "description": "Historic antebellum plantation featuring a beautifully restored Greek Revival mansion with period furnishings and guided tours explaining Louisiana plantation life. Offers authentic insight into the region's complex history.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Downtown Baton Rouge Art Walk",
+      "category": "Cultural",
+      "description": "Self-guided tour through downtown galleries, murals, and public art installations showcasing local artists and contemporary artwork. Free to explore and very walkable.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Swamp Tours",
+      "category": "Adventure",
+      "description": "Guided boat tours through Louisiana swamps and bayous featuring native wildlife, cypress trees, and authentic swamp ecosystem experiences. Departures available from local marinas.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Bluebonnet Swamp Nature Center",
+      "category": "Outdoor",
+      "description": "Beautiful nature preserve with boardwalk trails through swampland, wildlife viewing areas, and educational exhibits about Louisiana ecosystems. Excellent for bird watching and nature photography.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Live Jazz Evening at Cafes",
+      "category": "Nightlife",
+      "description": "Experience authentic Louisiana jazz at historic clubs and bars featuring local musicians, intimate venues, and classic cocktails. Captures the spirit of Louisiana music culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Explore Mid City Neighborhood",
+      "category": "Cultural",
+      "description": "Historic residential area featuring beautiful Victorian and Craftsman architecture, local shops, cafes, and art galleries. Perfect for leisurely strolling and discovering local character.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "River Center for the Performing Arts",
+      "category": "Cultural",
+      "description": "World-class venue hosting theater productions, concerts, dance performances, and cultural events throughout the year. Check schedule for specific shows during your visit.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Fishing on the Mississippi River",
+      "category": "Adventure",
+      "description": "Charter fishing trips on the Mississippi River for catfish, bass, and other species with experienced guides providing equipment and expertise. Popular for both experienced and novice anglers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Mississippi River Levee at Sunrise",
+        "description": "Golden light reflects off the water creating stunning reflections of riverside buildings and natural scenery.",
+        "difficulty": "Beginner",
+        "bestTime": "5:30-7:00 AM",
+        "category": "Landscape"
+      },
+      {
+        "name": "State Capitol Building",
+        "description": "Magnificent Art Deco architecture with dramatic angles and ornate details perfect for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or late afternoon golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bluebonnet Swamp Boardwalk",
+        "description": "Cypress trees, Spanish moss, and wildlife create atmospheric swamp scenes with natural framing opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Downtown Street Art Murals",
+        "description": "Colorful street murals throughout downtown provide vibrant subject matter for street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days reduce harsh shadows",
+        "category": "Street"
+      },
+      {
+        "name": "Bocage Plantation House Grounds",
+        "description": "Historic Greek Revival mansion with Spanish moss draped oaks creating picturesque Southern scenery.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for soft directional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bridge Over the Mississippi River",
+        "description": "Wide angle shots of the massive bridge structure with river and city skyline create dramatic compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for warm tones and silhouettes",
+        "category": "Landscape"
+      },
+      {
+        "name": "Swamp Tour Wildlife Photography",
+        "description": "Alligators, herons, and other wildlife in natural habitat provide excellent wildlife photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning boat tours",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Mid City Victorian Architecture",
+        "description": "Well-preserved Victorian and Craftsman homes with detailed architecture ideal for residential architectural studies.",
+        "difficulty": "Intermediate",
+        "bestTime": "Side-lit morning or afternoon light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Riverfront at Night",
+        "description": "City lights reflecting off the water create beautiful night photography opportunities with moody atmosphere.",
+        "difficulty": "Advanced",
+        "bestTime": "30 minutes after sunset to 2 hours",
+        "category": "Night"
+      },
+      {
+        "name": "Capitol Park Museum Exterior",
+        "description": "Modern and historic architecture blend with landscaping provides varied compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Mississippi River Levee",
+      "Bluebonnet Swamp Nature Center",
+      "Capitol Park"
+    ],
+    "sunsetSpots": [
+      "Mississippi River Bridge Overlook",
+      "Riverfront Park",
+      "Bocage Plantation Grounds"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for sweeping landscape and architectural shots of the levee and buildings",
+      "50mm prime for street photography and intimate cultural scenes in downtown and neighborhoods",
+      "70-200mm telephoto for wildlife in swamps and detailed architectural elements from distance",
+      "Macro lens for detail work on historic structures and nature photography in swamp environments"
+    ],
+    "goldenHourNotes": "Baton Rouge's humid subtropical climate creates exceptional golden hour light with rich, warm tones reflecting off the Mississippi River. Early morning light at the levee offers soft, diffused illumination perfect for architectural details, while late afternoon provides dramatic shadows on antebellum plantation architecture. Humidity can create atmospheric haze that adds depth and mood to long-distance shots.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 10,
+        "rainfallMM": 140
+      },
+      {
+        "month": 2,
+        "avgTempC": 12,
+        "rainfallMM": 135
+      },
+      {
+        "month": 3,
+        "avgTempC": 17,
+        "rainfallMM": 145
+      },
+      {
+        "month": 4,
+        "avgTempC": 22,
+        "rainfallMM": 155
+      },
+      {
+        "month": 5,
+        "avgTempC": 27,
+        "rainfallMM": 145
+      },
+      {
+        "month": 6,
+        "avgTempC": 30,
+        "rainfallMM": 165
+      },
+      {
+        "month": 7,
+        "avgTempC": 31,
+        "rainfallMM": 160
+      },
+      {
+        "month": 8,
+        "avgTempC": 31,
+        "rainfallMM": 155
+      },
+      {
+        "month": 9,
+        "avgTempC": 28,
+        "rainfallMM": 150
+      },
+      {
+        "month": 10,
+        "avgTempC": 23,
+        "rainfallMM": 95
+      },
+      {
+        "month": 11,
+        "avgTempC": 17,
+        "rainfallMM": 125
+      },
+      {
+        "month": 12,
+        "avgTempC": 12,
+        "rainfallMM": 145
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "seasonality": "Spring (March-April) and Fall (October-November) offer pleasant temperatures, lower humidity, and moderate rainfall, making them ideal for outdoor activities and exploration. Summer brings intense heat and humidity with frequent thunderstorms, while winter is mild but can be rainy.",
+    "summary": "Baton Rouge experiences a humid subtropical climate with hot, humid summers and mild winters. The best time to visit is spring and fall when temperatures are comfortable (17-27°C) and humidity is more manageable, though rainfall occurs year-round."
+  },
+  "hotels": [
+    {
+      "name": "Red Roof Inn Baton Rouge",
+      "neighborhood": "North Baton Rouge",
+      "pricePerNightUSD": 55,
+      "category": "Budget",
+      "description": "Affordable, no-frills hotel with basic amenities, clean rooms, and convenient access to downtown and attractions via short drive."
+    },
+    {
+      "name": "Hilton Baton Rouge Capitol Center",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 145,
+      "category": "Mid-range",
+      "description": "Modern hotel in the heart of downtown featuring comfortable rooms, on-site dining, fitness center, and walking distance to restaurants and cultural attractions."
+    },
+    {
+      "name": "The Stockade Bed & Breakfast",
+      "neighborhood": "Mid City",
+      "pricePerNightUSD": 180,
+      "category": "Luxury",
+      "description": "Charming historic bed and breakfast in a restored Victorian mansion offering personalized service, elegant furnishings, and a peaceful setting near local galleries and shops."
+    }
+  ]
+}

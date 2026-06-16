@@ -1,0 +1,456 @@
+{
+  "id": "aspen-usa",
+  "city": "Aspen",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "ASE",
+    "DEN",
+    "EGE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 15,
+    "food": 92,
+    "photography": 88,
+    "activities": 90,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 700
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 700,
+      "maxPerDayUSD": 2000
+    }
+  ],
+  "unsplashQuery": "Aspen Colorado mountains",
+  "summary": "Aspen is a world-class mountain destination offering exceptional skiing in winter, pristine alpine hiking in summer, and a vibrant cultural scene year-round. Nestled in the Rocky Mountains at 8,000 feet elevation, this upscale resort town combines outdoor adventure with fine dining, art galleries, and luxury accommodations. The surrounding landscape provides stunning photography opportunities and outdoor activities for all skill levels.",
+  "restaurants": [
+    {
+      "name": "Matsuhisa Aspen",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Nobu Matsuhisa's flagship restaurant offering exceptional Japanese-inspired cuisine with Colorado ingredients and mountain views.",
+      "mustTry": "Black cod with miso"
+    },
+    {
+      "name": "Aspen Tap & Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual American fare with craft beers, burgers, and mountain lodge atmosphere in downtown Aspen.",
+      "mustTry": "Colorado beef burger"
+    },
+    {
+      "name": "The Grind",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local café serving excellent coffee, pastries, and breakfast items with a relaxed vibe.",
+      "mustTry": "Specialty latte"
+    },
+    {
+      "name": "Element 47",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Innovative farm-to-table restaurant with an extensive wine collection and contemporary American cuisine.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Woody Creek Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic roadhouse serving hearty Western fare including elk burgers and local craft beers outside of Aspen.",
+      "mustTry": "Elk burger"
+    },
+    {
+      "name": "Cache Cache",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "French cuisine with Colorado influences in an intimate setting, offering seasonal menus and exceptional service.",
+      "mustTry": "Duck confit"
+    },
+    {
+      "name": "Maroon Bells Scenic Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Simple café near famous Maroon Bells offering sandwiches, coffee, and quick lunch options.",
+      "mustTry": "Trail sandwich"
+    },
+    {
+      "name": "Piñons Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Cozy fine dining spot with southwestern influences, featuring creative preparations and an intimate wine bar.",
+      "mustTry": "Colorado lamb"
+    },
+    {
+      "name": "The Steak Pit",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Upscale steakhouse serving premium cuts, seafood, and classic American dishes with mountain views.",
+      "mustTry": "Prime ribeye"
+    },
+    {
+      "name": "Plato's Diner",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Classic American diner with breakfast all day, comfort food, and reasonable prices in downtown Aspen.",
+      "mustTry": "Pancakes with local honey"
+    },
+    {
+      "name": "Silvani",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Italian fine dining with handmade pasta, imported ingredients, and an extensive wine collection from Italy.",
+      "mustTry": "Pappardelle with wild boar"
+    },
+    {
+      "name": "Jimmy's Food Store",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Gourmet market and deli offering prepared foods, local products, and specialty items for hiking and picnics.",
+      "mustTry": "House-made pasta salad"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing at Aspen Mountain",
+      "category": "Adventure",
+      "description": "World-renowned ski resort with 76 trails across multiple peaks, serving all skill levels with excellent snow conditions and modern lifts.",
+      "durationHours": 8,
+      "estimatedCostUSD": 185,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Hiking Maroon Bells Loop",
+      "category": "Outdoor",
+      "description": "Iconic 3.4-mile loop hike around Colorado's most photographed mountains with stunning wildflower meadows and pristine alpine lakes.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rafting on Roaring Fork River",
+      "category": "Adventure",
+      "description": "Thrilling white-water rafting experience through scenic canyons with varying difficulty levels for all experience levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Aspen Music Festival",
+      "category": "Cultural",
+      "description": "World-class summer music festival featuring classical, jazz, and contemporary performances in historic venues and outdoor pavilions.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Mountain Biking on Trail 7",
+      "category": "Adventure",
+      "description": "Popular intermediate mountain biking trail offering panoramic views of the valley and technical terrain through aspen groves.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Fly Fishing in Local Streams",
+      "category": "Outdoor",
+      "description": "World-class fly fishing in pristine mountain streams with experienced guides and scenic alpine landscapes throughout the region.",
+      "durationHours": 5,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Aspen Art Museum",
+      "category": "Cultural",
+      "description": "Contemporary art museum housed in a historic building with rotating exhibitions, sculptures, and cultural programming.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Scenic Chairlift Rides",
+      "category": "Outdoor",
+      "description": "Summer chairlift rides to mountain summits offering breathtaking views of the surrounding peaks and valleys without hiking.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Horseback Riding in Maroon Bells",
+      "category": "Outdoor",
+      "description": "Guided horseback riding tours through scenic mountain terrain with stunning views of Maroon Bells and surrounding valleys.",
+      "durationHours": 3,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Downtown Aspen Shopping & Galleries",
+      "category": "Indoor",
+      "description": "Browse upscale boutiques, world-class art galleries, and specialty shops throughout charming downtown streets lined with galleries.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Snowshoeing through Winter Meadows",
+      "category": "Outdoor",
+      "description": "Peaceful winter exploration of snow-covered meadows and forest trails accessible to all fitness levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Aspen Hot Springs & Pools",
+      "category": "Relaxation",
+      "description": "Public geothermal hot springs and pools offering relaxation and therapeutic soaking with views of surrounding mountains.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Maroon Bells",
+        "description": "Colorado's most iconic twin peaks reflected in Maroon Lake, offering stunning mirror images at sunrise and sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or sunset for reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Crater Lake Trail",
+        "description": "Scenic alpine lake surrounded by peaks with excellent reflections and wildflower meadows in summer.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light and golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Snowmass Creek",
+        "description": "Fast-flowing alpine stream with cascading water surrounded by aspen trees and mountain peaks.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Aspen Downtown Historic Buildings",
+        "description": "Victorian architecture and charming storefronts in downtown Aspen with interesting shadows and details.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for architectural detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cathedral Lake",
+        "description": "High alpine lake with Cathedral Peak reflected in pristine waters surrounded by permanent snowfields.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for mirror reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Aspen Grove Autumn Colors",
+        "description": "Golden aspen trees creating stunning landscape photography with mountains in the background during fall season.",
+        "difficulty": "Beginner",
+        "bestTime": "September-October during peak color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Red Mountain Pass",
+        "description": "Dramatic mountain passes with steep rock faces, winding roads, and panoramic valley views from high elevations.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for saturated colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Independence Pass Scenic Area",
+        "description": "High mountain pass with stunning tundra wildflowers, dramatic peaks, and sweeping alpine vistas.",
+        "difficulty": "Intermediate",
+        "bestTime": "July-August for wildflowers, golden hour for peaks",
+        "category": "Landscape"
+      },
+      {
+        "name": "Conundrum Creek Valley",
+        "description": "Wide alpine valley with crystal-clear streams, wildflower meadows, and dramatic mountain backdrops.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour light on valley floor",
+        "category": "Landscape"
+      },
+      {
+        "name": "Aspen Mountain Aerial Tram",
+        "description": "Elevated perspective of the Roaring Fork Valley with panoramic mountain views and dramatic lighting conditions.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for atmospheric light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Maroon Bells Lake",
+      "Cathedral Lake",
+      "Aspen Mountain Summit"
+    ],
+    "sunsetSpots": [
+      "Crater Lake",
+      "Independence Pass",
+      "Conundrum Valley"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for dramatic landscape vistas and peaks",
+      "70-200mm telephoto for compressed mountain layers and wildlife",
+      "50mm prime for intimate details and architectural elements",
+      "24-70mm standard zoom for versatility across varied terrain"
+    ],
+    "goldenHourNotes": "Aspen's high elevation and clear mountain air create exceptional golden hour light lasting 45-60 minutes. The aspen trees glow brilliantly during fall season, while summer wildflowers are illuminated beautifully in early morning and evening light. Position yourself facing mountains during sunrise for backlighting and lens flare opportunities.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -5,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -3,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": 0,
+        "rainfallMM": 35
+      },
+      {
+        "month": 4,
+        "avgTempC": 5,
+        "rainfallMM": 50
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 65
+      },
+      {
+        "month": 6,
+        "avgTempC": 18,
+        "rainfallMM": 70
+      },
+      {
+        "month": 7,
+        "avgTempC": 21,
+        "rainfallMM": 95
+      },
+      {
+        "month": 8,
+        "avgTempC": 20,
+        "rainfallMM": 90
+      },
+      {
+        "month": 9,
+        "avgTempC": 16,
+        "rainfallMM": 60
+      },
+      {
+        "month": 10,
+        "avgTempC": 9,
+        "rainfallMM": 45
+      },
+      {
+        "month": 11,
+        "avgTempC": 2,
+        "rainfallMM": 40
+      },
+      {
+        "month": 12,
+        "avgTempC": -4,
+        "rainfallMM": 30
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      12,
+      1
+    ],
+    "seasonality": "Aspen has two distinct tourist seasons: winter (December-March) for world-class skiing with consistent snow, and summer (June-September) for hiking, outdoor activities, and cultural events. Autumn (September-October) brings stunning aspen foliage and mild temperatures, making it ideal for photography and outdoor exploration.",
+    "summary": "Aspen experiences continental mountain climate with cold, snowy winters and mild summers with afternoon thunderstorms. The high elevation (8,000 feet) means temperatures are significantly cooler than lower elevations, with abundant sunshine and low humidity throughout the year."
+  },
+  "hotels": [
+    {
+      "name": "Limelite Lodge",
+      "neighborhood": "Downtown Aspen",
+      "pricePerNightUSD": 180,
+      "category": "Budget",
+      "description": "Cozy boutique lodge within walking distance of shops and restaurants with comfortable rooms and friendly service."
+    },
+    {
+      "name": "The Saint Regis Aspen",
+      "neighborhood": "Downtown Aspen",
+      "pricePerNightUSD": 650,
+      "category": "Mid-range",
+      "description": "Upscale hotel with modern amenities, spa services, and proximity to dining and cultural attractions."
+    },
+    {
+      "name": "The Little Nell",
+      "neighborhood": "Downtown Aspen",
+      "pricePerNightUSD": 1200,
+      "category": "Luxury",
+      "description": "Five-star luxury resort directly on Aspen Mountain with world-class spa, fine dining, and concierge services."
+    }
+  ]
+}

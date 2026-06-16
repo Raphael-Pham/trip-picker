@@ -14,14 +14,13 @@
     "hidden-gems",
     "photography",
     "foodie",
-    "cultural",
-    "nightlife"
+    "adventure"
   ],
   "scores": {
     "cost": 72,
     "food": 85,
     "photography": 92,
-    "activities": 90,
+    "activities": 95,
     "weather": 65
   },
   "budgetRanges": [
@@ -41,157 +40,179 @@
       "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Berlin Brandenburg Gate sunset",
-  "summary": "Berlin is a vibrant capital city where history collides with cutting-edge modernity, featuring world-class museums, iconic landmarks, and a thriving creative scene. From the Brandenburg Gate to the Berlin Wall remnants, the city offers unparalleled photography opportunities and authentic German cuisine in a budget-friendly destination. The city's diverse neighborhoods, nightlife, and cultural institutions make it essential for any European traveler.",
+  "unsplashQuery": "Berlin Brandenburg Gate",
+  "summary": "Berlin is a dynamic European capital where history, art, and contemporary culture collide at every corner, offering visitors iconic landmarks, world-class museums, thriving food scenes, and vibrant neighborhoods. From Cold War remnants to cutting-edge street art, excellent nightlife, and affordable prices, the city delivers an unforgettable blend of past and present. With exceptional photography opportunities and a creative spirit, Berlin is ideal for travelers seeking depth, authenticity, and urban exploration.",
   "restaurants": [
     {
       "name": "Curry 36",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Berlin's most famous currywurst stand serving authentic German street food with a legendary spicy kick. A must-visit institution near Mehringdamm U-Bahn that attracts locals and tourists alike.",
-      "mustTry": "Currywurst with fries"
+      "description": "Berlin's most famous currywurst stand serves the city's beloved national fast food with crispy fried sausage and tangy sauce. A quintessential street food experience that locals queue for daily.",
+      "mustTry": "Currywurst with fries and mayo"
+    },
+    {
+      "name": "Tim Raue",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant offering innovative Asian-inspired cuisine in an intimate, sophisticated setting. Chef Tim Raue's creative approach to seasonal ingredients creates unforgettable dining experiences.",
+      "mustTry": "Signature tasting menu with wine pairings"
     },
     {
       "name": "Markthalle Neun",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Street food market in Friedrichshain featuring international cuisines and local vendors every Thursday night. Perfect for sampling diverse flavors at affordable prices in a lively atmosphere.",
-      "mustTry": "Street food variety from multiple vendors"
-    },
-    {
-      "name": "Restaurants am Wasser",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Riverside dining establishment along the Spree River offering fresh seafood and contemporary German cuisine. Scenic waterfront location ideal for sunset dining with city views.",
-      "mustTry": "Fresh fish of the day"
+      "description": "Historic market hall hosting Thursday Street Food Market with international vendors and craft beers, perfect for casual dining and people-watching. Daily fresh produce and prepared foods available.",
+      "mustTry": "Thai Street Food or Vietnamese banh mi"
     },
     {
-      "name": "Horváth",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Michelin-starred restaurant in Kreuzberg specializing in refined Austrian-German fusion cuisine. An exceptional culinary experience showcasing seasonal ingredients and innovative techniques.",
-      "mustTry": "Chef's tasting menu"
-    },
-    {
-      "name": "Prater Garten",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Berlin's oldest beer garden established in 1837, serving traditional Bavarian food and local beers in a charming outdoor setting. A quintessential Berlin experience with authentic pub atmosphere.",
-      "mustTry": "Pork knuckle with beer"
-    },
-    {
-      "name": "Brenner",
+      "name": "Katz Orange",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Mediterranean restaurant in Mitte featuring wood-fired pizzas and fresh Italian-inspired dishes. Popular with locals for its warm ambiance and quality ingredients.",
-      "mustTry": "Wood-fired pizza"
-    },
-    {
-      "name": "Cookies Cream",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Hidden rooftop dessert restaurant accessible only through a clothing boutique, offering creative sweet dishes and cocktails. A unique dining concept perfect for special occasions.",
-      "mustTry": "Creative dessert tasting"
+      "description": "Farm-to-table restaurant in Mitte featuring seasonal German and European cuisine in a rustic-modern setting. Known for charcuterie, cheese, and wood-fired preparation methods.",
+      "mustTry": "Whole roasted chicken with seasonal vegetables"
     },
     {
       "name": "Burgermeister",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Legendary burger stand in Kreuzberg run from a tiny kiosk window since 1949, serving perfectly crafted burgers to locals. The birthplace of the Berlin burger scene.",
-      "mustTry": "Classic Burgermeister burger"
+      "description": "Tiny burger shop beneath a bridge in Kreuzberg serving authentic gourmet burgers made with quality beef and fresh ingredients. Seating on bridge stairs only, true Berlin street food culture.",
+      "mustTry": "The Volker burger with house-made sauces"
     },
     {
-      "name": "Barn Milk Bar",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Specialty coffee roastery and milk bar in Mitte serving premium single-origin espresso and creative milk drinks. A hipster haven perfect for morning coffee before sightseeing.",
-      "mustTry": "Specialty latte"
-    },
-    {
-      "name": "Noma Table",
+      "name": "Horváth",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Contemporary Nordic cuisine restaurant featuring seasonal tasting menus in an intimate minimalist setting. One of Berlin's most acclaimed fine dining establishments.",
-      "mustTry": "Multi-course tasting menu"
+      "description": "One-Michelin-star establishment specializing in modern Central European cuisine with seasonal focus and impeccable technique. Intimate 40-seat dining room with exceptional service.",
+      "mustTry": "Chef's seven-course tasting menu"
     },
     {
-      "name": "Café Nova",
+      "name": "Cookies Cream",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Cozy breakfast and brunch spot in Charlottenburg serving organic ingredients and homemade pastries. A favorite local hangout for leisurely weekend mornings.",
-      "mustTry": "Berlin breakfast platter"
+      "description": "Hidden vegetarian restaurant accessed through a cookie shop facade, offering creative plant-based cuisine in a chic industrial space. Innovative dishes that appeal to omnivores and vegetarians alike.",
+      "mustTry": "Seasonal vegetable tasting menu"
     },
     {
-      "name": "Verpflegt",
+      "name": "Zur Gerichtslaube",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Traditional German beer hall and restaurant near Gendarmenmarkt serving authentic Berlin and Bavarian specialties in historic beer hall atmosphere. Perfect for experiencing local culture and hearty cuisine.",
+      "mustTry": "Schnitzel with sauerkraut and potatoes"
+    },
+    {
+      "name": "Tulus Lotrek",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Modern restaurant combining European and international influences with artistic presentation and impeccable technique. Known for surprising flavor combinations and wine pairings.",
+      "mustTry": "Market-driven tasting menu with wine selections"
+    },
+    {
+      "name": "Vietnam Imbiss",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Sustainable fast-casual restaurant offering vegetarian and vegan options with fresh, locally-sourced ingredients. Eco-friendly dining perfect for conscious travelers.",
-      "mustTry": "Buddha bowl"
+      "description": "Casual Vietnamese stand in Prenzlauer Berg offering authentic street food including pho, banh mi, and spring rolls at unbeatable prices. Tiny seating area with local crowds.",
+      "mustTry": "Pho with beef and fresh herb accompaniments"
+    },
+    {
+      "name": "Barros",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Spanish tapas restaurant in Kreuzberg featuring traditional small plates, jamón ibérico, and excellent Spanish wines. Warm atmosphere perfect for sharing and casual dining.",
+      "mustTry": "Jamón ibérico with pan con tomate"
+    },
+    {
+      "name": "Roxy",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic bar and café in Friedrichshain operating since 1920s, serving Berlin breakfast, light meals, and coffee in bohemian atmosphere. Popular with artists and locals.",
+      "mustTry": "Berlin breakfast platter with bread, cheese, and cold cuts"
     }
   ],
   "activities": [
     {
-      "name": "Brandenburg Gate & Reichstag",
+      "name": "Brandenburg Gate and Reichstag Dome",
       "category": "Cultural",
-      "description": "Berlin's most iconic landmark offering free viewing from outside and a ticketed dome visit with panoramic city views. The historic gate represents reunification and German history.",
+      "description": "Visit Berlin's most iconic landmark and climb the Reichstag's glass dome for 360-degree city views. The Brandenburg Gate represents the city's reunification symbol and German history.",
       "durationHours": 2,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Berlin Wall & East Side Gallery",
-      "category": "Cultural",
-      "description": "Explore remaining segments of the historic Berlin Wall, including the colorful East Side Gallery mural exhibition. A powerful open-air museum spanning 1.3 km of preserved wall.",
-      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Museum Island UNESCO Complex",
-      "category": "Cultural",
-      "description": "Five world-class museums including the Pergamon Museum on a single island in Mitte. Collections span ancient civilizations to classical antiquities with comprehensive cultural exhibits.",
-      "durationHours": 6,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Tiergarten Park Cycling",
-      "category": "Outdoor",
-      "description": "Berlin's largest urban park offering scenic cycling routes, walking paths, and lakeside recreation. Perfect for experiencing nature within the city with bike rental readily available.",
-      "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "adventure",
         "photography"
       ]
     },
     {
-      "name": "Street Art Tours in Kreuzberg & RAW Gelände",
+      "name": "East Side Gallery",
       "category": "Cultural",
-      "description": "Guided exploration of Berlin's vibrant street art scene and alternative culture in bohemian neighborhoods. Visit legal graffiti walls, galleries, and creative community spaces.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "description": "Walk the longest remaining section of the Berlin Wall, now an open-air gallery featuring murals and street art from international artists. A powerful historical and artistic experience.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
       "bestFor": [
+        "standard",
         "hidden-gems",
-        "photography",
-        "cultural"
+        "photography"
       ]
     },
     {
-      "name": "Checkpoint Charlie & Jewish Memorial",
+      "name": "Museum Island (Museumsinsel)",
       "category": "Cultural",
-      "description": "Historic Cold War crossing point now a popular tourist attraction with informative exhibits and recreated guards. Adjacent to the powerful Holocaust Memorial spanning 4,700 concrete slabs.",
+      "description": "UNESCO World Heritage site containing five world-class museums including the Pergamon Museum, Egyptian Museum, and Neues Museum. Day passes provide access to multiple collections spanning ancient to modern art.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Street Art Walking Tour - Kreuzberg and Friedrichshain",
+      "category": "Outdoor",
+      "description": "Explore Berlin's dynamic street art scene guided through legendary neighborhoods with constantly evolving murals, graffiti, and installations. Learn the stories behind pieces and the city's creative culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Tiergarten Picnic and Cycling",
+      "category": "Outdoor",
+      "description": "Rent bikes and explore Berlin's massive urban park, picnicking by the Spree River or at scenic meadows. 2,500 acres of green space perfect for relaxation and light exercise.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Spree River Cruise",
+      "category": "Outdoor",
+      "description": "Boat tour along the Spree showing historical sites, government buildings, museums, and neighborhoods from water perspective. Peaceful way to see major attractions while learning city history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Nightlife - Club Culture",
+      "category": "Nightlife",
+      "description": "Experience world-famous Berlin electronic music scene at clubs like Berghain, Watergate, or Tresor with cutting-edge sound systems. Late-night techno and house culture defines Berlin's vibrant nightlife.",
+      "durationHours": 6,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "surprise",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Checkpoint Charlie and Cold War Sites",
+      "category": "Cultural",
+      "description": "Visit the famous Cold War crossing point between East and West Berlin, now a museum with artifacts and documentation. Walk adjacent streets marked with Berlin Wall remnants and historical markers.",
       "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
@@ -200,226 +221,204 @@
       ]
     },
     {
-      "name": "Technik Museum Berlin",
-      "category": "Indoor",
-      "description": "Interactive technology museum showcasing aircraft, locomotives, and vintage computers in historic hangars. One of Germany's largest museums with hands-on exhibits for all ages.",
-      "durationHours": 4,
-      "estimatedCostUSD": 18,
+      "name": "Prenzlauer Berg Neighborhood Exploration",
+      "category": "Outdoor",
+      "description": "Wander charming streets with boutique shops, galleries, cafés, and restaurants in historically working-class neighborhood now known for creative energy. Perfect for casual browsing and discovering local spots.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
       "bestFor": [
-        "standard",
-        "family"
+        "hidden-gems",
+        "foodie",
+        "photography"
       ]
     },
     {
-      "name": "Spree River Boat Tour",
-      "category": "Outdoor",
-      "description": "Scenic boat cruise through Berlin's waterways passing major landmarks, bridges, and neighborhoods. Relaxing perspective of the city from the water with informative narration.",
-      "durationHours": 2,
-      "estimatedCostUSD": 16,
+      "name": "Memorial to the Murdered Jews of Europe",
+      "category": "Cultural",
+      "description": "Solemn and powerful permanent installation consisting of 2,711 concrete stelae creating a disorienting maze. Underground information center provides historical context and personal stories.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography"
       ]
     },
     {
-      "name": "Nightlife in Berghain & Tresor Clubs",
-      "category": "Nightlife",
-      "description": "Experience Berlin's world-famous electronic music scene in legendary techno clubs and underground venues. The city is a global hub for house and techno with weekend parties starting after midnight.",
-      "durationHours": 6,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Alternative Tour with Locals",
+      "name": "Charlottenburg Palace and Gardens",
       "category": "Cultural",
-      "description": "Grassroots walking tour led by local residents exploring hidden neighborhoods and lesser-known sites. Authentic perspectives on Berlin culture, history, and contemporary life.",
-      "durationHours": 3,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "hidden-gems",
-        "cultural",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Charlottenburg Palace & Gardens",
-      "category": "Cultural",
-      "description": "Magnificent Baroque palace and royal gardens in western Berlin showcasing Prussian history and architecture. The largest palace in Berlin with furnished rooms and expansive grounds.",
+      "description": "Largest palace in Berlin featuring baroque architecture, royal rooms, and extensive gardens. Former summer residence of Prussian kings with museums and exhibitions.",
       "durationHours": 3,
       "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "relaxation"
       ]
     },
     {
-      "name": "Neukölln Street Food & Markets",
+      "name": "Street Food and Craft Beer Festival Experience",
       "category": "Foodie",
-      "description": "Explore multicultural neighborhood known for diverse immigrant communities and authentic international cuisine. Street markets, vintage shops, and vibrant street art create unique Berlin experience.",
-      "durationHours": 4,
+      "description": "Visit Markthalle Neun Thursday Street Food Market or seasonal food festivals featuring international cuisines, craft beers, and local artisans. Casual, vibrant atmosphere celebrating Berlin's food culture.",
+      "durationHours": 2,
       "estimatedCostUSD": 30,
       "bestFor": [
         "foodie",
-        "hidden-gems",
-        "photography"
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Brandenburg Gate",
-        "description": "Berlin's most iconic monument offering stunning architectural compositions and historical significance for classic travel photography.",
+        "name": "Brandenburg Gate at Blue Hour",
+        "description": "Iconic neoclassical monument photographed during twilight when building lights create dramatic contrast against dusky sky.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning light at dawn or golden hour before sunset",
+        "bestTime": "30 minutes before sunset to 30 minutes after",
         "category": "Architecture"
       },
       {
-        "name": "East Side Gallery",
-        "description": "Colorful 1.3 km preserved Berlin Wall with vibrant murals creating perfect street art and cultural photography opportunities.",
+        "name": "East Side Gallery Street Art",
+        "description": "UNESCO-protected wall section featuring vibrant murals and ever-changing street art perfect for colorful compositions and cultural documentation.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light for color saturation, late afternoon for long shadows",
+        "bestTime": "Early morning or late afternoon light for texture and color saturation",
         "category": "Street"
       },
       {
-        "name": "Oberbaum Bridge",
-        "description": "Iconic red brick bridge spanning the Spree River with dramatic double towers creating striking architectural photographs.",
+        "name": "Reichstag Glass Dome Interior",
+        "description": "Modern glass dome interior with concentric circles creating geometric patterns enhanced by natural light pouring through transparent panels.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm reflection in water, night for city lights",
+        "bestTime": "Midday when light passes straight through dome",
         "category": "Architecture"
       },
       {
-        "name": "Museum Island",
-        "description": "UNESCO complex of five historic museums with elegant facades and symmetrical compositions reflected in surrounding waterways.",
+        "name": "Spree River at Night",
+        "description": "Government district and bridge reflections in water create symmetrical compositions with city lights illuminating historic buildings and modern structures.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning light for architectural details, overcast days for even exposure",
-        "category": "Architecture"
-      },
-      {
-        "name": "Tiergarten Park",
-        "description": "Large urban park offering natural landscapes, lake reflections, and seasonal scenery with minimal urban background.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm landscape lighting, spring for cherry blossoms",
-        "category": "Landscape"
-      },
-      {
-        "name": "Kreuzberg Street Art Walls",
-        "description": "Vibrant street art and graffiti in bohemian neighborhood offering colorful contemporary urban photography subjects.",
-        "difficulty": "Beginner",
-        "bestTime": "Bright overcast conditions for color without harsh shadows",
-        "category": "Street"
-      },
-      {
-        "name": "Charlottenburg Palace",
-        "description": "Baroque palace with grand architecture and formal gardens creating elegant composition opportunities in western Berlin.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light for palace facade, golden hour for garden walks",
-        "category": "Architecture"
-      },
-      {
-        "name": "Spree River Waterfront",
-        "description": "Scenic riverbanks with modern buildings, boat traffic, and reflections offering urban landscape and street photography potential.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening for city lights reflection, morning for dramatic skies",
+        "bestTime": "One hour after sunset with city lights fully activated",
         "category": "Night"
       },
       {
-        "name": "Marienkirche Church Tower",
-        "description": "Historic church offering panoramic city views from observation deck providing sweeping cityscape and landscape photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Sunrise or sunset for dramatic sky colors and city silhouettes",
+        "name": "Kreuzberg Street Art Alleyways",
+        "description": "Constantly evolving street art district with dense murals creating colorful, layered compositions ideal for urban photography and cultural documentation.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds for clean light on walls",
+        "category": "Street"
+      },
+      {
+        "name": "Charlottenburg Palace Baroque Gardens",
+        "description": "Formal gardens with geometric patterns, fountains, and palace backdrop creating elegant compositions with strong architectural elements.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour when warm light enhances garden features and palace details",
         "category": "Landscape"
       },
       {
-        "name": "Soviet War Memorial",
-        "description": "Massive monument in Treptow Park with dramatic statuary and surrounding landscapes creating powerful historical and architectural photography.",
+        "name": "Memorial to the Murdered Jews - Stelae Field",
+        "description": "Abstract concrete slab installation creating geometric patterns and optical illusions that shift perspective as you move through the field.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon for dramatic shadows between stelae",
+        "category": "Architecture"
+      },
+      {
+        "name": "Friedrichshain Former Power Plant",
+        "description": "Industrial landmark with striking architecture featuring red brick, geometric shapes, and dramatic angles ideal for bold architectural compositions.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm stone tones, overcast for detail emphasis",
+        "bestTime": "Golden hour when warm light emphasizes brick texture and architectural details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Tiergarten Tree-Lined Paths",
+        "description": "Tree-canopied pathways throughout sprawling park create natural tunnel effects with dappled light and leading lines toward water features and monuments.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning when mist may linger and light filters through leaves",
+        "category": "Landscape"
+      },
+      {
+        "name": "Oberbaumbrücke Red Brick Bridge",
+        "description": "Double-tower red brick industrial bridge spanning the Spree featuring striking Victorian architecture and reflecting beautifully in water below.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon when warm side lighting creates dimension on brick facade and water reflections",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Marienkirche Tower observation deck",
-      "Tiergarten Park eastern edge",
-      "Museum Island waterfront"
+      "Tiergarten meadows overlooking Victory Column",
+      "Treptower Park Soviet War Memorial",
+      "Rummelsburger Bucht lakeside area"
     ],
     "sunsetSpots": [
-      "Oberbaum Bridge",
+      "Spree River West from Treptower Park",
       "Charlottenburg Palace gardens",
-      "Spree River at Friedrichshain waterfront"
+      "Kreuzberg rooftops in RAW gelande"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for architectural expansive shots of monuments and palaces",
-      "50mm prime for street photography and detail work in neighborhood exploration",
-      "70-200mm telephoto for compressed urban landscapes and bridge compositions",
-      "14mm ultra-wide for dramatic perspectives of Brandenburg Gate and interior museum spaces"
+      "16-35mm wide angle for architectural landmarks and street scenes capturing urban context",
+      "50mm prime for intimate street portraits and shallow depth-of-field urban details",
+      "24-70mm versatile zoom for flexibility exploring diverse neighborhoods and compositions",
+      "70-200mm telephoto for compressed compositions of monuments and distant architectural details"
     ],
-    "goldenHourNotes": "Berlin's golden hour lasts approximately 45-60 minutes depending on season, with extended opportunities in summer months. Late evening light beautifully illuminates red brick structures like Oberbaum Bridge and East Side Gallery murals. Position yourself along the Spree River or in Tiergarten to capture warm reflections during sunset, taking advantage of water surfaces for doubled compositional impact.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Berlin's northern latitude (52°N) creates extended golden hours during spring and summer, with sunset not arriving until 9+ PM in June. Winter golden hours are brief but intensely warm on pale buildings and monuments. Spree River and government district offer best reflections during golden hour, while street art districts benefit from directional side-lighting that emphasizes texture and color saturation.",
+    "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -1,
+        "avgTempC": 1,
         "rainfallMM": 45
       },
       {
         "month": 2,
-        "avgTempC": 0,
+        "avgTempC": 3,
         "rainfallMM": 38
       },
       {
         "month": 3,
-        "avgTempC": 5,
-        "rainfallMM": 43
+        "avgTempC": 8,
+        "rainfallMM": 40
       },
       {
         "month": 4,
-        "avgTempC": 11,
-        "rainfallMM": 45
+        "avgTempC": 13,
+        "rainfallMM": 48
       },
       {
         "month": 5,
-        "avgTempC": 17,
+        "avgTempC": 19,
         "rainfallMM": 60
       },
       {
         "month": 6,
-        "avgTempC": 20,
+        "avgTempC": 22,
         "rainfallMM": 70
       },
       {
         "month": 7,
-        "avgTempC": 22,
-        "rainfallMM": 66
+        "avgTempC": 24,
+        "rainfallMM": 68
       },
       {
         "month": 8,
-        "avgTempC": 21,
-        "rainfallMM": 61
+        "avgTempC": 23,
+        "rainfallMM": 58
       },
       {
         "month": 9,
-        "avgTempC": 17,
-        "rainfallMM": 50
+        "avgTempC": 19,
+        "rainfallMM": 52
       },
       {
         "month": 10,
-        "avgTempC": 11,
-        "rainfallMM": 48
+        "avgTempC": 13,
+        "rainfallMM": 42
       },
       {
         "month": 11,
-        "avgTempC": 6,
+        "avgTempC": 8,
         "rainfallMM": 55
       },
       {
         "month": 12,
-        "avgTempC": 1,
+        "avgTempC": 3,
         "rainfallMM": 50
       }
     ],
@@ -430,31 +429,31 @@
       8,
       9
     ],
-    "seasonality": "Berlin experiences four distinct seasons with mild summers (20-22°C) and cold winters (below freezing). Late spring through early autumn offers the best weather for outdoor activities and sightseeing with comfortable temperatures and longer daylight hours.",
-    "summary": "Berlin's continental climate features cool winters with occasional snow and moderate rainfall year-round. Spring and summer provide ideal conditions for exploring the city's many outdoor attractions, while winter offers festive markets and fewer crowds at major sites."
+    "seasonality": "Berlin experiences four distinct seasons with warm summers (June-August) and cold winters (December-February). Spring (April-May) and fall (September-October) offer pleasant temperatures ideal for walking and outdoor activities, though rainfall is common year-round.",
+    "summary": "Berlin's continental climate means cool to cold winters with occasional snow and warm summers with moderate rainfall throughout the year. The best time to visit is late May through September when temperatures are comfortable and daylight hours are extended, ideal for exploring outdoor attractions and neighborhoods."
   },
   "hotels": [
     {
-      "name": "ClinkNOORD",
-      "neighborhood": "North Berlin (Across Spree from Mitte)",
-      "pricePerNightUSD": 35,
+      "name": "Urban Spree Boutique",
+      "neighborhood": "Friedrichshain",
+      "pricePerNightUSD": 65,
       "category": "Budget",
-      "description": "Hostel offering private rooms and dorms in converted factory with rooftop bar and free ferry across Spree River."
+      "description": "Contemporary budget hotel in artistic Friedrichshain neighborhood with clean modern rooms, friendly staff, and proximity to street art, bars, and creative venues."
     },
     {
-      "name": "Hotel Concorde",
+      "name": "Mandala Hotel",
       "neighborhood": "Mitte",
-      "pricePerNightUSD": 115,
+      "pricePerNightUSD": 145,
       "category": "Mid-range",
-      "description": "Charming boutique hotel in central Mitte near Brandenburg Gate with modern rooms and friendly service in a historic building."
+      "description": "Stylish mid-range hotel in central Mitte featuring modern rooms, spa facilities, on-site restaurant, and excellent location near Brandenburg Gate, Museum Island, and shopping."
     },
     {
       "name": "Hotel de Rome",
       "neighborhood": "Mitte",
-      "pricePerNightUSD": 320,
+      "pricePerNightUSD": 380,
       "category": "Luxury",
-      "description": "Five-star luxury hotel in historic bank building featuring rooftop pool with Brandenburg Gate views and Michelin-starred restaurant."
+      "description": "Five-star luxury palace hotel in historic Mitte building offering sumptuous rooms, Michelin-starred restaurant, spa with pool, and impeccable service steps from major cultural landmarks."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCZXJsaW4lMjBCcmFuZGVuYnVyZyUyMEdhdGUlMjBzdW5zZXR8ZW58MXwwfHx8MTc4MTU2MjI2MXww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCZXJsaW4lMjBCcmFuZGVuYnVyZyUyMEdhdGV8ZW58MXwwfHx8MTc4MTYyOTMxNXww&ixlib=rb-4.1.0&q=80&w=1080"
 }

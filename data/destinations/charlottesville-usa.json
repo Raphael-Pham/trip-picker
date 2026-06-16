@@ -1,0 +1,463 @@
+{
+  "id": "charlottesville-usa",
+  "city": "Charlottesville",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "CHO",
+    "RIC",
+    "IAD"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 78,
+    "photography": 82,
+    "activities": 80,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 135
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 160,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Charlottesville vineyard mountains",
+  "summary": "Charlottesville offers a perfect blend of American history, world-class wine country, and stunning Blue Ridge Mountain scenery. Home to Thomas Jefferson's Monticello and the University of Virginia, this charming city combines cultural attractions with outdoor adventures and acclaimed local dining. The surrounding wine region and picturesque landscapes make it an ideal destination for history buffs, foodies, and nature lovers alike.",
+  "restaurants": [
+    {
+      "name": "Chap's Pit Bar",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic barbecue joint famous for slow-smoked meats and traditional Carolina-style sides. A local institution since 1981 with rustic charm and consistently excellent quality.",
+      "mustTry": "Pulled pork sandwich with vinegar-based sauce"
+    },
+    {
+      "name": "The Twisted Fork Tavern",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table gastropub featuring seasonal American cuisine with craft cocktails and local beer selection. Historic building with warm ambiance and creative comfort food.",
+      "mustTry": "Pan-seared scallops with seasonal vegetables"
+    },
+    {
+      "name": "Brasserie Saison",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French bistro showcasing elegant dishes with Virginia's finest ingredients and extensive wine list. White tablecloth service with intimate sophisticated atmosphere.",
+      "mustTry": "Duck confit with cherry gastrique"
+    },
+    {
+      "name": "White Spot",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic burger joint operating since 1927, famous for tiny burgers and milkshakes beloved by locals and UVA students. Quick counter service with nostalgic charm.",
+      "mustTry": "Grilled cheese sandwich with tomato and pickle"
+    },
+    {
+      "name": "Fleurie Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary French cuisine with seasonal menus highlighting local Virginia products in an elegant gallery-like setting. Minimalist decor emphasizes the artistry of each dish.",
+      "mustTry": "Roasted chicken with root vegetables"
+    },
+    {
+      "name": "The Drink",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Craft cocktail bar and neighborhood restaurant with creative small plates and friendly atmosphere. Knowledgeable bartenders craft inspired drinks using local spirits.",
+      "mustTry": "House-made ginger beer with bourbon"
+    },
+    {
+      "name": "Zocalo",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mexican restaurant celebrating authentic flavors with housemade mole and fresh salsas prepared daily. Vibrant space with excellent margaritas and tequila selection.",
+      "mustTry": "Chile relleno with queso fresco"
+    },
+    {
+      "name": "Barrington's Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American fine dining with creative seasonal menus and extensive wine list featuring Virginia vintages. Elegant setting with attentive service.",
+      "mustTry": "Seared duck breast with berry reduction"
+    },
+    {
+      "name": "Rapture Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Specialty coffee roaster and café serving single-origin espresso drinks and light breakfast items. Minimalist Scandinavian design with emphasis on quality coffee.",
+      "mustTry": "House-roasted pour-over coffee"
+    },
+    {
+      "name": "Marco and Luca",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Northern Italian restaurant featuring housemade pasta and traditional Italian techniques with locally sourced ingredients. Warm brick-lined dining room with authentic hospitality.",
+      "mustTry": "Handmade pappardelle with wild mushroom ragù"
+    },
+    {
+      "name": "Miller's Downtown",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "American grill restaurant on the Downtown Mall known for fresh seafood, steaks, and seasonal specials in a lively atmosphere. Extensive wine and beer program.",
+      "mustTry": "Cedar plank salmon"
+    },
+    {
+      "name": "Citizen Burger Bar",
+      "category": "Budget",
+      "priceRange": "$$",
+      "description": "Casual burger restaurant with creative house-ground patties and hand-cut fries made daily. Local favorite with craft beer selection and relaxed vibe.",
+      "mustTry": "Mushroom Swiss burger"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Monticello and Thomas Jefferson Estate",
+      "category": "Cultural",
+      "description": "Iconic UNESCO World Heritage site showcasing Thomas Jefferson's neoclassical mansion and beautifully preserved gardens. Comprehensive tours explain the architectural innovations and Jefferson's historical significance.",
+      "durationHours": 3,
+      "estimatedCostUSD": 24,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "University of Virginia Grounds Tour",
+      "category": "Cultural",
+      "description": "Explore Thomas Jefferson's 'Academical Village' with its distinctive rotunda and historic courtyards designed as an educational masterpiece. Free self-guided walking tour of the iconic campus.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Blue Ridge Parkway Scenic Drive",
+      "category": "Outdoor",
+      "description": "Stunning mountain road offering breathtaking vistas, overlooks, and access to hiking trails through the Appalachian landscape. Drive portions of this iconic 469-mile scenic byway at your own pace.",
+      "durationHours": 4,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Wine Country Tours and Tastings",
+      "category": "Outdoor",
+      "description": "Explore over 30 wineries in the Charlottesville wine region with scenic vineyard views and award-winning Virginia wines. Options range from casual tasting rooms to upscale estates with food pairings.",
+      "durationHours": 5,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking at Shenandoah National Park",
+      "category": "Adventure",
+      "description": "Access to extensive hiking network with trails for all skill levels through old-growth forests and mountain panoramas. Popular routes include Old Rag Mountain and Dark Hollow Falls.",
+      "durationHours": 6,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Downtown Mall Exploration",
+      "category": "Indoor",
+      "description": "Historic pedestrian mall featuring local boutiques, galleries, restaurants, and street performers with charming brick architecture. Free to walk and explore year-round with regular events.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Virginia Museum of Art",
+      "category": "Cultural",
+      "description": "Contemporary art museum showcasing diverse collections from ancient to contemporary works in a modern glass structure. Free admission with optional donation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "indoor",
+        "standard"
+      ]
+    },
+    {
+      "name": "Outdoor Rock Climbing at Stone Mountain",
+      "category": "Adventure",
+      "description": "Premier climbing destination within 30 minutes offering hundreds of routes for beginners to advanced climbers on solid quartzite granite. Stunning views and vibrant climbing community.",
+      "durationHours": 5,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking on the James River",
+      "category": "Adventure",
+      "description": "Peaceful paddle through scenic river sections with wildlife viewing opportunities and beautiful surrounding landscape. Multiple outfitters offer rentals and guided tours.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ash Lawn-Highland Historic Home Tour",
+      "category": "Cultural",
+      "description": "James Monroe's restored plantation home offering period-appropriate furnishings and engaging guided tours about early American history. Beautiful grounds with mountain views.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Walking Food and History Tour",
+      "category": "Foodie",
+      "description": "Guided tour combining local cuisine tastings with stories of Charlottesville's history and architecture throughout downtown. Includes samples at multiple restaurants and beverages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Sunset Evening Bike Ride Through Wine Country",
+      "category": "Outdoor",
+      "description": "Guided bicycle tour through rolling vineyards with stops at scenic overlooks and wineries as the sun sets over the mountains. Relaxed pace suitable for most fitness levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Monticello West Lawn",
+        "description": "Iconic neoclassical mansion framed by manicured gardens with perfect symmetry and architectural detail at golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light or late afternoon for side lighting on the dome",
+        "category": "Architecture"
+      },
+      {
+        "name": "University of Virginia Rotunda",
+        "description": "Thomas Jefferson's masterpiece rotunda with classical columns and brick pathways creating stunning geometric compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon to avoid crowds and for directional light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Skyline Drive Overlooks",
+        "description": "Multiple scenic overlooks along the Blue Ridge Mountains offering expansive valley views and dramatic layered mountain landscapes.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for colored light; clear fall mornings for optimal visibility",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Mall Historic District",
+        "description": "Charming brick pedestrian mall with eclectic architecture, vintage storefronts, and interesting street-level details.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds or overcast days for even lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Piedmont Virginia Community College Vineyard",
+        "description": "Rolling vineyard rows with mountain backdrop creating leading lines and depth across agricultural landscape.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for mist in vineyards; harvest season for golden tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Dark Hollow Falls and Stream",
+        "description": "Cascading waterfall surrounded by lush forest canopy with reflective pool creating romantic woodland imagery.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or morning light to soften harsh shadows on flowing water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Old Rag Mountain Sunrise Vista",
+        "description": "Dramatic granite outcrops with panoramic mountain views across multiple ridges in morning light.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise year-round; especially striking during autumn with colored foliage",
+        "category": "Landscape"
+      },
+      {
+        "name": "James River Reflections",
+        "description": "Peaceful river sections with tree reflections and interesting rock formations creating serene compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or evening for calm water and golden light reflection",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ash Lawn-Highland Formal Gardens",
+        "description": "Historic plantation gardens with symmetrical layouts, flowering borders, and mountain views in background.",
+        "difficulty": "Intermediate",
+        "bestTime": "Spring for blooms or late afternoon for warm light on architecture",
+        "category": "Architecture"
+      },
+      {
+        "name": "McGuffey Art Center at Night",
+        "description": "Contemporary brick building with artistic lighting and evening ambiance in downtown arts district.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening during events or night photography for architectural lighting",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Old Rag Mountain",
+      "Skyline Drive North Overlook",
+      "Monticello East Lawn"
+    ],
+    "sunsetSpots": [
+      "Afton Mountain Overlook",
+      "Vineyard Views at Barboursville",
+      "Darden Towe Park along James River"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 for versatile architectural and landscape work throughout downtown and estates",
+      "16-35mm f/2.8 ultra-wide for expansive mountain vistas and vineyard panoramas at overlooks",
+      "70-200mm f/2.8 for compressed perspectives of distant mountain layers and wildlife at river",
+      "50mm f/1.4 for intimate street photography and portraits on the downtown mall"
+    ],
+    "goldenHourNotes": "Charlottesville's position in the foothills provides exceptional golden hour light with warm tones reflecting off historic brick and stone. The surrounding mountains create dramatic contrast and atmospheric perspective during sunrise and sunset. Summer extends golden hour significantly; winter provides quick dramatic transitions ideal for landscape work.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 2,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": 4,
+        "rainfallMM": 76
+      },
+      {
+        "month": 3,
+        "avgTempC": 10,
+        "rainfallMM": 86
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 94
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 107
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 114
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 102
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 94
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 84
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 86
+      },
+      {
+        "month": 12,
+        "avgTempC": 4,
+        "rainfallMM": 81
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer ideal weather with comfortable temperatures and minimal precipitation, perfect for outdoor activities and photography. Summer brings warmth and humidity but extends outdoor hours, while winter is cold with occasional snow creating scenic landscapes.",
+    "summary": "Charlottesville experiences four distinct seasons typical of the Mid-Atlantic region with mild springs, warm humid summers, spectacular autumns with foliage, and cool winters. The best visiting periods are April-May and September-October when temperatures are comfortable (16-23°C) and rainfall is moderate."
+  },
+  "hotels": [
+    {
+      "name": "Mainstreet Inn",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Charming boutique hotel on the historic downtown mall offering comfortable rooms, friendly service, and excellent walkability to restaurants and shops."
+    },
+    {
+      "name": "Boar's Head Inn",
+      "neighborhood": "University Area",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Elegant resort-style hotel with championship golf course, spa facilities, fine dining, and beautiful grounds surrounded by vineyards."
+    },
+    {
+      "name": "The Clifton Inn",
+      "neighborhood": "Wine Country",
+      "pricePerNightUSD": 375,
+      "category": "Luxury",
+      "description": "Luxurious boutique hotel in a historic manor house featuring fireplaces, fine art, award-winning restaurant, and pristine gardens overlooking vineyards."
+    }
+  ]
+}

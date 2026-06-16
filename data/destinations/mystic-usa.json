@@ -1,0 +1,461 @@
+{
+  "id": "mystic-usa",
+  "city": "Mystic",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "BDL",
+    "PVD",
+    "HFD"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 78,
+    "photography": 85,
+    "activities": 82,
+    "weather": 72
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 135
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 225,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Mystic Connecticut seaport",
+  "summary": "Mystic is a charming New England coastal village in Connecticut known for its historic maritime heritage, picturesque drawbridge, and excellent seafood. This hidden gem offers a perfect blend of small-town charm, waterfront dining, and cultural attractions without the crowds of larger coastal destinations.",
+  "restaurants": [
+    {
+      "name": "Abbott's Lobster in the Rough",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A legendary waterfront shack serving fresh Maine lobster rolls and clam chowder with outdoor seating overlooking the Mystic River. This institution has been a local favorite since 1963.",
+      "mustTry": "Lobster Roll"
+    },
+    {
+      "name": "Mystic Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A casual pizzeria famous for its thin-crust pizza and becoming iconic after being featured in the 1988 film. Perfect for a quick, affordable meal with great flavor.",
+      "mustTry": "Mystic Special Pizza"
+    },
+    {
+      "name": "S&P Oyster Co.",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An upscale oyster bar and seafood restaurant with a sophisticated ambiance and an extensive raw bar selection. Known for impeccable service and creative New England cuisine.",
+      "mustTry": "Oyster Selection"
+    },
+    {
+      "name": "Flood Tide Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Located at the Doubletree hotel, this elegant restaurant offers refined New England seafood with panoramic river views. The refined atmosphere makes it ideal for special occasions.",
+      "mustTry": "Pan-Seared Scallops"
+    },
+    {
+      "name": "The Drawbridge Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A charming establishment offering American comfort food with views of the iconic Mystic Bascule Bridge. The casual atmosphere and reliable menu appeal to both tourists and locals.",
+      "mustTry": "Fish and Chips"
+    },
+    {
+      "name": "Mystic & More",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A cozy café and bistro serving homemade soups, sandwiches, and baked goods in a warm, intimate setting. Perfect for breakfast or a casual lunch.",
+      "mustTry": "Clam Chowder"
+    },
+    {
+      "name": "Engine Room",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A gastropub featuring craft beers and elevated pub fare in a historic riverside location. Known for innovative seafood preparations and a friendly, lively atmosphere.",
+      "mustTry": "Lobster Nachos"
+    },
+    {
+      "name": "Aqua Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An upscale waterfront dining destination with contemporary American cuisine and an extensive wine list. The elegant setting and attentive service make it Mystic's premier fine dining option.",
+      "mustTry": "Pan-Roasted Halibut"
+    },
+    {
+      "name": "Groton House of Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A neighborhood pizzeria in nearby Groton serving quality New York-style pizza and Italian appetizers. Known for generous portions and authentic flavors at budget-friendly prices.",
+      "mustTry": "Pepperoni Pizza"
+    },
+    {
+      "name": "The Oyster Club",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A sophisticated seafood restaurant featuring an impressive oyster selection and classic New England preparations. The intimate setting and knowledgeable staff enhance the dining experience.",
+      "mustTry": "Oyster Sampler"
+    },
+    {
+      "name": "Seaport Coffee & Pastry",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A charming café specializing in artisanal coffee drinks and freshly baked pastries in a cozy setting. Perfect for starting your day before exploring the village.",
+      "mustTry": "Almond Croissant"
+    },
+    {
+      "name": "Copper BEECH Inn",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An elegant country inn restaurant set in a historic home, serving contemporary American cuisine with seasonal ingredients. The refined atmosphere and attention to detail create a memorable dining experience.",
+      "mustTry": "Duck Confit"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Mystic Seaport Museum",
+      "category": "Cultural",
+      "description": "A living history museum featuring historic ships, preserved buildings, and interactive exhibits about maritime heritage. The museum offers demonstrations of traditional shipbuilding and seafaring skills.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mystic Aquarium",
+      "category": "Family",
+      "description": "An interactive aquarium showcasing marine life from around the world, including dolphins, sea lions, and diverse fish species. Features touch pools and educational programs suitable for all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 32,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Walk the Bascule Bridge",
+      "category": "Outdoor",
+      "description": "A free walk across Mystic's iconic drawbridge offering spectacular river views and photo opportunities. The bridge features beautiful Victorian architecture and is an essential Mystic experience.",
+      "durationHours": 0.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "River Cruise on the Mystic River",
+      "category": "Outdoor",
+      "description": "Scenic cruises departing from the seaport offering waterfront views of historic homes and local landmarks. Available in both daytime and sunset options.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking the Mystic River",
+      "category": "Adventure",
+      "description": "Paddle through the scenic waterways of the Mystic River, exploring marshlands, historic sites, and wildlife habitats. Equipment rental and guided tours are available for all skill levels.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Explore Downtown Mystic on Foot",
+      "category": "Outdoor",
+      "description": "A self-guided walking tour through charming streets lined with galleries, boutiques, and historic buildings. The compact village is easily navigable and packed with character.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Denison Pequotsepos Nature Center",
+      "category": "Outdoor",
+      "description": "A 147-acre nature preserve featuring hiking trails through forests, meadows, and along the Pequotsepos Brook. Excellent for bird watching, nature photography, and peaceful walks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "outdoor",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Stonington Borough Historic District Walk",
+      "category": "Cultural",
+      "description": "A picturesque neighboring village with narrow streets, historic homes, and a working fishing pier. Perfect for photography and experiencing traditional New England village charm.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Mystic Art & Craft Beer Tours",
+      "category": "Nightlife",
+      "description": "Guided tours exploring local art galleries and craft breweries, with tastings and artist interactions. A great way to experience Mystic's creative community and local brews.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mushroom Cultivation Workshop at Local Farm",
+      "category": "Indoor",
+      "description": "An educational workshop where visitors learn about mushroom farming and cultivation techniques. Includes hands-on experience and a take-home starter kit.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Sunset Dinner Cruise",
+      "category": "Nightlife",
+      "description": "A romantic evening cruise with dinner service, live entertainment, and stunning sunset views over the Connecticut coastline. Advance reservations recommended.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lighthouse Visits & Maritime History Tour",
+      "category": "Cultural",
+      "description": "Visit nearby lighthouses including the Stonington Point Lighthouse and learn about Connecticut's maritime heritage. Some locations offer climbing opportunities and guided historical tours.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Mystic Bascule Bridge at Sunrise",
+        "description": "The iconic drawbridge bathed in golden morning light creates a stunning architectural subject with water reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunrise to 1 hour after",
+        "category": "Architecture"
+      },
+      {
+        "name": "Seaport Museum Waterfront",
+        "description": "Historic ships, wooden buildings, and maritime artifacts arranged along the picturesque waterfront create layered composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Stonington Point Lighthouse",
+        "description": "A charming lighthouse set against rocky coastline with water crashing against the rocks below, perfect for dramatic seascapes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset or during stormy weather",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mystic River Marshlands",
+        "description": "Salt marshes, tidal waters, and native vegetation create natural patterns and reflections, especially beautiful at different tides.",
+        "difficulty": "Intermediate",
+        "bestTime": "Low tide or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Mystic Street Scenes",
+        "description": "Charming storefronts, gas lamps, pedestrians, and historic architecture create authentic street photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday or late afternoon for side lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Bridge Street at Dusk",
+        "description": "The drawbridge reflected in calm evening waters with buildings lit by streetlamps creates moody, atmospheric photographs.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour, 20-40 minutes after sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Mystic Aquarium Exterior",
+        "description": "Modern architecture against the waterfront backdrop offers geometric patterns and interesting reflections in glass facades.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fishing Pier at Stonington",
+        "description": "Working fishing boats, nets, and maritime equipment provide authentic coastal character and textural details.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning when boats are active or sunset",
+        "category": "Street"
+      },
+      {
+        "name": "Denison Nature Center Forest Trails",
+        "description": "Woodland paths with natural light filtering through canopy, streams, and seasonal foliage create nature photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or overcast days for soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Homes on Church Street",
+        "description": "Colonial and Victorian architecture with manicured gardens and period details line this picturesque street.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for warm side lighting",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Mystic Bascule Bridge",
+      "Stonington Point Lighthouse",
+      "Mystic River Marshlands"
+    ],
+    "sunsetSpots": [
+      "Bridge Street Drawbridge Waterfront",
+      "Stonington Harbor View",
+      "Mystic Seaport Museum Dock Area"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for architectural shots of the bridge and seaport buildings",
+      "50-85mm prime for street photography and detail shots of historic facades",
+      "70-200mm telephoto for compressed landscape shots and distant lighthouse framing",
+      "14mm ultra-wide for dramatic sunrise compositions over water"
+    ],
+    "goldenHourNotes": "Mystic's waterfront location makes golden hour particularly magical, with reflections doubling the light quality. Early morning offers softer, more directional light ideal for architectural photography, while sunset over the Mystic River creates warm tones reflected in the calm water. Plan 30-45 minutes before until 1 hour after official sunrise/sunset times for optimal conditions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 89
+      },
+      {
+        "month": 2,
+        "avgTempC": 0,
+        "rainfallMM": 84
+      },
+      {
+        "month": 3,
+        "avgTempC": 6,
+        "rainfallMM": 91
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 99
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 97
+      },
+      {
+        "month": 7,
+        "avgTempC": 26,
+        "rainfallMM": 83
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 89
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 91
+      },
+      {
+        "month": 10,
+        "avgTempC": 16,
+        "rainfallMM": 94
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 112
+      },
+      {
+        "month": 12,
+        "avgTempC": 3,
+        "rainfallMM": 104
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer the most pleasant weather with mild temperatures and lower humidity. Summer is warm and busy with tourists, while winter is cold with occasional snow, making many outdoor activities less appealing.",
+    "summary": "Mystic experiences a classic New England climate with cold winters and warm summers. The area receives moderate rainfall year-round, with October offering the best combination of pleasant weather and fall foliage."
+  },
+  "hotels": [
+    {
+      "name": "Mystic River Inn",
+      "neighborhood": "Downtown Mystic",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "A no-frills but clean and comfortable inn located within walking distance of the drawbridge and downtown attractions, offering basic amenities at affordable rates."
+    },
+    {
+      "name": "Mystic Harbor Inn & Restaurant",
+      "neighborhood": "Seaport District",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "A well-appointed waterfront hotel with direct seaport access, on-site restaurant, and comfortable rooms featuring modern amenities and river views."
+    },
+    {
+      "name": "Doubletree by Hilton Mystic",
+      "neighborhood": "Waterfront",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "An upscale waterfront resort featuring elegant accommodations, fine dining restaurant, indoor pool, spa services, and spectacular views of the Mystic River."
+    }
+  ]
+}

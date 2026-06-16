@@ -1,0 +1,458 @@
+{
+  "id": "seaside-usa",
+  "city": "Seaside",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PDX",
+    "MFR",
+    "RDM"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "relaxation",
+    "family"
+  ],
+  "scores": {
+    "cost": 55,
+    "food": 72,
+    "photography": 85,
+    "activities": 78,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Oregon coast seaside beach",
+  "summary": "Seaside is a charming coastal town on Oregon's picturesque Pacific coast, famous for its iconic 7-mile promenade and stunning natural beauty. With a perfect blend of adventure, relaxation, and culinary excellence, it offers world-class beaches, excellent photography opportunities, and fresh seafood experiences. The town combines small-town charm with outdoor recreation, making it ideal for couples, families, and adventure seekers alike.",
+  "restaurants": [
+    {
+      "name": "Newman's French Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An intimate fine dining establishment specializing in classical French cuisine with Pacific Northwest influences. Exceptional wine pairings and seasonal menus showcase local ingredients.",
+      "mustTry": "Duck confit with blackberry gastrique"
+    },
+    {
+      "name": "Irish Table",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Cozy pub-style restaurant featuring comfort food with a contemporary twist, housed in a historic building on the promenade. Known for hearty portions and welcoming atmosphere.",
+      "mustTry": "Fish and chips with house-made tartar sauce"
+    },
+    {
+      "name": "The Irish Pub",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Traditional Irish pub serving authentic fare with ocean views, featuring live music most weekends. A local favorite for casual dining and drinks.",
+      "mustTry": "Shepherd's pie"
+    },
+    {
+      "name": "Seaside Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Craft brewery and gastropub with on-site beer production and a relaxed atmosphere overlooking the Necanicum River. Features wood-fired pizzas and local ingredients.",
+      "mustTry": "IPA paired with wood-fired pizza"
+    },
+    {
+      "name": "Clearwater Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Upscale seafood restaurant with floor-to-ceiling windows overlooking the ocean, featuring fresh daily catches. Known for impeccable service and coastal ambiance.",
+      "mustTry": "Grilled Chinook salmon with seasonal vegetables"
+    },
+    {
+      "name": "Cannon Beach Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Beloved local bakery in nearby Cannon Beach serving fresh pastries, artisan breads, and excellent coffee. Perfect for breakfast before beach exploration.",
+      "mustTry": "Marionberry scone"
+    },
+    {
+      "name": "Pacific Way Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table bistro emphasizing local produce and sustainable seafood practices with rotating seasonal menus. Intimate setting with excellent cocktails.",
+      "mustTry": "Local rockfish with purple potato crust"
+    },
+    {
+      "name": "Shilo Inn Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary restaurant within a beachfront hotel, specializing in Pacific Northwest cuisine with ocean views. Features breakfast buffets and evening fine dining.",
+      "mustTry": "Dungeness crab cake appetizer"
+    },
+    {
+      "name": "The Wheel House Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual seafood restaurant and bar with maritime decor serving fresh local catches and clam chowder. Popular among both tourists and locals.",
+      "mustTry": "Oyster stew"
+    },
+    {
+      "name": "Newman's at 988",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Sister establishment to Newman's French Restaurant, offering elegant dining in a historic cottage setting. Specializes in seasonal tasting menus.",
+      "mustTry": "Multi-course tasting menu with wine pairings"
+    },
+    {
+      "name": "Seaside Aquarium Restaurant",
+      "category": "Family",
+      "priceRange": "$$",
+      "description": "Family-friendly restaurant adjacent to the historic aquarium with casual American fare and views of the working harbor. Great for visitors exploring local marine life.",
+      "mustTry": "Fish and chips platter"
+    },
+    {
+      "name": "Office Tavern",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic tavern and grill serving classic American comfort food in a rustic setting popular with locals. Known for friendly service and generous portions.",
+      "mustTry": "Burgers and homemade fries"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Promenade Walk",
+      "category": "Outdoor",
+      "description": "Stroll the iconic 7-mile paved promenade along the beach, featuring benches, interpretive signs, and spectacular ocean views. The perfect activity for all fitness levels with multiple entry points.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Seaside Aquarium",
+      "category": "Family",
+      "description": "Historic aquarium showcasing native Pacific Northwest marine life with interactive touch pools and feeding demonstrations. Educational and entertaining for all ages.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Haystack Rock Exploration",
+      "category": "Outdoor",
+      "description": "Hike to the iconic sea stack at nearby Cannon Beach, tide pools teeming with starfish and anemones, and scenic coastal views. Check tide tables before visiting.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Surfing Lessons",
+      "category": "Adventure",
+      "description": "Learn to surf at Seaside Beach with professional instructors, featuring beginner-friendly breaks and quality board rentals. Sessions available year-round.",
+      "durationHours": 2,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Cannon Beach Exploration",
+      "category": "Outdoor",
+      "description": "Visit the charming coastal village of Cannon Beach, featuring galleries, boutique shops, and pristine sandy beaches. Only 10 minutes south of Seaside.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Necanicum River Kayaking",
+      "category": "Adventure",
+      "description": "Paddle through tidal estuaries and wetlands hosting diverse birdlife including bald eagles and osprey. Guided tours available with local outfitters.",
+      "durationHours": 3,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Ecola State Park Hiking",
+      "category": "Adventure",
+      "description": "Explore 1,300-acre park with dramatic coastal bluffs, temperate rainforest, and sweeping ocean vistas. Multiple trail options ranging from easy walks to strenuous hikes.",
+      "durationHours": 4,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Beach Clamming",
+      "category": "Outdoor",
+      "description": "Dig for razor clams and butter clams along Seaside beaches during permitted seasons with proper license. Local bait shops provide equipment rentals and guidance.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Roller Skating on the Promenade",
+      "category": "Family",
+      "description": "Rent roller skates or a surrey bike and cruise the scenic promenade with friends and family. Equipment rentals available at multiple locations along the boardwalk.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Tillamook Cheese Factory Tour",
+      "category": "Cultural",
+      "description": "Visit the famous cheese factory 45 minutes south to see cheddar production and sample award-winning cheeses. Free factory tours with tasty samples included.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "foodie",
+        "family"
+      ]
+    },
+    {
+      "name": "Wildlife Photography Excursion",
+      "category": "Photography",
+      "description": "Join guided photography tours spotting elk, deer, seabirds, and marine mammals in their natural habitat. Expert guides provide wildlife behavioral insights and photography tips.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Sunset Picnic on the Beach",
+      "category": "Relaxation",
+      "description": "Pack local provisions and watch the sun set over the Pacific Ocean from the pristine sandy beaches. Bonfires available at designated areas with permits.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Haystack Rock",
+        "description": "Iconic sea stack formation at Cannon Beach offering dramatic compositions during golden hour with tide pools and seabird activity in foreground.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour at sunset, low tide for foreground interest",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ecola State Park Overlook",
+        "description": "Sweeping coastal vistas with layered headlands, temperate rainforest, and crashing waves creating dramatic depth and scale.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for rim-lit cliffs, overcast days for moody atmosphere",
+        "category": "Landscape"
+      },
+      {
+        "name": "Seaside Promenade at Sunrise",
+        "description": "Long stretch of paved boardwalk with street lamps, railings, and benches creating leading lines toward the rising sun over the ocean.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunrise for pre-dawn light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Tillamook Head Lighthouse Trail",
+        "description": "Historic lighthouse perched on dramatic headland with wild Pacific backdrop and wildflower meadows offering compelling foreground elements.",
+        "difficulty": "Advanced",
+        "bestTime": "Afternoon golden hour when lighthouse is rim-lit",
+        "category": "Architecture"
+      },
+      {
+        "name": "Necanicum River Estuary",
+        "description": "Tidal wetlands with cattails, winding waterways, and migratory birds including bald eagles creating wildlife and nature photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or evening when wildlife activity peaks",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Cannon Beach Village Streets",
+        "description": "Charming coastal town with colorful buildings, flower baskets, and quaint storefronts creating vibrant street photography subjects.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even light, early morning before crowds",
+        "category": "Street"
+      },
+      {
+        "name": "Seaside Arcade Row",
+        "description": "Historic vintage arcade games and carousel horses offering nostalgic night photography with neon lights and colorful reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk when neon lights activate and carousel lights glow",
+        "category": "Night"
+      },
+      {
+        "name": "Crescent Lake Reflections",
+        "description": "Pristine freshwater lake 20 minutes inland with mirror-like reflections of surrounding forest and sky, ideal for minimalist compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before wind disturbs water surface",
+        "category": "Landscape"
+      },
+      {
+        "name": "Seaside Pier and Harbor",
+        "description": "Working fishing harbor with weathered boats, fishing equipment, and maritime structures providing authentic nautical character and texture.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning when boats return with catches and light is soft",
+        "category": "Street"
+      },
+      {
+        "name": "Saddle Mountain Summit",
+        "description": "Peak with 360-degree views of Cascade Range, coastal plains, and Pacific Ocean on clear days, challenging hike with epic reward.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear days in summer and fall, sunrise for atmospheric light rays",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Seaside Promenade North End",
+      "Ecola State Park Cliff Edge",
+      "Cannon Beach South Shore"
+    ],
+    "sunsetSpots": [
+      "Haystack Rock at Cannon Beach",
+      "Seaside Promenade South End",
+      "Tillamook Head Trail Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for sweeping coastal landscapes and architectural elements",
+      "70-200mm telephoto for wildlife photography and compressed perspectives of distant headlands",
+      "50mm prime for versatile street photography and intimate detail work in town",
+      "14mm ultra-wide for immersive landscape compositions and dramatic sky inclusion"
+    ],
+    "goldenHourNotes": "Seaside's coastal orientation means the sun sets over the ocean, creating spectacular golden hour conditions from 90 minutes before sunset until dusk. The west-facing beaches and promenade are ideal for sunset photography, while inland locations like Ecola State Park offer excellent morning light with the sun rising behind forested ridges. Cloudy conditions, common on the Oregon coast, diffuse golden hour light beautifully, softening shadows while maintaining directional warmth.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 6,
+        "rainfallMM": 178
+      },
+      {
+        "month": 2,
+        "avgTempC": 7,
+        "rainfallMM": 145
+      },
+      {
+        "month": 3,
+        "avgTempC": 9,
+        "rainfallMM": 132
+      },
+      {
+        "month": 4,
+        "avgTempC": 11,
+        "rainfallMM": 127
+      },
+      {
+        "month": 5,
+        "avgTempC": 14,
+        "rainfallMM": 97
+      },
+      {
+        "month": 6,
+        "avgTempC": 17,
+        "rainfallMM": 89
+      },
+      {
+        "month": 7,
+        "avgTempC": 19,
+        "rainfallMM": 68
+      },
+      {
+        "month": 8,
+        "avgTempC": 19,
+        "rainfallMM": 73
+      },
+      {
+        "month": 9,
+        "avgTempC": 17,
+        "rainfallMM": 84
+      },
+      {
+        "month": 10,
+        "avgTempC": 13,
+        "rainfallMM": 152
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 180
+      },
+      {
+        "month": 12,
+        "avgTempC": 6,
+        "rainfallMM": 189
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer months June through September offer the warmest temperatures, lowest rainfall, and clearest skies, making it peak season for beach activities and tourism. Winter brings frequent rain and cooler temperatures, but fewer crowds, moody atmospheric conditions ideal for landscape photography, and excellent conditions for storm-watching.",
+    "summary": "Seaside experiences a temperate oceanic climate with mild winters and cool summers typical of the Pacific Northwest coast. Rainfall is abundant throughout the year with winter months receiving the heaviest precipitation, while summer offers the driest and most pleasant beach weather."
+  },
+  "hotels": [
+    {
+      "name": "Ocean Lodge",
+      "neighborhood": "Downtown Seaside Promenade",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Comfortable oceanfront hotel with basic amenities, direct beach access, and views of the iconic promenade from most rooms."
+    },
+    {
+      "name": "Shilo Inn Oceanfront",
+      "neighborhood": "Central Promenade",
+      "pricePerNightUSD": 175,
+      "category": "Mid-range",
+      "description": "Upscale beachfront property featuring indoor pool, spa services, full-service restaurant, and contemporary rooms with ocean views and modern furnishings."
+    },
+    {
+      "name": "Hallmark Resort The Oceanfront",
+      "neighborhood": "North Promenade",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Premium oceanfront resort with spa, fine dining, heated indoor pool, and elegantly appointed suites offering exceptional service and coastal luxury amenities."
+    }
+  ]
+}

@@ -5,24 +5,25 @@
   "region": "Asia Pacific",
   "airportCodes": [
     "HAN",
-    "SGN",
-    "DAD"
+    "DAD",
+    "SGN"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
     "hidden-gems",
     "photography",
+    "foodie",
     "adventure",
-    "cultural"
+    "relaxation"
   ],
   "scores": {
     "cost": 92,
-    "food": 98,
-    "photography": 95,
-    "activities": 90,
-    "weather": 75
+    "food": 96,
+    "photography": 88,
+    "activities": 87,
+    "weather": 72
   },
   "budgetRanges": [
     {
@@ -32,108 +33,108 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 50,
-      "maxPerDayUSD": 100
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 120
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 300
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 350
     }
   ],
-  "unsplashQuery": "Hanoi Vietnam street",
-  "summary": "Hanoi is a vibrant capital city where ancient traditions meet modern energy, offering world-class street food, colonial architecture, and iconic lakes set against a backdrop of dramatic limestone karst landscapes. The Old Quarter pulses with life while serene temples and museums reveal Vietnam's rich cultural heritage. Affordable prices, incredible cuisine, and photogenic streets make it a must-visit Southeast Asian destination.",
+  "unsplashQuery": "Hanoi Vietnam streets",
+  "summary": "Hanoi is a vibrant capital where ancient temples meet bustling markets, French colonial architecture coexists with modern development, and world-class street food defines daily life. The city's chaotic energy, rich history spanning centuries, and incredibly affordable cost make it a must-visit destination for adventurous travelers. From romantic Hoan Kiem Lake to the atmospheric Old Quarter, Hanoi captures the essence of Southeast Asian culture.",
   "restaurants": [
-    {
-      "name": "Bun Cha Ta",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Legendary bun cha (grilled pork with noodles) served in a humble street stall setting that's been operating for decades. A quintessential Hanoi experience that defines Vietnamese street food culture.",
-      "mustTry": "Bun Cha with extra pork and dipping sauce"
-    },
     {
       "name": "Pho Bat Dan",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "World-famous pho restaurant in the Old Quarter serving aromatic beef bone broth with silky noodles since 1945. Arrive early to experience authentic Hanoi breakfast culture.",
-      "mustTry": "Pho bo tai (rare beef pho)"
+      "description": "Legendary pho shop in the Old Quarter serving perfect beef noodle soup since 1946. Expect long queues but authentic flavors and an incredibly cheap meal.",
+      "mustTry": "Pho Beef"
+    },
+    {
+      "name": "Bun Cha Ta",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Famous street-side bun cha spot where grilled pork is served with noodles and dipping sauce. Classic Hanoi dining experience at ground level.",
+      "mustTry": "Bun Cha Pork"
     },
     {
       "name": "Cha Ca La Vong",
       "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic restaurant specializing in cha ca, a unique Hanoi dish of turmeric fish cooked tableside. An institution since 1958 offering authentic regional cuisine.",
+      "mustTry": "Cha Ca La Vong"
+    },
+    {
+      "name": "Com Tam Sai Gon",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "Historic restaurant famous for cha ca (turmeric-marinated fish), a Hanoi specialty dish served with fresh herbs and rice noodles. Located in the charming Old Quarter with traditional Vietnamese ambiance.",
-      "mustTry": "Cha ca with shrimp and extra dill"
+      "description": "Casual spot serving broken rice with grilled meats and fresh vegetables. Perfect for experiencing everyday Vietnamese food at minimal cost.",
+      "mustTry": "Com Tam Thit Nuong"
     },
     {
-      "name": "Quan An Ngon",
+      "name": "Quán Ún",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary Vietnamese restaurant showcasing regional specialties from across Vietnam in a charming colonial building. Excellent for trying diverse dishes in one location with attentive service.",
-      "mustTry": "Mixed regional specialties platter"
+      "description": "Popular restaurant serving traditional Northern Vietnamese cuisine in a modern casual setting. Known for flavorful dishes and reasonable prices.",
+      "mustTry": "Duck with Tamarind"
     },
     {
-      "name": "Cau Go Vietnamese Cuisine",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Refined Vietnamese dining in a romantic Old Quarter setting with traditional recipes prepared with premium ingredients. Perfect for experiencing elevated versions of classic Hanoi dishes.",
-      "mustTry": "Hanoi crab cakes with fresh herbs"
-    },
-    {
-      "name": "K-Club",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Popular spot for hot pot and Vietnamese grilled meats, offering an interactive dining experience where you cook at your table. Great for groups and social dining with river views.",
-      "mustTry": "Beef hot pot with traditional broth"
-    },
-    {
-      "name": "Madame Hoa",
+      "name": "Hanoi House",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Upscale Vietnamese restaurant featuring creative interpretations of traditional dishes in an elegant setting overlooking Hoan Kiem Lake. Exceptional wine pairings and impeccable service.",
-      "mustTry": "Grilled snapper with Hanoi spice"
+      "description": "Upscale dining in a restored French colonial mansion overlooking Hoan Kiem Lake. Contemporary Vietnamese cuisine with refined presentation.",
+      "mustTry": "Hanoi Soft-Shell Crab"
     },
     {
-      "name": "Club de l'Orient",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "French-Vietnamese fusion fine dining in a colonial mansion with period decor and sophisticated ambiance. Showcases the legacy of French influence on Vietnamese cuisine.",
-      "mustTry": "Foie gras with Vietnamese spices"
-    },
-    {
-      "name": "Cha Hang Hanh",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Tiny shop on narrow Hang Hanh street serving only three dishes: cha cuon (spring rolls), nem (fried spring rolls), and beer. An authentic local institution frozen in time.",
-      "mustTry": "Nem (fried spring rolls)"
-    },
-    {
-      "name": "Banh Cuon Gia Truyen",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Minimalist banh cuon (steamed rice paper rolls) specialist near Dong Xuan Market operating since 1958. Watch the vendor make fresh rolls while you wait.",
-      "mustTry": "Banh cuon with ground pork and mushrooms"
-    },
-    {
-      "name": "Egg Coffee Hub",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Iconic Hanoi creation of coffee topped with whipped egg yolk, served in a cozy cafe on Hoan Kiem Lake's east side. A unique Vietnamese coffee experience.",
-      "mustTry": "Traditional egg coffee (ca phe trung)"
-    },
-    {
-      "name": "Old Hanoi Restaurant",
+      "name": "Old Quarter View Hanoi",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Nostalgic Vietnamese restaurant with vintage decor celebrating Hanoi's colonial past, offering both traditional and contemporary dishes. Charming atmosphere with professional service.",
-      "mustTry": "Snails with lemongrass and chili"
+      "description": "Rooftop restaurant with panoramic Old Quarter views serving Vietnamese and Asian fusion cuisine. Perfect for sunset dining.",
+      "mustTry": "Grilled Fish with Herbs"
+    },
+    {
+      "name": "Egg Coffee at Cafe Giang",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic coffee shop famous for inventing egg coffee, a creamy beverage unique to Hanoi. An atmospheric caffeine experience in the heart of the Old Quarter.",
+      "mustTry": "Egg Coffee"
+    },
+    {
+      "name": "Cau Go Vietnamese Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Fine dining establishment showcasing innovative Vietnamese cuisine in an elegant setting. Award-winning chef focusing on seasonal ingredients.",
+      "mustTry": "Chef's Special Vietnamese Menu"
+    },
+    {
+      "name": "Thong Nhat Park Food Street",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Open-air food market with dozens of small stalls serving grilled meats, noodles, and snacks. Authentic street food experience at rock-bottom prices.",
+      "mustTry": "Grilled Meat Skewers"
+    },
+    {
+      "name": "Noodle King",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Simple noodle shop serving excellent pho and bun bo Hue in a basic dining room. Locals-only atmosphere with exceptional quality.",
+      "mustTry": "Bun Bo Hue"
+    },
+    {
+      "name": "Sen Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Vietnamese restaurant with modern decor serving traditional recipes with creative twists. Popular with both tourists and locals.",
+      "mustTry": "Hanoi-Style Crab Cakes"
     }
   ],
   "activities": [
     {
-      "name": "Explore Hoan Kiem Lake",
+      "name": "Hoan Kiem Lake Walk",
       "category": "Outdoor",
-      "description": "Peaceful walk around the scenic lake in the heart of Hanoi, featuring the iconic Turtle Tower and Ngoc Son Temple. Perfect for morning jogs, evening strolls, or watching local life unfold.",
+      "description": "Leisurely stroll around the iconic lake in the city center, passing locals exercising and the red Turtle Tower. One of Hanoi's most peaceful and photogenic spots.",
       "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -143,223 +144,228 @@
       ]
     },
     {
-      "name": "Old Quarter Street Food Tour",
-      "category": "Foodie",
-      "description": "Guided culinary journey through Hanoi's most famous food alley, sampling 5-7 dishes from different street vendors. Learn about each dish's history and technique from local food experts.",
+      "name": "Old Quarter Exploration",
+      "category": "Cultural",
+      "description": "Navigate the narrow streets and ancient shops of Hanoi's historic district, where street names indicate what was traditionally sold. Experience authentic Vietnamese street life and commerce.",
       "durationHours": 3,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "foodie",
         "standard",
-        "hidden-gems"
+        "photography",
+        "hidden-gems",
+        "foodie"
       ]
     },
     {
-      "name": "Vietnam History Museum",
+      "name": "Temple of Literature Tour",
       "category": "Cultural",
-      "description": "Comprehensive museum showcasing Vietnamese history from prehistoric times through independence, with impressive archaeological collections. Well-curated exhibits with English descriptions.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 4,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Temple of Literature",
-      "category": "Cultural",
-      "description": "Vietnam's first university founded in 1070, featuring traditional architecture and peaceful courtyards dedicated to Confucius. A serene cultural site away from the city bustle.",
-      "durationHours": 2,
+      "description": "Visit Vietnam's first university from the 11th century with peaceful courtyards and ancient architecture. A serene cultural site featuring traditional gardens and historical pavilions.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 3,
       "bestFor": [
-        "photography",
         "standard",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Halong Bay Day Cruise",
-      "category": "Adventure",
-      "description": "Full-day excursion to UNESCO limestone karst landscape featuring kayaking, cave exploration, and swimming in emerald waters. UNESCO World Heritage site with stunning natural beauty.",
-      "durationHours": 12,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "adventure",
         "photography",
-        "standard"
+        "relaxation"
       ]
     },
     {
-      "name": "Ho Tay (West Lake) Cycling Tour",
-      "category": "Outdoor",
-      "description": "Scenic bike ride around Hanoi's largest lake visiting local villages, temples, and watching water puppets at sunset. Experience authentic Vietnamese suburban life.",
-      "durationHours": 4,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Water Puppet Theater",
+      "name": "Ho Chi Minh Mausoleum Complex",
       "category": "Cultural",
-      "description": "Traditional Vietnamese art form with puppets dancing on water accompanied by live music and narration. A unique cultural performance found only in Vietnam.",
-      "durationHours": 1,
-      "estimatedCostUSD": 8,
+      "description": "Solemn visit to Vietnam's most important historical site including the mausoleum, presidential palace, and botanical gardens. Requires respectful dress and offers insights into modern Vietnamese history.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "cultural"
+        "surprise"
       ]
     },
     {
       "name": "Tran Quoc Pagoda Visit",
       "category": "Cultural",
-      "description": "Vietnam's oldest pagoda (541 AD) situated on an island in West Lake with stunning architecture and spiritual atmosphere. Popular spot for meditation and peaceful reflection.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
+      "description": "Explore Vietnam's oldest Buddhist pagoda set on a peninsula in West Lake, with ornate architecture and peaceful atmosphere. Features multiple levels and stunning views across the water.",
+      "durationHours": 1,
+      "estimatedCostUSD": 1,
       "bestFor": [
+        "standard",
         "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Night Market Street Food Tour",
+      "category": "Nightlife",
+      "description": "Guided or self-guided tour through evening street food stalls sampling diverse local specialties. Experience Hanoi's vibrant nocturnal food culture and mingle with locals.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "foodie",
+        "surprise",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Water Puppet Theater Performance",
+      "category": "Cultural",
+      "description": "Unique traditional art form where puppets perform on water to live music and storytelling. An entertaining and distinctly Vietnamese cultural experience.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "family",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Halong Bay Day Cruise",
+      "category": "Outdoor",
+      "description": "Full-day excursion to UNESCO limestone karsts featuring boat rides, cave exploration, and swimming. Hanoi's most popular multi-hour adventure activity.",
+      "durationHours": 12,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Motorbike Food Tour",
+      "category": "Adventure",
+      "description": "Ride behind a local guide to hidden food spots and authentic neighborhoods across Hanoi. Thrilling way to experience street food and local culture.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "foodie",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Vietnamese Cooking Class",
+      "category": "Cultural",
+      "description": "Hands-on class teaching preparation of traditional Vietnamese dishes with market visit and meal. Learn authentic techniques while enjoying the fruits of your labor.",
+      "durationHours": 4,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "foodie",
         "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Old Quarter Photography Walk",
+      "name": "Hanoi Cyclo Tour",
       "category": "Outdoor",
-      "description": "Self-guided exploration of narrow streets, colonial architecture, and vibrant street life capturing authentic Hanoi scenes. Best done early morning or evening for optimal light.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Hanoi Cooking Class",
-      "category": "Foodie",
-      "description": "Hands-on class learning to prepare 3-4 traditional Vietnamese dishes from a local chef, including market shopping. Includes meal and recipe booklet to take home.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "foodie",
-        "standard"
-      ]
-    },
-    {
-      "name": "Long Bien Bridge Historic Walk",
-      "category": "Outdoor",
-      "description": "Walk across the iconic 1902 French iron bridge that survived American bombing during the Vietnam War. Learn history from vendors and enjoy views of the Red River.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "standard",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Hanoi Nightlife and Bia Hoi Street",
-      "category": "Nightlife",
-      "description": "Experience local beer culture on Bia Hoi Corner drinking cheap fresh beer while chatting with locals and vendors. Authentic Hanoi evening tradition with vibrant street atmosphere.",
+      "description": "Ride in pedal-powered tricycles through Old Quarter and colonial streets with local driver narration. Leisurely way to explore neighborhoods and interact with residents.",
       "durationHours": 2,
-      "estimatedCostUSD": 5,
+      "estimatedCostUSD": 6,
       "bestFor": [
         "standard",
-        "hidden-gems"
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Long Bien Bridge Sunset",
+      "category": "Outdoor",
+      "description": "Walk across the iconic 1902 French bridge with stunning views of the Red River and city skyline. Historic monument offering excellent photography and reflective moments.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Old Quarter Street Scenes",
-        "description": "Narrow streets with yellow colonial buildings, street vendors, and motorbikes creating chaotic, colorful compositions.",
+        "name": "Hoan Kiem Lake at Dawn",
+        "description": "The red Turtle Tower emerges from morning mist with locals jogging and tai chi practitioners creating dynamic foreground elements.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning (6-8 AM) or late evening (5-7 PM)",
-        "category": "Street"
+        "bestTime": "5:30-6:30 AM",
+        "category": "Landscape"
       },
       {
-        "name": "Hoan Kiem Lake Turtle Tower",
-        "description": "Iconic tower reflecting in still waters surrounded by lush greenery and traditional Vietnamese architecture.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour at sunrise or sunset",
-        "category": "Landscape"
+        "name": "Old Quarter Street Markets",
+        "description": "Vibrant morning markets with vendors selling fruits, flowers, and goods creating chaotic layers of color and texture.",
+        "difficulty": "Intermediate",
+        "bestTime": "6:00-9:00 AM",
+        "category": "Street"
       },
       {
         "name": "Long Bien Bridge",
-        "description": "Historic iron lattice bridge with dramatic sunset reflections on the Red River, locals crossing on foot and motorbikes.",
+        "description": "Historic 1902 steel bridge with industrial geometry, local commuters, and Red River backdrop creating compelling compositional lines.",
         "difficulty": "Intermediate",
-        "bestTime": "One hour before sunset",
+        "bestTime": "Early morning or sunset",
         "category": "Architecture"
       },
       {
-        "name": "Temple of Literature Courtyards",
-        "description": "Symmetrical traditional Vietnamese temple architecture with peaceful gardens, statues, and ornate details.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning light (9-11 AM)",
-        "category": "Architecture"
-      },
-      {
-        "name": "Dong Xuan Market",
-        "description": "Bustling covered market with colorful produce, textiles, and locals creating vibrant street scenes and portraits.",
+        "name": "Hang Buom Street at Dusk",
+        "description": "Narrow Old Quarter alley with yellow-lit lanterns, motorbikes, and colonial architecture creating moody atmospheric scenes.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning (6-8 AM)",
-        "category": "Street"
-      },
-      {
-        "name": "Tran Quoc Pagoda at West Lake",
-        "description": "Ancient pagoda on island with red lanterns, traditional architecture, and peaceful water reflections.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunrise or golden hour",
-        "category": "Architecture"
-      },
-      {
-        "name": "French Colonial Buildings Downtown",
-        "description": "Well-preserved colonial architecture from Hanoi's French period with elegant facades and tree-lined streets.",
-        "difficulty": "Intermediate",
-        "bestTime": "Soft morning light or golden hour",
-        "category": "Architecture"
-      },
-      {
-        "name": "Ho Tay Sunset Viewpoints",
-        "description": "West Lake's shoreline offering expansive water views with sunset colors and silhouettes of temples and trees.",
-        "difficulty": "Beginner",
-        "bestTime": "One hour before sunset",
-        "category": "Landscape"
-      },
-      {
-        "name": "Night Street Photography",
-        "description": "Neon signs, lanterns, and street food vendors creating vibrant nocturnal scenes in Old Quarter streets.",
-        "difficulty": "Advanced",
-        "bestTime": "After dark (8-11 PM)",
+        "bestTime": "5:00-7:00 PM",
         "category": "Night"
       },
       {
-        "name": "Sword Lake Sunrise Reflections",
-        "description": "Misty early morning water reflections with boats, local fishermen, and temple silhouettes creating ethereal compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "At sunrise (5:30-6:30 AM)",
+        "name": "Tran Quoc Pagoda",
+        "description": "Golden-hued Buddhist temple on peninsula surrounded by water with ornate details and peaceful gardens.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "St. Joseph Cathedral",
+        "description": "Gothic revival cathedral with pointed arches and stained glass, stunning when illuminated against dark evening sky.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset and evening",
+        "category": "Architecture"
+      },
+      {
+        "name": "West Lake Causeway Path",
+        "description": "Scenic waterfront promenade with local joggers, water reflections, and distant pagodas creating serene compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or sunset",
         "category": "Landscape"
+      },
+      {
+        "name": "Night Market Food Stalls",
+        "description": "Colorful evening food vendors with steaming pots, neon signs, and crowded diners creating vibrant night scenes.",
+        "difficulty": "Advanced",
+        "bestTime": "7:00-11:00 PM",
+        "category": "Night"
+      },
+      {
+        "name": "Hoa Phuong Street Vendor Rows",
+        "description": "Endless procession of motorbike taxis and street vendors in narrowing perspective lines with warm golden hour light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon golden hour",
+        "category": "Street"
+      },
+      {
+        "name": "Temple of Literature Courtyards",
+        "description": "Symmetrical traditional architecture with ornate stone carvings, peaceful gardens, and framing elements creating structured compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning soft light",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Hoan Kiem Lake Eastern Shore",
-      "Tran Quoc Pagoda",
-      "Long Bien Bridge"
+      "Hoan Kiem Lake",
+      "Long Bien Bridge",
+      "West Lake Causeway"
     ],
     "sunsetSpots": [
+      "Hoan Kiem Lake",
       "Long Bien Bridge",
-      "West Lake (Ho Tay)",
-      "Hoan Kiem Lake Western Promenade"
+      "St. Joseph Cathedral"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for sweeping street scenes and architectural details",
-      "50mm prime for street portraits and intimate Old Quarter moments",
-      "70-200mm telephoto for compressed lake reflections and distant temple details",
-      "24-70mm versatile zoom for general exploration and market scenes"
+      "35mm prime for street photography in tight Old Quarter spaces",
+      "50mm prime for portrait and food photography at markets",
+      "16-35mm ultra-wide for architectural shots of temples and bridges",
+      "70-200mm telephoto for compressing layers of motorbikes and street scenes"
     ],
-    "goldenHourNotes": "Hanoi's golden hour is exceptionally magical due to atmospheric haze and moisture, creating warm amber light that enhances Old Quarter textures. Early morning (5:30-7 AM) offers misty ethereal light perfect for water reflections and silhouettes. Evening golden hour (5-7 PM) dramatically illuminates yellow colonial buildings and creates stunning reflections on Hoan Kiem Lake.",
+    "goldenHourNotes": "Hanoi's golden hours are optimal for photography with warm light illuminating yellow colonial facades and red lanterns. The hour before sunrise is ideal for Hoan Kiem Lake with minimal crowds and atmospheric mist. Sunset sessions work well at Long Bien Bridge and St. Joseph Cathedral where the light strikes architectural details beautifully, though humidity and haze can diffuse color at times.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -367,62 +373,62 @@
       {
         "month": 1,
         "avgTempC": 16,
-        "rainfallMM": 20
+        "rainfallMM": 21
       },
       {
         "month": 2,
-        "avgTempC": 17,
-        "rainfallMM": 25
+        "avgTempC": 18,
+        "rainfallMM": 28
       },
       {
         "month": 3,
-        "avgTempC": 20,
-        "rainfallMM": 35
+        "avgTempC": 21,
+        "rainfallMM": 38
       },
       {
         "month": 4,
-        "avgTempC": 25,
-        "rainfallMM": 90
+        "avgTempC": 26,
+        "rainfallMM": 99
       },
       {
         "month": 5,
         "avgTempC": 29,
-        "rainfallMM": 130
+        "rainfallMM": 152
       },
       {
         "month": 6,
-        "avgTempC": 30,
-        "rainfallMM": 130
+        "avgTempC": 31,
+        "rainfallMM": 188
       },
       {
         "month": 7,
-        "avgTempC": 30,
-        "rainfallMM": 150
+        "avgTempC": 31,
+        "rainfallMM": 173
       },
       {
         "month": 8,
-        "avgTempC": 29,
-        "rainfallMM": 140
+        "avgTempC": 30,
+        "rainfallMM": 154
       },
       {
         "month": 9,
-        "avgTempC": 27,
-        "rainfallMM": 90
+        "avgTempC": 28,
+        "rainfallMM": 106
       },
       {
         "month": 10,
         "avgTempC": 24,
-        "rainfallMM": 50
+        "rainfallMM": 53
       },
       {
         "month": 11,
-        "avgTempC": 21,
-        "rainfallMM": 30
+        "avgTempC": 20,
+        "rainfallMM": 28
       },
       {
         "month": 12,
         "avgTempC": 17,
-        "rainfallMM": 15
+        "rainfallMM": 23
       }
     ],
     "bestMonths": [
@@ -430,33 +436,34 @@
       11,
       12,
       1,
-      2
+      2,
+      3
     ],
-    "seasonality": "Hanoi experiences four distinct seasons with cool dry winters (November-February), hot humid summers (May-September), and transitional spring/autumn periods. The best time to visit is October to early December when temperatures are mild, humidity is lower, and rainfall is minimal.",
-    "summary": "Hanoi's subtropical monsoon climate brings hot, humid summers with frequent rainfall and mild, dry winters. Expect cool mornings and warm afternoons in winter, with temperatures ranging from 16-30°C throughout the year."
+    "seasonality": "Hanoi experiences cool, dry winters from October to March with pleasant temperatures and minimal rain, making it ideal for tourism. Summer monsoon seasons from May to September bring intense heat, high humidity, and frequent rainfall that can disrupt activities.",
+    "summary": "Hanoi has a humid subtropical climate with distinct seasons. The autumn and winter months offer comfortable temperatures between 15-25°C with low rainfall, while summer months are hot, humid, and very wet."
   },
   "hotels": [
     {
-      "name": "Old Quarter Budget Hanoi Hostel",
+      "name": "Old Quarter Budget Hotel",
       "neighborhood": "Old Quarter",
-      "pricePerNightUSD": 12,
+      "pricePerNightUSD": 18,
       "category": "Budget",
-      "description": "Social hostel in the heart of Old Quarter with dorm beds, rooftop bar, free walking tours, and lively atmosphere perfect for solo travelers."
-    },
-    {
-      "name": "Hanoi Elegance Golden Hotel",
-      "neighborhood": "Hoan Kiem Lake",
-      "pricePerNightUSD": 65,
-      "category": "Mid-range",
-      "description": "Modern 3-star hotel with comfortable rooms, excellent service, lake views, and convenient location near restaurants and attractions."
+      "description": "Basic but clean guesthouse in the heart of the Old Quarter with simple rooms, fan or basic AC, and proximity to street food and attractions."
     },
     {
       "name": "Sofitel Legend Metropole Hanoi",
-      "neighborhood": "French Quarter",
-      "pricePerNightUSD": 250,
+      "neighborhood": "Hoan Kiem Lake",
+      "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Historic luxury hotel since 1901 featuring colonial elegance, world-class dining, spa services, and prestigious location in the heart of Hanoi."
+      "description": "Historic French colonial luxury hotel overlooking Hoan Kiem Lake with elegant rooms, fine dining, spa services, and impeccable service."
+    },
+    {
+      "name": "La Siesta Hanoi",
+      "neighborhood": "Old Quarter",
+      "pricePerNightUSD": 65,
+      "category": "Mid-range",
+      "description": "Contemporary boutique hotel combining modern amenities with charming traditional architecture, rooftop bar, and excellent Old Quarter location."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1613131145282-9476375618e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxIYW5vaSUyMFZpZXRuYW0lMjBzdHJlZXR8ZW58MXwwfHx8MTc4MTU2MjMxNHww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1613131145282-9476375618e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxIYW5vaSUyMFZpZXRuYW0lMjBzdHJlZXRzfGVufDF8MHx8fDE3ODE2Mjk1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

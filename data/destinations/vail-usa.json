@@ -1,0 +1,461 @@
+{
+  "id": "vail-usa",
+  "city": "Vail",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "DEN",
+    "EGE",
+    "ASE"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "adventure",
+    "relaxation",
+    "foodie"
+  ],
+  "scores": {
+    "cost": 15,
+    "food": 82,
+    "photography": 88,
+    "activities": 92,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 600,
+      "maxPerDayUSD": 1500
+    }
+  ],
+  "unsplashQuery": "Vail Colorado mountains ski",
+  "summary": "Vail is America's largest ski resort nestled in the Rocky Mountains of Colorado, offering world-class winter sports, stunning alpine scenery, and vibrant mountain culture year-round. Beyond skiing, visitors enjoy hiking, mountain biking, fine dining, and endless photography opportunities with dramatic peaks and pristine wilderness. The charming village provides upscale amenities, galleries, and events creating a premier mountain destination.",
+  "restaurants": [
+    {
+      "name": "Sweet Basil",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant featuring contemporary American cuisine with seasonal ingredients and an extensive wine collection. Known for innovative dishes and impeccable service in an elegant setting.",
+      "mustTry": "Pan-roasted duck breast with cherry gastrique"
+    },
+    {
+      "name": "Matsuhisa Vail",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Nobu-style Japanese restaurant offering exceptional sushi, sashimi, and innovative Japanese-Peruvian fusion dishes. A sophisticated dining experience with premium sake selections.",
+      "mustTry": "Black cod with miso"
+    },
+    {
+      "name": "The Tap Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Casual yet upscale mountain eatery featuring craft beers, elevated pub fare, and a lively atmosphere. Perfect for après-ski dining with locally sourced ingredients.",
+      "mustTry": "Elk burger with roasted garlic aioli"
+    },
+    {
+      "name": "Lionhead Restaurant & Lounge",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Mountain lodge-style restaurant with stunning views, wood-fired cuisine, and a cozy fireplace ambiance. Specializes in steaks and contemporary mountain fare.",
+      "mustTry": "Wood-fired ribeye with truffle fries"
+    },
+    {
+      "name": "Terra Bistro",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "European-inspired bistro focusing on fresh, local ingredients with French and Italian influences. Intimate setting perfect for romantic dinners.",
+      "mustTry": "Coq au vin"
+    },
+    {
+      "name": "The Red Lion",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Iconic British pub in the heart of Vail Village offering traditional fish and chips, hearty pies, and a warm pub atmosphere. Great for casual meals and socializing.",
+      "mustTry": "Fish and chips with mushy peas"
+    },
+    {
+      "name": "Larkspur",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary fine dining showcasing seasonal Rocky Mountain cuisine with artistic presentations and an award-winning wine program. Multi-course tasting menus available.",
+      "mustTry": "Colorado lamb with seasonal vegetables"
+    },
+    {
+      "name": "Vendome",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French restaurant offering classic Parisian cuisine with refined techniques and elegant ambiance. Known for premium service and extensive wine cellar.",
+      "mustTry": "Dover sole meunière"
+    },
+    {
+      "name": "Pepi's Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned Austrian restaurant honoring the legacy of Pepi Gramshammer, founder of Vail. Authentic schnitzel and strudel in a charming, historic setting.",
+      "mustTry": "Viennese schnitzel"
+    },
+    {
+      "name": "Mister D's Deli",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual sandwich shop perfect for quick, affordable meals with fresh ingredients and generous portions. Ideal for grabbing lunch before mountain activities.",
+      "mustTry": "Roast beef and cheddar sandwich"
+    },
+    {
+      "name": "Root & Flower",
+      "category": "Budget",
+      "priceRange": "$$",
+      "description": "Farm-to-table vegetarian café with healthy bowls, salads, and smoothies using organic local produce. Great for quick, nutritious meals.",
+      "mustTry": "Buddha bowl with quinoa and roasted vegetables"
+    },
+    {
+      "name": "Avanti Coffee & Kitchen",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisan coffee shop and breakfast spot serving excellent espresso drinks and fresh pastries. Perfect morning stop before hitting the slopes.",
+      "mustTry": "Seasonal acai bowl"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing at Vail Mountain",
+      "category": "Adventure",
+      "description": "Experience world-class skiing across 5,289 acres of diverse terrain with 195 runs and modern lift systems. Perfect for all skill levels from beginners to experts.",
+      "durationHours": 4,
+      "estimatedCostUSD": 179,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Summer Mountain Biking",
+      "category": "Adventure",
+      "description": "Explore extensive mountain bike trails ranging from gentle green routes to challenging black diamonds through pristine alpine meadows. Equipment rental available at the base.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking to Booth Lake",
+      "category": "Outdoor",
+      "description": "Scenic 8.5-mile round-trip hike rewarding you with stunning alpine lake views and surrounding peaks. Popular for photographers and nature lovers.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Gore Creek Fly Fishing",
+      "category": "Adventure",
+      "description": "Fish in pristine Colorado mountain streams with expert guides teaching fly casting techniques and fish ecology. Peaceful full-day or half-day experiences.",
+      "durationHours": 4,
+      "estimatedCostUSD": 350,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Scenic Chairlift Ride",
+      "category": "Outdoor",
+      "description": "Ride the chairlift to the summit year-round for panoramic views of the Gore Range and Eagle Valley. Hiking and picnicking opportunities at the top.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Rafting on Colorado River",
+      "category": "Adventure",
+      "description": "Exciting whitewater rafting adventures on the Colorado River with multiple difficulty levels and scenic canyon views. Professional guides and equipment provided.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Vail Village Stroll & Shopping",
+      "category": "Cultural",
+      "description": "Explore charming pedestrian village with galleries, boutiques, restaurants, and public art installations. Great for leisurely afternoons and discovering local artisan shops.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon Ride",
+      "category": "Adventure",
+      "description": "Experience breathtaking sunrise views of the Rocky Mountains from a hot air balloon. Includes champagne breakfast and stunning aerial photography opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 295,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beaver Lake Hiking Trail",
+      "category": "Outdoor",
+      "description": "Moderate 2.2-mile loop hike through aspen forests and alpine meadows with reflective mountain views. Excellent for photographers and casual hikers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Snowshoe Tours",
+      "category": "Outdoor",
+      "description": "Winter guided snowshoe treks through pristine snow-covered landscape exploring backcountry terrain and wildlife habitats. All skill levels welcome with equipment rental.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Betty Ford Alpine Gardens Visit",
+      "category": "Cultural",
+      "description": "Explore high-altitude gardens showcasing alpine plants from around the world in their native habitat. Educational and beautiful from late spring through fall.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Horseback Riding Adventures",
+      "category": "Adventure",
+      "description": "Guided horseback trail rides through mountain meadows and forests with varying duration options from 1 to 4 hours. Suitable for beginners and experienced riders.",
+      "durationHours": 3,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Vail Village Pedestrian Mall",
+        "description": "Charming village square with architecture, people, galleries, and mountain backdrop perfect for street and cultural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm village lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Gore Creek",
+        "description": "Cascading creek with mountain reflections and moss-covered rocks offering excellent landscape and water photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for misty light and reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Trestle Bike Park",
+        "description": "Dramatic wooden structures and trails against mountain backdrop creating striking architectural and action photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon light highlights wooden structures",
+        "category": "Architecture"
+      },
+      {
+        "name": "Booth Lake Trail",
+        "description": "High alpine lake with surrounding peaks and wildflowers creating postcard-worthy landscape photography with stunning reflections.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for pink alpenglow on peaks",
+        "category": "Landscape"
+      },
+      {
+        "name": "Eagle Bahn Gondola Summit",
+        "description": "360-degree panoramic views of the Gore Range and surrounding valleys with dramatic mountain peaks and varying light throughout day.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for colorful skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Aspen Groves near Vail",
+        "description": "Golden aspen forests in fall offering vibrant yellow foliage contrasting with conifer trees and mountain slopes.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-September through early October peak color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Avanti Climbing Garden",
+        "description": "Colorful climbing walls with dramatic mountain backgrounds and athletic action, perfect for sport and lifestyle photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon for side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Minnie's Mile Ski Run",
+        "description": "Sweeping ski runs with mountain vistas providing excellent action sports photography and landscape opportunities in winter.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning fresh snow and blue sky",
+        "category": "Landscape"
+      },
+      {
+        "name": "Strawberry Lake",
+        "description": "Pristine alpine lake reflecting surrounding peaks and offering solitude for contemplative landscape and reflection photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for perfect mirror reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Vail Valley Overlook",
+        "description": "Elevated viewpoint showcasing the entire valley, resort, and mountain ranges creating dramatic panoramic photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm valley tones",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Eagle Bahn Gondola Summit",
+      "Booth Lake",
+      "Strawberry Lake"
+    ],
+    "sunsetSpots": [
+      "Vail Valley Overlook",
+      "Gore Creek",
+      "Eagle Bahn Gondola Summit"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for expansive mountain panoramas and valley vistas",
+      "70-200mm telephoto for compressed mountain layers and distant peak detail",
+      "50mm prime for intimate village scenes and cultural street photography",
+      "24-70mm versatile standard zoom for hiking transitions and varied compositions"
+    ],
+    "goldenHourNotes": "Vail's high elevation and east-west valley orientation create exceptional golden hour opportunities. Early morning light paints peaks pink and orange while casting long shadows through aspen groves and across meadows. Late afternoon light warms the village and highlights architectural details. Plan shoots for 30 minutes before sunrise through 30 minutes after for optimal soft, directional light.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -6,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": -1,
+        "rainfallMM": 43
+      },
+      {
+        "month": 4,
+        "avgTempC": 4,
+        "rainfallMM": 76
+      },
+      {
+        "month": 5,
+        "avgTempC": 10,
+        "rainfallMM": 89
+      },
+      {
+        "month": 6,
+        "avgTempC": 16,
+        "rainfallMM": 81
+      },
+      {
+        "month": 7,
+        "avgTempC": 18,
+        "rainfallMM": 102
+      },
+      {
+        "month": 8,
+        "avgTempC": 17,
+        "rainfallMM": 94
+      },
+      {
+        "month": 9,
+        "avgTempC": 13,
+        "rainfallMM": 64
+      },
+      {
+        "month": 10,
+        "avgTempC": 7,
+        "rainfallMM": 51
+      },
+      {
+        "month": 11,
+        "avgTempC": 0,
+        "rainfallMM": 38
+      },
+      {
+        "month": 12,
+        "avgTempC": -5,
+        "rainfallMM": 30
+      }
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Winter (November-March) dominates with heavy snow and world-class skiing, while summer (June-August) offers perfect hiking and outdoor activities with warm days and cool nights. Shoulder seasons provide excellent photography light and fewer crowds.",
+    "summary": "Vail experiences classic Colorado mountain weather with cold, snowy winters and mild summers. High elevation (8,150 feet) means cool temperatures year-round and afternoon thunderstorms common in July-August. Spring and fall offer crisp, clear days ideal for photography."
+  },
+  "hotels": [
+    {
+      "name": "The Avanti House",
+      "neighborhood": "Central Vail Village",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Cozy budget-friendly lodge with clean rooms, friendly staff, and convenient village location near shops and restaurants."
+    },
+    {
+      "name": "Vail Marriott Mountain Resort",
+      "neighborhood": "Lionshead Village",
+      "pricePerNightUSD": 285,
+      "category": "Mid-range",
+      "description": "Comfortable mid-range resort offering ski-in ski-out convenience, contemporary amenities, pools, and mountain views with excellent service."
+    },
+    {
+      "name": "The Arrabelle at Vail Square",
+      "neighborhood": "Vail Village",
+      "pricePerNightUSD": 895,
+      "category": "Luxury",
+      "description": "Ultra-luxury European-inspired resort featuring direct ski access, five-star dining, spa, and impeccable service in Vail's premier location."
+    }
+  ]
+}

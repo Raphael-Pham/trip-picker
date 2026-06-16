@@ -11,7 +11,7 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "hidden-gems",
+    "surprise",
     "photography",
     "foodie",
     "relaxation"
@@ -21,7 +21,7 @@
     "food": 88,
     "photography": 92,
     "activities": 85,
-    "weather": 78
+    "weather": 82
   },
   "budgetRanges": [
     {
@@ -31,198 +31,181 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 90,
+      "minPerDayUSD": 85,
       "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
       "minPerDayUSD": 200,
-      "maxPerDayUSD": 400
+      "maxPerDayUSD": 350
     }
   ],
-  "unsplashQuery": "Lisbon Alfama colorful tiles",
-  "summary": "Lisbon captivates with its romantic blend of hilltop neighborhoods, historic azulejo tiles, and vibrant street culture overlooking the Tagus River. This sun-drenched capital offers exceptional value with world-class food, stunning photography opportunities, and a laid-back Mediterranean charm that rivals cities twice its size.",
+  "unsplashQuery": "Lisbon tiles architecture",
+  "summary": "Lisbon captivates visitors with its vibrant yellow trams, stunning azulejo tiles, and hilltop neighborhoods offering breathtaking views over the Tagus River. The Portuguese capital blends historic charm with modern creativity, world-class pastéis de nata, and a thriving cultural scene that makes it one of Europe's most photogenic and affordable destinations.",
   "restaurants": [
     {
-      "name": "Pastéis de Nata Bakery",
+      "name": "Pastéis de Belém",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Traditional Portuguese bakery serving warm custard tarts with crispy phyllo crust and cinnamon coating. A quintessential Lisbon experience found on nearly every corner.",
-      "mustTry": "Pastel de Nata with coffee"
-    },
-    {
-      "name": "Cantinho do Aziz",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Tiny hole-in-the-wall Indian restaurant near Cais do Sodre serving authentic curry and spiced rice at unbeatable prices. Seating is minimal but the flavor is maximal.",
-      "mustTry": "Chicken curry"
-    },
-    {
-      "name": "Tejo à Table",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Riverside restaurant in Belém offering modern Portuguese cuisine with river views and fresh seasonal ingredients. Known for creative reinterpretations of traditional dishes.",
-      "mustTry": "Bacalhau à Brás"
-    },
-    {
-      "name": "Faz Falta",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Cozy neighborhood bistro in Príncipe Real specializing in petiscos (Portuguese tapas) and natural wines. Perfect for grazing on sardines, cheese, and charcuterie.",
-      "mustTry": "Grilled sardines with sea salt"
-    },
-    {
-      "name": "O Tanque",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual seafood establishment in Ribatejo known for its fresh catch prepared simply and served at communal tables. The grilled fish is exceptional for the price.",
-      "mustTry": "Whole grilled seabass"
-    },
-    {
-      "name": "Eleven Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Michelin-starred fine dining with panoramic city views from a rooftop garden setting overlooking Lisbon. Chef Joachim Koerper creates innovative European cuisine with Portuguese influences.",
-      "mustTry": "Tasting menu with wine pairing"
+      "description": "Historic bakery founded in 1837 famous for its authentic pastéis de nata with crispy phyllo and creamy custard filling.",
+      "mustTry": "Pastel de Nata with cinnamon"
     },
     {
       "name": "Cervejaria Ramiro",
-      "category": "Midrange",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Historic seafood beer hall since 1930 in Intendente serving grilled prawns, clams, and oysters with ice-cold beer. An institution where locals queue for fresh Atlantic catches.",
-      "mustTry": "Grilled king prawns with garlic butter"
+      "description": "Iconic seafood bar with standing-room counter service, fresh grilled fish, and cold beers in a no-frills atmospheric setting.",
+      "mustTry": "Grilled scabbardfish and shrimp"
     },
     {
-      "name": "Solar dos Nunes",
-      "category": "Local Specialty",
+      "name": "Belcanto",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Two Michelin-starred restaurant showcasing innovative Portuguese cuisine with seasonal ingredients and artistic presentation.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "O Pão Nosso",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "Family-run traditional Portuguese restaurant in Graça serving home-cooked comfort food like caldo verde soup and hearty stews. Beloved by locals for authentic flavors and generous portions.",
-      "mustTry": "Caldo Verde and Carne Assada"
+      "description": "Traditional Portuguese bakery and deli offering fresh bread, pastries, and affordable lunch sandwiches.",
+      "mustTry": "Francesinha sandwich"
     },
     {
       "name": "Taberna da Rua das Flores",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Charming tavern in Príncipe Real with rustic decor and traditional Portuguese fare with creative twists. Excellent wine selection from small Portuguese producers.",
-      "mustTry": "Octopus salad with olive oil"
+      "description": "Charming traditional restaurant in Alfama with rustic decor, hearty Portuguese stews, and local wines.",
+      "mustTry": "Caldo verde and bacalhau à Brás"
     },
     {
-      "name": "Museu do Oriente Café",
+      "name": "Cantinho do Avillez",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Chef José Avillez's casual concept serving creative Portuguese small plates and traditional dishes in a cozy setting.",
+      "mustTry": "Croquetas and grilled octopus"
+    },
+    {
+      "name": "Café Nicola",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Museum café with stunning river views offering light Portuguese fare, pastries, and coffee with peaceful Tagus River atmosphere. Great for leisurely meals between cultural activities.",
-      "mustTry": "Francesinha sandwich"
+      "description": "Historic 18th-century café in Terreiro do Paço offering excellent espresso, pastries, and people-watching from a prime waterfront location.",
+      "mustTry": "Portuguese espresso and almond pastry"
     },
     {
-      "name": "O Asiático",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Vietnamese restaurant in Graça serving authentic pho and banh mi sandwiches at budget-friendly prices with friendly service. A local favorite that offers excellent value.",
-      "mustTry": "Beef pho with fresh herbs"
-    },
-    {
-      "name": "Belém 1858",
+      "name": "Pharmácia",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Elegant fine dining restaurant in Belém celebrating Portuguese culinary heritage with refined presentations and impeccable service. Features an impressive wine cellar with national selections.",
-      "mustTry": "Dry-aged Portuguese beef"
+      "description": "Quirky fine dining restaurant in a converted pharmacy with creative Portuguese-inspired cuisine and theatrical presentations.",
+      "mustTry": "Surprise tasting menu"
+    },
+    {
+      "name": "O Velho Eurico",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-run restaurant specializing in fresh seafood and traditional Portuguese cooking since 1932 in the Ribeira district.",
+      "mustTry": "Grilled dorada and sardines"
+    },
+    {
+      "name": "Pizzaria Bianco",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular casual pizzeria in Santos offering Neapolitan-style pizzas, pasta, and Italian wines at affordable prices.",
+      "mustTry": "Wood-fired margherita pizza"
+    },
+    {
+      "name": "Eleven Restaurante",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Rooftop fine dining with panoramic city views, contemporary Portuguese cuisine, and impeccable service from Michelin-starred chef.",
+      "mustTry": "Sea urchin and seasonal tasting menu"
+    },
+    {
+      "name": "A Travessa",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming bistro in Chiado serving refined Portuguese comfort food with an extensive wine list in an intimate candlelit setting.",
+      "mustTry": "Pork cheek stew and chocolate mousse"
     }
   ],
   "activities": [
     {
-      "name": "Explore Alfama's Winding Streets",
-      "category": "Cultural",
-      "description": "Wander the maze-like medieval streets of Alfama discovering hidden viewpoints, traditional fado restaurants, and colorful azulejo tile facades. This ancient neighborhood reveals different vistas around every corner.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "hidden-gems",
-        "photography"
-      ]
-    },
-    {
-      "name": "Jeronimos Monastery",
-      "category": "Cultural",
-      "description": "Visit one of Portugal's most iconic landmarks featuring ornate Manueline architecture and housing treasures from the Age of Discovery. The cloisters are architectural masterpieces.",
-      "durationHours": 2,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Tram 28 Vintage Ride",
+      "name": "Tram 28 Historic Ride",
       "category": "Outdoor",
-      "description": "Ride Lisbon's historic yellow tram through Graça and Alfama neighborhoods for elevated views and authentic local transport experience. The journey is as memorable as the destination.",
+      "description": "Iconic yellow tram journey through narrow winding streets connecting historic neighborhoods, passing through Alfama, Graça, and Baixa districts.",
       "durationHours": 1.5,
       "estimatedCostUSD": 6,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "relaxation"
       ]
     },
     {
-      "name": "São Jorge Castle Visit",
+      "name": "Belém Tower and Monastery",
       "category": "Cultural",
-      "description": "Explore the ancient hilltop fortress with 11 towers offering 360-degree views of Lisbon's skyline and Tagus River. Walking the walls reveals the city's strategic importance throughout history.",
+      "description": "UNESCO World Heritage site featuring the stunning Jerónimos Monastery and Belém Tower built during Portugal's Age of Discovery with ornate limestone carvings.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "São Jorge Castle Exploration",
+      "category": "Outdoor",
+      "description": "Medieval hilltop fortress offering panoramic views across Lisbon, the Tagus River, and surrounding hills with well-preserved ramparts and towers.",
       "durationHours": 2,
       "estimatedCostUSD": 10,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "adventure"
       ]
     },
     {
       "name": "Pastéis de Nata Cooking Class",
       "category": "Cultural",
-      "description": "Learn to make Portugal's most famous dessert from a local pastry chef in a traditional kitchen setting. Includes tasting fresh-from-the-oven pastries with coffee.",
+      "description": "Interactive workshop learning to make Portugal's famous custard tarts from local chefs, includes tasting and take-home recipe.",
       "durationHours": 2.5,
-      "estimatedCostUSD": 55,
+      "estimatedCostUSD": 65,
       "bestFor": [
         "foodie",
+        "surprise",
         "standard"
       ]
     },
     {
-      "name": "Belém Tower and Monastery Complex",
-      "category": "Cultural",
-      "description": "Tour the historic tower at the mouth of the Tagus River and adjacent Jeronimos Monastery representing Portuguese maritime heritage. Both UNESCO World Heritage sites showcase Manueline architecture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Fado Evening with Dinner",
-      "category": "Nightlife",
-      "description": "Experience Portugal's soulful music tradition with live fado performances in intimate Alfama restaurants accompanied by traditional Portuguese dinner. The melancholic melodies are quintessentially Lisbon.",
-      "durationHours": 3,
-      "estimatedCostUSD": 60,
-      "bestFor": [
-        "standard",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Cacilhas Ferry Crossing and Cristo Rei",
+      "name": "Alfama Walking Tour",
       "category": "Outdoor",
-      "description": "Take a scenic ferry across the Tagus River to Almada and visit the 110-meter Christ the Redeemer statue for panoramic city views. The ferry ride itself offers excellent photo opportunities.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 12,
+      "description": "Guided exploration of Lisbon's oldest neighborhood with its medieval alleyways, hidden courtyards, street art, and fado music venues.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "photography"
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Fado Music Experience",
+      "category": "Nightlife",
+      "description": "Evening performance of traditional Portuguese fado music in intimate restaurants in Alfama with dinner and wine included.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
       ]
     },
     {
       "name": "Sintra Day Trip",
       "category": "Adventure",
-      "description": "Day excursion to nearby Sintra exploring romantic palaces, mystical forests, and hilltop convents in UNESCO World Heritage landscape. Only 30 minutes by train from Lisbon.",
-      "durationHours": 8,
+      "description": "Half-day excursion to nearby hilltop town featuring the fairy-tale Pena Palace, Quinta da Regaleira, and lush forests with misty landscapes.",
+      "durationHours": 6,
       "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
@@ -231,36 +214,63 @@
       ]
     },
     {
-      "name": "Street Art Walking Tour in Marvila",
-      "category": "Cultural",
-      "description": "Guided exploration of contemporary street art and murals in the regenerated Marvila neighborhood showcasing Lisbon's creative culture. Works by renowned international and local artists.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "hidden-gems",
-        "photography"
-      ]
-    },
-    {
-      "name": "Riverfront Picnic in Ribeira das Naus",
-      "category": "Relaxation",
-      "description": "Relax with Portuguese wine, cheese, and bread along the renovated riverfront park with Tagus views and modern sculptures. A peaceful way to experience local food culture.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "relaxation",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Estufa Fria Botanical Gardens",
+      "name": "Cascais Beach and Cliffs",
       "category": "Outdoor",
-      "description": "Stroll through lush greenhouses and outdoor gardens featuring tropical plants, waterfalls, and ponds in this peaceful Príncipe Real oasis. Perfect escape from urban bustle.",
-      "durationHours": 1.5,
+      "description": "Coastal town 30 minutes from Lisbon with scenic beach coves, dramatic cliff formations, fishing village charm, and fresh seafood restaurants.",
+      "durationHours": 4,
       "estimatedCostUSD": 8,
       "bestFor": [
-        "relaxation",
-        "photography"
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Cais do Sodré Market and Neighborhood",
+      "category": "Cultural",
+      "description": "Vibrant red-light district turned trendy with vintage shops, street art, bars, and the historic Bolhão-style market selling fresh produce and local goods.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Jeronimos Monastery Interior Tour",
+      "category": "Cultural",
+      "description": "Detailed guided exploration of the monastery's stunning Gothic and Manueline architecture, cloisters, and museum with maritime history exhibits.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Oceanário de Lisboa",
+      "category": "Family",
+      "description": "Europe's second-largest aquarium featuring over 8,000 marine animals, interactive exhibits, and virtual reality experiences about ocean ecosystems.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Street Art Walking Tour",
+      "category": "Outdoor",
+      "description": "Guided tour through Lisbon's vibrant street art neighborhoods including Marvila and Alcântara with works by international and local artists.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "photography",
+        "hidden-gems",
+        "surprise"
       ]
     }
   ],
@@ -268,105 +278,105 @@
     "spots": [
       {
         "name": "Miradouro da Senhora do Monte",
-        "description": "Elevated viewpoint in Graça offering sweeping vistas of Alfama, São Jorge Castle, and the Tagus River with dramatic city skyline framed by traditional buildings.",
+        "description": "Panoramic hilltop viewpoint offering sweeping 180-degree views of Lisbon, São Jorge Castle, and the Tagus River in golden light.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour sunset",
+        "bestTime": "Sunrise and sunset hours",
         "category": "Landscape"
       },
       {
-        "name": "Alfama Narrow Streets",
-        "description": "Winding medieval alleyways with colorful facades, hanging laundry, and traditional azulejo tiles creating authentic street photography opportunities around every corner.",
+        "name": "Tram 28 Route",
+        "description": "Iconic yellow tram winding through narrow Alfama streets with colorful buildings, traditional tiles, and spontaneous street moments.",
         "difficulty": "Intermediate",
         "bestTime": "Early morning or late afternoon",
         "category": "Street"
       },
       {
-        "name": "Belém Tower",
-        "description": "Iconic 16th-century maritime fortress with ornate Manueline architecture perfectly silhouetted against golden hour skies with river reflections below.",
+        "name": "Belém Tower at Sunset",
+        "description": "Renaissance tower illuminated by golden hour light reflecting off the Tagus River with dramatic architectural details and moody sky.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour sunset",
+        "bestTime": "One hour before sunset",
         "category": "Architecture"
       },
       {
-        "name": "São Jorge Castle Ramparts",
-        "description": "Historic castle walls offering elevated vantage points of Lisbon's red-tiled roofscape, the Tagus River, and distant hills creating layered landscape compositions.",
+        "name": "Ribeira District Alleyways",
+        "description": "Medieval narrow streets with laundry lines, traditional azulejo tiles, and local residents creating authentic candid photography moments.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Livraria Bertrand Interior",
-        "description": "Historic 18th-century bookstore with ornate wooden architecture, stained glass, and atmospheric interior lighting perfect for detail and architectural photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday natural window light",
-        "category": "Architecture"
-      },
-      {
-        "name": "Marvila Street Art District",
-        "description": "Contemporary murals and large-scale street art by international artists on warehouse walls create vibrant color-saturated compositions against urban decay.",
-        "difficulty": "Beginner",
-        "bestTime": "Bright overcast days",
+        "bestTime": "Early morning golden hour",
         "category": "Street"
       },
       {
-        "name": "25 de Abril Bridge at Night",
-        "description": "Golden suspension bridge illuminated against dark skies creating dramatic nighttime silhouettes and reflections on the Tagus River from riverside promenades.",
+        "name": "São Jorge Castle Walls",
+        "description": "Medieval fortress ramparts with intricate stonework, panoramic city backdrops, and dramatic architectural textures from multiple angles.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Commerce Square at Night",
+        "description": "Illuminated waterfront plaza with baroque architecture, reflection pools, and ambient lighting creating symmetric compositions.",
         "difficulty": "Intermediate",
-        "bestTime": "Blue hour dusk",
+        "bestTime": "Dusk to late evening",
         "category": "Night"
       },
       {
-        "name": "Príncipe Real Azulejo Facades",
-        "description": "Elegant 18th-century buildings adorned with intricate blue and white tile patterns and ornate ironwork railings creating graphic architectural details.",
-        "difficulty": "Intermediate",
-        "bestTime": "Side-lit morning",
-        "category": "Architecture"
-      },
-      {
-        "name": "Cacilhas Waterfront Views",
-        "description": "Industrial waterfront area with warehouses, fishing boats, and dramatic views back to Lisbon's skyline across the Tagus creating unique urban landscape opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon golden light",
+        "name": "Graça Church Terrace",
+        "description": "Elevated viewpoint with unobstructed city panoramas, white church domes, and terraced hillside architecture in warm natural light.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise and late afternoon",
         "category": "Landscape"
       },
       {
-        "name": "Tram 28 Interior and Streets",
-        "description": "Historic yellow tram navigating steep streets through traditional neighborhoods capturing movement, local life, and framed architectural details through windows.",
-        "difficulty": "Advanced",
-        "bestTime": "Morning or late afternoon",
-        "category": "Street"
+        "name": "Jerónimos Monastery Cloister",
+        "description": "Intricate Manueline arches, ornate stone columns, and peaceful courtyard with dramatic shadow patterns from carved limestone details.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for light, early morning for fewer tourists",
+        "category": "Architecture"
+      },
+      {
+        "name": "Arco da Rua Augusta",
+        "description": "Monumental triumphal arch with Baixa streets converging toward it, creating perfect perspective lines with historic buildings flanking both sides.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for straight composition",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cacilhas Waterfront",
+        "description": "Scenic riverside viewpoint across the Tagus facing central Lisbon skyline with colorful fishing boats, bridges, and dramatic cliff formations.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for golden reflections",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
       "Miradouro da Senhora do Monte",
-      "São Jorge Castle Ramparts",
-      "Cristo Rei from Cacilhas"
+      "Graça Church Terrace",
+      "São Jorge Castle Walls"
     ],
     "sunsetSpots": [
-      "Miradouro da Senhora do Monte",
-      "Belém Tower waterfront",
-      "Príncipe Real viewpoints"
+      "Belém Tower at Sunset",
+      "Commerce Square at Night",
+      "Cacilhas Waterfront"
     ],
     "lensRecommendations": [
-      "24-70mm versatile zoom for street and architectural details in Alfama's tight spaces",
-      "14-24mm ultra-wide for expansive river and skyline vistas from elevated viewpoints",
-      "70-200mm telephoto for distant silhouettes of the 25 de Abril Bridge and skyline compression",
-      "50mm prime for intimate street portraiture and shallow depth of field in neighborhoods"
+      "24-70mm zoom for versatile street and architecture work capturing details and wider contexts",
+      "16-35mm wide angle for sweeping landscape vistas from hilltop viewpoints and dramatic perspectives",
+      "85mm prime for portrait work and isolating details in crowded markets and street scenes",
+      "50mm prime for intimate street photography and natural perspective in narrow Alfama alleyways"
     ],
-    "goldenHourNotes": "Lisbon's southern exposure and elevated neighborhoods create exceptional golden hour conditions with warm light raking across traditional facades and river reflections. The one-hour window before sunset illuminates azulejo tiles and bridge structures with rich amber tones, best captured from elevated viewpoints like Miradouro da Senhora do Monte. Morning light in Alfama's narrow streets creates strong directional shadows emphasizing architectural texture and depth.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Lisbon's golden hour is exceptionally photogenic with warm Mediterranean light illuminating terracotta roofs, azulejo tiles, and historic facades. The city's numerous hilltop vantage points create dramatic backlighting opportunities during both sunrise and sunset, with the best hours occurring 90 minutes before sunset when the low angle creates dimensional shadows on architecture. Morning light tends to be clearer for detail work, while evening light offers warmer tones perfect for landscape and cityscape compositions.",
+    "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
         "avgTempC": 9,
-        "rainfallMM": 100
+        "rainfallMM": 112
       },
       {
         "month": 2,
         "avgTempC": 10,
-        "rainfallMM": 85
+        "rainfallMM": 91
       },
       {
         "month": 3,
@@ -375,82 +385,81 @@
       },
       {
         "month": 4,
-        "avgTempC": 14,
-        "rainfallMM": 60
+        "avgTempC": 15,
+        "rainfallMM": 62
       },
       {
         "month": 5,
-        "avgTempC": 18,
-        "rainfallMM": 40
+        "avgTempC": 19,
+        "rainfallMM": 38
       },
       {
         "month": 6,
-        "avgTempC": 22,
-        "rainfallMM": 20
+        "avgTempC": 24,
+        "rainfallMM": 18
       },
       {
         "month": 7,
-        "avgTempC": 24,
-        "rainfallMM": 10
+        "avgTempC": 27,
+        "rainfallMM": 6
       },
       {
         "month": 8,
-        "avgTempC": 24,
-        "rainfallMM": 12
+        "avgTempC": 26,
+        "rainfallMM": 9
       },
       {
         "month": 9,
-        "avgTempC": 21,
-        "rainfallMM": 35
+        "avgTempC": 23,
+        "rainfallMM": 29
       },
       {
         "month": 10,
-        "avgTempC": 17,
-        "rainfallMM": 90
+        "avgTempC": 18,
+        "rainfallMM": 71
       },
       {
         "month": 11,
         "avgTempC": 13,
-        "rainfallMM": 110
+        "rainfallMM": 108
       },
       {
         "month": 12,
         "avgTempC": 10,
-        "rainfallMM": 105
+        "rainfallMM": 117
       }
     ],
     "bestMonths": [
       5,
       6,
-      7,
-      8,
-      9
+      9,
+      10
     ],
-    "seasonality": "Summer (June-August) brings hot dry weather with temperatures reaching 24°C and minimal rainfall, perfect for exploring outdoor attractions and enjoying riverside activities. Winter (November-February) is mild with frequent rain and temperatures around 9-10°C, making indoor cultural visits more appealing.",
-    "summary": "Lisbon enjoys a pleasant Mediterranean climate with mild winters and warm, dry summers. The city experiences excellent weather year-round with approximately 300 days of sunshine annually, making it an ideal destination in spring and autumn when temperatures are comfortable for walking exploration."
+    "seasonality": "Lisbon experiences mild winters and warm, dry summers typical of Mediterranean climates. Spring and fall offer ideal combinations of pleasant temperatures, minimal rainfall, and fewer crowds, while summer brings peak tourist season with hot sunshine but occasional beach day weather.",
+    "summary": "Lisbon enjoys one of Europe's sunniest climates with approximately 290 days of sunshine annually. Winter months bring cooler temperatures and periodic rain, while summers are warm to hot with virtually no precipitation, creating a highly photogenic year-round destination."
   },
   "hotels": [
     {
       "name": "The Independente Hostel & Suites",
       "neighborhood": "Príncipe Real",
-      "pricePerNightUSD": 45,
+      "pricePerNightUSD": 42,
       "category": "Budget",
-      "description": "Social hostel in vibrant Príncipe Real with private rooms and dorms, rooftop terrace with city views, and friendly community atmosphere perfect for solo travelers and groups."
+      "description": "Social hostel and private room option with rooftop bar, free walking tours, and vibrant location in the trendy Príncipe Real neighborhood."
     },
     {
       "name": "Memmo Alfama Hotel",
       "neighborhood": "Alfama",
-      "pricePerNightUSD": 120,
+      "pricePerNightUSD": 125,
       "category": "Mid-range",
-      "description": "Contemporary boutique hotel in historic Alfama featuring modern design, spa services, and stunning rooftop views of São Jorge Castle and the Tagus River."
+      "description": "Charming 4-star boutique hotel in historic Alfama with rooftop terrace views, stylish rooms, and easy access to tram 28 and fado restaurants."
     },
     {
-      "name": "The Ritz-Carlton Lisbon",
-      "neighborhood": "Chiado",
+      "name": "Memmo Alfama Luxury Hotel",
+      "neighborhood": "Belém",
       "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Five-star luxury hotel with rooftop spa and pool overlooking the Tagus, Michelin-starred dining, and impeccable service in the heart of Lisbon's cultural district."
+      "description": "5-star luxury property in Belém district with spa services, Michelin-starred restaurant, river views, and proximity to UNESCO heritage sites."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1616862890964-fd20e9dd106d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMaXNib24lMjBBbGZhbWElMjBjb2xvcmZ1bCUyMHRpbGVzfGVufDF8MHx8fDE3ODE1NjIyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1533421821268-87e42c1d70b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxMaXNib24lMjB0aWxlcyUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzgxNjI5MzE0fDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

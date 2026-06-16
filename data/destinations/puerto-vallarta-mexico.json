@@ -6,7 +6,7 @@
   "airportCodes": [
     "PVR",
     "SJD",
-    "MZT"
+    "GDL"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -19,10 +19,10 @@
   ],
   "scores": {
     "cost": 72,
-    "food": 88,
-    "photography": 92,
-    "activities": 90,
-    "weather": 85
+    "food": 85,
+    "photography": 88,
+    "activities": 82,
+    "weather": 80
   },
   "budgetRanges": [
     {
@@ -33,7 +33,7 @@
     {
       "level": "mid",
       "minPerDayUSD": 100,
-      "maxPerDayUSD": 180
+      "maxPerDayUSD": 200
     },
     {
       "level": "luxury",
@@ -41,112 +41,146 @@
       "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Puerto Vallarta sunset beach",
-  "summary": "Puerto Vallarta is a charming Pacific coastal destination known for its colorful colonial architecture, pristine beaches, and vibrant culinary scene. The destination seamlessly blends natural beauty with cultural richness, offering everything from jungle adventures and water sports to world-class dining and picturesque Old Town wandering. Its warm hospitality and diverse attractions make it perfect for relaxation seekers, adventure enthusiasts, and photography lovers alike.",
+  "unsplashQuery": "Puerto Vallarta beach sunset",
+  "summary": "Puerto Vallarta is a stunning Pacific coastal destination where colonial charm meets modern resort luxury, offering world-class beaches, vibrant street culture, and exceptional culinary experiences. Nestled between the Sierra Madre mountains and the Bay of Banderas, this Mexican gem combines adventure opportunities with laid-back beach relaxation and world-renowned street art.",
   "restaurants": [
-    {
-      "name": "Cafe des Artistes",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "A sophisticated French-inspired restaurant featuring contemporary international cuisine and an extensive wine collection. Known for impeccable service and creative presentations in an intimate candlelit setting.",
-      "mustTry": "Duck confit with seasonal vegetables"
-    },
-    {
-      "name": "El Arrayán",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale Mexican restaurant celebrating traditional recipes with modern techniques using locally sourced ingredients. Offers an impressive tequila and mezcal selection.",
-      "mustTry": "Chile en nogada"
-    },
-    {
-      "name": "Daiquiri Dick's",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Beachfront restaurant combining fresh seafood with tropical flavors, featuring a lively atmosphere and panoramic ocean views. Popular for both lunch and dinner.",
-      "mustTry": "Grilled fish of the day with mango salsa"
-    },
     {
       "name": "Mariscos Playa Hermosa",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Authentic coastal seafood spot serving ceviche, shrimp cocteles, and grilled fish with an unpretentious, family-friendly vibe. Located near the beach with fresh daily catches.",
-      "mustTry": "Ceviche mixto"
+      "priceRange": "$",
+      "description": "Beachfront seafood shack serving fresh ceviche, fish tacos, and grilled whole fish with ocean views.",
+      "mustTry": "Aguachile with fresh shrimp"
     },
     {
-      "name": "Pizza Rustica",
+      "name": "Café des Artistes",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant in the Riviera district featuring French-Mexican fusion cuisine and an extensive wine collection.",
+      "mustTry": "Duck confit with mole negro"
+    },
+    {
+      "name": "Andres Rodríguez",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate fine dining establishment showcasing contemporary Mexican cuisine with seasonal ingredients and creative presentations.",
+      "mustTry": "Huachinango en sal"
+    },
+    {
+      "name": "Tótem",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual Italian pizzeria with wood-fired ovens, homemade pasta, and an extensive wine list. Popular with both tourists and locals for authentic thin-crust pizza.",
-      "mustTry": "Pizza quattro formaggi"
+      "description": "Trendy restaurant combining indigenous Mexican flavors with modern cooking techniques in a sophisticated setting.",
+      "mustTry": "Chapulines tacos"
+    },
+    {
+      "name": "El Tocino",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local spot famous for birria tacos, chiles rellenos, and traditional Mexican breakfast dishes.",
+      "mustTry": "Birria de res"
+    },
+    {
+      "name": "Archie's Wok",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Long-standing fusion restaurant combining Asian cuisine with fresh seafood in a casual, colorful atmosphere.",
+      "mustTry": "Wok-seared yellowfin tuna"
+    },
+    {
+      "name": "Barrio Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming neighborhood café serving authentic street food, tacos, and traditional Mexican snacks with local flavor.",
+      "mustTry": "Carnitas and chorizo tortas"
+    },
+    {
+      "name": "Señor Charro's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-friendly Mexican restaurant specializing in grilled meats, fresh seafood, and traditional regional dishes.",
+      "mustTry": "Carne asada platter"
+    },
+    {
+      "name": "Freddy's Tucan",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Oceanfront restaurant with spectacular sunset views, featuring fresh fish, lobster, and creative seafood preparations.",
+      "mustTry": "Lobster tail thermidor"
     },
     {
       "name": "La Leche",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Local casual eatery famous for traditional Mexican breakfasts and lunch plates with generous portions. Known for excellent value and genuine home-style cooking.",
-      "mustTry": "Huevos rancheros"
-    },
-    {
-      "name": "Andele Comidas",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Quick-service Mexican spot offering tacos, tortas, and fresh juices with vibrant street food atmosphere. Perfect for grabbing meals on the go.",
-      "mustTry": "Tacos al pastor"
-    },
-    {
-      "name": "Hacienda San Angel",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Romantic fine dining establishment in a restored historic mansion featuring Spanish and contemporary Mexican cuisine. Offers an enchanting courtyard setting with candlelit ambiance.",
-      "mustTry": "Lobster enchiladas in pasilla negro sauce"
-    },
-    {
-      "name": "Trio",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Award-winning restaurant showcasing Pacific seafood with international influences and artistic plating. Chef-owned establishment with a commitment to seasonal, local sourcing.",
-      "mustTry": "Pan-seared scallops with cauliflower purée"
-    },
-    {
-      "name": "Morelos Taco Shop",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Counter-service taqueria serving street-style tacos with fresh ingredients and bold flavors. A favorite among locals for authentic, affordable Mexican fare.",
-      "mustTry": "Carnitas tacos with fresh lime and cilantro"
-    },
-    {
-      "name": "The Sunfish Shack",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Beachside casual dining with fresh seafood, fish tacos, and tropical cocktails in a laid-back atmosphere. Great for sunset views and relaxed evening dining.",
-      "mustTry": "Fish tacos with chipotle crema"
+      "description": "Farm-to-table restaurant emphasizing organic vegetables and locally-sourced ingredients in vegetarian and seafood dishes.",
+      "mustTry": "Ravioli with mole sauce"
     },
     {
-      "name": "Benicio's by the Sea",
-      "category": "Midrange",
+      "name": "River Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual riverside eatery offering breakfast, lunch, and light fare with river views and relaxed atmosphere.",
+      "mustTry": "Breakfast burrito with fresh juices"
+    },
+    {
+      "name": "Cocina Comida Mexicana",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Oceanfront restaurant blending traditional Mexican seafood with international accents, featuring an extensive drink menu. Known for friendly service and great people-watching.",
-      "mustTry": "Shrimp ceviche tostadas"
+      "description": "Traditional Mexican kitchen serving authentic regional recipes passed down through generations with warm hospitality.",
+      "mustTry": "Pozole rojo"
     }
   ],
   "activities": [
     {
-      "name": "Banderas Bay Boat Tour with Dolphin Watching",
-      "category": "Outdoor",
-      "description": "Half-day guided boat excursion through pristine waters to spot dolphins, sea turtles, and tropical fish. Includes stops for snorkeling and swimming with expert naturalist guides.",
-      "durationHours": 4,
+      "name": "Zip-lining through the Canopy",
+      "category": "Adventure",
+      "description": "Soar through the lush jungle canopy with panoramic views of the Bay of Banderas. Multiple lines offer varying difficulty levels and an adrenaline-pumping experience.",
+      "durationHours": 3,
       "estimatedCostUSD": 60,
       "bestFor": [
-        "standard",
-        "relaxation",
-        "adventure"
+        "adventure",
+        "photography"
       ]
     },
     {
-      "name": "Zip-lining through Jungle Canopy",
+      "name": "Marino Vallarta Dolphin Encounter",
+      "category": "Family",
+      "description": "Swim with dolphins in a natural lagoon setting or observe them from a boat tour. Educational and memorable experience with marine biologists.",
+      "durationHours": 4,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Sayulita Beach Day Trip",
+      "category": "Outdoor",
+      "description": "Visit the bohemian beach town of Sayulita featuring colorful murals, excellent surf breaks, and fresh seafood restaurants just 40 minutes away.",
+      "durationHours": 8,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Hiking to Destiladeras and Playa Las Gemelas",
+      "category": "Outdoor",
+      "description": "Trek through coastal trails to secluded beaches with dramatic cliff views and pristine turquoise waters. Difficulty varies by trail selection.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Night Fishing Excursion",
       "category": "Adventure",
-      "description": "Thrilling canopy tour through lush tropical forest with multiple zip-lines, hanging bridges, and rappelling stations. Professional guides ensure safety while you experience wildlife from above.",
-      "durationHours": 3.5,
+      "description": "Embark on an evening fishing adventure in the Pacific, learning traditional fishing techniques while experiencing the sunset and starlit ocean.",
+      "durationHours": 5,
       "estimatedCostUSD": 75,
       "bestFor": [
         "adventure",
@@ -154,79 +188,9 @@
       ]
     },
     {
-      "name": "Old Town Walking Tour",
+      "name": "Malecón Boardwalk Stroll and Street Art Tour",
       "category": "Cultural",
-      "description": "Guided exploration of Puerto Vallarta's historic cobblestone streets, colonial architecture, and local art galleries. Learn about the city's rich cultural heritage and visit hidden plazas and artisan shops.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Sunset Catamaran Cruise with Open Bar",
-      "category": "Relaxation",
-      "description": "Luxurious evening sail along the coastline with unlimited drinks, appetizers, and live music. Perfect vantage point for capturing stunning Pacific sunset photography.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Playa del Oro Beach Day",
-      "category": "Outdoor",
-      "description": "Pristine uncrowded beach accessible by boat, featuring calm turquoise waters, white sand, and minimal development. Ideal for swimming, snorkeling, and picnicking.",
-      "durationHours": 6,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Cooking Class with Local Chef",
-      "category": "Cultural",
-      "description": "Hands-on culinary experience learning to prepare authentic Mexican dishes using fresh market ingredients. Includes market visit, cooking instruction, and meal with wine pairing.",
-      "durationHours": 4,
-      "estimatedCostUSD": 95,
-      "bestFor": [
-        "foodie",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Río Cuales Waterfall Hike",
-      "category": "Adventure",
-      "description": "Moderate hiking trail through tropical forest leading to multiple cascading waterfalls with natural swimming pools. Includes wildlife spotting and immersion in pristine jungle ecosystem.",
-      "durationHours": 4,
-      "estimatedCostUSD": 55,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Surfing Lessons at Sayulita Beach",
-      "category": "Adventure",
-      "description": "Beginner-friendly surf instruction at nearby Sayulita with experienced instructors, board rental, and water safety training. Suitable for all skill levels with laid-back beach town vibe.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Gallery and Art Museum Exploration",
-      "category": "Cultural",
-      "description": "Self-guided or guided tour of Puerto Vallarta's numerous galleries showcasing local and international artists. Browse sculptures, paintings, and installations in the heart of the Old Town.",
+      "description": "Explore the iconic oceanfront promenade featuring local artist murals, street performers, colonial architecture, and sunset views. Guides available for curated tours.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -236,195 +200,230 @@
       ]
     },
     {
-      "name": "Destiladeras Beach Resort Day Pass",
-      "category": "Relaxation",
-      "description": "All-inclusive day pass to oceanfront resort with beach access, pools, restaurants, and water sports facilities. Perfect for combining relaxation with optional activities.",
-      "durationHours": 8,
-      "estimatedCostUSD": 70,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "family"
-      ]
-    },
-    {
-      "name": "Whale Watching Tour (December-April)",
-      "category": "Outdoor",
-      "description": "Seasonal boat expedition to observe humpback whales migrating through Banderas Bay with marine biologist guides. One of Mexico's premier whale-watching destinations.",
-      "durationHours": 4,
-      "estimatedCostUSD": 65,
+      "name": "Yelapa Waterfalls and Village Tour",
+      "category": "Adventure",
+      "description": "Boat-accessible village featuring cascading waterfalls, jungle hikes, and pristine beaches accessible only by water. Bohemian atmosphere with local restaurants.",
+      "durationHours": 6,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "adventure",
-        "wildlife",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Night Market and Street Food Tour",
-      "category": "Foodie",
-      "description": "Evening guided exploration of local markets and street food vendors sampling authentic tacos, seafood, and traditional Mexican snacks. Includes cultural insights and vendor interactions.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
+      "name": "Scuba Diving and Snorkeling",
+      "category": "Adventure",
+      "description": "Explore the Banderas Bay marine life including tropical fish, sea turtles, and coral formations. Multiple dive sites suitable for all certification levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
       "bestFor": [
-        "foodie",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Vallarta Botanical Gardens Visit",
+      "category": "Indoor",
+      "description": "Wander through 20 acres of exotic plants, water features, and sculptures showcasing regional flora and botanical artistry in a peaceful setting.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Old Town Puerto Vallarta Walking Tour",
+      "category": "Cultural",
+      "description": "Discover colonial architecture, hidden plazas, local galleries, and authentic restaurants in the charming historic district with cobblestone streets.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
         "standard",
-        "hidden-gems"
+        "photography",
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Relaxation",
+      "description": "Sail through the Bay of Banderas on a luxury catamaran with drinks, snacks, and entertainment while watching the sun descend into the Pacific.",
+      "durationHours": 3,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "relaxation",
+        "romance",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beginner Surf Lesson at Playa Los Camarones",
+      "category": "Adventure",
+      "description": "Learn surfing from experienced instructors on beginner-friendly waves. Equipment provided and lessons tailored to individual skill levels.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Malecon at Sunrise",
-        "description": "Golden hour light illuminates the iconic seaside promenade with colonial architecture, sculptures, and palm trees reflecting in still morning water.",
+        "name": "Malecón at Sunrise",
+        "description": "Golden light illuminates the iconic boardwalk sculptures and colonial architecture with the Bay of Banderas as backdrop.",
         "difficulty": "Beginner",
-        "bestTime": "6:00-7:30 AM",
-        "category": "Landscape"
-      },
-      {
-        "name": "Old Town Narrow Streets",
-        "description": "Charming cobblestone alleys lined with vibrant colonial buildings, flowering bougainvillea, and colorful shop facades create classic Mexican street photography.",
-        "difficulty": "Beginner",
-        "bestTime": "7:00-9:00 AM or 4:00-6:00 PM",
-        "category": "Street"
-      },
-      {
-        "name": "Cathedral Basilica of Guadalupe",
-        "description": "Iconic crown-shaped dome and bell towers stand out against blue skies and provide stunning architecture photography with dramatic shadow play.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon",
+        "bestTime": "5:30-7:00 AM",
         "category": "Architecture"
       },
       {
-        "name": "Mismaloya Beach Cove",
-        "description": "Dramatic rocky outcrops, turquoise water, and jungle backdrop create layered landscape compositions with excellent golden hour reflections.",
+        "name": "Street Art Murals in Vallarta Centro",
+        "description": "Vibrant, colorful murals covering building facades throughout the historic district create striking compositions with perfect lighting angles.",
         "difficulty": "Intermediate",
-        "bestTime": "5:30-7:00 PM",
+        "bestTime": "8:00 AM-11:00 AM or 4:00-6:00 PM",
+        "category": "Street"
+      },
+      {
+        "name": "Viewpoint at El Vertigo",
+        "description": "Dramatic coastal cliffs with crashing waves below and the town sprawling across the hillside provide panoramic landscape opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour (6:00-7:30 PM)",
         "category": "Landscape"
       },
       {
-        "name": "Banderas Bay from Marina",
-        "description": "Anchored sailboats, yachts, and mountains create dynamic foreground interest with shifting light on water throughout the day.",
+        "name": "Playa Yelapa Waterfall",
+        "description": "Cascading waterfall framed by jungle vegetation with emerald pools creates ethereal natural photography with moisture-friendly challenges.",
+        "difficulty": "Intermediate",
+        "bestTime": "7:00-9:00 AM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Sunset from Playa Destiladeras",
+        "description": "Dramatic cliff formations frame golden and orange skies as the sun sinks into the Pacific Ocean.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise or sunset",
+        "bestTime": "5:30-7:30 PM",
         "category": "Landscape"
       },
       {
-        "name": "Los Arcos Natural Monument",
-        "description": "Distinctive rock formations jut from turquoise waters offering dramatic framing opportunities and excellent wildlife photography for seabirds.",
+        "name": "Market Scene at Mercado Municipal",
+        "description": "Colorful produce, fresh seafood, and local vendor interactions create vibrant street and cultural photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Any time, best during golden hours",
-        "category": "Landscape"
+        "bestTime": "7:00-10:00 AM",
+        "category": "Street"
       },
       {
-        "name": "Plaza Principal at Night",
-        "description": "Cathedral illuminated against night sky with colonial architecture and street lights creating atmospheric urban night photography.",
+        "name": "Cathedral Basilica Details",
+        "description": "Intricate architectural details, crown-shaped towers, and colonial facade elements offer excellent detail and composition opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "7:00-9:00 PM",
+        "bestTime": "8:00-11:00 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Night Scene at Malecón",
+        "description": "String lights, local performers, and illuminated fountains create dynamic nighttime street photography with atmospheric city glow.",
+        "difficulty": "Advanced",
+        "bestTime": "7:00 PM-11:00 PM",
         "category": "Night"
       },
       {
-        "name": "Jungle Canopy from Zip-lines",
-        "description": "Aerial perspective of dense tropical forest, wildlife sightings, and emerald canopy create unique elevated landscape compositions.",
-        "difficulty": "Advanced",
-        "bestTime": "Mid-morning for bright canopy light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Conchas Chinas Viewpoint",
-        "description": "Elevated vantage point overlooking rocky coastline, crashing waves, and distant mountains provides sweeping seascape compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Late afternoon golden hour",
-        "category": "Landscape"
-      },
-      {
-        "name": "Market Vendor Portraits",
-        "description": "Authentic character-driven street photography featuring local merchants, colorful produce, and traditional market activity.",
+        "name": "Pelican Wildlife at Flamingos Beach",
+        "description": "Diving pelicans, cormorants, and other seabirds provide excellent wildlife photography action shots with dynamic movement.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning (6:00-8:00 AM)",
-        "category": "Street"
+        "bestTime": "6:00-8:00 AM",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Puerto Vallarta Pier Reflections",
+        "description": "The wooden pier creates leading lines with reflections in calm morning waters and dramatic sunset backlit opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "6:00-7:00 AM or 5:30-6:30 PM",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Malecon Promenade",
-      "Playa del Oro Beach",
-      "Conchas Chinas Viewpoint"
+      "Playa Camarones Beach",
+      "Malecón Boardwalk",
+      "Sayulita Point"
     ],
     "sunsetSpots": [
-      "Mismaloya Beach",
-      "Marina Vallarta Pier",
-      "Old Town Cathedral Area"
+      "Playa Destiladeras Cliffs",
+      "Malecón at Dusk",
+      "Yelapa Beach"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for dramatic coastal landscapes and architectural sweeps",
-      "50mm prime for intimate street photography and market vendor portraits",
-      "70-200mm telephoto for compressed beach and wildlife compositions",
-      "14mm rectilinear for exaggerated architectural perspective in narrow colonial streets"
+      "16-35mm wide-angle for sweeping coastal landscapes and architecture",
+      "70-200mm telephoto for wildlife, distant pelicans, and compressed cityscapes",
+      "35-85mm portrait lens for street photography and detail work",
+      "24mm prime for low-light night photography on the Malecón"
     ],
-    "goldenHourNotes": "Puerto Vallarta's tropical location offers brilliant golden hour light from approximately 6:00-7:30 AM and 5:30-7:00 PM year-round. The combination of water reflections, colonial architecture, and lush vegetation creates exceptional color saturation during these windows. Afternoon light reflects intensely off the Pacific, requiring careful exposure metering and polarizing filters.",
+    "goldenHourNotes": "Puerto Vallarta offers exceptional golden hour conditions both sunrise and sunset due to ocean orientation and mountain backdrop. The western shoreline provides spectacular sunset photography with dramatic cliff formations catching warm light. Morning light along the Malecón and beaches creates soft, directional illumination ideal for architectural and street photography.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 25,
+        "avgTempC": 24,
         "rainfallMM": 12
       },
       {
         "month": 2,
-        "avgTempC": 26,
+        "avgTempC": 25,
         "rainfallMM": 8
       },
       {
         "month": 3,
-        "avgTempC": 28,
+        "avgTempC": 26,
         "rainfallMM": 5
       },
       {
         "month": 4,
-        "avgTempC": 30,
+        "avgTempC": 28,
         "rainfallMM": 3
       },
       {
         "month": 5,
-        "avgTempC": 32,
-        "rainfallMM": 25
+        "avgTempC": 30,
+        "rainfallMM": 18
       },
       {
         "month": 6,
-        "avgTempC": 33,
-        "rainfallMM": 180
+        "avgTempC": 31,
+        "rainfallMM": 132
       },
       {
         "month": 7,
-        "avgTempC": 33,
-        "rainfallMM": 165
+        "avgTempC": 31,
+        "rainfallMM": 155
       },
       {
         "month": 8,
-        "avgTempC": 33,
-        "rainfallMM": 170
+        "avgTempC": 31,
+        "rainfallMM": 142
       },
       {
         "month": 9,
-        "avgTempC": 32,
-        "rainfallMM": 215
+        "avgTempC": 31,
+        "rainfallMM": 168
       },
       {
         "month": 10,
         "avgTempC": 30,
-        "rainfallMM": 145
+        "rainfallMM": 95
       },
       {
         "month": 11,
         "avgTempC": 28,
-        "rainfallMM": 45
+        "rainfallMM": 42
       },
       {
         "month": 12,
         "avgTempC": 25,
-        "rainfallMM": 20
+        "rainfallMM": 18
       }
     ],
     "bestMonths": [
@@ -435,31 +434,30 @@
       11,
       12
     ],
-    "seasonality": "Puerto Vallarta has a tropical climate with a pronounced dry season from November to April and a rainy season from May to October. December through March offers the most comfortable weather with temperatures around 25-28°C, while June through September experiences intense heat (32-33°C) with frequent afternoon downpours.",
-    "summary": "The destination enjoys year-round warmth but experiences dramatically different conditions seasonally. Visit November through April for dry weather, clear skies, and ideal conditions for outdoor activities and photography."
+    "seasonality": "Puerto Vallarta has a distinct dry season from November through April with comfortable temperatures and minimal rainfall, followed by a warm, humid rainy season from June through September. May marks the shoulder season with heat building before the monsoons arrive.",
+    "summary": "The destination enjoys warm tropical weather year-round with average temperatures ranging from 24-31°C. The dry season offers perfect beach conditions with minimal rain, while the rainy season brings afternoon showers but lush landscapes and fewer tourists."
   },
   "hotels": [
     {
-      "name": "Azteca Hotel",
-      "neighborhood": "Old Town",
-      "pricePerNightUSD": 52,
+      "name": "Casa Cupula",
+      "neighborhood": "Old Town Puerto Vallarta",
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Charming colonial-style budget hotel in heart of Old Town featuring basic amenities, central location near restaurants and galleries, and friendly staff."
+      "description": "Charming beachfront guesthouse with colonial architecture, rooftop terrace, and easy access to Old Town restaurants and shops."
     },
     {
-      "name": "Hotel Playa Los Arcos",
-      "neighborhood": "Malecon/Downtown",
-      "pricePerNightUSD": 125,
+      "name": "Hacienda Alemana",
+      "neighborhood": "Old Town Puerto Vallarta",
+      "pricePerNightUSD": 120,
       "category": "Mid-range",
-      "description": "Oceanfront mid-range hotel with direct beach access, pool, restaurant, and stunning sunset views from the iconic malecon location."
+      "description": "Boutique hotel featuring colonial-style rooms, private beach access, excellent restaurant, and personalized service in the heart of town."
     },
     {
       "name": "Grand Palladium Vallarta Resort & Spa",
-      "neighborhood": "Riviera Nayarit/North Zone",
+      "neighborhood": "Riviera Nayarit",
       "pricePerNightUSD": 350,
       "category": "Luxury",
-      "description": "All-inclusive luxury resort with multiple pools, world-class spa facilities, gourmet restaurants, and private beach access in the upscale Riviera Nayarit area."
+      "description": "All-inclusive luxury resort with beachfront location, multiple pools, world-class dining, spa facilities, and comprehensive entertainment options."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1632372432854-4379dad175be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQdWVydG8lMjBWYWxsYXJ0YSUyMHN1bnNldCUyMGJlYWNofGVufDF8MHx8fDE3ODE1NTYxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

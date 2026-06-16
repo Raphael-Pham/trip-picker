@@ -1,0 +1,451 @@
+{
+  "id": "mammoth-lakes",
+  "city": "Mammoth Lakes",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MMH",
+    "FAT",
+    "RNO"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "adventure",
+    "photography",
+    "relaxation",
+    "standard"
+  ],
+  "scores": {
+    "cost": 45,
+    "food": 72,
+    "photography": 95,
+    "activities": 94,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Mammoth Lakes mountains alpine",
+  "summary": "Mammoth Lakes is a premier year-round mountain resort destination nestled in the Eastern Sierra Nevada, offering world-class skiing, hiking, and pristine alpine scenery. The region combines outdoor adventure with vibrant dining and photography opportunities, attracting both thrill-seekers and nature enthusiasts to elevations exceeding 11,000 feet.",
+  "restaurants": [
+    {
+      "name": "The Mammoth Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Craft brewery and gastropub featuring locally-sourced ingredients and house-made beers with mountain views. A beloved local hangout with live music and hearty mountain cuisine.",
+      "mustTry": "Sierra Porter and elk burger"
+    },
+    {
+      "name": "Petra's Bistro & Wine Bar",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French-inspired cuisine with an extensive wine list and intimate atmosphere. Seasonal menus highlight local ingredients and creative preparations.",
+      "mustTry": "Pan-seared duck breast with cherry gastrique"
+    },
+    {
+      "name": "The Eatery",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant focusing on organic, locally-sourced ingredients with California-inspired cooking. Warm ambiance with seasonal menus that change regularly.",
+      "mustTry": "Seasonal vegetable risotto"
+    },
+    {
+      "name": "Bleu Handmade Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual pizzeria with wood-fired ovens serving thin-crust pizzas and Italian appetizers. Perfect for quick, affordable dining with quality ingredients.",
+      "mustTry": "Margherita or Quattro Formaggi"
+    },
+    {
+      "name": "The Warming Hut",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy spot at the ski resort base serving hot soups, sandwiches, and warming beverages. Ideal for quick refueling between activities.",
+      "mustTry": "Signature chili and hot chocolate"
+    },
+    {
+      "name": "Gomez's Mexican Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic family-run Mexican restaurant with traditional recipes and generous portions. A local favorite for fresh salsa and house-made tamales.",
+      "mustTry": "Chile relleno and carne asada"
+    },
+    {
+      "name": "The Black Dolphin",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant steakhouse and seafood restaurant with prime cuts and fresh fish flown in daily. Sophisticated atmosphere with outstanding wine pairings.",
+      "mustTry": "Prime ribeye with truffle butter"
+    },
+    {
+      "name": "June Lake Brewing",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Local brewery in nearby June Lake with craft beers and casual food offerings in a laid-back mountain setting. Popular for sunset views over the lake.",
+      "mustTry": "Double IPA and fish tacos"
+    },
+    {
+      "name": "Nevados Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Spanish-influenced fine dining with an emphasis on seasonal menus and artisanal preparations. Intimate wine cellar and creative tapas selections.",
+      "mustTry": "Pan-roasted halibut with saffron broth"
+    },
+    {
+      "name": "Smokestack BBQ",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual BBQ joint serving slow-smoked meats, traditional sides, and craft sodas. Popular gathering spot with outdoor seating and mountain views.",
+      "mustTry": "Pulled pork sandwich and burnt ends"
+    },
+    {
+      "name": "Stellar Brew",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Coffee shop and bakery offering espresso drinks, fresh pastries, and breakfast sandwiches. Cozy interior and friendly service perfect for mornings.",
+      "mustTry": "Cappuccino and almond croissant"
+    },
+    {
+      "name": "Slocums Grill House",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary American grill with locally-sourced meats and seasonal vegetables, featuring a full bar and relaxed-elegant atmosphere. Known for consistent quality and friendly service.",
+      "mustTry": "Mountain trout with herb butter"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing and Snowboarding at Mammoth Mountain",
+      "category": "Adventure",
+      "description": "World-class ski resort with over 3,500 acres of terrain, 25+ lifts, and 150+ runs ranging from beginner to expert. Season runs November through May with reliable snow and modern facilities.",
+      "durationHours": 8,
+      "estimatedCostUSD": 165,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking to Lyell Lake",
+      "category": "Outdoor",
+      "description": "Moderate alpine hike through meadows and forests offering stunning lake views and mountain photography opportunities. Round-trip distance of 8 miles with minimal elevation gain.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mountain Biking on Mammoth Trails",
+      "category": "Adventure",
+      "description": "Extensive network of single-track trails suitable for all skill levels with bike rentals available at the resort. Summer months offer cool riding through alpine terrain with wildflower displays.",
+      "durationHours": 4,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fly Fishing in Mountain Streams",
+      "category": "Outdoor",
+      "description": "World-renowned fly fishing destination with pristine streams stocked with rainbow and brown trout. Guided trips available with experienced instructors for all skill levels.",
+      "durationHours": 6,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Rock Climbing at Shady Rest Park",
+      "category": "Adventure",
+      "description": "Granite boulders and climbing routes suitable for beginners to advanced climbers in a scenic mountain setting. Popular spot with established routes and good climbing season.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Sunrise Photography at Crater Lake",
+      "category": "Outdoor",
+      "description": "Short hike to stunning crater lake with dramatic sunrise colors reflecting off alpine waters and surrounding peaks. Excellent composition opportunities for landscape photographers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Kayaking on June Lake Loop",
+      "category": "Outdoor",
+      "description": "Scenic paddling around crystal-clear alpine lakes with mountain reflections and surrounding granite peaks. Rentals available and suitable for paddlers of all abilities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Stargazing at Mammoth Lakes",
+      "category": "Outdoor",
+      "description": "Designated dark sky area offering exceptional stargazing with minimal light pollution and clear views of the Milky Way. Best during new moon phases and fall through spring.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Winter Snowshoeing and Cross-Country Skiing",
+      "category": "Outdoor",
+      "description": "Groomed trail system throughout the region with snowshoe and cross-country ski rentals available. Peaceful way to explore snow-covered meadows and forest paths.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mountain Biking Downhill Park",
+      "category": "Adventure",
+      "description": "Lift-accessed downhill park with gravity-feed trails ranging from beginner-friendly greens to technical blacks. Summer operations with full-service bike park amenities.",
+      "durationHours": 5,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Scenic Gondola Ride and Alpine Dining",
+      "category": "Family",
+      "description": "Year-round gondola experience providing 360-degree mountain views and access to alpine restaurants and hiking trails. Perfect for non-skiers wanting mountain access.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Backpacking in John Muir Wilderness",
+      "category": "Adventure",
+      "description": "Multi-day wilderness expeditions through pristine alpine landscape with numerous peaks over 13,000 feet and remote alpine lakes. Permits required; excellent for experienced backpackers.",
+      "durationHours": 24,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Crater Lake",
+        "description": "Alpine lake surrounded by granite peaks with stunning reflections, especially dramatic at sunrise with warm light hitting the rocky slopes.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or late afternoon golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "June Lake Loop",
+        "description": "Series of interconnected lakes with towering mountain backdrops and dense coniferous forests creating layered landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise, sunset, or overcast skies",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mammoth Mountain Summit",
+        "description": "11,053-foot peak offering 360-degree vistas of the Sierra Nevada range with countless photographic angles and extreme elevation creating atmospheric effects.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear weather from spring through fall",
+        "category": "Landscape"
+      },
+      {
+        "name": "Minaret Lake",
+        "description": "Crystal-clear alpine lake with jagged granite peaks perfectly mirrored in still waters, accessible via scenic hiking trail.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for glass-like reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Horseshoe Lake",
+        "description": "U-shaped glacial valley with dynamic cloud formations and wildflower meadows in summer, creating rich compositional depth.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning or late afternoon light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Mammoth Lakes",
+        "description": "Mountain village street photography with local character, seasonal decorations, and mountain backdrop views between shops and restaurants.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm village lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Gull Lake",
+        "description": "Accessible lakeside location with granite mountain reflections and coniferous forest framing creating intimate landscape scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or calm water conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Shady Rest Park Granite Boulders",
+        "description": "Massive weathered granite formations creating geometric shapes and textures ideal for close-up landscape and abstract photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dramatic shadow play",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mammoth Lakes Village",
+        "description": "Retail and pedestrian area with Craftsman-style architecture, seasonal events, and mountain scenery in background.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or dusk for soft light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Mammoth Crest Trail Viewpoint",
+        "description": "High-altitude viewpoint delivering panoramic vistas of the Sierra Nevada with foreground wildflowers and distant mountain ranges.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for warm alpenglow on peaks",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Crater Lake",
+      "Minaret Lake",
+      "Mammoth Mountain Summit"
+    ],
+    "sunsetSpots": [
+      "June Lake Loop",
+      "Horseshoe Lake",
+      "Gull Lake"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for expansive alpine landscapes and dramatic summit vistas",
+      "70-200mm telephoto for wildlife, distant peak compression, and detail isolation",
+      "50mm prime for street photography downtown and intimate landscape moments",
+      "14-24mm extreme wide-angle for immersive landscape compositions and dramatic perspectives"
+    ],
+    "goldenHourNotes": "The high elevation and clear skies of Mammoth Lakes create spectacular golden hour photography with warm light saturating granite peaks and alpine meadows. Early mornings often feature alpenglow on eastern faces while evenings illuminate western slopes, requiring adjustment of location and composition. The thin atmosphere at 11,000+ feet elevation intensifies color saturation and contrast, making golden hour particularly dramatic.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 76
+      },
+      {
+        "month": 2,
+        "avgTempC": -3,
+        "rainfallMM": 71
+      },
+      {
+        "month": 3,
+        "avgTempC": -1,
+        "rainfallMM": 66
+      },
+      {
+        "month": 4,
+        "avgTempC": 2,
+        "rainfallMM": 53
+      },
+      {
+        "month": 5,
+        "avgTempC": 7,
+        "rainfallMM": 38
+      },
+      {
+        "month": 6,
+        "avgTempC": 12,
+        "rainfallMM": 25
+      },
+      {
+        "month": 7,
+        "avgTempC": 15,
+        "rainfallMM": 48
+      },
+      {
+        "month": 8,
+        "avgTempC": 14,
+        "rainfallMM": 43
+      },
+      {
+        "month": 9,
+        "avgTempC": 11,
+        "rainfallMM": 33
+      },
+      {
+        "month": 10,
+        "avgTempC": 5,
+        "rainfallMM": 41
+      },
+      {
+        "month": 11,
+        "avgTempC": 0,
+        "rainfallMM": 64
+      },
+      {
+        "month": 12,
+        "avgTempC": -4,
+        "rainfallMM": 81
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Mammoth Lakes experiences two distinct seasons: winter (November-April) with heavy snowfall and world-class skiing, and summer (June-September) with mild temperatures and excellent hiking. Spring and fall are shoulder seasons with variable weather, occasional snow at higher elevations, and fewer crowds.",
+    "summary": "The high elevation (7,881 feet in town, exceeding 11,000 feet at peaks) creates cool summer temperatures with minimal precipitation and long sunny days, while winter brings abundant snowfall and occasional extreme cold. Overall climate is dry with clear skies, making it ideal for both outdoor activities and photography."
+  },
+  "hotels": [
+    {
+      "name": "Mammoth Hot Springs Bed and Breakfast",
+      "neighborhood": "Downtown Mammoth Lakes",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Cozy bed and breakfast with individually-decorated rooms, homemade breakfasts, and personal hospitality in a historic building."
+    },
+    {
+      "name": "The Mammoth Mountain Inn",
+      "neighborhood": "Mammoth Mountain Base",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Slope-side resort hotel with direct ski access, multiple restaurants, heated pools, and modern amenities including a spa and fitness center."
+    },
+    {
+      "name": "Westin Monache Resort and Spa",
+      "neighborhood": "Mammoth Lakes Central",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Five-star resort featuring spacious suites with mountain views, world-class spa, fine dining, heated pools, and premium concierge services."
+    }
+  ]
+}

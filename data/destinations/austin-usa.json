@@ -6,7 +6,7 @@
   "airportCodes": [
     "AUS",
     "DFW",
-    "SAT"
+    "HOU"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -20,9 +20,9 @@
   "scores": {
     "cost": 62,
     "food": 95,
-    "photography": 85,
-    "activities": 90,
-    "weather": 75
+    "photography": 88,
+    "activities": 92,
+    "weather": 78
   },
   "budgetRanges": [
     {
@@ -41,221 +41,173 @@
       "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Austin live music city",
-  "summary": "Austin, the Live Music Capital of the World, pulses with creative energy, world-class barbecue, and iconic venues where legendary performances happen nightly. From vibrant street art and cultural events to outdoor activities on Lady Bird Lake and natural swimming holes, this quirky Texas city perfectly blends bohemian charm with culinary excellence. The year-round sunshine, affordable accommodations, and thriving food scene make Austin an ideal destination for music lovers, food enthusiasts, and adventure seekers.",
+  "unsplashQuery": "Austin Congress Avenue Bridge",
+  "summary": "Austin is a vibrant Texas capital known as the \"Live Music Capital of the World,\" offering eclectic food scene, outdoor recreation, and colorful street art around every corner. From swimming in natural springs and kayaking on Lady Bird Lake to exploring quirky neighborhoods and live music venues on 6th Street, the city blends urban culture with natural beauty. With its laid-back vibe and creative community, Austin delivers unforgettable experiences for travelers of all styles.",
   "restaurants": [
     {
       "name": "Franklin Barbecue",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Legendary barbecue institution known for slow-smoked brisket and pulled pork that draws lines around the block. Arrive early for the best selection of meats and sides.",
-      "mustTry": "Beef brisket"
+      "description": "Legendary Texas barbecue institution with perfectly smoked brisket that draws lines around the block daily. Arrive early for the best selection and authentic Central Texas BBQ experience.",
+      "mustTry": "Brisket sandwich with pecan pie"
     },
     {
       "name": "Uchi",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Award-winning Japanese restaurant featuring innovative sushi and contemporary Asian cuisine in an elegant setting. Offers omakase experiences and an extensive sake selection.",
-      "mustTry": "Chef's omakase"
+      "description": "Innovative Japanese cuisine with pristine sushi and creative cooked dishes in an elegant setting. A culinary destination offering one of Austin's most refined dining experiences.",
+      "mustTry": "Omakase tasting menu"
     },
     {
       "name": "Torchy's Tacos",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Local taco chain beloved for creative, hand-rolled tacos with fresh ingredients and bold flavors. Perfect for quick, affordable meals.",
-      "mustTry": "Trailer Park taco"
+      "description": "Local taco chain famous for creative, fresh tacos with quality ingredients and laid-back atmosphere. Perfect for quick, delicious meals at minimal cost.",
+      "mustTry": "Trailer Park taco with queso"
     },
     {
       "name": "The Salt Lick",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Family-owned barbecue restaurant in Dripping Springs featuring mesquite-smoked meats, homemade sides, and scenic Hill Country views. Known for all-you-can-eat options.",
-      "mustTry": "Smoked ribs"
-    },
-    {
-      "name": "Odd Duck",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary restaurant focusing on Texas ingredients and seasonal tasting menus in an intimate, minimalist setting. Celebrates local produce and innovative cooking techniques.",
-      "mustTry": "Multi-course tasting menu"
+      "description": "Family-owned Hill Country barbecue restaurant with sprawling grounds, live music, and award-winning smoked meats. Scenic location combines great food with Texas countryside views.",
+      "mustTry": "Half pound brisket platter"
     },
     {
       "name": "Matt's El Rancho",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Iconic Tex-Mex restaurant serving classic enchiladas, chile con queso, and margaritas since 1952. Family-friendly establishment with vintage Austin charm.",
-      "mustTry": "Cheese enchiladas"
+      "description": "Iconic Mexican restaurant operating since 1952, serving classic Tex-Mex and margaritas in a historic setting. A local institution beloved for consistent quality and nostalgic charm.",
+      "mustTry": "Enchiladas verdes with chile con queso"
+    },
+    {
+      "name": "Odd Duck",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Creative New American restaurant using seasonal local ingredients and playful cooking techniques. Known for innovative dishes and an excellent wine selection in an intimate setting.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "P. Terry's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual burger and shakes spot with locally-sourced beef and Austin soul. A beloved local chain offering quality fast food at unbeatable prices.",
+      "mustTry": "Single with cheese burger and housemade shakes"
+    },
+    {
+      "name": "Barley Swine",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning farm-to-table restaurant emphasizing Southern ingredients and technique with ever-changing menus. Consistently ranks among Texas's finest dining establishments.",
+      "mustTry": "Multi-course tasting with wine pairings"
     },
     {
       "name": "Veracruz All Natural",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual Mexican eatery specializing in fresh, organic ingredients and traditional recipes. Known for corn tortillas made fresh daily and excellent breakfast tacos.",
-      "mustTry": "Breakfast tacos"
+      "description": "Fast-casual Mexican restaurant specializing in fresh tortillas made daily from corn and creative breakfast tacos. Authentic flavors at budget-friendly prices with multiple locations.",
+      "mustTry": "Breakfast tacos with migas"
     },
     {
-      "name": "Barley Swine",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Farm-to-table restaurant showcasing seasonal Texas produce with creative New American cuisine. Features an exceptional wine program and chef's counter seating.",
-      "mustTry": "Seasonal tasting menu"
-    },
-    {
-      "name": "Hopdoddy Burger Bar",
+      "name": "Arpeggio Grill",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual burger restaurant featuring grass-fed beef, local craft beers, and fresh-cut fries. Multiple Austin locations with a relaxed neighborhood atmosphere.",
-      "mustTry": "Classic cheeseburger"
+      "description": "Mediterranean-inspired restaurant on Rainey Street offering elegant yet approachable cuisine with city views. Great for special occasions or date nights with quality Italian and Turkish influences.",
+      "mustTry": "Pan-seared branzino"
     },
     {
-      "name": "El Chile",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Contemporary Mexican restaurant highlighting regional recipes and premium tequilas. Features traditional techniques with modern presentations.",
-      "mustTry": "Street tacos al pastor"
-    },
-    {
-      "name": "Swift's Attic",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Southern comfort food restaurant with creative takes on classics like fried chicken and biscuits. Rooftop bar with downtown views and craft cocktails.",
-      "mustTry": "Fried chicken plate"
-    },
-    {
-      "name": "Turf & Surf Taco Co.",
+      "name": "Home Slice Pizza",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Food truck and small restaurant concept offering gourmet fish tacos and beef options with creative sauces. Quick service with high-quality ingredients.",
-      "mustTry": "Fish tacos"
+      "description": "New York-style pizza counter on South Congress serving oversized slices with quality toppings and dough. Iconic Austin institution famous for late-night crowds and reliable, delicious pizza.",
+      "mustTry": "Classic cheese slice"
+    },
+    {
+      "name": "Emmer & Rye",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant in downtown with chef-driven American cuisine and craft cocktails. Features seasonal menus and beautiful modern rustic ambiance perfect for any meal.",
+      "mustTry": "House-made pasta with seasonal vegetables"
     }
   ],
   "activities": [
     {
-      "name": "Live Music Venues on Sixth Street",
-      "category": "Nightlife",
-      "description": "Experience Austin's world-famous live music scene with numerous bars and clubs featuring local and touring musicians nightly. From intimate acoustic sets to full bands, options range from free to cover charges.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "name": "Congress Avenue Bridge Bat Colony",
+      "category": "Outdoor",
+      "description": "Watch 1.5 million Mexican free-tailed bats emerge at sunset from North America's largest urban bat colony. A spectacular natural phenomenon best viewed from the bridge or kayak below.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "surprise",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Lady Bird Lake Kayaking",
-      "category": "Outdoor",
-      "description": "Paddle on the scenic lake in downtown Austin with opportunities to spot wildlife including turtles, birds, and bats. Multiple rental companies offer hourly rentals with varying skill levels.",
-      "durationHours": 2,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "adventure",
-        "relaxation",
-        "photography"
+        "photography",
+        "adventure"
       ]
     },
     {
       "name": "Barton Springs Pool",
       "category": "Outdoor",
-      "description": "Natural spring-fed swimming pool maintaining 68-70°F year-round in beautiful Zilker Park. Free public facility with picnic areas, gardens, and hiking trails nearby.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
-        "adventure",
-        "family"
-      ]
-    },
-    {
-      "name": "South Congress Avenue Art Walk",
-      "category": "Cultural",
-      "description": "Explore Austin's vibrant street art scene with colorful murals, quirky shops, vintage boutiques, and eclectic eateries along the cultural corridor. Free walking tour of constantly evolving urban canvas.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "hidden-gems",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Austin Nature and Science Center",
-      "category": "Family",
-      "description": "Free interactive museum featuring native wildlife, ecosystems, and hands-on exhibits exploring Texas nature. Indoor exhibits and outdoor park trails suitable for all ages.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "family",
-        "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Zilker Botanical Garden",
-      "category": "Outdoor",
-      "description": "Beautiful 351-acre garden featuring diverse themed gardens, Japanese gardens, rose gardens, and natural plant collections. Perfect for leisurely walks and photography during golden hour.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "photography",
-        "relaxation",
-        "family"
-      ]
-    },
-    {
-      "name": "Hamilton Pool Nature Preserve",
-      "category": "Outdoor",
-      "description": "Stunning swimming hole fed by natural spring with 50-foot waterfall surrounded by lush limestone canyon. Located 30 minutes west of downtown with day-use parking fee and limited daily capacity.",
+      "description": "Natural spring-fed swimming pool maintaining 68-70°F year-round in beautiful Zilker Park. Austin's most beloved swimming spot offers refreshing swims surrounded by cypress trees and nature.",
       "durationHours": 3,
       "estimatedCostUSD": 15,
       "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
+        "standard",
+        "relaxation",
+        "adventure"
       ]
     },
     {
-      "name": "State Capitol Building Tour",
-      "category": "Cultural",
-      "description": "Explore the architecturally stunning Capitol building with free guided tours showcasing Texas history and government chambers. Beautiful interior with grand dome and scenic grounds.",
-      "durationHours": 1,
+      "name": "Lady Bird Lake Kayaking",
+      "category": "Adventure",
+      "description": "Paddle the scenic urban waterway beneath downtown Austin's skyline spotting turtles, fish, and birds. Multiple rental companies offer equipment and guided tours through this peaceful urban retreat.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Zilker Park Walk",
+      "category": "Outdoor",
+      "description": "Stroll through Austin's crown jewel 351-acre park featuring gardens, trails, playgrounds, and open green spaces. Free access to beautiful landscapes perfect for relaxation, picnicking, or photography.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "family",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Austin Bat Colony Observation",
-      "category": "Outdoor",
-      "description": "Watch 1.5 million Mexican free-tailed bats emerge from Congress Avenue Bridge at sunset during March-November. Free viewing from bridge with designated bat-watching areas.",
-      "durationHours": 1,
-      "estimatedCostUSD": 0,
+      "name": "South Congress Avenue Street Scene",
+      "category": "Cultural",
+      "description": "Explore SoCo's eclectic mix of vintage shops, street art, tattoo parlors, quirky restaurants, and bohemian culture. The neighborhood embodies Austin's creative spirit with colorful murals and unique local businesses.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
       "bestFor": [
-        "adventure",
+        "standard",
         "photography",
-        "family"
+        "surprise"
       ]
     },
     {
-      "name": "Blue Moon Bowling Alley",
-      "category": "Indoor",
-      "description": "Vintage bowling alley featuring arcade games, food, and craft beer with retro Austin atmosphere. Fun indoor activity suitable for groups and families.",
-      "durationHours": 2,
-      "estimatedCostUSD": 25,
+      "name": "Live Music Venues on 6th Street",
+      "category": "Nightlife",
+      "description": "Experience Austin's legendary music scene at historic venues featuring live performances every night across multiple genres. From country to blues to rock, live music is embedded in the city's culture.",
+      "durationHours": 4,
+      "estimatedCostUSD": 15,
       "bestFor": [
-        "family",
-        "relaxation",
-        "surprise"
+        "standard",
+        "surprise",
+        "relaxation"
       ]
     },
     {
       "name": "Mayfield Park and Preserve",
       "category": "Outdoor",
-      "description": "Hidden gem nature reserve featuring peacocks roaming freely through garden paths, native plant species, and scenic walking trails. Tucked away from main tourist areas with admission fee.",
+      "description": "Hidden gem featuring peacocks roaming freely through gardens, native plants, and historic architecture in a peaceful sanctuary. A serene escape with surprising beauty and colorful bird photography opportunities.",
       "durationHours": 2,
-      "estimatedCostUSD": 10,
+      "estimatedCostUSD": 8,
       "bestFor": [
         "hidden-gems",
         "photography",
@@ -263,15 +215,63 @@
       ]
     },
     {
-      "name": "Texas State History Museum",
-      "category": "Cultural",
-      "description": "Interactive museum exploring Texas history from indigenous peoples through modern times with exhibits, films, and artifacts. Located near Capitol building with reasonable admission.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "name": "Mt. Bonnell Sunset Hike",
+      "category": "Outdoor",
+      "description": "100-step climb to scenic overlook offering 360-degree views of Austin, Hill Country, and downtown skyline. Popular viewpoint especially stunning at sunset with photographer crowds.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mueller Lake Park and Boardwalk",
+      "category": "Outdoor",
+      "description": "Scenic paved boardwalk around tranquil lake surrounded by trails, parks, and natural habitat. Perfect for walking, cycling, or birdwatching in a peaceful setting away from downtown crowds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "family",
-        "cultural"
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Graffiti Wall Art Tour",
+      "category": "Cultural",
+      "description": "Discover Austin's thriving street art scene across neighborhoods like East Austin with massive colorful murals and legal graffiti walls. Many tours available or self-explore for free.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "photography",
+        "cultural",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Lady Bird Johnson Wildflower Center",
+      "category": "Cultural",
+      "description": "Botanical gardens showcasing native Texas wildflowers and plants with walking trails and beautiful seasonal displays. Educational and scenic destination perfect for photography and nature lovers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Hopdoddy Brewery and Microbreweries Tour",
+      "category": "Indoor",
+      "description": "Austin's craft beer scene is world-famous with dozens of breweries offering tastings and tours. Experience local craft culture at breweries like Jester King, Pinthouse Pizza, or Oskar Blues.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "surprise"
       ]
     }
   ],
@@ -279,92 +279,92 @@
     "spots": [
       {
         "name": "Congress Avenue Bridge",
-        "description": "Iconic bridge featuring colorful graffiti art and dramatic architecture, especially striking at sunrise or sunset with bat colony emerging at dusk.",
+        "description": "Iconic bridge framing downtown skyline with bat emergence silhouettes at sunset creating dramatic compositions.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset (March-November for bat emergence)",
+        "bestTime": "Sunset March-October",
         "category": "Architecture"
       },
       {
-        "name": "Zilker Park Botanical Garden",
-        "description": "Lush gardens with Japanese bridge, manicured landscapes, and seasonal flowers creating stunning compositions during golden hour.",
+        "name": "Zilker Park Barton Springs",
+        "description": "Natural spring pool surrounded by cypress trees and reflections offering serene landscape and wildlife photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon",
+        "bestTime": "Early morning golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mount Bonnell Summit",
+        "description": "360-degree overlook providing panoramic city and hill country vistas with downtown skyline reflecting city lights.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset or sunrise",
         "category": "Landscape"
       },
       {
         "name": "South Congress Avenue Murals",
-        "description": "Vibrant street art and colorful murals covering buildings along the corridor with constantly evolving urban canvas.",
+        "description": "Vibrant street art walls featuring colorful graffiti and murals perfect for urban and color-focused photography.",
         "difficulty": "Beginner",
-        "bestTime": "Midday for color saturation",
+        "bestTime": "Morning light or overcast",
         "category": "Street"
       },
       {
-        "name": "Lady Bird Lake Hike and Bike Trail",
-        "description": "Scenic trail offering reflections of downtown skyline, wildlife, and natural water views with multiple vantage points.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning for light and wildlife",
-        "category": "Landscape"
-      },
-      {
-        "name": "Barton Springs Pool Entrance",
-        "description": "Natural limestone pool surrounded by lush greenery and park landscape creating serene nature photography opportunities.",
+        "name": "Lady Bird Lake Downtown Reflection",
+        "description": "Downtown Austin skyline reflecting in calm water creating mirror compositions with pedestrian bridges and skyline.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning before crowds",
-        "category": "Landscape"
-      },
-      {
-        "name": "State Capitol Building",
-        "description": "Stunning Texas pink granite architecture with grand dome and manicured grounds providing classic architectural photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for side lighting",
+        "bestTime": "Sunrise or sunset",
         "category": "Architecture"
       },
       {
-        "name": "Mount Bonnell Viewpoint",
-        "description": "Elevated vantage point offering panoramic views of Austin skyline, hills, and Lake Austin with expansive landscape photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Golden hour for dramatic light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Sixth Street at Night",
-        "description": "Neon signs, street musicians, and urban energy create vibrant nightlife photography opportunities with colorful ambient light.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening after dark",
-        "category": "Night"
+        "name": "East Austin Murals and Street Art",
+        "description": "Massive outdoor murals painted by local and international artists creating colorful urban landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or overcast",
+        "category": "Street"
       },
       {
         "name": "Mayfield Park Peacocks",
-        "description": "Free-roaming peacocks in natural garden setting provide unique wildlife and nature photography without zoo barriers.",
+        "description": "Free-roaming peacocks among gardens and natural foliage providing unique wildlife and bird photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning when birds are active",
+        "bestTime": "Morning or late afternoon",
         "category": "Wildlife"
       },
       {
-        "name": "Hamilton Pool Waterfall",
-        "description": "Dramatic 50-foot waterfall surrounded by limestone canyon walls and lush vegetation creating scenic natural photography.",
+        "name": "Lady Bird Johnson Wildflower Center",
+        "description": "Seasonal wildflower blooms and native plants with trails offering close-up macro and landscape flower photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Overcast days for even lighting",
+        "bestTime": "Spring blooms April-May",
         "category": "Landscape"
+      },
+      {
+        "name": "Rainey Street Historic District",
+        "description": "Beautifully restored historic houses converted to bars and restaurants offering charming architectural night photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Night with city lights",
+        "category": "Architecture"
+      },
+      {
+        "name": "Pfluger Pedestrian Bridge",
+        "description": "Modern architectural bridge with sweeping curves offering unique perspectives of downtown and Lady Bird Lake.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Mount Bonnell Viewpoint",
-      "Lady Bird Lake Hike and Bike Trail",
-      "Zilker Park Botanical Garden"
+      "Mount Bonnell",
+      "Pfluger Pedestrian Bridge",
+      "Zilker Park"
     ],
     "sunsetSpots": [
       "Congress Avenue Bridge",
-      "Mount Bonnell Viewpoint",
-      "Lake Austin Scenic Vista"
+      "Mount Bonnell",
+      "Lady Bird Lake Downtown Overlook"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive landscape and skyline shots at Mount Bonnell and Lady Bird Lake",
-      "50mm prime for street photography along South Congress Avenue and intimate detail shots",
-      "70-200mm telephoto for wildlife photography of peacocks and bats without disturbing subjects",
-      "24-70mm versatile zoom for mixed genres covering architecture, street art, and general exploration"
+      "16-35mm wide-angle for expansive city skyline and landscape shots",
+      "24-70mm standard zoom for versatile street and architectural photography",
+      "70-200mm telephoto for compressed skyline and bat emergence framing",
+      "50mm prime for sharp street photography and intimate detail work"
     ],
-    "goldenHourNotes": "Austin's golden hour light reflects beautifully off Lady Bird Lake and illuminates the Capitol's pink granite with warm tones. Late afternoon light emphasizes the color saturation of South Congress murals and creates dramatic shadows on architectural details downtown. Winter months offer extended golden hour windows, while summer requires earlier timing due to later sunsets.",
+    "goldenHourNotes": "Austin's position offers excellent golden hour light reflecting off Lady Bird Lake and downtown structures. The Congress Avenue Bridge captures dramatic silhouettes with bats and city lights creating layered compositions. Mount Bonnell provides unobstructed 360-degree golden light coverage making it ideal for hour-long sunset sessions.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -372,62 +372,62 @@
       {
         "month": 1,
         "avgTempC": 9,
-        "rainfallMM": 43
+        "rainfallMM": 48
       },
       {
         "month": 2,
         "avgTempC": 11,
-        "rainfallMM": 38
+        "rainfallMM": 53
       },
       {
         "month": 3,
-        "avgTempC": 16,
-        "rainfallMM": 48
+        "avgTempC": 15,
+        "rainfallMM": 61
       },
       {
         "month": 4,
         "avgTempC": 21,
-        "rainfallMM": 89
-      },
-      {
-        "month": 5,
-        "avgTempC": 26,
         "rainfallMM": 91
       },
       {
+        "month": 5,
+        "avgTempC": 25,
+        "rainfallMM": 107
+      },
+      {
         "month": 6,
-        "avgTempC": 30,
-        "rainfallMM": 76
+        "avgTempC": 29,
+        "rainfallMM": 109
       },
       {
         "month": 7,
-        "avgTempC": 32,
-        "rainfallMM": 66
+        "avgTempC": 31,
+        "rainfallMM": 76
       },
       {
         "month": 8,
         "avgTempC": 31,
-        "rainfallMM": 71
+        "rainfallMM": 74
       },
       {
         "month": 9,
-        "avgTempC": 28,
-        "rainfallMM": 99
+        "avgTempC": 27,
+        "rainfallMM": 91
       },
       {
         "month": 10,
-        "avgTempC": 22,
-        "rainfallMM": 84
+        "avgTempC": 21,
+        "rainfallMM": 76
       },
       {
         "month": 11,
-        "avgTempC": 16,
-        "rainfallMM": 58
+        "avgTempC": 15,
+        "rainfallMM": 64
       },
       {
         "month": 12,
-        "avgTempC": 11,
-        "rainfallMM": 45
+        "avgTempC": 10,
+        "rainfallMM": 55
       }
     ],
     "bestMonths": [
@@ -436,8 +436,8 @@
       10,
       11
     ],
-    "seasonality": "Spring (March-May) and fall (October-November) offer ideal weather with mild temperatures and lower humidity. Summer months are extremely hot and humid with frequent afternoon thunderstorms, while winter is mild with occasional cold fronts.",
-    "summary": "Austin enjoys a subtropical climate with hot summers and mild winters, averaging 300+ days of sunshine annually. Spring and fall provide the most pleasant conditions for outdoor activities and sightseeing, while summer heat is tempered by numerous swimming holes and water activities."
+    "seasonality": "Austin experiences hot summers (June-August exceeding 30°C) with occasional drought conditions, while mild winters rarely drop below freezing. Spring and fall offer ideal weather with comfortable temperatures and lower rainfall, making these seasons peak tourist periods.",
+    "summary": "Austin enjoys a subtropical climate with hot, dry summers and mild winters, though spring brings occasional severe weather. Overall pleasant year-round with the best travel conditions during moderate months avoiding extreme heat."
   },
   "hotels": [
     {
@@ -445,22 +445,22 @@
       "neighborhood": "Downtown",
       "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Affordable downtown hostel offering shared and private rooms with communal kitchen, rooftop bar, and social atmosphere perfect for budget travelers."
+      "description": "Social hostel offering private and dorm rooms with rooftop access, great for meeting other travelers and accessing downtown attractions."
     },
     {
       "name": "Hotel Van Zandt",
       "neighborhood": "Downtown",
       "pricePerNightUSD": 280,
       "category": "Mid-range",
-      "description": "Contemporary boutique hotel featuring elegant rooms, excellent dining, rooftop pool, and prime downtown location near Congress Avenue and entertainment districts."
+      "description": "Upscale mid-range hotel in downtown with rooftop pool, excellent service, and convenient location near restaurants and attractions."
     },
     {
-      "name": "The Driskill Hotel",
+      "name": "Fairmont Austin",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 350,
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Historic luxury hotel established in 1886 offering opulent accommodations, fine dining, spa services, and iconic Texas hospitality in an architecturally significant building."
+      "description": "Ultra-luxurious waterfront property with spa, multiple restaurants, and stunning Lady Bird Lake views from the downtown location."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1655736759262-e1752dfb7652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBdXN0aW4lMjBsaXZlJTIwbXVzaWMlMjBjaXR5fGVufDF8MHx8fDE3ODEzMDMwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1593193188529-ef814f0255de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxBdXN0aW4lMjBDb25ncmVzcyUyMEF2ZW51ZSUyMEJyaWRnZXxlbnwxfDB8fHwxNzgxNjI3ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,213 +1,176 @@
 {
   "id": "nashville-usa",
   "city": "Nashville",
-  "country": "USA",
+  "country": "United States",
   "region": "North America",
   "airportCodes": [
     "BNA",
     "MEM",
-    "ATL"
+    "SDF"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
     "photography",
-    "nightlife",
-    "cultural",
-    "music"
+    "foodie",
+    "adventure",
+    "nightlife"
   ],
   "scores": {
     "cost": 65,
-    "food": 88,
-    "photography": 82,
+    "food": 92,
+    "photography": 88,
     "activities": 90,
-    "weather": 75
+    "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 60,
-      "maxPerDayUSD": 120
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
     },
     {
       "level": "mid",
-      "minPerDayUSD": 120,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Nashville Broadway neon",
-  "summary": "Nashville, the Music City, pulses with live performances, iconic honky-tonks, and a thriving food scene that rivals major culinary destinations. From the Grand Ole Opry to the vibrant street life of Broadway, this Tennessee capital blends Southern charm with contemporary culture and stunning photographic opportunities.",
+  "unsplashQuery": "Nashville honky-tonk neon lights",
+  "summary": "Nashville is the heart of country music, a vibrant city blending Southern tradition with modern creativity on the banks of the Cumberland River. From legendary honky-tonks on Broadway to world-class museums and increasingly diverse restaurants, Nashville offers unforgettable music, culture, and hospitality.",
   "restaurants": [
+    {
+      "name": "Hattie B's Hot Chicken",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Nashville's iconic hot chicken institution serving fiery, crispy chicken that defines the city's signature dish. Lines wrap around the block, but the experience is quintessentially Nashville.",
+      "mustTry": "Hot chicken sandwich with heat level selection"
+    },
+    {
+      "name": "The Commodore",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Southern cuisine in a sophisticated setting near the Ryman Auditorium, featuring locally sourced ingredients and innovative presentations of regional classics.",
+      "mustTry": "Gulf fish preparations and seasonal vegetables"
+    },
     {
       "name": "Prince's Hot Chicken Shack",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "A legendary Nashville institution serving fiercely spicy hot chicken sandwiches. This casual spot is where locals line up for authentic, no-frills Southern comfort food.",
-      "mustTry": "The Hot Chicken Sandwich"
+      "description": "The original hot chicken institution where the Nashville hot chicken legend began, operating since 1945 from a small East Nashville location.",
+      "mustTry": "Original recipe hot chicken with sides"
     },
     {
-      "name": "The Southern Steak & Oyster",
+      "name": "Ando",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale steakhouse featuring premium cuts and fresh oysters in a sophisticated setting. Known for exceptional service and an impressive wine collection.",
-      "mustTry": "Pan-seared scallops with truffle butter"
-    },
-    {
-      "name": "Fried Green Tomatoes",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual Southern restaurant with a warm atmosphere serving classic Nashville fare. Popular for lunch with locals and tourists alike.",
-      "mustTry": "Chicken and dumplings"
-    },
-    {
-      "name": "Rolf and Daughters",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Farm-to-table Italian restaurant emphasizing fresh, local ingredients in creative preparations. A destination for those seeking refined, innovative cuisine.",
-      "mustTry": "Handmade pasta with seasonal sauce"
-    },
-    {
-      "name": "Hattie B's Hot Chicken",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Modern take on Nashville's signature hot chicken with a vibrant restaurant space. Offers multiple heat levels and delicious sides.",
-      "mustTry": "Hot chicken with mac and cheese"
-    },
-    {
-      "name": "The Hermitage Hotel",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Historic fine dining establishment in a legendary hotel with Southern elegance and refined American cuisine. Known for impeccable presentations and attentive service.",
-      "mustTry": "Tennessee crab cake"
+      "priceRange": "$$$",
+      "description": "Contemporary Japanese-inspired fine dining with meticulous presentations and an extensive sake selection in an intimate downtown setting.",
+      "mustTry": "Omakase tasting menu"
     },
     {
       "name": "Biscuit Love",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Beloved breakfast and lunch spot famous for gourmet biscuits and creative sandwiches. Expect lines but reasonable prices for quality food.",
-      "mustTry": "The Chicken Biscuit with sausage gravy"
-    },
-    {
-      "name": "Attaboy Oyster Bar",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Lively oyster bar and restaurant with a fun atmosphere and excellent seafood offerings. Great for casual meals and social dining.",
-      "mustTry": "Fresh oyster platter"
-    },
-    {
-      "name": "Coup",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Vegetarian-focused restaurant offering creative meat-free dishes in an industrial-chic setting. Popular with all diners for inventive cuisine.",
-      "mustTry": "Seasonal vegetable plate"
-    },
-    {
-      "name": "404 Kitchen",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Contemporary American fine dining in the Gulch district featuring locally-sourced ingredients. Known for artistic plating and exceptional flavor combinations.",
-      "mustTry": "Chef's tasting menu"
+      "description": "Casual breakfast and lunch spot celebrated for artisanal biscuits with creative savory and sweet combinations, perfect for morning fuel.",
+      "mustTry": "Biscuit sandwich with rotating specials"
     },
     {
       "name": "Monell's Dining and Catering",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Family-style Southern dining in a historic home serving generous portions of traditional Nashville cuisine. A nostalgic experience of classic hospitality.",
-      "mustTry": "Fried chicken and biscuits"
+      "description": "Family-style Southern comfort food served at communal tables with an authentic, homestyle atmosphere that embodies Nashville hospitality.",
+      "mustTry": "Fried chicken, biscuits, and seasonal sides"
     },
     {
-      "name": "Mas Tacos Por Favor",
+      "name": "Ottomotto",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Italian restaurant with house-made pasta, quality wine selection, and warm ambiance in a historic Wedgewood-Houston building.",
+      "mustTry": "House-made ravioli specials"
+    },
+    {
+      "name": "Kayne Prime",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse specializing in prime cuts and elevated preparations, offering refined Southern dining with impeccable service.",
+      "mustTry": "Dry-aged steaks and bone marrow preparations"
+    },
+    {
+      "name": "JJ's Market",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual taqueria serving authentic Mexican street food with fresh ingredients and creative combinations. A favorite late-night spot for locals.",
-      "mustTry": "Carnitas tacos with fresh cilantro"
+      "description": "Casual market café with excellent sandwiches, salads, and prepared foods using local ingredients, ideal for quick quality meals.",
+      "mustTry": "Seasonal sandwiches and homemade sides"
+    },
+    {
+      "name": "Catbird Seat",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elite culinary destination with a 22-seat counter offering cutting-edge tasting menus that showcase ingredients and techniques at the highest level.",
+      "mustTry": "Chef's omakase-style tasting menu"
+    },
+    {
+      "name": "Yassin's Falafel House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-owned Lebanese restaurant producing fresh, flavorful falafel and Mediterranean specialties, representing Nashville's growing international food scene.",
+      "mustTry": "Falafel sandwich and hummus plates"
+    },
+    {
+      "name": "The Kitchen at The Ritz-Carlton",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Sophisticated French-inspired cuisine with Southern influences in an elegant downtown setting overlooking the Cumberland River.",
+      "mustTry": "Seasonal tasting menus with wine pairings"
     }
   ],
   "activities": [
     {
-      "name": "Grand Ole Opry Performance",
+      "name": "Grand Ole Opry Tour and Performance",
       "category": "Cultural",
-      "description": "Historic live music venue hosting country performances multiple times per week in an iconic setting. A quintessential Nashville experience showcasing established and emerging artists.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
+      "description": "Experience the world's longest-running radio show featuring live country music performances on the iconic stage where legends have performed since 1925.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
       "bestFor": [
         "standard",
-        "photography",
-        "cultural"
+        "foodie",
+        "nightlife"
+      ]
+    },
+    {
+      "name": "Ryman Auditorium Tour",
+      "category": "Cultural",
+      "description": "Visit the historic 'Mother Church of Country Music' with guided tours exploring the venue's legendary acoustics, stage, and memorabilia from country's greatest artists.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "photography"
       ]
     },
     {
       "name": "Broadway Honky-Tonk Crawl",
       "category": "Nightlife",
-      "description": "Walk down Broadway's famous honky-tonks with live bands performing on multiple stages. Free entry to most venues with the purchase of drinks.",
-      "durationHours": 3,
-      "estimatedCostUSD": 30,
+      "description": "Explore multiple legendary honky-tonks and live music venues along Broadway, experiencing live country performances, dancing, and the authentic Nashville nightlife culture.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "nightlife",
-        "photography"
+        "surprise"
       ]
     },
     {
       "name": "Country Music Hall of Fame",
       "category": "Cultural",
-      "description": "Comprehensive museum dedicated to country music history with artifacts, interactive exhibits, and memorabilia. Learn about the genre's evolution and most influential artists.",
+      "description": "Comprehensive museum showcasing country music history with interactive exhibits, authentic artifacts, and the stories of country's greatest artists and songwriters.",
       "durationHours": 3,
-      "estimatedCostUSD": 26,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "photography"
-      ]
-    },
-    {
-      "name": "Ryman Auditorium Historic Tour",
-      "category": "Cultural",
-      "description": "Guided tour of the 'Mother Church of Country Music' with its remarkable history and architecture. Still hosts live performances and special events.",
-      "durationHours": 2,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "photography"
-      ]
-    },
-    {
-      "name": "Nashville Parthenon Visit",
-      "category": "Cultural",
-      "description": "Full-scale replica of the Greek Parthenon housing art galleries and hosting events. A unique architectural landmark with beautiful grounds for exploration.",
-      "durationHours": 2,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Cumberland River Kayaking",
-      "category": "Adventure",
-      "description": "Paddle through Nashville's natural landscape with views of downtown and surrounding nature. Multiple outfitters offer guided and self-guided tours.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "outdoor"
-      ]
-    },
-    {
-      "name": "East Nashville Street Art Tour",
-      "category": "Outdoor",
-      "description": "Self-guided or group walking tour through East Nashville's vibrant murals and street art. Highly photogenic neighborhood with eclectic shops and cafes.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 28,
       "bestFor": [
         "standard",
         "photography",
@@ -215,156 +178,192 @@
       ]
     },
     {
-      "name": "The Gulch District Exploration",
+      "name": "Parthenon Visit and Museum",
+      "category": "Cultural",
+      "description": "Explore Nashville's stunning full-scale replica of the ancient Athenian Parthenon located in Centennial Park, featuring museums and beautiful grounds for exploration and photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "photography",
+        "architecture",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Walk the Cumberland River Greenway",
       "category": "Outdoor",
-      "description": "Modern mixed-use neighborhood with restaurants, shops, galleries, and vibrant atmosphere. Great for people-watching and discovering contemporary Nashville culture.",
+      "description": "Scenic 11-mile path along the Cumberland River with parks, overlooks, and connections to downtown attractions, perfect for walking, running, or cycling.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "The Gulch Exploration and Shopping",
+      "category": "Outdoor",
+      "description": "Modern urban neighborhood featuring restaurants, shops, galleries, and street art along brick warehouses transformed into trendy retail and dining destinations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
         "standard",
-        "foodie",
-        "photography"
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Songwriting Sessions at Publishing Houses",
+      "category": "Cultural",
+      "description": "Participate in songwriting workshops or attend live writing sessions at Music Row publishing houses to understand Nashville's creative songwriting process.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Nashville Zoo at Grassmere",
+      "category": "Family",
+      "description": "45-acre zoo featuring diverse animal exhibits, interactive experiences, and beautiful grounds in a historic mansion setting with activities for all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "family",
+        "photography",
+        "adventure"
       ]
     },
     {
       "name": "Honky Tonk Central Experience",
       "category": "Cultural",
-      "description": "Interactive entertainment venue with live bands, exhibits, and merchandise showcasing country music culture. Located at a prime Broadway location.",
+      "description": "Interactive museum and venue dedicated to honky-tonks with live performances, memorabilia, and immersive displays celebrating the iconic Nashville bar culture.",
       "durationHours": 2,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 22,
       "bestFor": [
         "standard",
-        "cultural",
-        "nightlife"
-      ]
-    },
-    {
-      "name": "Percy Warner Park Hiking",
-      "category": "Outdoor",
-      "description": "Expansive park with scenic trails, picnic areas, and nature observation opportunities. A peaceful escape from downtown with natural beauty.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "outdoor",
+        "nightlife",
         "photography"
       ]
     },
     {
-      "name": "Music Row Historic Walking Tour",
+      "name": "East Nashville Street Art and Murals Tour",
+      "category": "Outdoor",
+      "description": "Self-guided or organized tour exploring East Nashville's vibrant street art scene with hundreds of murals, galleries, and artistic installations in trendy neighborhoods.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "hidden-gems",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Hermitage Mansion Tour",
       "category": "Cultural",
-      "description": "Self-guided or organized tour through Nashville's legendary recording industry hub with studio and office buildings. Learn about country music's commercial heart.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Historic plantation home of President Andrew Jackson featuring period furnishings, gardens, and exhibits about 19th-century Tennessee history and presidential life.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "cultural",
-        "photography"
-      ]
-    },
-    {
-      "name": "Bride's Bridge Sunset Picnic",
-      "category": "Outdoor",
-      "description": "Scenic spot along the river offering peaceful park surroundings and excellent sunset views. Perfect for relaxation and intimate moments.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
+        "photography",
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Broadway at Night",
-        "description": "Neon-lit honky-tonk signs and street performers create vibrant nighttime scenes with authentic Nashville atmosphere.",
+        "name": "Ryman Auditorium Exterior",
+        "description": "Iconic red brick Gothic Revival building with ornate architecture and neon signs, stunning at night or with dramatic sky backgrounds.",
         "difficulty": "Beginner",
-        "bestTime": "Evening after 7 PM",
-        "category": "Street"
-      },
-      {
-        "name": "Shelby Street Bridge",
-        "description": "Pedestrian bridge offering dramatic skyline views of downtown Nashville's modern architecture and lights.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour or night",
+        "bestTime": "Golden hour for architectural detail, dusk for neon",
         "category": "Architecture"
       },
       {
-        "name": "The Parthenon",
-        "description": "Iconic Greek replica structure with striking architectural columns and reflecting pool creating symmetrical compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm light",
+        "name": "Parthenon Front Steps",
+        "description": "Grand neoclassical replica with towering columns and manicured reflecting pool, beautiful in morning light or during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for soft light",
         "category": "Architecture"
       },
       {
-        "name": "East Nashville Murals",
-        "description": "Colorful street art and murals covering buildings throughout the vibrant neighborhood with constantly evolving artistic expressions.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for clear colors",
-        "category": "Street"
-      },
-      {
-        "name": "The Ryman Auditorium Exterior",
-        "description": "Historic brick building with distinctive architecture and arched windows creates atmospheric compositions day or night.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunrise or evening light",
-        "category": "Architecture"
-      },
-      {
-        "name": "Cumberland River Waterfront",
-        "description": "Wide river vistas with downtown reflections and natural lighting that shifts throughout the day.",
+        "name": "Broadway Honky-Tonks Neon",
+        "description": "Vibrant collection of neon signs and vintage marquees lighting up the historic street, electric energy captured best after dark.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning or sunset",
-        "category": "Landscape"
-      },
-      {
-        "name": "Honky Tonk Central Neon Signs",
-        "description": "Detailed neon signage and vintage music venue aesthetics offer colorful, high-contrast photographic subjects.",
-        "difficulty": "Intermediate",
-        "bestTime": "Dusk to night for neon glow",
+        "bestTime": "Dusk to late night for neon glow",
         "category": "Night"
       },
       {
-        "name": "Gulch District Street Photography",
-        "description": "Modern urban environment with contemporary architecture, people activity, and mixed aesthetic elements for dynamic compositions.",
+        "name": "Gulch Brick Warehouses at Sunset",
+        "description": "Modern converted warehouse architecture with geometric lines and exposed brick, excellent for urban photography with dramatic sky lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour with clear western sky",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cumberland River Pedestrian Bridge",
+        "description": "Modern pedestrian bridge with river views, city skyline reflections, and interesting geometric structure, ideal for both day and night photography.",
         "difficulty": "Beginner",
-        "bestTime": "Midday or golden hour",
+        "bestTime": "Sunset for sky colors and skyline",
+        "category": "Landscape"
+      },
+      {
+        "name": "East Nashville Murals",
+        "description": "Vibrant street art covering entire walls with varied styles and colors, excellent for colorful compositions and cultural documentation.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for bright colors, overcast for even light",
         "category": "Street"
       },
       {
-        "name": "John Seigenthaler Pedestrian Bridge",
-        "description": "Modern cable-stayed bridge with architectural interest and pathway perspectives creating leading lines toward downtown.",
+        "name": "Shelby Park Historic Grove",
+        "description": "Natural wooded landscape with mature trees creating natural framing, peaceful for environmental and nature-focused photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour or blue hour",
+        "bestTime": "Morning with side-lit light through trees",
+        "category": "Landscape"
+      },
+      {
+        "name": "Honky Tonk Central Sign",
+        "description": "Iconic illuminated signage and vintage marquee with country music heritage, striking neon and atmospheric lighting after sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Evening for neon colors and atmosphere",
+        "category": "Night"
+      },
+      {
+        "name": "Titans Stadium Overlook",
+        "description": "Modern sports architecture with river view across from downtown skyline, interesting contemporary design with scenic backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm light on structures",
         "category": "Architecture"
       },
       {
-        "name": "Music Valley and Record Labels",
-        "description": "Historic music industry buildings, studios, and markers provide cultural and architectural photography opportunities.",
+        "name": "Printer's Alley Historic District",
+        "description": "Narrow historic alley with vintage brick, aged signage, and atmospheric lighting, excellent for moody street and architectural photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour light",
-        "category": "Architecture"
+        "bestTime": "Overcast days for even light, evening for neon",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Shelby Street Bridge",
-      "Cumberland River Waterfront",
-      "Percy Warner Park overlook"
+      "Cumberland River Pedestrian Bridge",
+      "Parthenon Reflecting Pool",
+      "Shelby Park from Overlook Trail"
     ],
     "sunsetSpots": [
-      "John Seigenthaler Pedestrian Bridge",
-      "Bride's Bridge along the Cumberland",
-      "The Parthenon grounds"
+      "Broadway from Pedestrian Bridge",
+      "Gulch District Rooftops",
+      "Cumberland River Western Bank"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for architectural and cityscape compositions capturing Nashville's skyline and street scenes",
-      "50mm prime for intimate street photography and nightlife venues with shallow depth of field",
-      "70-200mm telephoto for compressed perspectives of distant bridges and architectural details",
-      "14mm ultra-wide for dramatic Parthenon columns and street-level urban compositions"
+      "16-35mm wide angle for architecture and skyline compositions",
+      "50mm prime for street photography and detailed urban scenes",
+      "85-135mm telephoto for compressed perspectives of skyline and isolated subjects",
+      "24-70mm versatile zoom for varied shooting situations throughout city"
     ],
-    "goldenHourNotes": "Nashville's golden hour is exceptionally photogenic due to reflected light off the Cumberland River and glass architecture in the Gulch. The warm tones complement the brick of historic structures along Broadway and Music Row. Plan shoots 30 minutes before sunset through 30 minutes after for optimal conditions, particularly near water features and architectural landmarks.",
+    "goldenHourNotes": "Nashville's golden hour is particularly magical along the Cumberland River and against historic brick architecture, with warm light beautifully illuminating the city's character. The Parthenon and Ryman Auditorium glow warmly during sunset, while the Gulch district's modern structures reflect dramatic amber light. Plan shoots to catch the interplay between historic structures and modern architecture as sunset light transitions from warm to cool.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -372,57 +371,57 @@
       {
         "month": 1,
         "avgTempC": 4,
-        "rainfallMM": 127
+        "rainfallMM": 130
       },
       {
         "month": 2,
         "avgTempC": 6,
-        "rainfallMM": 127
+        "rainfallMM": 120
       },
       {
         "month": 3,
         "avgTempC": 12,
-        "rainfallMM": 140
+        "rainfallMM": 135
       },
       {
         "month": 4,
         "avgTempC": 18,
-        "rainfallMM": 127
+        "rainfallMM": 130
       },
       {
         "month": 5,
         "avgTempC": 23,
-        "rainfallMM": 127
+        "rainfallMM": 115
       },
       {
         "month": 6,
-        "avgTempC": 28,
-        "rainfallMM": 114
+        "avgTempC": 27,
+        "rainfallMM": 110
       },
       {
         "month": 7,
         "avgTempC": 29,
-        "rainfallMM": 127
+        "rainfallMM": 125
       },
       {
         "month": 8,
         "avgTempC": 28,
-        "rainfallMM": 102
+        "rainfallMM": 105
       },
       {
         "month": 9,
-        "avgTempC": 25,
-        "rainfallMM": 102
+        "avgTempC": 24,
+        "rainfallMM": 100
       },
       {
         "month": 10,
         "avgTempC": 18,
-        "rainfallMM": 76
+        "rainfallMM": 80
       },
       {
         "month": 11,
-        "avgTempC": 12,
-        "rainfallMM": 127
+        "avgTempC": 11,
+        "rainfallMM": 125
       },
       {
         "month": 12,
@@ -433,34 +432,33 @@
     "bestMonths": [
       4,
       5,
-      9,
       10
     ],
-    "seasonality": "Nashville experiences four distinct seasons with mild winters and hot, humid summers. Spring and fall offer ideal temperatures for exploring the city with lower humidity and pleasant conditions.",
-    "summary": "Nashville's humid subtropical climate brings warm to hot summers with occasional thunderstorms and cooler winters. April-May and September-October provide the most comfortable weather for sightseeing and outdoor activities."
+    "seasonality": "Nashville experiences four distinct seasons with pleasant spring temperatures (April-May) and beautiful fall weather (October) offering ideal conditions for tourism and photography. Summer (June-August) brings heat and humidity, while winter (December-February) is cold and wet with occasional snow.",
+    "summary": "Nashville's weather offers year-round opportunities with mild winters averaging 5°C and warm summers around 27°C, though humidity levels can be high in summer. Spring and fall provide the most comfortable temperatures and lower rainfall, making them ideal seasons for visiting and exploring the city."
   },
   "hotels": [
     {
-      "name": "Music City Hostel",
-      "neighborhood": "Downtown",
-      "pricePerNightUSD": 45,
+      "name": "Nissan Stadium Hotel",
+      "neighborhood": "Downtown/Titans Area",
+      "pricePerNightUSD": 89,
       "category": "Budget",
-      "description": "Social hostel with private and dormitory rooms, kitchen access, and friendly atmosphere near Broadway attractions."
+      "description": "No-frills budget accommodation with basic amenities in a convenient downtown location near sports venues and major attractions."
     },
     {
       "name": "JW Marriott Nashville",
-      "neighborhood": "The Gulch",
-      "pricePerNightUSD": 180,
+      "neighborhood": "Downtown/The Gulch",
+      "pricePerNightUSD": 220,
       "category": "Mid-range",
-      "description": "Modern upscale hotel with rooftop pool, multiple restaurants, and convenient location in Nashville's trendy Gulch district."
+      "description": "Modern upscale hotel with excellent service, rooftop lounge, and central location within walking distance of Broadway honky-tonks and major attractions."
     },
     {
-      "name": "The JC Hart Hotel",
+      "name": "The Hermitage Hotel",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 320,
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Boutique luxury hotel housed in a historic building with personalized service, fine dining, and prime Broadway proximity."
+      "description": "Historic luxury hotel with opulent interiors, award-winning service, fine dining, and iconic status as Nashville's most prestigious accommodation since 1910."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1588897159261-328f3f53715f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxOYXNodmlsbGUlMjBCcm9hZHdheSUyMG5lb258ZW58MXwwfHx8MTc4MTMwMzA1Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1763137727252-7858f0037b65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxOYXNodmlsbGUlMjBob25reS10b25rJTIwbmVvbiUyMGxpZ2h0c3xlbnwxfDB8fHwxNzgxNjI3ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

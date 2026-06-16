@@ -1,0 +1,460 @@
+{
+  "id": "joshua-tree-usa",
+  "city": "Joshua Tree",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "LAX",
+    "ONT",
+    "PSP"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "adventure",
+    "photography",
+    "relaxation",
+    "hidden-gems",
+    "standard"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 70,
+    "photography": 95,
+    "activities": 85,
+    "weather": 80
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Joshua Tree desert rocks",
+  "summary": "Joshua Tree National Park is a photographer's paradise featuring surreal desert landscapes, massive boulder formations, and stunning starry skies in California's Mojave Desert. The quirky town of Joshua Tree offers a laid-back desert community vibe with excellent hiking, rock climbing, and endless opportunities for capturing otherworldly images.",
+  "restaurants": [
+    {
+      "name": "Pappy & Harriet's",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Legendary desert barbecue restaurant with a bohemian atmosphere, featuring succulent ribs, brisket, and live music in a historic setting just outside town. Known for its rustic charm and generous portions.",
+      "mustTry": "Tri-tip BBQ with cornbread"
+    },
+    {
+      "name": "Crossroads Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite serving classic American breakfast and lunch with generous portions and friendly service. Perfect for fueling up before a day of hiking or exploring.",
+      "mustTry": "Breakfast burrito"
+    },
+    {
+      "name": "The Natural Sisters Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Organic, plant-based cafe featuring fresh smoothie bowls, wraps, and salads in a cozy desert setting. Great for vegetarians and health-conscious travelers.",
+      "mustTry": "Acai bowl with local granola"
+    },
+    {
+      "name": "Artisan's Donuts",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisanal donut shop crafting creative flavors daily, from classic glazed to adventurous seasonal specials. A sweet stop before heading to the park.",
+      "mustTry": "Spiced cake donut"
+    },
+    {
+      "name": "La Cabaña de Joshua Tree",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic Mexican restaurant offering traditional cuisine with fresh ingredients and generous margaritas. A beloved community gathering spot with warm service.",
+      "mustTry": "Chile relleno and authentic tamales"
+    },
+    {
+      "name": "Oka Uba",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale restaurant featuring Japanese-inspired cuisine with locally-sourced ingredients and creative desert-inspired dishes. Intimate atmosphere perfect for special occasions.",
+      "mustTry": "Miso-glazed local fish"
+    },
+    {
+      "name": "Karuna Kafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Yoga-inspired vegetarian restaurant with global fusion cuisine, fresh juices, and a peaceful garden setting. Ideal for wellness-focused travelers.",
+      "mustTry": "Buddha bowl with tahini dressing"
+    },
+    {
+      "name": "Quail Springs Market & Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Natural market and cafe offering prepared foods, sandwiches, and picnic supplies for park-goers. Great for grabbing lunch to take on your adventures.",
+      "mustTry": "Freshly made sandwich"
+    },
+    {
+      "name": "Pie Hole",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming pie shop featuring homemade sweet and savory pies, perfect for dessert or a light meal. Popular gathering spot for locals and travelers alike.",
+      "mustTry": "Apple or pecan pie à la mode"
+    },
+    {
+      "name": "Sunroof Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual cafe serving coffee, pastries, and light bites in a friendly desert town atmosphere. Perfect morning stop before exploring the park.",
+      "mustTry": "Espresso drink and fresh pastry"
+    },
+    {
+      "name": "Wildflower Bread Company",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Artisan bakery offering freshly baked breads, pastries, and prepared sandwiches with quality ingredients. Great for picnic supplies or casual breakfast.",
+      "mustTry": "Sourdough sandwich"
+    },
+    {
+      "name": "The RoadHouse Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Desert-style steakhouse with hearty portions, craft beers, and a casual atmosphere. Known for their burgers and steaks prepared over open flames.",
+      "mustTry": "Mesquite-grilled burger"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Joshua Tree National Park Visitor Center & Orientation",
+      "category": "Cultural",
+      "description": "Start with a comprehensive overview of the park's geology, wildlife, and attractions at the main visitor center. Pick up maps, learn about ranger programs, and understand the park's unique desert ecosystem.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Barker Dam Trail Hike",
+      "category": "Outdoor",
+      "description": "Moderate 1.4-mile loop trail featuring historic Native American petroglyphs, wildlife sightings, and scenic desert vistas. One of the most rewarding short hikes in the park with cultural significance.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Keys View Scenic Drive",
+      "category": "Outdoor",
+      "description": "Drive to the highest point in the park for panoramic views stretching to Mexico on clear days. Perfect for sunrise or sunset with dramatic light and minimal hiking required.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Rock Climbing at Hidden Valley",
+      "category": "Adventure",
+      "description": "World-class rock climbing destination with routes for beginners to advanced climbers on massive boulder formations. Guided lessons available or bring your own gear for this iconic desert climbing experience.",
+      "durationHours": 4,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Skull Rock Trail Loop",
+      "category": "Outdoor",
+      "description": "Easy 1.8-mile loop trail featuring jumbo boulders, desert vegetation, and scenic viewpoints with minimal elevation gain. Great for families and those seeking accessible park exploration.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Stargazing Experience in Joshua Tree",
+      "category": "Outdoor",
+      "description": "Experience some of the darkest skies in Southern California for incredible stargazing with the Milky Way clearly visible. Many accommodations offer guided stargazing or visit during an astronomy festival.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Cholla Cactus Garden Trail",
+      "category": "Outdoor",
+      "description": "Easy 0.25-mile loop through a forest of striking golden cholla cacti, most dramatic in afternoon light. One of the shortest and most visually impressive walks in the park.",
+      "durationHours": 0.75,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Cottonwood Spring Hike",
+      "category": "Outdoor",
+      "description": "Moderate 3-mile round-trip hike through desert terrain to a natural spring with historic ruins and wildlife. More secluded than many trails with excellent landscape photography opportunities.",
+      "durationHours": 3.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Joshua Tree Town Art Walk & Gallery Tour",
+      "category": "Cultural",
+      "description": "Explore the creative community through galleries, murals, and artist studios showcasing desert-inspired art. The town hosts monthly art walks featuring local artists, live music, and community gatherings.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Quail Mountain Trail",
+      "category": "Adventure",
+      "description": "Challenging 5.5-mile round-trip hike to the park's highest peak at 5,518 feet with breathtaking panoramic views. Requires stamina but rewards with solitude and 360-degree vistas.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Desert Yoga & Wellness Classes",
+      "category": "Relaxation",
+      "description": "Many resorts and local instructors offer sunrise or sunset yoga classes in the desert with mountain views. Perfect for centering yourself in this unique landscape and connecting with the natural environment.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Wall Street Mill Trail",
+      "category": "Outdoor",
+      "description": "Moderate 2.5-mile round-trip hike featuring a historic gold mining mill and scenic canyon views. Less crowded than main park trails with interesting historical structures and desert photography.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Keys View",
+        "description": "Highest point in the park offering panoramic desert views extending to Mexico with dramatic lighting during sunrise and sunset.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise or sunset)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Skull Rock",
+        "description": "Iconic boulder formation perfect for compositional framing and dramatic desert landscape shots with surrounding jumbo rocks.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or late afternoon for side-lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cholla Cactus Garden",
+        "description": "Golden cholla cacti create stunning silhouettes and glow effects, especially magical during afternoon backlighting.",
+        "difficulty": "Beginner",
+        "bestTime": "Afternoon when sun backlights the cacti",
+        "category": "Landscape"
+      },
+      {
+        "name": "Barker Dam Trail",
+        "description": "Ancient petroglyphs on rock faces combined with desert landscapes and possible wildlife sightings create compelling compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light reveals petroglyphs best",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hidden Valley Loop",
+        "description": "Massive boulder formations create dramatic framing opportunities and textured compositions with climbers adding scale and human interest.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for softer light on rock textures",
+        "category": "Landscape"
+      },
+      {
+        "name": "Jumbo Rocks Campground",
+        "description": "Stunning concentration of enormous boulders stacked improbably, perfect for abstract compositions and dramatic architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dawn or dusk for dramatic shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Cottonwood Spring Trail",
+        "description": "Desert landscape with varied terrain, historic ruins, and potential wildlife photography opportunities in a less-crowded area.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning for wildlife activity and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Joshua Tree Town Streets",
+        "description": "Quirky desert community with colorful murals, vintage signs, art installations, and unique storefronts offering street photography possibilities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or golden hour for warm tones",
+        "category": "Street"
+      },
+      {
+        "name": "Quail Mountain Summit",
+        "description": "Highest vantage point in the park with 360-degree panoramic views perfect for landscape and aerial perspective photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for dramatic lighting on distant peaks",
+        "category": "Landscape"
+      },
+      {
+        "name": "Desert Night Sky",
+        "description": "Some of the darkest skies in Southern California reveal the Milky Way in stunning detail, perfect for astrophotography and long-exposure night shots.",
+        "difficulty": "Advanced",
+        "bestTime": "Moonless nights during new moon phase",
+        "category": "Night"
+      }
+    ],
+    "sunriseSpots": [
+      "Keys View",
+      "Quail Mountain Summit",
+      "Barker Dam Trail"
+    ],
+    "sunsetSpots": [
+      "Keys View",
+      "Cholla Cactus Garden",
+      "Skull Rock Trail"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for expansive landscape vistas and desert panoramas",
+      "70-200mm telephoto for compressed mountain scenes and distant detail compression",
+      "50mm prime for intimate desert portraits and candid town photography",
+      "14mm ultra-wide or fisheye for dramatic astrophotography and immersive night skies"
+    ],
+    "goldenHourNotes": "Joshua Tree's desert environment creates exceptional golden hour light with warm, rich tones illuminating the pale rocks. The low humidity and clear air allow light to remain vibrant and directional for extended periods during sunrise and sunset. Position yourself with rocks between you and the sun for elegant silhouettes and backlighting that reveals texture and form.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 12,
+        "rainfallMM": 8
+      },
+      {
+        "month": 2,
+        "avgTempC": 14,
+        "rainfallMM": 5
+      },
+      {
+        "month": 3,
+        "avgTempC": 19,
+        "rainfallMM": 3
+      },
+      {
+        "month": 4,
+        "avgTempC": 26,
+        "rainfallMM": 2
+      },
+      {
+        "month": 5,
+        "avgTempC": 33,
+        "rainfallMM": 1
+      },
+      {
+        "month": 6,
+        "avgTempC": 40,
+        "rainfallMM": 1
+      },
+      {
+        "month": 7,
+        "avgTempC": 42,
+        "rainfallMM": 8
+      },
+      {
+        "month": 8,
+        "avgTempC": 41,
+        "rainfallMM": 10
+      },
+      {
+        "month": 9,
+        "avgTempC": 37,
+        "rainfallMM": 5
+      },
+      {
+        "month": 10,
+        "avgTempC": 29,
+        "rainfallMM": 2
+      },
+      {
+        "month": 11,
+        "avgTempC": 20,
+        "rainfallMM": 4
+      },
+      {
+        "month": 12,
+        "avgTempC": 13,
+        "rainfallMM": 6
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "seasonality": "Joshua Tree experiences extreme summer heat (over 40°C) making June through September challenging for outdoor activities, while winter brings cool temperatures perfect for hiking. Spring and fall offer ideal conditions with mild temperatures, low rainfall, and clear skies for both exploration and photography.",
+    "summary": "The desert climate provides mostly sunny, dry conditions year-round with dramatic temperature swings between day and night. Winter months can bring occasional rain and surprisingly cold evenings, while late spring through early fall sees scorching heat that limits daytime activities."
+  },
+  "hotels": [
+    {
+      "name": "The Ruin",
+      "neighborhood": "Joshua Tree Town",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Quirky, bohemian budget hotel featuring artistic decor, cozy rooms, and a welcoming community atmosphere in the heart of Joshua Tree town."
+    },
+    {
+      "name": "La Maison Hotel",
+      "neighborhood": "Joshua Tree Town",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Charming mid-range boutique hotel with stylish desert-inspired rooms, excellent amenities, and a strong commitment to sustainability and local culture."
+    },
+    {
+      "name": "The Ritz-Carlton, Rancho Mirage",
+      "neighborhood": "Rancho Mirage (nearby)",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Ultra-luxury resort featuring world-class amenities, championship golf courses, fine dining, and spa services with stunning desert mountain views near Joshua Tree."
+    }
+  ]
+}

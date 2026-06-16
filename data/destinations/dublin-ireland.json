@@ -6,7 +6,7 @@
   "airportCodes": [
     "DUB",
     "SNN",
-    "CRK"
+    "ORK"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -14,24 +14,24 @@
     "surprise",
     "photography",
     "foodie",
-    "relaxation"
+    "cultural"
   ],
   "scores": {
     "cost": 45,
-    "food": 88,
-    "photography": 85,
-    "activities": 90,
-    "weather": 35
+    "food": 85,
+    "photography": 80,
+    "activities": 85,
+    "weather": 50
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 80,
-      "maxPerDayUSD": 130
+      "minPerDayUSD": 70,
+      "maxPerDayUSD": 120
     },
     {
       "level": "mid",
-      "minPerDayUSD": 130,
+      "minPerDayUSD": 120,
       "maxPerDayUSD": 220
     },
     {
@@ -40,171 +40,124 @@
       "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Dublin Ireland Temple Bar",
-  "summary": "Dublin captivates visitors with its Georgian architecture, world-class pubs, and literary heritage that inspired Joyce and Wilde. The vibrant capital blends historic sites like Trinity College and the Guinness Storehouse with contemporary culture, exceptional food scene, and riverside walks along the Liffey.",
+  "unsplashQuery": "Dublin Ha'penny Bridge",
+  "summary": "Dublin is a vibrant capital city blending medieval history with modern Irish culture, featuring world-class museums, literary heritage, and a thriving pub scene. The Liffey River winds through Georgian architecture and bustling neighborhoods filled with street art, craft breweries, and warm-hearted locals.",
   "restaurants": [
     {
       "name": "Leo Burdock",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Dublin's most famous fish and chips shop, operating since 1952 in a tiny storefront. Locals queue for crispy battered fish with perfectly salted chips.",
-      "mustTry": "Traditional fish and chips with mushy peas"
+      "description": "Iconic fish and chips takeaway operating since 1913, serving traditional Irish comfort food with queue lines around the block.",
+      "mustTry": "Battered cod and chips with mushy peas"
     },
     {
       "name": "The Winding Stair",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Cozy bookstore restaurant overlooking the Liffey with seasonal Irish cuisine using local produce. Intimate atmosphere with exposed brick and literary charm.",
-      "mustTry": "Irish lamb stew with soda bread"
-    },
-    {
-      "name": "Shanahan's on the Green",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Elegant American steakhouse on St. Stephen's Green featuring dry-aged beef and an extensive wine list. Classic fine dining with attentive service.",
-      "mustTry": "24oz dry-aged porterhouse steak"
-    },
-    {
-      "name": "Café Noir",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual French-inspired café perfect for breakfasts and light lunches in the city center. Known for excellent coffee and fresh pastries.",
-      "mustTry": "Croissants and espresso"
-    },
-    {
-      "name": "Proper Order",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Casual fish restaurant in Temple Bar with sustainable seafood and casual vibe. Great value for fresh Dublin Bay prawns and white fish.",
-      "mustTry": "Fish tacos with crispy batter"
-    },
-    {
-      "name": "Restaurant Patrick Guilbaud",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Two Michelin-starred restaurant showcasing modern Irish cuisine with French technique in an elegant setting. One of Dublin's most prestigious dining experiences.",
-      "mustTry": "Tasting menu with paired wines"
-    },
-    {
-      "name": "Klaw",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual seafood restaurant in Smithfield specializing in oysters, clams, and fresh catches with natural wine pairings. Modern Irish seafood approach.",
-      "mustTry": "Fresh Dublin Bay oysters"
+      "description": "Literary-themed bookshop restaurant overlooking the Liffey, offering modern Irish cuisine in an intimate setting.",
+      "mustTry": "Seafood chowder with brown bread"
     },
     {
       "name": "Bunsen",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Minimalist burger shop with high-quality grass-fed Irish beef and simple preparation. Fast-casual with excellent value.",
-      "mustTry": "Bunsen burger with cheese"
+      "description": "Minimalist burger joint focusing on quality beef patties and simple, fresh ingredients without unnecessary frills.",
+      "mustTry": "Classic Bunsen burger with cheese"
     },
     {
-      "name": "Cornucopia",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Small vegetarian restaurant in the city center with creative daily-changing menu using seasonal vegetables. Intimate with warm atmosphere.",
-      "mustTry": "Seasonal vegetable tasting menu"
+      "name": "Restaurant Forty One",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary fine dining restaurant showcasing innovative Irish cuisine with meticulous plating and exceptional service.",
+      "mustTry": "Tasting menu featuring seasonal Irish ingredients"
     },
     {
-      "name": "Fallon & Byrne",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Food hall with multiple vendors offering gourmet sandwiches, Irish charcuterie, and prepared foods. Ground floor features excellent deli items.",
-      "mustTry": "Irish farmhouse cheese board"
-    },
-    {
-      "name": "The Pig & Brioche",
+      "name": "Fadó",
       "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "French-inspired street food and sandwich shop known for quality ingredients and hearty portions. Popular lunch spot with locals.",
-      "mustTry": "Pulled pork brioche sandwich"
+      "priceRange": "$$",
+      "description": "Traditional Irish pub in Temple Bar serving hearty stews, black pudding, and soda bread with live traditional music.",
+      "mustTry": "Irish beef stew with wheaten bread"
     },
     {
-      "name": "Greenhouse",
+      "name": "Coppinger Row",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "One Michelin-starred restaurant featuring contemporary Irish cuisine in an elegant dining room. Innovative tasting menus with seasonal focus.",
-      "mustTry": "Chef's seasonal tasting menu"
+      "description": "Upscale European restaurant hidden in a medieval lane, offering sophisticated seasonal dishes and extensive wine selection.",
+      "mustTry": "Pan-seared scallops with white wine sauce"
+    },
+    {
+      "name": "Simon's Place",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Turkish restaurant serving authentic wraps and kebabs, perfect for quick, satisfying meals.",
+      "mustTry": "Chicken doner wrap"
+    },
+    {
+      "name": "Chapter One",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant in a historic building showcasing creative Irish and French-inspired cuisine.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Barista Sanctuary",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Specialty coffee roastery and cafe with excellent pastries and single-origin brews in a welcoming atmosphere.",
+      "mustTry": "Flat white with fresh croissant"
+    },
+    {
+      "name": "The Musket Room",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Creative restaurant blending Irish and global flavors with an emphasis on foraged ingredients and sustainable sourcing.",
+      "mustTry": "Heritage carrot with brown butter and hazelnut"
+    },
+    {
+      "name": "Etto",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Intimate Italian-influenced restaurant with a focus on seasonal ingredients and small, shareable plates.",
+      "mustTry": "House-made pasta with wild mushroom ragù"
+    },
+    {
+      "name": "Benbulben",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Contemporary pub serving craft beers and elevated comfort food with a modern twist on Irish classics.",
+      "mustTry": "Smoked haddock and potato cake with poached egg"
     }
   ],
   "activities": [
     {
-      "name": "Trinity College Dublin & The Book of Kells",
-      "category": "Cultural",
-      "description": "Ireland's most prestigious university dating to 1592, featuring the stunning Long Room library with ornate wooden ceiling and millions of books. Home to the illuminated manuscript Book of Kells, a masterpiece of medieval art.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 18,
+      "name": "Guinness Storehouse",
+      "category": "Indoor",
+      "description": "Seven-story interactive museum dedicated to Ireland's most famous beer, featuring brewing history, tasting experiences, and 360-degree city views from the Gravity Bar.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "photography",
+        "foodie",
         "surprise"
       ]
     },
     {
-      "name": "Guinness Storehouse",
+      "name": "Trinity College Library & Book of Kells",
       "category": "Cultural",
-      "description": "Seven-story visitor experience at the historic St. James's Gate brewery where visitors learn the history of Guinness. The Gravity Bar on top offers 360-degree views of Dublin with a complimentary pint.",
+      "description": "Visit one of the world's oldest libraries housing the illuminated medieval manuscript, the Book of Kells, plus stunning Long Room with 200,000+ volumes.",
       "durationHours": 2,
-      "estimatedCostUSD": 22,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
-        "surprise",
-        "foodie"
+        "cultural",
+        "photography"
       ]
     },
     {
-      "name": "Dublin Literary Pub Crawl",
+      "name": "Temple Bar Pub Crawl",
       "category": "Nightlife",
-      "description": "Guided walking tour through historic pubs with actors performing scenes from works by Joyce, Beckett, and Wilde. Immersive theater-style experience celebrating Dublin's literary legacy.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 14,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Christ Church Cathedral & Crypt",
-      "category": "Cultural",
-      "description": "Medieval cathedral dating to 1172 with stunning architecture and the largest crypt in Ireland containing preserved mummies. Active place of worship with exceptional stonework and stained glass.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "St. Stephen's Green Walking Tour",
-      "category": "Outdoor",
-      "description": "22-acre public park in the city center featuring Victorian gardens, fountains, and statues in a peaceful setting. Free to explore with benches and paths perfect for relaxation.",
-      "durationHours": 1,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Howth Head Coastal Walk",
-      "category": "Outdoor",
-      "description": "Scenic cliff-top walking trail on Dublin's northern peninsula with stunning sea views, seabirds, and photography opportunities. Easy to moderate hike with multiple route options.",
+      "description": "Explore Dublin's most historic quarter filled with traditional pubs offering live Irish music, craft beers, and authentic social atmosphere.",
       "durationHours": 3,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Temple Bar Food Market & District",
-      "category": "Foodie",
-      "description": "Historic cobblestone area famous for traditional Irish pubs, live music venues, and weekend food market. Bustling with tourists and locals enjoying authentic Irish pub culture.",
-      "durationHours": 2,
       "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
@@ -213,61 +166,109 @@
       ]
     },
     {
-      "name": "Irish Museum of Modern Art",
-      "category": "Indoor",
-      "description": "Contemporary art museum in the historic Royal Hospital Kilmainham featuring Irish and international works. Beautiful Georgian building with peaceful courtyard and free general admission.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Liffey River Walk & Bridges",
-      "category": "Outdoor",
-      "description": "Scenic riverside promenade along the Liffey connecting the Quays with views of historic bridges including the iconic Ha'penny Bridge. Free walk through Dublin's heart with excellent photo opportunities.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "National Museum of Ireland - Archaeology",
+      "name": "Dublin Castle Tour",
       "category": "Cultural",
-      "description": "World-class museum featuring Viking treasures, Celtic artifacts, and the famous Broighter Gold. Impressive collection of Irish prehistoric and medieval objects.",
+      "description": "Step back 800 years exploring the seat of Irish power, featuring medieval towers, state rooms, and underground passages.",
       "durationHours": 2.5,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
+        "cultural",
         "photography"
       ]
     },
     {
-      "name": "Kilmainham Gaol Historic Prison",
+      "name": "Howth Cliff Walk",
+      "category": "Outdoor",
+      "description": "Stunning 6km coastal cliff walk north of Dublin offering panoramic sea views, seaside villages, and diverse seabird watching opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "National Museum of Ireland",
+      "category": "Indoor",
+      "description": "World-class museum spanning prehistoric Irish artifacts to natural history, with free admission to permanent collections.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Phoenix Park Bike Ride",
+      "category": "Outdoor",
+      "description": "Europe's largest urban park offering 11 sq km of green space, grazing deer herds, monuments, and peaceful cycling routes.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Ha'penny Bridge & Liffey River Walk",
+      "category": "Outdoor",
+      "description": "Iconic cast-iron bridge offering picturesque photo opportunities and scenic riverside walks through Dublin's historic heart.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Christ Church Cathedral",
       "category": "Cultural",
-      "description": "Former prison now museum documenting Irish independence movement and historic executions. Powerful historical experience with guided tours revealing 200 years of Irish history.",
+      "description": "Medieval cathedral dating to 1028 featuring original stonework, the Crypt, and views of Dublin from the tower.",
       "durationHours": 1.5,
       "estimatedCostUSD": 10,
       "bestFor": [
         "standard",
-        "surprise",
+        "cultural",
         "photography"
       ]
     },
     {
-      "name": "Traditional Irish Music Session",
-      "category": "Nightlife",
-      "description": "Evening of live traditional Irish music in authentic pubs like O'Donoghue's or The Brazen Head. Musicians improvise jigs and reels in intimate, authentic atmosphere.",
+      "name": "Irish Whiskey Museum",
+      "category": "Indoor",
+      "description": "Interactive museum tracing Irish whiskey history with distillery tours, tastings, and hands-on barrel experiments.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Grafton Street & Shopping District",
+      "category": "Indoor",
+      "description": "Vibrant pedestrian shopping street filled with street performers, boutiques, historic architecture, and bustling cafe culture.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "surprise",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Dail Eireann Parliament Tour",
+      "category": "Cultural",
+      "description": "Tour the Irish Parliament building in Leinster House with free guided visits exploring the legislative chambers and historic rooms.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
         "hidden-gems"
       ]
     }
@@ -275,156 +276,156 @@
   "photography": {
     "spots": [
       {
-        "name": "Ha'penny Bridge at Sunrise",
-        "description": "Iconic iron pedestrian bridge spanning the Liffey with beautiful light reflecting on the water and Georgian buildings in background.",
+        "name": "Ha'penny Bridge at Dawn",
+        "description": "Iconic iron bridge over the Liffey with moody mist and soft light reflecting perfectly in the water.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning 6-7am for soft golden light",
+        "bestTime": "Sunrise, 30 minutes before dawn",
         "category": "Architecture"
       },
       {
-        "name": "Temple Bar at Night",
-        "description": "Atmospheric cobblestone street lined with ivy-covered buildings, warm pub lights, and reflections on wet streets.",
-        "difficulty": "Intermediate",
-        "bestTime": "Evening 8-10pm for ambient pub lighting",
-        "category": "Night"
-      },
-      {
-        "name": "Christ Church Cathedral Exterior",
-        "description": "Medieval architecture with impressive stonework, buttresses, and spires creating dramatic silhouettes.",
+        "name": "Temple Bar District Streets",
+        "description": "Narrow cobblestone streets with colorful facades, hanging flower baskets, and atmospheric alleyways ideal for street photography.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour 4-6pm for warm wall lighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Dublin Bay from Howth Head",
-        "description": "Dramatic coastal cliffs dropping to turquoise water with Dublin's urban landscape visible across the bay.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm light on cliffs and water",
-        "category": "Landscape"
-      },
-      {
-        "name": "St. Stephen's Green Gates",
-        "description": "Ornate Victorian iron gates and park entrance with manicured gardens and statues creating layered composition.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning 10-11am for frontal light on details",
-        "category": "Architecture"
-      },
-      {
-        "name": "Liffey Quays Street Photography",
-        "description": "Urban riverside scenes with pedestrians, street performers, and reflections on wet pavements.",
-        "difficulty": "Intermediate",
-        "bestTime": "Daytime for varied lighting and crowd activity",
+        "bestTime": "Golden hour, late afternoon",
         "category": "Street"
       },
       {
-        "name": "Trinity College Long Room",
-        "description": "Interior with soaring wooden barrel-vaulted ceiling, floor-to-ceiling bookshelves, and dramatic perspectives.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday for directional light through windows",
+        "name": "Christ Church Cathedral Interior",
+        "description": "Medieval stone arches and stained glass windows creating dramatic shadows and warm light patterns inside the historic cathedral.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late morning when light streams through windows",
         "category": "Architecture"
       },
       {
-        "name": "Seabirds at Howth Head",
-        "description": "Nesting puffins, guillemots, and razorbills on clifftops with ocean backdrop during breeding season.",
-        "difficulty": "Advanced",
-        "bestTime": "May-August morning for active birds and soft light",
-        "category": "Wildlife"
+        "name": "Dublin Castle Courtyard",
+        "description": "Picturesque Georgian buildings surrounding the central courtyard with symmetrical architecture and historic stonework.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for warm side-lighting",
+        "category": "Architecture"
       },
       {
-        "name": "Guinness Storehouse Rooftop",
-        "description": "Elevated 360-degree city views capturing Dublin's urban sprawl, Georgian rooflines, and surrounding hills.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour 4-5:30pm for warm cityscape light",
+        "name": "Howth Cliffs Seascape",
+        "description": "Dramatic coastal cliffs with crashing waves, seabirds in flight, and panoramic sea views stretching to the horizon.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour or overcast for moody conditions",
         "category": "Landscape"
       },
       {
-        "name": "River Reflections at Millennium Bridge",
-        "description": "Modern pedestrian bridge creating strong linear compositions with reflections of buildings and sky in calm Liffey waters.",
+        "name": "Phoenix Park Deer & Trees",
+        "description": "Deer grazing among ancient trees and open grasslands providing wildlife and landscape photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning when deer are most active",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Temple Bar at Night",
+        "description": "Neon pub signs, warm window light, and bustling street scenes create vibrant night photography with colorful reflections.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening after sunset, 30 minutes into blue hour",
+        "category": "Night"
+      },
+      {
+        "name": "Liffey Quays at Sunset",
+        "description": "Riverside promenades lined with historic buildings and bridges reflecting golden light on water at dusk.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for calm water and soft light",
+        "bestTime": "30 minutes before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Grafton Street Crowds",
+        "description": "Bustling pedestrian street with street performers, diverse crowds, and Georgian architecture ideal for candid street photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon and evening when street is busy",
+        "category": "Street"
+      },
+      {
+        "name": "Dublin Library Long Room",
+        "description": "Historic library interior with soaring wooden barrel-vaulted ceiling, archival shelves, and dramatic natural light creating architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for optimal window light",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Howth Head Cliffs",
-      "Dublin Bay from Dun Laoghaire Pier",
-      "Ha'penny Bridge"
+      "Howth Cliffs",
+      "Ha'penny Bridge",
+      "Dublin Port & East Wall"
     ],
     "sunsetSpots": [
-      "Guinness Storehouse Rooftop",
-      "Phoenix Park Hill",
-      "Dun Laoghaire Pier"
+      "Phoenix Park Open Meadows",
+      "Liffey Quays near Millennium Bridge",
+      "Dublin Mountains (Ticknock)"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for architectural details and expansive city views from elevated positions",
-      "50mm prime for street photography and intimate scenes with natural perspective",
-      "70-200mm telephoto for wildlife at Howth Head and compressed landscape compositions",
-      "14mm ultra-wide for interior cathedral and museum spaces with dramatic depth"
+      "16-35mm wide-angle for architectural and landscape shots of bridges and cityscapes",
+      "50mm prime for street photography and intimate temple bar scenes",
+      "70-200mm telephoto for wildlife at Phoenix Park and coastal seabird photography",
+      "14mm ultra-wide for dramatic interior shots of cathedrals and library vaults"
     ],
-    "goldenHourNotes": "Dublin's golden hour is particularly stunning in late spring and summer when it extends from 4-7:30pm. The Georgian buildings glow warmly, and the Liffey becomes a ribbon of reflected light. Winter golden hour is shorter (3-4:30pm) but creates dramatic long shadows across cobblestone streets and enhances moody pub interiors.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Dublin's golden hour is particularly magical during spring and summer (May-August) when the sun sets around 9-10 PM, providing extended photography windows. The Liffey and historic facades glow warm amber during this time. Winter golden hours are shorter but offer dramatic cloud formations and moody light perfect for atmospheric street photography.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 5,
-        "rainfallMM": 79
+        "avgTempC": 8,
+        "rainfallMM": 76
       },
       {
         "month": 2,
-        "avgTempC": 5,
-        "rainfallMM": 64
+        "avgTempC": 8,
+        "rainfallMM": 56
       },
       {
         "month": 3,
-        "avgTempC": 7,
-        "rainfallMM": 64
+        "avgTempC": 10,
+        "rainfallMM": 56
       },
       {
         "month": 4,
-        "avgTempC": 10,
-        "rainfallMM": 67
+        "avgTempC": 13,
+        "rainfallMM": 58
       },
       {
         "month": 5,
-        "avgTempC": 14,
-        "rainfallMM": 60
+        "avgTempC": 16,
+        "rainfallMM": 56
       },
       {
         "month": 6,
-        "avgTempC": 17,
-        "rainfallMM": 65
+        "avgTempC": 20,
+        "rainfallMM": 63
       },
       {
         "month": 7,
-        "avgTempC": 19,
-        "rainfallMM": 72
-      },
-      {
-        "month": 8,
-        "avgTempC": 19,
-        "rainfallMM": 68
-      },
-      {
-        "month": 9,
-        "avgTempC": 16,
+        "avgTempC": 22,
         "rainfallMM": 70
       },
       {
+        "month": 8,
+        "avgTempC": 21,
+        "rainfallMM": 81
+      },
+      {
+        "month": 9,
+        "avgTempC": 18,
+        "rainfallMM": 72
+      },
+      {
         "month": 10,
-        "avgTempC": 12,
-        "rainfallMM": 89
+        "avgTempC": 14,
+        "rainfallMM": 82
       },
       {
         "month": 11,
-        "avgTempC": 8,
-        "rainfallMM": 86
+        "avgTempC": 10,
+        "rainfallMM": 83
       },
       {
         "month": 12,
-        "avgTempC": 6,
-        "rainfallMM": 88
+        "avgTempC": 8,
+        "rainfallMM": 84
       }
     ],
     "bestMonths": [
@@ -434,31 +435,31 @@
       8,
       9
     ],
-    "seasonality": "Dublin experiences mild but wet weather year-round with summer (May-September) offering the warmest temperatures (14-19°C) and longest daylight hours. Winter is cold and rainy with frequent overcast days, making photography challenging but creating moody atmospheric conditions.",
-    "summary": "Dublin has an oceanic climate with cool temperatures rarely dropping below freezing or exceeding 20°C. Rain is frequent throughout the year, so waterproof layers and umbrellas are essential for any visit regardless of season."
+    "seasonality": "Dublin experiences mild, rainy weather year-round with the warmest months June-August averaging 20-22°C. Late spring (May) and early autumn (September) offer the best combination of comfortable temperatures and lower rainfall, though rain remains frequent throughout the year.",
+    "summary": "Dublin's maritime climate brings frequent rain and overcast skies, particularly October-March, with temperatures rarely dropping below freezing or exceeding 23°C. Pack waterproof layers year-round; summer visitors should expect cooler conditions than continental Europe at similar latitudes."
   },
   "hotels": [
     {
-      "name": "Kinlay House Dublin",
+      "name": "Hostel Dublin City Center",
       "neighborhood": "Temple Bar",
       "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Friendly hostel with private rooms and dorms in the heart of Temple Bar offering social atmosphere and walking distance to attractions."
+      "description": "Social hostel with private and dorm rooms in Dublin's liveliest district, offering shared kitchens and nightly social activities."
     },
     {
-      "name": "The Marker Waterfront Hotel",
-      "neighborhood": "Grand Canal Dock",
-      "pricePerNightUSD": 165,
+      "name": "The Clarence Hotel",
+      "neighborhood": "Temple Bar",
+      "pricePerNightUSD": 160,
       "category": "Mid-range",
-      "description": "Contemporary 4-star hotel with rooftop restaurant overlooking the Liffey and Grand Canal, excellent location for both business and leisure travelers."
+      "description": "Stylish four-star hotel on the Liffey with modern minimalist design, excellent dining, and central location near major attractions."
     },
     {
-      "name": "The Merrion Hotel",
+      "name": "Merrion Hotel",
       "neighborhood": "St. Stephen's Green",
-      "pricePerNightUSD": 450,
+      "pricePerNightUSD": 380,
       "category": "Luxury",
-      "description": "Dublin's most prestigious luxury hotel featuring fine dining restaurants, spa, and art collection in an elegant Georgian townhouse setting on St. Stephen's Green."
+      "description": "Five-star luxury hotel featuring Michelin-starred restaurants, spa facilities, and opulent Georgian interiors overlooking St. Stephen's Green."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1651127403819-6c15d8b5f589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEdWJsaW4lMjBJcmVsYW5kJTIwVGVtcGxlJTIwQmFyfGVufDF8MHx8fDE3ODE1NjIyNTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1663509851482-56ffbd1cf076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxEdWJsaW4lMjBIYSUyN3Blbm55JTIwQnJpZGdlfGVufDF8MHx8fDE3ODE2MjkzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

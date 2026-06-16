@@ -1,0 +1,459 @@
+{
+  "id": "bend-usa",
+  "city": "Bend",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "RDM",
+    "PDX",
+    "MFR"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 75,
+    "photography": 92,
+    "activities": 95,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Bend Oregon mountains",
+  "summary": "Bend is a vibrant mountain town in central Oregon surrounded by towering Ponderosa pines, volcanic peaks, and world-class outdoor recreation. Known for exceptional hiking, rock climbing, mountain biking, and skiing, this adventure hub offers stunning high-desert landscapes and a thriving craft beer and dining scene.",
+  "restaurants": [
+    {
+      "name": "Loyal Order",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant celebrating local Oregon ingredients with seasonal menus and craft cocktails. Known for creative presentations and community-focused dining experiences.",
+      "mustTry": "House-cured charcuterie plate"
+    },
+    {
+      "name": "Criollo Latin Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant Latin American cuisine featuring Peruvian and Central American flavors with fresh seafood and ceviche. Lively atmosphere with excellent pisco cocktails and tropical ambiance.",
+      "mustTry": "Ceviche mixto"
+    },
+    {
+      "name": "10 Barrel Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Legendary craft brewery with full restaurant offering elevated pub fare and award-winning beers. Large outdoor patio with mountain views and brewery tours available.",
+      "mustTry": "IPA flight with burger"
+    },
+    {
+      "name": "Jackalope Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale steakhouse featuring high-quality meats, fresh fish, and an extensive wine list. Elegant dining room with attentive service and creative seasonal preparations.",
+      "mustTry": "Grass-fed ribeye"
+    },
+    {
+      "name": "Spoon & Stable",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual comfort food spot with generous portions and affordable prices. Menu features sandwiches, salads, and hearty breakfast options perfect for outdoor enthusiasts.",
+      "mustTry": "Pulled pork sandwich"
+    },
+    {
+      "name": "Bunk + Brew",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic Bend institution serving hand-crafted beers alongside wood-fired pizza and seasonal small plates. Rooftop seating with city and mountain views.",
+      "mustTry": "Signature wood-fired pizza"
+    },
+    {
+      "name": "Barolo Ristorante",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate Italian fine dining with house-made pastas, imported wines, and refined traditional preparations. Cozy setting with personalized service and romantic atmosphere.",
+      "mustTry": "Handmade ravioli of the day"
+    },
+    {
+      "name": "Deschutes Brewery Public House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Central Oregon's largest brewery with restaurant featuring classic comfort food paired with flagship beers. Historic riverside location with outdoor seating and vibrant local crowd.",
+      "mustTry": "Fresh hop ale with elk burger"
+    },
+    {
+      "name": "La Bonita Taco Truck",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Mexican street tacos with fresh ingredients and bold flavors at unbeatable prices. Rotating locations throughout Bend with consistently excellent quality.",
+      "mustTry": "Carnitas tacos"
+    },
+    {
+      "name": "Metolious River Lodge Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Scenic riverside dining with Pacific Northwest cuisine overlooking the Metolious River. Menu emphasizes locally-sourced ingredients and fresh catch of the day.",
+      "mustTry": "Pan-seared trout"
+    },
+    {
+      "name": "Chow",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Asian fusion restaurant with creative ramen, poke bowls, and fusion dishes. Casual atmosphere with quality ingredients and inventive flavor combinations.",
+      "mustTry": "Spicy miso ramen"
+    },
+    {
+      "name": "Goodlife Brewing Company Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Craft brewery with full-service restaurant offering gourmet nachos, pretzels, and hearty entrees. Dog-friendly patio and family atmosphere with excellent beer selection.",
+      "mustTry": "Brewhouse burger"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Crater Lake National Park Day Trip",
+      "category": "Outdoor",
+      "description": "Visit one of America's deepest and most pristine alpine lakes surrounded by volcanic peaks and pine forests. The stunning 33-mile scenic drive offers numerous pullouts, hiking trails, and photo opportunities.",
+      "durationHours": 8,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Mountain Biking at Phil's Trail Complex",
+      "category": "Adventure",
+      "description": "World-renowned mountain biking trails with technical single-track through Ponderosa forest. Over 100 miles of trails for all skill levels with perfectly maintained terrain.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking Smith Rock State Park",
+      "category": "Outdoor",
+      "description": "Iconic rock climbing and hiking destination with moderate to difficult trails offering panoramic views of the Cascade Range. Home to world-class climbing formations and scenic ridgeline hikes.",
+      "durationHours": 6,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Skiing at Mt. Bachelor",
+      "category": "Adventure",
+      "description": "Premier ski resort with 4,318 vertical feet of terrain and high-quality snow conditions. Features runs for all abilities and modern lift infrastructure.",
+      "durationHours": 8,
+      "estimatedCostUSD": 140,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Paddle Boarding on the Deschutes River",
+      "category": "Outdoor",
+      "description": "Scenic paddle boarding or kayaking experience on calm sections of the Deschutes River through pine forests. Rentals available and guided tours offered for all skill levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Newberry National Volcanic Monument Exploration",
+      "category": "Outdoor",
+      "description": "Stunning volcanic landscape with lava tubes, cinder cones, and obsidian flows south of Bend. Features hiking trails, cave exploration, and unique geological formations.",
+      "durationHours": 5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Rock Climbing at Smith Rock",
+      "category": "Adventure",
+      "description": "World-famous climbing destination with thousands of routes ranging from beginner to elite difficulty. Guided climbs and instruction available through local outfitters.",
+      "durationHours": 6,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Craft Brewery Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized tours of Bend's renowned craft breweries including Deschutes, 10 Barrel, and Goodlife. Most breweries offer tastings and food pairings.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Hiking to Sparks Lake",
+      "category": "Outdoor",
+      "description": "Scenic 4-mile round-trip hike to an alpine lake with stunning reflections of the Cascade peaks. Well-maintained trail suitable for families with moderate fitness.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Downtown Bend Art and Culture Walk",
+      "category": "Cultural",
+      "description": "Explore Bend's vibrant downtown with galleries, public art installations, and historic architecture. Free self-guided walking routes with local artist studios and shops.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Hiking Broken Top Loop",
+      "category": "Outdoor",
+      "description": "Challenging 9-mile alpine loop with stunning 360-degree views of volcanic peaks and mountain meadows. Best for experienced hikers in summer months.",
+      "durationHours": 7,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Stargazing at Ochoco National Forest",
+      "category": "Outdoor",
+      "description": "Experience dark skies perfect for observing constellations, planets, and meteor showers away from light pollution. Local astronomy clubs offer guided stargazing events.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Sparks Lake",
+        "description": "Pristine alpine lake with mirror-like reflections of South Sister mountain and surrounding peaks, offering breathtaking symmetrical compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for glassy water and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Crater Lake Rim Trail",
+        "description": "Volcanic caldera surrounded by deep blue water and whitewashed pumice shores create dramatic contrasting landscape photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour at sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Smith Rock State Park",
+        "description": "Iconic russet and tan rock formations with climbers in silhouette against desert landscape and distant Cascade views.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon light accentuates rock colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Proxy Falls",
+        "description": "Cascading waterfall through old-growth Ponderosa forest with green moss-covered rocks creating lush forest photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even light and water detail",
+        "category": "Landscape"
+      },
+      {
+        "name": "Newberry Obsidian Flow",
+        "description": "Vast expanse of jet-black volcanic glass creates dramatic monochromatic landscape with unique texture and contrast opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for strong shadows and texture definition",
+        "category": "Landscape"
+      },
+      {
+        "name": "Deschutes River Bend Downtown",
+        "description": "Scenic riverside path with downtown skyline, historic bridges, and reflections in calm water providing urban and landscape blend.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on architecture",
+        "category": "Architecture"
+      },
+      {
+        "name": "Benham Falls",
+        "description": "Whitewater falls on the Deschutes River with surrounding pine forest creating dynamic water motion and forest environment photos.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days reduce glare on water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Bend Street Art",
+        "description": "Colorful murals and public art installations throughout downtown core with rustic brick buildings and street character.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for vibrant color saturation",
+        "category": "Street"
+      },
+      {
+        "name": "Painted Hills State Park",
+        "description": "Colorful layered geological formations with dramatic bands of red, gold, and black creating vivid landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset for warm color enhancement",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mt. Bachelor in Winter",
+        "description": "Snow-covered volcanic cone with surrounding frosted forest and clear alpine air creating pristine winter mountain photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear days with fresh snow",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Sparks Lake",
+      "Crater Lake Rim Trail",
+      "Mount Bachelor Summit"
+    ],
+    "sunsetSpots": [
+      "Smith Rock State Park",
+      "Newberry Crater",
+      "Deschutes River Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive landscape and volcanic formations",
+      "70-200mm telephoto for compressed mountain peaks and wildlife",
+      "50mm prime for street photography and downtown art walks",
+      "24-70mm standard zoom for versatile daily photography across all conditions"
+    ],
+    "goldenHourNotes": "Bend's high elevation (3,600 feet) and clear mountain air create exceptionally vibrant and long-lasting golden hour light. Golden hour extends 60-90 minutes due to steep topography. Sunrise at alpine lakes offers mirror-like reflections enhanced by warm light accentuating volcanic rock colors.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -3,
+        "rainfallMM": 38
+      },
+      {
+        "month": 2,
+        "avgTempC": -2,
+        "rainfallMM": 33
+      },
+      {
+        "month": 3,
+        "avgTempC": 1,
+        "rainfallMM": 28
+      },
+      {
+        "month": 4,
+        "avgTempC": 7,
+        "rainfallMM": 25
+      },
+      {
+        "month": 5,
+        "avgTempC": 14,
+        "rainfallMM": 23
+      },
+      {
+        "month": 6,
+        "avgTempC": 19,
+        "rainfallMM": 20
+      },
+      {
+        "month": 7,
+        "avgTempC": 24,
+        "rainfallMM": 12
+      },
+      {
+        "month": 8,
+        "avgTempC": 24,
+        "rainfallMM": 13
+      },
+      {
+        "month": 9,
+        "avgTempC": 19,
+        "rainfallMM": 15
+      },
+      {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 28
+      },
+      {
+        "month": 11,
+        "avgTempC": 3,
+        "rainfallMM": 43
+      },
+      {
+        "month": 12,
+        "avgTempC": -2,
+        "rainfallMM": 41
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Bend experiences four distinct seasons with dry summers and snowy winters. Summer (June-August) offers perfect outdoor recreation conditions while winter brings excellent skiing and alpine beauty.",
+    "summary": "Bend has a high-desert alpine climate with cool mornings and warm afternoons, low humidity, and abundant sunshine year-round. Winter snowfall supports skiing while summer brings comfortable hiking conditions and clear skies ideal for stargazing."
+  },
+  "hotels": [
+    {
+      "name": "McMenamins Old St. Francis School",
+      "neighborhood": "Downtown Bend",
+      "pricePerNightUSD": 125,
+      "category": "Mid-range",
+      "description": "Historic converted schoolhouse with brewery, restaurant, and movie theater housed within eclectic and artistic property in heart of downtown."
+    },
+    {
+      "name": "Seventh Mountain Resort",
+      "neighborhood": "South Bend",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Family-friendly riverside resort with kitchenette suites, outdoor pool, and easy access to trails and downtown attractions at affordable rates."
+    },
+    {
+      "name": "Sunriver Resort",
+      "neighborhood": "Sunriver",
+      "pricePerNightUSD": 290,
+      "category": "Luxury",
+      "description": "Premier resort destination with championship golf, spa, fine dining, and mountain lodge accommodations 15 minutes south of Bend."
+    }
+  ]
+}

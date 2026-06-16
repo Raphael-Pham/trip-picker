@@ -11,9 +11,10 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
     "photography",
-    "cultural",
+    "foodie",
+    "adventure",
     "relaxation"
   ],
   "scores": {
@@ -21,7 +22,7 @@
     "food": 92,
     "photography": 88,
     "activities": 90,
-    "weather": 70
+    "weather": 72
   },
   "budgetRanges": [
     {
@@ -41,193 +42,182 @@
     }
   ],
   "unsplashQuery": "Munich Marienplatz Bavaria",
-  "summary": "Munich is Bavaria's charming capital, renowned for its stunning Gothic architecture, world-class beer culture, and proximity to the Alps. The city seamlessly blends imperial history with vibrant modern culture, offering visitors baroque palaces, traditional beer halls, and excellent museums alongside contemporary dining and nightlife.",
+  "summary": "Munich is a vibrant Bavarian capital blending centuries of history with modern sophistication, famous for its stunning architecture, world-class beer culture, and proximity to the Alps. Wander through elegant squares, explore world-renowned museums, and experience traditional beer halls alongside contemporary dining scenes. From fairy-tale palaces to Alpine hiking, Munich offers unforgettable experiences for every traveler.",
   "restaurants": [
     {
-      "name": "Hofbräuhaus",
+      "name": "Augustiner-Bräu",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Munich's most famous beer hall since 1589, serving traditional Bavarian cuisine in a bustling atmosphere. Experience authentic pretzel, roasted pork, and regional beers in this iconic establishment.",
-      "mustTry": "Leberkäse mit Kartoffelsalat"
-    },
-    {
-      "name": "Nürnberger Bratwurst Glöckle",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "A tiny, legendary sausage stand in Marienplatz serving the famous Nuremberg bratwurst for over a century. Perfect for a quick, authentic Bavarian snack.",
-      "mustTry": "Three Nuremberg bratwurst in a roll"
+      "description": "Historic Bavarian beer hall established in 1328, serving authentic Bavarian cuisine in a lively atmosphere with traditional beer steins and communal tables. Experience the soul of Munich's beer culture with locals.",
+      "mustTry": "Schweinshaxe (roasted pork knuckle) with Augustiner beer"
     },
     {
       "name": "Tantris",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Two Michelin-starred restaurant showcasing innovative French-German fusion cuisine in an art deco setting. One of Bavaria's most prestigious dining experiences.",
-      "mustTry": "Chef's tasting menu"
+      "description": "Two-Michelin-starred restaurant showcasing modern European cuisine with exceptional wine pairings in an intimate, sophisticated setting. One of Germany's most prestigious dining experiences.",
+      "mustTry": "Chef's tasting menu with wine flight"
     },
     {
-      "name": "Augustiner-Bräu",
+      "name": "Café Münchner Freiheit",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual neighborhood café perfect for breakfast and light lunches with fresh pastries, sandwiches, and excellent coffee at affordable prices. Popular with locals and students.",
+      "mustTry": "Bavarian pretzel with butter and local cheese"
+    },
+    {
+      "name": "Alois Dallmayr",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Legendary gourmet delicatessen and restaurant since 1700, combining traditional Bavarian specialties with refined French techniques in an opulent setting. Impeccable service and ingredient quality.",
+      "mustTry": "Lobster salad with Bavarian truffles"
+    },
+    {
+      "name": "Viktualienmarkt Restaurants",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Historic brewery restaurant with traditional Bavarian food and Munich's finest wheat beer in a relaxed beer garden setting. A local favorite since 1812.",
-      "mustTry": "Schweinshaxe with sauerkraut"
+      "description": "Multiple small dining venues surrounding Munich's vibrant daily market, offering fresh local ingredients prepared traditionally. Perfect for sampling authentic Bavarian fare amid the market bustle.",
+      "mustTry": "Swabian Maultaschen (filled pasta squares)"
     },
     {
-      "name": "Werneckhof",
+      "name": "Gasthaus Zum Paxl",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Traditional Bavarian gasthaus serving hearty regional dishes in a cozy, unpretentious atmosphere with exposed wood and warm lighting. Great value for authentic Bavarian home cooking.",
+      "mustTry": "Obatzda (Bavarian cheese spread) with fresh bread"
+    },
+    {
+      "name": "Restaurant Acquarello",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three-Michelin-starred Italian restaurant focusing on seasonal risotto and seafood with impeccable technique and presentation. Exceptional wine selection featuring top Italian producers.",
+      "mustTry": "Seasonal risotto tasting menu"
+    },
+    {
+      "name": "Nürnberger Bratwurst Glöckle",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic sausage stand and tiny beer hall near Marienplatz specializing in authentic Nuremberg bratwurst since 1826. No-frills, quick service, incredibly authentic.",
+      "mustTry": "Three Nuremberg bratwurst with whole grain mustard"
+    },
+    {
+      "name": "Hofbräuhaus",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic Bavarian beer hall since 1589 with multiple floors, traditional oompah music, and massive communal tables fostering a festive atmosphere. Quintessential Munich experience.",
+      "mustTry": "Half-liter of Hofbräu with pretzel and cheese"
+    },
+    {
+      "name": "Preysingh",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Elegant restaurant featuring contemporary Bavarian cuisine with seasonal ingredients and refined presentation. Located in a charming historic building.",
-      "mustTry": "Duck confit with mushroom risotto"
+      "description": "Award-winning modern European cuisine in an elegant yet relaxed setting, emphasizing seasonal ingredients and creative presentations. Excellent value for quality fine dining.",
+      "mustTry": "Duck confit with seasonal vegetables"
     },
     {
-      "name": "Käfer-Schänke",
+      "name": "Schneider Bräuhaus",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Upscale Bavarian restaurant in the Käfer gourmet temple, offering refined traditional dishes and excellent wine selection. Perfect for special occasions.",
-      "mustTry": "Bavarian cream soup with bacon"
+      "description": "Traditional brewery restaurant combining hearty Bavarian food with an exceptional selection of Bavarian beers in a warm, family-friendly environment. Known for generous portions.",
+      "mustTry": "Leberkäse (Bavarian meatloaf) with mustard and bread"
     },
     {
-      "name": "Zum Fritzl",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual family restaurant serving hearty Bavarian comfort food in a traditional setting. Great value for quality portions.",
-      "mustTry": "Kasnocken with cheese"
-    },
-    {
-      "name": "Brenner Grill",
+      "name": "Café Reitschule",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Modern steakhouse in the city center with high-quality grilled meats and fresh seafood. Contemporary ambiance with traditional quality.",
-      "mustTry": "Bavarian beef with herb butter"
-    },
-    {
-      "name": "Schloss Nymphenburg Café",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Charming café in the palace grounds serving coffee, pastries, and light lunch in a scenic garden setting. Ideal for a leisurely break.",
-      "mustTry": "Apfelstrudel with vanilla sauce"
-    },
-    {
-      "name": "Geisel's Vinothek",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Wine-focused restaurant with creative small plates and an extensive wine collection in a sophisticated setting. Perfect for wine enthusiasts.",
-      "mustTry": "Cheese course paired with Riesling"
-    },
-    {
-      "name": "Torbrau",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Historic beer restaurant in a 600-year-old building near Sendlinger Tor, serving traditional Bavarian fare and local brews. Atmospheric and authentic.",
-      "mustTry": "Roasted pork knuckle"
-    },
-    {
-      "name": "Café Rischart",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Popular bakery café with excellent pastries, sandwiches, and coffee throughout multiple locations in Munich. Ideal for breakfast or quick lunch.",
-      "mustTry": "Bavarian cream pastry"
+      "description": "Charming café and restaurant in a historic riding school complex with both indoor and garden seating, serving contemporary German cuisine. Perfect for leisurely lunches.",
+      "mustTry": "Flammkuchen (Alsatian pizza) with crème fraîche"
     }
   ],
   "activities": [
     {
-      "name": "Marienplatz and New Town Hall",
+      "name": "Marienplatz & City Center Walking Tour",
       "category": "Cultural",
-      "description": "Visit Munich's iconic central square featuring the stunning Gothic Revival town hall with its ornate facade and glockenspiel. Climb to the tower for panoramic city views.",
+      "description": "Explore Munich's heart featuring the stunning Neo-Gothic City Hall, beautiful Glockenspiel performances, and surrounding historic architecture. Free to walk, but guided tours provide deeper historical context.",
       "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Neuschwanstein Castle Day Trip",
-      "category": "Outdoor",
-      "description": "Take a scenic train ride to Bavaria's most famous fairy-tale castle nestled in the Alps near Füssen. Hike to Marienbrücke for iconic photography views.",
-      "durationHours": 10,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Nymphenburg Palace and Gardens",
-      "category": "Cultural",
-      "description": "Explore this magnificent Baroque summer palace with opulent rooms and vast manicured gardens perfect for strolling. Also features museum collections and beautiful photo opportunities.",
-      "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Biergarten Experience",
-      "category": "Nightlife",
-      "description": "Spend an evening at a traditional Bavarian beer garden like Augustiner-Bräu or Hofbräuhaus, enjoying local beer, food, and lively traditional music. Essential Munich experience.",
-      "durationHours": 3,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "English Garden",
-      "category": "Outdoor",
-      "description": "Relax in one of the world's largest urban parks with beer gardens, river walks, and scenic lake views. Free walking trails with beautiful green spaces year-round.",
-      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
+        "standard",
         "photography",
-        "adventure"
+        "surprise"
       ]
     },
     {
-      "name": "BMW Museum and Plant Tour",
-      "category": "Indoor",
-      "description": "Tour BMW's headquarters showcasing the company's automotive history and latest innovations. Includes both museum exhibits and manufacturing facility views.",
+      "name": "Nymphenburg Palace",
+      "category": "Cultural",
+      "description": "Magnificent Baroque palace set in expansive formal gardens with 200 rooms showcasing royal Bavarian history and art collections. One of Europe's largest palaces with stunning architecture and grounds.",
       "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "adventure"
+        "photography",
+        "surprise"
       ]
     },
     {
-      "name": "Pinakothek Museums Complex",
+      "name": "German Museum (Deutsches Museum)",
       "category": "Indoor",
-      "description": "Visit three world-class art museums housing masterpieces from medieval times to contemporary art. Includes Old Masters, Modern, and Contemporary collections.",
+      "description": "World's largest science and technology museum with over 28,000 exhibits spanning aircraft, submarines, electronics, and natural sciences. Engaging for all ages with interactive displays.",
       "durationHours": 4,
-      "estimatedCostUSD": 28,
-      "bestFor": [
-        "cultural",
-        "standard"
-      ]
-    },
-    {
-      "name": "Deutsches Museum",
-      "category": "Indoor",
-      "description": "Explore one of the world's largest science museums with interactive exhibits on technology, space, and natural sciences. Engaging for all ages.",
-      "durationHours": 4,
-      "estimatedCostUSD": 14,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
         "family"
       ]
     },
     {
-      "name": "Marienbrücke and Pöcking Walk",
+      "name": "Englischer Garten Cycling & Hiking",
       "category": "Outdoor",
-      "description": "Hike scenic trails around Munich's outskirts with views of the Alps and traditional Bavarian villages. Multiple difficulty levels available.",
-      "durationHours": 4,
+      "description": "One of Europe's largest urban parks offering 78 square kilometers of forests, meadows, and waterways perfect for cycling and leisurely walks. Free to explore with scenic beauty and local wildlife.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Schloss Linderhof Day Trip",
+      "category": "Outdoor",
+      "description": "King Ludwig II's stunning Rococo palace hidden in Alpine foothills with grottos, gardens, and ornate interiors. A fairy-tale setting combined with mountain scenery, about one hour from Munich.",
+      "durationHours": 5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "surprise",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Oktoberfest Grounds Tour (seasonal)",
+      "category": "Cultural",
+      "description": "Experience the legendary beer festival with traditional rides, food stalls, and beer tents during September-October. Outside festival season, explore the peaceful Theresienwiese grounds.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Pinakothek Museums",
+      "category": "Indoor",
+      "description": "Trio of world-class art museums (Alte, Neue, Pinakothek der Moderne) showcasing works from Medieval to contemporary periods with exceptional collections. Outstanding for art enthusiasts.",
+      "durationHours": 5,
+      "estimatedCostUSD": 24,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Zugspitze Alpine Hiking",
+      "category": "Adventure",
+      "description": "Germany's highest peak offering spectacular Alpine panoramas, accessible via cogwheel train or hiking trails of varying difficulty. Incredible summit views spanning four countries on clear days.",
+      "durationHours": 8,
+      "estimatedCostUSD": 45,
       "bestFor": [
         "adventure",
         "photography",
@@ -235,38 +225,48 @@
       ]
     },
     {
-      "name": "Schloss Hohenschwangau",
+      "name": "Residenz Palace Tour",
       "category": "Cultural",
-      "description": "Visit King Ludwig II's childhood castle near Neuschwanstein with beautiful rooms and mountain views. Less crowded alternative to its famous neighbor.",
-      "durationHours": 6,
-      "estimatedCostUSD": 75,
-      "bestFor": [
-        "cultural",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Viktualienmarkt and Street Exploration",
-      "category": "Cultural",
-      "description": "Wander Munich's historic farmer's market and surrounding streets filled with shops, cafes, and local life. Great for food sampling and street photography.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "foodie",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Botanical Garden",
-      "category": "Outdoor",
-      "description": "Stroll through 14 hectares of landscaped gardens featuring alpine plants, roses, and seasonal flowers. Peaceful retreat with varied photographic compositions.",
+      "description": "Former royal Wittelsbach residence with 130 rooms featuring stunning rococo and neoclassical interiors, treasures, and courtyards. Comprehensive insight into Bavarian royal history and opulence.",
       "durationHours": 2.5,
-      "estimatedCostUSD": 7,
+      "estimatedCostUSD": 13,
       "bestFor": [
-        "relaxation",
+        "standard",
         "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Beer Hall & Brewery Crawl",
+      "category": "Nightlife",
+      "description": "Guided or self-guided tour of Munich's famous beer halls and breweries sampling different Bavarian beers and traditional snacks. Social atmosphere with opportunities to meet locals.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "surprise"
+      ]
+    },
+    {
+      "name": "English Garden River Surfing",
+      "category": "Adventure",
+      "description": "Unique inland surfing experience on the Eisbach River flowing through Englischer Garten, accessible to experienced and novice surfers. One of the world's most unusual urban sports spots.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "BMW Museum & Factory Tour",
+      "category": "Indoor",
+      "description": "Comprehensive museum showcasing BMW's automotive history and innovation with interactive exhibits and the option to tour the production facility. Perfect for automobile enthusiasts.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
         "family"
       ]
     }
@@ -274,93 +274,93 @@
   "photography": {
     "spots": [
       {
-        "name": "Marienplatz Town Hall",
-        "description": "Munich's most iconic Gothic Revival building with intricate architecture and bustling square creating dramatic urban scenes.",
+        "name": "Marienplatz",
+        "description": "Historic square featuring the stunning Neo-Gothic City Hall with its ornate architecture, bustling atmosphere, and beautiful surrounding buildings creating dynamic compositional opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for side-lit facade, early morning for crowd-free shots",
+        "bestTime": "Early morning for clear light and fewer crowds, or golden hour for warm tones",
         "category": "Architecture"
       },
       {
-        "name": "Neuschwanstein Castle Marienbrücke",
-        "description": "The famous viewpoint showcasing the fairy-tale castle against Alpine backdrop with wildflower meadows in foreground.",
+        "name": "Nymphenburg Palace Grounds",
+        "description": "Baroque palace set against manicured formal gardens with water features, tree-lined pathways, and romantic vistas perfect for architectural and landscape photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunrise or sunset for magical lighting; spring/summer for flowers",
+        "bestTime": "Morning for front-lit palace, late afternoon for garden backlighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Englischer Garten",
+        "description": "Expansive urban park with forests, meadows, and waterways offering diverse landscapes from intimate woodland scenes to open vistas with distant tree lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for forest lighting, misty mornings for atmospheric shots",
         "category": "Landscape"
       },
       {
-        "name": "Nymphenburg Palace Facade",
-        "description": "Stunning Baroque palace with ornate details and reflecting fountains creating symmetrical compositional opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Late afternoon when sun illuminates the southern facade",
-        "category": "Architecture"
-      },
-      {
-        "name": "Hohenschwangau Castle Viewpoint",
-        "description": "Romantic hilltop castle with surrounding mountains offering dramatic contrast and varied composition angles.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset with warm light on castle stone; misty mornings for atmosphere",
-        "category": "Landscape"
-      },
-      {
-        "name": "English Garden Chinese Tower",
-        "description": "Distinctive Asian-inspired pagoda amid beer garden setting with surrounding greenery and architectural contrast.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light filtering through trees; golden hour from east side",
-        "category": "Architecture"
-      },
-      {
-        "name": "Isar River Bridges",
-        "description": "Multiple historical bridges crossing the river creating geometric patterns and reflections with city backdrop.",
-        "difficulty": "Intermediate",
-        "bestTime": "Blue hour for dramatic lighting; autumn for leaf colors",
+        "name": "English Garden River Surfing Spot (Eisbach)",
+        "description": "Unique action photography location capturing surfers riding an artificial wave in an urban river setting with parks and bridges as dramatic backdrops.",
+        "difficulty": "Advanced",
+        "bestTime": "Late afternoon light with surfers present during good water flow conditions",
         "category": "Street"
       },
       {
-        "name": "Viktualienmarkt Detail Photography",
-        "description": "Market stalls with colorful produce, flower arrangements, and local vendors creating vibrant street scenes.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning when market opens; overcast days for even lighting",
-        "category": "Street"
-      },
-      {
-        "name": "Frauenkirche Twin Domes",
-        "description": "Iconic twin-domed Gothic church creating distinctive silhouettes visible throughout the city at various vantage points.",
+        "name": "Schloss Linderhof",
+        "description": "Picturesque Alpine palace surrounded by mountain scenery, manicured gardens, and ornate architecture creating fairy-tale compositional possibilities with varied elevations.",
         "difficulty": "Intermediate",
-        "bestTime": "Dusk for rim lighting on domes; sunrise from city vantage points",
+        "bestTime": "Morning for palace sidelighting, afternoon for mountain backlighting",
         "category": "Architecture"
       },
       {
-        "name": "English Garden Sunrise Reflection",
-        "description": "Lake reflections and misty morning atmosphere with temples and architectural elements creating serene compositions.",
+        "name": "Residenz Palace & Courtyards",
+        "description": "Historic royal residence with ornate Renaissance and Baroque architecture, multiple courtyards, and intricate details offering rich architectural photography possibilities.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning with mist; spring and autumn for atmospheric conditions",
+        "bestTime": "Midday for even courtyard lighting, golden hour for facade details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Viktualienmarkt",
+        "description": "Vibrant daily market with colorful produce stalls, flowers, local vendors, and busy crowds creating lively street photography with excellent color and human interest.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning when market is bustling and light is fresh and directional",
+        "category": "Street"
+      },
+      {
+        "name": "Isar River at Flaucher Park",
+        "description": "Scenic riverside location with open green spaces, water reflections, distant city skyline, and seasonal foliage offering landscape and cityscape photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for river reflections and warm city glow",
         "category": "Landscape"
       },
       {
-        "name": "Linderhof Palace Exterior",
-        "description": "King Ludwig's ornate Rococo palace surrounded by manicured gardens and woodland creating layered depth.",
+        "name": "Zugspitze Summit",
+        "description": "Germany's highest peak with panoramic Alpine vistas spanning multiple countries, dramatic mountain landscapes, and weather-dependent atmospheric lighting conditions.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear sunny mornings for maximum visibility and crisp mountain details",
+        "category": "Landscape"
+      },
+      {
+        "name": "Müller'sches Volksbad (Art Nouveau Swimming Hall)",
+        "description": "Stunning Art Nouveau architecture with ornate interior design, arched ceilings, and intricate tilework perfect for architectural and interior photography with unique perspectives.",
         "difficulty": "Intermediate",
-        "bestTime": "Afternoon light for illuminating details; spring for flowering gardens",
+        "bestTime": "Midday for even interior lighting, avoid peak swim hours",
         "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "English Garden Japanese Tea House",
-      "Marienplatz from surrounding rooftops",
-      "Neuschwanstein Castle trails"
+      "Isar River at Flaucher Park",
+      "Englischer Garten near the Monopteros",
+      "Marienplatz (clear views from elevated angles)"
     ],
     "sunsetSpots": [
-      "Nymphenburg Palace grounds",
-      "Isar River embankment bridges",
-      "Hohenschwangau Castle overlook"
+      "Englischer Garten facing west toward the city",
+      "Nymphenburg Palace grounds from the western gardens",
+      "Isar River banks near the Deutsches Museum"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for architecture and landscapes capturing palace facades and Alpine vistas",
-      "50mm prime for street photography and detailed market scenes with natural perspective",
-      "70-200mm telephoto for distant castle shots and compressed architectural compositions from city viewpoints",
-      "24mm prime for versatile city exploration and interior palace photography"
+      "16-35mm wide-angle for grand palace architecture and landscape vistas",
+      "50mm prime for intimate street photography and market details",
+      "70-200mm telephoto for compressed distant mountain views and architectural details",
+      "10-24mm ultra-wide for immersive palace interiors and expansive park scenes"
     ],
-    "goldenHourNotes": "Munich's architecture responds beautifully to side-lighting during golden hour, with the Gothic details of town hall and Baroque curves of palaces becoming sculpted by warm light. The Isar River provides excellent reflection opportunities during golden hour, while the Alps create stunning backlit silhouettes at sunset. Spring and summer offer extended golden hour windows ideal for outdoor palace and garden photography.",
+    "goldenHourNotes": "Munich's architecture photographs exceptionally well during golden hour with warm sidelighting emphasizing baroque details and palace facades. The Englischer Garten becomes magical with directional light filtering through ancient trees creating dramatic contrast. Position yourself in the open meadows facing west for backlit golden landscapes with warm foreground subjects.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -383,47 +383,47 @@
       {
         "month": 4,
         "avgTempC": 11,
-        "rainfallMM": 66
+        "rainfallMM": 57
       },
       {
         "month": 5,
         "avgTempC": 16,
-        "rainfallMM": 77
+        "rainfallMM": 89
       },
       {
         "month": 6,
         "avgTempC": 19,
-        "rainfallMM": 84
+        "rainfallMM": 104
       },
       {
         "month": 7,
         "avgTempC": 21,
-        "rainfallMM": 86
+        "rainfallMM": 103
       },
       {
         "month": 8,
-        "avgTempC": 20,
-        "rainfallMM": 81
+        "avgTempC": 21,
+        "rainfallMM": 101
       },
       {
         "month": 9,
-        "avgTempC": 16,
-        "rainfallMM": 67
+        "avgTempC": 17,
+        "rainfallMM": 71
       },
       {
         "month": 10,
-        "avgTempC": 11,
-        "rainfallMM": 64
+        "avgTempC": 12,
+        "rainfallMM": 63
       },
       {
         "month": 11,
-        "avgTempC": 5,
-        "rainfallMM": 60
+        "avgTempC": 6,
+        "rainfallMM": 52
       },
       {
         "month": 12,
-        "avgTempC": 0,
-        "rainfallMM": 63
+        "avgTempC": 1,
+        "rainfallMM": 52
       }
     ],
     "bestMonths": [
@@ -433,30 +433,30 @@
       8,
       9
     ],
-    "seasonality": "Summer (June-August) offers warm weather and longer daylight for outdoor activities and festivals, though crowds peak during this period. Spring (May) and early autumn (September) provide pleasant temperatures with fewer tourists and ideal conditions for castle visits and hiking.",
-    "summary": "Munich experiences a humid continental climate with cold winters and mild summers. The Alpine proximity brings mountain weather patterns with occasional rainfall throughout the year, while summer months are warm and generally pleasant for tourism."
+    "seasonality": "Munich experiences distinct seasons with warm, pleasant summers (June-August) ideal for outdoor activities and beer gardens. Winter months are cold but magical with Christmas markets and occasional snow, while spring and early autumn offer mild temperatures and fewer crowds.",
+    "summary": "The city enjoys a temperate continental climate with warm summers averaging 19-21°C and cold winters around freezing. Rainfall is distributed throughout the year with peaks in summer, making any season visitable though late spring and early autumn offer the most comfortable conditions."
   },
   "hotels": [
     {
-      "name": "Wombat's City Hostel Munich",
-      "neighborhood": "Sendlinger Tor",
-      "pricePerNightUSD": 35,
-      "category": "Budget",
-      "description": "Social hostel with private rooms and dormitories featuring a lively bar, free breakfast, and excellent location near Marienplatz and public transport."
-    },
-    {
-      "name": "Hotel am Markt",
-      "neighborhood": "Marienplatz",
-      "pricePerNightUSD": 145,
+      "name": "The Westin Grand München",
+      "neighborhood": "City Center (Altstadt)",
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Charming three-star hotel in a historic building directly overlooking Marienplatz with traditional Bavarian decor and modern amenities."
+      "description": "Upscale 4-star hotel in the historic center with elegant rooms, spa facilities, and proximity to all major attractions, balancing comfort and central location."
     },
     {
-      "name": "Schloss Hotel Fuschl",
-      "neighborhood": "Lake Fuschl (30km from Munich)",
-      "pricePerNightUSD": 320,
+      "name": "Hotel Sleepy Lion Munich City",
+      "neighborhood": "Sendling",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Youth-oriented but comfortable budget hotel offering clean dormitories and private rooms with social atmosphere, free Wi-Fi, and easy U-Bahn access to city center."
+    },
+    {
+      "name": "Mandarin Oriental Munich",
+      "neighborhood": "Altstadt (City Center)",
+      "pricePerNightUSD": 420,
       "category": "Luxury",
-      "description": "Five-star lakeside palace hotel featuring spa facilities, fine dining, and stunning views of Austrian Alpine scenery with elegant classic furnishings."
+      "description": "5-star luxury palace hotel in a historic building offering exceptional service, Michelin-starred dining, spa, and direct access to Marienplatz with impeccable attention to detail."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1649609765902-254a227dc960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNdW5pY2glMjBNYXJpZW5wbGF0eiUyMEJhdmFyaWF8ZW58MXwwfHx8MTc4MTU2MjI2M3ww&ixlib=rb-4.1.0&q=80&w=1080"

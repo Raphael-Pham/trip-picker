@@ -10,7 +10,6 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
     "photography",
     "foodie",
     "adventure",
@@ -18,8 +17,8 @@
   ],
   "scores": {
     "cost": 45,
-    "food": 85,
-    "photography": 88,
+    "food": 88,
+    "photography": 85,
     "activities": 87,
     "weather": 82
   },
@@ -40,113 +39,136 @@
       "maxPerDayUSD": 800
     }
   ],
-  "unsplashQuery": "San Juan Puerto Rico colorful",
-  "summary": "San Juan is a vibrant Caribbean capital where centuries-old Spanish colonial architecture meets pristine beaches, lush tropical landscapes, and world-class culinary innovation. The city's cobblestone streets of Old San Juan burst with colorful colonial buildings, while nearby El Yunque rainforest and stunning coastal waters offer adventure and natural beauty. A perfect blend of history, culture, cuisine, and Caribbean paradise awaits.",
+  "unsplashQuery": "San Juan Puerto Rico colorful streets",
+  "summary": "San Juan captivates visitors with its vibrant blend of colonial charm, modern culture, and pristine Caribbean beaches. The historic Old San Juan district features rainbow-colored buildings, cobblestone plazas, and world-class dining, while nearby beaches and bioluminescent bays offer natural wonders. From rum distilleries to El Yunque rainforest adventures, this tropical capital delivers unforgettable experiences.",
   "restaurants": [
     {
-      "name": "El Jibarote",
+      "name": "El Jibariro",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "An authentic hole-in-the-wall Puerto Rican diner serving traditional comfort food in a no-frills setting. Famous for generous portions of mofongo, alcapurrias, and fresh juices.",
-      "mustTry": "Mofongo with chicken or shrimp"
-    },
-    {
-      "name": "Pirilo Pizza Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual pizzeria in the heart of Old San Juan with wood-fired ovens and creative toppings. Local favorite with quick service and excellent value.",
-      "mustTry": "Puerto Rican-style pizza with tropical fruits"
-    },
-    {
-      "name": "Café Puerto Rico",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Traditional cafeteria-style restaurant offering authentic Puerto Rican breakfast and lunch specialties. Popular with locals for hearty, affordable meals.",
-      "mustTry": "Alcapurrias and tostonés"
-    },
-    {
-      "name": "Barrachina",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Historic restaurant in Old San Juan claiming to have invented the Piña Colada, with traditional Puerto Rican and Caribbean seafood. Charming colonial setting with local charm.",
-      "mustTry": "Fresh ceviche and original Piña Colada"
-    },
-    {
-      "name": "El Picoteo",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Tapas-style Puerto Rican restaurant featuring small plates of traditional dishes with modern twists. Perfect for sharing and sampling multiple flavors.",
-      "mustTry": "Shrimp mofongo and tostones rellenos"
-    },
-    {
-      "name": "Grazie Mamma",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Italian-Caribbean fusion restaurant with fresh pasta and Caribbean seafood in a cozy Old San Juan setting. Local favorite for creative Mediterranean-Caribbean dishes.",
-      "mustTry": "Lobster pasta with local seafood"
-    },
-    {
-      "name": "Budatai",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale Japanese-Peruvian fusion restaurant with innovative ceviche and sushi using local Puerto Rican ingredients. Modern atmosphere with attentive service.",
-      "mustTry": "Puerto Rican inspired ceviche and tasting menu"
+      "description": "A legendary casual spot serving authentic Puerto Rican comfort food since 1967. Famous for mofongo, alcapurrias, and traditional dishes at unbeatable prices.",
+      "mustTry": "Mofongo with seafood"
     },
     {
       "name": "1919 Restaurant",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Contemporary Puerto Rican fine dining in a historic colonial mansion featuring seasonal tasting menus and craft cocktails. Award-winning chef creating modern interpretations of island cuisine.",
-      "mustTry": "Chef's seasonal tasting menu with local ingredients"
+      "priceRange": "$$$$",
+      "description": "San Juan's most acclaimed restaurant offering innovative Caribbean cuisine in a historic 1919 mansion. Chef Edwin Fuentes creates stunning dishes with local ingredients and global techniques.",
+      "mustTry": "Tasting menu with local seafood"
     },
     {
-      "name": "Luisa by Richard Sandoval",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale Mexican-Caribbean cuisine from renowned chef Richard Sandoval with stunning ocean views. Elegant atmosphere with craft cocktails and fresh seafood.",
-      "mustTry": "Whole grilled fish with Caribbean spices"
-    },
-    {
-      "name": "La Maraqueta",
-      "category": "Local Specialty",
+      "name": "Café Cutura",
+      "category": "Budget",
       "priceRange": "$",
-      "description": "Beloved bakery and sandwich shop in Old San Juan known for fresh pastries, pan de agua, and authentic Puerto Rican sandwiches. Perfect for breakfast or lunch on the go.",
-      "mustTry": "Pan de agua sandwich with local cheese"
+      "description": "Hip café in Old San Juan serving excellent coffee, fresh pastries, and light breakfast dishes. Perfect for morning fuel before exploring the historic district.",
+      "mustTry": "Cortadito with medialunas"
     },
     {
-      "name": "Kaleta",
+      "name": "Raíces Cocina Latina",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Mediterranean seafood restaurant overlooking the waterfront with fresh catches of the day and creative preparations. Relaxed atmosphere with strong Puerto Rican influences.",
-      "mustTry": "Grilled red snapper with local vegetables"
+      "description": "Contemporary Latin restaurant highlighting Puerto Rican flavors with creative preparations. The intimate setting and attentive service make it perfect for a special evening.",
+      "mustTry": "Mofongo de marisco"
     },
     {
-      "name": "Spago",
+      "name": "La Bomba de Schop",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual brewery and pub in Old San Juan serving Puerto Rican pub food and craft beers. Known for friendly atmosphere and authentic local vibe.",
+      "mustTry": "Alcapurrias with beer"
+    },
+    {
+      "name": "Pikayo",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Wolfgang Puck's upscale restaurant featuring California-Mediterranean cuisine with Caribbean influences in a beachfront resort setting. Refined dining experience with impeccable service.",
-      "mustTry": "Wood-fired pizzas and fresh seafood preparations"
+      "description": "Award-winning restaurant by Chef Óscar Ortiz featuring creative Caribbean cuisine in an elegant setting. Seasonal menus showcase the best local produce and seafood.",
+      "mustTry": "Caribbean seafood ceviche"
+    },
+    {
+      "name": "Trattoria Farfalle",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian-Caribbean fusion restaurant offering fresh pasta and seafood dishes. The casual atmosphere and reasonable prices make it a local favorite.",
+      "mustTry": "Fresh handmade pasta with local fish"
+    },
+    {
+      "name": "Ajilí Mojilí",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Traditional Puerto Rican restaurant serving generations-old family recipes with pride. Simple, authentic, and delicious homestyle cooking.",
+      "mustTry": "Arroz con pollo"
+    },
+    {
+      "name": "Dripship Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Specialty coffee roastery and café focusing on Puerto Rican coffee beans. Excellent espresso drinks and pastries in a modern, welcoming space.",
+      "mustTry": "Puerto Rican flat white"
+    },
+    {
+      "name": "Soleil Beach Club",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront restaurant with Caribbean cuisine and fresh seafood. Great for lunch with ocean views and a relaxed, barefoot atmosphere.",
+      "mustTry": "Grilled mahi-mahi with plantains"
+    },
+    {
+      "name": "Lechonera Las Tinajas",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Iconic takeaway spot famous for whole roasted pig (lechón) and crispy skin. A must-visit for authentic Puerto Rican festive food.",
+      "mustTry": "Lechón with yuca and tostones"
+    },
+    {
+      "name": "Claudette Taberna Española",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Spanish tapas restaurant with an extensive wine selection and sophisticated small plates. Intimate ambiance perfect for food lovers.",
+      "mustTry": "Jamón ibérico and seafood tapas"
     }
   ],
   "activities": [
     {
-      "name": "Explore Old San Juan",
+      "name": "Old San Juan Walking Tour",
       "category": "Cultural",
-      "description": "Wander through the UNESCO World Heritage-listed historic district with colorful colonial buildings, local shops, galleries, and cafes. Get lost in the charming cobblestone streets and discover hidden plazas.",
+      "description": "Explore the UNESCO-listed historic district with colorful colonial buildings, cobblestone streets, and centuries of Caribbean history. Guided or self-guided tours available to visit El Morro fort, local galleries, and plazas.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "surprise"
+        "hidden-gems"
       ]
     },
     {
       "name": "El Yunque National Rainforest",
-      "category": "Outdoor",
-      "description": "Hike through Puerto Rico's only tropical rainforest with waterfalls, pristine pools, and diverse wildlife. Multiple trail options for all fitness levels with breathtaking natural scenery.",
-      "durationHours": 4,
+      "category": "Adventure",
+      "description": "Hike through Puerto Rico's only tropical rainforest with waterfalls, natural pools, and lush vegetation. Multiple trail options cater to different fitness levels.",
+      "durationHours": 5,
       "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bacardi Rum Distillery Tour",
+      "category": "Cultural",
+      "description": "Tour the iconic rum distillery with tastings and history of Puerto Rico's famous spirit. Beautiful seaside location with museum and bar.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Bioluminescent Bay Night Tour",
+      "category": "Outdoor",
+      "description": "Experience the magical glowing waters of Laguna Grande on a guided kayak or boat tour. Micro-organisms light up when disturbed, creating an ethereal spectacle.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "adventure",
         "photography",
@@ -154,216 +176,187 @@
       ]
     },
     {
-      "name": "Castillo San Felipe del Morro",
+      "name": "Condado Beach and Boardwalk",
+      "category": "Relaxation",
+      "description": "Relax on pristine sandy beaches with calm turquoise waters, then stroll the modern beachfront promenade lined with restaurants and shops. Perfect for swimming and people-watching.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Castillo de San Felipe del Morro",
       "category": "Cultural",
-      "description": "Explore this 16th-century fortress with strategic views over the Atlantic Ocean and Old San Juan. Learn about Puerto Rico's colonial military history through exhibits and guided tours.",
+      "description": "Tour the massive 16th-century fortress offering panoramic views of Old San Juan and the Atlantic Ocean. Excellent historical exhibits and dramatic cliff-side setting.",
       "durationHours": 2,
-      "estimatedCostUSD": 5,
+      "estimatedCostUSD": 7,
       "bestFor": [
         "standard",
         "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "La Fortaleza Historic Tour",
+      "category": "Cultural",
+      "description": "Visit the oldest continuously occupied governor's mansion in the Western Hemisphere with stunning architecture and gardens. Guided tours showcase centuries of Puerto Rican governance.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Karting Center Racing",
+      "category": "Adventure",
+      "description": "Race against friends on a challenging indoor go-kart track with professional-grade equipment. Fun for all skill levels with safety training provided.",
+      "durationHours": 2,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "La Ventana al Mar Beach Picnic",
+      "category": "Relaxation",
+      "description": "Escape to a peaceful, less-crowded beach with calm waters ideal for swimming and picnicking. Authentic local atmosphere without tourist crowds.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
         "hidden-gems"
       ]
     },
     {
-      "name": "Bioluminescent Bay Night Tour",
+      "name": "Street Art and Graffiti Tour",
+      "category": "Cultural",
+      "description": "Discover San Juan's vibrant street art scene with a local artist guide exploring murals and graffiti in neighborhoods like Santurce. Learn the stories behind the artwork and Puerto Rican urban culture.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "photography",
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Snorkeling at Cormorant Reef",
       "category": "Adventure",
-      "description": "Experience the magical glow of dinoflagellates in Vieques' bioluminescent bay on a guided kayak tour. A unique natural phenomenon best seen after sunset.",
+      "description": "Explore underwater coral reefs teeming with tropical fish and marine life just minutes from shore. Various tour operators offer equipment and guided experiences.",
       "durationHours": 3,
       "estimatedCostUSD": 60,
       "bestFor": [
         "adventure",
-        "surprise",
-        "relaxation"
+        "standard"
       ]
     },
     {
-      "name": "Beach Day at Flamenco Beach",
-      "category": "Relaxation",
-      "description": "Relax on pristine white sand and turquoise waters at this consistently ranked top beach in the Caribbean. Perfect for swimming, snorkeling, and sunset watching.",
-      "durationHours": 5,
+      "name": "Plaza de Armas Local Market Day",
+      "category": "Cultural",
+      "description": "Browse the historic plaza during market days to experience local crafts, fresh produce, and Puerto Rican culture firsthand. Perfect for souvenirs and authentic interactions.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Snorkeling at Coral Reefs",
-      "category": "Adventure",
-      "description": "Discover vibrant coral ecosystems and tropical fish in clear waters off the Puerto Rico coast. Multiple reef sites accessible by boat or wading from shore.",
-      "durationHours": 3,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Museum of Art of Puerto Rico",
-      "category": "Cultural",
-      "description": "Comprehensive collection of Puerto Rican art from pre-Columbian times to contemporary works. Beautiful neoclassical building with extensive galleries and cultural programming.",
-      "durationHours": 2,
-      "estimatedCostUSD": 8,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Food Tour of Local Markets",
-      "category": "Foodie",
-      "description": "Join a guided tour through local markets and street food vendors sampling authentic Puerto Rican specialties. Learn about local ingredients and cooking traditions from passionate guides.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
-      "bestFor": [
+        "hidden-gems",
         "foodie",
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Nightlife in San Juan",
-      "category": "Nightlife",
-      "description": "Experience vibrant bars, nightclubs, and live music venues featuring salsa, reggaeton, and local bands. San Juan offers everything from casual beach bars to upscale nightclubs.",
-      "durationHours": 4,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "nightlife"
-      ]
-    },
-    {
-      "name": "Kayaking through Mangrove Lagoons",
-      "category": "Adventure",
-      "description": "Paddle through pristine mangrove forests and lagoons spotting wildlife including manatees, crabs, and tropical birds. Peaceful and immersive nature experience.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Vieques Island Day Trip",
-      "category": "Outdoor",
-      "description": "Take a short ferry or flight to pristine Vieques Island for secluded beaches, wild horses, and bioluminescent bays. Full-day adventure combining nature and relaxation.",
-      "durationHours": 8,
-      "estimatedCostUSD": 120,
-      "bestFor": [
-        "adventure",
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Catamaran Sunset Cruise",
-      "category": "Relaxation",
-      "description": "Sail along the Puerto Rico coast at sunset with drinks and snacks, often including swimming stops and water activities. Perfect way to end the day while enjoying ocean views.",
-      "durationHours": 3,
-      "estimatedCostUSD": 70,
-      "bestFor": [
-        "relaxation",
-        "standard",
-        "photography"
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Fort San Felipe del Morro",
-        "description": "Historic fortress walls with dramatic ocean views and golden architectural details perfect for sunrise or golden hour shots.",
+        "name": "Castillo San Felipe del Morro Cliffs",
+        "description": "Dramatic fortress perched on cliffs with stunning coastal vistas and historic architecture perfect for landscape and architecture photography.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for soft light, golden hour for warm tones",
+        "bestTime": "Golden hour, early morning",
         "category": "Architecture"
       },
       {
-        "name": "Colorful Streets of Old San Juan",
-        "description": "Iconic candy-colored colonial buildings along cobblestone streets with vibrant doors, shutters, and architectural details.",
+        "name": "Old San Juan Colorful Facades",
+        "description": "Vibrant rainbow-colored colonial buildings on narrow cobblestone streets create iconic street photography opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Morning for shadow contrast, overcast days for even lighting",
+        "bestTime": "Morning light for color saturation",
         "category": "Street"
       },
       {
-        "name": "El Yunque Waterfall",
-        "description": "Cascading waterfall surrounded by lush tropical rainforest vegetation creating dynamic compositions with water and nature.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for diffused light through canopy, after rain for fuller waterfall",
-        "category": "Landscape"
-      },
-      {
-        "name": "Bioluminescent Bay Vieques",
-        "description": "Magical glowing water from dinoflagellates at night creating an ethereal, otherworldly photographic opportunity.",
+        "name": "Laguna Grande Bioluminescent Bay",
+        "description": "Magical glowing waters create otherworldly night photography with ethereal blue light reflecting off the water.",
         "difficulty": "Advanced",
-        "bestTime": "Moonless nights when water is darkest for maximum glow visibility",
+        "bestTime": "Moonless nights, 10pm-midnight",
         "category": "Night"
       },
       {
-        "name": "Old San Juan Harbor at Sunset",
-        "description": "Picturesque harbor view with historic boats, colorful buildings, and golden hour reflections in calm water.",
-        "difficulty": "Beginner",
-        "bestTime": "One hour before sunset for warm light and color saturation",
-        "category": "Landscape"
-      },
-      {
-        "name": "Flamenco Beach Landscape",
-        "description": "Pristine white sand beach with turquoise waters, palm trees, and surrounding hills creating idyllic Caribbean scenery.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning for minimal crowds and soft light, golden hour for warm tones",
-        "category": "Landscape"
-      },
-      {
-        "name": "Camuy Caves Entrance",
-        "description": "Dramatic sinkhole entrance to massive underground caverns with lush vegetation and geological formations.",
+        "name": "El Yunque Waterfall Trails",
+        "description": "Multiple cascading waterfalls surrounded by lush rainforest vegetation provide dramatic nature and landscape photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday when sunlight illuminates the cavern entrance dramatically",
+        "bestTime": "After rain, early morning",
         "category": "Landscape"
       },
       {
-        "name": "Local Market Street Vendors",
-        "description": "Vibrant street photography of local vendors, colorful produce, and authentic Puerto Rican daily life.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning when markets are busiest and light is soft",
+        "name": "Condado Beach Sunset Point",
+        "description": "Wide sandy beach with palm trees and modern high-rises create layered composition opportunities during golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset, 5-7pm",
+        "category": "Landscape"
+      },
+      {
+        "name": "Santurce Street Art Murals",
+        "description": "Vibrant, large-scale murals cover buildings in this trendy neighborhood offering bold color and artistic composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days or soft morning light",
         "category": "Street"
       },
       {
-        "name": "Mangrove Lagoon Reflections",
-        "description": "Still waters and mangrove trees creating mirror-like reflections with abundant tropical wildlife opportunities.",
+        "name": "La Fortaleza Gardens and Architecture",
+        "description": "Elegant colonial gardens, arches, and stone architecture with manicured landscaping create romantic composition opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning for calm waters and soft golden light reflecting off water",
+        "bestTime": "Morning light, 7-9am",
+        "category": "Architecture"
+      },
+      {
+        "name": "Icacos Island Beach",
+        "description": "Pristine turquoise waters, white sand, and undeveloped coastline create postcard-perfect tropical landscape shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for water clarity",
         "category": "Landscape"
       },
       {
-        "name": "Colonial Architecture Details",
-        "description": "Close-up photography of ornate colonial doors, wrought-iron railings, shutters, and architectural embellishments.",
+        "name": "Plaza de Armas Colonial Plaza",
+        "description": "Historic square surrounded by colonial arcades and buildings with local activity and vibrant street life.",
+        "difficulty": "Intermediate",
+        "bestTime": "Market days, morning light",
+        "category": "Street"
+      },
+      {
+        "name": "Escambron Beach Fishing Boats",
+        "description": "Traditional colorful fishing boats against blue water and urban backdrop create interesting composition contrasts.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light for shadow detail, overcast for even exposure of intricate details",
-        "category": "Architecture"
+        "bestTime": "Early morning when boats are active",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
       "Castillo San Felipe del Morro",
-      "Flamenco Beach Vieques",
-      "El Yunque Lookout Point"
+      "Condado Beach Pier",
+      "El Yunque Mountain Vista"
     ],
     "sunsetSpots": [
+      "Condado Beach Boardwalk",
       "Old San Juan Harbor",
-      "Flamenco Beach",
-      "Bioluminescent Bay Vieques"
+      "Bacardi Distillery Seaside Terrace"
     ],
     "lensRecommendations": [
-      "24-70mm f/2.8 for versatile colonial architecture and street photography in Old San Juan",
-      "16-35mm f/4 ultra-wide for dramatic landscape and waterfall compositions in El Yunque",
-      "70-200mm f/2.8 for wildlife and compressed landscape shots from bays and overlooks",
-      "50mm f/1.8 for intimate street portraits and local market photography"
+      "16-35mm wide-angle for sweeping landscape and architectural shots in Old San Juan",
+      "50mm prime for intimate street photography and cultural portraits",
+      "70-200mm telephoto for compressed coastal compositions and wildlife detail",
+      "10-20mm ultra-wide for dramatic rainforest canopy and fort panoramas"
     ],
-    "goldenHourNotes": "San Juan's tropical climate and strategic locations make golden hour particularly magical, especially at Old San Juan Harbor and beach locations. The warm Caribbean light creates rich colors in the colonial architecture and produces stunning reflections on water. Plan shoots for the hour before sunset when the sun is low and colors are most saturated, or early morning within the first hour of sunrise for soft, directional light.",
+    "goldenHourNotes": "San Juan's golden hour is particularly striking from 6:30-7:30am and 5:30-6:30pm due to the angle of light hitting the colorful buildings and coastline. The humidity and tropical atmosphere create beautiful soft light and diffusion. Bioluminescent bay photography requires moonless nights and long exposures of 2-4 seconds to capture the glowing effect properly.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -371,95 +364,95 @@
       {
         "month": 1,
         "avgTempC": 25,
-        "rainfallMM": 60
+        "rainfallMM": 50
       },
       {
         "month": 2,
         "avgTempC": 25,
-        "rainfallMM": 50
+        "rainfallMM": 45
       },
       {
         "month": 3,
         "avgTempC": 26,
-        "rainfallMM": 50
+        "rainfallMM": 55
       },
       {
         "month": 4,
         "avgTempC": 27,
-        "rainfallMM": 80
+        "rainfallMM": 100
       },
       {
         "month": 5,
         "avgTempC": 28,
-        "rainfallMM": 120
-      },
-      {
-        "month": 6,
-        "avgTempC": 28,
-        "rainfallMM": 140
-      },
-      {
-        "month": 7,
-        "avgTempC": 28,
         "rainfallMM": 130
       },
       {
-        "month": 8,
-        "avgTempC": 28,
-        "rainfallMM": 140
+        "month": 6,
+        "avgTempC": 29,
+        "rainfallMM": 155
       },
       {
-        "month": 9,
-        "avgTempC": 27,
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 145
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
         "rainfallMM": 150
       },
       {
+        "month": 9,
+        "avgTempC": 29,
+        "rainfallMM": 175
+      },
+      {
         "month": 10,
-        "avgTempC": 27,
-        "rainfallMM": 140
+        "avgTempC": 28,
+        "rainfallMM": 190
       },
       {
         "month": 11,
-        "avgTempC": 26,
-        "rainfallMM": 100
+        "avgTempC": 27,
+        "rainfallMM": 135
       },
       {
         "month": 12,
-        "avgTempC": 25,
-        "rainfallMM": 70
+        "avgTempC": 26,
+        "rainfallMM": 75
       }
     ],
     "bestMonths": [
       1,
       2,
       3,
+      11,
       12
     ],
-    "seasonality": "San Juan enjoys warm tropical weather year-round with temperatures between 25-28°C. The dry season from December through April offers the most pleasant conditions with lower rainfall and calmer seas, while May through November is the wet season with higher humidity, frequent afternoon showers, and hurricane risk peaking in September-October.",
-    "summary": "San Juan experiences consistent tropical warmth throughout the year with reliable sunshine making it suitable for beach activities any time. The winter months (December-April) offer the driest conditions and calmest waters, while summer months bring higher temperatures, humidity, and afternoon rainstorms."
+    "seasonality": "San Juan has a tropical climate with warm temperatures year-round. December through March represents the dry season with lower rainfall and cooler temperatures, making it the most pleasant time to visit. June through October is hurricane season with higher rainfall and humidity, though direct hits are relatively rare.",
+    "summary": "San Juan enjoys consistent warm tropical weather with temperatures between 24-30°C throughout the year. Rainfall increases significantly during the summer and fall months, while winter months offer drier, more comfortable conditions ideal for beach activities."
   },
   "hotels": [
     {
-      "name": "La Concha Resort",
-      "neighborhood": "Condado",
-      "pricePerNightUSD": 180,
-      "category": "Mid-range",
-      "description": "Elegant beachfront resort with mid-century modern architecture, full amenities including pools and restaurants, and direct access to Condado Beach."
-    },
-    {
-      "name": "Copacabana Hotel",
-      "neighborhood": "Old San Juan",
-      "pricePerNightUSD": 90,
-      "category": "Budget",
-      "description": "Simple but charming budget hotel in the heart of historic Old San Juan with colorful decor and convenient location for exploring colonial streets."
-    },
-    {
-      "name": "The Ritz-Carlton",
+      "name": "La Concha Renaissance San Juan Resort",
       "neighborhood": "Condado",
       "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Ultra-luxurious beachfront resort with world-class amenities, fine dining restaurants, spa, and panoramic ocean views in exclusive Condado neighborhood."
+      "description": "Iconic beachfront resort with elegant accommodations, multiple pools, fine dining, and direct beach access in the heart of Condado's modern entertainment district."
+    },
+    {
+      "name": "El Conquistador Resort",
+      "neighborhood": "Fajardo",
+      "pricePerNightUSD": 220,
+      "category": "Mid-range",
+      "description": "Full-service beachfront resort offering water sports, multiple restaurants, pools, and easy access to nearby El Yunque National Rainforest and Icacos Island."
+    },
+    {
+      "name": "Pensión de París",
+      "neighborhood": "Old San Juan",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Charming colonial guesthouse in the heart of Old San Juan with colorful decor, rooftop terrace views, and walking distance to historic sites and restaurants."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1589402249680-5ff95f2ac3bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTYW4lMjBKdWFuJTIwUHVlcnRvJTIwUmljbyUyMGNvbG9yZnVsfGVufDF8MHx8fDE3ODE1NTYxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

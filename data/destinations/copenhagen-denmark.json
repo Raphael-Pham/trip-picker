@@ -5,270 +5,266 @@
   "region": "Europe",
   "airportCodes": [
     "CPH",
-    "MME",
-    "RKE"
+    "ARN",
+    "MME"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
     "photography",
     "foodie",
-    "relaxation"
+    "relaxation",
+    "hidden-gems"
   ],
   "scores": {
     "cost": 35,
     "food": 92,
     "photography": 88,
     "activities": 85,
-    "weather": 55
+    "weather": 60
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 130
+      "maxPerDayUSD": 120
     },
     {
       "level": "mid",
-      "minPerDayUSD": 130,
+      "minPerDayUSD": 150,
       "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
+      "minPerDayUSD": 300,
       "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Copenhagen Nyhavn colorful boats",
-  "summary": "Copenhagen is Scandinavia's vibrant capital, famous for its colorful harborfronts, innovative Nordic cuisine, and effortlessly cool design culture. This bicycle-friendly city blends historic charm with progressive Scandinavian sophistication, offering world-class restaurants, stunning architecture, and a relaxed yet accomplished atmosphere.",
+  "unsplashQuery": "Copenhagen Nyhavn colorful",
+  "summary": "Copenhagen is a vibrant Scandinavian capital where cutting-edge design meets historic charm, world-class dining competes with cozy café culture, and cyclists outnumber cars on picturesque streets. This progressive city seamlessly blends modern innovation with centuries of maritime heritage, offering visitors an enchanting blend of cultural experiences, culinary excellence, and photogenic architecture at every corner.",
   "restaurants": [
     {
       "name": "Noma",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "One of the world's most acclaimed restaurants, Noma pioneered New Nordic cuisine and continues to set global culinary standards. Chef René Redzepi creates seasonal tasting menus that celebrate regional ingredients and ancient cooking techniques.",
-      "mustTry": "Seasonal tasting menu with foraged ingredients"
+      "description": "World-renowned two-Michelin-star restaurant pioneering New Nordic cuisine with seasonal, foraged ingredients. An extraordinary multi-course journey through Scandinavian flavors and innovative cooking techniques.",
+      "mustTry": "Ants and flowers with edible soil"
     },
     {
-      "name": "Aamanns",
+      "name": "Smørrebrød fra Grønland",
       "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "A legendary smørrebrød (open-faced sandwich) restaurant showcasing traditional Danish lunch culture with creative, artistic presentations. Each sandwich tells a story through carefully curated toppings and premium ingredients.",
-      "mustTry": "House special smørrebrød platter"
-    },
-    {
-      "name": "Café Katz",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "A cozy, casual café perfect for quick Danish pastries, coffee, and light lunches in the heart of Nørrebro. Known for its authentic Danish atmosphere and affordable prices.",
-      "mustTry": "Danish butter pastry with espresso"
+      "priceRange": "$$",
+      "description": "Authentic Danish open-faced sandwich shop in Nørrebro offering traditional smørrebrød with quality cold cuts, fish, and seasonal toppings. A true taste of Copenhagen's sandwich culture.",
+      "mustTry": "Shrimp with remoulade"
     },
     {
       "name": "Geranium",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "A three-Michelin-starred rooftop restaurant with panoramic city views and avant-garde Nordic cuisine. Chef Rasmus Kofoed creates artistic dishes that combine classical French techniques with local Danish produce.",
-      "mustTry": "Innovative tasting menu with vegetable focus"
+      "description": "Three-Michelin-star restaurant offering contemporary European cuisine with breathtaking views over Tåsinge Plads. An ethereal dining experience combining artistry with perfectly executed techniques.",
+      "mustTry": "Langoustine preparations"
     },
     {
-      "name": "Bøf & Øl",
+      "name": "Café Luna",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual neighborhood café serving excellent Danish pastries, coffee, and light lunch options in a cozy atmosphere. Perfect for experiencing local breakfast culture without breaking the bank.",
+      "mustTry": "Wienerbrød (Danish pastry)"
+    },
+    {
+      "name": "Llama",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A quintessential Danish steakhouse serving traditional beef dishes and craft beers in a warm, convivial setting. Perfect for experiencing Danish meat culture in an unpretentious environment.",
-      "mustTry": "Danish beef steak with pickled cucumber"
+      "description": "Trendy South American restaurant in Vesterbro featuring Peruvian and Chilean cuisine with fresh ceviche and handcrafted cocktails. Hip ambiance perfect for casual dining and people-watching.",
+      "mustTry": "Ceviche mixto"
     },
     {
       "name": "Manfreds",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A hyper-local wine bar and restaurant in Nørrebro featuring natural wines and seasonal small plates. The intimate, lively atmosphere captures Copenhagen's modern dining scene perfectly.",
-      "mustTry": "Chef's selection of seasonal charcuterie and vegetables"
+      "description": "Natural wine bar and restaurant in Nørrebro showcasing organic wines paired with seasonal Danish cuisine. Intimate setting with knowledgeable staff and creative small plates.",
+      "mustTry": "Seasonal fish ceviche"
     },
     {
-      "name": "Grød",
+      "name": "The Laundromat Café",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A dedicated porridge restaurant serving savory and sweet oatmeal bowls with creative toppings. Perfect for a hearty, affordable breakfast or brunch in a trendy Nørrebro setting.",
-      "mustTry": "Seasonal berry porridge with nuts and seeds"
+      "description": "Quirky café-laundromat hybrid offering affordable comfort food, strong coffee, and free WiFi while you work or relax. A uniquely Copenhagen social hub with artistic vibes.",
+      "mustTry": "Homemade brownies"
     },
     {
-      "name": "Mother",
+      "name": "Amanlis",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant focusing on Nordic ingredients with French techniques in an intimate, elegant setting. Exceptional wine pairings complement creative seasonal menus.",
+      "mustTry": "Duck with cherry gastrique"
+    },
+    {
+      "name": "Pony",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A Michelin-starred pizzeria in Nørrebro using sourdough and high-quality Italian ingredients cooked in a wood-fired oven. Known for casual elegance and exceptional taste.",
-      "mustTry": "Margherita pizza with San Marzano tomatoes"
+      "description": "Casual pony-themed restaurant in Nørrebro serving global comfort food with Danish influences in a relaxed neighborhood setting. Known for warm hospitality and Instagram-worthy dishes.",
+      "mustTry": "Truffle fries"
     },
     {
-      "name": "Tåstet",
-      "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "A modern Nordic restaurant celebrating traditional Danish ingredients and techniques with contemporary plating. Located in Frederiksstaden, it offers a refined take on Copenhagen's culinary heritage.",
-      "mustTry": "Duck confit with root vegetable gratin"
-    },
-    {
-      "name": "Paté Pâté",
-      "category": "Local Specialty",
-      "priceRange": "$$$",
-      "description": "A charming French-Danish bistro in Vesterbro serving rustic Parisian fare with Danish sensibilities. Known for its authentic pâtés, terrines, and cozy intimate ambiance.",
-      "mustTry": "Foie gras terrine with brioche"
-    },
-    {
-      "name": "Peder Oxe",
+      "name": "Gråbrødre Torv",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "A traditional Danish smørrebrød restaurant in Gammel Strand with views of Strøget, offering authentic lunch culture in a historic setting. Perfect for experiencing Copenhagen's culinary traditions.",
-      "mustTry": "Frikadeller (Danish meatballs) on rye bread"
+      "description": "Historic square with multiple restaurant terraces offering traditional Danish smørrebrød, beer, and schnapps in charming cobblestone surroundings. Perfect for soaking in medieval Copenhagen.",
+      "mustTry": "Traditional medisterpølse sandwich"
     },
     {
-      "name": "Snaps",
+      "name": "The Avocado Show",
       "category": "Budget",
       "priceRange": "$",
-      "description": "A casual, lively Danish street food venue in Vesterbro serving hot dogs, meatballs, and traditional comfort food. Great for quick, authentic, affordable meals with local charm.",
-      "mustTry": "Classic Danish hotdog with homemade remoulade"
+      "description": "Instagram-famous café specializing in creative avocado toast, smoothie bowls, and organic juices in Vesterbro's trendy district. Bright, plant-filled space popular with digital nomads.",
+      "mustTry": "Avocado toast with poached egg"
+    },
+    {
+      "name": "Krebsegaarden",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-run seafood restaurant in the historic Nyhavn district serving fresh Danish fish, lobster, and seasonal catches with waterfront views. Traditional yet refined preparation methods.",
+      "mustTry": "Grilled sole with brown butter"
     }
   ],
   "activities": [
     {
-      "name": "Tivoli Gardens",
-      "category": "Family",
-      "description": "Europe's second-oldest amusement park combining thrilling rides, beautiful gardens, and classic entertainment in the heart of the city. A magical destination with over 25 rides, restaurants, and theaters.",
-      "durationHours": 4,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "family",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Rosenborg Castle",
-      "category": "Cultural",
-      "description": "A stunning Renaissance castle housing the Danish Crown Jewels and royal collections, set within beautiful Kongens Have park. A must-visit for history enthusiasts and photography lovers.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Nyhavn Canal Boat Tour",
+      "name": "Explore Nyhavn Harbor",
       "category": "Outdoor",
-      "description": "Cruise Copenhagen's iconic harbor district with colorful 17th-century buildings and charming waterfront cafés. The perfect way to see the city's most picturesque neighborhoods from the water.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 18,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Bicycle Tour Through Copenhagen",
-      "category": "Outdoor",
-      "description": "Explore Copenhagen like a local on a guided or self-guided bike tour through neighborhoods like Nørrebro and Vesterbro. Denmark's most iconic form of transport offers unparalleled urban exploration.",
-      "durationHours": 3,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "hidden-gems",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Christiania Free Town",
-      "category": "Cultural",
-      "description": "Visit Copenhagen's famous autonomous community featuring street art, hippie culture, and independent shops in Freetown Christiania. A unique neighborhood with vibrant murals and alternative lifestyle culture.",
+      "description": "Stroll the iconic colorful 17th-century harborfront lined with restaurants, cafés, and sailboats. Watch street performers, sip drinks dockside, and soak in Copenhagen's maritime charm.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "hidden-gems",
+        "standard",
         "photography",
-        "surprise"
+        "relaxation"
       ]
     },
     {
-      "name": "Design Museum Copenhagen",
-      "category": "Indoor",
-      "description": "Dedicated to Danish and international design history, featuring iconic furniture, textiles, and industrial design pieces. Essential for understanding Copenhagen's legendary role in global design culture.",
+      "name": "Rosenborg Castle Tour",
+      "category": "Cultural",
+      "description": "Explore the Renaissance castle containing the Danish Crown Jewels, royal artifacts, and beautifully preserved rooms spanning 400 years of monarchy. Comprehensive museum experience of Danish heritage.",
       "durationHours": 2.5,
-      "estimatedCostUSD": 14,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
-        "surprise",
         "photography"
       ]
     },
     {
-      "name": "Strøget Shopping Street Walk",
+      "name": "Bike Copenhagen",
       "category": "Outdoor",
-      "description": "Stroll Europe's longest pedestrian shopping street connecting Rådhuspladsen to Kongens Nytorv, lined with shops, cafés, and street performers. Perfect for retail therapy and people-watching.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "description": "Rent a traditional Danish bicycle and cycle through neighborhoods, parks, and along canals like a local. Discover hidden streets, street art, and authentic Copenhagen beyond tourist areas.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
-        "surprise",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Frederiksborg Castle Day Trip",
-      "category": "Outdoor",
-      "description": "Day trip to this spectacular Baroque castle in Hillerød featuring royal museum collections and beautiful lake-setting gardens. Easily accessible by train from Copenhagen.",
-      "durationHours": 6,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
-        "photography",
+        "hidden-gems",
         "adventure"
       ]
     },
     {
-      "name": "Copenhagen Opera House Tour",
+      "name": "Christiana Freetown Visit",
       "category": "Cultural",
-      "description": "Explore the stunning modern architecture of Scandinavia's largest opera house with guided tours showcasing its innovative design. A architectural masterpiece worth experiencing even without attending a performance.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "National Museum of Denmark",
-      "category": "Indoor",
-      "description": "Comprehensive museum covering Danish history from prehistory through the modern era with extensive Viking artifacts and exhibitions. One of Northern Europe's finest historical institutions.",
-      "durationHours": 3,
-      "estimatedCostUSD": 16,
-      "bestFor": [
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Amalienborg Palace",
-      "category": "Cultural",
-      "description": "The official residence of the Danish royal family featuring four classical palaces surrounding a octagonal plaza with changing of the guard ceremony. The heart of royal Copenhagen.",
-      "durationHours": 1,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Vesterbro Neighborhood Exploration",
-      "category": "Outdoor",
-      "description": "Wander Copenhagen's trendiest neighborhood discovering street art, independent boutiques, vintage shops, and cool cafés along colorful streets. The epicenter of Copenhagen's creative and culinary renaissance.",
-      "durationHours": 2.5,
+      "description": "Wander through this legendary 1970s autonomous neighborhood featuring street art, vintage shops, live music venues, and bohemian culture. A fascinating counterculture district unlike anywhere else.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "hidden-gems",
-        "surprise",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Tivoli Gardens",
+      "category": "Family",
+      "description": "Historic amusement park with rides, gardens, games, and entertainment since 1843, featuring beautiful illuminations especially magical at night. A quintessential Copenhagen experience combining nostalgia with modern attractions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Danish Design Museum",
+      "category": "Indoor",
+      "description": "Comprehensive museum showcasing Danish industrial and furniture design excellence from the 1900s to present. Essential for understanding the Nordic design aesthetic that influences contemporary global design.",
+      "durationHours": 2,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Canal Boat Tour",
+      "category": "Outdoor",
+      "description": "Guided or self-guided boat tour through Copenhagen's waterways and canals, passing historic neighborhoods, bridges, and waterfront architecture. Relaxing perspective on the city with unique photo opportunities.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Street Art Walking Tour in Vesterbro",
+      "category": "Cultural",
+      "description": "Guided or self-guided exploration of Vesterbro's ever-changing street art scene featuring international and local artists. Dynamic neighborhood showcasing contemporary urban creativity and Copenhagen's progressive culture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Strøget Shopping Street",
+      "category": "Outdoor",
+      "description": "Europe's longest pedestrian shopping street connecting Nyhavn to Rådhuspladsen, featuring global brands, local boutiques, street musicians, and cafés. Vibrant urban thoroughfare reflecting Copenhagen's modern consumer culture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Copenhagen Street Food Festival (Seasonal)",
+      "category": "Foodie",
+      "description": "Seasonal food market featuring local and international vendors, craft breweries, and food trucks in cultural venues. Ideal for tasting diverse Copenhagen culinary scene in casual, lively atmosphere.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Amalienborg Palace & Changing of the Guard",
+      "category": "Cultural",
+      "description": "Royal residence with four identical mansions housing museums and official royal functions, featuring daily changing of the guard ceremony. Historic center of Danish royal life with neoclassical architecture.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kastellet Ramparts Walk",
+      "category": "Outdoor",
+      "description": "Historic star-shaped fortress with peaceful park ideal for walking, picnicking, and observing the Øresund region. Beautiful green space offering respite from city center with panoramic water views.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "outdoor",
         "photography"
       ]
     }
@@ -276,156 +272,156 @@
   "photography": {
     "spots": [
       {
-        "name": "Nyhavn Harbor",
-        "description": "Iconic harborfront with brilliantly colored 17th-century buildings reflecting in calm waters, perfect for golden hour photography.",
+        "name": "Nyhavn Harborfront",
+        "description": "Iconic colorful 17th-century rowhouses reflecting in calm harbor water, especially stunning at sunrise and golden hour.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon for best light and fewer crowds",
+        "bestTime": "Early morning or sunset for soft light and fewer crowds",
         "category": "Architecture"
-      },
-      {
-        "name": "Rosenborg Castle & Kongens Have",
-        "description": "Stunning Renaissance castle surrounded by manicured gardens offering picturesque landscape and architectural photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Autumn for foliage; spring for flowers; golden hour year-round",
-        "category": "Architecture"
-      },
-      {
-        "name": "Christianshavn Canals",
-        "description": "Charming canal district with colorful houseboats and narrow waterways creating intimate, authentic urban photography subjects.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning light for reflections; golden hour for warm tones",
-        "category": "Street"
-      },
-      {
-        "name": "Copenhagen Opera House",
-        "description": "Modern architectural marvel with striking white marble exterior and dramatic geometric lines perfect for contemporary architecture photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Blue hour or golden hour for dramatic lighting on facade",
-        "category": "Architecture"
-      },
-      {
-        "name": "Vesterbro Street Art",
-        "description": "Vibrant murals and street art throughout Vesterbro neighborhood provide bold colors and artistic urban photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for bold colors; overcast skies for even lighting",
-        "category": "Street"
       },
       {
         "name": "Amalienborg Palace Square",
-        "description": "Octagonal royal plaza with classical architecture and changing of the guard ceremony creating dynamic street and architectural shots.",
-        "difficulty": "Intermediate",
-        "bestTime": "Noon for guard ceremony; golden hour for plaza lighting",
+        "description": "Four identical neoclassical mansions arranged in octagonal formation with guards in full ceremonial dress during changing of the guard.",
+        "difficulty": "Beginner",
+        "bestTime": "Noon for changing of the guard ceremony, morning for architectural detail",
         "category": "Architecture"
       },
       {
-        "name": "Freetown Christiania",
-        "description": "Autonomous community filled with colorful murals, alternative architecture, and vibrant street culture offering unique urban photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for color saturation; overcast for detail visibility",
+        "name": "Strøget Pedestrian Street",
+        "description": "Vibrant street scene with historic architecture mixed with modern storefronts, street performers, and diverse crowds.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for natural crowd flow and soft directional light",
         "category": "Street"
       },
       {
-        "name": "Tivoli Gardens Evening",
-        "description": "Amusement park transformed into a magical wonderland with thousands of lights, rides, and illuminated gardens at night.",
-        "difficulty": "Advanced",
-        "bestTime": "Evening/night for light trails and illuminated attractions",
+        "name": "Frederiksborg Castle from Lake",
+        "description": "Fairytale Renaissance castle reflected in tranquil lake surrounded by manicured gardens, located in nearby Hillerød.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour with calm water for mirror reflections",
+        "category": "Landscape"
+      },
+      {
+        "name": "Tivoli Gardens at Night",
+        "description": "Historic amusement park illuminated with thousands of lights creating magical nighttime atmosphere with rides and architecture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk through evening for transitional light and full illumination effect",
         "category": "Night"
       },
       {
-        "name": "Strøget Pedestrian Street",
-        "description": "Europe's longest pedestrian shopping street with vibrant street life, performers, and architectural diversity perfect for street photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Daytime for street performers; golden hour for side-lit portraits",
+        "name": "Christiania Neighborhood Street Art",
+        "description": "Vibrant autonomous district covered in evolving street art, murals, and graffiti creating colorful urban canvas.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for bright colors and clear shadows on textured walls",
         "category": "Street"
       },
       {
-        "name": "Kastellet Fortress Views",
-        "description": "Historic star-shaped fortress with wide ramparts offering panoramic city views and moody landscape photography opportunities.",
+        "name": "Kastellet Fortress & Water",
+        "description": "Historic star-shaped fortress with ramparts overlooking water, featuring geometric patterns and historic architecture.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm fortress tones; clear days for city views",
+        "bestTime": "Morning light from the east, or sunset from the west",
+        "category": "Architecture"
+      },
+      {
+        "name": "The Little Mermaid Statue",
+        "description": "Bronze sculpture on waterfront rocks with Øresund views, iconic and intimate subject against seascape.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before crowds, backlit at sunrise",
         "category": "Landscape"
+      },
+      {
+        "name": "Vesterbro Street Scene",
+        "description": "Trendy neighborhood featuring colorful façades, artistic murals, bicycles, and lively street activity.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for directional light and active street life",
+        "category": "Street"
+      },
+      {
+        "name": "Rådhuspladsen City Hall Square",
+        "description": "Grand civic plaza with ornate City Hall building featuring Nordic Renaissance architecture and animated public space.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for architectural detail, evening for atmospheric crowd scenes",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Kastellet Fortress ramparts",
-      "Copenhagen Opera House waterfront",
-      "Nyhavn harbor"
+      "The Little Mermaid Statue overlooking Øresund",
+      "Kastellet Fortress ramparts facing east",
+      "Nyhavn Harborfront from across the water"
     ],
     "sunsetSpots": [
-      "Amalienborg Palace square",
-      "Tivoli Gardens",
-      "Christianshavn Canal"
+      "Nyhavn Harborfront from the quay",
+      "Kastellet Fortress west-facing ramparts",
+      "Tivoli Gardens illumination beginning at dusk"
     ],
     "lensRecommendations": [
-      "24-70mm f/2.8 for versatile street and architecture photography in varied lighting",
-      "16-35mm f/2.8 ultra-wide for expansive city views and dramatic architectural compositions",
-      "50mm f/1.8 prime for intimate street portraiture and golden hour detail work",
-      "70-200mm f/2.8 for compressed landscape shots and isolating subjects in crowded neighborhoods"
+      "24-70mm f/2.8 for versatile street photography and architectural details",
+      "16-35mm f/2.8 for wide-angle harbor and skyline compositions",
+      "85mm f/1.8 for street portraiture and bokeh-rich isolations",
+      "100-400mm telephoto for compressed perspectives of distant landmarks and details"
     ],
-    "goldenHourNotes": "Copenhagen's maritime location provides stunning golden hour light reflecting off water, especially at Nyhavn and Christianshavn canals. Spring and autumn offer extended golden hours due to lower sun angle, with particularly rich colors on historic building facades. Summer golden hours are compressed due to high sun angle, but offer dramatic evening light over water.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Copenhagen's northern latitude provides extended golden hours during spring and summer, lasting up to two hours around sunrise and sunset. The light reflecting off water in Nyhavn and canals creates exceptional luminosity, making early morning and late afternoon optimal for rich, warm tones. Winter offers dramatic low-angle light even at midday, creating striking shadows and highlights on architecture.",
+    "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -0.5,
-        "rainfallMM": 68
+        "avgTempC": -2,
+        "rainfallMM": 53
       },
       {
         "month": 2,
-        "avgTempC": 0.5,
-        "rainfallMM": 58
+        "avgTempC": -2,
+        "rainfallMM": 43
       },
       {
         "month": 3,
-        "avgTempC": 3.5,
-        "rainfallMM": 58
+        "avgTempC": 1,
+        "rainfallMM": 46
       },
       {
         "month": 4,
-        "avgTempC": 9.5,
-        "rainfallMM": 50
+        "avgTempC": 6,
+        "rainfallMM": 46
       },
       {
         "month": 5,
-        "avgTempC": 15.5,
-        "rainfallMM": 52
+        "avgTempC": 12,
+        "rainfallMM": 54
       },
       {
         "month": 6,
-        "avgTempC": 20.5,
-        "rainfallMM": 64
+        "avgTempC": 16,
+        "rainfallMM": 59
       },
       {
         "month": 7,
-        "avgTempC": 22.5,
-        "rainfallMM": 70
+        "avgTempC": 17,
+        "rainfallMM": 60
       },
       {
         "month": 8,
-        "avgTempC": 21.5,
-        "rainfallMM": 72
+        "avgTempC": 17,
+        "rainfallMM": 63
       },
       {
         "month": 9,
-        "avgTempC": 17.5,
-        "rainfallMM": 68
+        "avgTempC": 13,
+        "rainfallMM": 59
       },
       {
         "month": 10,
-        "avgTempC": 11.5,
-        "rainfallMM": 84
+        "avgTempC": 9,
+        "rainfallMM": 73
       },
       {
         "month": 11,
-        "avgTempC": 6.5,
-        "rainfallMM": 86
+        "avgTempC": 5,
+        "rainfallMM": 68
       },
       {
         "month": 12,
-        "avgTempC": 2.5,
-        "rainfallMM": 74
+        "avgTempC": 0,
+        "rainfallMM": 61
       }
     ],
     "bestMonths": [
@@ -435,31 +431,31 @@
       8,
       9
     ],
-    "seasonality": "Copenhagen experiences mild summers (20-22°C) and cold winters (-1 to 2°C) with frequent rain year-round. May through September offers the best weather for outdoor activities, with July being warmest but also wet; spring and autumn provide pleasant temperatures with fewer crowds.",
-    "summary": "Copenhagen has a temperate maritime climate with cool summers and cold winters typical of Scandinavia. Rain is common throughout the year, particularly October through December, making waterproof clothing essential for any season."
+    "seasonality": "Copenhagen experiences temperate continental climate with cold, dark winters and mild summers with extended daylight. Summer months (June-August) offer comfortable temperatures around 16-17°C with nearly 18 hours of daylight, while winter is dark and cold but manageable for urban exploration.",
+    "summary": "Copenhagen's weather is relatively mild for Scandinavia with frequent rainfall year-round and modest temperature variations. Best visiting season is late spring through early autumn when days are long, weather is pleasant, and the city's outdoor café and bike culture thrives."
   },
   "hotels": [
     {
-      "name": "Generator Copenhagen",
+      "name": "Danhostel Copenhagen City",
       "neighborhood": "Vesterbro",
-      "pricePerNightUSD": 45,
+      "pricePerNightUSD": 55,
       "category": "Budget",
-      "description": "A trendy hostel with private rooms and dorms in vibrant Vesterbro, featuring communal spaces, rooftop bar, and excellent location near shops and restaurants."
+      "description": "Modern hostel with private rooms and dorms, excellent common areas, and helpful staff in trendy Vesterbro neighborhood near Tivoli Gardens."
     },
     {
       "name": "71 Nyhavn Hotel",
       "neighborhood": "Nyhavn",
       "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "A charming boutique hotel located directly on the iconic Nyhavn harbor with colorful historic building facade and comfortable modern rooms."
+      "description": "Charming mid-range hotel on historic Nyhavn waterfront in converted 17th-century building with nautical décor and harbor views."
     },
     {
-      "name": "The Standard",
-      "neighborhood": "Christianshavn",
+      "name": "Kong Arthur Hotel",
+      "neighborhood": "City Center",
       "pricePerNightUSD": 320,
       "category": "Luxury",
-      "description": "A luxury design hotel in a converted warehouse with rooftop restaurant, contemporary architecture, and views of Copenhagen's canals and skyline."
+      "description": "Boutique five-star hotel combining design-forward aesthetic with personalized service, located in fashionable Bredgade near Amalienborg Palace and Nyhavn."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDb3BlbmhhZ2VuJTIwTnloYXZuJTIwY29sb3JmdWwlMjBib2F0c3xlbnwxfDB8fHwxNzgxNTYyMjY5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDb3BlbmhhZ2VuJTIwTnloYXZuJTIwY29sb3JmdWx8ZW58MXwwfHx8MTc4MTYyOTM1NXww&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,0 +1,454 @@
+{
+  "id": "telluride-usa",
+  "city": "Telluride",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "MTJ",
+    "DEN",
+    "GJT"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "adventure",
+    "relaxation",
+    "foodie"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 82,
+    "photography": 94,
+    "activities": 93,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 400
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 400,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Telluride mountain town Colorado",
+  "summary": "Telluride is a world-class ski destination and year-round mountain playground nestled in the San Juan Mountains of Colorado, offering exceptional terrain for skiing, hiking, and mountain biking. This picturesque Victorian mining town combines outdoor adventure with sophisticated dining, galleries, and vibrant cultural events, making it an ideal destination for both thrill-seekers and relaxation enthusiasts.",
+  "restaurants": [
+    {
+      "name": "Pandora's Restaurant & Wine Bar",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning restaurant offering elevated contemporary American cuisine with an extensive wine selection. Features seasonal menus and intimate ambiance in a historic building.",
+      "mustTry": "Pan-seared Colorado lamb with local vegetables"
+    },
+    {
+      "name": "221 South Oak",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale French-inspired restaurant with mountain views and creative tasting menus. Known for impeccable service and locally-sourced ingredients.",
+      "mustTry": "Duck breast with cherry gastrique"
+    },
+    {
+      "name": "Allred's",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Mountaintop fine dining accessible via gondola, offering panoramic views and innovative Colorado cuisine. Open for lunch and dinner with seasonal specialties.",
+      "mustTry": "Roasted beet and goat cheese salad with local trout"
+    },
+    {
+      "name": "The Butcher's Table",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary steakhouse and charcuterie featuring dry-aged beef and house-made cured meats. Casual elegance with a focus on locally-sourced proteins.",
+      "mustTry": "Dry-aged ribeye with truffle fries"
+    },
+    {
+      "name": "Roma Bar & Cafe",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian casual dining with handmade pasta, wood-fired pizzas, and cozy atmosphere. Popular for both lunch and dinner with generous portions.",
+      "mustTry": "Wild mushroom ravioli with truffle butter"
+    },
+    {
+      "name": "Brown Dog Pizza",
+      "category": "Budget",
+      "priceRange": "$$",
+      "description": "Casual pizzeria offering wood-fired pizzas with creative toppings and local beers. Dog-friendly patio and relaxed vibe perfect for après-ski.",
+      "mustTry": "The Brown Dog pizza with local sausage"
+    },
+    {
+      "name": "Telluride Pizza Co",
+      "category": "Budget",
+      "priceRange": "$$",
+      "description": "Authentic Neapolitan pizza in a casual setting with fresh ingredients and quick service. Great value with options for vegetarians and meat lovers.",
+      "mustTry": "Margherita with fresh basil"
+    },
+    {
+      "name": "Saucy Mama's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite for breakfast and lunch with hearty burritos, pancakes, and coffee. Quirky decor and friendly staff make it a must-visit.",
+      "mustTry": "Smothered breakfast burrito"
+    },
+    {
+      "name": "Baked in Telluride",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Bakery and cafe serving fresh pastries, espresso, and sandwiches. Perfect for an early morning before activities or a quick lunch.",
+      "mustTry": "Chocolate croissant and cappuccino"
+    },
+    {
+      "name": "The Tomboy Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Mountain lodge atmosphere with game meats, hearty stews, and craft beers. Historic building with cozy fireplace and rustic charm.",
+      "mustTry": "Elk stew with fresh bread"
+    },
+    {
+      "name": "That Place on Main",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant emphasizing seasonal ingredients and local partnerships. Modern American cuisine with vegetarian and vegan options.",
+      "mustTry": "Colorado lamb with seasonal vegetables"
+    },
+    {
+      "name": "The Elks Club Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Historic establishment with classic American fare and mountain lodge ambiance. Known for their prime rib and extensive whiskey selection.",
+      "mustTry": "Prime rib with Yorkshire pudding"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing at Telluride Ski Resort",
+      "category": "Adventure",
+      "description": "World-renowned ski resort with 2,034 acres of skiable terrain and 4,425 vertical feet of challenging runs. Access to backcountry terrain and expert-only slopes.",
+      "durationHours": 8,
+      "estimatedCostUSD": 180,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Mountain Biking",
+      "category": "Adventure",
+      "description": "Extensive network of trails ranging from beginner to expert level with breathtaking alpine scenery. Bike park at the ski resort with lift-accessed trails.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking the Telluride Trails",
+      "category": "Outdoor",
+      "description": "Over 300 miles of hiking trails with options from easy valley walks to challenging alpine treks. Popular routes include Bridal Veil Falls and Bear Creek Trail.",
+      "durationHours": 6,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Gondola Ride to Mountain Top",
+      "category": "Outdoor",
+      "description": "Scenic gondola lift offering panoramic views of the San Juan Mountains and Telluride Valley. Access to mountaintop restaurant and hiking trails.",
+      "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Bridal Veil Falls Hike",
+      "category": "Outdoor",
+      "description": "Moderate 3-mile roundtrip hike to Colorado's highest free-falling waterfall. Spectacular views and photography opportunities, especially in spring runoff.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Whitewater Rafting",
+      "category": "Adventure",
+      "description": "Guided rafting on the San Miguel River with varying difficulty levels. Summer activity offering thrilling rapids and scenic canyon views.",
+      "durationHours": 4,
+      "estimatedCostUSD": 80,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Fly Fishing",
+      "category": "Outdoor",
+      "description": "Pristine streams and rivers offering excellent opportunities to catch native cutthroat and rainbow trout. Guided tours available for beginners to advanced anglers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Town Strolling and Shopping",
+      "category": "Cultural",
+      "description": "Historic downtown with Victorian architecture, art galleries, boutiques, and local shops. Free activity to explore the charming main street and discover local artisan goods.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Telluride Film Festival",
+      "category": "Cultural",
+      "description": "World-class film festival held Labor Day weekend featuring independent and international cinema. Cultural event with outdoor screenings, panels, and celebrity appearances.",
+      "durationHours": 8,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Hot Springs Visit",
+      "category": "Relaxation",
+      "description": "Regional hot springs like Ute Hot Springs and Ouray Hot Springs available for a relaxing soak. Nearby mineral pools with mountain views perfect for rejuvenation.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Horseback Riding in Alpine Meadows",
+      "category": "Outdoor",
+      "description": "Guided horseback tours through wildflower meadows and mountain terrain. Suitable for all skill levels with options for half-day and full-day excursions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Rock Climbing and Mountaineering",
+      "category": "Adventure",
+      "description": "World-class climbing destinations with routes ranging from beginner to expert. Guide services available for ice climbing in winter and rock climbing in summer.",
+      "durationHours": 6,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Bridal Veil Falls",
+        "description": "Colorado's highest free-falling waterfall cascading 365 feet with dramatic alpine backdrop and mist creating ethereal lighting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon with spring snowmelt for maximum water flow",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bear Creek Valley",
+        "description": "Stunning alpine valley surrounded by peaks with wildflower meadows, streams, and dramatic mountain formations.",
+        "difficulty": "Intermediate",
+        "bestTime": "Summer for wildflower bloom, golden hour for best light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Main Street",
+        "description": "Victorian architecture with colorful storefronts, historic buildings, and charming details perfect for architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for building facades, snow-covered streets in winter",
+        "category": "Architecture"
+      },
+      {
+        "name": "San Juan Mountain Range",
+        "description": "Panoramic views of snow-capped peaks and dramatic ridgelines visible from multiple vantage points around town.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm mountain tones, fresh snow for contrast",
+        "category": "Landscape"
+      },
+      {
+        "name": "Telluride Ski Resort at Dawn",
+        "description": "Pristine snow-covered slopes with ski lifts silhouetted against the morning sky and untouched powder.",
+        "difficulty": "Beginner",
+        "bestTime": "Pre-dawn to early sunrise before resort opens",
+        "category": "Landscape"
+      },
+      {
+        "name": "Idarado Mine Ruins",
+        "description": "Historic mining structures and weathered wooden buildings scattered across the alpine landscape as reminders of the area's mining past.",
+        "difficulty": "Advanced",
+        "bestTime": "Golden hour with side lighting to emphasize texture and decay",
+        "category": "Architecture"
+      },
+      {
+        "name": "Columbine Lake",
+        "description": "Alpine lake reflecting surrounding peaks and evergreen forest, accessible via moderate hike with stunning composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mirror-like reflections and wildlife activity",
+        "category": "Landscape"
+      },
+      {
+        "name": "Telluride Gondola Station",
+        "description": "Modern gondola infrastructure against dramatic mountain backdrop with town nestled in the valley below.",
+        "difficulty": "Beginner",
+        "bestTime": "Clear afternoons for maximum definition and shadow detail",
+        "category": "Architecture"
+      },
+      {
+        "name": "Dallas Divide",
+        "description": "Iconic mountain vista 10 miles from town featuring symmetrical peaks framing the valley with wildflowers in summer.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise for warm light on peaks, mid-summer for wildflower color",
+        "category": "Landscape"
+      },
+      {
+        "name": "Wilson Peak Panorama",
+        "description": "Dramatic views of 14,000-foot Wilson Peak with colorful wildflowers and aspen groves in foreground.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late summer for full wildflower bloom and clear skies",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Bridal Veil Falls overlook",
+      "Bear Creek Trail ridgeline",
+      "Telluride Mountain Resort Summit"
+    ],
+    "sunsetSpots": [
+      "Dallas Divide",
+      "San Juan Mountain Viewpoint",
+      "Gondola Station Outlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide angle for expansive mountain landscapes and dramatic valley views",
+      "24-70mm standard zoom for versatile framing of architectural details and medium-range composition",
+      "70-200mm telephoto for compressing mountain layers and isolating peak details",
+      "50mm prime lens for intimate architectural and street photography in historic downtown"
+    ],
+    "goldenHourNotes": "Telluride's high elevation (8,750 feet) and dramatic peaks create extended golden hours with warm light reflecting off snow and rock faces. Early morning light illuminates eastern peaks with stunning rose and amber tones, while evening light across the valley creates rich shadows and contrast. The surrounding mountains create interesting light patterns with dramatic side-lighting opportunities ideal for landscape and architectural photography.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -5,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -3,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": 0,
+        "rainfallMM": 38
+      },
+      {
+        "month": 4,
+        "avgTempC": 5,
+        "rainfallMM": 51
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 64
+      },
+      {
+        "month": 6,
+        "avgTempC": 18,
+        "rainfallMM": 51
+      },
+      {
+        "month": 7,
+        "avgTempC": 21,
+        "rainfallMM": 76
+      },
+      {
+        "month": 8,
+        "avgTempC": 20,
+        "rainfallMM": 71
+      },
+      {
+        "month": 9,
+        "avgTempC": 16,
+        "rainfallMM": 51
+      },
+      {
+        "month": 10,
+        "avgTempC": 10,
+        "rainfallMM": 38
+      },
+      {
+        "month": 11,
+        "avgTempC": 2,
+        "rainfallMM": 38
+      },
+      {
+        "month": 12,
+        "avgTempC": -3,
+        "rainfallMM": 32
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Winter dominates from November through March with excellent skiing conditions and heavy snowfall. Summer and early fall (June through September) offer perfect hiking weather with mild temperatures and wildflower blooms.",
+    "summary": "Telluride experiences four distinct seasons with cold, snowy winters ideal for skiing and warm, pleasant summers perfect for outdoor recreation. High elevation provides crisp mountain air year-round with significant temperature variations between seasons."
+  },
+  "hotels": [
+    {
+      "name": "Telluride Plaza Hotel",
+      "neighborhood": "Downtown Telluride",
+      "pricePerNightUSD": 120,
+      "category": "Budget",
+      "description": "Affordable downtown hotel with basic amenities and convenient access to shops, restaurants, and main street attractions."
+    },
+    {
+      "name": "The Peaks Resort & Spa",
+      "neighborhood": "Mountain Village",
+      "pricePerNightUSD": 280,
+      "category": "Mid-range",
+      "description": "Full-service resort with spa, multiple pools, fitness center, and direct ski-in/ski-out access at Mountain Village base."
+    },
+    {
+      "name": "Lumiere Hotel",
+      "neighborhood": "Downtown Telluride",
+      "pricePerNightUSD": 450,
+      "category": "Luxury",
+      "description": "Five-star boutique hotel featuring Swiss design, Michelin-star dining, spa services, and personalized concierge in the heart of historic downtown."
+    }
+  ]
+}

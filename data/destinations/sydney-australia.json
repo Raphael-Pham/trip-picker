@@ -18,134 +18,122 @@
   ],
   "scores": {
     "cost": 35,
-    "food": 88,
-    "photography": 92,
-    "activities": 90,
-    "weather": 85
+    "food": 92,
+    "photography": 95,
+    "activities": 94,
+    "weather": 88
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 120
+      "maxPerDayUSD": 140
     },
     {
       "level": "mid",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 280
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
+      "minPerDayUSD": 280,
       "maxPerDayUSD": 600
     }
   ],
   "unsplashQuery": "Sydney Opera House Harbour",
-  "summary": "Sydney captivates visitors with its iconic Opera House, pristine beaches, and vibrant multicultural energy. This cosmopolitan Australian city blends world-class dining, stunning coastal landscapes, and outdoor adventure with elegant harbour views. From Bondi to Blue Mountains, Sydney offers unforgettable experiences for every traveller.",
+  "summary": "Sydney is Australia's most iconic coastal city, famous for its stunning Opera House, pristine beaches, and vibrant multicultural food scene. With world-class photography opportunities, excellent weather, and a perfect blend of urban culture and outdoor adventure, it's an ideal destination for travelers of all styles.",
   "restaurants": [
-    {
-      "name": "Pancakes on the Rocks",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Iconic casual eatery in The Rocks serving delicious sweet and savoury pancakes since 1995. Perfect for breakfast or late-night cravings with a fun, buzzy atmosphere.",
-      "mustTry": "Fluffy American pancakes with maple syrup"
-    },
-    {
-      "name": "Ester",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Award-winning pizzeria and bar in Chippendale with wood-fired ovens and craft cocktails. Excellent wood-fired pizza with creative toppings in a stylish industrial setting.",
-      "mustTry": "House special pizza with house-made charcuterie"
-    },
     {
       "name": "Quay",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Sydney's most acclaimed restaurant with panoramic Opera House and Harbour views, led by renowned chef Peter Gilmore. Modern Australian cuisine with experimental techniques and impeccable service.",
-      "mustTry": "Snow egg dessert"
+      "description": "Australia's most celebrated restaurant overlooking Sydney Harbour, offering innovative modern Australian cuisine with impeccable service and presentation.",
+      "mustTry": "Snow Egg with Finger Limes"
     },
     {
-      "name": "Mr. Wong",
+      "name": "Mr Wong",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Bustling Cantonese restaurant in Chinatown serving authentic traditional dishes and roasted meats with communal dining atmosphere.",
+      "mustTry": "Crispy skin chicken"
+    },
+    {
+      "name": "Spice I Am",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Thai street food institution in Potts Point delivering bold, authentic flavours from Bangkok in a casual, no-frills setting.",
+      "mustTry": "Green curry or pad thai"
+    },
+    {
+      "name": "Chaco Bar",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Argentine restaurant specializing in grass-fed beef, chimichurri, and South American wines in a warm, inviting atmosphere.",
+      "mustTry": "Ribeye steak with chimichurri"
+    },
+    {
+      "name": "Billy Kwong",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Chinese cuisine by chef Kylie Kwong showcasing native Australian ingredients with elegant plating and thoughtful service.",
+      "mustTry": "Whole roasted fish with finger limes"
+    },
+    {
+      "name": "Cafe Sydney",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Bustling Cantonese restaurant in the CBD serving authentic dim sum and Chinese classics in an atmospheric heritage building. Long waits are common but the food justifies the queue.",
-      "mustTry": "Siu mai and BBQ pork buns"
+      "description": "Casual waterfront dining on Level 5 of the Customs House offering modern Australian fare with panoramic Harbour views.",
+      "mustTry": "Fish and chips"
     },
     {
-      "name": "Aria",
+      "name": "Ester",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Three-hat fine dining restaurant overlooking Sydney Harbour with innovative modern Australian cuisine. Impeccable presentation and service in an elegant, contemporary setting.",
-      "mustTry": "Wagyu with native pepperberry"
+      "priceRange": "$$$",
+      "description": "Wood-fired pizza restaurant in Chippendale with an open kitchen, craft beers, and innovative sourdough creations.",
+      "mustTry": "Nduja and stracciatella pizza"
     },
     {
-      "name": "Thao Vietnamese Cuisine",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Authentic Vietnamese restaurant in Haymarket serving fresh, flavourful dishes at excellent value. Known for exceptional pho, banh mi, and Vietnamese coffee.",
-      "mustTry": "Beef pho with fresh herbs"
-    },
-    {
-      "name": "Cirrus Dining",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Intimate fine dining experience with seasonal menus and exquisite wine pairings in Barangaroo. Chef's table-style service showcasing innovative Australian ingredients.",
-      "mustTry": "Seasonal tasting menu"
-    },
-    {
-      "name": "Chat Thai",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Popular Thai restaurant in the CBD offering authentic dishes with bold flavours and spice levels. Casual, vibrant atmosphere perfect for lunch or dinner.",
-      "mustTry": "Som tam and green curry"
-    },
-    {
-      "name": "Tetsuya's",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Legendary Japanese-French fusion restaurant in The Rocks, masterfully blending two culinary traditions. Intimate, serene setting with breathtaking food artistry.",
-      "mustTry": "Chef's degustation menu"
-    },
-    {
-      "name": "Single Origin Roastery",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Specialty coffee roastery and café in Surry Hills with expertly sourced single-origin beans. Excellent pour-over coffee and pastries in a minimalist setting.",
-      "mustTry": "Single-origin espresso"
-    },
-    {
-      "name": "Noma Sydney",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Pop-up fine dining experience from Copenhagen's Noma showcasing seasonal Nordic-inspired cuisine with Australian ingredients. Revolutionary gastronomy in an intimate setting.",
-      "mustTry": "Four-course seasonal tasting"
-    },
-    {
-      "name": "Speedos Cafe",
-      "category": "Midrange",
+      "name": "Duke's Brew & Que",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Beachside institution at Coogee Beach with fresh seafood, salads, and Australian favourites with ocean views. Casual, relaxed atmosphere perfect for post-swim meals.",
-      "mustTry": "Fresh fish and chips with tartare"
+      "description": "Texas-style barbecue joint with slow-smoked meats, craft beers, and a laid-back warehouse vibe in Alexandria.",
+      "mustTry": "Smoked brisket with burnt ends"
+    },
+    {
+      "name": "Gelato Messina",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Premium Italian gelato shop with creative seasonal flavours and impeccable quality, popular across multiple Sydney locations.",
+      "mustTry": "Salted caramel or pistachio"
+    },
+    {
+      "name": "LuMi Dining",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Intimate 8-seat omakase experience featuring ultra-fresh Japanese seasonal cuisine with theatrical presentation.",
+      "mustTry": "Seasonal sashimi selection"
+    },
+    {
+      "name": "Hovs Stathis",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Legendary Greek takeaway institution serving traditional souvlaki, gyros, and pastries at unbeatable prices since 1987.",
+      "mustTry": "Souvlaki and spanakopita"
+    },
+    {
+      "name": "Firedoor",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Wood-fire cooking restaurant in Surry Hills with open kitchen concept, sustainable sourcing, and seasonal Australian ingredients.",
+      "mustTry": "Wood-roasted market fish"
     }
   ],
   "activities": [
     {
-      "name": "Sydney Opera House Tour",
-      "category": "Cultural",
-      "description": "Guided tour through the iconic Opera House including backstage access and architectural history. Understand the genius of Jørn Utzon's design and enjoy performances if available.",
-      "durationHours": 2,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Bondi to Coogee Coastal Walk",
+      "name": "Bondi Beach to Coogee Coastal Walk",
       "category": "Outdoor",
-      "description": "Spectacular 6km walk along Sydney's eastern beaches through dramatic clifftops and hidden coves. Perfect for photography with stops at Tamarama, Bronte, and Clovelly beaches.",
-      "durationHours": 2.5,
+      "description": "A spectacular 6km cliff-side walk along Sydney's eastern beaches with stunning ocean views, rock pools, and dramatic sandstone formations. Perfect for photography and connects some of the city's most iconic beaches.",
+      "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
@@ -155,83 +143,46 @@
       ]
     },
     {
-      "name": "Blue Mountains Day Trip",
+      "name": "Sydney Opera House Tour",
+      "category": "Cultural",
+      "description": "Guided architectural tour inside the iconic Opera House with access to performance venues, backstage areas, and stunning Harbour views from multiple angles.",
+      "durationHours": 2,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Kayaking Sydney Harbour",
       "category": "Adventure",
-      "description": "Visit the stunning Blue Mountains with scenic views of the Three Sisters rock formation and eucalyptus forests. Includes bushwalking, scenic world railway, and picturesque valleys.",
-      "durationHours": 10,
-      "estimatedCostUSD": 120,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "photography",
-        "landscape"
-      ]
-    },
-    {
-      "name": "Harbour Cruise and Sunset Drinks",
-      "category": "Relaxation",
-      "description": "Scenic cruise around Sydney Harbour with views of Opera House, Harbour Bridge, and coastal landmarks. Evening cruises often include drinks and live entertainment.",
-      "durationHours": 2,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "standard",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Bondi Beach Swimming and Surf",
-      "category": "Outdoor",
-      "description": "Iconic beach with reliable surf breaks, patrolled swimming areas, and vibrant beach culture. Great for swimming, surfing lessons, or simply soaking in the atmosphere.",
+      "description": "Paddling through Sydney Harbour offers unique perspectives of the Opera House, Harbour Bridge, and surrounding beaches from the water with marine wildlife encounters possible.",
       "durationHours": 3,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 85,
       "bestFor": [
-        "standard",
         "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Royal Botanic Garden Walk",
-      "category": "Outdoor",
-      "description": "Beautiful 30-hectare gardens with native plants, scenic walking paths, and harbour views. Perfect for peaceful strolls, photography, and picnics with Opera House views.",
-      "durationHours": 2,
-      "estimatedCostUSD": 14,
-      "bestFor": [
-        "standard",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Sydney Tower Eye Observation Deck",
-      "category": "Indoor",
-      "description": "Tallest structure in the Southern Hemisphere offering 360-degree views of Sydney and surrounding regions. Clear-floor glass segment for thrill-seekers and excellent photography opportunities.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "standard",
         "photography"
       ]
     },
     {
       "name": "The Rocks Walking Tour",
       "category": "Cultural",
-      "description": "Historic neighbourhood with cobblestone streets, heritage buildings, galleries, and artisan shops. Guided tours explore colonial history, ghost stories, and bohemian character.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
+      "description": "Explore Sydney's historic neighbourhood with heritage buildings, cobblestone streets, street artists, and pubs dating back to the colonial era.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
         "photography",
-        "hidden-gems"
+        "foodie"
       ]
     },
     {
       "name": "Taronga Zoo",
       "category": "Family",
-      "description": "Premier zoo with Australian and exotic animals in a waterfront location with harbour views. Exceptional setting for wildlife photography and encounters with unique fauna.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
+      "description": "Premier wildlife zoo featuring Australian animals and international species with exceptional Harbour views, interactive experiences, and daily keeper talks.",
+      "durationHours": 5,
+      "estimatedCostUSD": 55,
       "bestFor": [
         "standard",
         "family",
@@ -239,129 +190,173 @@
       ]
     },
     {
-      "name": "Nightlife in Kings Cross and Oxford Street",
-      "category": "Nightlife",
-      "description": "Vibrant entertainment districts with bars, clubs, pubs, and live music venues catering to all tastes. Sydney's most energetic area for evening and late-night entertainment.",
-      "durationHours": 4,
-      "estimatedCostUSD": 40,
+      "name": "Surfing Lessons at Bondi",
+      "category": "Adventure",
+      "description": "Professional surf instruction on iconic Bondi Beach with all equipment provided, suitable for beginners to intermediate surfers with ocean safety training.",
+      "durationHours": 2,
+      "estimatedCostUSD": 65,
       "bestFor": [
-        "standard"
+        "adventure"
       ]
     },
     {
-      "name": "Manly Beach and Scenic Walkway",
+      "name": "Blue Mountains Day Trip",
       "category": "Outdoor",
-      "description": "Northern beaches icon accessible by scenic ferry ride with excellent swimming, eating, and walking opportunities. Charming village atmosphere with promenade dining and water sports.",
-      "durationHours": 4,
-      "estimatedCostUSD": 20,
+      "description": "Scenic day excursion to the UNESCO World Heritage Blue Mountains with dramatic valleys, hiking trails, and the famous Three Sisters rock formation.",
+      "durationHours": 10,
+      "estimatedCostUSD": 95,
       "bestFor": [
-        "standard",
-        "relaxation",
+        "adventure",
         "photography"
       ]
     },
     {
-      "name": "Australian Museum Exploration",
-      "category": "Cultural",
-      "description": "Premier museum showcasing Australian natural history, Aboriginal culture, dinosaurs, and mineral collections. Engaging exhibits for all ages with in-depth learning opportunities.",
+      "name": "Sydney Fish Market Tour & Tasting",
+      "category": "Foodie",
+      "description": "Explore the bustling fish market at Pyrmont with guided tastings, cooking demonstrations, and fresh seafood selection from local vendors.",
       "durationHours": 3,
-      "estimatedCostUSD": 16,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "foodie"
+      ]
+    },
+    {
+      "name": "Harbour Bridge Climb",
+      "category": "Adventure",
+      "description": "Guided climb to the top of Sydney Harbour Bridge offering 360-degree views of the city, Opera House, and surrounding coastline with professional safety equipment.",
+      "durationHours": 3.5,
+      "estimatedCostUSD": 320,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Royal Botanic Garden Self-Guided Walk",
+      "category": "Outdoor",
+      "description": "Peaceful 30-hectare botanical gardens with diverse plant collections, harbour views, and scenic walking paths perfect for relaxation and nature photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Street Art & Laneway Tour in Inner West",
+      "category": "Cultural",
+      "description": "Guided exploration of Marrickville and Newtown's vibrant street art scene with knowledgeable local guides explaining artist perspectives and cultural significance.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Manly Beach & Scenic Walk",
+      "category": "Outdoor",
+      "description": "Northern beach escape accessible by iconic ferry ride with golden sand, beach culture, seafood restaurants, and a scenic coastal promenade walk to Shelly Beach.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "family"
+        "relaxation",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Sydney Opera House from Mrs Macquarie's Chair",
-        "description": "Iconic viewpoint overlooking the Opera House and Harbour Bridge with perfect composition angles for golden hour shooting.",
+        "name": "Sydney Opera House Front Steps",
+        "description": "Classic frontal view of the Opera House with Harbour Bridge in background, best shot in golden hour with minimal crowds in early morning.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour (sunrise and sunset)",
+        "bestTime": "06:00-07:30 or 17:00-18:30",
         "category": "Architecture"
       },
       {
-        "name": "Bondi Beach Sunrise",
-        "description": "Dramatic coastal landscape with golden cliffs and crashing waves during early morning light with minimal crowds.",
+        "name": "Mrs Macquarie's Point",
+        "description": "Iconic vantage point offering the most photographed framed view of Opera House and Harbour Bridge together across Woolloomooloo Bay.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise, 30 minutes before dawn",
+        "bestTime": "Golden hour (sunrise/sunset)",
         "category": "Landscape"
       },
       {
-        "name": "The Rocks Historic Streets",
-        "description": "Narrow cobblestone lanes with heritage buildings, artistic street art, and moody atmospheric lighting for street photography.",
+        "name": "Bondi to Coogee Coastal Cliff Edges",
+        "description": "Dramatic sandstone cliff formations along the coast with crashing waves below, perfect for wide-angle landscape and seascape photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon for shadows and character",
+        "bestTime": "Morning light (07:00-09:00)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Blue Hour Sydney Harbour",
+        "description": "Twilight photography of the illuminated Opera House and Harbour Bridge reflected in calm water, captured from Circular Quay or Barangaroo Reserve.",
+        "difficulty": "Intermediate",
+        "bestTime": "18:30-19:30 (blue hour)",
+        "category": "Night"
+      },
+      {
+        "name": "The Rocks Cobblestone Streets",
+        "description": "Historic narrow laneways with heritage buildings, dramatic shadows, and street-level character perfect for documentary and street photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning (08:00-10:00) for directional light",
         "category": "Street"
       },
       {
-        "name": "Sydney Harbour Bridge Climb Perspective",
-        "description": "Unique vantage point from the bridge arch with 360-degree views of the harbour, Opera House, and city skyline.",
-        "difficulty": "Advanced",
-        "bestTime": "Golden hour during the climb experience",
+        "name": "Taronga Zoo Foreground",
+        "description": "Unique composition using zoo animals with Opera House and Harbour in the background, creating layered depth unusual to Sydney photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light before crowds arrive",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Barangaroo Reserve Waterfront",
+        "description": "Modern headland park offering clean lines, architectural elements, and unobstructed Harbour views ideal for minimalist and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon (16:00-18:00)",
         "category": "Architecture"
       },
       {
-        "name": "Tamarama Beach Cliffs",
-        "description": "Dramatic sandstone cliffs and turquoise water with excellent compositions for coastal and landscape photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Mid-morning to avoid harsh shadows",
+        "name": "Watsons Bay Cliffs",
+        "description": "Sheer ocean cliffs with turquoise water below and the dramatic headland formation, accessible for safer cliff-edge photography than inner beaches.",
+        "difficulty": "Advanced",
+        "bestTime": "Morning (07:00-08:30) with sea conditions",
         "category": "Landscape"
       },
       {
-        "name": "Watsons Bay Lookout",
-        "description": "Spectacular clifftop vantage point with panoramic views of the harbour, beaches, and coastal landscape.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for golden light and dramatic skies",
-        "category": "Landscape"
-      },
-      {
-        "name": "Royal Botanic Garden Flora",
-        "description": "Diverse botanical specimens with natural backgrounds and soft garden lighting perfect for macro and detail photography.",
+        "name": "Chinatown Lantern Alley at Night",
+        "description": "Vibrant street photography with traditional red lanterns, neon signs, market activity, and architectural detail in Sydney's historic Chinese quarter.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning light through trees",
-        "category": "Landscape"
+        "bestTime": "Evening (18:00-20:00)",
+        "category": "Night"
       },
       {
-        "name": "Manly Beach Promenade",
-        "description": "Beach culture with colourful beach huts, swimmers, and coastal architecture creating vibrant street photography moments.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon",
+        "name": "Manly Promenade Sunrise",
+        "description": "Golden-hour beach promenade photography with beach culture, surfers entering water, and soft morning light creating natural silhouettes.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise (05:30-06:45)",
         "category": "Street"
-      },
-      {
-        "name": "Clovelly Beach Aerial View",
-        "description": "Stunning aerial perspective of turquoise water, golden sand, and surrounding houses perfect for drone or elevated photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Clear days with calm water and soft light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Barangaroo Reserve at Dusk",
-        "description": "Modern waterfront park with city skyline reflections in calm waters and contemporary architecture elements.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset and blue hour",
-        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Bondi Beach",
-      "Coogee Beach Headland",
-      "Barangaroo Reserve"
+      "Bondi Beach Headland",
+      "Barangaroo Reserve Eastern Platform",
+      "Manly Beach Near Oceanworld"
     ],
     "sunsetSpots": [
-      "Mrs Macquarie's Chair",
-      "Watsons Bay Lookout",
-      "Manly Beach Promenade"
+      "Mrs Macquarie's Point",
+      "Watsons Bay Cliffs",
+      "Barangaroo Reserve Western Edge"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle: Captures Opera House and Harbour Bridge architectural grandeur and sweeping coastal landscapes",
-      "50mm prime: Ideal for street photography in The Rocks and capturing intimate cultural moments with natural perspective",
-      "70-200mm telephoto: Perfect for compressed harbour views, beach portraits, and isolating architectural details from distance",
-      "14-24mm ultra-wide: Essential for dramatic clifftop perspectives and expansive panoramic harbour and coastline compositions"
+      "16-35mm wide-angle for sweeping Harbour views and Opera House architectural framing",
+      "50mm prime for street photography in The Rocks and Chinatown with natural perspective",
+      "70-200mm telephoto for compressed perspectives of Harbour Bridge and Opera House details from distance",
+      "24-70mm versatile zoom for coastal walks and mixed urban/nature compositions"
     ],
-    "goldenHourNotes": "Sydney's golden hour is particularly magical during winter months (June-August) when the sun angle is lower and warmer. The hour before sunset provides exceptional warm light across the Opera House and Harbour Bridge. Early morning light at beaches like Bondi and Coogee creates dramatic shadows on sandstone cliffs. Autumn and spring offer the most consistent weather for golden hour shooting with longer viewing windows.",
+    "goldenHourNotes": "Sydney's golden hour is exceptionally long due to the coastal latitude (33°S), lasting 90+ minutes during summer months. The light quality is warm and directional, perfect for both architecture and landscape photography. Mrs Macquarie's Point and Barangaroo Reserve are ideal for capturing the Opera House during golden hour with minimal crowds in early morning, while Watsons Bay and Bondi cliffs offer dramatic backlighting with water and sky interplay.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -374,90 +369,89 @@
       {
         "month": 2,
         "avgTempC": 26,
-        "rainfallMM": 117
+        "rainfallMM": 115
       },
       {
         "month": 3,
         "avgTempC": 24,
-        "rainfallMM": 129
+        "rainfallMM": 130
       },
       {
         "month": 4,
         "avgTempC": 21,
-        "rainfallMM": 102
+        "rainfallMM": 108
       },
       {
         "month": 5,
         "avgTempC": 17,
-        "rainfallMM": 76
+        "rainfallMM": 72
       },
       {
         "month": 6,
-        "avgTempC": 14,
-        "rainfallMM": 82
+        "avgTempC": 15,
+        "rainfallMM": 63
       },
       {
         "month": 7,
-        "avgTempC": 13,
-        "rainfallMM": 71
+        "avgTempC": 14,
+        "rainfallMM": 47
       },
       {
         "month": 8,
-        "avgTempC": 14,
-        "rainfallMM": 66
+        "avgTempC": 15,
+        "rainfallMM": 46
       },
       {
         "month": 9,
         "avgTempC": 17,
-        "rainfallMM": 60
+        "rainfallMM": 58
       },
       {
         "month": 10,
-        "avgTempC": 20,
-        "rainfallMM": 71
+        "avgTempC": 21,
+        "rainfallMM": 73
       },
       {
         "month": 11,
-        "avgTempC": 23,
+        "avgTempC": 24,
         "rainfallMM": 82
       },
       {
         "month": 12,
-        "avgTempC": 25,
-        "rainfallMM": 92
+        "avgTempC": 26,
+        "rainfallMM": 111
       }
     ],
     "bestMonths": [
-      9,
-      10,
-      11,
       4,
-      5
+      5,
+      9,
+      10
     ],
-    "seasonality": "Sydney experiences mild winters (June-August with temperatures around 13-14°C) and warm summers (December-February with temperatures around 25-26°C). Spring (September-November) and autumn (March-May) offer the most pleasant weather with moderate temperatures and lower rainfall.",
-    "summary": "Sydney has a temperate subtropical climate with warm summers and mild winters. Rainfall is distributed throughout the year with higher precipitation in summer months, while spring and autumn provide ideal conditions for outdoor activities and sightseeing."
+    "seasonality": "Sydney experiences mild winters (June-August) with occasional frost and occasional rainy summers (December-February). Spring (September-November) and autumn (March-May) offer ideal weather with clear skies, moderate temperatures, and lower humidity.",
+    "summary": "Sydney enjoys a temperate oceanic climate with warm summers averaging 26°C and mild winters rarely dropping below 14°C. The city experiences moderate rainfall year-round with peaks in summer, making it pleasant for outdoor activities in virtually all seasons."
   },
   "hotels": [
     {
-      "name": "Sydney Beachside Budget Hostel",
-      "neighborhood": "Bondi Beach",
-      "pricePerNightUSD": 40,
+      "name": "Sydney Harbour Yha",
+      "neighborhood": "Circular Quay, The Rocks",
+      "pricePerNightUSD": 65,
       "category": "Budget",
-      "description": "Social hostel with dormitory and private rooms near Bondi Beach, featuring rooftop area with harbour views and lively backpacker atmosphere."
+      "description": "Hostel with private rooms and dorms located directly at Circular Quay offering stunning Harbour views, communal spaces, and unbeatable location near Opera House."
+    },
+    {
+      "name": "Shangri-La Sydney",
+      "neighborhood": "The Rocks, Circular Quay",
+      "pricePerNightUSD": 320,
+      "category": "Mid-range",
+      "description": "Waterfront hotel with floor-to-ceiling windows overlooking Sydney Harbour, combining contemporary luxury with excellent dining and seamless access to major attractions."
     },
     {
       "name": "Park Hyatt Sydney",
-      "neighborhood": "The Rocks",
-      "pricePerNightUSD": 380,
+      "neighborhood": "The Rocks, Circular Quay",
+      "pricePerNightUSD": 680,
       "category": "Luxury",
-      "description": "Ultra-luxury five-star hotel with iconic Opera House and Harbour Bridge views, world-class dining, spa facilities, and impeccable service in prime waterfront location."
-    },
-    {
-      "name": "Adina Apartment Hotel Sydney",
-      "neighborhood": "Barangaroo",
-      "pricePerNightUSD": 150,
-      "category": "Mid-range",
-      "description": "Modern apartment-style accommodation with kitchenettes, contemporary design, waterfront location, and excellent access to dining, shopping, and cultural attractions."
+      "description": "Ultra-luxury beachfront hotel nestled between the Opera House and Harbour Bridge with bespoke service, Michelin-caliber dining, and unparalleled Harbour views."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTeWRuZXklMjBPcGVyYSUyMEhvdXNlJTIwSGFyYm91cnxlbnwxfDB8fHwxNzgxNTYyMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"

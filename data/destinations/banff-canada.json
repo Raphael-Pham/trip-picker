@@ -6,218 +6,195 @@
   "airportCodes": [
     "YYC",
     "YLW",
-    "YVE"
+    "YVR"
   ],
   "hiddenGem": false,
   "tripStyles": [
-    "standard",
-    "photography",
     "adventure",
-    "relaxation"
+    "photography",
+    "relaxation",
+    "standard",
+    "surprise"
   ],
   "scores": {
-    "cost": 25,
+    "cost": 35,
     "food": 75,
     "photography": 95,
-    "activities": 90,
-    "weather": 70
+    "activities": 92,
+    "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
       "minPerDayUSD": 80,
-      "maxPerDayUSD": 140
+      "maxPerDayUSD": 150
     },
     {
       "level": "mid",
-      "minPerDayUSD": 140,
-      "maxPerDayUSD": 250
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 250,
-      "maxPerDayUSD": 500
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
     }
   ],
-  "unsplashQuery": "Banff Lake Louise Mountains",
-  "summary": "Banff National Park offers breathtaking alpine scenery with turquoise glacial lakes, dramatic mountain peaks, and world-class hiking trails nestled in the Canadian Rockies. This UNESCO World Heritage Site combines outdoor adventure with charming mountain town dining and accommodation, making it ideal for photographers, hikers, and nature lovers.",
+  "unsplashQuery": "Banff Lake Louise mountains",
+  "summary": "Banff is a stunning mountain town nestled in the Canadian Rockies, famous for pristine turquoise lakes, dramatic peaks, and world-class outdoor recreation. This iconic destination offers breathtaking scenery perfect for hiking, skiing, wildlife viewing, and landscape photography.",
   "restaurants": [
     {
       "name": "The Bison Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Award-winning restaurant celebrating Canadian cuisine with locally sourced bison, wild game, and seasonal ingredients. The elegant dining room offers views of Banff Avenue and exceptional service.",
-      "mustTry": "Pan-seared bison striploin"
+      "description": "Award-winning restaurant celebrating Canadian cuisine with locally-sourced ingredients and innovative dishes. Features an extensive wine list and refined mountain dining experience.",
+      "mustTry": "Alberta bison with wild mushrooms"
     },
     {
-      "name": "Juniper Bistro",
-      "category": "Fine Dining",
+      "name": "Magpie & Stump",
+      "category": "Local Specialty",
       "priceRange": "$$$",
-      "description": "Contemporary Canadian cuisine in an intimate setting with floor-to-ceiling windows overlooking Mount Norquay. Known for wild mushroom dishes and extensive wine selection.",
-      "mustTry": "Wild mushroom risotto"
+      "description": "Cozy casual eatery serving comfort food with Canadian flair in a warm, inviting atmosphere. Known for creative sandwiches and hearty breakfast options.",
+      "mustTry": "Pulled pork sandwich"
     },
     {
-      "name": "Saltlik Steakhouse",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Premium steakhouse specializing in aged Alberta beef with an impressive whisky collection and sophisticated atmosphere overlooking the Bow River.",
-      "mustTry": "Prime dry-aged ribeye"
-    },
-    {
-      "name": "Farm & Fire",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Wood-fired cuisine featuring locally-sourced ingredients, farm-to-table philosophy, and artisanal bread baked in-house daily.",
-      "mustTry": "Wood-fired lamb chops"
-    },
-    {
-      "name": "Coyotes Kitchen & Cantina",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Vibrant Mexican restaurant with authentic flavors, fresh guacamole made tableside, and an excellent selection of tequilas and margaritas.",
-      "mustTry": "Street tacos with carnitas"
-    },
-    {
-      "name": "Maple Leaf Grill",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual Canadian grill serving burgers, elk steaks, and poutine with views of Banff Avenue and a lively atmosphere.",
-      "mustTry": "Canadian elk burger"
-    },
-    {
-      "name": "Busy Bee Cafe",
+      "name": "Panago Pizza",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual cafe perfect for breakfast and lunch with fresh pastries, coffee, and hearty sandwiches at wallet-friendly prices.",
-      "mustTry": "Honey-soaked granola bowl"
+      "description": "Reliable pizza chain offering quick, affordable meals perfect for hikers and budget travelers. Various toppings and sizes available for takeout or dine-in.",
+      "mustTry": "Classic pepperoni pizza"
     },
     {
-      "name": "Wildflower Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Cozy spot for espresso drinks, vegetarian options, and homemade soups in a relaxed mountain town setting.",
-      "mustTry": "Vegetable quinoa bowls"
-    },
-    {
-      "name": "Tooloulou's",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Fast-casual restaurant offering Vietnamese pho, fresh spring rolls, and rice bowls at reasonable prices.",
-      "mustTry": "Beef pho with fresh herbs"
-    },
-    {
-      "name": "Giorgio's Trattoria",
-      "category": "Midrange",
+      "name": "Balkan Express",
+      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Intimate Italian restaurant featuring handmade pasta, wood-fired pizzas, and an extensive Italian wine list in a candlelit setting.",
-      "mustTry": "Tagliatelle al ragù"
+      "description": "Casual restaurant specializing in Eastern European cuisine with hearty meat dishes and fresh salads. Popular with locals for authentic flavors and reasonable prices.",
+      "mustTry": "Cevapi with pita bread"
     },
     {
-      "name": "Rundle Lounge",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale lounge in the historic Banff Springs Hotel offering French-inspired cuisine, fine wines, and mountain views in an elegant setting.",
-      "mustTry": "Pan-seared foie gras"
+      "name": "The Maple Leaf Bar",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Lively pub serving traditional Canadian fare, local beers, and comfort food in a rustic lodge setting. Great atmosphere for après-ski or evening gatherings.",
+      "mustTry": "Montreal smoked meat sandwich"
     },
     {
       "name": "Sushi House Banff",
       "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Quality sushi restaurant offering fresh rolls, nigiri, and Japanese specialties in a modern setting. Reliable option for Asian cuisine in the mountain town.",
+      "mustTry": "Dragon roll"
+    },
+    {
+      "name": "Nourish Bowls",
+      "category": "Budget",
       "priceRange": "$$",
-      "description": "Contemporary Japanese restaurant with fresh sushi, sashimi, and hot dishes prepared by skilled chefs in an open kitchen.",
-      "mustTry": "Dragon roll with tempura shrimp"
+      "description": "Health-conscious cafe serving nutritious bowls, smoothies, and salads made with fresh ingredients. Perfect for post-hike recovery meals and healthy options.",
+      "mustTry": "Açai berry bowl"
+    },
+    {
+      "name": "Tooloulou's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant Turkish-Mediterranean restaurant featuring kebabs, mezze, and grilled specialties. Casual dining with colorful decor and flavorful international fare.",
+      "mustTry": "Mixed grill platter"
+    },
+    {
+      "name": "Banffshire Club",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse serving premium cuts of beef and sophisticated dishes in an elegant setting. Perfect for special occasions with mountain views.",
+      "mustTry": "Prime rib with truffle jus"
+    },
+    {
+      "name": "The Grizzly House",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Historic restaurant famous for fondue and raclette dining experiences, featuring Canadian game meats and traditional Alpine dishes. Unique interactive dining.",
+      "mustTry": "Beef fondue"
+    },
+    {
+      "name": "Storm Mountain Coffee House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy coffee shop serving excellent espresso drinks, baked goods, and light breakfast items. Popular morning spot for locals and visitors alike.",
+      "mustTry": "Flat white with apple cinnamon muffin"
+    },
+    {
+      "name": "Saltlik",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary steakhouse featuring dry-aged beef, fresh seafood, and an impressive wine collection in a sophisticated environment. Premium dining experience.",
+      "mustTry": "Tomahawk steak"
     }
   ],
   "activities": [
     {
       "name": "Lake Louise Hiking",
-      "category": "Adventure",
-      "description": "Hike the stunning 4.3 km trail to Lake Agnes Tea House or continue to the Big Beehive viewpoint with panoramic views of glacial Lake Louise. Multiple difficulty levels available with breathtaking photography opportunities throughout.",
-      "durationHours": 4,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Moraine Lake Exploration",
       "category": "Outdoor",
-      "description": "Visit one of Canada's most photographed lakes with distinctive turquoise waters and surrounding peaks. Enjoy shoreline walks, canoeing, or the challenging Larch Valley trail.",
+      "description": "Hike to the stunning turquoise Lake Louise with views of Victoria Glacier, offering multiple trail options for different fitness levels. The 3.6km round trip to the lake is suitable for most visitors.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "photography",
         "adventure",
+        "photography",
         "standard"
       ]
     },
     {
-      "name": "Johnston Canyon Waterfall",
+      "name": "Moraine Lake Kayaking",
       "category": "Outdoor",
-      "description": "Walk along a paved trail through a stunning mountain canyon to view multiple cascading waterfalls surrounded by towering rock walls and dense forest.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "Banff Gondola & Sulphur Mountain",
-      "category": "Outdoor",
-      "description": "Ride the gondola 2,281 meters above sea level for 360-degree panoramic views of the Bow Valley and six mountain ranges. Hiking trails available at the summit.",
+      "description": "Paddle across the brilliant blue waters of Moraine Lake surrounded by the Valley of Ten Peaks. Kayak rentals available at the lake with breathtaking mountain scenery.",
       "durationHours": 3,
       "estimatedCostUSD": 45,
       "bestFor": [
+        "adventure",
         "photography",
-        "standard",
         "relaxation"
       ]
     },
     {
-      "name": "Bow Lake & Bow Glacier",
+      "name": "Banff Gondola",
       "category": "Outdoor",
-      "description": "Drive the scenic Icefields Parkway to beautiful Bow Lake with views of Bow Glacier and surrounding peaks. Short walks and exceptional photography opportunities available.",
-      "durationHours": 4,
-      "estimatedCostUSD": 0,
+      "description": "Ride the scenic chairlift to Sulphur Mountain summit for panoramic views of Banff, surrounding peaks, and forests. Easy way to gain elevation with spectacular vistas.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
       "bestFor": [
+        "standard",
         "photography",
-        "adventure",
-        "standard"
+        "relaxation"
       ]
     },
     {
-      "name": "Banff Hot Springs",
-      "category": "Relaxation",
-      "description": "Soak in natural thermal hot springs nestled in a mountain forest with heated outdoor pools overlooking the surrounding peaks.",
+      "name": "Johnston Canyon Walk",
+      "category": "Outdoor",
+      "description": "Easy scenic walk through a dramatic canyon featuring frozen waterfalls in winter and flowing cascades in summer. Well-maintained trail suitable for all ages with stunning photo opportunities.",
       "durationHours": 2,
-      "estimatedCostUSD": 30,
+      "estimatedCostUSD": 0,
       "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Snowshoeing or Cross-Country Skiing",
+      "category": "Adventure",
+      "description": "Explore Banff's winter landscape on foot or skis through backcountry trails and groomed paths. Equipment rentals available with guided tours for various skill levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
         "relaxation",
         "standard"
       ]
     },
     {
-      "name": "Horseback Riding Adventure",
-      "category": "Adventure",
-      "description": "Experience guided horseback rides through pristine mountain meadows, forests, and alongside scenic lakes with experienced outfitters.",
+      "name": "Wildlife Viewing Tour",
+      "category": "Outdoor",
+      "description": "Guided tours to spot elk, bighorn sheep, bears, and other mountain wildlife in their natural habitat. Early morning and evening tours offer best wildlife viewing opportunities.",
       "durationHours": 3,
-      "estimatedCostUSD": 75,
-      "bestFor": [
-        "adventure",
-        "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "Canoe or Kayak on Lake Louise",
-      "category": "Adventure",
-      "description": "Paddle on turquoise glacial waters surrounded by towering mountain peaks and pristine wilderness, with rental facilities available at the lake.",
-      "durationHours": 2,
-      "estimatedCostUSD": 50,
+      "estimatedCostUSD": 55,
       "bestFor": [
         "adventure",
         "photography",
@@ -225,49 +202,74 @@
       ]
     },
     {
-      "name": "Cave and Basin Historic Site",
+      "name": "Bow Falls Picnic",
+      "category": "Family",
+      "description": "Easy walk to scenic Bow Falls where the Bow River plunges over limestone cliffs. Perfect picnic spot with excellent photography opportunities and minimal effort required.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Banff National Park Museum Visit",
       "category": "Cultural",
-      "description": "Explore the natural hot springs that established Banff as Canada's first national park, with museums, interpretive exhibits, and the historic bathing pools.",
+      "description": "Explore exhibits about the region's natural and human history, including wildlife dioramas and geological displays. Indoor activity ideal for rainy days or winter.",
       "durationHours": 2,
       "estimatedCostUSD": 15,
       "bestFor": [
-        "cultural",
+        "standard",
         "family",
-        "standard"
+        "relaxation"
       ]
     },
     {
-      "name": "Mountain Biking Trails",
-      "category": "Adventure",
-      "description": "Access hundreds of kilometers of mountain biking trails ranging from beginner-friendly to advanced downhill courses with stunning scenery.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Wildlife Watching Safari",
-      "category": "Outdoor",
-      "description": "Join guided tours to spot elk, bears, bighorn sheep, and other wildlife in their natural habitat during dawn or dusk hours.",
-      "durationHours": 3,
-      "estimatedCostUSD": 70,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Banff Avenue Shopping & Dining",
-      "category": "Family",
-      "description": "Stroll the historic main street lined with galleries, boutique shops, outdoor retailers, and restaurants with free access and mountain views.",
+      "name": "Hot Springs Soak",
+      "category": "Relaxation",
+      "description": "Relax in the natural hot springs at Cave and Basin or Upper Hot Springs with mountain views. Perfect way to unwind after active hiking and outdoor pursuits.",
       "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Peyto Lake Viewpoint Hike",
+      "category": "Outdoor",
+      "description": "Short 1.4km hike to stunning Peyto Lake overlook famous for its vivid turquoise color and dramatic mountain backdrop. Accessible and highly photogenic destination.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "photography",
         "standard",
         "relaxation"
+      ]
+    },
+    {
+      "name": "Icefields Parkway Scenic Drive",
+      "category": "Outdoor",
+      "description": "Epic 230km scenic drive between Banff and Jasper with multiple viewpoints, waterfalls, and glacier views. Can be completed as day trip with multiple stops.",
+      "durationHours": 8,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Skiing or Snowboarding",
+      "category": "Adventure",
+      "description": "World-class ski resorts including Lake Louise and Sunshine Village offer terrain for all abilities. Modern lifts, groomed runs, and stunning alpine scenery for winter sports enthusiasts.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "standard"
       ]
     }
   ],
@@ -275,155 +277,155 @@
     "spots": [
       {
         "name": "Lake Louise",
-        "description": "The iconic turquoise glacial lake with Fairview Mountain as backdrop, offering stunning reflections and year-round photographic opportunities.",
+        "description": "Iconic turquoise lake with Victoria Glacier backdrop, offering stunning reflections and perfect composition opportunities from multiple angles around the shoreline.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for golden light and calm waters",
+        "bestTime": "Early morning for calm water and sunrise colors",
         "category": "Landscape"
       },
       {
         "name": "Moraine Lake Valley of Ten Peaks",
-        "description": "Dramatically composed glacial lake with ten surrounding mountain peaks creating a UNESCO World Heritage composition.",
+        "description": "Dramatic mountain vista with brilliant blue lake waters reflecting the surrounding peaks, creating one of Canada's most photographed landscapes.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise for turquoise water saturation and warm mountain light",
+        "bestTime": "Mid-morning for lake color and afternoon for peak shadows",
         "category": "Landscape"
       },
       {
-        "name": "Johnston Canyon",
-        "description": "Narrow canyon with cascading waterfalls framed by towering rock walls and forest, offering dramatic compositional depth.",
+        "name": "Johnston Canyon Frozen Waterfalls",
+        "description": "Stunning canyon with dramatic waterfall formations that freeze into spectacular ice formations in winter, creating unique photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday when sunlight hits canyon walls, or overcast for waterfall detail",
+        "bestTime": "Winter for frozen formations, early morning for best light",
         "category": "Landscape"
       },
       {
-        "name": "Bow Lake and Glacier",
-        "description": "Pristine alpine lake with glaciated peaks reflected in calm waters along the scenic Icefields Parkway.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning for mirror reflections and golden hour light on peaks",
-        "category": "Landscape"
-      },
-      {
-        "name": "Sulphur Mountain Panorama",
-        "description": "360-degree viewpoint accessible by gondola or hiking trail showcasing the Bow Valley and six mountain ranges.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for alpenglow and dramatic cloud formations",
-        "category": "Landscape"
-      },
-      {
-        "name": "Peyto Lake Turquoise Waters",
-        "description": "Striking blue-green glacial lake with white sandy beach and dramatic mountain backdrop along the Icefields Parkway.",
+        "name": "Bow Lake and Num-Ti-Jah Lodge",
+        "description": "Picturesque alpine lake with historic lodge reflection, surrounded by dramatic peaks and forests offering excellent composition opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday when glacier melt creates most vibrant turquoise color",
+        "bestTime": "Golden hour for reflection and warm tones",
         "category": "Landscape"
       },
       {
-        "name": "Castleguard Meadows",
-        "description": "Wildflower-filled alpine meadows with mountain backdrop creating colorful composition during summer months.",
+        "name": "Peyto Lake Overlook",
+        "description": "Dramatic elevated viewpoint showcasing the vivid turquoise waters and surrounding wilderness with expansive panoramic possibilities.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday when the glacier-fed water shows brightest turquoise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Banff Avenue Main Street",
+        "description": "Historic mountain town street with rustic architecture, colorful storefronts, and mountain backdrop visible down the street corridor.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon for side lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Sulphur Mountain Summit",
+        "description": "Panoramic 360-degree views of the Canadian Rockies, surrounding valleys, and distant peaks from the summit accessible by gondola.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for dramatic lighting and clear conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Cascade Mountain Winter",
+        "description": "Snow-covered peak accessible from town with excellent winter photography potential featuring rime ice formations and dramatic snow patterns.",
         "difficulty": "Advanced",
-        "bestTime": "Mid-July through August during peak wildflower bloom",
+        "bestTime": "After fresh snow with clear conditions",
         "category": "Landscape"
       },
       {
-        "name": "Banff Town & Mount Rundle",
-        "description": "Historic town framed by distinctive rundle mountain with architectural heritage buildings and street-level photography opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm light on buildings and mountain faces",
-        "category": "Architecture"
+        "name": "Wildlife Photography Locations",
+        "description": "Various spots around Banff for photographing elk, bighorn sheep, and other wildlife in natural settings with mountain backdrops.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning and evening during active feeding times",
+        "category": "Wildlife"
       },
       {
-        "name": "Fairholme Range Silhouettes",
-        "description": "Mountain ridge silhouettes across Bow River valley offering dramatic backlighting and atmospheric conditions.",
+        "name": "Rundle Mountain Reflections",
+        "description": "Distinctive pyramid-shaped mountain with reflective foreground options in nearby water features and meadows offering layered compositions.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunrise or sunset for silhouette contrast",
-        "category": "Landscape"
-      },
-      {
-        "name": "Icefields Parkway Scenic Corridor",
-        "description": "Continuous 93 km stretch of pullout locations with glacier views, mountain scenery, and cascading water features.",
-        "difficulty": "Beginner",
-        "bestTime": "Variable by location; golden hour offers best mountain lighting",
+        "bestTime": "Early morning for still water reflections",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Lake Louise",
-      "Moraine Lake",
-      "Sulphur Mountain Summit"
+      "Lake Louise Shoreline",
+      "Moraine Lake Overlook",
+      "Peyto Lake Viewpoint"
     ],
     "sunsetSpots": [
-      "Bow Lake",
-      "Peyto Lake",
-      "Banff Avenue Viewpoint"
+      "Sulphur Mountain Summit",
+      "Bow Lake with Num-Ti-Jah Lodge",
+      "Johnston Canyon Upper Falls"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive landscape compositions and peak-to-peak vistas",
-      "70-200mm telephoto for compressed mountain layering and wildlife wildlife isolation",
-      "50mm prime for sharp architectural details and street photography in Banff town",
-      "24mm prime for versatile landscape work and waterfall canyon framing"
+      "16-35mm wide angle for expansive landscape captures and mountain vistas",
+      "24-70mm versatile zoom for varied compositions from hiking trails",
+      "70-200mm telephoto for wildlife photography and distant peak details",
+      "Polarizing filter to enhance lake colors and reduce reflections"
     ],
-    "goldenHourNotes": "Banff's high elevation and mountain orientation provide exceptional golden hour lighting with alpine glow lasting longer than lower elevations. The Icefields Parkway faces west, ideal for sunset photography, while east-facing slopes like Lake Louise catch morning light beautifully. Best results occur during spring and fall when longer shadows and lower sun angles enhance mountain dimension and texture.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Banff's high elevation and mountain terrain create extended golden hour periods with warm light reflecting off peaks and water. The best times are 1-2 hours after sunrise and 1-2 hours before sunset, when the low angle sun illuminates the dramatic topography. Winter offers extended golden hours due to lower sun angle and clear atmospheric conditions.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": -11,
-        "rainfallMM": 24
+        "avgTempC": -10,
+        "rainfallMM": 19
       },
       {
         "month": 2,
         "avgTempC": -9,
-        "rainfallMM": 22
+        "rainfallMM": 18
       },
       {
         "month": 3,
         "avgTempC": -5,
-        "rainfallMM": 26
+        "rainfallMM": 21
       },
       {
         "month": 4,
-        "avgTempC": 1,
-        "rainfallMM": 38
+        "avgTempC": 2,
+        "rainfallMM": 35
       },
       {
         "month": 5,
-        "avgTempC": 7,
-        "rainfallMM": 75
+        "avgTempC": 8,
+        "rainfallMM": 61
       },
       {
         "month": 6,
-        "avgTempC": 12,
-        "rainfallMM": 88
+        "avgTempC": 13,
+        "rainfallMM": 76
       },
       {
         "month": 7,
-        "avgTempC": 15,
-        "rainfallMM": 82
+        "avgTempC": 16,
+        "rainfallMM": 84
       },
       {
         "month": 8,
-        "avgTempC": 14,
-        "rainfallMM": 75
+        "avgTempC": 15,
+        "rainfallMM": 79
       },
       {
         "month": 9,
         "avgTempC": 10,
-        "rainfallMM": 60
+        "rainfallMM": 53
       },
       {
         "month": 10,
-        "avgTempC": 4,
-        "rainfallMM": 46
+        "avgTempC": 5,
+        "rainfallMM": 33
       },
       {
         "month": 11,
         "avgTempC": -3,
-        "rainfallMM": 32
+        "rainfallMM": 25
       },
       {
         "month": 12,
         "avgTempC": -9,
-        "rainfallMM": 28
+        "rainfallMM": 21
       }
     ],
     "bestMonths": [
@@ -432,31 +434,30 @@
       8,
       9
     ],
-    "seasonality": "Summer (June-September) offers warm weather, clear skies, and accessible hiking with long daylight hours ideal for activities and photography. Winter (December-March) provides excellent snow sports and stunning snowy landscapes but requires proper gear and experience.",
-    "summary": "Banff experiences a mountain climate with cold winters averaging -10°C and mild summers around 13°C. Snow is common October through April, while summer months bring temperatures between 12-15°C and moderate rainfall."
+    "seasonality": "Summer (June-September) offers warm weather and all trails accessible with long daylight hours. Winter (December-March) provides excellent skiing, frozen waterfalls, and dramatic snow-covered landscapes, but shorter days and cold temperatures.",
+    "summary": "Banff experiences a subarctic climate with cold, snowy winters averaging -10°C and mild summers around 15°C. Precipitation is moderate year-round, with most rainfall in summer months and abundant snow in winter."
   },
   "hotels": [
     {
-      "name": "Banff YMCA",
+      "name": "HI-Banff Alpine Centre",
       "neighborhood": "Downtown Banff",
-      "pricePerNightUSD": 95,
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Basic but clean accommodations in the heart of Banff with shared and private room options, kitchen facilities, and convenient access to shops and restaurants."
-    },
-    {
-      "name": "Banff Caribou Lodge",
-      "neighborhood": "Downtown Banff",
-      "pricePerNightUSD": 185,
-      "category": "Mid-range",
-      "description": "Comfortable three-star hotel with wood-burning fireplace, hot tub, and convenient downtown location near shopping and dining with mountain views."
+      "description": "Affordable hostel with dormitory and private rooms, featuring common areas and kitchen facilities ideal for budget travelers and backpackers."
     },
     {
       "name": "Fairmont Banff Springs Hotel",
       "neighborhood": "Downtown Banff",
       "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Historic iconic castle-style hotel offering world-class amenities, fine dining, spa services, and stunning views of the Bow Valley from the architectural masterpiece."
+      "description": "Historic castle-like luxury resort with world-class amenities, multiple restaurants, spa, and stunning mountain views overlooking Banff townsite."
+    },
+    {
+      "name": "Red Carpet Inn",
+      "neighborhood": "Downtown Banff",
+      "pricePerNightUSD": 120,
+      "category": "Mid-range",
+      "description": "Comfortable mid-range hotel with clean rooms, friendly staff, convenient downtown location, and reasonable rates for Banff standards."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1561134643-668f9057cce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCYW5mZiUyMExha2UlMjBMb3Vpc2UlMjBNb3VudGFpbnN8ZW58MXwwfHx8MTc4MTU1NjEzOHww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

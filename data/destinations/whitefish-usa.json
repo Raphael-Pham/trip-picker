@@ -1,0 +1,452 @@
+{
+  "id": "whitefish-usa",
+  "city": "Whitefish",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "FCA",
+    "MIS",
+    "BZN"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "adventure",
+    "photography",
+    "relaxation",
+    "foodie",
+    "standard"
+  ],
+  "scores": {
+    "cost": 55,
+    "food": 72,
+    "photography": 88,
+    "activities": 85,
+    "weather": 78
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Whitefish Montana mountain lake",
+  "summary": "Whitefish is a scenic mountain town in northwest Montana offering pristine alpine landscapes, world-class outdoor recreation, and charming downtown dining. From skiing at nearby Big Mountain Resort to exploring Glacier National Park, this destination combines adventure with small-town hospitality and exceptional photography opportunities.",
+  "restaurants": [
+    {
+      "name": "Cafe Kandinsky",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Cozy espresso bar and breakfast spot with locally roasted coffee and fresh pastries. Perfect for starting your day before outdoor adventures.",
+      "mustTry": "Huckleberry latte"
+    },
+    {
+      "name": "The Montana Club",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual sports bar and grill featuring Montana ranch meats and locally sourced ingredients. Known for friendly atmosphere and generous portions.",
+      "mustTry": "Montana bison burger"
+    },
+    {
+      "name": "MacKenzie River Pizza Co.",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local pizzeria with wood-fired ovens and creative toppings made from fresh ingredients. Great casual dining option with local craft beer.",
+      "mustTry": "Montana meatlovers pizza"
+    },
+    {
+      "name": "Logan's Bar & Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse with hand-cut steaks, fresh seafood, and extensive wine selection. Elegant atmosphere with mountain views and exceptional service.",
+      "mustTry": "Prime rib with seasonal vegetables"
+    },
+    {
+      "name": "The Good Red Barn",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant celebrating local ranching heritage with grass-fed beef and organic produce. Rustic-elegant setting with Montana charm.",
+      "mustTry": "Locally raised beef tenderloin"
+    },
+    {
+      "name": "Truby's Tea Room",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Charming tea house offering light lunches, pastries, and specialty teas in a Victorian-style setting. Perfect for a quiet afternoon break.",
+      "mustTry": "Homemade scones with clotted cream"
+    },
+    {
+      "name": "Whitefish Lake Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Fine dining establishment overlooking Whitefish Lake with contemporary cuisine and an impressive wine list. Romantic setting for special occasions.",
+      "mustTry": "Pan-seared halibut with seasonal fruit compote"
+    },
+    {
+      "name": "Bert & Ernie's Saloon",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic local dive bar and restaurant with reasonable prices and authentic mountain atmosphere. Known for hearty food and lively karaoke nights.",
+      "mustTry": "Chicken fried steak"
+    },
+    {
+      "name": "The Depot",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic train station converted into a restaurant and bar serving Northwest cuisine with art gallery. Unique architectural setting with local art.",
+      "mustTry": "Wild salmon with huckleberry glaze"
+    },
+    {
+      "name": "Wasabi Sushi & Asian Cuisine",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary sushi restaurant offering fresh rolls, sashimi, and Asian fusion dishes. Modern ambiance with skilled sushi chefs.",
+      "mustTry": "Glacier Park roll with local ingredients"
+    },
+    {
+      "name": "Burrito Shack",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican eatery with fresh ingredients and authentic recipes. Great option for quick, affordable meals before hiking.",
+      "mustTry": "Carnitas burrito with fresh lime"
+    },
+    {
+      "name": "Pescado Blanco",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Seafood-focused restaurant with fresh catches prepared with Spanish and Mediterranean influences. Intimate dining with seasonal menu changes.",
+      "mustTry": "Cedar plank salmon with citrus beurre blanc"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Big Mountain Skiing",
+      "category": "Adventure",
+      "description": "World-class ski resort with 3,000+ acres of terrain offering runs for all skill levels. Winter and summer activities including mountain biking and alpine slides.",
+      "durationHours": 6,
+      "estimatedCostUSD": 99,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking to Lake Alva",
+      "category": "Outdoor",
+      "description": "Moderate 8-mile round-trip hike through evergreen forests to a pristine alpine lake with stunning mountain views. Trail is well-maintained and accessible year-round.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Whitefish Lake Swimming",
+      "category": "Outdoor",
+      "description": "Crystal-clear freshwater lake perfect for swimming, paddleboarding, and kayaking in summer months. Public beach area with picnic facilities and scenic overlooks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "relaxation",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Glacier National Park Day Trip",
+      "category": "Adventure",
+      "description": "Full-day excursion to America's most scenic national park featuring Going-to-the-Sun Road, pristine lakes, and alpine trails. Approximately one hour drive from Whitefish.",
+      "durationHours": 8,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Downtown Whitefish Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or organized tour of historic downtown featuring local shops, galleries, and landmark buildings. Learn about Montana's logging and railroad heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Mountain Biking Trails",
+      "category": "Adventure",
+      "description": "Extensive network of trails ranging from beginner-friendly to advanced downhill courses. Big Mountain and surrounding areas offer 40+ miles of maintained trails.",
+      "durationHours": 4,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Fly Fishing on North Fork Flathead River",
+      "category": "Outdoor",
+      "description": "Premier fly-fishing destination with native westslope cutthroat trout and bull trout. Guided or solo fishing adventures through scenic river valleys.",
+      "durationHours": 6,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Whitefish Theatre Company Performance",
+      "category": "Cultural",
+      "description": "Local theater company featuring musicals, dramas, and comedies in an intimate historic venue. Professional productions with community talent throughout the year.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 28,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kayaking on Whitefish Lake at Sunset",
+      "category": "Outdoor",
+      "description": "Peaceful paddling experience across calm alpine waters with panoramic mountain backdrop during golden hour. Rentals available at downtown beach.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Cold Spring Trail Hike",
+      "category": "Outdoor",
+      "description": "Easy 5-mile round-trip hike to natural spring-fed pool surrounded by wildflowers and forest. Ideal for families and those seeking moderate exercise.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "ATV and Guided Tours",
+      "category": "Adventure",
+      "description": "Off-road vehicle tours through mountain terrain and remote wilderness areas with experienced guides. Options for various skill levels and fitness levels.",
+      "durationHours": 4,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Local Art Gallery Exploration",
+      "category": "Cultural",
+      "description": "Visit independent galleries showcasing regional artists specializing in landscape, wildlife, and contemporary art. Most galleries offer free entry and artist talks.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Whitefish Lake South Shore",
+        "description": "Stunning reflections of distant mountains and surrounding peaks mirror in crystal-clear alpine lake waters during calm mornings.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Going-to-the-Sun Road Overlook",
+        "description": "Iconic mountain pass roadway features dramatic cliff faces, turquoise lakes, and sweeping valley vistas perfect for landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Glacier National Park Hidden Lake Trail",
+        "description": "Pristine alpine lake surrounded by jagged peaks and glacier-carved valleys with exceptional detail and depth for landscape work.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Whitefish Historic Buildings",
+        "description": "Charming brick buildings and historic storefronts create excellent urban and architectural photography with character and local flavor.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon side-lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "North Fork Flathead River Canyon",
+        "description": "Rugged river gorge with moss-covered rocks and flowing water creates dramatic landscape and nature photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Big Mountain Summit",
+        "description": "Panoramic views from ski resort summit showcase entire valley, distant mountain ranges, and atmospheric perspective.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for clarity and shadows",
+        "category": "Landscape"
+      },
+      {
+        "name": "Whitefish Lake Pier at Night",
+        "description": "Illuminated pier reflects in calm water with star-filled sky and distant mountains creating stunning night photography potential.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear nights post-sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Wildlife Viewing at Fish Creek Wildlife Area",
+        "description": "Diverse wildlife including deer, elk, and birds in natural habitat with scenic meadows and forest backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early dawn or dusk",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Lake McDonald Shore Scenic Drive",
+        "description": "Turquoise glacier-fed lake with jagged peaks reflected in glassy water creates classic mountain landscape imagery.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Loggie Ravine Wildflower Meadows",
+        "description": "Seasonal wildflower explosions create vibrant foreground interest with mountain backdrops ideal for spring and summer shooting.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning with side light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Whitefish Lake South Shore",
+      "Big Mountain Summit",
+      "Going-to-the-Sun Road Overlook"
+    ],
+    "sunsetSpots": [
+      "Whitefish Lake Pier",
+      "Lake McDonald Shore",
+      "Downtown Whitefish Historic Waterfront"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive mountain and lake landscapes",
+      "70-200mm telephoto for wildlife and distant peak compression",
+      "24-70mm versatile standard zoom for hiking and mixed conditions",
+      "14mm ultra-wide for dramatic summit and panoramic perspectives"
+    ],
+    "goldenHourNotes": "Whitefish offers exceptional golden hour photography year-round with long summer evenings. Mountain shadows create depth and definition, while morning light on lake reflections produces stunning clarity. Winter golden hour is brief but intense, casting warm alpenglow on snowfields.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -7,
+        "rainfallMM": 48
+      },
+      {
+        "month": 2,
+        "avgTempC": -5,
+        "rainfallMM": 46
+      },
+      {
+        "month": 3,
+        "avgTempC": -2,
+        "rainfallMM": 42
+      },
+      {
+        "month": 4,
+        "avgTempC": 5,
+        "rainfallMM": 56
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 18,
+        "rainfallMM": 112
+      },
+      {
+        "month": 7,
+        "avgTempC": 22,
+        "rainfallMM": 76
+      },
+      {
+        "month": 8,
+        "avgTempC": 21,
+        "rainfallMM": 68
+      },
+      {
+        "month": 9,
+        "avgTempC": 16,
+        "rainfallMM": 72
+      },
+      {
+        "month": 10,
+        "avgTempC": 8,
+        "rainfallMM": 52
+      },
+      {
+        "month": 11,
+        "avgTempC": 0,
+        "rainfallMM": 58
+      },
+      {
+        "month": 12,
+        "avgTempC": -6,
+        "rainfallMM": 52
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer offers warm temperatures perfect for hiking and outdoor activities with long daylight hours. Winter transforms Whitefish into a snow sports destination with excellent skiing conditions from December through March.",
+    "summary": "Whitefish experiences four distinct seasons with cold snowy winters averaging -7°C and mild summers reaching 22°C. The region receives significant precipitation year-round, particularly during spring and early summer months, supporting lush vegetation and healthy ski conditions."
+  },
+  "hotels": [
+    {
+      "name": "Whitefish Hostel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 45,
+      "category": "Budget",
+      "description": "Friendly budget accommodations in downtown location with shared and private rooms, communal kitchen, and free Wi-Fi."
+    },
+    {
+      "name": "Pine Lodge",
+      "neighborhood": "Central Whitefish",
+      "pricePerNightUSD": 128,
+      "category": "Mid-range",
+      "description": "Comfortable mountain lodge with family-friendly amenities, on-site restaurant, and convenient access to downtown and ski areas."
+    },
+    {
+      "name": "Whitefish Lake Resort",
+      "neighborhood": "Lakefront",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "Premier lakeside resort featuring fine dining, full-service spa, private beach access, and panoramic mountain and water views."
+    }
+  ]
+}

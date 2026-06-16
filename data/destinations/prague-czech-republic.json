@@ -6,7 +6,7 @@
   "airportCodes": [
     "PRG",
     "VIE",
-    "MUC"
+    "BRQ"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -19,123 +19,147 @@
     "relaxation"
   ],
   "scores": {
-    "cost": 75,
+    "cost": 72,
     "food": 85,
-    "photography": 95,
-    "activities": 90,
+    "photography": 92,
+    "activities": 88,
     "weather": 65
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 40,
-      "maxPerDayUSD": 70
+      "minPerDayUSD": 50,
+      "maxPerDayUSD": 80
     },
     {
       "level": "mid",
-      "minPerDayUSD": 70,
-      "maxPerDayUSD": 150
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 350
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Prague Charles Bridge castle",
-  "summary": "Prague is a fairy-tale city where medieval architecture meets vibrant culture, offering stunning Gothic spires, ancient bridges, and world-class beer at unbeatable prices. From wandering the labyrinthine Old Town to exploring hidden gardens and riverside cafes, this Czech jewel captivates photographers and travelers with its timeless charm and bohemian spirit.",
+  "unsplashQuery": "Prague Charles Bridge sunset",
+  "summary": "Prague captivates visitors with its fairy-tale architecture, medieval charm, and bohemian spirit woven through centuries-old cobblestone streets. Home to stunning Gothic cathedrals, riverside castles, and Europe's most photogenic squares, this ancient capital offers endless cultural exploration paired with affordable, world-class Czech cuisine and beer. The city seamlessly blends historical grandeur with vibrant modern culture, making it essential for travelers seeking beauty, history, and authentic European experience.",
   "restaurants": [
+    {
+      "name": "U Fleků",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Prague's oldest brewery operating since 1499, serving traditional Czech cuisine and their famous dark lager in a historic beer hall atmosphere.",
+      "mustTry": "Svíčková (marinated beef with cream sauce) with dark beer"
+    },
     {
       "name": "Lokál",
       "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "A casual beer hall celebrating Czech beer culture with traditional wooden tables and friendly locals. Serves unpasteurized Pilsner Urquell and hearty traditional dishes.",
-      "mustTry": "Goulash with dark bread"
-    },
-    {
-      "name": "U Medvídků",
-      "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Historic brewery and restaurant operating since 1466, famous for their house beer Budvar and traditional Czech cuisine. Atmospheric medieval setting with locals and tourists sharing tables.",
-      "mustTry": "Roasted pork knuckle with sauerkraut"
+      "description": "Modern Czech gastropub celebrating traditional recipes with locally-sourced ingredients and craft beers from around the country.",
+      "mustTry": "Goulash and tripe soup"
     },
     {
       "name": "Café Savoy",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Elegant Art Deco café near Charles Bridge with beautiful interiors and excellent coffee, pastries, and light lunch options. Perfect for a relaxing break while sightseeing.",
-      "mustTry": "Trdelník with hot chocolate"
-    },
-    {
-      "name": "Gaststätte Přítomnost",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Tiny traditional Czech pub in the Old Town with authentic home-cooked meals and affordable local beer. No-frills atmosphere attracts mainly locals.",
-      "mustTry": "Svíčková beef with dumplings"
-    },
-    {
-      "name": "Aromi",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Modern Italian fine dining restaurant with seasonal ingredients and impeccable service in an intimate setting. Offers wine pairings and creative interpretations of classic Italian dishes.",
-      "mustTry": "Homemade pasta with truffle"
-    },
-    {
-      "name": "Kolkovna",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Spacious beer hall and gastropub in the historic Old Town offering both traditional and modern Czech cuisine with excellent Czech beers. Family-friendly with live music on weekends.",
-      "mustTry": "Tripe soup and fried cheese"
-    },
-    {
-      "name": "La Degustation Bohême Bourgeoise",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Michelin-starred restaurant presenting modernist Czech cuisine with artistic plating and carefully curated wine selections. Eight-course tasting menu showcases local ingredients.",
-      "mustTry": "Tasting menu with local game"
-    },
-    {
-      "name": "Café Milunič",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Charming small café in a quiet corner near the Dancing House serving excellent espresso and homemade cakes. Local favorite with minimalist décor and friendly service.",
+      "description": "Elegant 1930s café with high ceilings and period details, serving refined Czech and international cuisine with exceptional coffee.",
       "mustTry": "Apple strudel with vanilla sauce"
     },
     {
-      "name": "Grosseto Marino",
+      "name": "Eska",
       "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Seafood-focused restaurant with contemporary design near the Old Town Square serving fresh fish and Italian-inspired preparations. Knowledgeable staff and curated wine list.",
-      "mustTry": "Fresh sea bass carpaccio"
+      "priceRange": "$$$$",
+      "description": "Modern Nordic-inspired restaurant in a converted meatpacking plant, featuring seasonal tasting menus and extensive natural wine selection.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Krcma v Jáchymě",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy traditional tavern in Old Town Square with authentic Czech dishes, hearty portions, and authentic medieval atmosphere.",
+      "mustTry": "Trdelník (sweet pastry) and beer"
+    },
+    {
+      "name": "Field Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred establishment focusing on Czech ingredients prepared with contemporary technique in an intimate setting.",
+      "mustTry": "Seasonal tasting menu featuring Czech heritage ingredients"
+    },
+    {
+      "name": "Kolkovna",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Brewpub dedicated to Czech beer culture with rotating craft selections and traditional comfort food in a lively atmosphere.",
+      "mustTry": "Beer and cheese board with local artisanal selections"
+    },
+    {
+      "name": "Mozaika",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Middle Eastern street food and Mediterranean restaurant offering fresh, affordable meals with vegetarian focus.",
+      "mustTry": "Hummus bowls and falafel wraps"
+    },
+    {
+      "name": "Bellevue",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Fine dining restaurant with panoramic views of Prague Castle and Charles Bridge, serving French-Czech fusion cuisine.",
+      "mustTry": "Duck breast with cherry sauce overlooking the castle"
     },
     {
       "name": "Hanavský Pavilon",
       "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Historic Art Nouveau pavilion with terrace overlooking Prague with traditional Czech dishes and international options. Spectacular views and atmospheric Belle Époque setting.",
-      "mustTry": "Duck confit with cherry sauce"
-    },
-    {
-      "name": "Červený Jelen",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Traditional Czech pub in the New Town with locals enjoying affordable beer, spirits, and authentic home cooking in a cozy wood-paneled interior. No tourists, pure Prague authenticity.",
-      "mustTry": "Pork schnitzel with potato salad"
-    },
-    {
-      "name": "Ikarus",
-      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Modern European fine dining with panoramic Prague views from its location, offering creative dishes with seasonal ingredients and excellent service. Contemporary elegant atmosphere.",
-      "mustTry": "Pan-seared foie gras"
+      "description": "Belle Époque pavilion with stunning castle views, serving refined Czech and international cuisine in an elegant setting.",
+      "mustTry": "Roasted pork knuckle with views"
+    },
+    {
+      "name": "Café Slavia",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic Art Deco café frequented by literary figures and intellectuals, overlooking the river with excellent coffee and pastries.",
+      "mustTry": "Coffee and slice of traditional Czech cake"
+    },
+    {
+      "name": "Gitane",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Intimate French-Mediterranean restaurant in a historic house with four-course tasting menus and exceptional wine pairings.",
+      "mustTry": "Seasonal French-inspired tasting menu"
     }
   ],
   "activities": [
     {
-      "name": "Charles Bridge Walk",
-      "category": "Outdoor",
-      "description": "Iconic 14th-century stone bridge connecting Old Town to Prague Castle, lined with statues and street performers offering quintessential Prague views. Best experienced early morning or late evening to avoid crowds.",
-      "durationHours": 1,
+      "name": "Charles Bridge Exploration",
+      "category": "Cultural",
+      "description": "Walk across Prague's most iconic 14th-century stone bridge adorned with 30 Baroque statues, best experienced early morning before crowds.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Prague Castle Complex Tour",
+      "category": "Cultural",
+      "description": "Explore the world's largest castle complex with Saint Vitus Cathedral, royal palaces, and gardens offering unparalleled city views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Old Town Square Experience",
+      "category": "Cultural",
+      "description": "Marvel at the Astronomical Clock's hourly performance, Gothic architecture, and vibrant square life in Prague's historic heart.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
@@ -144,23 +168,23 @@
       ]
     },
     {
-      "name": "Prague Castle Tour",
+      "name": "Jewish Quarter Walking Tour",
       "category": "Cultural",
-      "description": "UNESCO World Heritage Site encompassing St. Vitus Cathedral, Royal Palace, and gardens with over 1000 years of history. Requires several hours to explore the complex properly.",
-      "durationHours": 3,
-      "estimatedCostUSD": 15,
+      "description": "Visit six historic synagogues and the poignant Jewish Cemetery, learning stories of Prague's Jewish heritage and medieval history.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
       "bestFor": [
         "standard",
-        "photography",
-        "adventure"
+        "hidden-gems",
+        "surprise"
       ]
     },
     {
-      "name": "Vltava River Boat Cruise",
+      "name": "Vltava River Cruise",
       "category": "Outdoor",
-      "description": "Scenic cruise along the Vltava River offering views of Charles Bridge, Prague Castle, and Old Town from the water. Evening cruises often include dinner and live music.",
-      "durationHours": 2,
-      "estimatedCostUSD": 20,
+      "description": "Scenic boat journey showcasing Prague's architectural jewels from water perspective, including Charles Bridge and castle views.",
+      "durationHours": 1,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
         "relaxation",
@@ -168,111 +192,86 @@
       ]
     },
     {
-      "name": "Old Town Square Exploration",
+      "name": "Petřín Lookout Tower Climb",
       "category": "Outdoor",
-      "description": "Historic square featuring the Astronomical Clock, Gothic Tyn Church, and dozens of outdoor cafés perfect for people-watching. Heart of medieval Prague with Renaissance and Baroque architecture.",
+      "description": "Ascend Prague's Eiffel Tower replica for 360-degree city panoramas and explore surrounding Petřín Park trails.",
       "durationHours": 2,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 8,
       "bestFor": [
-        "standard",
+        "adventure",
         "photography",
-        "hidden-gems"
+        "activity"
       ]
     },
     {
-      "name": "Jewish Quarter Tour",
-      "category": "Cultural",
-      "description": "Six historic synagogues, Jewish cemetery, and museums documenting centuries of Prague's Jewish heritage. Emotionally moving and architecturally significant area with guided tours recommended.",
-      "durationHours": 2,
-      "estimatedCostUSD": 25,
+      "name": "Prague Pub Crawl and Beer Tasting",
+      "category": "Nightlife",
+      "description": "Experience authentic Czech beer culture by visiting traditional beer halls and tasting various regional brews with local guides.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
-        "photography",
+        "foodie",
         "surprise"
       ]
     },
     {
-      "name": "Petřín Lookout Tower Climb",
-      "category": "Outdoor",
-      "description": "Iron tower on Petřín Hill offering 360-degree views of Prague from 60 meters high, accessible by funicular railway or hiking trails. Popular spot for sunset with panoramic city views.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 5,
+      "name": "Municipal House Concert or Performance",
+      "category": "Cultural",
+      "description": "Attend classical concert or opera in Prague's spectacular Art Nouveau concert hall with ornate interiors and exceptional acoustics.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Prague Underground Catacombs Tour",
+      "category": "Adventure",
+      "description": "Explore mysterious tunnels, cellars, and hidden passages beneath Old Town revealing medieval secrets and dark history.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "hidden-gems",
+        "adventure",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Vyšehrad Fortress Visit",
+      "category": "Cultural",
+      "description": "Discover the ancient fortress with panoramic river views, historic cemetery with famous Czechs, and dramatic Neo-Gothic structures.",
+      "durationHours": 2,
+      "estimatedCostUSD": 6,
+      "bestFor": [
         "photography",
+        "hidden-gems",
         "adventure"
       ]
     },
     {
-      "name": "Prague Beer Spa Experience",
-      "category": "Relaxation",
-      "description": "Unique wellness experience combining bathing in heated beer with a massage, utilizing Czech brewing traditions for relaxation. Surreal and quintessentially Prague activity.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "relaxation",
-        "surprise",
-        "standard"
-      ]
-    },
-    {
-      "name": "Vyšehrad Historic Complex",
+      "name": "Free Walking Tour of Prague",
       "category": "Cultural",
-      "description": "Medieval fortress with Romanesque church, cemetery featuring famous Czech artists and composers, and dramatic views over the Vltava. Less crowded alternative to Prague Castle with equal historical significance.",
-      "durationHours": 2,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Dancing House and Modern Prague Walk",
-      "category": "Outdoor",
-      "description": "Contemporary architecture walking tour featuring the postmodern Dancing House, modern galleries, and 20th-century development. Offers contrast to medieval old town.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Lennon Wall and Lesser Town Exploration",
-      "category": "Cultural",
-      "description": "Colorful John Lennon memorial wall and picturesque Lesser Town district with narrow cobbled streets, baroque houses, and hidden gardens. Charming residential Prague with artistic energy.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Prague Underground and Cellar Pub Crawl",
-      "category": "Nightlife",
-      "description": "Guided tour through historic cellars and underground passages beneath Prague's streets with stops at traditional pubs serving authentic Czech beer. Educational and fun evening activity.",
+      "description": "Guided tour through Prague's most significant sites and hidden corners with knowledgeable local guides, tip-based payment.",
       "durationHours": 3,
-      "estimatedCostUSD": 30,
+      "estimatedCostUSD": 0,
       "bestFor": [
+        "budget",
         "standard",
-        "surprise",
-        "foodie"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Botanical Garden and Nature Walks",
-      "category": "Outdoor",
-      "description": "Prague Botanical Garden offers peaceful escape with diverse plant collections, seasonal flowers, and views over the city. Perfect for leisurely afternoon or family outings.",
+      "name": "Prague Markets and Food Hall Exploration",
+      "category": "Foodie",
+      "description": "Visit Havelské tržiště open market and Manifesto Market food hall sampling local produce, cheese, and street food delicacies.",
       "durationHours": 2,
-      "estimatedCostUSD": 3,
+      "estimatedCostUSD": 15,
       "bestFor": [
-        "relaxation",
-        "photography",
-        "family"
+        "foodie",
+        "hidden-gems",
+        "photography"
       ]
     }
   ],
@@ -280,92 +279,92 @@
     "spots": [
       {
         "name": "Charles Bridge at Sunrise",
-        "description": "Iconic stone bridge with minimal crowds at dawn, perfect for capturing statues and architectural details with soft golden light reflecting off the Vltava River.",
+        "description": "Golden light illuminating the Gothic bridge towers and ancient statues with minimal crowds creating perfect compositing opportunity.",
         "difficulty": "Beginner",
-        "bestTime": "30 minutes before sunrise to 1 hour after",
+        "bestTime": "5:30-6:30 AM",
         "category": "Architecture"
       },
       {
         "name": "Prague Castle from Petřín Park",
-        "description": "Elevated vantage point offering dramatic views of the castle complex against the city skyline, ideal for wide-angle compositions in golden hour light.",
+        "description": "Classic vantage point featuring the castle complex silhouetted against the city skyline with compositional balance.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset, 1 hour before dusk",
-        "category": "Landscape"
-      },
-      {
-        "name": "Old Town Square Astronomical Clock",
-        "description": "Intricate Gothic clock face with surrounding medieval architecture, best captured from below to emphasize vertical elements and ornamental details.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light 8-10am, before tourist crowds",
+        "bestTime": "Golden hour (sunset)",
         "category": "Architecture"
       },
       {
-        "name": "Vltava River from Vyšehrad Cliffs",
-        "description": "Dramatic riverside cliffs with medieval fortress walls overlooking the river valley, excellent for layered landscape compositions with atmospheric depth.",
+        "name": "Old Town Square Astronomical Clock Detail",
+        "description": "Intricate medieval clockwork and Gothic tower details revealing incredible craftsmanship and historical artistry.",
         "difficulty": "Intermediate",
-        "bestTime": "Late afternoon with directional side light across the cliffs",
-        "category": "Landscape"
-      },
-      {
-        "name": "Tyn Church Spires from Side Streets",
-        "description": "Twin Gothic spires of Church of Our Lady before Tyn creating surreal silhouettes, best framed through narrow Old Town alleys at different angles.",
-        "difficulty": "Intermediate",
-        "bestTime": "Overcast days or early morning for even lighting on spires",
+        "bestTime": "Morning light at 9 AM",
         "category": "Architecture"
       },
       {
-        "name": "Lesser Town Narrow Streets",
-        "description": "Picturesque cobbled lanes with baroque facades, hanging signs, and flower-draped balconies creating intimate urban street photography opportunities.",
+        "name": "Vltava River from Manesův Bridge",
+        "description": "Stunning reflections of Prague's towers and bridges in calm river water creating mirror-like compositional opportunities.",
         "difficulty": "Beginner",
-        "bestTime": "Morning light for soft shadows on facade details",
+        "bestTime": "Sunrise or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Nerudova Street Perspective",
+        "description": "Charming narrow cobblestone street lined with lanterns and historic facades descending toward the city with strong leading lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for fewer tourists",
         "category": "Street"
       },
       {
-        "name": "Dancing House (Tančící Dům)",
-        "description": "Unique postmodern architectural landmark with curved glass and steel forms creating complex reflections and geometric compositions.",
+        "name": "Jewish Quarter Doorways and Details",
+        "description": "Historic doorways, lamps, and architectural details in winding streets creating atmospheric street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days for even lighting",
+        "category": "Street"
+      },
+      {
+        "name": "St. Vitus Cathedral Interior",
+        "description": "Soaring Gothic arches, stained glass windows, and intricate stone work creating dramatic architectural photography.",
         "difficulty": "Advanced",
-        "bestTime": "Blue hour or night photography for dramatic lighting reflections",
+        "bestTime": "Midday for interior light through windows",
         "category": "Architecture"
       },
       {
-        "name": "Prague from Strahov Monastery Viewpoint",
-        "description": "Panoramic city vista from elevated monastery position capturing entire Old Town and castle district with layered architectural silhouettes.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset for warm tones over the city, or sunrise for cool light",
+        "name": "Prague at Night from Old Town Hall Tower",
+        "description": "City skyline illuminated at dusk with castle lighting and bridge reflections creating magical nighttime cityscape.",
+        "difficulty": "Advanced",
+        "bestTime": "Blue hour (twilight)",
+        "category": "Night"
+      },
+      {
+        "name": "Kampa Island Water Channel",
+        "description": "Peaceful water reflections of colorful buildings and weeping willows creating romantic, intimate compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
         "category": "Landscape"
       },
       {
-        "name": "Jewish Quarter Synagogue Interiors",
-        "description": "Historic synagogues with ornate decorative elements, stained glass, and architectural details requiring indoor lighting techniques and respectful photography.",
-        "difficulty": "Advanced",
-        "bestTime": "Mid-morning when natural light enters side windows",
+        "name": "Prague Rooftops from Observation Points",
+        "description": "Aerial perspective revealing red tile rooftop patterns, chimney forests, and city sprawl with dramatic urban texture.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for warm light",
         "category": "Architecture"
-      },
-      {
-        "name": "Prague Nights at Charles Bridge",
-        "description": "Night photography of illuminated bridge with castle backdrop and river reflections creating moody atmospheric compositions.",
-        "difficulty": "Advanced",
-        "bestTime": "1-2 hours after sunset during blue hour transitioning to night",
-        "category": "Night"
       }
     ],
     "sunriseSpots": [
       "Charles Bridge",
       "Petřín Lookout Tower",
-      "Strahov Monastery Viewpoint"
+      "Old Town Bridge Tower"
     ],
     "sunsetSpots": [
-      "Prague Castle from Petřín Park",
-      "Vyšehrad Cliffs",
-      "Old Town Square"
+      "Prague Castle Grounds",
+      "Vltava Riverside Path",
+      "Vyšehrad Fortress Terrace"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive city views and architectural contexts from elevated positions",
-      "50mm prime for intimate street photography and portrait details in narrow Old Town lanes",
-      "24-70mm versatile zoom for flexibility capturing both wide landscapes and detailed architectural elements",
-      "14mm ultra-wide for creative perspectives of Gothic spires and claustrophobic alley compositions"
+      "24-70mm f/2.8 for versatile architectural and street photography in tight Old Town spaces",
+      "16-35mm f/2.8 ultra-wide for expansive castle and cityscape compositions",
+      "70-200mm f/2.8 for compressed architectural details and bridge tower elements",
+      "50mm f/1.8 prime for street photography and intimate detail work with excellent low-light performance"
     ],
-    "goldenHourNotes": "Prague's golden hour is exceptionally photogenic with warm light reflecting off ochre facades and architectural stonework. The hour before sunset transforms the Vltava into liquid gold while castle silhouettes darken dramatically. Early morning light at sunrise offers softer conditions with minimal crowds, particularly magical on Charles Bridge where the low angle illuminates statue details and creates ethereal mist effects over the river during cooler months.",
+    "goldenHourNotes": "Prague's golden hour is exceptionally photogenic with warm light illuminating red tile roofs and Baroque facades. The city's elevated observation points combined with water reflections create layered compositions. Spring and autumn provide longer golden hours with clearer air, while winter's low sun angle creates dramatic shadows on narrow cobblestone streets.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -388,79 +387,80 @@
       {
         "month": 4,
         "avgTempC": 12,
-        "rainfallMM": 35
+        "rainfallMM": 36
       },
       {
         "month": 5,
-        "avgTempC": 17,
+        "avgTempC": 18,
         "rainfallMM": 64
       },
       {
         "month": 6,
-        "avgTempC": 20,
-        "rainfallMM": 69
-      },
-      {
-        "month": 7,
-        "avgTempC": 22,
+        "avgTempC": 21,
         "rainfallMM": 73
       },
       {
+        "month": 7,
+        "avgTempC": 23,
+        "rainfallMM": 65
+      },
+      {
         "month": 8,
-        "avgTempC": 21,
-        "rainfallMM": 60
+        "avgTempC": 22,
+        "rainfallMM": 62
       },
       {
         "month": 9,
-        "avgTempC": 17,
-        "rainfallMM": 43
+        "avgTempC": 18,
+        "rainfallMM": 46
       },
       {
         "month": 10,
-        "avgTempC": 11,
-        "rainfallMM": 30
+        "avgTempC": 12,
+        "rainfallMM": 41
       },
       {
         "month": 11,
-        "avgTempC": 6,
-        "rainfallMM": 39
+        "avgTempC": 7,
+        "rainfallMM": 44
       },
       {
         "month": 12,
-        "avgTempC": 1,
-        "rainfallMM": 34
+        "avgTempC": 2,
+        "rainfallMM": 38
       }
     ],
     "bestMonths": [
       5,
       6,
-      9
+      9,
+      10
     ],
-    "seasonality": "Prague experiences four distinct seasons with summer offering warm weather ideal for sightseeing, while winter brings snow and festive markets but cold temperatures. Spring and early fall provide pleasant temperatures and fewer crowds than peak summer.",
-    "summary": "Prague has a continental climate with cold winters averaging -1°C and warm summers around 22°C, with moderate rainfall year-round. Visitors should expect changeable weather with layers recommended for any season."
+    "seasonality": "Prague experiences four distinct seasons with spring (May-June) and autumn (September-October) offering the most pleasant weather and fewer crowds. Summers are warm but can be humid, while winters are cold and gray but bring festive Christmas markets and fewer tourists.",
+    "summary": "Prague's temperate continental climate features mild summers averaging 21-23°C and cold winters around -1 to 2°C. Spring and fall provide ideal conditions for sightseeing with temperatures around 12-18°C, while summer tourism peaks during warm weather with occasional afternoon thunderstorms."
   },
   "hotels": [
     {
-      "name": "Hostel U Krčka",
-      "neighborhood": "Old Town",
-      "pricePerNightUSD": 25,
+      "name": "Mosaic House",
+      "neighborhood": "Vinohrady",
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Clean and friendly hostel in historic Old Town building with private rooms and dorm options, communal kitchen, and evening beer exchanges."
+      "description": "Eco-friendly hostel and budget hotel with spacious dorms and private rooms, communal kitchen, and social atmosphere in hip Vinohrady district."
     },
     {
-      "name": "Hotel U Tří Korun",
-      "neighborhood": "Old Town Square",
-      "pricePerNightUSD": 95,
+      "name": "Hotel Aria",
+      "neighborhood": "Malá Strana",
+      "pricePerNightUSD": 180,
       "category": "Mid-range",
-      "description": "Boutique hotel housed in a Renaissance building directly overlooking Old Town Square, offering comfortable rooms with character and excellent breakfast included."
+      "description": "Design hotel near Prague Castle with contemporary rooms, spa amenities, and castle views offering excellent value in a historic neighborhood."
     },
     {
-      "name": "Four Seasons Hotel Prague",
-      "neighborhood": "Old Town",
+      "name": "Mandarin Oriental Prague",
+      "neighborhood": "Malá Strana",
       "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Five-star luxury hotel with spa facilities, Michelin-starred restaurant, and views of Prague Castle from its elegant riverside location in a converted palace."
+      "description": "Five-star palace hotel with exceptional service, Michelin-starred restaurant, spa, and unparalleled proximity to Prague Castle and Charles Bridge."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1600623471616-8c1966c91ff6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQcmFndWUlMjBDaGFybGVzJTIwQnJpZGdlJTIwY2FzdGxlfGVufDF8MHx8fDE3ODE1NjIyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1564511287568-54483b52a35e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQcmFndWUlMjBDaGFybGVzJTIwQnJpZGdlJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODE2MjkzNTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

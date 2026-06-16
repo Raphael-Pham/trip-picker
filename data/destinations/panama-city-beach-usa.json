@@ -1,0 +1,460 @@
+{
+  "id": "panama-city-beach-usa",
+  "city": "Panama City Beach",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "PFN",
+    "MLB",
+    "TPA"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation",
+    "family"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 75,
+    "photography": 85,
+    "activities": 90,
+    "weather": 82
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "panama city beach florida sunset",
+  "summary": "Panama City Beach is a Gulf Coast paradise famous for its stunning white-sand beaches, crystal-clear turquoise waters, and vibrant entertainment scene. With excellent outdoor activities, fresh seafood dining, and spectacular photo opportunities, it offers the perfect blend of relaxation and adventure for families and couples alike.",
+  "restaurants": [
+    {
+      "name": "The Shrimp Boat",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A casual waterfront institution serving fresh Gulf shrimp and local seafood since 1967. Known for generous portions and authentic coastal atmosphere.",
+      "mustTry": "Grilled Gulf shrimp platter with cornbread"
+    },
+    {
+      "name": "Boar & Barrel",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern gastropub featuring craft beers and elevated comfort food in a lively atmosphere. Great for casual dinners with friends or family.",
+      "mustTry": "Whiskey-brined pork chop"
+    },
+    {
+      "name": "Firefly Coffee Company",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite coffee shop with excellent espresso drinks, pastries, and breakfast options. Perfect for starting your beach day.",
+      "mustTry": "Cuban coffee and guava pastry"
+    },
+    {
+      "name": "Beck's Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning fine dining restaurant with fresh seafood and creative American cuisine overlooking the bay. Elegant setting for special occasions.",
+      "mustTry": "Pan-seared Gulf fish with seasonal vegetables"
+    },
+    {
+      "name": "Treasure Island Mini Golf",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-friendly pirate-themed mini golf with a full restaurant serving casual beach food and cold beverages. Great for entertainment and dining.",
+      "mustTry": "Fish tacos and frozen margaritas"
+    },
+    {
+      "name": "Sandy's Seafood Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Beachfront casual dining with fresh daily catches and traditional Florida coastal cuisine. Family-owned with authentic local charm.",
+      "mustTry": "Blackened mahi-mahi sandwich"
+    },
+    {
+      "name": "Pho Hoa Noodle Soup",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Vietnamese restaurant offering delicious pho, banh mi, and noodle dishes at affordable prices. Casual and quick service.",
+      "mustTry": "Beef pho and crispy spring rolls"
+    },
+    {
+      "name": "The Crab's Claw Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale seafood restaurant with fresh oysters, lobster, and Gulf specialties in an elegant waterfront setting. Excellent wine selection.",
+      "mustTry": "Fresh-shucked oysters and lobster tail"
+    },
+    {
+      "name": "Angus Burgers",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local burger joint known for charbroiled beef patties, hand-cut fries, and milkshakes. Quick, affordable, and reliably delicious.",
+      "mustTry": "Classic Angus burger with cheese and bacon"
+    },
+    {
+      "name": "Mama Roux Kitchen & Lounge",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant Creole-inspired restaurant with New Orleans-style cuisine, craft cocktails, and live music on weekends. Lively and festive atmosphere.",
+      "mustTry": "Shrimp and andouille gumbo over rice"
+    },
+    {
+      "name": "La Especial Sushi Bar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary sushi restaurant featuring creative rolls, fresh sashimi, and Japanese-inspired appetizers. Modern casual setting.",
+      "mustTry": "Panama City Beach roll with local shrimp"
+    },
+    {
+      "name": "Pizzazz Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual pizzeria with wood-fired ovens creating authentic Italian pizzas, plus fresh salads and Italian entrees. Family-friendly and quick.",
+      "mustTry": "Margherita pizza with house-made mozzarella"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling at Shell Island",
+      "category": "Outdoor",
+      "description": "Accessible only by boat, this pristine barrier island offers excellent snorkeling with tropical fish, starfish, and clear shallow waters. Multiple tour operators depart from the beach.",
+      "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Parasailing over the Gulf",
+      "category": "Adventure",
+      "description": "Experience breathtaking aerial views of the coastline while parasailing 500-1000 feet above the Gulf. Professional operators ensure safety with tandem flights available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beach Volleyball and Water Sports",
+      "category": "Outdoor",
+      "description": "Play beach volleyball, paddleboard, kayak, or try jet ski rentals along the main beach. Multiple rental shops and organized tournaments throughout the year.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Pier Park Shopping and Dining",
+      "category": "Outdoor",
+      "description": "Historic themed shopping area with restaurants, shops, and oceanfront views. Enjoy sunset walks, street entertainment, and direct beach access.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "family"
+      ]
+    },
+    {
+      "name": "Deep Sea Fishing Charter",
+      "category": "Adventure",
+      "description": "Half-day and full-day fishing charters targeting grouper, snapper, and other Gulf fish species. Professional captains and all equipment provided.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Panama City Beach Pier Sunrise Walk",
+      "category": "Outdoor",
+      "description": "Stroll the historic pier at sunrise to photograph wildlife, spot dolphins, and experience the peaceful morning atmosphere. Free public access with great photo opportunities.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Gulf World Marine Park",
+      "category": "Family",
+      "description": "Interactive marine park featuring dolphin encounters, sea lion shows, tropical birds, and shark displays. Educational and entertaining for all ages.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Scuba Diving Adventure",
+      "category": "Adventure",
+      "description": "Explore artificial reefs, shipwrecks, and natural underwater formations with certified dive shops. Suitable for all experience levels with training available.",
+      "durationHours": 5,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beach Bonfire and Evening Entertainment",
+      "category": "Relaxation",
+      "description": "Enjoy bonfire gatherings on designated beach areas with s'mores, music, and stargazing. Many resorts offer organized activities including live entertainment.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Kayaking through St. Andrews Bay",
+      "category": "Outdoor",
+      "description": "Paddle through scenic bay waters, mangrove forests, and shallow channels observing dolphins, manatees, and coastal birds. Rental shops provide equipment and guided tours.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "outdoor",
+        "photography"
+      ]
+    },
+    {
+      "name": "Local Beach Cleanup and Volunteer Activities",
+      "category": "Outdoor",
+      "description": "Join community conservation efforts cleaning beaches and protecting sea turtle nesting sites. Meaningful way to give back while learning about coastal ecology.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Sunset Catamaran Cruise",
+      "category": "Relaxation",
+      "description": "Cruise along the coast on a spacious catamaran with refreshments, live music, and stunning sunset views. Perfect for romantic evenings or casual group outings.",
+      "durationHours": 2,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Panama City Beach Pier",
+        "description": "Historic wooden pier extending 1,500 feet into the Gulf offering dramatic sunrise and sunset angles, leading lines, and silhouette opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise and sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Shell Island Sandbars",
+        "description": "Pristine white-sand formations accessible by boat with crystal-clear shallow waters perfect for reflections and aerial landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light and low tide",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pier Park Oceanfront Promenade",
+        "description": "Themed shopping area with colorful architecture, landscaping, and beachfront views ideal for street and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and evening",
+        "category": "Architecture"
+      },
+      {
+        "name": "St. Andrews Bay Kayak Mangroves",
+        "description": "Dense mangrove forests creating natural frames and reflections in still water, excellent for wildlife and atmospheric nature photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife",
+        "category": "Landscape"
+      },
+      {
+        "name": "PCB Marina and Fishing Boats",
+        "description": "Colorful fishing vessels, sailboats, and commercial docks providing leading lines, reflection opportunities, and authentic Gulf culture.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset",
+        "category": "Street"
+      },
+      {
+        "name": "Dolphin Point Overlook",
+        "description": "Scenic overlook where dolphins frequently surface in the bay, perfect for wildlife and candid moment photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning and late afternoon",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Beach Street Historic District",
+        "description": "Charming vintage buildings, neon signs, and pedestrian-friendly streets capturing the character and history of old PCB.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and night",
+        "category": "Street"
+      },
+      {
+        "name": "Lagoon Beach Seagrass Flats",
+        "description": "Shallow crystalline water over seagrass with dramatic sky reflections and unique ecosystem allowing abstract and minimalist compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise for glassy conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Beachfront Resort Pools and Architecture",
+        "description": "Modern high-rise resorts with geometric forms, colorful facades, and poolside compositions creating contemporary urban beach imagery.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour on building sides",
+        "category": "Architecture"
+      },
+      {
+        "name": "Sunset Beach Park Access Point",
+        "description": "Public beach access with lifeguard tower, volleyball courts, and crowd of silhouetted beachgoers creating dynamic sunset compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "30 minutes before sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Panama City Beach Pier",
+      "Shell Island Sandbars",
+      "Dolphin Point Overlook"
+    ],
+    "sunsetSpots": [
+      "Pier Park Oceanfront Promenade",
+      "Sunset Beach Park",
+      "PCB Marina and Fishing Boats"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle: Capture expansive beach and sky compositions with dramatic perspective",
+      "70-200mm telephoto: Isolate wildlife, distant vessels, and compressed landscape layers during golden hour",
+      "35mm or 50mm prime: Ideal for environmental portraits on beach streets and intimate architectural details",
+      "24-70mm standard zoom: Versatile all-purpose lens for varied compositions from street to landscape work"
+    ],
+    "goldenHourNotes": "Panama City Beach offers exceptional golden hour light from 6:30-7:30am at sunrise and 7:00-8:30pm at sunset due to the Gulf's western orientation. The pier becomes a dramatic leading line with warm backlighting, while water reflections intensify the color saturation. Best results occur during clear weather with some clouds to diffuse harsh light and create dramatic skies.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 12,
+        "rainfallMM": 125
+      },
+      {
+        "month": 2,
+        "avgTempC": 13,
+        "rainfallMM": 130
+      },
+      {
+        "month": 3,
+        "avgTempC": 16,
+        "rainfallMM": 110
+      },
+      {
+        "month": 4,
+        "avgTempC": 21,
+        "rainfallMM": 105
+      },
+      {
+        "month": 5,
+        "avgTempC": 26,
+        "rainfallMM": 140
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 160
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 170
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 165
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 155
+      },
+      {
+        "month": 10,
+        "avgTempC": 22,
+        "rainfallMM": 95
+      },
+      {
+        "month": 11,
+        "avgTempC": 17,
+        "rainfallMM": 110
+      },
+      {
+        "month": 12,
+        "avgTempC": 13,
+        "rainfallMM": 125
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "seasonality": "Winter (December-February) offers mild temperatures and lower humidity but occasional cold fronts, while spring (March-May) brings warm weather and lower rainfall. Summer (June-August) is hot and humid with frequent afternoon thunderstorms, and fall (September-November) transitions to cooler conditions with decreasing rain.",
+    "summary": "Panama City Beach enjoys a subtropical climate with warm waters year-round. Best visiting conditions occur during spring and fall when temperatures are comfortable (16-27°C), rainfall is moderate, and beach crowds are smaller than summer peak season."
+  },
+  "hotels": [
+    {
+      "name": "Sunrise Beach Resort",
+      "neighborhood": "Central Beach",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Affordable beachfront hotel with basic comfortable rooms, pool, and direct beach access perfect for families and budget-conscious travelers."
+    },
+    {
+      "name": "Beachfront Tower Resort",
+      "neighborhood": "Pier Park Area",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Modern mid-rise beachfront property with oceanview rooms, full restaurant, spa, fitness center, and easy access to dining and shopping at nearby Pier Park."
+    },
+    {
+      "name": "The Palms Resort & Spa",
+      "neighborhood": "Upscale West End",
+      "pricePerNightUSD": 420,
+      "category": "Luxury",
+      "description": "Five-star beachfront luxury resort featuring oceanview suites, fine dining restaurants, full-service spa, private beach access, and premium amenities throughout."
+    }
+  ]
+}

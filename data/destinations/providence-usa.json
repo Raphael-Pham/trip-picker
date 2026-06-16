@@ -1,0 +1,459 @@
+{
+  "id": "providence-usa",
+  "city": "Providence",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "PVD",
+    "BOS",
+    "MHT"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "cultural"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 82,
+    "photography": 78,
+    "activities": 75,
+    "weather": 62
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Providence River WaterFire",
+  "summary": "Providence is a vibrant New England city known for its stunning Renaissance Revival architecture, thriving arts scene, and exceptional culinary culture centered around Brown University and RISD. With its picturesque Benefit Street, dramatic WaterFire art installations, and historic waterfront, Providence offers a perfect blend of cultural sophistication and New England charm at a fraction of the cost of Boston.",
+  "restaurants": [
+    {
+      "name": "Bacchanal",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Mediterranean cuisine in an intimate historic setting showcasing seasonal small plates and an extensive wine list. Known for creative preparations and elegant presentation.",
+      "mustTry": "Seasonal tasting menu"
+    },
+    {
+      "name": "North",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Innovative American restaurant featuring locally-sourced ingredients and wood-fired techniques in a warm, rustic atmosphere. Specializes in rotating seasonal menus.",
+      "mustTry": "Wood-fired fish preparations"
+    },
+    {
+      "name": "Andrade's Bakery",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Legendary Portuguese bakery serving authentic pastéis de nata, breads, and Portuguese sandwiches since 1934. A must-visit for traditional Portuguese pastries and espresso.",
+      "mustTry": "Pastéis de nata"
+    },
+    {
+      "name": "Scoop",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisanal ice cream shop offering unique seasonal flavors made fresh daily with local ingredients. Popular with students and families for creative, Instagram-worthy flavors.",
+      "mustTry": "Brown Butter Sage"
+    },
+    {
+      "name": "Pork Store Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Hip breakfast and lunch spot in Providence's trendy Arts & Entertainment District serving elevated comfort food and excellent coffee. Known for creative sandwiches and community vibes.",
+      "mustTry": "Breakfast sandwich"
+    },
+    {
+      "name": "Julian's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beloved Italian-American institution featuring handmade pasta, traditional sauces, and warm hospitality in a historic downtown location. Family-owned since 1979.",
+      "mustTry": "Homemade ravioli"
+    },
+    {
+      "name": "Oberlin",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Chef-driven restaurant in a converted warehouse celebrating New England ingredients with sophisticated techniques and creative presentations. Extensive cocktail program.",
+      "mustTry": "Multi-course tasting menu"
+    },
+    {
+      "name": "Rosalita's Cantina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant Mexican restaurant offering authentic street food, fresh salsas, and craft cocktails in a colorful, lively atmosphere. Popular for brunch and margaritas.",
+      "mustTry": "Street tacos"
+    },
+    {
+      "name": "Cochran's Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic Irish pub serving traditional comfort food, craft beers, and spirits in an authentic neighborhood setting. Perfect for experiencing local culture and live music.",
+      "mustTry": "Irish soda bread"
+    },
+    {
+      "name": "Hemenway's",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale seafood restaurant featuring fresh catches prepared with refined techniques in an elegant, historic setting. Award-winning wine selection.",
+      "mustTry": "Pan-seared scallops"
+    },
+    {
+      "name": "Matuba",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Japanese ramen and izakaya dishes served in a casual, intimate space with traditional preparation methods. Perfect for warming up and authentic flavors.",
+      "mustTry": "Tonkotsu ramen"
+    },
+    {
+      "name": "Royce",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Contemporary American diner featuring seasonal ingredients, craft cocktails, and a rotating menu in a casual walkable neighborhood. Known for quality comfort food at reasonable prices.",
+      "mustTry": "Seasonal vegetable plates"
+    }
+  ],
+  "activities": [
+    {
+      "name": "WaterFire",
+      "category": "Cultural",
+      "description": "Stunning art installation featuring 100 braziers lining the rivers creating dramatic fires, accompanied by music and lights. Transforms the downtown waterfront into a magical spectacle.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Rhode Island School of Design Museum",
+      "category": "Cultural",
+      "description": "World-class museum with extensive collections spanning ancient art to contemporary installations with over 100,000 objects. One of the finest art museums in the US.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Benefit Street Historic Walking Tour",
+      "category": "Outdoor",
+      "description": "Self-guided or docent-led walk along one of America's most beautiful streets featuring pristine Federal and Georgian architecture. Known as 'The Mile of History' with stunning period homes.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Brown University Campus Tour",
+      "category": "Cultural",
+      "description": "Explore the historic Ivy League campus featuring beautiful architecture, the John D. Rockefeller Jr. Library, and scenic courtyards. Free self-guided exploration of one of America's most prestigious universities.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Providence Athenaeum",
+      "category": "Indoor",
+      "description": "Rare book library and cultural institution established in 1753 featuring historic collections, exhibitions, and one of America's finest reading rooms. A hidden literary gem.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "hidden-gems",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Roger Williams Park Zoo",
+      "category": "Family",
+      "description": "120-acre zoo featuring animals from around the world in naturalistic habitats including giraffes, lions, and rare species. Beautiful park setting with gardens and water features.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Providence River Kayaking",
+      "category": "Adventure",
+      "description": "Paddle through downtown Providence's scenic waterways with views of historic bridges, the State House, and WaterFire installations. Multiple outfitters offer guided tours and rentals.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Arts & Entertainment District Walking Tour",
+      "category": "Outdoor",
+      "description": "Explore Providence's vibrant arts neighborhood featuring galleries, street art, murals, vintage shops, and eclectic restaurants. Heart of the city's creative renaissance.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Culinary Arts Museum at Johnson & Wales",
+      "category": "Cultural",
+      "description": "Unique museum showcasing cooking equipment, historical recipes, and culinary artifacts from around the world. Paradise for food history enthusiasts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "foodie",
+        "cultural"
+      ]
+    },
+    {
+      "name": "First Baptist Church Tower Climb",
+      "category": "Adventure",
+      "description": "Climb to the top of this 1775 historic church for panoramic 360-degree views of Providence and surrounding areas. Architectural landmark with spectacular city vistas.",
+      "durationHours": 1,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Providence Public Library",
+      "category": "Indoor",
+      "description": "Stunning beaux-arts building designed by McKim, Mead & White featuring soaring murals, impressive architecture, and extensive collections. Free exploration of a masterpiece of American library design.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Nightlife at Kennedy Plaza & Clubs",
+      "category": "Nightlife",
+      "description": "Experience Providence's vibrant nightlife with craft cocktail bars, dance clubs, and live music venues concentrated in downtown and Arts District. From upscale cocktail lounges to eclectic dance clubs.",
+      "durationHours": 3,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "nightlife"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "WaterFire Installation",
+        "description": "Dramatic fire and light reflections on the rivers creating dynamic compositions with downtown buildings and bridges as backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk during evening events",
+        "category": "Night"
+      },
+      {
+        "name": "First Baptist Church",
+        "description": "Iconic Federal-era church steeple with beautiful architectural details, stunning from multiple angles on Benefit Street.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Benefit Street Historic Homes",
+        "description": "Row of pristine Federal and Georgian architecture with ivy-covered facades, wrought-iron railings, and period details.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "State House Dome",
+        "description": "Striking marble and granite dome visible throughout the city, particularly dramatic from Kennedy Plaza and upper streets.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Providence River with Bridges",
+        "description": "Scenic waterway lined with historic bridges, downtown reflections, and river-level perspectives from kayak or walking paths.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Arts & Entertainment District Murals",
+        "description": "Colorful street art and murals covering buildings throughout the neighborhood, constantly evolving creative expressions.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for color saturation",
+        "category": "Street"
+      },
+      {
+        "name": "Roger Williams Park Gardens",
+        "description": "Manicured gardens, ponds, and botanical displays featuring seasonal flowers, pathways, and natural frames for photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Spring and early summer",
+        "category": "Landscape"
+      },
+      {
+        "name": "Exchange Street Historic District",
+        "description": "Charming street with Federal-era buildings, cobblestones, gas lamps, and intimate architectural compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or evening",
+        "category": "Street"
+      },
+      {
+        "name": "Kennedy Plaza Urban Landscape",
+        "description": "Modern urban geometry with State House dome, downtown buildings, and fountain creating layered compositional opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for dimension",
+        "category": "Street"
+      },
+      {
+        "name": "Providence Skyline from Roger Williams Bridge",
+        "description": "Elevated vantage point offering comprehensive cityscape with bridges, rivers, and downtown architecture in one frame.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset or blue hour",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Providence River East Bank Trail",
+      "Roger Williams Park",
+      "Prospect Hill Overlook"
+    ],
+    "sunsetSpots": [
+      "Fox Point Historic District Waterfront",
+      "Kennedy Plaza steps",
+      "WaterFire Installation area"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for architecture and cityscape compositions capturing full historic facades and street scenes",
+      "50mm prime for intimate street photography and architectural details in Arts District and historic neighborhoods",
+      "70-200mm telephoto for compressed perspectives of the State House dome and distant bridge spans",
+      "24-70mm versatile zoom for adaptive shooting across multiple locations without frequent lens changes"
+    ],
+    "goldenHourNotes": "Providence's golden hour extends beautifully across Benefit Street and the downtown waterfront, illuminating historic facades with warm light. The State House dome and First Baptist Church steeple are particularly striking during late afternoon sun. WaterFire events typically occur after dusk, offering dramatic night photography opportunities with fire reflections on water.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 102
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 84
+      },
+      {
+        "month": 3,
+        "avgTempC": 4,
+        "rainfallMM": 107
+      },
+      {
+        "month": 4,
+        "avgTempC": 13,
+        "rainfallMM": 107
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 102
+      },
+      {
+        "month": 6,
+        "avgTempC": 24,
+        "rainfallMM": 102
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 89
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 94
+      },
+      {
+        "month": 9,
+        "avgTempC": 21,
+        "rainfallMM": 94
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 102
+      },
+      {
+        "month": 11,
+        "avgTempC": 8,
+        "rainfallMM": 127
+      },
+      {
+        "month": 12,
+        "avgTempC": 1,
+        "rainfallMM": 127
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Providence experiences classic New England seasons with cold, snowy winters and warm, pleasant summers. Spring and fall offer ideal conditions with comfortable temperatures and vibrant foliage.",
+    "summary": "Providence's climate is moderate temperate with four distinct seasons. Best visiting periods are late spring through early fall when temperatures range from 15-27°C and rainfall is relatively stable."
+  },
+  "hotels": [
+    {
+      "name": "The Renaissance Providence Downtown",
+      "neighborhood": "Downtown Arts & Entertainment District",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Well-located budget-friendly hotel in the heart of downtown near restaurants and museums with clean rooms and basic modern amenities."
+    },
+    {
+      "name": "Omni Providence Hotel",
+      "neighborhood": "Downtown near Kennedy Plaza",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Contemporary mid-range hotel adjacent to the Convention Center with comfortable rooms, on-site dining, and convenient downtown location close to attractions."
+    },
+    {
+      "name": "The Omni Providence Hotel at Waterplace",
+      "neighborhood": "Waterplace Park Downtown",
+      "pricePerNightUSD": 290,
+      "category": "Luxury",
+      "description": "Upscale luxury hotel on the waterfront with elegant accommodations, fine dining restaurants, rooftop views, and direct access to WaterFire installations and cultural attractions."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1655160921481-be55fb57da65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQcm92aWRlbmNlJTIwUml2ZXIlMjBXYXRlckZpcmV8ZW58MXwwfHx8MTc4MTYyODA5M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+}

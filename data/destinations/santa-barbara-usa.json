@@ -1,0 +1,459 @@
+{
+  "id": "santa-barbara-usa",
+  "city": "Santa Barbara",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SBA",
+    "LAX",
+    "BUR"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "photography",
+    "foodie",
+    "relaxation",
+    "adventure"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 92,
+    "photography": 88,
+    "activities": 85,
+    "weather": 94
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Santa Barbara beach California",
+  "summary": "Santa Barbara is a picturesque coastal California town renowned for its Mediterranean climate, pristine beaches, and thriving wine country. With Spanish architecture, world-class dining, and stunning natural landscapes, it offers the perfect blend of relaxation and adventure.",
+  "restaurants": [
+    {
+      "name": "The Inverness",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Elegant restaurant featuring French-California cuisine with an extensive wine selection. Offers intimate dining with ocean views and impeccable service.",
+      "mustTry": "Pan-seared local fish with seasonal vegetables"
+    },
+    {
+      "name": "Arigato Sushi",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary Japanese sushi restaurant with fresh daily catches and creative rolls. Known for its knowledgeable staff and authentic preparation techniques.",
+      "mustTry": "Spicy tuna roll with local California avocado"
+    },
+    {
+      "name": "The Lark",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Farm-to-table restaurant emphasizing Central Coast ingredients with wood-fired cooking. Features seasonal menus and an impressive craft cocktail program.",
+      "mustTry": "Wood-fired broccoli with romesco sauce"
+    },
+    {
+      "name": "Brophy Bros",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual waterfront seafood spot with killer fish and chips and fresh oyster selections. Perfect for watching boats sail by while enjoying fresh catches.",
+      "mustTry": "Beer-battered fish and chips"
+    },
+    {
+      "name": "Jimenez y Teran",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Mexican grocery store with an excellent food counter serving traditional dishes. Known for fresh tamales, quesadillas, and empanadas at excellent prices.",
+      "mustTry": "Carnitas tamales"
+    },
+    {
+      "name": "Cutler's Artisan Pizzeria",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Creative pizzeria featuring wood-fired oven pizzas with locally-sourced toppings and organic flour. Offers excellent wine pairings and a vibrant atmosphere.",
+      "mustTry": "The Culprit pizza with house-made sausage"
+    },
+    {
+      "name": "Olio e Limone Ristorante",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Italian restaurant showcasing authentic Northern Italian cuisine with imported ingredients. Offers exceptional handmade pastas and an extensive Italian wine list.",
+      "mustTry": "Homemade ravioli with truffle filling"
+    },
+    {
+      "name": "Loquita",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Spanish tapas restaurant with a lively atmosphere and sharing-style plates. Features local wines and creative small plates perfect for exploring flavors.",
+      "mustTry": "Pan con tomate with Jamón Ibérico"
+    },
+    {
+      "name": "The Honeypot",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Health-focused cafe offering acai bowls, smoothies, and organic salads with fresh local ingredients. Great for casual breakfast or lunch.",
+      "mustTry": "Rainbow acai bowl with seasonal fruit"
+    },
+    {
+      "name": "Jackson's Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Premium steakhouse with dry-aged meats, classic sides, and an impressive wine cellar. Features an elegant atmosphere with professional service.",
+      "mustTry": "Bone marrow-basted dry-aged ribeye"
+    },
+    {
+      "name": "Sama Sama Kitchen",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Indonesian and Southeast Asian cuisine featuring satay, rendang, and nasi goreng. Authentic flavors with generous portions and reasonable pricing.",
+      "mustTry": "Beef rendang with coconut rice"
+    },
+    {
+      "name": "Mony's Thai Cuisine",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-run Thai restaurant serving traditional curries, pad thai, and tom yum soup. Known for adjustable spice levels and prompt service.",
+      "mustTry": "Green curry with chicken and Thai basil"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Stearns Wharf",
+      "category": "Family",
+      "description": "Historic 1872 pier extending into the Pacific with shops, restaurants, and sea creature viewing opportunities. Free to walk with various paid attractions available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Santa Barbara Wine Tasting",
+      "category": "Outdoor",
+      "description": "Tour Santa Ynez Valley wineries accessible via tasting room visits or organized wine tours. Explore award-winning Pinot Noir, Chardonnay, and Syrah varietals.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mission Santa Barbara",
+      "category": "Cultural",
+      "description": "Founded in 1786, this historic Spanish mission features beautiful architecture, gardens, and museum exhibits. Learn about California's colonial heritage.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Kayaking at Goleta Beach",
+      "category": "Adventure",
+      "description": "Paddle out to explore sea caves, spot marine wildlife including seals and sea lions. Suitable for beginners with rental equipment readily available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 70,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "State Street Shopping",
+      "category": "Indoor",
+      "description": "Santa Barbara's main shopping thoroughfare with boutiques, galleries, and dining options. Browse everything from vintage shops to high-end retailers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Montecito Peak Hiking",
+      "category": "Adventure",
+      "description": "Moderate 7-mile round-trip hike through chaparral offering panoramic views of the Santa Barbara coast and valleys. Start early for best conditions.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Santa Barbara Museum of Art",
+      "category": "Cultural",
+      "description": "Features an excellent collection of Asian, American, and contemporary art in an intimate setting. Free admission on Sunday afternoons.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Carpinteria Beach State Park",
+      "category": "Outdoor",
+      "description": "Nine miles of sandy beach perfect for swimming, surfing, and tide pool exploration. Features picnic areas and accessibility to marine preserve.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "family",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sunset Cliffs via Elings Park",
+      "category": "Outdoor",
+      "description": "Free park with hiking trails offering dramatic coastal views, wildflower meadows, and ideal sunset photography spots. Multiple trail options for all fitness levels.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Santa Barbara Culinary Experience",
+      "category": "Foodie",
+      "description": "Guided food tours through downtown featuring local restaurants, artisan producers, and historical food stories. Includes tastings and local recommendations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 85,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Channel Islands National Park Day Trip",
+      "category": "Adventure",
+      "description": "Ferry to pristine islands featuring hiking, snorkeling, and wildlife viewing including Catalina penguins and harbor seals. Full day excursion from Santa Barbara harbor.",
+      "durationHours": 8,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Santa Barbara County Courthouse Tour",
+      "category": "Cultural",
+      "description": "Self-guided or docent-led tours of this 1929 Spanish-Renaissance masterpiece with hand-painted tiles and stunning architecture. Free entrance with optional donations.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "architecture"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Stearns Wharf",
+        "description": "Historic pier offering romantic golden hour shots with the ocean backdrop and classic architectural lines perfect for leading lines composition.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Rincon Overlook",
+        "description": "Dramatic clifftop vistas with coastal curves and mountain backdrop create stunning landscape compositions especially during late afternoon light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon to sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mission Santa Barbara Front Garden",
+        "description": "Iconic Spanish colonial architecture with manicured gardens and fountains providing cultural and architectural photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Butterfly Beach",
+        "description": "Pristine sandy beach with palm trees and gentle waves offering peaceful compositions with dramatic cliff backgrounds.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "State Street Downtown",
+        "description": "Historic colonial and contemporary architecture mixing Spanish tiles, storefronts, and street life perfect for street photography and detail shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning or late afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "El Encanto Hotel Overlook",
+        "description": "Panoramic city, coast, and mountain views from elevated position offering sweeping landscape compositions during blue hour.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset to blue hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Goleta Point Overlook",
+        "description": "Rugged coastal cliffs and sea caves visible from overlook position creating dramatic seascape compositions with interesting foreground elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "Afternoon light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Santa Barbara Harbor",
+        "description": "Sailboat-filled harbor with masts creating strong vertical lines and reflective water surfaces ideal for moody atmospheric shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Urban Wine Trail Vineyards",
+        "description": "Wine barrel rows, vineyard patterns, and rustic structures offering agricultural landscape photography with California charm.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning mist or golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Point Conception Lighthouse",
+        "description": "Remote coastal lighthouse surrounded by jagged rocks and turbulent seas creating dramatic seascape photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Sunrise or sunset",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Montecito Peak",
+      "Point Conception",
+      "Carpinteria Beach"
+    ],
+    "sunsetSpots": [
+      "Elings Park",
+      "Stearns Wharf",
+      "Rincon Overlook"
+    ],
+    "lensRecommendations": [
+      "16-35mm ultra-wide for dramatic coastal landscapes and panoramic vistas",
+      "50mm prime for street photography and architectural details in downtown",
+      "70-200mm telephoto for distant lighthouse compositions and compressed perspectives",
+      "24-70mm versatile zoom for varied compositions throughout the day"
+    ],
+    "goldenHourNotes": "Santa Barbara's coastal orientation provides exceptional golden hour lighting from both sunrise over mountains and sunset over ocean. The Mediterranean climate offers consistent clear skies ideal for photography. Peak golden hour lasts approximately 45-60 minutes, with dramatic color shifts from warm amber to deep orange-pink tones.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 13,
+        "rainfallMM": 85
+      },
+      {
+        "month": 2,
+        "avgTempC": 13,
+        "rainfallMM": 73
+      },
+      {
+        "month": 3,
+        "avgTempC": 14,
+        "rainfallMM": 56
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 43
+      },
+      {
+        "month": 5,
+        "avgTempC": 18,
+        "rainfallMM": 15
+      },
+      {
+        "month": 6,
+        "avgTempC": 21,
+        "rainfallMM": 8
+      },
+      {
+        "month": 7,
+        "avgTempC": 23,
+        "rainfallMM": 5
+      },
+      {
+        "month": 8,
+        "avgTempC": 23,
+        "rainfallMM": 5
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 10
+      },
+      {
+        "month": 10,
+        "avgTempC": 20,
+        "rainfallMM": 25
+      },
+      {
+        "month": 11,
+        "avgTempC": 16,
+        "rainfallMM": 60
+      },
+      {
+        "month": 12,
+        "avgTempC": 13,
+        "rainfallMM": 95
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Santa Barbara enjoys a Mediterranean climate with warm, dry summers and mild, wetter winters. Peak season runs May through September with ideal beach and outdoor conditions.",
+    "summary": "Year-round mild temperatures average 13-23°C with minimal rainfall except December through March. Best weather occurs May through September with sunny, warm days perfect for beach activities and outdoor exploration."
+  },
+  "hotels": [
+    {
+      "name": "Santa Barbara Hotel",
+      "neighborhood": "Downtown State Street",
+      "pricePerNightUSD": 120,
+      "category": "Budget",
+      "description": "Affordable beachfront hotel with basic amenities, direct beach access, and proximity to downtown restaurants and attractions."
+    },
+    {
+      "name": "Kimpton Canary Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 250,
+      "category": "Mid-range",
+      "description": "Pet-friendly boutique hotel with modern design, rooftop pool, and excellent location near State Street shopping and dining."
+    },
+    {
+      "name": "Belmond El Encanto",
+      "neighborhood": "Hilltop Estate",
+      "pricePerNightUSD": 550,
+      "category": "Luxury",
+      "description": "Ultra-luxury hilltop resort with panoramic coastal views, world-class spa, fine dining, and exclusive amenities in a tranquil Mediterranean setting."
+    }
+  ]
+}

@@ -6,208 +6,206 @@
   "airportCodes": [
     "AEP",
     "EZE",
-    "SJU"
+    "QQQ"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
     "photography",
-    "cultural",
-    "relaxation",
-    "surprise"
+    "foodie",
+    "relaxation"
   ],
   "scores": {
-    "cost": 75,
+    "cost": 72,
     "food": 95,
-    "photography": 90,
+    "photography": 88,
     "activities": 85,
-    "weather": 80
+    "weather": 78
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 50,
-      "maxPerDayUSD": 90
+      "minPerDayUSD": 40,
+      "maxPerDayUSD": 70
     },
     {
       "level": "mid",
-      "minPerDayUSD": 100,
-      "maxPerDayUSD": 180
+      "minPerDayUSD": 70,
+      "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
+      "minPerDayUSD": 150,
       "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Buenos Aires tango colorful street",
-  "summary": "Buenos Aires, the vibrant capital of Argentina, captivates visitors with its European-influenced architecture, passionate tango culture, and world-class dining scene. Known as the 'Paris of South America,' this dynamic city blends historic neighborhoods, contemporary art galleries, and lively nightlife with an authentic local energy and affordable prices.",
+  "unsplashQuery": "Buenos Aires tango colorful",
+  "summary": "Buenos Aires captivates visitors with its European-influenced architecture, world-class cuisine, and passionate tango culture set against a backdrop of vibrant neighborhoods and tree-lined avenues. Known as the Paris of South America, this cosmopolitan city offers exceptional value for travelers seeking sophisticated dining, rich history, and electric nightlife. From La Boca's iconic Caminito street to the upscale galleries of San Telmo, every corner tells a story of passion, art, and Argentine spirit.",
   "restaurants": [
     {
       "name": "El Chupín",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "A legendary seafood restaurant in La Boca serving traditional fish stews and ceviche since 1960. The intimate atmosphere and authentic recipes make it a must-visit for fresh seafood lovers.",
-      "mustTry": "Seafood stew and grilled octopus"
+      "priceRange": "$",
+      "description": "A beloved neighborhood parrilla serving traditional grilled meats and offal with communal tables and authentic local atmosphere. Perfect for experiencing genuine Buenos Aires dining culture without pretension.",
+      "mustTry": "Chinchulines and grilled sweetbreads"
     },
     {
-      "name": "Café Tortoni",
+      "name": "Gran Café Tortoni",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic café since 1858 in the heart of downtown, famous for coffee, medialunas, and people-watching from sidewalk tables. An iconic Buenos Aires experience steeped in literary and cultural tradition.",
+      "mustTry": "Medialunas with café con leche"
+    },
+    {
+      "name": "Fervor",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary parrilla showcasing premium Argentine beef cuts and innovative techniques in an intimate setting. Combines traditional grilling mastery with refined presentation and expert wine pairings.",
+      "mustTry": "Grass-fed rib-eye with malbec reduction"
+    },
+    {
+      "name": "Sagardi",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Basque-influenced restaurant featuring an open kitchen with dramatic wood-fired grill, serving exceptional meats and seafood. The theatrical cooking experience adds drama to already outstanding cuisine.",
+      "mustTry": "Txuleta (Basque steak) cooked over open flames"
+    },
+    {
+      "name": "La Boca Vieja",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Historic café in Avenida de Mayo established in 1858, famous for its alfajores, coffee, and Belle Époque ambiance. A cultural institution where locals and tourists alike enjoy classic Argentine pastries.",
-      "mustTry": "Alfajores and café con leche"
+      "priceRange": "$",
+      "description": "Family-run restaurant in La Boca neighborhood serving traditional Argentine comfort food and fresh seafood. Offers authentic flavors and warm hospitality in a colorful historic setting.",
+      "mustTry": "Cazuela de mariscos (seafood stew)"
     },
     {
-      "name": "Aramburu",
+      "name": "Vosotros",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Argentine restaurant in Palermo with seasonal menu emphasizing local ingredients and traditional recipes updated with contemporary techniques. Warm atmosphere and knowledgeable staff enhance the dining experience.",
+      "mustTry": "Pan-seared fish with seasonal vegetables"
+    },
+    {
+      "name": "Central Market Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual spot serving empanadas, sandwiches, and fresh salads at extremely reasonable prices. Perfect for quick lunches and experiencing everyday porteño food culture.",
+      "mustTry": "Beef empanadas"
+    },
+    {
+      "name": "Tetuán",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate chef's table restaurant offering innovative tasting menus with artistic plating and creative flavor combinations. Limited seating ensures personalized attention and culinary artistry.",
+      "mustTry": "Chef's 8-course tasting menu"
+    },
+    {
+      "name": "La Carnicería",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Trendy parrilla in San Telmo with premium cuts, craft cocktails, and stylish industrial decor attracting both locals and tourists. The vibrant energy captures modern Buenos Aires dining culture.",
+      "mustTry": "Grass-fed bife ancho"
+    },
+    {
+      "name": "Luciano",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Simple Italian restaurant near the obelisk serving authentic pastas, pizzas, and risottos at wallet-friendly prices. A favorite among budget travelers seeking substantial, delicious meals.",
+      "mustTry": "Pasta a la carbonara"
+    },
+    {
+      "name": "Artemisia",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vegetarian-focused restaurant in Recoleta showcasing creative plant-based dishes and innovative cocktails in an elegant setting. Proves that vegetarian dining can be sophisticated and satisfying in carnivore-loving Buenos Aires.",
+      "mustTry": "Vegetable empanadas with quinoa"
+    },
+    {
+      "name": "Distinción",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Chef Martín Fierro's intimate tasting menu restaurant in Belgrano offers innovative cuisine with Argentine influences and impeccable service. One of the city's most acclaimed dining experiences.",
-      "mustTry": "Chef's seven-course tasting menu"
-    },
-    {
-      "name": "Don Julio",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Premium parrilla in San Telmo known for exceptional grass-fed beef and wine pairings in an elegant setting. The aged rib-eye and malbec selection are exceptional.",
-      "mustTry": "Grass-fed ribeye with Malbec"
-    },
-    {
-      "name": "La Boca Grocery",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual sandwich shop in La Boca offering delicious and affordable lomitos and empanadas. A local favorite for quick, quality bites.",
-      "mustTry": "Lomito sandwich and cheese empanadas"
-    },
-    {
-      "name": "Palermo Viejo Deli",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Hip neighborhood café in Palermo Viejo serving artisanal coffee, fresh salads, and creative brunch options. Perfect for a relaxed morning or lunch.",
-      "mustTry": "Avocado toast and flat white"
-    },
-    {
-      "name": "Casa Crespo",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale steakhouse in Recoleta famous for its perfect steaks and impeccable wine list. The elegant atmosphere and attentive service match the premium quality.",
-      "mustTry": "Bife de chorizo with red wine"
-    },
-    {
-      "name": "Freddo",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Classic Argentine ice cream parlor with multiple locations serving creamy, flavorful helado. A sweet treat reflecting Buenos Aires' Italian influence.",
-      "mustTry": "Chocolate and dulce de leche"
-    },
-    {
-      "name": "Gran Parrilla del Plata",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Traditional parrilla in La Boca with family recipes dating back decades, serving perfectly grilled meats and chimichurri. Warm atmosphere and generous portions.",
-      "mustTry": "Chorizo and asado beef ribs"
-    },
-    {
-      "name": "Tegui",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Sophisticated tasting menu restaurant in San Telmo by chef Germán Martitegui combining avant-garde techniques with Argentine ingredients. An innovative culinary experience.",
-      "mustTry": "House-made pasta with local ingredients"
-    },
-    {
-      "name": "Bar Piedmont",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Old-school corner bar in Recoleta serving medianoche sandwiches and strong cortados since 1970. A taste of authentic porteño culture.",
-      "mustTry": "Medianoche and café cortado"
-    },
-    {
-      "name": "Fierro Hotel Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Elegant restaurant in San Telmo offering New Argentine cuisine with Mediterranean influences in a stylish setting. Excellent wine selection and creative presentations.",
-      "mustTry": "Lamb loin with seasonal vegetables"
+      "description": "Ultra-luxury gastronomic experience in Recoleta featuring Michelin-quality cuisine, extensive wine cellar, and impeccable service in an opulent setting. Represents the pinnacle of Buenos Aires fine dining.",
+      "mustTry": "Multi-course tasting with wine pairings"
     }
   ],
   "activities": [
     {
-      "name": "Tango Show with Dinner in San Telmo",
+      "name": "Tango Show and Dinner in San Telmo",
       "category": "Cultural",
-      "description": "Experience live tango performances with traditional music and dancers while enjoying a multi-course Argentine dinner. Immerse yourself in this quintessential Buenos Aires cultural tradition.",
+      "description": "Experience authentic tango performances in historic San Telmo neighborhood with professional dancers and live music, often accompanied by dinner service. Captures the soul of Buenos Aires in an immersive evening.",
       "durationHours": 3,
-      "estimatedCostUSD": 75,
+      "estimatedCostUSD": 80,
       "bestFor": [
         "standard",
-        "cultural",
+        "surprise",
         "foodie"
       ]
     },
     {
-      "name": "La Boca Neighborhood Walking Tour",
+      "name": "La Boca Walking Tour",
       "category": "Cultural",
-      "description": "Explore the colorful Caminito street, historic Boca Juniors stadium, and colonial architecture of this iconic neighborhood. Learn about the Italian immigrant history and local artists.",
+      "description": "Explore the colorful Caminito street, historic museums, and street art in Buenos Aires' most photogenic neighborhood with knowledgeable local guides. Discover the maritime heritage and artistic culture of this iconic district.",
       "durationHours": 2,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Cemetery of the Recoleta Tour",
+      "category": "Cultural",
+      "description": "Wander among elaborate marble mausoleums and crypts in this 'city of the dead' where famous Argentines including Evita Perón are buried. Discover art, history, and architectural details in this unexpected cultural treasure.",
+      "durationHours": 1.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "photography",
-        "cultural"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Recoleta Cemetery and Palacio de Aguas Corrientes Tour",
+      "name": "Sunday Antique Markets in San Telmo",
       "category": "Cultural",
-      "description": "Walk through the ornate Recoleta Cemetery with elaborate mausoleums including Eva Perón's tomb, then visit the stunning Palace of Water Works with its Italian architectural details. A unique glimpse into Buenos Aires history.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 15,
+      "description": "Browse vintage furniture, collectibles, art, and crafts from local vendors filling the historic streets every Sunday. Experience authentic local culture while discovering unique souvenirs and treasures.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "MALBA Art Museum",
-      "category": "Indoor",
-      "description": "Explore Latin America's premier art museum featuring works by Diego Rivera, Frida Kahlo, and contemporary Argentine artists in an intimate setting. The building itself is an architectural gem.",
-      "durationHours": 2,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "cultural",
-        "photography"
+        "hidden-gems",
+        "surprise"
       ]
     },
     {
       "name": "Teatro Colón Guided Tour",
       "category": "Cultural",
-      "description": "Step inside South America's most grand opera house with ornate interiors, red velvet boxes, and world-class acoustics. The architectural tour reveals the Belle Époque splendor of this historic venue.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 15,
+      "description": "Tour one of the world's most opulent opera houses with ornate architecture, plush interiors, and fascinating history spanning over a century. Marvel at the grandeur and elegance of this restored cultural landmark.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "cultural",
         "photography"
       ]
     },
     {
-      "name": "Palermo Viejo Market and Street Food Tour",
-      "category": "Foodie",
-      "description": "Sample empanadas, choripán, and local wines while exploring the bohemian boutiques and street art of Palermo Viejo. Visit charming plazas and discover hidden colonial churches.",
+      "name": "Palermo Neighborhoods Walking Tour",
+      "category": "Outdoor",
+      "description": "Stroll through trendy Palermo Soho and Palermo Hollywood neighborhoods discovering street art, independent boutiques, cafés, and restaurants reflecting contemporary Buenos Aires. Experience the city's creative and fashion-forward culture.",
       "durationHours": 3,
-      "estimatedCostUSD": 30,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "foodie",
+        "standard",
         "photography",
-        "standard"
+        "foodie"
       ]
     },
     {
-      "name": "Sunday Antique Market at San Telmo Plaza",
+      "name": "Evita's Buenos Aires Tour",
       "category": "Cultural",
-      "description": "Browse hundreds of vendors selling vintage tango records, antique furniture, and Argentine memorabilia in the historic Plaza Dorrego. Experience authentic local culture on Sundays.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 0,
+      "description": "Follow the life of Eva Perón through key locations including her birthplace, Casa Rosada balcony, and cemetery at Recoleta with historical context and stories. Understand the legendary figure who captivated Argentina.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
         "surprise",
@@ -215,253 +213,249 @@
       ]
     },
     {
-      "name": "Tigre Delta Day Trip by Boat",
-      "category": "Outdoor",
-      "description": "Take a scenic boat tour through the Paraná Delta's waterways visiting small islands, charming cafés, and wildlife reserves north of Buenos Aires. A serene escape from the city.",
-      "durationHours": 6,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
-        "outdoor",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Argentine Tango Dance Lesson",
+      "name": "Tango Classes for Beginners",
       "category": "Cultural",
-      "description": "Learn the fundamental steps and passion of tango from professional instructors in an intimate studio setting. Lessons range from beginner basics to advanced techniques.",
+      "description": "Learn basic tango steps and techniques from experienced instructors in traditional dance studios across the city. Connect with the passionate movement that defines Buenos Aires culture.",
       "durationHours": 1.5,
-      "estimatedCostUSD": 35,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
-        "cultural",
-        "surprise"
+        "adventure"
       ]
     },
     {
-      "name": "Casa Rosada and Government Palace Tour",
-      "category": "Cultural",
-      "description": "Visit the iconic pink presidential palace overlooking Plaza de Mayo and explore its grand rooms, balconies, and Argentine political history. Free tours available with ID.",
-      "durationHours": 1,
+      "name": "Parque Centenario and Botanical Gardens",
+      "category": "Outdoor",
+      "description": "Relax in expansive green spaces with native trees, walking paths, and seasonal flowers in this peaceful urban sanctuary. Perfect for leisurely strolls, picnics, and escaping the urban energy.",
+      "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
-        "cultural",
+        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Nightlife in Almagro: Live Music and Clubs",
-      "category": "Nightlife",
-      "description": "Experience Buenos Aires' vibrant nightlife scene with live bands, tango bars, and nightclubs in the Almagro neighborhood. The energy builds after midnight with passionate locals.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
+      "name": "Boca Juniors Stadium Tour",
+      "category": "Cultural",
+      "description": "Visit the iconic La Bombonera stadium home of Boca Juniors, exploring museum exhibits and training facilities while learning about Argentine football passion. Experience the intensity of this revered sports institution.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "nightlife",
         "surprise"
       ]
     },
     {
-      "name": "Bike Riding Along Puerto Madero Waterfront",
-      "category": "Outdoor",
-      "description": "Rent a bike and cycle along the revitalized Puerto Madero waterfront with modern architecture, parks, and riverside cafés. A relaxing way to see the city from a new perspective.",
+      "name": "MALBA Art Museum",
+      "category": "Indoor",
+      "description": "Explore Latin American modern art including works by Diego Rivera and Frida Kahlo in an elegant Palermo mansion setting. A world-class collection showcasing regional artistic development and importance.",
       "durationHours": 2,
-      "estimatedCostUSD": 10,
+      "estimatedCostUSD": 15,
       "bestFor": [
-        "relaxation",
-        "outdoor",
+        "standard",
         "photography"
+      ]
+    },
+    {
+      "name": "Nightlife in Microcentro",
+      "category": "Nightlife",
+      "description": "Experience Buenos Aires' legendary nightlife with bars, nightclubs, and live music venues concentrated in downtown Microcentro and surrounding neighborhoods. Argentine nightlife doesn't peak until after midnight with energy lasting until dawn.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Caminito Street in La Boca",
-        "description": "Iconic pedestrian street lined with brightly painted colonial buildings in yellow, red, and blue colors creating a photographer's paradise.",
+        "name": "Caminito Street, La Boca",
+        "description": "Iconic colorful street with perfectly framed buildings in reds, yellows, and blues perfect for vibrant street photography and capturing Buenos Aires' most photographed location.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning to avoid crowds",
+        "bestTime": "Early morning before tourist crowds or late afternoon golden hour",
         "category": "Street"
       },
       {
-        "name": "Plaza de Mayo at Sunset",
-        "description": "Historic plaza surrounding the pink Casa Rosada with stunning light reflecting off the colonial architecture during golden hour.",
+        "name": "Recoleta Cemetery",
+        "description": "Elaborate marble mausoleums and crypts create stunning architectural photography opportunities with dramatic shadows and intricate details throughout the necropolis.",
         "difficulty": "Intermediate",
-        "bestTime": "One hour before sunset",
+        "bestTime": "Morning light between 8-10am for best detail visibility and softer shadows",
         "category": "Architecture"
       },
       {
-        "name": "Recoleta Cemetery at Dawn",
-        "description": "Elaborate mausoleums with marble angels and ornate sculptures creating dramatic shadows and ethereal morning light.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning light",
-        "category": "Architecture"
-      },
-      {
-        "name": "San Telmo Cobblestone Streets",
-        "description": "Historic stone streets with colonial architecture, street musicians, and candid scenes of daily porteño life.",
+        "name": "Casa Rosada and Plaza de Mayo",
+        "description": "Pink presidential palace with neoclassical architecture framed by historic government buildings and monuments in the city's most important square.",
         "difficulty": "Beginner",
-        "bestTime": "Mid-morning or late afternoon",
+        "bestTime": "Sunrise for golden tones on the pink facade or evening twilight for dramatic sky",
+        "category": "Architecture"
+      },
+      {
+        "name": "Palermo Street Art Alleys",
+        "description": "Colorful murals, graffiti, and street art covering walls throughout Palermo Soho and Hollywood neighborhoods creating dynamic urban photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for vivid color saturation and sharp shadows defining the artwork",
         "category": "Street"
       },
       {
-        "name": "Teatro Colón Exterior at Night",
-        "description": "Brilliantly illuminated Beaux-Arts facade reflected in surrounding plaza with dramatic architectural details.",
-        "difficulty": "Intermediate",
-        "bestTime": "After sunset when lit",
+        "name": "Nine of July Avenue at Night",
+        "description": "Wide tree-lined avenue with dramatic lighting, car light trails, and monuments creating opportunities for night photography and urban landscape shots.",
+        "difficulty": "Advanced",
+        "bestTime": "Twilight or night hours with slow shutter speeds for light trail effects",
         "category": "Night"
       },
       {
-        "name": "Puerto Madero Modern Waterfront",
-        "description": "Contemporary steel and glass buildings mirrored in calm water channels creating geometric and minimalist compositions.",
+        "name": "San Telmo Antique Markets",
+        "description": "Vintage vendors, street performers, and crowds create vibrant street photography opportunities capturing everyday Buenos Aires culture and character.",
         "difficulty": "Intermediate",
-        "bestTime": "Blue hour at dusk",
-        "category": "Architecture"
-      },
-      {
-        "name": "Avenida 9 de Julio at Obelisco",
-        "description": "World's widest avenue with the iconic white Obelisk monument framed by colonial and modern architecture.",
-        "difficulty": "Beginner",
-        "bestTime": "Evening with street lights",
-        "category": "Architecture"
-      },
-      {
-        "name": "Palermo Viejo Plazas and Street Art",
-        "description": "Charming colonial plazas surrounded by colorful murals, vintage storefronts, and bohemian street scenes.",
-        "difficulty": "Beginner",
-        "bestTime": "Afternoon light",
+        "bestTime": "Sunday mornings when markets are most active with best natural light",
         "category": "Street"
       },
       {
-        "name": "Iglesia de San Ignacio Colonial Church",
-        "description": "Historic 18th-century baroque church in San Telmo with ornate interior details and candlelit religious atmosphere.",
-        "difficulty": "Advanced",
-        "bestTime": "During evening mass with natural light",
+        "name": "Teatro Colón",
+        "description": "Ornate neoclassical theater with grand facade, columns, and architectural details offering elegant architectural photography with impressive symmetry.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon when golden hour light highlights the stone details and facade",
         "category": "Architecture"
       },
       {
-        "name": "Hipódromo Argentino de Palermo Racecourse",
-        "description": "Grand Victorian racecourse with classic grandstand architecture, manicured lawns, and elegant sports heritage details.",
+        "name": "Ecological Reserve (Reserva Ecológica Costanera Sur)",
+        "description": "Natural reserve with wetlands, native birds, and views of the Río de la Plata creating landscape and wildlife photography opportunities away from the urban center.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning golden hour",
+        "bestTime": "Early morning for wildlife activity and soft directional light",
         "category": "Landscape"
+      },
+      {
+        "name": "Tango Show Venues",
+        "description": "Intimate dance performances with dramatic stage lighting, passionate dancers, and colorful costumes create dynamic action and cultural photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Evening performances with theatrical stage lighting enhancing the drama and movement",
+        "category": "Night"
+      },
+      {
+        "name": "Puerto Madero Waterfront",
+        "description": "Modern red brick warehouses converted to restaurants and museums reflecting in the water, with boats and skyline creating contemporary urban landscape photos.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset and golden hour for warm tones reflecting in the water and on the architecture",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Recoleta Cemetery",
+      "Ecological Reserve (Reserva Ecológica Costanera Sur)",
       "Puerto Madero Waterfront",
-      "Avenida 9 de Julio at Obelisco"
+      "Recoleta Cemetery"
     ],
     "sunsetSpots": [
-      "Plaza de Mayo with Casa Rosada",
-      "Palermo Parks and Botanical Garden",
-      "Puerto Madero Dock Basin"
+      "Nine of July Avenue",
+      "Río de la Plata viewpoints",
+      "Parque Centenario"
     ],
     "lensRecommendations": [
-      "24-70mm wide to standard zoom for street scenes and architecture capturing context",
-      "50mm prime for intimate street portraits and local character shots",
-      "16-35mm ultra-wide for dramatic architectural compositions of plazas and monuments",
-      "70-200mm telephoto for compressed foreground/background relationships at Obelisco"
+      "24-70mm f/2.8 for versatile street and architectural photography in varied lighting",
+      "35mm f/1.8 for intimate street portraits and low-light tango venue photography",
+      "16-35mm f/2.8 for wide architectural shots of Teatro Colón and Plaza de Mayo",
+      "70-200mm f/4 for compressed landscapes and wildlife in the ecological reserve"
     ],
-    "goldenHourNotes": "Buenos Aires' latitude (34°S) provides extended golden hours, particularly beautiful in March-May and September-November. The low angle of the sun during these periods creates dramatic shadows on colonial architecture and highlights the texture of historic streets. Morning light in Recoleta Cemetery and evening light at Plaza de Mayo are exceptionally photogenic.",
-    "overallDifficulty": "Beginner"
+    "goldenHourNotes": "Buenos Aires offers exceptional golden hour light year-round due to its southern hemisphere latitude. The warm tones beautifully enhance the pink Casa Rosada, stone architecture of San Telmo, and colorful La Boca buildings. Golden hour typically extends 45-60 minutes before sunset, providing ample time to capture both street scenes and architectural details with optimal directional light and color saturation.",
+    "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 24,
-        "rainfallMM": 86
+        "avgTempC": 28,
+        "rainfallMM": 104
       },
       {
         "month": 2,
-        "avgTempC": 23,
-        "rainfallMM": 79
+        "avgTempC": 27,
+        "rainfallMM": 91
       },
       {
         "month": 3,
-        "avgTempC": 21,
-        "rainfallMM": 98
+        "avgTempC": 25,
+        "rainfallMM": 113
       },
       {
         "month": 4,
-        "avgTempC": 17,
-        "rainfallMM": 89
+        "avgTempC": 22,
+        "rainfallMM": 85
       },
       {
         "month": 5,
-        "avgTempC": 13,
-        "rainfallMM": 75
+        "avgTempC": 18,
+        "rainfallMM": 69
       },
       {
         "month": 6,
-        "avgTempC": 10,
-        "rainfallMM": 61
+        "avgTempC": 15,
+        "rainfallMM": 58
       },
       {
         "month": 7,
-        "avgTempC": 10,
-        "rainfallMM": 64
+        "avgTempC": 14,
+        "rainfallMM": 52
       },
       {
         "month": 8,
-        "avgTempC": 11,
-        "rainfallMM": 67
+        "avgTempC": 15,
+        "rainfallMM": 60
       },
       {
         "month": 9,
-        "avgTempC": 14,
-        "rainfallMM": 75
+        "avgTempC": 17,
+        "rainfallMM": 78
       },
       {
         "month": 10,
-        "avgTempC": 18,
-        "rainfallMM": 92
+        "avgTempC": 21,
+        "rainfallMM": 95
       },
       {
         "month": 11,
-        "avgTempC": 21,
-        "rainfallMM": 88
+        "avgTempC": 24,
+        "rainfallMM": 108
       },
       {
         "month": 12,
-        "avgTempC": 24,
-        "rainfallMM": 81
+        "avgTempC": 27,
+        "rainfallMM": 115
       }
     ],
     "bestMonths": [
       3,
       4,
+      5,
       9,
       10,
       11
     ],
-    "seasonality": "Buenos Aires enjoys a temperate climate with mild winters (June-August around 10-13°C) and warm summers (December-February around 23-24°C). Spring (September-November) and autumn (March-May) offer pleasant temperatures between 14-21°C with lower rainfall.",
-    "summary": "The city experiences moderate rainfall year-round with peaks in autumn and spring. Winter is generally dry with cool temperatures requiring light jackets, while summer can be warm and humid with occasional thunderstorms."
+    "seasonality": "Buenos Aires experiences temperate climate with warm summers (December-February) reaching 27-28°C and cool winters (June-August) dropping to 14-15°C. Autumn (March-May) and spring (September-November) offer ideal conditions with mild temperatures and less rainfall, making these the best seasons for visiting.",
+    "summary": "Buenos Aires enjoys a temperate climate similar to Mediterranean regions with four distinct seasons and moderate rainfall year-round. Winter temperatures rarely drop below freezing, while summer heat is manageable with low humidity, making the city pleasant virtually any time of year."
   },
   "hotels": [
     {
-      "name": "Fierro Hotel Buenos Aires",
+      "name": "Fierro Buenos Aires",
       "neighborhood": "San Telmo",
-      "pricePerNightUSD": 95,
-      "category": "Mid-range",
-      "description": "Boutique hotel in a converted historic mansion with stylish rooms, excellent restaurant, and central location near antique markets and cultural attractions."
-    },
-    {
-      "name": "Fierro Budget Hostel Boutique",
-      "neighborhood": "La Boca",
-      "pricePerNightUSD": 35,
+      "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Charming budget accommodation with shared dorms and private rooms in the colorful La Boca neighborhood near Caminito street and local restaurants."
+      "description": "Charming renovated mansion in bohemian San Telmo neighborhood offering basic but comfortable rooms, friendly atmosphere, and proximity to antique markets and historic sites."
     },
     {
-      "name": "Fierro Palace Luxury Hotel",
+      "name": "Fierro Hotel",
+      "neighborhood": "Palermo Soho",
+      "pricePerNightUSD": 110,
+      "category": "Mid-range",
+      "description": "Stylish 4-star hotel in trendy Palermo featuring boutique design, excellent restaurant, spa facilities, and convenient access to shops, galleries, and dining in creative neighborhoods."
+    },
+    {
+      "name": "Alvear Palace Hotel",
       "neighborhood": "Recoleta",
-      "pricePerNightUSD": 280,
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Five-star hotel in upscale Recoleta with spa facilities, Michelin-starred dining, rooftop bar, and proximity to museums and shopping on Avenida Alvear."
+      "description": "Ultra-luxury 5-star palace hotel in exclusive Recoleta offering world-class amenities, Michelin-quality dining, personalized service, and iconic pink facade overlooking the city's finest architecture."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1638271267226-a7cf8e3e0dbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCdWVub3MlMjBBaXJlcyUyMHRhbmdvJTIwY29sb3JmdWwlMjBzdHJlZXR8ZW58MXwwfHx8MTc4MTU1NjE5MHww&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1750630443142-454555f2db80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCdWVub3MlMjBBaXJlcyUyMHRhbmdvJTIwY29sb3JmdWx8ZW58MXwwfHx8MTc4MTYyOTIzOXww&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,0 +1,457 @@
+{
+  "id": "roanoke-usa",
+  "city": "Roanoke",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "ROA",
+    "ORF",
+    "CLT"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 75,
+    "photography": 82,
+    "activities": 78,
+    "weather": 70
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 135
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Roanoke Blue Ridge Mountains",
+  "summary": "Roanoke is a vibrant mountain city nestled in Virginia's Blue Ridge region, offering stunning natural landscapes, a thriving foodie scene, and rich cultural attractions. Known for outdoor adventures, historic neighborhoods, and exceptional photography opportunities, this underrated gem combines urban charm with mountain wilderness.",
+  "restaurants": [
+    {
+      "name": "Texas Tavern",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic diner operating since 1930 serving classic American comfort food and chili dogs. A Roanoke institution beloved by locals and visitors alike.",
+      "mustTry": "Chili dog"
+    },
+    {
+      "name": "Nawab Indian Cuisine",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Indian restaurant offering traditional curries, tandoori dishes, and fresh naan bread. Known for vibrant flavors and welcoming atmosphere.",
+      "mustTry": "Butter chicken"
+    },
+    {
+      "name": "The Fortunate Cup",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual coffee shop and café with excellent pastries, sandwiches, and locally roasted coffee. Perfect for breakfast or quick lunch.",
+      "mustTry": "Morning pastries"
+    },
+    {
+      "name": "Fortunato Ristorante",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale Italian fine dining restaurant with elegant ambiance, house-made pasta, and an extensive wine list. Perfect for special occasions.",
+      "mustTry": "Handmade ravioli"
+    },
+    {
+      "name": "Arcadia",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant featuring seasonal menus, locally sourced ingredients, and creative small plates. Excellent for craft cocktails.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Melvin's",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual burger joint offering gourmet burgers, craft beer, and a laid-back atmosphere. Popular spot for lunch and casual dinners.",
+      "mustTry": "House-made burger"
+    },
+    {
+      "name": "Culi Coffee & Bakery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Artisan bakery and coffee roastery with freshly baked goods, specialty coffee drinks, and a cozy environment. Great for morning coffee.",
+      "mustTry": "Croissants"
+    },
+    {
+      "name": "Wasabi Japanese Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern Japanese restaurant serving authentic sushi, sashimi, and cooked Japanese dishes. Clean, contemporary setting with skilled sushi chefs.",
+      "mustTry": "Omakase special"
+    },
+    {
+      "name": "The Homestead Café",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Family-owned restaurant serving Southern comfort food with a modern twist. Known for fried chicken, biscuits, and homestyle cooking.",
+      "mustTry": "Fried chicken and biscuits"
+    },
+    {
+      "name": "Taco Mama",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican street food restaurant with fresh ingredients, authentic tacos, and flavorful salsas. Vibrant, colorful dining space.",
+      "mustTry": "Al pastor tacos"
+    },
+    {
+      "name": "The Bayou Smokehouse",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Louisiana-style restaurant offering smoked meats, traditional Cajun dishes, and vibrant Southern atmosphere. Perfect for BBQ lovers.",
+      "mustTry": "Smoked brisket"
+    },
+    {
+      "name": "Macado's Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Local sports bar and grill chain with hearty burgers, sandwiches, and casual American fare. Great for group meals and watching games.",
+      "mustTry": "Signature burger"
+    }
+  ],
+  "activities": [
+    {
+      "name": "McAfee Knob Trail Hike",
+      "category": "Outdoor",
+      "description": "One of Virginia's most iconic hiking trails offering breathtaking views from the distinctive rock outcrop. The 8.8-mile trail is moderately challenging with rewarding panoramic vistas.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Blue Ridge Parkway Scenic Drive",
+      "category": "Outdoor",
+      "description": "Iconic 469-mile mountain road offering stunning views of the Blue Ridge Mountains. The section near Roanoke is particularly scenic with numerous pull-offs and overlooks.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Virginia Museum of History & Culture",
+      "category": "Cultural",
+      "description": "Comprehensive museum covering Virginia's rich history from prehistoric times to the present. Features interactive exhibits, artifacts, and educational programs.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Mill Mountain Zoo",
+      "category": "Family",
+      "description": "Small but well-maintained zoo home to over 60 species of animals from around the world. Offers beautiful views of Roanoke and the surrounding area.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Star City Brewing Company Tour",
+      "category": "Indoor",
+      "description": "Local craft brewery offering tours and tastings of their signature beers. Learn about the brewing process in a casual, fun atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "foodie",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mill Mountain Greenway Walking",
+      "category": "Outdoor",
+      "description": "9-mile paved pathway offering easy walking and biking with scenic views of the city and mountains. Multiple access points and gentle terrain suitable for all fitness levels.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Explore Downtown's Restaurant and Gallery Scene",
+      "category": "Cultural",
+      "description": "Vibrant downtown district featuring galleries, boutiques, local restaurants, and street art. Enjoy the revitalized historic neighborhoods and thriving arts community.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "foodie",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Tinker Cliffs and Catawba Mountain Trek",
+      "category": "Outdoor",
+      "description": "Moderate to challenging hiking combining Tinker Cliffs trail with views of Catawba Mountain. Popular for day hikers seeking excellent ridge-top scenery and solitude.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Roanoke Arts District Tour",
+      "category": "Cultural",
+      "description": "Self-guided tour of galleries, murals, and artist studios in the historic arts district. Browse contemporary art and meet local artists in their creative spaces.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Fishing on the James River",
+      "category": "Outdoor",
+      "description": "Popular spot for fly fishing and wade fishing offering catch-and-release opportunities for trout and bass. Peaceful riverside experience with scenic mountain backdrop.",
+      "durationHours": 4,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Virginia Museum of Transportation",
+      "category": "Cultural",
+      "description": "Museum showcasing railway history and transportation heritage with vintage locomotives, coaches, and artifacts. Includes interactive exhibits and outdoor train yard.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Carvins Cove Natural Reserve Kayaking",
+      "category": "Outdoor",
+      "description": "Scenic 665-acre reservoir offering kayaking, paddleboarding, and scenic water views surrounded by mountains. Rental facilities available with pristine natural setting.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "McAfee Knob Overlook",
+        "description": "Iconic rock outcrop providing dramatic panoramic views of the Blue Ridge Mountains perfect for sunrise and landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise or sunset, clear weather",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mill Mountain Overlook",
+        "description": "Elevated vantage point offering sweeping city and mountain views, particularly stunning at golden hour.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for city lights and mountain glow",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Roanoke Murals",
+        "description": "Colorful street art and murals throughout downtown district offering vibrant urban photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Daytime for color saturation",
+        "category": "Street"
+      },
+      {
+        "name": "Carvin's Cove Sunrise",
+        "description": "Peaceful reservoir setting with misty morning reflections creating atmospheric landscape and water photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before wind",
+        "category": "Landscape"
+      },
+      {
+        "name": "Roanoke Star at Night",
+        "description": "Iconic 88-foot neon star on Mill Mountain providing striking nighttime architectural and city photography subject.",
+        "difficulty": "Beginner",
+        "bestTime": "Night, clear skies for star backdrop",
+        "category": "Night"
+      },
+      {
+        "name": "Tinker Cliffs Ridge View",
+        "description": "High-elevation ridgeline with dramatic cliff faces and distant mountain layers ideal for landscape and depth photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday for contrast, golden hour for warmth",
+        "category": "Landscape"
+      },
+      {
+        "name": "Virginia Museum of Transportation Exterior",
+        "description": "Historic railway architecture and vintage locomotives providing industrial heritage and architectural photography subjects.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Salem Church Historic District",
+        "description": "Collection of historic buildings and architecture in walkable neighborhood setting offering architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast or golden hour for even lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "James River Overlook",
+        "description": "Scenic river vista with surrounding forests and mountain backdrop offering water reflection and landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for river reflection",
+        "category": "Landscape"
+      },
+      {
+        "name": "Catawba Mountain Lookout",
+        "description": "High vantage point with expansive mountain range views and seasonal foliage offering dramatic landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Fall for color, sunrise for mist",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "McAfee Knob Overlook",
+      "Carvin's Cove Reservoir",
+      "Mill Mountain Summit"
+    ],
+    "sunsetSpots": [
+      "Blue Ridge Parkway Overlooks",
+      "Tinker Cliffs Ridge",
+      "Roanoke Star Area"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive landscape vistas and mountain panoramas",
+      "70-200mm telephoto for compressed mountain layers and distant ridge details",
+      "35mm prime for street photography and architectural details downtown",
+      "24-70mm standard zoom for versatile hiking and multi-use situations"
+    ],
+    "goldenHourNotes": "Roanoke's mountain setting creates exceptional golden hour photography with warm light illuminating the Blue Ridge ridges. The hour before sunset is particularly stunning for landscape work, with soft side-lighting accentuating terrain and creating deep color saturation. Morning light offers misty atmospheric conditions and dramatic backlit scenarios, especially near water features like Carvin's Cove.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 85
+      },
+      {
+        "month": 2,
+        "avgTempC": 0,
+        "rainfallMM": 80
+      },
+      {
+        "month": 3,
+        "avgTempC": 6,
+        "rainfallMM": 95
+      },
+      {
+        "month": 4,
+        "avgTempC": 14,
+        "rainfallMM": 100
+      },
+      {
+        "month": 5,
+        "avgTempC": 20,
+        "rainfallMM": 110
+      },
+      {
+        "month": 6,
+        "avgTempC": 25,
+        "rainfallMM": 95
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 105
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 100
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 95
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 90
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 95
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 90
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer ideal temperatures (14-22°C) with stunning foliage and manageable hiking conditions. Summer is warm but humid, while winters bring occasional snow and cold temperatures suitable for fewer outdoor activities.",
+    "summary": "Roanoke experiences four distinct seasons with mild summers, crisp falls, cold winters, and pleasant springs. Mountain elevation moderates temperatures compared to lower elevations in Virginia, with frequent rainfall throughout the year."
+  },
+  "hotels": [
+    {
+      "name": "Red Roof Inn Roanoke",
+      "neighborhood": "Near I-81",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Clean, no-frills budget hotel offering comfortable rooms, free WiFi, and convenient highway access at affordable rates."
+    },
+    {
+      "name": "Hotel Roanoke & Conference Center",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Historic landmark hotel in downtown Roanoke featuring restored rooms, on-site dining, and walking distance to restaurants and cultural attractions."
+    },
+    {
+      "name": "The Magnolia Hotel",
+      "neighborhood": "Arts District",
+      "pricePerNightUSD": 380,
+      "category": "Luxury",
+      "description": "Upscale boutique hotel in the arts district with stylish rooms, rooftop bar, farm-to-table restaurant, and personalized concierge service."
+    }
+  ]
+}

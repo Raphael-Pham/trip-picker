@@ -5,8 +5,8 @@
   "region": "Europe",
   "airportCodes": [
     "BCN",
-    "IBZ",
-    "VLC"
+    "REU",
+    "BIO"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -18,11 +18,11 @@
     "relaxation"
   ],
   "scores": {
-    "cost": 65,
+    "cost": 68,
     "food": 95,
     "photography": 92,
     "activities": 94,
-    "weather": 85
+    "weather": 82
   },
   "budgetRanges": [
     {
@@ -32,110 +32,103 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 90,
-      "maxPerDayUSD": 150
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
-      "maxPerDayUSD": 400
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
     }
   ],
   "unsplashQuery": "Barcelona Sagrada Familia",
-  "summary": "Barcelona is a vibrant Mediterranean metropolis where Gaudí's whimsical architecture meets bohemian beaches, world-class cuisine, and electric nightlife. From the surreal Park Güell to bustling Las Ramblas and the Gothic Quarter's medieval lanes, this Catalan capital blends artistic inspiration with urban energy. Whether savoring tapas, catching a flamenco show, or swimming in the sea, Barcelona offers unforgettable experiences at remarkably affordable prices.",
+  "summary": "Barcelona captivates visitors with its stunning Gaudí architecture, vibrant Gothic Quarter, and world-class beaches all seamlessly blended with Mediterranean charm. This Catalan capital offers an intoxicating mix of cultural landmarks, innovative cuisine, and electric nightlife that makes it one of Europe's most dynamic destinations.",
   "restaurants": [
-    {
-      "name": "Can Culleretes",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Europe's oldest restaurant (1786) serving traditional Catalan cuisine in the Gothic Quarter. A historic institution with hearty portions and authentic flavors.",
-      "mustTry": "Suquet de peix (Catalan fish stew)"
-    },
     {
       "name": "Cervecería Catalana",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Standing-room tapas bar famous for creative small plates and excellent vermouth. Always packed with locals and visitors enjoying pintxos.",
-      "mustTry": "Boquerones en vinagre (marinated anchovies)"
+      "description": "A lively tapas bar in Passeig de Gràcia serving traditional Catalan small plates and seafood in a standing-room atmosphere that captures the spirit of Barcelona's food culture.",
+      "mustTry": "Pan con tomate and jamón ibérico"
     },
     {
-      "name": "El Xampanyet",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Tiny, historic vermouth bar in La Ribera with vintage charm and authentic Barcelona atmosphere. Perfect for affordable drinks and traditional small bites.",
-      "mustTry": "Jamón serrano and olives with vermouth"
-    },
-    {
-      "name": "Cinc Sentits",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Two-Michelin-star restaurant offering innovative Catalan cuisine with impeccable presentation. A gastronomic experience showcasing seasonal ingredients.",
-      "mustTry": "Chef's tasting menu with wine pairings"
-    },
-    {
-      "name": "Quimet & Quimet",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Family-run montaditos bar since 1914, famous for stacked open sandwiches with creative, artistic toppings. Standing-room only, utterly authentic.",
-      "mustTry": "House special montadito (chef's choice)"
+      "name": "Can Culleretes",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Barcelona's oldest restaurant dating to 1786, serving traditional Catalan cuisine with hearty portions in an charming historic setting in the Gothic Quarter.",
+      "mustTry": "Fideuà and slow-cooked meats"
     },
     {
       "name": "Tickets Bar",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Albert Adrià's avant-garde tapas destination with theatrical presentation and cutting-edge techniques. Reserve well in advance for this unique experience.",
-      "mustTry": "Olive oil ice cream with shrimp"
+      "description": "Albert Adrià's avant-garde restaurant offering theatrical tapas and molecular gastronomy experiences that push the boundaries of Spanish cuisine.",
+      "mustTry": "Chef's tasting menu"
     },
     {
-      "name": "Can Punyetes",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Authentic seafood restaurant in Barceloneta with beachside charm and fresh daily catches. Known for paella and grilled fish specialties.",
-      "mustTry": "Paella de marisco (seafood paella)"
-    },
-    {
-      "name": "La Boqueria Market Stalls",
+      "name": "El Xampanyet",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Street food and fresh produce vendors throughout Barcelona's famous covered market. Sample jamón, fresh seafood, and local delicacies while shopping.",
-      "mustTry": "Fresh seafood stand tapas and juice bars"
+      "description": "A historic standing-room bar in El Born serving vermouth on tap and traditional Spanish cured meats, perfect for authentic local immersion without breaking the bank.",
+      "mustTry": "Vermouth with anchovy tapa"
     },
     {
-      "name": "Els Pescadors",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Contemporary seafood restaurant combining traditional Catalan recipes with modern presentation. Elegant setting with an impressive wine list.",
-      "mustTry": "Lobster with romesco sauce"
-    },
-    {
-      "name": "Can Recasens",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Traditional Catalan restaurant in the Gothic Quarter serving hearty home-cooked meals since the 1960s. Known for authenticity and portion sizes.",
-      "mustTry": "Butifarra amb mongetes (sausage with beans)"
-    },
-    {
-      "name": "Bodega Montferry",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Charming wine bar and restaurant offering traditional Spanish and Catalan dishes in intimate surroundings. Excellent natural wine selection.",
-      "mustTry": "Croquetas de jamón (jamón croquettes)"
-    },
-    {
-      "name": "Gresca",
+      "name": "Momofuku Seiobo",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "One-Michelin-star restaurant focusing on Catalan culinary traditions with modern techniques and impeccable attention to detail. Seasonal tasting menu format.",
-      "mustTry": "Wood-roasted vegetables with aged vinegars"
+      "description": "A Michelin-starred restaurant blending Japanese-inspired cuisine with Spanish ingredients in an intimate setting with a master chef's counter experience."
+    },
+    {
+      "name": "La Boqueria Market Food Stalls",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "One of Europe's most famous markets offering fresh seafood, jamón, fruits, and prepared foods at affordable prices in an open-air historic setting.",
+      "mustTry": "Fresh sea urchins and jumbo shrimp"
+    },
+    {
+      "name": "Cinc Sentits",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A Michelin-starred restaurant near Passeig de Gràcia offering contemporary Catalan cuisine with seasonal ingredients in an elegant minimalist setting."
+    },
+    {
+      "name": "Casa Xica",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A modern Basque pintxos restaurant featuring standing-counter service with creative small bites and excellent cider selections in a convivial atmosphere."
+    },
+    {
+      "name": "Quimet & Quimet",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A standing-room only montadito bar in Poble Sec serving creative open-faced sandwiches and vermouth, beloved by locals for generations."
+    },
+    {
+      "name": "Comaprimo",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A seafood-focused restaurant near Barceloneta serving fresh catches prepared simply with Mediterranean flavors and excellent wine pairings."
+    },
+    {
+      "name": "Bresca",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A Michelin-starred restaurant featuring Catalan cuisine with a focus on seasonal vegetables and fresh seafood in an intimate fine-dining setting."
+    },
+    {
+      "name": "Bar del Pla",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A tiny wine bar in Gothic Quarter with creative small plates and an exceptional wine selection, ideal for intimate dining experiences."
     }
   ],
   "activities": [
     {
-      "name": "Sagrada Familia",
+      "name": "Sagrada Famílía",
       "category": "Cultural",
-      "description": "Gaudí's masterpiece basilica under continuous construction since 1883, featuring otherworldly architecture and intricate symbolism. A UNESCO World Heritage site and Barcelona's most iconic monument.",
-      "durationHours": 2,
-      "estimatedCostUSD": 32,
+      "description": "Gaudí's iconic basilica under perpetual construction since 1883, featuring breathtaking interior columns like a stone forest and stunning stained glass windows. Access the towers for panoramic city views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 28,
       "bestFor": [
         "standard",
         "photography",
@@ -145,229 +138,223 @@
     {
       "name": "Park Güell",
       "category": "Outdoor",
-      "description": "Gaudí-designed public park with whimsical mosaics, panoramic city views, and fantastical architectural elements. The terrace offers stunning vistas of Barcelona and the Mediterranean.",
-      "durationHours": 3,
+      "description": "Gaudí's colorful mosaic-covered park offering stunning city views, serpentine benches, and whimsical architecture blended seamlessly with nature. Popular for sunrise and golden hour photography.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 14,
       "bestFor": [
         "standard",
         "photography",
-        "surprise",
-        "hidden-gems"
+        "relaxation"
       ]
     },
     {
-      "name": "Gothic Quarter Walking Tour (Free)",
+      "name": "Gothic Quarter Walking Tour",
       "category": "Cultural",
-      "description": "Explore medieval narrow streets, hidden plazas, and ancient Roman walls in Barcelona's historic heart. Self-guided or with street musicians and local guides.",
+      "description": "Explore medieval Barcelona's narrow winding streets, hidden plazas, and historic buildings including the Barcelona Cathedral. Free to roam independently or join a guided tour.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "hidden-gems",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "La Rambla & Port Vell",
+      "category": "Outdoor",
+      "description": "Barcelona's famous tree-lined boulevard stretching from Plaça Reial to the waterfront, filled with street performers, shops, and cafes. The nearby port area features the Maremagnum shopping center and beachside atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
         "photography"
       ]
     },
     {
-      "name": "Barcelona Beach Day",
+      "name": "Montjuïc Cable Car & Viewpoint",
+      "category": "Outdoor",
+      "description": "Ride the scenic cable car up to Montjuïc mountain for unobstructed panoramic views of Barcelona, the sea, and surrounding mountains. Home to museums, gardens, and the Magic Fountain.",
+      "durationHours": 3,
+      "estimatedCostUSD": 16,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Magic Fountain Night Show",
+      "category": "Cultural",
+      "description": "Nightly multimedia fountain spectacle at Montjuïc combining water, light, and music to famous classical and contemporary pieces. Free to watch from public viewing areas.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beach Day in Barceloneta",
       "category": "Relaxation",
-      "description": "Swim and sunbathe at Barceloneta Beach or quieter Bogatell Beach, with beachfront bars and restaurants. Mediterranean waters ideal for swimming March-October.",
+      "description": "Barcelona's main urban beach offering golden sand, clear water, and beachfront paella restaurants. Perfect for swimming, sunbathing, or watching sunset with Mediterranean views.",
       "durationHours": 4,
       "estimatedCostUSD": 5,
       "bestFor": [
-        "relaxation",
         "standard",
-        "surprise"
+        "relaxation",
+        "photography"
       ]
     },
     {
       "name": "Casa Batlló Interior Tour",
       "category": "Cultural",
-      "description": "Gaudí's residential masterpiece featuring undulating walls, organic shapes, and stunning modernist design. Immersive virtual reality options available at additional cost.",
+      "description": "Gaudí's stunning residential masterpiece featuring organic architecture, colorful tilework, and innovative design elements. The modernist interior is a photographer's dream.",
       "durationHours": 1.5,
-      "estimatedCostUSD": 26,
+      "estimatedCostUSD": 27,
       "bestFor": [
         "standard",
-        "photography",
-        "surprise"
+        "photography"
       ]
     },
     {
-      "name": "Las Ramblas Stroll",
-      "category": "Outdoor",
-      "description": "Barcelona's famous tree-lined boulevard stretching from Plaça de Catalunya to the waterfront, bustling with street performers, shops, and outdoor cafés. Free to explore, great people-watching.",
+      "name": "Picasso Museum",
+      "category": "Cultural",
+      "description": "An extensive collection of Pablo Picasso's works spanning his entire artistic evolution, housed in a beautiful Gothic palace in El Born neighborhood.",
       "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "FC Barcelona Match or Stadium Tour",
-      "category": "Family",
-      "description": "Experience Camp Nou stadium, one of world's largest, with museum exhibits or attend a live La Liga match if schedule permits. Tour includes trophy room and locker rooms.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "standard",
-        "adventure",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Montjuïc Castle and Gardens",
-      "category": "Outdoor",
-      "description": "Historic fortress with 360-degree city views, beautiful manicured gardens, and museums. Cable car access provides dramatic approach with panoramic vistas.",
-      "durationHours": 3,
       "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
-        "photography",
+        "cultural",
         "relaxation"
       ]
     },
     {
-      "name": "La Boqueria Market Exploration",
-      "category": "Foodie",
-      "description": "Barcelona's iconic covered market since 1840, bursting with fresh produce, seafood, jamón, and local delicacies. Sample from vendors and experience authentic Catalan food culture.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 15,
+      "name": "Cycling Tour Through Neighborhoods",
+      "category": "Adventure",
+      "description": "Explore Barcelona's diverse neighborhoods including Gràcia, Sant Antoni, and Poble Sec on two wheels. Bike tours offer local insights and access to hidden corners unreachable by foot.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
       "bestFor": [
-        "foodie",
-        "standard",
+        "adventure",
+        "hidden-gems",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Montserrat Monastery Day Trip",
+      "category": "Adventure",
+      "description": "Visit the spectacular serrated mountain monastery 50km north of Barcelona featuring dramatic rock formations, hiking trails, and the sanctuary of Black Madonna. Accessible by train from Barcelona.",
+      "durationHours": 6,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography",
         "hidden-gems"
       ]
     },
     {
-      "name": "Montserrat Day Trip",
-      "category": "Adventure",
-      "description": "UNESCO site featuring dramatic rock formations, ancient monastery, and hiking trails 45 minutes from Barcelona. Scenic cable car rides and spiritual sanctuary experience.",
-      "durationHours": 6,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Nightlife and Flamenco Show",
+      "name": "Nightlife in Passeig de Gràcia & Gothic Quarter",
       "category": "Nightlife",
-      "description": "Experience authentic Spanish flamenco with dinner at intimate venues in the Gothic Quarter or Raval. Passionate performances with live guitar and dancers.",
-      "durationHours": 3,
-      "estimatedCostUSD": 55,
+      "description": "Experience Barcelona's vibrant night scene with rooftop bars, underground clubs, and late-night tapas bars. Most venues open after 11pm with parties lasting until dawn.",
+      "durationHours": 5,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
-        "surprise",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Bicycle Tour of Neighborhoods",
-      "category": "Adventure",
-      "description": "Guided or self-guided bike tour through diverse Barcelona neighborhoods including Gràcia, Sant Antoni, and Poblenou. Experience local culture beyond tourist areas.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "adventure",
-        "hidden-gems",
-        "photography"
+        "surprise"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Park Güell Upper Terrace",
-        "description": "Iconic mosaic-covered terrace with city skyline and Mediterranean backdrop, perfect for wide-angle compositions capturing Gaudí's design.",
+        "name": "Park Güell Upper Terraces",
+        "description": "Iconic mosaic-covered terraces with panoramic city and Mediterranean views, perfect for capturing colorful Gaudí architecture against urban landscape.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour (sunrise or sunset)",
+        "bestTime": "Early morning or golden hour",
         "category": "Architecture"
       },
       {
-        "name": "Sagrada Familia Exterior",
-        "description": "Intricate facade details and towering spires create stunning architectural photography opportunities from multiple angles.",
+        "name": "Sagrada Famílía Exterior",
+        "description": "Intricate stone facade details and soaring spires create dramatic architectural photography opportunities from multiple angles around the basilica.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning or late afternoon light",
+        "bestTime": "Early morning or late afternoon for side lighting",
         "category": "Architecture"
       },
       {
         "name": "Gothic Quarter Narrow Streets",
-        "description": "Ancient stone buildings, Gothic arches, and hidden courtyards provide moody street photography with dramatic shadows.",
+        "description": "Medieval architecture, dramatic shadows, and narrow alleyways create moody street photography with authentic Barcelona atmosphere.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday shadows or early morning light",
+        "bestTime": "Late afternoon for directional light in alleyways",
         "category": "Street"
       },
       {
-        "name": "Barceloneta Beach and Boardwalk",
-        "description": "Mediterranean sea, colorful beach umbrellas, and waterfront architecture create vibrant, dynamic compositions.",
+        "name": "Barceloneta Beach at Golden Hour",
+        "description": "Mediterranean coastline with beach activities, umbrellas, and skyline reflections in wet sand for golden hour seascape photography.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones and reflections",
-        "category": "Landscape"
-      },
-      {
-        "name": "Montjuïc Castle Terraces",
-        "description": "Panoramic vistas of entire Barcelona cityscape, harbor, and mountains in background offer expansive landscape opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset or clear afternoons",
+        "bestTime": "One hour before sunset",
         "category": "Landscape"
       },
       {
         "name": "Casa Batlló Facade",
-        "description": "Wavy, organic architecture with colorful ceramic tiles and undulating balconies create unique, eye-catching compositional elements.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light (east-facing facade)",
+        "description": "Gaudí's organic tilework and undulating balconies create stunning colorful patterns ideal for detailed architectural and pattern photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for even color saturation",
         "category": "Architecture"
       },
       {
-        "name": "Las Ramblas Street Life",
-        "description": "Bustling pedestrian boulevard with diverse street performers, architecture, and human interest, ideal for candid street photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Mid-morning through evening",
-        "category": "Street"
-      },
-      {
-        "name": "Port Vell and Waterfront",
-        "description": "Modern marina architecture, sailing boats, and sunset reflections on water provide dynamic compositional opportunities.",
+        "name": "Montjuïc Viewpoint at Dusk",
+        "description": "Sweeping panoramic views of entire Barcelona sprawling to the Mediterranean horizon, perfect for cityscape and landscape photography.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour sunset",
+        "bestTime": "Blue hour just after sunset",
         "category": "Landscape"
       },
       {
-        "name": "Poblenou Industrial Neighborhood",
-        "description": "Hidden gem with converted factories, street art, and authentic Barcelona character providing authentic urban photography.",
+        "name": "Magic Fountain Evening Show",
+        "description": "Illuminated water features, colorful lighting, and dynamic movement create dramatic night photography opportunities with long exposures.",
+        "difficulty": "Advanced",
+        "bestTime": "During fountain show performances",
+        "category": "Night"
+      },
+      {
+        "name": "La Rambla Street Performers",
+        "description": "Colorful costumed performers, bustling crowds, and diverse street activity offer candid street photography and cultural documentation.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour for warm industrial textures",
+        "bestTime": "Daytime for natural light",
         "category": "Street"
       },
       {
-        "name": "Bunkers del Carmel Viewpoint",
-        "description": "Former anti-aircraft bunkers with 360-degree city views overlooking entire Barcelona, best-kept local secret for vantage photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset or clear afternoons",
+        "name": "Port Vell & Marina Reflections",
+        "description": "Moored boats, waterfront architecture, and reflections in calm harbor water create serene maritime and architectural photography compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for calm water reflections",
         "category": "Landscape"
+      },
+      {
+        "name": "Passeig de Gràcia Modern Architecture",
+        "description": "Modernist buildings including Casa Amatller and Casa Lleó Morera showcase intricate details and contrasting architectural styles perfect for detailed shots.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for clear details",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Bunkers del Carmel",
-      "Montjuïc Castle",
-      "Park Güell Upper Terrace"
+      "Park Güell Upper Terraces",
+      "Montjuïc Castle Viewpoint",
+      "Bunkers del Carmel (hidden viewpoint)"
     ],
     "sunsetSpots": [
-      "Port Vell Waterfront",
-      "Montjuïc Castle Terraces",
-      "Barceloneta Beach"
+      "Barceloneta Beach",
+      "Montjuïc Viewpoint",
+      "Park Güell Terraces"
     ],
     "lensRecommendations": [
-      "Wide-angle (16-35mm) for architecture, skylines, and expansive landscapes like Park Güell",
-      "Standard zoom (24-70mm) for versatile street photography and mixed compositions in Gothic Quarter",
-      "Telephoto (70-200mm) for compressed compositions of Sagrada Familia spires and detail work",
-      "Prime 35mm or 50mm for intimate street photography and candid moments in neighborhoods"
+      "16-35mm ultra-wide for architectural sweeping shots of Sagrada Famílía and Park Güell",
+      "50mm prime for intimate street photography in Gothic Quarter",
+      "70-200mm telephoto for compressed landscape shots of Barcelona skyline from Montjuïc",
+      "35mm prime for versatile day-to-day documentary and street work"
     ],
-    "goldenHourNotes": "Barcelona's Mediterranean light is exceptional during golden hour, especially April-October. The eastern orientation of Casa Batlló and western-facing Montjuïc and waterfront make them ideal for capturing warm light. Plan shoots 1-2 hours before sunset for best results, as the light becomes increasingly warm and directional. Early morning light at Park Güell illuminates mosaics beautifully with minimal crowds.",
+    "goldenHourNotes": "Barcelona's golden hour is particularly magical from 7-8am and 6-7:30pm, creating warm sidelighting that emphasizes Gaudí's architectural textures and street details. The Mediterranean position means morning light comes from the east over the city while evening light sweeps across from the western seafront. Plan shoots at Park Güell and Sagrada Famílía for evening golden hour, and beachfront locations for stunning coastal light.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -375,7 +362,7 @@
       {
         "month": 1,
         "avgTempC": 9,
-        "rainfallMM": 40
+        "rainfallMM": 41
       },
       {
         "month": 2,
@@ -385,52 +372,52 @@
       {
         "month": 3,
         "avgTempC": 12,
-        "rainfallMM": 35
+        "rainfallMM": 36
       },
       {
         "month": 4,
         "avgTempC": 15,
-        "rainfallMM": 45
+        "rainfallMM": 41
       },
       {
         "month": 5,
-        "avgTempC": 20,
-        "rainfallMM": 45
+        "avgTempC": 19,
+        "rainfallMM": 51
       },
       {
         "month": 6,
-        "avgTempC": 25,
-        "rainfallMM": 30
+        "avgTempC": 23,
+        "rainfallMM": 37
       },
       {
         "month": 7,
-        "avgTempC": 28,
-        "rainfallMM": 20
+        "avgTempC": 26,
+        "rainfallMM": 24
       },
       {
         "month": 8,
-        "avgTempC": 27,
-        "rainfallMM": 25
+        "avgTempC": 26,
+        "rainfallMM": 28
       },
       {
         "month": 9,
-        "avgTempC": 24,
-        "rainfallMM": 40
+        "avgTempC": 23,
+        "rainfallMM": 68
       },
       {
         "month": 10,
         "avgTempC": 18,
-        "rainfallMM": 100
+        "rainfallMM": 89
       },
       {
         "month": 11,
         "avgTempC": 13,
-        "rainfallMM": 70
+        "rainfallMM": 63
       },
       {
         "month": 12,
         "avgTempC": 10,
-        "rainfallMM": 45
+        "rainfallMM": 46
       }
     ],
     "bestMonths": [
@@ -439,30 +426,30 @@
       9,
       10
     ],
-    "seasonality": "Barcelona enjoys mild winters and warm summers with peak tourism June-September when temperatures reach 25-28°C. Spring (May) and early fall (September-October) offer ideal conditions with warm weather, lower humidity, and fewer crowds.",
-    "summary": "Mediterranean climate provides comfortable weather year-round, with summer heat occasionally exceeding 30°C. Rainfall concentrates in October and winter months, while July-August can be uncomfortably hot for sightseeing during peak tourist season."
+    "seasonality": "May-June and September-October offer ideal conditions with warm temperatures, lower rainfall, and smaller crowds compared to peak summer. July-August brings intense heat (26°C) and massive tourist influx, while winters are mild but occasionally rainy.",
+    "summary": "Barcelona enjoys a Mediterranean climate with warm, dry summers and mild winters. Expect 300+ days of sunshine annually with most rainfall concentrated in spring and autumn months."
   },
   "hotels": [
     {
-      "name": "Hostal Oliva",
+      "name": "Hostal Chic",
       "neighborhood": "Gothic Quarter",
       "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Intimate 8-room hostal in heart of Gothic Quarter with shared and private options, perfectly located for exploring medieval Barcelona."
+      "description": "A stylish budget hostel in the historic Gothic Quarter offering clean private rooms and dorms with communal kitchen facilities and rooftop area."
     },
     {
-      "name": "Hotel Constanza",
-      "neighborhood": "Eixample",
+      "name": "Hotel Diagonal Barcelona",
+      "neighborhood": "Passeig de Gràcia",
       "pricePerNightUSD": 125,
       "category": "Mid-range",
-      "description": "Boutique 4-star hotel in modernist Eixample district featuring design-forward rooms and excellent location near major attractions."
+      "description": "A modern 4-star hotel on the famous boulevard with comfortable rooms, excellent breakfast, and rooftop terrace with city views near major attractions."
     },
     {
       "name": "Mandarin Oriental Barcelona",
-      "neighborhood": "Paseo de Gracia",
-      "pricePerNightUSD": 350,
+      "neighborhood": "Passeig de Gràcia",
+      "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Ultra-luxury 5-star palace hotel on Barcelona's most prestigious avenue, offering world-class service, Michelin-starred dining, and stunning city views."
+      "description": "A 5-star luxury hotel in a restored palace featuring Michelin-starred dining, spa facilities, and personalized service in Barcelona's most prestigious address."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCYXJjZWxvbmElMjBTYWdyYWRhJTIwRmFtaWxpYXxlbnwxfDB8fHwxNzgxNTYyMjUzfDA&ixlib=rb-4.1.0&q=80&w=1080"

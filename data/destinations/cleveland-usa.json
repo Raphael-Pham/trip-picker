@@ -19,134 +19,123 @@
   ],
   "scores": {
     "cost": 72,
-    "food": 78,
-    "photography": 75,
-    "activities": 82,
-    "weather": 55
+    "food": 75,
+    "photography": 78,
+    "activities": 80,
+    "weather": 58
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 85,
-      "maxPerDayUSD": 135
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
-      "minPerDayUSD": 150,
+      "minPerDayUSD": 130,
       "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 280,
-      "maxPerDayUSD": 450
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Cleveland skyline lake",
-  "summary": "Cleveland is a vibrant Midwestern city on Lake Erie's shores, offering world-class museums, iconic architecture, and a thriving food scene rooted in local heritage. From the Rock and Roll Hall of Fame to the stunning Cleveland Museum of Art, the city blends cultural attractions with waterfront beauty. With affordable accommodation and dining, Cleveland delivers authentic American experiences without breaking the bank.",
+  "unsplashQuery": "Cleveland rock hall music",
+  "summary": "Cleveland, the heart of industrial America's renaissance, offers world-class museums, a vibrant music heritage at the Rock and Roll Hall of Fame, and a rapidly revitalized waterfront along Lake Erie. The city combines affordable Midwestern charm with unexpected cultural sophistication, excellent food scenes, and stunning architectural photography opportunities.",
   "restaurants": [
     {
-      "name": "Slyman's Deli",
+      "name": "The Flying Pig",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A Cleveland institution since 1918 serving legendary corned beef sandwiches. This historic deli is a must-visit for classic Jewish-American cuisine.",
-      "mustTry": "Corned Beef Sandwich"
+      "description": "Award-winning restaurant in Ohio City focusing on seasonal, local ingredients and inventive American cuisine. Known for their rotating menu and intimate atmosphere.",
+      "mustTry": "Roasted bone marrow with charred bread"
     },
     {
-      "name": "Lolita",
+      "name": "West Side Market",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic public market operating since 1840 with dozens of vendors offering ethnic cuisines, fresh produce, and prepared foods. Perfect for affordable sampling of diverse cuisines.",
+      "mustTry": "Pierogis and Polish sausages"
+    },
+    {
+      "name": "Nighttown",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Contemporary Mexican fine dining in the trendy Ohio City neighborhood. Features creative ceviches, moles, and an extensive tequila selection.",
-      "mustTry": "Duck Confit Tacos"
+      "description": "Upscale jazz supper club in Little Italy combining sophisticated cuisine with live music performances. Features an extensive wine list and elegant 1920s-inspired ambiance.",
+      "mustTry": "Pan-seared diver scallops"
+    },
+    {
+      "name": "Barrington",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant with focus on fresh seafood, steaks, and seasonal preparations. Features a popular happy hour and relaxed fine dining atmosphere.",
+      "mustTry": "Lake Erie perch with brown butter"
+    },
+    {
+      "name": "Edwins Leadership Program",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French fine dining restaurant with a mission to train formerly incarcerated individuals in culinary arts. Offers authentic Parisian cuisine in an elegant setting with social impact.",
+      "mustTry": "Escargot Bourguignon"
     },
     {
       "name": "Johnny's Little Bar",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "A no-frills neighborhood bar serving classic Italian sandwiches and chili since 1951. Popular with locals for authentic Cleveland charm.",
-      "mustTry": "Italian Sandwich"
+      "priceRange": "$",
+      "description": "Historic dive bar and restaurant in downtown Cleveland serving classic burgers and sandwiches since the 1930s. Known for friendly locals and authentic neighborhood feel.",
+      "mustTry": "Johnny Burger with Swiss cheese"
     },
     {
-      "name": "Greenhouse Tavern",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Farm-to-table American cuisine in a converted greenhouse space with locally-sourced ingredients. Modern comfort food in an industrial-chic setting.",
-      "mustTry": "Wood-Fired Vegetables"
-    },
-    {
-      "name": "Barrio",
+      "name": "Ginko",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual Latin American restaurant in Ohio City offering ceviches, tacos, and South American small plates. Vibrant atmosphere with craft cocktails.",
-      "mustTry": "Ceviche Mixed Plate"
+      "description": "Pan-Asian cuisine restaurant featuring Japanese, Korean, and Thai influences with fresh ingredients and creative presentations. Contemporary dining room with attentive service.",
+      "mustTry": "Spicy tuna hand rolls"
     },
     {
-      "name": "The Spotted Owl",
+      "name": "Sala",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian trattoria in Little Italy offering traditional pasta dishes, wood-fired pizza, and imported ingredients. Warm, welcoming atmosphere with excellent wine pairings.",
+      "mustTry": "Handmade fettuccine with wild boar ragù"
+    },
+    {
+      "name": "Zydeco Crawfish House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual Louisiana-inspired restaurant featuring crawfish boils, po'boys, and Creole specialties. Lively atmosphere with local craft beers and family-friendly vibes.",
+      "mustTry": "Crawfish boil with corn and sausage"
+    },
+    {
+      "name": "Fahrenheit",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary American fine dining with emphasis on locally sourced ingredients and artistic plating. Award-winning chef creates seasonal tasting menus.",
+      "mustTry": "Duck breast with cherry gastrique"
+    },
+    {
+      "name": "Cochran's Pub",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Casual American diner with creative breakfast and lunch options. Known for excellent coffee and locally-sourced ingredients at budget-friendly prices.",
-      "mustTry": "Breakfast Sandwich"
+      "description": "Historic Irish pub established in 1921 serving traditional Irish fare, comfort food, and local beers. Authentic old-world charm with live music most nights.",
+      "mustTry": "Shepherd's pie with Guinness"
     },
     {
-      "name": "The Butcher and The Brewer",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Craft brewery and gastropub featuring house-made sausages and smoked meats. Perfect for a casual meal with local beers on tap.",
-      "mustTry": "House-Made Sausage Platter"
-    },
-    {
-      "name": "Flying Fig",
+      "name": "Lola",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Upscale Mediterranean restaurant celebrating seasonal Ohio ingredients. An award-winning establishment with an extensive wine list.",
-      "mustTry": "Market-Driven Pasta Dishes"
-    },
-    {
-      "name": "Gourmet Dumpling House",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Authentic Chinese dumpling restaurant near Little Italy offering hand-pulled noodles and steamed dumplings. Excellent value and quality.",
-      "mustTry": "Pork and Chive Dumplings"
-    },
-    {
-      "name": "Great Lakes Brewing Company",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Historic brewery in Ohio City with a taproom serving elevated pub food. Free or low-cost brewery tours available daily.",
-      "mustTry": "Dortmunder Gold Lager"
-    },
-    {
-      "name": "Felice Urban Café",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Upscale Italian restaurant in the Warehouse District featuring handmade pastas and Northern Italian specialties. Elegant ambiance for special occasions.",
-      "mustTry": "Fresh Tagliatelle al Ragù"
-    },
-    {
-      "name": "Streetside Café",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Cozy neighborhood café in Ohio City serving sandwiches, salads, and coffee. Local favorite for casual breakfast and lunch.",
-      "mustTry": "House Salad with Homemade Dressing"
+      "description": "Chef Michael Symon's signature restaurant blending Latin, Mediterranean, and American influences. Located in Ohio City with vibrant atmosphere and innovative dishes.",
+      "mustTry": "Wood-fired paella"
     }
   ],
   "activities": [
     {
       "name": "Rock and Roll Hall of Fame",
       "category": "Cultural",
-      "description": "Iconic museum honoring rock music legends with interactive exhibits and memorabilia from The Beatles, David Bowie, and countless artists. A must-see cultural attraction with 7 floors of music history.",
-      "durationHours": 4,
-      "estimatedCostUSD": 28,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Cleveland Museum of Art",
-      "category": "Cultural",
-      "description": "World-class art museum with 30,000 artworks spanning ancient to contemporary periods. Free admission with suggested donation makes this exceptional value.",
+      "description": "Iconic museum celebrating rock music history with interactive exhibits, memorabilia from legendary artists, and stunning architecture along Lake Erie waterfront. A must-visit for music enthusiasts.",
       "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 26,
       "bestFor": [
         "standard",
         "photography",
@@ -154,81 +143,95 @@
       ]
     },
     {
-      "name": "Edgewater Beach and Park",
-      "category": "Outdoor",
-      "description": "Beautiful Lake Erie beach with sandy shores, walking trails, and picnic areas. Perfect for swimming in summer, walking year-round, and photographing sunsets.",
+      "name": "Cleveland Museum of Art",
+      "category": "Cultural",
+      "description": "World-class art museum with free admission featuring over 30,000 pieces including works by Old Masters, contemporary art, and modern installations. Beautiful building with excellent curation.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
+        "standard",
+        "hidden-gems",
         "photography",
-        "adventure"
+        "relaxation"
       ]
     },
     {
-      "name": "West Side Market",
-      "category": "Cultural",
-      "description": "Historic covered market since 1840 featuring international vendors, fresh produce, and local foods. A vibrant sensory experience showcasing Cleveland's ethnic diversity.",
+      "name": "Lakefront Promenade Cycling Tour",
+      "category": "Outdoor",
+      "description": "Scenic bike ride along Cleveland's revitalized waterfront with views of Lake Erie, parks, and architectural landmarks. Path extends for miles with multiple access points.",
       "durationHours": 2,
-      "estimatedCostUSD": 20,
+      "estimatedCostUSD": 15,
       "bestFor": [
-        "foodie",
-        "hidden-gems",
-        "photography"
+        "adventure",
+        "photography",
+        "relaxation"
       ]
     },
     {
       "name": "Cleveland Botanical Garden",
       "category": "Outdoor",
-      "description": "Stunning 8-acre garden featuring indoor Spiny Forest greenhouse and naturalistic outdoor gardens. Year-round exhibits with seasonal plant displays.",
+      "description": "Beautiful 10-acre garden featuring themed areas, walking trails, greenhouse conservatory, and seasonal plantings. Peaceful retreat in urban setting with excellent photography opportunities.",
       "durationHours": 2,
-      "estimatedCostUSD": 15,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "relaxation",
-        "photography",
-        "family"
-      ]
-    },
-    {
-      "name": "Cuyahoga Valley National Park",
-      "category": "Adventure",
-      "description": "Located 30 minutes south, this national park offers hiking, kayaking, and scenic viewing areas along the Cuyahoga River. Ledges Trail is a popular 2-mile hike.",
-      "durationHours": 6,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "adventure",
         "photography",
         "hidden-gems"
       ]
     },
     {
-      "name": "Playhouse Square Theater District",
+      "name": "West Side Market Walking Tour",
       "category": "Cultural",
-      "description": "Second-largest theater district in the country with 9 historic theaters hosting Broadway shows, concerts, and performances. Architectural gems from the 1920s.",
-      "durationHours": 3,
-      "estimatedCostUSD": 75,
+      "description": "Guided exploration of historic market with vendor interactions, food sampling, and cultural history lessons. Can be self-guided for free or book organized tours.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
-        "cultural"
+        "foodie",
+        "hidden-gems",
+        "standard"
       ]
     },
     {
       "name": "Cleveland Science Center",
       "category": "Family",
-      "description": "Interactive science museum with hands-on exhibits, OMNIMAX theater, and planetarium shows. Free admission with optional paid theater experiences.",
+      "description": "Interactive science museum with hands-on exhibits, planetarium shows, and OMNIMAX theater. Free general admission with optional paid experiences.",
       "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 8,
       "bestFor": [
-        "family",
-        "standard"
+        "standard",
+        "family"
       ]
     },
     {
-      "name": "Ohio City Brewery and Gallery Tour",
-      "category": "Nightlife",
-      "description": "Self-guided or organized tour through Ohio City's breweries, galleries, and street art. The neighborhood transforms after 5 PM with vibrant restaurant and bar scenes.",
-      "durationHours": 4,
-      "estimatedCostUSD": 40,
+      "name": "Playhouse Square Theater District Walking Tour",
+      "category": "Cultural",
+      "description": "Explore the largest performing arts center outside New York with guided tours of historic theaters, stunning architecture, and vibrant Broadway district atmosphere.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Edgewater Beach Sunset Stroll",
+      "category": "Outdoor",
+      "description": "Walk along Cleveland's sandy beach on Lake Erie with sunset views, local vendors, and relaxed atmosphere. Free public beach with seasonal activities.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Little Italy Neighborhood Exploration",
+      "category": "Cultural",
+      "description": "Stroll historic Italian neighborhood featuring Italian restaurants, bakeries, art galleries, and cultural events. Self-guided walking tour with excellent street photography.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "hidden-gems",
         "foodie",
@@ -236,132 +239,133 @@
       ]
     },
     {
-      "name": "Cleveland Lakefront Bike Path",
-      "category": "Outdoor",
-      "description": "Scenic 7-mile paved path along Lake Erie with parks, beach access, and water views. Perfect for biking, walking, or rollerblading any season.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "adventure",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "University Circle Cultural District",
+      "name": "Cleveland Museum of Natural History",
       "category": "Cultural",
-      "description": "Walkable neighborhood home to museums, gardens, and cultural institutions including the Natural History Museum and Little Italy. Free walking areas with paid attractions.",
-      "durationHours": 4,
-      "estimatedCostUSD": 25,
+      "description": "Large natural history museum featuring dinosaur exhibits, planetarium, Egyptian mummies, and wildlife displays. Engaging for all ages with interactive sections.",
+      "durationHours": 3,
+      "estimatedCostUSD": 14,
       "bestFor": [
         "standard",
-        "photography",
-        "hidden-gems"
+        "family",
+        "relaxation"
       ]
     },
     {
-      "name": "Cleveland Historic Walking Tour",
-      "category": "Cultural",
-      "description": "Guided tour through downtown highlighting architecture, history, and hidden gems. Knowledgeable guides share stories of the city's industrial past and cultural renaissance.",
+      "name": "Topiary Park and Public Square Exploration",
+      "category": "Outdoor",
+      "description": "Visit the whimsical topiary park featuring oversized hedges trimmed into recognizable shapes and explore the newly renovated Public Square with shops, restaurants, and events.",
       "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "relaxation",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Live Music and Nightlife in Warehouse District",
+      "category": "Nightlife",
+      "description": "Experience Cleveland's vibrant nightlife scene with numerous bars, music venues, and clubs featuring local bands and touring acts. From dive bars to upscale lounges.",
+      "durationHours": 3,
       "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "hidden-gems",
-        "photography"
+        "surprise",
+        "adventure"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Guardians of Traffic at Veterans Memorial Bridge",
-        "description": "Iconic Art Deco limestone guardians overlooking the Cuyahoga River with stunning city views and perfect symmetry for architectural photography.",
+        "name": "Rock and Roll Hall of Fame Exterior",
+        "description": "Iconic I.M. Pei-designed glass pyramid architecture reflected in waterfront pools with Lake Erie in background.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour at sunset for warm sidelighting",
+        "bestTime": "Golden hour for warm architectural tones",
         "category": "Architecture"
+      },
+      {
+        "name": "Cleveland Skyline from Voinovich Park",
+        "description": "Classic downtown skyline view including Terminal Tower and modern waterfront development across the water.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise or sunset for dramatic lighting",
+        "category": "Landscape"
       },
       {
         "name": "West Side Market Interior",
-        "description": "Vibrant market hall with colorful vendor stalls, dramatic overhead lighting, and diverse crowds creating dynamic street photography opportunities.",
+        "description": "Vibrant market stalls with colorful produce, hanging meats, and bustling vendors creating dynamic street photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Mid-morning for active vendor scenes and natural ceiling light",
+        "bestTime": "Early morning for better light and fewer crowds",
         "category": "Street"
       },
       {
-        "name": "Rock and Roll Hall of Fame Exterior",
-        "description": "Striking modern architecture with glass and steel geometric forms reflected in plaza water features.",
+        "name": "Playhouse Square Theater Marquees",
+        "description": "Ornate historic theater facades with colorful vintage signage and architectural details.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning light for dramatic shadows and reflections",
-        "category": "Architecture"
+        "bestTime": "Evening for neon and marquee lighting",
+        "category": "Night"
       },
       {
-        "name": "Edgewater Beach Pier",
-        "description": "Long pier extending into Lake Erie offering leading lines, water reflections, and sunset vistas.",
+        "name": "Ohio City Street Art and Murals",
+        "description": "Extensive urban art installations, street murals, and graffiti art in renovated neighborhood.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset golden hour for warm water tones and silhouettes",
-        "category": "Landscape"
-      },
-      {
-        "name": "Detroit-Superior Bridge Underpass",
-        "description": "Architectural tunnel with symmetrical arches, rivets, and industrial character perfect for moody atmospheric shots.",
-        "difficulty": "Intermediate",
-        "bestTime": "Overcast days eliminate harsh shadows and highlight texture",
-        "category": "Architecture"
-      },
-      {
-        "name": "Ohio City Street Art Alleys",
-        "description": "Colorful murals and graffiti art on industrial buildings creating vibrant street photography subjects.",
-        "difficulty": "Beginner",
-        "bestTime": "Overcast conditions for even lighting on murals",
+        "bestTime": "Mid-day for even lighting on wall art",
         "category": "Street"
       },
       {
-        "name": "Cleveland Botanical Garden Glass House",
-        "description": "Dramatic greenhouse structure photographed from exterior with lush interior plants visible through glass panels.",
+        "name": "Cleveland Museum of Art Courtyard",
+        "description": "Modern architectural courtyard with clean lines, sculptures, and artistic installations.",
         "difficulty": "Intermediate",
-        "bestTime": "Midday with bright sky for glass reflections and interior detail visibility",
+        "bestTime": "Midday for geometric shadow patterns",
         "category": "Architecture"
       },
       {
-        "name": "Cuyahoga River Valley Ledges",
-        "description": "Scenic river gorge with dramatic rock formations, forested hillsides, and cascading water in Cuyahoga Valley National Park.",
-        "difficulty": "Advanced",
-        "bestTime": "Fall for autumn foliage or spring for water flow from snowmelt",
-        "category": "Landscape"
-      },
-      {
-        "name": "University Circle Green Space",
-        "description": "Tree-lined walkways, museum facades, and seasonal gardens creating layered compositional depth.",
+        "name": "Lake Erie Waterfront at Edgewater Beach",
+        "description": "Sandy beach with water reflections, local wildlife, and industrial harbor elements.",
         "difficulty": "Beginner",
-        "bestTime": "Spring for blooming trees or fall for golden foliage",
+        "bestTime": "Golden hour for water reflections",
         "category": "Landscape"
       },
       {
-        "name": "Lake Erie Sunrise from Whiskey Island",
-        "description": "Industrial waterfront with shipping infrastructure silhouetted against pink and orange sky.",
+        "name": "Little Italy Storefronts and Street Life",
+        "description": "Historic Italian neighborhood with traditional storefronts, hanging lights, and authentic community atmosphere.",
         "difficulty": "Intermediate",
-        "bestTime": "Clear mornings 30 minutes before sunrise through first light",
+        "bestTime": "Evening for atmospheric lighting and street activity",
+        "category": "Street"
+      },
+      {
+        "name": "Terminal Tower and Guardian Building Details",
+        "description": "Art Deco architectural masterpiece with intricate tile work, ornamental details, and geometric patterns.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for clear architectural detail visibility",
+        "category": "Architecture"
+      },
+      {
+        "name": "Tremont Street Tree Canopy",
+        "description": "Tree-lined residential street with Victorian homes, creating natural canopy and dappled light patterns.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm canopy light",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Whiskey Island Overlook",
-      "Edgewater Park East Beach",
-      "Huntington Beach Park"
+      "Edgewater Beach",
+      "Voinovich Park",
+      "Rock and Roll Hall of Fame Waterfront"
     ],
     "sunsetSpots": [
-      "Edgewater Beach Pier",
-      "Wendy Park Lakefront",
-      "Whiskey Island Point"
+      "Edgewater Beach",
+      "Voinovich Park",
+      "Lake View Cemetery Overlook"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for architectural monuments and expansive lake vistas",
-      "50mm f/1.8 for street photography and intimate portraits at West Side Market",
-      "70-200mm telephoto for compressed river gorge compositions in Cuyahoga Valley",
-      "10-24mm for dramatic water reflections at piers and underpass geometry"
+      "16-35mm wide-angle for architectural shots and landscape expanses",
+      "50mm prime for street photography and portrait work in urban settings",
+      "70-200mm telephoto for compressing skyline elements and waterfront details",
+      "Macro lens for market details and intricate architectural ornaments"
     ],
-    "goldenHourNotes": "Cleveland's lake position makes golden hour particularly stunning, with warm light reflecting off Lake Erie and the Cuyahoga River. Sunsets over water are predictable and dramatic April through October, while winter sunsets occur earlier offering alternative city silhouette opportunities. Sunrise photography is less crowded but equally rewarding, especially from lakefront parks where water amplifies early light.",
+    "goldenHourNotes": "Cleveland's waterfront location provides exceptional golden hour light reflecting off Lake Erie, creating warm tones on architectural surfaces and water reflections. The low angle sun during sunrise and sunset creates dramatic shadows on the urban landscape, particularly in the downtown core. Winter golden hours extend longer, providing extended shooting windows.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -369,12 +373,12 @@
       {
         "month": 1,
         "avgTempC": -3,
-        "rainfallMM": 58
+        "rainfallMM": 51
       },
       {
         "month": 2,
         "avgTempC": -2,
-        "rainfallMM": 53
+        "rainfallMM": 46
       },
       {
         "month": 3,
@@ -383,81 +387,82 @@
       },
       {
         "month": 4,
-        "avgTempC": 13,
-        "rainfallMM": 84
-      },
-      {
-        "month": 5,
-        "avgTempC": 19,
+        "avgTempC": 10,
         "rainfallMM": 91
       },
       {
+        "month": 5,
+        "avgTempC": 16,
+        "rainfallMM": 89
+      },
+      {
         "month": 6,
-        "avgTempC": 24,
+        "avgTempC": 21,
         "rainfallMM": 97
       },
       {
         "month": 7,
-        "avgTempC": 26,
-        "rainfallMM": 86
+        "avgTempC": 23,
+        "rainfallMM": 89
       },
       {
         "month": 8,
-        "avgTempC": 25,
-        "rainfallMM": 79
+        "avgTempC": 22,
+        "rainfallMM": 84
       },
       {
         "month": 9,
-        "avgTempC": 21,
+        "avgTempC": 19,
         "rainfallMM": 81
       },
       {
         "month": 10,
-        "avgTempC": 15,
-        "rainfallMM": 74
+        "avgTempC": 13,
+        "rainfallMM": 76
       },
       {
         "month": 11,
-        "avgTempC": 8,
-        "rainfallMM": 84
+        "avgTempC": 7,
+        "rainfallMM": 86
       },
       {
         "month": 12,
-        "avgTempC": 1,
-        "rainfallMM": 69
+        "avgTempC": 0,
+        "rainfallMM": 58
       }
     ],
     "bestMonths": [
       5,
       6,
-      9,
-      10
+      7,
+      8,
+      9
     ],
-    "seasonality": "Cleveland experiences distinct seasons with cold, snowy winters from December through March and mild summers June through August. Spring (May) and fall (September-October) offer ideal conditions with moderate temperatures and less precipitation.",
-    "summary": "Cleveland's lake effect climate brings variable weather year-round with significant snowfall December through February. Summer temperatures average 24-26°C with occasional humidity, while spring and fall provide pleasant 13-21°C conditions perfect for outdoor activities and sightseeing."
+    "seasonality": "Cleveland experiences four distinct seasons with cold, snowy winters and warm, mild summers. The best time to visit is late spring through early fall when temperatures are comfortable and the waterfront is most active.",
+    "summary": "Expect cold winters with occasional heavy snow and mild to warm summers with moderate humidity. Spring and fall offer pleasant temperatures with autumn foliage being particularly beautiful around the lake."
   },
   "hotels": [
     {
-      "name": "HI Cleveland Downtown Hostel",
+      "name": "Red Roof Inn Cleveland Downtown",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 45,
+      "pricePerNightUSD": 75,
       "category": "Budget",
-      "description": "Affordable hostel near Playhouse Square with dorm beds and private rooms, plus communal kitchen and social atmosphere."
+      "description": "No-frills budget hotel with basic amenities, central downtown location near Public Square and Playhouse Square."
     },
     {
-      "name": "Renaissance Cleveland Downtown Hotel",
-      "neighborhood": "Downtown Warehouse District",
-      "pricePerNightUSD": 160,
-      "category": "Mid-range",
-      "description": "Modern 4-star hotel in historic building with rooftop bar views, fitness center, and walking distance to Rock Hall and restaurants."
-    },
-    {
-      "name": "The Ritz-Carlton Cleveland",
+      "name": "Hilton Cleveland Downtown",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 380,
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Contemporary mid-range hotel with comfortable rooms, fitness center, and convenient access to museums, dining, and entertainment venues."
+    },
+    {
+      "name": "Renaissance Cleveland Hotel",
+      "neighborhood": "Downtown Waterfront",
+      "pricePerNightUSD": 350,
       "category": "Luxury",
-      "description": "Ultra-luxury 5-star hotel with lake views, fine dining, spa, and impeccable service in the heart of downtown near all major attractions."
+      "description": "Upscale waterfront hotel with elegant rooms, world-class amenities, spa services, and direct views of Lake Erie and the waterfront promenade."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1604173413099-cd2b0493bb7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDbGV2ZWxhbmQlMjBza3lsaW5lJTIwbGFrZXxlbnwxfDB8fHwxNzgxMzAzMjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1618972677328-9cd129a74c14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxDbGV2ZWxhbmQlMjByb2NrJTIwaGFsbCUyMG11c2ljfGVufDF8MHx8fDE3ODE2MjgwMTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
 }

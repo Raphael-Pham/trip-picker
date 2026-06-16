@@ -1,0 +1,465 @@
+{
+  "id": "bowling-green-usa",
+  "city": "Bowling Green",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "BNA",
+    "SDF",
+    "MEM"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 78,
+    "food": 72,
+    "photography": 68,
+    "activities": 75,
+    "weather": 70
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 300
+    }
+  ],
+  "unsplashQuery": "Bowling Green Kentucky landscape",
+  "summary": "Bowling Green offers a charming blend of college town energy, bourbon heritage, and genuine Southern hospitality in the heart of Kentucky. Home to Western Kentucky University and the renowned National Corvette Museum, this affordable destination delivers surprising cultural richness and outdoor recreation opportunities alongside authentic local charm.",
+  "restaurants": [
+    {
+      "name": "The Bakery Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining featuring contemporary American cuisine crafted from locally sourced ingredients. An elegant destination perfect for special occasions with an extensive wine selection.",
+      "mustTry": "Pan-seared duck breast with seasonal vegetables"
+    },
+    {
+      "name": "Mansfield's Bar & Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Classic steakhouse with warm ambiance and attentive service, offering premium beef cuts and local craft cocktails. Perfect for celebrating memorable meals in a relaxed upscale setting.",
+      "mustTry": "Ribeye steak with loaded mashed potatoes"
+    },
+    {
+      "name": "Sakura Japanese Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Authentic Japanese cuisine with skilled sushi chefs and an impressive selection of sake and Japanese beers. The teppanyaki station provides theatrical dining entertainment.",
+      "mustTry": "Rainbow roll and teppanyaki shrimp"
+    },
+    {
+      "name": "Mojo Asian Cuisine",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Pan-Asian restaurant blending Vietnamese, Thai, and Chinese flavors with vibrant presentation and fresh ingredients. A favorite for fusion dishes and creative cocktails.",
+      "mustTry": "Crispy duck with mango sauce and pad thai"
+    },
+    {
+      "name": "Goro Ramen",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Japanese ramen house serving authentic broths simmered for hours with fresh noodles and quality toppings. Affordable, flavorful, and perfect for quick satisfying meals.",
+      "mustTry": "Tonkotsu ramen with chashu pork"
+    },
+    {
+      "name": "Proof on Main",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Sophisticated bourbon bar and restaurant showcasing Kentucky's most celebrated spirits paired with elevated pub fare. An essential experience for bourbon enthusiasts.",
+      "mustTry": "Kentucky hot brown with bourbon glaze"
+    },
+    {
+      "name": "Martin's Bar and Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Neighborhood favorite featuring comfort food classics and regional specialties in a warm, welcoming atmosphere. Known for generous portions and friendly service.",
+      "mustTry": "Fried chicken dinner with buttermilk biscuits"
+    },
+    {
+      "name": "Cousin Louie's Burgers",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local burger joint beloved for hand-pressed patties, fresh toppings, and crispy fries made to order. A genuine taste of classic American diner culture.",
+      "mustTry": "The Louie burger with caramelized onions"
+    },
+    {
+      "name": "Trattoria Romana",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Cozy Italian restaurant serving traditional Roman and regional Italian dishes with authentic recipes passed down through generations. Handmade pasta and imported ingredients ensure authentic flavors.",
+      "mustTry": "Cacio e pepe and osso buco"
+    },
+    {
+      "name": "Nanas Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Family-owned pizzeria crafting wood-fired pizzas with fresh dough and quality toppings in a casual, nostalgic setting. A local institution for affordable, delicious pizza.",
+      "mustTry": "The Nanas special with prosciutto and fresh basil"
+    },
+    {
+      "name": "The Curd",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual eatery specializing in loaded cheese curds, gourmet tacos, and craft beer selection in a fun, unpretentious environment. Perfect for late-night cravings and beer enthusiasts.",
+      "mustTry": "Poutine cheese curds with truffle oil"
+    },
+    {
+      "name": "Jeff's Italian Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Fine Italian dining establishment featuring an impressive wine cellar and sophisticated preparations of classic and contemporary Italian dishes. An elegant choice for memorable evenings.",
+      "mustTry": "Filet mignon wrapped in prosciutto with black truffle sauce"
+    }
+  ],
+  "activities": [
+    {
+      "name": "National Corvette Museum",
+      "category": "Indoor",
+      "description": "World-class museum housing over 80 Corvettes spanning nearly 70 years of automotive history and innovation. Interactive exhibits and behind-the-scenes tours reveal the engineering and cultural significance of America's sports car icon.",
+      "durationHours": 3,
+      "estimatedCostUSD": 17,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lost River Cave",
+      "category": "Outdoor",
+      "description": "Underground cave system featuring boat tours along an underground river with stunning geological formations and rich history. The cave maintains a cool 54°F year-round with mysterious chambers and ancient stalactites.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Western Kentucky University Campus Tour",
+      "category": "Cultural",
+      "description": "Explore a beautiful 235-acre campus with historic buildings, vibrant student culture, and notable architectural styles. Free self-guided tours available with informative signage throughout the grounds.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Downtown Bowling Green Walking Tour",
+      "category": "Outdoor",
+      "description": "Historic downtown district featuring Victorian architecture, local shops, galleries, and murals reflecting regional culture and history. Perfect for photography, dining, and discovering local artisan businesses.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "standard",
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Historic Railpark & Train Museum",
+      "category": "Cultural",
+      "description": "Unique museum featuring vintage railroad cars and locomotives that visitors can explore, offering glimpses into transportation history. Educational exhibits detail regional rail heritage and engineering advances.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Beech Bend Amusement Park",
+      "category": "Family",
+      "description": "Family entertainment complex with roller coasters, water park, go-kart racing, and arcade games suitable for all ages. Seasonal operation with special events and entertainment throughout the year.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "family"
+      ]
+    },
+    {
+      "name": "Mammoth Cave National Park Day Trip",
+      "category": "Adventure",
+      "description": "World's longest known cave system located 30 minutes away with spectacular stalactites, underground rivers, and guided cave expeditions of varying difficulty. UNESCO World Heritage Site with ancient Native American history.",
+      "durationHours": 6,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Barren River Fishing & Kayaking",
+      "category": "Outdoor",
+      "description": "Serene river activities offering kayak rentals, fishing opportunities, and scenic paddling through natural landscapes. Multiple access points with varying difficulty levels and wildlife viewing potential.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Hobdy Arch Nature Preserve",
+      "category": "Outdoor",
+      "description": "Scenic hiking destination featuring diverse trails through forests and meadows with a historic natural stone arch formation. Well-maintained paths offering solitude and close encounters with native flora and fauna.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "SKY ZONE Bowling Green Trampoline Park",
+      "category": "Family",
+      "description": "Indoor trampoline facility offering open jump times, dodgeball courts, and foam pits for active recreation. Air conditioning makes it ideal during hot months while providing year-round entertainment.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "family",
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Bowling Green Hot Air Balloon Tours",
+      "category": "Adventure",
+      "description": "Sunrise balloon flights over rural Kentucky landscape offering breathtaking aerial views and unique photography opportunities. Professional pilots provide smooth flights with champagne celebrations upon landing.",
+      "durationHours": 4,
+      "estimatedCostUSD": 250,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Local Farmers Market & Food Tours",
+      "category": "Foodie",
+      "description": "Seasonal farmers market featuring local produce, artisan goods, and food samples from regional producers. Food tour guides connect visitors with local restaurants and agricultural heritage of the region.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "hidden-gems"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "National Corvette Museum exterior and grounds",
+        "description": "Modern architectural lines against landscaped grounds offering striking shots of automotive design and sculpture installations.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lost River Cave entrance and surrounding cliffs",
+        "description": "Dramatic limestone formations creating natural framing with cascading water features ideal for landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning overcast days",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic downtown Bowling Green murals and Victorian buildings",
+        "description": "Colorful street art and ornate 19th-century architecture providing urban character and compositional depth.",
+        "difficulty": "Beginner",
+        "bestTime": "Afternoon sidelighting",
+        "category": "Street"
+      },
+      {
+        "name": "Beech Bend Amusement Park at dusk",
+        "description": "Illuminated rides and carnival lights create vibrant nighttime atmosphere perfect for long exposure photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset through twilight hours",
+        "category": "Night"
+      },
+      {
+        "name": "Barren River at sunrise with mist",
+        "description": "Serene water reflections and atmospheric morning mist create ethereal landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Pre-dawn to sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Railpark vintage locomotives and cars",
+        "description": "Weathered metal surfaces and industrial geometry provide textural and compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days reduce harsh shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Western Kentucky University campus quad",
+        "description": "Manicured grounds with historic architecture and autumn foliage creating picturesque institutional aesthetics.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Hobdy Arch natural stone formation",
+        "description": "Dramatic geological formation framed by forest canopy offering unique natural arch compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dappled morning light filtering through trees",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown street corner storefronts and local shops",
+        "description": "Vintage signage, window displays, and authentic small-town commerce create nostalgic street photography subjects.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon sidelighting",
+        "category": "Street"
+      },
+      {
+        "name": "Mammoth Cave entrance and surrounding forest",
+        "description": "Cave opening framed by towering trees and rock formations creates dramatic entrance compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning soft light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Barren River Park overlook",
+      "Lost River Cave area eastern viewpoint",
+      "Hobdy Arch hiking trail clearing"
+    ],
+    "sunsetSpots": [
+      "Western Kentucky University campus grounds",
+      "Beech Bend Amusement Park elevated area",
+      "Downtown Bowling Green main street elevated perspective"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape vistas and cave formations",
+      "50mm prime for street photography and architectural details",
+      "70-200mm telephoto for compressed architectural perspectives and wildlife",
+      "24-70mm versatile zoom for varied composition flexibility"
+    ],
+    "goldenHourNotes": "Bowling Green's rural surroundings provide excellent golden hour opportunities, particularly around Barren River and Lost River Cave. Early morning light softly illuminates historic downtown architecture while late afternoon sidelighting emphasizes texture on Victorian facades and natural formations. The relatively low pollution and clear sky create vibrant warm tones during extended golden hour periods.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 2,
+        "rainfallMM": 98
+      },
+      {
+        "month": 2,
+        "avgTempC": 4,
+        "rainfallMM": 102
+      },
+      {
+        "month": 3,
+        "avgTempC": 10,
+        "rainfallMM": 115
+      },
+      {
+        "month": 4,
+        "avgTempC": 16,
+        "rainfallMM": 129
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 133
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 117
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 119
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 107
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 105
+      },
+      {
+        "month": 10,
+        "avgTempC": 17,
+        "rainfallMM": 88
+      },
+      {
+        "month": 11,
+        "avgTempC": 11,
+        "rainfallMM": 116
+      },
+      {
+        "month": 12,
+        "avgTempC": 4,
+        "rainfallMM": 108
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring and fall offer the most pleasant temperatures ranging from 15-21°C with moderate rainfall, ideal for outdoor exploration. Summer brings heat and humidity (26-28°C) while winter is cold and wet with occasional snow, though cave systems remain 54°F year-round.",
+    "summary": "Bowling Green experiences a continental climate with four distinct seasons. Mild springs and autumns are perfect for visiting, while summer tourism peaks despite heat, and winter activities focus on indoor attractions."
+  },
+  "hotels": [
+    {
+      "name": "Motel 6 Bowling Green",
+      "neighborhood": "Near Highway 65",
+      "pricePerNightUSD": 59,
+      "category": "Budget",
+      "description": "No-frills budget accommodation with clean rooms, free WiFi, and pet-friendly policy at economical rates perfect for travelers prioritizing cost savings."
+    },
+    {
+      "name": "Guesthouse Inn and Suites Bowling Green",
+      "neighborhood": "Downtown proximity",
+      "pricePerNightUSD": 95,
+      "category": "Mid-range",
+      "description": "Comfortable all-suite hotel offering complimentary breakfast, spacious rooms with kitchenettes, and convenient access to downtown restaurants and attractions."
+    },
+    {
+      "name": "Lamplight Boutique Hotel",
+      "neighborhood": "Historic downtown district",
+      "pricePerNightUSD": 185,
+      "category": "Luxury",
+      "description": "Upscale boutique hotel featuring individually designed suites, on-site restaurant and bar, and personalized concierge service in a restored historic building."
+    }
+  ]
+}

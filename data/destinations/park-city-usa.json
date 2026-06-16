@@ -1,0 +1,465 @@
+{
+  "id": "park-city-usa",
+  "city": "Park City",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SLC",
+    "PVT"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 25,
+    "food": 82,
+    "photography": 88,
+    "activities": 90,
+    "weather": 75
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 200
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 350
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 350,
+      "maxPerDayUSD": 800
+    }
+  ],
+  "unsplashQuery": "Park City ski resort mountains",
+  "summary": "Park City is a world-class ski destination and year-round mountain resort nestled in the Wasatch Range of Utah, famous for hosting the 2002 Winter Olympics and offering exceptional skiing, hiking, and cultural experiences. Beyond winter sports, the charming historic Main Street features galleries, shops, and acclaimed restaurants, while summer brings outdoor adventures like mountain biking, alpine hiking, and the Sundance Film Festival nearby. The destination blends outdoor recreation with sophisticated dining and arts, making it an ideal escape for adventure seekers and relaxation enthusiasts alike.",
+  "restaurants": [
+    {
+      "name": "Riverhorse on Main",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Award-winning steakhouse housed in a historic building on Main Street, featuring prime cuts and an extensive wine collection. Known for impeccable service and a sophisticated atmosphere perfect for special occasions.",
+      "mustTry": "Prime ribeye with truffle butter"
+    },
+    {
+      "name": "Zoom Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American cuisine in an intimate setting with locally-sourced ingredients and creative seasonal menus. The historic railroad depot setting adds charm to the dining experience.",
+      "mustTry": "House-cured charcuterie board"
+    },
+    {
+      "name": "Grappa",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Northern Italian restaurant celebrating regional Italian cuisine with handmade pastas and imported ingredients. An elegant dining room with warm ambiance makes it ideal for romantic dinners.",
+      "mustTry": "Wild boar ragu pappardelle"
+    },
+    {
+      "name": "Blind Dog Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual gastropub with creative burgers, wood-fired pizzas, and craft beers in a relaxed ski lodge atmosphere. Popular among locals and visitors for hearty, satisfying meals.",
+      "mustTry": "Smoked brisket burger"
+    },
+    {
+      "name": "The Viking Yurt",
+      "category": "Local Specialty",
+      "priceRange": "$$$",
+      "description": "Unique dining experience in an Alaskan yurt with communal Nordic-inspired cuisine and warming food perfect for cold mountain nights. An unforgettable setting combining adventure with culinary excellence.",
+      "mustTry": "Multi-course Nordic tasting menu"
+    },
+    {
+      "name": "Butcher's Block",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary restaurant showcasing high-quality meats and locally-sourced ingredients in a modern setting. Focus on grilled preparations and classic techniques with seasonal variations.",
+      "mustTry": "Dry-aged steak with chimichurri"
+    },
+    {
+      "name": "Shabu",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Japanese hot pot restaurant offering interactive dining where guests cook their own selections of premium meats and vegetables in aromatic broths. Fun, casual atmosphere great for groups.",
+      "mustTry": "Wagyu beef hot pot with dashi broth"
+    },
+    {
+      "name": "Morning Glory Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite coffee shop on Main Street serving excellent espresso drinks, pastries, and light breakfast fare. Perfect spot to grab breakfast before hitting the slopes.",
+      "mustTry": "Lavender latte with croissant"
+    },
+    {
+      "name": "Baja Sol Tortilla Grill",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Mexican grill with fresh ingredients, customizable burritos, tacos, and bowls at reasonable prices. Quick service and generous portions make it perfect for lunch.",
+      "mustTry": "Carnitas burrito with black beans"
+    },
+    {
+      "name": "No Name Saloon",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic Park City saloon with pub food, local beers, and lively atmosphere featuring live music and events. An authentic local hangout capturing Park City's mining heritage.",
+      "mustTry": "Fish and chips with house beer"
+    },
+    {
+      "name": "Kimchi House",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Cozy Korean restaurant offering authentic bibimbap, Korean fried chicken, and ramen at accessible prices. Quick casual service perfect for après-ski dining.",
+      "mustTry": "Korean fried chicken with gochujang sauce"
+    },
+    {
+      "name": "Silver King Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mountain lodge dining with hearty American fare, steaks, and seafood with scenic mountain views. Known for comfort food and warm hospitality in a rustic-elegant setting.",
+      "mustTry": "Pan-seared halibut with seasonal vegetables"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Skiing at Park City Mountain",
+      "category": "Adventure",
+      "description": "World-class ski resort with 3,500+ acres of terrain across two mountains, offering runs for all skill levels from beginner to expert. Home of the 2002 Winter Olympics, featuring modern lift systems and diverse terrain parks.",
+      "durationHours": 8,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Mountain Biking on Local Trails",
+      "category": "Outdoor",
+      "description": "Extensive network of trails ranging from gentle cross-country routes to technical downhill tracks through aspen groves and mountain meadows. Summer season offers guided rides and trail access from Park City Mountain's lift system.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Historic Main Street Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of Park City's charming Main Street, featuring Victorian-era buildings, art galleries, boutique shops, and excellent restaurants. Discover the town's mining heritage and contemporary arts scene.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Hiking to Mirrorlike Trails",
+      "category": "Outdoor",
+      "description": "Scenic trails offering alpine meadows, wildflower displays, and panoramic mountain views accessible from Park City. Options range from easy walks to challenging alpine summits.",
+      "durationHours": 5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Art Gallery and Museum Visits",
+      "category": "Cultural",
+      "description": "Park City boasts numerous art galleries, the Park City Museum documenting mining history, and rotating contemporary art exhibits. The town's creative community is reflected in street art and seasonal festivals.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Sundance Resort Scenic Lift Ride",
+      "category": "Outdoor",
+      "description": "Scenic chairlift ride at nearby Sundance Mountain Resort providing panoramic views of the Wasatch Range and Utah Valley. Accessible in summer and fall for photography and picnicking.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Park City Farmers Market",
+      "category": "Family",
+      "description": "Seasonal farmers market on Main Street featuring local produce, artisan goods, crafts, and live music every Saturday morning. Great for sampling local flavors and supporting community vendors.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Snowshoeing and Cross-Country Skiing",
+      "category": "Adventure",
+      "description": "Winter activities through pristine snow-covered forests and meadows, with trails for all ability levels near Park City. Peaceful outdoor experience with stunning seasonal landscapes.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Gold Rush Mineshaft Tour",
+      "category": "Cultural",
+      "description": "Guided tour descending into an authentic 1,500-foot-deep mineshaft from Park City's silver mining era, learning about mining operations and local history. Educational experience combining history and adventure.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Horseback Riding in Mountain Terrain",
+      "category": "Adventure",
+      "description": "Guided horseback rides through scenic mountain trails suitable for various experience levels, offering authentic Western experiences. Options available for both summer and winter adventures.",
+      "durationHours": 3,
+      "estimatedCostUSD": 100,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Evening Concert and Summer Festival",
+      "category": "Nightlife",
+      "description": "Park City hosts numerous summer and year-round events including concerts, Shakespeare festivals, and the Sundance Film Festival. Check event calendars for live performances and cultural celebrations.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Aerial Tramway Ride and Scenic Overlook",
+      "category": "Outdoor",
+      "description": "Scenic open-air gondola ride providing dramatic bird's-eye views of Park City, surrounding mountains, and Utah Valley. Perfect for photography, picnicking, or casual mountain appreciation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "photography",
+        "relaxation",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Park City Main Street at Sunset",
+        "description": "Historic Victorian buildings with warm golden lighting and charming storefronts reflecting the town's character and mining heritage.",
+        "difficulty": "Beginner",
+        "bestTime": "1 hour before sunset for golden light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Mirrorlike Aspen Grove Trails",
+        "description": "Golden aspen trees creating natural frames and reflective meadow waters perfect for landscape and nature photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Fall mornings with soft backlighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Ski Slopes at Dawn",
+        "description": "Freshly groomed slopes with morning mist and dramatic alpine peaks creating dynamic landscape compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "First light in winter months",
+        "category": "Landscape"
+      },
+      {
+        "name": "Park City Mountain Chairlifts",
+        "description": "Metal structures and cable systems against mountain backdrops offering geometric and industrial photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm tones on metal",
+        "category": "Architecture"
+      },
+      {
+        "name": "Wildflower Meadows",
+        "description": "Alpine meadows bursting with colorful wildflowers in summer with mountain peaks providing layered backgrounds.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-summer morning light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Park City Historic Mining Buildings",
+        "description": "Weathered wooden structures and abandoned mining equipment providing texture-rich photography subjects with rustic character.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days for even lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Utah Valley Aerial Views",
+        "description": "Expansive valley vistas from elevated positions showing layered mountain ranges and seasonal color variations.",
+        "difficulty": "Beginner",
+        "bestTime": "Clear days in spring or fall",
+        "category": "Landscape"
+      },
+      {
+        "name": "Nighttime Main Street Lights",
+        "description": "Illuminated storefronts, street lamps, and architectural details creating colorful urban night photography scenes.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes after sunset",
+        "category": "Night"
+      },
+      {
+        "name": "Sundance Mountain Streams",
+        "description": "Crystal-clear flowing water with moss-covered rocks and forest backdrops perfect for long-exposure photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast mornings with soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Snow-Covered Pine Forests",
+        "description": "Frosted trees and snow-laden branches creating geometric patterns and winter wonderland compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Fresh snow mornings with soft light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Ski slopes at Park City Mountain",
+      "Bald Mountain summit",
+      "Snowshoe to Flagstaff Peak"
+    ],
+    "sunsetSpots": [
+      "Park City Main Street",
+      "Sundance Mountain overlook",
+      "Mirrorlike Lake Trail viewpoint"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for landscape vistas and mountain panoramas",
+      "24-70mm standard zoom for versatile street and architectural photography",
+      "70-200mm telephoto for compressed mountain range compositions and wildlife",
+      "14mm ultra-wide for dramatic alpine scenery and sky-scaping"
+    ],
+    "goldenHourNotes": "Park City's high elevation and mountain topography create extended golden hours with rich warm tones lasting 90+ minutes. The aspen groves and historic Main Street particularly benefit from this period, with buildings and foliage glowing intensely. Winter provides especially dramatic golden hour effects due to snow reflection and low sun angles.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -6,
+        "rainfallMM": 38
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 35
+      },
+      {
+        "month": 3,
+        "avgTempC": -2,
+        "rainfallMM": 43
+      },
+      {
+        "month": 4,
+        "avgTempC": 5,
+        "rainfallMM": 48
+      },
+      {
+        "month": 5,
+        "avgTempC": 12,
+        "rainfallMM": 51
+      },
+      {
+        "month": 6,
+        "avgTempC": 19,
+        "rainfallMM": 46
+      },
+      {
+        "month": 7,
+        "avgTempC": 24,
+        "rainfallMM": 53
+      },
+      {
+        "month": 8,
+        "avgTempC": 23,
+        "rainfallMM": 51
+      },
+      {
+        "month": 9,
+        "avgTempC": 18,
+        "rainfallMM": 41
+      },
+      {
+        "month": 10,
+        "avgTempC": 10,
+        "rainfallMM": 46
+      },
+      {
+        "month": 11,
+        "avgTempC": 2,
+        "rainfallMM": 43
+      },
+      {
+        "month": 12,
+        "avgTempC": -5,
+        "rainfallMM": 41
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      12,
+      1,
+      2
+    ],
+    "seasonality": "Winter (December-March) brings world-class skiing with consistent snow at 7,000+ foot elevation, while summer (June-September) offers ideal hiking, mountain biking, and outdoor activities with mild temperatures. Shoulder seasons provide fewer crowds but variable conditions; fall features stunning golden aspen displays.",
+    "summary": "Park City experiences a high-altitude mountain climate with cold, snowy winters ideal for skiing and cool, pleasant summers perfect for outdoor recreation. Spring and fall offer beautiful transitions with changing foliage and moderate temperatures, though they can be unpredictable."
+  },
+  "hotels": [
+    {
+      "name": "The Park City Peaks Hotel",
+      "neighborhood": "Kimball Junction",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Modern budget hotel conveniently located near Park City Mountain with clean rooms, complimentary continental breakfast, and easy ski access at affordable rates."
+    },
+    {
+      "name": "St. Regis Deer Valley",
+      "neighborhood": "Deer Valley",
+      "pricePerNightUSD": 350,
+      "category": "Mid-range",
+      "description": "Upscale ski-in/ski-out resort with spa facilities, multiple dining options, and slope-side accommodations combining luxury with convenient mountain access."
+    },
+    {
+      "name": "The Chateaux at Silver Lake",
+      "neighborhood": "Silver Lake",
+      "pricePerNightUSD": 650,
+      "category": "Luxury",
+      "description": "Ultra-luxury lakeside resort featuring five-star amenities, Michelin-worthy dining, world-class spa, and private lake access with impeccable service and stunning mountain views."
+    }
+  ]
+}

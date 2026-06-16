@@ -5,30 +5,31 @@
   "region": "North America",
   "airportCodes": [
     "MEX",
-    "CUN",
-    "PUJ"
+    "NLU",
+    "CJS"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
     "surprise",
+    "hidden-gems",
     "photography",
     "foodie",
     "adventure",
-    "cultural"
+    "relaxation"
   ],
   "scores": {
     "cost": 72,
     "food": 95,
-    "photography": 88,
-    "activities": 92,
+    "photography": 92,
+    "activities": 93,
     "weather": 78
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 40,
-      "maxPerDayUSD": 70
+      "minPerDayUSD": 35,
+      "maxPerDayUSD": 60
     },
     {
       "level": "mid",
@@ -38,431 +39,430 @@
     {
       "level": "luxury",
       "minPerDayUSD": 200,
-      "maxPerDayUSD": 400
+      "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Mexico City Zocalo colonial",
-  "summary": "Mexico City is a vibrant mega-metropolis blending pre-Columbian history, Spanish colonial architecture, and cutting-edge contemporary culture. World-class museums, legendary street food, and iconic neighborhoods like Coyoacán and Roma make it one of North America's most dynamic destinations. The city's high altitude offers comfortable temperatures year-round and stunning photographic opportunities at every turn.",
+  "unsplashQuery": "Mexico City street art",
+  "summary": "Mexico City is a vibrant metropolis where ancient Aztec ruins coexist with world-class museums, cutting-edge cuisine, and colonial architecture at nearly 7,400 feet elevation. As one of the world's largest cities, it offers endless cultural experiences, exceptional street food, and stunning photography opportunities at every corner. The city's energy, creativity, and culinary scene make it a must-visit destination for travelers seeking authentic experiences.",
   "restaurants": [
     {
       "name": "Pujol",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "One of Latin America's top restaurants, Pujol showcases innovative Mexican cuisine with seasonal tasting menus in an intimate setting.",
-      "mustTry": "Mole negro with escamoles"
+      "description": "One of Latin America's finest restaurants offering innovative Mexican cuisine. Chef Enrique Olvera combines traditional techniques with modern creativity.",
+      "mustTry": "Corn silk with fine herbs"
     },
     {
       "name": "Contramar",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Seafood-focused fine dining in a stunning colonial hacienda setting, known for fresh ceviche and wood-fired preparations.",
-      "mustTry": "Grilled whole fish with herb butter"
+      "priceRange": "$$$",
+      "description": "Beachfront seafood restaurant in Coyoacán with stunning views and fresh daily catches. Known for grilled fish and exceptional desserts.",
+      "mustTry": "Grilled fish with cilantro sauce"
     },
     {
       "name": "Quintonil",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Chef Jorge Vallejo's acclaimed restaurant featuring contemporary Mexican cuisine with artistic plating and exceptional wine pairings.",
-      "mustTry": "White corn consommé with chicken and mushrooms"
+      "description": "Chef Jorge Vallejo's tasting menu restaurant featuring refined Mexican gastronomy. Focused on seasonal ingredients and artistic presentation.",
+      "mustTry": "Chef's tasting menu"
+    },
+    {
+      "name": "Taquería Los Cocuyos",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic street taquería in La Roma serving traditional tacos al pastor and carnitas. Popular with locals for breakfast and late-night meals.",
+      "mustTry": "Tacos al pastor"
+    },
+    {
+      "name": "Casa de los Azulejos",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic restaurant in a stunning colonial palace with traditional Mexican cuisine. Beautiful courtyard dining experience.",
+      "mustTry": "Chiles rellenos"
+    },
+    {
+      "name": "Guzina Oaxaca",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual spot in La Roma specializing in Oaxacan cuisine and mole varieties. Colorful, bohemian atmosphere.",
+      "mustTry": "Mole negro with chicken"
+    },
+    {
+      "name": "Mexca",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Mexican restaurant celebrating indigenous ingredients and pre-Hispanic cooking methods. Intimate tasting experience.",
+      "mustTry": "Cochinita pibil"
     },
     {
       "name": "El Cardenal",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Traditional Mexican cuisine in a charming colonial-style setting, famous for their enchiladas and chiles rellenos.",
+      "priceRange": "$$",
+      "description": "Traditional Mexican restaurant in the Historic Center with elegant service and classic recipes. Popular for business lunches.",
       "mustTry": "Sopa de tortilla"
     },
     {
-      "name": "Café de Tacuba",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Iconic restaurant showcasing regional Mexican dishes from across the country in a historic building near the Zócalo.",
-      "mustTry": "Chiles en nogada"
+      "name": "Mercado de San Juan",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Historic market with dozens of food stalls offering authentic street food and fresh produce. Best visited early morning.",
+      "mustTry": "Quesadillas and fresh juices"
     },
     {
-      "name": "Contramar",
+      "name": "Pujol Cantina",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Casual Mexican grill in Coyoacán serving authentic slow-roasted meats and fresh seafood with neighborhood charm.",
-      "mustTry": "Carne asada tacos"
+      "description": "More casual concept from Pujol team featuring traditional Mexican fare in relaxed setting. Great for lunch.",
+      "mustTry": "Pulpo a la Gallega"
     },
     {
-      "name": "Mercado de la Merced",
+      "name": "Corazón de Maguey",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Massive traditional market with countless food stalls offering authentic Mexican street food, tamales, and regional specialties.",
-      "mustTry": "Tamales and fresh jugos"
+      "description": "Authentic pulquería serving traditional fermented agave drink with hearty botanas. Bohemian, artistic crowd.",
+      "mustTry": "Pulque with seasonal fruit"
     },
     {
-      "name": "Taquería Los Cocuyos",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "No-frills taquería serving exceptional carnitas and barbacoa tacos with fresh handmade tortillas and lime.",
-      "mustTry": "Barbacoa tacos with consomé"
-    },
-    {
-      "name": "Fondas del Recuerdo",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Chain of traditional fondas serving home-style Mexican comfort food at excellent value throughout the city.",
-      "mustTry": "Mole poblano with chicken"
-    },
-    {
-      "name": "Balche",
-      "category": "Midrange",
+      "name": "Eno",
+      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Modern Yucatecan cuisine in a stylish Roma Norte location, focusing on regional ingredients and traditional recipes.",
-      "mustTry": "Cochinita pibil"
-    },
-    {
-      "name": "Café Aroma",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Popular breakfast spot in San Ángel serving café de olla, pan de muerto, and traditional chilaquiles.",
-      "mustTry": "Chilaquiles verdes with crema"
-    },
-    {
-      "name": "Restaurante Coox Hanal",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Upscale Yucatecan restaurant offering regional specialties in an elegant Polanco setting with excellent service.",
-      "mustTry": "Poc chuc pork with citrus"
+      "description": "Innovative restaurant in Polanco with wine-focused menu and contemporary Mexican cuisine. Sophisticated atmosphere.",
+      "mustTry": "Sea urchin ceviche"
     }
   ],
   "activities": [
     {
-      "name": "Templo Mayor Archaeological Site",
+      "name": "Templo Mayor",
       "category": "Cultural",
-      "description": "Explore the ruins of the great Aztec temple complex at the heart of Tenochtitlan, with excellent on-site museum detailing Mexica civilization.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 5,
+      "description": "Explore the ruins of the Aztec emperor's palace adjacent to Mexico City's Metropolitan Cathedral. The on-site museum contains invaluable pre-Hispanic artifacts.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
       "bestFor": [
         "standard",
         "photography",
-        "cultural"
+        "adventure"
       ]
     },
     {
-      "name": "Museo Nacional de Antropología",
-      "category": "Indoor",
-      "description": "One of the world's finest anthropological museums, home to the iconic Aztec Sun Stone and extensive pre-Hispanic artifacts.",
-      "durationHours": 3,
-      "estimatedCostUSD": 8,
+      "name": "Frida Kahlo Museum",
+      "category": "Cultural",
+      "description": "Visit the iconic blue house where artist Frida Kahlo lived and created masterpieces. Immerse in her colorful world and tragic story.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 14,
       "bestFor": [
         "standard",
-        "cultural"
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Chapultepec Castle and Forest",
+      "category": "Outdoor",
+      "description": "Wander through this massive urban forest with hiking trails, museums, and stunning hilltop castle. Offers panoramic views of the entire city.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Street Art Walking Tour in La Roma",
+      "category": "Cultural",
+      "description": "Explore vibrant murals and street art in the bohemian La Roma neighborhood. Self-guided or join a local artist-led tour.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "surprise"
       ]
     },
     {
       "name": "Xochimilco Floating Gardens",
       "category": "Outdoor",
-      "description": "Take a traditional boat tour through the UNESCO-listed canals and gardens of Xochimilco, a tranquil escape with indigenous heritage.",
-      "durationHours": 2,
-      "estimatedCostUSD": 15,
+      "description": "Experience ancient Aztec canals on traditional trajineras (colorful boats) through scenic waterways and gardens. Hire a gondola and visit flower and vegetable islands.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "standard",
-        "photography",
         "family",
+        "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Coyoacán Historic Neighborhood Walking Tour",
+      "name": "National Museum of Anthropology",
       "category": "Cultural",
-      "description": "Wander cobblestone streets, visit Frida Kahlo's Blue House museum, explore bohemian plazas and colonial architecture in this charming neighborhood.",
-      "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Palacio Nacional and Murals",
-      "category": "Cultural",
-      "description": "View Diego Rivera's magnificent murals depicting Mexican history in this government building next to the Zócalo, free to explore.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "La Alameda Central Park",
-      "category": "Outdoor",
-      "description": "Stroll through Mexico City's historic central park, lined with monuments, museums, and street performers in the heart of downtown.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "family"
-      ]
-    },
-    {
-      "name": "Street Food and Market Tour",
-      "category": "Foodie",
-      "description": "Guided food tour through markets and street stalls sampling tacos, tamales, elotes, and regional specialties with local experts.",
-      "durationHours": 3,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "foodie",
-        "surprise",
-        "standard"
-      ]
-    },
-    {
-      "name": "Belleza Mexicana Night Out in Polanco",
-      "category": "Nightlife",
-      "description": "Experience Mexico City's premier nightlife district with rooftop bars, clubs, and lounges in the upscale Polanco neighborhood.",
+      "description": "One of the world's finest museums housing the Aztec Sun Stone and unparalleled Mesoamerican collections. Plan several hours minimum.",
       "durationHours": 4,
-      "estimatedCostUSD": 50,
+      "estimatedCostUSD": 10,
       "bestFor": [
-        "nightlife",
-        "standard"
+        "standard",
+        "surprise",
+        "photography"
+      ]
+    },
+    {
+      "name": "Palacio de Bellas Artes",
+      "category": "Cultural",
+      "description": "Marvel at this Art Deco masterpiece featuring Diego Rivera murals and hosting performances. Stunning architecture both inside and out.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Historic Center Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll through the Zócalo and surrounding plazas with colonial architecture, indigenous markets, and hidden churches. Best done early morning.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
       ]
     },
     {
       "name": "Teotihuacán Day Trip",
       "category": "Adventure",
-      "description": "Visit the magnificent pre-Columbian pyramids north of Mexico City, climbing the Pyramid of the Sun for panoramic views.",
-      "durationHours": 6,
-      "estimatedCostUSD": 40,
+      "description": "Climb the Pyramid of the Sun and explore the ancient city's astronomical alignment. Located 50km north with incredible dawn photography.",
+      "durationHours": 8,
+      "estimatedCostUSD": 35,
       "bestFor": [
+        "standard",
         "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Bosque de Chapultepec Forest and Castle",
-      "category": "Outdoor",
-      "description": "Explore Mexico City's largest park containing museums, the historic Chapultepec Castle, and peaceful woodland trails.",
-      "durationHours": 4,
-      "estimatedCostUSD": 10,
-      "bestFor": [
-        "family",
-        "relaxation",
         "photography"
       ]
     },
     {
-      "name": "Frida Kahlo Museum (Casa Azul)",
-      "category": "Cultural",
-      "description": "Visit the iconic blue house where artist Frida Kahlo lived and worked, now a museum showcasing her art and personal belongings.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 10,
+      "name": "Cantina Hop in Coyoacán",
+      "category": "Nightlife",
+      "description": "Experience traditional Mexican cantinas and bars in the artistic Coyoacán neighborhood. Join locals for mezcal and pulque tastings.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
       "bestFor": [
-        "standard",
-        "cultural",
-        "photography"
-      ]
-    },
-    {
-      "name": "Barrio Antiguo and Garibaldi Plaza",
-      "category": "Cultural",
-      "description": "Experience traditional Mexican music and culture at Garibaldi Plaza, surrounded by historic colonial architecture and mariachi bands.",
-      "durationHours": 2,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "standard",
+        "foodie",
         "surprise",
-        "photography",
         "nightlife"
+      ]
+    },
+    {
+      "name": "Casa Azul Garden Experience",
+      "category": "Indoor",
+      "description": "Extend your Frida Kahlo visit by relaxing in the museum's botanical garden. Peaceful spot filled with tropical plants and artistic inspiration.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Mezcal and Pulque Tasting Tour",
+      "category": "Foodie",
+      "description": "Sample Mexico's most authentic spirits at specialized bars with expert guidance. Learn about agave cultivation and traditional production methods.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "foodie",
+        "surprise",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Zócalo (Plaza Mayor)",
-        "description": "Mexico City's iconic main square surrounded by the Metropolitan Cathedral and National Palace, stunning at all hours with dramatic sky backdrops.",
+        "name": "Templo Mayor at Dawn",
+        "description": "Soft morning light illuminates ancient Aztec ruins with the Metropolitan Cathedral framed perfectly in background.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for crowds, sunset for color",
+        "bestTime": "5:30-7:00 AM before crowds",
         "category": "Architecture"
       },
       {
-        "name": "Templo Mayor Ruins",
-        "description": "Ancient Aztec temple complex with archaeological layers and architectural drama, particularly striking with dramatic lighting.",
+        "name": "Palacio de Bellas Artes",
+        "description": "Stunning Art Deco building reflects gold light during golden hour with architectural details creating geometric patterns.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning for sidelighting on stone structures",
+        "bestTime": "Golden hour (5-6 PM)",
         "category": "Architecture"
       },
       {
-        "name": "Floating Gardens of Xochimilco",
-        "description": "Traditional canals with colorful boats, lush gardens, and reflections creating serene water landscape photography opportunities.",
+        "name": "Frida Kahlo Museum Blue House",
+        "description": "Iconic cobalt blue walls and courtyard filled with bougainvillea provide vibrant colors and cultural authenticity.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for mist and peaceful conditions",
+        "bestTime": "Morning light (8-10 AM)",
+        "category": "Street"
+      },
+      {
+        "name": "La Roma Street Art Murals",
+        "description": "Colorful contemporary murals and street art cover buildings throughout the bohemian neighborhood.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for vibrant colors (11 AM-2 PM)",
+        "category": "Street"
+      },
+      {
+        "name": "Xochimilco Floating Gardens",
+        "description": "Vibrant trajineras glide through water with water lilies and willows creating atmospheric reflections.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning (7-9 AM) with mist",
         "category": "Landscape"
       },
       {
-        "name": "Coyoacán's Plaza Hidalgo",
-        "description": "Charming colonial plaza with cobblestone streets, historic buildings, and vibrant street life perfect for cultural street photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Afternoon for soft shadows on colonial facades",
-        "category": "Street"
-      },
-      {
-        "name": "Palacio de Bellas Artes Exterior",
-        "description": "Stunning Art Deco building with marble dome reflecting light beautifully, set against urban landscape.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for dome illumination",
-        "category": "Architecture"
-      },
-      {
-        "name": "Casa Azul (Frida Kahlo Museum)",
-        "description": "Iconic electric blue colonial house surrounded by gardens, instantly recognizable with brilliant color for striking compositions.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light when crowds are minimal",
-        "category": "Architecture"
-      },
-      {
-        "name": "Chapultepec Castle",
-        "description": "Neo-Gothic castle perched on a hilltop with panoramic city views and architectural details from multiple vantage points.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for backlighting and city lights",
-        "category": "Architecture"
-      },
-      {
-        "name": "Centro Histórico Colonial Buildings",
-        "description": "Historic downtown streets lined with centuries-old architecture, baroque facades, and detailed stonework.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning for architectural shadows and detail",
-        "category": "Street"
-      },
-      {
-        "name": "Paseo de la Reforma Monuments",
-        "description": "Iconic tree-lined avenue with monuments, sculptures, and modern buildings creating layered urban landscape compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset for illuminated monuments",
-        "category": "Architecture"
-      },
-      {
-        "name": "Garibaldi Plaza at Night",
-        "description": "Historic plaza filled with mariachi musicians, lantern light, and vibrant nightlife energy with colorful urban night photography potential.",
+        "name": "Zócalo Square from Above",
+        "description": "Aerial perspective of Mexico's largest plaza with Mexico City Metropolitan Cathedral and historic government buildings.",
         "difficulty": "Advanced",
-        "bestTime": "Evening for neon and artificial lighting atmosphere",
-        "category": "Night"
+        "bestTime": "Golden hour (4-5 PM)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chapultepec Castle Overlook",
+        "description": "Panoramic city skyline with castle silhouetted against dramatic sunsets and clear skies.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset (5-6 PM)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Teotihuacán Pyramid of the Sun",
+        "description": "Ancient pyramids create dramatic diagonal lines and geometric patterns, especially striking with crowds at sunrise.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise (6-7 AM)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mercado de San Juan Market Stalls",
+        "description": "Colorful produce, flowers, and street vendors create vibrant street photography with authentic local life.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning (6-8 AM)",
+        "category": "Street"
+      },
+      {
+        "name": "Coyoacán Cobblestone Streets",
+        "description": "Historic colonial architecture with ivy-covered walls and flower-filled plazas create romantic atmospheric scenes.",
+        "difficulty": "Beginner",
+        "bestTime": "Soft morning light (8-10 AM)",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
+      "Templo Mayor",
       "Teotihuacán Pyramid of the Sun",
-      "Chapultepec Castle viewpoint",
-      "Paseo de la Reforma at Ángel Monument"
+      "Chapultepec Castle"
     ],
     "sunsetSpots": [
-      "Chapultepec Castle overlook",
-      "Xochimilco canals from boat",
-      "Paseo de la Reforma looking toward downtown"
+      "Palacio de Bellas Artes",
+      "Chapultepec Castle Overlook",
+      "Zócalo Square"
     ],
     "lensRecommendations": [
-      "24-70mm for versatile street and architecture photography",
-      "16-35mm ultra-wide for sweeping cityscape and monument coverage",
-      "50mm prime for intimate street portraits and cultural documentation",
-      "70-200mm telephoto for compressed perspectives of monuments and detail work"
+      "24-70mm f/2.8 for architectural details and street scenes with excellent light handling",
+      "16-35mm ultra-wide for dramatic pyramid perspectives and panoramic city skylines",
+      "85mm f/1.4 for isolated street portraits and cultural details with beautiful bokeh",
+      "Macro 100mm f/2.8 for intricate market details and flower close-ups at Xochimilco"
     ],
-    "goldenHourNotes": "Mexico City's high altitude (2,250m) creates exceptionally clear golden hours with vibrant colors lasting longer than sea-level cities. Early mornings often feature dramatic mist in Xochimilco and surrounding areas, while evening light bathes colonial architecture in warm tones. The city's dense urban environment provides endless compositional opportunities with dramatic contrasts between shadows and illuminated facades.",
+    "goldenHourNotes": "Mexico City's elevation at 7,346 feet creates crisp, clear golden hour light with exceptional saturation. The dry winter season (November-April) offers the most consistent golden hour conditions with minimal pollution haze. Plan shoots 30-45 minutes before sunset as light angles are particularly flattering on colonial architecture and street scenes.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 12,
-        "rainfallMM": 10
+        "avgTempC": 16,
+        "rainfallMM": 14
       },
       {
         "month": 2,
-        "avgTempC": 14,
-        "rainfallMM": 5
+        "avgTempC": 17,
+        "rainfallMM": 7
       },
       {
         "month": 3,
-        "avgTempC": 17,
+        "avgTempC": 20,
         "rainfallMM": 8
       },
       {
         "month": 4,
-        "avgTempC": 20,
-        "rainfallMM": 15
+        "avgTempC": 22,
+        "rainfallMM": 26
       },
       {
         "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 55
+        "avgTempC": 23,
+        "rainfallMM": 58
       },
       {
         "month": 6,
-        "avgTempC": 20,
-        "rainfallMM": 110
+        "avgTempC": 22,
+        "rainfallMM": 131
       },
       {
         "month": 7,
-        "avgTempC": 19,
-        "rainfallMM": 135
+        "avgTempC": 21,
+        "rainfallMM": 146
       },
       {
         "month": 8,
-        "avgTempC": 19,
-        "rainfallMM": 120
+        "avgTempC": 21,
+        "rainfallMM": 142
       },
       {
         "month": 9,
-        "avgTempC": 19,
-        "rainfallMM": 105
+        "avgTempC": 20,
+        "rainfallMM": 128
       },
       {
         "month": 10,
-        "avgTempC": 17,
-        "rainfallMM": 50
+        "avgTempC": 19,
+        "rainfallMM": 64
       },
       {
         "month": 11,
-        "avgTempC": 15,
-        "rainfallMM": 20
+        "avgTempC": 17,
+        "rainfallMM": 25
       },
       {
         "month": 12,
-        "avgTempC": 12,
-        "rainfallMM": 8
+        "avgTempC": 16,
+        "rainfallMM": 10
       }
     ],
     "bestMonths": [
       1,
       2,
-      3,
       11,
       12
     ],
-    "seasonality": "Mexico City has a mild climate year-round due to high altitude, with cool dry winters (December-March) and warm wet summers (May-September). The best time to visit is November through April when skies are clear, temperatures pleasant, and rainfall minimal.",
-    "summary": "Mexico City's 2,250-meter elevation creates spring-like conditions throughout the year with temperatures rarely exceeding 25°C. Rainy season (May-September) brings afternoon showers but dramatic cloud formations, while dry season offers clear skies perfect for photography and sightseeing."
+    "seasonality": "Mexico City has a pronounced dry season (November-April) with pleasant temperatures and minimal rain, making it ideal for tourism. The rainy season (May-October) brings afternoon thunderstorms but cooler mornings and fewer tourists.",
+    "summary": "Situated at 7,346 feet elevation, Mexico City enjoys mild year-round temperatures rarely exceeding 25°C (77°F) or dropping below 10°C (50°F). Visitors should pack layers as mornings are cool and afternoons are warm, with sun protection essential due to high altitude and equatorial latitude."
   },
   "hotels": [
     {
-      "name": "Casa de los Azulejos Boutique Hotel",
-      "neighborhood": "Centro Histórico",
+      "name": "Casa Peñoles Hotel",
+      "neighborhood": "La Roma",
       "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Charming budget hotel in a colonial building in the historic center, offering clean rooms and excellent access to major attractions."
+      "description": "Charming guesthouse in bohemian La Roma with colorful rooms, rooftop terrace, and excellent proximity to street art and local eateries."
     },
     {
-      "name": "Presidente Intercontinental Mexico City",
-      "neighborhood": "Polanco",
-      "pricePerNightUSD": 120,
+      "name": "Condesa df",
+      "neighborhood": "La Condesa",
+      "pricePerNightUSD": 110,
       "category": "Mid-range",
-      "description": "Well-established mid-range hotel in upscale Polanco neighborhood, featuring modern amenities, excellent service, and proximity to dining and shopping."
+      "description": "Stylish boutique hotel in trendy Condesa neighborhood with rooftop bar, modern amenities, and walkability to restaurants and galleries."
     },
     {
-      "name": "Four Seasons Hotel Mexico City",
-      "neighborhood": "Polanco",
+      "name": "Palacio de Moctezuma",
+      "neighborhood": "Historic Center",
       "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Ultra-luxury hotel with world-class service, fine dining restaurants, spa facilities, and stunning views of Chapultepec Park and the city skyline."
+      "description": "Luxurious colonial palace hotel overlooking the Zócalo with fine dining, spa services, and impeccable heritage architecture throughout."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1772048683336-d5a890a885e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxNZXhpY28lMjBDaXR5JTIwWm9jYWxvJTIwY29sb25pYWx8ZW58MXwwfHx8MTc4MTU1NjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

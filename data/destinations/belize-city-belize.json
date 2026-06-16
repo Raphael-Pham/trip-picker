@@ -6,362 +6,369 @@
   "airportCodes": [
     "BZE",
     "CUN",
-    "ORD"
+    "IGU"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
     "surprise",
+    "photography",
     "foodie",
     "adventure",
-    "relaxation",
-    "photography"
+    "relaxation"
   ],
   "scores": {
     "cost": 72,
-    "food": 75,
-    "photography": 78,
+    "food": 78,
+    "photography": 75,
     "activities": 80,
     "weather": 68
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 40,
-      "maxPerDayUSD": 75
+      "minPerDayUSD": 60,
+      "maxPerDayUSD": 100
     },
     {
       "level": "mid",
-      "minPerDayUSD": 75,
-      "maxPerDayUSD": 150
+      "minPerDayUSD": 100,
+      "maxPerDayUSD": 200
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 300
+      "minPerDayUSD": 200,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Belize colorful colonial architecture",
-  "summary": "Belize City is the vibrant cultural heart of Belize, where Caribbean charm meets Central American flair through its historic wooden buildings, diverse cuisine, and proximity to world-class diving and island adventures. This gateway destination offers authentic local experiences, from bustling markets and street food to the nearby cayes and the spectacular Belize Barrier Reef. Despite its small size, the city pulses with energy and serves as the perfect base for exploring Belize's natural wonders.",
+  "unsplashQuery": "Belize City Caribbean beach",
+  "summary": "Belize City is a vibrant Caribbean gateway offering colorful colonial architecture, world-class diving and snorkeling to nearby cayes, and authentic Central American culture. This bustling port city serves as the perfect base for exploring the Caribbean Sea while immersing yourself in Creole cuisine and rich maritime history.",
   "restaurants": [
     {
       "name": "Elvi's Kitchen",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "A Belize City institution famous for Creole cuisine and fresh seafood prepared with family recipes passed down through generations. The vibrant courtyard atmosphere and generous portions make it a must-visit for authentic local flavors.",
-      "mustTry": "Hudut (fish in banana leaf sauce)"
+      "description": "Famous beachfront restaurant serving traditional Belizean cuisine with a Caribbean twist. Known for fresh seafood and conch dishes prepared using local recipes passed down through generations.",
+      "mustTry": "Conch Ceviche"
     },
     {
       "name": "The Smoky Mermaid",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale Caribbean restaurant with fresh seafood and creative dishes in an intimate waterfront setting. Known for elevated presentations of traditional Belizean ingredients.",
-      "mustTry": "Pan-seared snapper with plantain mash"
-    },
-    {
-      "name": "D-Fusion",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Contemporary fusion restaurant blending Caribbean, Asian, and European cuisines with fresh local ingredients. Stylish ambiance perfect for dinner or drinks.",
-      "mustTry": "Jerk chicken tacos with mango salsa"
-    },
-    {
-      "name": "Wet Lizard",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual beachfront bar and grill serving burgers, seafood, and cold beverages with views of the Caribbean. Great spot for relaxed lunches and people-watching.",
-      "mustTry": "Fish and chips"
+      "description": "Casual waterfront spot offering fresh seafood with creative preparations and tropical cocktails. Perfect for lunch with views of the Caribbean Sea.",
+      "mustTry": "Grilled Fish of the Day"
     },
     {
       "name": "Sahara Grill",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Mediterranean and Middle Eastern restaurant offering kebabs, falafel, and grilled meats in a cozy setting. A refreshing change from typical Caribbean fare.",
-      "mustTry": "Shawarma platter"
+      "description": "Mediterranean and Middle Eastern cuisine in downtown Belize City with a relaxed atmosphere. Offers excellent kebabs, hummus, and falafel alongside Caribbean-inspired dishes.",
+      "mustTry": "Lamb Shawarma"
+    },
+    {
+      "name": "Caliente Restaurant & Bar",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining establishment featuring international cuisine with Caribbean influences. Sophisticated ambiance ideal for special dinners with excellent wine selection.",
+      "mustTry": "Pan-Seared Mahi-Mahi"
     },
     {
       "name": "Lee's Chinese Restaurant",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Family-run Chinese establishment serving authentic Cantonese dishes and noodles at excellent prices. Popular with locals for quick, satisfying meals.",
-      "mustTry": "Chow mein with shrimp"
-    },
-    {
-      "name": "Bird's Isle Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Exclusive island restaurant serving gourmet cuisine with emphasis on fresh seafood and imported ingredients. Offers boat transfers and sunset dining experiences.",
-      "mustTry": "Lobster thermidor"
-    },
-    {
-      "name": "Nerie's",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "No-frills local eatery beloved by residents for authentic Creole breakfast and lunch dishes prepared fresh daily. Arrive early for best selection.",
-      "mustTry": "Johnny cakes with fish"
-    },
-    {
-      "name": "The Pizza House",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual pizza restaurant with wood-fired oven serving Italian and Belizean fusion pies. Family-friendly atmosphere with outdoor seating.",
-      "mustTry": "Belizean spiced chicken pizza"
-    },
-    {
-      "name": "Caliente",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Spanish-inspired tapas bar with vibrant atmosphere, craft cocktails, and small plates perfect for sharing. Great for evening dining and socializing.",
-      "mustTry": "Patatas bravas with Belizean spices"
+      "description": "Long-established family restaurant serving authentic Chinese cuisine with generous portions. Popular with locals for dim sum and Szechuan dishes.",
+      "mustTry": "Shrimp in Black Bean Sauce"
     },
     {
-      "name": "Chamberlain Market Food Stalls",
+      "name": "Nerie's Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Budget-friendly local favorite serving traditional Belizean dishes in a no-frills setting. Famous for providing authentic taste of Creole culture.",
+      "mustTry": "Hudut with Fish Broth"
+    },
+    {
+      "name": "The Spoonz Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary Caribbean restaurant in a charming colonial building offering farm-to-table ingredients and innovative cooking techniques. Romantic setting for fine dining.",
+      "mustTry": "Seafood Risotto"
+    },
+    {
+      "name": "Wet Lizard Bar & Grill",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Authentic street food vendors at the market offering tamales, hudut, and fresh fruits. Best visited early morning for fresh selections and authentic local interactions.",
-      "mustTry": "Escabeche (vegetable soup)"
+      "description": "Casual beachfront bar and grill with laid-back vibe serving burgers, tacos, and seafood. Great for watching the sunset with cold drinks.",
+      "mustTry": "Fish Tacos"
     },
     {
-      "name": "Riverside Tavern",
-      "category": "Local Specialty",
+      "name": "Barrier Reef Drive-In",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Iconic Belizean institution serving quick, affordable meals with a focus on rice and beans, stewed chicken, and local favorites. Perfect for experiencing local food culture.",
+      "mustTry": "Stewed Chicken with Rice and Beans"
+    },
+    {
+      "name": "Thirsty Thursdays",
+      "category": "Midrange",
       "priceRange": "$$",
-      "description": "Historic riverside restaurant with Creole cuisine, outdoor patio seating, and live music most nights. A cultural institution celebrating Belizean heritage.",
-      "mustTry": "Stewed chicken with rice and beans"
+      "description": "Beach bar and restaurant offering fresh seafood and casual international fare with a fun party atmosphere. Known for happy hour specials and friendly staff.",
+      "mustTry": "Grouper Sandwich"
+    },
+    {
+      "name": "Casa Picasso",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Spanish-inspired fine dining restaurant located in a beautifully restored colonial mansion. Features tapas, paella, and an excellent selection of Spanish wines.",
+      "mustTry": "Seafood Paella"
+    },
+    {
+      "name": "Fido's Courtyard Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming restaurant set in a historic courtyard offering Belizean and Caribbean cuisine with creative cocktails. Popular gathering spot for locals and tourists alike.",
+      "mustTry": "Lobster Tail with Garlic Butter"
     }
   ],
   "activities": [
     {
-      "name": "Half Moon Caye Day Trip",
+      "name": "Half Moon Caye Snorkeling Tour",
       "category": "Adventure",
-      "description": "Visit this iconic island home to pristine beaches and the protected Half Moon Caye Wall, one of Belize's best diving and snorkeling sites. Perfect for seeing nurse sharks, sea turtles, and vibrant coral formations.",
+      "description": "Day trip to pristine Half Moon Caye for world-class snorkeling with colorful tropical fish, rays, and sharks in shallow turquoise waters. Includes beach time and usually incorporates the nearby Blue Hole.",
       "durationHours": 8,
       "estimatedCostUSD": 85,
       "bestFor": [
+        "standard",
         "adventure",
         "photography"
       ]
     },
     {
-      "name": "Belize Barrier Reef Snorkeling",
-      "category": "Outdoor",
-      "description": "Explore the second-longest barrier reef in the world teeming with colorful fish, rays, and coral. Multiple operators offer guided tours departing from Belize City docks.",
-      "durationHours": 6,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Caye Caulker Island Excursion",
-      "category": "Outdoor",
-      "description": "Take a short boat ride to this laid-back island known for the Split (natural swimming channel), sandy beaches, and relaxed Caribbean atmosphere. Perfect for swimming and casual exploration.",
-      "durationHours": 8,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "relaxation",
-        "surprise",
-        "foodie"
-      ]
-    },
-    {
-      "name": "Belize Museum Visit",
+      "name": "Belize City Museum Visit",
       "category": "Cultural",
-      "description": "Learn about Belize's Maya heritage, colonial history, and natural history in this comprehensive museum housed in a historic building. Excellent introduction to the country's complex past.",
+      "description": "Explore the colonial-era museum housed in a historic building, featuring artifacts about Belizean history, maritime heritage, and pre-Columbian cultures. Small but comprehensive overview of the nation's past.",
       "durationHours": 2,
       "estimatedCostUSD": 10,
       "bestFor": [
         "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "St. John's Cathedral Walking Tour",
-      "category": "Cultural",
-      "description": "Explore this stunning 1820 wooden church, the second-oldest Anglican cathedral in the Western Hemisphere, featuring intricate architecture and historical significance. Free self-guided tour available.",
-      "durationHours": 1,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Barrel Reef Diving Certification",
-      "category": "Adventure",
-      "description": "Obtain PADI certification in Belize's warm, clear waters with certified instructors. Includes classroom sessions, pool training, and open water dives.",
-      "durationHours": 16,
-      "estimatedCostUSD": 450,
-      "bestFor": [
-        "adventure",
-        "standard"
-      ]
-    },
-    {
-      "name": "Culinary Walking Tour",
-      "category": "Foodie",
-      "description": "Join a local guide exploring Belize City's markets, street food vendors, and neighborhood eateries while learning about Creole food culture and traditions. Includes tastings.",
-      "durationHours": 4,
-      "estimatedCostUSD": 55,
-      "bestFor": [
-        "foodie",
         "surprise",
         "hidden-gems"
       ]
     },
     {
-      "name": "Tropical Bird Watching Tour",
-      "category": "Outdoor",
-      "description": "Early morning guided birdwatching excursion spotting toucans, parrots, herons, and other tropical species in nearby reserves and wetlands. Binoculars provided.",
-      "durationHours": 5,
-      "estimatedCostUSD": 60,
+      "name": "Barrier Reef Diving",
+      "category": "Adventure",
+      "description": "Experience some of the world's best diving at the Belize Barrier Reef, the second longest reef system globally. Suitable for beginners and experienced divers with multiple dive sites.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
       "bestFor": [
+        "standard",
         "adventure",
-        "photography",
-        "relaxation"
+        "photography"
       ]
     },
     {
-      "name": "Swing Bridge Observation",
+      "name": "Fort George Lighthouse Climb",
+      "category": "Outdoor",
+      "description": "Climb the iconic Split-style lighthouse for panoramic views of Belize City, the harbor, and surrounding cayes. Historic landmark offering photo opportunities and insight into colonial maritime navigation.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Swing Bridge Walking Tour",
       "category": "Cultural",
-      "description": "Watch the iconic manually-operated Swing Bridge, built in 1922, as it rotates to allow boats to pass. Observe from the bridge or nearby cafes during opening times.",
+      "description": "Self-guided or guided tour exploring downtown's historic Swing Bridge, the oldest wooden bridge of its kind in North America, and surrounding colonial architecture. Learn about the city's maritime commercial hub.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Caye Caulker Island Hop",
+      "category": "Outdoor",
+      "description": "Quick ferry ride to the laid-back island of Caye Caulker for beach relaxation, snorkeling, and swimming with nurse sharks at Shark Ray Alley. Quintessential Caribbean island experience.",
+      "durationHours": 6,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Street Art and Mural Walking Tour",
+      "category": "Cultural",
+      "description": "Guided tour of Belize City's vibrant street art scene featuring colorful murals, graffiti art, and works by local artists. Gain insight into contemporary Belizean culture and urban renewal.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "surprise",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "St. John's Cathedral Visit",
+      "category": "Cultural",
+      "description": "Explore one of the oldest Anglican cathedrals in Central America, a beautiful wooden structure dating back to 1812 with stunning architecture and historical significance. Free to enter.",
       "durationHours": 1,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "photography",
         "standard",
-        "hidden-gems"
+        "hidden-gems",
+        "photography"
       ]
     },
     {
-      "name": "Lazy River Beach Bar Evening",
-      "category": "Nightlife",
-      "description": "Relax at this waterfront bar with cold drinks, grilled food, and Caribbean music as sunset approaches. Great for socializing with travelers and locals.",
-      "durationHours": 3,
-      "estimatedCostUSD": 30,
-      "bestFor": [
-        "relaxation",
-        "foodie",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Manatee Sanctuary Kayaking",
+      "name": "Night Snorkeling Adventure",
       "category": "Adventure",
-      "description": "Paddle through shallow mangrove channels spotting West Indian manatees in their natural habitat. Gentle, scenic adventure suitable for most fitness levels.",
+      "description": "Unique nocturnal snorkeling experience to observe bioluminescence and nocturnal sea creatures in their natural habitat under moonlight. Thrilling and educational experience different from daytime diving.",
+      "durationHours": 4,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Creole Village Cultural Immersion",
+      "category": "Cultural",
+      "description": "Visit local Creole communities outside the city to experience traditional cuisine, music, and crafts firsthand. Learn about Belizean Creole heritage and cultural traditions.",
+      "durationHours": 5,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Kayaking Through Mangrove Forests",
+      "category": "Outdoor",
+      "description": "Peaceful kayaking expedition through pristine mangrove ecosystems to spot manatees, crocodiles, and tropical birds in their natural habitat. Eco-friendly nature immersion.",
       "durationHours": 4,
       "estimatedCostUSD": 75,
       "bestFor": [
         "adventure",
+        "relaxation",
         "photography",
-        "relaxation"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Cockpit Pub Crawl",
-      "category": "Nightlife",
-      "description": "Evening tour visiting multiple local bars and pubs in downtown Belize City with guide providing historical context and social atmosphere. Includes welcome drink.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
+      "name": "Seaside Market Exploration",
+      "category": "Cultural",
+      "description": "Wander through the bustling waterfront market to experience local commerce, sample fresh fruits and seafood, and interact with Belizean vendors. Authentic glimpse into daily city life.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "surprise",
         "standard",
-        "foodie"
+        "surprise",
+        "hidden-gems",
+        "foodie",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
+        "name": "Swing Bridge at Sunrise",
+        "description": "Historic wooden swing bridge with golden light reflecting off the water, capturing Belize City's colonial heritage and maritime character in soft morning light.",
+        "difficulty": "Beginner",
+        "bestTime": "06:00-07:00 AM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fort George Lighthouse",
+        "description": "Iconic red and white striped lighthouse offering elevated perspectives of the harbor, city, and surrounding cayes with dramatic Caribbean backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "06:00 AM or 05:00 PM",
+        "category": "Architecture"
+      },
+      {
+        "name": "Belize City Harbor at Dusk",
+        "description": "Working harbor filled with colorful fishing boats and sailboats illuminated by golden hour light, capturing the city's maritime soul and local culture.",
+        "difficulty": "Beginner",
+        "bestTime": "05:00-06:30 PM",
+        "category": "Landscape"
+      },
+      {
         "name": "St. John's Cathedral",
-        "description": "Iconic wooden colonial cathedral with vibrant yellow and white exterior, ornate details, and historic significance reflected in its architectural beauty.",
+        "description": "Beautiful wooden colonial cathedral with intricate architectural details and warm stonework, stunning in morning light or with evening backlighting.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for golden light and empty streets",
+        "bestTime": "06:30-07:30 AM",
         "category": "Architecture"
       },
       {
-        "name": "Swing Bridge at Sunset",
-        "description": "Manually-operated wooden drawbridge turning against colorful sky with boats and city skyline in background, perfect for dynamic urban photography.",
+        "name": "Southern Foreshore Street",
+        "description": "Colorful street lined with colonial buildings, Caribbean storefronts, and street vendors offering vibrant urban landscapes and cultural atmosphere.",
         "difficulty": "Intermediate",
-        "bestTime": "One hour before sunset",
-        "category": "Architecture"
-      },
-      {
-        "name": "Caribbean Sea from Fort Street",
-        "description": "Waterfront promenade with colonial buildings, fishing boats, and sparkling sea creating layered compositional opportunities throughout the day.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones and long shadows",
-        "category": "Landscape"
-      },
-      {
-        "name": "Barrel Reef Underwater",
-        "description": "Vibrant coral formations, tropical fish, and sea life creating colorful abstract patterns and wildlife moments during snorkeling or diving expeditions.",
-        "difficulty": "Advanced",
-        "bestTime": "Midday for best water clarity and natural light penetration",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Chamberlain Market Interior",
-        "description": "Bustling market with colorful vendor stalls, fresh produce, locals shopping, and authentic street life creating vibrant documentary and street photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning when market is full of activity",
+        "bestTime": "07:00-09:00 AM",
         "category": "Street"
       },
       {
-        "name": "Caye Caulker Dock Area",
-        "description": "Wooden docks, fishing boats, swimmers, and laid-back island atmosphere with turquoise water and sandy shores perfect for candid travel photography.",
+        "name": "Caye Caulker Dock at Sunset",
+        "description": "Scenic dock with palm trees, boats, and Caribbean waters creating picturesque sunset compositions with warm golden and orange tones.",
         "difficulty": "Beginner",
-        "bestTime": "Late afternoon for warm light and social activity",
+        "bestTime": "05:00-06:30 PM",
         "category": "Landscape"
       },
       {
-        "name": "Belize River Evening",
-        "description": "River mouth where freshwater meets Caribbean Sea with mangroves, boats, and dramatic sky reflections creating moody landscape opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Sunset for color and reflection photography",
-        "category": "Landscape"
-      },
-      {
-        "name": "Tropical Birds in Flight",
-        "description": "Toucans, parrots, herons, and other colorful birds in natural habitats around city reserves and mangrove areas offering wildlife photography challenges.",
+        "name": "Half Moon Caye Coral Gardens",
+        "description": "Underwater photography opportunity featuring pristine coral formations, tropical fish, rays, and clear turquoise water in shallow diving conditions.",
         "difficulty": "Advanced",
-        "bestTime": "Early morning for active birds and clear light",
+        "bestTime": "09:00 AM-02:00 PM",
         "category": "Wildlife"
       },
       {
-        "name": "Street Murals and Graffiti",
-        "description": "Colorful painted walls, artistic expressions, and community murals scattered throughout neighborhoods providing bold subject matter and vibrant color.",
+        "name": "Maritime Museum Rooftop",
+        "description": "Elevated rooftop location with panoramic views of harbor, city skyline, and surrounding islands, ideal for sweeping landscape and cityscape shots.",
         "difficulty": "Beginner",
-        "bestTime": "Midday for consistent lighting and minimal shadows",
+        "bestTime": "06:00-07:00 AM or 05:00-06:30 PM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Queen Street Market at Dawn",
+        "description": "Bustling street market with colorful produce, local vendors, and vibrant street life captured in soft morning light for authentic documentary photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "06:00-08:00 AM",
         "category": "Street"
       },
       {
-        "name": "Half Moon Caye Beach",
-        "description": "Pristine white sand, turquoise water, palm trees, and clear skies creating postcard-perfect tropical beach compositions with excellent visibility.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning for soft light, afternoon for dramatic sky",
-        "category": "Landscape"
+        "name": "Barrier Reef Snorkeling Perspective",
+        "description": "Above and below waterline photography capturing the reef ecosystem, marine life, and pristine waters showcasing Belize's underwater treasures.",
+        "difficulty": "Advanced",
+        "bestTime": "10:00 AM-02:00 PM",
+        "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
-      "Fort Street Waterfront",
-      "Half Moon Caye Beach",
-      "Caye Caulker Dock"
+      "Swing Bridge",
+      "Fort George Lighthouse",
+      "Maritime Museum Rooftop"
     ],
     "sunsetSpots": [
-      "Swing Bridge",
-      "Caribbean Sea from Belize City Hotel Rooftop",
-      "Barrel Reef"
+      "Belize City Harbor",
+      "Caye Caulker Dock",
+      "Southern Foreshore Street"
     ],
     "lensRecommendations": [
-      "16-35mm wide angle for architectural details and expansive seascapes",
-      "50mm prime for street photography and cultural portraits with natural compression",
-      "100-400mm telephoto for wildlife and distant subject isolation in bird watching",
-      "Macro lens for underwater coral and fish detail photography during snorkeling"
+      "16-35mm wide-angle for sweeping harbor and architectural photography capturing Belize City's colonial beauty",
+      "50-85mm prime lens for intimate street photography and documentary cultural moments in markets and streets",
+      "18-55mm versatile kit lens for general tourism photography and adaptable daytime street scenes",
+      "Underwater housing with 24mm wide-angle for reef and marine life photography capturing vibrant coral and fish"
     ],
-    "goldenHourNotes": "Belize City's tropical location provides intense golden hour light approximately 30-60 minutes before sunset and after sunrise. The humidity creates diffused light ideal for portraits. Reflections on water surfaces and wet streets after rain provide excellent compositional opportunities during golden hour. Best results occur during dry season (December-April) when atmospheric clarity is highest.",
+    "goldenHourNotes": "Belize City's tropical location provides excellent golden hour opportunities with warm, soft light lasting 45-60 minutes after sunrise and before sunset. The harbor and historic architecture are particularly photogenic during these times, with reflections on water creating compelling compositions. Consider positioning yourself near water for reflective golden hour shots of colonial buildings and maritime scenes.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -369,94 +376,94 @@
       {
         "month": 1,
         "avgTempC": 24,
-        "rainfallMM": 140
+        "rainfallMM": 152
       },
       {
         "month": 2,
-        "avgTempC": 25,
-        "rainfallMM": 115
+        "avgTempC": 24,
+        "rainfallMM": 127
       },
       {
         "month": 3,
         "avgTempC": 26,
-        "rainfallMM": 95
+        "rainfallMM": 102
       },
       {
         "month": 4,
         "avgTempC": 27,
-        "rainfallMM": 125
+        "rainfallMM": 178
       },
       {
         "month": 5,
-        "avgTempC": 28,
-        "rainfallMM": 210
+        "avgTempC": 27,
+        "rainfallMM": 203
       },
       {
         "month": 6,
-        "avgTempC": 28,
-        "rainfallMM": 230
+        "avgTempC": 26,
+        "rainfallMM": 216
       },
       {
         "month": 7,
-        "avgTempC": 27,
-        "rainfallMM": 220
+        "avgTempC": 26,
+        "rainfallMM": 229
       },
       {
         "month": 8,
-        "avgTempC": 27,
-        "rainfallMM": 240
+        "avgTempC": 26,
+        "rainfallMM": 241
       },
       {
         "month": 9,
-        "avgTempC": 27,
-        "rainfallMM": 280
+        "avgTempC": 26,
+        "rainfallMM": 267
       },
       {
         "month": 10,
-        "avgTempC": 26,
-        "rainfallMM": 320
+        "avgTempC": 25,
+        "rainfallMM": 267
       },
       {
         "month": 11,
-        "avgTempC": 25,
-        "rainfallMM": 250
+        "avgTempC": 24,
+        "rainfallMM": 228
       },
       {
         "month": 12,
         "avgTempC": 24,
-        "rainfallMM": 160
+        "rainfallMM": 178
       }
     ],
     "bestMonths": [
-      2,
       3,
-      12
+      4,
+      12,
+      1
     ],
-    "seasonality": "Belize City experiences a tropical climate with distinct dry season (December-April) featuring lower rainfall and cooler temperatures ideal for tourism and water activities. The rainy season (May-November) brings higher humidity, occasional tropical storms, and hurricane potential (June-November), though these conditions create lush landscapes and lower tourism numbers.",
-    "summary": "Belize City maintains warm tropical temperatures year-round averaging 24-28°C with significant rainfall especially during September-October. The dry season (December-April) offers the most comfortable weather for visiting, while the rainy season provides dramatic atmospheric conditions and reduced crowds."
+    "seasonality": "Belize City experiences a tropical climate with two distinct seasons: a dry season from February to April and a wet season from May to November. Hurricane season runs from June to November, with increased rainfall and higher storm risk during this period.",
+    "summary": "Belize City enjoys warm weather year-round with temperatures averaging 24-27°C. The dry season (February-April) offers the most pleasant conditions with lower humidity and minimal rainfall, making it ideal for outdoor activities and water sports."
   },
   "hotels": [
     {
-      "name": "Caribbean Villas Hotel",
-      "neighborhood": "Buttonwood Bay",
-      "pricePerNightUSD": 45,
+      "name": "Guesthouse Budget Hostel",
+      "neighborhood": "Downtown/Fort George",
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Modest beachfront hotel offering basic rooms with Caribbean charm, affordable restaurant, and direct beach access with stunning sunset views."
-    },
-    {
-      "name": "Radisson Fort George Resort",
-      "neighborhood": "Fort George",
-      "pricePerNightUSD": 120,
-      "category": "Mid-range",
-      "description": "Upscale beachfront resort featuring modern rooms, spa services, excellent on-site restaurant, and direct access to the Caribbean with water sports facilities."
+      "description": "Clean, social hostel with dormitory and private rooms offering budget travelers easy access to downtown attractions, restaurants, and harbor views."
     },
     {
       "name": "The Great House",
       "neighborhood": "Fort George",
-      "pricePerNightUSD": 180,
+      "pricePerNightUSD": 120,
+      "category": "Mid-range",
+      "description": "Charming colonial-style hotel in a restored historic building featuring comfortable rooms, rooftop bar with harbor views, and convenient location for exploring the city."
+    },
+    {
+      "name": "Radisson Fort George Hotel",
+      "neighborhood": "Fort George",
+      "pricePerNightUSD": 250,
       "category": "Luxury",
-      "description": "Luxury colonial-style boutique hotel with elegant suites, fine dining restaurant, spa, and premium service in a historic waterfront setting."
+      "description": "Upscale waterfront resort offering premium accommodations, multiple restaurants, spa services, and stunning Caribbean Sea views from private beach and infinity pool."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1598653509289-c2d71da438b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxCZWxpemUlMjBjb2xvcmZ1bCUyMGNvbG9uaWFsJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODE1NTYxODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

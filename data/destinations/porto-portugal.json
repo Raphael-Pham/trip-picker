@@ -6,12 +6,12 @@
   "airportCodes": [
     "OPO",
     "LIS",
-    "VGO"
+    "VCP"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
+    "hidden-gems",
     "photography",
     "foodie",
     "relaxation"
@@ -19,7 +19,7 @@
   "scores": {
     "cost": 72,
     "food": 92,
-    "photography": 89,
+    "photography": 88,
     "activities": 85,
     "weather": 78
   },
@@ -31,122 +31,134 @@
     },
     {
       "level": "mid",
-      "minPerDayUSD": 90,
+      "minPerDayUSD": 75,
       "maxPerDayUSD": 150
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
-      "maxPerDayUSD": 400
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 350
     }
   ],
-  "unsplashQuery": "Porto Portugal riverside",
-  "summary": "Porto is a stunning Portuguese city perched on dramatic cliffs overlooking the Douro River, renowned for its medieval architecture, world-class wines, and vibrant street culture. With colorful azulejo tiles adorning buildings, historic neighborhoods like Ribeira, and exceptional food at every corner, it offers the perfect blend of old-world charm and modern vitality.",
+  "unsplashQuery": "Porto Portugal riverside city",
+  "summary": "Porto is a captivating Portuguese gem perched on dramatic cliffs overlooking the Douro River, famous for its historic tiles, world-class port wine, and romantic riverside charm. With medieval neighborhoods stacked on steep hillsides, vibrant street art, and exceptional local cuisine, Porto offers the perfect blend of cultural immersion and culinary adventure at remarkably affordable prices.",
   "restaurants": [
     {
       "name": "Francesinha",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "A traditional Porto sandwich shop serving the iconic local sandwich with roasted meat, covered in melted cheese and a rich beer sauce. This beloved hole-in-the-wall spot captures authentic Porto street food culture.",
-      "mustTry": "Francesinha sandwich"
+      "description": "Traditional sandwich shop serving Porto's iconic francesinha—a hearty ham and cheese sandwich topped with melted cheese and beer sauce. A must-try local comfort food that's inexpensive and delicious.",
+      "mustTry": "Francesinha with beer sauce"
     },
     {
       "name": "Livraria Lello Café",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Located within one of the world's most beautiful bookstores, this café offers light meals and pastries with literary ambiance. Perfect for combining culture with a casual meal.",
-      "mustTry": "Portuguese pastéis de nata"
-    },
-    {
-      "name": "Bolhão Market Food Stalls",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Historic covered market with fresh seafood, produce, and quick-serve food stalls offering authentic Portuguese flavors. Wander and sample from multiple vendors for an immersive food experience.",
-      "mustTry": "Grilled octopus"
+      "description": "Charming café nestled in one of the world's most beautiful bookstores, offering light snacks and Portuguese pastries. Perfect for a quiet moment surrounded by historic architecture.",
+      "mustTry": "Pastel de nata and espresso"
     },
     {
-      "name": "Dum Dum",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Contemporary Portuguese fine dining restaurant celebrating local ingredients with artistic presentation. Chef-driven tasting menus showcase innovative takes on traditional dishes.",
-      "mustTry": "Tasting menu with wine pairings"
-    },
-    {
-      "name": "Taberna do Barqueiro",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Family-run seafood restaurant specializing in fresh fish and shellfish prepared with traditional Portuguese methods. Cozy atmosphere with stunning river views.",
-      "mustTry": "Arroz de marisco"
-    },
-    {
-      "name": "Douro Azul",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale restaurant in the historic center featuring contemporary Portuguese cuisine with international influences. Elegant setting perfect for special occasions.",
-      "mustTry": "Bacalhau à Brás"
-    },
-    {
-      "name": "O Paparico",
+      "name": "O Comercial",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Charming traditional restaurant in Ribeira district serving hearty Portuguese home-cooking with warm hospitality. Tables overlook the historic riverside.",
-      "mustTry": "Caldo verde"
+      "description": "Cozy traditional Portuguese restaurant in Ribeira serving fresh seafood and classic dishes in an intimate stone-walled setting. Known for authentic flavors and warm hospitality.",
+      "mustTry": "Grilled sardines with boiled potatoes"
+    },
+    {
+      "name": "Taberna dos Lazarentos",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic tavern frequented by locals offering traditional Portuguese petiscos (tapas) and affordable wine. A genuine slice of Porto nightlife without pretension.",
+      "mustTry": "Alheira sausage and local wine"
+    },
+    {
+      "name": "Chez Lapin",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant French-Portuguese fusion restaurant with an excellent wine list focusing on Douro Valley selections. Refined atmosphere perfect for special occasions.",
+      "mustTry": "Duck confit with port wine reduction"
+    },
+    {
+      "name": "Pizzaria Meu Forno",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual pizzeria with authentic wood-fired ovens serving crispy, delicious pizzas at budget-friendly prices. Great for a quick, satisfying meal.",
+      "mustTry": "Traditional Margherita pizza"
+    },
+    {
+      "name": "Yeatman",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Michelin-starred restaurant overlooking the Douro River with innovative Portuguese cuisine and an extensive port wine collection. A gastronomic destination experience.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Ribeira Vegan",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Plant-based restaurant in historic Ribeira offering creative vegan takes on Portuguese dishes. A welcoming spot for dietary preferences.",
+      "mustTry": "Vegan francesinha"
+    },
+    {
+      "name": "Caldo Verde",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Traditional soup house serving Portugal's beloved kale soup alongside fresh bread and local specialties. Authentic comfort food experience.",
+      "mustTry": "Caldo verde with cornbread"
     },
     {
       "name": "Majestic Café",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Historic Belle Époque café opened in 1921, serving traditional Portuguese pastries, light meals, and coffee in an ornate setting. A cultural landmark and culinary institution.",
-      "mustTry": "Pastel de Belém"
+      "description": "Historic Belle Époque café with ornate Art Nouveau interior, serving quality Portuguese cuisine and pastries. An atmospheric dining experience in architectural grandeur.",
+      "mustTry": "Bacalhau à Brás with white wine"
     },
     {
-      "name": "Capa Negra",
+      "name": "O Afonso",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Casual tapas bar serving small plates of cured meats, cheeses, and seafood with local wines. Perfect for sampling diverse Portuguese flavors.",
-      "mustTry": "Mixed charcuterie platter"
+      "description": "Family-run seafood restaurant in Ribeira with daily catches prepared simply and fresh. Enjoy harbor views while eating Portugal's finest.",
+      "mustTry": "Grilled sea bass"
     },
     {
-      "name": "O Comercial",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Long-standing family restaurant serving generous portions of traditional Porto cuisine at unbeatable prices. Popular with locals and tourists alike.",
-      "mustTry": "Francesinha and beer"
-    },
-    {
-      "name": "Lado B Café",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Hip cafe in the arts district serving affordable vegan and vegetarian options alongside traditional Portuguese fare. Great coffee and creative lunch plates.",
-      "mustTry": "Avocado toast with Portuguese olive oil"
-    },
-    {
-      "name": "Fado in Chiado",
+      "name": "The Yeatman Grill Room",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Live fado music restaurant combining traditional Portuguese music performances with contemporary cuisine. Intimate dining experience with authentic cultural immersion.",
-      "mustTry": "Alheira with wine pairing"
+      "description": "Upscale grill restaurant with river views specializing in premium meats and Portuguese wines. Sophisticated yet approachable fine dining.",
+      "mustTry": "Wagyu beef with red wine sauce"
     }
   ],
   "activities": [
     {
-      "name": "Dom Luís Bridge Walk",
-      "category": "Outdoor",
-      "description": "Cross the iconic two-level iron bridge designed by Gustave Eiffel's student, offering panoramic views of Porto and the Douro River. The upper deck provides thrilling vistas over 45 meters high.",
+      "name": "Livraria Lello Tour",
+      "category": "Cultural",
+      "description": "Explore one of the world's most beautiful bookstores, a historic library with stunning wooden architecture spanning multiple floors. Browse rare Portuguese editions and soak in literary history.",
       "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Ribeira Walking Tour",
+      "category": "Outdoor",
+      "description": "Navigate the narrow cobblestone streets of medieval Ribeira district, discovering hidden plazas, street art, and panoramic viewpoints. Experience the authentic heart of historic Porto.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography",
-        "surprise"
+        "hidden-gems",
+        "photography"
       ]
     },
     {
       "name": "Douro River Cruise",
       "category": "Outdoor",
-      "description": "Take a boat journey along the scenic Douro River with views of hillside vineyards, historic sites, and the picturesque Six Bridges. Available in day and evening versions.",
+      "description": "Sail the scenic Douro River past dramatic cliffs and terraced vineyards, with options for sunset cruises or six-bridge tours. Stunning perspective of the city from water level.",
       "durationHours": 2,
-      "estimatedCostUSD": 22,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
         "relaxation",
@@ -154,216 +166,199 @@
       ]
     },
     {
-      "name": "Ribeira District Exploration",
+      "name": "Port Wine Cellar Tour",
       "category": "Cultural",
-      "description": "Wander the UNESCO-listed medieval neighborhood with narrow cobblestone streets, colorful buildings with azulejo tiles, and traditional shops. Free exploration of historic architecture and authentic Porto culture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Port Wine Tasting Tour",
-      "category": "Cultural",
-      "description": "Visit traditional wine cellars in Vila Nova de Gaia across the river to taste prestigious Port wines and learn production methods. Multiple cellars offer guided tastings with expert sommeliers.",
+      "description": "Cross the iconic Dom Luís II Bridge to Vila Nova de Gaia and tour historic port wine cellars with tastings and educational experiences. Learn the centuries-old fortified wine tradition.",
       "durationHours": 2,
       "estimatedCostUSD": 25,
       "bestFor": [
-        "foodie",
         "standard",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Livraria Lello Bookstore Visit",
-      "category": "Cultural",
-      "description": "Explore one of the world's most beautiful and oldest operating bookstores, featuring stunning architecture with a grand staircase and historic collection. Architectural masterpiece worth experiencing.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 5,
-      "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
+        "foodie"
       ]
     },
     {
       "name": "Clérigos Tower Climb",
-      "category": "Adventure",
-      "description": "Ascend the 225 baroque tower steps for 360-degree views of Porto's red-tiled roofs, the river, and surrounding hills. One of the city's most recognizable landmarks.",
+      "category": "Outdoor",
+      "description": "Ascend 240 steps of the Baroque tower for 360-degree panoramic views of Porto's rooftops and the Douro. Reward yourself with the most comprehensive city perspective.",
       "durationHours": 1,
       "estimatedCostUSD": 5,
       "bestFor": [
         "standard",
-        "photography",
-        "adventure"
+        "adventure",
+        "photography"
       ]
     },
     {
-      "name": "Bolhão Market Tour",
+      "name": "Lilypad Market (Bolhão)",
       "category": "Cultural",
-      "description": "Experience Porto's vibrant covered market selling fresh fish, produce, flowers, and regional products since 1839. Immerse yourself in local daily life and food culture.",
+      "description": "Browse historic 1914 market hall featuring fresh produce, flowers, seafood, and local crafts. Immerse yourself in authentic Portuguese market culture and street food.",
       "durationHours": 1.5,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "foodie",
-        "standard",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Lilypad Boat Tour to Six Bridges",
-      "category": "Outdoor",
-      "description": "Take a unique six-bridges boat tour passing under all historic bridges connecting Porto and Gaia, with expert narration about their engineering and history. Fun photo opportunities at each bridge.",
-      "durationHours": 1,
       "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
-        "photography",
-        "family"
+        "foodie",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Dom Luís II Bridge Walk",
+      "category": "Outdoor",
+      "description": "Cross the iconic double-deck iron bridge on foot, experiencing stunning views from the upper or lower deck. A thrilling architectural engineering walk.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Street Art Tour",
+      "category": "Cultural",
+      "description": "Discover Porto's vibrant street art scene with a guided tour through neighborhoods like Miragaia and Massarelos. Learn the stories behind contemporary urban murals.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Francesinha Food Tour",
+      "category": "Foodie",
+      "description": "Join a guided food tour sampling Porto's signature sandwich at multiple locations plus local petiscos and pastries. Culinary immersion with cultural commentary.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Palacio da Bolsa (Stock Exchange)",
+      "category": "Cultural",
+      "description": "Tour the stunning 19th-century palace with ornate rooms, particularly the Arabian Hall with intricate Islamic-inspired design. A hidden architectural masterpiece.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
       ]
     },
     {
       "name": "Serralves Museum of Contemporary Art",
       "category": "Indoor",
-      "description": "Explore Portugal's premier contemporary art museum with rotating exhibitions, outdoor installations, and architecture by renowned designers. Free outdoor park accessible to all.",
-      "durationHours": 2,
+      "description": "Modern art museum housed in a striking white modernist building with rotating exhibitions and interactive installations. Contemporary culture immersion.",
+      "durationHours": 2.5,
       "estimatedCostUSD": 10,
       "bestFor": [
-        "standard",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Livraria Lello Sunset Experience",
-      "category": "Relaxation",
-      "description": "Settle into the historic café section of the stunning bookstore at golden hour with coffee or wine, enjoying soft light filtering through ornate windows. Perfect moment of literary and visual beauty.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "relaxation",
-        "photography",
         "standard"
       ]
     },
     {
-      "name": "Hiking to Amarante Day Trip",
-      "category": "Adventure",
-      "description": "Day trip to charming riverside town of Amarante with hiking trails through lush valleys, historic bridges, and small-town Portuguese charm. Scenic train or bus ride through wine country.",
-      "durationHours": 6,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Nightlife in Ribeira District",
-      "category": "Nightlife",
-      "description": "Experience Porto's vibrant evening scene with traditional fado bars, modern clubs, and rooftop venues offering riverside views. Range from intimate music venues to high-energy dancing.",
-      "durationHours": 3,
-      "estimatedCostUSD": 30,
+      "name": "Sunset at Miradouro da Serra do Pilar",
+      "category": "Outdoor",
+      "description": "Watch sunset from this viewpoint across the river in Vila Nova de Gaia with unobstructed views of Dom Luís Bridge and the city skyline. Golden hour magic with minimal crowds.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "surprise",
-        "relaxation"
+        "relaxation",
+        "photography"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Dom Luís Bridge",
-        "description": "Iconic two-tier iron bridge offering dramatic compositional angles from multiple vantage points along the waterfront.",
+        "name": "Dom Luís II Bridge",
+        "description": "Iconic double-deck iron bridge offering dramatic architectural geometry from both sides with stunning city and river perspectives.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm tones, or blue hour for moody shots",
+        "bestTime": "Golden hour (early morning or late afternoon)",
         "category": "Architecture"
       },
       {
-        "name": "Ribeira District Overlook",
-        "description": "Dense historic buildings with colorful façades stacked vertically create stunning layered compositions reflecting in the Douro.",
+        "name": "Ribeira Rooftops",
+        "description": "Dense cluster of terracotta rooftops stacked on hillside with narrow alleyways creating layers of urban texture and depth.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning light or late afternoon when sun illuminates building facades",
-        "category": "Street"
-      },
-      {
-        "name": "Clérigos Tower Base View",
-        "description": "Baroque tower rising above surrounding buildings with intricate tilework visible on nearby structures.",
-        "difficulty": "Beginner",
-        "bestTime": "Morning light from east side, afternoon from west",
+        "bestTime": "Morning light for directional shadows",
         "category": "Architecture"
-      },
-      {
-        "name": "Luis I Bridge from Vila Nova de Gaia",
-        "description": "Best vantage point for capturing the bridge's double structure with river and Ribeira buildings as backdrop.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour creates warm reflections on water",
-        "category": "Landscape"
       },
       {
         "name": "Livraria Lello Interior",
-        "description": "Ornate Belle Époque architecture with red staircase, art deco details, and atmospheric library setting.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon when natural light streams through windows",
+        "description": "World-famous bookstore with ornate wooden staircases, stained glass, and multiple levels creating architectural drama.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning to avoid direct shadows",
         "category": "Architecture"
       },
       {
-        "name": "Ribeira Narrow Alleys",
-        "description": "Winding cobblestone streets with azulejo tiles, laundry lines, and locals creating authentic street photography scenes.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning before crowds or golden hour",
+        "name": "Douro Riverside Promenade",
+        "description": "Waterfront lined with colorful buildings reflected in the river, bridge crossing overhead, bustling with authentic activity.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for reflections",
         "category": "Street"
+      },
+      {
+        "name": "Clérigos Tower Base",
+        "description": "Baroque tower rising above surrounding buildings with intricate architectural details and surrounding historic plaza.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning with side lighting",
+        "category": "Architecture"
       },
       {
         "name": "Bolhão Market Interior",
-        "description": "Vibrant covered market with colorful produce, fish displays, and bustling activity creating dynamic market photography.",
+        "description": "Historic market hall with colorful produce, flowers, and vendors creating vibrant street scenes and cultural moments.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning when market is busiest and light streams through skylights",
+        "bestTime": "Early morning (7-9am) for best activity",
         "category": "Street"
       },
       {
-        "name": "Lilypad Boat Perspective",
-        "description": "Unique water-level views of bridges, buildings, and riverside architecture from underneath historic structures.",
-        "difficulty": "Advanced",
-        "bestTime": "Golden hour with sun positioned for silhouettes and reflections",
-        "category": "Landscape"
+        "name": "Street Art in Miragaia",
+        "description": "Walls covered with vibrant murals and contemporary street art creating colorful urban landscape.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast day to avoid harsh shadows on bright colors",
+        "category": "Street"
       },
       {
-        "name": "Serralves Museum Exterior",
-        "description": "Contemporary white architecture with geometric forms and sculptural installations against modern urban landscape.",
-        "difficulty": "Beginner",
-        "bestTime": "Midday for clean shadows, golden hour for texture",
+        "name": "Serralves Museum White Building",
+        "description": "Striking modernist white structure photographing beautifully against Porto's traditional skyline.",
+        "difficulty": "Intermediate",
+        "bestTime": "Blue hour for contrast",
         "category": "Architecture"
       },
       {
-        "name": "Douro Waterfront Promenade",
-        "description": "Riverside walk with reflections of historic buildings in water, boat activity, and pedestrians creating layered compositions.",
+        "name": "Miradouro da Serra do Pilar Viewpoint",
+        "description": "Elevated viewpoint offering sweeping vista of Dom Luís Bridge, city skyline, and Douro River in single frame.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour creates perfect reflections and warm color palette",
+        "bestTime": "Sunset for golden light on bridge",
         "category": "Landscape"
+      },
+      {
+        "name": "Palacio da Bolsa Courtyard",
+        "description": "Ornate 19th-century palace with intricate Islamic-inspired tiling and architectural details in intimate courtyard setting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for natural light in courtyard",
+        "category": "Architecture"
       }
     ],
     "sunriseSpots": [
-      "Clérigos Tower summit",
-      "Douro Waterfront Promenade east-facing section",
-      "Ribeira overlook from Miradouro da Vitória"
+      "Clérigos Tower (upper platform)",
+      "Miradouro da Vitória overlook",
+      "East bank of Douro near Ribeira entrance"
     ],
     "sunsetSpots": [
-      "Dom Luís Bridge from Vila Nova de Gaia waterfront",
-      "Livraria Lello Café terrace",
-      "Serralves Museum outdoor plaza"
+      "Miradouro da Serra do Pilar (Vila Nova de Gaia)",
+      "Dom Luís II Bridge upper deck",
+      "Ribeira rooftop terraces"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for architectural sweeps of Ribeira and bridge compositions",
-      "50mm prime for intimate street portraits in narrow alleys and market scenes",
-      "70-200mm telephoto for compressed bridge shots and distant cityscape layers",
-      "24mm for golden hour reflections and waterfront landscape perspectives"
+      "24-70mm for versatile street and architectural work capturing Porto's varied scenes",
+      "16-35mm ultra-wide for dramatic bridge and skyline compositions",
+      "85mm prime for street portraits and compressed perspective of dense architecture",
+      "70-200mm telephoto for compressed river and bridge details"
     ],
-    "goldenHourNotes": "Porto's golden hour is exceptionally photogenic due to west-facing riverside architecture that glows warmly. Position yourself on the eastern riverbank around sunset to capture illuminated buildings reflecting in water. Early mornings from elevated positions like Clérigos Tower offer soft light across red-tiled roofs with fewer crowds.",
+    "goldenHourNotes": "Porto's hillside location creates extended golden hour periods with directional side lighting that beautifully reveals architectural texture and layers. The Douro River creates excellent reflection opportunities during calm morning light, particularly for bridge and riverfront compositions. Sunset from viewpoints across the river in Vila Nova de Gaia provides unobstructed golden light on the city's western facades.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -371,96 +366,95 @@
       {
         "month": 1,
         "avgTempC": 8,
-        "rainfallMM": 152
+        "rainfallMM": 140
       },
       {
         "month": 2,
         "avgTempC": 9,
-        "rainfallMM": 127
+        "rainfallMM": 110
       },
       {
         "month": 3,
         "avgTempC": 11,
-        "rainfallMM": 114
+        "rainfallMM": 100
       },
       {
         "month": 4,
         "avgTempC": 13,
-        "rainfallMM": 127
+        "rainfallMM": 105
       },
       {
         "month": 5,
         "avgTempC": 16,
-        "rainfallMM": 89
+        "rainfallMM": 80
       },
       {
         "month": 6,
         "avgTempC": 19,
-        "rainfallMM": 63
+        "rainfallMM": 65
       },
       {
         "month": 7,
         "avgTempC": 21,
-        "rainfallMM": 38
+        "rainfallMM": 35
       },
       {
         "month": 8,
-        "avgTempC": 20,
-        "rainfallMM": 51
+        "avgTempC": 21,
+        "rainfallMM": 42
       },
       {
         "month": 9,
-        "avgTempC": 18,
-        "rainfallMM": 89
+        "avgTempC": 19,
+        "rainfallMM": 75
       },
       {
         "month": 10,
         "avgTempC": 15,
-        "rainfallMM": 152
+        "rainfallMM": 130
       },
       {
         "month": 11,
         "avgTempC": 11,
-        "rainfallMM": 178
+        "rainfallMM": 145
       },
       {
         "month": 12,
         "avgTempC": 9,
-        "rainfallMM": 165
+        "rainfallMM": 155
       }
     ],
     "bestMonths": [
       5,
       6,
-      7,
-      8,
-      9
+      9,
+      10
     ],
-    "seasonality": "Summer (June-August) offers warm, dry weather ideal for outdoor activities and photography, while spring and early fall provide pleasant temperatures with fewer crowds. Winter months are cool and wet but atmospheric for moody photography.",
-    "summary": "Porto experiences a temperate maritime climate with mild winters and warm summers. The driest months are July and August, while November through March sees the most rainfall, though temperatures remain mild for a European winter destination."
+    "seasonality": "Porto experiences mild winters with frequent rain and warm, dry summers with average temperatures peaking in July-August. Spring (May-June) and fall (September-October) offer ideal conditions with pleasant temperatures, lower rainfall, and comfortable weather for walking and outdoor activities.",
+    "summary": "Porto has a temperate maritime climate with cool, wet winters and warm, dry summers. The best time to visit is late spring through early fall when weather is most favorable for sightseeing and photography."
   },
   "hotels": [
     {
-      "name": "Pensão Residencial Nova Ribeira",
+      "name": "The Independente Hostel & Suites",
       "neighborhood": "Ribeira",
-      "pricePerNightUSD": 55,
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Simple, clean guesthouse in the heart of the historic district with basic amenities and authentic local atmosphere."
+      "description": "Social hostel in historic Ribeira with private rooms and dorms, rooftop bar, and welcoming atmosphere for solo travelers and groups."
     },
     {
-      "name": "Memmo Alfama Hotel",
+      "name": "Memmo Alfandega Hotel",
       "neighborhood": "Ribeira",
       "pricePerNightUSD": 120,
       "category": "Mid-range",
-      "description": "Contemporary boutique hotel in a restored historic building featuring modern design, rooftop terrace with river views, and attentive service."
+      "description": "Stylish 4-star hotel in a converted customs house with rooftop pool overlooking the Douro River and modern design throughout."
     },
     {
       "name": "The Yeatman",
       "neighborhood": "Vila Nova de Gaia",
       "pricePerNightUSD": 280,
       "category": "Luxury",
-      "description": "Five-star design hotel with Michelin-starred restaurant, spa, and spectacular panoramic views of Porto and the Douro River."
+      "description": "5-star Michelin-starred hotel with spa, fine dining restaurant, and panoramic views of Porto and the Douro River from the hillside."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1713124417852-d7026ef9c034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQb3J0byUyMFBvcnR1Z2FsJTIwcml2ZXJzaWRlfGVufDF8MHx8fDE3ODE1NjIyODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1713124417852-d7026ef9c034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxQb3J0byUyMFBvcnR1Z2FsJTIwcml2ZXJzaWRlJTIwY2l0eXxlbnwxfDB8fHwxNzgxNjI5NDM0fDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -4,20 +4,20 @@
   "country": "Tanzania",
   "region": "Africa",
   "airportCodes": [
+    "ARK",
     "KLM",
-    "JRO",
     "DAR"
   ],
   "hiddenGem": false,
   "tripStyles": [
-    "standard",
-    "photography",
     "adventure",
-    "wildlife"
+    "photography",
+    "wildlife",
+    "standard"
   ],
   "scores": {
     "cost": 45,
-    "food": 70,
+    "food": 65,
     "photography": 98,
     "activities": 95,
     "weather": 80
@@ -35,389 +35,395 @@
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 600,
-      "maxPerDayUSD": 1200
+      "minPerDayUSD": 500,
+      "maxPerDayUSD": 1500
     }
   ],
   "unsplashQuery": "Serengeti wildlife safari",
-  "summary": "The Serengeti is one of the world's greatest natural wonders, a vast ecosystem in northern Tanzania renowned for its incredible wildlife populations and the iconic annual Great Migration. Home to lions, elephants, zebras, and countless other species across endless golden plains, this UNESCO World Heritage Site offers unparalleled safari experiences and photography opportunities. Witness nature's most dramatic spectacles in a landscape that seems untouched by time.",
+  "summary": "The Serengeti is one of Africa's most iconic wildlife destinations, featuring vast plains teeming with millions of animals during the legendary migration season. This UNESCO World Heritage Site offers unparalleled opportunities for game drives, photography, and experiencing pristine African wilderness.",
   "restaurants": [
     {
-      "name": "Serengeti Sopa Lodge Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "On-site dining at a premier lodge offering East African cuisine with views over the plains. Features both buffet and à la carte options highlighting local ingredients and traditional preparations.",
-      "mustTry": "Grilled kudu with African herbs"
-    },
-    {
-      "name": "Ndutu Safari Lodge Dining Hall",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Elegant dining experience featuring contemporary African dishes and international cuisine in a lodge setting. Known for fresh preparations and knowledgeable staff about local wildlife viewing opportunities.",
-      "mustTry": "Tanzanian grilled tilapia"
-    },
-    {
-      "name": "Grumeti Serengeti Tented Camp Kitchen",
+      "name": "Serengeti Serena Safari Lodge Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Luxury tented camp offering gourmet cuisine with expert chefs preparing multi-course African and international menus. Intimate dining experiences often include sundowner drinks overlooking the Grumeti River.",
-      "mustTry": "Sous-vide impala with red wine reduction"
+      "description": "Upscale dining with panoramic views of the Serengeti plains, offering international and local cuisine prepared by experienced chefs. Exclusive to lodge guests with refined African-inspired dishes.",
+      "mustTry": "Grilled kudu with wild mushroom sauce"
     },
     {
-      "name": "Tarangire Sopa Lodge Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Casual lodge restaurant serving hearty East African and international fare perfect for refueling between game drives. Offers excellent value with generous portions and friendly service.",
-      "mustTry": "Nyama choma with ugali"
-    },
-    {
-      "name": "Migration Camp Mess Tent",
+      "name": "Arusha Coffee Lodge",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Informal camp dining focusing on wholesome, family-style meals shared with fellow travelers and guides. Features simple but satisfying African dishes and comfort food.",
-      "mustTry": "Bean and vegetable stew"
+      "description": "Working coffee farm restaurant near Arusha offering fresh coffee and light meals made from local ingredients. Perfect for pre-safari breakfast or casual lunch with farm views.",
+      "mustTry": "Fresh-ground Tanzanian coffee with banana bread"
     },
     {
-      "name": "Singita Grumeti Reserves Fine Dining",
+      "name": "Ngorongoro Crater Lodge Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Ultra-luxury private reserve offering Michelin-caliber cuisine prepared by world-class chefs with the finest African and international ingredients. Features private dining and sommelier-curated wine experiences.",
-      "mustTry": "East African game tasting menu"
+      "description": "Exclusive dining experience perched on the crater rim with spectacular views and gourmet African fusion cuisine. Only accessible to lodge guests.",
+      "mustTry": "Pan-seared tilapia with local greens"
     },
     {
-      "name": "Arusha Coffee Lodge Restaurant",
+      "name": "Kikoi Restaurant Arusha",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Gateway lodge restaurant near the Serengeti entrance offering straightforward Tanzanian dishes and fresh coffee from their own plantation. Good for pre-safari meals.",
-      "mustTry": "Tanzanian coffee with chai and mandazi"
+      "description": "Local favorite serving authentic Tanzanian cuisine including ugali, nyama choma, and fresh vegetables. Casual atmosphere with friendly service.",
+      "mustTry": "Ugali with beef stew"
     },
     {
-      "name": "Klein's Camp Dining Room",
+      "name": "Four Seasons Safari Lodge Dining",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Intimate luxury camp featuring personalized menus tailored to guest preferences and dietary needs with emphasis on local ingredients and wine pairings. Exceptional service and attention to detail.",
-      "mustTry": "Pan-seared kudu loin"
+      "description": "World-class fine dining experience featuring innovative African cuisine with international influences and extensive wine selection. Located in the heart of the Serengeti.",
+      "mustTry": "Seared tuna with Tanzanian spices"
     },
     {
-      "name": "Serengeti Pioneer Camp Kitchen",
+      "name": "Tarangire Safari Lodge Restaurant",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Comfortable camp dining with authentic bush-style meals prepared fresh daily featuring local meats, vegetables, and grains. Hearty and satisfying fare designed for safari travelers.",
-      "mustTry": "Game stew with thick gravy"
+      "priceRange": "$$",
+      "description": "Safari lodge dining with hearty meals suitable for active game drive days, featuring local and international options. Family-friendly with flexible dining times.",
+      "mustTry": "Chicken in peanut sauce"
     },
     {
-      "name": "Mwiba Lodge Restaurant",
+      "name": "The Sarai at Tarangire",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Luxury lodge restaurant with contemporary design and refined African cuisine featuring locally-sourced ingredients. Intimate candlelit dinners available.",
+      "mustTry": "Impala loin with wild berry reduction"
+    },
+    {
+      "name": "Arusha Street Food Market",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic local street food scene offering grilled meats, samosas, and traditional Tanzanian snacks. Great for experiencing local culture and budget-friendly dining.",
+      "mustTry": "Grilled beef skewers with lime"
+    },
+    {
+      "name": "Singita Grumeti Reserves Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Ultra-luxury dining with Michelin-inspired cuisine and personalized service overlooking the Grumeti River. Offers unique Serengeti gastronomic experiences.",
+      "mustTry": "Crocodile steak with local spices"
+    },
+    {
+      "name": "Camelthorn Lodge Restaurant",
       "category": "Midrange",
-      "priceRange": "$$$",
-      "description": "Stylish lodge dining featuring contemporary interpretations of traditional Tanzanian cuisine with locally sourced ingredients. Offers both indoor and outdoor seating with sunset views.",
-      "mustTry": "Roasted Serengeti chicken with wild mushrooms"
+      "priceRange": "$$",
+      "description": "Casual lodge restaurant with solid Tanzanian and international fare, perfect for travelers on moderate budgets. Open for breakfast, lunch, and dinner.",
+      "mustTry": "Tanzanian chapati with beans"
     },
     {
-      "name": "Campi ya Kanzi Bush Kitchen",
+      "name": "Gibb's Farm Restaurant",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Authentic Maasai community kitchen experience offering traditional meals and the opportunity to learn about local food preparation techniques. Simple, rustic, and culturally immersive.",
-      "mustTry": "Ugali with sukuma wiki"
+      "description": "Farm-to-table restaurant using organic produce from the adjacent working farm, offering fresh and flavorful Tanzanian cuisine. Educational farm tours available.",
+      "mustTry": "Fresh vegetable soup with homemade bread"
     },
     {
-      "name": "Four Seasons Serengeti Safari Lodge Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Prestigious resort-style dining featuring innovative fusion cuisine blending African flavors with international techniques in an elegant setting. Award-winning service and extensive wine cellar.",
-      "mustTry": "Herb-crusted tenderloin with Serengeti spices"
+      "name": "Serena Arusha Mountain Village",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Cultural dining experience in a recreated traditional village setting near Arusha with authentic Tanzanian meals and cultural performances. Great for families.",
+      "mustTry": "Traditional goat stew"
     }
   ],
   "activities": [
     {
-      "name": "Early Morning Game Drive",
+      "name": "Big Cat Game Drive",
       "category": "Adventure",
-      "description": "Witness wildlife awakening as your guide navigates the plains spotting lions, elephants, leopards, and countless herbivores in their most active hours. Expert guides provide insights into animal behavior and ecosystem dynamics.",
-      "durationHours": 4,
+      "description": "Full-day guided game drive searching for lions, leopards, and cheetahs with experienced guides providing expert wildlife knowledge. Early morning and late afternoon drives offer optimal wildlife viewing.",
+      "durationHours": 8,
       "estimatedCostUSD": 150,
       "bestFor": [
-        "standard",
+        "adventure",
         "photography",
-        "adventure"
+        "standard"
       ]
     },
     {
-      "name": "Great Migration River Crossing",
+      "name": "Great Migration Safari",
       "category": "Adventure",
-      "description": "Experience the dramatic seasonal movement of millions of wildebeest and zebras crossing crocodile-filled rivers during the migration season. One of nature's most thrilling and dangerous spectacles.",
-      "durationHours": 6,
-      "estimatedCostUSD": 200,
+      "description": "Witness the annual migration of over 2 million wildebeest and zebras crossing the plains and Mara River between July and November. Epic multi-day safari experience.",
+      "durationHours": 48,
+      "estimatedCostUSD": 500,
       "bestFor": [
-        "standard",
+        "adventure",
         "photography",
-        "adventure"
+        "standard"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon Ride at Sunrise",
+      "category": "Adventure",
+      "description": "Float above the Serengeti plains at dawn witnessing spectacular wildlife and landscape views from unique aerial perspective. Includes champagne breakfast upon landing.",
+      "durationHours": 4,
+      "estimatedCostUSD": 450,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
       ]
     },
     {
       "name": "Walking Safari with Maasai Guide",
       "category": "Cultural",
-      "description": "Explore the Serengeti on foot with a knowledgeable Maasai guide who shares traditional knowledge about plants, animals, and local culture. Intimate perspective on the ecosystem and wildlife behavior.",
+      "description": "Intimate guided walk through Serengeti habitats with Maasai guides sharing traditional knowledge of wildlife and ecosystem. Early morning walks offer best animal sightings.",
       "durationHours": 3,
-      "estimatedCostUSD": 120,
+      "estimatedCostUSD": 100,
       "bestFor": [
         "adventure",
+        "hidden-gems",
         "photography"
       ]
     },
     {
-      "name": "Hot Air Balloon Safari at Dawn",
+      "name": "Ngorongoro Crater Descent",
       "category": "Adventure",
-      "description": "Float silently above the Serengeti plains at sunrise gaining spectacular aerial perspectives of wildlife herds and landscape patterns. Followed by champagne breakfast in the bush.",
-      "durationHours": 4,
-      "estimatedCostUSD": 500,
+      "description": "Drive into the world's largest intact volcanic crater to explore the crater floor's unique ecosystem with concentrated wildlife populations. UNESCO World Heritage Site.",
+      "durationHours": 8,
+      "estimatedCostUSD": 160,
       "bestFor": [
-        "photography",
         "adventure",
+        "photography",
         "standard"
+      ]
+    },
+    {
+      "name": "Maasai Village Cultural Visit",
+      "category": "Cultural",
+      "description": "Visit authentic Maasai communities to learn about traditional pastoral lifestyle, rituals, and customs with direct interaction with villagers. Supports local communities through tourism revenue.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "hidden-gems",
+        "cultural",
+        "standard"
+      ]
+    },
+    {
+      "name": "Tarangire National Park Safari",
+      "category": "Adventure",
+      "description": "Explore alternative park with abundant elephant herds, baobab trees, and diverse wildlife with fewer crowds than Serengeti. Excellent dry-season destination.",
+      "durationHours": 8,
+      "estimatedCostUSD": 140,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Bird Watching Safari",
+      "category": "Outdoor",
+      "description": "Guided bird watching excursion spotting over 500 bird species including eagles, ostriches, and crowned cranes with expert ornithologists. Best during rainy season.",
+      "durationHours": 6,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Olduvai Gorge Archaeological Tour",
+      "category": "Cultural",
+      "description": "Visit the crater where early human fossils were discovered, learning about human evolution with museum exhibits and gorge walks. Educational historical experience.",
+      "durationHours": 4,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "hidden-gems",
+        "cultural"
       ]
     },
     {
       "name": "Night Game Drive",
       "category": "Adventure",
-      "description": "Discover nocturnal animals including hyenas, jackals, porcupines, and owls under spotlight illumination with experienced guides trained in night safari techniques. Entirely different ecosystem reveals itself after dark.",
-      "durationHours": 3,
-      "estimatedCostUSD": 100,
+      "description": "Nocturnal safari adventure spotting nocturnal animals including hyenas, genets, and owls with specialized spotlights. Unique perspective of Serengeti ecosystem.",
+      "durationHours": 4,
+      "estimatedCostUSD": 130,
       "bestFor": [
         "adventure",
-        "photography"
-      ]
-    },
-    {
-      "name": "Visit to Maasai Village",
-      "category": "Cultural",
-      "description": "Interact with Maasai warriors and families learning about pastoralist culture, traditional customs, and daily life on the Serengeti edges. Opportunity to purchase traditional crafts and jewelry.",
-      "durationHours": 2,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "standard",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Grumeti River Croc Spotting",
-      "category": "Adventure",
-      "description": "Focus specifically on observing massive Nile crocodiles basking along the Grumeti River during crossing season and throughout the year. Learn about these ancient predators and their hunting strategies.",
-      "durationHours": 2,
-      "estimatedCostUSD": 80,
-      "bestFor": [
         "photography",
-        "adventure"
+        "surprise"
       ]
     },
     {
-      "name": "Photography Workshop with Professional",
-      "category": "Photography",
-      "description": "Guided game drive led by professional wildlife photographer teaching composition, lighting, and camera techniques for capturing African wildlife. Personalized feedback and technical instruction included.",
+      "name": "Serengeti Picnic and Hiking",
+      "category": "Outdoor",
+      "description": "Pack a gourmet picnic in scenic locations with optional short hikes through varied Serengeti habitats. Flexible activity suitable for various fitness levels.",
       "durationHours": 5,
-      "estimatedCostUSD": 300,
+      "estimatedCostUSD": 75,
       "bestFor": [
-        "photography"
-      ]
-    },
-    {
-      "name": "Sunset Game Drive with Sundowner Drinks",
-      "category": "Adventure",
-      "description": "Relaxed afternoon game drive concluding with champagne and snacks on a scenic viewpoint overlooking the plains as the sun sets. Perfect for photographers chasing golden hour light.",
-      "durationHours": 4,
-      "estimatedCostUSD": 140,
-      "bestFor": [
+        "adventure",
         "standard",
-        "photography",
         "relaxation"
       ]
     },
     {
-      "name": "Ngorongoro Crater Day Trip",
+      "name": "Laager Camping Experience",
       "category": "Adventure",
-      "description": "Visit the world's largest intact volcanic crater ecosystem featuring incredible wildlife concentration including rhinos, lions, and flamingos on crater lake. UNESCO World Heritage Site adjacent to Serengeti.",
-      "durationHours": 8,
-      "estimatedCostUSD": 180,
+      "description": "Sleep under the stars at protected camps within Serengeti with game drives at dawn and dusk. Immersive wildlife experience with bush dinners and campfire stories.",
+      "durationHours": 24,
+      "estimatedCostUSD": 200,
       "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Bird Watching Excursion",
-      "category": "Outdoor",
-      "description": "Identify over 500 bird species with expert ornithology guide exploring different habitats from woodlands to wetlands. Binoculars and field guides provided for comprehensive birdwatching experience.",
-      "durationHours": 3,
-      "estimatedCostUSD": 90,
-      "bestFor": [
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Full Day Game Drive Circle Route",
-      "category": "Adventure",
-      "description": "Comprehensive full-day safari covering multiple ecosystems and prime wildlife viewing areas with expert guides maximizing animal sightings. Includes packed lunch in the bush and flexible route planning.",
-      "durationHours": 8,
-      "estimatedCostUSD": 220,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure"
+        "adventure",
+        "surprise",
+        "standard"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Lamai Wedge at Sunset",
-        "description": "Golden grassland plateau offering unobstructed vistas for landscape and wildlife photography with dramatic sunset backdrops.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset hour, dry season",
-        "category": "Landscape"
+        "name": "Seronera Valley",
+        "description": "Prime big cat territory with reliable lion and leopard sightings offering exceptional wildlife photography opportunities against golden grassland backdrop.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon during dry season",
+        "category": "Wildlife"
       },
       {
-        "name": "Grumeti River Crossing Points",
-        "description": "Rocky river crossing areas where millions of wildebeest and zebras gather creating unprecedented wildlife photography moments during migration.",
+        "name": "Grumeti River Crossing",
+        "description": "Epic migration scene where wildebeest and zebras cross crocodile-infested river creating dramatic action photography moments during July-August.",
         "difficulty": "Advanced",
-        "bestTime": "June-July migration season",
+        "bestTime": "July to August during peak migration",
         "category": "Wildlife"
       },
       {
-        "name": "Seronera River Valley",
-        "description": "Lush river valley dense with wildlife including leopards in trees, lions resting, and countless herbivores creating prime predator-prey interaction shots.",
-        "difficulty": "Intermediate",
-        "bestTime": "Dry season mornings",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Kopje Rock Formations",
-        "description": "Dramatic rocky outcrops rising from plains used by lions and leopards for resting and hunting providing excellent elevated perspective photography opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning light, dry season",
-        "category": "Landscape"
-      },
-      {
-        "name": "Crater Highlands Rim",
-        "description": "Elevated vantage points offering panoramic views of the Ngorongoro Crater and surrounding landscapes with ideal composition opportunities at sunrise and sunset.",
+        "name": "Ngorongoro Crater Rim",
+        "description": "Stunning panoramic landscape with crater walls, wildlife-filled floor, and dramatic volcanic formations creating breathtaking landscape photography.",
         "difficulty": "Beginner",
-        "bestTime": "Sunrise and sunset",
+        "bestTime": "Early morning with clear skies",
         "category": "Landscape"
       },
       {
-        "name": "Wildebeest Dust Cloud Migration",
-        "description": "Open plains where migrating herds create dramatic dust clouds backlighting opportunities with thousands of animals in frame simultaneously.",
+        "name": "Tarangire Baobab Groves",
+        "description": "Ancient baobab trees scattered across golden plains offer iconic African tree photography with excellent wildlife encounters.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour near baobabs",
+        "category": "Landscape"
+      },
+      {
+        "name": "Lamai Wedge",
+        "description": "Remote Serengeti region with massive herds during migration and unique rock formations creating dramatic wildlife and landscape compositions.",
         "difficulty": "Advanced",
-        "bestTime": "June-October migration",
+        "bestTime": "November to December during short rains",
         "category": "Wildlife"
       },
       {
-        "name": "Maasai Village Settings",
-        "description": "Traditional bomas and pastoralist scenes offering cultural and portrait photography opportunities with authentic Maasai people and daily life activities.",
+        "name": "Mara River Valley",
+        "description": "Scenic river valley with diverse wildlife, acacia trees, and photogenic water features ideal for landscape and action photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Morning and late afternoon",
+        "bestTime": "Early morning light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Olduvai Gorge",
+        "description": "Geological formations with historical significance offer unique landscape photography with layered rocky cliff faces and archaeological context.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Maasai Cultural Settings",
+        "description": "Traditional villages, pastoralists with cattle, and cultural ceremonies provide vibrant street and cultural photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or late afternoon",
         "category": "Street"
       },
       {
-        "name": "Cheetah Family Hunting Grounds",
-        "description": "Open grassland areas where cheetahs hunt providing action photography opportunities capturing predation and feline behavior in natural settings.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning drives",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Savanna Acacia Trees",
-        "description": "Iconic umbrella acacia silhouettes against colorful skies offering classic African landscape shots and wildlife resting spots at various times of day.",
+        "name": "Sunset Points on Crater Rim",
+        "description": "Elevated positions overlooking valleys with dramatic sunset colors reflecting off landscape features creating stunning color photography.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour",
+        "bestTime": "One hour before sunset",
         "category": "Landscape"
       },
       {
-        "name": "Flamingo Lake Scenes",
-        "description": "Shallow alkaline lakes hosting millions of pink flamingos creating surreal water reflection and mass aggregation photography possibilities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Mid-day light, wet season",
+        "name": "Leopard Rock and Tree Roosting Areas",
+        "description": "Specific trees where leopards rest provide intimate big cat photography opportunities with natural perches and artistic compositions.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning before roosting leopards descend",
         "category": "Wildlife"
       }
     ],
     "sunriseSpots": [
-      "Lamai Wedge Eastern Plateau",
-      "Seronera River Valley High Points",
-      "Crater Highlands Eastern Rim"
+      "Seronera Valley Viewpoint",
+      "Ngorongoro Crater Rim North",
+      "Lamai Wedge Eastern Ridge"
     ],
     "sunsetSpots": [
-      "Lamai Wedge Western Edge",
-      "Kopje Rock Formations Ridge",
-      "Savanna Acacia Grove Clearings"
+      "Crater Rim Lodge Overlook",
+      "Mara River Escarpment",
+      "Gol Mountains Viewpoint"
     ],
     "lensRecommendations": [
-      "200-400mm telephoto for wildlife and predator behavior at safe distances",
-      "70-200mm versatile zoom for varied wildlife and landscape compositions",
-      "16-35mm wide-angle for expansive landscape and migration dust cloud perspectives",
-      "500mm prime or 1.4x teleconverter setup for distant big cat and predator detail shots"
+      "70-200mm telephoto for distant wildlife and migration river crossings from safe distances",
+      "24-70mm versatile zoom for landscape compositions and cultural scenes",
+      "14-24mm ultra-wide for expansive plains vistas and dramatic crater panoramas",
+      "400mm+ telephoto for predator photography requiring extreme compression and isolation"
     ],
-    "goldenHourNotes": "The Serengeti's dry season golden hour is exceptionally dramatic with exceptionally clear air and minimal dust creating rich warm tones on acacia trees and grasslands. Dawn golden hour offers the best wildlife activity with predators finishing night hunts and prey herds most vulnerable. Sunset photography captures silhouetted wildlife against intense orange and crimson skies with favorable backlit conditions for rim lighting on fur and creating dramatic profiles of migrating herds.",
+    "goldenHourNotes": "Golden hour in Serengeti is exceptionally photogenic due to minimal haze and warm light highlighting animal fur and landscape textures. Early morning (5:30-7:00 AM) offers the clearest light and most active wildlife, while late afternoon (4:30-6:30 PM) provides dramatic warm tones. Plan all game drives around these windows for optimal photography lighting.",
     "overallDifficulty": "Advanced"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 26,
-        "rainfallMM": 90
+        "avgTempC": 27,
+        "rainfallMM": 95
       },
       {
         "month": 2,
-        "avgTempC": 26,
-        "rainfallMM": 100
+        "avgTempC": 28,
+        "rainfallMM": 105
       },
       {
         "month": 3,
-        "avgTempC": 25,
+        "avgTempC": 27,
         "rainfallMM": 150
       },
       {
         "month": 4,
-        "avgTempC": 23,
+        "avgTempC": 25,
         "rainfallMM": 180
       },
       {
         "month": 5,
-        "avgTempC": 21,
-        "rainfallMM": 40
+        "avgTempC": 23,
+        "rainfallMM": 130
       },
       {
         "month": 6,
-        "avgTempC": 19,
-        "rainfallMM": 20
+        "avgTempC": 21,
+        "rainfallMM": 25
       },
       {
         "month": 7,
-        "avgTempC": 19,
+        "avgTempC": 20,
         "rainfallMM": 15
       },
       {
         "month": 8,
-        "avgTempC": 20,
-        "rainfallMM": 25
+        "avgTempC": 21,
+        "rainfallMM": 20
       },
       {
         "month": 9,
-        "avgTempC": 22,
-        "rainfallMM": 10
+        "avgTempC": 24,
+        "rainfallMM": 35
       },
       {
         "month": 10,
-        "avgTempC": 24,
-        "rainfallMM": 30
+        "avgTempC": 26,
+        "rainfallMM": 65
       },
       {
         "month": 11,
-        "avgTempC": 25,
-        "rainfallMM": 80
+        "avgTempC": 26,
+        "rainfallMM": 125
       },
       {
         "month": 12,
-        "avgTempC": 26,
+        "avgTempC": 27,
         "rainfallMM": 110
       }
     ],
@@ -426,34 +432,33 @@
       7,
       8,
       9,
-      10,
       12,
       1
     ],
-    "seasonality": "The Serengeti experiences two distinct seasons: the dry season (June-October) offering excellent game viewing and migration crossings with minimal rainfall and clear skies, and the wet season (November-May) with scattered rains promoting lush vegetation and calving season. June through October represents peak safari season with superior wildlife sightings and migration river crossings, while December-February offers fewer crowds during the calving season in the southern plains.",
-    "summary": "The Serengeti climate is warm year-round with temperatures ranging from 19-26°C, though nights can be cool particularly in the dry season. The ecosystem's weather patterns drive the Great Migration, with the dry season providing optimal conditions for wildlife viewing and photography due to concentrated animal populations and minimal vegetation obscuring sightlines."
+    "seasonality": "Serengeti experiences distinct wet and dry seasons. The dry season (June-September) offers optimal wildlife viewing with concentrated animals around water sources and clearer photographic conditions. The wet season (November-May) brings fresh vegetation, newborn animals, and fewer tourists.",
+    "summary": "The Serengeti has a warm tropical highland climate with temperatures ranging from 20-28°C year-round. The landscape shifts dramatically between rainy and dry seasons, affecting wildlife distribution and photography opportunities significantly."
   },
   "hotels": [
     {
-      "name": "Serengeti Sopa Lodge",
-      "neighborhood": "Central Serengeti National Park",
-      "pricePerNightUSD": 180,
-      "category": "Mid-range",
-      "description": "Well-established lodge offering comfortable rooms, reliable game drives, and good value with views over the plains and experienced naturalist guides included in the experience."
-    },
-    {
-      "name": "Grumeti Serengeti Tented Camp",
-      "neighborhood": "Grumeti River Area Western Corridor",
-      "pricePerNightUSD": 650,
-      "category": "Luxury",
-      "description": "Ultra-luxury tented camp perfectly positioned for witnessing river crossings with exclusive access, gourmet dining, and personalized safari experiences with expert guides and naturalists."
-    },
-    {
-      "name": "Migration Camp Serengeti",
-      "neighborhood": "Southern Plains Migration Route",
-      "pricePerNightUSD": 95,
+      "name": "Serengeti Budget Safari Camp",
+      "neighborhood": "Central Serengeti",
+      "pricePerNightUSD": 85,
       "category": "Budget",
-      "description": "Affordable tented camp offering basic but clean accommodations with communal dining and shared game drives providing budget-conscious travelers authentic safari experiences with knowledgeable guides."
+      "description": "Basic but comfortable tented camp with shared facilities, guided game drives included, suitable for budget-conscious wildlife enthusiasts."
+    },
+    {
+      "name": "Serengeti Serena Safari Lodge",
+      "neighborhood": "Central Serengeti",
+      "pricePerNightUSD": 300,
+      "category": "Mid-range",
+      "description": "All-inclusive lodge with private rooms, excellent restaurant, and daily game drives with experienced naturalist guides."
+    },
+    {
+      "name": "Four Seasons Safari Lodge Serengeti",
+      "neighborhood": "Grumeti River Region",
+      "pricePerNightUSD": 1200,
+      "category": "Luxury",
+      "description": "Ultra-luxury tented suites with personal butlers, gourmet dining, spa facilities, and exclusive game drive experiences in pristine Serengeti wilderness."
     }
   ],
   "heroImageUrl": "https://images.unsplash.com/photo-1597877774402-d04cad0b7596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTZXJlbmdldGklMjB3aWxkbGlmZSUyMHNhZmFyaXxlbnwxfDB8fHwxNzgxNTY1MzU4fDA&ixlib=rb-4.1.0&q=80&w=1080"

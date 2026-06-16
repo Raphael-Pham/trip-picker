@@ -1,0 +1,454 @@
+{
+  "id": "taos-ski-valley-usa",
+  "city": "Taos Ski Valley",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "TSF",
+    "ABQ",
+    "SAF"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "adventure",
+    "photography",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 75,
+    "photography": 90,
+    "activities": 95,
+    "weather": 85
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 150
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 150,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 600
+    }
+  ],
+  "unsplashQuery": "Taos ski mountain winter",
+  "summary": "Taos Ski Valley is a world-class alpine destination nestled in the Sangre de Cristo Mountains of northern New Mexico, offering world-renowned skiing and a vibrant artistic community. With over 300 inches of annual snowfall, stunning high-altitude terrain, and proximity to the historic town of Taos, it's an ideal destination for both winter sports enthusiasts and year-round adventurers.",
+  "restaurants": [
+    {
+      "name": "Trading Post Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual mountain cafe serving hearty breakfast burritos and New Mexican cuisine in a rustic setting. A local favorite for pre-ski fuel.",
+      "mustTry": "Red chile breakfast burrito"
+    },
+    {
+      "name": "The Bavarian Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Alpine-inspired German and Austrian fare with mountain views and cozy ambiance. Perfect for après-ski dining with fondue and schnitzel specialties.",
+      "mustTry": "Wiener schnitzel"
+    },
+    {
+      "name": "Taos Cow",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local ice cream shop and cafe with house-made ice cream, coffee, and light sandwiches. A sweet stop while exploring the valley.",
+      "mustTry": "Local honey ice cream"
+    },
+    {
+      "name": "El Mezzanine Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale New Mexican and contemporary American cuisine in an elegant setting with panoramic mountain views. Fine dining with a regional touch.",
+      "mustTry": "Colorado lamb with red chile sauce"
+    },
+    {
+      "name": "Mountain Kitchen",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant featuring seasonal ingredients and wood-fired preparations. Focus on locally sourced meats and vegetables.",
+      "mustTry": "Wood-fired trout"
+    },
+    {
+      "name": "Taos Pizza Out Back",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual pizzeria in Taos town serving wood-fired pizzas and Italian-inspired dishes. Popular with skiers looking for quick, affordable meals.",
+      "mustTry": "The Taos special pizza"
+    },
+    {
+      "name": "Sabroso Tacos",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Mexican street food featuring carne asada, al pastor, and traditional salsas. Quick service with exceptional flavor.",
+      "mustTry": "Carnitas tacos with green chile"
+    },
+    {
+      "name": "The Alley Cantina",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic cantina with traditional New Mexican food and full bar in a bohemian atmosphere. Live music on weekends and great margaritas.",
+      "mustTry": "Enchiladas verdes"
+    },
+    {
+      "name": "Rancho de Taos Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual family-style cafe serving homemade New Mexican comfort food and fresh sopapillas. Authentic local experience.",
+      "mustTry": "Homemade sopapillas with honey"
+    },
+    {
+      "name": "Orlando's New Mexican Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Family-owned institution since 1967 serving authentic red and green chile dishes and traditional specialties. A Taos dining landmark.",
+      "mustTry": "Carne adovada"
+    },
+    {
+      "name": "Sugar Nymphs Bistro",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate French-inspired restaurant with seasonal tasting menus and carefully curated wine selection. Refined mountain dining experience.",
+      "mustTry": "Seasonal game preparations"
+    },
+    {
+      "name": "Leona's de Chimayo",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Historic roadside restaurant in nearby Chimayo famous for carne adovada and traditional New Mexican fare since 1965. Worth the short drive.",
+      "mustTry": "Carne adovada plate"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Alpine Skiing and Snowboarding",
+      "category": "Adventure",
+      "description": "Experience world-class skiing on 1,294 acres with 110 trails ranging from beginner to extreme terrain. The steep terrain and abundant powder are legendary among skiers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Snowshoeing in the Forest",
+      "category": "Outdoor",
+      "description": "Explore serene forest trails on snowshoes through pristine alpine wilderness. Multiple difficulty levels available with stunning mountain vistas.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Taos Art and Culture Walking Tour",
+      "category": "Cultural",
+      "description": "Discover the vibrant artistic heritage of Taos with guided tours through galleries, studios, and historic sites. Learn about the artists who shaped this creative community.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Hiking to Williams Lake",
+      "category": "Outdoor",
+      "description": "Moderate 8-mile round-trip hike through alpine meadows to a pristine alpine lake with dramatic peak views. Best during summer and early fall.",
+      "durationHours": 5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Fly Fishing in Rio Hondo",
+      "category": "Adventure",
+      "description": "World-class fly fishing in pristine northern New Mexico streams with experienced guides. Rainbow and brown trout in beautiful wilderness settings.",
+      "durationHours": 4,
+      "estimatedCostUSD": 180,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Spa and Wellness at Resort",
+      "category": "Relaxation",
+      "description": "Indulge in massages, facials, and wellness treatments at the luxury spa facilities. Perfect for recovering après-ski or pure relaxation.",
+      "durationHours": 2,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "relaxation",
+        "standard"
+      ]
+    },
+    {
+      "name": "Horseback Riding Tours",
+      "category": "Outdoor",
+      "description": "Guided horseback riding through mountain trails and valleys with experienced outfitters. Suitable for all skill levels with stunning scenery.",
+      "durationHours": 3,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Mountain Biking Trails",
+      "category": "Adventure",
+      "description": "Diverse trail system offering everything from gentle valley rides to technical alpine descents. Summer and early fall season with expert guides available.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure"
+      ]
+    },
+    {
+      "name": "Taos Pueblo Tour",
+      "category": "Cultural",
+      "description": "Visit one of North America's oldest continuously inhabited pueblos with guided cultural tours. Learn about Tiwa traditions and see the iconic multi-story adobe structures.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Scenic Chairlift Ride in Summer",
+      "category": "Outdoor",
+      "description": "Ride the ski lift to the summit during summer months for panoramic views of the Sangre de Cristo Mountains and northern New Mexico valleys.",
+      "durationHours": 1,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Rio Grande Gorge Hike",
+      "category": "Outdoor",
+      "description": "Dramatic hike through the Rio Grande Gorge with steep canyon walls and river views. Multiple difficulty options with unforgettable landscape photography.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Local Brewery and Distillery Tours",
+      "category": "Nightlife",
+      "description": "Visit craft breweries and local distilleries producing craft beer and spirits in the Taos area. Tastings and educational experiences about local production.",
+      "durationHours": 2,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "standard",
+        "foodie"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Wheeler Peak Summit Vista",
+        "description": "New Mexico's highest peak offering panoramic views of the Sangre de Cristo Mountains and high-altitude landscape photography opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for sunrise light and clear conditions",
+        "category": "Landscape"
+      },
+      {
+        "name": "Taos Pueblo North House",
+        "description": "Iconic multi-story adobe pueblo structures with traditional architecture, perfect for cultural and architectural photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour for warm adobe tones",
+        "category": "Architecture"
+      },
+      {
+        "name": "Rio Grande Gorge Bridge",
+        "description": "Dramatic 650-foot span over the Rio Grande with sweeping canyon views and interesting perspectives for landscape photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset for warm canyon colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Enchanted Circle Scenic Drive",
+        "description": "83-mile loop featuring multiple pullouts with mountain vistas, aspen forests, and valley panoramas throughout the route.",
+        "difficulty": "Beginner",
+        "bestTime": "Fall for golden aspen colors or summer for wildflowers",
+        "category": "Landscape"
+      },
+      {
+        "name": "Sangre de Cristo Peaks at Sunrise",
+        "description": "Alpine peaks illuminated in golden and crimson light at dawn, offering dramatic mountain and sky photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning just before and after sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Taos Plaza and Historic Districts",
+        "description": "Vibrant town square with adobe architecture, galleries, and local life providing excellent street and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for building details",
+        "category": "Street"
+      },
+      {
+        "name": "Ski Valley Lifts and Terrain",
+        "description": "Winter landscape with ski slopes, forest lines, and mountain silhouettes creating dynamic action and landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Fresh snow conditions in early morning",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pilar Petroglyph Site",
+        "description": "Ancient rock art galleries featuring indigenous petroglyphs in a dramatic canyon setting with excellent texture and historical photography potential.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for side lighting on rock surfaces",
+        "category": "Architecture"
+      },
+      {
+        "name": "Aspen Grove in Fall Colors",
+        "description": "Dense aspen forests surrounding the mountain with stunning golden foliage creating scenic landscape and forest photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-September through early October for peak colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Kit Carson Home and Museum Grounds",
+        "description": "Historic adobe homestead with period architecture and surrounding landscape providing both architectural and cultural photography subjects.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm adobe illumination",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Wheeler Peak Summit Vista",
+      "Sangre de Cristo Peaks Overlook",
+      "Rio Grande Gorge Bridge East Viewpoint"
+    ],
+    "sunsetSpots": [
+      "Rio Grande Gorge Bridge West Viewpoint",
+      "Taos Ski Valley Peak Ridge",
+      "Enchanted Circle Scenic Overlook"
+    ],
+    "lensRecommendations": [
+      "14-24mm ultra-wide for sweeping mountain panoramas and dramatic gorge vistas",
+      "50mm prime for architectural details of pueblos and historic adobe structures",
+      "70-200mm telephoto for compressed mountain peaks and distant landscape details",
+      "24-70mm versatile zoom for varied composition and hiking accessibility"
+    ],
+    "goldenHourNotes": "The high elevation and clear mountain air create exceptionally crisp and vibrant golden hour light lasting 30-45 minutes at sunrise and sunset. The Sangre de Cristo range's north-south orientation provides outstanding side-lighting during golden hour. Shooting into the sun from the gorge creates dramatic silhouettes and rim lighting on canyon walls.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 28
+      },
+      {
+        "month": 3,
+        "avgTempC": 2,
+        "rainfallMM": 20
+      },
+      {
+        "month": 4,
+        "avgTempC": 8,
+        "rainfallMM": 20
+      },
+      {
+        "month": 5,
+        "avgTempC": 13,
+        "rainfallMM": 25
+      },
+      {
+        "month": 6,
+        "avgTempC": 18,
+        "rainfallMM": 45
+      },
+      {
+        "month": 7,
+        "avgTempC": 21,
+        "rainfallMM": 85
+      },
+      {
+        "month": 8,
+        "avgTempC": 20,
+        "rainfallMM": 75
+      },
+      {
+        "month": 9,
+        "avgTempC": 17,
+        "rainfallMM": 50
+      },
+      {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 30
+      },
+      {
+        "month": 11,
+        "avgTempC": 4,
+        "rainfallMM": 25
+      },
+      {
+        "month": 12,
+        "avgTempC": -2,
+        "rainfallMM": 30
+      }
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "seasonality": "Winter (December-March) offers world-class skiing with consistent snow and clear cold days. Summer and early fall (June-October) provide perfect conditions for hiking, wildflowers, and aspen colors with warm days and cool nights.",
+    "summary": "Taos Ski Valley experiences high-altitude alpine weather with dramatic seasonal variation. Expect abundant winter snowfall, cool summers with afternoon thunderstorms in July-August, and stunning fall colors with crisp clear days."
+  },
+  "hotels": [
+    {
+      "name": "Taos Valley Motel",
+      "neighborhood": "Taos Town",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Simple, comfortable motel in downtown Taos with basic amenities, convenient location near restaurants and galleries, and friendly service."
+    },
+    {
+      "name": "Taos Ski Valley Resort and Spa",
+      "neighborhood": "Taos Ski Valley",
+      "pricePerNightUSD": 200,
+      "category": "Mid-range",
+      "description": "On-mountain resort offering ski-in/ski-out access, full-service spa, multiple dining options, and modern accommodations with mountain views."
+    },
+    {
+      "name": "The Blake at Taos",
+      "neighborhood": "Taos Town",
+      "pricePerNightUSD": 350,
+      "category": "Luxury",
+      "description": "Boutique luxury hotel in historic downtown Taos featuring upscale rooms, fine dining, art gallery, and personalized service in an elegant adobe-style setting."
+    }
+  ]
+}

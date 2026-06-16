@@ -1,0 +1,464 @@
+{
+  "id": "galveston-usa",
+  "city": "Galveston",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "HOU",
+    "IAH",
+    "GLH"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation",
+    "family"
+  ],
+  "scores": {
+    "cost": 65,
+    "food": 72,
+    "photography": 75,
+    "activities": 78,
+    "weather": 70
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 230
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 230,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Galveston beach pier sunset",
+  "summary": "Galveston is a charming Gulf Coast beach destination offering pristine sandy shores, historic Victorian architecture, and vibrant cultural attractions. Known for its fresh seafood, family-friendly activities, and accessible beach lifestyle, it combines relaxation with adventure in a uniquely Texan coastal setting.",
+  "restaurants": [
+    {
+      "name": "Shrimp Shack",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "A casual beachfront spot serving boiled shrimp, crab, and authentic Gulf Coast seafood. Perfect for a quick, no-frills meal with ocean views.",
+      "mustTry": "Boiled shrimp platter with spicy seasoning"
+    },
+    {
+      "name": "The Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An upscale establishment featuring premium cuts of beef, fresh seafood, and an extensive wine list with elegant ambiance. Ideal for special occasions.",
+      "mustTry": "Prime ribeye with lobster tail"
+    },
+    {
+      "name": "Saltgrass Steak House",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "A Texas-style steakhouse offering grilled meats, fresh Gulf fish, and homemade sides in a casual-upscale setting. Family-friendly with views of the harbor.",
+      "mustTry": "Texas ribeye with jalapeño cheddar biscuits"
+    },
+    {
+      "name": "Sunflower Bakery and Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A charming bakery offering fresh pastries, coffee, and light breakfast fare in a cozy atmosphere. Great for starting the day before beach activities.",
+      "mustTry": "Almond croissant with cappuccino"
+    },
+    {
+      "name": "Bronx Pizza",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic New York-style pizza with fresh toppings and thin crust served in a casual, quick-service setting. Perfect for casual lunch or late-night bites.",
+      "mustTry": "Pepperoni slice with fresh mozzarella"
+    },
+    {
+      "name": "Tre Trattoria",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An intimate Italian fine dining restaurant featuring handmade pasta, fresh seafood, and an impressive Italian wine collection. Romantic setting perfect for couples.",
+      "mustTry": "Lobster ravioli in saffron cream sauce"
+    },
+    {
+      "name": "Fogo de Chao",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "A Brazilian churrascaria featuring grilled meats carved tableside by servers with a salad bar included. A unique and interactive dining experience.",
+      "mustTry": "Churrasco misto with picanha and lamb"
+    },
+    {
+      "name": "Mosquito's Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "A beloved local institution serving fresh Gulf seafood including gumbo, fried oysters, and shrimp dishes in a casual, no-frills environment. A genuine taste of coastal Texas.",
+      "mustTry": "Seafood gumbo with okra"
+    },
+    {
+      "name": "The Spot",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "A beachfront casual restaurant offering fresh fish tacos, ceviche, and tropical drinks with relaxed bohemian vibes. Great for lunch with your toes in the sand.",
+      "mustTry": "Fish tacos with mango salsa"
+    },
+    {
+      "name": "Willie G's",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "An upscale seafood restaurant overlooking the harbor with creative coastal dishes and an elegant atmosphere. Known for fresh Gulf catches and attentive service.",
+      "mustTry": "Pan-seared snapper with crab crust"
+    },
+    {
+      "name": "Mod Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "A trendy coffee shop offering specialty coffees, smoothies, and light snacks with a modern, comfortable setting. Perfect for a quick caffeine boost.",
+      "mustTry": "Iced cold brew with vanilla"
+    },
+    {
+      "name": "Pappas Bros Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "An elegant steakhouse featuring premium Prime beef, fresh seafood, and an exceptional wine selection in a sophisticated setting. For the ultimate special occasion.",
+      "mustTry": "Prime tomahawk steak for two"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Galveston Beach Swim",
+      "category": "Outdoor",
+      "description": "Enjoy swimming, sunbathing, and beach volleyball along the 32 miles of pristine Gulf Coast beaches. One of the most accessible and popular activities for visitors.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "family"
+      ]
+    },
+    {
+      "name": "Historic District Walking Tour",
+      "category": "Cultural",
+      "description": "Explore Victorian-era mansions and charming brick-lined streets in downtown Galveston featuring restored 1800s architecture and boutique shops. A guided or self-guided tour reveals the city's rich heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Moody Gardens",
+      "category": "Family",
+      "description": "A 42-acre botanical complex featuring rainforest pyramids, aquariums, and interactive exhibits ideal for families and nature lovers. Offers educational and entertaining experiences for all ages.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "family",
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Galveston Bay Dolphin Watching Cruise",
+      "category": "Outdoor",
+      "description": "Take a guided boat tour to spot bottlenose dolphins and other marine life in their natural habitat along the scenic bay. A magical wildlife experience with experienced naturalist guides.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "wildlife photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Fishing Charter",
+      "category": "Adventure",
+      "description": "Book a professional fishing charter for deep sea or bay fishing targeting red snapper, grouper, and other Gulf species. Includes equipment, instruction, and an experienced captain.",
+      "durationHours": 6,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Texas Seaport Museum",
+      "category": "Cultural",
+      "description": "Explore maritime history through exhibits about trade, pirates, and ships with a restored tall ship available to tour. A fascinating look at Galveston's historic importance as a major port.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Galveston Island State Park Hiking",
+      "category": "Outdoor",
+      "description": "Hike through coastal woodlands, salt marshes, and beach areas on well-maintained trails with opportunities to spot native wildlife and birds. A natural escape from the developed beach areas.",
+      "durationHours": 3,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Pleasure Pier Amusement Park",
+      "category": "Family",
+      "description": "Enjoy classic amusement park rides, arcade games, and carnival games right on the beach with iconic Ferris wheel views. Perfect for families seeking thrill rides and nostalgic fun.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "family",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Kayaking in Salt Marsh",
+      "category": "Outdoor",
+      "description": "Paddle through pristine salt marshes on a guided kayak tour spotting birds, fish, and enjoying serene nature. A peaceful way to explore Galveston's ecosystem.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "adventure",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beach Volleyball Tournament Participation",
+      "category": "Outdoor",
+      "description": "Join casual volleyball games on the beach with locals and visitors, or organize a game with your group. A fun, free social activity that's great for active travelers.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "family"
+      ]
+    },
+    {
+      "name": "Sunset Sailing Cruise",
+      "category": "Outdoor",
+      "description": "Experience the magic of a Gulf Coast sunset aboard a sailing vessel with complimentary beverages and stunning views. A romantic and memorable way to end your day.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Island Zipline Adventure",
+      "category": "Adventure",
+      "description": "Soar above natural terrain on an adrenaline-pumping zipline course with multiple lines and platforms. Thrilling views of Galveston Island from above.",
+      "durationHours": 2,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "adventure",
+        "surprise"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "East Bay Beach at Sunrise",
+        "description": "A secluded beach section offering soft morning light, minimal crowds, and reflective wet sand perfect for silhouettes and golden hour photography.",
+        "difficulty": "Beginner",
+        "bestTime": "6:00-7:30 AM",
+        "category": "Landscape"
+      },
+      {
+        "name": "Historic Downtown Strand District",
+        "description": "Victorian-era brick buildings with ornate architecture, storefronts, and street-level details providing excellent urban and architectural photography opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Architecture"
+      },
+      {
+        "name": "Galveston Pier at Sunset",
+        "description": "An iconic pier structure silhouetted against vibrant sunset skies with fishing boats and people creating dynamic composition elements.",
+        "difficulty": "Intermediate",
+        "bestTime": "30 minutes before sunset",
+        "category": "Landscape"
+      },
+      {
+        "name": "Salt Marsh Wetlands",
+        "description": "Golden grasses, reflective water, and abundant bird wildlife offering landscape and wildlife photography with beautiful natural colors.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning golden hour",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Pleasure Pier at Night",
+        "description": "Neon lights, carnival rides, and Ferris wheel creating colorful night photography opportunities with vibrant urban energy.",
+        "difficulty": "Intermediate",
+        "bestTime": "After dark, 8:00-10:00 PM",
+        "category": "Night"
+      },
+      {
+        "name": "Moody Gardens Exterior",
+        "description": "Striking modern pyramid architecture with surrounding landscaping and fountains offering geometric and structural photography subjects.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Beach Fishing Boats",
+        "description": "Colorful fishing boats lined along the shore with weathered details, nets, and buoys creating artistic street and detail photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light",
+        "category": "Street"
+      },
+      {
+        "name": "East End Lagoon Nature Preserve",
+        "description": "Pristine wetlands with diverse bird species, reflective water, and natural vegetation perfect for wildlife and nature photography.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for bird activity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Seawall Urban Art",
+        "description": "Colorful murals and street art installations along the seawall providing vibrant, contemporary photography subjects with ocean backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning to early afternoon",
+        "category": "Street"
+      },
+      {
+        "name": "Beach Surfers During Storm Swells",
+        "description": "Dynamic action photography of surfers riding Gulf waves with dramatic cloudy skies and powerful water movement.",
+        "difficulty": "Advanced",
+        "bestTime": "During swell events, morning light",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "East Bay Beach",
+      "Galveston Seawall",
+      "Bolivar Flats Wildlife Refuge"
+    ],
+    "sunsetSpots": [
+      "Galveston Pier",
+      "West Bay Beach",
+      "Sundown at the Strand"
+    ],
+    "lensRecommendations": [
+      "Wide-angle 16-35mm for sweeping beach and landscape vistas with dramatic skies",
+      "Standard 24-70mm for versatile architectural detail and street photography throughout the city",
+      "Telephoto 70-200mm for compressing distant wildlife, birds, and pier details in marsh environments",
+      "Macro/Detail lens for capturing textures on boats, weathered structures, and street art close-ups"
+    ],
+    "goldenHourNotes": "Galveston's flat coastal terrain creates exceptionally long golden hour periods lasting 45-60 minutes. The calm Gulf waters provide perfect mirror-like reflections of warm light, especially on the seawall and beach areas. Evening golden hour is particularly spectacular at the pier where the low sun illuminates both the structure and water simultaneously.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 12,
+        "rainfallMM": 95
+      },
+      {
+        "month": 2,
+        "avgTempC": 13,
+        "rainfallMM": 85
+      },
+      {
+        "month": 3,
+        "avgTempC": 16,
+        "rainfallMM": 105
+      },
+      {
+        "month": 4,
+        "avgTempC": 20,
+        "rainfallMM": 120
+      },
+      {
+        "month": 5,
+        "avgTempC": 25,
+        "rainfallMM": 115
+      },
+      {
+        "month": 6,
+        "avgTempC": 28,
+        "rainfallMM": 135
+      },
+      {
+        "month": 7,
+        "avgTempC": 29,
+        "rainfallMM": 145
+      },
+      {
+        "month": 8,
+        "avgTempC": 29,
+        "rainfallMM": 150
+      },
+      {
+        "month": 9,
+        "avgTempC": 27,
+        "rainfallMM": 160
+      },
+      {
+        "month": 10,
+        "avgTempC": 22,
+        "rainfallMM": 110
+      },
+      {
+        "month": 11,
+        "avgTempC": 17,
+        "rainfallMM": 105
+      },
+      {
+        "month": 12,
+        "avgTempC": 13,
+        "rainfallMM": 100
+      }
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "seasonality": "Galveston experiences warm, humid summers (June-September) with frequent thunderstorms and occasional hurricanes, while winters are mild but can be rainy. Spring (March-May) and fall (October-November) offer ideal conditions with pleasant temperatures and lower rainfall.",
+    "summary": "The Gulf Coast climate features hot, humid summers with water temperatures reaching 29°C, and mild winters rarely dropping below 12°C. Hurricane season (June-November) should be considered when planning, with September-October being peak months for tropical storms."
+  },
+  "hotels": [
+    {
+      "name": "Budget Motel 6 Galveston Beach",
+      "neighborhood": "East Beach",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "A no-frills oceanfront motel offering basic but clean rooms with direct beach access and budget-friendly accommodations for beach-focused travelers."
+    },
+    {
+      "name": "The San Luis Resort",
+      "neighborhood": "Central Seawall",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "A full-service waterfront resort featuring multiple restaurants, a spa, casino, and comfortable rooms with Gulf views, perfect for families and couples seeking resort amenities."
+    },
+    {
+      "name": "Hotel Galvez and Spa",
+      "neighborhood": "Historic Seawall",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "A historic beachfront luxury hotel with elegant Victorian architecture, award-winning spa, fine dining, and opulent rooms offering unmatched sophistication and service."
+    }
+  ]
+}

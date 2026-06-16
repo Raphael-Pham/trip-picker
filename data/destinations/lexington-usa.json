@@ -1,0 +1,460 @@
+{
+  "id": "lexington-usa",
+  "city": "Lexington",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "LEX",
+    "CVG",
+    "IND"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 75,
+    "activities": 80,
+    "weather": 68
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
+    }
+  ],
+  "unsplashQuery": "Lexington Kentucky horse country",
+  "summary": "Lexington is the heart of Kentucky's Thoroughbred horse country, offering a unique blend of equestrian heritage, Southern charm, and vibrant cultural attractions. Known as the Horse Capital of the World, visitors can explore prestigious horse farms, bourbon distilleries, and a thriving downtown with excellent dining and entertainment options.",
+  "restaurants": [
+    {
+      "name": "Hashbrown",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual comfort food spot famous for breakfast and brunch offerings that draw locals and visitors alike. Known for hearty portions and Southern-inspired dishes in a relaxed atmosphere.",
+      "mustTry": "Fried chicken hash"
+    },
+    {
+      "name": "Wildflower Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale farm-to-table dining featuring seasonal Kentucky ingredients prepared with innovative techniques. Elegant atmosphere with an extensive wine selection and impeccable service.",
+      "mustTry": "Pan-seared Kentucky fish with seasonal vegetables"
+    },
+    {
+      "name": "Bourbon & Bones",
+      "category": "Midrange",
+      "priceRange": "$$$",
+      "description": "Contemporary steakhouse celebrating local bourbon culture with premium cuts and whiskey-inspired dishes. Warm ambiance with exposed brick and wood elements throughout.",
+      "mustTry": "Bourbon-glazed ribeye"
+    },
+    {
+      "name": "Coles",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local favorite serving classic American cuisine with generous portions in a casual diner setting. Great value for breakfast and lunch with friendly staff and quick service.",
+      "mustTry": "Chicken fried steak"
+    },
+    {
+      "name": "The Jury Room",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Modern gastropub in the historic downtown district offering craft beers and elevated pub fare. Trendy spot with exposed brick walls and knowledgeable bartenders.",
+      "mustTry": "Beer-battered fish and chips"
+    },
+    {
+      "name": "Alfalfa Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Southern fine dining establishment showcasing locally-sourced ingredients in creative seasonal menus. Sophisticated atmosphere with professional service and an impressive bourbon collection.",
+      "mustTry": "Kentucky-sourced lamb with seasonal accompaniments"
+    },
+    {
+      "name": "Windy Corner Market",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Charming market and cafe in the historic Haymarket district offering sandwiches, soups, and prepared foods. Perfect for quick lunches with locally-sourced ingredients.",
+      "mustTry": "Homemade soup and artisan sandwich"
+    },
+    {
+      "name": "Chevy Chase Bistro",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "French-inspired bistro in the upscale Chevy Chase neighborhood serving classic dishes in an intimate setting. Cozy ambiance with carefully curated wine pairings.",
+      "mustTry": "Duck confit"
+    },
+    {
+      "name": "Graze",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Contemporary restaurant emphasizing artisanal ingredients and innovative Southern cooking techniques. Modern décor with an open kitchen concept and attentive service.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Feedway",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual farm-to-table cafe focusing on simple, honest food made from fresh local ingredients. Laid-back vibe perfect for breakfast and lunch with outdoor seating available.",
+      "mustTry": "Fresh garden vegetable salad with house dressing"
+    },
+    {
+      "name": "Bluestem Cafe",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Community-focused restaurant celebrating local farmers and producers through seasonal menus. Welcoming atmosphere with a commitment to sustainability and fresh ingredients.",
+      "mustTry": "Seasonal vegetable plate"
+    },
+    {
+      "name": "Carson's Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Classic fine dining establishment with Southern elegance, offering premium steaks and fresh seafood. Refined atmosphere with white tablecloth service and an extensive wine list.",
+      "mustTry": "Prime ribeye with house butter sauce"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Woodford Reserve Distillery Tour",
+      "category": "Cultural",
+      "description": "Explore one of Kentucky's most historic bourbon distilleries with guided tours showcasing the whiskey-making process. Learn about barrel aging techniques and enjoy tastings of premium bourbons.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kentucky Horse Park",
+      "category": "Outdoor",
+      "description": "Visit a world-class equestrian facility featuring horse museums, scenic trails, and demonstrations showcasing various horse breeds. Home to numerous events and riding activities throughout the year.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Downtown Lexington Strolling",
+      "category": "Outdoor",
+      "description": "Free walking tour through the historic downtown district featuring Victorian architecture, local shops, galleries, and public art installations. Explore Main Street, Cheap Avenue, and the Arts & Culture District.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Keeneland Race Course Tours",
+      "category": "Cultural",
+      "description": "Experience America's most beautiful racetrack with guided tours of the historic facility, paddocks, and winner's circle. Learn about Thoroughbred racing history and traditions.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Lexington Children's Museum",
+      "category": "Family",
+      "description": "Interactive museum with hands-on exhibits promoting learning through play, including science, art, and cultural exploration areas. Ideal for families with young children.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Shaker Village of Pleasant Hill",
+      "category": "Cultural",
+      "description": "Historic 19th-century Shaker community featuring preserved buildings, gardens, and demonstrations of traditional crafts. Located 30 minutes south, offering insight into unique American heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 22,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Ashland The Henry Clay Estate",
+      "category": "Cultural",
+      "description": "Historic mansion tour showcasing 19th-century mansion and grounds where famous statesman Henry Clay resided. Beautiful gardens and period furnishings provide insight into ante-bellum Kentucky.",
+      "durationHours": 2,
+      "estimatedCostUSD": 14,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Raven Run Nature Sanctuary Hiking",
+      "category": "Outdoor",
+      "description": "Natural preserve offering scenic hiking trails through woodlands and along a picturesque creek. Free trails with options for all difficulty levels, perfect for nature walks and bird watching.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "University of Kentucky Campus Tour",
+      "category": "Cultural",
+      "description": "Guided or self-guided tour of the beautiful 685-acre campus featuring historic buildings, the Kentucky Museum, and the Memorial Coliseum. Free walking tours available with advance booking.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Horse Farm Tours",
+      "category": "Outdoor",
+      "description": "Private tours of active Thoroughbred breeding farms showcasing daily operations, paddocks, and training facilities. Exclusive opportunity to see champion horses in their natural environment.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lexington Public Library & Historic Downtown",
+      "category": "Indoor",
+      "description": "Modern library featuring Kentucky history collections, rare books, and rotating art exhibitions. Beautiful architecture combined with cultural significance and community resources.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Bourbon Distillery Hopping & Tasting",
+      "category": "Foodie",
+      "description": "Multi-distillery tour sampling various bourbon expressions from different producers in the region. Professional guide provides education on bourbon making and tasting techniques.",
+      "durationHours": 5,
+      "estimatedCostUSD": 65,
+      "bestFor": [
+        "foodie",
+        "relaxation",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Keeneland Race Course",
+        "description": "Historic racetrack with stunning architecture, manicured landscaping, and dramatic lighting during sunrise or events.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or race days",
+        "category": "Architecture"
+      },
+      {
+        "name": "Ashland The Henry Clay Estate",
+        "description": "Neoclassical mansion set among beautiful gardens with excellent compositional opportunities and golden hour lighting.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for warm light on facade",
+        "category": "Architecture"
+      },
+      {
+        "name": "Downtown Lexington Street Photography",
+        "description": "Historic architecture, murals, and street scenes in the vibrant Arts & Culture District perfect for candid urban shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning or late afternoon for side-lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Raven Run Nature Sanctuary",
+        "description": "Scenic creek valleys with lush vegetation and natural woodland landscapes ideal for nature and landscape photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for mist and wildlife activity",
+        "category": "Landscape"
+      },
+      {
+        "name": "Kentucky Horse Park",
+        "description": "Iconic horse sculptures, pastoral landscapes, and thoroughbreds in natural settings offering diverse composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning for soft light and animal activity",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Transylvania University Campus",
+        "description": "Gothic revival architecture and manicured gardens creating dramatically beautiful academic spaces with artistic potential.",
+        "difficulty": "Beginner",
+        "bestTime": "Mid-morning for even lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lexington Farmers Market",
+        "description": "Colorful produce, local vendors, and community atmosphere providing vibrant street photography and cultural documentation.",
+        "difficulty": "Beginner",
+        "bestTime": "Saturday mornings for crowds and energy",
+        "category": "Street"
+      },
+      {
+        "name": "Tall Oaks Natural Area",
+        "description": "Mature oak forests, scenic trails, and natural water features perfect for landscape and forest photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or overcast days",
+        "category": "Landscape"
+      },
+      {
+        "name": "Woodford Reserve Distillery Grounds",
+        "description": "Historic buildings, copper stills, and manicured grounds offering both architectural and atmospheric photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for warm industrial lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Victorian Architecture in Gratz Park",
+        "description": "Historic district featuring well-preserved antebellum homes and gardens ideal for architectural detail and period photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning for facade lighting",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Keeneland Race Course",
+      "Raven Run Nature Sanctuary",
+      "Kentucky Horse Park"
+    ],
+    "sunsetSpots": [
+      "Woodford Reserve Distillery",
+      "Ashland The Henry Clay Estate",
+      "Downtown Lexington Main Street"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide angle for landscape and architectural sweeps at the horse parks and historic estates",
+      "50mm prime for intimate portraits and street photography in downtown Lexington",
+      "70-200mm telephoto for wildlife and horse photography at Kentucky Horse Park and farms",
+      "24-70mm versatile zoom for general photography covering distilleries and mixed urban scenes"
+    ],
+    "goldenHourNotes": "Lexington's rolling countryside produces exceptional golden hour light during spring and fall months. The distillery architecture and historic estate facades catch warm evening light beautifully between 5-7 PM. Early morning light at the horse parks creates dramatic shadows across paddocks and sculptures, best captured 6-8 AM during spring and summer.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -2,
+        "rainfallMM": 102
+      },
+      {
+        "month": 2,
+        "avgTempC": 1,
+        "rainfallMM": 97
+      },
+      {
+        "month": 3,
+        "avgTempC": 8,
+        "rainfallMM": 127
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 137
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 142
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 117
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 114
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 107
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 102
+      },
+      {
+        "month": 10,
+        "avgTempC": 16,
+        "rainfallMM": 89
+      },
+      {
+        "month": 11,
+        "avgTempC": 9,
+        "rainfallMM": 119
+      },
+      {
+        "month": 12,
+        "avgTempC": 2,
+        "rainfallMM": 114
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Spring (April-May) and Fall (September-October) offer ideal temperatures between 15-22°C with moderate rainfall, perfect for outdoor activities and photography. Summer months are warm and humid (26-28°C) while winter is cold with occasional snow and freezing temperatures.",
+    "summary": "Lexington experiences a humid subtropical climate with four distinct seasons. The area receives precipitation year-round with spring and fall providing the most pleasant conditions for visiting."
+  },
+  "hotels": [
+    {
+      "name": "La Quinta by Wyndham Lexington",
+      "neighborhood": "North Lexington",
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Affordable chain hotel offering clean rooms, free breakfast, and pet-friendly accommodations in a convenient location near restaurants and shopping."
+    },
+    {
+      "name": "Hilton Lexington Downtown",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 155,
+      "category": "Mid-range",
+      "description": "Modern hotel in the heart of downtown featuring on-site dining, fitness center, and easy access to shops, galleries, and entertainment venues."
+    },
+    {
+      "name": "The Thoroughbred Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "Boutique luxury hotel celebrating horse racing heritage with upscale rooms, fine dining, premium service, and proximity to Keeneland Race Course."
+    }
+  ]
+}

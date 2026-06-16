@@ -1,0 +1,459 @@
+{
+  "id": "fairbanks-usa",
+  "city": "Fairbanks",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "FAI",
+    "ANC",
+    "JNU"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "adventure",
+    "photography",
+    "standard",
+    "hidden-gems"
+  ],
+  "scores": {
+    "cost": 35,
+    "food": 65,
+    "photography": 95,
+    "activities": 85,
+    "weather": 45
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 120,
+      "maxPerDayUSD": 180
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 180,
+      "maxPerDayUSD": 300
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 300,
+      "maxPerDayUSD": 500
+    }
+  ],
+  "unsplashQuery": "Aurora Borealis Fairbanks Alaska",
+  "summary": "Fairbanks is Alaska's gateway to the Arctic, renowned for its spectacular Northern Lights displays and pristine wilderness adventures. This frontier town offers unparalleled photography opportunities, outdoor activities from dog sledding to hiking, and authentic Alaskan culture amid stunning natural landscapes.",
+  "restaurants": [
+    {
+      "name": "Pike's Landing",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Riverside restaurant offering Alaskan salmon, halibut, and prime rib with panoramic Chena River views and cozy fireplace atmosphere.",
+      "mustTry": "Wild Alaskan salmon with herb butter"
+    },
+    {
+      "name": "Turtle Club",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Historic log cabin restaurant featuring prime rib, fresh seafood, and creative cocktails in an intimate setting 10 miles from downtown.",
+      "mustTry": "Prime rib au jus"
+    },
+    {
+      "name": "Chena's Alaskan Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual spot serving reindeer sausage, musk ox burgers, and traditional Alaskan game meats in a relaxed frontier atmosphere.",
+      "mustTry": "Musk ox burger"
+    },
+    {
+      "name": "Lavelle's Bistro",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American bistro with locally-sourced ingredients, craft cocktails, and rotating seasonal specials in downtown Fairbanks.",
+      "mustTry": "Pan-seared halibut"
+    },
+    {
+      "name": "The Pump House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic gold rush-era saloon and restaurant on the Chena River serving traditional Alaskan fare and craft beers.",
+      "mustTry": "Sourdough bread with salmon spread"
+    },
+    {
+      "name": "South Cushman Street Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual cafe offering hearty breakfast, sandwiches, and locally roasted coffee in a welcoming community atmosphere.",
+      "mustTry": "Alaska reindeer sausage breakfast"
+    },
+    {
+      "name": "Two Rivers Inne",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Cozy inn restaurant serving Italian and American comfort food with generous portions and a warm ambiance.",
+      "mustTry": "Pasta primavera"
+    },
+    {
+      "name": "Silver Gulch Brewing & Bottleshop",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Alaska's first gold rush brewery and restaurant combining craft beers with pub fare and North Country hospitality.",
+      "mustTry": "Silver Gulch Golden ale with burger"
+    },
+    {
+      "name": "Abstract Coffee",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Hip downtown coffee shop featuring specialty drinks, pastries, and a vibrant local community gathering space.",
+      "mustTry": "Alaskan breakfast sandwich"
+    },
+    {
+      "name": "Gambardella's Pasta Cellar",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Underground Italian restaurant in a historic basement serving fresh pasta, seafood, and traditional Italian cuisine.",
+      "mustTry": "Halibut pasta"
+    },
+    {
+      "name": "Hot Licks Ice Cream",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local ice cream parlor with unique Alaskan-inspired flavors and traditional favorites, perfect for summer treats.",
+      "mustTry": "Birch syrup ice cream"
+    },
+    {
+      "name": "Noodle Express",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual Asian noodle house offering ramen, pad thai, and stir-fry with generous portions and quick service.",
+      "mustTry": "Spicy ramen"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Northern Lights Viewing Tour",
+      "category": "Adventure",
+      "description": "Guided evening or midnight tour to experience the aurora borealis with expert guides providing photography assistance and cultural context. Tours operate September through March with heated cabins.",
+      "durationHours": 8,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Dog Sledding Expedition",
+      "category": "Adventure",
+      "description": "Experience traditional mushing with trained sled dogs across snowy terrain, learning about the dogs and Alaskan dog sledding heritage. Available year-round with seasonal variations.",
+      "durationHours": 4,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Chena Hot Springs",
+      "category": "Relaxation",
+      "description": "Geothermal hot springs resort featuring natural outdoor pools with views of surrounding peaks, indoor aquatic center, and spa services.",
+      "durationHours": 6,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Trans-Alaska Pipeline Tour",
+      "category": "Cultural",
+      "description": "Guided tour of this engineering marvel explaining Alaska's oil industry, pipeline history, and industrial landscape from observation platforms.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "hidden-gems",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking Chena Dome Trail",
+      "category": "Outdoor",
+      "description": "Multi-day wilderness hiking trail with panoramic alpine views, wildlife opportunities, and pristine backcountry camping experiences.",
+      "durationHours": 24,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "University of Alaska Museum of the North",
+      "category": "Cultural",
+      "description": "Comprehensive museum featuring Alaskan art, natural history, wildlife specimens, and indigenous cultural exhibits with interactive displays.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Gold Panning and Mining Tour",
+      "category": "Adventure",
+      "description": "Learn traditional gold panning techniques at working claims, experience gold rush history, and try your hand at finding gold in local streams.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "adventure",
+        "hidden-gems",
+        "standard"
+      ]
+    },
+    {
+      "name": "Midnight Sun Viewing Tour",
+      "category": "Outdoor",
+      "description": "Experience the summer phenomenon of 24-hour daylight available late May through mid-July with guided tours exploring natural landscapes in continuous sunlight.",
+      "durationHours": 4,
+      "estimatedCostUSD": 50,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Creamer's Field Migratory Waterfowl Refuge",
+      "category": "Outdoor",
+      "description": "Protected wetlands sanctuary offering bird watching, nature walks, and wildlife photography opportunities with interpretive programs and free walking trails.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "River Boat Cruise on Chena River",
+      "category": "Outdoor",
+      "description": "Scenic boat tour navigating the Chena River with views of wildlife, forest landscapes, and stops at historic sites with knowledgeable narration.",
+      "durationHours": 3,
+      "estimatedCostUSD": 60,
+      "bestFor": [
+        "standard",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Winter Snowmobile Adventure",
+      "category": "Adventure",
+      "description": "Self-guided or guided snowmobile tours across frozen landscapes offering exhilarating backcountry access and stunning winter photography opportunities.",
+      "durationHours": 4,
+      "estimatedCostUSD": 150,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Downtown Fairbanks Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or ranger-led exploration of historic downtown featuring Pioneer Park, local galleries, shops, restaurants, and the Visitor Center with free maps.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "hidden-gems",
+        "standard",
+        "photography"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Cleary Summit",
+        "description": "High-elevation viewpoint offering panoramic vistas of the Alaska Range, braided rivers, and valleys below with excellent aurora visibility in winter.",
+        "difficulty": "Intermediate",
+        "bestTime": "Night (September-March) and golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Creamer's Field",
+        "description": "Waterfowl refuge with dramatic dawn and dusk light on wetlands, migratory birds in flight, and mountain backdrops.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning and late evening",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Chena Hot Springs Road",
+        "description": "Scenic drive with multiple pullouts offering mountain vistas, forest landscapes, and seasonal aurora viewing opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "All hours, especially night",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pioneer Park Historic District",
+        "description": "Historic buildings, gold rush era structures, and vintage equipment with unique architectural character for cultural and heritage photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and overcast days",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chena River Confluence",
+        "description": "Dramatic meeting point of two rivers with braided channels, seasonal ice formations, and wildlife viewing opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour and blue hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "University Campus",
+        "description": "Modern architecture mixed with natural landscapes, campus sculptures, and subarctic vegetation providing diverse compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Trans-Alaska Pipeline Route",
+        "description": "Industrial landscape featuring the iconic elevated pipeline with forest and tundra background offering unique industrial-nature contrast.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour and blue hour",
+        "category": "Architecture"
+      },
+      {
+        "name": "Birch Trees Grove",
+        "description": "Dense stands of white birch trees creating striking vertical lines and patterns, especially beautiful with fresh snow or autumn colors.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light and after snowfall",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Fairbanks Streets",
+        "description": "Urban landscape with local businesses, vintage signs, seasonal decorations, and street-level cultural elements.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and blue hour",
+        "category": "Street"
+      },
+      {
+        "name": "Denali Viewpoint South",
+        "description": "Stunning views of Denali mountain on clear days from elevated position with tundra foreground and dramatic skies.",
+        "difficulty": "Advanced",
+        "bestTime": "Clear days and golden hour",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Cleary Summit",
+      "Creamer's Field",
+      "Denali Viewpoint South"
+    ],
+    "sunsetSpots": [
+      "Chena River Confluence",
+      "Cleary Summit",
+      "Chena Hot Springs Road"
+    ],
+    "lensRecommendations": [
+      "14-24mm ultra-wide for expansive aurora and landscape shots capturing the full sky",
+      "24-70mm versatile zoom for varied compositions from wildlife to landscape work",
+      "70-200mm telephoto for wildlife isolation and compressed perspectives on distant mountains",
+      "Fast prime 35mm f/1.4 for low-light aurora and street photography with shallow depth of field"
+    ],
+    "goldenHourNotes": "Fairbanks' extreme latitude creates extended golden hours in shoulder seasons and unique lighting during midnight sun (June) and extended blue hours in winter. Winter golden hour is brief but intense with warm light reflecting off snow. Spring and fall provide longest golden hour windows with dramatic colors across landscapes.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -24,
+        "rainfallMM": 10
+      },
+      {
+        "month": 2,
+        "avgTempC": -20,
+        "rainfallMM": 8
+      },
+      {
+        "month": 3,
+        "avgTempC": -13,
+        "rainfallMM": 10
+      },
+      {
+        "month": 4,
+        "avgTempC": -4,
+        "rainfallMM": 13
+      },
+      {
+        "month": 5,
+        "avgTempC": 8,
+        "rainfallMM": 18
+      },
+      {
+        "month": 6,
+        "avgTempC": 16,
+        "rainfallMM": 42
+      },
+      {
+        "month": 7,
+        "avgTempC": 17,
+        "rainfallMM": 48
+      },
+      {
+        "month": 8,
+        "avgTempC": 15,
+        "rainfallMM": 45
+      },
+      {
+        "month": 9,
+        "avgTempC": 9,
+        "rainfallMM": 33
+      },
+      {
+        "month": 10,
+        "avgTempC": -3,
+        "rainfallMM": 23
+      },
+      {
+        "month": 11,
+        "avgTempC": -16,
+        "rainfallMM": 15
+      },
+      {
+        "month": 12,
+        "avgTempC": -22,
+        "rainfallMM": 12
+      }
+    ],
+    "bestMonths": [
+      3,
+      8,
+      9
+    ],
+    "seasonality": "Fairbanks experiences extreme seasonal variation with severe winters (November-March) ideal for aurora viewing but requiring specialized gear, and temperate summers with midnight sun (May-July). Shoulder seasons offer moderate temperatures, extended golden hour light, and excellent photography with fewer tourists.",
+    "summary": "This subarctic climate features intense cold winters with snow and limited daylight, perfect for northern lights. Summers bring nearly 24-hour daylight with moderate temperatures, while spring and fall offer mild weather and dramatic seasonal transitions."
+  },
+  "hotels": [
+    {
+      "name": "Spring Creek Inn",
+      "neighborhood": "Central Fairbanks",
+      "pricePerNightUSD": 89,
+      "category": "Budget",
+      "description": "Simple, clean rooms with basic amenities and free parking, convenient to downtown restaurants and attractions with no-frills comfort."
+    },
+    {
+      "name": "Pike's Landing",
+      "neighborhood": "Chena River",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Riverside hotel with modern rooms, fine dining restaurant, scenic views, and convenient access to outdoor activities and downtown."
+    },
+    {
+      "name": "Chena Hot Springs Resort",
+      "neighborhood": "Chena Hot Springs",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Premier resort featuring geothermal hot springs, spa services, multiple dining options, ice museum, and commanding subarctic views in a pristine natural setting."
+    }
+  ]
+}

@@ -11,131 +11,131 @@
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
     "photography",
     "foodie",
     "adventure",
-    "relaxation"
+    "relaxation",
+    "hidden-gems"
   ],
   "scores": {
-    "cost": 75,
+    "cost": 78,
     "food": 85,
-    "photography": 90,
+    "photography": 92,
     "activities": 88,
     "weather": 82
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 40,
-      "maxPerDayUSD": 80
+      "minPerDayUSD": 25,
+      "maxPerDayUSD": 50
     },
     {
       "level": "mid",
-      "minPerDayUSD": 80,
-      "maxPerDayUSD": 200
+      "minPerDayUSD": 51,
+      "maxPerDayUSD": 120
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 200,
-      "maxPerDayUSD": 600
+      "minPerDayUSD": 121,
+      "maxPerDayUSD": 300
     }
   ],
-  "unsplashQuery": "Zanzibar Stone Town sunset",
-  "summary": "Zanzibar is a spice-scented archipelago off Tanzania's coast, famous for its pristine beaches, UNESCO-listed Stone Town with its narrow winding streets, and rich Swahili-Arab heritage. The islands offer world-class diving, snorkeling, and water sports alongside cultural exploration and authentic local cuisine. Perfect for travelers seeking beach relaxation combined with historical immersion and vibrant cultural experiences.",
+  "unsplashQuery": "Zanzibar spice islands sunset",
+  "summary": "Zanzibar is an enchanting archipelago off the Tanzanian coast renowned for pristine beaches, historic Stone Town, and vibrant spice markets. This UNESCO World Heritage site blends Swahili, Arab, and Indian cultures with stunning turquoise waters and world-class diving opportunities. Perfect for beach relaxation, cultural exploration, and photography enthusiasts seeking exotic tropical landscapes.",
   "restaurants": [
     {
-      "name": "The Uroa Boat Club",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Beachfront fine dining establishment offering fresh seafood with sunset views over the Indian Ocean. Features Mediterranean and Tanzanian fusion cuisine with an extensive wine selection.",
-      "mustTry": "Pan-seared barramundi with coconut and lime"
+      "name": "The Waterfront Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Charming waterfront dining overlooking Stone Town harbor with fresh seafood and Zanzibari specialties. Offers sunset views and a relaxed atmosphere perfect for evening meals.",
+      "mustTry": "Urojo (Zanzibar mix) with fresh seafood"
     },
     {
-      "name": "Forodhani Gardens Night Market",
+      "name": "Livingstone Restaurant & Bar",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining in a historic building with panoramic views of the harbor and Old Fort. Serves international cuisine with African and Asian influences using locally sourced ingredients.",
+      "mustTry": "Grilled lobster with coconut lime sauce"
+    },
+    {
+      "name": "Forodhani Gardens Food Court",
       "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Iconic waterfront night market in Stone Town featuring local street food vendors selling fresh grilled seafood, urojo, and traditional Zanzibari dishes. A must-visit for authentic and affordable island flavors.",
-      "mustTry": "Grilled octopus and urojo (Zanzibari pizza)"
-    },
-    {
-      "name": "Emerson Spice",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Rooftop restaurant in historic Stone Town serving traditional Swahili and Zanzibari cuisine with views over the old harbor. Known for fresh spices and warm hospitality.",
-      "mustTry": "Octopus curry and coconut rice"
-    },
-    {
-      "name": "Mercury's Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Elegant dining spot honoring Freddie Mercury with sophisticated fusion cuisine and fresh seafood in a restored Stone Town mansion. Offers both indoor and rooftop seating.",
-      "mustTry": "Lobster tail with garlic butter"
-    },
-    {
-      "name": "Stone Town Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual cafe in the heart of Stone Town offering local coffee, fresh juices, pastries, and simple Tanzanian dishes. Perfect for breakfast or a quick midday break.",
-      "mustTry": "Urwa (local pastry) and fresh mango juice"
-    },
-    {
-      "name": "Jaws Terrace Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Waterfront restaurant on Zanzibar's east coast serving fresh caught seafood daily with spectacular ocean views. Simple but flavorful preparation of local ingredients.",
-      "mustTry": "Grilled whole fish with coconut sauce"
+      "description": "Iconic outdoor food market offering authentic street food and local Zanzibari cuisine served at communal tables. Best visited at dusk when multiple food stalls open alongside the harbor.",
+      "mustTry": "Pilau rice and grilled fish skewers"
     },
     {
       "name": "Spice Island Hotel Restaurant",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Upscale beachfront restaurant on Paje Beach offering international and Swahili cuisine with refined presentation. Features a seafood focus and extensive cocktail menu.",
-      "mustTry": "Seafood risotto with saffron and coconut"
-    },
-    {
-      "name": "Abela Cafe",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Local favorite in Stone Town serving traditional Tanzanian and Swahili breakfast and lunch items. Known for authentic flavors and generous portions at minimal cost.",
-      "mustTry": "Chapati and beans stew"
-    },
-    {
-      "name": "Langi Langi Restaurant",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Rooftop establishment with views of Stone Town's harbor, serving contemporary Swahili and international cuisine. Excellent for sunset dining with fresh seafood daily.",
-      "mustTry": "Tuna steak with passion fruit reduction"
+      "description": "Intimate rooftop restaurant serving traditional Swahili dishes with emphasis on locally-grown spices. Offers a traditional cultural dining experience with stunning Stone Town views.",
+      "mustTry": "Spiced octopus curry"
     },
     {
-      "name": "Tea House Restaurant",
+      "name": "Monsoon Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Elegant establishment combining contemporary design with local flavors, located in Stone Town's historic district. Features seasonal menus highlighting fresh seafood and organic produce.",
+      "mustTry": "Pan-seared kingfish with locally foraged herbs"
+    },
+    {
+      "name": "Pasada",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Casual eatery serving authentic Zanzibari breakfast and light meals in a colorful setting. Known for traditional dishes and excellent value for money.",
+      "mustTry": "Mandazi (fried dough) with spiced tea"
+    },
+    {
+      "name": "Le Chocolat",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Humble eatery popular with locals for authentic Zanzibari home cooking and tea service throughout the day. Simple setting with exceptional traditional flavors.",
-      "mustTry": "Pilau rice and fish cakes"
+      "description": "Cozy café serving artisanal chocolate, coffee, and light pastries near the harbor. Perfect for breakfast or afternoon breaks with local sweets.",
+      "mustTry": "Dark chocolate mousse with clove"
     },
     {
-      "name": "Bi Bo Beach Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Laid-back beachfront spot in Paje offering freshly grilled fish and seafood with feet in the sand. Relaxed atmosphere perfect for casual beach dining.",
-      "mustTry": "Mixed grilled seafood platter"
-    },
-    {
-      "name": "Palais Restaurant",
+      "name": "Emerson Spice Restaurant",
       "category": "Fine Dining",
       "priceRange": "$$$$",
-      "description": "Sophisticated restaurant in a restored palace setting within Stone Town offering French-Tanzanian fusion cuisine. Intimate ambiance with impeccable service.",
-      "mustTry": "Seafood bouillabaisse with saffron aioli"
+      "description": "Luxurious rooftop dining experience in a restored historic mansion with panoramic Stone Town and ocean views. Offers set menus featuring contemporary African cuisine.",
+      "mustTry": "Tasting menu with paired Tanzanian wines"
+    },
+    {
+      "name": "Uroa Bay Beach Resort Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Beachfront dining with fresh seafood caught daily by local fishermen and traditional Swahili preparations. Casual atmosphere with barefoot beach dining options.",
+      "mustTry": "Whole grilled snapper with garlic butter"
+    },
+    {
+      "name": "The Stone Town Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Popular local spot serving simple, delicious Tanzanian cuisine in the heart of Stone Town. Known for generous portions and friendly service.",
+      "mustTry": "Chapati with beans and avocado"
+    },
+    {
+      "name": "Mercury's Restaurant",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual venue honoring legendary musician Freddie Mercury who was born in Zanzibar. Serves fusion cuisine blending local and international flavors.",
+      "mustTry": "Seafood biryani with coconut rice"
+    },
+    {
+      "name": "Nungwi Beach Club",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Vibrant beachfront venue with fresh seafood, tropical cocktails, and casual beach atmosphere. Popular for sunset dining with entertainment.",
+      "mustTry": "Grilled prawns with mango salsa"
     }
   ],
   "activities": [
     {
       "name": "Stone Town Walking Tour",
       "category": "Cultural",
-      "description": "Guided exploration of UNESCO World Heritage site with narrow streets, historic buildings, and cultural landmarks. Learn about Swahili-Arab architecture and the region's spice trade history.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "description": "Guided exploration of UNESCO World Heritage Stone Town featuring narrow winding streets, historic buildings, traditional merchant houses, and the iconic Old Fort. Learn about Swahili, Arab, and colonial history.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
         "photography",
@@ -143,11 +143,23 @@
       ]
     },
     {
-      "name": "Snorkeling at Mnemba Atoll",
+      "name": "Spice Farm Tour",
+      "category": "Cultural",
+      "description": "Visit traditional spice plantations growing clove, nutmeg, cinnamon, and vanilla where guides explain cultivation and harvesting processes. Includes tasting and purchasing opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Nungwi Beach Snorkeling",
       "category": "Adventure",
-      "description": "Half-day boat trip to pristine coral reef featuring vibrant marine life, tropical fish, and crystal-clear waters. One of Zanzibar's premier snorkeling destinations.",
-      "durationHours": 5,
-      "estimatedCostUSD": 60,
+      "description": "Exciting snorkeling adventure at the northern beach exploring coral reefs with diverse tropical fish, sea turtles, and vibrant marine life. Equipment and boat included.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "adventure",
         "standard",
@@ -155,23 +167,11 @@
       ]
     },
     {
-      "name": "Spice Farm Tour",
-      "category": "Cultural",
-      "description": "Visit working clove and spice plantations to learn about Zanzibar's famous spice production and history. Includes tastings of fresh fruits and spices grown on-site.",
-      "durationHours": 3,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "foodie",
-        "cultural",
-        "standard"
-      ]
-    },
-    {
-      "name": "Jozani Forest Visit",
+      "name": "Jozani Chwaka Bay National Park",
       "category": "Outdoor",
-      "description": "Explore Zanzibar's only remaining forest reserve home to endemic red colobus monkeys and diverse bird species. Walk through mangrove boardwalks and pristine natural habitat.",
-      "durationHours": 2.5,
-      "estimatedCostUSD": 15,
+      "description": "Nature reserve featuring rare red colobus monkeys, mangrove forests, and boardwalk trails through pristine wilderness. Includes wildlife observation and educational guided walks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "adventure",
         "photography",
@@ -179,10 +179,34 @@
       ]
     },
     {
-      "name": "Scuba Diving at Pemba Channel",
-      "category": "Adventure",
-      "description": "World-class diving destination with dramatic drop-offs, vibrant coral gardens, and encounters with large marine species. Suitable for certified divers of all experience levels.",
+      "name": "Sunset Dhow Cruise",
+      "category": "Relaxation",
+      "description": "Traditional sailing voyage on historic dhow boats watching the sunset over the Indian Ocean with cocktails and snacks. Peaceful experience with stunning coastal views.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Prison Island (Changuu Island) Tour",
+      "category": "Outdoor",
+      "description": "Day trip to historic island featuring giant Aldabra tortoises, snorkeling opportunities, pristine beaches, and colonial prison ruins. Includes boat transport and guide.",
       "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "standard",
+        "photography",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Scuba Diving Expedition",
+      "category": "Adventure",
+      "description": "Professional diving experience exploring coral gardens and underwater walls with opportunities to see sharks, rays, and large pelagic fish. Suitable for certified and beginner divers.",
+      "durationHours": 5,
       "estimatedCostUSD": 80,
       "bestFor": [
         "adventure",
@@ -190,178 +214,156 @@
       ]
     },
     {
-      "name": "Sunset Dhow Cruise",
-      "category": "Relaxation",
-      "description": "Traditional wooden sailing boat journey at golden hour with champagne and snacks included. Experience maritime heritage while watching the sun set over the Indian Ocean.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "relaxation",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Prison Island Day Trip",
-      "category": "Outdoor",
-      "description": "Visit historic island featuring giant tortoises, pristine beaches, and snorkeling opportunities. Includes ruins of 19th-century prison and coral garden exploration.",
-      "durationHours": 6,
-      "estimatedCostUSD": 45,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "standard"
-      ]
-    },
-    {
-      "name": "Zanzibar City Beach Walk",
-      "category": "Outdoor",
-      "description": "Self-guided stroll along pristine sandy beaches with turquoise waters, local beach bars, and sunset views. Free activity perfect for relaxation and photography.",
+      "name": "Forodhani Gardens at Sunset",
+      "category": "Cultural",
+      "description": "Free exploration of historic harbor gardens with street food vendors, local musicians, and crowds of locals gathering for evening meals. Experience authentic Zanzibari culture.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
-        "relaxation",
+        "foodie",
         "photography",
         "hidden-gems"
       ]
     },
     {
-      "name": "Paje Beach Water Sports",
+      "name": "Zanzibar Archipelago Boat Day Tour",
       "category": "Adventure",
-      "description": "Try kitesurfing, windsurfing, or paddleboarding in the perfect conditions of Paje Beach's shallow, consistent waters. Equipment rental and instruction available from multiple operators.",
-      "durationHours": 3,
-      "estimatedCostUSD": 50,
+      "description": "Multi-island adventure visiting Pemba, Tumbatu, and other islands with snorkeling, beach time, and island village exploration. Comprehensive introduction to the archipelago.",
+      "durationHours": 8,
+      "estimatedCostUSD": 65,
       "bestFor": [
         "adventure",
+        "photography",
         "standard"
       ]
     },
     {
-      "name": "Forodhani Gardens Evening Visit",
-      "category": "Cultural",
-      "description": "Experience the vibrant night market with local street food vendors, musicians, and authentic island atmosphere. Free entry with food purchases from various stalls.",
-      "durationHours": 2,
-      "estimatedCostUSD": 10,
+      "name": "Cultural Dance and Dinner Show",
+      "category": "Nightlife",
+      "description": "Evening entertainment featuring traditional Taarab and Ngoma music and dance performances paired with authentic Zanzibari dinner. Immersive cultural experience.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
       "bestFor": [
         "foodie",
-        "cultural",
-        "hidden-gems"
+        "standard",
+        "surprise"
       ]
     },
     {
-      "name": "Traditional Swahili Cooking Class",
-      "category": "Cultural",
-      "description": "Learn to prepare authentic Zanzibari dishes using fresh local ingredients and traditional cooking methods. Includes market visit and tasting of prepared meals.",
-      "durationHours": 4,
-      "estimatedCostUSD": 55,
-      "bestFor": [
-        "foodie",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Baraza Resort Beach Relaxation",
+      "name": "Beach Hopping by Taxi",
       "category": "Relaxation",
-      "description": "Day pass to luxury resort beach offering pristine sands, ocean views, and optional beach bar access. Perfect for complete relaxation and sunset photography.",
+      "description": "Self-paced exploration of multiple beaches including Nungwi, Kendwa, Paje, and Jambiani with swimming, sunbathing, and local village interaction. Budget-friendly option.",
       "durationHours": 6,
-      "estimatedCostUSD": 35,
+      "estimatedCostUSD": 20,
       "bestFor": [
         "relaxation",
+        "budget",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lighthouse and Old Fort Exploration",
+      "category": "Cultural",
+      "description": "Historical walking tour of Stone Town's architectural landmarks including the iconic lighthouse, restored Old Fort fortress, and colonial buildings. Learn local history and architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 8,
+      "bestFor": [
         "photography",
-        "surprise"
+        "standard",
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Stone Town Labyrinth Streets",
-        "description": "Narrow winding streets lined with carved wooden doors, vintage architecture, and rich cultural details perfect for street and architectural photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning or late afternoon for soft light",
-        "category": "Street"
-      },
-      {
-        "name": "Forodhani Gardens Waterfront",
-        "description": "Historic harbor waterfront with traditional dhow boats, bustling market stalls, and stunning sunset reflections over the water.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset during market hours",
-        "category": "Street"
-      },
-      {
-        "name": "Mercury House Rooftop",
-        "description": "Elevated vantage point overlooking Stone Town's architecture, harbor, and surrounding rooftops with exceptional golden hour light.",
+        "name": "Stone Town Rooftops at Dawn",
+        "description": "Panoramic rooftop views of Stone Town's white coral buildings and turquoise ocean revealing the UNESCO site's architectural beauty in soft morning light.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset hours",
+        "bestTime": "Dawn (6:00-7:00 AM)",
         "category": "Architecture"
       },
       {
-        "name": "Mnemba Atoll Coral Gardens",
-        "description": "Underwater snorkeling paradise with vibrant coral formations, tropical fish schools, and crystal-clear water for marine photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Midday for best water clarity",
-        "category": "Wildlife"
+        "name": "Forodhani Gardens Harbor",
+        "description": "Iconic waterfront market scene with colorful stalls, local vendors, historic buildings, and bustling maritime activity reflected in harbor waters.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset (5:00-6:30 PM)",
+        "category": "Street"
       },
       {
-        "name": "Paje Beach White Sands",
-        "description": "Expansive sandy beach with turquoise shallow waters, palm trees, and minimal crowds ideal for landscape and seascape photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour sunrise or sunset",
-        "category": "Landscape"
+        "name": "Nungwi Beach Coral Reefs",
+        "description": "Vibrant underwater coral formations and tropical fish in shallow clear waters with dramatic lighting creating colorful reef landscapes.",
+        "difficulty": "Advanced",
+        "bestTime": "Midday (10:00 AM-2:00 PM)",
+        "category": "Wildlife"
       },
       {
         "name": "Jozani Red Colobus Monkeys",
-        "description": "Forest canopy encounters with endemic red colobus monkeys providing unique wildlife photography opportunities in natural habitat.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning hours",
+        "description": "Rare endemic red colobus monkeys in their natural mangrove forest habitat offering unique wildlife photography opportunities in dappled forest light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning (7:00-9:00 AM)",
         "category": "Wildlife"
       },
       {
-        "name": "Prison Island Tortoises",
-        "description": "Historic island featuring giant tortoises, weathered structures, and dramatic coastal landscapes against azure waters.",
-        "difficulty": "Intermediate",
-        "bestTime": "Morning light for wildlife clarity",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Zanzibar Palace Ruins",
-        "description": "Atmospheric archaeological site with crumbling stone structures, archways, and overgrown vegetation creating dramatic composition opportunities.",
-        "difficulty": "Intermediate",
-        "bestTime": "Late afternoon for side-lighting",
-        "category": "Architecture"
-      },
-      {
-        "name": "Nungwi Beach Traditional Dhows",
-        "description": "Northern beach featuring colorful traditional fishing boats, local fishermen, and authentic maritime culture perfect for candid street photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning departure or late afternoon return",
-        "category": "Street"
-      },
-      {
-        "name": "The Old Fort Stone Towers",
-        "description": "Historic fortification with imposing stone walls, architectural details, and elevated panoramic views of Stone Town and harbor.",
+        "name": "Prison Island Tortoise Sanctuary",
+        "description": "Giant Aldabra tortoises grazing on pristine white-sand beach with turquoise water backdrop creating peaceful and dramatic wildlife scenes.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour for warm stone tones",
+        "bestTime": "Mid-morning (9:00-11:00 AM)",
+        "category": "Wildlife"
+      },
+      {
+        "name": "House of Wonders Facade",
+        "description": "Stunning restored Arab mansion with intricate architectural details, ornate balconies, and carved wooden doors showcasing historic Stone Town design.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (6:00-7:00 AM or 5:00-6:30 PM)",
         "category": "Architecture"
+      },
+      {
+        "name": "Dhow Silhouettes at Sunset",
+        "description": "Traditional wooden sailing boats creating dramatic silhouettes against fiery sunset skies over the Indian Ocean with rich color gradients.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset (5:00-6:30 PM)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Paje Beach Tidal Flats",
+        "description": "Expansive shallow water flats and sandbars during low tide creating geometric patterns, lagoon reflections, and layered landscape compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Low tide varies (check tides)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Stone Town Night Markets",
+        "description": "Atmospheric evening scenes with warm lantern light, street vendors, crowded alleyways, and local life creating dynamic night photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening (7:00-9:00 PM)",
+        "category": "Night"
+      },
+      {
+        "name": "Kendwa Beach Sunrise Fishing",
+        "description": "Local fishermen launching traditional boats into golden dawn light with dramatic ocean swells and morning mist creating layered seascape imagery.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise (5:30-7:00 AM)",
+        "category": "Street"
       }
     ],
     "sunriseSpots": [
-      "Paje Beach eastern horizon",
-      "Nungwi Beach northern shore",
-      "Ras Nungwi lighthouse viewpoint"
+      "Nungwi Beach North Point",
+      "Jambiani Fishermen's Beach",
+      "Prison Island Beach"
     ],
     "sunsetSpots": [
-      "Forodhani Gardens waterfront",
-      "West Zanzibar Island western beaches",
-      "Dhow cruise Indian Ocean"
+      "Forodhani Gardens Waterfront",
+      "Paje Beach Main Beach",
+      "Mnemba Island Viewpoint"
     ],
     "lensRecommendations": [
-      "16-35mm ultra-wide for expansive beach and architectural landscapes",
-      "70-200mm telephoto for wildlife, distant boat details, and compressed perspectives",
-      "35-50mm prime for street photography and intimate cultural moments",
-      "Macro 90-105mm for detailed coral, spice, and architectural element photography"
+      "16-35mm wide-angle for sweeping Stone Town rooftop panoramas and architectural vistas",
+      "70-200mm telephoto for isolated wildlife shots of colobus monkeys and marine subjects without disturbance",
+      "50mm prime for intimate street photography and cultural scenes in crowded markets and alleys",
+      "Macro 100mm for detailed underwater reef and coral textures during snorkeling photography"
     ],
-    "goldenHourNotes": "Zanzibar's equatorial location provides consistent 12-hour day/night cycles year-round. Golden hours occur roughly 6-7am and 6-7pm, offering warm, directional light perfect for landscapes and street photography. The calm waters during early morning create mirror-like reflections ideal for dhow and skyline shots. Sunset at Forodhani Gardens during market hours combines cultural richness with optimal light conditions.",
+    "goldenHourNotes": "Zanzibar offers exceptional golden hour light from 6:00-7:00 AM and 5:00-6:30 PM year-round. Sunrise light over beaches creates soft pastels while sunset light bathes Stone Town's coral buildings in warm amber tones. The clear atmospheric conditions during dry seasons (June-September) provide the sharpest, most dramatic light.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -369,62 +371,62 @@
       {
         "month": 1,
         "avgTempC": 28,
-        "rainfallMM": 130
+        "rainfallMM": 110
       },
       {
         "month": 2,
         "avgTempC": 28,
-        "rainfallMM": 130
+        "rainfallMM": 100
       },
       {
         "month": 3,
         "avgTempC": 27,
-        "rainfallMM": 200
+        "rainfallMM": 170
       },
       {
         "month": 4,
         "avgTempC": 26,
-        "rainfallMM": 330
+        "rainfallMM": 240
       },
       {
         "month": 5,
         "avgTempC": 25,
-        "rainfallMM": 240
+        "rainfallMM": 80
       },
       {
         "month": 6,
         "avgTempC": 24,
-        "rainfallMM": 70
+        "rainfallMM": 60
       },
       {
         "month": 7,
         "avgTempC": 23,
-        "rainfallMM": 60
+        "rainfallMM": 50
       },
       {
         "month": 8,
-        "avgTempC": 23,
-        "rainfallMM": 70
+        "avgTempC": 24,
+        "rainfallMM": 40
       },
       {
         "month": 9,
-        "avgTempC": 24,
-        "rainfallMM": 60
+        "avgTempC": 25,
+        "rainfallMM": 40
       },
       {
         "month": 10,
         "avgTempC": 26,
-        "rainfallMM": 100
+        "rainfallMM": 80
       },
       {
         "month": 11,
         "avgTempC": 27,
-        "rainfallMM": 200
+        "rainfallMM": 130
       },
       {
         "month": 12,
         "avgTempC": 28,
-        "rainfallMM": 150
+        "rainfallMM": 120
       }
     ],
     "bestMonths": [
@@ -433,31 +435,31 @@
       8,
       9
     ],
-    "seasonality": "Zanzibar experiences two distinct seasons: the dry season (June-September) with lower humidity and minimal rainfall perfect for outdoor activities, and the warm wet season (November-May) with high humidity and afternoon downpours. The shoulder months of October and late May offer good weather with fewer crowds.",
-    "summary": "Zanzibar enjoys a tropical climate with consistently warm temperatures year-round averaging 24-28°C. The dry season from June to September provides the best conditions for travel, diving, and photography with clear skies and calm waters, while the monsoon season brings dramatic skies and lush landscapes."
+    "seasonality": "Zanzibar experiences two main seasons: the dry season (June-September) with pleasant temperatures and minimal rainfall is ideal for beach activities, while the wet season (March-April) brings heavy rains but lush landscapes. The warmest months (December-February) are humid with occasional rain.",
+    "summary": "Zanzibar maintains warm tropical weather year-round with temperatures between 23-28°C. The dry season offers the most favorable conditions for tourism with clear skies and calm seas, while the wet season features dramatic rains that cool the islands briefly."
   },
   "hotels": [
     {
-      "name": "Tembo House Hotel",
-      "neighborhood": "Stone Town",
-      "pricePerNightUSD": 60,
+      "name": "Sunset Bungalows",
+      "neighborhood": "Nungwi Beach",
+      "pricePerNightUSD": 35,
       "category": "Budget",
-      "description": "Historic budget hotel in the heart of Stone Town with rooftop restaurant offering harbor views and direct access to cultural attractions."
+      "description": "Simple beachfront bungalows with basic amenities, shared facilities, and budget-friendly beach access near water sports activities."
     },
     {
-      "name": "Baraza Resort & Spa",
-      "neighborhood": "Zanzibar East Coast",
-      "pricePerNightUSD": 150,
+      "name": "The Spice Island Hotel",
+      "neighborhood": "Stone Town",
+      "pricePerNightUSD": 85,
       "category": "Mid-range",
-      "description": "Upscale beachfront resort with spacious bungalows, infinity pool, spa services, and direct beach access on pristine Paje Beach."
+      "description": "Charming boutique hotel in a restored historical building with rooftop restaurant, cultural activities, and convenient Stone Town location with harbor views."
     },
     {
       "name": "Zanzibar Serena Hotel",
-      "neighborhood": "Stone Town",
-      "pricePerNightUSD": 350,
+      "neighborhood": "Stone Town Waterfront",
+      "pricePerNightUSD": 250,
       "category": "Luxury",
-      "description": "Five-star luxury establishment within a restored historic palace featuring suites with ocean views, fine dining, and exceptional personalized service."
+      "description": "Five-star oceanfront resort featuring spa facilities, multiple dining venues, historic architecture restoration, and premium service overlooking Zanzibar harbor."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1575992042651-e35f5a391252?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxaYW56aWJhciUyMFN0b25lJTIwVG93biUyMHN1bnNldHxlbnwxfDB8fHwxNzgxNTY1MzU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1515404929826-76fff9fef6fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxaYW56aWJhciUyMHNwaWNlJTIwaXNsYW5kcyUyMHN1bnNldHxlbnwxfDB8fHwxNzgxNjI5NjQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,0 +1,455 @@
+{
+  "id": "billings-usa",
+  "city": "Billings",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "BIL",
+    "MSP",
+    "DEN"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "adventure",
+    "photography",
+    "relaxation",
+    "foodie"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 68,
+    "photography": 75,
+    "activities": 72,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Montana Billings landscape",
+  "summary": "Billings is Montana's largest city, serving as an excellent base for exploring the rugged Northern Rockies, expansive prairies, and world-class outdoor recreation. Known for its vibrant downtown, access to the Yellowstone ecosystem, and rich Western heritage, Billings blends genuine hospitality with stunning natural landscapes.",
+  "restaurants": [
+    {
+      "name": "Montana Rib & Chop House",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Authentic Western barbecue featuring slow-smoked ribs, brisket, and local Montana beef. The rustic atmosphere captures true frontier dining culture.",
+      "mustTry": "Smoked brisket plate with house sauce"
+    },
+    {
+      "name": "The Fieldhouse",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Farm-to-table restaurant celebrating local Montana ingredients with creative American cuisine. Known for seasonal menus and craft cocktails.",
+      "mustTry": "Montana grass-fed beef burger"
+    },
+    {
+      "name": "Walkers Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale steakhouse specializing in premium cuts and elevated cuisine with an extensive wine collection. Sophisticated ambiance perfect for special occasions.",
+      "mustTry": "Prime ribeye with truffle mashed potatoes"
+    },
+    {
+      "name": "Ted's Montana Grill",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Casual bison and beef grill co-founded by Ted Turner featuring ranch-raised proteins and hearty Western fare. Fun, lively atmosphere with Montana charm.",
+      "mustTry": "Bison burger"
+    },
+    {
+      "name": "MacKenzie River Pizza Co.",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local brewery and pizzeria serving hand-tossed pizzas with creative toppings and house-brewed craft beers. Great casual dining option with mountain views.",
+      "mustTry": "Montana beef pizza"
+    },
+    {
+      "name": "The Rubric",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary fine dining focusing on seasonal ingredients and artistic presentation in an intimate setting. Features rotating chef's tasting menus.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Montana's Rib and Steakhouse",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Classic steakhouse with generous portions, prime cuts, and traditional sides. Popular local favorite with a welcoming bar scene.",
+      "mustTry": "Bone-in ribeye with garlic mashed potatoes"
+    },
+    {
+      "name": "Christo's Bistro",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian-inspired bistro serving pasta, seafood, and traditional dishes in a warm, European-style setting. Excellent wine selection and homemade pasta.",
+      "mustTry": "Handmade lasagna"
+    },
+    {
+      "name": "MacLander Pub",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Scottish pub offering fish and chips, meat pies, and traditional pub fare with authentic Celtic atmosphere. Good for casual meals and local beers.",
+      "mustTry": "Fish and chips"
+    },
+    {
+      "name": "Crave Restaurant",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Modern American fine dining with creative seasonal menus, craft cocktails, and sophisticated decor. Focus on locally-sourced ingredients.",
+      "mustTry": "Duck breast with seasonal vegetables"
+    },
+    {
+      "name": "Uberbrew",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Brewpub featuring house-made craft beers, burgers, sandwiches, and comfort food. Industrial-chic setting with friendly atmosphere.",
+      "mustTry": "IPA with craft burger"
+    },
+    {
+      "name": "Grill 'n' Green",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Health-focused restaurant offering salads, grain bowls, grilled proteins, and fresh juices. Popular lunch spot with quick service.",
+      "mustTry": "Buffalo grain bowl"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Yellowstone National Park Day Trip",
+      "category": "Outdoor",
+      "description": "Visit one of America's most famous national parks just 90 minutes south of Billings. Experience geysers, wildlife, thermal features, and stunning mountain landscapes.",
+      "durationHours": 10,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Beartooth Scenic Highway Drive",
+      "category": "Outdoor",
+      "description": "Drive one of America's most scenic byways with dramatic mountain passes, alpine meadows, and pristine wilderness views. The winding road offers endless photo opportunities.",
+      "durationHours": 6,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Pictograph Cave State Park",
+      "category": "Cultural",
+      "description": "Explore Native American rock art and archaeological sites with hiking trails through scenic canyon terrain. Learn about the region's indigenous heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "standard",
+        "hidden-gems",
+        "photography"
+      ]
+    },
+    {
+      "name": "Roe River Short Float",
+      "category": "Adventure",
+      "description": "Float or paddle the scenic Roe River through towering ponderosa pine forests and Montana wilderness. Popular for both beginners and experienced paddlers.",
+      "durationHours": 4,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Montana Fly Fishing",
+      "category": "Adventure",
+      "description": "Experience world-class fly fishing on pristine mountain rivers and streams surrounding Billings. Local guides offer instruction for all skill levels.",
+      "durationHours": 6,
+      "estimatedCostUSD": 350,
+      "bestFor": [
+        "adventure",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Billings Downtown Art District Walking Tour",
+      "category": "Cultural",
+      "description": "Stroll through revitalized downtown featuring galleries, street art, historic architecture, and public sculptures. Free self-guided or paid guided tours available.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Moss Mansion Historic Home Tour",
+      "category": "Cultural",
+      "description": "Tour a beautifully preserved 1903 Victorian mansion showcasing period furnishings, architecture, and local history. Guided tours provide fascinating insights.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Lake Elmo State Park",
+      "category": "Outdoor",
+      "description": "Enjoy hiking, picnicking, and swimming at this scenic park featuring forests, meadows, and a pristine lake. Excellent for family outings and nature walks.",
+      "durationHours": 3,
+      "estimatedCostUSD": 8,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Rimrock Road Loop Hike",
+      "category": "Outdoor",
+      "description": "Challenging hike along Billings' iconic rimrocks offering panoramic city and valley views. Trail provides stunning photography opportunities and wildlife viewing.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Montana Craft Brewery Tour",
+      "category": "Foodie",
+      "description": "Visit multiple local craft breweries sampling house-brewed beers and learning production processes. Many offer food pairings and taproom activities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Living History Weekend at Pompeys Pillar",
+      "category": "Cultural",
+      "description": "Explore significant historical landmark with rock art, Lewis and Clark history, and scenic overlooks. Features interpretive trails and seasonal events.",
+      "durationHours": 2,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "standard",
+        "cultural",
+        "photography"
+      ]
+    },
+    {
+      "name": "Billings Zoo and Botanical Gardens",
+      "category": "Family",
+      "description": "Visit Montana's largest zoo featuring native wildlife, exotic animals, and beautiful gardens. Excellent for families with interactive exhibits and shaded pathways.",
+      "durationHours": 4,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Rimrock View Point",
+        "description": "Iconic overlook capturing Billings cityscape against distant mountain ranges and golden hour light.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise/sunset)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pictograph Cave State Park",
+        "description": "Ancient rock art formations with dramatic canyon walls and natural lighting creating stunning composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for side lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Beartooth Highway Switchbacks",
+        "description": "Winding mountain road with dramatic elevation changes providing layered landscape compositions with alpine scenery.",
+        "difficulty": "Advanced",
+        "bestTime": "Late summer afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Billings Street Art Alley",
+        "description": "Vibrant murals and street art creating colorful urban photography subjects in renovated historic district.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for vibrant colors",
+        "category": "Street"
+      },
+      {
+        "name": "Yellowstone Grand Prismatic Spring",
+        "description": "Surreal geothermal feature with brilliant blue, orange, and yellow colors creating otherworldly landscape images.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for steam and light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Roe River Canyon",
+        "description": "Towering ponderosa pines framing river corridor with dramatic shadows and filtered golden light.",
+        "difficulty": "Intermediate",
+        "bestTime": "Golden hour",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pompeys Pillar Rock Formation",
+        "description": "Distinctive sandstone outcropping with indigenous petroglyphs and sweeping prairie views.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon",
+        "category": "Landscape"
+      },
+      {
+        "name": "Montana Elk Habitat",
+        "description": "Wildlife viewing location with majestic elk silhouetted against mountain backdrops during rutting season.",
+        "difficulty": "Advanced",
+        "bestTime": "Dawn or dusk",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Billings Downtown Historic Architecture",
+        "description": "Beautifully restored Victorian and early 20th-century buildings with ornate details and period facades.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lake Elmo Reflection",
+        "description": "Forest-surrounded lake creating mirror reflections of pine trees and mountain backdrops.",
+        "difficulty": "Intermediate",
+        "bestTime": "Calm morning conditions",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Rimrock View Point",
+      "Beartooth Summit",
+      "Pompeys Pillar"
+    ],
+    "sunsetSpots": [
+      "Yellowstone Grand Prismatic Spring",
+      "Roe River Canyon overlook",
+      "Downtown Billings from parking garage"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for expansive landscapes and mountain vistas",
+      "70-200mm telephoto for wildlife and distant Yellowstone features",
+      "50mm prime for street photography and architectural details in downtown"
+    ],
+    "goldenHourNotes": "Golden hour at Billings is transformative for landscape photography, casting warm light across rimrocks and prairie. Early morning shoots at Yellowstone capture steam, mist, and wildlife activity optimally. Late afternoon light at Roe River creates dramatic shadows through canyon walls.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -5,
+        "rainfallMM": 15
+      },
+      {
+        "month": 2,
+        "avgTempC": -2,
+        "rainfallMM": 18
+      },
+      {
+        "month": 3,
+        "avgTempC": 3,
+        "rainfallMM": 22
+      },
+      {
+        "month": 4,
+        "avgTempC": 10,
+        "rainfallMM": 35
+      },
+      {
+        "month": 5,
+        "avgTempC": 16,
+        "rainfallMM": 68
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 85
+      },
+      {
+        "month": 7,
+        "avgTempC": 27,
+        "rainfallMM": 45
+      },
+      {
+        "month": 8,
+        "avgTempC": 26,
+        "rainfallMM": 42
+      },
+      {
+        "month": 9,
+        "avgTempC": 20,
+        "rainfallMM": 35
+      },
+      {
+        "month": 10,
+        "avgTempC": 12,
+        "rainfallMM": 28
+      },
+      {
+        "month": 11,
+        "avgTempC": 3,
+        "rainfallMM": 20
+      },
+      {
+        "month": 12,
+        "avgTempC": -4,
+        "rainfallMM": 16
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer (June-August) offers warm, mostly dry weather perfect for outdoor activities and wildlife viewing. Winter brings snow and cold temperatures, ideal for Yellowstone snow tourism but limiting some outdoor pursuits.",
+    "summary": "Billings experiences four distinct seasons with cold winters averaging -5°C and warm summers reaching 27°C. Spring and fall are mild with moderate precipitation, while summer provides the most stable weather for outdoor adventures and photography."
+  },
+  "hotels": [
+    {
+      "name": "Red Roof Billings",
+      "neighborhood": "Central Billings",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Reliable budget chain hotel offering clean rooms, free WiFi, and convenient access to downtown attractions and major highways."
+    },
+    {
+      "name": "Hilton Billings",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Full-service downtown hotel featuring modern amenities, on-site restaurant, fitness center, and walking distance to galleries, shops, and restaurants."
+    },
+    {
+      "name": "Northern Hotel, A Kimpton Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 285,
+      "category": "Luxury",
+      "description": "Luxury boutique hotel in historic building offering upscale accommodations, fine dining restaurant, spa services, and personalized concierge attention."
+    }
+  ]
+}

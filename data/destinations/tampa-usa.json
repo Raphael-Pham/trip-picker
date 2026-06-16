@@ -6,172 +6,173 @@
   "airportCodes": [
     "TPA",
     "MCO",
-    "RSW"
+    "FLL"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "foodie",
+    "surprise",
     "photography",
+    "foodie",
     "adventure",
     "relaxation",
     "family"
   ],
   "scores": {
-    "cost": 68,
-    "food": 82,
+    "cost": 65,
+    "food": 78,
     "photography": 75,
-    "activities": 85,
-    "weather": 78
+    "activities": 82,
+    "weather": 72
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 80,
-      "maxPerDayUSD": 150
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 140
     },
     {
       "level": "mid",
-      "minPerDayUSD": 150,
-      "maxPerDayUSD": 280
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 280,
-      "maxPerDayUSD": 600
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Tampa Bay sunset",
-  "summary": "Tampa is a vibrant Gulf Coast destination blending historic Ybor City's cultural charm with modern waterfront development, world-class museums, and pristine beaches. Known for fresh seafood, diverse dining scenes, and year-round activities from theme parks to water sports, Tampa offers an ideal mix of relaxation and urban exploration.",
+  "unsplashQuery": "Tampa Bay waterfront sunset",
+  "summary": "Tampa blends vibrant cultural attractions, stunning waterfront views, and excellent dining with a relaxed Florida atmosphere. Known for Ybor City's historic charm, professional sports teams, and beautiful beaches nearby, this Gulf Coast gem offers diverse experiences from family attractions to sophisticated dining scenes.",
   "restaurants": [
-    {
-      "name": "The Bricks of Ybor",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale American cuisine in historic Ybor City housed in a beautifully restored brick building. Features seasonal menus and craft cocktails.",
-      "mustTry": "Pan-seared grouper with Florida citrus"
-    },
-    {
-      "name": "Oysterercatchers",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Fine dining seafood restaurant located on Harbour Island with panoramic waterfront views. Specializes in fresh Gulf Coast catches.",
-      "mustTry": "Whole roasted fish with seasonal preparations"
-    },
     {
       "name": "Columbia Restaurant",
       "category": "Local Specialty",
       "priceRange": "$$",
-      "description": "Historic Spanish-Cuban restaurant in Ybor City serving authentic cuisine since 1905. Famous for its paella and lively atmosphere.",
-      "mustTry": "Paella Valenciana and Cuban sandwich"
+      "description": "Historic Cuban-Spanish restaurant established in 1905, iconic to Ybor City's cultural heritage. Famous for its elegant courtyard and traditional dishes passed down through generations.",
+      "mustTry": "Ropa Vieja and Cuban Coffee"
     },
     {
-      "name": "Bern's Steak House",
+      "name": "The Bricks of Ybor",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Legendary steakhouse with an extensive wine collection and theatrical presentation, featuring aged beef and premium cuts. Complete experience with dessert room upstairs.",
-      "mustTry": "Prime aged ribeye with truffle butter"
-    },
-    {
-      "name": "The Hurricane Seafood Restaurant",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Casual beachfront dining in Clearwater offering fresh Gulf seafood and tropical drinks with sand-in-your-shoes atmosphere.",
-      "mustTry": "Stone crab claws and grouper sandwich"
+      "priceRange": "$$$",
+      "description": "Contemporary American cuisine in a converted brick warehouse featuring farm-to-table ingredients and craft cocktails. Offers an upscale atmosphere with exposed brick and dim lighting.",
+      "mustTry": "Pan-seared fish with seasonal vegetables"
     },
     {
       "name": "Carne Chophouse",
       "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Premium steakhouse downtown with aged steaks, fresh seafood, and an extensive wine list in an elegant setting. Known for impeccable service and sophisticated ambiance.",
+      "mustTry": "Wagyu ribeye and lobster tail"
+    },
+    {
+      "name": "Pepo Restaurant",
+      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Contemporary steakhouse in Downtown Tampa with modern decor, extensive wine list, and prime beef selections.",
-      "mustTry": "Japanese wagyu with seasonal vegetables"
-    },
-    {
-      "name": "The Refinery",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Farm-to-table restaurant in Ybor City featuring locally-sourced ingredients and seasonal American cuisine.",
-      "mustTry": "Seasonal fish specials and craft burger"
-    },
-    {
-      "name": "SideBar",
-      "category": "Local Specialty",
-      "priceRange": "$",
-      "description": "Casual neighborhood spot known for creative sandwiches, salads, and pastries with coffee. Perfect for lunch.",
-      "mustTry": "Roast beef sandwich on ciabatta"
-    },
-    {
-      "name": "Ulele",
-      "category": "Midrange",
-      "priceRange": "$$",
-      "description": "Modern Native American-inspired restaurant with waterfront views, highlighting indigenous ingredients and sustainable practices.",
-      "mustTry": "Smoked fish dip and seasonal game"
-    },
-    {
-      "name": "Castaway Restaurant",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Authentic Cuban restaurant serving traditional dishes in a family-friendly atmosphere since 1993.",
-      "mustTry": "Ropa vieja and black beans with rice"
-    },
-    {
-      "name": "Ybor City Brewing Company",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual brewpub with craft beers and pub food in a historic setting. Great for casual dining and brewery tours.",
-      "mustTry": "IPA beer with fish and chips"
+      "description": "Mediterranean-inspired fine dining showcasing seasonal ingredients and creative presentations in a warm, intimate space. Chef-driven restaurant with innovative flavor combinations.",
+      "mustTry": "Handmade pasta dishes"
     },
     {
       "name": "Datz",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Eclectic comfort food restaurant with creative American cuisine and craft beer selection.",
-      "mustTry": "Signature burger and loaded tots"
+      "description": "Eclectic comfort food restaurant with American classics, burgers, and innovative sandwiches in a casual, hip atmosphere. Popular for lunch and dinner with creative daily specials.",
+      "mustTry": "Bacon jam burger"
+    },
+    {
+      "name": "Bricks of Ybor",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual dining in historic Ybor City offering Mediterranean and American fare with a vibrant nightlife scene upstairs. Great for groups and social dining experiences.",
+      "mustTry": "Wood-fired pizzas"
+    },
+    {
+      "name": "Centro Ybor",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Collection of casual eateries and food vendors in the heart of Ybor City's entertainment district. Perfect for grabbing quick, affordable meals while exploring the historic area.",
+      "mustTry": "Cuban sandwich from local vendors"
+    },
+    {
+      "name": "Ulele",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Native American-inspired restaurant with craft beers and waterfront views along the Hillsborough River. Offers unique regional cuisine and excellent beer selection.",
+      "mustTry": "Native American smoked meats"
+    },
+    {
+      "name": "The Refinery",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Farm-to-table restaurant emphasizing locally-sourced ingredients with seasonal menu changes and craft cocktails. Housed in a repurposed historic building with rustic-modern decor.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Caddie's Cafe",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual neighborhood cafe serving breakfast and lunch with fresh ingredients and reasonable prices. Popular for quick meals and great coffee throughout the day.",
+      "mustTry": "Morning pastries and breakfast sandwiches"
+    },
+    {
+      "name": "Taco Bus",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Authentic Latin American street food served from a converted bus location with numerous Tampa spots. Known for affordable, delicious tacos and traditional Latin dishes.",
+      "mustTry": "Carne asada tacos"
+    },
+    {
+      "name": "Trattoria Romana",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Family-owned Italian restaurant offering traditional recipes in a warm, welcoming atmosphere. Known for fresh pasta, homemade sauces, and attentive service.",
+      "mustTry": "Handmade lasagna"
     }
   ],
   "activities": [
     {
       "name": "Busch Gardens Tampa Bay",
       "category": "Family",
-      "description": "Major amusement park featuring thrilling roller coasters, animal encounters, and shows set in African-themed landscapes.",
+      "description": "Major amusement park featuring roller coasters, animal encounters, shows, and themed areas. Combines thrilling rides with wildlife experiences and educational attractions.",
       "durationHours": 8,
-      "estimatedCostUSD": 120,
+      "estimatedCostUSD": 95,
+      "bestFor": [
+        "standard",
+        "family",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Florida Aquarium",
+      "category": "Family",
+      "description": "World-class aquarium with thousands of marine animals, interactive exhibits, and educational programs. Features coral reef displays, dolphin encounters, and behind-the-scenes tours.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
         "family"
       ]
     },
     {
-      "name": "The Florida Aquarium",
-      "category": "Indoor",
-      "description": "World-class aquarium with over 20,000 aquatic animals and interactive exhibits. Features a coral reef restoration program.",
-      "durationHours": 4,
-      "estimatedCostUSD": 35,
-      "bestFor": [
-        "standard",
-        "family",
-        "photography"
-      ]
-    },
-    {
-      "name": "Ybor City Historic District Walking Tour",
+      "name": "Ybor City Historic Walking Tour",
       "category": "Cultural",
-      "description": "Self-guided or guided exploration of historic streets lined with Victorian architecture, galleries, and cafes. Free to explore.",
+      "description": "Self-guided or organized tour through Tampa's most vibrant neighborhood with historic architecture, galleries, and cultural sites. Explore Victorian-era buildings, street art, and local boutiques.",
       "durationHours": 3,
-      "estimatedCostUSD": 0,
+      "estimatedCostUSD": 15,
       "bestFor": [
         "standard",
+        "photography",
         "hidden-gems",
-        "photography",
-        "foodie"
+        "surprise"
       ]
     },
     {
-      "name": "Kayaking in Hillsborough Bay",
-      "category": "Adventure",
-      "description": "Paddle through mangroves and shallow waters observing dolphins, manatees, and diverse birdlife. Multiple outfitters available.",
+      "name": "Tampa Bay Kayaking",
+      "category": "Outdoor",
+      "description": "Paddling adventures through mangrove forests, coastal waters, and wildlife viewing areas. Tour companies offer guided eco-tours to see dolphins, manatees, and wading birds.",
       "durationHours": 3,
-      "estimatedCostUSD": 60,
+      "estimatedCostUSD": 65,
       "bestFor": [
         "adventure",
         "relaxation",
@@ -179,285 +180,289 @@
       ]
     },
     {
-      "name": "Tampa Bay Museum of Art",
-      "category": "Cultural",
-      "description": "Contemporary art museum with rotating exhibitions, classic collections, and outdoor sculpture gardens in downtown.",
+      "name": "Riverfront Park Trail Cycling",
+      "category": "Outdoor",
+      "description": "Scenic bike trails along the Hillsborough River with views of downtown Tampa and nature reserves. Free public access with beautiful photo opportunities and peaceful riding.",
       "durationHours": 2,
-      "estimatedCostUSD": 20,
-      "bestFor": [
-        "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Clearwater Beach Sunset Experience",
-      "category": "Relaxation",
-      "description": "Award-winning beach perfect for swimming, sunbathing, and watching vibrant sunsets over the Gulf of Mexico.",
-      "durationHours": 5,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "adventure",
         "relaxation",
         "photography",
-        "standard"
+        "hidden-gems"
       ]
     },
     {
-      "name": "Fishing Charter in Tampa Bay",
-      "category": "Adventure",
-      "description": "Guided deep-sea or inshore fishing trips targeting grouper, snapper, redfish, and tarpon with experienced captains.",
-      "durationHours": 6,
-      "estimatedCostUSD": 450,
+      "name": "Tampa Bay Lightning Hockey Game",
+      "category": "Nightlife",
+      "description": "Watch professional NHL hockey at Amalie Arena with exciting gameplay and fan atmosphere. Home to the Stanley Cup-winning Tampa Bay Lightning team.",
+      "durationHours": 3,
+      "estimatedCostUSD": 50,
       "bestFor": [
-        "adventure",
-        "standard"
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Ybor City Nightlife Experience",
+      "category": "Nightlife",
+      "description": "Historic district packed with bars, clubs, live music venues, and entertainment options. Experience the unique Tampa party scene with Latin influences and diverse crowds.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Museum of Art - Tampa",
+      "category": "Cultural",
+      "description": "Contemporary and classical art collections featuring American, Asian, and African pieces in a modern facility. Hosts rotating exhibitions, workshops, and cultural events.",
+      "durationHours": 2,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "photography",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Henry B. Plant Museum",
+      "category": "Cultural",
+      "description": "Victorian-era mansion museum with ornate architecture, historic collections, and beautiful grounds overlooking the Hillsborough River. Offers guided tours and special events.",
+      "durationHours": 2,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "standard",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Clearwater Beach Day Trip",
+      "category": "Outdoor",
+      "description": "Short drive to one of Florida's most beautiful beaches with white sand, clear water, and abundant activities. Perfect for swimming, sunbathing, and beach sports.",
+      "durationHours": 6,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "relaxation",
+        "standard",
+        "photography"
       ]
     },
     {
       "name": "Lowry Park Zoo",
       "category": "Family",
-      "description": "Interactive zoo featuring wildlife from Africa, Asia, and Australia with educational shows and manatee rehabilitation center.",
-      "durationHours": 4,
+      "description": "Interactive zoo featuring African animals, primates, reptiles, and manatee rehabilitation center. Offers animal encounters, splash pad, and educational programs.",
+      "durationHours": 5,
       "estimatedCostUSD": 35,
       "bestFor": [
         "family",
-        "standard"
-      ]
-    },
-    {
-      "name": "USF Contemporary Art Museum (CAM)",
-      "category": "Cultural",
-      "description": "Free university art museum featuring contemporary installations, photography, and experimental media in a modern facility.",
-      "durationHours": 2,
-      "estimatedCostUSD": 0,
-      "bestFor": [
         "standard",
-        "hidden-gems",
-        "photography"
+        "adventure"
       ]
     },
     {
-      "name": "Paddle Boarding at Davis Islands",
-      "category": "Adventure",
-      "description": "Stand-up paddle boarding on calm waters surrounded by upscale residences and beautiful sunset views.",
-      "durationHours": 2,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "adventure",
-        "relaxation",
-        "photography"
-      ]
-    },
-    {
-      "name": "Hemingway Home & Museum Visit",
-      "category": "Cultural",
-      "description": "Historic Key West villa tour showcasing the life of Ernest Hemingway with original furnishings and six-toed cat descendants.",
+      "name": "Downtown Tampa Culinary Walking Tour",
+      "category": "Foodie",
+      "description": "Guided tour sampling authentic cuisines from Tampa's diverse restaurants and local food vendors. Learn about the city's food culture and hidden culinary gems.",
       "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "estimatedCostUSD": 75,
       "bestFor": [
+        "foodie",
         "standard",
-        "photography"
-      ]
-    },
-    {
-      "name": "Nightlife in Ybor City",
-      "category": "Nightlife",
-      "description": "Historic district featuring Spanish tapas bars, live music venues, nightclubs, and vibrant street atmosphere after dark.",
-      "durationHours": 4,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "standard",
-        "foodie"
+        "hidden-gems"
       ]
     }
   ],
   "photography": {
     "spots": [
       {
-        "name": "Clearwater Pier 60",
-        "description": "Iconic pier at Clearwater Beach offering perfect vantage point for sunset photography with dramatic sky reflections.",
+        "name": "Tampa Downtown Skyline from Pedestrian Bridge",
+        "description": "Stunning elevated perspective of the downtown skyline with Hillsborough River reflections and architectural contrasts.",
         "difficulty": "Beginner",
-        "bestTime": "Sunset (6-7pm year-round)",
-        "category": "Landscape"
-      },
-      {
-        "name": "Ybor City Streets",
-        "description": "Historic Victorian architecture, colorful murals, and vibrant street life perfect for street and architectural photography.",
-        "difficulty": "Intermediate",
-        "bestTime": "Golden hour and night time",
-        "category": "Street"
-      },
-      {
-        "name": "Lowry Park Zoo",
-        "description": "Diverse wildlife photography opportunities featuring African and Asian animals in naturalistic settings.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning (7-9am) for active animals",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Tampa Bay Waterfront",
-        "description": "Scenic downtown waterfront with Sunshine Skyway Bridge backdrop and modern architecture for urban landscape photography.",
-        "difficulty": "Beginner",
-        "bestTime": "Golden hour sunset",
+        "bestTime": "Golden hour, especially sunset",
         "category": "Architecture"
       },
       {
-        "name": "Hillsborough River State Park",
-        "description": "Lush natural landscape with river views, cypress trees, and wildlife including herons and egrets.",
+        "name": "Ybor City Historic Brick Streets",
+        "description": "Atmospheric narrow streets with historic architecture, colorful murals, and vintage storefronts perfect for street photography.",
         "difficulty": "Intermediate",
-        "bestTime": "Early morning for wildlife and mist",
+        "bestTime": "Late afternoon with side lighting",
+        "category": "Street"
+      },
+      {
+        "name": "Hillsborough River Park Mangroves",
+        "description": "Lush mangrove forests with reflective water channels, ideal for nature and wildlife photography.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for wildlife activity",
         "category": "Landscape"
       },
       {
-        "name": "Channelside Drive After Dark",
-        "description": "Modern waterfront development with night lights reflecting off the bay and contemporary architecture.",
-        "difficulty": "Intermediate",
-        "bestTime": "Night time after dark",
-        "category": "Night"
+        "name": "Henry B. Plant Museum Exterior",
+        "description": "Iconic Moorish-revival architecture with distinctive silver dome and manicured gardens overlooking the river.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light highlighting architectural details",
+        "category": "Architecture"
       },
       {
-        "name": "Curtis Hixon Park",
-        "description": "Urban park with modern pavilion architecture, water features, and downtown backdrop for cityscape photography.",
+        "name": "Tampa Bay Pier Fishing Pier Sunrise",
+        "description": "Classic pier structure extending into the bay with opportunities for early morning silhouettes and water reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunrise",
+        "category": "Landscape"
+      },
+      {
+        "name": "Curtis Hixon Waterfront Park",
+        "description": "Modern urban park with landscaping, water features, and downtown skyline views reflecting in the river.",
         "difficulty": "Beginner",
         "bestTime": "Golden hour",
         "category": "Architecture"
       },
       {
-        "name": "Mangrove Kayaking Routes",
-        "description": "Secluded mangrove forests with abundant bird and wildlife photography opportunities from water level.",
-        "difficulty": "Advanced",
-        "bestTime": "Early morning (6-8am)",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Sunshine Skyway Bridge",
-        "description": "Iconic cable-stayed bridge offering dramatic structural photography and sunset views over Tampa Bay.",
+        "name": "Lowry Park Zoo Wildlife",
+        "description": "Diverse animal encounters including manatees, big cats, and primates offering wildlife photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset golden hour",
-        "category": "Architecture"
+        "bestTime": "Early morning when animals are active",
+        "category": "Wildlife"
       },
       {
-        "name": "Florida Aquarium Exhibits",
-        "description": "Colorful marine life and coral reef photography in controlled lighting conditions with vibrant subject matter.",
+        "name": "Amalie Arena at Night",
+        "description": "Contemporary sports arena with dramatic lighting and modern architectural elements reflected in surrounding pools.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening with stadium lighting",
+        "category": "Night"
+      },
+      {
+        "name": "Franklin Street Historic District",
+        "description": "Vintage storefronts, neon signs, and historic facades creating vibrant street photography opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Dusk for neon glow",
+        "category": "Street"
+      },
+      {
+        "name": "Bayshore Boulevard Overlook",
+        "description": "Scenic waterfront promenade with bay views, street lamps, and landscaping ideal for golden hour photography.",
         "difficulty": "Beginner",
-        "bestTime": "Mid-morning to avoid crowds",
-        "category": "Wildlife"
+        "bestTime": "Sunset",
+        "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Clearwater Beach Pier 60",
-      "Busch Gardens Tampa Bay (pre-opening)",
-      "Hillsborough River State Park"
+      "Tampa Bay Pier",
+      "Hillsborough River Park",
+      "Bayshore Boulevard Overlook"
     ],
     "sunsetSpots": [
-      "Clearwater Pier 60",
-      "Channelside Drive Waterfront",
-      "Davis Islands Causeway"
+      "Curtis Hixon Waterfront Park",
+      "Henry B. Plant Museum Grounds",
+      "Downtown Tampa Skyline from Pedestrian Bridge"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for architectural and landscape shots at Ybor City and Sunshine Skyway",
-      "70-200mm telephoto for wildlife photography at zoos and mangrove kayaking",
-      "50mm prime for street photography and portrait work in historic districts",
-      "14mm ultra-wide for dramatic sunset and bridge silhouette photography"
+      "16-35mm wide angle for architectural skylines and expansive water scenes",
+      "50-85mm for street photography and portrait work in Ybor City",
+      "70-200mm telephoto for wildlife at the zoo and distant cityscape compression",
+      "Macro lens for details of historic architecture and street art exploration"
     ],
-    "goldenHourNotes": "Tampa's golden hour offers exceptional quality from 6-7pm year-round due to Gulf positioning. The Clearwater Pier 60 and waterfront areas provide unobstructed western views perfect for sunset capture. Early morning light (6-7am) creates moody atmospheric conditions ideal for wildlife and mangrove photography.",
-    "overallDifficulty": "Intermediate"
+    "goldenHourNotes": "Tampa's waterfront location provides exceptional golden hour opportunities with water reflections amplifying warm light. The downtown skyline and historic districts offer varied architectural elements that photograph beautifully during sunset, typically between 6-8 PM depending on season. Early morning light at the river parks creates atmospheric fog effects and silhouettes.",
+    "overallDifficulty": "Beginner"
   },
   "weather": {
     "monthly": [
       {
         "month": 1,
-        "avgTempC": 20,
-        "rainfallMM": 53
+        "avgTempC": 16,
+        "rainfallMM": 65
       },
       {
         "month": 2,
-        "avgTempC": 21,
-        "rainfallMM": 54
+        "avgTempC": 17,
+        "rainfallMM": 72
       },
       {
         "month": 3,
-        "avgTempC": 24,
-        "rainfallMM": 58
+        "avgTempC": 20,
+        "rainfallMM": 75
       },
       {
         "month": 4,
-        "avgTempC": 27,
-        "rainfallMM": 61
+        "avgTempC": 24,
+        "rainfallMM": 85
       },
       {
         "month": 5,
-        "avgTempC": 30,
-        "rainfallMM": 152
+        "avgTempC": 27,
+        "rainfallMM": 145
       },
       {
         "month": 6,
-        "avgTempC": 32,
-        "rainfallMM": 214
+        "avgTempC": 29,
+        "rainfallMM": 195
       },
       {
         "month": 7,
-        "avgTempC": 32,
-        "rainfallMM": 193
+        "avgTempC": 30,
+        "rainfallMM": 215
       },
       {
         "month": 8,
-        "avgTempC": 32,
-        "rainfallMM": 188
+        "avgTempC": 29,
+        "rainfallMM": 200
       },
       {
         "month": 9,
-        "avgTempC": 31,
-        "rainfallMM": 178
+        "avgTempC": 28,
+        "rainfallMM": 175
       },
       {
         "month": 10,
-        "avgTempC": 28,
-        "rainfallMM": 102
+        "avgTempC": 25,
+        "rainfallMM": 110
       },
       {
         "month": 11,
-        "avgTempC": 24,
-        "rainfallMM": 56
+        "avgTempC": 21,
+        "rainfallMM": 75
       },
       {
         "month": 12,
-        "avgTempC": 21,
-        "rainfallMM": 51
+        "avgTempC": 17,
+        "rainfallMM": 68
       }
     ],
     "bestMonths": [
-      1,
       2,
       3,
       4,
-      11,
-      12
+      10,
+      11
     ],
-    "seasonality": "Tampa has a subtropical climate with hot, humid summers (June-September) featuring frequent afternoon thunderstorms and a pleasant dry season (October-April). Winter months offer ideal conditions for outdoor activities with comfortable temperatures and lower rainfall.",
-    "summary": "Tampa enjoys warm weather year-round, with winter temperatures averaging 20-24°C and summers reaching 30-32°C. The rainy season peaks from June through September with monsoon-like afternoon thunderstorms, while October through May offers the best conditions for visiting."
+    "seasonality": "Winter months (December-February) offer pleasant, dry weather perfect for outdoor activities and sightseeing. Summer (June-August) brings intense heat, humidity, and frequent afternoon thunderstorms, but fewer crowds and lower prices.",
+    "summary": "Tampa has a subtropical climate with warm winters averaging 16-17°C and hot, humid summers reaching 29-30°C. The wet season runs May through September with significant rainfall, while dry season from October to April provides ideal visiting conditions."
   },
   "hotels": [
     {
-      "name": "Gram Cafe & Hotel",
-      "neighborhood": "Ybor City",
-      "pricePerNightUSD": 89,
-      "category": "Budget",
-      "description": "Charming boutique budget hotel in historic Ybor City with vintage decor, attached cafe, and walking distance to restaurants and nightlife."
-    },
-    {
-      "name": "The Epicurean Hotel",
+      "name": "Budget Inn Tampa Downtown",
       "neighborhood": "Downtown Tampa",
-      "pricePerNightUSD": 189,
-      "category": "Mid-range",
-      "description": "Contemporary hotel featuring culinary-inspired design, rooftop bar, and prime location near museums, waterfront dining, and cultural attractions."
+      "pricePerNightUSD": 75,
+      "category": "Budget",
+      "description": "Affordable accommodation in downtown Tampa with basic amenities, walking distance to Curtis Hixon Park and restaurants."
     },
     {
-      "name": "Carrollwood Suites Hotel",
-      "neighborhood": "Carrollwood",
-      "pricePerNightUSD": 124,
-      "category": "Budget",
-      "description": "Extended stay hotel with spacious suites, kitchenettes, and convenient location near shopping and family attractions at budget-friendly rates."
+      "name": "Hilton Tampa Downtown",
+      "neighborhood": "Downtown Tampa",
+      "pricePerNightUSD": 180,
+      "category": "Mid-range",
+      "description": "Modern hotel with excellent location overlooking the Hillsborough River, pool, fitness center, and access to downtown attractions."
+    },
+    {
+      "name": "Epicurean Hotel",
+      "neighborhood": "Hyde Park",
+      "pricePerNightUSD": 380,
+      "category": "Luxury",
+      "description": "Upscale boutique hotel with culinary focus, rooftop bar, spa services, and sophisticated design in trendy Hyde Park neighborhood."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1608671359422-8036f8c55a28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxUYW1wYSUyMEJheSUyMHN1bnNldHxlbnwxfDB8fHwxNzgxMzAzMjg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1533410947-afec985f6a00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxUYW1wYSUyMEJheSUyMHdhdGVyZnJvbnQlMjBzdW5zZXR8ZW58MXwwfHx8MTc4MTYyODA1NXww&ixlib=rb-4.1.0&q=80&w=1080"
 }

@@ -1,0 +1,460 @@
+{
+  "id": "green-bay-usa",
+  "city": "Green Bay",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "GRB",
+    "MKE",
+    "ORD"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "family",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 75,
+    "photography": 68,
+    "activities": 80,
+    "weather": 55
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 135
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 136,
+      "maxPerDayUSD": 220
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 221,
+      "maxPerDayUSD": 350
+    }
+  ],
+  "unsplashQuery": "Green Bay Packers Lambeau Field",
+  "summary": "Green Bay is a charming Midwestern city famous for its passionate Packers football culture, scenic Fox River waterfront, and thriving local food scene featuring Wisconsin classics like cheese curds and bratwurst. With outdoor recreation, historic neighborhoods, and family-friendly attractions, it offers an authentic American sports town experience combined with natural beauty and culinary delights.",
+  "restaurants": [
+    {
+      "name": "Curly's Lakeside Grill",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Waterfront dining with excellent views of the Fox River and excellent steaks and seafood. Known for its fresh walleye and prime rib specials.",
+      "mustTry": "Walleye Pike"
+    },
+    {
+      "name": "Titletown Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Historic brewery and restaurant in a converted train depot featuring craft beers and pub fare. Iconic Green Bay sports atmosphere with memorabilia throughout.",
+      "mustTry": "Brewery Tour with Beer Sample"
+    },
+    {
+      "name": "Anduzzi's",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale Italian restaurant offering handmade pastas and traditional recipes in an elegant setting. Extensive wine list and impeccable service.",
+      "mustTry": "Lobster Ravioli"
+    },
+    {
+      "name": "Cheese Burger Polka Dot",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Retro diner famous for thick cheeseburgers and fresh-cut fries served in a quirky vintage setting. A Green Bay institution since 1954.",
+      "mustTry": "Double Cheeseburger with Cheese Curds"
+    },
+    {
+      "name": "Houlihan's",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual American restaurant chain location with diverse menu options including burgers, salads, and seafood. Great for families with variety for all tastes.",
+      "mustTry": "Spinach and Artichoke Dip"
+    },
+    {
+      "name": "Morgan's on Main",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary American cuisine with seasonal menus and locally-sourced ingredients in downtown location. Intimate ambiance perfect for special occasions.",
+      "mustTry": "Pan-Seared Scallops"
+    },
+    {
+      "name": "Kroll's East",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Wisconsin institution serving famous bratwursts, cheese curds, and local comfort food for over 50 years. Casual family-friendly atmosphere.",
+      "mustTry": "Wisconsin Bratwurst Sampler"
+    },
+    {
+      "name": "The Plate",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Farm-to-table casual cafe emphasizing fresh, local ingredients in creative lunch and brunch dishes. Cozy downtown location near the river.",
+      "mustTry": "Wisconsin Cheddar Omelet"
+    },
+    {
+      "name": "Lodge Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse with premium cuts, fine wines, and sophisticated ambiance overlooking the Fox River. Exceptional service and elegant decor.",
+      "mustTry": "USDA Prime Ribeye"
+    },
+    {
+      "name": "The Badger State Brewing Company",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Local craft brewery and restaurant combining artisanal beers with Wisconsin comfort food in a modern taproom setting. Interactive brewing atmosphere.",
+      "mustTry": "Wisconsin Cheddar Burger with House IPA"
+    },
+    {
+      "name": "Francesca's on Main",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Italian-American restaurant featuring homemade pasta, risotto, and classic dishes in a warm, welcoming environment. Family recipes passed down through generations.",
+      "mustTry": "Linguine with Clam Sauce"
+    },
+    {
+      "name": "Sleepwalkers Coffee Co.",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Trendy local coffee shop with specialty espresso drinks, fresh pastries, and welcoming community vibe. Perfect breakfast and lunch spot.",
+      "mustTry": "Green Bay Roast with Local Pastry"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Lambeau Field Tour",
+      "category": "Cultural",
+      "description": "Iconic home of the Green Bay Packers featuring state-of-the-art facilities, Hall of Fame museum, and stadium tours with interactive exhibits. Experience the storied history and passionate fan culture.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Neville Public Museum",
+      "category": "Indoor",
+      "description": "Local history museum showcasing Green Bay's cultural heritage, Native American artifacts, and interactive exhibits. Free admission with donation suggested.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "family",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Fox River Walk & Waterfront Parks",
+      "category": "Outdoor",
+      "description": "Scenic walking trail along the Fox River with parks, benches, and peaceful water views. Perfect for leisurely strolls, jogging, or picnicking.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Northeast Wisconsin Zoo",
+      "category": "Family",
+      "description": "Seasonal zoo featuring diverse animals, beautiful gardens, and family attractions including train rides and picnic areas. Educational and entertaining for all ages.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "NEW Zoo Adventure Park",
+      "category": "Family",
+      "description": "Modern zoo with walk-through exhibits, interactive animal encounters, and scenic landscaping in nearby Ashwaubenon. Ideal for families with young children.",
+      "durationHours": 4,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Bay Beach Amusement Park",
+      "category": "Family",
+      "description": "Historic amusement park with classic rides, games, arcade, and beach access along Green Bay's shoreline. Operating since 1923 with nostalgic charm.",
+      "durationHours": 3,
+      "estimatedCostUSD": 10,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Heritage Hill State Historical Park",
+      "category": "Outdoor",
+      "description": "40-acre park featuring restored historic buildings, nature trails, and educational programs about Wisconsin heritage. Beautiful grounds year-round.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "photography",
+        "history",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Downtown Green Bay Art Gallery District",
+      "category": "Cultural",
+      "description": "Walkable neighborhood featuring local art galleries, studios, and creative shops showcasing regional artists. Free to browse galleries and discover local talent.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "hidden-gems",
+        "standard"
+      ]
+    },
+    {
+      "name": "Seymour Parks & Trails System",
+      "category": "Outdoor",
+      "description": "Extensive network of hiking and biking trails through natural woodlands and scenic areas. Well-maintained paths for various difficulty levels.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Packer Heritage Trail Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided or guided tour of Green Bay exploring Packers history, landmark buildings, and historic neighborhoods. Combines sports culture with local architecture.",
+      "durationHours": 2,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Green Bay Farmers Market",
+      "category": "Family",
+      "description": "Weekly seasonal market featuring local produce, crafts, and artisan goods in downtown location. Vibrant community gathering with live music and samples.",
+      "durationHours": 2,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "foodie",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Graceful Arts Theatre & Live Shows",
+      "category": "Nightlife",
+      "description": "Local theater venue hosting Broadway productions, concerts, comedy shows, and cultural performances. World-class acoustics and intimate setting.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "family",
+        "relaxation"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Lambeau Field Exterior",
+        "description": "Iconic stadium architecture with dramatic facade, perfect for capturing Green Bay's sports culture and interesting geometric lines.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour or overcast days for even lighting",
+        "category": "Architecture"
+      },
+      {
+        "name": "Fox River Downtown Section",
+        "description": "Scenic water views with city reflections, bridges, and waterfront buildings creating beautiful urban landscape compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning or sunset for reflections and soft light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Bay Beach Shoreline",
+        "description": "Sandy beach with water, historic amusement park structures, and open sky providing diverse compositional opportunities.",
+        "difficulty": "Beginner",
+        "bestTime": "Sunset or golden hour for warm tones and dramatic sky",
+        "category": "Landscape"
+      },
+      {
+        "name": "Heritage Hill Historic Buildings",
+        "description": "Well-preserved 19th-century architecture and log cabins set in natural landscape offering authentic historical character.",
+        "difficulty": "Intermediate",
+        "bestTime": "Morning light for clear details and reduced shadows",
+        "category": "Architecture"
+      },
+      {
+        "name": "Downtown Art Gallery District Murals",
+        "description": "Colorful street art, murals, and creative installations in walkable neighborhood setting with vibrant local culture.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for bright colors or overcast for even color saturation",
+        "category": "Street"
+      },
+      {
+        "name": "Green Bay Botanical Garden",
+        "description": "Beautiful seasonal gardens with flower displays, paths, and landscaping creating colorful and textured compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Peak bloom times or golden hour for warm tones",
+        "category": "Landscape"
+      },
+      {
+        "name": "Packer Bridge Reflections",
+        "description": "Historic bridge spanning the Fox River with excellent reflection opportunities and framing of downtown skyline.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning with calm water for mirror-like reflections",
+        "category": "Architecture"
+      },
+      {
+        "name": "Bay Beach Amusement Park at Night",
+        "description": "Illuminated vintage rides and park structures reflected in water creating vibrant nighttime urban landscape.",
+        "difficulty": "Advanced",
+        "bestTime": "Dusk to night with artificial lighting creating dynamic color",
+        "category": "Night"
+      },
+      {
+        "name": "Seymour Nature Trails Woodland",
+        "description": "Dense forest canopy, fallen trees, and natural undergrowth creating dramatic forest interior scenes and textures.",
+        "difficulty": "Intermediate",
+        "bestTime": "Overcast days or early morning for soft diffused light through trees",
+        "category": "Landscape"
+      },
+      {
+        "name": "Titletown Brewing Company Historic Building",
+        "description": "Converted train depot with vintage brick architecture, period details, and charming industrial character.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm brick tones and dimensional shadows",
+        "category": "Architecture"
+      }
+    ],
+    "sunriseSpots": [
+      "Bay Beach Shoreline",
+      "Fox River Downtown Section",
+      "Heritage Hill State Historical Park"
+    ],
+    "sunsetSpots": [
+      "Lambeau Field Exterior",
+      "Bay Beach Amusement Park",
+      "Green Bay Botanical Garden"
+    ],
+    "lensRecommendations": [
+      "18-35mm wide-angle for architecture and landscape captures of Lambeau Field and downtown skyline",
+      "70-200mm telephoto for compressed perspectives of waterfront reflections and distant landscape details",
+      "50mm prime for street photography in gallery district and intimate architectural details",
+      "16-35mm ultra-wide for immersive landscape and nighttime park lighting scenes"
+    ],
+    "goldenHourNotes": "Green Bay's waterfront properties and brick architecture respond beautifully to golden hour lighting, with the Fox River offering particularly stunning reflections during early morning. The historic buildings in downtown and Heritage Hill gain warmth and dimension during sunset, while the bay's open water captures dramatic skies. Plan sunrise shoots at the waterfront and sunset shoots at the botanical garden or amusement park for optimal color and atmospheric conditions.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -6,
+        "rainfallMM": 25
+      },
+      {
+        "month": 2,
+        "avgTempC": -4,
+        "rainfallMM": 23
+      },
+      {
+        "month": 3,
+        "avgTempC": 2,
+        "rainfallMM": 38
+      },
+      {
+        "month": 4,
+        "avgTempC": 10,
+        "rainfallMM": 58
+      },
+      {
+        "month": 5,
+        "avgTempC": 17,
+        "rainfallMM": 89
+      },
+      {
+        "month": 6,
+        "avgTempC": 22,
+        "rainfallMM": 91
+      },
+      {
+        "month": 7,
+        "avgTempC": 24,
+        "rainfallMM": 79
+      },
+      {
+        "month": 8,
+        "avgTempC": 23,
+        "rainfallMM": 76
+      },
+      {
+        "month": 9,
+        "avgTempC": 18,
+        "rainfallMM": 71
+      },
+      {
+        "month": 10,
+        "avgTempC": 11,
+        "rainfallMM": 61
+      },
+      {
+        "month": 11,
+        "avgTempC": 4,
+        "rainfallMM": 48
+      },
+      {
+        "month": 12,
+        "avgTempC": -3,
+        "rainfallMM": 28
+      }
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "seasonality": "Summer (June-August) offers warm pleasant weather perfect for outdoor activities and waterfront exploration, while winter brings cold temperatures and snow ideal for holiday atmosphere. Spring and fall provide milder conditions with beautiful seasonal foliage and fewer crowds.",
+    "summary": "Green Bay experiences four distinct seasons with cold, snowy winters and warm, humid summers typical of the Upper Midwest. The best time to visit is summer through early fall when temperatures are mild, outdoor activities are plentiful, and the city's parks and waterfront are most enjoyable."
+  },
+  "hotels": [
+    {
+      "name": "Red Roof Inn Green Bay",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 65,
+      "category": "Budget",
+      "description": "Basic budget-friendly motel with clean rooms, free Wi-Fi, and convenient downtown location near major attractions and restaurants."
+    },
+    {
+      "name": "Hilton Green Bay",
+      "neighborhood": "Downtown Waterfront",
+      "pricePerNightUSD": 145,
+      "category": "Mid-range",
+      "description": "Modern hotel with river views, fitness center, on-site dining, and excellent location overlooking the Fox River with easy access to attractions."
+    },
+    {
+      "name": "Lambeau Field Premium Hotel",
+      "neighborhood": "Stadium District",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Upscale hotel directly adjacent to Lambeau Field featuring fine dining, spa amenities, luxury suites, and unparalleled Packers memorabilia throughout."
+    }
+  ]
+}

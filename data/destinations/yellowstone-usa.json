@@ -6,7 +6,7 @@
   "airportCodes": [
     "BZN",
     "JAC",
-    "WYS"
+    "IDH"
   ],
   "hiddenGem": false,
   "tripStyles": [
@@ -14,13 +14,13 @@
     "photography",
     "adventure",
     "family",
-    "hidden-gems"
+    "relaxation"
   ],
   "scores": {
-    "cost": 35,
+    "cost": 45,
     "food": 65,
     "photography": 95,
-    "activities": 98,
+    "activities": 90,
     "weather": 70
   },
   "budgetRanges": [
@@ -32,107 +32,107 @@
     {
       "level": "mid",
       "minPerDayUSD": 150,
-      "maxPerDayUSD": 300
+      "maxPerDayUSD": 280
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 300,
-      "maxPerDayUSD": 600
+      "minPerDayUSD": 280,
+      "maxPerDayUSD": 500
     }
   ],
-  "unsplashQuery": "Yellowstone geysers wildlife",
-  "summary": "Yellowstone is America's first national park, home to dramatic geysers, vibrant hot springs, wildlife-filled valleys, and breathtaking canyons. This volcanic wonderland offers unparalleled photography opportunities and world-class outdoor adventures across 3,500 square miles of pristine wilderness. From the iconic Old Faithful geyser to the grand Grand Prismatic Spring, Yellowstone delivers nature at its most spectacular and awe-inspiring.",
+  "unsplashQuery": "Yellowstone geysers hot springs",
+  "summary": "Yellowstone National Park is America's premier geothermal wonderland, featuring the iconic Old Faithful geyser, stunning thermal features, and abundant wildlife across vast wilderness landscapes. Spanning three states, this UNESCO World Heritage site offers unparalleled photography opportunities, hiking trails, and immersive nature experiences that attract nearly four million visitors annually.",
   "restaurants": [
     {
       "name": "Old Faithful Inn Dining Room",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Historic 1903 restaurant with soaring wooden beam ceilings overlooking the iconic geyser. Fine American cuisine with regional bison and trout specialties.",
-      "mustTry": "Grilled bison ribeye with wild mushroom sauce"
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Historic 1904 restaurant with views of Old Faithful, serving classic American comfort food and regional specialties. A legendary dining experience with architectural charm and reliable cuisine.",
+      "mustTry": "Bison meatloaf"
     },
     {
       "name": "Mammoth Hot Springs Hotel Dining Room",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Classic lodge dining with mountain views and hearty American comfort food. Popular for breakfast buffets and evening steaks.",
-      "mustTry": "Pan-seared cutthroat trout"
+      "description": "Fine dining establishment within the park featuring locally-sourced ingredients and elevated comfort food. Offers views of the Mammoth Hot Springs terraces.",
+      "mustTry": "Pan-seared trout"
     },
     {
-      "name": "Canyon Village Dining Room",
+      "name": "Canyon Lodge Eatery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual quick-service restaurant offering burgers, sandwiches, and pizza for families. Perfect for refueling between park activities.",
+      "mustTry": "Park burger with local beef"
+    },
+    {
+      "name": "Lake Yellowstone Hotel Deli",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual deli counter serving sandwiches, salads, and grab-and-go options for day-trippers and hikers. Convenient and affordable.",
+      "mustTry": "Made-to-order sandwich"
+    },
+    {
+      "name": "Roosevelt Lodge Roughrider Bar & Grill",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Family-friendly restaurant with contemporary décor serving traditional American fare with local game options. Great for groups and families.",
-      "mustTry": "Yellowstone elk meatloaf"
+      "description": "Rustic lodge restaurant with a Western frontier atmosphere, serving steaks, ribs, and hearty regional fare. Family-friendly with outdoor barbecue options.",
+      "mustTry": "Grilled bison steak"
     },
     {
-      "name": "Terrace Grill",
+      "name": "Norris Geyser Basin Picnic Area",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Free picnic facilities throughout the park with scenic overlooks where visitors can bring their own food. Enhances outdoor dining experiences near thermal features.",
+      "mustTry": "Pack a picnic lunch"
+    },
+    {
+      "name": "West Yellowstone Eats & Treats",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Quick-service cafeteria-style dining at Mammoth Hot Springs offering grab-and-go options and casual meals. Perfect for park visitors on the move.",
-      "mustTry": "Bison burger with regional toppings"
+      "description": "Local favorite just outside the park offering burgers, local pastries, and casual comfort food in a small-town setting. Great value and authentic charm.",
+      "mustTry": "Homemade pie"
     },
     {
-      "name": "Lake Hotel Deli",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual deli counter with sandwiches, salads, and quick snacks. Ideal for lunch before afternoon wildlife viewing excursions.",
-      "mustTry": "Roast beef sandwich on fresh bread"
-    },
-    {
-      "name": "Grant Village Restaurant",
+      "name": "Gardiner Park Restaurant",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Lakeside restaurant with panoramic views of Yellowstone Lake and seasonal American cuisine. Excellent for sunset dining experiences.",
-      "mustTry": "Lake trout with seasonal vegetables"
+      "description": "Located at the North Entrance, featuring regional American cuisine with emphasis on local game and produce. Provides excellent views of the surrounding valleys.",
+      "mustTry": "Elk chops"
     },
     {
-      "name": "Norris Geyser Basin Snack Shop",
+      "name": "Old West Pizza Company",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Small snack bar serving light fare, beverages, and quick meals perfect for geyser exploring and trail breaks.",
-      "mustTry": "Homemade granola with yogurt"
+      "description": "Casual pizzeria in gateway towns serving wood-fired pizza and local craft beers. Popular with families and outdoor enthusiasts.",
+      "mustTry": "Specialty pizza with local toppings"
     },
     {
-      "name": "Old West Steakhouse (West Yellowstone)",
+      "name": "Snake River Grill",
       "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Authentic steakhouse outside park gates with wood-fired ambiance and premium Montana beef. Local favorite with rustic charm.",
-      "mustTry": "Prime rib with baked potato"
+      "description": "Upscale dining establishment in Jackson, Wyoming featuring contemporary American cuisine with Rocky Mountain influences. Reservations essential.",
+      "mustTry": "Wild game preparations"
     },
     {
-      "name": "Gardiner Grill (Gardiner)",
+      "name": "Yellowstone Village Restaurant",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Family-owned restaurant specializing in Montana game and regional produce. Warm atmosphere with local wildlife photographs.",
-      "mustTry": "Venison steak with huckleberry sauce"
+      "description": "Family-style dining in gateway community offering hearty portions and regional specialties. Welcoming atmosphere for park visitors.",
+      "mustTry": "Trout dinner"
     },
     {
-      "name": "Cooke City Store & Deli",
+      "name": "Beartooth Cafe",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Historic general store with deli counter offering hearty sandwiches and supplies for backcountry adventures. Quaint mountain town vibe.",
-      "mustTry": "Mountain man triple-stack sandwich"
-    },
-    {
-      "name": "Explorer Peak Café (Canyon Village)",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Casual café with espresso, pastries, and breakfast items. Perfect morning stop before exploring the park.",
-      "mustTry": "Fresh blueberry muffin with local honey"
-    },
-    {
-      "name": "Paradise Valley Prime (Livingston)",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale Montana restaurant featuring locally-sourced ingredients and artisanal preparations. Sophisticated dining with mountain views.",
-      "mustTry": "Pan-seared duck breast with cherry gastrique"
+      "description": "Local coffee shop and bakery in Red Lodge, Montana serving excellent coffee and freshly baked pastries. Ideal morning stop before park visits.",
+      "mustTry": "Huckleberry pastries"
     }
   ],
   "activities": [
     {
       "name": "Old Faithful Geyser Viewing",
       "category": "Outdoor",
-      "description": "Watch the iconic geyser erupt approximately every 90 minutes, shooting water 130 feet into the air. The visitor center provides eruption predictions and geological education.",
+      "description": "Witness the eruption of Yellowstone's most famous geyser, shooting water up to 180 feet in the air. Eruptions occur approximately every 90 minutes with predictable timing.",
       "durationHours": 2,
       "estimatedCostUSD": 35,
       "bestFor": [
@@ -144,7 +144,7 @@
     {
       "name": "Grand Prismatic Spring Walk",
       "category": "Outdoor",
-      "description": "Hike around the largest hot spring in the USA with brilliant blues, greens, and yellows created by heat-loving bacteria. The elevated overlook trail provides panoramic views.",
+      "description": "Explore the largest hot spring in the USA with brilliant blue center and rainbow-colored mineral deposits. The elevated boardwalk offers stunning views of this geothermal masterpiece.",
       "durationHours": 1.5,
       "estimatedCostUSD": 35,
       "bestFor": [
@@ -154,35 +154,34 @@
       ]
     },
     {
-      "name": "Grand Canyon of the Yellowstone Tour",
+      "name": "Lamar Valley Wildlife Safari",
       "category": "Outdoor",
-      "description": "Experience the dramatic 1,200-foot canyon with the thundering Lower Falls and Artist Point views. Multiple viewpoints accessible via easy walks or short hikes.",
-      "durationHours": 3,
+      "description": "Experience the American Serengeti with opportunities to spot bison, elk, wolves, and grizzly bears in their natural habitat. Early morning and evening drives offer the best wildlife viewing.",
+      "durationHours": 4,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mammoth Hot Springs Terraces Hike",
+      "category": "Outdoor",
+      "description": "Walk among the otherworldly white travertine terraces formed by mineral-rich hot water cascading down mountainsides. Multiple boardwalk options from easy to moderately challenging.",
+      "durationHours": 2,
       "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
         "photography",
-        "adventure"
+        "family"
       ]
     },
     {
-      "name": "Lamar Valley Wildlife Viewing",
+      "name": "Norris Geyser Basin Exploration",
       "category": "Outdoor",
-      "description": "Explore the 'Serengeti of North America' with chances to see bison, elk, wolves, grizzly bears, and eagles. Best at dawn and dusk with wildlife spotters throughout.",
-      "durationHours": 4,
-      "estimatedCostUSD": 50,
-      "bestFor": [
-        "standard",
-        "photography",
-        "adventure",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Norris Geyser Basin Self-Guided Loop",
-      "category": "Outdoor",
-      "description": "Walk among geysers, hot springs, and fumaroles on well-maintained trails through geothermal features. Steamboat Geyser and Porcelain Spring are highlights.",
-      "durationHours": 2,
+      "description": "Discover the hottest and most geothermally active basin in Yellowstone with colorful hot springs and regular geyser eruptions. Miles of boardwalks provide safe access to geothermal features.",
+      "durationHours": 3,
       "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
@@ -191,23 +190,45 @@
       ]
     },
     {
-      "name": "Backcountry Hiking Expedition",
+      "name": "Grand Canyon of the Yellowstone Viewpoints",
+      "category": "Outdoor",
+      "description": "Marvel at 1,200-foot canyon walls and powerful waterfalls including the stunning Lower Falls plunging 308 feet. Multiple viewpoints and trails offer varying levels of difficulty.",
+      "durationHours": 3,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "standard",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Backcountry Hiking to Remote Geyser",
       "category": "Adventure",
-      "description": "Venture into remote wilderness on multi-day hiking trips with bear safety protocols and wilderness camping permits. Solitude and pristine landscapes reward dedicated hikers.",
-      "durationHours": 24,
+      "description": "Challenge yourself with a rigorous hike to less-visited geothermal areas like Shoshone Geyser Basin or Fountain Paint Pot. Rewards include solitude and pristine geothermal landscapes.",
+      "durationHours": 6,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Fly Fishing on Yellowstone Waters",
+      "category": "Adventure",
+      "description": "Cast for native cutthroat and rainbow trout in the pristine rivers and streams of Yellowstone with experienced guides. Requires fishing license and specific regulations adherence.",
+      "durationHours": 4,
       "estimatedCostUSD": 150,
       "bestFor": [
         "adventure",
-        "photography",
-        "hidden-gems"
+        "relaxation"
       ]
     },
     {
       "name": "Yellowstone Lake Boat Tour",
       "category": "Outdoor",
-      "description": "Cruise the massive alpine lake with ranger-narrated interpretations of geology, wildlife, and history. Scenic mountain vistas and possible wildlife sightings from the water.",
+      "description": "Cruise across North America's largest high-elevation lake with interpretive ranger commentary about geology and wildlife. Seasonal tours depart from Lake Village.",
       "durationHours": 1.5,
-      "estimatedCostUSD": 45,
+      "estimatedCostUSD": 35,
       "bestFor": [
         "standard",
         "family",
@@ -215,23 +236,23 @@
       ]
     },
     {
-      "name": "Mammoth Hot Springs Terraces Walk",
+      "name": "Artist Point Sunset Experience",
       "category": "Outdoor",
-      "description": "Explore white mineral travertine terraces sculpted by hot spring activity. Both upper and lower terrace loops offer stunning geological formations and easy accessibility.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 35,
+      "description": "Visit the iconic overlook of the Grand Canyon of the Yellowstone during golden hour for spectacular photography and painting opportunities. Arrive early to secure viewing spots.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "standard",
-        "family",
-        "photography"
+        "photography",
+        "relaxation",
+        "standard"
       ]
     },
     {
-      "name": "Lower Geyser Basin Mud Volcano Trail",
+      "name": "Mud Volcano and Sulphur Caldron Loop Trail",
       "category": "Outdoor",
-      "description": "Hike past bubbling mud pots, sulfur vents, and colorful hot springs creating an otherworldly landscape. Interpretive signs explain geothermal activity and microorganisms.",
+      "description": "Walk among bubbling mud pots, steaming vents, and colorful mineral deposits in this accessible thermal area. Easy boardwalk provides close encounters with geothermal activity.",
       "durationHours": 1,
-      "estimatedCostUSD": 35,
+      "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
         "family",
@@ -239,37 +260,14 @@
       ]
     },
     {
-      "name": "Guided Fishing Excursion",
-      "category": "Outdoor",
-      "description": "Fish for cutthroat and lake trout with ranger-led trips or private guides in pristine mountain waters. Fly-fishing instruction available for beginners.",
-      "durationHours": 4,
-      "estimatedCostUSD": 120,
+      "name": "Ranger-Led Educational Programs",
+      "category": "Cultural",
+      "description": "Join free ranger-guided walks, campfire talks, and interpretive programs explaining Yellowstone's geology, ecology, and history. Programs vary seasonally and by location.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
       "bestFor": [
-        "adventure",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Evening Wildlife Viewing & Photo Shoot",
-      "category": "Outdoor",
-      "description": "Professional-led evening excursions to photograph elk, bison, and birds during golden hour. Expert guides help position photographers for optimal compositions.",
-      "durationHours": 3,
-      "estimatedCostUSD": 85,
-      "bestFor": [
-        "photography",
-        "adventure"
-      ]
-    },
-    {
-      "name": "Winter Snowcoach Adventure",
-      "category": "Outdoor",
-      "description": "Experience Yellowstone's winter landscape via heated snowcoach touring geysers and wildlife viewing in snow-covered terrain. December-March seasonal adventure.",
-      "durationHours": 4,
-      "estimatedCostUSD": 140,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
+        "standard",
+        "family"
       ]
     }
   ],
@@ -277,92 +275,92 @@
     "spots": [
       {
         "name": "Old Faithful at Sunrise",
-        "description": "Capture the geyser eruption backlit by golden sunrise light with steam clouds creating dramatic silhouettes against pastel skies.",
-        "difficulty": "Beginner",
-        "bestTime": "5:30-7:00 AM during summer eruptions",
+        "description": "Capture the geyser erupting against a golden sky with morning mist creating dramatic atmospheric effects.",
+        "difficulty": "Intermediate",
+        "bestTime": "6:00 AM - 7:30 AM (seasonal)",
         "category": "Landscape"
       },
       {
         "name": "Grand Prismatic Spring Overlook",
-        "description": "Photograph the largest hot spring's vivid blue center and rainbow-colored edges from the elevated boardwalk trail with wide-angle vistas.",
+        "description": "Photograph the stunning blue center and rainbow-hued mineral deposits from the elevated boardwalk viewpoint.",
         "difficulty": "Beginner",
-        "bestTime": "10:00 AM-2:00 PM for color saturation",
-        "category": "Landscape"
-      },
-      {
-        "name": "Grand Canyon of the Yellowstone - Artist Point",
-        "description": "Iconic viewpoint of the Lower Falls framed by canyon walls, best captured with dramatic lighting during golden hour or stormy skies.",
-        "difficulty": "Beginner",
-        "bestTime": "6:00-8:00 PM at sunset",
+        "bestTime": "10:00 AM - 2:00 PM for color saturation",
         "category": "Landscape"
       },
       {
         "name": "Lamar Valley Wildlife Corridor",
-        "description": "Photograph elk herds, bison, wolves, and eagles in open grassland with mountain backdrop. Best during dawn light for animal silhouettes.",
-        "difficulty": "Intermediate",
-        "bestTime": "5:00-7:00 AM or 6:00-8:00 PM",
-        "category": "Wildlife"
-      },
-      {
-        "name": "Mammoth Hot Springs Upper Terraces",
-        "description": "Capture white travertine formations with steaming pools and thermal features creating layers of interesting textures and color.",
-        "difficulty": "Beginner",
-        "bestTime": "9:00-11:00 AM for soft directional light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Porcelain Spring - Norris Basin",
-        "description": "Photograph delicate blue hot spring surrounded by white mineral deposits with intricate thermal runoff patterns creating abstract compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "10:00 AM-12:00 PM for clear detail",
-        "category": "Landscape"
-      },
-      {
-        "name": "Tower Falls with Rainbow Light",
-        "description": "Capture the 132-foot waterfall through mist-filled air with possible rainbow effects when sun angle aligns with water spray.",
-        "difficulty": "Intermediate",
-        "bestTime": "11:00 AM-1:00 PM midday sun angle",
-        "category": "Landscape"
-      },
-      {
-        "name": "Midway Geyser Basin Thermal Features",
-        "description": "Photograph colorful geothermal pools with steam and mineral-stained edges creating otherworldly compositions with natural leading lines.",
-        "difficulty": "Beginner",
-        "bestTime": "10:00 AM-3:00 PM for color and steam contrast",
-        "category": "Landscape"
-      },
-      {
-        "name": "Pelican Valley Grizzly Bear Territory",
-        "description": "Advanced backcountry location to photograph grizzly bears in natural habitat with valley landscape backdrop. Requires bear safety protocols.",
+        "description": "Capture bison, elk, wolves, and bears in their natural habitat against dramatic valley backdrops.",
         "difficulty": "Advanced",
-        "bestTime": "7:00-9:00 AM early morning feed times",
+        "bestTime": "5:30 AM - 8:00 AM and 6:00 PM - 8:30 PM",
         "category": "Wildlife"
       },
       {
-        "name": "Castle Geyser at Dawn",
-        "description": "Photograph the distinctive cone geyser with eruption steam backlit by sunrise, creating ethereal light and dramatic silhouettes.",
+        "name": "Mammoth Hot Springs Terraces",
+        "description": "Document the otherworldly white travertine formations with mineral-colored pools and geothermal features.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for shadows and detail",
+        "category": "Landscape"
+      },
+      {
+        "name": "Grand Canyon of the Yellowstone - Artist Point",
+        "description": "Capture iconic views of the canyon's 1,200-foot walls, the Lower Falls, and dramatic geological formations.",
+        "difficulty": "Beginner",
+        "bestTime": "Late afternoon for canyon illumination",
+        "category": "Landscape"
+      },
+      {
+        "name": "Norris Geyser Basin Steam Vents",
+        "description": "Photograph ethereal steam rising from colorful hot springs and active geysers throughout the basin.",
         "difficulty": "Intermediate",
-        "bestTime": "5:30-6:30 AM eruption windows",
+        "bestTime": "Early morning when steam is most dramatic",
+        "category": "Landscape"
+      },
+      {
+        "name": "Firehole Lake Drive Thermal Features",
+        "description": "Capture diverse geothermal phenomena including hot springs, mud pots, and mineral deposits in close proximity.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for clarity",
+        "category": "Landscape"
+      },
+      {
+        "name": "Tower Fall Waterfall",
+        "description": "Photograph the 132-foot cascade surrounded by distinctive columnar basalt formations in a forested setting.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday for even lighting",
+        "category": "Landscape"
+      },
+      {
+        "name": "Hayden Valley Bison Herd",
+        "description": "Document large herds of American bison grazing against mountain backdrops and golden grasslands.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning or late afternoon",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Morning Glory Pool Reflection",
+        "description": "Capture the vibrant blue hot spring's perfect reflections in calm morning conditions with surrounding forest.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning before wind",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Lamar Valley (Specimen Ridge overlook)",
-      "Grand Prismatic Spring overlook",
-      "Old Faithful Visitor Center meadow"
+      "Lamar Valley Wildlife Corridor",
+      "Old Faithful Upper Geyser Basin",
+      "Mammoth Hot Springs Overlook"
     ],
     "sunsetSpots": [
-      "Artist Point - Grand Canyon of Yellowstone",
-      "Mammoth Hot Springs terraces",
-      "Lake Butte Overlook on Yellowstone Lake"
+      "Artist Point Grand Canyon View",
+      "Fountain Paint Pot Overlook",
+      "Lake Yellowstone East Shore"
     ],
     "lensRecommendations": [
-      "16-35mm wide-angle for expansive landscapes and thermal features",
-      "70-200mm telephoto for wildlife and distant mountain subjects",
-      "100-400mm zoom for distant wildlife and birds",
-      "50mm prime for environmental portraits and thermal detail shots"
+      "16-35mm wide-angle for expansive geothermal landscape vistas and canyon panoramas",
+      "70-200mm telephoto for wildlife isolation and distant mountain detail shots",
+      "50mm prime for intimate thermal feature photography and human-scale compositions",
+      "14mm ultra-wide for immersive sunrise/sunset and geothermal steam scenarios"
     ],
-    "goldenHourNotes": "Yellowstone's high elevation (7,000-9,000 feet) creates extended golden hours with dramatic light angles. Summer provides 14+ hours of daylight enabling maximum shooting flexibility. Golden hour light transforms geothermal steam into luminescent clouds and creates spectacular backlighting opportunities for wildlife and thermal features. Winter offers intense low-angle sun and snow-enhanced reflections creating surreal compositions.",
+    "goldenHourNotes": "Golden hour lighting dramatically transforms Yellowstone's geothermal features, illuminating steam and mineral deposits with warm hues. Early mornings offer the most dramatic steam effects and clearest atmospheric conditions, while late afternoon provides warm canyon wall illumination. Sunset at Artist Point consistently delivers exceptional color gradations across the canyon landscape.",
     "overallDifficulty": "Intermediate"
   },
   "weather": {
@@ -385,47 +383,47 @@
       {
         "month": 4,
         "avgTempC": 5,
-        "rainfallMM": 45
+        "rainfallMM": 42
       },
       {
         "month": 5,
         "avgTempC": 12,
-        "rainfallMM": 55
+        "rainfallMM": 58
       },
       {
         "month": 6,
         "avgTempC": 18,
-        "rainfallMM": 60
+        "rainfallMM": 72
       },
       {
         "month": 7,
-        "avgTempC": 22,
-        "rainfallMM": 50
+        "avgTempC": 24,
+        "rainfallMM": 42
       },
       {
         "month": 8,
-        "avgTempC": 21,
-        "rainfallMM": 48
-      },
-      {
-        "month": 9,
-        "avgTempC": 16,
+        "avgTempC": 23,
         "rainfallMM": 40
       },
       {
+        "month": 9,
+        "avgTempC": 17,
+        "rainfallMM": 38
+      },
+      {
         "month": 10,
-        "avgTempC": 8,
+        "avgTempC": 9,
         "rainfallMM": 35
       },
       {
         "month": 11,
         "avgTempC": 1,
-        "rainfallMM": 30
+        "rainfallMM": 32
       },
       {
         "month": 12,
         "avgTempC": -5,
-        "rainfallMM": 27
+        "rainfallMM": 28
       }
     ],
     "bestMonths": [
@@ -434,31 +432,30 @@
       8,
       9
     ],
-    "seasonality": "Summer (June-August) offers warm temperatures, full park access, and abundant wildlife viewing. Winter (December-March) transforms Yellowstone into a pristine white landscape with limited road access but stunning snowcoach adventures and solitude. Spring and fall provide moderate temperatures, fewer crowds, and optimal photography conditions.",
-    "summary": "Yellowstone experiences dramatic seasonal variation with cold, snowy winters and mild summers. Summer temperatures range 15-25°C with occasional afternoon thunderstorms, while winters drop to -15°C with significant snowfall making some areas inaccessible. The shoulder seasons of spring and fall provide ideal conditions with moderate temperatures and lower visitor numbers."
+    "seasonality": "Summer (June-September) offers warm weather, full road access, and peak wildlife activity, though crowds are substantial. Winter (December-March) provides pristine snow photography and thermal features, but extreme cold and limited road access challenge visitors.",
+    "summary": "Yellowstone experiences significant seasonal variation due to its high elevation (7,000-11,000 feet), with cold winters featuring heavy snow and mild summers with comfortable temperatures. Spring and fall serve as transition periods with unpredictable weather patterns and fewer visitors."
   },
   "hotels": [
     {
       "name": "Old Faithful Inn",
-      "neighborhood": "Old Faithful Geyser Area",
-      "pricePerNightUSD": 85,
+      "neighborhood": "Old Faithful Village",
+      "pricePerNightUSD": 145,
       "category": "Mid-range",
-      "description": "Historic 1903 lodge with iconic architecture, wood-beamed ceilings, and direct views of Old Faithful geyser. Classic Yellowstone experience with comfortable modernized rooms."
-    },
-    {
-      "name": "Canyon Village Lodge",
-      "neighborhood": "Canyon Village",
-      "pricePerNightUSD": 120,
-      "category": "Mid-range",
-      "description": "Contemporary lodge near Grand Canyon of the Yellowstone with modern amenities, multiplex restaurants, and convenient access to canyon trails and viewpoints."
+      "description": "Historic 1904 grand lodge featuring iconic log architecture, authentic period charm, and convenient central park location with on-site dining and visitor facilities."
     },
     {
       "name": "Mammoth Hot Springs Hotel",
       "neighborhood": "Mammoth Hot Springs",
-      "pricePerNightUSD": 250,
+      "pricePerNightUSD": 135,
+      "category": "Budget",
+      "description": "Comfortable lodge-style accommodations near the park's North Entrance with access to terraces, dining, and ranger programs in a quieter setting."
+    },
+    {
+      "name": "Lake Yellowstone Hotel & Cabins",
+      "neighborhood": "Lake Village",
+      "pricePerNightUSD": 185,
       "category": "Luxury",
-      "description": "Premium historic hotel featuring ornate architecture, fine dining, spa services, and direct access to thermal features. Offers thermal pool and upscale accommodations."
+      "description": "Premier waterfront resort featuring historic hotel rooms and modern cabins with fine dining, lake views, boat tours, and upscale amenities in a serene location."
     }
-  ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1559094590-4b52cd70b6e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxZZWxsb3dzdG9uZSUyMGdleXNlcnMlMjB3aWxkbGlmZXxlbnwxfDB8fHwxNzgxMzAzMzI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  ]
 }

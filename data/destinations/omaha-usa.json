@@ -1,0 +1,456 @@
+{
+  "id": "omaha-usa",
+  "city": "Omaha",
+  "country": "United States",
+  "region": "North America",
+  "airportCodes": [
+    "OMA",
+    "MCI",
+    "STL"
+  ],
+  "hiddenGem": false,
+  "tripStyles": [
+    "standard",
+    "foodie",
+    "photography",
+    "family",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 78,
+    "photography": 70,
+    "activities": 75,
+    "weather": 65
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Omaha skyline river",
+  "summary": "Omaha is a vibrant Midwestern city known for its excellent food scene, rich history, and stunning views of the Missouri River. Home to world-class attractions like the Henry Doorly Zoo and the Creighton Prep campus, Omaha offers visitors an authentic American heartland experience with surprising cultural depth and culinary innovation.",
+  "restaurants": [
+    {
+      "name": "The Drover",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Upscale steakhouse specializing in premium cuts and seasonal preparations in an elegant setting overlooking the Old Market.",
+      "mustTry": "Wagyu beef ribeye with herb butter"
+    },
+    {
+      "name": "M's Pub",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Iconic Omaha institution famous for its burgers and Reuben sandwiches, operating since 1976 with a dive bar atmosphere.",
+      "mustTry": "Classic M's burger with fries"
+    },
+    {
+      "name": "Block 16",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Modern American restaurant housed in a historic Old Market building, featuring locally sourced ingredients and creative seasonal menus.",
+      "mustTry": "Pan-seared fish with market vegetables"
+    },
+    {
+      "name": "Cascio's Steakhouse",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Family-owned Italian steakhouse dating back to 1946, renowned for aged steaks and classic preparations.",
+      "mustTry": "Filet mignon with garlic mashed potatoes"
+    },
+    {
+      "name": "The Peacock Alley",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant in the historic Magnolia Hotel offering farm-to-table cuisine with regional flair.",
+      "mustTry": "Bison burger with roasted root vegetables"
+    },
+    {
+      "name": "Kitchen Table",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Intimate fine dining restaurant focused on seasonal ingredients and creative plating, located in the Old Market district.",
+      "mustTry": "Chef's tasting menu with wine pairings"
+    },
+    {
+      "name": "Outer Pearl",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Casual gastropub in the Old Market serving elevated comfort food with craft beverages and a welcoming atmosphere.",
+      "mustTry": "Braised short ribs with roasted root vegetables"
+    },
+    {
+      "name": "Tadashi",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary Japanese restaurant offering sushi, ramen, and creative Asian fusion dishes in a modern setting.",
+      "mustTry": "Specialty omakase or spicy miso ramen"
+    },
+    {
+      "name": "Heartland Eatery",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local casual dining spot serving breakfast all day with comfort food staples and friendly service.",
+      "mustTry": "Belgian waffles with fresh fruit"
+    },
+    {
+      "name": "Infusion Restaurants",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Award-winning restaurant group offering innovative cuisine with global influences and an extensive wine selection.",
+      "mustTry": "Pan-roasted duck breast with seasonal preparations"
+    },
+    {
+      "name": "Dario's Brasserie",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Classic French-Italian brasserie in the Old Market with Art Deco ambiance, offering traditional preparations and excellent service.",
+      "mustTry": "Veal saltimbocca with pasta"
+    },
+    {
+      "name": "The Bellevue",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual neighborhood spot offering authentic Midwestern fare with hearty portions and classic diner charm.",
+      "mustTry": "Meatloaf with mashed potatoes"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Henry Doorly Zoo & Aquarium",
+      "category": "Family",
+      "description": "One of the world's best zoos featuring over 17,000 animals, an indoor rainforest dome, and a massive aquarium with shark lagoon.",
+      "durationHours": 6,
+      "estimatedCostUSD": 25,
+      "bestFor": [
+        "standard",
+        "family"
+      ]
+    },
+    {
+      "name": "Old Market Walking Tour",
+      "category": "Cultural",
+      "description": "Explore historic cobblestone streets lined with galleries, shops, and restaurants in Omaha's most charming neighborhood.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Durham Museum",
+      "category": "Cultural",
+      "description": "Housed in a restored 1931 railway station, this museum showcases Omaha's history with exhibits on Native Americans, frontier life, and local heritage.",
+      "durationHours": 3,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Heartland of America Park",
+      "category": "Outdoor",
+      "description": "Beautiful urban park featuring a scenic lake, fountains, walking paths, and panoramic views of the Missouri River.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Lauritzen Gardens",
+      "category": "Outdoor",
+      "description": "Stunning 160-acre botanical garden with themed gardens, walking trails, and seasonal flower displays along the Missouri River.",
+      "durationHours": 3,
+      "estimatedCostUSD": 18,
+      "bestFor": [
+        "relaxation",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Joslyn Art Museum",
+      "category": "Cultural",
+      "description": "Free-admission art museum housed in a stunning Art Deco building with extensive collections spanning Egyptian antiquities to contemporary works.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "cultural"
+      ]
+    },
+    {
+      "name": "Creighton University Campus Tour",
+      "category": "Cultural",
+      "description": "Historic Jesuit university campus featuring beautiful Gothic Revival architecture and significant educational landmarks.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography"
+      ]
+    },
+    {
+      "name": "Missouri River Activities",
+      "category": "Adventure",
+      "description": "Kayaking, paddleboarding, and riverboat cruises offering scenic views and outdoor recreation on the iconic river.",
+      "durationHours": 3,
+      "estimatedCostUSD": 45,
+      "bestFor": [
+        "adventure",
+        "standard"
+      ]
+    },
+    {
+      "name": "Papillion-La Vista South High School Aquatics Center",
+      "category": "Family",
+      "description": "State-of-the-art aquatics facility with slides, pools, and family-friendly water attractions.",
+      "durationHours": 3,
+      "estimatedCostUSD": 12,
+      "bestFor": [
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Omaha Nightlife & Entertainment",
+      "category": "Nightlife",
+      "description": "Vibrant bar scene with live music venues, comedy clubs, and craft cocktail bars concentrated in the Old Market and midtown.",
+      "durationHours": 4,
+      "estimatedCostUSD": 40,
+      "bestFor": [
+        "standard",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Gene Leahy Mall",
+      "category": "Outdoor",
+      "description": "Scenic walking and biking path along the Missouri River connecting major parks and attractions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "relaxation",
+        "outdoor"
+      ]
+    },
+    {
+      "name": "College World Series Baseball",
+      "category": "Family",
+      "description": "NCAA Division I baseball tournament held annually at TD Ameritrade Park, a world-class baseball stadium.",
+      "durationHours": 4,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "family",
+        "standard"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Bob Kerrey Pedestrian Bridge",
+        "description": "Iconic half-mile suspension bridge spanning the Missouri River with stunning city skyline and water reflections.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour (sunrise or sunset)",
+        "category": "Architecture"
+      },
+      {
+        "name": "Old Market Cobblestone Streets",
+        "description": "Historic streets with exposed brick buildings, gas lamps, and charming storefronts ideal for street and architectural photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Morning light for warm tones",
+        "category": "Street"
+      },
+      {
+        "name": "Lauritzen Gardens",
+        "description": "Seasonal flower gardens with manicured landscapes and natural scenic backdrops along the Missouri River.",
+        "difficulty": "Beginner",
+        "bestTime": "Peak bloom seasons (spring and summer)",
+        "category": "Landscape"
+      },
+      {
+        "name": "Heartland of America Park Lake",
+        "description": "Urban lake with fountain displays and skyline reflections creating mirror-like composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning or sunset for still water and warm light",
+        "category": "Landscape"
+      },
+      {
+        "name": "Joslyn Art Museum Exterior",
+        "description": "Stunning Art Deco architecture with limestone facade and dramatic architectural details.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for contrast or overcast for even tones",
+        "category": "Architecture"
+      },
+      {
+        "name": "Henry Doorly Zoo Tropical Dome",
+        "description": "Indoor rainforest environment with exotic animals and lush vegetation creating vibrant color compositions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Midday to avoid harsh shadows in controlled lighting",
+        "category": "Wildlife"
+      },
+      {
+        "name": "Creighton University Campus",
+        "description": "Gothic Revival architecture with manicured grounds and historic building facades.",
+        "difficulty": "Beginner",
+        "bestTime": "Overcast days for even lighting on building details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Missouri River Overlooks",
+        "description": "Elevated viewing areas offering panoramic landscape views of the river valley and distant bluffs.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones across the water",
+        "category": "Landscape"
+      },
+      {
+        "name": "Dundee Theater District",
+        "description": "Eclectic neighborhood with vintage signage, character-filled storefronts, and urban street details.",
+        "difficulty": "Intermediate",
+        "bestTime": "Evening for neon sign photography and street scenes",
+        "category": "Street"
+      },
+      {
+        "name": "Turner Park Overlook",
+        "description": "Elevated vantage point featuring sweeping views of downtown Omaha and the Missouri River below.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunset for colored sky reflections and cityscape silhouettes",
+        "category": "Landscape"
+      }
+    ],
+    "sunriseSpots": [
+      "Bob Kerrey Pedestrian Bridge",
+      "Turner Park Overlook",
+      "Missouri River Overlooks"
+    ],
+    "sunsetSpots": [
+      "Heartland of America Park Lake",
+      "Lauritzen Gardens",
+      "Bob Kerrey Pedestrian Bridge"
+    ],
+    "lensRecommendations": [
+      "16-35mm wide-angle for architectural sweeps and landscape vistas of the Missouri River",
+      "50mm prime for street photography in the Old Market and neighborhood character shots",
+      "70-200mm telephoto for compressing distant cityscape elements and wildlife at the zoo",
+      "Macro lens for garden details and close-up botanical photography at Lauritzen Gardens"
+    ],
+    "goldenHourNotes": "Omaha's best light occurs during golden hour when warm tones illuminate the brick buildings of the Old Market and reflect beautifully off the Missouri River. The Bob Kerrey Bridge is particularly stunning at sunrise with the city skyline emerging from shadow. Summer evenings offer extended golden hour opportunities due to later sunsets around 9 PM.",
+    "overallDifficulty": "Beginner"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": -4,
+        "rainfallMM": 13
+      },
+      {
+        "month": 2,
+        "avgTempC": -1,
+        "rainfallMM": 18
+      },
+      {
+        "month": 3,
+        "avgTempC": 6,
+        "rainfallMM": 51
+      },
+      {
+        "month": 4,
+        "avgTempC": 14,
+        "rainfallMM": 71
+      },
+      {
+        "month": 5,
+        "avgTempC": 21,
+        "rainfallMM": 127
+      },
+      {
+        "month": 6,
+        "avgTempC": 26,
+        "rainfallMM": 114
+      },
+      {
+        "month": 7,
+        "avgTempC": 28,
+        "rainfallMM": 102
+      },
+      {
+        "month": 8,
+        "avgTempC": 27,
+        "rainfallMM": 102
+      },
+      {
+        "month": 9,
+        "avgTempC": 22,
+        "rainfallMM": 84
+      },
+      {
+        "month": 10,
+        "avgTempC": 15,
+        "rainfallMM": 66
+      },
+      {
+        "month": 11,
+        "avgTempC": 7,
+        "rainfallMM": 33
+      },
+      {
+        "month": 12,
+        "avgTempC": 0,
+        "rainfallMM": 18
+      }
+    ],
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "seasonality": "Omaha experiences four distinct seasons with hot, humid summers and cold winters. Spring and early fall offer the most pleasant weather for outdoor activities and sightseeing.",
+    "summary": "Omaha's climate is characterized by continental weather patterns with warm summers averaging 26-28°C and cold winters dropping below freezing. The city experiences moderate rainfall year-round with peaks in spring and early summer."
+  },
+  "hotels": [
+    {
+      "name": "Aloft Omaha",
+      "neighborhood": "Old Market",
+      "pricePerNightUSD": 85,
+      "category": "Budget",
+      "description": "Contemporary budget-friendly hotel with loft-style rooms, modern amenities, and convenient Old Market location."
+    },
+    {
+      "name": "The Magnolia Hotel",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 165,
+      "category": "Mid-range",
+      "description": "Historic boutique hotel housed in a beautifully restored 1923 building featuring elegant rooms and an acclaimed restaurant."
+    },
+    {
+      "name": "The Omaha Marriott",
+      "neighborhood": "Downtown",
+      "pricePerNightUSD": 280,
+      "category": "Luxury",
+      "description": "Upscale luxury hotel with rooftop pool, fine dining, concierge services, and premium views of the Missouri River."
+    }
+  ],
+  "heroImageUrl": "https://images.unsplash.com/photo-1739940197165-6b94282365ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxPbWFoYSUyMHNreWxpbmUlMjByaXZlcnxlbnwxfDB8fHwxNzgxNjI4MTMzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+}

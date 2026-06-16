@@ -1,0 +1,466 @@
+{
+  "id": "paso-robles-usa",
+  "city": "Paso Robles",
+  "country": "USA",
+  "region": "North America",
+  "airportCodes": [
+    "SBP",
+    "MRY",
+    "LAX"
+  ],
+  "hiddenGem": true,
+  "tripStyles": [
+    "standard",
+    "surprise",
+    "hidden-gems",
+    "photography",
+    "foodie",
+    "adventure",
+    "relaxation"
+  ],
+  "scores": {
+    "cost": 72,
+    "food": 85,
+    "photography": 82,
+    "activities": 78,
+    "weather": 88
+  },
+  "budgetRanges": [
+    {
+      "level": "budget",
+      "minPerDayUSD": 85,
+      "maxPerDayUSD": 140
+    },
+    {
+      "level": "mid",
+      "minPerDayUSD": 140,
+      "maxPerDayUSD": 250
+    },
+    {
+      "level": "luxury",
+      "minPerDayUSD": 250,
+      "maxPerDayUSD": 450
+    }
+  ],
+  "unsplashQuery": "Paso Robles wine country",
+  "summary": "Paso Robles is a vibrant Central Coast wine destination known for world-class Zinfandels, Spanish architecture, and rolling vineyard landscapes. This charming downtown offers excellent restaurants, galleries, and a welcoming atmosphere perfect for wine lovers and adventure seekers alike.",
+  "restaurants": [
+    {
+      "name": "McPhee's Grill",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Contemporary California cuisine in a historic setting with an extensive wine list featuring local Paso Robles vintages. Known for seasonal menus and impeccable service.",
+      "mustTry": "Grass-fed beef with local wine reduction"
+    },
+    {
+      "name": "Thomas Hill Organics",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Farm-to-table fine dining showcasing locally-sourced ingredients and organic produce. Offers a sophisticated tasting menu experience paired with premium wines.",
+      "mustTry": "Chef's seasonal tasting menu"
+    },
+    {
+      "name": "Artisan",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Contemporary American restaurant with wood-fired pizzas and craft cocktails in a relaxed downtown setting. Popular for lunch and dinner with seasonal offerings.",
+      "mustTry": "Wood-fired pizza with local cheeses"
+    },
+    {
+      "name": "L'Avant Garde",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "French-inspired cuisine in an intimate atmosphere with carefully curated wine pairings. Offers a seasonal tasting menu with classic French techniques.",
+      "mustTry": "Pan-seared duck with cherry gastrique"
+    },
+    {
+      "name": "Panolivo",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Mediterranean wine bar and restaurant featuring tapas, charcuterie boards, and small plates perfect for sharing. Great for casual dining and wine tasting.",
+      "mustTry": "Spanish jamón with marcona almonds"
+    },
+    {
+      "name": "Café Flores",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Authentic Mexican breakfast and lunch spot known for fresh ingredients and traditional recipes. A local favorite for huevos rancheros and fresh salsas.",
+      "mustTry": "Huevos rancheros with house-made salsa"
+    },
+    {
+      "name": "Paso Robles Brewing Company",
+      "category": "Local Specialty",
+      "priceRange": "$$",
+      "description": "Local craft brewery with wood-fired pizza and casual atmosphere. Great for families and groups with both indoor and outdoor seating.",
+      "mustTry": "House IPA with wood-fired pizza"
+    },
+    {
+      "name": "Debbie's Restaurant",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Classic American diner offering comfort food classics, hearty portions, and friendly service. Popular for breakfast and lunch with affordable prices.",
+      "mustTry": "Breakfast skillet with crispy potatoes"
+    },
+    {
+      "name": "The Olive Pit",
+      "category": "Local Specialty",
+      "priceRange": "$",
+      "description": "Local delicatessen famous for fresh olive tapenade, sandwiches, and local products. Perfect for quick lunch or picnic supplies for wine country tours.",
+      "mustTry": "Signature olive tapenade sandwich"
+    },
+    {
+      "name": "Silent Auction Wines Restaurant",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Wine bar and restaurant featuring local wines, craft cocktails, and California cuisine. Known for knowledgeable staff and rotating wine selections.",
+      "mustTry": "Local Zinfandel flight with charcuterie"
+    },
+    {
+      "name": "Orchid Hill Café",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Casual café offering sandwiches, salads, and coffee drinks in a charming setting. Popular breakfast destination with fresh pastries and organic options.",
+      "mustTry": "Avocado toast with farm eggs"
+    },
+    {
+      "name": "Norman's at Tall Oak Cellars",
+      "category": "Fine Dining",
+      "priceRange": "$$$",
+      "description": "Upscale dining experience within a winery setting featuring seasonal menus and wine pairings. Known for elegant presentations and exceptional service.",
+      "mustTry": "Pan-roasted halibut with seasonal vegetables"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Wine Tasting Tour",
+      "category": "Adventure",
+      "description": "Guided tours of Paso Robles wine country visiting multiple acclaimed wineries for tastings. Experience the region's renowned Zinfandels and Cabernet Sauvignons.",
+      "durationHours": 4,
+      "estimatedCostUSD": 75,
+      "bestFor": [
+        "standard",
+        "foodie",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Nacimiento-Fergusson Road Scenic Drive",
+      "category": "Outdoor",
+      "description": "Spectacular 30-mile mountain road offering panoramic views of the Santa Lucia Mountains and wine country. Perfect for photography and adventure seekers.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "adventure",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Lake Nacimiento Recreation",
+      "category": "Outdoor",
+      "description": "Large reservoir offering kayaking, fishing, swimming, and picnicking with beautiful mountain backdrop. Popular for water sports and relaxation.",
+      "durationHours": 4,
+      "estimatedCostUSD": 15,
+      "bestFor": [
+        "adventure",
+        "family",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Downtown Paso Robles Walking Tour",
+      "category": "Cultural",
+      "description": "Self-guided exploration of historic downtown featuring Spanish colonial architecture, galleries, boutiques, and restaurants. Free walking tour available with local guide.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Paso Robles Pioneer Museum",
+      "category": "Cultural",
+      "description": "Local history museum showcasing artifacts, exhibits, and stories of the region's cattle ranching and agricultural heritage. Offers insight into area's past.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "cultural",
+        "family",
+        "standard"
+      ]
+    },
+    {
+      "name": "Hiking at Pine Mountain Park",
+      "category": "Outdoor",
+      "description": "Network of trails offering varying difficulty levels through oak woodlands with panoramic valley views. Popular for fitness and nature photography.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon Ride",
+      "category": "Adventure",
+      "description": "Early morning balloon rides over wine country valleys and vineyards with champagne breakfast. Offers unique aerial photography opportunities.",
+      "durationHours": 3,
+      "estimatedCostUSD": 200,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Paso Robles Summer Concert Series",
+      "category": "Nightlife",
+      "description": "Evening outdoor concerts in downtown park featuring local and regional musicians. Free admission with bring-your-own picnic or purchase local food.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "standard",
+        "relaxation",
+        "surprise"
+      ]
+    },
+    {
+      "name": "Eberle Winery Horseback Riding",
+      "category": "Adventure",
+      "description": "Horseback tours through vineyards and surrounding ranchland with sunset views. Includes wine tasting and gourmet snacks.",
+      "durationHours": 2.5,
+      "estimatedCostUSD": 120,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Artisan Alley Art Walk",
+      "category": "Cultural",
+      "description": "Monthly self-guided tour of galleries, studios, and art installations throughout downtown Paso Robles. Features local artists and rotating exhibitions.",
+      "durationHours": 2,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "standard"
+      ]
+    },
+    {
+      "name": "Mission San Miguel Arcángel Tour",
+      "category": "Cultural",
+      "description": "Historic Spanish mission established in 1797 with beautifully preserved architecture and grounds. Offers guided tours and museum exhibits.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 5,
+      "bestFor": [
+        "cultural",
+        "photography",
+        "family"
+      ]
+    },
+    {
+      "name": "Willow Creek Olive Ranch Experience",
+      "category": "Outdoor",
+      "description": "Olive oil tasting and production tours showcasing sustainable farming practices. Includes samples of fresh oils and locally-made products.",
+      "durationHours": 2,
+      "estimatedCostUSD": 35,
+      "bestFor": [
+        "foodie",
+        "standard",
+        "family"
+      ]
+    }
+  ],
+  "photography": {
+    "spots": [
+      {
+        "name": "Nacimiento Dam",
+        "description": "Massive concrete arch dam creating stunning reflections with surrounding mountains and dramatic cloud formations.",
+        "difficulty": "Beginner",
+        "bestTime": "Early morning for mist and golden light, or late afternoon for shadow drama",
+        "category": "Landscape"
+      },
+      {
+        "name": "Downtown Paso Robles Plaza",
+        "description": "Spanish colonial architecture with ornate buildings, historic fountains, and vibrant street scenes during farmers market.",
+        "difficulty": "Beginner",
+        "bestTime": "Saturday morning during farmers market for colorful crowds and activity",
+        "category": "Architecture"
+      },
+      {
+        "name": "Rolling Vineyard Hills",
+        "description": "Endless undulating rows of grapevines stretching across rolling landscape creating geometric patterns and depth.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for fog and cool light, harvest season for golden colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Pine Mountain Park Overlook",
+        "description": "Elevated vantage point with panoramic views of Salinas Valley, mountains, and wild oak trees creating dramatic foregrounds.",
+        "difficulty": "Intermediate",
+        "bestTime": "Sunrise for golden light and clearing fog, sunset for warm landscape illumination",
+        "category": "Landscape"
+      },
+      {
+        "name": "Wildflower Fields near Carrizo Plain",
+        "description": "Seasonal explosion of colorful wildflowers carpeting vast landscape with distant mountains and clear skies.",
+        "difficulty": "Intermediate",
+        "bestTime": "March to May during peak bloom, early morning for best flower details",
+        "category": "Landscape"
+      },
+      {
+        "name": "Mission San Miguel Arcángel",
+        "description": "Historic Spanish mission with beautiful whitewashed facade, wooden crosses, and manicured gardens creating elegant compositions.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm light on adobe walls and soft shadows in courtyards",
+        "category": "Architecture"
+      },
+      {
+        "name": "Lake Nacimiento Shoreline",
+        "description": "Scenic waterfront with rocky outcrops, reflections of mountains, and varying light conditions throughout the day.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for calm water reflections, sunset for dramatic sky colors",
+        "category": "Landscape"
+      },
+      {
+        "name": "Olive Mill Historic Building",
+        "description": "Rustic industrial architecture with weathered wooden textures, metal details, and artistic murals attracting creative photographers.",
+        "difficulty": "Intermediate",
+        "bestTime": "Mid-morning for directional side lighting on textures and details",
+        "category": "Architecture"
+      },
+      {
+        "name": "Estrella Warbird Museum Exteriors",
+        "description": "Vintage aircraft and aviation memorabilia creating unique geometric shapes and nostalgic composition opportunities.",
+        "difficulty": "Intermediate",
+        "bestTime": "Late afternoon for dramatic shadows and warm light on metal surfaces",
+        "category": "Architecture"
+      },
+      {
+        "name": "Salinas River Riparian Habitat",
+        "description": "Lush green riparian corridor with oak trees, native vegetation, and occasional wildlife creating natural frame opportunities.",
+        "difficulty": "Advanced",
+        "bestTime": "Early morning for soft light, bird activity, and atmospheric conditions",
+        "category": "Wildlife"
+      }
+    ],
+    "sunriseSpots": [
+      "Pine Mountain Park Overlook",
+      "Lake Nacimiento Shoreline",
+      "Nacimiento Dam viewpoint"
+    ],
+    "sunsetSpots": [
+      "Rolling Vineyard Hills",
+      "Downtown Paso Robles Plaza",
+      "Wildflower Fields near Carrizo Plain"
+    ],
+    "lensRecommendations": [
+      "24-70mm f/2.8 for versatile landscape and architecture work across wine country and downtown",
+      "14-24mm f/2.8 ultra-wide for expansive vineyard vistas and dramatic sky compositions",
+      "70-200mm f/4 for compressed landscape perspectives and distant mountain details",
+      "50mm f/1.8 prime for intimate street photography and architectural details in downtown"
+    ],
+    "goldenHourNotes": "Paso Robles experiences long golden hours due to its inland location and low humidity. The region's rolling terrain creates dramatic side-lighting opportunities for vineyard photography. During spring wildflower season, golden hour light combined with colorful blooms creates particularly striking landscape compositions. Sunset light reflects beautifully off wine barrel rows and mission architecture.",
+    "overallDifficulty": "Intermediate"
+  },
+  "weather": {
+    "monthly": [
+      {
+        "month": 1,
+        "avgTempC": 10,
+        "rainfallMM": 95
+      },
+      {
+        "month": 2,
+        "avgTempC": 11,
+        "rainfallMM": 85
+      },
+      {
+        "month": 3,
+        "avgTempC": 13,
+        "rainfallMM": 60
+      },
+      {
+        "month": 4,
+        "avgTempC": 15,
+        "rainfallMM": 45
+      },
+      {
+        "month": 5,
+        "avgTempC": 19,
+        "rainfallMM": 25
+      },
+      {
+        "month": 6,
+        "avgTempC": 23,
+        "rainfallMM": 10
+      },
+      {
+        "month": 7,
+        "avgTempC": 25,
+        "rainfallMM": 5
+      },
+      {
+        "month": 8,
+        "avgTempC": 25,
+        "rainfallMM": 5
+      },
+      {
+        "month": 9,
+        "avgTempC": 23,
+        "rainfallMM": 10
+      },
+      {
+        "month": 10,
+        "avgTempC": 19,
+        "rainfallMM": 30
+      },
+      {
+        "month": 11,
+        "avgTempC": 14,
+        "rainfallMM": 70
+      },
+      {
+        "month": 12,
+        "avgTempC": 10,
+        "rainfallMM": 100
+      }
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "seasonality": "Paso Robles experiences a Mediterranean climate with hot, dry summers and mild, wet winters. The shoulder seasons of spring and fall offer ideal conditions with comfortable temperatures and lower rainfall.",
+    "summary": "Expect warm, sunny days throughout most of the year with cool mornings and evenings. Winter months bring occasional rainfall but rarely snow, while summer heat can exceed 32°C but is typically dry."
+  },
+  "hotels": [
+    {
+      "name": "Paso Robles Inn",
+      "neighborhood": "Downtown Paso Robles",
+      "pricePerNightUSD": 95,
+      "category": "Budget",
+      "description": "Historic hotel in downtown with classic California charm, offering comfortable rooms and convenient access to restaurants, galleries, and wine tasting venues."
+    },
+    {
+      "name": "La Bellasara Wine Hotel & Spa",
+      "neighborhood": "Downtown Paso Robles",
+      "pricePerNightUSD": 185,
+      "category": "Mid-range",
+      "description": "Upscale hotel featuring modern amenities, spa services, wine bar, and thoughtfully appointed rooms in the heart of downtown wine country."
+    },
+    {
+      "name": "Hotel Cheval",
+      "neighborhood": "Downtown Paso Robles",
+      "pricePerNightUSD": 320,
+      "category": "Luxury",
+      "description": "Luxury boutique hotel offering personalized service, sophisticated design, farm-to-table restaurant, and exclusive wine country experiences."
+    }
+  ]
+}

@@ -5,13 +5,12 @@
   "region": "North America",
   "airportCodes": [
     "SEA",
-    "TAC",
-    "MFR"
+    "PDX",
+    "YVR"
   ],
   "hiddenGem": false,
   "tripStyles": [
     "standard",
-    "surprise",
     "photography",
     "foodie",
     "adventure",
@@ -19,123 +18,123 @@
   ],
   "scores": {
     "cost": 35,
-    "food": 92,
-    "photography": 95,
-    "activities": 93,
-    "weather": 62
+    "food": 88,
+    "photography": 85,
+    "activities": 82,
+    "weather": 60
   },
   "budgetRanges": [
     {
       "level": "budget",
-      "minPerDayUSD": 85,
-      "maxPerDayUSD": 145
+      "minPerDayUSD": 80,
+      "maxPerDayUSD": 130
     },
     {
       "level": "mid",
-      "minPerDayUSD": 180,
-      "maxPerDayUSD": 350
+      "minPerDayUSD": 130,
+      "maxPerDayUSD": 220
     },
     {
       "level": "luxury",
-      "minPerDayUSD": 400,
-      "maxPerDayUSD": 800
+      "minPerDayUSD": 220,
+      "maxPerDayUSD": 400
     }
   ],
-  "unsplashQuery": "Seattle Space Needle rain",
-  "summary": "Seattle is a vibrant Pacific Northwest city renowned for its iconic Space Needle, thriving food scene, and stunning natural surroundings. Nestled between Puget Sound and the Cascade Mountains, this tech-forward metropolis offers world-class coffee, fresh seafood, excellent craft beer, and incredible photography opportunities. From urban parks to mountain hikes and waterfront views, Seattle seamlessly blends cosmopolitan culture with outdoor adventure.",
+  "unsplashQuery": "Seattle Space Needle Mount Rainier",
+  "summary": "Seattle is a vibrant Pacific Northwest city known for its iconic Space Needle, thriving coffee culture, and stunning waterfront views. Surrounded by mountains, Puget Sound, and lush forests, it offers excellent photography opportunities, world-class dining, and outdoor adventures for every season.",
   "restaurants": [
     {
-      "name": "Pike Place Market Crab Shack",
+      "name": "Pike Place Market - Various Vendors",
       "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Iconic waterfront market establishment famous for fresh Dungeness crab and wild salmon. A must-visit for experiencing Seattle's fishing heritage and local food culture.",
-      "mustTry": "Dungeness crab sandwich"
-    },
-    {
-      "name": "Canlis",
-      "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "One of America's most celebrated restaurants with seasonal Pacific Northwest cuisine and panoramic city views. An exceptional fine dining experience showcasing local ingredients.",
-      "mustTry": "Seasonal tasting menu with wine pairings"
-    },
-    {
-      "name": "Matt's in the Market",
-      "category": "Fine Dining",
-      "priceRange": "$$$",
-      "description": "Upscale Pike Place Market restaurant overlooking Puget Sound with contemporary American cuisine. Known for exceptional seafood and innovative preparation techniques.",
-      "mustTry": "Pan-seared fish with seasonal vegetables"
-    },
-    {
-      "name": "Salumi",
-      "category": "Local Specialty",
-      "priceRange": "$$",
-      "description": "Artisanal charcuterie and cured meat specialists in Pioneer Square with Italian-inspired sandwiches. Perfect for an authentic Seattle lunch experience.",
-      "mustTry": "House-made salami sandwich"
+      "priceRange": "$",
+      "description": "Historic farmer's market and tourist destination offering fresh seafood, produce, and quick bites. Famous for watching fishmongers throw salmon and trying fresh local oysters.",
+      "mustTry": "Fresh Dungeness crab or Pike Place fish throw"
     },
     {
       "name": "Shiro's Sushi",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Premier sushi establishment with pristine fish sourced from local waters and Japan. Offers both traditional and innovative sushi preparations.",
-      "mustTry": "Omakase experience with local fish"
+      "description": "Authentic Japanese sushi restaurant with a dedicated counter where you can watch skilled chefs work. Known for exceptional freshness and quality ingredients.",
+      "mustTry": "Omakase experience"
     },
     {
       "name": "The Walrus and the Carpenter",
       "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Acclaimed oyster bar and restaurant in Ballard serving raw bar specialties and seasonal Pacific Northwest cuisine. Offers an extensive wine and cocktail menu.",
+      "mustTry": "Daily oyster selection"
+    },
+    {
+      "name": "Matt's in the Market",
+      "category": "Fine Dining",
       "priceRange": "$$$",
-      "description": "Renowned Ballard oyster bar and restaurant featuring farm-to-table cuisine with exceptional wine selection. Known for fresh oysters and creative small plates.",
-      "mustTry": "Oyster selection with white wine"
+      "description": "Elevated Pacific Northwest cuisine overlooking Pike Place Market with creative dishes using local ingredients. Known for exceptional service and panoramic city views.",
+      "mustTry": "Market-inspired seasonal tasting menu"
     },
     {
-      "name": "Molly Moon's",
+      "name": "Estatica Coffee",
       "category": "Budget",
       "priceRange": "$",
-      "description": "Beloved local ice cream shop serving locally-sourced and ethically-produced ice cream with creative seasonal flavors. A perfect casual dessert stop.",
-      "mustTry": "Seasonal special flavor"
+      "description": "Specialty coffee roaster in Capitol Hill serving expertly crafted espresso drinks and pour-overs. Popular with locals for its quality beans and relaxed atmosphere.",
+      "mustTry": "Single-origin pour-over"
     },
     {
-      "name": "Hing Loon",
-      "category": "Budget",
-      "priceRange": "$",
-      "description": "Authentic Cantonese dim sum restaurant in International District serving traditional Hong Kong-style preparations. Affordable and authentic Chinese cuisine.",
-      "mustTry": "Har gow and siu mai"
+      "name": "Canlis",
+      "category": "Fine Dining",
+      "priceRange": "$$$$",
+      "description": "Three-Michelin-starred restaurant with stunning views of Lake Union and the Cascade Mountains. Offers an innovative tasting menu showcasing Pacific Northwest ingredients.",
+      "mustTry": "Chef's tasting menu"
     },
     {
-      "name": "Biscuit Beignets",
-      "category": "Budget",
+      "name": "Hing Loon Seafood Restaurant",
+      "category": "Local Specialty",
       "priceRange": "$",
-      "description": "Casual New Orleans-style beignet spot in Georgetown offering fresh fried pastries with various toppings. Great for breakfast or casual snacking.",
-      "mustTry": "Classic sugar-dusted beignets"
+      "description": "Authentic Chinese dim sum and seafood restaurant in the International District with excellent quality and value. Known for fresh live seafood preparations.",
+      "mustTry": "Dim sum cart service"
     },
     {
       "name": "Altura",
       "category": "Fine Dining",
-      "priceRange": "$$$$",
-      "description": "Intimate farm-to-table restaurant showcasing seasonal Pacific Northwest ingredients with French technique. Features a limited but exceptional menu.",
-      "mustTry": "Chef's tasting menu"
+      "priceRange": "$$$",
+      "description": "Intimate fine dining restaurant in Magnolia with seasonal American cuisine focused on local sourcing. Features a sophisticated wine program.",
+      "mustTry": "Seasonal tasting menu"
     },
     {
-      "name": "Joule Hill",
+      "name": "Molly Moon's Homemade Ice Cream",
+      "category": "Budget",
+      "priceRange": "$",
+      "description": "Local ice cream maker using organic, locally-sourced ingredients with creative seasonal flavors. Multiple locations throughout Seattle with a welcoming atmosphere.",
+      "mustTry": "Seasonal specialty flavor"
+    },
+    {
+      "name": "Serious Pie",
       "category": "Midrange",
       "priceRange": "$$",
-      "description": "Modern American restaurant in Capitol Hill with locally-sourced ingredients and creative cocktails. Known for excellent brunch and dinner menus.",
-      "mustTry": "House-made pasta"
+      "description": "Wood-fired pizza restaurant in Georgetown with crispy, minimalist pies and quality ingredients. Known for long waits but worth the time.",
+      "mustTry": "Classic Margherita pizza"
     },
     {
-      "name": "Ivar's Fish Bar",
-      "category": "Local Specialty",
+      "name": "Belltown Pizza",
+      "category": "Midrange",
       "priceRange": "$$",
-      "description": "Classic Seattle seafood establishment on the waterfront serving fish and chips since 1938. An iconic casual dining experience with bay views.",
-      "mustTry": "Crispy fish and chips with tartar sauce"
+      "description": "Casual New York-style pizza and Italian food in Capitol Hill with generous portions and local craft beers. Great for late-night dining with a fun atmosphere.",
+      "mustTry": "New York slice with local beer"
+    },
+    {
+      "name": "Wild Ginger",
+      "category": "Midrange",
+      "priceRange": "$$",
+      "description": "Pan-Asian cuisine with a large restaurant and takeout counter in Pioneer Square. Features diverse Asian dishes with consistent quality and bold flavors.",
+      "mustTry": "Ginger chicken or satay appetizers"
     }
   ],
   "activities": [
     {
       "name": "Space Needle",
       "category": "Family",
-      "description": "Seattle's most iconic landmark offering 360-degree views of the city, Puget Sound, and surrounding mountains from 605 feet. Features revolving glass floor and rotating restaurant.",
-      "durationHours": 2,
-      "estimatedCostUSD": 29,
+      "description": "Iconic 605-foot observation tower offering 360-degree views of Seattle, Puget Sound, and the Cascade Mountains. Features a rotating glass floor and a glass-walled elevator.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 30,
       "bestFor": [
         "standard",
         "photography",
@@ -144,81 +143,77 @@
     },
     {
       "name": "Pike Place Market",
-      "category": "Outdoor",
-      "description": "Historic waterfront market spanning nine acres with fresh produce, seafood, crafts, and street performers. One of America's most visited public markets with endless photo opportunities.",
+      "category": "Cultural",
+      "description": "Historic public market since 1907 featuring local produce, crafts, street performers, and food vendors. A vibrant hub of Seattle culture and commerce.",
       "durationHours": 3,
       "estimatedCostUSD": 0,
       "bestFor": [
         "standard",
-        "photography",
         "foodie",
-        "surprise"
+        "photography"
       ]
     },
     {
       "name": "Chihuly Garden and Glass",
-      "category": "Cultural",
-      "description": "Museum dedicated to artist Dale Chihuly with stunning glass installations both indoors and in gardens. Adjacent to Space Needle with world-class contemporary art.",
+      "category": "Indoor",
+      "description": "Museum showcasing the spectacular glass sculptures of Dale Chihuly set in beautiful gardens and galleries. Features unique installations both indoors and outdoors.",
       "durationHours": 2,
-      "estimatedCostUSD": 25,
+      "estimatedCostUSD": 28,
       "bestFor": [
         "standard",
-        "photography",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Kerry Park Viewpoint",
-      "category": "Outdoor",
-      "description": "Free hilltop park offering the quintessential Seattle skyline view with Space Needle, downtown, and mountains. Perfect for sunrise, sunset, and all-day photography.",
-      "durationHours": 1,
-      "estimatedCostUSD": 0,
-      "bestFor": [
-        "photography",
-        "surprise",
-        "relaxation"
-      ]
-    },
-    {
-      "name": "Snoqualmie Falls",
-      "category": "Adventure",
-      "description": "Spectacular 270-foot waterfall 30 minutes from Seattle featuring hiking trails and observation decks. One of Washington's most iconic natural attractions.",
-      "durationHours": 3,
-      "estimatedCostUSD": 12,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "surprise"
-      ]
-    },
-    {
-      "name": "Kayaking on Lake Union",
-      "category": "Adventure",
-      "description": "Paddle among historic sailboats, houseboats, and stunning city views with the Space Needle and mountains as backdrop. Rentals and guided tours available.",
-      "durationHours": 2,
-      "estimatedCostUSD": 65,
-      "bestFor": [
-        "adventure",
         "photography",
         "relaxation"
       ]
     },
     {
       "name": "Seattle Art Museum",
-      "category": "Cultural",
-      "description": "World-class art museum featuring contemporary, modern, and indigenous Northwest Coast art collections. Located downtown with easy access to Pike Place Market.",
-      "durationHours": 3,
-      "estimatedCostUSD": 20,
+      "category": "Indoor",
+      "description": "Major art museum in downtown Seattle featuring Northwest art, modern works, and international collections. Known for excellent curation and welcoming atmosphere.",
+      "durationHours": 2,
+      "estimatedCostUSD": 18,
       "bestFor": [
         "standard",
-        "cultural",
-        "surprise"
+        "cultural"
       ]
     },
     {
-      "name": "Washington Park Arboretum",
+      "name": "Discovery Park Hiking",
       "category": "Outdoor",
-      "description": "230-acre botanical garden showcasing diverse plant collections, scenic walking trails, and Azalea Way. Perfect for peaceful walks and nature photography.",
+      "description": "Seattle's largest park with 534 acres of forests, meadows, and a pebble beach on Puget Sound. Multiple trails ranging from easy to moderate with stunning water and mountain views.",
+      "durationHours": 3,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Kayaking Lake Union",
+      "category": "Adventure",
+      "description": "Paddle around Lake Union to see the Seattle skyline, houseboats, and the Space Needle from the water. Several rental companies offer guided tours and self-guided rentals.",
+      "durationHours": 2,
+      "estimatedCostUSD": 55,
+      "bestFor": [
+        "adventure",
+        "photography"
+      ]
+    },
+    {
+      "name": "Underground Tour",
+      "category": "Cultural",
+      "description": "Guided tour of Seattle's historic underground district beneath Pioneer Square from the 1890s. Learn about the city's fascinating history during the Great Seattle Fire.",
+      "durationHours": 1.5,
+      "estimatedCostUSD": 20,
+      "bestFor": [
+        "standard",
+        "hidden-gems"
+      ]
+    },
+    {
+      "name": "Seattle Waterfront Walk",
+      "category": "Outdoor",
+      "description": "Scenic waterfront promenade along Elliott Bay with parks, piers, restaurants, and water views. Includes the aquarium, waterfront shops, and beach access.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
@@ -228,51 +223,50 @@
       ]
     },
     {
-      "name": "Underground Seattle Tour",
-      "category": "Cultural",
-      "description": "Guided walking tour exploring the historic underground city buried beneath Pioneer Square from the 1889 Great Fire. Unique perspective on Seattle's history.",
-      "durationHours": 1.5,
-      "estimatedCostUSD": 25,
-      "bestFor": [
-        "standard",
-        "surprise",
-        "cultural"
-      ]
-    },
-    {
-      "name": "Hiking Mount Rainier",
-      "category": "Adventure",
-      "description": "Challenging day hike or multi-day backpacking on Washington's iconic volcanic peak with stunning views. Multiple trail options from beginner to advanced.",
-      "durationHours": 6,
-      "estimatedCostUSD": 15,
-      "bestFor": [
-        "adventure",
-        "photography",
-        "hidden-gems"
-      ]
-    },
-    {
-      "name": "Ballard Brewery Tour",
-      "category": "Nightlife",
-      "description": "Neighborhood featuring numerous craft breweries with tasting rooms, food trucks, and local vibrancy. Sample Seattle's thriving craft beer culture.",
-      "durationHours": 3,
-      "estimatedCostUSD": 40,
-      "bestFor": [
-        "standard",
-        "foodie",
-        "nightlife"
-      ]
-    },
-    {
-      "name": "Fremont Sunday Market",
+      "name": "Washington Park Arboretum",
       "category": "Outdoor",
-      "description": "Quirky Sunday market in funky Fremont neighborhood with vintage goods, crafts, and street food. Experience Seattle's bohemian culture and creative community.",
+      "description": "230-acre urban forest with diverse plant collections, walking trails, and seasonal blooms. A peaceful retreat featuring Japanese gardens and water features.",
       "durationHours": 2,
       "estimatedCostUSD": 0,
       "bestFor": [
+        "relaxation",
+        "photography",
+        "nature"
+      ]
+    },
+    {
+      "name": "Kerry Park Viewpoint",
+      "category": "Outdoor",
+      "description": "Small park on Queen Anne Hill providing the most iconic panoramic views of Seattle, Space Needle, and Mount Rainier. Popular with photographers day and night.",
+      "durationHours": 1,
+      "estimatedCostUSD": 0,
+      "bestFor": [
+        "photography",
+        "relaxation"
+      ]
+    },
+    {
+      "name": "Capitol Hill Neighborhood Exploration",
+      "category": "Cultural",
+      "description": "Vibrant neighborhood known for eclectic shops, street art, vintage stores, live music venues, and diverse dining. Walk through historic homes and discover local boutiques.",
+      "durationHours": 3,
+      "estimatedCostUSD": 20,
+      "bestFor": [
         "standard",
-        "surprise",
-        "hidden-gems"
+        "hidden-gems",
+        "foodie"
+      ]
+    },
+    {
+      "name": "Mount Rainier Day Trip",
+      "category": "Adventure",
+      "description": "Stunning volcanic mountain 70 miles south with hiking trails, wildflower meadows, and panoramic views. Popular for day hikes and scenic drives around the mountain.",
+      "durationHours": 8,
+      "estimatedCostUSD": 30,
+      "bestFor": [
+        "adventure",
+        "photography",
+        "nature"
       ]
     }
   ],
@@ -280,92 +274,92 @@
     "spots": [
       {
         "name": "Kerry Park Viewpoint",
-        "description": "Premier vantage point for quintessential Seattle skyline shots featuring Space Needle, downtown towers, Elliott Bay, and Olympic Mountains.",
+        "description": "Queen Anne Hill park with iconic Seattle skyline, Space Needle, and Mount Rainier views perfect for panoramic shots.",
         "difficulty": "Beginner",
-        "bestTime": "Golden hour (sunrise and sunset), overcast days for even light",
+        "bestTime": "Golden hour for warm light; clear mornings for mountain visibility",
         "category": "Landscape"
       },
       {
         "name": "Pike Place Market",
-        "description": "Vibrant street photography location with fishmongers, fresh produce displays, neon signs, and historic architecture.",
+        "description": "Historic market with vibrant produce displays, flower stalls, street performers, and authentic local culture.",
         "difficulty": "Beginner",
-        "bestTime": "Early morning for crowds and light, overcast conditions work well",
+        "bestTime": "Early morning for fewer crowds; overcast days for even lighting",
         "category": "Street"
       },
       {
-        "name": "Smith Tower Observatory",
-        "description": "Historic 1914 tower with 360-degree views of downtown, Puget Sound, and mountain ranges with ornate interior details.",
+        "name": "Space Needle Base",
+        "description": "Iconic Seattle landmark offering dramatic upward-angle shots and unique perspectives of the structure.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour for warm tones; nighttime for city lights reflection",
+        "category": "Architecture"
+      },
+      {
+        "name": "Chihuly Garden and Glass",
+        "description": "Stunning colorful glass sculptures both indoor and outdoor for vibrant, artistic photography opportunities.",
         "difficulty": "Intermediate",
-        "bestTime": "Clear days for maximum visibility, sunset for warm tones",
+        "bestTime": "Golden hour for glass reflection; overcast for reduced glare",
         "category": "Architecture"
       },
       {
         "name": "Gas Works Park",
-        "description": "Industrial historical park overlooking Lake Union with creative graffiti, old machinery, and excellent city skyline views.",
+        "description": "Industrial park with historic structures and expansive views of Lake Union, downtown, and Mount Rainier.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset and blue hour, overcast days for moody atmosphere",
-        "category": "Architecture"
+        "bestTime": "Sunset for warm light and silhouettes; blue hour for city lights",
+        "category": "Landscape"
       },
       {
-        "name": "Snoqualmie Falls",
-        "description": "Iconic 270-foot waterfall with misty spray, lush surrounding forest, and multiple viewing angles for varied compositions.",
-        "difficulty": "Intermediate",
-        "bestTime": "Early morning for mist and soft light, after rainfall for fullest cascade",
+        "name": "Alki Beach",
+        "description": "Beach with clear views of Seattle skyline and Space Needle across Elliott Bay, popular for sunset and golden hour shots.",
+        "difficulty": "Beginner",
+        "bestTime": "Golden hour and sunset for warm light and reflection in water",
         "category": "Landscape"
       },
       {
         "name": "Ballard Locks",
-        "description": "Historic canal lock system with boats, sea lions, and industrial machinery creating dynamic composition opportunities.",
-        "difficulty": "Beginner",
-        "bestTime": "Early morning for light and wildlife activity, weekdays for fewer crowds",
-        "category": "Street"
-      },
-      {
-        "name": "Capitol Hill Street Art",
-        "description": "Colorful neighborhood with vibrant murals, street art, vintage storefronts, and eclectic local culture.",
-        "difficulty": "Beginner",
-        "bestTime": "Overcast days for balanced lighting, golden hour for warm tones on murals",
-        "category": "Street"
-      },
-      {
-        "name": "Discovery Park Lighthouse",
-        "description": "Historic lighthouse perched on Puget Sound bluff with lighthouse structure, rugged coastline, and views of Bainbridge Island.",
+        "description": "Historic ship locks with fishing boats and marine wildlife in a scenic industrial waterfront setting.",
         "difficulty": "Intermediate",
-        "bestTime": "Golden hour, clear days for mountain views, sunrise for dramatic light",
-        "category": "Landscape"
-      },
-      {
-        "name": "Waterfront and Great Wheel",
-        "description": "Seattle's 175-foot observation wheel with waterfront promenades, sailboats, and cityscape backdrop.",
-        "difficulty": "Beginner",
-        "bestTime": "Sunset and blue hour for illuminated wheel, clear days for views",
+        "bestTime": "Morning light for clarity; when locks are active for dynamic water shots",
         "category": "Architecture"
       },
       {
-        "name": "Lake Union Sunset Viewpoint",
-        "description": "Scenic shoreline location capturing houseboats, sailboats, and the Space Needle reflected in water with mountain backdrop.",
+        "name": "Discovery Park Lighthouse",
+        "description": "Historic lighthouse perched on bluffs overlooking Puget Sound with beach and forest backdrop.",
         "difficulty": "Intermediate",
-        "bestTime": "Sunset and golden hour for reflections and warm tones, clear days preferred",
+        "bestTime": "Golden hour for warm cliff light; clear days for distant mountain views",
+        "category": "Landscape"
+      },
+      {
+        "name": "University District Street Art",
+        "description": "Vibrant murals and street art throughout the U-District neighborhood offering colorful urban photography.",
+        "difficulty": "Beginner",
+        "bestTime": "Midday for saturated colors; overcast for even lighting on walls",
+        "category": "Street"
+      },
+      {
+        "name": "Lake Union Reflections",
+        "description": "Lake offering mirror-like reflections of Seattle skyline, houseboats, and mountains during calm water conditions.",
+        "difficulty": "Intermediate",
+        "bestTime": "Early morning for still water and soft light; sunset for warm reflection tones",
         "category": "Landscape"
       }
     ],
     "sunriseSpots": [
-      "Kerry Park Viewpoint",
       "Discovery Park Lighthouse",
-      "Lake Union Park"
+      "Kerry Park Viewpoint",
+      "Lake Union East Shore"
     ],
     "sunsetSpots": [
-      "Kerry Park Viewpoint",
+      "Alki Beach",
       "Gas Works Park",
-      "Lake Union Sunset Viewpoint"
+      "Ballard Locks"
     ],
     "lensRecommendations": [
-      "14-24mm ultra-wide for expansive skyline and landscape shots at Kerry Park and Discovery Park",
-      "24-70mm versatile zoom for street photography at Pike Place Market and Capitol Hill",
-      "70-200mm telephoto for compressed cityscape compositions and distant mountain shots",
-      "50mm prime for intimate details, portraits, and low-light street photography"
+      "Wide-angle 14-24mm for sweeping landscape and city skyline shots",
+      "Standard 50mm prime for street photography and architectural details",
+      "Telephoto 70-200mm for compressed landscape compositions and mountain details",
+      "Macro lens for close-ups of market produce, flowers, and glass details"
     ],
-    "goldenHourNotes": "Seattle's maritime climate and frequent clouds create unique golden hour conditions with soft, diffused light rather than harsh contrasts. Sunrise and sunset at Kerry Park and Gas Works Park offer exceptional opportunities with warm tones reflecting off water and city structures. Golden hour light is particularly magical during clearer months (June-August), creating rich warm tones on architectural details and natural landscapes.",
+    "goldenHourNotes": "Seattle's golden hour is particularly magical with the surrounding water reflecting warm light and creating silhouettes against the sky. Best windows are late evening in summer (8-9pm) and earlier in winter (4:30-5:30pm). The unpredictable weather means clear golden hours are precious; be ready to move quickly when conditions align with clouds breaking above the horizon.",
     "overallDifficulty": "Beginner"
   },
   "weather": {
@@ -373,52 +367,52 @@
       {
         "month": 1,
         "avgTempC": 5,
-        "rainfallMM": 150
+        "rainfallMM": 145
       },
       {
         "month": 2,
-        "avgTempC": 6,
-        "rainfallMM": 120
+        "avgTempC": 5,
+        "rainfallMM": 97
       },
       {
         "month": 3,
         "avgTempC": 7,
-        "rainfallMM": 110
+        "rainfallMM": 98
       },
       {
         "month": 4,
         "avgTempC": 10,
-        "rainfallMM": 95
+        "rainfallMM": 84
       },
       {
         "month": 5,
-        "avgTempC": 15,
-        "rainfallMM": 80
+        "avgTempC": 14,
+        "rainfallMM": 77
       },
       {
         "month": 6,
-        "avgTempC": 19,
-        "rainfallMM": 70
+        "avgTempC": 17,
+        "rainfallMM": 71
       },
       {
         "month": 7,
-        "avgTempC": 21,
-        "rainfallMM": 45
+        "avgTempC": 19,
+        "rainfallMM": 39
       },
       {
         "month": 8,
-        "avgTempC": 21,
-        "rainfallMM": 50
+        "avgTempC": 19,
+        "rainfallMM": 42
       },
       {
         "month": 9,
         "avgTempC": 17,
-        "rainfallMM": 70
+        "rainfallMM": 48
       },
       {
         "month": 10,
         "avgTempC": 12,
-        "rainfallMM": 120
+        "rainfallMM": 109
       },
       {
         "month": 11,
@@ -428,7 +422,7 @@
       {
         "month": 12,
         "avgTempC": 5,
-        "rainfallMM": 155
+        "rainfallMM": 152
       }
     ],
     "bestMonths": [
@@ -437,31 +431,31 @@
       8,
       9
     ],
-    "seasonality": "Seattle experiences mild winters with frequent rain and cool summers with minimal precipitation. The driest and warmest months are June through August, making this the ideal travel season for outdoor activities and photography.",
-    "summary": "Seattle's maritime climate features cool, wet winters (December-March) with frequent drizzle and mild, dry summers (July-August). Spring and fall offer pleasant temperatures with moderate rainfall, while summer provides the best weather for outdoor exploration with long daylight hours and minimal rain."
+    "seasonality": "Seattle has a mild marine climate with wet, cool winters and dry, warm summers. The best time to visit is late June through September when rainfall is minimal and temperatures reach the comfortable 60-70°F range.",
+    "summary": "Expect frequent rain in winter months (November-March) with temperatures around 5°C. Summer is dramatically drier with minimal rainfall and pleasant temperatures, making it the ideal travel season."
   },
   "hotels": [
     {
-      "name": "Green Tortoise Backpackers",
-      "neighborhood": "Pike Place Market / Downtown",
+      "name": "HI Seattle Downtown Hostel",
+      "neighborhood": "Downtown/Pike Place",
       "pricePerNightUSD": 45,
       "category": "Budget",
-      "description": "Casual hostel with dormitory and private rooms, communal kitchen, and friendly atmosphere perfect for budget-conscious travelers exploring Seattle's downtown."
+      "description": "Social hostel in downtown with private rooms and dormitories, friendly staff, and convenient location near Pike Place Market and waterfront attractions."
     },
     {
-      "name": "The Paramount Hotel",
+      "name": "The Fairmont Olympic Hotel",
       "neighborhood": "Downtown",
-      "pricePerNightUSD": 180,
+      "pricePerNightUSD": 285,
       "category": "Mid-range",
-      "description": "Historic 1927 hotel featuring Art Deco elegance, convenient downtown location near Pike Place Market, and well-appointed rooms with modern amenities."
+      "description": "Historic four-star hotel in downtown Seattle with elegant rooms, excellent service, and convenient access to shopping, dining, and cultural attractions."
     },
     {
-      "name": "Fairmont Olympic Hotel",
+      "name": "Fairmont Olympic Luxury Suite",
       "neighborhood": "Downtown",
       "pricePerNightUSD": 450,
       "category": "Luxury",
-      "description": "Seattle's most prestigious hotel with Italian Renaissance architecture, world-class service, fine dining, spa, and commanding downtown views since 1924."
+      "description": "Ultra-premium luxury accommodation featuring spacious suites with premium amenities, personalized concierge service, and unparalleled views of downtown Seattle."
     }
   ],
-  "heroImageUrl": "https://images.unsplash.com/photo-1608614435720-d527d50a1ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwU3BhY2UlMjBOZWVkbGUlMjByYWlufGVufDF8MHx8fDE3ODEzMDMwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  "heroImageUrl": "https://images.unsplash.com/photo-1502175353174-a7a70e73b362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzU5MDF8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwU3BhY2UlMjBOZWVkbGUlMjBNb3VudCUyMFJhaW5pZXJ8ZW58MXwwfHx8MTc4MTYyNzgxNXww&ixlib=rb-4.1.0&q=80&w=1080"
 }
