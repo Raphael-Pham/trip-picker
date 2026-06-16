@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { TravelMode, TimeOfDay, WeightPreferences, Traveler, SearchParams } from '@/lib/types';
+import { TravelMode, TimeOfDay, CabinClass, WeightPreferences, Traveler, SearchParams } from '@/lib/types';
 import TravelModeSelector from './TravelModeSelector';
 import WeightSliders from './WeightSliders';
 import GroupMode from './GroupMode';
@@ -10,6 +10,13 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 const DEFAULT_WEIGHTS: WeightPreferences = { cost: 20, food: 20, photography: 20, activities: 20, weather: 20 };
+
+const CABIN_OPTIONS: { value: CabinClass; label: string; hint: string }[] = [
+  { value: 'basic_economy',    label: 'Basic Economy',    hint: '−12%' },
+  { value: 'economy',          label: 'Economy',          hint: 'base' },
+  { value: 'premium_economy',  label: 'Premium Economy',  hint: '+65%' },
+  { value: 'business',         label: 'Business',         hint: '×2.5' },
+];
 
 const TIME_OPTIONS: { value: TimeOfDay; label: string; icon: string; hint: string }[] = [
   { value: 'morning',   label: 'Morning',   icon: '🌅', hint: '5 am–11 am' },
@@ -79,6 +86,7 @@ export default function SearchForm() {
   const [travelers, setTravelers] = useState<Traveler[]>([]);
   const [departureTime, setDepartureTime] = useState<TimeOfDay | null>(null);
   const [arrivalTime, setArrivalTime] = useState<TimeOfDay | null>(null);
+  const [cabinClass, setCabinClass] = useState<CabinClass>('economy');
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const validate = (): boolean => {
@@ -120,6 +128,7 @@ export default function SearchForm() {
 
     if (departureTime) params.set('departureTime', departureTime);
     if (arrivalTime) params.set('arrivalTime', arrivalTime);
+    params.set('cabinClass', cabinClass);
 
     router.push(`/results?${params.toString()}`);
   };
@@ -200,16 +209,42 @@ export default function SearchForm() {
         </div>
       </div>
 
-      {/* Flight time preferences */}
+      {/* Flight preferences */}
       <div className="rounded-xl border border-border bg-accent/30 p-4 space-y-4">
-        <h3 className="text-sm font-semibold">Flight Time Preferences <span className="font-normal text-muted-foreground">(optional — affects price estimate)</span></h3>
+        <h3 className="text-sm font-semibold">Flight Preferences <span className="font-normal text-muted-foreground">(affects price estimate)</span></h3>
+
+        {/* Cabin class */}
+        <div>
+          <p className="text-xs font-medium text-muted-foreground mb-2">Cabin class</p>
+          <div className="flex flex-wrap gap-2">
+            {CABIN_OPTIONS.map(opt => (
+              <button
+                key={opt.value}
+                type="button"
+                onClick={() => setCabinClass(opt.value)}
+                className={cn(
+                  'flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-all',
+                  cabinClass === opt.value
+                    ? 'border-primary bg-primary text-primary-foreground shadow-sm'
+                    : 'border-input bg-background text-foreground hover:border-primary/50 hover:bg-accent',
+                )}
+              >
+                <span>{opt.label}</span>
+                <span className={cn('text-[10px]', cabinClass === opt.value ? 'text-primary-foreground/70' : 'text-muted-foreground')}>
+                  {opt.hint}
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+
         <TimeOfDayPicker
-          label="Departure time"
+          label="Departure time (optional)"
           value={departureTime}
           onChange={setDepartureTime}
         />
         <TimeOfDayPicker
-          label="Arrival time at destination"
+          label="Arrival time at destination (optional)"
           value={arrivalTime}
           onChange={setArrivalTime}
         />

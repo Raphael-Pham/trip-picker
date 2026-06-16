@@ -34,7 +34,7 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
   }
 
   const result = results[index];
-  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, liveData } = result;
+  const { destination: dest, overallScore, adjustedScores, modeBonus, budgetAllocation, estimatedFlightCostUSD, flightPriceRange, liveData } = result;
   const isLive = liveData.source === 'live' || liveData.source === 'partial';
 
   // Use baked-in URL from generation script; fall back to a reliable placeholder
@@ -103,7 +103,9 @@ export default function ResultsView({ results, weights, totalBudget, startDate }
         {[
           {
             label: 'Est. Flight',
-            value: `$${estimatedFlightCostUSD.toLocaleString()}`,
+            value: flightPriceRange
+              ? `$${flightPriceRange.min.toLocaleString()}–$${flightPriceRange.max.toLocaleString()}`
+              : `$${estimatedFlightCostUSD.toLocaleString()}`,
             icon: '✈️',
             live: false,
           },

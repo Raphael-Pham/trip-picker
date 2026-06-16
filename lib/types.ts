@@ -1,5 +1,13 @@
 export type TimeOfDay = 'morning' | 'noon' | 'afternoon' | 'evening' | 'night';
 
+export type CabinClass = 'basic_economy' | 'economy' | 'premium_economy' | 'business';
+
+export interface FlightPriceRange {
+  min: number;
+  median: number;
+  max: number;
+}
+
 export type TravelMode =
   | 'standard'
   | 'surprise'
@@ -38,6 +46,7 @@ export interface SearchParams {
   };
   departureTime?: TimeOfDay;
   arrivalTime?: TimeOfDay;
+  cabinClass?: CabinClass;
 }
 
 export interface DestinationScores {
@@ -167,6 +176,7 @@ export interface RecommendationResult {
   modeBonus: number;
   budgetAllocation: BudgetAllocation;
   estimatedFlightCostUSD: number;
+  flightPriceRange: FlightPriceRange;
   rank: number;
   liveData: LiveCityData;
 }

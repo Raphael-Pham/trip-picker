@@ -7,7 +7,7 @@ import type {
   TravelMode,
   LiveCityData,
 } from './types';
-import { estimateFlightCost, isAirportReachable } from './flightEstimator';
+import { estimateFlightCostRange, isAirportReachable } from './flightEstimator';
 import { allocateBudget, getTripDays } from './budgetEngine';
 import { fetchLiveCityData } from './liveData';
 
@@ -141,9 +141,14 @@ export async function getRecommendations(
   // Fetch full destination JSON + live data for all top results in parallel
   const enriched = await Promise.all(
     scored.map(async (s, i) => {
-      const flightCost = estimateFlightCost(
-        params.departureAirport, s.airportCodes, tripDays,
-        params.departureTime, params.arrivalTime,
+      const flightRange = estimateFlightCostRange(
+        params.departureAirport, s.airportCodes, {
+          tripDays,
+          departureDate: params.startDate,
+          departureTime: params.departureTime,
+          arrivalTime:   params.arrivalTime,
+          cabinClass:    params.cabinClass,
+        },
       );
 
       const [destMod, liveData] = await Promise.all([
@@ -156,7 +161,7 @@ export async function getRecommendations(
         ? { ...(destMod.default ?? destMod), heroImageUrl: s.heroImageUrl }
         : { ...s, restaurants: [], activities: [], photography: null, weather: null, hotels: [] };
 
-      const budgetAllocation = allocateBudget(budget, s, tripDays, flightCost, liveData);
+      const budgetAllocation = allocateBudget(budget, s, tripDays, flightRange.median, liveData);
 
       return {
         destination: fullDest,
@@ -164,7 +169,8 @@ export async function getRecommendations(
         adjustedScores: s.adjustedScores,
         modeBonus: s.modeBonus,
         budgetAllocation,
-        estimatedFlightCostUSD: flightCost,
+        estimatedFlightCostUSD: flightRange.median,
+        flightPriceRange: flightRange,
         rank: i + 1,
         liveData,
       } satisfies RecommendationResult;

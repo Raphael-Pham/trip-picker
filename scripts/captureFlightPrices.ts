@@ -227,10 +227,22 @@ function getTripDates() {
   return { depart, ret: d.toISOString().slice(0, 10) };
 }
 
-async function fetchPrice(
+export interface PriceEntry {
+  min: number;
+  median: number;
+  max: number;
+  samples: number;
+}
+
+/**
+ * Scrapes a Google Flights results page and returns min/median/max from the
+ * visible fare list (typically 5-20 options shown above the fold).
+ * Storing the range lets the UI show "~$420–$680" instead of a single number.
+ */
+async function fetchPriceRange(
   page: import('playwright').Page,
   origin: string, dest: string, depart: string, ret: string,
-): Promise<number | null> {
+): Promise<PriceEntry | null> {
   const url =
     `https://www.google.com/travel/flights?q=Flights+from+${origin}+to+${dest}+on+${depart}+returning+${ret}`;
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
@@ -239,6 +251,7 @@ async function fetchPrice(
   } catch {
     await page.waitForTimeout(4000);
   }
+
   const prices: number[] = [];
   for (const sel of ['[data-price]', '.YMlIz', '.qx27Je', '.Rj2Mlc', '[aria-label*="$"]']) {
     for (const el of await page.$$(sel)) {
@@ -255,7 +268,15 @@ async function fetchPrice(
       if (v >= 50 && v <= 12000) prices.push(v);
     }
   }
-  return prices.length ? Math.min(...prices) : null;
+  if (!prices.length) return null;
+
+  prices.sort((a, b) => a - b);
+  const min    = prices[0];
+  const median = prices[Math.floor(prices.length / 2)];
+  // Cap "max" at the 80th-percentile shown price — extreme outliers aren't useful
+  const p80idx = Math.min(prices.length - 1, Math.floor(prices.length * 0.8));
+  const max    = prices[p80idx];
+  return { min, median, max, samples: prices.length };
 }
 
 // ── Main ───────────────────────────────────────────────────────────────────────
@@ -287,11 +308,11 @@ async function main() {
   console.log(`   Dates: ${depart} -> ${ret}\n`);
 
   // Load existing data and build work queue
-  const hubData = new Map<string, Record<string, number>>();
+  const hubData = new Map<string, Record<string, PriceEntry>>();
   const queue: Array<{ hub: string; dest: { iata: string; label: string } }> = [];
 
   for (const hub of hubs) {
-    let existing: Record<string, number> = {};
+    let existing: Record<string, PriceEntry> = {};
     try {
       existing = JSON.parse(await fs.readFile(path.join(OUTPUT_DIR, `${hub}.json`), 'utf-8'));
     } catch { /* new hub */ }
@@ -340,10 +361,10 @@ async function main() {
       const { hub, dest } = queue[i];
       process.stdout.write(`[${browserId}] ${hub}->${dest.iata} (${dest.label}) ... `);
       try {
-        const price = await fetchPrice(page, hub, dest.iata, depart, ret);
-        if (price) {
-          hubData.get(hub)![dest.iata] = price;
-          console.log(`$${price}  (${i + 1}/${total})`);
+        const entry = await fetchPriceRange(page, hub, dest.iata, depart, ret);
+        if (entry) {
+          hubData.get(hub)![dest.iata] = entry;
+          console.log(`$${entry.min}–$${entry.max} (median $${entry.median}, ${entry.samples} samples)  (${i + 1}/${total})`);
           captured++;
         } else {
           console.log(`no price  (${i + 1}/${total})`);
