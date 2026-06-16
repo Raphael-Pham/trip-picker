@@ -322,6 +322,15 @@ export function isAirportReachable(
   departureAirport: string,
   destinationAirportCodes: string[],
   budget: number,
+  departureDate?: string,
 ): boolean {
-  return estimateFlightCost(departureAirport, destinationAirportCodes, 7) < budget * 0.7;
+  // Use a date-aware estimate so seasonal/DOW/lead-time multipliers are included.
+  // Threshold: the median flight cost must leave at least 20% of the budget for
+  // hotels, food, and activities. Using median (not min) keeps the pre-filter
+  // fast; getRecommendations does a hard min-cost check after full enrichment.
+  const median = estimateFlightCost(
+    departureAirport, destinationAirportCodes, 7,
+    undefined, undefined, undefined, departureDate,
+  );
+  return median < budget * 0.80;
 }

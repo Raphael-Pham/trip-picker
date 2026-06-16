@@ -92,7 +92,7 @@ export function scoreDestinations(
 
   let candidates = catalog.filter(dest => {
     if (travelMode === 'hidden-gems' && !dest.hiddenGem) return false;
-    if (!isAirportReachable(departureAirport, dest.airportCodes, budget)) return false;
+    if (!isAirportReachable(departureAirport, dest.airportCodes, budget, params.startDate)) return false;
     if (!isBudgetViable(budget, dest, tripDays)) return false;
     return true;
   });
@@ -135,7 +135,7 @@ export function scoreDestinations(
     return top20.slice(0, 10);
   }
 
-  return scored.slice(0, 10);
+  return scored.slice(0, 20);
 }
 
 export async function getRecommendations(
@@ -171,6 +171,10 @@ export async function getRecommendations(
         },
       );
 
+      // Hard budget gate: if even the cheapest flight exceeds the total budget,
+      // this destination is impossible regardless of other scores.
+      if (flightRange.min >= budget) return null;
+
       const [destMod, liveData] = await Promise.all([
         import(`@/data/destinations/${s.id}.json`).catch(() => null),
         fetchLiveCityData(s.city, s.country, params.startDate, params.endDate)
@@ -205,7 +209,8 @@ export async function getRecommendations(
     })
   );
 
-  results.push(...enriched);
+  const valid = enriched.filter((r) => r !== null) as RecommendationResult[];
+  results.push(...valid.slice(0, 10));
 
   return results;
 }
