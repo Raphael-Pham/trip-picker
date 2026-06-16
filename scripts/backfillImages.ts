@@ -14,11 +14,8 @@ import fs from 'fs/promises';
 import path from 'path';
 
 const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY ?? '';
-// Unsplash free tier = 50 req/hour = 1 req / 72 s.
-// Use 76 s so we never hit the limit in the first place.
-// On a 403/429 the whole rolling window may be exhausted — wait 5 min.
-const BETWEEN_REQ_MS  = 76_000;
-const RATE_LIMIT_WAIT = 300_000;
+const BETWEEN_REQ_MS  = 0;        // no automatic delay — cancel manually if rate limited
+const RATE_LIMIT_WAIT = 300_000;  // 5-min pause if a 403/429 slips through
 
 if (!UNSPLASH_ACCESS_KEY) {
   console.error('Error: UNSPLASH_ACCESS_KEY env variable is required.');
