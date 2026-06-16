@@ -10,9 +10,9 @@ on:
         required: false
         default: ''
       resume:
-        description: 'Skip already-captured pairs'
+        description: 'Skip already-captured pairs (use only for debugging a partial run)'
         type: boolean
-        default: true
+        default: false
 
 # Cancel any in-progress run when a new one is triggered
 concurrency:
@@ -55,14 +55,12 @@ jobs:
 
       - name: Capture prices (shard ${{ matrix.group }} of 7)
         run: |
-          ARGS="--group ${{ matrix.group }} --total 7 --concurrency 3"
-          if [ "${{ github.event.inputs.resume }}" != "false" ]; then
-            ARGS="$ARGS --resume"
-          fi
+          # No --resume: always do a full refresh so daily prices stay current.
           # xvfb-run provides a virtual display so Playwright can open a headed
           # browser (less detectable than headless) even without a real screen.
           xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" \
-            npx tsx scripts/captureFlightPrices.ts $ARGS
+            npx tsx scripts/captureFlightPrices.ts \
+              --group ${{ matrix.group }} --total 7 --concurrency 3
         env:
           DISPLAY: ':99'
 
