@@ -193,7 +193,7 @@ function loadHubPrices(hub: string): HubPriceFile | null {
   if (hubPriceCache.has(hub)) return hubPriceCache.get(hub)!;
   try {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const data = require(`../data/flightPrices/${hub}.json`) as HubPriceFile;
+    const data = require(/* webpackIgnore: true */ `../data/flightPrices/${hub}.json`) as HubPriceFile;
     hubPriceCache.set(hub, data);
     return data;
   } catch {
