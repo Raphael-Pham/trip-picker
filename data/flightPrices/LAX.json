@@ -1,1864 +1,1034 @@
 {
-  "FAT": {
-    "min": 289,
-    "median": 369,
-    "max": 607,
-    "samples": 60
-  },
-  "MOB": {
-    "min": 59,
-    "median": 1035,
-    "max": 1054,
-    "samples": 68
-  },
-  "CYM": {
-    "min": 57,
-    "median": 800,
-    "max": 1032,
-    "samples": 62
-  },
-  "SDF": {
+  "RDW": {
     "min": 50,
-    "median": 611,
-    "max": 743,
-    "samples": 100
+    "median": 407,
+    "max": 407,
+    "samples": 152
   },
-  "PVD": {
+  "MGM": {
+    "min": 58,
+    "median": 709,
+    "max": 771,
+    "samples": 46
+  },
+  "ORD": {
     "min": 50,
-    "median": 829,
-    "max": 1207,
-    "samples": 106
+    "median": 327,
+    "max": 337,
+    "samples": 156
   },
-  "JAX": {
+  "LGA": {
     "min": 50,
-    "median": 652,
-    "max": 783,
-    "samples": 136
-  },
-  "HNL": {
-    "min": 55,
-    "median": 679,
-    "max": 755,
-    "samples": 126
-  },
-  "MIA": {
-    "min": 55,
-    "median": 787,
-    "max": 847,
-    "samples": 100
-  },
-  "MEM": {
-    "min": 55,
-    "median": 517,
-    "max": 777,
-    "samples": 108
+    "median": 445,
+    "max": 591,
+    "samples": 140
   },
   "RDU": {
-    "min": 54,
-    "median": 760,
-    "max": 849,
-    "samples": 64
-  },
-  "KOA": {
     "min": 55,
-    "median": 834,
-    "max": 1172,
-    "samples": 58
+    "median": 437,
+    "max": 507,
+    "samples": 122
   },
-  "SAV": {
-    "min": 55,
-    "median": 793,
-    "max": 1190,
-    "samples": 88
-  },
-  "CPT": {
-    "min": 50,
-    "median": 2015,
-    "max": 2762,
-    "samples": 64
-  },
-  "DUB": {
-    "min": 975,
-    "median": 1456,
-    "max": 1631,
-    "samples": 48
-  },
-  "GVA": {
-    "min": 50,
-    "median": 1145,
-    "max": 1280,
-    "samples": 80
-  },
-  "MHT": {
-    "min": 55,
-    "median": 731,
-    "max": 1052,
-    "samples": 76
-  },
-  "MUC": {
-    "min": 50,
-    "median": 1764,
-    "max": 2070,
-    "samples": 62
-  },
-  "SXF": {
-    "min": 74,
-    "median": 101,
-    "max": 174,
-    "samples": 5
+  "EUG": {
+    "min": 56,
+    "median": 237,
+    "max": 307,
+    "samples": 74
   },
   "STT": {
     "min": 50,
-    "median": 1785,
-    "max": 2150,
+    "median": 672,
+    "max": 804,
     "samples": 76
   },
-  "IND": {
-    "min": 391,
-    "median": 683,
-    "max": 693,
-    "samples": 78
-  },
-  "LIS": {
-    "min": 50,
-    "median": 1378,
-    "max": 1551,
-    "samples": 90
-  },
-  "RHO": {
-    "min": 50,
-    "median": 1815,
-    "max": 1820,
-    "samples": 34
-  },
-  "BOG": {
-    "min": 55,
-    "median": 1291,
-    "max": 1415,
-    "samples": 76
-  },
-  "CDO": {
-    "min": 74,
-    "median": 101,
-    "max": 174,
-    "samples": 5
-  },
-  "LJU": {
-    "min": 50,
-    "median": 1175,
-    "max": 1375,
-    "samples": 64
-  },
-  "JTR": {
-    "min": 50,
-    "median": 2023,
-    "max": 2407,
-    "samples": 82
-  },
-  "CVG": {
-    "min": 55,
-    "median": 629,
-    "max": 698,
-    "samples": 124
-  },
-  "FAI": {
-    "min": 52,
-    "median": 834,
-    "max": 1050,
-    "samples": 76
-  },
-  "TUL": {
-    "min": 50,
-    "median": 568,
-    "max": 668,
-    "samples": 104
-  },
-  "HRG": {
-    "min": 55,
-    "median": 1534,
-    "max": 2105,
-    "samples": 110
-  },
-  "BGI": {
-    "min": 55,
-    "median": 1698,
-    "max": 1876,
-    "samples": 52
-  },
-  "COU": {
-    "min": 59,
-    "median": 664,
-    "max": 812,
-    "samples": 64
-  },
-  "RSW": {
-    "min": 50,
-    "median": 894,
-    "max": 1089,
-    "samples": 116
-  },
-  "SFO": {
-    "min": 50,
-    "median": 224,
-    "max": 236,
-    "samples": 292
-  },
-  "DBV": {
-    "min": 55,
-    "median": 1457,
-    "max": 1526,
-    "samples": 64
-  },
-  "SJC": {
-    "min": 50,
-    "median": 282,
-    "max": 282,
-    "samples": 132
-  },
-  "ASR": {
-    "min": 55,
-    "median": 2233,
-    "max": 2473,
-    "samples": 34
-  },
-  "CHS": {
-    "min": 50,
-    "median": 830,
-    "max": 889,
-    "samples": 126
-  },
-  "ZNZ": {
-    "min": 50,
-    "median": 2129,
-    "max": 2482,
-    "samples": 82
-  },
-  "SHV": {
-    "min": 808,
-    "median": 888,
-    "max": 1062,
-    "samples": 102
-  },
-  "EAU": {
-    "min": 644,
-    "median": 678,
-    "max": 798,
-    "samples": 36
-  },
-  "SLC": {
-    "min": 57,
-    "median": 364,
-    "max": 492,
-    "samples": 64
-  },
-  "OPO": {
-    "min": 50,
-    "median": 1424,
-    "max": 1548,
-    "samples": 92
-  },
-  "VIE": {
-    "min": 55,
-    "median": 1338,
-    "max": 1638,
-    "samples": 66
-  },
-  "BOS": {
-    "min": 50,
-    "median": 708,
-    "max": 748,
-    "samples": 124
-  },
-  "MCO": {
-    "min": 50,
-    "median": 631,
-    "max": 874,
-    "samples": 128
-  },
-  "CHO": {
-    "min": 517,
-    "median": 1060,
-    "max": 1109,
-    "samples": 48
-  },
-  "LIT": {
-    "min": 50,
-    "median": 639,
-    "max": 774,
-    "samples": 80
-  },
-  "MDW": {
-    "min": 50,
-    "median": 502,
-    "max": 518,
-    "samples": 72
-  },
-  "YTN": {
-    "min": 74,
-    "median": 101,
-    "max": 174,
-    "samples": 5
-  },
-  "PIT": {
-    "min": 53,
-    "median": 631,
-    "max": 691,
-    "samples": 96
-  },
-  "BNA": {
-    "min": 53,
-    "median": 607,
-    "max": 650,
-    "samples": 68
-  },
-  "BCN": {
-    "min": 50,
-    "median": 1240,
-    "max": 1418,
-    "samples": 82
-  },
-  "MDE": {
-    "min": 1234,
-    "median": 1516,
-    "max": 1701,
-    "samples": 72
-  },
-  "GIG": {
-    "min": 50,
-    "median": 1239,
-    "max": 1583,
-    "samples": 84
-  },
-  "ICN": {
-    "min": 50,
-    "median": 1523,
-    "max": 2266,
-    "samples": 52
-  },
-  "RIC": {
-    "min": 51,
-    "median": 737,
-    "max": 807,
-    "samples": 124
+  "SWF": {
+    "min": 445,
+    "median": 454,
+    "max": 539,
+    "samples": 3
   },
   "ILM": {
     "min": 55,
-    "median": 1139,
-    "max": 1422,
-    "samples": 88
-  },
-  "TLH": {
-    "min": 59,
-    "median": 1069,
-    "max": 1182,
-    "samples": 58
-  },
-  "SVD": {
-    "min": 2630,
-    "median": 3006,
-    "max": 3142,
-    "samples": 18
-  },
-  "USM": {
-    "min": 1724,
-    "median": 2201,
-    "max": 3431,
-    "samples": 60
-  },
-  "VCE": {
-    "min": 50,
-    "median": 1218,
-    "max": 1283,
-    "samples": 82
-  },
-  "HKG": {
-    "min": 1301,
-    "median": 1455,
-    "max": 2013,
-    "samples": 48
-  },
-  "MGM": {
-    "min": 50,
-    "median": 1018,
-    "max": 1084,
-    "samples": 70
-  },
-  "BHM": {
-    "min": 52,
-    "median": 512,
-    "max": 655,
-    "samples": 100
-  },
-  "COS": {
-    "min": 50,
-    "median": 588,
-    "max": 775,
-    "samples": 72
-  },
-  "GSO": {
-    "min": 55,
-    "median": 989,
-    "max": 989,
-    "samples": 88
-  },
-  "RYY": {
-    "min": 50,
-    "median": 769,
-    "max": 1047,
-    "samples": 142
-  },
-  "ARN": {
-    "min": 50,
-    "median": 1036,
-    "max": 1181,
-    "samples": 78
-  },
-  "XSP": {
-    "min": 2368,
-    "median": 2435,
-    "max": 2485,
-    "samples": 30
-  },
-  "YYZ": {
-    "min": 477,
-    "median": 939,
-    "max": 941,
-    "samples": 66
-  },
-  "GLA": {
-    "min": 50,
-    "median": 1424,
-    "max": 1546,
+    "median": 563,
+    "max": 618,
     "samples": 64
   },
-  "TYS": {
-    "min": 50,
-    "median": 791,
-    "max": 1029,
-    "samples": 80
-  },
-  "CJS": {
-    "min": 1040,
-    "median": 1493,
-    "max": 3878,
-    "samples": 24
-  },
-  "AZA": {
-    "min": 170,
-    "median": 626,
-    "max": 626,
+  "AYC": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
     "samples": 2
   },
-  "SZX": {
+  "CNX": {
     "min": 50,
-    "median": 1819,
-    "max": 2625,
-    "samples": 74
-  },
-  "USH": {
-    "min": 50,
-    "median": 2872,
-    "max": 3226,
-    "samples": 38
-  },
-  "GRB": {
-    "min": 53,
-    "median": 733,
-    "max": 1091,
-    "samples": 66
-  },
-  "OCJ": {
-    "min": 1957,
-    "median": 2094,
-    "max": 2815,
-    "samples": 24
-  },
-  "DAR": {
-    "min": 50,
-    "median": 1879,
-    "max": 2214,
-    "samples": 40
-  },
-  "PVR": {
-    "min": 639,
-    "median": 1015,
-    "max": 1379,
-    "samples": 54
-  },
-  "SNN": {
-    "min": 50,
-    "median": 1741,
-    "max": 2029,
-    "samples": 70
-  },
-  "CHC": {
-    "min": 1457,
-    "median": 1577,
-    "max": 2359,
-    "samples": 54
-  },
-  "SJO": {
-    "min": 50,
-    "median": 1138,
-    "max": 1192,
-    "samples": 38
-  },
-  "MSY": {
-    "min": 50,
-    "median": 544,
-    "max": 624,
-    "samples": 98
-  },
-  "KCI": {
-    "min": 50,
-    "median": 612,
-    "max": 637,
+    "median": 1927,
+    "max": 2066,
     "samples": 68
   },
-  "CMH": {
-    "min": 55,
-    "median": 667,
-    "max": 806,
-    "samples": 64
-  },
-  "CLT": {
-    "min": 55,
-    "median": 592,
-    "max": 672,
-    "samples": 78
-  },
-  "JAC": {
-    "min": 57,
-    "median": 807,
-    "max": 994,
-    "samples": 78
-  },
-  "LIM": {
+  "ZNZ": {
     "min": 50,
-    "median": 1405,
-    "max": 1434,
-    "samples": 44
-  },
-  "ATL": {
-    "min": 50,
-    "median": 769,
-    "max": 1047,
-    "samples": 142
-  },
-  "GEG": {
-    "min": 50,
-    "median": 457,
-    "max": 487,
-    "samples": 56
-  },
-  "YSN": {
-    "min": 74,
-    "median": 131,
-    "max": 161,
-    "samples": 6
-  },
-  "ARK": {
-    "min": 1985,
     "median": 2259,
-    "max": 2264,
-    "samples": 24
+    "max": 2895,
+    "samples": 82
   },
-  "GJT": {
+  "SYR": {
     "min": 59,
-    "median": 610,
-    "max": 715,
-    "samples": 44
-  },
-  "PLP": {
-    "min": 74,
-    "median": 131,
-    "max": 161,
-    "samples": 6
-  },
-  "NRT": {
-    "min": 55,
-    "median": 2093,
-    "max": 2262,
-    "samples": 50
-  },
-  "MSN": {
-    "min": 50,
-    "median": 944,
-    "max": 1035,
-    "samples": 56
-  },
-  "AGP": {
-    "min": 50,
-    "median": 1753,
-    "max": 2043,
-    "samples": 64
-  },
-  "SLO": {
-    "min": 101,
-    "median": 117,
-    "max": 131,
-    "samples": 6
-  },
-  "ICT": {
-    "min": 57,
-    "median": 586,
-    "max": 636,
-    "samples": 62
-  },
-  "DLH": {
-    "min": 826,
-    "median": 1178,
-    "max": 1306,
-    "samples": 48
-  },
-  "IAD": {
-    "min": 59,
-    "median": 692,
-    "max": 824,
-    "samples": 56
-  },
-  "PHL": {
-    "min": 50,
-    "median": 827,
-    "max": 887,
-    "samples": 116
-  },
-  "BER": {
-    "min": 50,
-    "median": 1185,
-    "max": 1321,
+    "median": 490,
+    "max": 547,
     "samples": 98
-  },
-  "CID": {
-    "min": 50,
-    "median": 623,
-    "max": 906,
-    "samples": 58
-  },
-  "BTV": {
-    "min": 50,
-    "median": 1262,
-    "max": 1419,
-    "samples": 70
-  },
-  "ROA": {
-    "min": 51,
-    "median": 779,
-    "max": 896,
-    "samples": 76
-  },
-  "MSP": {
-    "min": 50,
-    "median": 461,
-    "max": 658,
-    "samples": 122
-  },
-  "MME": {
-    "min": 50,
-    "median": 1683,
-    "max": 1883,
-    "samples": 66
-  },
-  "BLQ": {
-    "min": 50,
-    "median": 1294,
-    "max": 1574,
-    "samples": 54
-  },
-  "MCCARRAN": {
-    "min": 50,
-    "median": 202,
-    "max": 345,
-    "samples": 212
-  },
-  "JAN": {
-    "min": 574,
-    "median": 689,
-    "max": 868,
-    "samples": 54
-  },
-  "IDH": {
-    "min": 55,
-    "median": 421,
-    "max": 510,
-    "samples": 114
-  },
-  "CUZ": {
-    "min": 55,
-    "median": 1575,
-    "max": 1784,
-    "samples": 58
-  },
-  "BGR": {
-    "min": 893,
-    "median": 1276,
-    "max": 1719,
-    "samples": 54
-  },
-  "RFD": {
-    "min": 326,
-    "median": 526,
-    "max": 533,
-    "samples": 3
-  },
-  "ORF": {
-    "min": 55,
-    "median": 623,
-    "max": 1147,
-    "samples": 104
-  },
-  "NGO": {
-    "min": 50,
-    "median": 2069,
-    "max": 2591,
-    "samples": 76
-  },
-  "DMK": {
-    "min": 50,
-    "median": 4085,
-    "max": 5802,
-    "samples": 58
-  },
-  "CUN": {
-    "min": 57,
-    "median": 1323,
-    "max": 1628,
-    "samples": 64
-  },
-  "ELP": {
-    "min": 52,
-    "median": 431,
-    "max": 508,
-    "samples": 64
-  },
-  "GMP": {
-    "min": 50,
-    "median": 2920,
-    "max": 3333,
-    "samples": 52
-  },
-  "FCO": {
-    "min": 55,
-    "median": 1546,
-    "max": 1780,
-    "samples": 66
-  },
-  "EYW": {
-    "min": 52,
-    "median": 1278,
-    "max": 1317,
-    "samples": 84
-  },
-  "LEX": {
-    "min": 55,
-    "median": 685,
-    "max": 889,
-    "samples": 88
-  },
-  "CMN": {
-    "min": 50,
-    "median": 1722,
-    "max": 1794,
-    "samples": 68
-  },
-  "RDW": {
-    "min": 50,
-    "median": 769,
-    "max": 1050,
-    "samples": 96
-  },
-  "AVV": {
-    "min": 1144,
-    "median": 1157,
-    "max": 2110,
-    "samples": 42
-  },
-  "EDI": {
-    "min": 50,
-    "median": 1391,
-    "max": 1515,
-    "samples": 78
-  },
-  "PHF": {
-    "min": 55,
-    "median": 864,
-    "max": 1071,
-    "samples": 28
-  },
-  "STS": {
-    "min": 56,
-    "median": 357,
-    "max": 362,
-    "samples": 34
   },
   "CGK": {
     "min": 50,
-    "median": 1684,
-    "max": 2040,
-    "samples": 56
+    "median": 1535,
+    "max": 1753,
+    "samples": 68
   },
-  "MKE": {
+  "AEP": {
+    "min": 1196,
+    "median": 1994,
+    "max": 3919,
+    "samples": 60
+  },
+  "SJD": {
     "min": 50,
-    "median": 612,
-    "max": 714,
-    "samples": 92
+    "median": 381,
+    "max": 410,
+    "samples": 60
   },
-  "TUS": {
-    "min": 53,
-    "median": 328,
-    "max": 346,
+  "TSA": {
+    "min": 1210,
+    "median": 1871,
+    "max": 2095,
+    "samples": 36
+  },
+  "HND": {
+    "min": 55,
+    "median": 1105,
+    "max": 1233,
     "samples": 62
   },
-  "EAC": {
-    "min": 74,
-    "median": 131,
-    "max": 151,
-    "samples": 6
+  "MYR": {
+    "min": 51,
+    "median": 382,
+    "max": 513,
+    "samples": 76
   },
-  "FAO": {
+  "LIS": {
     "min": 50,
-    "median": 1711,
-    "max": 2177,
-    "samples": 78
+    "median": 811,
+    "max": 1027,
+    "samples": 66
   },
-  "STL": {
+  "HAN": {
     "min": 55,
-    "median": 525,
-    "max": 571,
-    "samples": 52
+    "median": 1670,
+    "max": 1893,
+    "samples": 50
   },
-  "OMA": {
+  "BZN": {
     "min": 50,
-    "median": 464,
-    "max": 533,
-    "samples": 64
+    "median": 369,
+    "max": 369,
+    "samples": 72
   },
-  "RDM": {
-    "min": 59,
-    "median": 512,
-    "max": 537,
-    "samples": 44
+  "MSP": {
+    "min": 222,
+    "median": 419,
+    "max": 419,
+    "samples": 60
   },
-  "LAP": {
+  "PBI": {
     "min": 53,
-    "median": 1685,
-    "max": 1835,
-    "samples": 34
+    "median": 387,
+    "max": 427,
+    "samples": 66
+  },
+  "CVG": {
+    "min": 50,
+    "median": 357,
+    "max": 428,
+    "samples": 118
+  },
+  "MMH": {
+    "min": 455,
+    "median": 533,
+    "max": 634,
+    "samples": 3
+  },
+  "YEW": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
+    "samples": 2
+  },
+  "BTV": {
+    "min": 51,
+    "median": 577,
+    "max": 601,
+    "samples": 58
+  },
+  "PVT": {
+    "min": 54,
+    "median": 466,
+    "max": 764,
+    "samples": 50
+  },
+  "OPO": {
+    "min": 808,
+    "median": 1102,
+    "max": 1287,
+    "samples": 66
+  },
+  "GDL": {
+    "min": 50,
+    "median": 590,
+    "max": 606,
+    "samples": 92
+  },
+  "HSV": {
+    "min": 50,
+    "median": 563,
+    "max": 677,
+    "samples": 84
+  },
+  "ANC": {
+    "min": 51,
+    "median": 523,
+    "max": 554,
+    "samples": 88
+  },
+  "RFD": {
+    "min": 213,
+    "median": 336,
+    "max": 470,
+    "samples": 3
   },
   "BDL": {
     "min": 50,
-    "median": 808,
-    "max": 1081,
-    "samples": 100
+    "median": 410,
+    "max": 428,
+    "samples": 96
   },
-  "CRW": {
-    "min": 55,
-    "median": 762,
-    "max": 1131,
-    "samples": 70
-  },
-  "LAS": {
+  "SLU": {
     "min": 50,
-    "median": 291,
-    "max": 310,
-    "samples": 152
+    "median": 1969,
+    "max": 2015,
+    "samples": 44
   },
-  "ILG": {
-    "min": 786,
-    "median": 1252,
-    "max": 1296,
+  "NAS": {
+    "min": 50,
+    "median": 428,
+    "max": 492,
+    "samples": 92
+  },
+  "BWI": {
+    "min": 55,
+    "median": 412,
+    "max": 430,
+    "samples": 80
+  },
+  "LJU": {
+    "min": 50,
+    "median": 1224,
+    "max": 1294,
+    "samples": 52
+  },
+  "SIN": {
+    "min": 50,
+    "median": 1933,
+    "max": 2471,
+    "samples": 92
+  },
+  "PLY": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
+    "samples": 2
+  },
+  "CLT": {
+    "min": 50,
+    "median": 471,
+    "max": 481,
+    "samples": 120
+  },
+  "PVD": {
+    "min": 50,
+    "median": 402,
+    "max": 443,
+    "samples": 102
+  },
+  "PHF": {
+    "min": 55,
+    "median": 631,
+    "max": 631,
+    "samples": 36
+  },
+  "ONT": {
+    "min": 50,
+    "median": 283,
+    "max": 320,
+    "samples": 92
+  },
+  "FCO": {
+    "min": 53,
+    "median": 791,
+    "max": 844,
+    "samples": 64
+  },
+  "GMP": {
+    "min": 1432,
+    "median": 1944,
+    "max": 2087,
     "samples": 48
   },
-  "JRO": {
+  "PSA": {
+    "min": 1455,
+    "median": 1455,
+    "max": 1455,
+    "samples": 12
+  },
+  "BOI": {
     "min": 50,
-    "median": 1873,
-    "max": 2971,
+    "median": 322,
+    "max": 387,
+    "samples": 70
+  },
+  "PHX": {
+    "min": 55,
+    "median": 157,
+    "max": 204,
+    "samples": 156
+  },
+  "BLQ": {
+    "min": 50,
+    "median": 978,
+    "max": 1030,
+    "samples": 58
+  },
+  "ALW": {
+    "min": 476,
+    "median": 530,
+    "max": 1361,
+    "samples": 42
+  },
+  "ACK": {
+    "min": 52,
+    "median": 1094,
+    "max": 1120,
+    "samples": 42
+  },
+  "SFB": {
+    "min": 229,
+    "median": 518,
+    "max": 557,
+    "samples": 3
+  },
+  "MRY": {
+    "min": 51,
+    "median": 249,
+    "max": 554,
+    "samples": 66
+  },
+  "MTJ": {
+    "min": 50,
+    "median": 399,
+    "max": 609,
+    "samples": 66
+  },
+  "TLH": {
+    "min": 55,
+    "median": 577,
+    "max": 577,
+    "samples": 80
+  },
+  "MDE": {
+    "min": 55,
+    "median": 992,
+    "max": 1163,
     "samples": 56
   },
-  "SYR": {
-    "min": 51,
-    "median": 1059,
-    "max": 1159,
+  "CHA": {
+    "min": 52,
+    "median": 563,
+    "max": 720,
+    "samples": 104
+  },
+  "XNA": {
+    "min": 50,
+    "median": 357,
+    "max": 528,
     "samples": 62
   },
   "CAI": {
     "min": 50,
-    "median": 1356,
-    "max": 1702,
-    "samples": 108
-  },
-  "EGE": {
-    "min": 50,
-    "median": 858,
-    "max": 1108,
-    "samples": 40
-  },
-  "TSA": {
-    "min": 50,
-    "median": 3401,
-    "max": 3884,
-    "samples": 40
-  },
-  "PRG": {
-    "min": 50,
-    "median": 1376,
-    "max": 1686,
-    "samples": 76
-  },
-  "SJU": {
-    "min": 55,
-    "median": 1145,
-    "max": 1321,
-    "samples": 124
-  },
-  "MAF": {
-    "min": 55,
-    "median": 531,
-    "max": 558,
-    "samples": 40
-  },
-  "GDL": {
-    "min": 55,
-    "median": 735,
-    "max": 801,
+    "median": 1275,
+    "max": 1380,
     "samples": 68
   },
-  "JAL": {
-    "min": 787,
-    "median": 810,
-    "max": 830,
-    "samples": 3
-  },
-  "IGU": {
-    "min": 50,
-    "median": 1777,
-    "max": 1945,
-    "samples": 94
-  },
-  "SWF": {
-    "min": 697,
-    "median": 779,
-    "max": 784,
-    "samples": 3
-  },
-  "CTG": {
-    "min": 50,
-    "median": 1452,
-    "max": 1703,
-    "samples": 62
-  },
-  "INN": {
-    "min": 50,
-    "median": 2145,
-    "max": 2518,
-    "samples": 28
-  },
-  "AVL": {
-    "min": 53,
-    "median": 909,
-    "max": 1062,
-    "samples": 90
-  },
-  "ABQ": {
-    "min": 55,
-    "median": 307,
-    "max": 432,
-    "samples": 54
-  },
-  "DAD": {
-    "min": 1587,
-    "median": 1824,
-    "max": 1992,
-    "samples": 36
-  },
-  "GAN": {
-    "min": 2109,
-    "median": 2449,
-    "max": 2634,
-    "samples": 54
-  },
-  "PIB": {
-    "min": 635,
-    "median": 689,
-    "max": 689,
-    "samples": 12
-  },
-  "TFS": {
-    "min": 50,
-    "median": 1649,
-    "max": 2146,
-    "samples": 42
-  },
-  "YVR": {
-    "min": 56,
-    "median": 571,
-    "max": 730,
-    "samples": 76
-  },
-  "MLE": {
-    "min": 50,
-    "median": 2514,
-    "max": 3309,
-    "samples": 70
-  },
-  "DENVER": {
-    "min": 50,
-    "median": 294,
-    "max": 343,
-    "samples": 156
-  },
   "ADB": {
-    "min": 1641,
-    "median": 1843,
-    "max": 2265,
-    "samples": 66
+    "min": 1435,
+    "median": 1590,
+    "max": 1660,
+    "samples": 24
   },
-  "FLL": {
-    "min": 52,
-    "median": 1016,
-    "max": 1323,
-    "samples": 74
-  },
-  "AIA": {
-    "min": 50,
-    "median": 746,
-    "max": 807,
-    "samples": 52
-  },
-  "SIN": {
-    "min": 55,
-    "median": 1886,
-    "max": 3077,
-    "samples": 44
-  },
-  "SAW": {
-    "min": 1971,
-    "median": 2944,
-    "max": 5155,
-    "samples": 18
-  },
-  "PNS": {
-    "min": 50,
-    "median": 649,
-    "max": 808,
-    "samples": 128
-  },
-  "SYD": {
-    "min": 51,
-    "median": 1292,
-    "max": 1419,
-    "samples": 44
-  },
-  "AUA": {
-    "min": 50,
-    "median": 1565,
-    "max": 1872,
-    "samples": 104
-  },
-  "DTW": {
-    "min": 54,
-    "median": 484,
-    "max": 1253,
-    "samples": 90
-  },
-  "YYJ": {
-    "min": 52,
-    "median": 712,
-    "max": 955,
-    "samples": 72
-  },
-  "SPI": {
-    "min": 586,
-    "median": 649,
-    "max": 649,
-    "samples": 12
-  },
-  "HAN": {
-    "min": 1401,
-    "median": 1692,
-    "max": 3079,
+  "MAF": {
+    "min": 235,
+    "median": 235,
+    "max": 648,
     "samples": 54
   },
-  "IDA": {
-    "min": 53,
-    "median": 728,
-    "max": 828,
+  "GEG": {
+    "min": 291,
+    "median": 327,
+    "max": 417,
+    "samples": 48
+  },
+  "DAR": {
+    "min": 50,
+    "median": 2380,
+    "max": 2586,
     "samples": 56
   },
-  "HND": {
-    "min": 50,
-    "median": 1982,
-    "max": 2494,
-    "samples": 76
-  },
-  "SAN": {
-    "min": 55,
-    "median": 289,
-    "max": 468,
+  "BIL": {
+    "min": 52,
+    "median": 443,
+    "max": 560,
     "samples": 62
   },
-  "AQJ": {
-    "min": 1800,
-    "median": 2402,
-    "max": 2402,
-    "samples": 36
+  "EAC": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
+    "samples": 2
   },
   "HKT": {
     "min": 50,
-    "median": 1964,
-    "max": 2603,
-    "samples": 68
-  },
-  "KEF": {
-    "min": 50,
-    "median": 1525,
-    "max": 1684,
-    "samples": 84
-  },
-  "AKL": {
-    "min": 50,
-    "median": 1516,
-    "max": 1616,
-    "samples": 46
-  },
-  "PVT": {
-    "min": 639,
-    "median": 1015,
-    "max": 1379,
-    "samples": 54
-  },
-  "KYA": {
-    "min": 1232,
-    "median": 1232,
-    "max": 1232,
-    "samples": 12
-  },
-  "MRY": {
-    "min": 51,
-    "median": 229,
-    "max": 996,
-    "samples": 52
-  },
-  "EZE": {
-    "min": 55,
-    "median": 1337,
-    "max": 1640,
-    "samples": 80
-  },
-  "IAH": {
-    "min": 55,
-    "median": 421,
-    "max": 508,
-    "samples": 114
-  },
-  "BKK": {
-    "min": 50,
-    "median": 1645,
-    "max": 2424,
-    "samples": 82
-  },
-  "SDQ": {
-    "min": 50,
-    "median": 1114,
-    "max": 1792,
-    "samples": 84
-  },
-  "ZAG": {
-    "min": 50,
-    "median": 1288,
-    "max": 1583,
-    "samples": 76
-  },
-  "PLS": {
-    "min": 55,
-    "median": 1459,
-    "max": 3071,
-    "samples": 70
-  },
-  "LIH": {
-    "min": 532,
-    "median": 1157,
-    "max": 1398,
-    "samples": 66
-  },
-  "RAK": {
-    "min": 50,
-    "median": 1765,
-    "max": 1996,
-    "samples": 78
-  },
-  "RAP": {
-    "min": 50,
-    "median": 681,
-    "max": 934,
-    "samples": 86
-  },
-  "BWI": {
-    "min": 55,
-    "median": 793,
-    "max": 845,
-    "samples": 66
-  },
-  "CHA": {
-    "min": 52,
-    "median": 757,
-    "max": 908,
-    "samples": 100
-  },
-  "BRC": {
-    "min": 2365,
-    "median": 2652,
-    "max": 2836,
-    "samples": 66
-  },
-  "MEX": {
-    "min": 55,
-    "median": 1012,
-    "max": 1155,
-    "samples": 80
-  },
-  "MYR": {
-    "min": 55,
-    "median": 928,
-    "max": 1112,
-    "samples": 66
-  },
-  "YQB": {
-    "min": 50,
-    "median": 857,
-    "max": 1072,
+    "median": 2019,
+    "max": 2986,
     "samples": 64
-  },
-  "MMH": {
-    "min": 289,
-    "median": 499,
-    "max": 499,
-    "samples": 2
-  },
-  "OAK": {
-    "min": 55,
-    "median": 321,
-    "max": 347,
-    "samples": 62
-  },
-  "ATH": {
-    "min": 50,
-    "median": 1175,
-    "max": 1227,
-    "samples": 70
   },
   "PDX": {
-    "min": 54,
-    "median": 461,
-    "max": 538,
-    "samples": 110
-  },
-  "STN": {
-    "min": 919,
-    "median": 919,
-    "max": 919,
-    "samples": 6
-  },
-  "SPU": {
     "min": 55,
-    "median": 1656,
-    "max": 1814,
-    "samples": 70
+    "median": 267,
+    "max": 302,
+    "samples": 120
   },
-  "ORK": {
-    "min": 50,
-    "median": 1623,
-    "max": 1884,
-    "samples": 62
-  },
-  "GSP": {
-    "min": 54,
-    "median": 778,
-    "max": 878,
-    "samples": 86
-  },
-  "XNA": {
-    "min": 50,
-    "median": 744,
-    "max": 813,
-    "samples": 82
-  },
-  "EIN": {
-    "min": 50,
-    "median": 1583,
-    "max": 1664,
-    "samples": 50
-  },
-  "ONT": {
-    "min": 50,
-    "median": 668,
-    "max": 727,
-    "samples": 134
-  },
-  "CTM": {
+  "ICT": {
     "min": 52,
-    "median": 1746,
-    "max": 5315,
-    "samples": 24
+    "median": 382,
+    "max": 438,
+    "samples": 130
   },
-  "CLE": {
-    "min": 50,
-    "median": 679,
-    "max": 700,
-    "samples": 56
-  },
-  "YUL": {
-    "min": 50,
-    "median": 870,
-    "max": 1223,
-    "samples": 58
-  },
-  "YHM": {
-    "min": 702,
-    "median": 809,
-    "max": 1227,
-    "samples": 48
-  },
-  "BON": {
-    "min": 1228,
-    "median": 1228,
-    "max": 1228,
-    "samples": 6
-  },
-  "ORY": {
-    "min": 1253,
-    "median": 1820,
-    "max": 2025,
+  "AVV": {
+    "min": 1732,
+    "median": 2868,
+    "max": 3149,
     "samples": 42
   },
-  "MSO": {
-    "min": 57,
-    "median": 1016,
-    "max": 1239,
-    "samples": 70
-  },
-  "ANC": {
-    "min": 57,
-    "median": 659,
-    "max": 680,
-    "samples": 66
-  },
-  "MCI": {
-    "min": 50,
-    "median": 602,
-    "max": 630,
-    "samples": 64
-  },
-  "AUS": {
-    "min": 52,
-    "median": 425,
-    "max": 524,
-    "samples": 98
-  },
-  "DEN": {
-    "min": 50,
-    "median": 297,
-    "max": 370,
-    "samples": 180
-  },
-  "DWS": {
-    "min": 101,
-    "median": 117,
-    "max": 131,
-    "samples": 6
-  },
-  "JFK": {
-    "min": 50,
-    "median": 1153,
-    "max": 1317,
-    "samples": 220
-  },
-  "MLB": {
-    "min": 58,
-    "median": 1287,
-    "max": 1559,
-    "samples": 46
-  },
-  "SUN": {
-    "min": 53,
-    "median": 1077,
-    "max": 1292,
-    "samples": 60
-  },
-  "DAB": {
-    "min": 54,
-    "median": 938,
-    "max": 1154,
-    "samples": 38
-  },
-  "SBP": {
-    "min": 50,
-    "median": 369,
-    "max": 1001,
-    "samples": 69
-  },
-  "HYA": {
-    "min": 50,
-    "median": 1467,
-    "max": 1556,
-    "samples": 64
-  },
-  "BUD": {
-    "min": 50,
-    "median": 1212,
-    "max": 1273,
-    "samples": 70
-  },
-  "VST": {
-    "min": 785,
-    "median": 785,
-    "max": 785,
-    "samples": 1
-  },
-  "REU": {
-    "min": 855,
-    "median": 855,
-    "max": 855,
-    "samples": 1
-  },
-  "BRN": {
-    "min": 987,
-    "median": 987,
-    "max": 987,
-    "samples": 1
-  },
-  "TSF": {
-    "min": 881,
-    "median": 881,
-    "max": 881,
-    "samples": 1
-  },
-  "XOX": {
-    "min": 101,
-    "median": 117,
-    "max": 131,
-    "samples": 6
-  },
-  "PBI": {
+  "AVL": {
     "min": 55,
-    "median": 933,
-    "max": 1093,
-    "samples": 58
+    "median": 469,
+    "max": 539,
+    "samples": 92
   },
-  "EWR": {
-    "min": 50,
-    "median": 944,
-    "max": 1065,
-    "samples": 112
-  },
-  "BUF": {
-    "min": 424,
-    "median": 674,
-    "max": 1178,
-    "samples": 48
-  },
-  "YLW": {
-    "min": 436,
-    "median": 621,
-    "max": 810,
-    "samples": 60
-  },
-  "AMS": {
-    "min": 50,
-    "median": 1478,
-    "max": 1482,
+  "IDA": {
+    "min": 51,
+    "median": 581,
+    "max": 711,
     "samples": 74
   },
-  "YTZ": {
-    "min": 52,
-    "median": 671,
-    "max": 921,
-    "samples": 42
+  "PWM": {
+    "min": 424,
+    "median": 528,
+    "max": 599,
+    "samples": 72
   },
-  "ALW": {
+  "CXJ": {
     "min": 55,
-    "median": 668,
+    "median": 2003,
+    "max": 3202,
+    "samples": 60
+  },
+  "YLW": {
+    "min": 58,
+    "median": 513,
     "max": 680,
-    "samples": 34
+    "samples": 64
   },
-  "TPA": {
-    "min": 586,
-    "median": 688,
-    "max": 757,
-    "samples": 60
-  },
-  "PFN": {
-    "min": 101,
-    "median": 117,
-    "max": 131,
-    "samples": 6
-  },
-  "SDU": {
-    "min": 55,
-    "median": 1435,
-    "max": 2112,
-    "samples": 90
-  },
-  "BOI": {
+  "LEX": {
     "min": 50,
-    "median": 397,
-    "max": 542,
-    "samples": 62
+    "median": 469,
+    "max": 552,
+    "samples": 52
   },
-  "ZRH": {
-    "min": 1180,
-    "median": 1677,
-    "max": 1684,
-    "samples": 66
-  },
-  "SJD": {
+  "SAW": {
     "min": 50,
-    "median": 1222,
-    "max": 1329,
-    "samples": 70
+    "median": 1781,
+    "max": 2067,
+    "samples": 36
   },
-  "OGG": {
-    "min": 583,
-    "median": 996,
-    "max": 1115,
-    "samples": 60
+  "TPE": {
+    "min": 50,
+    "median": 1556,
+    "max": 1679,
+    "samples": 58
   },
   "DXB": {
     "min": 50,
-    "median": 1234,
-    "max": 1488,
-    "samples": 64
-  },
-  "QQQ": {
-    "min": 101,
-    "median": 117,
-    "max": 131,
-    "samples": 6
-  },
-  "OGD": {
-    "min": 282,
-    "median": 403,
-    "max": 633,
-    "samples": 3
-  }
-}: 146
-  },
-  "AEP": {
-    "min": 55,
-    "median": 1233,
-    "max": 1902,
-    "samples": 86
-  },
-  "NLU": {
-    "min": 437,
-    "median": 720,
-    "max": 720,
-    "samples": 12
-  },
-  "BUE": {
-    "min": 55,
-    "median": 873,
-    "max": 1252,
-    "samples": 84
-  },
-  "NAS": {
-    "min": 50,
-    "median": 543,
-    "max": 607,
-    "samples": 68
-  },
-  "VER": {
-    "min": 55,
-    "median": 780,
-    "max": 890,
+    "median": 1215,
+    "max": 2060,
     "samples": 52
   },
-  "STI": {
-    "min": 53,
-    "median": 742,
-    "max": 1281,
-    "samples": 84
-  },
-  "RNO": {
-    "min": 55,
-    "median": 379,
-    "max": 399,
-    "samples": 56
-  },
-  "SMF": {
+  "BKK": {
     "min": 50,
-    "median": 359,
-    "max": 413,
-    "samples": 118
+    "median": 1673,
+    "max": 1868,
+    "samples": 74
   },
-  "AYC": {
-    "min": 68,
-    "median": 101,
-    "max": 161,
-    "samples": 6
-  },
-  "RKV": {
-    "min": 815,
-    "median": 815,
-    "max": 815,
-    "samples": 1
-  },
-  "HSV": {
-    "min": 53,
-    "median": 777,
-    "max": 875,
-    "samples": 66
-  },
-  "MTJ": {
-    "min": 416,
-    "median": 726,
-    "max": 747,
-    "samples": 36
-  },
-  "ROC": {
-    "min": 691,
-    "median": 812,
-    "max": 1068,
+  "RAK": {
+    "min": 50,
+    "median": 939,
+    "max": 1189,
     "samples": 54
   },
-  "HOU": {
-    "min": 55,
-    "median": 409,
-    "max": 513,
-    "samples": 122
-  },
-  "VCP": {
-    "min": 55,
-    "median": 1568,
-    "max": 5295,
-    "samples": 26
-  },
-  "CUR": {
-    "min": 50,
-    "median": 742,
-    "max": 945,
-    "samples": 76
-  },
-  "HDN": {
-    "min": 458,
-    "median": 679,
-    "max": 742,
-    "samples": 36
-  },
-  "PSA": {
-    "min": 729,
-    "median": 814,
-    "max": 916,
-    "samples": 5
-  },
-  "NAP": {
-    "min": 791,
-    "median": 1163,
-    "max": 5037,
-    "samples": 30
-  },
-  "BTR": {
-    "min": 50,
-    "median": 716,
-    "max": 809,
-    "samples": 56
-  },
-  "DCA": {
-    "min": 55,
-    "median": 793,
-    "max": 941,
-    "samples": 50
-  },
-  "PLY": {
-    "min": 68,
-    "median": 91,
-    "max": 101,
-    "samples": 6
-  },
-  "BHB": {
-    "min": 58,
-    "median": 1039,
-    "max": 1165,
-    "samples": 32
-  },
-  "UKB": {
-    "min": 1000,
-    "median": 1123,
-    "max": 1372,
-    "samples": 42
-  },
-  "CIU": {
-    "min": 464,
-    "median": 1034,
-    "max": 1044,
+  "OCJ": {
+    "min": 924,
+    "median": 1002,
+    "max": 1488,
     "samples": 24
   },
-  "BZE": {
-    "min": 53,
-    "median": 505,
-    "max": 524,
-    "samples": 44
-  },
-  "TVC": {
-    "min": 53,
-    "median": 849,
-    "max": 1016,
-    "samples": 50
-  },
-  "ASE": {
-    "min": 57,
-    "median": 689,
-    "max": 941,
-    "samples": 44
-  },
-  "SLU": {
-    "min": 55,
-    "median": 2180,
-    "max": 3638,
-    "samples": 46
-  },
-  "KLM": {
-    "min": 68,
-    "median": 91,
-    "max": 101,
-    "samples": 6
-  },
-  "MXP": {
-    "min": 50,
-    "median": 756,
-    "max": 808,
-    "samples": 68
-  },
-  "YEW": {
-    "min": 68,
-    "median": 91,
-    "max": 101,
-    "samples": 6
-  },
-  "MFR": {
-    "min": 327,
-    "median": 397,
-    "max": 507,
-    "samples": 30
-  },
-  "IST": {
-    "min": 55,
-    "median": 912,
-    "max": 963,
-    "samples": 44
-  },
-  "LGA": {
-    "min": 50,
-    "median": 757,
-    "max": 1030,
-    "samples": 96
-  },
-  "KIX": {
-    "min": 890,
-    "median": 1036,
-    "max": 1128,
-    "samples": 48
+  "BHM": {
+    "min": 52,
+    "median": 430,
+    "max": 499,
+    "samples": 58
   },
   "ITM": {
-    "min": 55,
-    "median": 1179,
-    "max": 1338,
-    "samples": 52
+    "min": 1136,
+    "median": 1431,
+    "max": 1552,
+    "samples": 60
   },
-  "YYC": {
-    "min": 58,
-    "median": 360,
-    "max": 393,
-    "samples": 38
+  "ASR": {
+    "min": 1648,
+    "median": 1975,
+    "max": 2327,
+    "samples": 24
   },
-  "LGW": {
+  "BNE": {
     "min": 50,
-    "median": 1016,
-    "max": 1058,
-    "samples": 52
+    "median": 1586,
+    "max": 2612,
+    "samples": 44
   },
-  "RTM": {
-    "min": 827,
-    "median": 946,
-    "max": 946,
+  "YSN": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
     "samples": 2
   },
-  "EUG": {
-    "min": 322,
-    "median": 532,
-    "max": 567,
-    "samples": 42
+  "DWS": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
+    "samples": 2
   },
-  "SEA": {
+  "SNN": {
     "min": 50,
-    "median": 345,
-    "max": 482,
-    "samples": 192
+    "median": 1080,
+    "max": 1126,
+    "samples": 68
   },
-  "LIR": {
+  "LHR": {
+    "min": 50,
+    "median": 1062,
+    "max": 1134,
+    "samples": 88
+  },
+  "FAO": {
+    "min": 50,
+    "median": 1753,
+    "max": 1943,
+    "samples": 70
+  },
+  "ORF": {
+    "min": 55,
+    "median": 573,
+    "max": 604,
+    "samples": 84
+  },
+  "YTN": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
+    "samples": 2
+  },
+  "RAP": {
+    "min": 56,
+    "median": 397,
+    "max": 409,
+    "samples": 72
+  },
+  "MSO": {
+    "min": 52,
+    "median": 369,
+    "max": 414,
+    "samples": 58
+  },
+  "AZA": {
+    "min": 66,
+    "median": 373,
+    "max": 373,
+    "samples": 2
+  },
+  "JAN": {
+    "min": 369,
+    "median": 450,
+    "max": 589,
+    "samples": 72
+  },
+  "CDG": {
+    "min": 50,
+    "median": 1153,
+    "max": 1188,
+    "samples": 98
+  },
+  "BUD": {
+    "min": 50,
+    "median": 1012,
+    "max": 1212,
+    "samples": 58
+  },
+  "STI": {
+    "min": 737,
+    "median": 999,
+    "max": 1269,
+    "samples": 78
+  },
+  "YVR": {
+    "min": 52,
+    "median": 441,
+    "max": 589,
+    "samples": 82
+  },
+  "MCCARRAN": {
+    "min": 50,
+    "median": 117,
+    "max": 224,
+    "samples": 206
+  },
+  "IND": {
+    "min": 50,
+    "median": 389,
+    "max": 398,
+    "samples": 56
+  },
+  "CJS": {
+    "min": 58,
+    "median": 1058,
+    "max": 1079,
+    "samples": 22
+  },
+  "STN": {
+    "min": 55,
+    "median": 2560,
+    "max": 2650,
+    "samples": 14
+  },
+  "TUS": {
     "min": 54,
-    "median": 562,
-    "max": 655,
-    "samples": 32
+    "median": 127,
+    "max": 147,
+    "samples": 56
   },
-  "SUB": {
-    "min": 1055,
-    "median": 1558,
-    "max": 1622,
+  "MLB": {
+    "min": 55,
+    "median": 693,
+    "max": 728,
     "samples": 48
   },
-  "JNU": {
-    "min": 55,
-    "median": 1098,
-    "max": 1263,
-    "samples": 40
+  "CIU": {
+    "min": 53,
+    "median": 564,
+    "max": 944,
+    "samples": 34
   },
-  "CAN": {
+  "PUJ": {
+    "min": 536,
+    "median": 693,
+    "max": 769,
+    "samples": 72
+  },
+  "BOS": {
+    "min": 53,
+    "median": 422,
+    "max": 447,
+    "samples": 138
+  },
+  "SEA": {
+    "min": 52,
+    "median": 267,
+    "max": 297,
+    "samples": 178
+  },
+  "CUZ": {
     "min": 55,
-    "median": 845,
-    "max": 906,
-    "samples": 38
+    "median": 1494,
+    "max": 2387,
+    "samples": 50
+  },
+  "DBV": {
+    "min": 55,
+    "median": 1504,
+    "max": 1630,
+    "samples": 76
+  },
+  "MDT": {
+    "min": 54,
+    "median": 536,
+    "max": 596,
+    "samples": 68
+  },
+  "ROC": {
+    "min": 50,
+    "median": 479,
+    "max": 632,
+    "samples": 90
+  },
+  "SDF": {
+    "min": 50,
+    "median": 346,
+    "max": 439,
+    "samples": 100
+  },
+  "MDW": {
+    "min": 50,
+    "median": 317,
+    "max": 337,
+    "samples": 66
   },
   "MBJ": {
     "min": 50,
-    "median": 560,
-    "max": 771,
+    "median": 715,
+    "max": 772,
+    "samples": 116
+  },
+  "LIR": {
+    "min": 50,
+    "median": 708,
+    "max": 826,
     "samples": 60
   },
-  "KIN": {
-    "min": 52,
-    "median": 894,
-    "max": 1198,
-    "samples": 60
+  "CTG": {
+    "min": 50,
+    "median": 645,
+    "max": 788,
+    "samples": 62
   },
-  "CJU": {
+  "CRW": {
+    "min": 388,
+    "median": 517,
+    "max": 528,
+    "samples": 42
+  },
+  "IAD": {
     "min": 55,
-    "median": 1358,
-    "max": 1531,
-    "samples": 32
+    "median": 418,
+    "max": 447,
+    "samples": 82
   },
-  "SAF": {
-    "min": 400,
-    "median": 468,
-    "max": 504,
+  "DAD": {
+    "min": 1213,
+    "median": 1679,
+    "max": 1876,
+    "samples": 54
+  },
+  "DMK": {
+    "min": 50,
+    "median": 3729,
+    "max": 5169,
+    "samples": 22
+  },
+  "FCA": {
+    "min": 51,
+    "median": 379,
+    "max": 479,
+    "samples": 56
+  },
+  "SUN": {
+    "min": 58,
+    "median": 569,
+    "max": 798,
+    "samples": 46
+  },
+  "MEM": {
+    "min": 50,
+    "median": 328,
+    "max": 368,
+    "samples": 94
+  },
+  "KCI": {
+    "min": 50,
+    "median": 367,
+    "max": 367,
+    "samples": 94
+  },
+  "MID": {
+    "min": 52,
+    "median": 845,
+    "max": 1100,
+    "samples": 80
+  },
+  "CHS": {
+    "min": 50,
+    "median": 429,
+    "max": 429,
+    "samples": 134
+  },
+  "EYW": {
+    "min": 52,
+    "median": 529,
+    "max": 558,
+    "samples": 50
+  },
+  "MSY": {
+    "min": 53,
+    "median": 349,
+    "max": 536,
+    "samples": 72
+  },
+  "IGU": {
+    "min": 55,
+    "median": 1875,
+    "max": 2452,
+    "samples": 96
+  },
+  "RHO": {
+    "min": 1572,
+    "median": 1662,
+    "max": 1773,
     "samples": 36
   },
-  "BNE": {
-    "min": 1007,
-    "median": 1131,
-    "max": 1296,
+  "DENVER": {
+    "min": 50,
+    "median": 137,
+    "max": 194,
+    "samples": 150
+  },
+  "JAX": {
+    "min": 55,
+    "median": 357,
+    "max": 378,
+    "samples": 50
+  },
+  "BON": {
+    "min": 686,
+    "median": 914,
+    "max": 939,
+    "samples": 48
+  },
+  "AUA": {
+    "min": 50,
+    "median": 684,
+    "max": 729,
+    "samples": 80
+  },
+  "BTR": {
+    "min": 50,
+    "median": 599,
+    "max": 619,
+    "samples": 68
+  },
+  "IDH": {
+    "min": 216,
+    "median": 327,
+    "max": 341,
+    "samples": 108
+  },
+  "TPA": {
+    "min": 209,
+    "median": 237,
+    "max": 247,
+    "samples": 54
+  },
+  "ARK": {
+    "min": 50,
+    "median": 3096,
+    "max": 3653,
+    "samples": 40
+  },
+  "NRT": {
+    "min": 55,
+    "median": 1234,
+    "max": 1290,
+    "samples": 32
+  },
+  "DTW": {
+    "min": 53,
+    "median": 357,
+    "max": 579,
+    "samples": 118
+  },
+  "DFW": {
+    "min": 50,
+    "median": 395,
+    "max": 433,
+    "samples": 186
+  },
+  "YHM": {
+    "min": 50,
+    "median": 464,
+    "max": 749,
+    "samples": 34
+  },
+  "IAH": {
+    "min": 216,
+    "median": 327,
+    "max": 340,
+    "samples": 108
+  },
+  "CTM": {
+    "min": 1020,
+    "median": 2450,
+    "max": 2450,
+    "samples": 36
+  },
+  "HYA": {
+    "min": 50,
+    "median": 1196,
+    "max": 1221,
+    "samples": 68
+  },
+  "GVA": {
+    "min": 55,
+    "median": 992,
+    "max": 1047,
+    "samples": 70
+  },
+  "PNS": {
+    "min": 52,
+    "median": 483,
+    "max": 571,
+    "samples": 66
+  },
+  "TVC": {
+    "min": 59,
+    "median": 479,
+    "max": 562,
+    "samples": 50
+  },
+  "VCE": {
+    "min": 842,
+    "median": 962,
+    "max": 1046,
+    "samples": 54
+  },
+  "STS": {
+    "min": 50,
+    "median": 177,
+    "max": 262,
     "samples": 60
   },
-  "PWM": {
-    "min": 50,
-    "median": 1144,
-    "max": 1264,
-    "samples": 90
+  "SZX": {
+    "min": 1408,
+    "median": 1905,
+    "max": 2491,
+    "samples": 54
   },
-  "SBA": {
+  "ZRH": {
+    "min": 888,
+    "median": 1193,
+    "max": 1475,
+    "samples": 42
+  },
+  "JAC": {
+    "min": 439,
+    "median": 486,
+    "max": 549,
+    "samples": 48
+  },
+  "PVR": {
+    "min": 54,
+    "median": 466,
+    "max": 764,
+    "samples": 50
+  },
+  "DAB": {
+    "min": 54,
+    "median": 537,
+    "max": 537,
+    "samples": 44
+  },
+  "MLE": {
     "min": 50,
-    "median": 509,
-    "max": 712,
+    "median": 2054,
+    "max": 2448,
+    "samples": 64
+  },
+  "USH": {
+    "min": 2535,
+    "median": 2535,
+    "max": 2575,
+    "samples": 24
+  },
+  "DUB": {
+    "min": 55,
+    "median": 902,
+    "max": 949,
+    "samples": 62
+  },
+  "SXF": {
+    "min": 121,
+    "median": 161,
+    "max": 161,
+    "samples": 2
+  },
+  "DLH": {
+    "min": 388,
+    "median": 522,
+    "max": 600,
+    "samples": 18
+  },
+  "OMA": {
+    "min": 50,
+    "median": 382,
+    "max": 382,
+    "samples": 72
+  },
+  "RIC": {
+    "min": 53,
+    "median": 409,
+    "max": 543,
+    "samples": 156
+  },
+  "GRB": {
+    "min": 51,
+    "median": 559,
+    "max": 589,
+    "samples": 54
+  },
+  "INN": {
+    "min": 50,
+    "median": 1639,
+    "max": 1908,
     "samples": 46
+  },
+  "RTM": {
+    "min": 1632,
+    "median": 1893,
+    "max": 2040,
+    "samples": 24
+  },
+  "SBP": {
+    "min": 50,
+    "median": 379,
+    "max": 577,
+    "samples": 62
+  },
+  "JFK": {
+    "min": 50,
+    "median": 526,
+    "max": 687,
+    "samples": 216
   }
 }
